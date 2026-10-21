@@ -1,0 +1,18 @@
+# Arquivos originais do jogo
+/JOGO/
+
+# Emulador e seus dados
+/PCSX2/
+
+# Imagens de disco
+*.iso
+*.bin
+*.cue
+*.chd
+
+# Arquivos temporarios
+__pycache__/
+*.pyc
+.venv/
+build/
+temp/
