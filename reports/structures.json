@@ -1,0 +1,362 @@
+{
+  "DATA/S/S_PACK.SDA": {
+    "sda_nodes": [
+      {
+        "offset": 0,
+        "declared_size": 1179648,
+        "slot_size": 1179648,
+        "count": 7,
+        "offsets": [
+          2048,
+          217088,
+          575488,
+          737280,
+          1005568,
+          1155072,
+          1165312
+        ]
+      },
+      {
+        "offset": 2048,
+        "declared_size": 213104,
+        "slot_size": 215040,
+        "count": 5,
+        "offsets": [
+          32,
+          172704,
+          192864,
+          202992,
+          204240
+        ]
+      },
+      {
+        "offset": 217088,
+        "declared_size": 356912,
+        "slot_size": 358400,
+        "count": 22,
+        "offsets": [
+          112,
+          8304,
+          228784,
+          300832,
+          302432,
+          305056,
+          305232,
+          305552,
+          306032,
+          306256,
+          331168,
+          332464,
+          332848,
+          333568,
+          341520,
+          348016,
+          348304,
+          350128,
+          350432,
+          351440,
+          351568,
+          352256
+        ]
+      },
+      {
+        "offset": 575488,
+        "declared_size": 161280,
+        "slot_size": 161792,
+        "count": 8,
+        "offsets": [
+          48,
+          66624,
+          74896,
+          75488,
+          76080,
+          76672,
+          94096,
+          160672
+        ]
+      },
+      {
+        "offset": 737280,
+        "declared_size": 266848,
+        "slot_size": 268288,
+        "count": 6,
+        "offsets": [
+          48,
+          66624,
+          133200,
+          199776,
+          266352,
+          266384
+        ]
+      },
+      {
+        "offset": 1005568,
+        "declared_size": 148304,
+        "slot_size": 149504,
+        "count": 7,
+        "offsets": [
+          48,
+          80,
+          160,
+          208,
+          66784,
+          133360,
+          135488
+        ]
+      },
+      {
+        "offset": 1155072,
+        "declared_size": 8476,
+        "slot_size": 10240,
+        "count": 4,
+        "offsets": [
+          28,
+          2140,
+          4252,
+          6364
+        ]
+      },
+      {
+        "offset": 1165312,
+        "declared_size": 12352,
+        "slot_size": 14336,
+        "count": 3,
+        "offsets": [
+          32,
+          3776,
+          9616
+        ]
+      }
+    ]
+  },
+  "DATA/MAP/MAP.MCT": {
+    "sda_nodes": [
+      {
+        "offset": 0,
+        "declared_size": 730998784,
+        "slot_size": 730998784,
+        "count": 5,
+        "offsets": [
+          2048,
+          536625152,
+          539717632,
+          651319296,
+          730996736
+        ]
+      }
+    ],
+    "message_candidate_count": 6131,
+    "message_candidates_first_30": [
+      {
+        "offset": 70556,
+        "tag": "6d73676e",
+        "size": 176,
+        "text_offset": 70588,
+        "text_length": 125
+      },
+      {
+        "offset": 70772,
+        "tag": "6d73676e",
+        "size": 164,
+        "text_offset": 70804,
+        "text_length": 113
+      },
+      {
+        "offset": 70984,
+        "tag": "6d73676e",
+        "size": 192,
+        "text_offset": 71016,
+        "text_length": 140
+      },
+      {
+        "offset": 71436,
+        "tag": "6d73676e",
+        "size": 192,
+        "text_offset": 71468,
+        "text_length": 142
+      },
+      {
+        "offset": 71892,
+        "tag": "6d73676e",
+        "size": 100,
+        "text_offset": 71924,
+        "text_length": 50
+      },
+      {
+        "offset": 72456,
+        "tag": "6d73676e",
+        "size": 132,
+        "text_offset": 72488,
+        "text_length": 80
+      },
+      {
+        "offset": 75868,
+        "tag": "6d736700",
+        "size": 40,
+        "text_offset": 75900,
+        "text_length": 5
+      },
+      {
+        "offset": 82988,
+        "tag": "6d736700",
+        "size": 128,
+        "text_offset": 83020,
+        "text_length": 93
+      },
+      {
+        "offset": 83148,
+        "tag": "6d73676e",
+        "size": 128,
+        "text_offset": 83180,
+        "text_length": 78
+      },
+      {
+        "offset": 83292,
+        "tag": "6d736700",
+        "size": 64,
+        "text_offset": 83324,
+        "text_length": 28
+      },
+      {
+        "offset": 83388,
+        "tag": "6d73676e",
+        "size": 128,
+        "text_offset": 83420,
+        "text_length": 78
+      },
+      {
+        "offset": 83548,
+        "tag": "6d736700",
+        "size": 120,
+        "text_offset": 83580,
+        "text_length": 85
+      },
+      {
+        "offset": 83692,
+        "tag": "6d736700",
+        "size": 60,
+        "text_offset": 83724,
+        "text_length": 26
+      },
+      {
+        "offset": 5122588,
+        "tag": "6d736700",
+        "size": 76,
+        "text_offset": 5122620,
+        "text_length": 42
+      },
+      {
+        "offset": 5122664,
+        "tag": "6d736700",
+        "size": 292,
+        "text_offset": 5122696,
+        "text_length": 256
+      },
+      {
+        "offset": 5123076,
+        "tag": "6d736700",
+        "size": 96,
+        "text_offset": 5123108,
+        "text_length": 61
+      },
+      {
+        "offset": 5123196,
+        "tag": "6d736700",
+        "size": 72,
+        "text_offset": 5123228,
+        "text_length": 36
+      },
+      {
+        "offset": 5123268,
+        "tag": "6d736700",
+        "size": 112,
+        "text_offset": 5123300,
+        "text_length": 76
+      },
+      {
+        "offset": 5123500,
+        "tag": "6d736700",
+        "size": 88,
+        "text_offset": 5123532,
+        "text_length": 54
+      },
+      {
+        "offset": 5123612,
+        "tag": "6d736700",
+        "size": 72,
+        "text_offset": 5123644,
+        "text_length": 36
+      },
+      {
+        "offset": 5123684,
+        "tag": "6d736700",
+        "size": 120,
+        "text_offset": 5123716,
+        "text_length": 87
+      },
+      {
+        "offset": 5123924,
+        "tag": "6d736700",
+        "size": 88,
+        "text_offset": 5123956,
+        "text_length": 54
+      },
+      {
+        "offset": 5124044,
+        "tag": "6d736700",
+        "size": 80,
+        "text_offset": 5124076,
+        "text_length": 47
+      },
+      {
+        "offset": 5124124,
+        "tag": "6d736700",
+        "size": 436,
+        "text_offset": 5124156,
+        "text_length": 402
+      },
+      {
+        "offset": 5124680,
+        "tag": "6d736700",
+        "size": 124,
+        "text_offset": 5124712,
+        "text_length": 88
+      },
+      {
+        "offset": 5124948,
+        "tag": "6d736700",
+        "size": 80,
+        "text_offset": 5124980,
+        "text_length": 46
+      },
+      {
+        "offset": 5125028,
+        "tag": "6d73676e",
+        "size": 212,
+        "text_offset": 5125060,
+        "text_length": 163
+      },
+      {
+        "offset": 5126120,
+        "tag": "6d73676e",
+        "size": 76,
+        "text_offset": 5126152,
+        "text_length": 36
+      },
+      {
+        "offset": 5126328,
+        "tag": "6d73676e",
+        "size": 312,
+        "text_offset": 5126360,
+        "text_length": 272
+      },
+      {
+        "offset": 5126640,
+        "tag": "6d73676e",
+        "size": 76,
+        "text_offset": 5126672,
+        "text_length": 30
+      }
+    ]
+  }
+}

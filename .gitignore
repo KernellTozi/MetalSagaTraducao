@@ -16,3 +16,8 @@ __pycache__/
 .venv/
 build/
 temp/
+
+# Experimentos, extrações editáveis e imagens modificadas
+/work/
+/dist/
+*.log

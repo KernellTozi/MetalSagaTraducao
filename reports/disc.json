@@ -1,0 +1,408 @@
+[
+  {
+    "path": "DATA/ADATA/ATTLSCN.LDT",
+    "lba": 366,
+    "size": 4108,
+    "sha256": "91b9dd5ba84d47496d81bf2b5c9c20e758d395a770c01eeb8b6634e48ee4adf3",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/ADATA/ATTLTEX.SDA",
+    "lba": 369,
+    "size": 526400,
+    "sha256": "6d1a604833960eaf9e3b20374643c349c837e14a1b48e20843fad6bf94be89bc",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/COMMON/EFMOT.SDA",
+    "lba": 627,
+    "size": 3616,
+    "sha256": "b68773b0622690c6c57f4dff1df472745500495a3ae54a4b53d7da88492a51e8",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/COMMON/NCOMLI.SDA",
+    "lba": 629,
+    "size": 26624,
+    "sha256": "5c95294b2538f85f281df34cef195d3be4b2ea2ac80c1e290f2b18c9eda7ffc0",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/COMMON/VIB.SDA",
+    "lba": 642,
+    "size": 1424,
+    "sha256": "a9e51841bffbb21ba33e98b01d8f08db547ba236af5c4957d29cfc992c705000",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/DIARY.DAT",
+    "lba": 643,
+    "size": 11252,
+    "sha256": "9dcd179dc289aa558d5046884cfcb603925f7f605d7c5a871cf75939d785b86b",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/FBS_DATA.SDA",
+    "lba": 649,
+    "size": 366224,
+    "sha256": "5b53111e7e3ee309f813c6cf3284277774f3c5d0aa2b0d6b53b39fed4884c470",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/FD_END.SDA",
+    "lba": 828,
+    "size": 206848,
+    "sha256": "042ef8803c1832063d45bf90f1c163c559ad716cfb134007e08cc59d0e06459b",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/FD_POST.SDA",
+    "lba": 929,
+    "size": 1011344,
+    "sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/FNAME_DT.SDA",
+    "lba": 1423,
+    "size": 558272,
+    "sha256": "2b009179ceaa08f0f048997abb606da354773ec9a0f8802a27a30741de667d24",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/FNP_VIEW.SDA",
+    "lba": 1696,
+    "size": 133376,
+    "sha256": "07092f4b75f88d9c2470d5aa6bc6472b3a8e6824965fa6036bf8c4f4ac87ee81",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/F_COMMON.SDA",
+    "lba": 1762,
+    "size": 171936,
+    "sha256": "4b2762a8444c8d609cfeed96c3854d45c04f18a68187a769a9f29cf84680973f",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/F_PCDKF.SDA",
+    "lba": 1846,
+    "size": 41460992,
+    "sha256": "7d7e3665e52cdb9c6f3543508d52b152f6810cc0f756d3ab04bd77a35b2aa4d7",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/F_SPEND.SDA",
+    "lba": 22091,
+    "size": 821280,
+    "sha256": "c5024c37d4a69492ce893e659b351a65817dd099928d4d8d8ebd73935e511cb7",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/FDATA/PASSWORD.SDA",
+    "lba": 22493,
+    "size": 466624,
+    "sha256": "e519149acbcd1ed75f188cd3559e02fd4c47bfec211b04852a37b763a5e83e11",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/BTITEM.DAT",
+    "lba": 22721,
+    "size": 43328,
+    "sha256": "81189d54f86692c7d2b46ee90d11db4118c67338859e8800923e13e609010534",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/CAPSULE.SDA",
+    "lba": 22743,
+    "size": 142688,
+    "sha256": "b5b25ec3144cc71228ce9ba6cd0bf86260364877c685153ce55e41d961f9372b",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/FM.SDA",
+    "lba": 22813,
+    "size": 862208,
+    "sha256": "ef5d4426210d8b9932ad4bacde1e7d53d0ea1bf96f231568bb78671fed7b8612",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/HMAPAC.SDA",
+    "lba": 23234,
+    "size": 129792,
+    "sha256": "c7236213c9e848514e3336bdf9d54b8813e6fde143efcaae4add7ea5d79fd59d",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/HSKYD.SDA",
+    "lba": 23298,
+    "size": 504656,
+    "sha256": "2fb807e8c52d768d37421cd8afc8d2614bde20293656d4a4dfda6d568ed07360",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/HWEAPON.DAT",
+    "lba": 23545,
+    "size": 3248128,
+    "sha256": "2a3e01cc44951e8693cd94270fb278533e7869c7cc468f673a15cf4e98d05ea9",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/INTERIOR.SDA",
+    "lba": 25131,
+    "size": 2307280,
+    "sha256": "6eddba11069bc095f4183afe6eb35c219c7e735aeb79f2b8418846b2ff96dc25",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/MAP.MCT",
+    "lba": 26258,
+    "size": 730998784,
+    "sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/MAP_PT.PTD",
+    "lba": 383191,
+    "size": 219456,
+    "sha256": "93e675e20066006ffa39d2edaee43c1e39f8cf212b7c88e6672cbbbbe00da9e7",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/PLIST.DAT",
+    "lba": 383299,
+    "size": 5189632,
+    "sha256": "ca5bf48bda43b39ea345f85c473bd2da7510f7e27ff97f020239c2b03e3f13f7",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MAP/SHIP.SDA",
+    "lba": 385833,
+    "size": 158752,
+    "sha256": "ce843837b2e2eaac0a8766b9ba0843d265d3790b31745f08c4571ca83a0e242b",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MMBATTLE/CAMERA.DAT",
+    "lba": 385911,
+    "size": 19072,
+    "sha256": "8acfcf6ed1eab5d7aa7e8d6710543629134ecb07ce94c1514faab670f5a62dc9",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MMBATTLE/MMBATTLE.BIN",
+    "lba": 385921,
+    "size": 321731584,
+    "sha256": "1ee18ce5d9cfb4c2de9fe5b03f2b4bf398b203f5184f43920bd7f54bf0fe1d10",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MMBATTLE/MMEFFECT.BIN",
+    "lba": 543017,
+    "size": 1888256,
+    "sha256": "3c55ac6e695ec82f92c3fff12842cf68f5ccfb1abaec324b891cf547be898a14",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/MOVIE/DEMO.STM",
+    "lba": 543939,
+    "size": 95670704,
+    "sha256": "c9bc03b0a0244b9169c4a1a664e69340e7d1e944cf0dea1e09783163035ee4b2",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/NDATA/LISD.BIN",
+    "lba": 590654,
+    "size": 139,
+    "sha256": "007ddeef81b14831db37c317c8b9e99b68c443006ac6fa0c662f7eacc14474b8",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/NDATA/LISF.BIN",
+    "lba": 590655,
+    "size": 1160,
+    "sha256": "64c69709dd75ca2fbc42cf397d76b3f3e828ad7caf44d0042f999da95e1520c5",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/NDATA/NDATA.SDA",
+    "lba": 590656,
+    "size": 20957184,
+    "sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RLOADING.SDA",
+    "lba": 600889,
+    "size": 6464,
+    "sha256": "dacbc7aaa7f0634a3625c7d4333ef25fa8ba6d61435a9a9046dc80faa6b3452f",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RMGALAN.SDA",
+    "lba": 600893,
+    "size": 3727888,
+    "sha256": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RMGDANCE.SDA",
+    "lba": 602714,
+    "size": 2286976,
+    "sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RMGDOG.SDA",
+    "lba": 603831,
+    "size": 522336,
+    "sha256": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RMGKAERU.SDA",
+    "lba": 604087,
+    "size": 2106944,
+    "sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RMGTANK.SDA",
+    "lba": 605116,
+    "size": 1799648,
+    "sha256": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/RDATA/RTITLE.SDA",
+    "lba": 605995,
+    "size": 66720,
+    "sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/BBOOT.DAT",
+    "lba": 606028,
+    "size": 1424,
+    "sha256": "39dd9a1c1696f4c1aa277766e7b88787e39f81ec938c0409bf7cbceaa323da3f",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/S_DICT.SDA",
+    "lba": 606029,
+    "size": 48240640,
+    "sha256": "27764341efef1e64634d7f98bdd94492837e2d31f42d2dcdd2fc4e53672b469a",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/S_EMOT.SDA",
+    "lba": 629584,
+    "size": 649216,
+    "sha256": "f7e5851b7dbb08edcbd249f260d153e5695444a6016e5a96f505788929a20548",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/S_PACK.SDA",
+    "lba": 629901,
+    "size": 1179648,
+    "sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/S_PAINT.SDA",
+    "lba": 630477,
+    "size": 723776,
+    "sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/S_PSMP.SDA",
+    "lba": 630831,
+    "size": 10936320,
+    "sha256": "8c35579c5e3ebdd6d3002f0291e4b2fb85253db0b7916e3238a65d0d2f3b5951",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/S/S_SHOPBG.SDA",
+    "lba": 636171,
+    "size": 143440,
+    "sha256": "3a49639a372e429e7c1fb2b0a25222566b716c4509b438d1eff4ff811d1fd68a",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/SOUND/BGM.SDA",
+    "lba": 636242,
+    "size": 358459392,
+    "sha256": "88909844c5043728e51cc16d5ab992aae2be55b7b268d9e50952f6a976cb71db",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/SOUND/MMSE.SDA",
+    "lba": 811271,
+    "size": 16143232,
+    "sha256": "b27d3bc2f81f9365b4beb05b260177d6e3fd65d0431cc1df7d11cde042ee6725",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/SYS/SUC20I22.GFI",
+    "lba": 819154,
+    "size": 874126,
+    "sha256": "5108d271e583bc0e92a2577d4c001b160c0fcfcd0c480dc373594880190ec17c",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/SYS/SUC24I26.GFI",
+    "lba": 819581,
+    "size": 1220590,
+    "sha256": "7b47940643d8022ec7b48660559cb0df874366638b1ba09687f22cb71294c345",
+    "extracted_matches": true
+  },
+  {
+    "path": "DATA/TANK/TANK.DAT",
+    "lba": 820177,
+    "size": 20899584,
+    "sha256": "4528620f1db5f95ef5aa31a55cf0d56b1c43183ca59a31997551af05d95eeae0",
+    "extracted_matches": true
+  },
+  {
+    "path": "MODULE/ATAD.IRX",
+    "lba": 830382,
+    "size": 12085,
+    "sha256": "25dfca853ee6208b64133dd4e8b03dde9ad5511d544d4944931ebf8f1353a8fc",
+    "extracted_matches": true
+  },
+  {
+    "path": "MODULE/DEV9.IRX",
+    "lba": 830388,
+    "size": 14309,
+    "sha256": "f09e542bf8e5fe6eca07ffad170029001246ed0bf838de4a427f414debeb3073",
+    "extracted_matches": true
+  },
+  {
+    "path": "MODULE/IOPRP300.IMG",
+    "lba": 830395,
+    "size": 278305,
+    "sha256": "8e11fc76bbdd5770a47a56549d861c0caebc9f9190a1cf936990dcff9e5a86c5",
+    "extracted_matches": true
+  },
+  {
+    "path": "MODULE/USBMOUSE.IRX",
+    "lba": 830531,
+    "size": 7720,
+    "sha256": "8a7a1053c54aa4149b284f215f87f6c25e05e530569222cf6ae29c64bbf623f9",
+    "extracted_matches": true
+  },
+  {
+    "path": "SLUS_212.93",
+    "lba": 830535,
+    "size": 3487572,
+    "sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "extracted_matches": true
+  },
+  {
+    "path": "SYSTEM.CNF",
+    "lba": 832238,
+    "size": 80,
+    "sha256": "a95a7b5e5ce69115f661ea2e47fc078b2c2336c15ba8d0c40f4381657a650e88",
+    "extracted_matches": true
+  }
+]
