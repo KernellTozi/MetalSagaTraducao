@@ -7,7 +7,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -140,7 +140,7 @@ class PilotTests(unittest.TestCase):
     def test_v006_preserves_v005_and_defers_opaque_item_name(self):
         parent,_=load_draft(REGION_V5_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V6_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(384,60,0))
@@ -150,6 +150,22 @@ class PilotTests(unittest.TestCase):
         self.assertIn('map.msg.1df6435c',draft['deferred'])
         self.assertNotIn('map.msg.1df6435c',{p['id'] for p in patches})
         self.assertEqual(len(sources),6)
+
+    def test_v007_preserves_v006_and_named_labels(self):
+        parent,_=load_draft(REGION_V6_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(442,69,0))
+        self.assertEqual(current['entries'][:444],old['entries'])
+        self.assertEqual(len(current['entries']),511)
+        self.assertEqual(len(report['deferred']),14)
+        for entry in current['entries'][444:]:
+            for segment in entry['segments']:
+                if not segment['editable']:
+                    self.assertEqual(segment['translation'],segment['source'])
+        self.assertEqual(len(sources),7)
 
     def test_duplicate_authored_keys_are_not_silently_overwritten(self):
         raw=b'{"schema":1,"translations":{"same.id":"first","same.id":"second"}}'
