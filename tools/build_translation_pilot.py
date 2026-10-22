@@ -14,7 +14,7 @@ import sys
 import copy
 from datetime import datetime
 
-from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,descriptor,source_hash,compile_batch,local
+from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,NAMED_POLICY,descriptor,source_hash,compile_batch,local
 from dialogue_advanced import SsdIndex,LAYOUTS
 from dialogue_formats import tokens
 from gfi import Gfi,encode,decode
@@ -44,7 +44,8 @@ REGION_V18_DRAFT=ROOT/'translations/regiao-inicial-v018.json'
 REGION_V19_DRAFT=ROOT/'translations/regiao-inicial-v019.json'
 REGION_V20_DRAFT=ROOT/'translations/regiao-inicial-v020.json'
 REGION_V21_DRAFT=ROOT/'translations/regiao-inicial-v021.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v022.json'
+REGION_V22_DRAFT=ROOT/'translations/regiao-inicial-v022.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v023.json'
 
 
 def unique_object(pairs):
@@ -86,13 +87,16 @@ def load_draft(path,chain=()):
 def compile_draft(data,draft):
     if draft.get('schema')!=1 or draft.get('font_profile')!=PROFILE:
         raise ValueError('Unsupported pilot schema/font profile')
+    policy=draft.get('reinsertion_policy',POLICY)
+    if policy not in (POLICY,NAMED_POLICY):raise ValueError('Unknown reinsertion policy')
+    named_choices=policy==NAMED_POLICY
     targets=copy.deepcopy(draft['translations']);deferred=draft.get('deferred',{})
     if not isinstance(targets,dict) or not targets:raise ValueError('Empty draft')
     index=SsdIndex(data);selected=[]
     lo=int(draft['scope']['first_offset'],16);hi=int(draft['scope']['last_offset'],16)
     for at in sorted(index.records):
         if lo<=at<=hi and bytes(data[at:at+4]) in set(LAYOUTS)|{b'msg\0',b'msgn'}:
-            selected.append(descriptor(data,at,index))
+            selected.append(descriptor(data,at,index,named_choices=named_choices))
     by_id={e['id']:e for e in selected}
     aliases=dict(draft.get('aliases',{}))
     while aliases:
@@ -130,13 +134,13 @@ def compile_draft(data,draft):
                 if segment['translation']!=segment['source']:
                     terminology.extend({'id':entry['id'],'segment':segment['key'],'reason':reason}
                                        for reason in validate(segment['source'],segment['translation']))
-    document={'schema':1,'policy':POLICY,'resource':RESOURCE,'source_sha256':source_hash(data),
+    document={'schema':1,'policy':policy,'resource':RESOURCE,'source_sha256':source_hash(data),
               'catalog_version':'v003','entries':selected}
     patches,report=compile_batch(data,document,index)
     # Read back actual translated spans independently; the existing compiler
     # validates headers, controls, lengths and structural shadow parsers.
     for patch in patches:
-        entry=next(e for e in selected if e['id']==patch['id'])
+        entry=by_id[patch['id']]
         for segment in entry['segments']:
             start=segment['offset']-entry['offset']
             target=patch['after'][start:].split(b'\0',1)[0]

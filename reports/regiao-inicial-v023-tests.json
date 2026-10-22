@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "full_run": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 133,
+    "passed": 132,
+    "errors": 1,
+    "duration_seconds": 448.905,
+    "error": "New regression test read resume_deferred from loaded draft after loader consumed it"
+  },
+  "correction": "Read explicit resume_deferred IDs from original child JSON; compiler unchanged",
+  "targeted_rerun": {
+    "command": "python -m unittest discover -s tests -p test_translation_pilot.py -k test_v023_named_slots_preserve_parent_and_all_metadata -v",
+    "tests": 1,
+    "passed": 1,
+    "duration_seconds": 39.691
+  },
+  "unique_tests_passing_after_correction": 133,
+  "pcsx2_executed": false
+}

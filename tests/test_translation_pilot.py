@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,REGION_V21_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,REGION_V21_DRAFT,REGION_V22_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -583,7 +583,7 @@ class PilotTests(unittest.TestCase):
     def test_v022_changes_only_reviewed_generic_titles(self):
         parent,_=load_draft(REGION_V21_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V22_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5667,1564,0))
@@ -608,6 +608,45 @@ class PilotTests(unittest.TestCase):
             self.assertEqual(restored,before)
         self.assertEqual(changed,expected)
         self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+
+    def test_v023_named_slots_preserve_parent_and_all_metadata(self):
+        parent,_=load_draft(REGION_V22_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'],report.get('terminology_issues'))
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5758,1473,0))
+        self.assertEqual(len(sources),23)
+        self.assertEqual(len(report['deferred']),258)
+        resumed=set(json.loads(DEFAULT_DRAFT.read_text(encoding='utf-8'))['resume_deferred'])
+        self.assertEqual(len(resumed),91)
+        changed=set();metadata_changed=set()
+        for before,after in zip(old['entries'],current['entries'],strict=True):
+            restored=copy.deepcopy(after)
+            if restored['blocked_reasons']!=before['blocked_reasons']:
+                metadata_changed.add(after['id'])
+            restored['blocked_reasons']=before['blocked_reasons']
+            for a,b in zip(before['segments'],restored['segments'],strict=True):
+                if a['translation']!=b['translation']:
+                    changed.add(after['id'])
+                    self.assertIn(b['key'],('body','choices'))
+                    b['translation']=a['translation']
+            self.assertEqual(restored,before)
+        self.assertEqual(changed,resumed)
+        self.assertEqual(len(metadata_changed),112)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        entries={e['id']:e for e in current['entries']}
+        for patch in patches:
+            if patch['id'] not in resumed:continue
+            entry=entries[patch['id']]
+            self.assertEqual(entry['mode'],'slots')
+            label=entry['segments'][2]
+            self.assertEqual(label['source'],label['translation'])
+            offset=label['offset']-entry['offset']
+            self.assertEqual(patch['before'][offset:],patch['after'][offset:])
+            self.assertEqual(len(patch['before']),len(patch['after']))
+        self.assertEqual(report['named_choice_evidence']['instruction_assertions'],22)
+        self.assertTrue(report['named_choice_evidence']['named_slots_only'])
 
     def test_prepare_rejects_ambiguous_or_shrinking_boundaries(self):
         from prepare_translation_lot import prepare

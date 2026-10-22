@@ -12,6 +12,7 @@ from gfi import encode, decode, CHAR_TO_BYTES, BYTES_TO_CHAR
 RESOURCE='DATA/MAP/MAP.MCT'
 SOURCE=ROOT/'JOGO/Metal Saga'/RESOURCE
 POLICY='fixed-record-segment-slots-or-proven-repack-v004'
+NAMED_POLICY='fixed-record-named-choice-slots-v005'
 REPACK={b'msgn',b'smsg',b'2smg'}
 COPY_LIMITS={b'MC\0\0':31,b'SP\0\0':31,b'ST\0\0':31}
 
@@ -23,7 +24,7 @@ def local(path, new=False):
     return path
 
 
-def descriptor(data,at,index):
+def descriptor(data,at,index,*,named_choices=False):
     if at not in index.records:raise ValueError('Offset não é uma instrução SSD comprovada')
     tag=bytes(data[at:at+4]); segments=[]; blocked=[]
     if tag in (b'msg\0',b'msgn'):
@@ -37,7 +38,8 @@ def descriptor(data,at,index):
     elif tag in LAYOUTS:
         _,item=parse_advanced(data,at);header=item['header_size'];fields=[]
         count=len(item['segments'])
-        if count==3:blocked.append('Papel da terceira string ainda não liberado para edição')
+        if count==3 and not (named_choices and tag in (b'smnn',b'2snm')):
+            blocked.append('Papel da terceira string ainda não liberado para edição')
         for s in item['segments']:
             key='choices' if tag in (b'sel\0',b'2sel') or count>1 and s['number']==1 else 'label' if s['number']==2 else 'body'
             fields.append((key,s['source'],bytes.fromhex(s['original_text_hex']),s['text_offset'],
@@ -140,6 +142,11 @@ def compile_entry(data,entry,old):
     if len(output)>old['size']:raise ValueError('Payload expandido excede o registro; realocação externa bloqueada')
     output.extend(bytes(old['size']-len(output)))
     at=old['offset'];before=bytes(data[at:at+old['size']])
+    if bytes.fromhex(old['tag']) in (b'smnn',b'2snm'):
+        label=old['segments'][2]
+        label_start=label['offset']-at
+        if output[label_start:]!=before[label_start:]:
+            raise ValueError('Rótulo e padding de escolha nomeada alterados')
     if len(output)!=len(before) or output[:len(bytes.fromhex(old['header_hex']))]!=bytes.fromhex(old['header_hex']):
         raise ValueError('Tamanho/cabeçalho do registro alterado')
     # Reparse structure at identical byte positions. Reserved PT-BR pairs are
@@ -173,8 +180,12 @@ def compile_batch(data,document,index=None,verify_source=True):
     if not isinstance(document,dict) or not isinstance(document.get('entries'),list):raise ValueError('Formato de lote inválido')
     if any(not isinstance(e,dict) or not isinstance(e.get('segments'),list) or any(not isinstance(s,dict) for s in e['segments']) for e in document['entries']):
         raise ValueError('Estrutura de registros/segmentos inválida')
-    if document.get('schema')!=1 or document.get('policy')!=POLICY or document.get('resource')!=RESOURCE:
+    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY) or document.get('resource')!=RESOURCE:
         raise ValueError('Schema/política incompatível')
+    named_choices=document['policy']==NAMED_POLICY
+    if named_choices:
+        from investigate_named_choices import verify_elf,ORIGINAL_SHA
+        evidence=verify_elf((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
     actual=source_hash(data) if verify_source else sha(data)
     if document.get('source_sha256')!=actual:raise ValueError('Hash de origem do lote incorreto')
     index=index or SsdIndex(data);results=[];patches=[];seen=set()
@@ -182,7 +193,7 @@ def compile_batch(data,document,index=None,verify_source=True):
         try:
             at=entry['offset']
             if at in seen:raise ValueError('ID/offset duplicado no lote')
-            seen.add(at);old=descriptor(data,at,index)
+            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices)
             patch,result=compile_entry(data,entry,old)
             results.append(result)
             if patch:patches.append(patch)
@@ -192,13 +203,16 @@ def compile_batch(data,document,index=None,verify_source=True):
     patches.sort(key=lambda p:p['offset'])
     if any(a['offset']+len(a['before'])>b['offset'] for a,b in zip(patches,patches[1:])):
         raise ValueError('Patches sobrepostos')
-    report={'schema':1,'policy':POLICY,'valid':valid,'transaction':'all-or-nothing',
+    report={'schema':1,'policy':document['policy'],'valid':valid,'transaction':'all-or-nothing',
             'accepted':sum(r['status']=='accepted' for r in results),
             'refused':sum(r['status']=='refused' for r in results),
             'unchanged':sum(r['status']=='unchanged' for r in results),'results':results,
             'requires_ptbr_fonts':any(isinstance(s.get('translation'),str) and any(c in CHAR_TO_BYTES for c in s['translation']) for e in document['entries'] for s in e.get('segments',[]) if s.get('translation')!=s.get('source')),
             'source_sha256':actual,'ssd_boundaries_unchanged':True,
             'record_relocation':False,'pixel_metrics_verified':False}
+    if named_choices:
+        report['named_choice_evidence']={'elf_sha256':ORIGINAL_SHA,'instruction_assertions':len(evidence),
+            'named_slots_only':True,'label_and_tail_immutable':True,'runtime_visual_status':'pending_manual_validation'}
     return (patches if valid else []),report
 
 

@@ -67,3 +67,7 @@ Para os controles opacos, a triagem atual aponta `%B$15` em 35 registros e
 `%$1` em 32, além de outras sintaxes. Essas são contagens de spans do parser;
 não comprovam substituição de nomes, preços ou limites dos buffers do motor.
 A gramática completa e os efeitos precisam ser rastreados antes de editar.
+
+## Aplicação posterior
+
+O relatório v001 preserva o estado histórico de investigação somente leitura. A [política v005](reinsercao-v005.md) usa essas evidências com nova verificação do ELF a cada compilação e testes próprios. O lote v023 retoma 91 registros; 21 escolhas nomeadas com controles opacos permanecem bloqueadas.

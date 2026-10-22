@@ -281,3 +281,7 @@ journals e ISOs permanecem locais e ignorados pelo Git.
 Próximo passo: validação visual das três alterações; depois, amostragem de repack
 e avanço dos controles dinâmicos. Expansão entre registros exige investigação
 das referências externas antes de qualquer reconstrução de blocos.
+
+## Extensão posterior opt-in
+
+A política v004 acima permanece disponível e conservadora. A [v005](reinsercao-v005.md) acrescenta slots fixos para escolhas nomeadas; não habilita repack, controles opacos nem bytes nativos.

@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v022.json",
+  "name": "regiao-inicial-v023",
+  "status": "escolhas nomeadas; validação visual pendente",
+  "reinsertion_policy": "fixed-record-named-choice-slots-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v023.iso",
+  "resume_deferred": [
+    "map.2snm.004e8420",
+    "map.2snm.004e8518",
+    "map.smnn.01df72bc",
+    "map.smnn.01df7398",
+    "map.smnn.04d33388",
+    "map.2snm.057cdcd4",
+    "map.smnn.057d5914",
+    "map.smnn.057d5f9c",
+    "map.smnn.057d6380",
+    "map.smnn.057d70f4",
+    "map.smnn.057d80a8",
+    "map.smnn.0653c31c",
+    "map.smnn.08541288",
+    "map.2snm.0a6112f4",
+    "map.smnn.0a611bdc",
+    "map.smnn.0a6148b4",
+    "map.smnn.0a614a78",
+    "map.2snm.0af87ab4",
+    "map.smnn.0af8839c",
+    "map.smnn.0af8a894",
+    "map.smnn.0af8aa58",
+    "map.2snm.0be07604",
+    "map.smnn.0be1c7bc",
+    "map.smnn.0be226d4",
+    "map.smnn.0be231a4",
+    "map.smnn.0be23a80",
+    "map.smnn.0be243cc",
+    "map.smnn.0be244ec",
+    "map.2snm.0db0bd24",
+    "map.smnn.0db0e394",
+    "map.smnn.0db13a20",
+    "map.smnn.0db14214",
+    "map.smnn.0db15074",
+    "map.smnn.0db15404",
+    "map.2snm.0e767894",
+    "map.smnn.0e76c6ec",
+    "map.smnn.0e76ca2c",
+    "map.smnn.0e76e4bc",
+    "map.smnn.0e76e834",
+    "map.smnn.0e76fad4",
+    "map.smnn.0e7775d4",
+    "map.smnn.0e77ae40",
+    "map.smnn.0e77bfd4",
+    "map.2snm.0f831504",
+    "map.smnn.0f838a4c",
+    "map.2snm.1033b264",
+    "map.smnn.1033d2f0",
+    "map.smnn.10340a50",
+    "map.smnn.128246f8",
+    "map.smnn.128250bc",
+    "map.2snm.12829594",
+    "map.smnn.1282e0a4",
+    "map.smnn.1282ea24",
+    "map.smnn.1371c168",
+    "map.smnn.1371d6b4",
+    "map.smnn.1371e068",
+    "map.2snm.14aa27f4",
+    "map.smnn.14aadf88",
+    "map.smnn.14aae28c",
+    "map.smnn.169b6bec",
+    "map.smnn.169b6d8c",
+    "map.smnn.169bb498",
+    "map.smnn.169bcc2c",
+    "map.smnn.176a6b14",
+    "map.smnn.176aa44c",
+    "map.2snm.1773ef14",
+    "map.smnn.177436bc",
+    "map.smnn.1774c200",
+    "map.smnn.19f54dcc",
+    "map.smnn.19f552ac",
+    "map.smnn.19f5578c",
+    "map.smnn.19f55bec",
+    "map.smnn.19f56138",
+    "map.smnn.19f56548",
+    "map.smnn.19f56958",
+    "map.smnn.19f56d68",
+    "map.2snm.1d0b4464",
+    "map.smnn.1d0ba9f0",
+    "map.smnn.1d0bb234",
+    "map.smnn.1d0bb2ec",
+    "map.smnn.1d0bb470",
+    "map.2snm.1df47024",
+    "map.smnn.1df47754",
+    "map.smnn.1df49f00",
+    "map.smnn.1df674f0",
+    "map.smnn.1df68898",
+    "map.smnn.1df69d28",
+    "map.smnn.1df78f48",
+    "map.smnn.1df7ac40",
+    "map.smnn.1f3296e4",
+    "map.smnn.1f32d01c"
+  ],
+  "translations": {
+    "map.2snm.004e8420": {
+      "body": "Cancelar protocolos?",
+      "choices": "Sim!\tVou esperar."
+    },
+    "map.2snm.004e8518": {
+      "body": "Reiniciar processo?",
+      "choices": "Claro.\tNão."
+    },
+    "map.smnn.01df72bc": {
+      "body": "Centro de Memória.\nSalvar o jogo?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.01df7398": {
+      "body": "...Pronto, terminou.\nContinuar jogando?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.04d33388": {
+      "body": "...Não é um deles?",
+      "choices": "Um de quem?\tSou, sim!"
+    },
+    "map.2snm.057cdcd4": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico 1.\tQuarto econômico 2.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.057d5914": {
+      "body": "Ah, é Hunter.\nVeio procurar\ntesouros?",
+      "choices": "Tesouro é comigo.\tNão tenho interesse."
+    },
+    "map.smnn.057d5f9c": {
+      "body": "Quer me perguntar\nalguma coisa?",
+      "choices": "O que anda fazendo, meu bem?\tOnde esteve a minha vida toda?"
+    },
+    "map.smnn.057d6380": {
+      "body": "Achou alguma\ncoisa boa?",
+      "choices": "Pode apostar!\tDo que está falando?"
+    },
+    "map.smnn.057d70f4": {
+      "body": "Ah, quer me\nperguntar algo?",
+      "choices": "Com o que trabalha?\tEsse rebolado vem com fritas?"
+    },
+    "map.smnn.057d80a8": {
+      "body": "Ei, está ganhando\ndinheiro?",
+      "choices": "Grana não falta.\tSou um Hunter sem um tostão."
+    },
+    "map.smnn.0653c31c": {
+      "body": "GRRRrrrraaaargh!!",
+      "choices": "Acariciar.\tCutucar."
+    },
+    "map.smnn.08541288": {
+      "body": "...Ei, pare de\ntagarelar! Tem fogo...?",
+      "choices": "Dar fogo a ele.\tSer um baita otário."
+    },
+    "map.2snm.0a6112f4": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum 1.\tQuarto comum 2.\tNão, valeu."
+    },
+    "map.smnn.0a611bdc": {
+      "body": "Tem certeza disso,\ngaroto?\tPagar uma rodada é pedir\npara todos a bebida mais\ncara do cardápio!",
+      "choices": "Só se vive uma vez!\tTalvez tenha razão..."
+    },
+    "map.smnn.0a6148b4": {
+      "body": "O que foi, rapaz?",
+      "choices": "Nada.\tComo ganhar dinheiro?\tCara, que músculos!"
+    },
+    "map.smnn.0a614a78": {
+      "body": "Quer tocar o músculo?",
+      "choices": "Tocar o peito.\tTocar o abdômen.\tTocar a coxa.\tRecusar com tato."
+    },
+    "map.2snm.0af87ab4": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum 1.\tQuarto comum 2.\tNão, valeu."
+    },
+    "map.smnn.0af8839c": {
+      "body": "Tem certeza disso,\ngaroto?\tPagar uma rodada é pedir\npara todos a bebida mais\ncara do cardápio!",
+      "choices": "Só se vive uma vez!\tTalvez tenha razão..."
+    },
+    "map.smnn.0af8a894": {
+      "body": "O que foi, rapaz?",
+      "choices": "Nada.\tComo ganhar dinheiro?\tCara, que músculos!"
+    },
+    "map.smnn.0af8aa58": {
+      "body": "Quer tocar o músculo?",
+      "choices": "Tocar o peito.\tTocar o abdômen.\tTocar a coxa.\tRecusar com tato."
+    },
+    "map.2snm.0be07604": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.0be1c7bc": {
+      "body": "E você, garoto?\nEstá do lado deles?",
+      "choices": "Estou!\nNão."
+    },
+    "map.smnn.0be226d4": {
+      "body": "Como posso ajudar,\njovem?",
+      "choices": "......\tFale sobre a região.\tQuais as últimas notícias?"
+    },
+    "map.smnn.0be231a4": {
+      "body": "Tem alguém\nna mansão?",
+      "choices": "Yeah, tem gente lá.\tNão, não tem ninguém."
+    },
+    "map.smnn.0be23a80": {
+      "body": "Bem-vindo. Sou o\naprendiz de mecânico.\tCuido da inspeção\ndo veículo quando\nvem para revisão.\tMas o que quero\nmesmo é trabalhar\ncom motores.",
+      "choices": "Como vai a inspeção?\tComo está meu motor?"
+    },
+    "map.smnn.0be243cc": {
+      "body": "Como vai tudo?",
+      "choices": "Bem. Muito bem.\tMal. Muito mal."
+    },
+    "map.smnn.0be244ec": {
+      "body": "Que pena. A oficina\nvai bem, mas receio\nque as máquinas\tse desgastem. Quando\numa máquina começa\na falhar,\tgeralmente é preciso\nreajustar as\nferramentas abrasivas.\tMas não temos\nninguém aqui que\nsaiba fazer isso.",
+      "choices": "Como são seus mecânicos?\tE se uma peça estragar?"
+    },
+    "map.2snm.0db0bd24": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico 1.\tQuarto econômico 2.\tQuarto comum.\tNão, valeu."
+    },
+    "map.smnn.0db0e394": {
+      "body": "Veio empurrar estes\ntambores, jovem?",
+      "choices": "Isso mesmo!\tNão. Tenho mais o que fazer."
+    },
+    "map.smnn.0db13a20": {
+      "body": "Bem-vindo! Como\nvai?",
+      "choices": "Estou ótimo!\tEstou mal..."
+    },
+    "map.smnn.0db14214": {
+      "body": "Então é Hunter, é?\tBem, não vá destruir\na ilha, garoto.",
+      "choices": "Sim, senhor!\tVou tentar evitar."
+    },
+    "map.smnn.0db15074": {
+      "body": "Veio de longe.\nO que acha de\nScavenger Isle?",
+      "choices": "Nada mal.\tUma droga."
+    },
+    "map.smnn.0db15404": {
+      "body": "É tudo questão de\npensar positivo.\tSe cavarmos acreditando\nque há petróleo, achamos.\tSe não acreditarmos\nque há algo onde\ncavamos, não achamos.\tMas não podemos\nsair de mãos vazias.\tPetróleo custa caro,\nem dinheiro e\nem vidas humanas.\tVocê fica mais cauteloso\nao ver colegas\nde trabalho morrerem...",
+      "choices": "Não parece valer o risco.\tEles... morrem?"
+    },
+    "map.2snm.0e767894": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.0e76c6ec": {
+      "body": "Ei, qual você\nacha que é a\nmelhor arma?\tArma de fogo ou espada?",
+      "choices": "Arma de fogo, claro.\tEu diria espada.\tDepende de quem usa."
+    },
+    "map.smnn.0e76ca2c": {
+      "body": "É Hunter,\nnão é?\tQuer companhia?",
+      "choices": "Com certeza!\tAgora não."
+    },
+    "map.smnn.0e76e4bc": {
+      "body": "Ah, bem na hora!\nCom licença, monsieur.\tQual acha que é\na melhor arma,\narma de fogo ou espada?",
+      "choices": "Arma de fogo, claro.\tEu diria espada.\tDepende de quem usa."
+    },
+    "map.smnn.0e76e834": {
+      "body": "Monsieur, é\nHunter, suponho.\tPrecisa dos meus\nserviços?",
+      "choices": "Na verdade, sim.\tAgora não."
+    },
+    "map.smnn.0e76fad4": {
+      "body": "Ei, garoto, não\nqueria conseguir\num ônibus selvagem?",
+      "choices": "Yeah, cara!\tNão. Nem tanto..."
+    },
+    "map.smnn.0e7775d4": {
+      "body": "Ei, ouvi dizer que\no ônibus selvagem\npassa por aqui.\tJá viu algum?",
+      "choices": "Yeah.\tNão."
+    },
+    "map.smnn.0e77ae40": {
+      "body": "Como vão as\nviagens?",
+      "choices": "Nada mal.\tBem!"
+    },
+    "map.smnn.0e77bfd4": {
+      "body": "Ei, garoto! Que\ncão feroz você\ntem aí!\tQuer tentar?",
+      "choices": "Sim!\tNão, valeu.\tO que é isso?"
+    },
+    "map.2snm.0f831504": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.0f838a4c": {
+      "body": "Ei, você!\tBebe muito?",
+      "choices": "Pode apostar!\tNão bebo."
+    },
+    "map.2snm.1033b264": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.1033d2f0": {
+      "body": "...O-O que você\nquer fazer aqui?\t(Droga, não esperava\nver um cliente\naqui...)",
+      "choices": "(Conversar.)\t(Perguntar se achou um tanque.)"
+    },
+    "map.smnn.10340a50": {
+      "body": "Ser Hunter não é\npilotar um tanque.\tÉ caçar monstros\nusando só suas\nhabilidades físicas.\tÉ a emoção da luta!\nMano a mano!\tMas acho que só\nHunters de alto nível\nsão fortes para isso.\tEntende o que digo?",
+      "choices": "Sim!\tNão."
+    },
+    "map.smnn.128246f8": {
+      "body": "Hahaha... %F0Hã?\nO que você\nquer?",
+      "choices": "Quero um tanque.\tEsqueça."
+    },
+    "map.smnn.128250bc": {
+      "body": "Hã? Ah, é você.\nO que você\nquer?",
+      "choices": "Quero um tanque.\tEsqueça."
+    },
+    "map.2snm.12829594": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.1282e0a4": {
+      "body": "Hm, quer\nperguntar algo?",
+      "choices": "Onde ganho uma grana?\tQuer ir ao estande de tiro?"
+    },
+    "map.smnn.1282ea24": {
+      "body": "Para onde vai?",
+      "choices": "Beldaire.\tAlice One."
+    },
+    "map.smnn.1371c168": {
+      "body": "Vai para o oeste\nganhar dinheiro?\tEu também. Vou a\nAlice One para um\nbico na construção.",
+      "choices": "Onde mais trabalhou?\tO que costuma fazer?"
+    },
+    "map.smnn.1371d6b4": {
+      "body": "É do leste?",
+      "choices": "Yeah.\tE daí?"
+    },
+    "map.smnn.1371e068": {
+      "body": "É do grupo que\nvolta para casa?\nOnde trabalhava?",
+      "choices": "Não direi.\tNo inferno."
+    },
+    "map.2snm.14aa27f4": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.14aadf88": {
+      "body": "É Hunter? Nunca\nvi você\npor aqui.",
+      "choices": "O que há no oeste?\tQual a principal atividade daqui?"
+    },
+    "map.smnn.14aae28c": {
+      "body": "O que quer?",
+      "choices": "Fale de Scavenger Isle.\tGosta de trabalhar aqui?"
+    },
+    "map.smnn.169b6bec": {
+      "body": "Bem-vindo à\n%M0_4Catedral Muscular.\tAqui estudamos verdades\ndo Gluteus Maximism.\tVeio visitar\nas instalações?",
+      "choices": "Sim, vim.\tHum... Não."
+    },
+    "map.smnn.169b6d8c": {
+      "body": "%M0_6Hm... Ah! Então,\nveio porque\nvirou fiel?",
+      "choices": "Por que não?\tNão foi por isso."
+    },
+    "map.smnn.169bb498": {
+      "body": "Agora entre\nnaquele aparelho.",
+      "choices": "Com prazer.\tHum... Vou embora!"
+    },
+    "map.smnn.169bcc2c": {
+      "body": "Agora entre\nnaquele aparelho.",
+      "choices": "Com prazer.\tHum... Vou embora!"
+    },
+    "map.smnn.176a6b14": {
+      "body": "Quer\ntentar?",
+      "choices": "Estou dentro.\tSem interesse."
+    },
+    "map.smnn.176aa44c": {
+      "body": "Continuar lutando?",
+      "choices": "Venha!\tPensando bem..."
+    },
+    "map.2snm.1773ef14": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum.\tSuíte de luxo.\tNão, valeu."
+    },
+    "map.smnn.177436bc": {
+      "body": "Sem grana, não busco\ntanque, meu amigo...\tNão gastei nada\ndo dinheiro que deu,\tentão vai ter que\nme dar o mesmo valor.",
+      "choices": "Tá, mas tome cuidado.\tFicou louco!? Nem pensar!"
+    },
+    "map.smnn.1774c200": {
+      "body": "Veio naquele navio?\nComo foi a viagem?",
+      "choices": "Foi tranquila.\tBalançou um pouco."
+    },
+    "map.smnn.19f54dcc": {
+      "body": "Woof!",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f552ac": {
+      "body": "Woof!",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f5578c": {
+      "body": "......?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f55bec": {
+      "body": "Bow wow?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f56138": {
+      "body": "BD1 aguarda uso\nna CS Plant No 1.\nDestravar depósito?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f56548": {
+      "body": "BD3 aguarda uso\nna CS Plant No 3.\nDestravar depósito?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f56958": {
+      "body": "BD4 aguarda uso\nna CS Plant No 4.\nDestravar depósito?",
+      "choices": "Sim.\tNão."
+    },
+    "map.smnn.19f56d68": {
+      "body": "BD2 aguarda uso\nna CS Plant No 2.\nDestravar depósito?",
+      "choices": "Sim.\tNão."
+    },
+    "map.2snm.1d0b4464": {
+      "body": "Bem-vindo. Vai\npassar a noite?",
+      "choices": "Quarto econômico.\tQuarto comum 1.\tQuarto comum 2.\tNão, valeu."
+    },
+    "map.smnn.1d0ba9f0": {
+      "body": "Morava em Junkyard\nantes de vir\npara cá.\tComo está o ancião?\nVai bem?",
+      "choices": "Sim, está muito bem.\t......"
+    },
+    "map.smnn.1d0bb234": {
+      "body": "Ei, como vai seu canhão?\nQuer comparar\ncom o meu?",
+      "choices": "......\tGuarde seu canhão para você."
+    },
+    "map.smnn.1d0bb2ec": {
+      "body": "Quanto maior o calibre,\nmais potente\né o canhão.\tUm canhão de 50mm\né mais potente\nque um de 37mm,\te um de 75mm\né mais potente\nque um de 50mm.\tA resistência do\ncanhão também é\nimportante.",
+      "choices": "Fale mais, meu irmão.\tJá ouvi bastante."
+    },
+    "map.smnn.1d0bb470": {
+      "body": "Se o canhão for\ndestruído em batalha,\nde nada adianta\tser tão potente,\npois não poderá\nusá-lo.",
+      "choices": "Continue, meu irmão.\tÉ tudo que preciso saber."
+    },
+    "map.2snm.1df47024": {
+      "body": "Bem-vindo.\nVai passar\na noite?",
+      "choices": "Quarto econômico 1.\tQuarto econômico 2.\tQuarto comum.\tNão, valeu."
+    },
+    "map.smnn.1df47754": {
+      "body": "*sniff* Cheiro forte\nde Big Medals\npor aqui...!\tSe não estiver\nusando, pode\ndar para mim?",
+      "choices": "Tome.\tNem pensar! É meu!"
+    },
+    "map.smnn.1df49f00": {
+      "body": "%M0_4Espere... %W3Você é...%W3...%W3\nVocê encolheu?%M0_1",
+      "choices": "Quem é você?\t...Só um pouco."
+    },
+    "map.smnn.1df674f0": {
+      "body": "E aí, o que vai ser?",
+      "choices": "Vai ter briga!\tVá catar coquinho.\tHum... Um segundo."
+    },
+    "map.smnn.1df68898": {
+      "body": "E aí, o que vai ser?",
+      "choices": "Levante os... punhos.\tOlhe! Ali!\tVou pensar."
+    },
+    "map.smnn.1df69d28": {
+      "body": "Então, aceita?",
+      "choices": "Será uma honra.\tPsh, nem pensar.\tMais um tempo."
+    },
+    "map.smnn.1df78f48": {
+      "body": "Quê? É Hunter?\t...%W5Não parece ter\nidade para ser Hunter.\nComo vai a grana?",
+      "choices": "Estou nadando em grana.\tEstou duro, cara."
+    },
+    "map.smnn.1df7ac40": {
+      "body": "Ei! Que bom ver você.",
+      "choices": "Como vai?\tO que anda fazendo?"
+    },
+    "map.smnn.1f3296e4": {
+      "body": "Quer\ntentar?",
+      "choices": "Estou dentro.\tSem interesse."
+    },
+    "map.smnn.1f32d01c": {
+      "body": "Continuar lutando?",
+      "choices": "Venha!\tPensando bem..."
+    }
+  },
+  "reviewed_changes": [],
+  "deferred": {
+    "map.2snm.038d5974": "Controle opaco: edição bloqueada",
+    "map.2snm.057cdddc": "Controle opaco: edição bloqueada",
+    "map.2snm.0a6113fc": "Controle opaco: edição bloqueada",
+    "map.smnn.0a611cd4": "Controle opaco: edição bloqueada",
+    "map.2snm.0af87bbc": "Controle opaco: edição bloqueada",
+    "map.smnn.0af88494": "Controle opaco: edição bloqueada",
+    "map.2snm.0be0770c": "Controle opaco: edição bloqueada",
+    "map.2snm.0db0be2c": "Controle opaco: edição bloqueada",
+    "map.2snm.0e76799c": "Controle opaco: edição bloqueada",
+    "map.smnn.0e76fb8c": "Controle opaco: edição bloqueada",
+    "map.smnn.0e771ce4": "Controle opaco: edição bloqueada",
+    "map.smnn.0e77c0e0": "Controle opaco: edição bloqueada",
+    "map.2snm.0f83160c": "Controle opaco: edição bloqueada",
+    "map.2snm.1033b36c": "Controle opaco: edição bloqueada",
+    "map.2snm.12829698": "Controle opaco: edição bloqueada",
+    "map.2snm.14aa28fc": "Controle opaco: edição bloqueada",
+    "map.smnn.14aa9340": "Controle opaco: edição bloqueada",
+    "map.2snm.1773f01c": "Controle opaco: edição bloqueada",
+    "map.smnn.17749d24": "Controle opaco: edição bloqueada",
+    "map.2snm.1d0b456c": "Controle opaco: edição bloqueada",
+    "map.2snm.1df4712c": "Controle opaco: edição bloqueada"
+  }
+}

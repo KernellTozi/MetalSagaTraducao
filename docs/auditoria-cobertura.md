@@ -56,3 +56,7 @@ pontuação, 458 sugestões de nomes/expressões e 158 preservados a revisar. O 
 final está em `reports/regiao-inicial-v022-coverage.json`. Os relatórios da v021
 permanecem como evidência histórica. Os testes adicionais verificam que a
 classificação de sintaxes não promove registros nem concede aprovação de edição.
+
+## Atualização v023
+
+A política opt-in de escolhas nomeadas reduz os adiamentos de 349 para 258: 244 registros com controles opacos e 14 com bytes nativos. São 5.758 alterados; continuam 599 de controles/pontuação, 458 sugestões de nomes/expressões e 158 preservados a revisar. As sugestões não são aprovações automáticas. Rótulos de escolhas permanecem em inglês por proteção estrutural.

@@ -338,3 +338,7 @@ Enfeites só permanecem quando cabem. Não omitir preposições para manter tra�
 nem diminuir a fonte. Nomes de cidades, personagens, tanques e equipamentos
 únicos continuam preservados. A revisão está no filho v022, sem editar as receitas
 históricas ou os demais textos do catálogo.
+
+## Escolhas nomeadas v023
+
+Preservar categorias de quarto, quantidades, calibres (37, 50 e 75 mm) e diferenças de resposta afirmativa, negativa ou hesitante. Manter MC Hamir, Gluteus Maximism, BD/CS Plant e Big Medals. Catedral Muscular segue o uso anterior. Junkyard como cidade permanece em inglês; sucata é o material. Rótulos da terceira string não são traduzidos nesta política.
