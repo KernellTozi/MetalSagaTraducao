@@ -1,5 +1,10 @@
 # Piloto de diálogo: pergunta sobre ser Hunter
 
+**Histórico:** a ISO experimental ASCII foi removida por retenção antecipada
+durante um teste cujo isolamento já foi corrigido. O plano e os relatórios foram
+preservados. Para reconstrução, consultar `docs/regiao-inicial-v004.md` e usar
+um caminho novo de relatório; os iniciadores atuais abrem o lote consolidado.
+
 ## Resultado binário
 
 Atualização: o usuário confirmou em captura do PCSX2 a fala “Quer ser um / Hunter?”.

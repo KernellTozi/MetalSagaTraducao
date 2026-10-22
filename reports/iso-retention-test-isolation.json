@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "incident": "Synthetic development ISO fixture was counted by global retention during initialization test",
+  "removed_generated_iso": "work/MetalSaga-ptbr-dialogo-inicial-v001.iso",
+  "removed_iso_sha256_from_historical_report": "30c53a9b8eb2802939b71b56b7f25becda612c39d2d7824c86eca13e061003ed",
+  "original_iso_affected": false,
+  "bios_saves_or_personal_settings_affected": false,
+  "historical_report_preserved": "reports/dialogue-inicial-v001-validation.json",
+  "historical_plan_preserved": "work/dialogue-inicial-v001.json",
+  "reproduction_document": "docs/dialogo-inicial.md",
+  "corrective_actions": [
+    "Mock real retention in development ISO fixture tests; dedicated retention tests use temporary root only",
+    "Do not invoke retention for invalid partial ISO prefixes",
+    "Repeat complete 87-test suite and compare production ISO paths, sizes and mtimes"
+  ],
+  "full_suite_passed": 87,
+  "production_iso_snapshot_unchanged_during_repeated_suite": true,
+  "targeted_initialization_tests_after_guard_change_passed": 8,
+  "retained_work_iso_count": 9
+}

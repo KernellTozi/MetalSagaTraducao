@@ -140,7 +140,6 @@ def initialize():
             raise ValueError('Estado pré-existente não é uma inicialização interrompida')
     partial=IMAGE.with_suffix('.iso.partial')
     from iso_retention import prune
-    prune(reserve=1)
     if partial.exists():
         # Resume only after every existing prefix byte matches the immutable ISO.
         with exclusive(partial) as dst,ORIGINAL.open('rb') as src:
@@ -150,8 +149,10 @@ def initialize():
                 size=min(remaining,1024*1024)
                 if dst.read(size)!=src.read(size):raise ValueError('Prefixo parcial diverge; inicialização não retomada')
                 remaining-=size
+            prune(reserve=1)
             shutil.copyfileobj(src,dst,1024*1024);dst.flush();os.fsync(dst.fileno())
     else:
+        prune(reserve=1)
         with ORIGINAL.open('rb') as src,partial.open('xb') as dst:
             shutil.copyfileobj(src,dst,1024*1024);dst.flush();os.fsync(dst.fileno())
     with ORIGINAL.open('rb') as src,partial.open('rb') as dst:validation=verify(src,dst,[])

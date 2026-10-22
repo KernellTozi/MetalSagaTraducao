@@ -3,10 +3,11 @@ import json
 import mmap
 import sys
 import unittest
+from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -80,7 +81,7 @@ class PilotTests(unittest.TestCase):
     def test_v003_preserves_entire_previous_lot_and_city_name(self):
         previous,_=load_draft(REGION_V2_DRAFT)
         old,_,_=compile_draft(self.data,previous)
-        current,sources=load_draft(DEFAULT_DRAFT)
+        current,sources=load_draft(REGION_V3_DRAFT)
         document,patches,report=compile_draft(self.data,current)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(165,28,0))
@@ -92,11 +93,33 @@ class PilotTests(unittest.TestCase):
         self.assertEqual(city['segments'][0]['translation'],'Junkyard')
 
     def test_wanted_name_change_blocks_v003(self):
-        draft,_=load_draft(DEFAULT_DRAFT)
+        draft,_=load_draft(REGION_V3_DRAFT)
         draft['translations']['map.msg.1df549fc']='...Outro sujeito,\ncerto?'
         _,patches,report=compile_draft(self.data,draft)
         self.assertFalse(report['valid']);self.assertEqual(patches,[])
         self.assertTrue(any('Derringer Jack' in issue['reason'] for issue in report['terminology_issues']))
+
+    def test_v004_preserves_v003_and_item_control_deferrals(self):
+        previous,_=load_draft(REGION_V3_DRAFT)
+        old,_,_=compile_draft(self.data,previous)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        document,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(288,38,0))
+        self.assertEqual(len(sources),4)
+        self.assertEqual(document['entries'][:193],old['entries'])
+        self.assertEqual(len(report['deferred']),10)
+        self.assertFalse({p['id'] for p in patches}&set(draft['deferred']))
+        doctor=next(e for e in document['entries'] if e['id']=='map.msgn.1df59f34')
+        self.assertIn('Dr. Martin',doctor['segments'][0]['translation'])
+        city=next(e for e in document['entries'] if e['id']=='map.supr.1df5935c')
+        self.assertEqual(city['segments'][0]['translation'],'- Junkyard -')
+
+    def test_duplicate_authored_keys_are_not_silently_overwritten(self):
+        raw=b'{"schema":1,"translations":{"same.id":"first","same.id":"second"}}'
+        with mock.patch.object(Path,'read_bytes',return_value=raw):
+            with self.assertRaisesRegex(ValueError,'Duplicate authored JSON key'):
+                load_draft(DEFAULT_DRAFT)
 
 
 if __name__=='__main__':unittest.main()

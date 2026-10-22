@@ -32,6 +32,14 @@ def iso_fixture():
 
 
 class DevelopmentIsoTests(unittest.TestCase):
+    def setUp(self):
+        # Fixture initialization must never trigger retention in the real work
+        # directory. Retention itself is exercised on a separate temporary root
+        # in test_iso_retention.py, not through these miniature ISO fixtures.
+        guard=patch('iso_retention.prune',return_value={'delete':[]})
+        self.retention=guard.start()
+        self.addCleanup(guard.stop)
+
     def setup_session(self,root):
         original=root/'original.iso';image=root/'development.iso';raw=iso_fixture()
         original.write_bytes(raw);image.write_bytes(raw)
@@ -112,6 +120,7 @@ class DevelopmentIsoTests(unittest.TestCase):
             digest=hashlib.sha256(iso_fixture()).hexdigest()
             with patch.object(dev,'SESSION',root),patch.object(dev,'IMAGE',image),patch.object(dev,'ORIGINAL',original),patch.object(dev,'ORIGINAL_ISO_SHA256',digest):
                 state=dev.initialize()
+            self.retention.assert_called_once_with(reserve=1)
             self.assertEqual(image.read_bytes(),original.read_bytes());self.assertEqual(state['generation'],0)
 
     def test_initialization_refuses_bad_partial_without_writing(self):
@@ -120,6 +129,7 @@ class DevelopmentIsoTests(unittest.TestCase):
             image=root/'development.iso';partial=image.with_suffix('.iso.partial');partial.write_bytes(b'WRONG')
             with patch.object(dev,'SESSION',root),patch.object(dev,'IMAGE',image),patch.object(dev,'ORIGINAL',original):
                 with self.assertRaises(ValueError):dev.initialize()
+            self.retention.assert_not_called()
             self.assertEqual(partial.read_bytes(),b'WRONG');self.assertFalse(image.exists())
 
 

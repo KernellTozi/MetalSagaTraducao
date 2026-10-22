@@ -1,5 +1,9 @@
 # Região inicial — lote consolidado v003
 
+**Histórico:** a versão atual está em `docs/regiao-inicial-v004.md`. Os iniciadores
+simples abrem a v004. Para reproduzir este lote, usar
+`--draft translations/regiao-inicial-v003.json` explicitamente.
+
 ## Entrega e continuidade
 
 O lote passa de 98 para 193 registros, mantendo os primeiros 98 exatamente como

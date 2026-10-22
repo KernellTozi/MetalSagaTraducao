@@ -25,14 +25,23 @@ from build_dialogue_iso import compare_streams,ORIGINAL_ISO_SHA256
 DRAFT=ROOT/'translations/piloto-inicial-v001.json'
 PROFILE='spacing-v003-assumed-by-user-not-visually-confirmed'
 REGION_V2_DRAFT=ROOT/'translations/regiao-inicial-v002.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v003.json'
+REGION_V3_DRAFT=ROOT/'translations/regiao-inicial-v003.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v004.json'
+
+
+def unique_object(pairs):
+    result={}
+    for key,value in pairs:
+        if key in result:raise ValueError(f'Duplicate authored JSON key: {key}')
+        result[key]=value
+    return result
 
 
 def load_draft(path,chain=()):
     path=Path(path).resolve()
     if not path.is_relative_to(ROOT) or path in chain or len(chain)>=8:
         raise ValueError('Draft outside project or circular inheritance')
-    raw=path.read_bytes();child=json.loads(raw.decode('utf-8-sig'));sources=[]
+    raw=path.read_bytes();child=json.loads(raw.decode('utf-8-sig'),object_pairs_hook=unique_object);sources=[]
     if 'extends' in child:
         base,sources=load_draft(path.parent/child['extends'],chain+(path,))
         draft={**base,**child}
