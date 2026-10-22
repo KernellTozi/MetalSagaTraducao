@@ -61,3 +61,9 @@ python -m unittest discover -s tests -v
 
 Os relatórios versionados contêm metadados, hashes e offsets; extrações de texto e cópias
 modificadas ficam em `work/`, ignorado pelo Git. `JOGO/` é somente leitura por política.
+
+
+Correção experimental da largura dos acentos: **`Testar-Acentos-Corrigidos.cmd`**
+abre uma cópia da v023 com métricas PT-BR v004, mantendo os mesmos textos e
+bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v004.md).
+A confirmação visual está pendente; o iniciador habitual continua na v023.

@@ -158,7 +158,8 @@ def write_json(path,value):
         json.dump(value,stream,ensure_ascii=False,indent=2);stream.write('\n')
 
 
-def build_iso(output,patches):
+def build_iso(output,patches,layout_profile='spacing-v003'):
+    if layout_profile not in ('spacing-v003','ptbr-layout-v004'):raise ValueError('Unknown layout profile')
     output=local(output,True)
     sys.path.insert(0,str(ROOT/'work/python-deps'))
     from gfi_refined import font_patches
@@ -179,6 +180,16 @@ def build_iso(output,patches):
         fonts.append({'path':name,'sha256':checksum,'side':font.side})
     elf=(reference/'SLUS_212.93').read_bytes()
     patches.append({'resource':'SLUS_212.93',**elf_patch(elf)})
+    layout_evidence=None
+    if layout_profile=='ptbr-layout-v004':
+        from glyph_layout import elf_patch as layout_patch
+        p=layout_patch(elf)
+        patches.append({'resource':'SLUS_212.93',**p})
+        layout_evidence={'offset':p['offset'],'size':len(p['after']),
+            'source_sha256':hashlib.sha256(p['before']).hexdigest(),
+            'patched_sha256':hashlib.sha256(p['after']).hexdigest(),
+            'scope':'18 PT-BR codes inherit ASCII base draw width, width margin, bearing and advance',
+            'bitmaps':'unchanged v002','runtime_validated':False}
     original=ROOT/'JOGO/Metal Saga.iso';absolute=[]
     with original.open('rb') as src:
         directory=entries(src)
@@ -214,7 +225,7 @@ def build_iso(output,patches):
     if validation['source_iso_sha256']!=ORIGINAL_ISO_SHA256:raise ValueError('Original ISO hash differs')
     partial.rename(output)
     return {**validation,'iso_directory_identical':True,'fonts':fonts,'retention':retention,
-            'elf_profile':'spacing-v003','visual_status':'assumed_by_user_pending_actual_test'}
+            'elf_profile':layout_profile,'layout_patch':layout_evidence,'visual_status':'pending_user_verification' if layout_evidence else 'assumed_by_user_pending_actual_test'}
 
 
 def main():
@@ -222,6 +233,8 @@ def main():
     parser.add_argument('--draft',type=Path,default=DEFAULT_DRAFT)
     parser.add_argument('--output',type=Path,default=ROOT/'work/pilotos'/f'{datetime.now():%Y%m%d-%H%M%S-%f}')
     parser.add_argument('--build-iso',action='store_true')
+    parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004'),default='spacing-v003')
+    parser.add_argument('--iso-name',help='Optional experimental image name; never changes the saved recipe')
     args=parser.parse_args();output=local(args.output,True)
     draft_path=args.draft.resolve()
     if not draft_path.is_relative_to(ROOT):raise ValueError('Draft must be inside workspace')
@@ -239,10 +252,12 @@ def main():
         policy_path=ROOT/draft['terminology_policy']
         report['terminology_policy_sha256']=hashlib.sha256(policy_path.read_bytes()).hexdigest()
     if report['valid'] and args.build_iso:
-        name=draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')
+        name=args.iso_name or draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')
         if Path(name).name!=name or not name.startswith('MetalSaga-ptbr-') or not name.endswith('.iso'):
             raise ValueError('Invalid ISO name')
-        report['iso']=build_iso(output/name,patches)
+        report['iso']=build_iso(output/name,patches,args.layout_profile)
+        report['iso']['image_name']=name
+        report['visual_status']=report['iso']['visual_status']
     write_json(output/'relatorio.json',report)
     with (output/'revisao.jsonl').open('x',encoding='utf-8') as stream:
         for e,r in zip(document['entries'],report['results']):

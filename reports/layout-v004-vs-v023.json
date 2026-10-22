@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "source_iso": "work/regiao-inicial-v023/MetalSaga-ptbr-regiao-inicial-v023.iso",
+  "output_iso": "work/fontes-layout-v004/MetalSaga-ptbr-layout-v004.iso",
+  "source_sha256": "915a7e998f0d543ea8326ddd36bf6556062f12f396b25ba8c115168d98dd682d",
+  "output_sha256": "a6bdfb2aaf143f1b9705fb740a67c82610972a818c33336ca180b01eca15b803",
+  "iso_size": 1704427520,
+  "changed_byte_count": 620,
+  "only_layout_window_changed": true,
+  "absolute_window_start": 1701190944,
+  "window_size": 824,
+  "translation_plan_identical": true,
+  "fonts_identical": true,
+  "iso_directory_identical": true,
+  "runtime_validated": false
+}

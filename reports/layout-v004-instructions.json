@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "window_start": 255264,
+  "window_end_exclusive": 256088,
+  "same_size": true,
+  "original_window_sha256": "f41beaffa20879e2fd90490dc354df14902202fa967b2fd4a80c91c1dc9d699a",
+  "replacement_window_sha256": "48eb3fc657f5da90fa289c2bdbaf5cbbad53b780a83d4d3db98b06e9e62227f1",
+  "input_sequences_compared": 65536,
+  "changed_sequences": [
+    "8240",
+    "8241",
+    "8242",
+    "8243",
+    "8244",
+    "8245",
+    "8246",
+    "8247",
+    "8248",
+    "8249",
+    "824a",
+    "824b",
+    "824c",
+    "824d",
+    "824e",
+    "8259",
+    "825a",
+    "825b"
+  ],
+  "native_sequences_unchanged": 65518,
+  "callee_saved_verified": true,
+  "external_direct_references": [
+    {
+      "offset": 253440,
+      "destination": 1299744,
+      "function_entry": true
+    },
+    {
+      "offset": 253740,
+      "destination": 1299744,
+      "function_entry": true
+    },
+    {
+      "offset": 254184,
+      "destination": 1299744,
+      "function_entry": true
+    },
+    {
+      "offset": 254308,
+      "destination": 1299744,
+      "function_entry": true
+    },
+    {
+      "offset": 325004,
+      "destination": 1299744,
+      "function_entry": true
+    }
+  ],
+  "runtime_validated": false,
+  "mapping": [
+    {
+      "code": "8240",
+      "ascii_base": "c"
+    },
+    {
+      "code": "8241",
+      "ascii_base": "a"
+    },
+    {
+      "code": "8242",
+      "ascii_base": "a"
+    },
+    {
+      "code": "8243",
+      "ascii_base": "a"
+    },
+    {
+      "code": "8244",
+      "ascii_base": "a"
+    },
+    {
+      "code": "8245",
+      "ascii_base": "e"
+    },
+    {
+      "code": "8246",
+      "ascii_base": "e"
+    },
+    {
+      "code": "8247",
+      "ascii_base": "i"
+    },
+    {
+      "code": "8248",
+      "ascii_base": "o"
+    },
+    {
+      "code": "8249",
+      "ascii_base": "o"
+    },
+    {
+      "code": "824a",
+      "ascii_base": "o"
+    },
+    {
+      "code": "824b",
+      "ascii_base": "u"
+    },
+    {
+      "code": "824c",
+      "ascii_base": "u"
+    },
+    {
+      "code": "824d",
+      "ascii_base": "C"
+    },
+    {
+      "code": "824e",
+      "ascii_base": "A"
+    },
+    {
+      "code": "8259",
+      "ascii_base": "E"
+    },
+    {
+      "code": "825a",
+      "ascii_base": "A"
+    },
+    {
+      "code": "825b",
+      "ascii_base": "O"
+    }
+  ],
+  "limitations": [
+    "Bounded interpreter, not a PS2 emulator",
+    "Classifier and soft-float helper calls are modeled ABI boundaries",
+    "Direct-reference scan does not exclude every indirect reference",
+    "Visual rendering and other text contexts still require PCSX2 validation"
+  ]
+}

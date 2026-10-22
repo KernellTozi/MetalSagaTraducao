@@ -12,7 +12,7 @@ def summarize(folder,tests_passed=None):
     document=json.loads((folder/'plano.json').read_text(encoding='utf-8'))
     draft=json.loads((folder/'rascunho.json').read_text(encoding='utf-8'))
     if not report['valid'] or 'iso' not in report:raise ValueError('Batch has no valid completed ISO build')
-    iso=report['iso'];image=local(folder/draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso'))
+    iso=report['iso'];image=local(folder/iso.get('image_name',draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')))
     if image.stat().st_size!=iso['iso_size']:raise ValueError('ISO size no longer matches build report')
     records=document['entries']
     return {'schema':1,'metadata_source':'completed build report; no new runtime validation',
@@ -28,7 +28,7 @@ def summarize(folder,tests_passed=None):
         'iso_size':iso['iso_size'],'changed_byte_count':len(iso['changed_iso_offsets']),
         'all_bytes_match_expected_patch':iso['all_bytes_match_expected_patch'],
         'iso_directory_identical':iso['iso_directory_identical'],'fonts':iso['fonts'],
-        'elf_profile':iso['elf_profile'],'output_iso':image.relative_to(ROOT).as_posix(),
+        'elf_profile':iso['elf_profile'],'layout_patch':iso.get('layout_patch'),'output_iso':image.relative_to(ROOT).as_posix(),
         'record_relocation':False,'modes':sorted({e['mode'] for e in records}),
         'unit_tests_passed_reported':tests_passed,
         'legacy_width_warnings':sum(bool(r.get('warnings')) for r in report['results']),
