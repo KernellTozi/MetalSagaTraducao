@@ -75,3 +75,9 @@ Triagem antecipada de T0 em `reports/t0-triagem-v001.json`: 18 despedidas, 14 de
 As 18 despedidas T0 foram traduzidas com a referência dinâmica e tratamento sr. preservados em seus papéis. A política v009 verifica handler, dois accessors e dependências no ELF original, com teste de instruções em memória simulada. Não se comprovou uma identidade canônica nem se liberaram N/I. São 5.856 traduções e 159 adiamentos (145 opacos e 14 nativos).
 
 Triagem em `reports/plano-pendencias-v005.json`. Próximo alvo previsto: `%I$0`, 14 registros exclusivos. A liberação de T0 uniu grupos antes separados: `%N$0` agora aparece com 22 registros exclusivos. Investigar sem promover por contagem; manter os 19 nomes N3 intactos. Testes visuais seguem acumulados para o save corrido.
+
+## Estado após o quinto passo — v028
+
+As 14 falas I0 foram traduzidas com nomes dinâmicos preservados: proteção contra o frio, combate, inspeção de peça e presentes. A política v010 confere o handler e a referência à tabela (stride 128) no ELF original, com instruções executadas em memória simulada. Não libera a edição dessa tabela nem comprova seu vínculo completo com S_PACK.SDA.
+
+São 5.870 traduções, 145 adiamentos (131 opacos em 29 grupos e 14 nativos), com triagem em `reports/plano-pendencias-v006.json`. Próximo alvo: `%N$0`, 22 registros, distinto dos 19 nomes N3 preservados. Inclui recebimento de veículos, tutorial de Drive, hospedagem, nomeação e outras referências. Preservar Drive enquanto a interface correspondente mantiver esse nome; não inferir uma entidade fixa pelo índice de variável zero. Manter a revisão visual conjunta no save corrido.

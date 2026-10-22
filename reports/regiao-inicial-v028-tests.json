@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "scope": "Targeted regression for changed compiler/control paths, parent/new complete MAP plans and font regressions; not a full test discovery run",
+  "command": "python -c \"import sys,unittest; sys.path.insert(0,'tests'); unittest.main(module=None,argv=['unittest', 'test_control_b15', 'test_control_numeric1', 'test_control_numeric15', 'test_control_t0', 'test_control_i0', 'test_reinsertion', 'test_named_choice_policy', 'test_named_choice_evidence', 'test_translation_coverage', 'test_translation_policy', 'test_glyph_spacing', 'test_glyph_layout', 'test_glyph_single', 'test_translation_pilot.PilotTests.test_v027_t0_only_and_prior_translations_immutable', 'test_translation_pilot.PilotTests.test_v028_i0_only_and_prior_translations_immutable', 'test_translation_pilot.PilotTests.test_preservation_decision_rejects_changed_record'],verbosity=2)\"",
+  "selection": [
+    "test_control_b15",
+    "test_control_numeric1",
+    "test_control_numeric15",
+    "test_control_t0",
+    "test_control_i0",
+    "test_reinsertion",
+    "test_named_choice_policy",
+    "test_named_choice_evidence",
+    "test_translation_coverage",
+    "test_translation_policy",
+    "test_glyph_spacing",
+    "test_glyph_layout",
+    "test_glyph_single",
+    "test_translation_pilot.PilotTests.test_v027_t0_only_and_prior_translations_immutable",
+    "test_translation_pilot.PilotTests.test_v028_i0_only_and_prior_translations_immutable",
+    "test_translation_pilot.PilotTests.test_preservation_decision_rejects_changed_record"
+  ],
+  "tests_passed": 81,
+  "duration_seconds": 121.209,
+  "exit_code": 0,
+  "log_path": "work/test-v028.log",
+  "log_sha256": "44b1a88b514f675265b9171a9bfbfe612dd944460e7273bc34825fd06e0f3a6e",
+  "production_iso_built_during_tests": false,
+  "pcsx2_executed": false
+}

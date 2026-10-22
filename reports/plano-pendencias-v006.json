@@ -1,0 +1,602 @@
+{
+  "schema": 1,
+  "source": "compiled text plan; read-only planning, not edit approval",
+  "plan_sha256": "40e3fcaa4e7483057eb15bce583fff423c4ff5d3750098f98f8fb83d5d8d6b5d",
+  "coverage": {
+    "modified": 5870,
+    "deferred": 145,
+    "controls_or_punctuation": 599,
+    "name_or_expression_candidate": 458,
+    "review_unchanged": 159
+  },
+  "opaque_records": 131,
+  "opaque_group_count": 29,
+  "disjoint_opaque_groups": [
+    {
+      "parser_spans": [
+        "%N$0"
+      ],
+      "records": 22,
+      "example_ids": [
+        "map.msg.038d5e40",
+        "map.msg.057ce5a0",
+        "map.msg.06493cbc"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%N$3"
+      ],
+      "records": 19,
+      "example_ids": [
+        "map.msgn.0be2befc",
+        "map.msgn.0be2bf40",
+        "map.msgn.0be2bf84"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$0"
+      ],
+      "records": 12,
+      "example_ids": [
+        "map.msg.07b2812c",
+        "map.msg.0be2b65c",
+        "map.msg.0be2b6fc"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$2"
+      ],
+      "records": 12,
+      "example_ids": [
+        "map.msg.057d9928",
+        "map.msg.07b28310",
+        "map.msg.0db16188"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$10"
+      ],
+      "records": 8,
+      "example_ids": [
+        "map.2snm.038d5974",
+        "map.msg.07b2845c",
+        "map.msg.0e551e7c"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$13"
+      ],
+      "records": 5,
+      "example_ids": [
+        "map.msg.121219fc",
+        "map.msg.12121a88",
+        "map.msg.1fd485fc"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%I$1"
+      ],
+      "records": 5,
+      "example_ids": [
+        "map.msg.0a138544",
+        "map.msg.0a1387a4",
+        "map.msg.0b8fc504"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%I$15"
+      ],
+      "records": 5,
+      "example_ids": [
+        "map.msg.057d3d1c",
+        "map.msg.0db10b1c",
+        "map.msg.0e774e1c"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%I$9"
+      ],
+      "records": 5,
+      "example_ids": [
+        "map.msg.057d3cc8",
+        "map.msg.0db10ac8",
+        "map.msg.0e774dc8"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$14"
+      ],
+      "records": 4,
+      "example_ids": [
+        "map.msg.12120fc8",
+        "map.msgn.1df478b8",
+        "map.smsg.121210f4"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%N$10"
+      ],
+      "records": 4,
+      "example_ids": [
+        "map.msg.01def818",
+        "map.msg.01defc7c",
+        "map.msg.01df008c"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%"
+      ],
+      "records": 3,
+      "example_ids": [
+        "map.2smg.0be2c4e4",
+        "map.2smg.0be2ca48",
+        "map.smsg.0be2ccb4"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$17"
+      ],
+      "records": 3,
+      "example_ids": [
+        "map.msg.176aa3d0",
+        "map.msg.1f32cfa0",
+        "map.smsg.1df465e0"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%I$10"
+      ],
+      "records": 3,
+      "example_ids": [
+        "map.msg.0e76dabc",
+        "map.msg.0e76dd0c",
+        "map.msg.17747f84"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$10",
+        "%$11",
+        "%$12"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.smsg.0e768d74",
+        "map.smsg.12827734"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$10",
+        "%N$6"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.smsg.1df4d28c",
+        "map.smsg.1df4d364"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$5"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.msg.169bd464",
+        "map.smsg.085408ec"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%N"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.msg.0a13ad4c",
+        "map.msg.0b8fef6c"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%N$1"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.msg.1f288494",
+        "map.msg.1f288584"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%N$2"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.msg.0be0fcac",
+        "map.msg.0be0ff70"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$0",
+        "%$5"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.169bd620"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$11",
+        "%$12",
+        "%$13"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.sel.1d0b9c8c"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$16"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.0e77a8a8"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%$18"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.1c64aa64"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%I$19"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.1d0aa8ec"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%I$2"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.0e5513c0"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%M_1"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.0e77a724"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%M_4"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.smsg.0e77a194"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%T0"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msgn.038df66c"
+      ]
+    }
+  ],
+  "overlapping_syntax_counts": [
+    {
+      "syntax": "%N$0",
+      "records": 22,
+      "exclusive_records": 22
+    },
+    {
+      "syntax": "%N$3",
+      "records": 19,
+      "exclusive_records": 19
+    },
+    {
+      "syntax": "%$0",
+      "records": 13,
+      "exclusive_records": 12
+    },
+    {
+      "syntax": "%$10",
+      "records": 12,
+      "exclusive_records": 8
+    },
+    {
+      "syntax": "%$2",
+      "records": 12,
+      "exclusive_records": 12
+    },
+    {
+      "syntax": "%$13",
+      "records": 6,
+      "exclusive_records": 5
+    },
+    {
+      "syntax": "%I$1",
+      "records": 5,
+      "exclusive_records": 5
+    },
+    {
+      "syntax": "%I$15",
+      "records": 5,
+      "exclusive_records": 5
+    },
+    {
+      "syntax": "%I$9",
+      "records": 5,
+      "exclusive_records": 5
+    },
+    {
+      "syntax": "%$14",
+      "records": 4,
+      "exclusive_records": 4
+    },
+    {
+      "syntax": "%N$10",
+      "records": 4,
+      "exclusive_records": 4
+    },
+    {
+      "syntax": "%",
+      "records": 3,
+      "exclusive_records": 3
+    },
+    {
+      "syntax": "%$11",
+      "records": 3,
+      "exclusive_records": 0
+    },
+    {
+      "syntax": "%$12",
+      "records": 3,
+      "exclusive_records": 0
+    },
+    {
+      "syntax": "%$17",
+      "records": 3,
+      "exclusive_records": 3
+    },
+    {
+      "syntax": "%$5",
+      "records": 3,
+      "exclusive_records": 2
+    },
+    {
+      "syntax": "%I$10",
+      "records": 3,
+      "exclusive_records": 3
+    },
+    {
+      "syntax": "%N",
+      "records": 2,
+      "exclusive_records": 2
+    },
+    {
+      "syntax": "%N$1",
+      "records": 2,
+      "exclusive_records": 2
+    },
+    {
+      "syntax": "%N$2",
+      "records": 2,
+      "exclusive_records": 2
+    },
+    {
+      "syntax": "%N$6",
+      "records": 2,
+      "exclusive_records": 0
+    },
+    {
+      "syntax": "%$16",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%$18",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%I$19",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%I$2",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%M_1",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%M_4",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%T0",
+      "records": 1,
+      "exclusive_records": 1
+    }
+  ],
+  "native_records": [
+    {
+      "id": "map.msg.040ef0ec",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.07b264e0",
+      "native_sequences": {
+        "8199": 1
+      }
+    },
+    {
+      "id": "map.msg.1033e304",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.128226b4",
+      "native_sequences": {
+        "8149": 1,
+        "815b": 2,
+        "8371": 2,
+        "8385": 2
+      }
+    },
+    {
+      "id": "map.msg.128226fc",
+      "native_sequences": {
+        "8149": 1,
+        "815b": 1,
+        "82a0": 1,
+        "82aa": 1,
+        "82c1": 1,
+        "82c6": 1,
+        "82e8": 1
+      }
+    },
+    {
+      "id": "map.msg.12822744",
+      "native_sequences": {
+        "8149": 1,
+        "815b": 2,
+        "82b2": 1,
+        "82b3": 1,
+        "82bb": 1,
+        "82bf": 1,
+        "82c1": 1,
+        "82dc": 1
+      }
+    },
+    {
+      "id": "map.msg.12822790",
+      "native_sequences": {
+        "8140": 1,
+        "8149": 2,
+        "82a2": 1,
+        "82a8": 1,
+        "82b6": 1,
+        "82be": 1,
+        "82c1": 2,
+        "82e6": 1,
+        "82f1": 1,
+        "976c": 1
+      }
+    },
+    {
+      "id": "map.msg.13709cc0",
+      "native_sequences": {
+        "8142": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ec14",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ed3c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ee6c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88cd4",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88d9c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88e6c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    }
+  ],
+  "review_records": 159,
+  "review_distinct_source_combinations": 113,
+  "editing_enabled": false,
+  "limitations": [
+    "Parser spans are not complete command grammar",
+    "Categories do not establish runtime semantics",
+    "Native bytes do not imply Portuguese glyph slots"
+  ]
+}

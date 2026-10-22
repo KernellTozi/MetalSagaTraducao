@@ -1,0 +1,81 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "handler": [
+    1793396,
+    1793444
+  ],
+  "handler_sha256": "e7173459777850dc32449a40f72148b044dcaab01098f53c3fdb5fc355ecdb46",
+  "allowed_token_hex": "25492430",
+  "variable_index": 0,
+  "table_base_pointer_va": 4676328,
+  "record_stride": 128,
+  "growth_allowed": false,
+  "mode": "slots",
+  "runtime_table_binding": "not fully traced to source resource",
+  "runtime_visual_status": "pending_manual_validation",
+  "probe_scope": "Original I handler with synthetic memory and original numeric reader; emitter and source resource initialization not emulated",
+  "probes": [
+    {
+      "index": 0,
+      "string_pointer": 1048576,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8244,
+        4676328
+      ]
+    },
+    {
+      "index": 1,
+      "string_pointer": 1048704,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8244,
+        4676328
+      ]
+    },
+    {
+      "index": 127,
+      "string_pointer": 1064832,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8244,
+        4676328
+      ]
+    },
+    {
+      "index": 1024,
+      "string_pointer": 1179648,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8244,
+        4676328
+      ]
+    },
+    {
+      "index": 65535,
+      "string_pointer": 9437056,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8244,
+        4676328
+      ]
+    }
+  ],
+  "probe_index_limit_is_not_runtime_validation": true,
+  "pcsx2_executed": false
+}

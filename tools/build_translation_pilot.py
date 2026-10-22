@@ -14,7 +14,7 @@ import sys
 import copy
 from datetime import datetime
 
-from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,descriptor,source_hash,compile_batch,local
+from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,descriptor,source_hash,compile_batch,local
 from dialogue_advanced import SsdIndex,LAYOUTS
 from dialogue_formats import tokens
 from gfi import Gfi,encode,decode
@@ -49,7 +49,8 @@ REGION_V23_DRAFT=ROOT/'translations/regiao-inicial-v023.json'
 REGION_V24_DRAFT=ROOT/'translations/regiao-inicial-v024.json'
 REGION_V25_DRAFT=ROOT/'translations/regiao-inicial-v025.json'
 REGION_V26_DRAFT=ROOT/'translations/regiao-inicial-v026.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v027.json'
+REGION_V27_DRAFT=ROOT/'translations/regiao-inicial-v027.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v028.json'
 
 
 def unique_object(pairs):
@@ -92,19 +93,20 @@ def compile_draft(data,draft):
     if draft.get('schema')!=1 or draft.get('font_profile')!=PROFILE:
         raise ValueError('Unsupported pilot schema/font profile')
     policy=draft.get('reinsertion_policy',POLICY)
-    if policy not in (POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY):raise ValueError('Unknown reinsertion policy')
-    named_choices=policy in (NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY)
-    t0=policy==T0_POLICY
-    numeric15=policy in (NUMERIC15_POLICY,T0_POLICY)
-    numeric1=policy in (NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY)
-    b15=policy in (B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY)
+    if policy not in (POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY):raise ValueError('Unknown reinsertion policy')
+    named_choices=policy in (NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY)
+    i0=policy==I0_POLICY
+    t0=policy in (T0_POLICY,I0_POLICY)
+    numeric15=policy in (NUMERIC15_POLICY,T0_POLICY,I0_POLICY)
+    numeric1=policy in (NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY)
+    b15=policy in (B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY)
     targets=copy.deepcopy(draft['translations']);deferred=draft.get('deferred',{})
     if not isinstance(targets,dict) or not targets:raise ValueError('Empty draft')
     index=SsdIndex(data);selected=[]
     lo=int(draft['scope']['first_offset'],16);hi=int(draft['scope']['last_offset'],16)
     for at in sorted(index.records):
         if lo<=at<=hi and bytes(data[at:at+4]) in set(LAYOUTS)|{b'msg\0',b'msgn'}:
-            selected.append(descriptor(data,at,index,named_choices=named_choices,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0))
+            selected.append(descriptor(data,at,index,named_choices=named_choices,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0))
     by_id={e['id']:e for e in selected}
     aliases=dict(draft.get('aliases',{}))
     while aliases:

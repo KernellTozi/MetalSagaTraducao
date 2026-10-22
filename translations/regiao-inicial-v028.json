@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v027.json",
+  "name": "regiao-inicial-v028",
+  "status": "dicas de combate, protecao e presentes; referencia I0 preservada; teste visual conjunto pendente",
+  "reinsertion_policy": "fixed-record-i0-preserved-slots-v010",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v028.iso",
+  "resume_deferred": [
+    "map.msgn.038dac0c",
+    "map.msg.0be0f99c",
+    "map.msg.0be1579c",
+    "map.smsg.0be1597c",
+    "map.msgn.0be22854",
+    "map.msgn.0be22bc4",
+    "map.msg.0e55131c",
+    "map.msgn.1282da58",
+    "map.msgn.14aab6b4",
+    "map.msgn.1d0b9e94",
+    "map.msg.1df5e3bc",
+    "map.msg.1df5e4a4",
+    "map.msg.1df5f13c",
+    "map.msg.1df6435c"
+  ],
+  "reviewed_changes": [],
+  "translations": {
+    "map.msgn.038dac0c": {
+      "body": "Gostou? É %I$0.\tProtege contra o\nfrio.\tAté fico sem jeito,\n%W5mas sinto frio fácil.\nHeh..."
+    },
+    "map.msg.0be0f99c": {
+      "body": "Olá, %N0.\nChegou: %I$0.\nEstá ali, viu?"
+    },
+    "map.msg.0be1579c": {
+      "body": "%N0!\tChegou %I$0,\no que você mandou.\nJá pus no quarto."
+    },
+    "map.smsg.0be1597c": {
+      "body": "Oi, %N0!\tChegou %I$0.\nValeu pelo presente!\tAh, se quiser, posso\nconsertar seu veículo...\nDe graça, claro!",
+      "choices": "Puxa, agradeço.\tNão, tudo bem."
+    },
+    "map.msgn.0be22854": {
+      "body": "Bem, esta área\nnão é das melhores.\tA chuva ácida é frequente,\no que torna perigoso\nandar lá fora.\tTambém é difícil\ncaçar por aqui.\tMuitos monstros se movem\npara fora do alcance\ndos seus ataques.\tOuvi que um SE como\nBloodhound ou Tindalos\npode ser eficaz.\tMas, se estiver a pé,\nminha recomendação é:\n%I$0."
+    },
+    "map.msgn.0be22bc4": {
+      "body": "Claro. Saia para leste,\naos campos depois\ndo bosque.\tLeve isto: %I$0\npois tanques não entram\nnaquela área."
+    },
+    "map.msg.0e55131c": {
+      "body": "%I$0, é?\nUm instante,\nvou olhar.\tVamos ver... Hmm...\nEsta peça é... E\nisso vai ali, então..."
+    },
+    "map.msgn.1282da58": {
+      "body": "%I$0...\nÉ assim que evito\nos danos das bombas.\tBombas não me ferem,\nentão dispenso um tanque.\nTanques são para novatos.\tMas tome cuidado,\n%I$0 pode sofrer\ndanos de outros ataques."
+    },
+    "map.msgn.14aab6b4": {
+      "body": "Há *cough* muitos\n*cough* Rocket Snails.\t*cough* Eles se escondem\nnas conchas. Você vai\nprecisar de %I$0.\tPerto do bosque, logo\nao norte de *cough* aqui,\né o melhor lugar para caçar."
+    },
+    "map.msgn.1d0b9e94": {
+      "body": "Valeu, bonitão.\nAgora você precisa\ncaçar Dragon Choppers.\tVocê pode vender os olhos\ndeles por uma boa grana.\tVocê os encontra\nnas redondezas.\tLeve isto: %I$0\ncom você. Derruba cada um\ncom um só tiro."
+    },
+    "map.msg.1df5e3bc": {
+      "body": "Bom ver você! Chegou\n%I$0, seu presente...\nValeu!\tJá pus no quarto\nassim que chegou. Vá\nlá ver..."
+    },
+    "map.msg.1df5e4a4": {
+      "body": "Nossa, %I$0 é incrível.\nSempre quis algo\nassim no meu quarto.\tTee hee..."
+    },
+    "map.msg.1df5f13c": {
+      "body": "Ah, %N0.\nAdorei isto: %I$0\nque você me deu.\tNão precisava fazer isso.\nSei que os Hunters\nnão são ricos...\tMas valeu.\nVou guardar com carinho."
+    },
+    "map.msg.1df6435c": {
+      "body": "Ah, %N0!\nRecebi isto: %I$0,\nmas é mesmo para mim?\t......\nBem, acho que devo\nagradecer..."
+    }
+  }
+}

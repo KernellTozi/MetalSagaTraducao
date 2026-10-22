@@ -21,12 +21,12 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
 Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-7.231 registros localmente, sem gerar outra ISO. São 5.856 registros traduzidos e
-1.375 preservados, incluindo 159 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v027.json`, com herança dos
+7.231 registros localmente, sem gerar outra ISO. São 5.870 registros traduzidos e
+1.361 preservados, incluindo 145 adiados mantidos no original.
+O rascunho PT-BR está em `translations/regiao-inicial-v028.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
-abre a ISO consolidada com textos v027, fontes v002 e layout v005,
-confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v027.md).
+abre a ISO consolidada com textos v028, fontes v002 e layout v005,
+confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v028.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
@@ -70,7 +70,7 @@ O iniciador habitual abre o lote atual com esse mesmo perfil de correção. A ap
 testada; outros contextos continuam sujeitos a verificação.
 
 
-Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v027 acrescenta
-18 despedidas com [referência T0 preservada](docs/controle-t0-v009.md), sem trocar o conteúdo dinâmico por nome fixo.
-Os nomes de tanques N3 e o marcador F permanecem intactos. O perfil de acentos v005
-continua vinculado à receita; o usuário fará a conferência conjunta em um save corrido.
+Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v028 acrescenta
+14 falas de equipamento, combate e presentes com [referência I0 preservada](docs/controle-i0-v010.md).
+Os nomes dinâmicos e únicos permanecem intactos. O perfil de acentos v005 continua
+vinculado à receita; o usuário fará a conferência conjunta em um save corrido.
