@@ -14,7 +14,7 @@ import sys
 import copy
 from datetime import datetime
 
-from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,NAMED_POLICY,descriptor,source_hash,compile_batch,local
+from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,NAMED_POLICY,B15_POLICY,descriptor,source_hash,compile_batch,local
 from dialogue_advanced import SsdIndex,LAYOUTS
 from dialogue_formats import tokens
 from gfi import Gfi,encode,decode
@@ -45,7 +45,8 @@ REGION_V19_DRAFT=ROOT/'translations/regiao-inicial-v019.json'
 REGION_V20_DRAFT=ROOT/'translations/regiao-inicial-v020.json'
 REGION_V21_DRAFT=ROOT/'translations/regiao-inicial-v021.json'
 REGION_V22_DRAFT=ROOT/'translations/regiao-inicial-v022.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v023.json'
+REGION_V23_DRAFT=ROOT/'translations/regiao-inicial-v023.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v024.json'
 
 
 def unique_object(pairs):
@@ -88,15 +89,16 @@ def compile_draft(data,draft):
     if draft.get('schema')!=1 or draft.get('font_profile')!=PROFILE:
         raise ValueError('Unsupported pilot schema/font profile')
     policy=draft.get('reinsertion_policy',POLICY)
-    if policy not in (POLICY,NAMED_POLICY):raise ValueError('Unknown reinsertion policy')
-    named_choices=policy==NAMED_POLICY
+    if policy not in (POLICY,NAMED_POLICY,B15_POLICY):raise ValueError('Unknown reinsertion policy')
+    named_choices=policy in (NAMED_POLICY,B15_POLICY)
+    b15=policy==B15_POLICY
     targets=copy.deepcopy(draft['translations']);deferred=draft.get('deferred',{})
     if not isinstance(targets,dict) or not targets:raise ValueError('Empty draft')
     index=SsdIndex(data);selected=[]
     lo=int(draft['scope']['first_offset'],16);hi=int(draft['scope']['last_offset'],16)
     for at in sorted(index.records):
         if lo<=at<=hi and bytes(data[at:at+4]) in set(LAYOUTS)|{b'msg\0',b'msgn'}:
-            selected.append(descriptor(data,at,index,named_choices=named_choices))
+            selected.append(descriptor(data,at,index,named_choices=named_choices,b15=b15))
     by_id={e['id']:e for e in selected}
     aliases=dict(draft.get('aliases',{}))
     while aliases:
@@ -236,17 +238,25 @@ def build_iso(output,patches,layout_profile='spacing-v003'):
             'elf_profile':layout_profile,'layout_patch':layout_evidence,'visual_status':'pending_user_verification' if layout_evidence else 'assumed_by_user_pending_actual_test'}
 
 
+def select_layout_profile(draft,override=None):
+    selected=override or draft.get('layout_profile','spacing-v003')
+    if selected not in ('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'):raise ValueError('Unknown recipe layout profile')
+    if override and draft.get('layout_profile') and override!=draft['layout_profile']:raise ValueError('Layout override conflicts with bound recipe profile')
+    return selected
+
+
 def main():
     parser=argparse.ArgumentParser(description='Compilação local de lotes contextuais, sem APIs')
     parser.add_argument('--draft',type=Path,default=DEFAULT_DRAFT)
     parser.add_argument('--output',type=Path,default=ROOT/'work/pilotos'/f'{datetime.now():%Y%m%d-%H%M%S-%f}')
     parser.add_argument('--build-iso',action='store_true')
-    parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'),default='spacing-v003')
+    parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'),default=None)
     parser.add_argument('--iso-name',help='Optional experimental image name; never changes the saved recipe')
     args=parser.parse_args();output=local(args.output,True)
     draft_path=args.draft.resolve()
     if not draft_path.is_relative_to(ROOT):raise ValueError('Draft must be inside workspace')
     raw=draft_path.read_bytes();draft,sources=load_draft(draft_path)
+    layout_profile=select_layout_profile(draft,args.layout_profile)
     with SOURCE.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
         document,patches,report=compile_draft(data,draft)
     output.mkdir(parents=True)
@@ -254,7 +264,7 @@ def main():
     write_json(output/'rascunho.json',draft)
     report.update({'draft_sha256':hashlib.sha256(raw).hexdigest(),
                    'draft_sources':sources,
-                   'font_profile':PROFILE,'narrative_status':draft['status'],
+                   'font_profile':PROFILE,'layout_profile':layout_profile,'narrative_status':draft['status'],
                    'visual_status':'assumed_by_user_pending_actual_test'})
     if draft.get('terminology_policy'):
         policy_path=ROOT/draft['terminology_policy']
@@ -263,7 +273,7 @@ def main():
         name=args.iso_name or draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')
         if Path(name).name!=name or not name.startswith('MetalSaga-ptbr-') or not name.endswith('.iso'):
             raise ValueError('Invalid ISO name')
-        report['iso']=build_iso(output/name,patches,args.layout_profile)
+        report['iso']=build_iso(output/name,patches,layout_profile)
         report['iso']['image_name']=name
         report['visual_status']=report['iso']['visual_status']
     write_json(output/'relatorio.json',report)

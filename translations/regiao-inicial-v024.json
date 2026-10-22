@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v023.json",
+  "name": "regiao-inicial-v024",
+  "status": "cena de construcao de tanques; controle B15 preservado, validacao visual pendente",
+  "reinsertion_policy": "fixed-record-b15-preserved-slots-v006",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v024.iso",
+  "resume_deferred": [
+    "map.msg.1fd452f8",
+    "map.msg.1fd45694",
+    "map.msg.1fd457b4",
+    "map.msg.1fd45900",
+    "map.msg.1fd459bc",
+    "map.msg.1fd45a98",
+    "map.msg.1fd45c94",
+    "map.msg.1fd45e14",
+    "map.msg.1fd46320",
+    "map.msg.1fd46938",
+    "map.msg.1fd46b20",
+    "map.msg.1fd46f68",
+    "map.msg.1fd47520",
+    "map.msg.1fd47780",
+    "map.msg.1fd4788c",
+    "map.msg.1fd479a0",
+    "map.msg.1fd47a48",
+    "map.msg.1fd47e44",
+    "map.msg.1fd47ffc",
+    "map.msg.1fd4a76c",
+    "map.msg.1fd4a7dc",
+    "map.msg.1fd4aa10",
+    "map.msg.1fd4aae4",
+    "map.msg.1fd4ab58",
+    "map.msg.1fd4ad44",
+    "map.smsg.1fd45128",
+    "map.smsg.1fd46684",
+    "map.smsg.1fd46774",
+    "map.smsg.1fd46e88",
+    "map.smsg.1fd4701c",
+    "map.smsg.1fd4726c",
+    "map.smsg.1fd4a8d4"
+  ],
+  "reviewed_changes": [],
+  "translations": {
+    "map.smsg.1fd45128": {
+      "body": "%M-1_6%B$15!!\n%M0_4Que bom ver você de novo!\t%M0_5Estava louco por\numa chance de dizer\nseu apelido, %M-1_6%B$15!\t%M0_1O que faço por você\nhoje, %B$15?",
+      "choices": "Crie um tanque.\tConte mais...\tNada."
+    },
+    "map.msg.1fd452f8": {
+      "body": "Ah, já vai\nembora, %B$15?\tVolte quando quiser!\n%M0_4Somos amigos, afinal,\nnão é, %B$15?"
+    },
+    "map.msg.1fd45694": {
+      "body": "%B$15! %M0_5Uau, esse\nnome é a sua cara!\t%M0_1Vou chamar você assim\nde agora em diante!\tE chega de tanta\nformalidade, pois\nsomos amigos.\t%B$15! %M0_5Hahahaha,\nficou perfeito!"
+    },
+    "map.msg.1fd457b4": {
+      "body": "Hahahaha!\n%M0_4Oi, %B$15!\nComo vai o tanque?\t%M0_1Para ser sincero,\n%B$15, depois\nde montar seu tanque,\tpensei que nunca\nmais veria você.\tMas você não é assim,\nnão é, %B$15!?\nÉ um grande amigo!\t%M-1_6Hahahaha! Hahahaha!!\nHahahaha, hahaha, ha."
+    },
+    "map.msg.1fd45900": {
+      "body": "Hahahaha!\n%M0_4Oi, %B$15!\t%M0_1Lembre que devo\num favor: prometi\nmontar um tanque!\tBasta fazer\no projeto primeiro!\nOK, %B$15!?"
+    },
+    "map.msg.1fd459bc": {
+      "body": "Hahahaha!\n%M0_4Oi, %B$15!\t%M0_1Achou sucata\npor aí? Boa sorte\ncom isso!\tMal posso esperar\npara montar seu\ntanque, %B$15!"
+    },
+    "map.msg.1fd45a98": {
+      "body": "Hahahaha! O tanque é\nseu, %B$15!\nFaça o que quiser!"
+    },
+    "map.msg.1fd45c94": {
+      "body": "%B$15!\tA sucata que você\njuntou com tanto empenho\nfinalmente vai render!"
+    },
+    "map.msg.1fd45e14": {
+      "body": "Sinceramente,\n%B$15, como foi você\nquem projetou o tanque,\tnão faço ideia\ndo que vai acontecer!\tBem, %B$15,\nvamos descobrir...!\tPode ligar!"
+    },
+    "map.msg.1fd46320": {
+      "body": "Isso levava uma\neternidade, %B$15!\tHoje, basta\nvirar a chave e\npronto! Está feito!\tA ciência faz\nmaravilhas, não\nacha, %B$15!?\tBem, a minha ciência,\nao menos! Hahahaha!\tO tanque é seu,\n%B$15! Faça\no que quiser!"
+    },
+    "map.smsg.1fd46684": {
+      "body": "Hm? Quer fazer\num novo projeto,\n%B$15?",
+      "choices": "Começar do zero.\tEsqueça."
+    },
+    "map.smsg.1fd46774": {
+      "body": "Claro, %B$15!\nSomos amigos,\nnão é!?\tVou ajudar com prazer,\n%B$15!\tNão posso modificar\no tanque atual,\tmas fazer outro\nvai ser moleza!\tSó vou ter que usar\nseu tanque atual\ncomo sucata.\tTudo bem,\n%B$15?\tInfelizmente, todo\no equipamento dele\ntambém será destruído.",
+      "choices": "Tudo bem.\tEspere..."
+    },
+    "map.msg.1fd46938": {
+      "body": "Então, sem perder\ntempo, %B$15!\tMontar tanques é bom,\nmas explodir é\nmelhor ainda!\tLá vai...\tKABOOM!!"
+    },
+    "map.msg.1fd46b20": {
+      "body": "Vamos projetar\nseu tanque, %B$15!\tDeixe os detalhes\ncomigo!\tSó precisa dizer\no que prefere!\tAfinal, já sei\nque você não entende\nnada de tanques!\tDeixe que eu penso\nem tudo por você,\n%B$15!\tAmigo é para isso,\nnão é, %B$15!?\tVamos começar?"
+    },
+    "map.smsg.1fd46e88": {
+      "body": "Primeiro, escolha\num chassi, %B$15!\tNem ligue para o\ndesempenho: escolha\no nome mais legal!",
+      "choices": "Roulbel\tRommel\tAbrams\tType Zero\tLeopold"
+    },
+    "map.msg.1fd46f68": {
+      "body": "Vou escolher o C Unit\ne o motor para você,\n%B$15!\tPode trocá-los\nse não gostar deles!"
+    },
+    "map.smsg.1fd4701c": {
+      "body": "Vamos reforçar\nseu arsenal,\n%B$15!\tPosso equipar o tanque\ncom canhão principal,\narma secundária,\te um equipamento\nespecial.\tBasta dizer o que\nprefere, %B$15.\tPrimeiro, escolha\no canhão principal!",
+      "choices": "160mm Spark\t120mm SBG\t140mm SBG\t177mm Amorph\t205mm Cannon"
+    },
+    "map.smsg.1fd4726c": {
+      "body": "Por fim, %B$15,\nescolha um equipamento\nespecial.",
+      "choices": "Drill Gun\tCrispy Cannon\tSoprano Gun\tCyclone Cannon\tCIWS"
+    },
+    "map.msg.1fd47520": {
+      "body": "Boa sorte, %B$15!\tVai ter que suar\npara juntar\ntanta sucata!\tSe der as peças ao\nmeu assistente Thursday,\nguardaremos para você!\tMal posso esperar para\nmontar seu tanque, %B$15!\nVai ficar incrível!"
+    },
+    "map.msg.1fd47780": {
+      "body": "Hahahaha! Eu já\nsabia, %B$15!\tSabia que não ia querer\num tanque tão horrível...\nDigo, incomum!\tBem, %B$15,\nvamos começar\ntudo de novo!\tParece que dá\ntrabalho, mas não\nvai ser tão ruim."
+    },
+    "map.msg.1fd4788c": {
+      "body": "Hahahaha! Eu já\nsabia, %B$15!\tTeríamos que desmontar\nseu tanque, afinal!\tMas é melhor ele\nvirar sucata do que você,\nnão é, %B$15!?\tEntão, volte quando\nquiser transformar\nseu tanque por completo!"
+    },
+    "map.msg.1fd479a0": {
+      "body": "Desculpe, %B$15,\npode trazer de volta\no tanque que fizemos?\tVamos precisar dele\npara montar\noutro para você."
+    },
+    "map.msg.1fd47a48": {
+      "body": "Hahahaha! Eu já\nsabia, %B$15!\tTeríamos que desmontar\nseu tanque, afinal!\tMas é melhor ele\nvirar sucata do que você,\nnão é, %B$15!?\tEntão, volte quando\nquiser transformar\nseu tanque por completo!"
+    },
+    "map.msg.1fd47e44": {
+      "body": "%B$15! Uau, esse\nnome é a sua cara!\tVou chamar você assim\nde agora em diante!\tE chega de tanta\nformalidade, pois\nsomos amigos.\t%B$15! %M0_5Hahahaha,\nficou perfeito!"
+    },
+    "map.msg.1fd47ffc": {
+      "body": "Bem, %B$15!\nQue tal dar um nome\nao seu novo tanque!?"
+    },
+    "map.msg.1fd4a76c": {
+      "body": "Ei, %B$15, posso\nver isso um instante?"
+    },
+    "map.msg.1fd4a7dc": {
+      "body": "Falo do chip de\nmemória que você tem\naí, %B$15.\tHmmm... Parece uma\npeça para o C Unit!\tMas é bem melhor\nque a peça padrão.\tOnde achou isso!?"
+    },
+    "map.smsg.1fd4a8d4": {
+      "body": "Que tal deixar isso\ncomigo um pouco,\n%B$15?\tAcho que posso criar\num C Unit muito\neficiente com ele.\tClaro, vou devolver\nquando terminar.\nO que me diz?",
+      "choices": "Fechado!\tVou ficar com ele."
+    },
+    "map.msg.1fd4aa10": {
+      "body": "Hahaha, assim é que se fala!\tEspere aqui,\n%B$15! Vou\nterminar rapidinho!"
+    },
+    "map.msg.1fd4aae4": {
+      "body": "%B$15!\nEstá pronto, hahaha!\nPegue, é seu!"
+    },
+    "map.msg.1fd4ab58": {
+      "body": "Oi, %B$15!\nQue tal pegar aquele\nC Unit que fiz para você?\tSei que não vai estragar,\nmas não posso trabalhar\ncom ele aqui parado!"
+    },
+    "map.msg.1fd4ad44": {
+      "body": "Entendo. Que\npena!\tMas somos\namigos, %B$15,\nentão não vou insistir!"
+    }
+  }
+}

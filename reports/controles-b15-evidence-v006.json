@@ -1,0 +1,25 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "argument_reader": [
+    1792560,
+    1792720
+  ],
+  "b_handler": [
+    1793248,
+    1793324
+  ],
+  "dispatch_table": 3399008,
+  "allowed_token_hex": "2542243135",
+  "variable_index": 15,
+  "grammar": "B plus numeric argument reader: $15 loads uint32 at context+15*4",
+  "growth_allowed": false,
+  "mode": "slots",
+  "runtime_visual_status": "pending_manual_validation",
+  "schema": 1,
+  "policy": "fixed-record-b15-preserved-slots-v006",
+  "original_reference_immutable": true,
+  "argument_probe_test": "tests/test_control_b15.py",
+  "b_handler_validation": "original code hashes and dispatch target; no full engine emulation",
+  "eligible_cohort": 32,
+  "b15_records_with_other_blocks": 3
+}

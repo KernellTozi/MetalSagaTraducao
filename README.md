@@ -21,12 +21,12 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
 Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-7.231 registros localmente, sem gerar outra ISO. São 5.758 registros traduzidos e
-1.473 preservados, incluindo 258 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v023.json`, com herança dos
+7.231 registros localmente, sem gerar outra ISO. São 5.790 registros traduzidos e
+1.441 preservados, incluindo 226 adiados mantidos no original.
+O rascunho PT-BR está em `translations/regiao-inicial-v024.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
-abre a ISO consolidada com textos v023, fontes v002 e layout v005,
-confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v023.md).
+abre a ISO consolidada com textos v024, fontes v002 e layout v005,
+confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v024.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
@@ -68,3 +68,8 @@ abre uma cópia da v023 com métricas PT-BR v005, mantendo os mesmos textos e
 bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v005.md).
 O iniciador habitual também abre essa imagem corrigida. A aprovação cobre a cena
 testada; outros contextos continuam sujeitos a verificação.
+
+
+Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v024 retoma
+32 diálogos de construção de tanques com [B15 preservado](docs/controles-b15-v006.md),
+sem liberar os demais controles desconhecidos. A receita vincula o layout v005.

@@ -13,6 +13,7 @@ RESOURCE='DATA/MAP/MAP.MCT'
 SOURCE=ROOT/'JOGO/Metal Saga'/RESOURCE
 POLICY='fixed-record-segment-slots-or-proven-repack-v004'
 NAMED_POLICY='fixed-record-named-choice-slots-v005'
+B15_POLICY='fixed-record-b15-preserved-slots-v006'
 REPACK={b'msgn',b'smsg',b'2smg'}
 COPY_LIMITS={b'MC\0\0':31,b'SP\0\0':31,b'ST\0\0':31}
 
@@ -24,7 +25,10 @@ def local(path, new=False):
     return path
 
 
-def descriptor(data,at,index,*,named_choices=False):
+def descriptor(data,at,index,*,named_choices=False,b15=False):
+    tokenizer=tokens
+    if b15:
+        from control_b15 import tokenize as tokenizer
     if at not in index.records:raise ValueError('Offset não é uma instrução SSD comprovada')
     tag=bytes(data[at:at+4]); segments=[]; blocked=[]
     if tag in (b'msg\0',b'msgn'):
@@ -48,7 +52,7 @@ def descriptor(data,at,index,*,named_choices=False):
     for key,text,raw,offset,capacity,editable in fields:
         if any(c not in (9,10) and not 32<=c<=126 for c in raw):
             blocked.append('Origem com bytes nativos: preservação permitida, edição bloqueada')
-        _,opaque=tokens(raw)
+        _,opaque=tokenizer(raw)
         if opaque:blocked.append('Controle opaco: edição bloqueada')
         # Selection helper appends TWO NULs in its 256-byte temporary buffer.
         limit=254 if key=='choices' else COPY_LIMITS.get(tag)
@@ -83,8 +87,8 @@ def identity(entry):
     return result
 
 
-def control_check(before,after):
-    a,opaque_a=tokens(before);b,opaque_b=tokens(after)
+def control_check(before,after,tokenizer=tokens):
+    a,opaque_a=tokenizer(before);b,opaque_b=tokenizer(after)
     if opaque_a or opaque_b:raise ValueError('Sintaxe de controle não aprovada')
     if [x['hex'] for x in a]!=[x['hex'] for x in b]:raise ValueError('Controles, quebras ou escolhas alterados')
     # Preserve command adjacency and empty spans, including prefix/suffix commands.
@@ -97,8 +101,8 @@ def control_check(before,after):
     if empties(before,a)!=empties(after,b):raise ValueError('Posição de comandos ou spans vazios incompatíveis')
 
 
-def width_units(raw):
-    parts,_=tokens(raw);visible=bytearray();cursor=0
+def width_units(raw,tokenizer=tokens):
+    parts,_=tokenizer(raw);visible=bytearray();cursor=0
     for t in parts:
         at=t['relative_offset'];visible.extend(raw[cursor:at])
         if t['kind'] in ('page','line'):visible.extend(bytes.fromhex(t['hex']))
@@ -107,7 +111,10 @@ def width_units(raw):
     return [sum(2 if c in CHAR_TO_BYTES else 1 for c in line) for line in decode(bytes(visible)).replace('\t','\n').split('\n')]
 
 
-def compile_entry(data,entry,old):
+def compile_entry(data,entry,old,*,b15=False):
+    tokenizer=tokens
+    if b15:
+        from control_b15 import tokenize as tokenizer
     if identity(entry)!=identity(old):raise ValueError('Metadados, fonte ou bytes originais alterados')
     mode=entry.get('mode')
     if mode not in ('slots','repack'):raise ValueError('Modo de edição inválido')
@@ -116,6 +123,8 @@ def compile_entry(data,entry,old):
     if not changed:return None,{'status':'unchanged','id':old['id']}
     if old['blocked_reasons']:raise ValueError('; '.join(old['blocked_reasons']))
     output=bytearray.fromhex(old['header_hex']);raws=[];warnings=[]
+    limited=b15 and any(any(t['kind']=='preserved-b15-reference' for t in tokenizer(bytes.fromhex(s['source_hex']))[0]) for s in old['segments'])
+    if limited and mode!='slots':raise ValueError('B15 requires fixed slots')
     for new,src in zip(entry['segments'],old['segments']):
         text=new['translation']
         if not isinstance(text,str) or not text:raise ValueError('Tradução vazia ou inválida')
@@ -123,8 +132,9 @@ def compile_entry(data,entry,old):
         raw=bytes.fromhex(src['source_hex']) if text==src['source'] else encode(text)
         if text!=src['source']:
             if decode(raw)!=text:raise ValueError('Round-trip de Unicode falhou')
-            control_check(bytes.fromhex(src['source_hex']),raw)
-            if max(width_units(raw))>max(width_units(bytes.fromhex(src['source_hex']))):
+            control_check(bytes.fromhex(src['source_hex']),raw,tokenizer)
+            if limited and len(raw)>len(bytes.fromhex(src['source_hex'])):raise ValueError('B15: source byte budget exceeded')
+            if max(width_units(raw,tokenizer))>max(width_units(bytes.fromhex(src['source_hex']),tokenizer)):
                 warnings.append(f'{src["key"]}: linha mais larga; validação visual necessária')
         if src['runtime_byte_limit'] is not None and len(raw)>src['runtime_byte_limit']:
             raise ValueError('Limite do buffer de execução excedido')
@@ -180,9 +190,13 @@ def compile_batch(data,document,index=None,verify_source=True):
     if not isinstance(document,dict) or not isinstance(document.get('entries'),list):raise ValueError('Formato de lote inválido')
     if any(not isinstance(e,dict) or not isinstance(e.get('segments'),list) or any(not isinstance(s,dict) for s in e['segments']) for e in document['entries']):
         raise ValueError('Estrutura de registros/segmentos inválida')
-    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY) or document.get('resource')!=RESOURCE:
+    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY,B15_POLICY) or document.get('resource')!=RESOURCE:
         raise ValueError('Schema/política incompatível')
-    named_choices=document['policy']==NAMED_POLICY
+    named_choices=document['policy'] in (NAMED_POLICY,B15_POLICY)
+    b15=document['policy']==B15_POLICY
+    if b15:
+        from control_b15 import verify
+        b15_evidence=verify((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
     if named_choices:
         from investigate_named_choices import verify_elf,ORIGINAL_SHA
         evidence=verify_elf((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
@@ -193,8 +207,8 @@ def compile_batch(data,document,index=None,verify_source=True):
         try:
             at=entry['offset']
             if at in seen:raise ValueError('ID/offset duplicado no lote')
-            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices)
-            patch,result=compile_entry(data,entry,old)
+            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices,b15=b15)
+            patch,result=compile_entry(data,entry,old,b15=b15)
             results.append(result)
             if patch:patches.append(patch)
         except (ValueError,KeyError,TypeError,UnicodeError) as error:
@@ -213,6 +227,7 @@ def compile_batch(data,document,index=None,verify_source=True):
     if named_choices:
         report['named_choice_evidence']={'elf_sha256':ORIGINAL_SHA,'instruction_assertions':len(evidence),
             'named_slots_only':True,'label_and_tail_immutable':True,'runtime_visual_status':'pending_manual_validation'}
+    if b15:report['b15_evidence']=b15_evidence
     return (patches if valid else []),report
 
 

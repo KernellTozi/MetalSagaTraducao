@@ -342,3 +342,8 @@ históricas ou os demais textos do catálogo.
 ## Escolhas nomeadas v023
 
 Preservar categorias de quarto, quantidades, calibres (37, 50 e 75 mm) e diferenças de resposta afirmativa, negativa ou hesitante. Manter MC Hamir, Gluteus Maximism, BD/CS Plant e Big Medals. Catedral Muscular segue o uso anterior. Junkyard como cidade permanece em inglês; sucata é o material. Rótulos da terceira string não são traduzidos nesta política.
+
+
+## Construção de tanques v024
+
+Preservar Thursday, C Unit, chassis e armas com nomes próprios. Scrap metal continua sucata; blueprints e design referem-se ao projeto do tanque. A referência `%B$15` permanece literal na receita, resolvida em execução; não substituir por nome/apelido fixo. A reforma deve deixar explícito que o tanque anterior vira matéria-prima e que todo o equipamento nele será destruído. Preservar as risadas e o tom expansivo do interlocutor.

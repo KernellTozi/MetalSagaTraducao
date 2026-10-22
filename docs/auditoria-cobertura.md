@@ -60,3 +60,8 @@ classificação de sintaxes não promove registros nem concede aprovação de ed
 ## Atualização v023
 
 A política opt-in de escolhas nomeadas reduz os adiamentos de 349 para 258: 244 registros com controles opacos e 14 com bytes nativos. São 5.758 alterados; continuam 599 de controles/pontuação, 458 sugestões de nomes/expressões e 158 preservados a revisar. As sugestões não são aprovações automáticas. Rótulos de escolhas permanecem em inglês por proteção estrutural.
+
+
+## Atualização v024
+
+São 5.790 alterados, 226 adiados, 599 controles/pontuação, 458 candidatos a nomes/expressões e 158 preservados a revisar. A política B15 retoma 32 casos; os adiamentos restantes são 212 opacos e 14 nativos. A auditoria seleciona o lexer da política declarada, para não continuar contando B15 como opaco nos casos que também possuem outros bloqueios. A classificação não autoriza edição desses outros controles.

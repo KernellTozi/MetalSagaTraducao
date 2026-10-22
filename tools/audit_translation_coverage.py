@@ -15,9 +15,9 @@ from translation_policy import POLICY_PATH
 CLASSES=('modified','deferred','controls_or_punctuation','name_or_expression_candidate','review_unchanged')
 
 
-def visible(segment):
+def visible(segment,tokenizer=tokens):
     raw=bytearray.fromhex(segment['source_hex'])
-    controls,opaque=tokens(raw)
+    controls,opaque=tokenizer(raw)
     if opaque:raise ValueError('Opaque controls require explicit deferral')
     for token in controls:
         at=token['relative_offset'];size=len(bytes.fromhex(token['hex']))
@@ -25,10 +25,10 @@ def visible(segment):
     return re.sub(r'\s+',' ',decode(bytes(raw))).strip()
 
 
-def classify(entry,deferred,policy):
+def classify(entry,deferred,policy,tokenizer=tokens):
     if entry['id'] in deferred:return 'deferred'
     if any(s['source']!=s['translation'] for s in entry['segments']):return 'modified'
-    parts=[visible(s) for s in entry['segments'] if s['editable']]
+    parts=[visible(s,tokenizer) for s in entry['segments'] if s['editable']]
     if not parts: return 'review_unchanged'
     if not any(any(c.isalpha() for c in p) for p in parts):return 'controls_or_punctuation'
     sensitive=set(policy.get('case_sensitive_names',[]))
@@ -44,6 +44,10 @@ def classify(entry,deferred,policy):
 def audit(document,report,policy):
     if not report.get('valid') or report.get('refused')!=0:raise ValueError('Use a valid compiled lot')
     if document['source_sha256']!=report['source_sha256']:raise ValueError('Source hash mismatch')
+    tokenizer=tokens
+    from reinsertion import B15_POLICY
+    if document.get('policy')==B15_POLICY:
+        from control_b15 import tokenize as tokenizer
     entries=document['entries'];ids=[e['id'] for e in entries]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate record ID')
     deferred={e['id'] for e in report['deferred']}
@@ -51,14 +55,14 @@ def audit(document,report,policy):
     counts=Counter({c:0 for c in CLASSES});rows=[]
     by_tag=Counter();by_reason=Counter();syntax=Counter();syntax_records={}
     for e in entries:
-        status=classify(e,deferred,policy);counts[status]+=1
+        status=classify(e,deferred,policy,tokenizer);counts[status]+=1
         rows.append({'class':status,'entry':e})
         if status=='deferred':
             parts=e['id'].split('.')
             by_tag[parts[1] if len(parts)>1 else 'unknown']+=1
             by_reason.update(e.get('blocked_reasons',[]))
             for segment in e['segments']:
-                controls,_=tokens(bytes.fromhex(segment['source_hex']))
+                controls,_=tokenizer(bytes.fromhex(segment['source_hex']))
                 for token in controls:
                     if token['kind']!='opaque-percent':continue
                     text=bytes.fromhex(token['hex']).decode('ascii')
