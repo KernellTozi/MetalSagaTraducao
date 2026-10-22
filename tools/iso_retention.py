@@ -1,4 +1,4 @@
-"""Limit generated work ISOs; never delete references, links or recovery images."""
+"""Keep the ten newest generated work ISOs; preserve originals and recovery state."""
 import argparse
 import json
 import os
@@ -8,9 +8,8 @@ import time
 ROOT=Path(__file__).resolve().parents[1]
 WORK=ROOT/'work'
 ORIGINAL=ROOT/'JOGO/Metal Saga.iso'
-PINNED=(WORK/'desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso',
-        WORK/'MetalSaga-ptbr-experimento.iso',
-        WORK/'MetalSaga-ptbr-acentos-v001.iso')
+# User policy: experiments participate in the same chronological retention queue.
+PINNED=()
 
 
 def images_without_links(root):

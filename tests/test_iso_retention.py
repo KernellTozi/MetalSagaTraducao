@@ -39,3 +39,12 @@ class RetentionTests(unittest.TestCase):
         self.image(0,'personal.iso');self.image(1,'reference.iso')
         with self.assertRaises(ValueError):prune(self.root,limit=1,pinned=())
         self.assertEqual(len(list(self.root.glob('*.iso'))),2)
+
+    def test_default_policy_does_not_pin_historical_experiments(self):
+        old=self.image(0,'MetalSaga-ptbr-experimento.iso')
+        new=self.image(1)
+        result=plan(self.root,limit=1)
+        self.assertEqual(result['pinned_paths'],[])
+        self.assertEqual([p['path'] for p in result['delete']],[str(old)])
+        self.assertTrue(old.exists())
+        self.assertTrue(new.exists())
