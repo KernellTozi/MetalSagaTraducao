@@ -35,5 +35,14 @@ class RefinedTests(unittest.TestCase):
                     self.assertTrue(core)
                     self.assertLess(max(y for x,y in core),font.side)
 
+    def test_every_refined_glyph_fits_existing_ascii_width(self):
+        for name in ('SUC20I22.GFI','SUC24I26.GFI'):
+            font=Gfi((ROOT/'JOGO/Metal Saga/DATA/SYS'/name).read_bytes())
+            width=font.side//2+2
+            for char in CHAR_TO_BYTES:
+                pixels=accented_pixels(font,char)
+                self.assertFalse(any(v for i,v in enumerate(pixels) if i%font.side>=width),
+                                 f'{name}: {char} would be horizontally cropped')
+
 
 if __name__=='__main__':unittest.main()

@@ -4946,7 +4946,7 @@
       "lba": 819581
     }
   ],
-  "visual_status": "pending_user_verification",
+  "visual_status": "user_reported_improved_glyph_design_but_excessive_spacing",
   "native_accent_support": false,
   "glyph_style": "v002 native-position bodies, stronger diacritics, core-anchored cedilla",
   "limitations": [
@@ -4956,5 +4956,6 @@
   ],
   "unit_tests_passed": 66,
   "atlas_inspected": true,
-  "pcsx2_executed_by_codex": false
+  "pcsx2_executed_by_codex": false,
+  "visual_evidence": "User screenshot and feedback: glyph shapes improved; spacing still very wrong. No overall typography approval."
 }

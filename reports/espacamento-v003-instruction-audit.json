@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "window_start": 1669500,
+  "window_end_exclusive": 1669628,
+  "original_window_sha256": "f767e2885d654c47501d9477398b5bdb011afdb7912ea89403547e0f35d99760",
+  "replacement_window_sha256": "bbd1bacbcf74ea305c524422693db07506224460eef5974adc408fdbed89e487",
+  "codes_compared": 65536,
+  "changed_codes": [
+    "8240",
+    "8241",
+    "8242",
+    "8243",
+    "8244",
+    "8245",
+    "8246",
+    "8247",
+    "8248",
+    "8249",
+    "824a",
+    "824b",
+    "824c",
+    "824d",
+    "824e",
+    "8259",
+    "825a",
+    "825b"
+  ],
+  "native_codes_unchanged": 65518,
+  "lookup_arguments_identical": true,
+  "other_cache_bits_identical": true,
+  "external_direct_entries": [],
+  "runtime_validated": false,
+  "limitations": [
+    "Instruction-window interpreter with stubbed glyph lookup, not a PS2 emulator",
+    "Existing indirect jump-table entries remain; direct scan is not proof against all indirect references",
+    "No claim about all higher-level line measuring, dynamic controls or fonts"
+  ],
+  "reproduce": "python tools/validate_glyph_spacing.py --output NEW_PROJECT_REPORT.json"
+}

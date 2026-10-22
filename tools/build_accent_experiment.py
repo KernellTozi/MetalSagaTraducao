@@ -40,7 +40,7 @@ def message_patch(data,offset,expected,replacement):
 
 def create(output,report,profile='v001'):
     composer=font_patches
-    if profile=='v002':
+    if profile in ('v002','v003'):
         from gfi_refined import font_patches as composer
     elif profile!='v001':raise ValueError('Unknown font profile')
     output=output.resolve();report=report.resolve()
@@ -57,7 +57,7 @@ def create(output,report,profile='v001'):
     with (reference/name).open('rb') as f,mmap.mmap(f.fileno(),0,access=mmap.ACCESS_READ) as data:
         if hashlib.sha256(data).hexdigest()!=inventory[name]['sha256']:raise ValueError('MAP reference changed')
         group_a,group_b=GROUP_A,GROUP_B
-        if profile=='v002':
+        if profile in ('v002','v003'):
             group_a='Teste expandido:\nMesmo registro'
             group_b='%F1%M0_5Teste: a\u00e7\u00e3o.\n\u00e1 \u00e9 \u00ed \u00f3 \u00fa\n\u00c7 \u00c1 \u00c9 \u00c3 \u00d5\t'+SECOND_SOURCE.split('\t',1)[1]
         messages=[message_patch(data,PILOT_OFFSET,PILOT_SOURCE,group_a),message_patch(data,SECOND_OFFSET,SECOND_SOURCE,group_b)]
@@ -80,6 +80,9 @@ def create(output,report,profile='v001'):
                       'cell_side':font.side,'glyph_stride':font.stride,'row_23_offset':font.rows[2],
                       'blank_columns_before':font.blank_columns(),'ascii_bank_identical':True,
                       'glyph_edits':[{k:p[k] for k in ('offset','character','bytes','jis')} for p in patches]})
+    if profile=='v003':
+        from glyph_spacing import elf_patch
+        resources.append({'path':'SLUS_212.93','patches':[elf_patch(elf.read_bytes())]})
     iso=ROOT/'JOGO/Metal Saga.iso';absolute=[]
     with iso.open('rb') as f:
         original_directory=entries(f)
@@ -105,18 +108,27 @@ def create(output,report,profile='v001'):
                        'encoding':'project PT-BR extension using engine SJIS-shaped byte pairs; not standard CP932',
                        'messages':[{k:v for k,v in p.items() if k not in ('before','after')} for p in messages],
                        'mapping':[{'character':c,'unicode':f'U+{ord(c):04X}','bytes':b.hex(' '),'jis':f'{sjis_to_jis(int.from_bytes(b,"big")):04x}'} for c,b in CHAR_TO_BYTES.items()],
-                       'fonts':fonts,'iso_directory_identical':True,'elf_identical':True,
+                       'fonts':fonts,'iso_directory_identical':True,'elf_identical':profile!='v003',
                        'resource_extents':[{'path':r['path'],'lba':r['lba']} for r in resources],
                        'visual_status':'pending_user_verification','native_accent_support':False,
-                       'glyph_style':'experimental composites of native base letters with added diacritics',
-                       'limitations':['new accents use full-width glyph advance','optical spacing not yet validated','no mass accented translation authorized by this experiment']})
+                       'glyph_style':'v001 experimental composites' if profile=='v001' else 'v002 refined native letter composites',
+                       'limitations':(['new accents use full-width glyph advance'] if profile!='v003' else ['experimental ELF cache-width patch; in-game validation pending'])+['optical spacing not yet validated','no mass accented translation authorized by this experiment']})
+    if profile=='v003':
+        from glyph_spacing import START,END,WINDOW_SHA
+        validation['spacing_patch']={'file_start':START,'file_end_exclusive':END,
+            'original_window_sha256':WINDOW_SHA,'same_size':True,
+            'scope':'cache bit 0 for exactly 18 project pairs; bitmap lookup retains original code',
+            'expected_widths':{'22px_cell':13,'26px_cell':15},
+            'differential_test_command':'python -m unittest discover -s tests -p test_glyph_spacing.py',
+            'runtime_validated':False}
     partial.rename(output);report.parent.mkdir(parents=True,exist_ok=True)
     report.write_text(json.dumps(validation,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
-    print(f'Built {output}; {len(validation["changed_iso_offsets"])} changed bytes; original ELF and ASCII bank preserved')
+    elf_status='ELF changed only in declared experimental window' if profile=='v003' else 'original ELF preserved'
+    print(f'Built {output}; {len(validation["changed_iso_offsets"])} changed bytes; {elf_status}; ASCII bank preserved')
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,default=ROOT/'work/MetalSaga-ptbr-acentos-v001.iso');parser.add_argument('--report',type=Path,default=ROOT/'reports/acentos-v001-validation.json')
-    parser.add_argument('--profile',choices=('v001','v002'),default='v001')
+    parser.add_argument('--profile',choices=('v001','v002','v003'),default='v001')
     args=parser.parse_args();create(args.output,args.report,args.profile)
 
 if __name__=='__main__':main()
