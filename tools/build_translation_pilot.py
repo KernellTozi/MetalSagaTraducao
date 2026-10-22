@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import shutil
 import sys
+import copy
 from datetime import datetime
 
 from reinsertion import ROOT,SOURCE,RESOURCE,POLICY,descriptor,source_hash,compile_batch,local
@@ -23,23 +24,70 @@ from build_dialogue_iso import compare_streams,ORIGINAL_ISO_SHA256
 
 DRAFT=ROOT/'translations/piloto-inicial-v001.json'
 PROFILE='spacing-v003-assumed-by-user-not-visually-confirmed'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v002.json'
+
+
+def load_draft(path,chain=()):
+    path=Path(path).resolve()
+    if not path.is_relative_to(ROOT) or path in chain or len(chain)>=8:
+        raise ValueError('Draft outside project or circular inheritance')
+    raw=path.read_bytes();child=json.loads(raw.decode('utf-8-sig'));sources=[]
+    if 'extends' in child:
+        base,sources=load_draft(path.parent/child['extends'],chain+(path,))
+        draft={**base,**child}
+        for key in ('translations','deferred','aliases'):
+            draft[key]={**base.get(key,{}),**child.get(key,{})}
+    else:draft=child
+    draft.pop('extends',None)
+    sources.append({'path':path.relative_to(ROOT).as_posix(),'sha256':hashlib.sha256(raw).hexdigest()})
+    return draft,sources
 
 
 def compile_draft(data,draft):
     if draft.get('schema')!=1 or draft.get('font_profile')!=PROFILE:
         raise ValueError('Unsupported pilot schema/font profile')
-    targets=draft['translations']
+    targets=copy.deepcopy(draft['translations']);deferred=draft.get('deferred',{})
     if not isinstance(targets,dict) or not targets:raise ValueError('Empty draft')
     index=SsdIndex(data);selected=[]
     lo=int(draft['scope']['first_offset'],16);hi=int(draft['scope']['last_offset'],16)
     for at in sorted(index.records):
         if lo<=at<=hi and bytes(data[at:at+4]) in set(LAYOUTS)|{b'msg\0',b'msgn'}:
             selected.append(descriptor(data,at,index))
-    if len(selected)!=draft['scope']['records'] or {e['id'] for e in selected}!=set(targets):
+    by_id={e['id']:e for e in selected}
+    aliases=dict(draft.get('aliases',{}))
+    while aliases:
+        ready=[key for key,value in aliases.items() if value in targets]
+        if not ready:raise ValueError('Unresolved/circular translation alias')
+        for key in ready:
+            parent=aliases.pop(key)
+            if key in targets or key not in by_id or parent not in by_id:
+                raise ValueError('Invalid alias identity')
+            if [(s['key'],s['source']) for s in by_id[key]['segments']]!=[(s['key'],s['source']) for s in by_id[parent]['segments']]:
+                raise ValueError('Translation reuse requires identical source segments')
+            targets[key]=copy.deepcopy(targets[parent])
+    if set(targets)&set(deferred) or any(not isinstance(v,str) or not v.strip() for v in deferred.values()):
+        raise ValueError('Invalid deferred record/reason')
+    if len(selected)!=draft['scope']['records'] or set(by_id)!=set(targets)|set(deferred):
         raise ValueError('Draft does not exactly cover the declared scene interval')
+    terminology=[]
     for entry in selected:
-        if len(entry['segments'])!=1:raise ValueError('Pilot expects single-segment records')
-        entry['segments'][0]['translation']=targets[entry['id']]
+        if entry['id'] in deferred:continue
+        value=targets[entry['id']]
+        editable=[s for s in entry['segments'] if s['editable']]
+        if isinstance(value,str):
+            if len(editable)!=1:raise ValueError('Multi-segment target requires explicit keys')
+            value={editable[0]['key']:value}
+        if not isinstance(value,dict) or set(value)!={s['key'] for s in editable}:
+            raise ValueError('Missing segment or attempted protected-label edit')
+        for segment in editable:
+            segment['translation']=value[segment['key']]
+            if draft.get('terminology_policy'):
+                if draft['terminology_policy']!='translations/politica.json':raise ValueError('Unknown terminology policy')
+                from translation_policy import validate
+                if not isinstance(segment['translation'],str):raise ValueError('Invalid translation')
+                if segment['translation']!=segment['source']:
+                    terminology.extend({'id':entry['id'],'segment':segment['key'],'reason':reason}
+                                       for reason in validate(segment['source'],segment['translation']))
     document={'schema':1,'policy':POLICY,'resource':RESOURCE,'source_sha256':source_hash(data),
               'catalog_version':'v003','entries':selected}
     patches,report=compile_batch(data,document,index)
@@ -47,9 +95,15 @@ def compile_draft(data,draft):
     # validates headers, controls, lengths and structural shadow parsers.
     for patch in patches:
         entry=next(e for e in selected if e['id']==patch['id'])
-        start=entry['segments'][0]['offset']-entry['offset']
-        target=patch['after'][start:].split(b'\0',1)[0]
-        if decode(target)!=targets[entry['id']]:raise ValueError('Pilot readback differs')
+        for segment in entry['segments']:
+            start=segment['offset']-entry['offset']
+            target=patch['after'][start:].split(b'\0',1)[0]
+            if target!=(bytes.fromhex(segment['source_hex']) if segment['translation']==segment['source'] else encode(segment['translation'])):
+                raise ValueError('Pilot readback differs')
+    report['deferred']=[{'id':key,'reason':value} for key,value in deferred.items()]
+    report['terminology_issues']=terminology
+    report['terminology_refused_records']=len({issue['id'] for issue in terminology})
+    if terminology:report['valid']=False;patches=[]
     return document,patches,report
 
 
@@ -97,6 +151,8 @@ def build_iso(output,patches):
     if any(a['offset']+len(a['before'])>b['offset'] for a,b in zip(absolute,absolute[1:])):
         raise ValueError('Overlapping patches')
     partial=output.with_suffix('.iso.partial')
+    from iso_retention import prune
+    retention=prune(reserve=1)
     with original.open('rb') as src,partial.open('xb') as dst:
         shutil.copyfileobj(src,dst,1024*1024)
     with partial.open('r+b') as dst:
@@ -111,37 +167,46 @@ def build_iso(output,patches):
         if entries(dst)!=directory:raise ValueError('ISO directory changed')
     if validation['source_iso_sha256']!=ORIGINAL_ISO_SHA256:raise ValueError('Original ISO hash differs')
     partial.rename(output)
-    return {**validation,'iso_directory_identical':True,'fonts':fonts,
+    return {**validation,'iso_directory_identical':True,'fonts':fonts,'retention':retention,
             'elf_profile':'spacing-v003','visual_status':'assumed_by_user_pending_actual_test'}
 
 
 def main():
-    parser=argparse.ArgumentParser(description='Piloto local da cena inicial, sem APIs')
-    parser.add_argument('--draft',type=Path,default=DRAFT)
+    parser=argparse.ArgumentParser(description='Compilação local de lotes contextuais, sem APIs')
+    parser.add_argument('--draft',type=Path,default=DEFAULT_DRAFT)
     parser.add_argument('--output',type=Path,default=ROOT/'work/pilotos'/f'{datetime.now():%Y%m%d-%H%M%S-%f}')
     parser.add_argument('--build-iso',action='store_true')
     args=parser.parse_args();output=local(args.output,True)
     draft_path=args.draft.resolve()
     if not draft_path.is_relative_to(ROOT):raise ValueError('Draft must be inside workspace')
-    raw=draft_path.read_bytes();draft=json.loads(raw.decode('utf-8-sig'))
+    raw=draft_path.read_bytes();draft,sources=load_draft(draft_path)
     with SOURCE.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
         document,patches,report=compile_draft(data,draft)
     output.mkdir(parents=True)
     write_json(output/'plano.json',document)
     write_json(output/'rascunho.json',draft)
     report.update({'draft_sha256':hashlib.sha256(raw).hexdigest(),
+                   'draft_sources':sources,
                    'font_profile':PROFILE,'narrative_status':draft['status'],
                    'visual_status':'assumed_by_user_pending_actual_test'})
+    if draft.get('terminology_policy'):
+        policy_path=ROOT/draft['terminology_policy']
+        report['terminology_policy_sha256']=hashlib.sha256(policy_path.read_bytes()).hexdigest()
     if report['valid'] and args.build_iso:
-        report['iso']=build_iso(output/'MetalSaga-ptbr-piloto-inicial-v001.iso',patches)
+        name=draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')
+        if Path(name).name!=name or not name.startswith('MetalSaga-ptbr-') or not name.endswith('.iso'):
+            raise ValueError('Invalid ISO name')
+        report['iso']=build_iso(output/name,patches)
     write_json(output/'relatorio.json',report)
     with (output/'revisao.jsonl').open('x',encoding='utf-8') as stream:
         for e,r in zip(document['entries'],report['results']):
             source=e['segments'][0]['source'];target=e['segments'][0]['translation']
             stream.write(json.dumps({'id':e['id'],'block_offset':e['block_offset'],
                 'source':source,'translation':target,'validation':r,
+                'segments':e['segments'],
                 'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
-    print(f"{report['accepted']} translated, {report['unchanged']} unchanged, {report['refused']} refused. {output}")
+    print(f"Traduzidos: {report['accepted']}; preservados: {report['unchanged']}; recusados: {report['refused']}. {output}")
+    if report['terminology_issues']:print('Lote bloqueado por violações de terminologia; consulte o relatório.')
     if not report['valid']:raise SystemExit(2)
 
 

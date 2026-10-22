@@ -139,6 +139,8 @@ def initialize():
         if prior.get('generation')!=0 or prior.get('patches') or (ROOT/prior['image']).resolve()!=IMAGE.resolve():
             raise ValueError('Estado pré-existente não é uma inicialização interrompida')
     partial=IMAGE.with_suffix('.iso.partial')
+    from iso_retention import prune
+    prune(reserve=1)
     if partial.exists():
         # Resume only after every existing prefix byte matches the immutable ISO.
         with exclusive(partial) as dst,ORIGINAL.open('rb') as src:

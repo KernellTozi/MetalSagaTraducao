@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "protected_terms": ["Hunter", "Soldier", "punk", "upgrade", "LOVE machine"],
+  "protected_names": ["Nina", "Eddy", "Emily", "Nikolai", "Rachel", "McKinley", "Scarlet", "Red Fox", "Dr. Mortem", "Igor", "Shiny", "Newfolk", "Junkyard", "Satcom", "Gibson"],
+  "preserve_expressions": ["Hmph", "Hmm", "Hmmmm", "hump", "Ha ha", "Hahaha", "Hee hee", "Eee hee hee", "Eee hee hee hee", "Heh", "heh", "Awww", "Aha", "Whoa whoa whoa", "yeah"],
+  "forbidden_targets": [],
+  "required_translations": {"junk": "sucata"},
+  "notes": [
+    "Preservar nomes de personagens, tanques, procurados/wanted e inimigos com nomes não genéricos.",
+    "Preservar nomes únicos de equipamentos, motores, armas e componentes; adiar tradução de itens ou inimigos se o espaço causar dificuldade.",
+    "Preservar cidades; locais genéricos podem ser traduzidos, mas a primeira cidade fica em inglês.",
+    "Junkyard é mantido como nome próprio; junk como material vira sucata.",
+    "Lista explícita não é reconhecimento automático completo de entidades; conferir contexto e ampliar nomes conforme forem encontrados.",
+    "Naturalidade e contexto têm prioridade sobre tradução literal; não omitir artigos ou mutilar português para caber.",
+    "Ações entre asteriscos e expressões de riso/interjeição listadas devem ser preservadas."
+  ]
+}

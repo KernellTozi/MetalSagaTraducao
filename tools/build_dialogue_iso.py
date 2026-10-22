@@ -47,6 +47,8 @@ def main():
             raise ValueError('ISO MAP.MCT does not match extracted reference')
     absolute=[{**patch,'offset':extent['lba']*SECTOR+patch['offset']} for patch in patches]
     partial=output.with_suffix('.iso.partial');output.parent.mkdir(parents=True,exist_ok=True)
+    from iso_retention import prune
+    prune(reserve=1)
     # Exclusive creation also protects previous incomplete experiments.
     with iso.open('rb') as src,partial.open('xb') as dst:shutil.copyfileobj(src,dst,1024*1024)
     with partial.open('r+b') as f:

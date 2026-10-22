@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "extends": "piloto-inicial-v001.json",
+  "name": "Região inicial — lote consolidado v002",
+  "status": "rascunho contextual em escala ampliada; revisão visual pendente",
+  "font_profile": "spacing-v003-assumed-by-user-not-visually-confirmed",
+  "terminology_policy": "translations/politica.json",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v002.iso",
+  "scope": {
+    "first_offset": "1df47f0c",
+    "last_offset": "1df4dfec",
+    "records": 98
+  },
+  "deferred": {
+    "map.smnn.1df49f00": "Terceira string ainda não liberada para edição",
+    "map.smsg.1df4c1ec": "Controle de preço opaco, preservado integralmente",
+    "map.smsg.1df4d28c": "Nome dinâmico e preço com controles opacos",
+    "map.smsg.1df4d364": "Nome dinâmico e preço com controles opacos",
+    "map.smsg.1df4d5cc": "Preço com controle opaco",
+    "map.smsg.1df4d6a8": "Preço com controle opaco"
+  },
+  "translations": {
+    "map.msg.1df47f0c": "Você quer mesmo ser um\nHunter?",
+    "map.msg.1df48f8c": "%M0_7*sigh* %W5...Eu devia\nsaber. Faça o que\nquiser...%W5\t%M0_4(Ah%W5, de quem será\nque ele puxou essa\nteimosia%W5...?)\t%M0_1%F3Se é sério, %W5então\nvocê precisa achar\num veículo.\tA única coisa que\nHunters sem veículo acham é\n%W5problema.\t%F0%W5...%W5Sabe onde fica\no Posto Hunter?\tVá lá primeiro...\nFica na diagonal,\nem frente daqui.\tAo menos compre\nequipamento, querido. Sua mãe\nse preocupa com você.\tA loja fica ao lado\ne tem uma placa;\nnão tem como errar.\tE fale com Nikolai\nse for a\nNewfolk...\tEle é um ótimo mecânico\ne pode ensinar\nalgumas coisas.\tNewfolk fica bem longe,\na nordeste daqui.",
+    "map.msgn.1df49e5c": "Ei, Eddy! %W3Ainda bem\nque não saiu.%W3\t%M0_1Quando venho, você\njá foi embora%W3...%W3...\n%F0Huh?%W5",
+    "map.msgn.1df49fb4": "Uh%W3, o quê? %W3Ah! Você\né o filho dele! %F0Ei%W3, foi mal\npela confusão.\tVocê é a cara\ndo seu pai. Já lhe\ndisseram isso?\tHeh... Como se um\nhomem adulto pudesse\nencolher! %F1Ha ha!",
+    "map.msg.1df4a0a8": "Meu nome é McKinley.\nPode me chamar\nde aventureiro...\tViajo pelo mundo\nsozinho, mas passo\npor aqui sempre\tque posso. %W3Mas, como\neu já esperava, ele\nnão está hoje.\tEddy está bem,\nnão está?\tLembro de você\nainda bebê,%W5 heh,%W3 como\nvocê cresceu.\tVirou Hunter\ncomo seu pai,\nhein?\t%W3Devemos nos encontrar\noutra hora.%W5 Boa sorte\naté lá, garoto%W5!",
+    "map.msgn.1df4a294": "Sério!? %W3Que\nproblema.%W5 Será que\nfoi algo que comeu?\t%W3...%W3Estou brincando%W5.\nHomem adulto não\nencolhe assim.\t%W5%F1Hahaha!\tEi%W3, foi mal%W3.\nAchei mesmo que\nfosse seu pai.",
+    "map.msgn.1df4a724": "Eh%W5? E aí, garoto%W3?\n%W2...Huh?",
+    "map.msgn.1df4a774": "%P0Hmmmm%W3...%W10%P1",
+    "map.msgn.1df4a7b4": "%P0%W2Entendo%W3...%W10%P1",
+    "map.msgn.1df4a7f8": "%P0Sim%W3, entendi.%W15%P1",
+    "map.msg.1df4a840": "......?",
+    "map.msgn.1df4a868": "Você é Hunter, né?\nEr... acabou de\nvirar um%W5. Certo?",
+    "map.msg.1df4a8f0": "%W3...%W2...%W5",
+    "map.msgn.1df4a940": "%W5Huh, o que foi?\nEssa cara de\nlobo solitário?",
+    "map.msg.1df4a99c": "...Huh? Nem achei\nque estava encarando.\tDeve ter imaginado.",
+    "map.msgn.1df4aa00": "%W2...%W3...%W5Tanto faz.",
+    "map.msg.1df4aa64": "Sou Scarlet, mas\nme conhecem como\nRed Fox...\tSou Hunter, como você.\nBem... Não como você,\nyeah...",
+    "map.msg.1df4aafc": "......",
+    "map.msg.1df4ab24": "Awww, conheço esse\nolhar inocente de\nquem está começando.\tNovatos são tão fofos.",
+    "map.msg.1df4aba0": "...Mas vejo fogo\nnos seus olhos.\tVocê será bem forte\num dia...\n%W2...%W3Hee hee.",
+    "map.msg.1df4ac40": "Não perca tempo\nnum lugar como\neste, garoto.\tVá ganhar algum\ndinheiro, vai?",
+    "map.msg.1df4acc4": "(Como assim,\n'lugar como este...%W2?%W3')",
+    "map.msg.1df4ad3c": "Ei, garoto!",
+    "map.msg.1df4add8": "Posso ensinar o básico\nda vida de Hunter,\nse precisar.",
+    "map.sel.1df4ae98": "Seria ótimo!\tEu me viro sozinho.",
+    "map.msg.1df4afb8": "Gosto de quem\ncolabora assim.\tDepois mando dicas\npara consultar\nno seu Satcom.\tAgora tenho muito\no que fazer.\nAté mais.",
+    "map.msg.1df4b08c": "Ah, não seja assim.\nNão ia andar\natrás de você.\t(Tenho muito\nmais o que fazer\ndo que isso.)\tDepois mando dicas\npara seu Satcom.\tMas agora estou\nbem ocupada.\nAté mais, garoto.",
+    "map.smsg.1df4b3fc": {
+      "body": "Aha! Trouxe cadáveres\nsaborosos hoje?",
+      "choices": "Mostrar cadáver.\tConversar.\tDar de ombros e sair."
+    },
+    "map.msg.1df4b4d8": "O-O quê!? Onde está?\nMostre!",
+    "map.SP.1df4b520": "Quem será revivido?",
+    "map.msg.1df4b640": "Eee hee hee... Que\nbelo espécime.\nVai funcionar!",
+    "map.msg.1df4b6d0": "Hm, isso... Oh...\t......\nBem, vamos tentar!",
+    "map.msg.1df4b72c": "Vai levar um choque.\n...E talvez doa\num pouquinho!",
+    "map.msg.1df4b838": "Uau, funcionou mesmo!\tTem outros\ncadáveres? Aproveite!",
+    "map.msg.1df4b8cc": "Hmm... Este lugar é\nideal para\nmorarmos.\tNão pagamos aluguel\nenquanto cuidamos\ndo cemitério...\t...Ou seja, nunca\nfaltam cobaias\npara os testes!\tEee hee hee hee...",
+    "map.msg.1df4b9d4": "Q-Que cadáver\né esse!? Está vivo!",
+    "map.msg.1df4ba38": "Hmph...\tSe achar algum\ncadáver (ou se\nvirar um),\tnão deixe de\ntrazê-lo para cá.",
+    "map.msg.1df4bafc": "%M0_5Hmm, parece grave.\n%F0%M0_7Infelizmente, não sou\nesse tipo de médico!\tMas, quando morrer,\ncom certeza poderei\najudar você!",
+    "map.smsg.1df4bbd8": {
+      "body": "Por falar nisso,\ntrouxe algum cadáver?",
+      "choices": "Aqui está.\tConversar.\tDar de ombros e sair."
+    },
+    "map.msg.1df4bc7c": "Desculpe, %N0.\nNão posso fazer\nnada por você, mas...\t...alguém que entende\nde máquinas talvez\nconsiga.",
+    "map.msg.1df4bdd4": "Respeito Dr. Mortem.\nEle pesquisa, não\nimporta o que digam.\tEle não faz nada\npela metade.",
+    "map.msg.1df4be74": "Doutor diz que cidade\ncom Hunters é boa\npara pesquisa...\tTrazem boas cobaias,\nentão não precisa\nfazer esforço.\tÉ verdade.\nDr. Mortem inteligente.",
+    "map.msg.1df4bf3c": "Doutor diz que tem\ncadáver bom e ruim.\tBom é fresco\ne sem vermes. Ruim é\npodre e nojento.\tÉ verdade.\nDr. Mortem muito\ninteligente.",
+    "map.msg.1df4c02c": "Eu, Igor, ajudo\nDr. Mortem. Busco\ncobaias frescas.",
+    "map.smsg.1df4c0ac": {
+      "body": "Bem-vindo ao Lava-Tanques!\nWhoa whoa whoa... É\no Lava-Tanques, yeah!\tComo dizem por aí...\nVeículo limpo é\nveículo feliz.\tSeus tanques querem\num bom banho?",
+      "choices": "Vamos limpar.\tEstou bem, obrigado."
+    },
+    "map.msg.1df4c4ec": "A água pode estar\nfria para cachorros,\nmas aguente firme...",
+    "map.msg.1df4c564": "Não foi feito para\npessoas sem tanque...\tMas, se não estiver\nusando roupa branca,\nprepare-se.",
+    "map.msg.1df4c61c": "Não planejamos\npassar seres vivos\npor aqui, mas...\t...Tudo tem uma\nprimeira vez.",
+    "map.msg.1df4c6b4": "%P0Lá vai!%W20%P1",
+    "map.msg.1df4c73c": "Veículo sujo?\nO Lava-Tanques\ndo Shiny resolve.\tCocô de passarinho?\nLava-Tanques do Shiny!\tFungos na lataria?\nNão no Lava-Tanques\ndo Shiny!\tVolte sempre\nque precisar!",
+    "map.msg.1df4c830": "...Você não tem\ndinheiro suficiente.",
+    "map.smsg.1df4cdec": {
+      "body": "Ah, voltou para casa.\nPrecisa de algo?",
+      "choices": "Preciso de reparos.\tSó vim dar um oi.\tNão, nada."
+    },
+    "map.msg.1df4cee4": "É mesmo? Isso é\nmeio rude, não\nacha?\t...Brincadeira. Fico\nfeliz por estar bem.",
+    "map.smsg.1df4cf80": {
+      "body": "Certo, então.\nVamos ver...",
+      "choices": "Reparar todos.\tEscolher veículos."
+    },
+    "map.ST.1df4d184": "Qual veículo reparar?",
+    "map.msg.1df4d4d4": "Só um instante%W5...\tProntinho.\nTudo em ordem!",
+    "map.msg.1df4d820": "Não deve demorar\nmuito%W5...\tPronto, terminei!\nBoa sorte lá fora!",
+    "map.msg.1df4d8d0": "Oh... Parece grave.\t*chuckle* Brincadeira.\nEstá tudo\nótimo. Boa sorte!",
+    "map.msg.1df4d960": "Hm?\tOh, não precisa de\nreparos? Certo, a\nescolha é sua.\tMas a manutenção\né essencial para\num veículo durar.",
+    "map.msg.1df4da0c": "De graça?\t*sigh* Filho, nada\nna vida é de graça,\nvocê sabe.\tSe nem consegue\npagar por isso,\ttalvez deva pensar\nduas vezes antes\nde ser Hunter.",
+    "map.msg.1df4dae4": "Está sem dinheiro,\nquerido. Volte quando\nganhar um pouco mais.",
+    "map.msg.1df4db5c": "...Não posso reparar\num veículo que\nnem trouxe aqui.",
+    "map.smsg.1df4dbc0": {
+      "body": "...De onde veio isso?\tVocê estava decidido\na ser Hunter.\nEstá falando sério!?",
+      "choices": "Ha ha! Pegadinha!\tSim, é sério."
+    },
+    "map.smsg.1df4dcc4": {
+      "body": "Mas... Não acha que\ndevia salvar antes?",
+      "choices": "Boa ideia.\tNão preciso salvar."
+    },
+    "map.msg.1df4dd98": "*chuckle* Vá salvar\nentão.\tSe mudar de ideia,\neu entendo.\nSiga seu coração.",
+    "map.msg.1df4de3c": "E assim, %N0\nabandonou a vida\nemocionante de Hunter.\tDizem que levou uma\nvida chata e monótona\nem relativa paz.\tAté que não foi ruim,\nquando aprendeu a\nignorar a imensa\tvergonha e culpa\npor ter desistido\nda vida antes mesmo\tde ela começar.\nAzar o se... digo,\no dele, eu acho.",
+    "map.msg.1df4dfec": "*chuckle* E não\nse preocupe com Emily e eu.\tSó você pode escolher\ncomo viver.\nSiga em frente.\tMas, se algum dia\ncansar de ser Hunter...\t...Aqui sempre será\na sua casa."
+  },
+  "aliases": {
+    "map.msg.1df4a394": "map.msg.1df4a0a8"
+  }
+}

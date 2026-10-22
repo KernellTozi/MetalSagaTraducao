@@ -10,6 +10,7 @@ ISOS={'diary':ROOT/'work/MetalSaga-ptbr-experimento.iso',
       'fonts':ROOT/'work/MetalSaga-ptbr-fontes-v002.iso',
       'spacing':ROOT/'work/MetalSaga-ptbr-espacamento-v003.iso',
       'pilot':ROOT/'work/piloto-inicial-v001/MetalSaga-ptbr-piloto-inicial-v001.iso',
+      'region':ROOT/'work/regiao-inicial-v002/MetalSaga-ptbr-regiao-inicial-v002.iso',
       'development':ROOT/'work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso'}
 
 def launch_command(iso):
@@ -34,7 +35,7 @@ def launch_command(iso):
     return [str(exe),'-portable','-fastboot',str(image)]
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--iso',default='dialogue');p.add_argument('--dry-run',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--iso',default='region');p.add_argument('--dry-run',action='store_true');a=p.parse_args()
     command=launch_command(a.iso)
     print(subprocess.list2cmdline(command))
     if a.dry_run:return

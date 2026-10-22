@@ -1,5 +1,10 @@
 # Primeiro lote contextual da cena inicial
 
+**Histórico:** substituído pelo lote ampliado em `docs/regiao-inicial-v002.md`.
+Os iniciadores simples agora usam o lote v002, que corrige o artigo em
+`Você quer mesmo ser um Hunter?` e preserva as expressões solicitadas. O rascunho
+e a ISO v001 permanecem como evidência histórica, sem revisão retroativa de hashes.
+
 ## Base de trabalho
 
 O usuário autorizou prosseguir assumindo os caracteres corretos. O perfil de
@@ -39,7 +44,7 @@ Editar apenas as traduções em `translations/piloto-inicial-v001.json` para
 revisar a versão autoral. As cópias exportadas preservam o rascunho anterior.
 
 ```
-python tools/build_translation_pilot.py --output work/meu-piloto --build-iso
+python tools/build_translation_pilot.py --draft translations/piloto-inicial-v001.json --output work/meu-piloto --build-iso
 ```
 
 Usar um diretório novo sob `work/`. Sem `--build-iso`, o comando apenas compila,

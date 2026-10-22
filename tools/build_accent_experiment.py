@@ -97,6 +97,8 @@ def create(output,report,profile='v001'):
     absolute.sort(key=lambda p:p['offset'])
     if any(a['offset']+len(a['before'])>b['offset'] for a,b in zip(absolute,absolute[1:])):raise ValueError('Overlapping patches')
     output.parent.mkdir(parents=True,exist_ok=True);partial=output.with_suffix('.iso.partial')
+    from iso_retention import prune
+    prune(reserve=1)
     with iso.open('rb') as src,partial.open('xb') as dst:shutil.copyfileobj(src,dst,1024*1024)
     with partial.open('r+b') as f:
         for patch in absolute:f.seek(patch['offset']);f.write(patch['after'])

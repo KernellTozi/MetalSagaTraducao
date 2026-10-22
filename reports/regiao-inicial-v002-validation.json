@@ -1,0 +1,2368 @@
+{
+  "schema": 1,
+  "draft": "translations/regiao-inicial-v002.json",
+  "draft_sha256": "f76b62b6e3080a9d844cfc9c4e1f104cdd36b835e9ea24a91e74c8c7b164b7de",
+  "draft_sources": [
+    {
+      "path": "translations/piloto-inicial-v001.json",
+      "sha256": "fd3047bf9fc550ff9610afe96492697f72435ca01f2afd2b30d392a581dc9d65"
+    },
+    {
+      "path": "translations/regiao-inicial-v002.json",
+      "sha256": "f76b62b6e3080a9d844cfc9c4e1f104cdd36b835e9ea24a91e74c8c7b164b7de"
+    }
+  ],
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "scope": {
+    "first_offset": "1df47f0c",
+    "last_offset": "1df4dfec",
+    "records": 98
+  },
+  "accepted": 85,
+  "unchanged": 13,
+  "refused": 0,
+  "translated_segments": 92,
+  "ssd_groups": 13,
+  "deferred": [
+    {
+      "id": "map.smnn.1df49f00",
+      "reason": "Terceira string ainda não liberada para edição"
+    },
+    {
+      "id": "map.smsg.1df4c1ec",
+      "reason": "Controle de preço opaco, preservado integralmente"
+    },
+    {
+      "id": "map.smsg.1df4d28c",
+      "reason": "Nome dinâmico e preço com controles opacos"
+    },
+    {
+      "id": "map.smsg.1df4d364",
+      "reason": "Nome dinâmico e preço com controles opacos"
+    },
+    {
+      "id": "map.smsg.1df4d5cc",
+      "reason": "Preço com controle opaco"
+    },
+    {
+      "id": "map.smsg.1df4d6a8",
+      "reason": "Preço com controle opaco"
+    }
+  ],
+  "terminology_issues": [],
+  "build_policy_sha256": "6b55eab3a5d80c23d90197d37ccf334ee4c6c810ab2575c4d0ab4eaa97d759ae",
+  "revalidated_policy_sha256": "604dd3668f49f8388076a8118da4f6040daad608c845646dbf870dfd9a98cae1",
+  "policy_revalidation_exact_plan_match": true,
+  "record_relocation": false,
+  "repack": false,
+  "unit_tests_passed": 83,
+  "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "output_iso_sha256": "654978da30e20612796f66b97c045ea5604852298fd22b1243b13c5235413d58",
+  "iso_size": 1704427520,
+  "changed_byte_count": 14243,
+  "all_bytes_match_expected_patch": true,
+  "iso_directory_identical": true,
+  "fonts": [
+    {
+      "path": "DATA/SYS/SUC20I22.GFI",
+      "sha256": "68a5158652183fec1f88721412ddbc0f8eafb8fc4172f93740113a34e9e9bb6d",
+      "side": 22
+    },
+    {
+      "path": "DATA/SYS/SUC24I26.GFI",
+      "sha256": "cb844c63f3155f8026f7f8f87f5c7d0b6f4b00fb7d26b11620c6b9c935a4085b",
+      "side": 26
+    }
+  ],
+  "elf_profile": "spacing-v003",
+  "output_iso": "work/regiao-inicial-v002/MetalSaga-ptbr-regiao-inicial-v002.iso",
+  "first_dialogue": "Você quer mesmo ser um\nHunter?",
+  "legacy_width_warnings": 10,
+  "visual_status": "user_authorized_assumption_not_runtime_validation",
+  "pcsx2_executed": false,
+  "narrative_status": "contextual draft pending review",
+  "iso_retention": {
+    "limit": 10,
+    "work_iso_count": 8,
+    "deleted_this_delivery": []
+  },
+  "results": [
+    {
+      "status": "accepted",
+      "id": "map.msg.1df47f0c",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        28
+      ],
+      "target_lengths": [
+        31
+      ],
+      "source_capacities": [
+        31
+      ],
+      "source_offsets": [
+        502562604
+      ],
+      "target_offsets": [
+        502562604
+      ],
+      "record_offset": 502562572,
+      "record_size": 64,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df47f9c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        118
+      ],
+      "target_lengths": [
+        119
+      ],
+      "source_capacities": [
+        119
+      ],
+      "source_offsets": [
+        502562748
+      ],
+      "target_offsets": [
+        502562748
+      ],
+      "record_offset": 502562716,
+      "record_size": 152,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48084",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        182
+      ],
+      "target_lengths": [
+        166
+      ],
+      "source_capacities": [
+        183
+      ],
+      "source_offsets": [
+        502562980
+      ],
+      "target_offsets": [
+        502562980
+      ],
+      "record_offset": 502562948,
+      "record_size": 216,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df48204"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48288",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        211
+      ],
+      "target_lengths": [
+        161
+      ],
+      "source_capacities": [
+        211
+      ],
+      "source_offsets": [
+        502563496
+      ],
+      "target_offsets": [
+        502563496
+      ],
+      "record_offset": 502563464,
+      "record_size": 244,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df483cc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        68
+      ],
+      "target_lengths": [
+        63
+      ],
+      "source_capacities": [
+        71
+      ],
+      "source_offsets": [
+        502563820
+      ],
+      "target_offsets": [
+        502563820
+      ],
+      "record_offset": 502563788,
+      "record_size": 104,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.sel.1df48484",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        53
+      ],
+      "target_lengths": [
+        43
+      ],
+      "source_capacities": [
+        55
+      ],
+      "source_offsets": [
+        502563988
+      ],
+      "target_offsets": [
+        502563988
+      ],
+      "record_offset": 502563972,
+      "record_size": 72,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df487cc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        35
+      ],
+      "target_lengths": [
+        23
+      ],
+      "source_capacities": [
+        35
+      ],
+      "source_offsets": [
+        502564844
+      ],
+      "target_offsets": [
+        502564844
+      ],
+      "record_offset": 502564812,
+      "record_size": 68,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48810",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        13
+      ],
+      "target_lengths": [
+        12
+      ],
+      "source_capacities": [
+        15
+      ],
+      "source_offsets": [
+        502564912
+      ],
+      "target_offsets": [
+        502564912
+      ],
+      "record_offset": 502564880,
+      "record_size": 48,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48840",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        47
+      ],
+      "target_lengths": [
+        42
+      ],
+      "source_capacities": [
+        47
+      ],
+      "source_offsets": [
+        502564960
+      ],
+      "target_offsets": [
+        502564960
+      ],
+      "record_offset": 502564928,
+      "record_size": 80,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48890",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        52
+      ],
+      "target_lengths": [
+        55
+      ],
+      "source_capacities": [
+        55
+      ],
+      "source_offsets": [
+        502565040
+      ],
+      "target_offsets": [
+        502565040
+      ],
+      "record_offset": 502565008,
+      "record_size": 88,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df488e8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        143
+      ],
+      "target_lengths": [
+        122
+      ],
+      "source_capacities": [
+        143
+      ],
+      "source_offsets": [
+        502565128
+      ],
+      "target_offsets": [
+        502565128
+      ],
+      "record_offset": 502565096,
+      "record_size": 176,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df48998"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df489c0",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        5
+      ],
+      "target_lengths": [
+        5
+      ],
+      "source_capacities": [
+        7
+      ],
+      "source_offsets": [
+        502565344
+      ],
+      "target_offsets": [
+        502565344
+      ],
+      "record_offset": 502565312,
+      "record_size": 40,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df489e8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        25
+      ],
+      "target_lengths": [
+        23
+      ],
+      "source_capacities": [
+        27
+      ],
+      "source_offsets": [
+        502565384
+      ],
+      "target_offsets": [
+        502565384
+      ],
+      "record_offset": 502565352,
+      "record_size": 60,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48a24",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        208
+      ],
+      "target_lengths": [
+        192
+      ],
+      "source_capacities": [
+        211
+      ],
+      "source_offsets": [
+        502565444
+      ],
+      "target_offsets": [
+        502565444
+      ],
+      "record_offset": 502565412,
+      "record_size": 244,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df48b18"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48b40",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        158
+      ],
+      "target_lengths": [
+        144
+      ],
+      "source_capacities": [
+        159
+      ],
+      "source_offsets": [
+        502565728
+      ],
+      "target_offsets": [
+        502565728
+      ],
+      "record_offset": 502565696,
+      "record_size": 192,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48c18",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        671
+      ],
+      "target_lengths": [
+        605
+      ],
+      "source_capacities": [
+        671
+      ],
+      "source_offsets": [
+        502565944
+      ],
+      "target_offsets": [
+        502565944
+      ],
+      "record_offset": 502565912,
+      "record_size": 704,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48f8c",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        699
+      ],
+      "target_lengths": [
+        613
+      ],
+      "source_capacities": [
+        699
+      ],
+      "source_offsets": [
+        502566828
+      ],
+      "target_offsets": [
+        502566828
+      ],
+      "record_offset": 502566796,
+      "record_size": 732,
+      "block_offset": 502566672,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49378",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        175
+      ],
+      "target_lengths": [
+        143
+      ],
+      "source_capacities": [
+        175
+      ],
+      "source_offsets": [
+        502567832
+      ],
+      "target_offsets": [
+        502567832
+      ],
+      "record_offset": 502567800,
+      "record_size": 208,
+      "block_offset": 502566672,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df494b8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        191
+      ],
+      "target_lengths": [
+        173
+      ],
+      "source_capacities": [
+        191
+      ],
+      "source_offsets": [
+        502568152
+      ],
+      "target_offsets": [
+        502568152
+      ],
+      "record_offset": 502568120,
+      "record_size": 224,
+      "block_offset": 502566672,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49824",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        172
+      ],
+      "target_lengths": [
+        136
+      ],
+      "source_capacities": [
+        175
+      ],
+      "source_offsets": [
+        502569028
+      ],
+      "target_offsets": [
+        502569028
+      ],
+      "record_offset": 502568996,
+      "record_size": 208,
+      "block_offset": 502568512,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4992c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        135
+      ],
+      "target_lengths": [
+        115
+      ],
+      "source_capacities": [
+        135
+      ],
+      "source_offsets": [
+        502569292
+      ],
+      "target_offsets": [
+        502569292
+      ],
+      "record_offset": 502569260,
+      "record_size": 168,
+      "block_offset": 502569232,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49b3c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        151
+      ],
+      "target_lengths": [
+        128
+      ],
+      "source_capacities": [
+        151
+      ],
+      "source_offsets": [
+        502569820
+      ],
+      "target_offsets": [
+        502569820
+      ],
+      "record_offset": 502569788,
+      "record_size": 184,
+      "block_offset": 502569456,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49c2c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        326
+      ],
+      "target_lengths": [
+        288
+      ],
+      "source_capacities": [
+        327
+      ],
+      "source_offsets": [
+        502570060
+      ],
+      "target_offsets": [
+        502570060
+      ],
+      "record_offset": 502570028,
+      "record_size": 360,
+      "block_offset": 502570016,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df49e5c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        122,
+        4
+      ],
+      "target_lengths": [
+        103,
+        4
+      ],
+      "source_capacities": [
+        123,
+        7
+      ],
+      "source_offsets": [
+        502570620,
+        502570744
+      ],
+      "target_offsets": [
+        502570620,
+        502570744
+      ],
+      "record_offset": 502570588,
+      "record_size": 164,
+      "block_offset": 502570448,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.smnn.1df49f00"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df49fb4",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        201,
+        4
+      ],
+      "target_lengths": [
+        188,
+        4
+      ],
+      "source_capacities": [
+        203,
+        7
+      ],
+      "source_offsets": [
+        502570964,
+        502571168
+      ],
+      "target_offsets": [
+        502570964,
+        502571168
+      ],
+      "record_offset": 502570932,
+      "record_size": 244,
+      "block_offset": 502570448,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4a0a8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        435
+      ],
+      "target_lengths": [
+        360
+      ],
+      "source_capacities": [
+        435
+      ],
+      "source_offsets": [
+        502571208
+      ],
+      "target_offsets": [
+        502571208
+      ],
+      "record_offset": 502571176,
+      "record_size": 468,
+      "block_offset": 502570448,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4a294",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        215,
+        4
+      ],
+      "target_lengths": [
+        184,
+        4
+      ],
+      "source_capacities": [
+        215,
+        7
+      ],
+      "source_offsets": [
+        502571700,
+        502571916
+      ],
+      "target_offsets": [
+        502571700,
+        502571916
+      ],
+      "record_offset": 502571668,
+      "record_size": 256,
+      "block_offset": 502570448,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4a394",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        435
+      ],
+      "target_lengths": [
+        360
+      ],
+      "source_capacities": [
+        435
+      ],
+      "source_offsets": [
+        502571956
+      ],
+      "target_offsets": [
+        502571956
+      ],
+      "record_offset": 502571924,
+      "record_size": 468,
+      "block_offset": 502570448,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4a724",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        36,
+        4
+      ],
+      "target_lengths": [
+        35,
+        4
+      ],
+      "source_capacities": [
+        39,
+        7
+      ],
+      "source_offsets": [
+        502572868,
+        502572908
+      ],
+      "target_offsets": [
+        502572868,
+        502572908
+      ],
+      "record_offset": 502572836,
+      "record_size": 80,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msgn.1df4a774"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4a7b4",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        24,
+        4
+      ],
+      "target_lengths": [
+        26,
+        4
+      ],
+      "source_capacities": [
+        27,
+        7
+      ],
+      "source_offsets": [
+        502573012,
+        502573040
+      ],
+      "target_offsets": [
+        502573012,
+        502573040
+      ],
+      "record_offset": 502572980,
+      "record_size": 68,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4a7f8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        31,
+        4
+      ],
+      "target_lengths": [
+        26,
+        4
+      ],
+      "source_capacities": [
+        31,
+        7
+      ],
+      "source_offsets": [
+        502573080,
+        502573112
+      ],
+      "target_offsets": [
+        502573080,
+        502573112
+      ],
+      "record_offset": 502573048,
+      "record_size": 72,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df4a840"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4a868",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        60,
+        4
+      ],
+      "target_lengths": [
+        57,
+        4
+      ],
+      "source_capacities": [
+        63,
+        7
+      ],
+      "source_offsets": [
+        502573192,
+        502573256
+      ],
+      "target_offsets": [
+        502573192,
+        502573256
+      ],
+      "record_offset": 502573160,
+      "record_size": 104,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df4a8f0"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4a940",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        51,
+        4
+      ],
+      "target_lengths": [
+        48,
+        4
+      ],
+      "source_capacities": [
+        51,
+        7
+      ],
+      "source_offsets": [
+        502573408,
+        502573460
+      ],
+      "target_offsets": [
+        502573408,
+        502573460
+      ],
+      "record_offset": 502573376,
+      "record_size": 92,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4a99c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        64
+      ],
+      "target_lengths": [
+        59
+      ],
+      "source_capacities": [
+        67
+      ],
+      "source_offsets": [
+        502573500
+      ],
+      "target_offsets": [
+        502573500
+      ],
+      "record_offset": 502573468,
+      "record_size": 100,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msgn.1df4aa00",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        24,
+        4
+      ],
+      "target_lengths": [
+        25,
+        4
+      ],
+      "source_capacities": [
+        27,
+        7
+      ],
+      "source_offsets": [
+        502573600,
+        502573628
+      ],
+      "target_offsets": [
+        502573600,
+        502573628
+      ],
+      "record_offset": 502573568,
+      "record_size": 68,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4aa64",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        116
+      ],
+      "target_lengths": [
+        100
+      ],
+      "source_capacities": [
+        119
+      ],
+      "source_offsets": [
+        502573700
+      ],
+      "target_offsets": [
+        502573700
+      ],
+      "record_offset": 502573668,
+      "record_size": 152,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df4aafc"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4ab24",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        89
+      ],
+      "target_lengths": [
+        85
+      ],
+      "source_capacities": [
+        91
+      ],
+      "source_offsets": [
+        502573892
+      ],
+      "target_offsets": [
+        502573892
+      ],
+      "record_offset": 502573860,
+      "record_size": 124,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4aba0",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        95
+      ],
+      "target_lengths": [
+        82
+      ],
+      "source_capacities": [
+        95
+      ],
+      "source_offsets": [
+        502574016
+      ],
+      "target_offsets": [
+        502574016
+      ],
+      "record_offset": 502573984,
+      "record_size": 128,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4ac40",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        97
+      ],
+      "target_lengths": [
+        77
+      ],
+      "source_capacities": [
+        99
+      ],
+      "source_offsets": [
+        502574176
+      ],
+      "target_offsets": [
+        502574176
+      ],
+      "record_offset": 502574144,
+      "record_size": 132,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4acc4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        58
+      ],
+      "target_lengths": [
+        41
+      ],
+      "source_capacities": [
+        59
+      ],
+      "source_offsets": [
+        502574308
+      ],
+      "target_offsets": [
+        502574308
+      ],
+      "record_offset": 502574276,
+      "record_size": 92,
+      "block_offset": 502572752,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4ad3c",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        9
+      ],
+      "target_lengths": [
+        11
+      ],
+      "source_capacities": [
+        11
+      ],
+      "source_offsets": [
+        502574428
+      ],
+      "target_offsets": [
+        502574428
+      ],
+      "record_offset": 502574396,
+      "record_size": 44,
+      "block_offset": 502574384,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4add8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        62
+      ],
+      "target_lengths": [
+        55
+      ],
+      "source_capacities": [
+        63
+      ],
+      "source_offsets": [
+        502574584
+      ],
+      "target_offsets": [
+        502574584
+      ],
+      "record_offset": 502574552,
+      "record_size": 96,
+      "block_offset": 502574384,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.sel.1df4ae98",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        36
+      ],
+      "target_lengths": [
+        33
+      ],
+      "source_capacities": [
+        39
+      ],
+      "source_offsets": [
+        502574760
+      ],
+      "target_offsets": [
+        502574760
+      ],
+      "record_offset": 502574744,
+      "record_size": 56,
+      "block_offset": 502574384,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4afb8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        154
+      ],
+      "target_lengths": [
+        120
+      ],
+      "source_capacities": [
+        155
+      ],
+      "source_offsets": [
+        502575064
+      ],
+      "target_offsets": [
+        502575064
+      ],
+      "record_offset": 502575032,
+      "record_size": 188,
+      "block_offset": 502574384,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b08c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        237
+      ],
+      "target_lengths": [
+        179
+      ],
+      "source_capacities": [
+        239
+      ],
+      "source_offsets": [
+        502575276
+      ],
+      "target_offsets": [
+        502575276
+      ],
+      "record_offset": 502575244,
+      "record_size": 272,
+      "block_offset": 502574384,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4b3fc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        36,
+        51
+      ],
+      "target_lengths": [
+        38,
+        50
+      ],
+      "source_capacities": [
+        39,
+        51
+      ],
+      "source_offsets": [
+        502576164,
+        502576204
+      ],
+      "target_offsets": [
+        502576164,
+        502576204
+      ],
+      "record_offset": 502576124,
+      "record_size": 132,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b4d8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        31
+      ],
+      "target_lengths": [
+        30
+      ],
+      "source_capacities": [
+        31
+      ],
+      "source_offsets": [
+        502576376
+      ],
+      "target_offsets": [
+        502576376
+      ],
+      "record_offset": 502576344,
+      "record_size": 64,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.SP.1df4b520",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        20
+      ],
+      "target_lengths": [
+        20
+      ],
+      "source_capacities": [
+        23
+      ],
+      "source_offsets": [
+        502576448
+      ],
+      "target_offsets": [
+        502576448
+      ],
+      "record_offset": 502576416,
+      "record_size": 56,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b640",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        63
+      ],
+      "target_lengths": [
+        49
+      ],
+      "source_capacities": [
+        63
+      ],
+      "source_offsets": [
+        502576736
+      ],
+      "target_offsets": [
+        502576736
+      ],
+      "record_offset": 502576704,
+      "record_size": 96,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b6d0",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        51
+      ],
+      "target_lengths": [
+        43
+      ],
+      "source_capacities": [
+        51
+      ],
+      "source_offsets": [
+        502576880
+      ],
+      "target_offsets": [
+        502576880
+      ],
+      "record_offset": 502576848,
+      "record_size": 84,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b72c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        59
+      ],
+      "target_lengths": [
+        50
+      ],
+      "source_capacities": [
+        59
+      ],
+      "source_offsets": [
+        502576972
+      ],
+      "target_offsets": [
+        502576972
+      ],
+      "record_offset": 502576940,
+      "record_size": 92,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b838",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        74
+      ],
+      "target_lengths": [
+        55
+      ],
+      "source_capacities": [
+        75
+      ],
+      "source_offsets": [
+        502577240
+      ],
+      "target_offsets": [
+        502577240
+      ],
+      "record_offset": 502577208,
+      "record_size": 108,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b8cc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        214
+      ],
+      "target_lengths": [
+        165
+      ],
+      "source_capacities": [
+        215
+      ],
+      "source_offsets": [
+        502577388
+      ],
+      "target_offsets": [
+        502577388
+      ],
+      "record_offset": 502577356,
+      "record_size": 248,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4b9d4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        50
+      ],
+      "target_lengths": [
+        36
+      ],
+      "source_capacities": [
+        51
+      ],
+      "source_offsets": [
+        502577652
+      ],
+      "target_offsets": [
+        502577652
+      ],
+      "record_offset": 502577620,
+      "record_size": 84,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4ba38",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        115
+      ],
+      "target_lengths": [
+        83
+      ],
+      "source_capacities": [
+        115
+      ],
+      "source_offsets": [
+        502577752
+      ],
+      "target_offsets": [
+        502577752
+      ],
+      "record_offset": 502577720,
+      "record_size": 148,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4bafc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        137
+      ],
+      "target_lengths": [
+        130
+      ],
+      "source_capacities": [
+        139
+      ],
+      "source_offsets": [
+        502577948
+      ],
+      "target_offsets": [
+        502577948
+      ],
+      "record_offset": 502577916,
+      "record_size": 172,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4bbd8",
+      "mode": "slots",
+      "warnings": [
+        "choices: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        50,
+        52
+      ],
+      "target_lengths": [
+        39,
+        44
+      ],
+      "source_capacities": [
+        51,
+        55
+      ],
+      "source_offsets": [
+        502578176,
+        502578228
+      ],
+      "target_offsets": [
+        502578176,
+        502578228
+      ],
+      "record_offset": 502578136,
+      "record_size": 148,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4bc7c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        115
+      ],
+      "target_lengths": [
+        106
+      ],
+      "source_capacities": [
+        115
+      ],
+      "source_offsets": [
+        502578332
+      ],
+      "target_offsets": [
+        502578332
+      ],
+      "record_offset": 502578300,
+      "record_size": 148,
+      "block_offset": 502575744,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4bdd4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        111
+      ],
+      "target_lengths": [
+        91
+      ],
+      "source_capacities": [
+        111
+      ],
+      "source_offsets": [
+        502578676
+      ],
+      "target_offsets": [
+        502578676
+      ],
+      "record_offset": 502578644,
+      "record_size": 144,
+      "block_offset": 502578464,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4be74",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        151
+      ],
+      "target_lengths": [
+        150
+      ],
+      "source_capacities": [
+        151
+      ],
+      "source_offsets": [
+        502578836
+      ],
+      "target_offsets": [
+        502578836
+      ],
+      "record_offset": 502578804,
+      "record_size": 184,
+      "block_offset": 502578464,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4bf3c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        156
+      ],
+      "target_lengths": [
+        134
+      ],
+      "source_capacities": [
+        159
+      ],
+      "source_offsets": [
+        502579036
+      ],
+      "target_offsets": [
+        502579036
+      ],
+      "record_offset": 502579004,
+      "record_size": 192,
+      "block_offset": 502578464,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c02c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        57
+      ],
+      "target_lengths": [
+        50
+      ],
+      "source_capacities": [
+        59
+      ],
+      "source_offsets": [
+        502579276
+      ],
+      "target_offsets": [
+        502579276
+      ],
+      "record_offset": 502579244,
+      "record_size": 92,
+      "block_offset": 502578464,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4c0ac",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        174,
+        37
+      ],
+      "target_lengths": [
+        159,
+        34
+      ],
+      "source_capacities": [
+        175,
+        39
+      ],
+      "source_offsets": [
+        502579412,
+        502579588
+      ],
+      "target_offsets": [
+        502579412,
+        502579588
+      ],
+      "record_offset": 502579372,
+      "record_size": 256,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.smsg.1df4c1ec"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c4ec",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        60
+      ],
+      "target_lengths": [
+        60
+      ],
+      "source_capacities": [
+        63
+      ],
+      "source_offsets": [
+        502580492
+      ],
+      "target_offsets": [
+        502580492
+      ],
+      "record_offset": 502580460,
+      "record_size": 96,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c564",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        124
+      ],
+      "target_lengths": [
+        95
+      ],
+      "source_capacities": [
+        127
+      ],
+      "source_offsets": [
+        502580612
+      ],
+      "target_offsets": [
+        502580612
+      ],
+      "record_offset": 502580580,
+      "record_size": 160,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c61c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        108
+      ],
+      "target_lengths": [
+        81
+      ],
+      "source_capacities": [
+        111
+      ],
+      "source_offsets": [
+        502580796
+      ],
+      "target_offsets": [
+        502580796
+      ],
+      "record_offset": 502580764,
+      "record_size": 144,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c6b4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        22
+      ],
+      "target_lengths": [
+        18
+      ],
+      "source_capacities": [
+        23
+      ],
+      "source_offsets": [
+        502580948
+      ],
+      "target_offsets": [
+        502580948
+      ],
+      "record_offset": 502580916,
+      "record_size": 56,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c73c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        193
+      ],
+      "target_lengths": [
+        168
+      ],
+      "source_capacities": [
+        195
+      ],
+      "source_offsets": [
+        502581084
+      ],
+      "target_offsets": [
+        502581084
+      ],
+      "record_offset": 502581052,
+      "record_size": 228,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4c830",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        38
+      ],
+      "target_lengths": [
+        38
+      ],
+      "source_capacities": [
+        39
+      ],
+      "source_offsets": [
+        502581328
+      ],
+      "target_offsets": [
+        502581328
+      ],
+      "record_offset": 502581296,
+      "record_size": 72,
+      "block_offset": 502579360,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4cdec",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        40,
+        59
+      ],
+      "target_lengths": [
+        38,
+        50
+      ],
+      "source_capacities": [
+        43,
+        59
+      ],
+      "source_offsets": [
+        502582804,
+        502582848
+      ],
+      "target_offsets": [
+        502582804,
+        502582848
+      ],
+      "record_offset": 502582764,
+      "record_size": 144,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4cee4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        105
+      ],
+      "target_lengths": [
+        81
+      ],
+      "source_capacities": [
+        107
+      ],
+      "source_offsets": [
+        502583044
+      ],
+      "target_offsets": [
+        502583044
+      ],
+      "record_offset": 502583012,
+      "record_size": 140,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4cf80",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        27,
+        37
+      ],
+      "target_lengths": [
+        27,
+        34
+      ],
+      "source_capacities": [
+        27,
+        39
+      ],
+      "source_offsets": [
+        502583208,
+        502583236
+      ],
+      "target_offsets": [
+        502583208,
+        502583236
+      ],
+      "record_offset": 502583168,
+      "record_size": 108,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.ST.1df4d184",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        28
+      ],
+      "target_lengths": [
+        22
+      ],
+      "source_capacities": [
+        31
+      ],
+      "source_offsets": [
+        502583716
+      ],
+      "target_offsets": [
+        502583716
+      ],
+      "record_offset": 502583684,
+      "record_size": 64,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.smsg.1df4d28c"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.smsg.1df4d364"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4d4d4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        55
+      ],
+      "target_lengths": [
+        47
+      ],
+      "source_capacities": [
+        55
+      ],
+      "source_offsets": [
+        502584564
+      ],
+      "target_offsets": [
+        502584564
+      ],
+      "record_offset": 502584532,
+      "record_size": 88,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.smsg.1df4d5cc"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.smsg.1df4d6a8"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4d820",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        76
+      ],
+      "target_lengths": [
+        67
+      ],
+      "source_capacities": [
+        79
+      ],
+      "source_offsets": [
+        502585408
+      ],
+      "target_offsets": [
+        502585408
+      ],
+      "record_offset": 502585376,
+      "record_size": 112,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4d8d0",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        92
+      ],
+      "target_lengths": [
+        72
+      ],
+      "source_capacities": [
+        95
+      ],
+      "source_offsets": [
+        502585584
+      ],
+      "target_offsets": [
+        502585584
+      ],
+      "record_offset": 502585552,
+      "record_size": 128,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4d960",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        121
+      ],
+      "target_lengths": [
+        113
+      ],
+      "source_capacities": [
+        123
+      ],
+      "source_offsets": [
+        502585728
+      ],
+      "target_offsets": [
+        502585728
+      ],
+      "record_offset": 502585696,
+      "record_size": 156,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4da0c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        167
+      ],
+      "target_lengths": [
+        146
+      ],
+      "source_capacities": [
+        167
+      ],
+      "source_offsets": [
+        502585900
+      ],
+      "target_offsets": [
+        502585900
+      ],
+      "record_offset": 502585868,
+      "record_size": 200,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4dae4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        71
+      ],
+      "target_lengths": [
+        63
+      ],
+      "source_capacities": [
+        71
+      ],
+      "source_offsets": [
+        502586116
+      ],
+      "target_offsets": [
+        502586116
+      ],
+      "record_offset": 502586084,
+      "record_size": 104,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4db5c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        57
+      ],
+      "target_lengths": [
+        54
+      ],
+      "source_capacities": [
+        59
+      ],
+      "source_offsets": [
+        502586236
+      ],
+      "target_offsets": [
+        502586236
+      ],
+      "record_offset": 502586204,
+      "record_size": 92,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4dbc0",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        94,
+        32
+      ],
+      "target_lengths": [
+        80,
+        33
+      ],
+      "source_capacities": [
+        95,
+        35
+      ],
+      "source_offsets": [
+        502586344,
+        502586440
+      ],
+      "target_offsets": [
+        502586344,
+        502586440
+      ],
+      "record_offset": 502586304,
+      "record_size": 172,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.smsg.1df4dcc4",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        46,
+        32
+      ],
+      "target_lengths": [
+        40,
+        31
+      ],
+      "source_capacities": [
+        47,
+        35
+      ],
+      "source_offsets": [
+        502586604,
+        502586652
+      ],
+      "target_offsets": [
+        502586604,
+        502586652
+      ],
+      "record_offset": 502586564,
+      "record_size": 124,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4dd98",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        114
+      ],
+      "target_lengths": [
+        79
+      ],
+      "source_capacities": [
+        115
+      ],
+      "source_offsets": [
+        502586808
+      ],
+      "target_offsets": [
+        502586808
+      ],
+      "record_offset": 502586776,
+      "record_size": 148,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4de3c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        324
+      ],
+      "target_lengths": [
+        279
+      ],
+      "source_capacities": [
+        327
+      ],
+      "source_offsets": [
+        502586972
+      ],
+      "target_offsets": [
+        502586972
+      ],
+      "record_offset": 502586940,
+      "record_size": 360,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4dfec",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        195
+      ],
+      "target_lengths": [
+        171
+      ],
+      "source_capacities": [
+        195
+      ],
+      "source_offsets": [
+        502587404
+      ],
+      "target_offsets": [
+        502587404
+      ],
+      "record_offset": 502587372,
+      "record_size": 228,
+      "block_offset": 502581392,
+      "visual_status": "pending_manual_validation"
+    }
+  ]
+}

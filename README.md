@@ -20,19 +20,21 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 349 continuam bloqueados. ISO de desenvolvimento reutilizável, snapshots e
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
-Piloto contextual da cena inicial: **`Preparar-Piloto-Inicial.cmd`** recompila e
-valida os 26 registros localmente, sem gerar outra ISO. O rascunho PT-BR próprio
-está em `translations/piloto-inicial-v001.json`. **`Testar-Piloto-Inicial.cmd`**
-abre a ISO já preparada com fontes v002 e espaçamento v003, assumidos
-provisoriamente corretos pelo usuário; validação visual ainda pendente.
-[Manual, limites e reprodução](docs/piloto-inicial-v001.md).
+Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
+98 registros localmente, sem gerar outra ISO. São 85 registros traduzidos,
+sete pausas/expressões preservadas e seis bloqueados mantidos em inglês.
+O rascunho PT-BR está em `translations/regiao-inicial-v002.json`, com herança do
+piloto de 26 registros. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
+abre a ISO consolidada, com fontes v002 e espaçamento v003 assumidos
+provisoriamente corretos pelo usuário. [Manual e limites](docs/regiao-inicial-v002.md).
+[Glossário e regras de preservação](docs/glossario.md).
 
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).
 - [Pesquisa dos quatro projetos públicos](docs/referencias-tecnicas.md).
 - [Experimento de acentuação, mapeamento e teste manual](docs/acentuacao.md).
 
-Para abrir a ISO do diálogo, dar duplo clique em `Iniciar-Teste.cmd`. Na raiz:
+Para abrir a ISO histórica do primeiro diálogo, na raiz:
 
 ```powershell
 .\Iniciar-Teste.cmd dialogue

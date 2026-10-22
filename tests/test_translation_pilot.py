@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -49,6 +49,33 @@ class PilotTests(unittest.TestCase):
         _,patches,report=compile_draft(self.data,draft)
         self.assertFalse(report['valid'])
         self.assertEqual(patches,[])
+
+    def test_expanded_scene_preserves_deferred_records_and_labels(self):
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        document,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(85,13,0))
+        self.assertEqual(len(sources),2)
+        self.assertEqual(len(report['deferred']),6)
+        changed={p['id'] for p in patches}
+        self.assertFalse(changed&set(draft['deferred']))
+        for entry in document['entries']:
+            for segment in entry['segments']:
+                if not segment['editable']:self.assertEqual(segment['source'],segment['translation'])
+        first=document['entries'][0]['segments'][0]
+        self.assertEqual(first['translation'],'Voc\u00ea quer mesmo ser um\nHunter?')
+
+    def test_alias_requires_same_source(self):
+        draft,_=load_draft(DEFAULT_DRAFT)
+        draft['aliases']['map.msg.1df4a394']='map.msg.1df47f0c'
+        with self.assertRaises(ValueError):compile_draft(self.data,draft)
+
+    def test_protected_name_change_blocks_entire_batch(self):
+        draft,_=load_draft(DEFAULT_DRAFT)
+        draft['translations']['map.msg.1df4a0a8']=draft['translations']['map.msg.1df4a0a8'].replace('McKinley','Outro')
+        _,patches,report=compile_draft(self.data,draft)
+        self.assertFalse(report['valid']);self.assertEqual(patches,[])
+        self.assertTrue(report['terminology_issues'])
 
 
 if __name__=='__main__':unittest.main()
