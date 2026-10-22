@@ -40,7 +40,8 @@ REGION_V14_DRAFT=ROOT/'translations/regiao-inicial-v014.json'
 REGION_V15_DRAFT=ROOT/'translations/regiao-inicial-v015.json'
 REGION_V16_DRAFT=ROOT/'translations/regiao-inicial-v016.json'
 REGION_V17_DRAFT=ROOT/'translations/regiao-inicial-v017.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v018.json'
+REGION_V18_DRAFT=ROOT/'translations/regiao-inicial-v018.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v019.json'
 
 
 def unique_object(pairs):

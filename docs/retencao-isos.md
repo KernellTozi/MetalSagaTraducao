@@ -30,3 +30,9 @@ Na construção da v018, foi removida a ISO antiga do experimento do diário
 (`work/MetalSaga-ptbr-experimento.iso`). A conferência posterior confirmou dez
 imagens: acentos v001, desenvolvimento e v011 a v018. A receita e os relatórios
 do diário permanecem; seu atalho requer reconstrução da imagem.
+
+
+Na construção da v019, foi removida `work/MetalSaga-ptbr-acentos-v001.iso`,
+a mais antiga elegível. Há dez imagens após a retenção: desenvolvimento e
+v011 a v019. Receitas e relatórios do teste de acentos permanecem preservados;
+o atalho histórico `accents` requer reconstrução da imagem.

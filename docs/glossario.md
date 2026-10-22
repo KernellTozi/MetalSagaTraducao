@@ -251,3 +251,24 @@ da mansão, os relatos de ferimentos e mortes, a paquera e as reações distinta
 dos possíveis companheiros. Direções, números e condições de contratação não
 podem mudar para facilitar o encaixe. Não tratar memórias, rumores ou opiniões
 de personagens como informações objetivas confirmadas.
+
+
+## Continuidade v019
+
+Torikami: manter Orochi, Gorou, Kaede, Yaheiji e Noah. Snake's Den recebe
+Toca da Cobra como descrição geográfica genérica. Dragon Inn e Teeny Viewer
+permanecem. Conservar os relatos contraditórios sobre Orochi: salvamento de
+Kaede, sacrifícios centenários, chuva venenosa e opiniões dos habitantes.
+Não apresentar as crenças de um personagem como explicação confirmada do jogo.
+
+Beldaire: preservar Disassembler e White Terror. A fotografia sugere uma relação
+familiar sem confirmá-la; manter essa incerteza. As falas de Rosa sobre Carl
+fazem parte de uma provocação desmentida na sequência: não converter essa
+brincadeira em informação factual sobre o personagem. Sebastian mantém um
+tratamento formal. Conservar a postura mais direta de Rosa e o entusiasmo de
+Carl pela mecânica, sem uniformizar as três descrições de cada modelo de tanque.
+
+S Tank e S Tanks são nomes sensíveis a maiúsculas na política, para não
+confundir o modelo com o possessivo inglês 's tank. Conservar todos os nomes
+franceses da coleção. Red Light, Green Light recebe Batatinha Frita 1, 2, 3
+como brincadeira equivalente; regras e escolhas permanecem intactas.

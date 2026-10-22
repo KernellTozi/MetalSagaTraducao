@@ -189,7 +189,33 @@
     "Vlassique",
     "Gamma Wasps",
     "AT Hornets",
-    "Drill Gun"
+    "Drill Gun",
+    "Gorou",
+    "Kaede",
+    "Noah",
+    "Yaheiji",
+    "Swatter",
+    "Mad Quackers",
+    "Dragon Inn",
+    "Teeny Viewer",
+    "Demag",
+    "Panzer",
+    "Barbarossa",
+    "Rodina",
+    "S Tank",
+    "Merkava",
+    "Lulubelle",
+    "Rommel",
+    "Abrams",
+    "Type 90",
+    "Leopard",
+    "Sherman",
+    "Type G",
+    "White Terror",
+    "Carla",
+    "Carly",
+    "Carmela",
+    "S Tanks"
   ],
   "preserve_expressions": [
     "Hmph",
@@ -238,6 +264,8 @@
   ],
   "case_sensitive_names": [
     "Shiny",
-    "Explorer"
+    "Explorer",
+    "S Tank",
+    "S Tanks"
   ]
 }

@@ -64,3 +64,10 @@ class PolicyTests(unittest.TestCase):
         self.assertTrue(validate('Growgaine 3','Growgaine'))
         self.assertTrue(validate('Growgaine T','Growgaine L'))
         self.assertTrue(validate('Grand Master','Grande Mestre'))
+
+    def test_s_tank_model_is_not_possessive_tank(self):
+        self.assertEqual(validate("My sister's tank",'O tanque da minha irmã'),[])
+        self.assertEqual(validate('The S Tank','O S Tank'),[])
+        self.assertTrue(validate('The S Tank','O tanque'))
+        self.assertEqual(validate('S Tanks had 2 engines','S Tanks tinham 2 motores'),[])
+        self.assertTrue(validate('S Tanks','tanques'))
