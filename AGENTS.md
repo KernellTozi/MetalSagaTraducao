@@ -153,6 +153,7 @@ Não iniciar uma tradução em massa antes de validar tecnicamente o processo.
 - Nunca confundir round-trip binário ou geração de ISO com teste de execução no PCSX2.
 - Não assumir suporte a acentos; preservar bytes desconhecidos até identificar o mapeamento.
 - Em testes futuros do emulador, usar cópias isoladas dos recursos mutáveis e preservar os dados existentes.
+- O mapeamento de acentos em `docs/acentuacao.md` é uma extensão experimental das fontes; não é CP932 padrão nem está visualmente validado. Preservar os bancos ASCII e exigir fonte compatível com os bytes reinseridos.
 
 ## Divisão de testes e avanço em lotes
 

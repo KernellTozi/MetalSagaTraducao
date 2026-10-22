@@ -5,7 +5,8 @@ import argparse, configparser, json, os, subprocess
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'work/pcsx2-functional'
 ISOS={'diary':ROOT/'work/MetalSaga-ptbr-experimento.iso',
-      'dialogue':ROOT/'work/MetalSaga-ptbr-dialogo-inicial-v001.iso'}
+      'dialogue':ROOT/'work/MetalSaga-ptbr-dialogo-inicial-v001.iso',
+      'accents':ROOT/'work/MetalSaga-ptbr-acentos-v001.iso'}
 
 def launch_command(iso):
     exe=(BASE/'pcsx2-qt.exe').resolve()

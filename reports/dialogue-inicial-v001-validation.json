@@ -97,8 +97,9 @@
       }
     }
   ],
-  "visual_status": "pending_user_verification",
+  "visual_status": "confirmed_by_user_screenshot",
   "accent_support_tested": false,
   "runtime_boot_status": "PCSX2 2.8.2 booted to initial no-memory-card prompt via isolated launcher",
-  "runtime_dialogue_observed": false
+  "runtime_dialogue_observed": true,
+  "visual_evidence": "User screenshot shows Nina saying Quer ser um / Hunter?; phrasing needs future contextual review. No accented glyphs tested by this evidence."
 }

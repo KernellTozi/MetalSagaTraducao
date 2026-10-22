@@ -2,6 +2,11 @@
 
 ## Resultado binário
 
+Atualização: o usuário confirmou em captura do PCSX2 a fala “Quer ser um / Hunter?”.
+A redação foi considerada genérica e deverá passar por revisão de contexto futura.
+Essa evidência valida a amostra ASCII; o experimento de acentos é independente,
+documentado em `acentuacao.md`, e ainda aguarda confirmação visual.
+
 Em 21/10/2026 foi localizada uma única ocorrência da sequência abaixo em MAP.MCT:
 
 ```text
@@ -117,5 +122,5 @@ registros compatíveis. Para traduzir, usar contexto de cena e glossário em
 `translations/glossary.json`, com revisão de comprimento e sentido. Não ativar
 tradução em massa sobre o catálogo apenas por ele passar na heurística.
 Registros com tokens, códigos multibyte, outras tags ou novos limites passam por
-investigação separada. A ausência de confirmação visual desta frase não impede
-o trabalho de fontes, parser, métricas e testes automatizados independentes.
+investigação separada. O experimento de acentos tem controles específicos e não
+altera a política restrita do editor ASCII.

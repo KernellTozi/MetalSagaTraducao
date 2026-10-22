@@ -4,12 +4,13 @@ Tradução por modificação dos recursos do jogo original para execução no PC
 Projeto independente de recompilação nativa. Não distribui arquivos do jogo, BIOS ou emulador.
 
 O reconhecimento inicial está em [docs/reconhecimento.md](docs/reconhecimento.md).
-Há experimentos separados de diário e diálogo inicial; ambos têm validação binária,
-mas sua tradução na tela ainda aguarda confirmação visual.
+Há experimentos separados de diário, diálogo inicial e acentuação. A fala ASCII
+inicial foi confirmada visualmente pelo usuário; os acentos aguardam teste manual.
 
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).
 - [Pesquisa dos quatro projetos públicos](docs/referencias-tecnicas.md).
+- [Experimento de acentuação, mapeamento e teste manual](docs/acentuacao.md).
 
 Para abrir a ISO do diálogo, dar duplo clique em `Iniciar-Teste.cmd`. Na raiz:
 
@@ -18,8 +19,11 @@ Para abrir a ISO do diálogo, dar duplo clique em `Iniciar-Teste.cmd`. Na raiz:
 ```
 
 Fechar a cópia de teste e usar `.\Iniciar-Teste.cmd diary` para testar o diário.
+Para o novo experimento separado, usar `.\Iniciar-Teste.cmd accents`.
 
-Requer Python 3.11 ou superior, sem dependências externas. Execute na raiz do projeto:
+Requer Python 3.11 ou superior. As ferramentas originais usam a biblioteca padrão;
+a composição de acentos usa as dependências locais descritas no relatório acima.
+Execute na raiz do projeto:
 
 ```powershell
 python tools/recon.py
