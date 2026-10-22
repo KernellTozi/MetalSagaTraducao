@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v005.json",
+  "name": "regiao-inicial-v006",
+  "status": "revisão binária; validação visual pendente",
+  "font_profile": "spacing-v003-assumed-by-user-not-visually-confirmed",
+  "terminology_policy": "translations/politica.json",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v006.iso",
+  "scope": {
+    "first_offset": "1df47f0c",
+    "last_offset": "1df66c80",
+    "records": 444
+  },
+  "translations": {
+    "map.smsg.1df63b3c": {
+      "body": "Ah, %N0...\nVirou mesmo um Hunter\nagora?",
+      "choices": "Sim, virei.\tDo que está falando, Rachel?"
+    },
+    "map.msg.1df63be0": "O-O quê!?\n%M3_5O que deu em você!?",
+    "map.msg.1df63c48": "Ser Hunter é\nperigoso! Por que\nescolheu essa vida?\tSe algo acontecesse\ncom você, eu%W5...\n%W5...%W5...%W10",
+    "map.msg.1df63d28": "%M0_1Esqueça de mim!\tSe acontecer algo,\nNina e Emily vão\nficar arrasadas!\tPensou nos sentimentos\ndelas!?\tS-Só%W5 prometa que vai\ntomar cuidado, tá?\tSempre que vier à cidade,\ntem que visitar\nsua família!\tE%W5... Hunters vão a\nbares, não vão?\tEntão... vá conversar\ncom meu pai, tá?\tN-Não se preocupe\ncomigo... Estou ocupada\ndemais...*sniff*\t...%W5...%W10\tU-Um%W5...\n%M0_7O quê? Achei que\njá tivesse acabado.\t%M0_1Vá fazer o que\nvocês Hunters fazem...\nVá logo!",
+    "map.msg.1df63f58": "Você acha que eu\nsou idiota?",
+    "map.msg.1df63fb0": "Eu já sei que você\nvirou Hunter,\n%N0!\tAdmito que isso\nme incomoda, mas%W5...\tPor que mentiu para mim%W5...?",
+    "map.msg.1df64098": "Certo! Faça o que\nquiser! Eu nunca\nliguei mesmo! *sob*\tTomara que um bandido\ndevore você! Seria\nbem feito!\n...%W5...%W10\tU-Um%W5...\n%M0_7O quê? Achei que\njá tivesse acabado.\t%M0_1Vá fazer o que\nvocês Hunters fazem...\nVá logo!",
+    "map.msg.1df641e0": "Pode enviar presentes\na Rachel!",
+    "map.msg.1df6445c": "...Achei muito\nbonito.",
+    "map.msg.1df644b4": "...Pense no gosto\nda pessoa antes de\nescolher um presente.",
+    "map.msg.1df6465c": "......Quem é ela?",
+    "map.msg.1df64690": "???",
+    "map.smsg.1df646b4": {
+      "body": "*glare*\t(Hmph!) Precisa de mim\npara alguma coisa?",
+      "choices": "Hã?\tSim, preciso."
+    },
+    "map.msg.1df6474c": "Então por que veio!?\tOlha, estou ocupada e\nnão tenho tempo para\nficar de conversa.\tSe não se importa,\nquero voltar às coisas\nmuito importantes\tque eu estava fazendo\nantes de você vir\nme interromper.\tVá se divertir com\nsua... amiga.\nHmph!",
+    "map.msg.1df64880": "......\tEstou muito ocupada\nagora.\tDesculpe, pode ir\nembora? Não posso me\ndistrair. Hmph!",
+    "map.smsg.1df649bc": {
+      "body": "Ah... Entendi.\tHunters fazem sucesso\ncom as garotas, né?\tFoi por isso que quis\ntanto virar um?",
+      "choices": "Hã?\tSou conquistador."
+    },
+    "map.msg.1df64a98": "Ah, faça o favor!\nQue decepção.\tE pode me esquecer,\ntá? Não sou esse\ntipo de garota!\tVá embora. Estou\nocupada e tenho muito\nque fazer.",
+    "map.msg.1df64c10": "%W5...%W5...Ah, que bom.\tUm Hunter popular\ncomo você consegue\na garota que quiser!\tNão vou tomar mais\no seu tempo!\t...Não quero\natrapalhar seus encontros\ncom as \"gatinhas\".\tVá se divertir com\nsuas piriguetes, tá?\tSeja muito feliz\ne tenha um monte de\nfilhinhos Hunters...\t(...Com tanta perua,\ndá para formar um\nexército. Idiota!)",
+    "map.msg.1df64e30": "Hm?",
+    "map.msg.1df64e54": "......\tBom, isso também\né meio estranho.",
+    "map.msg.1df64ec8": "Não é nada.\nEsqueça.",
+    "map.msg.1df64f6c": "Ah, %N0...\n...Hã!?\t%F3%M0_8O-O que houve com\nseu braço!? O que foi?\tEu sabia que virar Hunter\nera uma má ideia!\t%F0Dá para consertar?\nOu você vai ficar\nassim para sempre...?\t%M0_10Ah--se houver\nalgo que eu possa fazer,\né só pedir!",
+    "map.smsg.1df650dc": {
+      "body": "Ah, %N0...\tSeu-- braço--\n...Tudo bem?",
+      "choices": "Fique calma.\tÉ cibernético."
+    },
+    "map.msg.1df65178": "%F2Que bom saber disso.\nFiquei preocupada\ncom você, %N0.\tAchei que seu braço\nnão tivesse conserto...\tNão me assuste assim!",
+    "map.smsg.1df65234": {
+      "body": "Ciber... o quê?\nNão sei o que\nisso significa, mas\tse você está bem,\nestá tudo certo.\tPor que você foi\nvirar Hunter, afinal?\tEra só questão de\ntempo até algo assim\nacontecer.",
+      "choices": "Acho que tem razão.\tNão é verdade."
+    },
+    "map.msg.1df65374": "Como achou que\nnão seria perigoso,\n%N0?\tEu sabia que era\numa péssima ideia\nvirar Hunter!\tDesculpe, %N0,\nmas tem gente aqui\npreocupada com você.\t...Todos queremos\nque você volte\ninteiro para casa.",
+    "map.msg.1df6547c": "%F3Claro que é.\tEu me preocupo--\npor isso não queria\nque saísse caçando.\tSei que é egoísmo, mas\nnão sei o que faria\nse...",
+    "map.msg.1df6553c": "%N0...? Ele...\nEstá dormindo,\nnão está?",
+    "map.msg.1df656c0": "%M0_8D-Diga alguma coisa!\nPor que faz isso\ncomigo?",
+    "map.msg.1df6575c": "Ah, %N0...\t%F1Obrigada por aquilo.\nSe você não aparecesse...\tNem sei o que\npoderia acontecer.\t%F0Mas e Wayne?\nAcho que não havia\no que fazer...",
+    "map.msg.1df65874": "Ah, %N0...\nPapai me contou tudo\nsobre Wayne.\tAcho que ele viu\ncomo seu ódio era vazio.\tSenão, teria\natirado em papai\nmesmo me acertando.\tEle salvou nossas vidas...\ne você também.\tTome, aceite isto\ncomo sinal da minha\ngratidão...",
+    "map.msg.1df6599c": "Mamãe me deu este\namuleto da sorte...\tQuero que fique com ele.",
+    "map.msg.1df65a7c": "...Ah, não cabe mais\nnada na sua bagagem.\nVolte depois.",
+    "map.msg.1df65b0c": "%N0...\tPode... me deixar\nsozinha agora?\tPor favor...?",
+    "map.msg.1df6637c": "Uma foto antiga de\nRachel com os pais.\tEla era bem mais nova.\nTodos estão sorrindo.",
+    "map.msg.1df66424": "......\nSó me deixe sozinha...",
+    "map.msg.1df664bc": "É a única foto\nque tenho da família...\tPapai me deu quando\neu era pequena... Eu\nchorava por mamãe.\tEle disse para pensar\nnela quando olhasse\npara a foto.\t\"Se continuar chorando,\na mamãe vai ficar triste\nlá no céu\", ele disse.\t...Não queria deixá-la\ntriste, então parei\nde chorar.\tÉ tão estranho...\nNão me esqueci dela,\nmas parei de chorar.\t...Ainda fico triste,\nmas as lágrimas\nnão saem mais.\t......\n--Desculpe, do que\nestávamos falando?",
+    "map.msg.1df667dc": "Há uma foto de mamãe\ne papai no porta-\nretratos.\tEle a abraça pelos ombros\ne os dois parecem\nmuito felizes.",
+    "map.msg.1df6688c": "Uma foto de papai,\nmamãe e Jack quando\neram mais jovens.\tParece que foi tirada\nquando eles viajavam\npelo Oeste.",
+    "map.msg.1df6694c": "Uma foto recente\nda família. Todos\nparecem felizes.",
+    "map.msg.1df66a94": "O que foi, %N0?\nAh, encontrou aquela\nfoto antiga, é?\tOlho muito para ela\nquando seu pai viaja.",
+    "map.msg.1df66b54": "Ele passa tanto\ntempo fora...\tFico feliz que\nnisso você não seja\nigual ao seu pai.\t...Se o encontrar,\npeça que venha\nmais vezes para casa.",
+    "map.msg.1df66c30": "......\t...Hm?",
+    "map.msg.1df66c80": "Ah, desculpe,\n%N0. Não tinha\nvisto você aí."
+  },
+  "aliases": {
+    "map.msg.1df6491c": "map.msg.1df63090",
+    "map.msg.1df64944": "map.msg.1df63090",
+    "map.msg.1df6496c": "map.msg.1df63090",
+    "map.msg.1df64994": "map.msg.1df53194",
+    "map.msg.1df64b70": "map.msg.1df63090",
+    "map.msg.1df64b98": "map.msg.1df63090",
+    "map.msg.1df64bc0": "map.msg.1df63090",
+    "map.msg.1df64be8": "map.msg.1df53194",
+    "map.msg.1df64dbc": "map.msg.1df63090",
+    "map.msg.1df64de4": "map.msg.1df64690",
+    "map.msg.1df64e08": "map.msg.1df63090",
+    "map.msg.1df64ea0": "map.msg.1df53194",
+    "map.msg.1df64f04": "map.msg.1df63090",
+    "map.msg.1df65678": "map.msg.1df63090"
+  },
+  "deferred": {
+    "map.msg.1df6435c": "Controle opaco: edição bloqueada"
+  }
+}

@@ -27,7 +27,8 @@ PROFILE='spacing-v003-assumed-by-user-not-visually-confirmed'
 REGION_V2_DRAFT=ROOT/'translations/regiao-inicial-v002.json'
 REGION_V3_DRAFT=ROOT/'translations/regiao-inicial-v003.json'
 REGION_V4_DRAFT=ROOT/'translations/regiao-inicial-v004.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v005.json'
+REGION_V5_DRAFT=ROOT/'translations/regiao-inicial-v005.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v006.json'
 
 
 def unique_object(pairs):
