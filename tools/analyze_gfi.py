@@ -53,8 +53,12 @@ def main():
             for pair in CHAR_TO_BYTES.values():counts[pair.hex()]+=raw.count(pair)
     evidence['usage_survey']={'framed_message_candidates':count,'reserved_pair_occurrences':counts,
                              'scope':'heuristic msg-null/msgn candidates in MAP.MCT, not all game resources'}
+    validation=ROOT/'reports/acentos-v001-validation.json'
+    status=json.loads(validation.read_text(encoding='utf-8')).get('visual_status') if validation.is_file() else None
     evidence['conclusions']={'native_ptbr_not_demonstrated':True,'reserved_cells_blank_in_both_fonts':True,
-                             'custom_mapping_uses_existing_reader':True,'visual_rendering_pending':True}
+                             'custom_mapping_uses_existing_reader':True,
+                             'visual_rendering_pending':status!='preliminary_user_visual_validation',
+                             'visual_validation_reference':'reports/acentos-v001-validation.json'}
     (ROOT/'reports/gfi-encoding-analysis.json').write_text(json.dumps(evidence,indent=2)+'\n',encoding='utf-8')
     print('GFI structure and lookup evidence written; previews remain local under work/font-analysis')
 

@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "source": "JOGO/Metal Saga/DATA/MAP/MAP.MCT",
+  "resource": "DATA/MAP/MAP.MCT",
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "source_size": 730998784,
+  "recognized_revision": true,
+  "counts": {
+    "validated": 2049,
+    "pending": 4131,
+    "rejected": 31
+  },
+  "total_signatures": 6211,
+  "profiles": {
+    "ascii-lf-v1": 2048,
+    "nina-controlled-pilot-v1": 1
+  },
+  "reasons": {
+    "pending": {
+      "msgn layout not proven; do not assume 32-byte header": 1418,
+      "Unsupported control code or encoding": 2038,
+      "Ambiguous previous record boundary": 403,
+      "Invalid instruction tag": 159,
+      "Invalid instruction size": 76,
+      "Missing terminator or nonzero trailing data": 37
+    },
+    "rejected": {
+      "Invalid instruction location": 19,
+      "Invalid instruction size": 12
+    }
+  },
+  "baseline_comparison": {
+    "available": true,
+    "baseline_entries": 2048,
+    "exact_entries_equal": true
+  },
+  "record_roundtrip_passed": true,
+  "ascii_no_edit_patches": 0,
+  "source_hash_unchanged": true,
+  "elapsed_seconds": 7.629,
+  "context": "physical offsets, local indices, raw headers, three adjacent instructions; speaker/scene mapping unknown",
+  "scope": "heuristic msg-null/msgn signatures, not a complete script container parser",
+  "output_files": [
+    "dialogos.jsonl",
+    "pendentes.jsonl",
+    "rejeitados.jsonl",
+    "plano-ascii.json"
+  ],
+  "completed": true,
+  "execution_checks": {
+    "unit_tests_passed": 28,
+    "windows_cmd_launcher_exit_code": 0,
+    "external_python_packages_loaded": false,
+    "new_iso_created": false,
+    "repeated_output_files_identical": {
+      "dialogos.jsonl": {
+        "sha256": "7e98374c73c4fb3198397b90d8ffbb6bacf52498af92256e5fe4b0eb1a9609e5",
+        "bytes": 1979649
+      },
+      "pendentes.jsonl": {
+        "sha256": "1913972f8a303bb9bd6ecb4a6713f081e123efea096496cd33a2e8e526df9a68",
+        "bytes": 2536517
+      },
+      "rejeitados.jsonl": {
+        "sha256": "970c7f693b709e762d50e8081a3a41ea0f0df60fd58e59f6a31d95c1d3145049",
+        "bytes": 2866
+      },
+      "plano-ascii.json": {
+        "sha256": "aa2fc778776c234c8628c399f863f1ceb9cc873167418e58e3776ab9b718548d",
+        "bytes": 2943483
+      }
+    }
+  }
+}

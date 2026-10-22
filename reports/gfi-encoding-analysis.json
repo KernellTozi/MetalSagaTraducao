@@ -451,6 +451,7 @@
     "native_ptbr_not_demonstrated": true,
     "reserved_cells_blank_in_both_fonts": true,
     "custom_mapping_uses_existing_reader": true,
-    "visual_rendering_pending": true
+    "visual_rendering_pending": false,
+    "visual_validation_reference": "reports/acentos-v001-validation.json"
   }
 }

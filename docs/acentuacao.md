@@ -3,9 +3,23 @@
 ## Estado e finalidade
 
 ISO separada: `work/MetalSaga-ptbr-acentos-v001.iso`. Validação binária concluída;
-exibição no PCSX2 **pendente da navegação manual do usuário**. Não contém a edição
+**validação visual preliminar realizada manualmente pelo usuário** nas telas A e B
+de Nina. Os grupos minúsculos e maiúsculos apareceram, permaneceram dentro da caixa
+e não houve travamento relatado. Não constitui aprovação de toda a tipografia,
+de ambas as fontes individualmente ou de todos os contextos. Não contém a edição
 do diário. Não altera as ISOs anteriores. A fala ASCII “Quer ser um / Hunter?”
-foi confirmada pelo usuário em captura de tela; essa confirmação não valida acentos.
+foi confirmada pelo usuário em captura de tela; a evidência dos acentos é o teste
+posterior separado, identificado em `reports/acentos-v001-validation.json`.
+
+As capturas mostram marcas visíveis e espaçamento largo. Deslocamentos aparentes
+podem envolver o desenho composto dos glifos e seu avanço de célula inteira;
+não foi isolada a causa por caractere. As maiúsculas usam corpos comprimidos
+verticalmente para reservar o topo, diferentemente de várias minúsculas. O mesmo
+mapeamento funcionou nos dois grupos, mas a qualidade de cada diacrítico ainda
+não foi aprovada. Não é possível identificar somente pelas capturas qual das duas
+GFI foi usada. Menus, diário e outros leitores continuam sem validação equivalente.
+Nenhuma fonte foi alterada após esse retorno. A investigação tipográfica fica
+adiada: não existe impedimento de fontes para extrair os bytes originais.
 
 Não foi identificado suporte nativo seguro aos 18 caracteres solicitados. Foi
 construída uma extensão experimental de fontes, usando códigos cujo caminho até
@@ -161,10 +175,11 @@ avançar normalmente e verificar a primeira página B da mensagem seguinte.
 Observar cada um dos 18 caracteres, cortes em cima/baixo, cedilhas, ponto de í,
 til versus circunflexo, maiúsculas, espaçamento, sobreposição e glifos vazios ou
 japoneses. Confirmar que a página inglesa seguinte e os textos ASCII continuam
-legíveis e que o diálogo avança normalmente. Capturas de A e B serão a evidência
-para aprovar ou revisar o experimento. O iniciador usa o ambiente isolado existente;
+legíveis e que o diálogo avança normalmente. As capturas de A e B recebidas do
+usuário sustentam a validação preliminar, sem exigir nova navegação nesta etapa.
+O iniciador usa o ambiente isolado existente;
 o dry-run foi executado, sem iniciar o emulador nesta etapa.
 
-Após a confirmação, ajustar tipografia/métricas e ampliar de forma controlada o
-repertório (o pedido atual não inclui todas as maiúsculas acentuadas do português).
-Não liberar tradução em massa com acentos apenas pela aprovação binária.
+O roteiro acima fica registrado para testes futuros; não foi repetido pelo Codex.
+A prioridade atual é o extrator offline descrito em `extrator-dialogos.md`.
+Tipografia/métricas e ampliação do repertório ficam para etapa posterior.

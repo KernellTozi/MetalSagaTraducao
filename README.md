@@ -5,7 +5,12 @@ Projeto independente de recompilação nativa. Não distribui arquivos do jogo, 
 
 O reconhecimento inicial está em [docs/reconhecimento.md](docs/reconhecimento.md).
 Há experimentos separados de diário, diálogo inicial e acentuação. A fala ASCII
-inicial foi confirmada visualmente pelo usuário; os acentos aguardam teste manual.
+inicial foi confirmada visualmente pelo usuário; os dois grupos de acentos receberam
+validação visual preliminar, com limitações tipográficas ainda abertas.
+
+Para extrair os diálogos localmente, dar duplo clique em **`Extrair-Dialogos.cmd`**.
+Os resultados ficam em uma pasta nova de `work/extracoes/`. Não usa IA, APIs,
+emulador nem dependências externas. [Manual do extrator](docs/extrator-dialogos.md).
 
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).

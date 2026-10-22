@@ -4837,7 +4837,14 @@
       "lba": 819581
     }
   ],
-  "visual_status": "pending_user_verification",
+  "visual_status": "preliminary_user_visual_validation",
+  "visual_evidence": {
+    "tester": "user; manual PCSX2 navigation",
+    "screenshots": ["codex-clipboard-1922311c-9236-4eef-9d4d-4bbf51631aa4.png", "codex-clipboard-f0ad2003-ca9c-45ef-965b-9f3bf67e9f37.png"],
+    "observed": "Both Nina test screens rendered the requested character groups, remained inside the dialogue box, and no crash was reported.",
+    "quality": "Some accent placement and legibility need review; exact typographic correctness is not approved.",
+    "scope": "Two dialogue screens only; active GFI size not identified; no proof for other text contexts or every font."
+  },
   "native_accent_support": false,
   "glyph_style": "experimental composites of native base letters with added diacritics",
   "limitations": [
