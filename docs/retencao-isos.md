@@ -24,3 +24,9 @@ python tools/iso_retention.py
 Quatro testes de retenção passaram após a atualização, incluindo ausência de
 experimentos fixados por padrão. Remoções reais nos testes ficam restritas a
 pastas temporárias isoladas.
+
+
+Na construção da v018, foi removida a ISO antiga do experimento do diário
+(`work/MetalSaga-ptbr-experimento.iso`). A conferência posterior confirmou dez
+imagens: acentos v001, desenvolvimento e v011 a v018. A receita e os relatórios
+do diário permanecem; seu atalho requer reconstrução da imagem.

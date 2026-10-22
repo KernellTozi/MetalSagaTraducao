@@ -234,3 +234,20 @@ fala mantém a construção correta `Você quer mesmo ser um Hunter?`.
 locais. Essa lista não detecta todos os nomes próprios possíveis e deve crescer
 conforme novas regiões forem lidas. A regra de sucata se aplica a `junk` como
 material; não proíbe usar lixo para outro termo, como `trash`, quando apropriado.
+
+
+## Continuidade v018
+
+Preservar os nomes franceses dos dez tanques da coleção de Beldaire, junto dos
+modelos. Não contabilizar esses nomes intactos como traduções novas. Manter
+Scavenger Isle, Alice One, Private Puke, Crazy Wayne, Explorer (apelido de Eddy),
+Vlassique, Eggplant Wiz, Excelsior SE e Drill Gun. Bus Stop Sign permanece como
+nome de item; ruínas do ponto de ônibus podem receber descrição genérica.
+Detector de minas e detector de metais são descrições genéricas, coerentes com
+o lote anterior. Material junk continua sucata.
+
+Preservar a diferença de tom entre trabalhadores de Scavenger Isle e moradores
+da mansão, os relatos de ferimentos e mortes, a paquera e as reações distintas
+dos possíveis companheiros. Direções, números e condições de contratação não
+podem mudar para facilitar o encaixe. Não tratar memórias, rumores ou opiniões
+de personagens como informações objetivas confirmadas.

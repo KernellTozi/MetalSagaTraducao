@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -414,7 +414,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x0e77a270)
         self.assertEqual(proposal['scope']['records'],4363)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(419,333,48))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V17_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(3432,931,0))
@@ -439,6 +439,33 @@ class PilotTests(unittest.TestCase):
             a,_=tokens(bytes.fromhex(segment['source_hex']))
             b,_=tokens(encode(segment['translation']))
             self.assertEqual([x['hex'] for x in a],[x['hex'] for x in b])
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v018_preserves_prior_lot_and_collection_names(self):
+        import re
+        from prepare_translation_lot import prepare
+        parent,_=load_draft(REGION_V17_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x0be1fd64)
+        self.assertEqual(proposal['scope']['records'],5163)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(444,282,74))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(4034,1129,0))
+        self.assertEqual(current['entries'][800:],old['entries'])
+        self.assertEqual(len(sources),18)
+        self.assertEqual(len(report['deferred']),265)
+        patched={p['id'] for p in patches}
+        self.assertFalse(set(draft['deferred'])&patched)
+        by_id={e['id']:e for e in current['entries']}
+        for suffix in ('b81c','b87c','b8cc','b92c','b98c','b9ec','ba4c','ba9c','baec','bb4c'):
+            key='map.msgn.0be2'+suffix
+            self.assertNotIn(key,patched)
+            for segment in by_id[key]['segments']:
+                self.assertEqual(segment['source'],segment['translation'])
         exceptions={e['id'] for e in current['entries'] for s in e['segments']
                     if re.search(r'\bnao\b',s['translation'])}
         self.assertEqual(exceptions,{'map.msg.1df8bec0'})
