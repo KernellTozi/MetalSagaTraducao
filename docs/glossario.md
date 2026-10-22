@@ -158,6 +158,36 @@ Junkyard e as demais cidades continuam preservadas. A reação curta `Não...`
 mantém a hesitação e cabe com acento no slot de sete bytes, retirando apenas a
 exclamação. Isso não amplia a exceção ASCII `nao` do registro autorizado.
 
+Na v016, Continental Railroad recebe Ferrovia Continental. A linguagem formal
+dos avisos e do condutor contrasta com passageiros frustrados, trabalhadores
+sazonais e comerciantes. Não apagar a crítica ao controle de oferta, aos preços
+e à proteção coercitiva do Exército Blueberry. A mãe de Catherine se preocupa,
+mas não entende por que outro ursinho não substitui Gluttony. Preservar o nome
+do brinquedo, a insistência da criança e a mudança de atitude da mãe.
+
+Preservar Fredrick, Shasta, Marceau e Joe. No encontro com o boneco, manter a
+revelação de quem controla quem e o fato de o humano não se lembrar dos atos.
+Sky Demon é a designação usada para B2 Manta Ray: conservar ambas, além de Eagle 1,
+e distinguir as reações do piloto conforme o adversário derrotado.
+
+Em Dowan, manter as versões do porto fechado por polvos e do navio concedido
+após a vitória contra Krak Cannon. A Hunter aposentada fala de forma ríspida;
+o personagem que tosse mantém os marcadores `*cough*` e as insinuações. Não
+transformar os rumores sobre curandeiros em explicações técnicas adicionais.
+As instruções de caça apontam península a sudeste e pequenos morros a leste.
+
+Na sequência de Shaka Khan e Fang, conservar Rouge Rogues, os apelidos
+«Derringer» Jack, «Berserker» Joe e «Demon» Doc Solomon, e o suspense sobre a
+identidade do visitante. O jogo de palavras sobre música e golpes recebe
+«sucesso só» / «dançar a minha música», sem transformar a fala em exposição.
+Os seguidores mantêm a contradição entre as ameaças da gangue e o zelo pelas
+três refeições diárias. Curry Guru e Curry Lunch ficam preservados.
+
+Na visita à Catedral Muscular, manter o entusiasmo do guia e o absurdo das
+promessas de amor, treino e carreira política. A piada sobre anabolizantes pode
+ser adaptada com rima («fortão» / «mulherão»), preservando o período de dois anos.
+Não acrescentar explicações médicas ou alterar as instruções de confisco de armas.
+
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear
 o registro e investigar capacidade/realocação, sem apagar significado.

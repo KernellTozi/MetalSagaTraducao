@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -344,7 +344,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x169b91dc)
         self.assertEqual(proposal['scope']['records'],2763)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(469,300,31))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V15_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(2165,598,0))
@@ -365,6 +365,41 @@ class PilotTests(unittest.TestCase):
             self.assertIn(part,route)
         self.assertEqual(body('map.msg.1afd9694'),'Não...')
         self.assertEqual(body('map.msg.1774e8e8'),body('map.msg.169bffc8'))
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v016_preserves_all_prior_records_and_train_dowan_context(self):
+        import re
+        from prepare_translation_lot import prepare
+        parent,_=load_draft(REGION_V15_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x1282f8cc)
+        self.assertEqual(proposal['scope']['records'],3563)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(507,270,23))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(2806,757,0))
+        self.assertEqual(current['entries'][800:],old['entries'])
+        self.assertEqual(len(current['entries']),3563)
+        self.assertEqual(len(sources),16)
+        self.assertEqual(len(report['deferred']),143)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        def body(key):return by_id[key]['segments'][0]['translation']
+        self.assertIn('150G',body('map.2smg.128316ec'))
+        self.assertIn('10G',body('map.2smg.13709d6c'))
+        self.assertIn('100G',body('map.2smg.1371fd7c'))
+        self.assertIn('Gluttony',body('map.msgn.1370e54c'))
+        self.assertIn('Catherine',body('map.msg.1370e608'))
+        for part in ('Sky Demon','B2 Manta Ray','Eagle 1'):
+            self.assertIn(part,re.sub(r'\s+',' ',body('map.msg.1476db28')))
+        for part in ('sudeste','leste'):
+            self.assertIn(part,body('map.msgn.14aab7b8'))
+        self.assertIn('3 vezes',body('map.msgn.1576e884'))
+        self.assertIn('Fang',body('map.msg.1576a8b8'))
+        self.assertIn('Rouge Rogues',body('map.msg.1576a8b8'))
         exceptions={e['id'] for e in current['entries'] for s in e['segments']
                     if re.search(r'\bnao\b',s['translation'])}
         self.assertEqual(exceptions,{'map.msg.1df8bec0'})
