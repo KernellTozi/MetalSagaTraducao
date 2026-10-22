@@ -3,11 +3,12 @@ import json
 import mmap
 import sys
 import unittest
+import tempfile
 from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -170,7 +171,7 @@ class PilotTests(unittest.TestCase):
     def test_v008_preserves_v007_and_rank_names(self):
         parent,_=load_draft(REGION_V7_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V8_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(503,74,0))
@@ -181,6 +182,39 @@ class PilotTests(unittest.TestCase):
         for name in ('Veteran Hunter','Elite Hunter','Ace Hunter','Invincible Hunter','Disassembler','Scarlet','Red Fox'):
             self.assertIn(name,targets)
         self.assertEqual(len(sources),8)
+
+    def test_v009_large_lot_preserves_previous_prefix_and_game_names(self):
+        parent,_=load_draft(REGION_V8_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(666,111,0))
+        self.assertEqual(current['entries'][:577],old['entries'])
+        self.assertEqual(len(current['entries']),777)
+        self.assertEqual(len(report['deferred']),16)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        self.assertEqual(len(sources),9)
+        for entry in current['entries'][577:]:
+            for segment in entry['segments']:
+                if not segment['editable']:
+                    self.assertEqual(segment['source'],segment['translation'])
+        targets=' '.join(s['translation'].replace('\n',' ') for e in current['entries'][577:] for s in e['segments'])
+        for name in ('Rosa Beldaire','Sebastian','Arthur','Leon','Fang','Helga','Crossfire','Iron Slugs','Magnum Cycles'):
+            self.assertIn(name,targets)
+
+    def test_more_than_eight_draft_versions_and_cycle_rejection(self):
+        with tempfile.TemporaryDirectory(dir=ROOT/'work',prefix='test-draft-chain-') as folder:
+            folder=Path(folder)
+            for n in range(10):
+                draft={'translations':{},'aliases':{},'deferred':{}}
+                if n:draft['extends']=f'{n-1}.json'
+                (folder/f'{n}.json').write_text(json.dumps(draft),encoding='utf-8')
+            _,sources=load_draft(folder/'9.json')
+            self.assertEqual(len(sources),10)
+            (folder/'0.json').write_text(json.dumps({'extends':'9.json'}),encoding='utf-8')
+            with self.assertRaisesRegex(ValueError,'circular inheritance'):
+                load_draft(folder/'9.json')
 
     def test_duplicate_authored_keys_are_not_silently_overwritten(self):
         raw=b'{"schema":1,"translations":{"same.id":"first","same.id":"second"}}'

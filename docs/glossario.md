@@ -27,6 +27,9 @@ novas de termos genéricos continuam sujeitas à revisão contextual.
 | Great Destruction | Grande Destruição | Forma de trabalho para o evento histórico; revisão contextual pendente |
 | Traders | Comerciantes | Grupo definido pela atividade comercial; exceções explícitas Hunter/Soldier preservadas |
 | eMessage | eMessage | Nome do recurso de mensagens, preservado |
+| Rosa, Carl, Sebastian, Arthur, Leon, Fang, Helga | preservados | Nomes encontrados no lote ampliado v009 |
+| Crossfire | Crossfire | Nome do videogame, preservado |
+| Iron Slugs, Magnum Cycles | preservados | Nomes de inimigos citados em orientações; suas tabelas não foram traduzidas |
 
 Igor usa frases mais simples e telegráficas para conservar a caracterização.
 Hesitações de Stan e risadas permanecem. A tradução não deve corrigir enganos
@@ -36,6 +39,19 @@ Nina fala como mãe preocupada com os riscos da escolha do filho. Os trechos
 seguintes contêm diálogo familiar e uma narração de final alternativo com humor.
 As atribuições de fala devem ser confirmadas visualmente; os cabeçalhos ainda
 não fornecem um mapeamento comprovado de personagem por registro.
+
+Na visita de Rosa, conservar a educação e as provocações indiretas, sem tornar
+as falas agressivas ou explícitas demais. Sebastian usa tratamento respeitoso;
+Carl mostra entusiasmo com mecânica. Rachel alterna respostas defensivas e
+curiosidade; a conversa posterior não deve parecer uma continuação da briga.
+Esses tons são inferidos da sequência textual, sem identificação automática de
+retrato. Evitar flexões de gênero em agradecimentos quando o falante for incerto.
+
+No bar, o Hunter experiente se gaba e dá conselhos diretos. O transportador fala
+de modo informal e brinca, mas a preocupação com Rachel deve manter seriedade.
+Não transformar expressões idiomáticas inglesas em traduções literais sem sentido:
+o alvo deve cumprir a mesma função na conversa. Rumos, distâncias relativas e
+orientações de equipamento precisam conservar a informação prática.
 
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear

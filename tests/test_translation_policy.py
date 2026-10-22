@@ -21,3 +21,11 @@ class PolicyTests(unittest.TestCase):
     def test_existing_loanwords_and_unique_names(self):
         self.assertEqual(validate('punk upgrade Gibson LOVE machine','punk upgrade Gibson LOVE machine'),[])
         self.assertTrue(validate('upgrade Gibson','melhoria guitarra'))
+
+    def test_new_scene_names_and_wrapped_enemy_names(self):
+        self.assertEqual(validate('Rosa, Carl, Sebastian, Arthur, Leon, Fang and Helga.',
+                                  'Rosa, Carl, Sebastian, Arthur, Leon, Fang e Helga.'),[])
+        self.assertTrue(validate('Rosa and Sebastian','Rosa e o mordomo'))
+        self.assertEqual(validate('Iron\nSlugs and Magnum Cycles','Iron Slugs e Magnum\nCycles'),[])
+        self.assertTrue(validate('Iron\nSlugs','lesmas de ferro'))
+        self.assertTrue(validate('Aheh. Mmm...','Ah. Hum...'))

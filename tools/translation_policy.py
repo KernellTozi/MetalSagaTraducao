@@ -7,6 +7,9 @@ POLICY_PATH=Path(__file__).resolve().parents[1]/'translations/politica.json'
 
 
 def occurrences(text,term):
+    # A proper name can wrap across lines; matching must survive reflow.
+    text=re.sub(r'\s+',' ',text)
+    term=re.sub(r'\s+',' ',term)
     # Permit normal English plural for protected professions and loanwords.
     suffix='s?' if term.lower() in ('hunter','soldier','punk','upgrade') else ''
     return len(re.findall(r'(?<!\w)'+re.escape(term)+suffix+r'(?!\w)',text,re.IGNORECASE))

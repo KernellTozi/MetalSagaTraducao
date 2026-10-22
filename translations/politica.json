@@ -30,7 +30,17 @@
     "Montoya",
     "Stan",
     "Dr. Martin",
-    "eMessage"
+    "eMessage",
+    "Rosa",
+    "Carl",
+    "Sebastian",
+    "Arthur",
+    "Leon",
+    "Fang",
+    "Helga",
+    "Crossfire",
+    "Iron Slugs",
+    "Magnum Cycles"
   ],
   "preserve_expressions": [
     "Hmph",
@@ -60,7 +70,9 @@
     "Yeeeeeeeeeaaahh-HA! Woo!",
     "Uh-Um",
     "Uh-umm",
-    "umm"
+    "umm",
+    "Aheh",
+    "Mmm"
   ],
   "forbidden_targets": [],
   "required_translations": {

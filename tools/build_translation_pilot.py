@@ -30,7 +30,8 @@ REGION_V4_DRAFT=ROOT/'translations/regiao-inicial-v004.json'
 REGION_V5_DRAFT=ROOT/'translations/regiao-inicial-v005.json'
 REGION_V6_DRAFT=ROOT/'translations/regiao-inicial-v006.json'
 REGION_V7_DRAFT=ROOT/'translations/regiao-inicial-v007.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v008.json'
+REGION_V8_DRAFT=ROOT/'translations/regiao-inicial-v008.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v009.json'
 
 
 def unique_object(pairs):
@@ -43,7 +44,7 @@ def unique_object(pairs):
 
 def load_draft(path,chain=()):
     path=Path(path).resolve()
-    if not path.is_relative_to(ROOT) or path in chain or len(chain)>=8:
+    if not path.is_relative_to(ROOT) or path in chain or len(chain)>=64:
         raise ValueError('Draft outside project or circular inheritance')
     raw=path.read_bytes();child=json.loads(raw.decode('utf-8-sig'),object_pairs_hook=unique_object);sources=[]
     if 'extends' in child:
