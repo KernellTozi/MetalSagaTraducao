@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v026.json",
+  "name": "regiao-inicial-v027",
+  "status": "despedidas com referencia T0 preservada; validacao visual conjunta pendente",
+  "reinsertion_policy": "fixed-record-t0-preserved-slots-v009",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v027.iso",
+  "resume_deferred": [
+    "map.msg.057cdbcc",
+    "map.msg.0a6111f0",
+    "map.msg.0a611a8c",
+    "map.msg.0af879b0",
+    "map.msg.0af8824c",
+    "map.msg.0be074fc",
+    "map.msg.0db0ab6c",
+    "map.msg.0e76778c",
+    "map.msg.0f831e1c",
+    "map.msg.1033bafc",
+    "map.msg.12829490",
+    "map.msg.12829e2c",
+    "map.msg.1370a240",
+    "map.msg.14aa315c",
+    "map.msg.1773ee0c",
+    "map.msg.1d0b4360",
+    "map.msg.1d0b4d3c",
+    "map.msg.1df46edc"
+  ],
+  "reviewed_changes": [],
+  "translations": {
+    "map.msg.057cdbcc": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.0a6111f0": {
+      "body": "Boa sorte,\nsr. %T$0."
+    },
+    "map.msg.0a611a8c": {
+      "body": "OK. Cuide-se,\nsr. %T$0..."
+    },
+    "map.msg.0af879b0": {
+      "body": "Boa sorte,\nsr. %T$0."
+    },
+    "map.msg.0af8824c": {
+      "body": "OK. Cuide-se,\nsr. %T$0..."
+    },
+    "map.msg.0be074fc": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.0db0ab6c": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.0e76778c": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.0f831e1c": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.1033bafc": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.12829490": {
+      "body": "Boa sorte,\nsr. %T$0."
+    },
+    "map.msg.12829e2c": {
+      "body": "OK. Cuide-se,\nsr. %T$0..."
+    },
+    "map.msg.1370a240": {
+      "body": "Boa sorte,\nsr. %T$0."
+    },
+    "map.msg.14aa315c": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.1773ee0c": {
+      "body": "Boa sorte, sr. %T$0."
+    },
+    "map.msg.1d0b4360": {
+      "body": "Boa sorte,\nsr. %T$0."
+    },
+    "map.msg.1d0b4d3c": {
+      "body": "OK. Cuide-se,\nsr. %T$0..."
+    },
+    "map.msg.1df46edc": {
+      "body": "Boa sorte, sr. %T$0."
+    }
+  }
+}

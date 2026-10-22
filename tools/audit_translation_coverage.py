@@ -45,8 +45,10 @@ def audit(document,report,policy):
     if not report.get('valid') or report.get('refused')!=0:raise ValueError('Use a valid compiled lot')
     if document['source_sha256']!=report['source_sha256']:raise ValueError('Source hash mismatch')
     tokenizer=tokens
-    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY
-    if document.get('policy')==NUMERIC15_POLICY:
+    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY
+    if document.get('policy')==T0_POLICY:
+        from control_t0 import tokenize as tokenizer
+    elif document.get('policy')==NUMERIC15_POLICY:
         from control_numeric15 import tokenize as tokenizer
     elif document.get('policy')==NUMERIC1_POLICY:
         from control_numeric1 import tokenize as tokenizer

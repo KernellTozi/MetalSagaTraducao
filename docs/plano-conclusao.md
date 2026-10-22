@@ -69,3 +69,9 @@ O grupo `%$15` teve 18 registros retomados: 17 traduzidos (ofertas, casa, inscri
 Próximo alvo: `%T$0`, 18 registros exclusivos, depois `%I$0`, 14. A categoria heurística de revisão passou a 159 por incluir o marcador F já decidido; as outras 158 continuam pendentes de revisão contextual. Não contar o marcador ou nomes preservados como traduções novas. Manter o teste visual acumulado para o save corrido, com Dr. Palm, números e escolhas.
 
 Triagem antecipada de T0 em `reports/t0-triagem-v001.json`: 18 despedidas, 14 de boa sorte e quatro de cuidado/despedida, em três variantes de quebras. O prefixo de tratamento não prova qual entidade a variável resolve; investigar o consumidor antes de traduzir. Ainda não foi liberado.
+
+## Estado após o quarto passo — v027
+
+As 18 despedidas T0 foram traduzidas com a referência dinâmica e tratamento sr. preservados em seus papéis. A política v009 verifica handler, dois accessors e dependências no ELF original, com teste de instruções em memória simulada. Não se comprovou uma identidade canônica nem se liberaram N/I. São 5.856 traduções e 159 adiamentos (145 opacos e 14 nativos).
+
+Triagem em `reports/plano-pendencias-v005.json`. Próximo alvo previsto: `%I$0`, 14 registros exclusivos. A liberação de T0 uniu grupos antes separados: `%N$0` agora aparece com 22 registros exclusivos. Investigar sem promover por contagem; manter os 19 nomes N3 intactos. Testes visuais seguem acumulados para o save corrido.

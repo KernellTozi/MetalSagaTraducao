@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "records": 7231,
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "classes": {
+    "modified": 5856,
+    "deferred": 159,
+    "controls_or_punctuation": 599,
+    "name_or_expression_candidate": 458,
+    "review_unchanged": 159
+  },
+  "automatic_edit_approval": false,
+  "deferred_by_tag": {
+    "2smg": 2,
+    "2snm": 1,
+    "msg": 108,
+    "msgn": 29,
+    "sel": 1,
+    "smsg": 17,
+    "supr": 1
+  },
+  "deferred_by_reason": {
+    "Controle opaco: edição bloqueada": 145,
+    "Origem com bytes nativos: preservação permitida, edição bloqueada": 14
+  },
+  "opaque_parser_spans": [
+    {
+      "syntax": "%N$0",
+      "occurrences": 24,
+      "records": 22
+    },
+    {
+      "syntax": "%N$3",
+      "occurrences": 19,
+      "records": 19
+    },
+    {
+      "syntax": "%I$0",
+      "occurrences": 15,
+      "records": 14
+    },
+    {
+      "syntax": "%$0",
+      "occurrences": 13,
+      "records": 13
+    },
+    {
+      "syntax": "%$10",
+      "occurrences": 12,
+      "records": 12
+    },
+    {
+      "syntax": "%$2",
+      "occurrences": 12,
+      "records": 12
+    },
+    {
+      "syntax": "%",
+      "occurrences": 7,
+      "records": 3
+    },
+    {
+      "syntax": "%$13",
+      "occurrences": 6,
+      "records": 6
+    },
+    {
+      "syntax": "%I$1",
+      "occurrences": 5,
+      "records": 5
+    },
+    {
+      "syntax": "%I$15",
+      "occurrences": 5,
+      "records": 5
+    },
+    {
+      "syntax": "%I$9",
+      "occurrences": 5,
+      "records": 5
+    },
+    {
+      "syntax": "%$14",
+      "occurrences": 4,
+      "records": 4
+    },
+    {
+      "syntax": "%N$10",
+      "occurrences": 4,
+      "records": 4
+    },
+    {
+      "syntax": "%$11",
+      "occurrences": 3,
+      "records": 3
+    },
+    {
+      "syntax": "%$12",
+      "occurrences": 3,
+      "records": 3
+    },
+    {
+      "syntax": "%$17",
+      "occurrences": 3,
+      "records": 3
+    },
+    {
+      "syntax": "%$5",
+      "occurrences": 3,
+      "records": 3
+    },
+    {
+      "syntax": "%I$10",
+      "occurrences": 3,
+      "records": 3
+    },
+    {
+      "syntax": "%N",
+      "occurrences": 2,
+      "records": 2
+    },
+    {
+      "syntax": "%N$1",
+      "occurrences": 2,
+      "records": 2
+    },
+    {
+      "syntax": "%N$2",
+      "occurrences": 2,
+      "records": 2
+    },
+    {
+      "syntax": "%N$6",
+      "occurrences": 2,
+      "records": 2
+    },
+    {
+      "syntax": "%$16",
+      "occurrences": 1,
+      "records": 1
+    },
+    {
+      "syntax": "%$18",
+      "occurrences": 1,
+      "records": 1
+    },
+    {
+      "syntax": "%I$19",
+      "occurrences": 1,
+      "records": 1
+    },
+    {
+      "syntax": "%I$2",
+      "occurrences": 1,
+      "records": 1
+    },
+    {
+      "syntax": "%M_1",
+      "occurrences": 1,
+      "records": 1
+    },
+    {
+      "syntax": "%M_4",
+      "occurrences": 1,
+      "records": 1
+    },
+    {
+      "syntax": "%T0",
+      "occurrences": 1,
+      "records": 1
+    }
+  ],
+  "opaque_span_limit": "Parser spans are not proof of complete command grammar or semantics",
+  "pcsx2_validation": false,
+  "classification": "conservative triage; names/expressions are suggestions",
+  "plan_sha256": "00b95de9218fe67dd7a639db5114c7682ad3defa9a6cd80cffe64bf2eecfc247",
+  "report_sha256": "967fa6dd493727228e51157e524385410fc170fe6e06b4e0aec1fd631853341d",
+  "policy_sha256": "3740fac35b1ddcfcff36b7f94eeb2ebb950624354921019e6dbf686c6173ca17"
+}

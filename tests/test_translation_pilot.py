@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,REGION_V21_DRAFT,REGION_V22_DRAFT,REGION_V23_DRAFT,REGION_V24_DRAFT,REGION_V25_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,REGION_V21_DRAFT,REGION_V22_DRAFT,REGION_V23_DRAFT,REGION_V24_DRAFT,REGION_V25_DRAFT,REGION_V26_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -717,13 +717,13 @@ class PilotTests(unittest.TestCase):
         from gfi import encode
         parent,_=load_draft(REGION_V25_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V26_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'],report.get('terminology_issues'))
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5838,1393,0))
         self.assertEqual(len(sources),26)
         self.assertEqual(len(report['deferred']),177)
-        resumed=set(json.loads(DEFAULT_DRAFT.read_text(encoding='utf-8'))['resume_deferred'])
+        resumed=set(json.loads(REGION_V26_DRAFT.read_text(encoding='utf-8'))['resume_deferred'])
         self.assertEqual(len(resumed),18)
         changed=set();metadata=set()
         for before,after in zip(old['entries'],current['entries'],strict=True):
@@ -742,6 +742,38 @@ class PilotTests(unittest.TestCase):
         self.assertTrue(all(e['mode']=='slots' for e in current['entries'] if e['id'] in resumed))
         self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
         self.assertEqual(report['numeric15_evidence']['variable_index'],15)
+        self.assertEqual(draft['layout_profile'],'ptbr-layout-v005')
+
+    def test_v027_t0_only_and_prior_translations_immutable(self):
+        from control_t0 import tokenize
+        from gfi import encode
+        parent,_=load_draft(REGION_V26_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'],report.get('terminology_issues'))
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5856,1375,0))
+        self.assertEqual(len(sources),27)
+        self.assertEqual(len(report['deferred']),159)
+        resumed=set(json.loads(DEFAULT_DRAFT.read_text(encoding='utf-8'))['resume_deferred'])
+        self.assertEqual(len(resumed),18)
+        changed=set();metadata=set()
+        for before,after in zip(old['entries'],current['entries'],strict=True):
+            restored=copy.deepcopy(after)
+            if before['blocked_reasons']!=restored['blocked_reasons']:metadata.add(after['id'])
+            restored['blocked_reasons']=before['blocked_reasons']
+            for a,b in zip(before['segments'],restored['segments'],strict=True):
+                if a['translation']==b['translation']:continue
+                changed.add(after['id']);self.assertIn(after['id'],resumed)
+                raw=bytes.fromhex(b['source_hex']);target=encode(b['translation'])
+                self.assertLessEqual(len(target),len(raw))
+                self.assertEqual([t['hex'] for t in tokenize(raw)[0]],[t['hex'] for t in tokenize(target)[0]])
+                b['translation']=a['translation']
+            self.assertEqual(before,restored)
+        self.assertEqual(changed,resumed);self.assertEqual(metadata,resumed)
+        self.assertTrue(all(e['mode']=='slots' for e in current['entries'] if e['id'] in resumed))
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        self.assertEqual(report['t0_evidence']['variable_index'],0)
         self.assertEqual(draft['layout_profile'],'ptbr-layout-v005')
 
     def test_preservation_decision_rejects_changed_record(self):

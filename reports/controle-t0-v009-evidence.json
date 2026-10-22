@@ -1,0 +1,89 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "windows": [
+    {
+      "start": 1793324,
+      "end": 1793396,
+      "sha256": "d52e88d683ab08c287d43e547b69e463029ab9a6af4d10eef293d894d162f4f8"
+    },
+    {
+      "start": 521880,
+      "end": 521888,
+      "sha256": "f06d86d2158c0b83da5ac105b082b9811449614fe9c06af47266a1cacadcae68"
+    },
+    {
+      "start": 441184,
+      "end": 441220,
+      "sha256": "6fa08c8e897e93b9d5c8576345ac613ff3c99fe7b9bb25b429744b4181f04d3a"
+    }
+  ],
+  "allowed_token_hex": "25542430",
+  "variable_index": 0,
+  "entity_stride": 576,
+  "entity_base_pointer_va": 4674928,
+  "object_pointer_offset": 552,
+  "selector_offset": 108,
+  "string_table_va": 3552376,
+  "growth_allowed": false,
+  "mode": "slots",
+  "identity": "unresolved; do not infer canonical character ID from source text",
+  "runtime_visual_status": "pending_manual_validation",
+  "probe_scope": "Original T handler and two original accessors, synthetic memory, original numeric reader; not full PS2 runtime",
+  "probes": [
+    {
+      "index": 0,
+      "selector": 0,
+      "string_pointer": 4194304,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8240,
+        4674928,
+        1049128,
+        2097260,
+        8240,
+        3552376,
+        3145728
+      ]
+    },
+    {
+      "index": 2,
+      "selector": 7,
+      "string_pointer": 4194304,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8240,
+        4674928,
+        1050280,
+        2097260,
+        8240,
+        3552384,
+        3145756
+      ]
+    },
+    {
+      "index": 7,
+      "selector": 3,
+      "string_pointer": 4194304,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8240,
+        4674928,
+        1053160,
+        2097260,
+        8240,
+        3552404,
+        3145740
+      ]
+    }
+  ],
+  "pcsx2_executed": false
+}
