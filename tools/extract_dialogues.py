@@ -3,6 +3,7 @@ from pathlib import Path
 import argparse
 import collections
 import hashlib
+import heapq
 from datetime import datetime
 import json
 import mmap
@@ -13,6 +14,7 @@ import time
 from dialogue import ROOT, record, instruction, neighbors, sha, changes
 from build_accent_experiment import SECOND_OFFSET, SECOND_SOURCE, CONTROLS
 import dialogue_formats
+import dialogue_advanced
 
 RESOURCE = 'DATA/MAP/MAP.MCT'
 DEFAULT_SOURCE = ROOT/'JOGO/Metal Saga'/RESOURCE
@@ -73,6 +75,8 @@ def reconstruct(item):
     """Unedited record, including exact original header, NUL and zero padding."""
     if item['profile'].endswith('-v2'):
         return dialogue_formats.reconstruct(item)
+    if item['profile']=='renderer-text-v3':
+        return dialogue_advanced.reconstruct(item)
     raw = bytes.fromhex(item['original_text_hex'])
     if raw.decode('ascii') != item['source']:
         raise ValueError('Text/byte mismatch')
@@ -82,7 +86,7 @@ def reconstruct(item):
     return bytes.fromhex(item['header_hex']) + raw + bytes(slot_size-len(raw))
 
 
-def scan(data):
+def scan_v2(data):
     for match in re.finditer(rb'msg(?:\x00|n)', data):
         at = match.start()
         state, item = inspect(data, at)
@@ -94,6 +98,30 @@ def scan(data):
             except (ValueError, UnicodeError) as error:
                 item['v2_reason'] = str(error)
         yield state, item
+
+
+def scan(data, index=None):
+    index=index or dialogue_advanced.SsdIndex(data)
+    old=((item['offset'],state,item) for state,item in scan_v2(data))
+    new=[]
+    for at,context in index.records.items():
+        if data[at:at+4] not in dialogue_advanced.LAYOUTS:continue
+        try:state,item=dialogue_advanced.parse(data,at)
+        except (ValueError,UnicodeError) as error:
+            item={**context['instruction'],'id':f'map.candidate.{at:08x}',
+                  'reason':str(error),'record_hex':data[at:at+context['instruction']['size']].hex(),
+                  'editable':False}
+            # A renderer instruction with an empty/absent payload is not a dialogue.
+            header,_=dialogue_advanced.LAYOUTS[data[at:at+4]]
+            body=data[at+header:at+item['size']]
+            state='rejected' if not body or not any(body) else 'pending'
+        new.append((at,state,item))
+    for at,state,item in heapq.merge(old,sorted(new),key=lambda row:row[0]):
+        footer=index.footer(at,item.get('size',4))
+        if state=='pending' and footer:
+            item={**item,'v002_reason':item['reason'],'reason':footer['reason'],'ssd_evidence':footer}
+            state='rejected'
+        yield state,item
 
 
 def legacy_entry(item):
@@ -117,6 +145,8 @@ def extract(source, output):
     original_v001 = {}
     v001_digest = hashlib.sha256()
     v001_count = 0
+    v002_digests={k:hashlib.sha256() for k in ('validated','identified')}
+    v002_counts=collections.Counter()
     previous_text_end = 0
     with source.open('rb') as stream:
         if source.stat().st_size == 0:
@@ -127,6 +157,7 @@ def extract(source, output):
             expected = next(e['sha256'] for e in inventory if e['path'] == RESOURCE)
             if source == DEFAULT_SOURCE.resolve() and source_hash != expected:
                 raise ValueError('Hash do MAP original diverge do inventário')
+            ssd_index=dialogue_advanced.SsdIndex(data)
             baseline_v001 = ROOT/'work/extracoes/validacao-extrator-v001/dialogos.jsonl'
             baseline_items = {}
             if baseline_v001.is_file() and source_hash == expected:
@@ -136,9 +167,10 @@ def extract(source, output):
                  (output/'identificados.jsonl').open('x', encoding='utf-8') as identified, \
                  (output/'pendentes.jsonl').open('x', encoding='utf-8') as pending, \
                  (output/'rejeitados.jsonl').open('x', encoding='utf-8') as rejected, \
-                 (output/'catalogo-consolidado.jsonl').open('x', encoding='utf-8') as consolidated:
+                 (output/'catalogo-consolidado.jsonl').open('x', encoding='utf-8') as consolidated, \
+                 (output/'contexto-ssd.jsonl').open('x',encoding='utf-8') as context_file:
                 files = {'validated':good, 'identified':identified, 'pending':pending, 'rejected':rejected}
-                for state, item in scan(data):
+                for state, item in scan(data,ssd_index):
                     at = item['offset']
                     if at in seen:
                         raise ValueError('Ocorrência duplicada no catálogo')
@@ -152,6 +184,9 @@ def extract(source, output):
                         if rebuilt != data[at:at+item['size']]:
                             raise ValueError(f'Round-trip incorreto em 0x{at:X}')
                         profiles[item['profile']] += 1
+                        if item['profile']!='renderer-text-v3':
+                            v002_digests[state].update((json.dumps(item,ensure_ascii=False)+'\r\n').encode('utf-8'))
+                            v002_counts[state]+=1
                         if item['profile'] in ('ascii-lf-v1','nina-controlled-pilot-v1'):
                             # v001 report anchors Windows JSONL bytes (CRLF).
                             # Use that explicit representation on every platform.
@@ -170,7 +205,14 @@ def extract(source, output):
                     elif state == 'pending':
                         migrations[item['reason']][state] += 1
                     files[state].write(json.dumps(item, ensure_ascii=False)+'\n')
-                    consolidated.write(json.dumps({'classification':state,'record':item},ensure_ascii=False)+'\n')
+                    context=ssd_index.records.get(at)
+                    levels={'extraction':state,'unchanged_roundtrip':state in ('validated','identified'),
+                            'ssd_instruction_boundary':context is not None,
+                            'generalized_editing':'not validated',
+                            'available_editor':'strict-ascii-v1' if item.get('profile')=='ascii-lf-v1' else 'not general-purpose'}
+                    consolidated.write(json.dumps({'classification':state,'record':item,'validation':levels},ensure_ascii=False)+'\n')
+                    if context:
+                        context_file.write(json.dumps({'offset':at,**context},ensure_ascii=False)+'\n')
             if baseline_items.keys() != original_v001.keys():
                 raise ValueError('Registros v001 ausentes no catálogo consolidado')
             if source_hash == expected:
@@ -178,6 +220,11 @@ def extract(source, output):
                 previous_hash = previous['execution_checks']['repeated_output_files_identical']['dialogos.jsonl']['sha256']
                 if v001_count != 2049 or v001_digest.hexdigest() != previous_hash:
                     raise ValueError('Hash/count dos registros v001 diverge da validação versionada')
+                previous_v2=json.loads((ROOT/'reports/extrator-v002-validation.json').read_text(encoding='utf-8'))
+                for state,name in (('validated','dialogos.jsonl'),('identified','identificados.jsonl')):
+                    anchor=previous_v2['execution_checks']['repeated_output_files_identical'][name]['sha256']
+                    if v002_digests[state].hexdigest()!=anchor:
+                        raise ValueError('Registro textual v002 alterado ou ausente')
             plan = {'schema':1, 'resource':RESOURCE, 'source_sha256':source_hash,
                     'policy':'msg-null-fixed-size-ascii-lf-v1', 'entries':ascii_entries}
             if changes(data, plan):
@@ -196,22 +243,28 @@ def extract(source, output):
     with (output/'plano-ascii.json').open('x', encoding='utf-8') as stream:
         json.dump(plan, stream, ensure_ascii=False, indent=2)
         stream.write('\n')
-    summary = {'schema':2, 'extractor_version':'v002', 'source':source.relative_to(ROOT).as_posix(),
+    summary = {'schema':3, 'extractor_version':'v003', 'source':source.relative_to(ROOT).as_posix(),
                'resource':RESOURCE, 'source_sha256':source_hash, 'source_size':source.stat().st_size,
                'recognized_revision':source_hash == expected, 'counts':dict(counts),
                'total_signatures':sum(counts.values()), 'profiles':dict(profiles),
                'reasons':{k:dict(v) for k,v in reasons.items()},
+               'reasons_provenance':'Record reasons from v002 are preserved as historical metadata. Current SSD boundaries are recorded separately in validation and contexto-ssd.jsonl; a historical context_error does not invalidate new SSD evidence.',
                'baseline_comparison':comparison, 'record_roundtrip_passed':True,
                'v001_full_comparison':{'available':bool(baseline_items),'preserved_exactly':len(original_v001)},
                'v001_fingerprint':{'entries':v001_count,'sha256':v001_digest.hexdigest(),
                                    'checked_against_versioned_report':source_hash == expected},
                'v001_pending_migrations':{k:dict(v) for k,v in migrations.items()},
+               'v002_preservation':{'counts':dict(v002_counts),'sha256':{k:v.hexdigest() for k,v in v002_digests.items()},'checked':source_hash==expected},
+               'ssd':{'blocks':len(ssd_index.blocks),'instructions':len(ssd_index.records),'errors':ssd_index.errors},
+               'editing_coverage':{'strict_ascii_editor':2048 if source_hash==expected else profiles['ascii-lf-v1'],
+                                   'controlled_pilot_only':profiles['nina-controlled-pilot-v1'],
+                                   'other_text_records_not_edit_approved':counts['validated']+counts['identified']-profiles['ascii-lf-v1']-profiles['nina-controlled-pilot-v1']},
                'ascii_no_edit_patches':0, 'source_hash_unchanged':True,
                'elapsed_seconds':round(time.perf_counter()-started,3),
                'nonoverlapping_text_records':True,
                'context':'physical offsets, local indices, raw parameters and display labels for msgn; full neighbors when proven; canonical speaker/scene mapping unknown',
                'scope':'heuristic msg-null/msgn signatures, not a complete script container parser',
-               'output_files':['catalogo-consolidado.jsonl','dialogos.jsonl','identificados.jsonl','pendentes.jsonl','rejeitados.jsonl','plano-ascii.json'],
+               'output_files':['catalogo-consolidado.jsonl','dialogos.jsonl','identificados.jsonl','pendentes.jsonl','rejeitados.jsonl','plano-ascii.json','contexto-ssd.jsonl'],
                'completed':True}
     with (output/'relatorio.json').open('x', encoding='utf-8') as stream:
         json.dump(summary, stream, ensure_ascii=False, indent=2)

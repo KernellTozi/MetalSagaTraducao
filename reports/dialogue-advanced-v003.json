@@ -1,0 +1,1150 @@
+{
+  "schema": 1,
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "opcode_assertions_passed": true,
+  "elf_windows": {
+    "ssd_header": {
+      "virtual_address": 2869448,
+      "file_offset": 1824968,
+      "size": 96,
+      "sha256": "eb37148f373ad67fc3c8ec1de5438c68911521a145cd834002866d4fc23e5587"
+    },
+    "ssd_bounds": {
+      "virtual_address": 2871256,
+      "file_offset": 1826776,
+      "size": 76,
+      "sha256": "e93390103930b87a27a0c8868e160e4ed842c0682bf9d002924bdc5eed1cbec2"
+    },
+    "selection_strings": {
+      "virtual_address": 2906608,
+      "file_offset": 1862128,
+      "size": 196,
+      "sha256": "c11dd3e47295de50f556c4193338947e82035c435c42905b6e9b2a9749454a6c"
+    },
+    "choice_tab_split": {
+      "virtual_address": 2906076,
+      "file_offset": 1861596,
+      "size": 96,
+      "sha256": "6a029bc63e4b2596e19494deb923465ed6c0079f69d3037eb22a37b35f9a15e6"
+    },
+    "msgb_loader": {
+      "virtual_address": 2907992,
+      "file_offset": 1863512,
+      "size": 52,
+      "sha256": "6449e9a7819a56bc133bec68b07556c87ebbaaa92a5744bb351de8d565b07622"
+    },
+    "supr_loader": {
+      "virtual_address": 2931608,
+      "file_offset": 1887128,
+      "size": 112,
+      "sha256": "15ef111105665dfd2576b3b75abc8398d3bd93cf606737fdfcdaabdec4bb7601"
+    },
+    "mc_loader": {
+      "virtual_address": 2859752,
+      "file_offset": 1815272,
+      "size": 76,
+      "sha256": "7c409d490cb9a1618fd32297ee244f1017ab083ce1945175b68688c94c793c49"
+    },
+    "sp_st_loader": {
+      "virtual_address": 2862392,
+      "file_offset": 1817912,
+      "size": 60,
+      "sha256": "d7bf25e15e426e1f33bfb3cdc482bebfcde25d04fb4fe42c530bb025fe9e714a"
+    }
+  },
+  "ssd_blocks": 2741,
+  "ssd_instructions": 61356,
+  "ssd_errors": [],
+  "instruction_tag_counts": {
+    "6d6f7600": 3045,
+    "69666665": 694,
+    "6974656d": 628,
+    "666c6167": 602,
+    "69666e65": 80,
+    "4d5f444f": 110,
+    "65786974": 3472,
+    "675f776b": 44,
+    "6d61726b": 8099,
+    "67746968": 50,
+    "61646400": 544,
+    "69660000": 5201,
+    "69666600": 1585,
+    "6d61696c": 1410,
+    "69666e66": 1873,
+    "676f746f": 2042,
+    "675f7769": 210,
+    "67666c67": 234,
+    "6f720000": 50,
+    "735f7700": 95,
+    "67707300": 44,
+    "53534e44": 479,
+    "666c6772": 207,
+    "6d66696e": 611,
+    "77616974": 1388,
+    "73757072": 390,
+    "73757077": 102,
+    "6d630000": 736,
+    "63736d32": 116,
+    "6373796e": 653,
+    "6373646f": 81,
+    "456c6576": 22,
+    "675f6961": 1,
+    "6d73676e": 1415,
+    "7365706c": 669,
+    "666c6773": 1086,
+    "736d7367": 315,
+    "69666500": 346,
+    "6370746c": 79,
+    "63736d30": 637,
+    "63706300": 29,
+    "63736469": 110,
+    "70747366": 124,
+    "6c677463": 4,
+    "776f7574": 64,
+    "77696e00": 10,
+    "6c677464": 4,
+    "73657374": 186,
+    "63677000": 97,
+    "61646466": 86,
+    "5f500000": 6,
+    "46430000": 18,
+    "73636a70": 589,
+    "66634941": 237,
+    "66634146": 202,
+    "66634153": 680,
+    "4d5f4400": 182,
+    "70746773": 29,
+    "675f6675": 18,
+    "726e6400": 424,
+    "6d637469": 63,
+    "746c5f76": 52,
+    "746c5f68": 58,
+    "6d736700": 4725,
+    "735f7476": 19,
+    "63737274": 192,
+    "47534e44": 107,
+    "66634152": 188,
+    "70746365": 141,
+    "675f6e73": 59,
+    "675f6962": 73,
+    "7364706c": 329,
+    "6d736762": 155,
+    "67746e00": 66,
+    "73736500": 16,
+    "70696477": 151,
+    "63736d33": 80,
+    "6774626c": 41,
+    "66634150": 778,
+    "54695200": 1,
+    "70697700": 172,
+    "67686964": 169,
+    "73657363": 36,
+    "636f6d66": 574,
+    "636d6300": 543,
+    "73647075": 50,
+    "53444e50": 9,
+    "534e0000": 24,
+    "534e5200": 24,
+    "7364706f": 47,
+    "666f7574": 359,
+    "6a6d0000": 10,
+    "63736832": 1882,
+    "66696e00": 238,
+    "735f6966": 15,
+    "6373686f": 223,
+    "675f6c69": 33,
+    "32736d67": 55,
+    "49500000": 2,
+    "49410000": 88,
+    "636c6d00": 617,
+    "636c6d73": 303,
+    "636c6f73": 13,
+    "6363676d": 62,
+    "67696c63": 12,
+    "63736474": 569,
+    "735f6367": 17,
+    "636d696e": 172,
+    "636d7677": 371,
+    "636d6c61": 97,
+    "636d7a6d": 38,
+    "636d7379": 107,
+    "636d6663": 13,
+    "6373706d": 35,
+    "62745f73": 39,
+    "32736e6d": 29,
+    "63707332": 124,
+    "636d7374": 1,
+    "454e4447": 24,
+    "52424f54": 27,
+    "66635a4d": 6,
+    "6d756c00": 7,
+    "67737562": 316,
+    "64697600": 12,
+    "72657400": 109,
+    "63646c6d": 310,
+    "63707300": 24,
+    "7074736d": 8,
+    "636d7073": 163,
+    "636d7274": 167,
+    "636d7470": 20,
+    "63707274": 9,
+    "73756266": 84,
+    "636d7300": 5,
+    "636c5f6d": 49,
+    "636d7363": 95,
+    "63645f6d": 48,
+    "70696a32": 46,
+    "63736d76": 243,
+    "636d7466": 9,
+    "636d7266": 22,
+    "70746772": 77,
+    "62745f32": 137,
+    "636d6c66": 21,
+    "636d6c73": 25,
+    "76696250": 8,
+    "746c5f77": 3,
+    "63735f6d": 24,
+    "636d7032": 18,
+    "636d7232": 14,
+    "63736600": 29,
+    "63736d31": 16,
+    "4d5f4500": 26,
+    "635f6874": 25,
+    "635f6863": 11,
+    "66635a4f": 3,
+    "635f6473": 2,
+    "73756200": 40,
+    "6d637400": 29,
+    "63737000": 69,
+    "73757200": 12,
+    "746c5f73": 3,
+    "736d6e6e": 83,
+    "4d430000": 18,
+    "73686f70": 132,
+    "4c540000": 13,
+    "735f6774": 23,
+    "70696a00": 59,
+    "735f776b": 29,
+    "616d6263": 4,
+    "616d6264": 4,
+    "70756200": 15,
+    "675f6d00": 74,
+    "735f736d": 63,
+    "494e4e00": 16,
+    "675f6172": 14,
+    "67736870": 16,
+    "4d5f4c00": 19,
+    "73647374": 27,
+    "4a000000": 21,
+    "73656c00": 27,
+    "70747076": 42,
+    "67687274": 29,
+    "634d7274": 48,
+    "7074706b": 27,
+    "63727300": 50,
+    "63736432": 33,
+    "735f616d": 10,
+    "63736164": 6,
+    "63647a6d": 1,
+    "7069646a": 9,
+    "57540000": 6,
+    "484f0000": 14,
+    "675f6d69": 14,
+    "4c500000": 14,
+    "3273656c": 12,
+    "4a420000": 12,
+    "735f6a64": 12,
+    "6569746d": 19,
+    "675f6969": 21,
+    "69666900": 56,
+    "675f696d": 12,
+    "6d675f73": 16,
+    "735f6764": 12,
+    "4c440000": 9,
+    "675f6569": 10,
+    "73736276": 1,
+    "735f7400": 8,
+    "66634446": 433,
+    "73653200": 4,
+    "4c543200": 6,
+    "616e6400": 37,
+    "63736d74": 19,
+    "425f7461": 3,
+    "425f7467": 5,
+    "63707232": 4,
+    "6d637461": 7,
+    "735f7064": 2,
+    "675f696e": 6,
+    "6769696d": 5,
+    "735f7270": 27,
+    "735f7074": 5,
+    "534c4154": 21,
+    "414b0000": 1,
+    "5f505400": 8,
+    "76696253": 1,
+    "735f6d6f": 2,
+    "474a4200": 1,
+    "44470000": 1,
+    "43434800": 2,
+    "53500000": 6,
+    "675f4e53": 10,
+    "4e000000": 5,
+    "696d0000": 3,
+    "534c4f54": 2,
+    "675f4549": 4,
+    "4c6e4d76": 6,
+    "4c530000": 3,
+    "735f6773": 1,
+    "4c6e4c64": 2,
+    "52450000": 24,
+    "49490000": 9,
+    "636d7a73": 2,
+    "73736168": 49,
+    "726d0000": 17,
+    "70746972": 3,
+    "52570000": 4,
+    "50000000": 1,
+    "675f6974": 1,
+    "675f696b": 1,
+    "534d0000": 8,
+    "53540000": 1,
+    "675f7070": 2,
+    "735f7470": 2,
+    "656d6f00": 1,
+    "53490000": 4,
+    "62745f33": 5,
+    "6373616d": 3,
+    "675f6c6e": 1,
+    "7061726b": 1,
+    "675f6d6e": 1,
+    "6768646e": 1,
+    "63677200": 1,
+    "425f6174": 1,
+    "425f7463": 1,
+    "425f6777": 2,
+    "425f6474": 1,
+    "425f6364": 1,
+    "425f6361": 1
+  },
+  "new_text_profiles": {
+    "supr": 390,
+    "smsg": 315,
+    "msgb": 155,
+    "2smg": 55,
+    "2snm": 29,
+    "smnn": 83,
+    "MC": 18,
+    "sel": 27,
+    "2sel": 12,
+    "SP": 6,
+    "ST": 1
+  },
+  "new_string_segments": 1685,
+  "rejected_decisions": [
+    {
+      "offset": 92072488,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 92072368,
+        "block_end": 92072484,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 92074724,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 92074688,
+        "block_end": 92074724,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 129145092,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 129143952,
+        "block_end": 129145092,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 137823884,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 137823760,
+        "block_end": 137823876,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 137824124,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 137823888,
+        "block_end": 137824124,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 169053996,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 169053584,
+        "block_end": 169053992,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 169060204,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 169058992,
+        "block_end": 169060204,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 184072316,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 184072256,
+        "block_end": 184072308,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 193973996,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 193973584,
+        "block_end": 193973992,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 193980204,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 193978992,
+        "block_end": 193980204,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199325560,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199324976,
+        "block_end": 199325560,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199385948,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199385440,
+        "block_end": 199385940,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199407724,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199407632,
+        "block_end": 199407716,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199407900,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199407808,
+        "block_end": 199407892,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199407996,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199407904,
+        "block_end": 199407992,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199408092,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199408000,
+        "block_end": 199408088,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199408188,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199408096,
+        "block_end": 199408184,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 199408444,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 199408352,
+        "block_end": 199408436,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 229706028,
+      "signature_hex": "6d73676e",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 229704736,
+        "block_end": 229706024,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 229732024,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 229731728,
+        "block_end": 229732024,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 240460584,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 240459264,
+        "block_end": 240460580,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 282023917,
+      "signature_hex": "6d736700",
+      "basis": "inside-other-instruction",
+      "ssd_evidence": null,
+      "parent_instruction_offset": 282023916
+    },
+    {
+      "offset": 303178892,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 303178784,
+        "block_end": 303178884,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 303179340,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 303178896,
+        "block_end": 303179340,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 310535564,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 310535552,
+        "block_end": 310535564,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 310536572,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 310536528,
+        "block_end": 310536564,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 310537996,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 310537984,
+        "block_end": 310537996,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 346700776,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 346700656,
+        "block_end": 346700772,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 346716396,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 346716192,
+        "block_end": 346716388,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 346752488,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 346752192,
+        "block_end": 346752488,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 360114108,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 360113568,
+        "block_end": 360114104,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 393489068,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 393487984,
+        "block_end": 393489068,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 487238392,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 487237440,
+        "block_end": 487238388,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502648732,
+      "signature_hex": "6d73676e",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502647760,
+        "block_end": 502648724,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502681400,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502681008,
+        "block_end": 502681396,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502702856,
+      "signature_hex": "6d73676e",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502700016,
+        "block_end": 502702856,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502720712,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502719392,
+        "block_end": 502720708,
+        "relative_offset": 4,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502796884,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502796400,
+        "block_end": 502796884,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502832132,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502830816,
+        "block_end": 502832132,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 502833708,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 502832688,
+        "block_end": 502833708,
+        "relative_offset": 0,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 534026044,
+      "signature_hex": "6d736700",
+      "basis": "outside-ssd-end",
+      "ssd_evidence": {
+        "block_offset": 534025840,
+        "block_end": 534026036,
+        "relative_offset": 8,
+        "claimed_size": 4,
+        "reason": "Signature outside declared SSD instruction stream; inside 12-byte adjacent region"
+      },
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579005868,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579020490,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579021258,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579022797,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579024333,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579024402,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579025173,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579025872,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579025941,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579026643,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579026709,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579027381,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579027411,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579027477,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579028182,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579028248,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579028917,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579029016,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579029784,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579030552,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579031320,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579032088,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579032856,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579033624,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579034392,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579035070,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579035160,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579035925,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579036693,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    },
+    {
+      "offset": 579037461,
+      "signature_hex": "6d73676e",
+      "basis": "outside-all-verified-ssd-streams",
+      "ssd_evidence": null,
+      "parent_instruction_offset": null
+    }
+  ],
+  "rejection_groups": {
+    "outside-ssd-end": 40,
+    "inside-other-instruction": 1,
+    "outside-all-verified-ssd-streams": 30
+  },
+  "v002_context_boundaries_resolved": 1545,
+  "text_instruction_count": 7231,
+  "uncovered_textlike_instructions": [],
+  "coverage_limit": "All 13 known text-bearing instruction families in 2741 verified SSD streams; residual long ASCII spans audited but not a proof about all resources/short strings/indirect text",
+  "native_glyph_inventory": {
+    "SUC20I22.GFI": {
+      "8140": "blank fullwidth space (expected)",
+      "8142": "nonzero glyph",
+      "8149": "nonzero glyph",
+      "815b": "nonzero glyph",
+      "8199": "nonzero glyph",
+      "82a0": "nonzero glyph",
+      "82a2": "nonzero glyph",
+      "82a8": "nonzero glyph",
+      "82aa": "nonzero glyph",
+      "82ae": "nonzero glyph",
+      "82b2": "nonzero glyph",
+      "82b3": "nonzero glyph",
+      "82b6": "nonzero glyph",
+      "82bb": "nonzero glyph",
+      "82be": "nonzero glyph",
+      "82bf": "nonzero glyph",
+      "82c1": "nonzero glyph",
+      "82c6": "nonzero glyph",
+      "82ce": "nonzero glyph",
+      "82dc": "nonzero glyph",
+      "82e6": "nonzero glyph",
+      "82e8": "nonzero glyph",
+      "82f1": "nonzero glyph",
+      "8371": "nonzero glyph",
+      "8385": "nonzero glyph",
+      "976c": "nonzero glyph"
+    },
+    "SUC24I26.GFI": {
+      "8140": "blank fullwidth space (expected)",
+      "8142": "nonzero glyph",
+      "8149": "nonzero glyph",
+      "815b": "nonzero glyph",
+      "8199": "nonzero glyph",
+      "82a0": "nonzero glyph",
+      "82a2": "nonzero glyph",
+      "82a8": "nonzero glyph",
+      "82aa": "nonzero glyph",
+      "82ae": "nonzero glyph",
+      "82b2": "nonzero glyph",
+      "82b3": "nonzero glyph",
+      "82b6": "nonzero glyph",
+      "82bb": "nonzero glyph",
+      "82be": "nonzero glyph",
+      "82bf": "nonzero glyph",
+      "82c1": "nonzero glyph",
+      "82c6": "nonzero glyph",
+      "82ce": "nonzero glyph",
+      "82dc": "nonzero glyph",
+      "82e6": "nonzero glyph",
+      "82e8": "nonzero glyph",
+      "82f1": "nonzero glyph",
+      "8371": "nonzero glyph",
+      "8385": "nonzero glyph",
+      "976c": "nonzero glyph"
+    }
+  },
+  "font_runtime_or_editing_validated": false
+}

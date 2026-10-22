@@ -1,0 +1,152 @@
+{
+  "schema": 3,
+  "extractor_version": "v003",
+  "source": "JOGO/Metal Saga/DATA/MAP/MAP.MCT",
+  "resource": "DATA/MAP/MAP.MCT",
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "source_size": 730998784,
+  "recognized_revision": true,
+  "counts": {
+    "validated": 5369,
+    "identified": 1862,
+    "pending": 0,
+    "rejected": 71
+  },
+  "total_signatures": 7302,
+  "profiles": {
+    "renderer-text-v3": 1091,
+    "msgn-named-v2": 1415,
+    "ascii-lf-v1": 2048,
+    "msg-controls-v2": 2676,
+    "nina-controlled-pilot-v1": 1
+  },
+  "reasons": {
+    "identified": {
+      "Full instruction context not proven": 1513,
+      "Third display string role not fully validated": 91,
+      "Opaque control syntax": 48,
+      "Opaque control syntax; original bytes retained": 150,
+      "Opaque control syntax; original bytes retained; Full instruction context not proven": 25,
+      "Opaque control syntax; Third display string role not fully validated": 21,
+      "Native byte mapping decoded; per-font coverage/runtime not validated": 7,
+      "Native byte mapping decoded; per-font coverage/runtime not validated; Full instruction context not proven": 7
+    },
+    "pending": {},
+    "rejected": {
+      "Signature outside declared SSD instruction stream; inside 12-byte adjacent region": 40,
+      "Invalid instruction location": 19,
+      "Invalid instruction size": 12
+    }
+  },
+  "baseline_comparison": {
+    "available": true,
+    "baseline_entries": 2048,
+    "exact_entries_equal": true
+  },
+  "record_roundtrip_passed": true,
+  "v001_full_comparison": {
+    "available": true,
+    "preserved_exactly": 2049
+  },
+  "v001_fingerprint": {
+    "entries": 2049,
+    "sha256": "7e98374c73c4fb3198397b90d8ffbb6bacf52498af92256e5fe4b0eb1a9609e5",
+    "checked_against_versioned_report": true
+  },
+  "v001_pending_migrations": {
+    "msgn layout not proven; do not assume 32-byte header": {
+      "identified": 437,
+      "validated": 978
+    },
+    "Unsupported control code or encoding": {
+      "identified": 627,
+      "validated": 1411
+    },
+    "Ambiguous previous record boundary": {
+      "identified": 403
+    },
+    "Invalid instruction tag": {
+      "identified": 159
+    },
+    "Invalid instruction size": {
+      "identified": 76
+    }
+  },
+  "v002_preservation": {
+    "counts": {
+      "identified": 1702,
+      "validated": 4438
+    },
+    "sha256": {
+      "validated": "2ea1cdc229299533dc6d3a9d4315420445771dd8504c586ef47fd30df8a4bf29",
+      "identified": "6bdec20e394ef02dbd24d2db84f30ae5623c4598f40b22edae93eba8bea26dd6"
+    },
+    "checked": true
+  },
+  "ssd": {
+    "blocks": 2741,
+    "instructions": 61356,
+    "errors": []
+  },
+  "editing_coverage": {
+    "strict_ascii_editor": 2048,
+    "controlled_pilot_only": 1,
+    "other_text_records_not_edit_approved": 5182
+  },
+  "ascii_no_edit_patches": 0,
+  "source_hash_unchanged": true,
+  "elapsed_seconds": 11.889,
+  "nonoverlapping_text_records": true,
+  "context": "physical offsets, local indices, raw parameters and display labels for msgn; full neighbors when proven; canonical speaker/scene mapping unknown",
+  "scope": "heuristic msg-null/msgn signatures, not a complete script container parser",
+  "output_files": [
+    "catalogo-consolidado.jsonl",
+    "dialogos.jsonl",
+    "identificados.jsonl",
+    "pendentes.jsonl",
+    "rejeitados.jsonl",
+    "plano-ascii.json",
+    "contexto-ssd.jsonl"
+  ],
+  "completed": true,
+  "execution_checks": {
+    "unit_tests_passed": 45,
+    "windows_cmd_launcher_exit_code": 0,
+    "repeated_output_files_identical": {
+      "catalogo-consolidado.jsonl": {
+        "sha256": "5cae7d9b1f3bd1ef78c8598cfcf013520369091c9f33a5cc33982033c4578976",
+        "bytes": 12392154
+      },
+      "dialogos.jsonl": {
+        "sha256": "cfedde0f0fc4e87d63fd77c7c26003edcb727457789dcf94451d8d478b0b0464",
+        "bytes": 7800025
+      },
+      "identificados.jsonl": {
+        "sha256": "a3bb7ec27e8132111ac255fc74cc42b343a49cdbcabd8b23215114d50a34816f",
+        "bytes": 2869420
+      },
+      "pendentes.jsonl": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "rejeitados.jsonl": {
+        "sha256": "2e5008f4e798673237b8e7d0aae568b500cfec3829274ac1afd7355e9f9a05a3",
+        "bytes": 33113
+      },
+      "plano-ascii.json": {
+        "sha256": "aa2fc778776c234c8628c399f863f1ceb9cc873167418e58e3776ab9b718548d",
+        "bytes": 2943483
+      },
+      "contexto-ssd.jsonl": {
+        "sha256": "f3a951c409be54925f5907e3a45222719b1cb0f0cf9967144cb15e46dd47be6e",
+        "bytes": 1231826
+      }
+    },
+    "reference_files_unchanged": 58,
+    "original_iso_sha256_unchanged": true,
+    "new_iso_created": false,
+    "mass_translation_started": false,
+    "textual_records_roundtrip": 7231
+  },
+  "reasons_provenance": "Record reasons from v002 are preserved as historical metadata. Current SSD boundaries are recorded separately in validation and contexto-ssd.jsonl; a historical context_error does not invalidate new SSD evidence."
+}

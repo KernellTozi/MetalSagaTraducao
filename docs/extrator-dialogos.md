@@ -1,6 +1,6 @@
-# Extrator local de diálogos v002
+# Extrator local de diálogos v003
 
-Detalhes da investigação e limites dos novos parsers: `extracao-v002.md`.
+Detalhes atuais: `extracao-v003.md`. Evidências anteriores: `extracao-v002.md`.
 
 ## Executar no Windows 11
 
@@ -30,13 +30,14 @@ Não traduz, não altera fontes e não gera ISOs.
 
 | Arquivo | Conteúdo |
 | --- | --- |
-| `catalogo-consolidado.jsonl` | Todas as 6.211 ocorrências, uma por offset, com classificação e registro |
+| `catalogo-consolidado.jsonl` | 7.302 ocorrências, uma por offset, com classificação, registro e níveis de validação |
 | `dialogos.jsonl` | Um objeto JSON por linha: registros do subconjunto validado |
 | `identificados.jsonl` | Texto recuperado com estrutura local, mas controles, codificação ou contexto ainda limitados |
 | `pendentes.jsonl` | Candidatos enquadrados, motivo da incerteza e bytes completos em hexadecimal |
 | `rejeitados.jsonl` | Assinaturas que falharam em alinhamento, tamanho ou limites |
 | `plano-ascii.json` | Plano compatível com o editor ASCII já existente, sem traduções |
 | `relatorio.json` | Hash, revisão, contagens, motivos, tempo, comparação com catálogo anterior e integridade |
+| `contexto-ssd.jsonl` | Bloco SSD, limite e posição da instrução; complementa os registros antigos sem alterá-los |
 
 JSONL é UTF-8 e preserva quebras de linha dentro das strings como `\n` e páginas
 como `\t`; cada linha física é um registro completo. Os campos `source` e
@@ -50,25 +51,25 @@ tratada como catálogo concluído. Reexecutar usando outra pasta.
 
 ## Resultado executado sobre o MAP de referência
 
-- 6.211 ocorrências das assinaturas `msg\0` ou `msgn` examinadas.
-- **4.438 registros com extração estrutural validada**, incluindo os 2.049 da v001.
-- **1.702 registros identificados, ainda bloqueados**, com texto recuperado.
-- **40 candidatos de estrutura desconhecida**, com bytes preservados.
-- **31 assinaturas rejeitadas** por alinhamento/localização ou tamanho inválido.
+- 6.211 assinaturas anteriores mais 1.091 registros de outras famílias comprovadas.
+- **5.369 registros com extração estrutural validada**.
+- **1.862 registros identificados, ainda bloqueados**, com texto recuperado.
+- **Zero ocorrências desconhecidas dentro do conjunto examinado**; isso não significa 100% de todos os textos do arquivo.
+- **71 assinaturas rejeitadas**, incluindo os 40 casos comprovadamente fora dos limites SSD.
 
 Contagens de candidatos não equivalem a quantidades comprovadas de falas; incluem
 possíveis falsos positivos e estruturas que ainda precisam ser interpretadas.
 Não se afirma que todas as falas do jogo estão contidas nessas assinaturas.
 
-Os **2.049 registros da v001** foram preservados integralmente. A igualdade é
+Os **6.140 registros textuais da v002** e os **2.049 da v001** foram preservados integralmente. A igualdade é
 verificada pelo hash da serialização original ancorado no relatório versionado,
 mesmo sem a pasta antiga. Quando os catálogos locais anteriores estão presentes,
 também se comparam seus registros campo por campo. O plano ASCII mantém exatamente
 seus 2.048 registros e a política original de edição.
 
-A extração v002 levou aproximadamente 13 segundos nesta máquina. O iniciador
+A extração usa um índice de 2.741 blocos e 61.356 instruções SSD. O iniciador
 Windows foi executado e produz os mesmos arquivos de dados que a chamada direta.
-Os 36 testes passaram. Os relatórios registram tempos próprios.
+Os 45 testes passaram. Os relatórios registram tempos próprios.
 
 ## Estrutura e contexto preservados
 
@@ -88,14 +89,15 @@ Os vizinhos são instruções físicas, não necessariamente falas anteriores/se
 Os formatos têm parsers separados, fundamentados nos carregadores do ELF. `msg`
 exige padding zero após o NUL; `msgn` exige segunda string limitada e padding final
 zero. Sintaxes opacas são identificadas e bloqueadas; bytes desconhecidos não passam
-por decodificação com substituição ou perda. Consultar o relatório técnico v002.
+por decodificação com substituição ou perda. A v003 acrescenta onze famílias,
+com cabeçalhos entre 16 e 48 bytes, e fluxos SSD completos. Consultar o relatório técnico v003.
 
 ## Integridade e desempenho
 
 O MAP é aberto somente para leitura via `mmap`. A varredura e a escrita dos JSONL
 são incrementais; não há cópia integral de 731 MB em um objeto `bytes` e os candidatos
-pendentes não são acumulados em listas. O plano ASCII compatível mantém cerca de
-2 mil registros em memória; os catálogos anteriores, quando disponíveis, são carregados
+pendentes não são acumulados em listas. O índice SSD mantém metadados de 61.356
+instruções; o plano ASCII mantém cerca de 2 mil registros. Os catálogos anteriores são carregados
 para comparação. O sistema operacional administra as páginas mapeadas; não foi
 medido um limite absoluto de memória residente.
 
@@ -104,7 +106,7 @@ o resultado deve ser idêntico ao registro original. O plano ASCII sem edições
 passa no validador existente e deve produzir zero patches. O hash do MAP antes e
 depois deve ser igual. Isso é round-trip **sem alteração**, não demonstra segurança
 para qualquer tradução ou ampliação de registros. O hash do original é ancorado
-no inventário. Relatório atual: `reports/extrator-v002-validation.json`.
+no inventário. Relatório atual: `reports/extrator-v003-validation.json`.
 
 Testes locais:
 
@@ -117,7 +119,7 @@ variados, parâmetros negativos, controles opacos, bytes nativos, round-trip exa
 desconhecidos, padding inválido, truncamento, alinhamento, tamanhos inválidos,
 fronteiras ambíguas, nomes inválidos, pipeline em cópia sintética e recusa de
 sobrescrita. O teste real preserva os 2.049 registros da v001 e reconstrói todos os
-6.140 registros textuais recuperados.
+7.231 registros textuais recuperados, sem sobreposição.
 
 ## Reinserção: disponível e pendente
 
