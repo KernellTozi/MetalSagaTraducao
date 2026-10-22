@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "source_iso": "work/fontes-layout-v004/MetalSaga-ptbr-layout-v004.iso",
+  "output_iso": "work/fontes-layout-v005/MetalSaga-ptbr-layout-v005.iso",
+  "source_sha256": "a6bdfb2aaf143f1b9705fb740a67c82610972a818c33336ca180b01eca15b803",
+  "output_sha256": "92ebfcd0a98ced0301740aefaf3fee96f6b7c7c780d005c3d7ba381618ac108d",
+  "iso_size": 1704427520,
+  "changed_byte_count": 316,
+  "only_single_glyph_window_changed": true,
+  "absolute_window_start": 1701190368,
+  "window_size": 576,
+  "translation_plan_identical": true,
+  "fonts_identical": true,
+  "iso_directory_identical": true,
+  "runtime_validated": false
+}

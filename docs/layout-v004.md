@@ -1,4 +1,6 @@
-# Layout PT-BR v004 — corrigir a largura dos acentos no diálogo
+# Layout PT-BR v004 — primeiro experimento de métricas
+
+**Retorno manual posterior: o usuário confirmou que o alargamento persistiu.** A correção desta rotina foi insuficiente para a fala de Nina. Consultar `layout-v005.md` para o segundo caminho de desenho identificado. Para reproduzir a ISO antiga, usar `python tools/start_test.py --iso layout-v004`; o iniciador de acentos passa a apontar para a v005.
 
 ## Problema confirmado e diagnóstico
 

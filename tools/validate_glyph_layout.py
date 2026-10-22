@@ -9,7 +9,7 @@ from layout_probe import execute
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def incoming(data):
+def incoming(data,start=START,end=END):
     header=struct.unpack_from('<16sHHIIIIIHHHHHH',data);entries=[]
     for i in range(header[12]):
         sec=struct.unpack_from('<10I',data,header[6]+i*header[11])
@@ -20,8 +20,8 @@ def incoming(data):
             elif op in (1,4,5,6,7,20,21,22,23):
                 n=w&65535;n=n if n<32768 else n-65536
                 dest=off+DELTA+4+n*4
-            if dest is not None and START+DELTA<=dest<END+DELTA and not START<=off<END:
-                entries.append({'offset':off,'destination':dest,'function_entry':dest==START+DELTA})
+            if dest is not None and start+DELTA<=dest<end+DELTA and not start<=off<end:
+                entries.append({'offset':off,'destination':dest,'function_entry':dest==start+DELTA})
     return entries
 
 

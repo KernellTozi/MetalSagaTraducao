@@ -159,7 +159,7 @@ def write_json(path,value):
 
 
 def build_iso(output,patches,layout_profile='spacing-v003'):
-    if layout_profile not in ('spacing-v003','ptbr-layout-v004'):raise ValueError('Unknown layout profile')
+    if layout_profile not in ('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'):raise ValueError('Unknown layout profile')
     output=local(output,True)
     sys.path.insert(0,str(ROOT/'work/python-deps'))
     from gfi_refined import font_patches
@@ -181,7 +181,7 @@ def build_iso(output,patches,layout_profile='spacing-v003'):
     elf=(reference/'SLUS_212.93').read_bytes()
     patches.append({'resource':'SLUS_212.93',**elf_patch(elf)})
     layout_evidence=None
-    if layout_profile=='ptbr-layout-v004':
+    if layout_profile in ('ptbr-layout-v004','ptbr-layout-v005'):
         from glyph_layout import elf_patch as layout_patch
         p=layout_patch(elf)
         patches.append({'resource':'SLUS_212.93',**p})
@@ -190,6 +190,14 @@ def build_iso(output,patches,layout_profile='spacing-v003'):
             'patched_sha256':hashlib.sha256(p['after']).hexdigest(),
             'scope':'18 PT-BR codes inherit ASCII base draw width, width margin, bearing and advance',
             'bitmaps':'unchanged v002','runtime_validated':False}
+    if layout_profile=='ptbr-layout-v005':
+        from glyph_single import elf_patch as single_patch
+        p=single_patch(elf)
+        patches.append({'resource':'SLUS_212.93',**p})
+        layout_evidence['single_glyph']={'offset':p['offset'],'size':len(p['after']),
+            'source_sha256':hashlib.sha256(p['before']).hexdigest(),
+            'patched_sha256':hashlib.sha256(p['after']).hexdigest(),
+            'cache_code_retained':True,'runtime_validated':False}
     original=ROOT/'JOGO/Metal Saga.iso';absolute=[]
     with original.open('rb') as src:
         directory=entries(src)
@@ -233,7 +241,7 @@ def main():
     parser.add_argument('--draft',type=Path,default=DEFAULT_DRAFT)
     parser.add_argument('--output',type=Path,default=ROOT/'work/pilotos'/f'{datetime.now():%Y%m%d-%H%M%S-%f}')
     parser.add_argument('--build-iso',action='store_true')
-    parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004'),default='spacing-v003')
+    parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'),default='spacing-v003')
     parser.add_argument('--iso-name',help='Optional experimental image name; never changes the saved recipe')
     args=parser.parse_args();output=local(args.output,True)
     draft_path=args.draft.resolve()

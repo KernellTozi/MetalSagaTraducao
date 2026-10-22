@@ -1,0 +1,1212 @@
+{
+  "schema": 1,
+  "metadata_source": "completed build report; no new runtime validation",
+  "draft_sources": [
+    {
+      "path": "translations/piloto-inicial-v001.json",
+      "sha256": "fd3047bf9fc550ff9610afe96492697f72435ca01f2afd2b30d392a581dc9d65"
+    },
+    {
+      "path": "translations/regiao-inicial-v002.json",
+      "sha256": "f76b62b6e3080a9d844cfc9c4e1f104cdd36b835e9ea24a91e74c8c7b164b7de"
+    },
+    {
+      "path": "translations/regiao-inicial-v003.json",
+      "sha256": "87647182df8efb765b11984573f5a4d163501409faf96b640985186ce66f4ccc"
+    },
+    {
+      "path": "translations/regiao-inicial-v004.json",
+      "sha256": "9666653dbd5ae5f6c91ef47e6b07e4d6bb15decd07df478f8d8fb9c50a28b230"
+    },
+    {
+      "path": "translations/regiao-inicial-v005.json",
+      "sha256": "9ef45797ad1d1b51b284cd51fef5adf058dba3f4ef49c0d191dedf02849e6711"
+    },
+    {
+      "path": "translations/regiao-inicial-v006.json",
+      "sha256": "ed2cd1a4bd97d5424e5aed29e9fb0fbf77bfcf9fe85acf7c0ac204d06870f29b"
+    },
+    {
+      "path": "translations/regiao-inicial-v007.json",
+      "sha256": "94723a445a395926be7754952bd69d8f1d28e1b95410279d3a5e46b3e67ba993"
+    },
+    {
+      "path": "translations/regiao-inicial-v008.json",
+      "sha256": "22770ed22f12b7b55f285d56d676b11281a31432d4b5b60d06fc060270915b3d"
+    },
+    {
+      "path": "translations/regiao-inicial-v009.json",
+      "sha256": "6ac148d393700e562ddbea0f9161a57d6aacf5d2b92d23124509246201fd6b50"
+    },
+    {
+      "path": "translations/regiao-inicial-v010.json",
+      "sha256": "509d4f1f4b3c10eb0b8fd131b11bdf75977ccccd22c575fbd13624b270f1409c"
+    },
+    {
+      "path": "translations/regiao-inicial-v011.json",
+      "sha256": "fbbc4aef5a3401a07900ce2c963b4fab4098ee044a38f77dab9a1db4fab0e9c5"
+    },
+    {
+      "path": "translations/regiao-inicial-v012.json",
+      "sha256": "d39133e726c7a49da7303958aefcaf0f3ffe825f05fa784969b208ff3ad0fa64"
+    },
+    {
+      "path": "translations/regiao-inicial-v013.json",
+      "sha256": "9ccae94e99e0d7fbf5f73b48dfdb23ec57f22db85ae8321f49eab807ad7daae5"
+    },
+    {
+      "path": "translations/regiao-inicial-v014.json",
+      "sha256": "d9b51c0a27dd5d133d6efe0c7570d5242f34fe096cf60febb4aa3be3a98580be"
+    },
+    {
+      "path": "translations/regiao-inicial-v015.json",
+      "sha256": "6952739066afe529bcb0377a7cb2af2f93e0fba545ea1dfc593b78338b0a67e4"
+    },
+    {
+      "path": "translations/regiao-inicial-v016.json",
+      "sha256": "7f26127449f674ffd070ac12dd9b9a6e28f9864e9bb268411bd9718a71c38463"
+    },
+    {
+      "path": "translations/regiao-inicial-v017.json",
+      "sha256": "ba9a91025947c01f38fb3daaab7ca4ed57aedaace16288fed8d49eca3da05125"
+    },
+    {
+      "path": "translations/regiao-inicial-v018.json",
+      "sha256": "d109309f0a59c5cb1b46b384bc85676b939d0ce910fe564cd6ecab5e47e5fcc8"
+    },
+    {
+      "path": "translations/regiao-inicial-v019.json",
+      "sha256": "45c3b5a9cc4988722627ad919edb0065c651bb9f673d509ddbf25a75918a3e08"
+    },
+    {
+      "path": "translations/regiao-inicial-v020.json",
+      "sha256": "a196486d51b4f7a80fa3be9436fb8c67e60d3fa9a73a29afeb7aa4c2e2581e9c"
+    },
+    {
+      "path": "translations/regiao-inicial-v021.json",
+      "sha256": "13eb9c831b88f55ca6a6c374ef00915e87572adfb9dd30324ab6c294be30e66e"
+    },
+    {
+      "path": "translations/regiao-inicial-v022.json",
+      "sha256": "4b23485f0b29a120d2d8783ae78925eaa57325df604da06d8022a3531a7429c3"
+    },
+    {
+      "path": "translations/regiao-inicial-v023.json",
+      "sha256": "8cd668b2a928b993d99990a599764ee6ae3079672b6a1fb965f8fa4d67a5686d"
+    }
+  ],
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "reinsertion_policy": "fixed-record-named-choice-slots-v005",
+  "named_choice_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "instruction_assertions": 22,
+    "named_slots_only": true,
+    "label_and_tail_immutable": true,
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "scope": {
+    "first_offset": "00011074",
+    "last_offset": "1ff30844",
+    "records": 7231
+  },
+  "accepted": 5758,
+  "unchanged": 1473,
+  "refused": 0,
+  "deferred": [
+    {
+      "id": "map.smsg.1df4c1ec",
+      "reason": "Controle de preço opaco, preservado integralmente"
+    },
+    {
+      "id": "map.smsg.1df4d28c",
+      "reason": "Nome dinâmico e preço com controles opacos"
+    },
+    {
+      "id": "map.smsg.1df4d364",
+      "reason": "Nome dinâmico e preço com controles opacos"
+    },
+    {
+      "id": "map.smsg.1df4d5cc",
+      "reason": "Preço com controle opaco"
+    },
+    {
+      "id": "map.smsg.1df4d6a8",
+      "reason": "Preço com controle opaco"
+    },
+    {
+      "id": "map.msg.1df4e7c0",
+      "reason": "Nome e título dinâmicos com controles opacos %N$0 e %T$0"
+    },
+    {
+      "id": "map.msg.1df5e3bc",
+      "reason": "Controle opaco de nome de item %I$0; preservar registro inteiro"
+    },
+    {
+      "id": "map.msg.1df5e4a4",
+      "reason": "Controle opaco de nome de item %I$0; preservar registro inteiro"
+    },
+    {
+      "id": "map.msg.1df5f13c",
+      "reason": "Controle opaco de nome de item %I$0; preservar registro inteiro"
+    },
+    {
+      "id": "map.msg.1df6435c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df7ec14",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df7ed3c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df7ee6c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df88cd4",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df88d9c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df88e6c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1f288494",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1f288584",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1f32cfa0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd45128",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd452f8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd45694",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd457b4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd45900",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd459bc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd45a98",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd45c94",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd45e14",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd46320",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd46558",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd46684",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd46774",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd46938",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd46b20",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd46e88",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd46f68",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd4701c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd4726c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd47390",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd47520",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd47780",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4788c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd479a0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd47a48",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd47e44",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd47ffc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd480c4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48150",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd485fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48688",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48730",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48858",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4a76c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4a7dc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd4a8d4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4aa10",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4aae4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4ab58",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd4ad44",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.sel.1d0b9c8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.1d0b9e94",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0bfa2c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1df465e0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df46edc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.1df4712c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.1df478b8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1c64aa64",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1cd701e0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0aa8ec",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0b290c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0b4360",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.1d0b456c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0b4d3c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1d0b5198",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.169bd464",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.169bd620",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.169bfd54",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.176aa3d0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1773ee0c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.1773f01c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1773fd58",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.17740128",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.17743858",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.17746fe0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.17747f84",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.17749d24",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1774a448",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1774a49c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1774e674",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1c649fbc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12830b18",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.13709cc0",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1370a240",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1370a5ac",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1371e638",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.14aa2368",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.14aa28fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aa315c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aa34bc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.14aa9340",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aa9e18",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aa9e6c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.14aab6b4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aaedc4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1576b864",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77a724",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77a8a8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77b478",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77bad4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.0e77c0e0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0e77c3ec",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0f831078",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.0f83160c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0f831e1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0f832220",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0f8324ac",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1033add8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.1033b36c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1033bafc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1033bf04",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1033e304",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.10cf4c80",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.10cf4e8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.12120d3c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12120fc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.121210f4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.121219fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12121a88",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12121f74",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.128226b4",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.128226fc",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.12822744",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.12822790",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.12824d2c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.128256fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.12827734",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.12828d08",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12829490",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.12829698",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12829e2c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.1282da58",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be22854",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be22bc4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0be29954",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be2b65c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be2b6fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be2b79c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2befc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2bf40",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2bf84",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2bfc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c00c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c054",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c098",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c0e0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c128",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c16c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c1b0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c1f4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c238",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c27c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c2c4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c308",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c34c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c390",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c3d4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2smg.0be2c4e4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2smg.0be2ca48",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0be2ccb4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db0ab6c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db0af74",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0db0b1b8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.0db0be2c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0db0c44c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db10ac8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db10b1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db16188",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e55131c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e5513c0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e5517d4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e551e7c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e76778c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.0e76799c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e768190",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e768568",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e768d74",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e76dabc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e76dd0c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.0e76fb8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e76fc80",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.0e771ce4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0e771e18",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0e771f14",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e774dc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e774e1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e779e3c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e77a194",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a13ad4c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a6111f0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.0a6113fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a611a8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.0a611cd4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0af879b0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.0af87bbc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0af8824c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smnn.0af88494",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fc504",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fc764",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fe774",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fef6c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0be06d88",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be074fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.0be0770c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be07ed0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0be0852c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be0f99c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be0fcac",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be0fda0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be0ff70",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be102b4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be1579c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0be1597c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.040f0f54",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.057cd2bc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057cdbcc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.057cdddc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057ce5a0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.057cee88",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057d3cc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057d3d1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.057d54fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057d9928",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.06493814",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.06493a84",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.06493cbc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0653d18c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b264e0",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b26e8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b273fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b2812c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b28310",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b2845c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b2a84c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.085408ec",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a138544",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a1387a4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.supr.01deb784",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.supr.01deb800",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.01def818",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.01defc7c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.01df008c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.01df74f0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.038d5388",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.038d5974",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.038d5e40",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.038dac0c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.038df66c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.040ef0ec",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    }
+  ],
+  "translated_segments": 6137,
+  "ssd_groups": 1595,
+  "terminology_issues": [],
+  "terminology_policy_sha256": "3740fac35b1ddcfcff36b7f94eeb2ebb950624354921019e6dbf686c6173ca17",
+  "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "output_iso_sha256": "92ebfcd0a98ced0301740aefaf3fee96f6b7c7c780d005c3d7ba381618ac108d",
+  "iso_size": 1704427520,
+  "changed_byte_count": 477593,
+  "all_bytes_match_expected_patch": true,
+  "iso_directory_identical": true,
+  "fonts": [
+    {
+      "path": "DATA/SYS/SUC20I22.GFI",
+      "sha256": "68a5158652183fec1f88721412ddbc0f8eafb8fc4172f93740113a34e9e9bb6d",
+      "side": 22
+    },
+    {
+      "path": "DATA/SYS/SUC24I26.GFI",
+      "sha256": "cb844c63f3155f8026f7f8f87f5c7d0b6f4b00fb7d26b11620c6b9c935a4085b",
+      "side": 26
+    }
+  ],
+  "elf_profile": "ptbr-layout-v005",
+  "layout_patch": {
+    "offset": 255264,
+    "size": 824,
+    "source_sha256": "f41beaffa20879e2fd90490dc354df14902202fa967b2fd4a80c91c1dc9d699a",
+    "patched_sha256": "48eb3fc657f5da90fa289c2bdbaf5cbbad53b780a83d4d3db98b06e9e62227f1",
+    "scope": "18 PT-BR codes inherit ASCII base draw width, width margin, bearing and advance",
+    "bitmaps": "unchanged v002",
+    "runtime_validated": false,
+    "single_glyph": {
+      "offset": 254688,
+      "size": 576,
+      "source_sha256": "bbdeb34cea6c45c4b8780d1a3322b9e28e0701e6b846accff96cd9a30be38169",
+      "patched_sha256": "797d7ded165aca970e5efbeb6e357987e47edecdfdb4ef32fab09d187316cdc5",
+      "cache_code_retained": true,
+      "runtime_validated": false
+    }
+  },
+  "output_iso": "work/fontes-layout-v005/MetalSaga-ptbr-layout-v005.iso",
+  "record_relocation": false,
+  "modes": [
+    "slots"
+  ],
+  "unit_tests_passed_reported": 23,
+  "legacy_width_warnings": 650,
+  "visual_status": "pending_user_verification",
+  "narrative_status": "escolhas nomeadas; validação visual pendente",
+  "pcsx2_executed": false,
+  "iso_retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 10,
+    "reserve": 0,
+    "before_count": 10,
+    "delete": [],
+    "remaining_count": 10,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "record_results_reference": "reports/regiao-inicial-v023-validation.json",
+  "identical_translation_plan_proof": "reports/layout-v005-vs-v004.json",
+  "full_current_build_report": "work/fontes-layout-v005/relatorio.json"
+}

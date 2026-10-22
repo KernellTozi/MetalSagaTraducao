@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "window_start": 254688,
+  "window_end_exclusive": 255264,
+  "same_size": true,
+  "original_window_sha256": "bbdeb34cea6c45c4b8780d1a3322b9e28e0701e6b846accff96cd9a30be38169",
+  "patched_window_sha256": "797d7ded165aca970e5efbeb6e357987e47edecdfdb4ef32fab09d187316cdc5",
+  "requires_adjacent_patch_sha256": "48eb3fc657f5da90fa289c2bdbaf5cbbad53b780a83d4d3db98b06e9e62227f1",
+  "codes_compared": 65536,
+  "changed_codes": [
+    "8240",
+    "8241",
+    "8242",
+    "8243",
+    "8244",
+    "8245",
+    "8246",
+    "8247",
+    "8248",
+    "8249",
+    "824a",
+    "824b",
+    "824c",
+    "824d",
+    "824e",
+    "8259",
+    "825a",
+    "825b"
+  ],
+  "native_codes_unchanged": 65518,
+  "cache_code_preserved": true,
+  "callee_saved_verified": true,
+  "external_direct_references": [
+    {
+      "offset": 254612,
+      "destination": 1299168,
+      "function_entry": true
+    },
+    {
+      "offset": 358240,
+      "destination": 1299168,
+      "function_entry": true
+    },
+    {
+      "offset": 2086708,
+      "destination": 1299168,
+      "function_entry": true
+    }
+  ],
+  "font_cache_widths_model": "existing v003 half-width flag; native classification modeled at call boundary",
+  "runtime_validated": false,
+  "limitations": [
+    "Bounded instruction interpreter, not a PS2 emulator",
+    "Cache/texture/draw calls are modeled boundaries; actual rasterization not emulated",
+    "Direct reference scan cannot exclude all indirect references"
+  ]
+}

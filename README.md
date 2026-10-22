@@ -64,6 +64,6 @@ modificadas ficam em `work/`, ignorado pelo Git. `JOGO/` é somente leitura por 
 
 
 Correção experimental da largura dos acentos: **`Testar-Acentos-Corrigidos.cmd`**
-abre uma cópia da v023 com métricas PT-BR v004, mantendo os mesmos textos e
-bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v004.md).
+abre uma cópia da v023 com métricas PT-BR v005, mantendo os mesmos textos e
+bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v005.md).
 A confirmação visual está pendente; o iniciador habitual continua na v023.
