@@ -81,3 +81,9 @@ Triagem em `reports/plano-pendencias-v005.json`. Próximo alvo previsto: `%I$0`,
 As 14 falas I0 foram traduzidas com nomes dinâmicos preservados: proteção contra o frio, combate, inspeção de peça e presentes. A política v010 confere o handler e a referência à tabela (stride 128) no ELF original, com instruções executadas em memória simulada. Não libera a edição dessa tabela nem comprova seu vínculo completo com S_PACK.SDA.
 
 São 5.870 traduções, 145 adiamentos (131 opacos em 29 grupos e 14 nativos), com triagem em `reports/plano-pendencias-v006.json`. Próximo alvo: `%N$0`, 22 registros, distinto dos 19 nomes N3 preservados. Inclui recebimento de veículos, tutorial de Drive, hospedagem, nomeação e outras referências. Preservar Drive enquanto a interface correspondente mantiver esse nome; não inferir uma entidade fixa pelo índice de variável zero. Manter a revisão visual conjunta no save corrido.
+
+## Estado após o sexto passo — v029
+
+Os 22 registros N0 foram traduzidos: hospedagem, recebimento/tutorial de veículos, anúncio de nome, campo arado, referência a músicas e comemoração de Dr. Palm. A política v011 confere o lookup de ponteiros N e o leitor no ELF original, com instruções executadas em memória simulada. Mantém a diferença entre N0 literal e N$0 indireto; não libera N3 ou uma entidade canônica única. Drive permanece igual à interface.
+
+São 5.892 traduções, 123 adiamentos (109 opacos em 28 grupos e 14 nativos), com triagem em `reports/plano-pendencias-v007.json`. Próximo alvo: `%$0` e `%$2`, 12 registros exclusivos cada, após confirmar os argumentos e sufixos. Não promover os caminhos fracionários nem variantes desconhecidas por contagem. Manter os nomes N3 e o teste visual conjunto no save corrido.

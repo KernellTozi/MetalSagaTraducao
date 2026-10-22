@@ -1,0 +1,81 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "handler": [
+    1793196,
+    1793248
+  ],
+  "handler_sha256": "ad4b84a4542c7b5a456286ba5cb796ceaa155374e24940d6f3e1eee62431cd1e",
+  "allowed_token_hex": "254e2430",
+  "variable_index": 0,
+  "name_pointer_table_va": 4674956,
+  "pointer_stride": 4,
+  "growth_allowed": false,
+  "mode": "slots",
+  "runtime_identity": "context-dependent; no canonical actor or vehicle ID inferred",
+  "runtime_visual_status": "pending_manual_validation",
+  "probe_scope": "Original N handler with synthetic memory and original numeric reader; name initialization and emitter not emulated",
+  "probes": [
+    {
+      "index": 0,
+      "string_pointer": 1048576,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8232,
+        4674956
+      ]
+    },
+    {
+      "index": 1,
+      "string_pointer": 1048592,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8232,
+        4674960
+      ]
+    },
+    {
+      "index": 127,
+      "string_pointer": 1050608,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8232,
+        4675464
+      ]
+    },
+    {
+      "index": 1024,
+      "string_pointer": 1064960,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8232,
+        4679052
+      ]
+    },
+    {
+      "index": 65535,
+      "string_pointer": 2097136,
+      "consumed_after_percent": 3,
+      "variable_indices": [
+        0
+      ],
+      "memory_reads": [
+        8232,
+        4937096
+      ]
+    }
+  ],
+  "probe_index_limit_is_not_runtime_validation": true,
+  "pcsx2_executed": false
+}

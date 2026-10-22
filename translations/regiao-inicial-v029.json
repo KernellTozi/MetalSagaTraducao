@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v028.json",
+  "name": "regiao-inicial-v029",
+  "status": "hospedagem, recebimento e nomeacao de veiculos; N0 dinamico preservado; teste conjunto pendente",
+  "reinsertion_policy": "fixed-record-n0-preserved-slots-v011",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v029.iso",
+  "resume_deferred": [
+    "map.msgn.01df74f0",
+    "map.msg.038d5e40",
+    "map.msg.057ce5a0",
+    "map.msg.06493cbc",
+    "map.msg.0653d18c",
+    "map.msg.07b26e8c",
+    "map.msg.07b273fc",
+    "map.msg.07b2a84c",
+    "map.msg.0be07ed0",
+    "map.msg.0be102b4",
+    "map.msg.0db0af74",
+    "map.msg.0e768190",
+    "map.msg.0f832220",
+    "map.msg.1033bf04",
+    "map.msg.1370a5ac",
+    "map.msg.14aa34bc",
+    "map.msg.1773fd58",
+    "map.msg.1c649fbc",
+    "map.msg.1cd701e0",
+    "map.msg.1df4e7c0",
+    "map.msg.1fd480c4",
+    "map.msg.1fd48150"
+  ],
+  "reviewed_changes": [],
+  "translations": {
+    "map.msgn.01df74f0": {
+      "body": "OK, %N$0.\nDurma bem,\n%T$0..."
+    },
+    "map.msg.038d5e40": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.057ce5a0": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.06493cbc": {
+      "body": "Recebeu %N$0!\tUse \"Drive\" para\ndirigir ou rebocar\nveículos!"
+    },
+    "map.msg.0653d18c": {
+      "body": "Recebeu %N$0!\tUse \"Drive\" para\ndirigir ou rebocar\nveículos!"
+    },
+    "map.msg.07b26e8c": {
+      "body": "%N$0, huh?\nOuviram, pessoal!\nNão se esqueçam!"
+    },
+    "map.msg.07b273fc": {
+      "body": "%N$0 arou o campo."
+    },
+    "map.msg.07b2a84c": {
+      "body": "Recebeu %N$0!\tUse \"Drive\" para\ndirigir ou rebocar\nveículos!"
+    },
+    "map.msg.0be07ed0": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.0be102b4": {
+      "body": "Ela costuma dar nomes\nde músicas antigas\naos veículos. Desta vez,\tmanteve o nome\n%N$0, então deve\ngostar muito dele."
+    },
+    "map.msg.0db0af74": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.0e768190": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.0f832220": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.1033bf04": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.1370a5ac": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.14aa34bc": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.1773fd58": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.1c649fbc": {
+      "body": "Recebeu %N$0!\tUse \"Drive\" para\ndirigir ou rebocar\nveículos!"
+    },
+    "map.msg.1cd701e0": {
+      "body": "Recebeu %N$0!\tUse \"Drive\" para\ndirigir ou rebocar\nveículos!"
+    },
+    "map.msg.1df4e7c0": {
+      "body": "Boa noite, sr.\n%N$0, o %T$0..."
+    },
+    "map.msg.1fd480c4": {
+      "body": "Recebeu %N$0!"
+    },
+    "map.msg.1fd48150": {
+      "body": "%N$0!\t%N$0, você disse!?\tHahahaha, perfeito!\n%B$15 e seu %N$0!\tHahaha, adorei!\tPois bem, %B$15!\nQue tal dar uma\nvolta com ele!?\tSe enjoar dele,\nvolte quando quiser que\nfaço outro para você!\tAfinal, somos amigos,\nnão somos!? Hahahaha!"
+    }
+  }
+}
