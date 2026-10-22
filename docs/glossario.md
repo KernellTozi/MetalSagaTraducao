@@ -99,6 +99,20 @@ traduzir material `junk` por sucata não deve renomear inimigos preservados.
 `shiny` como adjetivo vira brilhando/brilhante; `Shiny` como nome é preservado.
 Essa distinção explícita ainda exige revisão contextual em casos ambíguos.
 
+Na ampliação v013, `Blueberry Army` recebe Exército Blueberry, preservando o
+nome Blueberry. Separar a indignação dos moradores da linguagem burocrática de
+proteção dos soldados: a contradição entre discurso e intimidação faz parte da
+cena. A Hunter de Newfolk fala com desenvoltura; manter flerte e condescendência
+sem aumentar a intensidade. O jovem que comenta Nina fica constrangido quando
+descobre o parentesco; não apagar a graça da reação nem inventar aproximação.
+
+Preservar Frog Race, Dragon Choppers e Spiffy Tube. Big Medals e Gigantic Medals
+permanecem como nomes dos itens, para combinar com as referências da interface.
+Nos finais de casamento, distinguir a conversa afetiva dos pais da cerimônia
+irreverente e do narrador satírico. A troca de munição em 10 minutos e a queda
+da franquia são partes da piada; não suavizar o desfecho nem acrescentar filhos
+ou outros acontecimentos. `livin' la vida loca` mantém a referência cultural.
+
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear
 o registro e investigar capacidade/realocação, sem apagar significado.

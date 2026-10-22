@@ -51,3 +51,9 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(validate('something shiny','algo brilhando'),[])
         self.assertTrue(validate('Shiny is here','Brilhante está aqui'))
         self.assertEqual(validate('Shiny is here','Shiny está aqui'),[])
+
+    def test_newfolk_scene_names_and_medals(self):
+        self.assertEqual(validate('Frog Race Dragon Choppers Spiffy Tube Big Medals Gigantic Medals Blueberry',
+                                  'Frog Race Dragon Choppers Spiffy Tube Big Medals Gigantic Medals Blueberry'),[])
+        self.assertTrue(validate('Big Medals and Gigantic Medals','Medalhas Grandes e Medalhas Gigantes'))
+        self.assertTrue(validate('Spiffy Tube','Tubo Esperto'))

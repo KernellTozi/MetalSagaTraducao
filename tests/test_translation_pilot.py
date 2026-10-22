@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -258,7 +258,7 @@ class PilotTests(unittest.TestCase):
         from gfi import encode
         parent,_=load_draft(REGION_V11_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V12_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(1083,280,0))
@@ -282,6 +282,37 @@ class PilotTests(unittest.TestCase):
                     if re.search(r'\bnao\b',s['translation'])}
         self.assertEqual(exceptions,{resumed})
         self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+
+    def test_v013_extends_lower_boundary_and_preserves_all_v012_records(self):
+        from prepare_translation_lot import prepare
+        parent,_=load_draft(REGION_V12_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x1d0b5680)
+        self.assertEqual(proposal['scope']['records'],1563)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(139,48,13))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(1241,322,0))
+        self.assertEqual(current['entries'][200:],old['entries'])
+        self.assertEqual(len(report['deferred']),80)
+        self.assertEqual(len(sources),13)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        self.assertEqual(by_id['map.msg.1df8bec0']['segments'][0]['translation'],'nao')
+        self.assertIn('10 minutos',by_id['map.msg.1dc5ef98']['segments'][0]['translation'])
+        self.assertIn('Spiffy Tube',by_id['map.msg.1dc5ef98']['segments'][0]['translation'])
+        self.assertIn('Dragon Choppers',by_id['map.msgn.1d0b9fb0']['segments'][0]['translation'])
+
+    def test_prepare_rejects_ambiguous_or_shrinking_boundaries(self):
+        from prepare_translation_lot import prepare
+        parent={'scope':{'first_offset':'20','last_offset':'40'}}
+        with mock.patch('prepare_translation_lot.compile_draft',return_value=({'entries':[]},[],{'valid':True})), \
+             mock.patch('prepare_translation_lot.SsdIndex'):
+            for kwargs in ({},{'end':0x50,'start':0x10},{'start':0x20},
+                           {'start':0x30},{'start':-1},{'end':0x40},{'end':0x30}):
+                with self.subTest(kwargs=kwargs):
+                    with self.assertRaises(ValueError):prepare(b'',parent,**kwargs)
 
     def test_resume_requires_explicit_child_target_and_existing_parent_deferral(self):
         with tempfile.TemporaryDirectory(dir=ROOT/'work',prefix='test-resume-') as folder:

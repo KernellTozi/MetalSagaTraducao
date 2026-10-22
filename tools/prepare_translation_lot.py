@@ -19,12 +19,18 @@ def signature(entry):
     return tuple((s['key'],s['source_hex']) for s in entry['segments'])
 
 
-def prepare(data,parent,end):
+def prepare(data,parent,end=None,*,start=None):
     document,_,validation=compile_draft(data,parent)
     if not validation['valid']:raise ValueError('Parent lot must compile before reuse')
-    index=SsdIndex(data);start=int(parent['scope']['first_offset'],16)
+    index=SsdIndex(data);previous_start=int(parent['scope']['first_offset'],16)
     previous_end=int(parent['scope']['last_offset'],16)
-    if end<=previous_end:raise ValueError('New lot must extend the previous interval')
+    if (start is None)==(end is None):raise ValueError('Choose exactly one interval boundary to extend')
+    if start is not None:
+        if not 0<=start<previous_start:raise ValueError('New start must precede the previous interval')
+        end=previous_end
+    else:
+        if end<=previous_end:raise ValueError('New lot must extend the previous interval')
+        start=previous_start
     excluded=set(parent.get('deferred',{}))
     exception=parent.get('ascii_exception',{})
     if exception:excluded.add(exception['id'])
@@ -32,7 +38,8 @@ def prepare(data,parent,end):
           if not e['blocked_reasons'] and e['id'] not in excluded}
     aliases={};targets={};deferred={};pending=[];count=len(document['entries'])
     for at in sorted(index.records):
-        if not previous_end<at<=end or bytes(data[at:at+4]) not in set(LAYOUTS)|{b'msg\0',b'msgn'}:continue
+        if not (start<=at<previous_start or previous_end<at<=end):continue
+        if bytes(data[at:at+4]) not in set(LAYOUTS)|{b'msg\0',b'msgn'}:continue
         entry=descriptor(data,at,index);count+=1;key=entry['id'];sig=signature(entry)
         if entry['blocked_reasons']:
             deferred[key]='; '.join(entry['blocked_reasons']);continue
@@ -49,14 +56,16 @@ def prepare(data,parent,end):
 def main():
     parser=argparse.ArgumentParser(description='Preparar lote maior sem traduzir nem gerar ISO')
     parser.add_argument('--parent',type=Path,default=DEFAULT_DRAFT)
-    parser.add_argument('--end-offset',type=lambda s:int(s,16),required=True)
+    boundary=parser.add_mutually_exclusive_group(required=True)
+    boundary.add_argument('--end-offset',type=lambda s:int(s,16))
+    boundary.add_argument('--start-offset',type=lambda s:int(s,16))
     parser.add_argument('--lot-id',required=True)
     parser.add_argument('--output',type=Path,required=True)
     args=parser.parse_args()
     if not re.fullmatch(r'[a-z0-9-]+',args.lot_id):raise ValueError('Invalid lot ID')
     output=local(args.output,True);parent,sources=load_draft(args.parent)
     with SOURCE.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
-        planned,pending=prepare(data,parent,args.end_offset)
+        planned,pending=prepare(data,parent,args.end_offset,start=args.start_offset)
     names=[Path(s['path']).name for s in sources]
     if len(names)!=len(set(names)) or args.lot_id+'.json' in names:raise ValueError('Draft filename collision')
     output.mkdir(parents=True)
