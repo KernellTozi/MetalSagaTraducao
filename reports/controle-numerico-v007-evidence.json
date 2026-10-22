@@ -1,0 +1,114 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "argument_reader": [
+    1792560,
+    1792720
+  ],
+  "handler": [
+    1793516,
+    1793668
+  ],
+  "handler_sha256": "34410c8529e2e6613013f4f1a831fd9f3c1d44312a47e588cc81aabeebc038e9",
+  "dispatch_table": 3399008,
+  "format_offset": 3448256,
+  "format_hex": "256400",
+  "allowed_token_hex": "252431",
+  "variable_index": 1,
+  "format": "signed 32-bit decimal; at most 11 visible ASCII bytes",
+  "excluded_suffix": "lowercase f invokes another argument and floating-point formatting",
+  "growth_allowed": false,
+  "mode": "slots",
+  "runtime_visual_status": "pending_manual_validation",
+  "probe_scope": "Original numeric argument reader only; full formatter/PS2 runtime not emulated",
+  "original_reader_probes": [
+    {
+      "input_hex": "24314700",
+      "variable1": 0,
+      "consumed": 2,
+      "value": 0,
+      "variable_indices": [
+        1
+      ]
+    },
+    {
+      "input_hex": "24314700",
+      "variable1": 1,
+      "consumed": 2,
+      "value": 1,
+      "variable_indices": [
+        1
+      ]
+    },
+    {
+      "input_hex": "24314700",
+      "variable1": 999,
+      "consumed": 2,
+      "value": 999,
+      "variable_indices": [
+        1
+      ]
+    },
+    {
+      "input_hex": "24314700",
+      "variable1": 2147483647,
+      "consumed": 2,
+      "value": 2147483647,
+      "variable_indices": [
+        1
+      ]
+    },
+    {
+      "input_hex": "24314700",
+      "variable1": 2147483648,
+      "consumed": 2,
+      "value": 2147483648,
+      "variable_indices": [
+        1
+      ]
+    },
+    {
+      "input_hex": "24314700",
+      "variable1": 4294967295,
+      "consumed": 2,
+      "value": 4294967295,
+      "variable_indices": [
+        1
+      ]
+    }
+  ],
+  "recovered_ids": [
+    "map.smsg.038d5388",
+    "map.2snm.057cdddc",
+    "map.smsg.057cee88",
+    "map.msg.06493814",
+    "map.msg.06493a84",
+    "map.2snm.0a6113fc",
+    "map.smnn.0a611cd4",
+    "map.2snm.0af87bbc",
+    "map.smnn.0af88494",
+    "map.smsg.0be06d88",
+    "map.2snm.0be0770c",
+    "map.smsg.0db0b1b8",
+    "map.2snm.0db0be2c",
+    "map.2snm.0e76799c",
+    "map.smsg.0e768568",
+    "map.smsg.0f831078",
+    "map.2snm.0f83160c",
+    "map.smsg.1033add8",
+    "map.2snm.1033b36c",
+    "map.msg.12824d2c",
+    "map.msg.128256fc",
+    "map.smsg.12828d08",
+    "map.2snm.12829698",
+    "map.smsg.1371e638",
+    "map.smsg.14aa2368",
+    "map.2snm.14aa28fc",
+    "map.2snm.1773f01c",
+    "map.smsg.17740128",
+    "map.2snm.1d0b456c",
+    "map.smsg.1d0b5198",
+    "map.2snm.1df4712c"
+  ],
+  "pcsx2_executed": false,
+  "manual_test_schedule": "User will validate together during continuous save playthrough, including Dr. Palm"
+}

@@ -21,12 +21,12 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
 Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-7.231 registros localmente, sem gerar outra ISO. São 5.790 registros traduzidos e
-1.441 preservados, incluindo 226 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v024.json`, com herança dos
+7.231 registros localmente, sem gerar outra ISO. São 5.821 registros traduzidos e
+1.410 preservados, incluindo 195 adiados mantidos no original.
+O rascunho PT-BR está em `translations/regiao-inicial-v025.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
-abre a ISO consolidada com textos v024, fontes v002 e layout v005,
-confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v024.md).
+abre a ISO consolidada com textos v025, fontes v002 e layout v005,
+confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v025.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
@@ -66,10 +66,11 @@ modificadas ficam em `work/`, ignorado pelo Git. `JOGO/` é somente leitura por 
 Correção da largura dos acentos confirmada pelo usuário na cena de Nina: **`Testar-Acentos-Corrigidos.cmd`**
 abre uma cópia da v023 com métricas PT-BR v005, mantendo os mesmos textos e
 bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v005.md).
-O iniciador habitual também abre essa imagem corrigida. A aprovação cobre a cena
+O iniciador habitual abre o lote atual com esse mesmo perfil de correção. A aprovação cobre a cena
 testada; outros contextos continuam sujeitos a verificação.
 
 
-Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v024 retoma
-32 diálogos de construção de tanques com [B15 preservado](docs/controles-b15-v006.md),
-sem liberar os demais controles desconhecidos. A receita vincula o layout v005.
+Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v025 acrescenta
+31 registros de preços, hospedagem e ônibus com [variável numérica preservada](docs/controles-numericos-v007.md),
+além dos 32 diálogos B15 da v024. Os demais controles desconhecidos permanecem bloqueados.
+A receita vincula o layout v005; o teste dessas cenas será feito pelo usuário em um save corrido.

@@ -10,7 +10,7 @@ A primeira triagem reproduzível está em `reports/plano-pendencias-v001.json`, 
 
 **Em execução:** liberar uma família de controle por vez, começando por grupos grandes com contexto coerente. Primeiro grupo: 32 registros cujo único opaco é `%B$15`, tratados na v024 com política própria e limite de tamanho mais estrito.
 
-**Próximo alvo:** os 31 registros da base v023 cujo conjunto opaco é somente `%$1`. Investigar o leitor numérico compartilhado e o handler de formatação em `0x1B5DEC..0x1B5E83`. Distinguir número indireto, sufixo literal e o formato com `f` minúsculo. Um F maiúsculo após o número não deve ser incorporado ao token por suposição nem traduzido sem contexto. Ainda não há edição autorizada por esse diagnóstico.
+**Segundo grupo:** 31 registros exclusivos `%$1`, tratados na v025 com política v007. O leitor e o handler em `0x1B5DEC..0x1B5E83` confirmam a variável 1 e o formato inteiro `%d`. O caminho com f minúsculo continua bloqueado; a tradução preserva G e não fixa os números. Ver `docs/controles-numericos-v007.md`.
 
 Depois: grupos `%N$3` (19), `%$15` (18), `%T$0` (18), `%I$0` (14) e combinações. Esses números são grupos disjuntos da base inicial, não metas garantidas. Para cada família: provar consumo/argumentos no ELF, preservação dos valores, limites dos buffers e testes negativos; só então acrescentar uma política opt-in. Não liberar sintaxe apenas ampliando regex.
 
@@ -53,3 +53,9 @@ Se uma família não avançar após investigar o leitor, consumidores e amostras
 ## Estado após o primeiro passo — v024
 
 Primeiro grupo concluído binariamente: 32 registros B15 traduzidos. Permanecem 212 opacos em 35 grupos disjuntos e 14 nativos. A triagem atual está em `reports/plano-pendencias-v002.json`. Próxima investigação: `%$1`, ainda com 31 registros exclusivos. A revisão dos preservados e a validação visual da cena continuam pendentes.
+
+## Estado após o segundo passo — v025
+
+São 5.821 registros traduzidos, com 31 acréscimos de preços, hospedagem, ônibus e MC Hamir. Permanecem 181 opacos em 34 grupos disjuntos e 14 nativos. Triagem em `reports/plano-pendencias-v003.json`; próximo grupo exclusivo: `%N$3` (19). Preservar os 158 registros a revisar / 112 combinações distintas.
+
+O usuário informou que Dr. Palm está distante no save e pediu teste conjunto em uma passagem contínua. Registrar a pendência visual e continuar o trabalho técnico e a tradução compatível sem exigir acesso imediato à cena. O roteiro cumulativo da v025 inclui preços, ônibus e construção de tanques.

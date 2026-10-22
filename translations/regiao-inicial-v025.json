@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v024.json",
+  "name": "regiao-inicial-v025",
+  "status": "precos, hospedagem e onibus; variavel numerica preservada, validacao visual em save corrido pendente",
+  "reinsertion_policy": "fixed-record-numeric1-preserved-slots-v007",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v025.iso",
+  "resume_deferred": [
+    "map.smsg.038d5388",
+    "map.2snm.057cdddc",
+    "map.smsg.057cee88",
+    "map.msg.06493814",
+    "map.msg.06493a84",
+    "map.2snm.0a6113fc",
+    "map.smnn.0a611cd4",
+    "map.2snm.0af87bbc",
+    "map.smnn.0af88494",
+    "map.smsg.0be06d88",
+    "map.2snm.0be0770c",
+    "map.smsg.0db0b1b8",
+    "map.2snm.0db0be2c",
+    "map.2snm.0e76799c",
+    "map.smsg.0e768568",
+    "map.smsg.0f831078",
+    "map.2snm.0f83160c",
+    "map.smsg.1033add8",
+    "map.2snm.1033b36c",
+    "map.msg.12824d2c",
+    "map.msg.128256fc",
+    "map.smsg.12828d08",
+    "map.2snm.12829698",
+    "map.smsg.1371e638",
+    "map.smsg.14aa2368",
+    "map.2snm.14aa28fc",
+    "map.2snm.1773f01c",
+    "map.smsg.17740128",
+    "map.2snm.1d0b456c",
+    "map.smsg.1d0b5198",
+    "map.2snm.1df4712c"
+  ],
+  "reviewed_changes": [],
+  "translations": {
+    "map.smsg.038d5388": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.057cdddc": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.smsg.057cee88": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.msg.06493814": {
+      "body": "O ônibus chega em\n%$1 minutos."
+    },
+    "map.msg.06493a84": {
+      "body": "O próximo ônibus chega\nem %$1 minutos."
+    },
+    "map.2snm.0a6113fc": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tNão posso gastar tanto."
+    },
+    "map.smnn.0a611cd4": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Eu pago!\tMelhor não."
+    },
+    "map.2snm.0af87bbc": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.smnn.0af88494": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Eu pago!\tMelhor não."
+    },
+    "map.smsg.0be06d88": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.0be0770c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.smsg.0db0b1b8": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.0db0be2c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.2snm.0e76799c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.smsg.0e768568": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.smsg.0f831078": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.0f83160c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.smsg.1033add8": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.1033b36c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.msg.12824d2c": {
+      "body": "Deu %$1G para MC Hamir!"
+    },
+    "map.msg.128256fc": {
+      "body": "Deu %$1G para MC Hamir!"
+    },
+    "map.smsg.12828d08": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.12829698": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Espero que valha a pena...\tEstá caro demais."
+    },
+    "map.smsg.1371e638": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.smsg.14aa2368": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.14aa28fc": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.2snm.1773f01c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Tudo bem.\tDesculpe, está caro."
+    },
+    "map.smsg.17740128": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.1d0b456c": {
+      "body": "Fica em %$1G, certo?",
+      "choices": "Espero que valha a pena...\tEstá caro demais."
+    },
+    "map.smsg.1d0b5198": {
+      "body": "Tem certeza?\nVai custar %$1G!",
+      "choices": "Hoje eu pago.\tTudo isso!? Esqueça!"
+    },
+    "map.2snm.1df4712c": {
+      "body": "Serão %$1G.\nTudo bem?",
+      "choices": "Aqui está.\tNão. E sem gorjeta."
+    }
+  }
+}
