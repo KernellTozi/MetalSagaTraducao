@@ -143,7 +143,17 @@
     "Curry Guru",
     "\"Derringer\" Jack",
     "\"Berserker\" Joe",
-    "\"Demon\" Doc Solomon"
+    "\"Demon\" Doc Solomon",
+    "Maus",
+    "Power Suit",
+    "MC Hamir",
+    "Murasame",
+    "Berry",
+    "Bazooka Pooches",
+    "Gepard",
+    "Zed",
+    "Francine",
+    "Explorer"
   ],
   "preserve_expressions": [
     "Hmph",
@@ -191,6 +201,7 @@
     "Ações entre asteriscos e expressões de riso/interjeição listadas devem ser preservadas."
   ],
   "case_sensitive_names": [
-    "Shiny"
+    "Shiny",
+    "Explorer"
   ]
 }

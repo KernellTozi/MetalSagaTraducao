@@ -188,6 +188,34 @@ promessas de amor, treino e carreira política. A piada sobre anabolizantes pode
 ser adaptada com rima («fortão» / «mulherão»), preservando o período de dois anos.
 Não acrescentar explicações médicas ou alterar as instruções de confisco de armas.
 
+Na v017, a cena do ferimento distingue culpa, irritação dos companheiros,
+diagnóstico do braço direito e urgência do atendimento. Não reduzir a gravidade
+do estado crítico nem transformar as desculpas em arrependimento maior do que
+o original. A indicação da Professora Grey mantém a ligação com Lorelei Bay.
+Eddy conserva Explorer como apelido, distinto do substantivo genérico explorador.
+
+Fort Gears e Antitank Fort reivindicam ter chegado primeiro e atribuem a si a
+proteção da outra cidade. Preservar a contradição e a hostilidade cômica sem
+escolher qual morador está certo. Maus, Power Suit, Gepard, Bazooka Pooches,
+MC Hamir, Murasame, Zed e Francine ficam preservados. A negociação do caminhão
+mantém a regra de proposta única, a ordem dos participantes e a recusa de Rosa
+a usar dinheiro emprestado para a coleção.
+
+Na captura do golpista, alternar a fala estrangeira e aduladora, os pensamentos
+hostis, os pedidos de clemência e as tentativas de enganar novamente. Não apagar
+as opções de resposta. A sequência dos idosos preserva a rivalidade familiar,
+as queixas sobre abandono e a justificativa do chefe, sem tratá-la como aprovação
+do narrador. Retirement Compound continua Vila dos Aposentados, como na v015.
+
+Em East Zero, separar boatos sobre o oeste de informações práticas de caça.
+Conservar deserto a sudeste para novatos e campos a nordeste/sudoeste para
+veteranos, além de floresta a sudoeste. O relato do primeiro serviço mantém
+os 100G, o canivete borboleta, o punk armado e a busca pelo ex-dono da loja de
+refrescos. A piada sobre falta de dinheiro recebe «não pago nem promessa».
+O carpinteiro mantém o humor fúnebre dos caixões; não suavizar as ameaças nem
+acrescentar tragédias. A montagem continua exigindo quatro componentes, em
+contraste com os três levados pelo cliente distraído.
+
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear
 o registro e investigar capacidade/realocação, sem apagar significado.

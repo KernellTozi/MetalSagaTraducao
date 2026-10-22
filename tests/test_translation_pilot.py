@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -377,7 +377,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x1282f8cc)
         self.assertEqual(proposal['scope']['records'],3563)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(507,270,23))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V16_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(2806,757,0))
@@ -400,6 +400,45 @@ class PilotTests(unittest.TestCase):
         self.assertIn('3 vezes',body('map.msgn.1576e884'))
         self.assertIn('Fang',body('map.msg.1576a8b8'))
         self.assertIn('Rouge Rogues',body('map.msg.1576a8b8'))
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v017_preserves_prior_lot_and_dynamic_names_and_controls(self):
+        import re
+        from prepare_translation_lot import prepare
+        from dialogue_formats import tokens
+        from gfi import encode
+        parent,_=load_draft(REGION_V16_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x0e77a270)
+        self.assertEqual(proposal['scope']['records'],4363)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(419,333,48))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(3432,931,0))
+        self.assertEqual(current['entries'][800:],old['entries'])
+        self.assertEqual(len(current['entries']),4363)
+        self.assertEqual(len(sources),17)
+        self.assertEqual(len(report['deferred']),191)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        def body(key):return by_id[key]['segments'][0]['translation']
+        self.assertIn('Maus',body('map.msg.0f83443c'))
+        self.assertIn('Fort Gears',body('map.msgn.0f835940'))
+        self.assertIn('braço direito',body('map.msg.0e782624'))
+        self.assertIn('crítico',body('map.msg.0e782624'))
+        for part in ('100G','punk','canivete borboleta'):
+            self.assertIn(part,body('map.msgn.1282db58'))
+        for part in ('sudeste','nordeste','sudoeste','Bazooka Pooches'):
+            self.assertIn(part,body('map.msgn.1282d924'))
+        for key in ('map.msg.0f835554','map.msg.10cf5518','map.msg.12121d58',
+                    'map.msg.12823574'):
+            segment=by_id[key]['segments'][0]
+            a,_=tokens(bytes.fromhex(segment['source_hex']))
+            b,_=tokens(encode(segment['translation']))
+            self.assertEqual([x['hex'] for x in a],[x['hex'] for x in b])
         exceptions={e['id'] for e in current['entries'] for s in e['segments']
                     if re.search(r'\bnao\b',s['translation'])}
         self.assertEqual(exceptions,{'map.msg.1df8bec0'})
