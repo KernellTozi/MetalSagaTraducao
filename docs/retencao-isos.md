@@ -43,3 +43,8 @@ Na construção da v020, foi removida a imagem antiga de desenvolvimento
 recuperação pendente. Receitas, snapshots e relatórios continuam preservados.
 A conferência posterior confirmou dez ISOs: v011 a v020. O atalho legado
 `development` requer reconstrução; a versão atual abre pelo atalho da região.
+
+
+Na construção da v021, foi removida a ISO v011, a imagem gerada mais antiga
+elegível. A conferência posterior confirmou dez imagens, v012 a v021. A receita
+e os relatórios da v011 permanecem; seu atalho histórico exige reconstrução.

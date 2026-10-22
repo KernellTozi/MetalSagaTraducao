@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "records": 7231,
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "classes": {
+    "modified": 5636,
+    "deferred": 349,
+    "controls_or_punctuation": 599,
+    "name_or_expression_candidate": 458,
+    "review_unchanged": 189
+  },
+  "automatic_edit_approval": false,
+  "pcsx2_validation": false,
+  "classification": "conservative triage; names/expressions are suggestions",
+  "plan_sha256": "941365d0d7051ca57648a63fe26ba376c98737beb6a868ed496364a609902f2a",
+  "report_sha256": "a8563ec4958b04415b63a916aabdd350fcdf7f6f6b86b642a9f8aeab70e9f054",
+  "policy_sha256": "3740fac35b1ddcfcff36b7f94eeb2ebb950624354921019e6dbf686c6173ca17"
+}

@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -515,7 +515,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x040ef454)
         self.assertEqual(proposal['scope']['records'],6763)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(464,303,33))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V20_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5321,1442,0))
@@ -533,6 +533,45 @@ class PilotTests(unittest.TestCase):
         repeated=body('map.msgn.04d316ac').split('\t')
         self.assertEqual(repeated[0],repeated[2])
         for key in ('map.msg.040ef70c','map.msg.040efac0','map.msg.08540ff0'):
+            segment=by_id[key]['segments'][0]
+            a,_=tokens(bytes.fromhex(segment['source_hex']))
+            b,_=tokens(encode(segment['translation']))
+            self.assertEqual([x['hex'] for x in a],[x['hex'] for x in b])
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v021_covers_catalog_and_preserves_prior_lot(self):
+        import re
+        from prepare_translation_lot import prepare
+        from dialogue_advanced import SsdIndex,LAYOUTS
+        from dialogue_formats import tokens
+        from gfi import encode
+        parent,_=load_draft(REGION_V20_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x00011074)
+        self.assertEqual(proposal['scope']['records'],7231)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(268,184,16))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5636,1595,0))
+        self.assertEqual(current['entries'][468:],old['entries'])
+        expected={at for at in SsdIndex(self.data).records
+                  if bytes(self.data[at:at+4]) in set(LAYOUTS)|{b'msg\0',b'msgn'}}
+        self.assertEqual({int(e['id'].rsplit('.',1)[1],16) for e in current['entries']},expected)
+        self.assertEqual(len(sources),21)
+        self.assertEqual(len(report['deferred']),349)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        def body(key):return by_id[key]['segments'][0]['translation']
+        ending=body('map.msg.01df5cd4').replace('\n',' ')
+        self.assertIn('uma semana',ending)
+        self.assertIn('90 por cento',ending)
+        for part in ('Noah','Hunter','Grande Destruição'):
+            self.assertIn(part,body('map.msg.01df0a04'))
+        self.assertIn('Alpha X02D',body('map.msgn.004e38b8'))
+        for key in ('map.msgn.0001170c','map.msg.038b0b68','map.msg.01df2d5c'):
             segment=by_id[key]['segments'][0]
             a,_=tokens(bytes.fromhex(segment['source_hex']))
             b,_=tokens(encode(segment['translation']))

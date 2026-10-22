@@ -300,3 +300,23 @@ transformar pistas sobre Golem e Fang em revelações explícitas antecipadas.
 Wayne mantém fala direta e rude, mas a recusa de envolver civis não deve virar
 ameaça a Rachel. Doc Optica conserva o entusiasmo por lentes e os trocadilhos.
 A função Remote continua excluindo veículos submersos após o upgrade.
+
+
+## Continuidade v021
+
+Preservar Iwasaki Medical Laboratory, Miracle Dispenser, MIRACLE-4U, Alpha X02D,
+Alpha Series, Monsieur Ed, Klepto Cobain, Black Quacker, Mr. Stud Medal, Polly e
+Oliver. A variante Ziggarut em uma fala de Eddy permanece como na origem;
+não a tratar como uma nova cidade nem normalizar automaticamente outros nomes.
+
+Alpha mantém frases precisas e formais, com dificuldade em compreender objetos,
+roupas e emoções. Não acrescentar sentimentos às suas interpretações. A fala de
+Murasame conserva sua fixação em vingança, inclusive a variante após a morte de
+quem lhe deu a espada. A exposição sobre Noah permanece atribuída ao personagem.
+O final de fracasso mantém uma semana, noventa por cento da população e o humor
+sombrio do reinado das baratas, sem suavizar o desfecho.
+
+Morgue Town: manter o contraste entre criminosos escondidos, medo dos agentes,
+conselhos dos Hunters e as referências musicais de Klepto Cobain. Rachel deve
+soar preocupada e defensiva sem perder a confiança implícita no protagonista.
+Wayne mantém sua rudeza e o conflito com Jack, sem antecipar reconciliação.
