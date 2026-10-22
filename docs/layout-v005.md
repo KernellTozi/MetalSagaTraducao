@@ -59,7 +59,7 @@ A importação confere origem, dimensões e formato antes de escrever cópias de
 
 Executar `Testar-Acentos-Corrigidos.cmd`, agora apontando para `work/fontes-layout-v005/MetalSaga-ptbr-layout-v005.iso`. Fechar a sessão anterior e iniciar pela nova imagem, evitando savestate de outra versão. Conferir no PCSX2 o nome da ISO carregada.
 
-Rever a fala de Nina “Você quer mesmo ser um Hunter?” e o trecho “péssima ideia. É um trabalho”. Comparar o corpo de ê/é/É com as letras vizinhas: largura, espessura, altura e nitidez. Observar também ç/ã/í, espaços, sobreposição e avanço de páginas. Não houve execução nem navegação desta ISO no PCSX2 pelo Codex. A aparência permanece pendente de confirmação manual.
+Rever a fala de Nina “Você quer mesmo ser um Hunter?” e o trecho “péssima ideia. É um trabalho”. Comparar o corpo de ê/é/É com as letras vizinhas: largura, espessura, altura e nitidez. Observar também ç/ã/í, espaços, sobreposição e avanço de páginas. Não houve execução nem navegação desta ISO no PCSX2 pelo Codex. O retorno manual posterior está registrado abaixo.
 
 ## Resultados da entrega
 
@@ -72,3 +72,13 @@ A construção consolidou os mesmos 5.758 registros alterados, com zero recusas.
 SHA-256 da ISO: `92ebfcd0a98ced0301740aefaf3fee96f6b7c7c780d005c3d7ba381618ac108d`. Tamanho: 1.704.427.520 bytes. O iniciador passou pelo `--dry-run`, sem execução do emulador.
 
 A retenção preserva dez ISOs de trabalho: v016 a v023 e os experimentos de layout v004 e v005. A v015 mais antiga foi removida; receitas e relatórios permanecem. A original em `JOGO/` é preservada fora da contagem. Não houve alteração de saves, BIOS ou configurações.
+
+## Validação visual recebida — 22/10/2026
+
+Após a entrega da v005, o usuário informou: “ficou perfeito, combinou muito bem com o modelo”. Registramos aprovação visual no contexto apresentado das falas de Nina. Não foi solicitada nova edição de glifos nem redução de altura.
+
+O iniciador principal (`Iniciar-Teste.cmd` / `Testar-Regiao-Inicial.cmd`) passa a apontar para a imagem v005 já existente, com os mesmos textos v023. Não foi gerada ISO redundante. A versão anterior sem a correção continua acessível pelo alias `region-v023`, enquanto estiver retida.
+
+Esse retorno confirma a melhora visual no contexto testado. Não comprova individualmente todas as 18 letras nas duas fontes, menus, diário ou demais rotinas de texto. Os relatórios de construção e instruções preservam o estado histórico anterior ao retorno; a evidência manual está separada em `reports/layout-v005-visual-user.json`.
+
+Nos próximos lotes, usar explicitamente `--layout-profile ptbr-layout-v005`, mantendo receitas antigas reproduzíveis. A ISO de desenvolvimento legada não foi modificada.

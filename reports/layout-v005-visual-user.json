@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "source": "direct user feedback after delivery of layout v005",
+  "user_statement": "ficou perfeito, combinou muito bem com o modelo",
+  "profile": "ptbr-layout-v005",
+  "iso": "work/fontes-layout-v005/MetalSaga-ptbr-layout-v005.iso",
+  "iso_sha256": "92ebfcd0a98ced0301740aefaf3fee96f6b7c7c780d005c3d7ba381618ac108d",
+  "status": "user_visual_approval_in_tested_context",
+  "context": "Nina dialogue, latest accent appearance experiment",
+  "performed_by": "user",
+  "pcsx2_executed_by_codex": false,
+  "all_18_characters_individually_confirmed": false,
+  "both_fonts_individually_confirmed": false,
+  "all_text_contexts_confirmed": false
+}

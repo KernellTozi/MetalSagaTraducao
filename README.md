@@ -25,8 +25,8 @@ Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e val
 1.473 preservados, incluindo 258 adiados mantidos no original.
 O rascunho PT-BR está em `translations/regiao-inicial-v023.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
-abre a ISO consolidada, com fontes v002 e espaçamento v003 assumidos
-provisoriamente corretos pelo usuário. [Manual e limites](docs/regiao-inicial-v023.md).
+abre a ISO consolidada com textos v023, fontes v002 e layout v005,
+confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v023.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
@@ -63,7 +63,8 @@ Os relatórios versionados contêm metadados, hashes e offsets; extrações de t
 modificadas ficam em `work/`, ignorado pelo Git. `JOGO/` é somente leitura por política.
 
 
-Correção experimental da largura dos acentos: **`Testar-Acentos-Corrigidos.cmd`**
+Correção da largura dos acentos confirmada pelo usuário na cena de Nina: **`Testar-Acentos-Corrigidos.cmd`**
 abre uma cópia da v023 com métricas PT-BR v005, mantendo os mesmos textos e
 bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v005.md).
-A confirmação visual está pendente; o iniciador habitual continua na v023.
+O iniciador habitual também abre essa imagem corrigida. A aprovação cobre a cena
+testada; outros contextos continuam sujeitos a verificação.
