@@ -25,7 +25,8 @@ def prepare(data,parent,end):
     index=SsdIndex(data);start=int(parent['scope']['first_offset'],16)
     previous_end=int(parent['scope']['last_offset'],16)
     if end<=previous_end:raise ValueError('New lot must extend the previous interval')
-    pool={signature(e):e['id'] for e in document['entries'] if not e['blocked_reasons']}
+    pool={signature(e):e['id'] for e in document['entries']
+          if not e['blocked_reasons'] and e['id'] not in parent.get('deferred',{})}
     aliases={};targets={};deferred={};pending=[];count=len(document['entries'])
     for at in sorted(index.records):
         if not previous_end<at<=end or bytes(data[at:at+4]) not in set(LAYOUTS)|{b'msg\0',b'msgn'}:continue

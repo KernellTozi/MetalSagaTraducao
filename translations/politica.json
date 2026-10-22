@@ -54,13 +54,16 @@
     "Antitank Fort",
     "Forever Land",
     "Iwa Medical Lab",
-    "Transport Pod",
     "Tiamat",
     "IS-3",
     "KV-2",
     "Buggy",
     "Doc Solomon",
-    "Laura"
+    "Laura",
+    "Rent-a-Tank",
+    "Trash Heap",
+    "Ziggurat",
+    "Alex"
   ],
   "preserve_expressions": [
     "Hmph",

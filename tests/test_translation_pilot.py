@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -206,7 +206,7 @@ class PilotTests(unittest.TestCase):
     def test_v010_preserves_v009_places_native_blocks_and_gameplay_details(self):
         parent,_=load_draft(REGION_V9_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V10_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(829,148,0))
@@ -230,6 +230,44 @@ class PilotTests(unittest.TestCase):
         self.assertIn('barril',body('map.msg.1df829c8'))
         self.assertIn('debaixo da mesa',body('map.msg.1df82b14'))
         self.assertIn('geladeira',body('map.msg.1df82c6c'))
+
+    def test_v011_preserves_v010_ui_names_and_too_short_negative_response(self):
+        parent,_=load_draft(REGION_V10_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(990,187,0))
+        self.assertEqual(current['entries'][:977],old['entries'])
+        self.assertEqual(len(current['entries']),1177)
+        self.assertEqual(len(report['deferred']),25)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        self.assertEqual(len(sources),11)
+        by_id={e['id']:e for e in current['entries']}
+        negative=by_id['map.msg.1df8bec0']['segments'][0]
+        self.assertEqual(negative['capacity'],3)
+        self.assertEqual(negative['source'],negative['translation'])
+        self.assertIn('3 bytes',draft['deferred']['map.msg.1df8bec0'])
+        self.assertIn('Drive',by_id['map.msg.1f326a0c']['segments'][0]['translation'])
+        self.assertIn('HELP',by_id['map.msgb.1f326acc']['segments'][0]['translation'])
+        self.assertEqual(by_id['map.msg.1f328034']['segments'][0]['translation'].count('Trash Heap'),2)
+        self.assertIn('nível 3',by_id['map.msg.1f3281ec']['segments'][0]['translation'])
+
+    def test_lot_preparation_excludes_manually_deferred_alias_sources(self):
+        from prepare_translation_lot import prepare
+        previous={'id':'old','blocked_reasons':[],
+                  'segments':[{'key':'body','source_hex':'4e6f2e','editable':True}]}
+        following={**previous,'id':'new'}
+        parent={'scope':{'first_offset':'0','last_offset':'20'},'deferred':{'old':'slot too short'}}
+        data=bytearray(104);data[100:104]=b'msg\0'
+        with mock.patch('prepare_translation_lot.compile_draft',return_value=({'entries':[previous]},[],{'valid':True})), \
+             mock.patch('prepare_translation_lot.SsdIndex') as index, \
+             mock.patch('prepare_translation_lot.descriptor',return_value=following):
+            index.return_value.records={100:None}
+            proposal,pending=prepare(data,parent,100)
+        self.assertEqual(proposal['aliases'],{})
+        self.assertEqual(proposal['translations'],{'new':''})
+        self.assertEqual(len(pending),1)
 
     def test_more_than_eight_draft_versions_and_cycle_rejection(self):
         with tempfile.TemporaryDirectory(dir=ROOT/'work',prefix='test-draft-chain-') as folder:

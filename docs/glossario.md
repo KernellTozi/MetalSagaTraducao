@@ -33,6 +33,9 @@ novas de termos genéricos continuam sujeitas à revisão contextual.
 | IS-3, 74, KV-2, Buggy | preservados | Modelos e nomes de veículos; manter a discussão técnica entre Eddy e Rosa |
 | Doc Solomon, Laura | preservados | Nomes encontrados nas cenas de pesquisa |
 | East Zero, Torikami, Beldaire e demais títulos de local | preservados | Não adaptar os nomes próprios exibidos no recorte v010 |
+| Rent-a-Tank | Rent-a-Tank | Nome do estabelecimento, preservado |
+| Trash Heap | Trash Heap | Nome de procurado/inimigo, preservado mesmo sendo composto por palavras genéricas |
+| Ziggurat, Alex | preservados | Referências próprias nas cenas de resgate |
 
 Igor usa frases mais simples e telegráficas para conservar a caracterização.
 Hesitações de Stan e risadas permanecem. A tradução não deve corrigir enganos
@@ -65,6 +68,20 @@ exagerada referência a 440 libras no supino e os marcos 30/60/90 por cento.
 Seus presentes precisam conservar os locais exatos. Na despedida robótica,
 preservar as pausas, a formalidade e o contraste entre ausência de emoções
 programadas e o significado do convívio; evitar gírias ou piadas acrescentadas.
+
+Nas variantes de casamento, distinguir proposta sincera, brincadeira cruel,
+recusa e retorno após salvar; não antecipar um nome de falante sem evidência.
+Preservar hesitações e mudanças de humor. O pesquisador que comenta a oficina
+tem uma fala preconceituosa e cheia de gaguejos: conservar a caracterização sem
+transformar as opiniões dele em explicações do narrador. No resgate, separar a
+ironia do doutor do alívio e das provocações familiares.
+
+Nas orientações de exploração, manter a sequência de direções e o aviso de
+nível 3. `Drive` e `HELP` ficam como referências aos comandos ainda exibidos
+em inglês. `transport pod` como equipamento genérico pode ser cápsula de
+transporte; a preservação do título `- Transport Pod -` na v010 não torna toda
+ocorrência dessas palavras um nome próprio. Latidos e interjeições dos cães
+permanecem, assim como os nomes dinâmicos inseridos pelo jogo.
 
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear

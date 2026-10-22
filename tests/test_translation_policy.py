@@ -35,3 +35,8 @@ class PolicyTests(unittest.TestCase):
                                   'IS-3 KV-2 Buggy Doc Solomon Laura East Zero'),[])
         self.assertTrue(validate('IS-3 and KV-2','tanque pesado'))
         self.assertTrue(validate('East\nZero','Leste Zero'))
+
+    def test_wanted_name_business_and_generic_transport_pod(self):
+        self.assertTrue(validate('Trash Heap and Rent-a-Tank','Montão de Lixo e Aluguel'))
+        self.assertEqual(validate('Alex at Ziggurat','Alex em Ziggurat'),[])
+        self.assertEqual(validate('I have the transport pod.','Tenho a cápsula de transporte.'),[])
