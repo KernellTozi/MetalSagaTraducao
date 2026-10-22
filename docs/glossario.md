@@ -113,6 +113,25 @@ irreverente e do narrador satírico. A troca de munição em 10 minutos e a qued
 da franquia são partes da piada; não suavizar o desfecho nem acrescentar filhos
 ou outros acontecimentos. `livin' la vida loca` mantém a referência cultural.
 
+Na v014, manter a diferença entre o jeito informal do mecânico e a fala mais
+cuidadosa da irmã, tanto no recrutamento quanto no casamento e nas reações a
+ferimentos. Na conversa familiar delicada, conservar a hesitação dos pais e a
+afirmação de pertencimento à família; não acrescentar explicações de origem.
+Alex fala de forma polida e calculada; os subordinados são mais diretos, e suas
+interrupções devem continuar contrastando com a apresentação diplomática dele.
+
+Preservar Grand Master e Growgaine, inclusive os sufixos 3, T, L e A. As letras
+fazem parte das piadas e identificam itens diferentes. A sequência de Nikolai
+alterna negação da calvície, entusiasmo, efeitos inesperados e frustração. Manter
+risadas, hesitações e a referência ao L de Long, explicando longo em português
+sem renomear o item. Memory Center continua Centro de Memória, como nos lotes
+anteriores. League of Uncivilized Barbarians recebe Liga dos Bárbaros
+Incivilizados, preservando a redundância humorística da denominação.
+
+No diálogo do bar sobre idade, conservar 21 e a marcação `*cough*`; não adaptar
+o número à legislação brasileira. Preservar o aviso que relaciona álcool e
+artilharia.
+
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear
 o registro e investigar capacidade/realocação, sem apagar significado.

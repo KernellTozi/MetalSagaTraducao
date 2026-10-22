@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -290,7 +290,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x1d0b5680)
         self.assertEqual(proposal['scope']['records'],1563)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(139,48,13))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V13_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(1241,322,0))
@@ -303,6 +303,38 @@ class PilotTests(unittest.TestCase):
         self.assertIn('10 minutos',by_id['map.msg.1dc5ef98']['segments'][0]['translation'])
         self.assertIn('Spiffy Tube',by_id['map.msg.1dc5ef98']['segments'][0]['translation'])
         self.assertIn('Dragon Choppers',by_id['map.msgn.1d0b9fb0']['segments'][0]['translation'])
+
+    def test_v014_doubled_lot_keeps_previous_records_and_item_variants(self):
+        import re
+        from prepare_translation_lot import prepare
+        parent,_=load_draft(REGION_V13_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x1c64a06c)
+        self.assertEqual(proposal['scope']['records'],1963)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(291,100,9))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(1572,391,0))
+        self.assertEqual(current['entries'][400:],old['entries'])
+        self.assertEqual(len(current['entries']),1963)
+        self.assertEqual(len(report['deferred']),89)
+        self.assertEqual(len(sources),14)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        def body(key):return by_id[key]['segments'][0]['translation']
+        for key,name in [('map.msg.1d0ab8f8','Growgaine'),('map.msg.1d0abfac','Growgaine 3'),
+                         ('map.msg.1d0ac5f8','Growgaine T'),('map.msg.1d0acc24','Growgaine L'),
+                         ('map.msg.1d0ad250','Growgaine A')]:
+            self.assertIn(name,body(key))
+        self.assertIn('0 espaços',body('map.msg.1c64ab68'))
+        self.assertIn('21',body('map.msg.1d0b5488'))
+        route=body('map.msg.1d0afd58')
+        for part in ('norte','noroeste','sul de East Zero','Grande Destruição'):
+            self.assertIn(part,route)
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
 
     def test_prepare_rejects_ambiguous_or_shrinking_boundaries(self):
         from prepare_translation_lot import prepare

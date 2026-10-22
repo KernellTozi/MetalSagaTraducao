@@ -57,3 +57,10 @@ class PolicyTests(unittest.TestCase):
                                   'Frog Race Dragon Choppers Spiffy Tube Big Medals Gigantic Medals Blueberry'),[])
         self.assertTrue(validate('Big Medals and Gigantic Medals','Medalhas Grandes e Medalhas Gigantes'))
         self.assertTrue(validate('Spiffy Tube','Tubo Esperto'))
+
+    def test_growgaine_variants_and_grand_master(self):
+        self.assertEqual(validate('Growgaine Growgaine 3 Growgaine T Growgaine L Growgaine A',
+                                  'Growgaine Growgaine 3 Growgaine T Growgaine L Growgaine A'),[])
+        self.assertTrue(validate('Growgaine 3','Growgaine'))
+        self.assertTrue(validate('Growgaine T','Growgaine L'))
+        self.assertTrue(validate('Grand Master','Grande Mestre'))
