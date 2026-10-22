@@ -30,6 +30,9 @@ novas de termos genéricos continuam sujeitas à revisão contextual.
 | Rosa, Carl, Sebastian, Arthur, Leon, Fang, Helga | preservados | Nomes encontrados no lote ampliado v009 |
 | Crossfire | Crossfire | Nome do videogame, preservado |
 | Iron Slugs, Magnum Cycles | preservados | Nomes de inimigos citados em orientações; suas tabelas não foram traduzidas |
+| IS-3, 74, KV-2, Buggy | preservados | Modelos e nomes de veículos; manter a discussão técnica entre Eddy e Rosa |
+| Doc Solomon, Laura | preservados | Nomes encontrados nas cenas de pesquisa |
+| East Zero, Torikami, Beldaire e demais títulos de local | preservados | Não adaptar os nomes próprios exibidos no recorte v010 |
 
 Igor usa frases mais simples e telegráficas para conservar a caracterização.
 Hesitações de Stan e risadas permanecem. A tradução não deve corrigir enganos
@@ -52,6 +55,16 @@ de modo informal e brinca, mas a preocupação com Rachel deve manter seriedade.
 Não transformar expressões idiomáticas inglesas em traduções literais sem sentido:
 o alvo deve cumprir a mesma função na conversa. Rumos, distâncias relativas e
 orientações de equipamento precisam conservar a informação prática.
+
+Nos duelos com Rosa, distinguir primeiro desafio e revanche, e as consequências
+de vitória ou derrota. A educação de Sebastian admite humor e ameaça contida,
+sem virar fala informal. A conversa de Eddy e Rosa sobre tanques deve soar como
+dois entusiastas: conservar modelos e relações mecânicas, inclusive torque e
+potência para os canhões. Doc Solomon é orgulhoso e bem-humorado; manter a
+exagerada referência a 440 libras no supino e os marcos 30/60/90 por cento.
+Seus presentes precisam conservar os locais exatos. Na despedida robótica,
+preservar as pausas, a formalidade e o contraste entre ausência de emoções
+programadas e o significado do convívio; evitar gírias ou piadas acrescentadas.
 
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear

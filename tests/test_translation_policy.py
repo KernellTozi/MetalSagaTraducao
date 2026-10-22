@@ -29,3 +29,9 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(validate('Iron\nSlugs and Magnum Cycles','Iron Slugs e Magnum\nCycles'),[])
         self.assertTrue(validate('Iron\nSlugs','lesmas de ferro'))
         self.assertTrue(validate('Aheh. Mmm...','Ah. Hum...'))
+
+    def test_tanks_locations_and_researcher_names(self):
+        self.assertEqual(validate('IS-3 KV-2 Buggy Doc Solomon Laura East Zero',
+                                  'IS-3 KV-2 Buggy Doc Solomon Laura East Zero'),[])
+        self.assertTrue(validate('IS-3 and KV-2','tanque pesado'))
+        self.assertTrue(validate('East\nZero','Leste Zero'))

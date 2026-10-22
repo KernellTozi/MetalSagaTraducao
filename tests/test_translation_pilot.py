@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -186,7 +186,7 @@ class PilotTests(unittest.TestCase):
     def test_v009_large_lot_preserves_previous_prefix_and_game_names(self):
         parent,_=load_draft(REGION_V8_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V9_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(666,111,0))
@@ -202,6 +202,34 @@ class PilotTests(unittest.TestCase):
         targets=' '.join(s['translation'].replace('\n',' ') for e in current['entries'][577:] for s in e['segments'])
         for name in ('Rosa Beldaire','Sebastian','Arthur','Leon','Fang','Helga','Crossfire','Iron Slugs','Magnum Cycles'):
             self.assertIn(name,targets)
+
+    def test_v010_preserves_v009_places_native_blocks_and_gameplay_details(self):
+        parent,_=load_draft(REGION_V9_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(829,148,0))
+        self.assertEqual(current['entries'][:777],old['entries'])
+        self.assertEqual(len(current['entries']),977)
+        self.assertEqual(len(report['deferred']),19)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        self.assertEqual(len(sources),10)
+        by_id={e['id']:e for e in current['entries']}
+        for entry in current['entries'][777:]:
+            for segment in entry['segments']:
+                if not segment['editable'] or entry['id'].startswith('map.supr.'):
+                    self.assertEqual(segment['source'],segment['translation'])
+        def body(key):return by_id[key]['segments'][0]['translation']
+        self.assertIn('440 libras',body('map.smsg.1df82154'))
+        self.assertIn('62 segundos',body('map.msg.1df86484'))
+        for key,percent in [('map.msg.1df828b8','30'),('map.msg.1df829c8','60'),('map.msg.1df82b14','90')]:
+            self.assertIn(percent+' por cento',body(key))
+        self.assertIn('direita',body('map.msg.1df823ec'))
+        self.assertIn('esquerda',body('map.msg.1df828b8'))
+        self.assertIn('barril',body('map.msg.1df829c8'))
+        self.assertIn('debaixo da mesa',body('map.msg.1df82b14'))
+        self.assertIn('geladeira',body('map.msg.1df82c6c'))
 
     def test_more_than_eight_draft_versions_and_cycle_rejection(self):
         with tempfile.TemporaryDirectory(dir=ROOT/'work',prefix='test-draft-chain-') as folder:
