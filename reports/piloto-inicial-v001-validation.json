@@ -1,0 +1,643 @@
+{
+  "schema": 1,
+  "draft": "translations/piloto-inicial-v001.json",
+  "draft_sha256": "fd3047bf9fc550ff9610afe96492697f72435ca01f2afd2b30d392a581dc9d65",
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "records": 26,
+  "accepted": 23,
+  "unchanged": 3,
+  "refused": 0,
+  "all_or_nothing": true,
+  "mode": "slots",
+  "record_relocation": false,
+  "unit_tests_passed": 74,
+  "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "output_iso_sha256": "5b26bd3e7cafcf64df56cbdf27bb0578094c1e90528fed65dd0cc48ecfb9255b",
+  "iso_size": 1704427520,
+  "changed_byte_count": 8008,
+  "all_bytes_match_expected_patch": true,
+  "iso_directory_identical": true,
+  "fonts": [
+    {
+      "path": "DATA/SYS/SUC20I22.GFI",
+      "sha256": "68a5158652183fec1f88721412ddbc0f8eafb8fc4172f93740113a34e9e9bb6d",
+      "side": 22
+    },
+    {
+      "path": "DATA/SYS/SUC24I26.GFI",
+      "sha256": "cb844c63f3155f8026f7f8f87f5c7d0b6f4b00fb7d26b11620c6b9c935a4085b",
+      "side": 26
+    }
+  ],
+  "elf_profile": "spacing-v003",
+  "output_iso": "work/piloto-inicial-v001/MetalSaga-ptbr-piloto-inicial-v001.iso",
+  "compiled_plan": "work/piloto-inicial-v001/plano.json",
+  "review": "work/piloto-inicial-v001/revisao.jsonl",
+  "results": [
+    {
+      "status": "accepted",
+      "id": "map.msg.1df47f0c",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        28
+      ],
+      "target_lengths": [
+        28
+      ],
+      "source_capacities": [
+        31
+      ],
+      "source_offsets": [
+        502562604
+      ],
+      "target_offsets": [
+        502562604
+      ],
+      "record_offset": 502562572,
+      "record_size": 64,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df47f9c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        118
+      ],
+      "target_lengths": [
+        119
+      ],
+      "source_capacities": [
+        119
+      ],
+      "source_offsets": [
+        502562748
+      ],
+      "target_offsets": [
+        502562748
+      ],
+      "record_offset": 502562716,
+      "record_size": 152,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48084",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        182
+      ],
+      "target_lengths": [
+        166
+      ],
+      "source_capacities": [
+        183
+      ],
+      "source_offsets": [
+        502562980
+      ],
+      "target_offsets": [
+        502562980
+      ],
+      "record_offset": 502562948,
+      "record_size": 216,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df48204"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48288",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        211
+      ],
+      "target_lengths": [
+        161
+      ],
+      "source_capacities": [
+        211
+      ],
+      "source_offsets": [
+        502563496
+      ],
+      "target_offsets": [
+        502563496
+      ],
+      "record_offset": 502563464,
+      "record_size": 244,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df483cc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        68
+      ],
+      "target_lengths": [
+        63
+      ],
+      "source_capacities": [
+        71
+      ],
+      "source_offsets": [
+        502563820
+      ],
+      "target_offsets": [
+        502563820
+      ],
+      "record_offset": 502563788,
+      "record_size": 104,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.sel.1df48484",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        53
+      ],
+      "target_lengths": [
+        43
+      ],
+      "source_capacities": [
+        55
+      ],
+      "source_offsets": [
+        502563988
+      ],
+      "target_offsets": [
+        502563988
+      ],
+      "record_offset": 502563972,
+      "record_size": 72,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df487cc",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        35
+      ],
+      "target_lengths": [
+        23
+      ],
+      "source_capacities": [
+        35
+      ],
+      "source_offsets": [
+        502564844
+      ],
+      "target_offsets": [
+        502564844
+      ],
+      "record_offset": 502564812,
+      "record_size": 68,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48810",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        13
+      ],
+      "target_lengths": [
+        12
+      ],
+      "source_capacities": [
+        15
+      ],
+      "source_offsets": [
+        502564912
+      ],
+      "target_offsets": [
+        502564912
+      ],
+      "record_offset": 502564880,
+      "record_size": 48,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48840",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        47
+      ],
+      "target_lengths": [
+        42
+      ],
+      "source_capacities": [
+        47
+      ],
+      "source_offsets": [
+        502564960
+      ],
+      "target_offsets": [
+        502564960
+      ],
+      "record_offset": 502564928,
+      "record_size": 80,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48890",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        52
+      ],
+      "target_lengths": [
+        55
+      ],
+      "source_capacities": [
+        55
+      ],
+      "source_offsets": [
+        502565040
+      ],
+      "target_offsets": [
+        502565040
+      ],
+      "record_offset": 502565008,
+      "record_size": 88,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df488e8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        143
+      ],
+      "target_lengths": [
+        122
+      ],
+      "source_capacities": [
+        143
+      ],
+      "source_offsets": [
+        502565128
+      ],
+      "target_offsets": [
+        502565128
+      ],
+      "record_offset": 502565096,
+      "record_size": 176,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df48998"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df489c0",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        5
+      ],
+      "target_lengths": [
+        5
+      ],
+      "source_capacities": [
+        7
+      ],
+      "source_offsets": [
+        502565344
+      ],
+      "target_offsets": [
+        502565344
+      ],
+      "record_offset": 502565312,
+      "record_size": 40,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df489e8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        25
+      ],
+      "target_lengths": [
+        23
+      ],
+      "source_capacities": [
+        27
+      ],
+      "source_offsets": [
+        502565384
+      ],
+      "target_offsets": [
+        502565384
+      ],
+      "record_offset": 502565352,
+      "record_size": 60,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48a24",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        208
+      ],
+      "target_lengths": [
+        192
+      ],
+      "source_capacities": [
+        211
+      ],
+      "source_offsets": [
+        502565444
+      ],
+      "target_offsets": [
+        502565444
+      ],
+      "record_offset": 502565412,
+      "record_size": 244,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "unchanged",
+      "id": "map.msg.1df48b18"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48b40",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        158
+      ],
+      "target_lengths": [
+        144
+      ],
+      "source_capacities": [
+        159
+      ],
+      "source_offsets": [
+        502565728
+      ],
+      "target_offsets": [
+        502565728
+      ],
+      "record_offset": 502565696,
+      "record_size": 192,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48c18",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        671
+      ],
+      "target_lengths": [
+        605
+      ],
+      "source_capacities": [
+        671
+      ],
+      "source_offsets": [
+        502565944
+      ],
+      "target_offsets": [
+        502565944
+      ],
+      "record_offset": 502565912,
+      "record_size": 704,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df48f8c",
+      "mode": "slots",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ],
+      "source_lengths": [
+        699
+      ],
+      "target_lengths": [
+        616
+      ],
+      "source_capacities": [
+        699
+      ],
+      "source_offsets": [
+        502566828
+      ],
+      "target_offsets": [
+        502566828
+      ],
+      "record_offset": 502566796,
+      "record_size": 732,
+      "block_offset": 502566672,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49378",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        175
+      ],
+      "target_lengths": [
+        143
+      ],
+      "source_capacities": [
+        175
+      ],
+      "source_offsets": [
+        502567832
+      ],
+      "target_offsets": [
+        502567832
+      ],
+      "record_offset": 502567800,
+      "record_size": 208,
+      "block_offset": 502566672,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df494b8",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        191
+      ],
+      "target_lengths": [
+        173
+      ],
+      "source_capacities": [
+        191
+      ],
+      "source_offsets": [
+        502568152
+      ],
+      "target_offsets": [
+        502568152
+      ],
+      "record_offset": 502568120,
+      "record_size": 224,
+      "block_offset": 502566672,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49824",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        172
+      ],
+      "target_lengths": [
+        136
+      ],
+      "source_capacities": [
+        175
+      ],
+      "source_offsets": [
+        502569028
+      ],
+      "target_offsets": [
+        502569028
+      ],
+      "record_offset": 502568996,
+      "record_size": 208,
+      "block_offset": 502568512,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df4992c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        135
+      ],
+      "target_lengths": [
+        115
+      ],
+      "source_capacities": [
+        135
+      ],
+      "source_offsets": [
+        502569292
+      ],
+      "target_offsets": [
+        502569292
+      ],
+      "record_offset": 502569260,
+      "record_size": 168,
+      "block_offset": 502569232,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49b3c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        151
+      ],
+      "target_lengths": [
+        128
+      ],
+      "source_capacities": [
+        151
+      ],
+      "source_offsets": [
+        502569820
+      ],
+      "target_offsets": [
+        502569820
+      ],
+      "record_offset": 502569788,
+      "record_size": 184,
+      "block_offset": 502569456,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df49c2c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        326
+      ],
+      "target_lengths": [
+        288
+      ],
+      "source_capacities": [
+        327
+      ],
+      "source_offsets": [
+        502570060
+      ],
+      "target_offsets": [
+        502570060
+      ],
+      "record_offset": 502570028,
+      "record_size": 360,
+      "block_offset": 502570016,
+      "visual_status": "pending_manual_validation"
+    }
+  ],
+  "narrative_status": "rascunho contextual; revisão narrativa e visual pendentes",
+  "visual_status": "assumed_by_user_pending_actual_test",
+  "pcsx2_executed": false,
+  "legacy_development_iso_updated": false,
+  "limitations": [
+    "Only initial scene interval; both routes not executed in emulator",
+    "Font/spacing profile assumed correct by user, not visually confirmed",
+    "Narrative draft and glossary remain provisional",
+    "Legacy compiler width warnings preserved"
+  ]
+}

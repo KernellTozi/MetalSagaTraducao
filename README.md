@@ -20,6 +20,13 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 349 continuam bloqueados. ISO de desenvolvimento reutilizável, snapshots e
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
+Piloto contextual da cena inicial: **`Preparar-Piloto-Inicial.cmd`** recompila e
+valida os 26 registros localmente, sem gerar outra ISO. O rascunho PT-BR próprio
+está em `translations/piloto-inicial-v001.json`. **`Testar-Piloto-Inicial.cmd`**
+abre a ISO já preparada com fontes v002 e espaçamento v003, assumidos
+provisoriamente corretos pelo usuário; validação visual ainda pendente.
+[Manual, limites e reprodução](docs/piloto-inicial-v001.md).
+
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).
 - [Pesquisa dos quatro projetos públicos](docs/referencias-tecnicas.md).

@@ -9,6 +9,7 @@ ISOS={'diary':ROOT/'work/MetalSaga-ptbr-experimento.iso',
       'accents':ROOT/'work/MetalSaga-ptbr-acentos-v001.iso',
       'fonts':ROOT/'work/MetalSaga-ptbr-fontes-v002.iso',
       'spacing':ROOT/'work/MetalSaga-ptbr-espacamento-v003.iso',
+      'pilot':ROOT/'work/piloto-inicial-v001/MetalSaga-ptbr-piloto-inicial-v001.iso',
       'development':ROOT/'work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso'}
 
 def launch_command(iso):
