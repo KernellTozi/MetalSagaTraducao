@@ -8,7 +8,7 @@
   "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
   "source_files_unchanged": 58,
   "unit_tests_passed": 65,
-  "visual_status": "pending_user_manual_validation",
+  "visual_status": "user_reported_success_for_three_pilot_edits",
   "records": [
     {
       "status": "accepted",
@@ -104,14 +104,15 @@
     "pcsx2_launched": false
   },
   "limitations": [
-    "No visual validation for v004 yet",
     "Repack tested binarily on real records; no runtime claim",
     "No record/SSD/ISO-size growth",
-    "Only the preliminary 18 PT-BR glyph mapping is available"
+    "Only the preliminary 18 PT-BR glyph mapping is available",
+    "User confirmation covers the three pilot edits, not all layouts or repack; typography not approved"
   ],
   "visible_test_strings": [
     "Teste expandido:\nMesmo registro",
     "Teste: ação.\ná é í ó ú\nÇ Á É Ã Õ",
     "Vou ser Hunter.\tVou ser mecânico."
-  ]
+  ],
+  "visual_evidence": "User confirmed tests succeeded; subsequent screenshot shows accented Nina dialogue. Typography explicitly requires revision."
 }

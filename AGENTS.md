@@ -170,4 +170,5 @@ Não iniciar uma tradução em massa antes de validar tecnicamente o processo.
 - Tratar variantes estruturais, fontes não validadas e controles desconhecidos separadamente antes de expandir o mecanismo.
 - Manter lotes reversíveis e manifestos por versão; gerar versões consolidadas para testes periódicos, sem acumular ISOs redundantes.
 - Uma validação visual pendente não impede investigações e melhorias técnicas independentes e seguras.
+- Prioridade autorizada atual: melhorar desenho e legibilidade dos caracteres PT-BR, preservando o tamanho das letras. Consultar `docs/fontes-v002.md`; o perfil v002 é experimental e separado do perfil v001 usado pela reinserção. Não declarar o espaçamento resolvido por uma mudança de bitmap.
 - O experimento do diário permanece preservado mesmo enquanto sua exibição não estiver confirmada. O piloto atual de diálogos é a fala sobre tornar-se Hunter.

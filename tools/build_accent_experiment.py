@@ -38,7 +38,11 @@ def message_patch(data,offset,expected,replacement):
             'source':expected,'replacement':replacement,'encoded_hex':target.hex(' '),
             'encoded_length':len(target),'slot_size':len(slot),'neighbors':surrounding}
 
-def create(output,report):
+def create(output,report,profile='v001'):
+    composer=font_patches
+    if profile=='v002':
+        from gfi_refined import font_patches as composer
+    elif profile!='v001':raise ValueError('Unknown font profile')
     output=output.resolve();report=report.resolve()
     if not output.is_relative_to(ROOT/'work') or output.suffix.lower()!='.iso' or output.exists():
         raise ValueError('Use a new ISO under work/')
@@ -52,13 +56,17 @@ def create(output,report):
     name='DATA/MAP/MAP.MCT'
     with (reference/name).open('rb') as f,mmap.mmap(f.fileno(),0,access=mmap.ACCESS_READ) as data:
         if hashlib.sha256(data).hexdigest()!=inventory[name]['sha256']:raise ValueError('MAP reference changed')
-        messages=[message_patch(data,PILOT_OFFSET,PILOT_SOURCE,GROUP_A),message_patch(data,SECOND_OFFSET,SECOND_SOURCE,GROUP_B)]
+        group_a,group_b=GROUP_A,GROUP_B
+        if profile=='v002':
+            group_a='Teste expandido:\nMesmo registro'
+            group_b='%F1%M0_5Teste: a\u00e7\u00e3o.\n\u00e1 \u00e9 \u00ed \u00f3 \u00fa\n\u00c7 \u00c1 \u00c9 \u00c3 \u00d5\t'+SECOND_SOURCE.split('\t',1)[1]
+        messages=[message_patch(data,PILOT_OFFSET,PILOT_SOURCE,group_a),message_patch(data,SECOND_OFFSET,SECOND_SOURCE,group_b)]
     resources.append({'path':name,'patches':messages})
     fonts=[]
     for name in ('DATA/SYS/SUC20I22.GFI','DATA/SYS/SUC24I26.GFI'):
         data=(reference/name).read_bytes()
         if hashlib.sha256(data).hexdigest()!=inventory[name]['sha256']:raise ValueError('GFI reference changed')
-        font=Gfi(data);patches=font_patches(data)
+        font=Gfi(data);patches=composer(data)
         # Exercise structural parser and require every other byte to stay identical.
         modified=bytearray(data)
         for patch in patches:modified[patch['offset']:patch['offset']+len(patch['after'])]=patch['after']
@@ -93,7 +101,7 @@ def create(output,report):
     if validation['source_iso_sha256']!=ORIGINAL_ISO_SHA256:raise ValueError('Unexpected original ISO')
     with partial.open('rb') as f:
         if entries(f)!=original_directory:raise ValueError('ISO directory changed')
-    validation.update({'schema':1,'experiment':'ptbr-gfi-reserved-row23-v1','output_iso':output.relative_to(ROOT).as_posix(),
+    validation.update({'schema':1,'experiment':'ptbr-gfi-reserved-row23-'+profile,'font_profile':profile,'output_iso':output.relative_to(ROOT).as_posix(),
                        'encoding':'project PT-BR extension using engine SJIS-shaped byte pairs; not standard CP932',
                        'messages':[{k:v for k,v in p.items() if k not in ('before','after')} for p in messages],
                        'mapping':[{'character':c,'unicode':f'U+{ord(c):04X}','bytes':b.hex(' '),'jis':f'{sjis_to_jis(int.from_bytes(b,"big")):04x}'} for c,b in CHAR_TO_BYTES.items()],
@@ -108,6 +116,7 @@ def create(output,report):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,default=ROOT/'work/MetalSaga-ptbr-acentos-v001.iso');parser.add_argument('--report',type=Path,default=ROOT/'reports/acentos-v001-validation.json')
-    args=parser.parse_args();create(args.output,args.report)
+    parser.add_argument('--profile',choices=('v001','v002'),default='v001')
+    args=parser.parse_args();create(args.output,args.report,args.profile)
 
 if __name__=='__main__':main()

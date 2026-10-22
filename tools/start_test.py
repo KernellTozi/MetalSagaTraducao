@@ -7,6 +7,7 @@ BASE=ROOT/'work/pcsx2-functional'
 ISOS={'diary':ROOT/'work/MetalSaga-ptbr-experimento.iso',
       'dialogue':ROOT/'work/MetalSaga-ptbr-dialogo-inicial-v001.iso',
       'accents':ROOT/'work/MetalSaga-ptbr-acentos-v001.iso',
+      'fonts':ROOT/'work/MetalSaga-ptbr-fontes-v002.iso',
       'development':ROOT/'work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso'}
 
 def launch_command(iso):
