@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v004.json",
+  "name": "regiao-inicial-v005",
+  "status": "revisão binária; validação visual pendente",
+  "font_profile": "spacing-v003-assumed-by-user-not-visually-confirmed",
+  "terminology_policy": "translations/politica.json",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v005.iso",
+  "scope": {
+    "first_offset": "1df47f0c",
+    "last_offset": "1df630b8",
+    "records": 385
+  },
+  "translations": {
+    "map.smsg.1df60228": {
+      "body": "Arrombar?",
+      "choices": "Entrar.\tFicar aqui."
+    },
+    "map.smsg.1df60498": {
+      "body": "Arrombar?",
+      "choices": "Fechadura é pra isso.\tEu não arrombo."
+    },
+    "map.msg.1df60538": "Fechadura aberta\ncom sucesso.",
+    "map.smsg.1df607a8": {
+      "body": "Arrombar?",
+      "choices": "Abrir a porta!\tCutucar o nariz."
+    },
+    "map.msg.1df60840": "A experiência de hoje...\ndeu certo!",
+    "map.smsg.1df60a78": {
+      "body": "Arrombar?",
+      "choices": "Abrir a porta.\tTer favoritos."
+    },
+    "map.smsg.1df60d48": {
+      "body": "Arrombar?",
+      "choices": "Abrir a porta.\tCuidar das unhas."
+    },
+    "map.smsg.1df61098": {
+      "body": "Arrombar?",
+      "choices": "Vamos nessa.\tIsso seria errado."
+    },
+    "map.smsg.1df61328": {
+      "body": "Arrombar?",
+      "choices": "Abrir com estilo.\tGente decente não arromba."
+    },
+    "map.smsg.1df615c8": {
+      "body": "Arrombar?",
+      "choices": "Claro que sim.\tNão acho certo."
+    },
+    "map.smsg.1df61858": {
+      "body": "Arrombar?",
+      "choices": "Como um nariz...\tNão vou mexer."
+    },
+    "map.msg.1df61a54": "%P0Só um choquinho...\nPode arder um pouco!\nEehee hee hee hee!%W20%P1",
+    "map.msg.1df61af0": "Mas vejam só...\nFuncionou mesmo!",
+    "map.msg.1df61b68": "Como se sente?\tSou Dr. Mortem,\npesquisador na área\nda ressurreição.\tOu seja, trazer os mortos\nde volta.",
+    "map.msg.1df61f3c": "Igor ser ajudante do\nDr. Mortem.\tEu buscar amostras novas\npara ajudar doutor\nna pesquisa...\tSim, amigos nas cápsulas\nlá fora.",
+    "map.msg.1df62258": "Amigos nas cápsulas\nlá fora.",
+    "map.msg.1df6237c": "...Eu temia isso.\nNão dá para reviver\na garota...",
+    "map.msg.1df623d4": "%M0_6Doutor...",
+    "map.msg.1df62404": "Sinto muito, %N0.\nNão posso fazer mais\nnada, mas...\tAlguém que entenda\nde máquinas complexas\ntalvez possa ajudar.",
+    "map.msg.1df62744": "%P0Uma descarga elétrica\ndeve trazer você\nà vida...%W20%P1",
+    "map.msg.1df627f8": "%N0...\nVocê está bem?\tNão precisava ter\nse envolvido.",
+    "map.msg.1df62878": "Mas não teríamos\nexpulsado aqueles caras\nsem %N0!",
+    "map.msg.1df628f4": "Sim, é verdade,\nmas...",
+    "map.msg.1df62934": "Hmph. Eram só peixinhos.\nPrecisamos pegar\no peixe grande.\t%F0Voltaremos para\nBeldaire. Apareça\npor lá,\tse estiver pelas\nredondezas.",
+    "map.msg.1df62a74": "Até mais,\n%N0!",
+    "map.msg.1df62b20": "Com sua licença,\nsenhor %N0.",
+    "map.msg.1df62bf8": "Quem trouxe você aqui\nser gente boa.",
+    "map.msg.1df62c44": "Pois é! Trouxeram\nótimas amostras frescas!",
+    "map.msg.1df62fbc": "......\nNão posso reviver um\ncriminoso procurado, gente.\tQuer dizer, até POSSO,\nmas isso seria arrumar\nencrenca.\tJá perdi minha licença\nUMA VEZ\npor causa disso...",
+    "map.msg.1df630b8": "Então... Infelizmente,\nnão posso reviver Derringer\nJack para vocês.\t...Minha vida correria\nperigo. Sinto muito,\nmas..."
+  },
+  "aliases": {
+    "map.msg.1df60034": "map.msg.1df5fd60",
+    "map.msg.1df601c4": "map.msg.1df5ff34",
+    "map.msg.1df602bc": "map.msg.1df5fd60",
+    "map.msg.1df60434": "map.msg.1df5ff34",
+    "map.msg.1df60744": "map.msg.1df5ff34",
+    "map.msg.1df60a14": "map.msg.1df5ff34",
+    "map.msg.1df60b10": "map.msg.1df5fd60",
+    "map.msg.1df60ce4": "map.msg.1df5ff34",
+    "map.msg.1df60de4": "map.msg.1df5fd60",
+    "map.msg.1df61034": "map.msg.1df5ff34",
+    "map.msg.1df61134": "map.msg.1df5fd60",
+    "map.msg.1df612c4": "map.msg.1df5ff34",
+    "map.msg.1df613d4": "map.msg.1df60538",
+    "map.msg.1df61564": "map.msg.1df5ff34",
+    "map.msg.1df61668": "map.msg.1df5fd60",
+    "map.msg.1df617f4": "map.msg.1df5ff34",
+    "map.msg.1df618f4": "map.msg.1df5fd60",
+    "map.msg.1df61b40": "map.msg.1df5f4e8",
+    "map.msg.1df61bfc": "map.msg.1df4e9a8",
+    "map.msg.1df61db8": "map.msg.1df4eb64",
+    "map.msg.1df61fec": "map.msg.1df4eb64",
+    "map.msg.1df62084": "map.msg.1df61a54",
+    "map.msg.1df62120": "map.msg.1df61af0",
+    "map.msg.1df622bc": "map.msg.1df5f4e8",
+    "map.msg.1df622e4": "map.msg.1df5f4e8",
+    "map.msg.1df62ca4": "map.msg.1df61b68",
+    "map.msg.1df62d38": "map.msg.1df4e9a8",
+    "map.msg.1df62ef4": "map.msg.1df4eb64",
+    "map.msg.1df63090": "map.msg.1df5f4e8"
+  },
+  "deferred": {}
+}

@@ -26,7 +26,8 @@ DRAFT=ROOT/'translations/piloto-inicial-v001.json'
 PROFILE='spacing-v003-assumed-by-user-not-visually-confirmed'
 REGION_V2_DRAFT=ROOT/'translations/regiao-inicial-v002.json'
 REGION_V3_DRAFT=ROOT/'translations/regiao-inicial-v003.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v004.json'
+REGION_V4_DRAFT=ROOT/'translations/regiao-inicial-v004.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v005.json'
 
 
 def unique_object(pairs):
@@ -91,6 +92,8 @@ def compile_draft(data,draft):
             raise ValueError('Missing segment or attempted protected-label edit')
         for segment in editable:
             segment['translation']=value[segment['key']]
+            if not isinstance(segment['translation'],str) or (segment['source'].strip() and not segment['translation'].strip()):
+                raise ValueError('Empty or invalid authored translation')
             if draft.get('terminology_policy'):
                 if draft['terminology_policy']!='translations/politica.json':raise ValueError('Unknown terminology policy')
                 from translation_policy import validate

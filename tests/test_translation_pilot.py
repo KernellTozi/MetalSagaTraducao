@@ -7,7 +7,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -102,7 +102,7 @@ class PilotTests(unittest.TestCase):
     def test_v004_preserves_v003_and_item_control_deferrals(self):
         previous,_=load_draft(REGION_V3_DRAFT)
         old,_,_=compile_draft(self.data,previous)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V4_DRAFT)
         document,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(288,38,0))
@@ -114,6 +114,28 @@ class PilotTests(unittest.TestCase):
         self.assertIn('Dr. Martin',doctor['segments'][0]['translation'])
         city=next(e for e in document['entries'] if e['id']=='map.supr.1df5935c')
         self.assertEqual(city['segments'][0]['translation'],'- Junkyard -')
+
+    def test_v005_preserves_all_previous_records_and_exact_reuse(self):
+        from prepare_translation_lot import prepare
+        parent,_=load_draft(REGION_V4_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,0x1df630b8)
+        self.assertEqual((len(pending),len(proposal['aliases'])),(30,29))
+        incomplete=copy.deepcopy(parent)
+        incomplete['scope']=proposal['scope']
+        for field in ('translations','aliases','deferred'):
+            incomplete.setdefault(field,{}).update(proposal[field])
+        with self.assertRaisesRegex(ValueError,'Empty or invalid'):
+            compile_draft(self.data,incomplete)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(343,42,0))
+        self.assertEqual(current['entries'][:326],old['entries'])
+        self.assertEqual(len(sources),5)
+        self.assertEqual(len(current['entries']),385)
+        self.assertEqual(len(report['deferred']),10)
+        with self.assertRaises(ValueError):prepare(self.data,parent,0x1df5ff98)
 
     def test_duplicate_authored_keys_are_not_silently_overwritten(self):
         raw=b'{"schema":1,"translations":{"same.id":"first","same.id":"second"}}'
