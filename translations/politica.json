@@ -215,7 +215,30 @@
     "Carla",
     "Carly",
     "Carmela",
-    "S Tanks"
+    "S Tanks",
+    "Type 74",
+    "Remote",
+    "Doc Optica",
+    "Doctor Optica",
+    "Saturday",
+    "Jared",
+    "Julie",
+    "Remi",
+    "Danny",
+    "Syd",
+    "Patrick",
+    "Patricia",
+    "Robby",
+    "Gaspar",
+    "Golem",
+    "The Professor",
+    "Repair Kit",
+    "Mr. TNT",
+    "Kong",
+    "Dr. Zeus",
+    "M-60",
+    "Leclerque",
+    "Challenger"
   ],
   "preserve_expressions": [
     "Hmph",
@@ -266,6 +289,10 @@
     "Shiny",
     "Explorer",
     "S Tank",
-    "S Tanks"
+    "S Tanks",
+    "Remote",
+    "The Professor",
+    "Challenger",
+    "Tiger"
   ]
 }

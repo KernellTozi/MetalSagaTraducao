@@ -21,12 +21,12 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
 Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-5.963 registros localmente, sem gerar outra ISO. São 4.681 registros traduzidos e
-1.282 preservados, incluindo 300 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v019.json`, com herança dos
+6.763 registros localmente, sem gerar outra ISO. São 5.321 registros traduzidos e
+1.442 preservados, incluindo 333 adiados mantidos no original.
+O rascunho PT-BR está em `translations/regiao-inicial-v020.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
 abre a ISO consolidada, com fontes v002 e espaçamento v003 assumidos
-provisoriamente corretos pelo usuário. [Manual e limites](docs/regiao-inicial-v019.md).
+provisoriamente corretos pelo usuário. [Manual e limites](docs/regiao-inicial-v020.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).

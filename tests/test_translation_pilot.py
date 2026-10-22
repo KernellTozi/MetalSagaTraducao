@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -480,7 +480,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x0a13a3e8)
         self.assertEqual(proposal['scope']['records'],5963)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(481,284,35))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V19_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(4681,1282,0))
@@ -497,6 +497,42 @@ class PilotTests(unittest.TestCase):
         self.assertIn('White Terror',body('map.msg.0be1999c'))
         self.assertIn('2 motores',body('map.msg.0be1313c').replace('\n',' '))
         for key in ('map.msgn.0be104f0','map.msg.0be11744','map.msg.0be118d8'):
+            segment=by_id[key]['segments'][0]
+            a,_=tokens(bytes.fromhex(segment['source_hex']))
+            b,_=tokens(encode(segment['translation']))
+            self.assertEqual([x['hex'] for x in a],[x['hex'] for x in b])
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v020_preserves_prior_lot_and_technical_conditions(self):
+        import re
+        from prepare_translation_lot import prepare
+        from dialogue_formats import tokens
+        from gfi import encode
+        parent,_=load_draft(REGION_V19_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x040ef454)
+        self.assertEqual(proposal['scope']['records'],6763)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(464,303,33))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5321,1442,0))
+        self.assertEqual(current['entries'][800:],old['entries'])
+        self.assertEqual(len(sources),20)
+        self.assertEqual(len(report['deferred']),333)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        def body(key):return by_id[key]['segments'][0]['translation']
+        for part in ('nordeste',"Hell's Keep",'Mega Mole'):
+            self.assertIn(part,body('map.msgn.04d3118c'))
+        self.assertIn('10 toneladas',body('map.msg.07b27df4'))
+        self.assertIn('não funciona',body('map.msg.0622a284'))
+        self.assertIn('submersos',body('map.msg.0622a284'))
+        repeated=body('map.msgn.04d316ac').split('\t')
+        self.assertEqual(repeated[0],repeated[2])
+        for key in ('map.msg.040ef70c','map.msg.040efac0','map.msg.08540ff0'):
             segment=by_id[key]['segments'][0]
             a,_=tokens(bytes.fromhex(segment['source_hex']))
             b,_=tokens(encode(segment['translation']))

@@ -71,3 +71,11 @@ class PolicyTests(unittest.TestCase):
         self.assertTrue(validate('The S Tank','O tanque'))
         self.assertEqual(validate('S Tanks had 2 engines','S Tanks tinham 2 motores'),[])
         self.assertTrue(validate('S Tanks','tanques'))
+
+    def test_new_names_are_distinct_from_generic_words(self):
+        self.assertEqual(validate('remote island, a challenger, the professor, a tiger',
+                                  'ilha remota, um desafiante, o professor, um tigre'),[])
+        for name in ('Remote','Challenger','The Professor','Tiger'):
+            with self.subTest(name=name):
+                self.assertEqual(validate(name,name),[])
+                self.assertTrue(validate(name,'nome omitido'))

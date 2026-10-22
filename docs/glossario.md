@@ -272,3 +272,31 @@ S Tank e S Tanks são nomes sensíveis a maiúsculas na política, para não
 confundir o modelo com o possessivo inglês 's tank. Conservar todos os nomes
 franceses da coleção. Red Light, Green Light recebe Batatinha Frita 1, 2, 3
 como brincadeira equivalente; regras e escolhas permanecem intactas.
+
+
+## Continuidade v020
+
+Preservar Mega Mole, Type 74, Doc Optica/Doctor Optica, Saturday, Golem,
+Jared, Julie, Remi, Danny, Syd, Patrick, Patricia, Robby, Gaspar, Rouge Rogues,
+Shaka Khan, Granddaddy Kong, Kong, Mr. TNT e Dr. Zeus. The Professor é a
+alcunha que Robby inventa; conservar também sua imediata admissão de mentira.
+M-60, Leclerque e Challenger continuam como modelos, sem corrigir a grafia
+original Leclerque. Repair Kit e Remote permanecem nas instruções correspondentes.
+
+Cortina de areia é a forma de trabalho para storm curtain. Conservar os rumores
+sobre torre e tesouro, distinguindo testemunhos e versões contraditórias.
+Hell's Keep e Forever Land permanecem em inglês. Snake's Den recebe Toca da
+Cobra, inclusive no título, sem enfeites para respeitar o slot. Ruins of a Fort
+recebe Forte em ruínas. Monkey Mountain recebe Monte Macaco como local genérico.
+
+Remote, Challenger, Tiger e The Professor têm grafia sensível a maiúsculas na
+política: as palavras comuns remote, challenger, tiger e the professor não
+obrigam a conservar inglês. Isso não substitui a revisão de entidades no contexto.
+
+Em Forever Land, preservar o contraste entre a responsabilidade de Jared,
+a postura de Julie, a timidez de Gaspar e as falas enigmáticas de Syd. Manter a
+história do orfanato e a mudança abrupta para a brincadeira do escorrega. Não
+transformar pistas sobre Golem e Fang em revelações explícitas antecipadas.
+Wayne mantém fala direta e rude, mas a recusa de envolver civis não deve virar
+ameaça a Rachel. Doc Optica conserva o entusiasmo por lentes e os trocadilhos.
+A função Remote continua excluindo veículos submersos após o upgrade.

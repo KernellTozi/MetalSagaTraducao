@@ -36,3 +36,10 @@ Na construção da v019, foi removida `work/MetalSaga-ptbr-acentos-v001.iso`,
 a mais antiga elegível. Há dez imagens após a retenção: desenvolvimento e
 v011 a v019. Receitas e relatórios do teste de acentos permanecem preservados;
 o atalho histórico `accents` requer reconstrução da imagem.
+
+
+Na construção da v020, foi removida a imagem antiga de desenvolvimento
+(`work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso`), sem journal de
+recuperação pendente. Receitas, snapshots e relatórios continuam preservados.
+A conferência posterior confirmou dez ISOs: v011 a v020. O atalho legado
+`development` requer reconstrução; a versão atual abre pelo atalho da região.
