@@ -33,7 +33,8 @@ REGION_V7_DRAFT=ROOT/'translations/regiao-inicial-v007.json'
 REGION_V8_DRAFT=ROOT/'translations/regiao-inicial-v008.json'
 REGION_V9_DRAFT=ROOT/'translations/regiao-inicial-v009.json'
 REGION_V10_DRAFT=ROOT/'translations/regiao-inicial-v010.json'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v011.json'
+REGION_V11_DRAFT=ROOT/'translations/regiao-inicial-v011.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v012.json'
 
 
 def unique_object(pairs):
@@ -54,8 +55,20 @@ def load_draft(path,chain=()):
         draft={**base,**child}
         for key in ('translations','deferred','aliases'):
             draft[key]={**base.get(key,{}),**child.get(key,{})}
-    else:draft=child
+        resumed=child.get('resume_deferred',[])
+        if (not isinstance(resumed,list) or any(not isinstance(key,str) for key in resumed)
+                or len(resumed)!=len(set(resumed))):
+            raise ValueError('Invalid resumed deferred IDs')
+        for key in resumed:
+            if (key not in base.get('deferred',{}) or key not in child.get('translations',{})
+                    or key in child.get('deferred',{}) or key in child.get('aliases',{})):
+                raise ValueError('Resumed record must be deferred in parent and explicitly translated in child')
+            draft['deferred'].pop(key)
+    else:
+        if child.get('resume_deferred'):raise ValueError('Cannot resume without parent')
+        draft=child
     draft.pop('extends',None)
+    draft.pop('resume_deferred',None)
     sources.append({'path':path.relative_to(ROOT).as_posix(),'sha256':hashlib.sha256(raw).hexdigest()})
     return draft,sources
 

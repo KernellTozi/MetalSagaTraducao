@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -234,7 +234,7 @@ class PilotTests(unittest.TestCase):
     def test_v011_preserves_v010_ui_names_and_too_short_negative_response(self):
         parent,_=load_draft(REGION_V10_DRAFT)
         old,_,_=compile_draft(self.data,parent)
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V11_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(990,187,0))
@@ -253,6 +253,54 @@ class PilotTests(unittest.TestCase):
         self.assertEqual(by_id['map.msg.1f328034']['segments'][0]['translation'].count('Trash Heap'),2)
         self.assertIn('nível 3',by_id['map.msg.1f3281ec']['segments'][0]['translation'])
 
+    def test_v012_ascii_no_and_previous_prefix(self):
+        import re
+        from gfi import encode
+        parent,_=load_draft(REGION_V11_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(1083,280,0))
+        self.assertEqual(len(current['entries']),1363)
+        self.assertEqual(len(report['deferred']),67)
+        self.assertEqual(len(sources),12)
+        resumed='map.msg.1df8bec0'
+        for before,after in zip(old['entries'],current['entries']):
+            expected=copy.deepcopy(before)
+            if before['id']==resumed:expected['segments'][0]['translation']='nao'
+            self.assertEqual(after,expected)
+        self.assertNotIn(resumed,draft['deferred'])
+        patch=next(p for p in patches if p['id']==resumed)
+        self.assertEqual(patch['before'][:32],patch['after'][:32])
+        self.assertEqual(patch['before'][32:],b'No.\0')
+        self.assertEqual(patch['after'][32:],b'nao\0')
+        self.assertEqual(len(patch['before']),len(patch['after']))
+        self.assertEqual(encode('nao'),bytes.fromhex('6e616f'))
+        self.assertEqual(len(encode('Não')),4)
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{resumed})
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+
+    def test_resume_requires_explicit_child_target_and_existing_parent_deferral(self):
+        with tempfile.TemporaryDirectory(dir=ROOT/'work',prefix='test-resume-') as folder:
+            folder=Path(folder)
+            base={'translations':{},'deferred':{'old':'why'},'aliases':{}}
+            (folder/'base.json').write_text(json.dumps(base),encoding='utf-8')
+            valid={'extends':'base.json','resume_deferred':['old'],'translations':{'old':'nao'}}
+            (folder/'child.json').write_text(json.dumps(valid),encoding='utf-8')
+            draft,_=load_draft(folder/'child.json')
+            self.assertEqual(draft['deferred'],{})
+            unchanged,_=load_draft(folder/'base.json')
+            self.assertEqual(unchanged['deferred'],{'old':'why'})
+            for extra in ({'translations':{}},{'resume_deferred':['missing']},
+                          {'resume_deferred':['old','old']},{'deferred':{'old':'still deferred'}},
+                          {'aliases':{'old':'other'}},{'resume_deferred':'old'}):
+                with self.subTest(extra=extra):
+                    (folder/'child.json').write_text(json.dumps({**valid,**extra}),encoding='utf-8')
+                    with self.assertRaises(ValueError):load_draft(folder/'child.json')
+
     def test_lot_preparation_excludes_manually_deferred_alias_sources(self):
         from prepare_translation_lot import prepare
         previous={'id':'old','blocked_reasons':[],
@@ -268,6 +316,15 @@ class PilotTests(unittest.TestCase):
         self.assertEqual(proposal['aliases'],{})
         self.assertEqual(proposal['translations'],{'new':''})
         self.assertEqual(len(pending),1)
+        parent['deferred']={}
+        parent['ascii_exception']={'id':'old','target':'nao'}
+        with mock.patch('prepare_translation_lot.compile_draft',return_value=({'entries':[previous]},[],{'valid':True})), \
+             mock.patch('prepare_translation_lot.SsdIndex') as index, \
+             mock.patch('prepare_translation_lot.descriptor',return_value=following):
+            index.return_value.records={100:None}
+            proposal,_=prepare(data,parent,100)
+        self.assertEqual(proposal['aliases'],{})
+        self.assertEqual(proposal['translations'],{'new':''})
 
     def test_more_than_eight_draft_versions_and_cycle_rejection(self):
         with tempfile.TemporaryDirectory(dir=ROOT/'work',prefix='test-draft-chain-') as folder:

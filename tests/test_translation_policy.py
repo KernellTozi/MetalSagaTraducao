@@ -40,3 +40,14 @@ class PolicyTests(unittest.TestCase):
         self.assertTrue(validate('Trash Heap and Rent-a-Tank','Montão de Lixo e Aluguel'))
         self.assertEqual(validate('Alex at Ziggurat','Alex em Ziggurat'),[])
         self.assertEqual(validate('I have the transport pod.','Tenho a cápsula de transporte.'),[])
+
+    def test_material_junk_does_not_override_preserved_monster_name(self):
+        self.assertEqual(validate('Three Junk Zombies attacked me.','Três Junk Zombies me atacaram.'),[])
+        self.assertTrue(validate('Junk Zombies and junk','Junk Zombies e lixo'))
+        self.assertEqual(validate('Junk Zombies and junk','Junk Zombies e sucata'),[])
+        self.assertTrue(validate('Junk Zombies','Zumbis de sucata'))
+
+    def test_shiny_name_and_adjective_are_distinct(self):
+        self.assertEqual(validate('something shiny','algo brilhando'),[])
+        self.assertTrue(validate('Shiny is here','Brilhante está aqui'))
+        self.assertEqual(validate('Shiny is here','Shiny está aqui'),[])

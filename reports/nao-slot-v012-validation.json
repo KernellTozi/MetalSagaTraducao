@@ -1,0 +1,17 @@
+{
+  "id": "map.msg.1df8bec0",
+  "iso": "work/regiao-inicial-v012/MetalSaga-ptbr-regiao-inicial-v012.iso",
+  "map_record_offset": 502841024,
+  "map_text_offset": 502841056,
+  "iso_text_offset": 556617440,
+  "record_size": 36,
+  "capacity": 3,
+  "source_hex_with_terminator": "4e6f2e00",
+  "target_hex_with_terminator": "6e616f00",
+  "target": "nao",
+  "header_sha256": "f6a6e2197628aa22874edb18f582fde9ccf745cd757be9279a6d6a57d28de384",
+  "header_identical": true,
+  "terminator_identical": true,
+  "verified_from_final_iso": true,
+  "pcsx2_visual_validation": false
+}

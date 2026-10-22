@@ -83,6 +83,22 @@ transporte; a preservação do título `- Transport Pod -` na v010 não torna to
 ocorrência dessas palavras um nome próprio. Latidos e interjeições dos cães
 permanecem, assim como os nomes dinâmicos inseridos pelo jogo.
 
+Exceção autorizada pelo usuário na v012: `map.msg.1df8bec0` recebe exatamente
+`nao`, em ASCII, porque seu slot de três bytes não comporta `Não`. A autorização
+é específica desse registro; não remover acentos das demais falas. A preparação
+de lotes exclui esse registro da fonte de aliases para não espalhar a exceção.
+
+Nos desafios contra procurados, preservar os nomes e a regra de batalhas sem
+descanso. Dr. Palm é expansivo, carente de amizade e insiste em apelidos; Thursday
+é um robô grosseiro, com frases diretas. Manter os apelidos próprios, inclusive
+Princess, e os nomes das armas listadas. A piada de Rosa aceitar a amizade para
+obter um tanque depende das falas de incentivo e da irritação posteriores.
+
+`Junk Zombies` permanece como nome de inimigo referido nas falas. A regra de
+traduzir material `junk` por sucata não deve renomear inimigos preservados.
+`shiny` como adjetivo vira brilhando/brilhante; `Shiny` como nome é preservado.
+Essa distinção explícita ainda exige revisão contextual em casos ambíguos.
+
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear
 o registro e investigar capacidade/realocação, sem apagar significado.
