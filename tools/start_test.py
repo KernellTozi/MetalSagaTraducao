@@ -6,13 +6,16 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'work/pcsx2-functional'
 ISOS={'diary':ROOT/'work/MetalSaga-ptbr-experimento.iso',
       'dialogue':ROOT/'work/MetalSaga-ptbr-dialogo-inicial-v001.iso',
-      'accents':ROOT/'work/MetalSaga-ptbr-acentos-v001.iso'}
+      'accents':ROOT/'work/MetalSaga-ptbr-acentos-v001.iso',
+      'development':ROOT/'work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso'}
 
 def launch_command(iso):
     exe=(BASE/'pcsx2-qt.exe').resolve()
     if not exe.is_file() or not (BASE/'portable.txt').is_file():
         raise ValueError('Isolated PCSX2 not prepared; run tools/prepare_pcsx2_test.py')
     image=ISOS.get(iso,Path(iso)).resolve()
+    if image==ISOS['development'].resolve() and (ROOT/'work/desenvolvimento/transacao.json').exists():
+        raise ValueError('Development ISO has an interrupted transaction; recover before launching')
     if image.suffix.lower()!='.iso' or not image.is_file() or not image.is_relative_to(ROOT/'work'):
         raise ValueError('Test ISO must be an existing .iso under work/')
     cfg=configparser.ConfigParser(interpolation=None,strict=False);cfg.optionxform=str

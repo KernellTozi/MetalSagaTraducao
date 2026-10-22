@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "experiment": "Nina fixed-slot expansion, controlled PT-BR message and choice menu",
+  "iso": "work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso",
+  "iso_sha256": "051ddeef5f12a30a15f0052ef31ae68a829e039ccf0a3b6c74c00638e63d8477",
+  "iso_size": 1704427520,
+  "changed_iso_bytes": 4339,
+  "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "source_files_unchanged": 58,
+  "unit_tests_passed": 65,
+  "visual_status": "pending_user_manual_validation",
+  "records": [
+    {
+      "status": "accepted",
+      "id": "map.msg.1df47f0c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        28
+      ],
+      "target_lengths": [
+        31
+      ],
+      "source_capacities": [
+        31
+      ],
+      "source_offsets": [
+        502562604
+      ],
+      "target_offsets": [
+        502562604
+      ],
+      "record_offset": 502562572,
+      "record_size": 64,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.msg.1df47f9c",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        118
+      ],
+      "target_lengths": [
+        114
+      ],
+      "source_capacities": [
+        119
+      ],
+      "source_offsets": [
+        502562748
+      ],
+      "target_offsets": [
+        502562748
+      ],
+      "record_offset": 502562716,
+      "record_size": 152,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    },
+    {
+      "status": "accepted",
+      "id": "map.sel.1df48484",
+      "mode": "slots",
+      "warnings": [],
+      "source_lengths": [
+        53
+      ],
+      "target_lengths": [
+        34
+      ],
+      "source_capacities": [
+        55
+      ],
+      "source_offsets": [
+        502563988
+      ],
+      "target_offsets": [
+        502563988
+      ],
+      "record_offset": 502563972,
+      "record_size": 72,
+      "block_offset": 502561824,
+      "visual_status": "pending_manual_validation"
+    }
+  ],
+  "fonts_version": "preliminary-validated-acentos-v001",
+  "recipe": {
+    "path": "work/desenvolvimento/lotes/a46ea2f1379e34e1e2b5f807108c37b1eddb2987ef865ef00d42e6bdb3f12477.json",
+    "sha256": "a46ea2f1379e34e1e2b5f807108c37b1eddb2987ef865ef00d42e6bdb3f12477"
+  },
+  "checks": {
+    "full_iso_comparison": true,
+    "iso_directory_identical": true,
+    "restore_exact_original": true,
+    "reapply_reproduced_hash": true,
+    "snapshot_replay_no_iso_write": true,
+    "dry_run_no_iso_or_state_write": true,
+    "windows_open_reader_blocked": true,
+    "synthetic_crash_recovery_passed": true,
+    "initial_partial_copy_resume_tested_synthetically": true,
+    "pcsx2_launched": false
+  },
+  "limitations": [
+    "No visual validation for v004 yet",
+    "Repack tested binarily on real records; no runtime claim",
+    "No record/SSD/ISO-size growth",
+    "Only the preliminary 18 PT-BR glyph mapping is available"
+  ],
+  "visible_test_strings": [
+    "Teste expandido:\nMesmo registro",
+    "Teste: ação.\ná é í ó ú\nÇ Á É Ã Õ",
+    "Vou ser Hunter.\tVou ser mecânico."
+  ]
+}

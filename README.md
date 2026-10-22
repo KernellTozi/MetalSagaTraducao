@@ -15,6 +15,11 @@ Na v003: 5.369 registros com extração validada, 1.862 identificados e bloquead
 zero desconhecidos no conjunto examinado e 71 rejeitados. São 7.231 registros com
 texto recuperado em 13 famílias. [Evidências e limites](docs/extracao-v003.md).
 
+Reinserção v004: dar duplo clique em **`Reinserir-Dialogos.cmd`** para exportar,
+simular e aplicar lotes. A política binária cobre 6.882 registros em onze famílias;
+349 continuam bloqueados. ISO de desenvolvimento reutilizável, snapshots e
+recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
+
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).
 - [Pesquisa dos quatro projetos públicos](docs/referencias-tecnicas.md).

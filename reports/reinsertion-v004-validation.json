@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "source_unchanged": true,
+  "catalog_noop_roundtrip": true,
+  "records": 7231,
+  "eligible": 6882,
+  "blocked": 349,
+  "eligible_by_family": {
+    "supr": 388,
+    "msgn": 1384,
+    "smsg": 272,
+    "msg": 4567,
+    "msgb": 155,
+    "2smg": 53,
+    "MC": 18,
+    "sel": 26,
+    "2sel": 12,
+    "SP": 6,
+    "ST": 1
+  },
+  "blocked_by_family": {
+    "2snm": 29,
+    "supr": 2,
+    "msg": 158,
+    "smnn": 83,
+    "msgn": 31,
+    "smsg": 43,
+    "2smg": 2,
+    "sel": 1
+  },
+  "binary_edits_tested": 6882,
+  "tested_by_family": {
+    "supr": 388,
+    "msgn": 1384,
+    "smsg": 272,
+    "msg": 4567,
+    "msgb": 155,
+    "2smg": 53,
+    "MC": 18,
+    "sel": 26,
+    "2sel": 12,
+    "SP": 6,
+    "ST": 1
+  },
+  "eligible_without_editable_literal": [],
+  "verified_affected_ssd_blocks": 1580,
+  "padding_free_bytes_histogram": {
+    "1": 2046,
+    "2": 1586,
+    "3": 1501,
+    "0": 1749
+  },
+  "real_repack_expansion": {
+    "status": "accepted",
+    "id": "map.smsg.00011620",
+    "mode": "repack",
+    "warnings": [
+      "body: linha mais larga; validação visual necessária"
+    ],
+    "source_lengths": [
+      47,
+      18
+    ],
+    "target_lengths": [
+      51,
+      6
+    ],
+    "source_capacities": [
+      47,
+      19
+    ],
+    "source_offsets": [
+      71240,
+      71288
+    ],
+    "target_offsets": [
+      71240,
+      71292
+    ],
+    "record_offset": 71200,
+    "record_size": 108,
+    "block_offset": 70480,
+    "visual_status": "pending_manual_validation"
+  },
+  "real_named_repack": {
+    "status": "accepted",
+    "id": "map.msgn.0001139c",
+    "mode": "repack",
+    "warnings": [],
+    "source_lengths": [
+      125,
+      14
+    ],
+    "target_lengths": [
+      106,
+      14
+    ],
+    "source_capacities": [
+      127,
+      15
+    ],
+    "source_offsets": [
+      70588,
+      70716
+    ],
+    "target_offsets": [
+      70588,
+      70696
+    ],
+    "record_offset": 70556,
+    "record_size": 176,
+    "block_offset": 70480,
+    "visual_status": "pending_manual_validation"
+  },
+  "external_record_growth_refused": {
+    "id": "map.msg.1df47f0c",
+    "status": "refused",
+    "reason": "Overflow em body: 81 > 31 bytes"
+  },
+  "test_method": "Deterministic one-byte case/punctuation changes in memory, not linguistic translation; no ISO update",
+  "runtime_visual_validation": false,
+  "elapsed_seconds": 5.66
+}
