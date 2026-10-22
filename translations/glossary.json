@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "target_language": "pt-BR",
+  "status": "initial_project_policy",
+  "terms": [
+    {
+      "id": "hunter",
+      "source_forms": ["Hunter", "hunter"],
+      "target": "caçador",
+      "ascii_pilot": "Hunter",
+      "context": "Profissão mencionada na pergunta inicial; tradução desejada fornecida pelo usuário.",
+      "status": "translation_selected_encoding_pending"
+    },
+    {
+      "id": "diary_to_do_list",
+      "source_forms": ["To Do List"],
+      "target": "Tarefas",
+      "context": "Título do registro 0 de DIARY.DAT; experimento existente.",
+      "status": "binary_validated_visual_pending"
+    },
+    {
+      "id": "proper_names_policy",
+      "source_forms": [],
+      "target": "Preservar nomes próprios existentes até decisão contextual documentada.",
+      "context": "Não substituir nomes de personagens, locais ou itens por deduplicação cega.",
+      "status": "policy"
+    }
+  ]
+}

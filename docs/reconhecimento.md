@@ -130,7 +130,7 @@ reconstrução do disco. A ferramenta atual rejeita substituições de tamanho d
 
 ## Reprodução
 
-Na raiz do workspace, com Python 3.10+:
+Na raiz do workspace, com Python 3.11+:
 
 ```powershell
 python tools/recon.py
@@ -149,7 +149,7 @@ python tools/disc.py 'JOGO/Metal Saga.iso' --replace DATA/FDATA/DIARY.DAT --payl
 ```
 
 Cinco testes automatizados com fixture sintética passaram: round-trip, edição
-preservando estrutura, rejeição de overflow/tokens/metadados hash incorreto e preservação de bytes especiais.
+preservando estrutura, rejeição de overflow/tokens/metadados, hash incorreto e preservação de bytes especiais.
 O round-trip com o diário real e a comparação integral das ISOs também foram executados.
 
 ## Pendências e sequência recomendada

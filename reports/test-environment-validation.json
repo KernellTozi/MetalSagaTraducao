@@ -1,0 +1,20 @@
+{
+  "reference_files_checked": 58,
+  "reference_files_unchanged": true,
+  "original_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "protected_pcsx2_mismatches_since_initial_snapshot": [
+    "inis/PCSX2.ini"
+  ],
+  "original_bios_cards_states_unchanged": true,
+  "original_configuration_preservation": "hash differs; cause not established; no blind restoration",
+  "dialogue_visual": "pending_user_verification",
+  "diary_visual": "pending_user_verification",
+  "diary_iso_runtime": "boot, New Game and Junkyard observed; translated diary not observed",
+  "dialogue_iso_runtime": "launcher invoked isolated PCSX2 2.8.2 with -portable -fastboot; clean boot reached no-memory-card prompt",
+  "launcher_dry_runs": [
+    "dialogue passed",
+    "diary passed",
+    "original ISO rejected"
+  ],
+  "visual_test_responsibility": "user: spot checks and periodic consolidated builds"
+}

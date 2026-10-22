@@ -1,0 +1,104 @@
+{
+  "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "output_iso_sha256": "30c53a9b8eb2802939b71b56b7f25becda612c39d2d7824c86eca13e061003ed",
+  "iso_size": 1704427520,
+  "changed_iso_offsets": [
+    556338988,
+    556338989,
+    556338990,
+    556338991,
+    556338992,
+    556338993,
+    556338994,
+    556338995,
+    556338997,
+    556338998,
+    556338999,
+    556339000,
+    556339001,
+    556339002,
+    556339003,
+    556339004,
+    556339005,
+    556339006,
+    556339007,
+    556339008,
+    556339009,
+    556339010,
+    556339011,
+    556339012,
+    556339013,
+    556339014,
+    556339015
+  ],
+  "all_bytes_match_expected_patch": true,
+  "schema": 1,
+  "source_iso": "JOGO/Metal Saga.iso",
+  "output_iso": "work/MetalSaga-ptbr-dialogo-inicial-v001.iso",
+  "resource": "DATA/MAP/MAP.MCT",
+  "resource_lba": 26258,
+  "resource_size": 730998784,
+  "resource_source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "iso_directory_identical": true,
+  "patch_policy": "msg-null-fixed-size-ascii-lf-v1",
+  "patched_entries": [
+    {
+      "id": "map.msg.1df47f0c",
+      "offset": 502562572,
+      "index": 28,
+      "size": 64,
+      "text_offset": 502562604,
+      "capacity": 31,
+      "source": "You want to become\na hunter?",
+      "translation": "Quer ser um\nHunter?",
+      "header_hex": "6d7367001c0040000a0000000000a04016000000000030410000000000000000",
+      "record_sha256": "8586c97beaa6ed6d0e3fda51703f28eaee484fb0568e0f7b363a784578467d23",
+      "neighbors": {
+        "previous": [
+          {
+            "offset": 502562508,
+            "tag": "636d7274",
+            "index": 25,
+            "size": 40
+          },
+          {
+            "offset": 502562548,
+            "tag": "6d66696e",
+            "index": 26,
+            "size": 8
+          },
+          {
+            "offset": 502562556,
+            "tag": "77616974",
+            "index": 27,
+            "size": 16
+          }
+        ],
+        "following": [
+          {
+            "offset": 502562636,
+            "tag": "636d7073",
+            "index": 29,
+            "size": 40
+          },
+          {
+            "offset": 502562676,
+            "tag": "636d7274",
+            "index": 30,
+            "size": 40
+          },
+          {
+            "offset": 502562716,
+            "tag": "6d736700",
+            "index": 31,
+            "size": 152
+          }
+        ]
+      }
+    }
+  ],
+  "visual_status": "pending_user_verification",
+  "accent_support_tested": false,
+  "runtime_boot_status": "PCSX2 2.8.2 booted to initial no-memory-card prompt via isolated launcher",
+  "runtime_dialogue_observed": false
+}

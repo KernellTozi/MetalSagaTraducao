@@ -153,3 +153,14 @@ Não iniciar uma tradução em massa antes de validar tecnicamente o processo.
 - Nunca confundir round-trip binário ou geração de ISO com teste de execução no PCSX2.
 - Não assumir suporte a acentos; preservar bytes desconhecidos até identificar o mapeamento.
 - Em testes futuros do emulador, usar cópias isoladas dos recursos mutáveis e preservar os dados existentes.
+
+## Divisão de testes e avanço em lotes
+
+- O usuário realiza preferencialmente a navegação prolongada, verificações visuais pontuais e testes periódicos de versões consolidadas.
+- O Codex continua responsável por engenharia reversa, ferramentas, tradução, reinserção, ISOs, testes binários e documentação. Pode executar diagnósticos curtos no emulador quando necessários.
+- Não jogar autonomamente para alcançar cada fala. Entregar ISO identificada, alteração exata, caminho, tela e critérios de observação ao usuário.
+- Após validar amostra representativa e conhecer os limites de um mecanismo, avançar autonomamente em lotes compatíveis, com glossário, preservação de contexto/tokens e verificações automatizadas. Não pedir aprovação para cada texto.
+- Tratar variantes estruturais, fontes não validadas e controles desconhecidos separadamente antes de expandir o mecanismo.
+- Manter lotes reversíveis e manifestos por versão; gerar versões consolidadas para testes periódicos, sem acumular ISOs redundantes.
+- Uma validação visual pendente não impede investigações e melhorias técnicas independentes e seguras.
+- O experimento do diário permanece preservado mesmo enquanto sua exibição não estiver confirmada. O piloto atual de diálogos é a fala sobre tornar-se Hunter.

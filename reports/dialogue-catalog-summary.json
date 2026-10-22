@@ -1,0 +1,21 @@
+{
+  "resource": "DATA/MAP/MAP.MCT",
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "policy": "msg-null-fixed-size-ascii-lf-v1",
+  "eligible_candidates": 2048,
+  "rejected_msg_signatures": 2715,
+  "unchanged_catalog_roundtrip": "passed: changes() returned no patches",
+  "translated_records_in_current_iso": 1,
+  "visual_status": "pending_user_verification",
+  "catalog_path_local_only": "work/dialogue-catalog-ascii-v001.json",
+  "limits": [
+    "heuristic discovery",
+    "msg-null only",
+    "ASCII and LF only",
+    "no percent commands or TAB pages",
+    "no relocation",
+    "zero trailing padding",
+    "three framed neighbors required",
+    "no per-line growth in characters; pixel metrics unknown"
+  ]
+}
