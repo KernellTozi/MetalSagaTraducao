@@ -76,7 +76,7 @@ class ExtractionTests(unittest.TestCase):
             folder=Path(folder); source=folder/'fixture.mct'; original=fixture()
             source.write_bytes(original)
             summary=extract(source,folder/'output')
-            self.assertEqual(summary['counts'],{'validated':1,'pending':0,'rejected':0})
+            self.assertEqual(summary['counts'],{'validated':1,'identified':0,'pending':0,'rejected':0})
             self.assertEqual(source.read_bytes(),original)
             self.assertTrue(summary['record_roundtrip_passed'])
             item=json.loads((folder/'output/dialogos.jsonl').read_text(encoding='utf-8'))

@@ -1,0 +1,124 @@
+{
+  "schema": 2,
+  "extractor_version": "v002",
+  "source": "JOGO/Metal Saga/DATA/MAP/MAP.MCT",
+  "resource": "DATA/MAP/MAP.MCT",
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "source_size": 730998784,
+  "recognized_revision": true,
+  "counts": {
+    "validated": 4438,
+    "identified": 1702,
+    "pending": 40,
+    "rejected": 31
+  },
+  "total_signatures": 6211,
+  "profiles": {
+    "msgn-named-v2": 1415,
+    "ascii-lf-v1": 2048,
+    "msg-controls-v2": 2676,
+    "nina-controlled-pilot-v1": 1
+  },
+  "reasons": {
+    "identified": {
+      "Full instruction context not proven": 1513,
+      "Opaque control syntax; original bytes retained": 150,
+      "Opaque control syntax; original bytes retained; Full instruction context not proven": 25,
+      "Native byte mapping decoded; per-font coverage/runtime not validated": 7,
+      "Native byte mapping decoded; per-font coverage/runtime not validated; Full instruction context not proven": 7
+    },
+    "pending": {
+      "Missing terminator or nonzero trailing data": 37,
+      "msgn layout not proven; do not assume 32-byte header": 3
+    },
+    "rejected": {
+      "Invalid instruction location": 19,
+      "Invalid instruction size": 12
+    }
+  },
+  "baseline_comparison": {
+    "available": true,
+    "baseline_entries": 2048,
+    "exact_entries_equal": true
+  },
+  "record_roundtrip_passed": true,
+  "v001_full_comparison": {
+    "available": true,
+    "preserved_exactly": 2049
+  },
+  "v001_fingerprint": {
+    "entries": 2049,
+    "sha256": "7e98374c73c4fb3198397b90d8ffbb6bacf52498af92256e5fe4b0eb1a9609e5",
+    "checked_against_versioned_report": true
+  },
+  "v001_pending_migrations": {
+    "msgn layout not proven; do not assume 32-byte header": {
+      "identified": 437,
+      "validated": 978,
+      "pending": 3
+    },
+    "Unsupported control code or encoding": {
+      "identified": 627,
+      "validated": 1411
+    },
+    "Ambiguous previous record boundary": {
+      "identified": 403
+    },
+    "Invalid instruction tag": {
+      "identified": 159
+    },
+    "Invalid instruction size": {
+      "identified": 76
+    },
+    "Missing terminator or nonzero trailing data": {
+      "pending": 37
+    }
+  },
+  "ascii_no_edit_patches": 0,
+  "source_hash_unchanged": true,
+  "elapsed_seconds": 12.663,
+  "nonoverlapping_text_records": true,
+  "context": "physical offsets, local indices, raw parameters and display labels for msgn; full neighbors when proven; canonical speaker/scene mapping unknown",
+  "scope": "heuristic msg-null/msgn signatures, not a complete script container parser",
+  "output_files": [
+    "catalogo-consolidado.jsonl",
+    "dialogos.jsonl",
+    "identificados.jsonl",
+    "pendentes.jsonl",
+    "rejeitados.jsonl",
+    "plano-ascii.json"
+  ],
+  "completed": true,
+  "execution_checks": {
+    "unit_tests_passed": 36,
+    "windows_cmd_launcher_exit_code": 0,
+    "repeated_output_files_identical": {
+      "catalogo-consolidado.jsonl": {
+        "sha256": "56c9e527b86a1c86f2b732c2b0f9b5c16946b4046c7469e5d00c99e9aa25300d",
+        "bytes": 9677913
+      },
+      "dialogos.jsonl": {
+        "sha256": "2ea1cdc229299533dc6d3a9d4315420445771dd8504c586ef47fd30df8a4bf29",
+        "bytes": 6812980
+      },
+      "identificados.jsonl": {
+        "sha256": "6bdec20e394ef02dbd24d2db84f30ae5623c4598f40b22edae93eba8bea26dd6",
+        "bytes": 2575423
+      },
+      "pendentes.jsonl": {
+        "sha256": "bfc09a4199cf7e57dd1b3f9572de66c0c3b453d3f87b8113d92f0159791435db",
+        "bytes": 17980
+      },
+      "rejeitados.jsonl": {
+        "sha256": "970c7f693b709e762d50e8081a3a41ea0f0df60fd58e59f6a31d95c1d3145049",
+        "bytes": 2866
+      },
+      "plano-ascii.json": {
+        "sha256": "aa2fc778776c234c8628c399f863f1ceb9cc873167418e58e3776ab9b718548d",
+        "bytes": 2943483
+      }
+    },
+    "new_iso_created": false,
+    "new_translations": 0
+  }
+}

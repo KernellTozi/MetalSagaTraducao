@@ -11,6 +11,8 @@ validação visual preliminar, com limitações tipográficas ainda abertas.
 Para extrair os diálogos localmente, dar duplo clique em **`Extrair-Dialogos.cmd`**.
 Os resultados ficam em uma pasta nova de `work/extracoes/`. Não usa IA, APIs,
 emulador nem dependências externas. [Manual do extrator](docs/extrator-dialogos.md).
+Na v002: 4.438 registros com extração validada, 1.702 identificados e bloqueados,
+40 desconhecidos e 31 rejeitados. [Evidências e limites](docs/extracao-v002.md).
 
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).

@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse
 import collections
+import hashlib
 from datetime import datetime
 import json
 import mmap
@@ -11,6 +12,7 @@ import time
 
 from dialogue import ROOT, record, instruction, neighbors, sha, changes
 from build_accent_experiment import SECOND_OFFSET, SECOND_SOURCE, CONTROLS
+import dialogue_formats
 
 RESOURCE = 'DATA/MAP/MAP.MCT'
 DEFAULT_SOURCE = ROOT/'JOGO/Metal Saga'/RESOURCE
@@ -69,6 +71,8 @@ def inspect(data, at):
 
 def reconstruct(item):
     """Unedited record, including exact original header, NUL and zero padding."""
+    if item['profile'].endswith('-v2'):
+        return dialogue_formats.reconstruct(item)
     raw = bytes.fromhex(item['original_text_hex'])
     if raw.decode('ascii') != item['source']:
         raise ValueError('Text/byte mismatch')
@@ -80,7 +84,16 @@ def reconstruct(item):
 
 def scan(data):
     for match in re.finditer(rb'msg(?:\x00|n)', data):
-        yield inspect(data, match.start())
+        at = match.start()
+        state, item = inspect(data, at)
+        if state == 'pending':
+            try:
+                state, recovered = dialogue_formats.classify(data,at)
+                recovered['v001_reason'] = item['reason']
+                item = recovered
+            except (ValueError, UnicodeError) as error:
+                item['v2_reason'] = str(error)
+        yield state, item
 
 
 def legacy_entry(item):
@@ -95,10 +108,16 @@ def extract(source, output):
     if not output.is_relative_to(ROOT/'work') or output.exists():
         raise ValueError('Use uma pasta nova em work/; resultados anteriores são preservados')
     output.mkdir(parents=True)
-    counts = collections.Counter(validated=0, pending=0, rejected=0)
-    reasons = {'pending':collections.Counter(), 'rejected':collections.Counter()}
+    counts = collections.Counter(validated=0, identified=0, pending=0, rejected=0)
+    reasons = {k:collections.Counter() for k in ('identified','pending','rejected')}
     profiles = collections.Counter()
     ascii_entries = []
+    migrations = collections.defaultdict(collections.Counter)
+    seen = set()
+    original_v001 = {}
+    v001_digest = hashlib.sha256()
+    v001_count = 0
+    previous_text_end = 0
     with source.open('rb') as stream:
         if source.stat().st_size == 0:
             raise ValueError('Arquivo vazio')
@@ -108,23 +127,57 @@ def extract(source, output):
             expected = next(e['sha256'] for e in inventory if e['path'] == RESOURCE)
             if source == DEFAULT_SOURCE.resolve() and source_hash != expected:
                 raise ValueError('Hash do MAP original diverge do inventário')
+            baseline_v001 = ROOT/'work/extracoes/validacao-extrator-v001/dialogos.jsonl'
+            baseline_items = {}
+            if baseline_v001.is_file() and source_hash == expected:
+                with baseline_v001.open(encoding='utf-8') as old_stream:
+                    baseline_items = {e['offset']:e for e in map(json.loads,old_stream)}
             with (output/'dialogos.jsonl').open('x', encoding='utf-8') as good, \
+                 (output/'identificados.jsonl').open('x', encoding='utf-8') as identified, \
                  (output/'pendentes.jsonl').open('x', encoding='utf-8') as pending, \
-                 (output/'rejeitados.jsonl').open('x', encoding='utf-8') as rejected:
-                files = {'validated':good, 'pending':pending, 'rejected':rejected}
+                 (output/'rejeitados.jsonl').open('x', encoding='utf-8') as rejected, \
+                 (output/'catalogo-consolidado.jsonl').open('x', encoding='utf-8') as consolidated:
+                files = {'validated':good, 'identified':identified, 'pending':pending, 'rejected':rejected}
                 for state, item in scan(data):
+                    at = item['offset']
+                    if at in seen:
+                        raise ValueError('Ocorrência duplicada no catálogo')
+                    seen.add(at)
                     counts[state] += 1
-                    if state == 'validated':
+                    if state in ('validated','identified'):
+                        if at < previous_text_end:
+                            raise ValueError('Registros textuais sobrepostos; catálogo não publicado')
+                        previous_text_end = at+item['size']
                         rebuilt = reconstruct(item)
-                        at = item['offset']
                         if rebuilt != data[at:at+item['size']]:
                             raise ValueError(f'Round-trip incorreto em 0x{at:X}')
                         profiles[item['profile']] += 1
+                        if item['profile'] in ('ascii-lf-v1','nina-controlled-pilot-v1'):
+                            # v001 report anchors Windows JSONL bytes (CRLF).
+                            # Use that explicit representation on every platform.
+                            v001_digest.update((json.dumps(item,ensure_ascii=False)+'\r\n').encode('utf-8'))
+                            v001_count += 1
                         if item['profile'] == 'ascii-lf-v1':
                             ascii_entries.append(legacy_entry(item))
-                    else:
+                        if at in baseline_items:
+                            if item != baseline_items[at]:
+                                raise ValueError('Registro v001 foi alterado')
+                            original_v001[at] = item
+                    if state != 'validated':
                         reasons[state][item['reason']] += 1
+                    if 'v001_reason' in item:
+                        migrations[item['v001_reason']][state] += 1
+                    elif state == 'pending':
+                        migrations[item['reason']][state] += 1
                     files[state].write(json.dumps(item, ensure_ascii=False)+'\n')
+                    consolidated.write(json.dumps({'classification':state,'record':item},ensure_ascii=False)+'\n')
+            if baseline_items.keys() != original_v001.keys():
+                raise ValueError('Registros v001 ausentes no catálogo consolidado')
+            if source_hash == expected:
+                previous = json.loads((ROOT/'reports/extrator-v001-validation.json').read_text(encoding='utf-8'))
+                previous_hash = previous['execution_checks']['repeated_output_files_identical']['dialogos.jsonl']['sha256']
+                if v001_count != 2049 or v001_digest.hexdigest() != previous_hash:
+                    raise ValueError('Hash/count dos registros v001 diverge da validação versionada')
             plan = {'schema':1, 'resource':RESOURCE, 'source_sha256':source_hash,
                     'policy':'msg-null-fixed-size-ascii-lf-v1', 'entries':ascii_entries}
             if changes(data, plan):
@@ -143,17 +196,22 @@ def extract(source, output):
     with (output/'plano-ascii.json').open('x', encoding='utf-8') as stream:
         json.dump(plan, stream, ensure_ascii=False, indent=2)
         stream.write('\n')
-    summary = {'schema':1, 'source':source.relative_to(ROOT).as_posix(),
+    summary = {'schema':2, 'extractor_version':'v002', 'source':source.relative_to(ROOT).as_posix(),
                'resource':RESOURCE, 'source_sha256':source_hash, 'source_size':source.stat().st_size,
                'recognized_revision':source_hash == expected, 'counts':dict(counts),
                'total_signatures':sum(counts.values()), 'profiles':dict(profiles),
                'reasons':{k:dict(v) for k,v in reasons.items()},
                'baseline_comparison':comparison, 'record_roundtrip_passed':True,
+               'v001_full_comparison':{'available':bool(baseline_items),'preserved_exactly':len(original_v001)},
+               'v001_fingerprint':{'entries':v001_count,'sha256':v001_digest.hexdigest(),
+                                   'checked_against_versioned_report':source_hash == expected},
+               'v001_pending_migrations':{k:dict(v) for k,v in migrations.items()},
                'ascii_no_edit_patches':0, 'source_hash_unchanged':True,
                'elapsed_seconds':round(time.perf_counter()-started,3),
-               'context':'physical offsets, local indices, raw headers, three adjacent instructions; speaker/scene mapping unknown',
+               'nonoverlapping_text_records':True,
+               'context':'physical offsets, local indices, raw parameters and display labels for msgn; full neighbors when proven; canonical speaker/scene mapping unknown',
                'scope':'heuristic msg-null/msgn signatures, not a complete script container parser',
-               'output_files':['dialogos.jsonl','pendentes.jsonl','rejeitados.jsonl','plano-ascii.json'],
+               'output_files':['catalogo-consolidado.jsonl','dialogos.jsonl','identificados.jsonl','pendentes.jsonl','rejeitados.jsonl','plano-ascii.json'],
                'completed':True}
     with (output/'relatorio.json').open('x', encoding='utf-8') as stream:
         json.dump(summary, stream, ensure_ascii=False, indent=2)
