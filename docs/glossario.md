@@ -320,3 +320,21 @@ Morgue Town: manter o contraste entre criminosos escondidos, medo dos agentes,
 conselhos dos Hunters e as referências musicais de Klepto Cobain. Rachel deve
 soar preocupada e defensiva sem perder a confiança implícita no protagonista.
 Wayne mantém sua rudeza e o conflito com Jack, sem antecipar reconciliação.
+
+
+## Revisão de títulos v022
+
+Os 31 títulos genéricos antes preservados receberam revisão explícita:
+
+| Origem | Título PT-BR | Decisão |
+| --- | --- | --- |
+| Transport Pod | Transportador | Nome genérico do dispositivo/serviço; respeitar o slot de 19 bytes |
+| Trader Camp | Acampamento | Título curto do local de comerciantes; slot de 15 bytes |
+| Lake Bridge | Ponte do lago | Local genérico; retirar enfeites para preservar a expressão natural |
+| Junk Mountain | Montanha de Sucata | Alinhar o título à forma já usada nos diálogos |
+| Impound Lot | Apreensões | Título curto do pátio de veículos apreendidos, dentro de 15 bytes |
+
+Enfeites só permanecem quando cabem. Não omitir preposições para manter traços
+nem diminuir a fonte. Nomes de cidades, personagens, tanques e equipamentos
+únicos continuam preservados. A revisão está no filho v022, sem editar as receitas
+históricas ou os demais textos do catálogo.

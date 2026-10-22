@@ -41,3 +41,18 @@ python tools/audit_translation_coverage.py --build-dir work/regiao-inicial-v021 
 
 Três testes cobrem triagem conservadora, comandos, labels somente de leitura,
 entradas inconsistentes, IDs duplicados e controles opacos sem adiamento.
+
+
+## Ampliação v022
+
+O resumo passa a incluir bloqueios por família, por motivo e por sintaxe opaca
+reconhecida pelo parser. A lista de sintaxes representa os spans encontrados,
+não uma gramática comprovada: por exemplo, um sufixo após `%$15` pode fazer parte
+do formato em execução e não estar incluído nesse span. Não remover ou corrigir
+comandos com base nessa classificação.
+
+Depois da revisão dos títulos: 5.667 alterados, 349 adiados, 599 de controles ou
+pontuação, 458 sugestões de nomes/expressões e 158 preservados a revisar. O resumo
+final está em `reports/regiao-inicial-v022-coverage.json`. Os relatórios da v021
+permanecem como evidência histórica. Os testes adicionais verificam que a
+classificação de sintaxes não promove registros nem concede aprovação de edição.

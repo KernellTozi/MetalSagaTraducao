@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,REGION_V15_DRAFT,REGION_V16_DRAFT,REGION_V17_DRAFT,REGION_V18_DRAFT,REGION_V19_DRAFT,REGION_V20_DRAFT,REGION_V21_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -552,7 +552,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x00011074)
         self.assertEqual(proposal['scope']['records'],7231)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(268,184,16))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V21_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5636,1595,0))
@@ -579,6 +579,35 @@ class PilotTests(unittest.TestCase):
         exceptions={e['id'] for e in current['entries'] for s in e['segments']
                     if re.search(r'\bnao\b',s['translation'])}
         self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v022_changes_only_reviewed_generic_titles(self):
+        parent,_=load_draft(REGION_V21_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(5667,1564,0))
+        self.assertEqual(len(sources),22)
+        self.assertEqual(len(report['deferred']),349)
+        self.assertEqual(draft['deferred'],parent['deferred'])
+        expected=set(draft['reviewed_changes'])
+        self.assertEqual(len(expected),31)
+        changed=set()
+        labels={'- Transport Pod -':'- Transportador -',
+                '- Trader Camp -':'- Acampamento -','- Lake Bridge -':'Ponte do lago',
+                '- Junk Mountain -':'Montanha de Sucata','- Impound Lot -':'- Apreensões -'}
+        for before,after in zip(old['entries'],current['entries'],strict=True):
+            if before==after:continue
+            changed.add(after['id'])
+            self.assertIn(after['id'],expected)
+            self.assertEqual(len(after['segments']),1)
+            segment=after['segments'][0]
+            self.assertEqual(segment['translation'],labels[segment['source']])
+            restored=copy.deepcopy(after)
+            restored['segments'][0]['translation']=before['segments'][0]['translation']
+            self.assertEqual(restored,before)
+        self.assertEqual(changed,expected)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
 
     def test_prepare_rejects_ambiguous_or_shrinking_boundaries(self):
         from prepare_translation_lot import prepare

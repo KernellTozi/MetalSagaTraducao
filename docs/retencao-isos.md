@@ -48,3 +48,8 @@ A conferência posterior confirmou dez ISOs: v011 a v020. O atalho legado
 Na construção da v021, foi removida a ISO v011, a imagem gerada mais antiga
 elegível. A conferência posterior confirmou dez imagens, v012 a v021. A receita
 e os relatórios da v011 permanecem; seu atalho histórico exige reconstrução.
+
+
+Na construção da v022, foi removida a ISO v012, a mais antiga elegível.
+A conferência posterior confirmou dez imagens, v013 a v022. Receitas e
+relatórios da v012 permanecem; seu atalho histórico exige reconstrução.

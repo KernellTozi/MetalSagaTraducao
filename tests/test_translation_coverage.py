@@ -12,7 +12,7 @@ class CoverageTests(unittest.TestCase):
             return {'id':key,'segments':[{'source':text,'translation':text if target is None else target,
                     'source_hex':text.encode('ascii').hex(),'editable':editable}]}
         document={'source_sha256':'hash','entries':[
-            entry('a','Hello','Olá'),entry('b','%I$'),entry('c','%N0...'),
+            entry('a','Hello','Olá'),entry('b','%I$15'),entry('c','%N0...'),
             entry('d','- Newfolk -'),entry('e','Welcome to Newfolk.'),entry('f','...')]}
         document['entries'][5]['segments'].append({'source':'Hunter','translation':'Hunter',
                                                   'source_hex':'48756e746572','editable':False})
@@ -43,3 +43,10 @@ class CoverageTests(unittest.TestCase):
     def test_never_guesses_opaque_controls_without_deferral(self):
         doc,report,policy=self.fixture();report['deferred']=[]
         with self.assertRaises(ValueError):audit(doc,report,policy)
+
+    def test_reports_opaque_spans_without_promoting_records(self):
+        doc,report,policy=self.fixture()
+        summary,_=audit(doc,report,policy)
+        self.assertEqual(summary['deferred_by_tag'],{'unknown':1})
+        self.assertEqual(summary['opaque_parser_spans'],[{'syntax':'%I$15','occurrences':1,'records':1}])
+        self.assertFalse(summary['automatic_edit_approval'])

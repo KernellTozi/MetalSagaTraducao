@@ -49,13 +49,31 @@ def audit(document,report,policy):
     deferred={e['id'] for e in report['deferred']}
     if len(deferred)!=len(report['deferred']) or not deferred.issubset(ids):raise ValueError('Invalid deferral IDs')
     counts=Counter({c:0 for c in CLASSES});rows=[]
+    by_tag=Counter();by_reason=Counter();syntax=Counter();syntax_records={}
     for e in entries:
         status=classify(e,deferred,policy);counts[status]+=1
         rows.append({'class':status,'entry':e})
+        if status=='deferred':
+            parts=e['id'].split('.')
+            by_tag[parts[1] if len(parts)>1 else 'unknown']+=1
+            by_reason.update(e.get('blocked_reasons',[]))
+            for segment in e['segments']:
+                controls,_=tokens(bytes.fromhex(segment['source_hex']))
+                for token in controls:
+                    if token['kind']!='opaque-percent':continue
+                    text=bytes.fromhex(token['hex']).decode('ascii')
+                    syntax[text]+=1
+                    syntax_records.setdefault(text,set()).add(e['id'])
     if counts['modified']!=report['accepted'] or len(ids)-counts['modified']!=report['unchanged']:
         raise ValueError('Compiled counts mismatch')
     return {'schema':1,'records':len(ids),'source_sha256':document['source_sha256'],
             'classes':dict(counts),'automatic_edit_approval':False,
+            'deferred_by_tag':dict(sorted(by_tag.items())),
+            'deferred_by_reason':dict(sorted(by_reason.items())),
+            'opaque_parser_spans':[{'syntax':text,'occurrences':count,
+                                    'records':len(syntax_records[text])}
+                                   for text,count in sorted(syntax.items(),key=lambda x:(-x[1],x[0]))],
+            'opaque_span_limit':'Parser spans are not proof of complete command grammar or semantics',
             'pcsx2_validation':False,'classification':'conservative triage; names/expressions are suggestions'},rows
 
 

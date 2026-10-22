@@ -21,18 +21,20 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
 Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-7.231 registros localmente, sem gerar outra ISO. São 5.636 registros traduzidos e
-1.595 preservados, incluindo 349 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v021.json`, com herança dos
+7.231 registros localmente, sem gerar outra ISO. São 5.667 registros traduzidos e
+1.564 preservados, incluindo 349 adiados mantidos no original.
+O rascunho PT-BR está em `translations/regiao-inicial-v022.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
 abre a ISO consolidada, com fontes v002 e espaçamento v003 assumidos
-provisoriamente corretos pelo usuário. [Manual e limites](docs/regiao-inicial-v021.md).
+provisoriamente corretos pelo usuário. [Manual e limites](docs/regiao-inicial-v022.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
 100% de tradução. **`Auditar-Traducao.cmd`** separa alterações, bloqueios, pausas,
 sugestões de nomes/expressões e preservados a revisar em `work/auditorias/`.
-[Manual da auditoria](docs/auditoria-cobertura.md).
+[Manual da auditoria](docs/auditoria-cobertura.md). A v022 revisa 31 títulos
+genéricos e acrescenta [evidências das escolhas nomeadas](docs/escolhas-nomeadas-investigacao-v001.md),
+sem liberar automaticamente os formatos bloqueados.
 
 - [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
 - [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).
