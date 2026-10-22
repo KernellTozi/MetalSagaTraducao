@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -51,7 +51,7 @@ class PilotTests(unittest.TestCase):
         self.assertEqual(patches,[])
 
     def test_expanded_scene_preserves_deferred_records_and_labels(self):
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V2_DRAFT)
         document,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(85,13,0))
@@ -66,16 +66,37 @@ class PilotTests(unittest.TestCase):
         self.assertEqual(first['translation'],'Voc\u00ea quer mesmo ser um\nHunter?')
 
     def test_alias_requires_same_source(self):
-        draft,_=load_draft(DEFAULT_DRAFT)
+        draft,_=load_draft(REGION_V2_DRAFT)
         draft['aliases']['map.msg.1df4a394']='map.msg.1df47f0c'
         with self.assertRaises(ValueError):compile_draft(self.data,draft)
 
     def test_protected_name_change_blocks_entire_batch(self):
-        draft,_=load_draft(DEFAULT_DRAFT)
+        draft,_=load_draft(REGION_V2_DRAFT)
         draft['translations']['map.msg.1df4a0a8']=draft['translations']['map.msg.1df4a0a8'].replace('McKinley','Outro')
         _,patches,report=compile_draft(self.data,draft)
         self.assertFalse(report['valid']);self.assertEqual(patches,[])
         self.assertTrue(report['terminology_issues'])
+
+    def test_v003_preserves_entire_previous_lot_and_city_name(self):
+        previous,_=load_draft(REGION_V2_DRAFT)
+        old,_,_=compile_draft(self.data,previous)
+        current,sources=load_draft(DEFAULT_DRAFT)
+        document,patches,report=compile_draft(self.data,current)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(165,28,0))
+        self.assertEqual(len(sources),3)
+        self.assertEqual(document['entries'][:98],old['entries'])
+        self.assertEqual(len(report['deferred']),7)
+        self.assertFalse({p['id'] for p in patches}&set(current['deferred']))
+        city=next(e for e in document['entries'] if e['id']=='map.MC.1df4e5e4')
+        self.assertEqual(city['segments'][0]['translation'],'Junkyard')
+
+    def test_wanted_name_change_blocks_v003(self):
+        draft,_=load_draft(DEFAULT_DRAFT)
+        draft['translations']['map.msg.1df549fc']='...Outro sujeito,\ncerto?'
+        _,patches,report=compile_draft(self.data,draft)
+        self.assertFalse(report['valid']);self.assertEqual(patches,[])
+        self.assertTrue(any('Derringer Jack' in issue['reason'] for issue in report['terminology_issues']))
 
 
 if __name__=='__main__':unittest.main()

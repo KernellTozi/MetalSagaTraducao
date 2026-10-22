@@ -24,7 +24,8 @@ from build_dialogue_iso import compare_streams,ORIGINAL_ISO_SHA256
 
 DRAFT=ROOT/'translations/piloto-inicial-v001.json'
 PROFILE='spacing-v003-assumed-by-user-not-visually-confirmed'
-DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v002.json'
+REGION_V2_DRAFT=ROOT/'translations/regiao-inicial-v002.json'
+DEFAULT_DRAFT=ROOT/'translations/regiao-inicial-v003.json'
 
 
 def load_draft(path,chain=()):

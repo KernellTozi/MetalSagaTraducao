@@ -8,6 +8,9 @@ novas de termos genéricos continuam sujeitas à revisão contextual.
 | Hunter / hunter | Hunter / Hunters | Preservação determinada pelo usuário |
 | Soldier | Soldier | Preservação determinada pelo usuário |
 | Hunter Office | Posto Hunter | Nome de trabalho para o local de orientação aos Hunters; conferir placa/interface posteriormente |
+| Memory Center | Centro de Memória | Serviço genérico de salvamento; nomes de cidade exibidos nele continuam preservados |
+| Storage Room | Depósito | Serviço genérico de armazenamento |
+| Black Market | Mercado Negro | Nome genérico do serviço |
 | mechanic | mecânico; mecânica quando se refere ao ofício | Mantém a distinção entre profissão e aprendizado |
 | family business | oficina da família | O contexto liga explicitamente o negócio à mecânica |
 | vehicle | veículo | Não substituir automaticamente por tanque em contextos genéricos |
@@ -17,6 +20,7 @@ novas de termos genéricos continuam sujeitas à revisão contextual.
 | punk, upgrade | punk, upgrade | Empréstimos usuais, sem tradução forçada |
 | LOVE machine, Gibson | preservados | Nomes únicos de equipamento; não iniciar tradução de itens que exija solução complexa de espaço |
 | Eddy, Nina, Emily, Nikolai, Rachel, Newfolk | preservados | Nomes próprios, sem adaptação automática |
+| Derringer Jack | Derringer Jack | Nome preservado no conflito do bar; teste de proteção específico |
 
 Nina fala como mãe preocupada com os riscos da escolha do filho. Os trechos
 seguintes contêm diálogo familiar e uma narração de final alternativo com humor.

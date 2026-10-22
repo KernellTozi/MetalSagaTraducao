@@ -10,7 +10,8 @@ ISOS={'diary':ROOT/'work/MetalSaga-ptbr-experimento.iso',
       'fonts':ROOT/'work/MetalSaga-ptbr-fontes-v002.iso',
       'spacing':ROOT/'work/MetalSaga-ptbr-espacamento-v003.iso',
       'pilot':ROOT/'work/piloto-inicial-v001/MetalSaga-ptbr-piloto-inicial-v001.iso',
-      'region':ROOT/'work/regiao-inicial-v002/MetalSaga-ptbr-regiao-inicial-v002.iso',
+      'region':ROOT/'work/regiao-inicial-v003/MetalSaga-ptbr-regiao-inicial-v003.iso',
+      'region-v002':ROOT/'work/regiao-inicial-v002/MetalSaga-ptbr-regiao-inicial-v002.iso',
       'development':ROOT/'work/desenvolvimento/MetalSaga-ptbr-desenvolvimento.iso'}
 
 def launch_command(iso):

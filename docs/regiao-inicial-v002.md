@@ -1,5 +1,9 @@
 # Região inicial — lote consolidado v002
 
+**Histórico:** a versão atual é descrita em `docs/regiao-inicial-v003.md`.
+Os iniciadores simples apontam para a v003; para reproduzir este lote, informar
+`--draft translations/regiao-inicial-v002.json` ao compilador.
+
 ## Resultado
 
 O lote cresce de 26 para 98 registros: 85 traduzidos, sete mantidos porque são
