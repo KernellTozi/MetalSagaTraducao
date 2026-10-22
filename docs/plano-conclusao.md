@@ -59,3 +59,13 @@ Primeiro grupo concluído binariamente: 32 registros B15 traduzidos. Permanecem 
 São 5.821 registros traduzidos, com 31 acréscimos de preços, hospedagem, ônibus e MC Hamir. Permanecem 181 opacos em 34 grupos disjuntos e 14 nativos. Triagem em `reports/plano-pendencias-v003.json`; próximo grupo exclusivo: `%N$3` (19). Preservar os 158 registros a revisar / 112 combinações distintas.
 
 O usuário informou que Dr. Palm está distante no save e pediu teste conjunto em uma passagem contínua. Registrar a pendência visual e continuar o trabalho técnico e a tradução compatível sem exigir acesso imediato à cena. O roteiro cumulativo da v025 inclui preços, ônibus e construção de tanques.
+
+## Estado após o terceiro passo — v026
+
+O grupo `%N$3` foi inspecionado: os 19 corpos apresentam nomes de tanques e permanecem intactos por regra do usuário. O lookup foi parcialmente rastreado no ELF, mas não há política de edição de N. A decisão editorial não equivale a liberar o comando. Evidência em `reports/n3-preservation-v001.json`; não repetir esse grupo sem nova necessidade.
+
+O grupo `%$15` teve 18 registros retomados: 17 traduzidos (ofertas, casa, inscrição, balsas e pagamentos) e um marcador preservado. A política v008 mantém a referência e o comprimento dos segmentos; f minúsculo permanece bloqueado. São 5.838 traduções e 177 adiamentos (163 opacos, incluindo os 19 N3 preservados; 14 nativos). Triagem em `reports/plano-pendencias-v004.json`.
+
+Próximo alvo: `%T$0`, 18 registros exclusivos, depois `%I$0`, 14. A categoria heurística de revisão passou a 159 por incluir o marcador F já decidido; as outras 158 continuam pendentes de revisão contextual. Não contar o marcador ou nomes preservados como traduções novas. Manter o teste visual acumulado para o save corrido, com Dr. Palm, números e escolhas.
+
+Triagem antecipada de T0 em `reports/t0-triagem-v001.json`: 18 despedidas, 14 de boa sorte e quatro de cuidado/despedida, em três variantes de quebras. O prefixo de tratamento não prova qual entidade a variável resolve; investigar o consumidor antes de traduzir. Ainda não foi liberado.

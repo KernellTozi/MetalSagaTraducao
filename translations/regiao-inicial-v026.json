@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v025.json",
+  "name": "regiao-inicial-v026",
+  "status": "ofertas, casa, inscricao e balsas; teste visual conjunto pendente",
+  "reinsertion_policy": "fixed-record-numeric15-preserved-slots-v008",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v026.iso",
+  "resume_deferred": [
+    "map.supr.01deb784",
+    "map.msg.040f0f54",
+    "map.smsg.057cd2bc",
+    "map.smsg.0be0852c",
+    "map.msg.0be0fda0",
+    "map.smsg.0be29954",
+    "map.smsg.0db0c44c",
+    "map.smnn.0e76fb8c",
+    "map.msg.0e76fc80",
+    "map.smnn.0e771ce4",
+    "map.msgn.0e771e18",
+    "map.msgn.0e771f14",
+    "map.smnn.0e77c0e0",
+    "map.smsg.0f8324ac",
+    "map.smsg.12120d3c",
+    "map.smnn.14aa9340",
+    "map.smnn.17749d24",
+    "map.smsg.1df4c1ec"
+  ],
+  "reviewed_changes": [],
+  "preservation_decisions": {
+    "map.supr.01deb784": "Marcador numerico com F literal mantido integralmente, sem texto traduzivel."
+  },
+  "translations": {
+    "map.supr.01deb784": {
+      "body": "- %$15F -"
+    },
+    "map.msg.040f0f54": {
+      "body": "Recebeu %$15G!"
+    },
+    "map.smsg.057cd2bc": {
+      "body": "Que tal %$15G\npor isso?",
+      "choices": "Tudo bem.\tFicou maluco!?"
+    },
+    "map.smsg.0be0852c": {
+      "body": "Que tal %$15G\npor isso?",
+      "choices": "Tudo bem.\tFicou maluco!?"
+    },
+    "map.msg.0be0fda0": {
+      "body": "Estou falando sério.\tClaro que não espero\nque você me dê isso\nde graça.\tPago %$15G.\nAcho uma oferta\njusta."
+    },
+    "map.smsg.0be29954": {
+      "body": "Que tal %$15G\npor isso?",
+      "choices": "Tudo bem.\tFicou maluco!?"
+    },
+    "map.smsg.0db0c44c": {
+      "body": "Que tal %$15G\npor isso?",
+      "choices": "Tudo bem.\tFicou maluco!?"
+    },
+    "map.smnn.0e76fb8c": {
+      "body": "Eu conto como!\nMas tem um preço...\nQue tal %$15G?",
+      "choices": "Que pechincha!\tNem pensar! Muito caro."
+    },
+    "map.msg.0e76fc80": {
+      "body": "Pagou %$15G a ele!"
+    },
+    "map.smnn.0e771ce4": {
+      "body": "Sim, sou Banjo.\tAh, a casa à venda?\nBem, estou pedindo\n%$15G.\tTem interesse?\tSei que o preço é alto,\nentão não precisa\nresponder agora.",
+      "choices": "Quero comprar.\tNão posso pagar tudo isso."
+    },
+    "map.msgn.0e771e18": {
+      "body": "O quê!? ...Acho que\nnão ouviu direito.\nEu disse %$15G.\tTem mesmo todo esse\ndinheiro?"
+    },
+    "map.msgn.0e771f14": {
+      "body": "*gasp* %$15G, então...\tAh, desculpe por\ntodo esse alarde\ncom o preço...\tÉ que não achei que\nvocê pudesse pagar.\tBem, a casa agora\né sua."
+    },
+    "map.smnn.0e77c0e0": {
+      "body": "Então, pague a taxa\nde entrada de %$15G.\tVai entrar?",
+      "choices": "Pode crer!\tEstá caro demais para mim."
+    },
+    "map.smsg.0f8324ac": {
+      "body": "Que tal %$15G\npor isso?",
+      "choices": "Tudo bem.\tFicou maluco!?"
+    },
+    "map.smsg.12120d3c": {
+      "body": "Você parece um\nHunter. Quer aquele\nveículo lá fora?\tNão é um tanque, mas\nposso vendê-lo por...\n%$15G.\tO que acha?",
+      "choices": "Topo.\tNão me faça perder tempo."
+    },
+    "map.smnn.14aa9340": {
+      "body": "Olá. Quer viajar\nna nossa balsa?\tA passagem para Lorelei Bay\ncusta %$15G.",
+      "choices": "Uma passagem.\tNão, obrigado."
+    },
+    "map.smnn.17749d24": {
+      "body": "Olá. Quer viajar\nna nossa balsa?\tA passagem para Dowan:\n%$15G.",
+      "choices": "Uma passagem.\tNão, obrigado."
+    },
+    "map.smsg.1df4c1ec": {
+      "body": "Que tal %$15G\npor isso?",
+      "choices": "Tudo bem.\tFicou maluco!?"
+    }
+  }
+}

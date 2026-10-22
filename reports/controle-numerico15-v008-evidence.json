@@ -1,0 +1,116 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "argument_reader": [
+    1792560,
+    1792720
+  ],
+  "handler": [
+    1793516,
+    1793668
+  ],
+  "handler_sha256": "34410c8529e2e6613013f4f1a831fd9f3c1d44312a47e588cc81aabeebc038e9",
+  "dispatch_table": 3399008,
+  "format_offset": 3448256,
+  "format_hex": "256400",
+  "allowed_token_hex": "25243135",
+  "variable_index": 15,
+  "format": "signed 32-bit decimal; at most 11 visible ASCII bytes",
+  "excluded_suffix": "lowercase f invokes another argument and floating-point formatting",
+  "growth_allowed": false,
+  "mode": "slots",
+  "runtime_visual_status": "pending_manual_validation",
+  "grammar": "$15 reads uint32 at context+60; existing handler formats signed decimal",
+  "original_reader_probes": [
+    {
+      "input_hex": "2431354700",
+      "variable15": 0,
+      "consumed": 3,
+      "value": 0,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354700",
+      "variable15": 999,
+      "consumed": 3,
+      "value": 999,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354700",
+      "variable15": 2147483647,
+      "consumed": 3,
+      "value": 2147483647,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354700",
+      "variable15": 2147483648,
+      "consumed": 3,
+      "value": 2147483648,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354700",
+      "variable15": 4294967295,
+      "consumed": 3,
+      "value": 4294967295,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354600",
+      "variable15": 0,
+      "consumed": 3,
+      "value": 0,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354600",
+      "variable15": 999,
+      "consumed": 3,
+      "value": 999,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354600",
+      "variable15": 2147483647,
+      "consumed": 3,
+      "value": 2147483647,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354600",
+      "variable15": 2147483648,
+      "consumed": 3,
+      "value": 2147483648,
+      "variable_indices": [
+        15
+      ]
+    },
+    {
+      "input_hex": "2431354600",
+      "variable15": 4294967295,
+      "consumed": 3,
+      "value": 4294967295,
+      "variable_indices": [
+        15
+      ]
+    }
+  ],
+  "pcsx2_executed": false
+}

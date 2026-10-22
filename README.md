@@ -21,12 +21,12 @@ simular e aplicar lotes. A política binária cobre 6.882 registros em onze fam�
 recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
 
 Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-7.231 registros localmente, sem gerar outra ISO. São 5.821 registros traduzidos e
-1.410 preservados, incluindo 195 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v025.json`, com herança dos
+7.231 registros localmente, sem gerar outra ISO. São 5.838 registros traduzidos e
+1.393 preservados, incluindo 177 adiados mantidos no original.
+O rascunho PT-BR está em `translations/regiao-inicial-v026.json`, com herança dos
 lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
-abre a ISO consolidada com textos v025, fontes v002 e layout v005,
-confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v025.md).
+abre a ISO consolidada com textos v026, fontes v002 e layout v005,
+confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v026.md).
 [Glossário e regras de preservação](docs/glossario.md).
 
 O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
@@ -70,7 +70,9 @@ O iniciador habitual abre o lote atual com esse mesmo perfil de correção. A ap
 testada; outros contextos continuam sujeitos a verificação.
 
 
-Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v025 acrescenta
-31 registros de preços, hospedagem e ônibus com [variável numérica preservada](docs/controles-numericos-v007.md),
-além dos 32 diálogos B15 da v024. Os demais controles desconhecidos permanecem bloqueados.
-A receita vincula o layout v005; o teste dessas cenas será feito pelo usuário em um save corrido.
+Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v026 acrescenta
+17 registros de ofertas, casa, inscrição e balsas com [variável 15 preservada](docs/controles-numericos-v008.md).
+Um marcador numérico permanece intacto e não aumenta o total traduzido.
+Os [19 nomes de tanques N3](docs/n3-preservacao-v001.md) foram preservados por decisão contextual;
+a edição do comando continua bloqueada. O perfil de acentos v005 permanece vinculado à receita.
+O usuário fará o teste conjunto dessas cenas durante uma passagem contínua pelo save.

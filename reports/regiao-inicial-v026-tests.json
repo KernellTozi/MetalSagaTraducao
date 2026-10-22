@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "command": "python -m unittest discover -s tests -v",
+  "tests_passed": 167,
+  "duration_seconds": 604.125,
+  "exit_code": 0,
+  "log_path": "work/test-v026.log",
+  "log_sha256": "ffd7fee2936aa2d9bc0df0f8c2350ad40f2e54bc1eb0929e8e1315f5aa22fcb1",
+  "production_iso_built_during_suite": false,
+  "pcsx2_executed": false
+}

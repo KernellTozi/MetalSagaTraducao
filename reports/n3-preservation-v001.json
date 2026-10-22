@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "source_map_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "handler_window": [
+    1793196,
+    1793248
+  ],
+  "handler_sha256": "ad4b84a4542c7b5a456286ba5cb796ceaa155374e24940d6f3e1eee62431cd1e",
+  "dispatch_entry": 3399176,
+  "dispatch_va": 2837676,
+  "runtime_pointer_table_va": 4674956,
+  "variable_index": 3,
+  "reader_probes": [
+    {
+      "variable3": 0,
+      "consumed": 2,
+      "value": 0,
+      "variable_indices": [
+        3
+      ]
+    },
+    {
+      "variable3": 1,
+      "consumed": 2,
+      "value": 1,
+      "variable_indices": [
+        3
+      ]
+    },
+    {
+      "variable3": 18,
+      "consumed": 2,
+      "value": 18,
+      "variable_indices": [
+        3
+      ]
+    }
+  ],
+  "interpretation": "N reads a numeric argument, then loads a string pointer from table + result*4; $3 obtains the argument from variable 3.",
+  "records": [
+    {
+      "id": "map.msgn.0be2befc",
+      "record_sha256": "0eb88fa3e02f93b3a6c413bad36bfc8e5b45063bab371c28d9aacbaff05d4265",
+      "source_lengths": [
+        12,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2bf40",
+      "record_sha256": "c78bca9987a5176b0b35681121db0da27f1ce2658f15366f27795d15172210a9",
+      "source_lengths": [
+        12,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2bf84",
+      "record_sha256": "b18a87b40e7fc805011f645f9270fbfc5b1c53b60415263f558b03ee1e019157",
+      "source_lengths": [
+        15,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2bfc8",
+      "record_sha256": "66a405d5114e3892b78181d645edbabd0be67834d131e05dd4e5032b85ee3758",
+      "source_lengths": [
+        15,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c00c",
+      "record_sha256": "888003dca8be7285e67aaf4ebb05b764746ee6e735220001ce56717e6142172b",
+      "source_lengths": [
+        17,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c054",
+      "record_sha256": "0ca67284a395afd8d900314254ae9b6601d8ad8058bc7156777e7e3bc1989174",
+      "source_lengths": [
+        13,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c098",
+      "record_sha256": "103cdcdc27e2646c88074c6887ff83efe894ef2d5deb090fd2ed2a9717ec873a",
+      "source_lengths": [
+        17,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c0e0",
+      "record_sha256": "6b717e33d11b6662d0452acc9edc88ad44b095ccc86b08715b1d3119e4a2a022",
+      "source_lengths": [
+        17,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c128",
+      "record_sha256": "ab9c6e8d489e0e7684d364a521c2f22814b114a61542f3b5e3a24f6c80eb9d02",
+      "source_lengths": [
+        12,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c16c",
+      "record_sha256": "227fc864fecf0b2bcfc6eca4b0dc0188d7fa8db2fb237955ad91e012e0a3571d",
+      "source_lengths": [
+        13,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c1b0",
+      "record_sha256": "07d28520797a0482cbc4de2d0f0b4241b291c56db89c5eaeb30e8e69892f1868",
+      "source_lengths": [
+        13,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c1f4",
+      "record_sha256": "9c49b321913e80416dc90e19337b5908054dd69bced2a33e51117d1f9244732d",
+      "source_lengths": [
+        13,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c238",
+      "record_sha256": "808f1c2b240c044834a82a6a91b0f61ffa30e358cd93bd0f66aed928a521406d",
+      "source_lengths": [
+        14,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c27c",
+      "record_sha256": "c0922d849b7b66696b3191972fe516bbb413766065a80fd82751cebdd17f268c",
+      "source_lengths": [
+        16,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c2c4",
+      "record_sha256": "28c14e1a6f41906729a226be1ff2da63bf964ed4d7561af7c9e9bfd9462a7149",
+      "source_lengths": [
+        13,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c308",
+      "record_sha256": "985adaec4ed80337c9ef0265477df11ade12c3f81d5f1ff021944e98f42c11c5",
+      "source_lengths": [
+        13,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c34c",
+      "record_sha256": "d0436e2186a3b645f7d3bd8446dfa32c9977728ee7003633ed8c44f0284c1b29",
+      "source_lengths": [
+        14,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c390",
+      "record_sha256": "729b27d495043db10ab039ea80dd5f513d95e2b8bfbd7aec59092e5840e5959f",
+      "source_lengths": [
+        14,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    },
+    {
+      "id": "map.msgn.0be2c3d4",
+      "record_sha256": "dc094900ec609335ad0e649bbdb71664c39d115e3d8724bec47a7fb5b87bf498",
+      "source_lengths": [
+        11,
+        3
+      ],
+      "decision": "Preservar nomes de tanques e referencia dinamica, sem traducao ou alteracao de bytes."
+    }
+  ],
+  "count": 19,
+  "editing_enabled": false,
+  "still_technically_deferred": true,
+  "pcsx2_executed": false,
+  "limits": [
+    "Pointer table content and caller values not fully traced",
+    "Not a canonical scene or character identifier",
+    "Preservation decision does not approve N syntax for editing"
+  ]
+}

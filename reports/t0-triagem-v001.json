@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "source_map_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "records": [
+    {
+      "id": "map.msg.057cdbcc",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.0a6111f0",
+      "record_sha256": "0abd73c2a0d41de3845d1c071a445c7b19d3a60781b38f71694f41953ad69699",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.0a611a8c",
+      "record_sha256": "c6adc7902ec508fc3bb294e9af2a7ecc6cef3d53a46cb7f574091238f066f530",
+      "source_byte_length": 26,
+      "context_group": "take_care",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.0af879b0",
+      "record_sha256": "0abd73c2a0d41de3845d1c071a445c7b19d3a60781b38f71694f41953ad69699",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.0af8824c",
+      "record_sha256": "c6adc7902ec508fc3bb294e9af2a7ecc6cef3d53a46cb7f574091238f066f530",
+      "source_byte_length": 26,
+      "context_group": "take_care",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.0be074fc",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.0db0ab6c",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.0e76778c",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.0f831e1c",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.1033bafc",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.12829490",
+      "record_sha256": "0abd73c2a0d41de3845d1c071a445c7b19d3a60781b38f71694f41953ad69699",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.12829e2c",
+      "record_sha256": "ad0a6a7dff5581164b277adb66bfb64d28452f543dce45b80415d5aae7e6d884",
+      "source_byte_length": 26,
+      "context_group": "take_care",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.1370a240",
+      "record_sha256": "0abd73c2a0d41de3845d1c071a445c7b19d3a60781b38f71694f41953ad69699",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.14aa315c",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.1773ee0c",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    },
+    {
+      "id": "map.msg.1d0b4360",
+      "record_sha256": "a54a9ee504e62d0b4f798f6246d19106bd1ffc37f7f0422c009f05c8082ffd4f",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.1d0b4d3c",
+      "record_sha256": "ad0a6a7dff5581164b277adb66bfb64d28452f543dce45b80415d5aae7e6d884",
+      "source_byte_length": 26,
+      "context_group": "take_care",
+      "line_breaks": 1
+    },
+    {
+      "id": "map.msg.1df46edc",
+      "record_sha256": "9c016a23110fd4007875ea8e40fce41f8deda69cab2a9e34734b039d31d85ec2",
+      "source_byte_length": 20,
+      "context_group": "good_luck",
+      "line_breaks": 0
+    }
+  ],
+  "count": 18,
+  "groups": [
+    {
+      "context": "good_luck",
+      "line_breaks": 0,
+      "count": 9
+    },
+    {
+      "context": "good_luck",
+      "line_breaks": 1,
+      "count": 5
+    },
+    {
+      "context": "take_care",
+      "line_breaks": 1,
+      "count": 4
+    }
+  ],
+  "dispatch_va": 2837804,
+  "next_requirement": "Trace T consumer, lookup and limits before opt-in; do not infer canonical identity from Mr. prefix",
+  "editing_enabled": false,
+  "pcsx2_executed": false,
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71"
+}

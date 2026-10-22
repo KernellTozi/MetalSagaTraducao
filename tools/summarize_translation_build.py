@@ -17,9 +17,9 @@ def summarize(folder,tests_passed=None):
     records=document['entries']
     return {'schema':1,'metadata_source':'completed build report; no new runtime validation',
         'draft_sources':report['draft_sources'],'source_sha256':report['source_sha256'],
-        'reinsertion_policy':report['policy'],'named_choice_evidence':report.get('named_choice_evidence'),'b15_evidence':report.get('b15_evidence'),'numeric1_evidence':report.get('numeric1_evidence'),
+        'reinsertion_policy':report['policy'],'named_choice_evidence':report.get('named_choice_evidence'),'b15_evidence':report.get('b15_evidence'),'numeric1_evidence':report.get('numeric1_evidence'),'numeric15_evidence':report.get('numeric15_evidence'),
         'scope':draft['scope'],'accepted':report['accepted'],'unchanged':report['unchanged'],
-        'refused':report['refused'],'deferred':report['deferred'],
+        'refused':report['refused'],'deferred':report['deferred'],'preservation_decisions':report.get('preservation_decisions',{}),
         'translated_segments':sum(s['translation']!=s['source'] for e in records for s in e['segments']),
         'ssd_groups':len({e['block_offset'] for e in records}),
         'terminology_issues':report['terminology_issues'],
