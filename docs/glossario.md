@@ -132,6 +132,32 @@ No diálogo do bar sobre idade, conservar 21 e a marcação `*cough*`; não adap
 o número à legislação brasileira. Preservar o aviso que relaciona álcool e
 artilharia.
 
+Na v015, Gluteus Maximism permanece como denominação do culto. Father Muscle,
+St. Arnold e Turboflex ficam preservados. Muscle Cathedral recebe Catedral
+Muscular; executive believer recebe fiel dirigente. A fala solene e acolhedora
+do sermão contrasta com a intimidação dos apóstatas. Manter essa contradição,
+as piadas sobre treino e a alienação de Marco diante da procura de Elena.
+O final conserva as seis libras de carne e as cinco milhas, sem arredondar unidades.
+
+Em Lorelei Bay, preservar Denture Squad, Rouge Rogues, Oliver e Marilyn Grey.
+O interlocutor que procura tanques fala um português deslocado, com construções
+como «quando o depois chegar»; é uma característica da fala original, não o tom
+geral da tradução. Oliver gagueja e explica demais, inclusive a obviedade da
+gazua única; seus agressores alternam falsa cordialidade e ameaça.
+
+Marilyn Grey fala com precisão e impaciência nos atendimentos, mas demonstra
+pesar nas cenas sobre memória e perda. Não transformar essas falas em piadas
+nem acrescentar diagnósticos. Professor Grey recebe Professora Grey. Alpha Unit,
+Armored 8-Wheeler, Manhunter, Mosquito e Tin Tunas permanecem como identificadores.
+Os latidos continuam literais; as quatro unidades do laboratório mantêm a ordem
+1, 3, 4, 2. O texto sobre memória visual dos pombos conserva 300 objetos.
+
+As direções de caça em Lorelei Bay mantêm noroeste junto às montanhas e deserto
+ao sul. Ruínas, salas e instalações genéricas podem receber nomes portugueses;
+Junkyard e as demais cidades continuam preservadas. A reação curta `Não...`
+mantém a hesitação e cabe com acento no slot de sete bytes, retirando apenas a
+exclamação. Isso não amplia a exceção ASCII `nao` do registro autorizado.
+
 Preservar a ironia do narrador e a informalidade da família. Evitar abreviações
 artificiais para caber em bytes. Caso uma tradução fiel exceda o slot, bloquear
 o registro e investigar capacidade/realocação, sem apagar significado.

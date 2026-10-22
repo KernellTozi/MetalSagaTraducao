@@ -8,7 +8,7 @@ from unittest import mock
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,load_draft
+from build_translation_pilot import compile_draft,DRAFT,DEFAULT_DRAFT,REGION_V2_DRAFT,REGION_V3_DRAFT,REGION_V4_DRAFT,REGION_V5_DRAFT,REGION_V6_DRAFT,REGION_V7_DRAFT,REGION_V8_DRAFT,REGION_V9_DRAFT,REGION_V10_DRAFT,REGION_V11_DRAFT,REGION_V12_DRAFT,REGION_V13_DRAFT,REGION_V14_DRAFT,load_draft
 from reinsertion import SOURCE
 
 
@@ -312,7 +312,7 @@ class PilotTests(unittest.TestCase):
         proposal,pending=prepare(self.data,parent,start=0x1c64a06c)
         self.assertEqual(proposal['scope']['records'],1963)
         self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(291,100,9))
-        draft,sources=load_draft(DEFAULT_DRAFT)
+        draft,sources=load_draft(REGION_V14_DRAFT)
         current,patches,report=compile_draft(self.data,draft)
         self.assertTrue(report['valid'])
         self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(1572,391,0))
@@ -332,6 +332,39 @@ class PilotTests(unittest.TestCase):
         route=body('map.msg.1d0afd58')
         for part in ('norte','noroeste','sul de East Zero','Grande Destruição'):
             self.assertIn(part,route)
+        exceptions={e['id'] for e in current['entries'] for s in e['segments']
+                    if re.search(r'\bnao\b',s['translation'])}
+        self.assertEqual(exceptions,{'map.msg.1df8bec0'})
+
+    def test_v015_eight_hundred_records_preserve_prior_lot_and_context(self):
+        import re
+        from prepare_translation_lot import prepare
+        parent,_=load_draft(REGION_V14_DRAFT)
+        old,_,_=compile_draft(self.data,parent)
+        proposal,pending=prepare(self.data,parent,start=0x169b91dc)
+        self.assertEqual(proposal['scope']['records'],2763)
+        self.assertEqual((len(pending),len(proposal['aliases']),len(proposal['deferred'])),(469,300,31))
+        draft,sources=load_draft(DEFAULT_DRAFT)
+        current,patches,report=compile_draft(self.data,draft)
+        self.assertTrue(report['valid'])
+        self.assertEqual((report['accepted'],report['unchanged'],report['refused']),(2165,598,0))
+        self.assertEqual(current['entries'][800:],old['entries'])
+        self.assertEqual(len(sources),15)
+        self.assertEqual(len(report['deferred']),120)
+        self.assertFalse(set(draft['deferred'])&{p['id'] for p in patches})
+        by_id={e['id']:e for e in current['entries']}
+        def body(key):return by_id[key]['segments'][0]['translation']
+        self.assertIn('Gluteus Maximism',body('map.msg.169b9388'))
+        self.assertIn('seis\nlibras',body('map.msg.169befb4'))
+        self.assertIn('cinco milhas',body('map.msg.169befb4'))
+        self.assertIn('300 objetos',body('map.msg.19f541b4'))
+        for part in ('Marilyn Grey','Hunter'):
+            self.assertIn(part,body('map.msg.17746ae4'))
+        route=body('map.msgn.1774bdf4')
+        for part in ('Tin Tunas','noroeste','ao sul'):
+            self.assertIn(part,route)
+        self.assertEqual(body('map.msg.1afd9694'),'Não...')
+        self.assertEqual(body('map.msg.1774e8e8'),body('map.msg.169bffc8'))
         exceptions={e['id'] for e in current['entries'] for s in e['segments']
                     if re.search(r'\bnao\b',s['translation'])}
         self.assertEqual(exceptions,{'map.msg.1df8bec0'})
