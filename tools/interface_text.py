@@ -98,6 +98,7 @@ def compile_draft(data,draft):
         if decode(after)!=target['translation']:raise ValueError('UI Unicode round-trip failed')
         if controls(before)!=controls(after):raise ValueError('UI format/control sequence changed')
         if re.match(rb' *',before).group()!=re.match(rb' *',after).group():raise ValueError('UI leading alignment spaces changed')
+        if re.search(rb' *$',before).group()!=re.search(rb' *$',after).group():raise ValueError('UI trailing alignment spaces changed')
         if before==after:raise ValueError('UI draft must contain actual changes')
         # Keep both the original address and original terminating NUL. Do not
         # claim padding, modify pointer tables, expand literals or move strings.

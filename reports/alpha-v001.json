@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "source": "work/interface-v001/MetalSaga-ptbr-interface-v001.iso",
+  "alpha": "dist/alpha-v001/MetalSaga-ptbr-alpha-v001.iso",
+  "sha256": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "size": 1704427520,
+  "read_only": true,
+  "outside_work_retention": true,
+  "source_commit": "0ce9b22",
+  "recipe": "translations/interface-v001.json",
+  "base_dialogue_recipe": "translations/regiao-inicial-v029.json",
+  "layout_profile": "ptbr-layout-v005",
+  "snapshot_status": "Archived at user request; not a new full-game visual approval",
+  "recipe_sha256": "975a831c8bf7e597138e49ee3619d0fe32d5f67ccf80d2d217bb7e3dabee4b7b"
+}

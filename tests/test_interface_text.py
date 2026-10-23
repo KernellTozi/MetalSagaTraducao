@@ -85,5 +85,21 @@ class InterfaceTests(unittest.TestCase):
         draft=self.one('elf.ui.0032ca60');draft['entries'][0]['translation']='Sem msg'
         with self.assertRaisesRegex(ValueError,'alignment'):compile_draft(self.data,draft)
 
+    def test_v002_preserves_v001_and_exact_new_ids(self):
+        draft=json.loads((ROOT/'translations/interface-v002.json').read_text(encoding='utf-8'))
+        by_id={e['id']:e for e in draft['entries']}
+        for old in self.recipe['entries']:self.assertEqual(by_id[old['id']],old)
+        self.assertEqual(set(by_id)-{e['id'] for e in self.recipe['entries']},set(draft['added_ids']))
+        patches,report=compile_draft(self.data,draft)
+        self.assertEqual(report['accepted'],273)
+        self.assertEqual(len(draft['added_ids']),185)
+        self.assertEqual(len(patches),len(by_id))
+
+    def test_trailing_alignment_spaces_preserved(self):
+        draft=json.loads((ROOT/'translations/interface-v002.json').read_text(encoding='utf-8'))
+        draft['entries']=[next(e for e in draft['entries'] if e['id']=='elf.ui.00349960')]
+        draft['entries'][0]['translation']='Grana'
+        with self.assertRaisesRegex(ValueError,'trailing alignment'):compile_draft(self.data,draft)
+
 
 if __name__=='__main__':unittest.main()

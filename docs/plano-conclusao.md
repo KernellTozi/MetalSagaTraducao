@@ -2,7 +2,7 @@
 
 ## Ordem atual, definida pelo usuário
 
-1. **Em execução: HUD, Satcom, mensagens, menus e diário.** Consolidar strings com referências no ELF, separar rótulos rasterizados e conteúdo em arquivos próprios. Primeiro lote: 88 strings em `docs/interface-v001.md`. Confirmar apresentação e acentos por tipo de tela; manter os diálogos v029.
+1. **Em execução: HUD, Satcom, mensagens, menus e diário.** Consolidar strings com referências no ELF, separar rótulos rasterizados e conteúdo em arquivos próprios. Lote atual: 273 strings (185 novas) em `docs/interface-v002.md`; alpha v001 preservada separadamente em dist/. Confirmar apresentação e acentos por tipo de tela; manter os diálogos v029.
 2. **Depois: itens/equipamentos.** Extrair tabelas de S_PACK.SDA e investigar os arquivos de dados correspondentes, preservando nomes únicos. Não iniciar essa etapa antes de avançar a interface.
 3. **Por último: pendências pequenas do MAP.MCT.** Congelar os 123 adiamentos v029 (109 opacos e 14 nativos), sem perder receitas/evidências. %$0/%$2 deixam de ser o próximo alvo imediato.
 4. Revisão contextual e passagem funcional consolidada continuam necessárias.
@@ -96,3 +96,10 @@ São 5.870 traduções, 145 adiamentos (131 opacos em 29 grupos e 14 nativos), c
 Os 22 registros N0 foram traduzidos: hospedagem, recebimento/tutorial de veículos, anúncio de nome, campo arado, referência a músicas e comemoração de Dr. Palm. A política v011 confere o lookup de ponteiros N e o leitor no ELF original, com instruções executadas em memória simulada. Mantém a diferença entre N0 literal e N$0 indireto; não libera N3 ou uma entidade canônica única. Drive permanece igual à interface.
 
 São 5.892 traduções, 123 adiamentos (109 opacos em 28 grupos e 14 nativos), com triagem em `reports/plano-pendencias-v007.json`. Próximo alvo: `%$0` e `%$2`, 12 registros exclusivos cada, após confirmar os argumentos e sufixos. Não promover os caminhos fracionários nem variantes desconhecidas por contagem. Manter os nomes N3 e o teste visual conjunto no save corrido.
+
+
+## Interface v002 e alpha
+
+A rodada ampliada acrescenta 185 strings, com 273 acumuladas, em opções, status, gerenciamento de veículos, nomeação, campo e minijogos. A preservação integral da interface v001 e do MAP v029 acompanha a comparação da imagem inteira. Os próximos alvos permanecem na interface: comprovar o wrapper das estatísticas/cabeçalhos, localizar avisos de Memory Card e conteúdo de mensagens/ajuda, e preparar importação fiel dos textos gráficos. Não voltar aos pequenos controles MAP antes desses conjuntos.
+
+A alpha escolhida pelo usuário é a interface v001, copiada para dist/alpha-v001/ fora da retenção e com hash conferido; não promovê-la implicitamente para a versão atual. Mantêm-se dez imagens de trabalho além dessa exceção permanente. Ver docs/alpha-v001.md.

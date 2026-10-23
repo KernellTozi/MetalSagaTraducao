@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "scope": "Only manually reviewed proposals in this batch; not all remaining UI",
+  "pending": [
+    {
+      "id": "elf.ui.0031fd48",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 12,
+      "proposed_bytes": 14
+    },
+    {
+      "id": "elf.ui.0031fd78",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 9,
+      "proposed_bytes": 10
+    },
+    {
+      "id": "elf.ui.0031fd88",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 9,
+      "proposed_bytes": 7
+    },
+    {
+      "id": "elf.ui.0031fda8",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 12,
+      "proposed_bytes": 14
+    },
+    {
+      "id": "elf.ui.0031fde8",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 15,
+      "proposed_bytes": 17
+    },
+    {
+      "id": "elf.ui.0031fe20",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 8,
+      "proposed_bytes": 9
+    },
+    {
+      "id": "elf.ui.0032b690",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 9,
+      "proposed_bytes": 8
+    },
+    {
+      "id": "elf.ui.0032bd78",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 20,
+      "proposed_bytes": 21
+    },
+    {
+      "id": "elf.ui.0033b3b8",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 22,
+      "proposed_bytes": 15
+    },
+    {
+      "id": "elf.ui.003495a0",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 3,
+      "proposed_bytes": 4
+    },
+    {
+      "id": "elf.ui.00349698",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 4,
+      "proposed_bytes": 5
+    },
+    {
+      "id": "elf.ui.003496f0",
+      "reason": "revisao contextual ou rotulo curto",
+      "source_bytes": 4,
+      "proposed_bytes": 5
+    },
+    {
+      "id": "elf.ui.00315e90",
+      "reason": "rotulo curto e espacos finais de alinhamento preservados"
+    },
+    {
+      "id": "elf.ui.00315ea0",
+      "reason": "rotulo curto e espacos finais de alinhamento preservados"
+    }
+  ]
+}
