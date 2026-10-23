@@ -1,0 +1,30 @@
+{
+  "policy": "title-approved-complete-word-art-v010",
+  "parent": {
+    "recipe": "translations/interface-graphics-v009.json",
+    "sha256": "259dc1d174ad75106ad3519927caece225acf152d5456ce5d4d5c9fc32038b51"
+  },
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "words": [
+    {
+      "text": "NOVO JOGO",
+      "path": "work/title-wordart-v001/preparado/novo-jogo-paleta-original.png",
+      "file_sha256": "5d28eb710b8b037b88fa9f3196e3d65cff382b14320e42bbc0338aba27852fc6",
+      "indices_sha256": "f87b84a0c98219e356aa6113b5497479a639fcb9d963a1b0a817aeb96d57c010"
+    },
+    {
+      "text": "RETOMAR",
+      "path": "work/title-wordart-v001/preparado/retomar-paleta-original.png",
+      "file_sha256": "0bdf6e5b200409f36157f40ddd4845f6dfc426ceafa97364872dd90aafe1f172",
+      "indices_sha256": "3739cba8793b80eddba78a5947ac2628f6d3f0eacacc61c8ab87af09d5d7aaec"
+    },
+    {
+      "text": "INSTALAR",
+      "path": "work/title-wordart-v001/preparado/instalar-paleta-original.png",
+      "file_sha256": "2e857bf53f752f92a6e8696e50649fb76251a9f08e31acf85b84cad4e28e4788",
+      "indices_sha256": "9224762f1aa06704f60d2da4f49ba8528eccad4323f96b5770a28ac5008bfa88"
+    }
+  ],
+  "artwork_approval": "User: Otimo, pode aplicar essa versao",
+  "master_sha256": "ed5b8dc4e2a631d1855a812e9e2c221dc721d1e4a226956bd6bdd6bf7b46f422"
+}

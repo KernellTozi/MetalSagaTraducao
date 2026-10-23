@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "version": "interface-v014",
+  "previous": "interface-v013",
+  "map_changed": 5892,
+  "map_unchanged": 1339,
+  "map_refused": 0,
+  "interface_count": 641,
+  "graphic_labels": 44,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v014/MetalSaga-ptbr-interface-v014.iso",
+    "size": 1704427520,
+    "sha256": "fa516e211df45c868dc9958cfd8b9e62cfb6d737cd8662b3170f5b2fa757fbbf"
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v013.json",
+    "new_recipe": "translations/interface-v014.json",
+    "source_iso_sha256": "28c941ebea3c9a587495175f9fea1638cfacb0ed9e93427c5192666950e81d12",
+    "output_iso_sha256": "fa516e211df45c868dc9958cfd8b9e62cfb6d737cd8662b3170f5b2fa757fbbf",
+    "iso_size": 1704427520,
+    "changed_bytes": 9284,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "title.texture.0",
+        "resource": "DATA/RDATA/RTITLE.SDA",
+        "iso_offset": 1241078832,
+        "size": 65536
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "approved_artwork": [
+    {
+      "text": "NOVO JOGO",
+      "path": "work/title-wordart-v001/preparado/novo-jogo-paleta-original.png",
+      "file_sha256": "5d28eb710b8b037b88fa9f3196e3d65cff382b14320e42bbc0338aba27852fc6",
+      "indices_sha256": "f87b84a0c98219e356aa6113b5497479a639fcb9d963a1b0a817aeb96d57c010"
+    },
+    {
+      "text": "RETOMAR",
+      "path": "work/title-wordart-v001/preparado/retomar-paleta-original.png",
+      "file_sha256": "0bdf6e5b200409f36157f40ddd4845f6dfc426ceafa97364872dd90aafe1f172",
+      "indices_sha256": "3739cba8793b80eddba78a5947ac2628f6d3f0eacacc61c8ab87af09d5d7aaec"
+    },
+    {
+      "text": "INSTALAR",
+      "path": "work/title-wordart-v001/preparado/instalar-paleta-original.png",
+      "file_sha256": "2e857bf53f752f92a6e8696e50649fb76251a9f08e31acf85b84cad4e28e4788",
+      "indices_sha256": "9224762f1aa06704f60d2da4f49ba8528eccad4323f96b5770a28ac5008bfa88"
+    }
+  ],
+  "tests": {
+    "full_interface_suite_passed": 75,
+    "suite_elapsed_seconds": 239.091,
+    "additional_exact_transport_test_passed": 1,
+    "transport_elapsed_seconds": 19.662,
+    "total_unique_tests_passed": 76
+  },
+  "artwork_approved_by_user": true,
+  "pcsx2_executed": false,
+  "runtime_visual_status": "pending_user_verification",
+  "onedrive_copied": false,
+  "work_iso_count": 10
+}

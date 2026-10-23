@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v013.json",
+  "new_recipe": "translations/interface-v014.json",
+  "source_iso_sha256": "28c941ebea3c9a587495175f9fea1638cfacb0ed9e93427c5192666950e81d12",
+  "output_iso_sha256": "fa516e211df45c868dc9958cfd8b9e62cfb6d737cd8662b3170f5b2fa757fbbf",
+  "iso_size": 1704427520,
+  "changed_bytes": 9284,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "title.texture.0",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "iso_offset": 1241078832,
+      "size": 65536
+    }
+  ],
+  "pcsx2_executed": false
+}

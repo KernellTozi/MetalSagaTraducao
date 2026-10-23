@@ -124,6 +124,9 @@ def render(record,row):
 
 
 def compile_graphics(config):
+    if config.get('policy') == 'title-approved-complete-word-art-v010':
+        from title_wordart import compile_wordart
+        return compile_wordart(config)
     if config.get('policy') == 'title-native-separated-labels-credit-v009':
         from title_authentic import compile_authentic
         return compile_authentic(config)
