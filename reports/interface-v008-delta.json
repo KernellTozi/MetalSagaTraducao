@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v007.json",
+  "new_recipe": "translations/interface-v008.json",
+  "source_iso_sha256": "83eb86509b5e97af5af5b05aabc1ae87ee6f638e6951e378339efab0aa19f94f",
+  "output_iso_sha256": "b620386274561ce9a69bbdfb9ff3db880eefb51db669d4f64278598fa743ca2b",
+  "iso_size": 1704427520,
+  "changed_bytes": 986,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "fbs.texture.3",
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "iso_offset": 1529024,
+      "size": 32768
+    }
+  ],
+  "pcsx2_executed": false
+}

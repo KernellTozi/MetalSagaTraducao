@@ -124,6 +124,9 @@ def render(record,row):
 
 
 def compile_graphics(config):
+    if config.get('policy') in ('satcom-original-raster-typeface-v004','satcom-native-baseline-v005'):
+        from satcom_native_font import compile_native
+        return compile_native(config)
     if config.get('policy')!=POLICY:raise ValueError('Unknown graphic policy')
     raw=original(RESOURCE)
     if config.get('source_sha256')!=sha(raw):raise ValueError('Graphic recipe source mismatch')

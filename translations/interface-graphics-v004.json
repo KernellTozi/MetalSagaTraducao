@@ -1,0 +1,163 @@
+{
+  "policy": "satcom-original-raster-typeface-v004",
+  "source_sha256": "5b53111e7e3ee309f813c6cf3284277774f3c5d0aa2b0d6b53b39fed4884c470",
+  "base_recipe_sha256": "86ad57c3bdd885cac23cf280c64b346979b49232a04c287b76354dc2ecf7c172",
+  "entries": [
+    {
+      "id": "fbs.satcom.00",
+      "translation": "Lojas",
+      "ganm_record_sha256": "49a63b0075b07557bfc4a922ed7d72a626269652d0ea499926221002106dbe1c",
+      "mask_sha256": "3abea0a51c31828e0e32329c5f65294c1162e4d2cb918bb34f7666f4c0b48720"
+    },
+    {
+      "id": "fbs.satcom.02",
+      "translation": "Dados",
+      "ganm_record_sha256": "f3ba1f3e4604e658f537c8fcf80c599203f1c73738dbc7b24a24275c99676505",
+      "mask_sha256": "6fe9bab67dc1841bf04f70782812d0e17ad9864404f30510720a62b3852bcd76"
+    },
+    {
+      "id": "fbs.satcom.03",
+      "translation": "Caça",
+      "ganm_record_sha256": "e90ae38360efdd1c45d85d782c5fcffe2506c163ff90965c9ef8ef3c28f7acd3",
+      "mask_sha256": "96b923343726af6b806f663d640960d656ceac08f2e65618e5abfcf38acd0a75"
+    },
+    {
+      "id": "fbs.satcom.04",
+      "translation": "Procurados",
+      "ganm_record_sha256": "6990d79cc9ff31647a0d42e1d6e027f5aad383eaf9eadb2d969e95f0520bba3b",
+      "mask_sha256": "a48b697bbac3fceeda25efbdbb03bd7d050ae1f26a7f37427d4401174d4c40e1"
+    },
+    {
+      "id": "fbs.satcom.05",
+      "translation": "Mensagens",
+      "ganm_record_sha256": "069025e92496d1e236da1639c6bd033d421ab3dea2e8db6c462200ef9862f805",
+      "mask_sha256": "a76f920ef594686f52ccfbbcb6931bfe650f06cb9b1d9477937bf123cfb47288"
+    },
+    {
+      "id": "fbs.satcom.06",
+      "translation": "Alerta",
+      "ganm_record_sha256": "12a066be60972bbcc9ad2abe778eba9a669bc5ae2f92ec0ff39009f2aca59018",
+      "mask_sha256": "86dcf6ec0f0628708e6583ef5337adfcba745a656637593197968e38ea33470f"
+    },
+    {
+      "id": "fbs.satcom.07",
+      "translation": "Música",
+      "ganm_record_sha256": "fef77098856ab06ae0708620a4ead9c20e1f1f51d08e904c7a35c075cb3eadc5",
+      "mask_sha256": "bfc95a5f7fad50ac82cd853f41eb492b52538fd1f04fad3a593ed1e613ae8251"
+    },
+    {
+      "id": "fbs.satcom.08",
+      "translation": "Jogos",
+      "ganm_record_sha256": "39916657430a59796b4be8b88fd438c2533cd649e289462332decf30e4565d38",
+      "mask_sha256": "a94b839f147eccd88e4fe94b2d5425c47cb5a48ef56563190d5a5a1a924b8955"
+    },
+    {
+      "id": "fbs.satcom.09",
+      "translation": "Ajustes",
+      "ganm_record_sha256": "c10b4932115d0c543bf27598bae7b14f6e9eb30dd9b9ac20c4cc4c689099c7f2",
+      "mask_sha256": "f62d25f9f76d7439cc7edf44638f2f7a9de554dc5bbbcfc2656172d89441a916"
+    },
+    {
+      "id": "fbs.satcom.10",
+      "translation": "Diário",
+      "ganm_record_sha256": "f1d78cd1575ee116853b3aea92caf4e2b34c950a54044aba6dddae7ea7f5294f",
+      "mask_sha256": "aefc0fa8f3d8e7fc5b3c92ef90f3f61efd462ff47c4a21df444a768bfee5c4de"
+    },
+    {
+      "id": "fbs.satcom.11",
+      "translation": "Ajuda",
+      "ganm_record_sha256": "39aa2dd99c2f3afc670d25b11034e30927eee285d6d0846c5bc093d21a4e8368",
+      "mask_sha256": "d0af8cc5fd35985626158a6a7bf11333aeef7d8919af0c9a4a3f190e9a4fe6fd"
+    },
+    {
+      "id": "fbs.satcom.12",
+      "translation": "Lojas",
+      "ganm_record_sha256": "0c49b188fdfb11b9353e7c83b586de2210842d8ef68109a81970af535bc93a0b",
+      "mask_sha256": "e1b2aaa0ffd5f0e3dc6ef5953edfc956866dd66fee10de9c3daf9b2653914d9c"
+    },
+    {
+      "id": "fbs.satcom.14",
+      "translation": "Dados",
+      "ganm_record_sha256": "21d624411e8e4581859e69a5bbc6aecf0da41595f064c1433efde9ed3cd8f7f7",
+      "mask_sha256": "d1adb34dedc27d6c7297f1b45bf5ffe648cfc374be23c2bd38b4b56f232779f7"
+    },
+    {
+      "id": "fbs.satcom.15",
+      "translation": "Caça",
+      "ganm_record_sha256": "09fd0ab805e362cdc3ab08b43252901fab9316d668c2f4ac2a70c68141dfa1d7",
+      "mask_sha256": "70dad47eac4bef2092dd9828445e01eaf1b3f9e36c22d4cca5200ca562b98658"
+    },
+    {
+      "id": "fbs.satcom.16",
+      "translation": "Procurados",
+      "ganm_record_sha256": "f6942224f1a7669aa4709d910ce4993a3e58ecac43c4152401017be930bab319",
+      "mask_sha256": "11961eeec9258cc17e27334dc48426c9a75016ff1c430bc2c7f7fb9101f464c3"
+    },
+    {
+      "id": "fbs.satcom.17",
+      "translation": "Mensagens",
+      "ganm_record_sha256": "18596e198fb58a6f3d8ae8a06339882e780f4994ebefd35071af52ae2deb7cf9",
+      "mask_sha256": "70417870aac11ff946c71ba662208b25412869202494857d019c9d07857b4477"
+    },
+    {
+      "id": "fbs.satcom.18",
+      "translation": "Alerta",
+      "ganm_record_sha256": "c57459e81b2447dd49fa7d0356427d1c668f5b8e2088768451f226f7a6d52dfa",
+      "mask_sha256": "ae0e39bcd1fe61a3ef1989a301ffd520df63032de08f9b4ac03fd9c7819ba131"
+    },
+    {
+      "id": "fbs.satcom.19",
+      "translation": "Música",
+      "ganm_record_sha256": "a6d529b0fad49f02e9ff8a7891b146143a826939e411fcd0d75ae1a67f89c4f7",
+      "mask_sha256": "c5f6cdeb9addffc8c4d006250bf80035d03fe10b3c8fbcfa03f106b36d955710"
+    },
+    {
+      "id": "fbs.satcom.20",
+      "translation": "Jogos",
+      "ganm_record_sha256": "732dd7d6d6a3e75403629024d1d9d990e007b35258eca674f4a09fa52360117b",
+      "mask_sha256": "898049ea9db5b1b50cc858690887a0f672060f8548b542169f236e86dfa816f5"
+    },
+    {
+      "id": "fbs.satcom.21",
+      "translation": "Ajustes",
+      "ganm_record_sha256": "f3f7519c4e5b936646d9fcf80036c881b6b982acbf41d3963c40d002bdc469f1",
+      "mask_sha256": "7518af5da477a8a18cab5aa89f0c98b6abbc95ce47e7f5f8eebf68c001a1db7b"
+    },
+    {
+      "id": "fbs.satcom.22",
+      "translation": "Diário",
+      "ganm_record_sha256": "50df946f6c33291882e199111c2e1c9e90db10f2c3681c841d3bd091e22aa036",
+      "mask_sha256": "b499db018160bb5fa47a0a77a5c05be798ac69496744030b8bd8e72dc1f0e645"
+    },
+    {
+      "id": "fbs.satcom.23",
+      "translation": "Ajuda",
+      "ganm_record_sha256": "bdbccf523d25e335e70c3ca12e8891a1a23acb4afe82ebb82d850ae52f7b39ed",
+      "mask_sha256": "5f15af306a380fa53ebee31459ad76864c48a206809b1b627587a6c9ea053fbd"
+    },
+    {
+      "id": "fbs.satcom.24",
+      "translation": "Cancelar",
+      "ganm_record_sha256": "df523f05cf54a8d517a9d1e2957cd78a42aa7f02a3057136bd3f2d5996b660f6",
+      "mask_sha256": "8bbdd0e747a2e0ad9b43f0ffe7b143a9ebd54b91705190dd04c27a212618558e"
+    },
+    {
+      "id": "fbs.satcom.25",
+      "translation": "Cancelar",
+      "ganm_record_sha256": "b56e5262c8692d4ff1549e77373791cf143924b529023561ed5839392fcd2d04",
+      "mask_sha256": "c0b1d6b771642d87f05b0acae61a1a0706395b825b5f017b61ddee74fc951dab"
+    },
+    {
+      "id": "fbs.satcom.26",
+      "translation": "Confirmar",
+      "ganm_record_sha256": "d496aa0fb08a0389dc497dd275cc348ee91cd43e43387b269c03d126af5ee6f9",
+      "mask_sha256": "774366bdbaa60aa29574685dc2d6b844471862b35336a13be8726c30c7b13e2d"
+    },
+    {
+      "id": "fbs.satcom.27",
+      "translation": "Confirmar",
+      "ganm_record_sha256": "cedfe339ec242f42bfaf111d24cd88f1abbe9bdf071858aa422cc16495b0491c",
+      "mask_sha256": "bd45e0f47180272896f952c0ede45d46bba2a4c255d85185c1e7ab2a7907665c"
+    }
+  ]
+}

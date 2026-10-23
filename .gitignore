@@ -21,3 +21,6 @@ temp/
 /work/
 /dist/
 *.log
+
+# Anexos privados recebidos no chat
+/.codex-remote-attachments/

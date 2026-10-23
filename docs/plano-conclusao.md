@@ -125,3 +125,13 @@ O índice da ajuda agora tem 53 rótulos traduzidos, com 12 categorias e 44 vín
 ## Interface v006 — Satcom, batalha e cabeçalhos rasterizados
 
 Foram preparados 40 rótulos gráficos em três texturas FBS_DATA, compostos de glifos nativos e vinculados aos recortes GANM originais. Os 573 textos da v005 e MAP v030 são preservados. MAIN/SUB/SE seguem explícitos; o Assunto de mensagens é contexto distinto. A primeira proposta gráfica foi inspecionada em previews, sem execução do PCSX2. Permanecem os rótulos riscados/miniatura PlayingTime e os conjuntos gráficos separados de opções, título e nomeação. Próximo alvo recomendado: título/New Game/Load Game e rótulos gráficos de opções/nomeação, após mapear seus próprios recortes e consumidores; localizar o corpo das mensagens segue pendente. Não avançar para itens ou fragmentos MAP antes desses conjuntos.
+
+
+## Correção prioritária da fonte do Satcom — v007
+
+A comparação com Remote confirmou que a v006 empregava outra família (GFI de diálogos), mais arredondada. A v007 recompõe somente os 26 rótulos do Satcom com letras recuperadas do atlas de botões, sem redimensionamento; mantém as outras 14 ocorrências gráficas e todos os textos. L/P/J/j e os acentos necessários são reconstruções, com validação visual pendente. Antes de ampliar outros desenhos, comparar cada família com sua referência original; revisar tipografia de batalha/cabeçalhos separadamente. A investigação de título/nomeação permanece no plano, sem declarar esta correção suficiente para todas as fontes.
+
+
+## Alinhamento dos glifos — v008
+
+O retorno do usuário aprovou a aparência geral da fonte, mas identificou oscilação vertical. A extração clara reutilizava origens da variante normal; Music/Config/Diary diferem em um pixel entre variantes. A v008 corrige essa amostragem, mantendo os corpos em uma base comum a Remote, sem escala. Descendentes de g/j/ç permanecem naturais. Os testes novos verificam métricas por glifo; a checagem anterior de tamanho/limites não detectava esse erro. Retomar outras famílias gráficas somente mantendo comparação de fonte e métricas por contexto; validação visual em jogo segue pendente.

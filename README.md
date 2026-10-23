@@ -9,8 +9,10 @@ soma **573 campos de texto e 40 rótulos gráficos de interface** à base de di�
 **`Preparar-Interface.cmd`** valida localmente; **`Testar-Interface.cmd`** ou
 **`Iniciar-Teste.cmd`** abre a imagem consolidada. A execução visual dessa nova
 interface está pendente. O lote inclui mensagens de Memory Card, diário e estatísticas.
+A v008 mantém a fonte recuperada do atlas original e corrige o alinhamento vertical
+das letras pela referência Remote.
 Alguns títulos são imagens e ainda permanecem em inglês.
-[Escopo, reprodução e roteiro de teste](docs/interface-v006.md).
+[Escopo, reprodução e roteiro de teste](docs/interface-v008.md).
 
 A **alpha v001 está preservada** em `dist/alpha-v001/MetalSaga-ptbr-alpha-v001.iso`,
 fora da retenção, somente leitura e conferida por hash. Ela contém a interface v001

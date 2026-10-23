@@ -321,3 +321,21 @@ Não iniciar uma tradução em massa antes de validar tecnicamente o processo.
 - MAIN/SUB/SE preservados. O cabeçalho de mensagens “Sub” vira Assunto por contexto distinto. Item fica como está. Drive/Remote permanecem iguais para manter tutoriais/ajuda consistentes; alterações futuras exigem revisão conjunta. Os dois rótulos riscados de Música/Jogos, pequeno PlayingTime, opções gráficas, título/New Game/Load Game e nomeação gráfica continuam pendentes.
 - `Preparar-Graficos.cmd` compõe e confere previews em work/ sem ISO. `Preparar-Interface.cmd` valida v006; `Testar-Interface.cmd` e `Iniciar-Teste.cmd` abrem a v006. Não solicitar teste imediato para continuar engenharia independente.
 - O usuário reafirmou: OneDrive somente por novo pedido. A última entrega contém interface v005 e PCSX2 portátil, com BIOS/cartões/configurações copiados; os originais foram preservados. Não sobrescrever essa entrega automaticamente. Alpha fora de work/ continua permanente; manter dez ISOs de trabalho.
+
+
+## Correção tipográfica Satcom v007
+
+- O usuário reprovou a diferença de fonte da v006 em relação a Remote: os GFI de diálogo são outra família. Não confundir “fonte do próprio jogo” com a fonte de um botão específico. Reproduzir o desenho e os pesos de cada família gráfica antes de ampliar seus rótulos.
+- Lote atual: `translations/interface-v007.json` e `translations/interface-graphics-v004.json`, política `satcom-original-raster-typeface-v004`. Revisa somente os 26 rótulos do Satcom; 573 textos e outros 14 gráficos v006 permanecem iguais, assim como MAP v030 e layout v005. Ver `docs/interface-v007.md`.
+- `tools/satcom_native_font.py` recupera 21 glifos do atlas original nas variantes clara/escura separadas. L/P/J/j/á/ú/ç são reconstruções explícitas de traços nativos, sem GFI para o Satcom. Não generalizar essa cobertura limitada para uma fonte inteira. Corpo de maiúscula 12 px, célula 18 px, espaçamento inteiro; resize e compressão são proibidos, overflow é recusado.
+- Preservar Remote original, bordas, paletas/alpha, GANM e rótulos riscados. Receitas históricas v003/v006 continuam intactas; o dispatcher opt-in v004 delega somente esse perfil. Tipografia de batalha/cabeçalhos continua pendente de comparação própria. Previews inspecionados localmente não são validação visual no PCSX2 nem aprovação pelo usuário.
+- Preparar-Graficos/Preparar-Interface e os iniciadores de teste passam a usar a correção v007. Continuar sem copiar para OneDrive até novo pedido explícito.
+
+
+## Linha de base Satcom v008
+
+- O usuário aprovou preliminarmente o desenho dos rótulos, mas reprovou o alinhamento entre letras na imagem da proposta v007. Isso não equivale a teste no PCSX2. A v007 foi interrompida antes do commit; manter suas receitas/ISO como referência, sem promover sua tipografia a aprovada.
+- Lote atual: `translations/interface-v008.json`, receita `translations/interface-graphics-v005.json`, política `satcom-native-baseline-v005`; mantém 573 textos e 40 ocorrências gráficas (613 compiladas), MAP v030 e layout v005. Somente o posicionamento do Satcom muda. Ver `docs/interface-v008.md`.
+- A origem vertical das palavras claras não coincide com a normal: Music 5→6, Config 6→5, Diary 4→5. Aplicar os ajustes de amostragem antes das construções/acento, separadamente por variante; a política v004 conserva reprodução histórica.
+- Referência: Remote, corpo forte em linhas 3–14 de célula 18 (base 15 exclusiva), altura-x em 7–14. g/j/ç descendem até 17; acentos ficam acima. Não nivelar todos os topos nem todas as bordas inferiores. Não escalar as letras. Novos testes exigem linha de base, formas fortes e larguras idênticas dos glifos recuperados; perfil normal permanece igual.
+- Iniciadores de gráfico/interface/teste usam v008. Previews e métricas não comprovam aparência em execução. Preservar a alpha, dez ISOs de trabalho e a regra OneDrive somente mediante solicitação. Ignorar `.codex-remote-attachments/` no Git.
