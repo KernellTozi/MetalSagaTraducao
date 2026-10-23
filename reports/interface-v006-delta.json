@@ -1,0 +1,32 @@
+{
+  "old_recipe": "translations/interface-v005.json",
+  "new_recipe": "translations/interface-v006.json",
+  "source_iso_sha256": "fa0dc5783fefe0fa9593ba670365f7f5dcdb05288a202bece422acd9b9343434",
+  "output_iso_sha256": "3a65621e67249c3b78e58cbe9a5104bb51f207379c2842b0c577ad51a43082ab",
+  "iso_size": 1704427520,
+  "changed_bytes": 18058,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "fbs.texture.0",
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "iso_offset": 1330256,
+      "size": 65536
+    },
+    {
+      "id": "fbs.texture.2",
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "iso_offset": 1463408,
+      "size": 65536
+    },
+    {
+      "id": "fbs.texture.3",
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "iso_offset": 1529024,
+      "size": 32768
+    }
+  ],
+  "pcsx2_executed": false
+}

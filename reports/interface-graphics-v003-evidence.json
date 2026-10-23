@@ -1,0 +1,1562 @@
+{
+  "policy": "fbs-ganm-native-glyph-labels-v003",
+  "accepted": 40,
+  "patches": 3,
+  "source_sha256": "5b53111e7e3ee309f813c6cf3284277774f3c5d0aa2b0d6b53b39fed4884c470",
+  "palettes_headers_ganm_unchanged": true,
+  "reverse_roundtrip": true,
+  "runtime_visual_status": "pending_user_verification",
+  "results": [
+    {
+      "id": "fbs.satcom.00",
+      "texture": 3,
+      "rect": [
+        0,
+        0,
+        80,
+        24
+      ],
+      "natural_width": 41,
+      "rendered_width": 41,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        3,
+        77,
+        21
+      ],
+      "mask_sha256": "01fdc2d28d5acdced6e6c48cac0322a61fbfa978c574eed49bd182ed198e4c70",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.02",
+      "texture": 3,
+      "rect": [
+        0,
+        48,
+        80,
+        72
+      ],
+      "natural_width": 44,
+      "rendered_width": 44,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        51,
+        77,
+        69
+      ],
+      "mask_sha256": "dc2cbd9658d56e12b9fba367394e1e26e188a5251ba85a3a632d8c269ad32f12",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.03",
+      "texture": 3,
+      "rect": [
+        0,
+        72,
+        80,
+        96
+      ],
+      "natural_width": 36,
+      "rendered_width": 36,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        75,
+        77,
+        93
+      ],
+      "mask_sha256": "7121b937dc997559435e8d2d160f0ae6c7ed26be5433cdc4e2db5b4cb8650c54",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.04",
+      "texture": 3,
+      "rect": [
+        0,
+        96,
+        80,
+        120
+      ],
+      "natural_width": 82,
+      "rendered_width": 74,
+      "height": 16,
+      "horizontal_scale": 0.9024390243902439,
+      "inner_rect": [
+        3,
+        99,
+        77,
+        117
+      ],
+      "mask_sha256": "ac9302e5d1316c5ca0214885b66e74ee2877125a88bbcad41e92967a44bfbea5",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.05",
+      "texture": 3,
+      "rect": [
+        0,
+        120,
+        80,
+        144
+      ],
+      "natural_width": 76,
+      "rendered_width": 74,
+      "height": 16,
+      "horizontal_scale": 0.9736842105263158,
+      "inner_rect": [
+        3,
+        123,
+        77,
+        141
+      ],
+      "mask_sha256": "c667f6a47c51383e56979c7ba2871ab718c43f40d8c97811db6b91141fea09e3",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.06",
+      "texture": 3,
+      "rect": [
+        0,
+        144,
+        80,
+        168
+      ],
+      "natural_width": 45,
+      "rendered_width": 45,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        147,
+        77,
+        165
+      ],
+      "mask_sha256": "f3f60d1d1abb30d8b8135b5c3330437db499682f0c335b93e5e2cf18a0747718",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.07",
+      "texture": 3,
+      "rect": [
+        0,
+        168,
+        80,
+        192
+      ],
+      "natural_width": 47,
+      "rendered_width": 47,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        171,
+        77,
+        189
+      ],
+      "mask_sha256": "a49b6838a85ff985a492f82c4149c61c7659515ce6d74247219b087ee1695450",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.08",
+      "texture": 3,
+      "rect": [
+        0,
+        192,
+        80,
+        216
+      ],
+      "natural_width": 43,
+      "rendered_width": 43,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        195,
+        77,
+        213
+      ],
+      "mask_sha256": "f9fb4ac1f2a5b8be9ad0da4f416d63f0eb4983f6ea904955aa586b612d30657d",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.09",
+      "texture": 3,
+      "rect": [
+        0,
+        216,
+        80,
+        240
+      ],
+      "natural_width": 55,
+      "rendered_width": 55,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        3,
+        219,
+        77,
+        237
+      ],
+      "mask_sha256": "248732f593a12400a461d65d1c6ef4849003b2ad62e4ba003e5aed4d5b2d0b93",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.10",
+      "texture": 3,
+      "rect": [
+        80,
+        0,
+        160,
+        24
+      ],
+      "natural_width": 42,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        3,
+        157,
+        21
+      ],
+      "mask_sha256": "d473f285bb3fe43826749ec957def32fd5560dd9c15b6fb9fdf277dc7de852f0",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.11",
+      "texture": 3,
+      "rect": [
+        80,
+        24,
+        160,
+        48
+      ],
+      "natural_width": 41,
+      "rendered_width": 41,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        27,
+        157,
+        45
+      ],
+      "mask_sha256": "a793ff73c2222a2f463bd669fa74da1d12af73cc0b782b2f34ba9a8b834d9cbd",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.12",
+      "texture": 3,
+      "rect": [
+        80,
+        48,
+        160,
+        72
+      ],
+      "natural_width": 41,
+      "rendered_width": 41,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        51,
+        157,
+        69
+      ],
+      "mask_sha256": "01fdc2d28d5acdced6e6c48cac0322a61fbfa978c574eed49bd182ed198e4c70",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.14",
+      "texture": 3,
+      "rect": [
+        80,
+        96,
+        160,
+        120
+      ],
+      "natural_width": 44,
+      "rendered_width": 44,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        99,
+        157,
+        117
+      ],
+      "mask_sha256": "dc2cbd9658d56e12b9fba367394e1e26e188a5251ba85a3a632d8c269ad32f12",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.15",
+      "texture": 3,
+      "rect": [
+        80,
+        120,
+        160,
+        144
+      ],
+      "natural_width": 36,
+      "rendered_width": 36,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        123,
+        157,
+        141
+      ],
+      "mask_sha256": "7121b937dc997559435e8d2d160f0ae6c7ed26be5433cdc4e2db5b4cb8650c54",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.16",
+      "texture": 3,
+      "rect": [
+        80,
+        144,
+        160,
+        168
+      ],
+      "natural_width": 82,
+      "rendered_width": 74,
+      "height": 16,
+      "horizontal_scale": 0.9024390243902439,
+      "inner_rect": [
+        83,
+        147,
+        157,
+        165
+      ],
+      "mask_sha256": "ac9302e5d1316c5ca0214885b66e74ee2877125a88bbcad41e92967a44bfbea5",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.17",
+      "texture": 3,
+      "rect": [
+        80,
+        168,
+        160,
+        192
+      ],
+      "natural_width": 76,
+      "rendered_width": 74,
+      "height": 16,
+      "horizontal_scale": 0.9736842105263158,
+      "inner_rect": [
+        83,
+        171,
+        157,
+        189
+      ],
+      "mask_sha256": "c667f6a47c51383e56979c7ba2871ab718c43f40d8c97811db6b91141fea09e3",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.18",
+      "texture": 3,
+      "rect": [
+        80,
+        192,
+        160,
+        216
+      ],
+      "natural_width": 45,
+      "rendered_width": 45,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        195,
+        157,
+        213
+      ],
+      "mask_sha256": "f3f60d1d1abb30d8b8135b5c3330437db499682f0c335b93e5e2cf18a0747718",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.19",
+      "texture": 3,
+      "rect": [
+        80,
+        216,
+        160,
+        240
+      ],
+      "natural_width": 47,
+      "rendered_width": 47,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        83,
+        219,
+        157,
+        237
+      ],
+      "mask_sha256": "a49b6838a85ff985a492f82c4149c61c7659515ce6d74247219b087ee1695450",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.20",
+      "texture": 3,
+      "rect": [
+        160,
+        0,
+        240,
+        24
+      ],
+      "natural_width": 43,
+      "rendered_width": 43,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        3,
+        237,
+        21
+      ],
+      "mask_sha256": "f9fb4ac1f2a5b8be9ad0da4f416d63f0eb4983f6ea904955aa586b612d30657d",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.21",
+      "texture": 3,
+      "rect": [
+        160,
+        24,
+        240,
+        48
+      ],
+      "natural_width": 55,
+      "rendered_width": 55,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        27,
+        237,
+        45
+      ],
+      "mask_sha256": "248732f593a12400a461d65d1c6ef4849003b2ad62e4ba003e5aed4d5b2d0b93",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.22",
+      "texture": 3,
+      "rect": [
+        160,
+        48,
+        240,
+        72
+      ],
+      "natural_width": 42,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        51,
+        237,
+        69
+      ],
+      "mask_sha256": "d473f285bb3fe43826749ec957def32fd5560dd9c15b6fb9fdf277dc7de852f0",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.23",
+      "texture": 3,
+      "rect": [
+        160,
+        72,
+        240,
+        96
+      ],
+      "natural_width": 41,
+      "rendered_width": 41,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        75,
+        237,
+        93
+      ],
+      "mask_sha256": "a793ff73c2222a2f463bd669fa74da1d12af73cc0b782b2f34ba9a8b834d9cbd",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.24",
+      "texture": 3,
+      "rect": [
+        160,
+        96,
+        240,
+        120
+      ],
+      "natural_width": 63,
+      "rendered_width": 63,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        99,
+        237,
+        117
+      ],
+      "mask_sha256": "ab27d8b3a3a595bb4bf33aa5a18306ebe7dfb8844e5f4f5fa51f483a3b5bce9d",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.25",
+      "texture": 3,
+      "rect": [
+        160,
+        144,
+        240,
+        168
+      ],
+      "natural_width": 63,
+      "rendered_width": 63,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        147,
+        237,
+        165
+      ],
+      "mask_sha256": "ab27d8b3a3a595bb4bf33aa5a18306ebe7dfb8844e5f4f5fa51f483a3b5bce9d",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.satcom.26",
+      "texture": 3,
+      "rect": [
+        160,
+        120,
+        240,
+        144
+      ],
+      "natural_width": 69,
+      "rendered_width": 69,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        123,
+        237,
+        141
+      ],
+      "mask_sha256": "ddb689e23bf9ad8af2c9e43ce89bbbdcd9aeac98d34cf92db912c4bbcb7e5c03",
+      "background_index": 5,
+      "foreground_index": 4
+    },
+    {
+      "id": "fbs.satcom.27",
+      "texture": 3,
+      "rect": [
+        160,
+        168,
+        240,
+        192
+      ],
+      "natural_width": 69,
+      "rendered_width": 69,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        163,
+        171,
+        237,
+        189
+      ],
+      "mask_sha256": "ddb689e23bf9ad8af2c9e43ce89bbbdcd9aeac98d34cf92db912c4bbcb7e5c03",
+      "background_index": 4,
+      "foreground_index": 7
+    },
+    {
+      "id": "fbs.battle.03",
+      "texture": 0,
+      "rect": [
+        8,
+        80,
+        56,
+        104
+      ],
+      "natural_width": 31,
+      "rendered_width": 31,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        11,
+        83,
+        53,
+        101
+      ],
+      "mask_sha256": "682d1c54a5fb0c8e387eb67996727d5e88f69bccaedd02aaf700c26fcb54acf8",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.04",
+      "texture": 0,
+      "rect": [
+        56,
+        80,
+        104,
+        104
+      ],
+      "natural_width": 27,
+      "rendered_width": 27,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        59,
+        83,
+        101,
+        101
+      ],
+      "mask_sha256": "fc9e222284f34bb69d461a31524fe335f48ee7975542aeed42246bd0444fb5bf",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.05",
+      "texture": 0,
+      "rect": [
+        104,
+        80,
+        152,
+        104
+      ],
+      "natural_width": 18,
+      "rendered_width": 18,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        107,
+        83,
+        149,
+        101
+      ],
+      "mask_sha256": "372499fb6813f9b2a0e6f785ace0faa6d2cc0cbef7e72bec423e1c1ea52a7c51",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.06",
+      "texture": 0,
+      "rect": [
+        8,
+        104,
+        56,
+        128
+      ],
+      "natural_width": 42,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        11,
+        107,
+        53,
+        125
+      ],
+      "mask_sha256": "5b2290fb122e51093d2b67bd21cd8fbc3d7fe5d94074d02f06d2b46c0f121ea9",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.07",
+      "texture": 0,
+      "rect": [
+        56,
+        104,
+        104,
+        128
+      ],
+      "natural_width": 46,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 0.9130434782608695,
+      "inner_rect": [
+        59,
+        107,
+        101,
+        125
+      ],
+      "mask_sha256": "9945ab10917570002d0096b832b04b71c6f05c72660cde3c95491acbd7b84a21",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.08",
+      "texture": 0,
+      "rect": [
+        104,
+        104,
+        152,
+        128
+      ],
+      "natural_width": 56,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 0.75,
+      "inner_rect": [
+        107,
+        107,
+        149,
+        125
+      ],
+      "mask_sha256": "0864c5628ca843d97f24bc44cd1fdf3342eab83bf804d7d1e4c735a49200bb3d",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.10",
+      "texture": 0,
+      "rect": [
+        56,
+        128,
+        104,
+        152
+      ],
+      "natural_width": 38,
+      "rendered_width": 38,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        59,
+        131,
+        101,
+        149
+      ],
+      "mask_sha256": "c6b43308777cda0cbb2139cddcfb6d2ccbc47de0dd3eb356123fa284af755ee4",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.12",
+      "texture": 0,
+      "rect": [
+        152,
+        80,
+        200,
+        104
+      ],
+      "natural_width": 34,
+      "rendered_width": 34,
+      "height": 16,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        155,
+        83,
+        197,
+        101
+      ],
+      "mask_sha256": "d5776dabe1d64d71af13cc4ae6fa62f56222827833e87dd485d5212caaee7ab4",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.13",
+      "texture": 0,
+      "rect": [
+        152,
+        104,
+        200,
+        128
+      ],
+      "natural_width": 50,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 0.84,
+      "inner_rect": [
+        155,
+        107,
+        197,
+        125
+      ],
+      "mask_sha256": "d04378b1e3ff8a43de0c2983baae11fda6c8acebf22709ee60572f5c7202dc4e",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.battle.14",
+      "texture": 0,
+      "rect": [
+        152,
+        128,
+        200,
+        152
+      ],
+      "natural_width": 51,
+      "rendered_width": 42,
+      "height": 16,
+      "horizontal_scale": 0.8235294117647058,
+      "inner_rect": [
+        155,
+        131,
+        197,
+        149
+      ],
+      "mask_sha256": "a512aeb2498a35cf46511393978b220f7c54e0fe85c981c6647e6246cf407cb6",
+      "background_index": 51,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.header.08",
+      "texture": 2,
+      "rect": [
+        120,
+        192,
+        176,
+        208
+      ],
+      "natural_width": 14,
+      "rendered_width": 14,
+      "height": 12,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        122,
+        194,
+        174,
+        206
+      ],
+      "mask_sha256": "aee67d161d1af29e3c360d924e3650166bb2f1cf2f6f40a3e78fdfa02121bdc0",
+      "background_index": 216,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.header.09",
+      "texture": 2,
+      "rect": [
+        120,
+        212,
+        176,
+        228
+      ],
+      "natural_width": 43,
+      "rendered_width": 43,
+      "height": 12,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        122,
+        214,
+        174,
+        226
+      ],
+      "mask_sha256": "19a6a4402677503d46aefada7a600cb60098d2cfa7728a6c0019be7f889d0c74",
+      "background_index": 216,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.header.21",
+      "texture": 2,
+      "rect": [
+        104,
+        232,
+        248,
+        248
+      ],
+      "natural_width": 77,
+      "rendered_width": 77,
+      "height": 12,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        106,
+        234,
+        246,
+        246
+      ],
+      "mask_sha256": "6a91b28e57f3714dcf5975f9b29e2b8e4816edaed604d771cbf2aed3dafd21bb",
+      "background_index": 216,
+      "foreground_index": 255
+    },
+    {
+      "id": "fbs.header.22",
+      "texture": 2,
+      "rect": [
+        184,
+        192,
+        240,
+        208
+      ],
+      "natural_width": 31,
+      "rendered_width": 31,
+      "height": 12,
+      "horizontal_scale": 1.0,
+      "inner_rect": [
+        186,
+        194,
+        238,
+        206
+      ],
+      "mask_sha256": "6e364856d15d902f9f618132960a720d98f246e75d8c28d1f0e79fb1bd70234e",
+      "background_index": 216,
+      "foreground_index": 255
+    }
+  ],
+  "source_font_sha256": "7b47940643d8022ec7b48660559cb0df874366638b1ba09687f22cb71294c345",
+  "composed_font_sha256": "cb844c63f3155f8026f7f8f87f5c7d0b6f4b00fb7d26b11620c6b9c935a4085b",
+  "font_resource": "DATA/SYS/SUC24I26.GFI",
+  "source_elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "static_consumer_windows": [
+    {
+      "offset": 1232168,
+      "end": 1232560,
+      "sha256": "711e97671bb3687971d8ba951ce4337c3c5e7d07ee017526512f729cb9ac0c77"
+    },
+    {
+      "offset": 1231584,
+      "end": 1231620,
+      "sha256": "7989199582dfc3a3c786d79139de6ca183945dccf538853f5187e5beea18f9d4"
+    },
+    {
+      "offset": 1210960,
+      "end": 1211152,
+      "sha256": "353fb75fe404d6164eeea2b7cb6a3a034d7d0ae7a8d4d43c171c851b99e2c002"
+    },
+    {
+      "offset": 3238040,
+      "end": 3238144,
+      "sha256": "23eb2987e51cf886a3e568bc242d7881365e3473107a2969ed1055321063ab16"
+    }
+  ],
+  "ganm_bindings": [
+    {
+      "id": "fbs.satcom.00",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 0,
+      "rect": [
+        0,
+        0,
+        80,
+        24
+      ],
+      "ganm_record_sha256": "49a63b0075b07557bfc4a922ed7d72a626269652d0ea499926221002106dbe1c",
+      "translation": "Lojas"
+    },
+    {
+      "id": "fbs.satcom.02",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 2,
+      "rect": [
+        0,
+        48,
+        80,
+        72
+      ],
+      "ganm_record_sha256": "f3ba1f3e4604e658f537c8fcf80c599203f1c73738dbc7b24a24275c99676505",
+      "translation": "Dados"
+    },
+    {
+      "id": "fbs.satcom.03",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 3,
+      "rect": [
+        0,
+        72,
+        80,
+        96
+      ],
+      "ganm_record_sha256": "e90ae38360efdd1c45d85d782c5fcffe2506c163ff90965c9ef8ef3c28f7acd3",
+      "translation": "Caça"
+    },
+    {
+      "id": "fbs.satcom.04",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 4,
+      "rect": [
+        0,
+        96,
+        80,
+        120
+      ],
+      "ganm_record_sha256": "6990d79cc9ff31647a0d42e1d6e027f5aad383eaf9eadb2d969e95f0520bba3b",
+      "translation": "Procurados"
+    },
+    {
+      "id": "fbs.satcom.05",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 5,
+      "rect": [
+        0,
+        120,
+        80,
+        144
+      ],
+      "ganm_record_sha256": "069025e92496d1e236da1639c6bd033d421ab3dea2e8db6c462200ef9862f805",
+      "translation": "Mensagens"
+    },
+    {
+      "id": "fbs.satcom.06",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 6,
+      "rect": [
+        0,
+        144,
+        80,
+        168
+      ],
+      "ganm_record_sha256": "12a066be60972bbcc9ad2abe778eba9a669bc5ae2f92ec0ff39009f2aca59018",
+      "translation": "Alerta"
+    },
+    {
+      "id": "fbs.satcom.07",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 7,
+      "rect": [
+        0,
+        168,
+        80,
+        192
+      ],
+      "ganm_record_sha256": "fef77098856ab06ae0708620a4ead9c20e1f1f51d08e904c7a35c075cb3eadc5",
+      "translation": "Música"
+    },
+    {
+      "id": "fbs.satcom.08",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 8,
+      "rect": [
+        0,
+        192,
+        80,
+        216
+      ],
+      "ganm_record_sha256": "39916657430a59796b4be8b88fd438c2533cd649e289462332decf30e4565d38",
+      "translation": "Jogos"
+    },
+    {
+      "id": "fbs.satcom.09",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 9,
+      "rect": [
+        0,
+        216,
+        80,
+        240
+      ],
+      "ganm_record_sha256": "c10b4932115d0c543bf27598bae7b14f6e9eb30dd9b9ac20c4cc4c689099c7f2",
+      "translation": "Ajustes"
+    },
+    {
+      "id": "fbs.satcom.10",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 10,
+      "rect": [
+        80,
+        0,
+        160,
+        24
+      ],
+      "ganm_record_sha256": "f1d78cd1575ee116853b3aea92caf4e2b34c950a54044aba6dddae7ea7f5294f",
+      "translation": "Diário"
+    },
+    {
+      "id": "fbs.satcom.11",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 11,
+      "rect": [
+        80,
+        24,
+        160,
+        48
+      ],
+      "ganm_record_sha256": "39aa2dd99c2f3afc670d25b11034e30927eee285d6d0846c5bc093d21a4e8368",
+      "translation": "Ajuda"
+    },
+    {
+      "id": "fbs.satcom.12",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 12,
+      "rect": [
+        80,
+        48,
+        160,
+        72
+      ],
+      "ganm_record_sha256": "0c49b188fdfb11b9353e7c83b586de2210842d8ef68109a81970af535bc93a0b",
+      "translation": "Lojas"
+    },
+    {
+      "id": "fbs.satcom.14",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 14,
+      "rect": [
+        80,
+        96,
+        160,
+        120
+      ],
+      "ganm_record_sha256": "21d624411e8e4581859e69a5bbc6aecf0da41595f064c1433efde9ed3cd8f7f7",
+      "translation": "Dados"
+    },
+    {
+      "id": "fbs.satcom.15",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 15,
+      "rect": [
+        80,
+        120,
+        160,
+        144
+      ],
+      "ganm_record_sha256": "09fd0ab805e362cdc3ab08b43252901fab9316d668c2f4ac2a70c68141dfa1d7",
+      "translation": "Caça"
+    },
+    {
+      "id": "fbs.satcom.16",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 16,
+      "rect": [
+        80,
+        144,
+        160,
+        168
+      ],
+      "ganm_record_sha256": "f6942224f1a7669aa4709d910ce4993a3e58ecac43c4152401017be930bab319",
+      "translation": "Procurados"
+    },
+    {
+      "id": "fbs.satcom.17",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 17,
+      "rect": [
+        80,
+        168,
+        160,
+        192
+      ],
+      "ganm_record_sha256": "18596e198fb58a6f3d8ae8a06339882e780f4994ebefd35071af52ae2deb7cf9",
+      "translation": "Mensagens"
+    },
+    {
+      "id": "fbs.satcom.18",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 18,
+      "rect": [
+        80,
+        192,
+        160,
+        216
+      ],
+      "ganm_record_sha256": "c57459e81b2447dd49fa7d0356427d1c668f5b8e2088768451f226f7a6d52dfa",
+      "translation": "Alerta"
+    },
+    {
+      "id": "fbs.satcom.19",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 19,
+      "rect": [
+        80,
+        216,
+        160,
+        240
+      ],
+      "ganm_record_sha256": "a6d529b0fad49f02e9ff8a7891b146143a826939e411fcd0d75ae1a67f89c4f7",
+      "translation": "Música"
+    },
+    {
+      "id": "fbs.satcom.20",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 20,
+      "rect": [
+        160,
+        0,
+        240,
+        24
+      ],
+      "ganm_record_sha256": "732dd7d6d6a3e75403629024d1d9d990e007b35258eca674f4a09fa52360117b",
+      "translation": "Jogos"
+    },
+    {
+      "id": "fbs.satcom.21",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 21,
+      "rect": [
+        160,
+        24,
+        240,
+        48
+      ],
+      "ganm_record_sha256": "f3f7519c4e5b936646d9fcf80036c881b6b982acbf41d3963c40d002bdc469f1",
+      "translation": "Ajustes"
+    },
+    {
+      "id": "fbs.satcom.22",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 22,
+      "rect": [
+        160,
+        48,
+        240,
+        72
+      ],
+      "ganm_record_sha256": "50df946f6c33291882e199111c2e1c9e90db10f2c3681c841d3bd091e22aa036",
+      "translation": "Diário"
+    },
+    {
+      "id": "fbs.satcom.23",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 23,
+      "rect": [
+        160,
+        72,
+        240,
+        96
+      ],
+      "ganm_record_sha256": "bdbccf523d25e335e70c3ca12e8891a1a23acb4afe82ebb82d850ae52f7b39ed",
+      "translation": "Ajuda"
+    },
+    {
+      "id": "fbs.satcom.24",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 24,
+      "rect": [
+        160,
+        96,
+        240,
+        120
+      ],
+      "ganm_record_sha256": "df523f05cf54a8d517a9d1e2957cd78a42aa7f02a3057136bd3f2d5996b660f6",
+      "translation": "Cancelar"
+    },
+    {
+      "id": "fbs.satcom.25",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 25,
+      "rect": [
+        160,
+        144,
+        240,
+        168
+      ],
+      "ganm_record_sha256": "b56e5262c8692d4ff1549e77373791cf143924b529023561ed5839392fcd2d04",
+      "translation": "Cancelar"
+    },
+    {
+      "id": "fbs.satcom.26",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 26,
+      "rect": [
+        160,
+        120,
+        240,
+        144
+      ],
+      "ganm_record_sha256": "d496aa0fb08a0389dc497dd275cc348ee91cd43e43387b269c03d126af5ee6f9",
+      "translation": "Confirmar"
+    },
+    {
+      "id": "fbs.satcom.27",
+      "family": "satcom",
+      "texture": 3,
+      "ganm": 8,
+      "ganm_index": 27,
+      "rect": [
+        160,
+        168,
+        240,
+        192
+      ],
+      "ganm_record_sha256": "cedfe339ec242f42bfaf111d24cd88f1abbe9bdf071858aa422cc16495b0491c",
+      "translation": "Confirmar"
+    },
+    {
+      "id": "fbs.battle.03",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 3,
+      "rect": [
+        8,
+        80,
+        56,
+        104
+      ],
+      "ganm_record_sha256": "8cc16086984c6be62d2d7d7588f92c4427859f6dcffd6d16862ae1b4b7f6bcd0",
+      "translation": "MAIN"
+    },
+    {
+      "id": "fbs.battle.04",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 4,
+      "rect": [
+        56,
+        80,
+        104,
+        104
+      ],
+      "ganm_record_sha256": "add791b4cb9f2d324dc4857cb3a84e007a0a69f43b02fe523641637ad39c6847",
+      "translation": "SUB"
+    },
+    {
+      "id": "fbs.battle.05",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 5,
+      "rect": [
+        104,
+        80,
+        152,
+        104
+      ],
+      "ganm_record_sha256": "fbf92ab9bb1adf6ced1e22a6e2a47df75807f938475d1dbf63e68c217475d1ee",
+      "translation": "SE"
+    },
+    {
+      "id": "fbs.battle.06",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 6,
+      "rect": [
+        8,
+        104,
+        56,
+        128
+      ],
+      "ganm_record_sha256": "f727aa1d8d5a19b259988a910dc2c454112ac35fe476fa06c39423f4ce7b02f2",
+      "translation": "Habil."
+    },
+    {
+      "id": "fbs.battle.07",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 7,
+      "rect": [
+        56,
+        104,
+        104,
+        128
+      ],
+      "ganm_record_sha256": "0322f7f781ce796c84bda8dd59d0d302e5902d0a45320d7fc65bc3c9b9a91112",
+      "translation": "Equip."
+    },
+    {
+      "id": "fbs.battle.08",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 8,
+      "rect": [
+        104,
+        104,
+        152,
+        128
+      ],
+      "ganm_record_sha256": "ce8dc40a40e5f6b172c8dcd7b9a330e1650a26e5694e55853ef981367c1e148a",
+      "translation": "Munição"
+    },
+    {
+      "id": "fbs.battle.10",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 10,
+      "rect": [
+        56,
+        128,
+        104,
+        152
+      ],
+      "ganm_record_sha256": "b1bcb46117706eb2d1412c2d68fd889d46e1b0f1cfe0b8944d953cab0f5b3380",
+      "translation": "Fugir"
+    },
+    {
+      "id": "fbs.battle.12",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 12,
+      "rect": [
+        152,
+        80,
+        200,
+        104
+      ],
+      "ganm_record_sha256": "8447cb0af6eb82b8e61ced9b336055f1c03dc20739c828e5786dcf025f0f73d7",
+      "translation": "Arma"
+    },
+    {
+      "id": "fbs.battle.13",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 13,
+      "rect": [
+        152,
+        104,
+        200,
+        128
+      ],
+      "ganm_record_sha256": "6178cdc785701ab85dfabc489c03fc0bda30aebebee9a4c8070ddedaed651e5d",
+      "translation": "Passar"
+    },
+    {
+      "id": "fbs.battle.14",
+      "family": "battle",
+      "texture": 0,
+      "ganm": 5,
+      "ganm_index": 14,
+      "rect": [
+        152,
+        128,
+        200,
+        152
+      ],
+      "ganm_record_sha256": "ccf7da12b8fcf96da12685073c78c0a587964c3d6f49b02f3e012fbd675f22b6",
+      "translation": "Defesa"
+    },
+    {
+      "id": "fbs.header.08",
+      "family": "header",
+      "texture": 2,
+      "ganm": 7,
+      "ganm_index": 8,
+      "rect": [
+        120,
+        192,
+        176,
+        208
+      ],
+      "ganm_record_sha256": "d396e9116cf7666c9d5fc2a7cc5dd08dc1f518d26c87a7b07bc410c66d6cd962",
+      "translation": "De"
+    },
+    {
+      "id": "fbs.header.09",
+      "family": "header",
+      "texture": 2,
+      "ganm": 7,
+      "ganm_index": 9,
+      "rect": [
+        120,
+        212,
+        176,
+        228
+      ],
+      "ganm_record_sha256": "55db58130f209b0c83ab51d1eae2f5d505ffa04e4ace16a00fbaba5b9060706d",
+      "translation": "Assunto"
+    },
+    {
+      "id": "fbs.header.21",
+      "family": "header",
+      "texture": 2,
+      "ganm": 7,
+      "ganm_index": 21,
+      "rect": [
+        104,
+        232,
+        248,
+        248
+      ],
+      "ganm_record_sha256": "1fd2bc12c7bf48219bf1820129514d5ba99d916e46ccbb0529d51ef8e6c75a9c",
+      "translation": "Tempo de jogo"
+    },
+    {
+      "id": "fbs.header.22",
+      "family": "header",
+      "texture": 2,
+      "ganm": 7,
+      "ganm_index": 22,
+      "rect": [
+        184,
+        192,
+        240,
+        208
+      ],
+      "ganm_record_sha256": "8bf8d35aebfa636e25427cdd31b5b638ebf9ea44b975dca9434e051b802a7e55",
+      "translation": "Título"
+    }
+  ],
+  "recipe_sha256": "86ad57c3bdd885cac23cf280c64b346979b49232a04c287b76354dc2ecf7c172",
+  "pcsx2_executed": false,
+  "preview_inspected": true
+}

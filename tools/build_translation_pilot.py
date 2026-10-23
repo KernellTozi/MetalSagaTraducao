@@ -320,7 +320,7 @@ def main():
                 'segments':e['segments'],
                 'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
     print(f"Traduzidos: {report['accepted']}; preservados: {report['unchanged']}; recusados: {report['refused']}. {output}")
-    if report.get('interface'):print(f"Interface: {report['interface']['accepted']} strings; validação visual pendente.")
+    if report.get('interface'):print(f"Interface: {report['interface']['accepted']} campos; validação visual pendente.")
     if report['terminology_issues']:print('Lote bloqueado por violações de terminologia; consulte o relatório.')
     if not report['valid']:raise SystemExit(2)
 

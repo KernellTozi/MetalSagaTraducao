@@ -144,8 +144,18 @@ def compile_draft(data,draft):
     from interface_resources import compile_resources
     resource_patches,resource_report=compile_resources(data,draft)
     patches.extend(resource_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted'],
+    graphics_report={'accepted':0}
+    if draft.get('graphics'):
+        binding=draft['graphics'];path=(ROOT/binding['recipe']).resolve()
+        if not path.is_relative_to(ROOT/'translations'):raise ValueError('Graphic recipe outside translations/')
+        raw=path.read_bytes()
+        if hashlib.sha256(raw).hexdigest()!=binding['sha256']:raise ValueError('Graphic recipe binding mismatch')
+        from interface_graphics import compile_graphics
+        graphics_patches,graphics_report=compile_graphics(json.loads(raw))
+        patches.extend(graphics_patches)
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
+        'graphic_labels':graphics_report,
         'elf_size_unchanged':True,'addresses_and_pointers_unchanged':True,'reverse_roundtrip':True,
         'runtime_visual_status':'pending_user_verification','results':metadata}
 

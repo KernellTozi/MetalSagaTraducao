@@ -120,3 +120,8 @@ As 44 páginas HTML identificadas foram traduzidas com marcações e imagens pre
 ## Interface v005 — índice e preparação gráfica
 
 O índice da ajuda agora tem 53 rótulos traduzidos, com 12 categorias e 44 vínculos de tópico preservados; Satcom/Remote/Alpha Series permanecem iguais. Mais um literal de status usa MAIN/SUB/SE em maiúsculas. São 573 campos acumulados, com os textos anteriores intactos. O transporte local de seis texturas foi comprovado por round-trip sem edição e preservação de paletas/alpha/headers. O próximo passo é mapear recortes/UVs e traduzir os rótulos rasterizados; localizar o conteúdo das mensagens segue pendente. A busca ASCII inicial em FD_POST não encontrou frases de correspondência, mas não identifica seu formato nem exclui codificação/compactação. Testes visuais continuam acumulados.
+
+
+## Interface v006 — Satcom, batalha e cabeçalhos rasterizados
+
+Foram preparados 40 rótulos gráficos em três texturas FBS_DATA, compostos de glifos nativos e vinculados aos recortes GANM originais. Os 573 textos da v005 e MAP v030 são preservados. MAIN/SUB/SE seguem explícitos; o Assunto de mensagens é contexto distinto. A primeira proposta gráfica foi inspecionada em previews, sem execução do PCSX2. Permanecem os rótulos riscados/miniatura PlayingTime e os conjuntos gráficos separados de opções, título e nomeação. Próximo alvo recomendado: título/New Game/Load Game e rótulos gráficos de opções/nomeação, após mapear seus próprios recortes e consumidores; localizar o corpo das mensagens segue pendente. Não avançar para itens ou fragmentos MAP antes desses conjuntos.
