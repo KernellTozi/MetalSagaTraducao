@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "policy": "title-credit-and-raster-v007",
+  "parent": {
+    "recipe": "translations/interface-graphics-v006.json",
+    "sha256": "0c911c28f7cd5fb143622d3cb6411244ee95bf94990443bd0160012127ef4765"
+  },
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "reviewed_artwork": {
+    "labels": [
+      {
+        "index": 0,
+        "translation": "NOVO JOGO",
+        "width": 176,
+        "mask_sha256": "f7a9a691eb4d6b8e3404a502f6ae902e763e2b3777f578b17c40f34e596a9957",
+        "rect": [
+          0,
+          0,
+          180,
+          24
+        ]
+      },
+      {
+        "index": 1,
+        "translation": "RETOMAR",
+        "width": 152,
+        "mask_sha256": "4df8451901368eb8931d2253c890a2e662c2c8e6ebcfd3e0e62e75eddd7060d7",
+        "rect": [
+          0,
+          24,
+          180,
+          48
+        ]
+      },
+      {
+        "index": 2,
+        "translation": "INSTALAR",
+        "width": 157,
+        "mask_sha256": "93df21255d0e9dd6ef2952256f9b60b988747a0534733ebd629d355395b7c3c1",
+        "rect": [
+          0,
+          48,
+          180,
+          72
+        ]
+      }
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        180,
+        24,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        128,
+        256,
+        256,
+        128,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        180,
+        48,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        240,
+        0,
+        245,
+        4,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        228,
+        88,
+        114,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        88,
+        228,
+        128,
+        114,
+        22,
+        0,
+        0
+      ]
+    ],
+    "credit": {
+      "text": "Traduzido por: Kernell Tozi",
+      "texture_rect": [
+        55,
+        240,
+        201,
+        254
+      ],
+      "screen_rect": [
+        247,
+        430,
+        393,
+        444
+      ],
+      "mask_sha256": "a751249089bbc67fc6b3f6fb5e12c20f025f7d0f6cc62926487f42a1abfbe1e3",
+      "height": 14,
+      "layout": {
+        "natural_width": 144,
+        "rendered_width": 144,
+        "height": 12,
+        "horizontal_scale": 1.0
+      },
+      "inherits_continue_tint_and_visibility": true
+    }
+  }
+}

@@ -149,3 +149,7 @@ Novo jogo, Retomar e Instalar foram compostos com rasters da própria tela, sem 
 ## Interface v010 — nomeação em texto
 
 Foram localizados e traduzidos o cabeçalho e três legendas mistas no ELF. A busca ASCII não capturava as legendas completas por conterem bytes nativos; a referência do cabeçalho usa registrador salvo distante da janela heurística. A política opt-in preserva os bytes opacos e as posições de cada palavra. São quatro campos novos, 620 acumulados. TITLE/BACK continuam em inglês até conferir o comando, sem bloquear a tradução segura das outras instruções. Fonte, gráficos, MAP e seleção de caracteres permanecem iguais à v009. Próxima investigação: semântica desses comandos e rótulos da senha; não adivinhar funções por rótulo. Ver `docs/interface-v010.md`.
+
+## Interface v011 — correção após captura do usuário
+
+O R do título anterior foi considerado ambíguo e foi reconstruído com espaços internos e perna diagonal. A assinatura pedida foi acrescentada ao rodapé por reorganização específica dos seis frames RTITLE, sem código novo ou edição dos créditos oficiais. A assinatura herda o tom/visibilidade de Retomar; sua distância dos créditos originais e os estados do menu aguardam conferência visual. Manter essa correção como prioridade antes de ampliar outros desenhos. As pendências de nomeação/senha/correio continuam na mesma ordem após a conferência. Ver `docs/interface-v011.md`.

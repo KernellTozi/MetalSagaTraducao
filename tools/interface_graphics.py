@@ -124,6 +124,9 @@ def render(record,row):
 
 
 def compile_graphics(config):
+    if config.get('policy') == 'title-credit-and-raster-v007':
+        from title_credit import compile_credit
+        return compile_credit(config)
     if config.get('policy') == 'title-native-raster-v006':
         from title_graphics import compile_title
         return compile_title(config)

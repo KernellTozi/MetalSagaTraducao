@@ -13,8 +13,8 @@ SAMPLES = {'C': (24, 2, 26), 'O': (24, 25, 49), 'N': (24, 48, 73),
 LABELS = ('NOVO JOGO', 'RETOMAR', 'INSTALAR')
 
 
-@lru_cache(maxsize=1)
-def alphabet():
+@lru_cache(maxsize=2)
+def alphabet(revised=False):
     Image = pillow()
     raw = original(RESOURCE)[32:66608]
     meta, _ = inspect_texture(raw)
@@ -47,12 +47,30 @@ def alphabet():
         for xx in range(min(8+(max(0, yy-8)//4), e.width)):
             r.putpixel((xx, yy), e.getpixel((xx, yy)))
     result['R'] = r
+    if revised:
+        # A real R needs an open lower counter and a diagonal leg, not the
+        # N's complete right stem. Keep native pixel values, height and slope.
+        r = Image.new('L', (24, 24))
+        n = result['N']
+        for y in range(24):
+            if y < 7:
+                for x in range(o.width):r.putpixel((x,y),o.getpixel((x,y)))
+            elif y < 12:
+                for x in range(12,o.width):r.putpixel((x+2,y),o.getpixel((x,y)))
+            if y < 12:
+                for x in range(min(9,e.width)):r.putpixel((x,y),e.getpixel((x,y)))
+            elif y < 14:
+                for x in range(n.width):r.putpixel((x,y),n.getpixel((x,y)))
+            elif y < 20:
+                for x in range(12):r.putpixel((x,y),n.getpixel((x,y)))
+                for x in range(13,21):r.putpixel((x-2+y-14,y),n.getpixel((x,y)))
+        result['R'] = r
     return result
 
 
-def line(text):
+def line(text,revised=False):
     Image = pillow()
-    glyphs = alphabet()
+    glyphs = alphabet(revised)
     if not text or any(char != ' ' and char not in glyphs for char in text):
         raise ValueError('Unsupported title character or empty label')
     width = sum(7 if char == ' ' else glyphs[char].width-1 for char in text)+1
@@ -77,14 +95,14 @@ def line(text):
     return canvas
 
 
-def render():
+def render(revised=False):
     raw = original(RESOURCE)
     before = raw[32:66608]
     meta, _ = inspect_texture(before)
     pixels = bytearray(unpack_indices(before, meta))
     rows = []
     for index, text in enumerate(LABELS):
-        glyph = line(text)
+        glyph = line(text,revised)
         encoded = glyph.tobytes()
         x0 = (180-glyph.width)//2
         for y in range(24):

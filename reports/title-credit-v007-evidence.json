@@ -1,0 +1,284 @@
+{
+  "schema": 1,
+  "policy": "title-credit-and-raster-v007",
+  "source_resource": "DATA/RDATA/RTITLE.SDA",
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "reviewed_artwork": {
+    "labels": [
+      {
+        "index": 0,
+        "translation": "NOVO JOGO",
+        "width": 176,
+        "mask_sha256": "f7a9a691eb4d6b8e3404a502f6ae902e763e2b3777f578b17c40f34e596a9957",
+        "rect": [
+          0,
+          0,
+          180,
+          24
+        ]
+      },
+      {
+        "index": 1,
+        "translation": "RETOMAR",
+        "width": 152,
+        "mask_sha256": "4df8451901368eb8931d2253c890a2e662c2c8e6ebcfd3e0e62e75eddd7060d7",
+        "rect": [
+          0,
+          24,
+          180,
+          48
+        ]
+      },
+      {
+        "index": 2,
+        "translation": "INSTALAR",
+        "width": 157,
+        "mask_sha256": "93df21255d0e9dd6ef2952256f9b60b988747a0534733ebd629d355395b7c3c1",
+        "rect": [
+          0,
+          48,
+          180,
+          72
+        ]
+      }
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        180,
+        24,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        128,
+        256,
+        256,
+        128,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        180,
+        48,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        240,
+        0,
+        245,
+        4,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        228,
+        88,
+        114,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        88,
+        228,
+        128,
+        114,
+        22,
+        0,
+        0
+      ]
+    ],
+    "credit": {
+      "text": "Traduzido por: Kernell Tozi",
+      "texture_rect": [
+        55,
+        240,
+        201,
+        254
+      ],
+      "screen_rect": [
+        247,
+        430,
+        393,
+        444
+      ],
+      "mask_sha256": "a751249089bbc67fc6b3f6fb5e12c20f025f7d0f6cc62926487f42a1abfbe1e3",
+      "height": 14,
+      "layout": {
+        "natural_width": 144,
+        "rendered_width": 144,
+        "height": 12,
+        "horizontal_scale": 1.0
+      },
+      "inherits_continue_tint_and_visibility": true
+    }
+  },
+  "raster_glyph_r": {
+    "old_width": 22,
+    "new_width": 24,
+    "height": 24,
+    "old_sha256": "d39b65deb3c2a031745acb73f681e23fc2ef65b1323f9703495c9816ce127f9c",
+    "new_sha256": "afad893e8bb9c5feb3d078ec185c87dda7d869e1d3475a08c0f7ac91e6a77c21",
+    "other_native_glyphs_unchanged": true
+  },
+  "original_title_frames": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "instruction_windows": [
+      {
+        "offset": 230680,
+        "size": 388,
+        "sha256": "131f45153034ce67491ca49a3165d52c07bfd5adc59fc1fd66553ecb0ae96e52"
+      },
+      {
+        "offset": 231104,
+        "size": 156,
+        "sha256": "a0f01ff66a34118e9759bfcf439a831038732f75d51805b5145c34ba979d67e2"
+      },
+      {
+        "offset": 228840,
+        "size": 188,
+        "sha256": "e877e59838f9aff80ad54612df15f17aa1cd8c2dcba4c0fb7fbf2c8e3f3ce983"
+      },
+      {
+        "offset": 1683328,
+        "size": 44,
+        "sha256": "d5de4241dd1c35ef31f666cf3df684433d6a634d7479bf8cf679bfb7d5ef67d2"
+      },
+      {
+        "offset": 1756248,
+        "size": 224,
+        "sha256": "3f9e0c8bd8495ba82d88b4397dc628ba3958d0faa3325b7aa2869e3dc716ab04"
+      },
+      {
+        "offset": 2507208,
+        "size": 96,
+        "sha256": "abaa5ca9274d9d13a809db8202aa7dcf1515098a4f5b7c2f4e34c025164bc866"
+      }
+    ],
+    "descriptor_offset": 2507208,
+    "texture_offset": 32,
+    "texture_size": 66576,
+    "ganm_offset": 66608,
+    "ganm_size": 112,
+    "static_frames": 6,
+    "animations": 0,
+    "frame_table_offset": 16,
+    "object_frames_and_positions": [
+      [
+        5,
+        320.0,
+        296.0
+      ],
+      [
+        0,
+        320.0,
+        296.0
+      ],
+      [
+        1,
+        320.0,
+        330.0
+      ],
+      [
+        2,
+        320.0,
+        364.0
+      ],
+      [
+        4,
+        320.0,
+        296.0
+      ],
+      [
+        3,
+        0.0,
+        0.0
+      ]
+    ],
+    "rectangles": [
+      [
+        0,
+        0,
+        180,
+        24,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        180,
+        48,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        180,
+        72,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        1,
+        74,
+        6,
+        78,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        96,
+        228,
+        136,
+        114,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        136,
+        228,
+        176,
+        114,
+        22,
+        0,
+        0
+      ]
+    ],
+    "verification": "Original instructions/data inspected and hash-bound; no full CPU or game execution"
+  },
+  "preview_inspected": true,
+  "preview_is_pcsx2_capture": false,
+  "user_visual_approval": false,
+  "credit_inherits_continue_tint_and_visibility": true,
+  "overlap_with_original_credits_runtime_verification": "pending",
+  "original_credits_resources_untouched": true
+}
