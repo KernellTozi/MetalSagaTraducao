@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "version": "interface-v009",
+  "previous": "interface-v008",
+  "dialogue_draft": "translations/regiao-inicial-v030.json",
+  "layout_profile": "ptbr-layout-v005",
+  "map_changed": 5892,
+  "map_unchanged": 1339,
+  "map_refused": 0,
+  "interface_count": 616,
+  "graphic_count": 43,
+  "new_title_labels": 3,
+  "iso": {
+    "path": "work/interface-v009/MetalSaga-ptbr-interface-v009.iso",
+    "size": 1704427520,
+    "sha256": "95ce7f53b708fa7ab6e08e938d256df967f16f17b413be74f6483a3a91b1ae2f"
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v008.json",
+    "new_recipe": "translations/interface-v009.json",
+    "source_iso_sha256": "b620386274561ce9a69bbdfb9ff3db880eefb51db669d4f64278598fa743ca2b",
+    "output_iso_sha256": "95ce7f53b708fa7ab6e08e938d256df967f16f17b413be74f6483a3a91b1ae2f",
+    "iso_size": 1704427520,
+    "changed_bytes": 8282,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "title.texture.0",
+        "resource": "DATA/RDATA/RTITLE.SDA",
+        "iso_offset": 1241078832,
+        "size": 65536
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "preview": "work/title-native-v006/comparacao-titulo.png",
+  "preview_inspected": true,
+  "pcsx2_executed": false,
+  "onedrive_copied": false,
+  "work_iso_count": 10,
+  "tests": {
+    "passed": 50,
+    "command": "python -m unittest discover -s tests -p 'test_interface*.py' -v",
+    "elapsed_seconds": 166.199,
+    "title_tests": 5
+  }
+}

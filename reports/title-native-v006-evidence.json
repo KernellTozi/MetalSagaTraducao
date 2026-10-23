@@ -1,0 +1,317 @@
+{
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "instruction_windows": [
+    {
+      "offset": 230680,
+      "size": 388,
+      "sha256": "131f45153034ce67491ca49a3165d52c07bfd5adc59fc1fd66553ecb0ae96e52"
+    },
+    {
+      "offset": 231104,
+      "size": 156,
+      "sha256": "a0f01ff66a34118e9759bfcf439a831038732f75d51805b5145c34ba979d67e2"
+    },
+    {
+      "offset": 228840,
+      "size": 188,
+      "sha256": "e877e59838f9aff80ad54612df15f17aa1cd8c2dcba4c0fb7fbf2c8e3f3ce983"
+    },
+    {
+      "offset": 1683328,
+      "size": 44,
+      "sha256": "d5de4241dd1c35ef31f666cf3df684433d6a634d7479bf8cf679bfb7d5ef67d2"
+    },
+    {
+      "offset": 1756248,
+      "size": 224,
+      "sha256": "3f9e0c8bd8495ba82d88b4397dc628ba3958d0faa3325b7aa2869e3dc716ab04"
+    },
+    {
+      "offset": 2507208,
+      "size": 96,
+      "sha256": "abaa5ca9274d9d13a809db8202aa7dcf1515098a4f5b7c2f4e34c025164bc866"
+    }
+  ],
+  "descriptor_offset": 2507208,
+  "texture_offset": 32,
+  "texture_size": 66576,
+  "ganm_offset": 66608,
+  "ganm_size": 112,
+  "static_frames": 6,
+  "animations": 0,
+  "frame_table_offset": 16,
+  "object_frames_and_positions": [
+    [
+      5,
+      320.0,
+      296.0
+    ],
+    [
+      0,
+      320.0,
+      296.0
+    ],
+    [
+      1,
+      320.0,
+      330.0
+    ],
+    [
+      2,
+      320.0,
+      364.0
+    ],
+    [
+      4,
+      320.0,
+      296.0
+    ],
+    [
+      3,
+      0.0,
+      0.0
+    ]
+  ],
+  "rectangles": [
+    [
+      0,
+      0,
+      180,
+      24,
+      90,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      24,
+      180,
+      48,
+      90,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      48,
+      180,
+      72,
+      90,
+      12,
+      0,
+      0
+    ],
+    [
+      1,
+      74,
+      6,
+      78,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      96,
+      228,
+      136,
+      114,
+      22,
+      0,
+      0
+    ],
+    [
+      0,
+      136,
+      228,
+      176,
+      114,
+      22,
+      0,
+      0
+    ]
+  ],
+  "verification": "Original instructions/data inspected and hash-bound; no full CPU or game execution",
+  "schema": 1,
+  "policy": "title-native-raster-v006",
+  "source_resource": "DATA/RDATA/RTITLE.SDA",
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "sample_rectangles": {
+    "C": [
+      24,
+      2,
+      26
+    ],
+    "O": [
+      24,
+      25,
+      49
+    ],
+    "N": [
+      24,
+      48,
+      73
+    ],
+    "T": [
+      24,
+      72,
+      97
+    ],
+    "I": [
+      24,
+      97,
+      110
+    ],
+    "U": [
+      24,
+      135,
+      160
+    ],
+    "E": [
+      24,
+      160,
+      179
+    ],
+    "W": [
+      0,
+      42,
+      83
+    ],
+    "G": [
+      0,
+      89,
+      113
+    ],
+    "A": [
+      0,
+      112,
+      136
+    ],
+    "M": [
+      0,
+      135,
+      161
+    ],
+    "S": [
+      48,
+      54,
+      80
+    ],
+    "L": [
+      48,
+      141,
+      159
+    ]
+  },
+  "glyphs": {
+    "C": {
+      "width": 21,
+      "height": 24,
+      "indexed_sha256": "4d59e8f51e6989257931e7cdbfe9d52d3629ab6c638d7a4279b61deb21aef779",
+      "origin": "recovered original title glyph"
+    },
+    "O": {
+      "width": 22,
+      "height": 24,
+      "indexed_sha256": "5198d587b2eea762b0498efa12822edf4eccb88138582dee5be6af8dcd0cddfb",
+      "origin": "recovered original title glyph"
+    },
+    "N": {
+      "width": 22,
+      "height": 24,
+      "indexed_sha256": "068db4c58c17256895999584c104cb9d802f26ded41cd2b445555de8c2dfbf21",
+      "origin": "recovered original title glyph"
+    },
+    "T": {
+      "width": 23,
+      "height": 24,
+      "indexed_sha256": "06344f1787c612a3ebf887dcded4722c1aab8bb3d57ed2ab485e965f0d2ae650",
+      "origin": "recovered original title glyph"
+    },
+    "I": {
+      "width": 11,
+      "height": 24,
+      "indexed_sha256": "0791656b023bee1d512dcb07299976237da3663928bbad41e29eb8b301f072c2",
+      "origin": "recovered original title glyph"
+    },
+    "U": {
+      "width": 23,
+      "height": 24,
+      "indexed_sha256": "873d03d79ce34a3834841e5afb94ff48e4cf60f7d4e79c92920b71838e32e81f",
+      "origin": "recovered original title glyph"
+    },
+    "E": {
+      "width": 17,
+      "height": 24,
+      "indexed_sha256": "8796a329e44164b560c3fbcc9682ea978b17f985e121ca6d15ea4d897683ffa7",
+      "origin": "recovered original title glyph"
+    },
+    "W": {
+      "width": 39,
+      "height": 24,
+      "indexed_sha256": "c6a06d39d5fba3f1fc8f820d46f12ef69b9efb9f5a2e2e57cc11196629031347",
+      "origin": "recovered original title glyph"
+    },
+    "G": {
+      "width": 22,
+      "height": 24,
+      "indexed_sha256": "89f0c9164a87a07cf90825ade12d2034aa3fdfe652897aec3c7d5c15a664ebbc",
+      "origin": "recovered original title glyph"
+    },
+    "A": {
+      "width": 23,
+      "height": 24,
+      "indexed_sha256": "754925764c16a952f169e3c52ec977cb9861797bd9ba12e7d2089c4ff60b3d95",
+      "origin": "recovered original title glyph"
+    },
+    "M": {
+      "width": 25,
+      "height": 24,
+      "indexed_sha256": "3e1612d18127206b224b13190fd80b0769dfc6090e9919612096f402b25def53",
+      "origin": "recovered original title glyph"
+    },
+    "S": {
+      "width": 23,
+      "height": 24,
+      "indexed_sha256": "b079689e30e0aeeed2c16df51c685ee5975d03624d01dc4ba94afb12e7a24ddf",
+      "origin": "recovered original title glyph"
+    },
+    "L": {
+      "width": 15,
+      "height": 24,
+      "indexed_sha256": "73812f8aadc8f67864acbe25fefe532fdd4c30d2ebca58d68d6d08f8230ef86f",
+      "origin": "recovered original title glyph"
+    },
+    "V": {
+      "width": 21,
+      "height": 24,
+      "indexed_sha256": "18bcd5f644d3add36609bc52b73d873b6b0c5769653181755a2c3f49539d6b08",
+      "origin": "reconstructed native strokes"
+    },
+    "J": {
+      "width": 23,
+      "height": 24,
+      "indexed_sha256": "301b4ef2ba42cc4bc167a24d132bf0573ffefcfeec9b336225b9655584e386e5",
+      "origin": "reconstructed native strokes"
+    },
+    "R": {
+      "width": 22,
+      "height": 24,
+      "indexed_sha256": "d39b65deb3c2a031745acb73f681e23fc2ef65b1323f9703495c9816ce127f9c",
+      "origin": "reconstructed native strokes"
+    }
+  },
+  "font_scaling": false,
+  "preview_inspected": true,
+  "pcsx2_executed": false,
+  "user_visual_approval": false,
+  "sample_coordinates_order": [
+    "row_y",
+    "left_x",
+    "right_x"
+  ],
+  "sample_height": 24
+}

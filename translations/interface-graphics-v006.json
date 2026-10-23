@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "title-native-raster-v006",
+  "parent": {
+    "recipe": "translations/interface-graphics-v005.json",
+    "sha256": "bbcd7023e163fc292e6e7a766139f15ad0174b51e977f8114b975d1da2cbd2bd"
+  },
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "entries": [
+    {
+      "index": 0,
+      "translation": "NOVO JOGO",
+      "width": 176,
+      "mask_sha256": "f7a9a691eb4d6b8e3404a502f6ae902e763e2b3777f578b17c40f34e596a9957",
+      "rect": [
+        0,
+        0,
+        180,
+        24
+      ]
+    },
+    {
+      "index": 1,
+      "translation": "RETOMAR",
+      "width": 148,
+      "mask_sha256": "9e6840724458b7d606181746deb1834474c91afc04bad1556dcf21d1147796aa",
+      "rect": [
+        0,
+        24,
+        180,
+        48
+      ]
+    },
+    {
+      "index": 2,
+      "translation": "INSTALAR",
+      "width": 155,
+      "mask_sha256": "e036540a5d01d08e15804f3e37c213970bf8637d85767a45c9845c6fa3081f00",
+      "rect": [
+        0,
+        48,
+        180,
+        72
+      ]
+    }
+  ]
+}

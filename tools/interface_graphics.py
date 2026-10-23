@@ -124,6 +124,9 @@ def render(record,row):
 
 
 def compile_graphics(config):
+    if config.get('policy') == 'title-native-raster-v006':
+        from title_graphics import compile_title
+        return compile_title(config)
     if config.get('policy') in ('satcom-original-raster-typeface-v004','satcom-native-baseline-v005'):
         from satcom_native_font import compile_native
         return compile_native(config)
@@ -163,15 +166,22 @@ def main():
     args=parser.parse_args();recipe=args.recipe.resolve();output=local(args.output,True)
     if not recipe.is_relative_to(ROOT/'translations'):raise ValueError('Use a reviewed recipe under translations/')
     config=json.loads(recipe.read_text(encoding='utf-8'));patches,report=compile_graphics(config)
-    source=original(RESOURCE);modified=bytearray(source)
-    for p in patches:modified[p['offset']:p['offset']+len(p['after'])]=p['after']
     from PIL import Image
-    offsets=nested(source)[0]['offsets'];output.mkdir(parents=True)
-    for texture in sorted({r['texture'] for r in report['results']}):
-        a,z=offsets[texture:texture+2]
-        for name,raw in (('original',source),('ptbr',modified)):
-            meta,rgb=inspect_texture(raw[a:z])
-            Image.frombytes('RGB',(meta['width'],meta['height']),rgb).save(output/f'textura-{texture}-{name}.png')
+    resources=sorted({p['resource'] for p in patches});output.mkdir(parents=True)
+    for resource in resources:
+        source=original(resource);modified=bytearray(source)
+        for p in patches:
+            if p['resource']==resource:
+                if source[p['offset']:p['offset']+len(p['before'])]!=p['before']:raise ValueError('Preview patch source mismatch')
+                modified[p['offset']:p['offset']+len(p['after'])]=p['after']
+        offsets=nested(source)[0]['offsets']+[len(source)]
+        textures={r['texture'] for r in report['results'] if r.get('resource',RESOURCE)==resource}
+        prefix='' if len(resources)==1 else Path(resource).stem+'-'
+        for texture in sorted(textures):
+            a,z=offsets[texture:texture+2]
+            for name,raw in (('original',source),('ptbr',modified)):
+                meta,rgb=inspect_texture(raw[a:z])
+                Image.frombytes('RGB',(meta['width'],meta['height']),rgb).save(output/f'{prefix}textura-{texture}-{name}.png')
     report.update(recipe_sha256=sha(recipe.read_bytes()),iso_modified=False)
     (output/'relatorio.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"{report['accepted']} rótulos conferidos; previews em {output}")

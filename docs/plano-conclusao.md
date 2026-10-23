@@ -141,3 +141,7 @@ O retorno do usuário aprovou a aparência geral da fonte, mas identificou oscil
 O transporte local agora cobre 69 texturas em RTITLE, FNAME_DT, F_COMMON, FD_POST e PASSWORD, com round-trip integral de cinco recursos e proteção de paleta/alpha/estruturas. Ver `docs/atlas-interface-v001.md` e `Preparar-Atlas.cmd`. A v008 permanece como ISO atual, sem novas traduções nesta rodada de infraestrutura.
 
 Os oito painéis foram inspecionados. FD_POST contém nomes e retratos de procurados, que devem permanecer preservados; a origem das mensagens de correio continua desconhecida. RTITLE tem fonte pesada/inclinada própria e três regiões de 180×24. Priorizar título, depois senha/nomeação em conjuntos completos, após vincular consumidores e métricas, mantendo a identidade visual de cada família. Os dois registros desconhecidos da nomeação não foram liberados. Não ampliar automaticamente as políticas de ISO por ter conseguido transportar PNGs.
+
+## Interface v009 — tela inicial completa
+
+Novo jogo, Retomar e Instalar foram compostos com rasters da própria tela, sem reduzir as letras; V/J/R são reconstruções explícitas de traços nativos. Descritor, carregamento e recortes foram conferidos no ELF original e vinculados por hashes. Preservam-se os 613 campos/ocorrências anteriores, incluindo a linha de base Satcom corrigida; total 616. Conferência no PCSX2 continua pendente. Próximo conjunto: senha, depois nomeação, usando as próprias famílias visuais. Correio continua aguardando localização. Ver `docs/interface-v009.md`.
