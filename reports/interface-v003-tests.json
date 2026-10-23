@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "suite": [
+    "test_interface_text",
+    "test_interface_resources",
+    "test_diary",
+    "test_alpha_archive",
+    "test_iso_retention",
+    "test_glyph_layout",
+    "test_glyph_single"
+  ],
+  "tests_run": 37,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "pcsx2_executed": false
+}

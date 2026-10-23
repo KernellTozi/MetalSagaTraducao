@@ -81,11 +81,30 @@ def controls(raw):
     return out
 
 
+def embedded_catalog(data):
+    """Two exact format-string consumers; no general scan/boundary relaxation."""
+    windows=((0x122304,0x122330,'bef0d1ab5e1f69dcd3513b612f3afaf39652434b1c34159d5d00904002d9a4aa'),
+             (0x122558,0x122568,'d3cdb49cc41b853c133476ee8b64c3d011d31a207327f33bd728c9456cf4c170'))
+    for a,z,h in windows:
+        if hashlib.sha256(data[a:z]).hexdigest()!=h:raise ValueError('Embedded UI consumer changed')
+    refs=references(data,sections(data));result=[]
+    for at in (0x32c6c0,0x32c810):
+        end=data.find(b'\0',at);value=data[at:end];va=at+0xff000
+        if not value or any(c!=10 and not 32<=c<127 for c in value):raise ValueError('Embedded literal structure changed')
+        interior=[{'relative_offset':i,'references':refs[va+i]} for i in range(1,len(value)) if va+i in refs]
+        result.append({'id':f'elf.ui.{at:08x}','offset':at,'source_hex':value.hex(),'source_sha256':hashlib.sha256(value).hexdigest(),
+            'references':refs.get(va,[]),'interior_references':interior,'status':'referenced-candidate' if refs.get(va) and not interior else 'pending'})
+    return result
+
+
 def compile_draft(data,draft):
     if hashlib.sha256(data).hexdigest()!=ORIGINAL_SHA:raise ValueError('Original ELF revision mismatch')
     if draft.get('schema')!=1 or draft.get('policy')!='elf-ui-fixed-original-string-v001':raise ValueError('Unknown UI policy')
     if draft.get('source_sha256')!=ORIGINAL_SHA:raise ValueError('UI source binding mismatch')
     cat=catalog(data);by_id={e['id']:e for e in cat['entries']};seen=set();patches=[];metadata=[]
+    if draft.get('embedded_literal_profile'):
+        if draft['embedded_literal_profile']!='two-proven-format-literals-v003':raise ValueError('Unknown embedded UI profile')
+        by_id.update({e['id']:e for e in embedded_catalog(data)})
     for target in draft['entries']:
         key=target['id']
         if key in seen:raise ValueError('Duplicate UI ID')
@@ -117,7 +136,11 @@ def compile_draft(data,draft):
         if result[p['offset']:p['offset']+len(p['after'])]!=p['after']:raise ValueError('UI readback failed')
         result[p['offset']:p['offset']+len(p['before'])]=p['before']
     if result!=data:raise ValueError('UI reverse round-trip failed')
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(patches),
+    from interface_resources import compile_resources
+    resource_patches,resource_report=compile_resources(data,draft)
+    patches.extend(resource_patches)
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted'],
+        'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         'elf_size_unchanged':True,'addresses_and_pointers_unchanged':True,'reverse_roundtrip':True,
         'runtime_visual_status':'pending_user_verification','results':metadata}
 

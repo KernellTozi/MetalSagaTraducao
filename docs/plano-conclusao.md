@@ -2,7 +2,7 @@
 
 ## Ordem atual, definida pelo usuário
 
-1. **Em execução: HUD, Satcom, mensagens, menus e diário.** Consolidar strings com referências no ELF, separar rótulos rasterizados e conteúdo em arquivos próprios. Lote atual: 273 strings (185 novas) em `docs/interface-v002.md`; alpha v001 preservada separadamente em dist/. Confirmar apresentação e acentos por tipo de tela; manter os diálogos v029.
+1. **Em execução: HUD, Satcom, mensagens, menus e diário.** Consolidar strings com referências no ELF, separar rótulos rasterizados e conteúdo em arquivos próprios. Lote atual: 473 campos (200 novos) em `docs/interface-v003.md`; alpha v001 preservada separadamente em dist/. Confirmar apresentação e acentos por tipo de tela; manter os diálogos v029.
 2. **Depois: itens/equipamentos.** Extrair tabelas de S_PACK.SDA e investigar os arquivos de dados correspondentes, preservando nomes únicos. Não iniciar essa etapa antes de avançar a interface.
 3. **Por último: pendências pequenas do MAP.MCT.** Congelar os 123 adiamentos v029 (109 opacos e 14 nativos), sem perder receitas/evidências. %$0/%$2 deixam de ser o próximo alvo imediato.
 4. Revisão contextual e passagem funcional consolidada continuam necessárias.
@@ -103,3 +103,10 @@ São 5.892 traduções, 123 adiamentos (109 opacos em 28 grupos e 14 nativos), c
 A rodada ampliada acrescenta 185 strings, com 273 acumuladas, em opções, status, gerenciamento de veículos, nomeação, campo e minijogos. A preservação integral da interface v001 e do MAP v029 acompanha a comparação da imagem inteira. Os próximos alvos permanecem na interface: comprovar o wrapper das estatísticas/cabeçalhos, localizar avisos de Memory Card e conteúdo de mensagens/ajuda, e preparar importação fiel dos textos gráficos. Não voltar aos pequenos controles MAP antes desses conjuntos.
 
 A alpha escolhida pelo usuário é a interface v001, copiada para dist/alpha-v001/ fora da retenção e com hash conferido; não promovê-la implicitamente para a versão atual. Mantêm-se dez imagens de trabalho além dessa exceção permanente. Ver docs/alpha-v001.md.
+
+
+## Interface v003 — mensagens do sistema, diário e estatísticas
+
+Os 200 campos novos abrangem 98 mensagens de Memory Card/HD, 100 campos em 65 registros do diário e dois literais de estatísticas/cabeçalho de veículos. O novo leitor CRLF está limitado a duas entradas NDATA e aos tamanhos carregados pelos descritores originais. Preservam-se os 273 textos anteriores e os diálogos v029. A validação visual será consolidada; não é necessário provocar erros de cartão ou formatar saves.
+
+Próximos conjuntos: páginas de ajuda HTML em NDATA (ainda bloqueadas), origem do corpo das mensagens e importação fiel de textos gráficos de Satcom/batalha/título/nomeação. A entrada 12 de instalação de HD permanece original. Os dois corpos nativos do diário seguem bloqueados; manter nomes, expressões e tabelas intactas onde não houve tradução. Não retomar os pequenos controles MAP enquanto a interface estiver na prioridade.

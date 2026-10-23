@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "resource_bindings": {
+    "DATA/NDATA/NDATA.SDA": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+    "DATA/FDATA/DIARY.DAT": "9dcd179dc289aa558d5046884cfcb603925f7f605d7c5a871cf75939d785b86b"
+  },
+  "table_reader_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "instruction_windows": [
+      {
+        "offset": 613224,
+        "size": 76,
+        "sha256": "77cd592d6ba49e60d254e189911898331aab485d4962319973d21f7abdf60b70"
+      },
+      {
+        "offset": 613408,
+        "size": 336,
+        "sha256": "d158ec9ef69622594bca89d8c4a3d9a97aae614a93469eb42ddb40d19c192a2e"
+      },
+      {
+        "offset": 791016,
+        "size": 120,
+        "sha256": "c168129c4e743ddfdc2a006d7d102f3b43a6c428ac8270b72802485e256a9118"
+      },
+      {
+        "offset": 843184,
+        "size": 88,
+        "sha256": "6f9a2eb751718e77c4cbb93cdc730f9d85309a5b56491d1646d7325ea0834114"
+      },
+      {
+        "offset": 616856,
+        "size": 176,
+        "sha256": "db3095e55581cd2df8eb18208e80c822a213ea6a17ffe3e269dddac59b9be8ef"
+      }
+    ],
+    "scratch_row_limit": 511,
+    "line_separator": "CRLF",
+    "pipe_becomes_newline_in_memory": true,
+    "runtime_visual_status": "pending_user_verification"
+  },
+  "tables": [
+    {
+      "index": 186,
+      "offset": 17881088,
+      "loaded_bytes": 4951,
+      "payload_bytes_after": 4925,
+      "rows": 79,
+      "descriptor_elf_offset": 3279616,
+      "source_sha256": "84fc0fa343b14db6d6f1933556c3343289c7bcad5f75517e487106d3706806af",
+      "patched_sha256": "6b98ff8b1ef103739ec2c6845424de0ff32f98aef5c3ee6346ad3055ed13c9dc",
+      "executed_counter_before": 79,
+      "executed_counter_after": 79
+    },
+    {
+      "index": 200,
+      "offset": 20203520,
+      "loaded_bytes": 1083,
+      "payload_bytes_after": 1063,
+      "rows": 20,
+      "descriptor_elf_offset": 3444720,
+      "source_sha256": "65c40f167bdd753ba3903058d8091d7e75bfc65884e68abe3ec4d74b37e0d122",
+      "patched_sha256": "39bcf2b8d3f8156e6520bb2a0102bc6c7737fe76d569301dd49ce515218835d6",
+      "executed_counter_before": 20,
+      "executed_counter_after": 20
+    }
+  ],
+  "embedded_literals": [
+    {
+      "id": "elf.ui.0032c6c0",
+      "offset": 3327680,
+      "source_sha256": "caa9d9c88ce127b0b0e68003a66ca86a5b1bcd5f5d12dcd538de231961a660b1",
+      "references": [
+        {
+          "kind": "lui-immediate-candidate",
+          "offset": 1188612,
+          "immediate_offset": 1188616,
+          "words": [
+            "3c100043",
+            "2610b6c0"
+          ]
+        }
+      ],
+      "interior_references": []
+    },
+    {
+      "id": "elf.ui.0032c810",
+      "offset": 3328016,
+      "source_sha256": "2400ff44bf0e62655986ab9b665b5d336f83077ee7ab3779ef047412a7a42ddb",
+      "references": [
+        {
+          "kind": "lui-immediate-candidate",
+          "offset": 1189208,
+          "immediate_offset": 1189212,
+          "words": [
+            "3c050043",
+            "24a5b810"
+          ]
+        }
+      ],
+      "interior_references": []
+    }
+  ],
+  "legacy_catalog_unchanged": true,
+  "native_diary_bodies_preserved": [
+    "diary.016.body",
+    "diary.031.body"
+  ],
+  "diary_changed_fields": 100,
+  "diary_changed_records": 65,
+  "diary_changed_titles": 35,
+  "diary_changed_bodies": 65,
+  "source_text_bytes_new": 13949,
+  "source_text_bytes_previous": 2746,
+  "volume_ratio": 5.079752367079388,
+  "scope": "Static instructions and limited original CR/LF counter execution with simulated memory; no PS2 runtime proof"
+}
