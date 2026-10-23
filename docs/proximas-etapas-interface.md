@@ -74,3 +74,98 @@ Critério de conclusão de cada conjunto: campos conhecidos classificados,
 tradução segura aplicada, lacunas e bloqueios explícitos e roteiro de teste
 consolidado. A contagem de strings ou a construção da ISO não prova cobertura
 completa de uma tela nem execução correta no PCSX2.
+
+## Levantamento consolidado executado após a v014
+
+O pedido de ampliar o trabalho e reduzir arquivos foi atendido com um único
+catálogo local reutilizável: **`work/planejamento-interface.json`**. A ferramenta
+`tools/plan_interface_menus.py` atualiza esse mesmo JSON de forma atômica, sem
+pastas por data, rascunhos separados, PNGs, ISOs ou tradução nesta rodada.
+Os textos originais/bytes extraídos ficam somente nesse arquivo fora do Git.
+Scripts, testes e este documento são versionados; os catálogos anteriores não
+foram apagados nem regenerados desnecessariamente.
+
+### Descoberta principal: a interface dentro de S_PACK
+
+A primeira entrada do SDA em **0x35000**, que possui 22 entradas, começa em
+**0x35070** e termina em **0x37070**: um bloco de **8.192 bytes**.
+Seu primeiro u32 é **378**, seguido por 378 offsets relativos de 32 bits.
+O cabeçalho ocupa **0x5EC/1.516 bytes**, exatamente o primeiro offset de texto.
+Todos os ponteiros têm limites e NUL válidos; os alvos distintos não se sobrepõem.
+
+- **378 IDs de ponteiro**, preservados individualmente no catálogo.
+- **317 alvos de texto distintos**, com **61 referências compartilhadas**.
+- **315 alvos em bytes ASCII** e dois com bytes nativos não mapeados
+  (`82 6E` e `82 77`), preservados sem tentativa de interpretar como acentos PT-BR.
+- 6.348 bytes de conteúdo, 317 terminadores e 1.516 bytes de cabeçalho:
+  **11 bytes não ocupados** no bloco. Isso não autoriza usar esses bytes como
+  capacidade extra nem comprova o tamanho do buffer em execução.
+
+As strings incluem ações do inventário, status/equipamento, compra/venda de
+itens/armas/peças/munição, modificações, presentes, mercado paralelo, reparos,
+sucata, abastecimento, aluguel, armazenamento, Hunter Office, resgate e pintura.
+Portanto, investigar **a tabela de interface de S_PACK passa a ser necessário
+agora**, enquanto a tradução das tabelas gerais de nomes/descrições de itens
+permanece para depois. Não tratar todo S_PACK como uma única etapa de itens.
+
+Esses 317 alvos não equivalem a 317 traduções novas: existem nomes próprios,
+símbolos, textos compartilhados e termos que devem permanecer. Os registros
+estão classificados como **identificados, ainda não editáveis**. Falta vincular
+o leitor em execução, seus limites, os consumidores e a política de reinserção.
+Não presumir que o formato de offset observado libera repack automaticamente.
+
+Uma mensagem em **0x35CE7** monta uma palavra inglesa com `%screased`.
+Preservar somente a sequência printf não garante português correto: precisamos
+conferir os argumentos e a composição da frase antes de editar esse caso.
+O catálogo preserva controles, bytes, NUL, offsets, hashes e todos os IDs que
+compartilham cada alvo. Não separar aliases para obter traduções diferentes
+sem nova evidência sobre os consumidores.
+
+### Personagem e catálogo ELF
+
+Foram cruzadas as **4.297 entradas históricas e os dois literais adicionais já
+liberados**, totalizando 4.299 entradas, com a receita v014. Há 298 campos dessa
+lista já traduzidos e três restaurações explícitas de Total. Esses números não
+substituem as 641 ocorrências totais da interface, que incluem outros recursos.
+
+A seleção conservadora deixa **22 candidatos com referência a revisar** e
+**23 candidatos sem referência suficiente**. Não são aprovações de tradução:
+incluem formatos, rótulos compartilhados e situações que exigem contexto.
+Nomes/títulos, fragmentos curtos, formatos sem texto e possíveis nomes técnicos
+são classificados separadamente por heurísticas, sem declarar falsos positivos
+comprovados nem ignorá-los definitivamente.
+
+Também foi identificado o literal multilinha em **0x32B6A0**, com **51 bytes**,
+contendo campos de título/ataque/defesa/EXP. Possui referência candidata em
+**0x118A20/0x118A28**, mas fica fora do catálogo histórico por conter quebras de
+linha. Precisa de política específica e prova de consumo/aliases; não ampliar
+a regex geral para aceitar indiscriminadamente outros dados.
+
+### Próximo lote amplo, com dependências definidas
+
+1. Vincular leitor/consumidores da tabela UI de S_PACK, confirmar alocação,
+   comprimentos máximos e possíveis referências externas. Provar round-trip
+   sem alterações antes de liberar edição; investigar redistribuição somente
+   dentro do bloco comprovado, preservando o grafo de aliases e bytes nativos.
+2. Em paralelo técnico, conferir o formatador multilinha do personagem e os
+   rótulos ELF selecionados. Preservar campos existentes e resolver termos
+   ambíguos pelo contexto, como Coat, em vez de adivinhar equivalentes.
+3. Preparar **um único lote consolidado** de personagem/inventário e lojas/
+   serviços compatíveis, em vez de uma versão por tela. A mesma revisão local
+   deve agrupar a frase, seus valores/controles e os contextos compartilhados.
+4. Executar testes, construir uma ISO consolidada e comparar a imagem integral.
+   O usuário verifica menus e compras/vendas em uma passagem normal. Recursos
+   bloqueados ficam registrados no mesmo catálogo, sem impedir os demais.
+
+Reprodução local, sem IA/API ou internet:
+
+```powershell
+python tools/plan_interface_menus.py
+python -m unittest discover -s tests -p "test_menu_planning.py" -v
+```
+
+**Seis testes passaram**, cobrindo aliases não monotônicos, bytes nativos,
+ponteiros/cabeçalhos/terminadores inválidos, offsets interiores, controles e
+preservação da classificação dos campos já traduzidos. O levantamento foi
+executado contra os originais vinculados por hash. A v014 permanece no iniciador;
+não houve nova ISO, teste no PCSX2, cópia OneDrive ou tradução nesta rodada.
