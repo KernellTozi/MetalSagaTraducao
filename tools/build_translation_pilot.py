@@ -269,6 +269,7 @@ def main():
     parser.add_argument('--build-iso',action='store_true')
     parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'),default=None)
     parser.add_argument('--iso-name',help='Optional experimental image name; never changes the saved recipe')
+    parser.add_argument('--interface-draft',type=Path,help='Optional separately reviewed ELF UI recipe')
     args=parser.parse_args();output=local(args.output,True)
     draft_path=args.draft.resolve()
     if not draft_path.is_relative_to(ROOT):raise ValueError('Draft must be inside workspace')
@@ -276,6 +277,18 @@ def main():
     layout_profile=select_layout_profile(draft,args.layout_profile)
     with SOURCE.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
         document,patches,report=compile_draft(data,draft)
+    interface=None
+    if args.interface_draft:
+        ui_path=args.interface_draft.resolve()
+        if not ui_path.is_relative_to(ROOT/'translations'):raise ValueError('UI draft must be under translations/')
+        interface=json.loads(ui_path.read_text(encoding='utf-8-sig'),object_pairs_hook=unique_object)
+        if interface.get('base_dialogue_draft')!=draft_path.relative_to(ROOT).as_posix():raise ValueError('UI/dialogue recipe mismatch')
+        if interface.get('layout_profile')!=layout_profile:raise ValueError('UI/font profile mismatch')
+        from interface_text import compile_draft as compile_ui,SOURCE as UI_SOURCE
+        ui_patches,ui_report=compile_ui(UI_SOURCE.read_bytes(),interface)
+        patches.extend(ui_patches)
+        report['interface']={**ui_report,'recipe':ui_path.relative_to(ROOT).as_posix(),
+                             'recipe_sha256':hashlib.sha256(ui_path.read_bytes()).hexdigest()}
     output.mkdir(parents=True)
     write_json(output/'plano.json',document)
     write_json(output/'rascunho.json',draft)
@@ -287,7 +300,7 @@ def main():
         policy_path=ROOT/draft['terminology_policy']
         report['terminology_policy_sha256']=hashlib.sha256(policy_path.read_bytes()).hexdigest()
     if report['valid'] and args.build_iso:
-        name=args.iso_name or draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')
+        name=args.iso_name or (interface or {}).get('iso_name') or draft.get('iso_name','MetalSaga-ptbr-piloto-inicial-v001.iso')
         if Path(name).name!=name or not name.startswith('MetalSaga-ptbr-') or not name.endswith('.iso'):
             raise ValueError('Invalid ISO name')
         report['iso']=build_iso(output/name,patches,layout_profile)
@@ -302,6 +315,7 @@ def main():
                 'segments':e['segments'],
                 'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
     print(f"Traduzidos: {report['accepted']}; preservados: {report['unchanged']}; recusados: {report['refused']}. {output}")
+    if report.get('interface'):print(f"Interface: {report['interface']['accepted']} strings; validação visual pendente.")
     if report['terminology_issues']:print('Lote bloqueado por violações de terminologia; consulte o relatório.')
     if not report['valid']:raise SystemExit(2)
 

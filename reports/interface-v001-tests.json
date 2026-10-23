@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "suite": [
+    "test_interface_text",
+    "test_interface_textures",
+    "test_glyph_spacing",
+    "test_glyph_layout",
+    "test_glyph_single",
+    "test_iso_retention",
+    "test_translation_pilot.PilotTests.test_v029_n0_only_and_prior_translations_immutable",
+    "test_translation_pilot.PilotTests.test_recipe_font_binding_and_historical_fallback"
+  ],
+  "tests_run": 28,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "scope": "Targeted UI compiler, read-only texture previews, unchanged v029, approved layout and isolated ISO retention tests; no PCSX2 execution"
+}

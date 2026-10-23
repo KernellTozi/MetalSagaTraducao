@@ -3,6 +3,14 @@
 Tradução por modificação dos recursos do jogo original para execução no PCSX2.
 Projeto independente de recompilação nativa. Não distribui arquivos do jogo, BIOS ou emulador.
 
+Prioridade atual: **HUD, Satcom, mensagens e menus**, depois itens; os pequenos
+fragmentos restantes de MAP.MCT ficam para o final. O primeiro lote de interface
+acrescenta **88 textos** à base de diálogos v029, mantendo o layout v005.
+**`Preparar-Interface.cmd`** valida localmente; **`Testar-Interface.cmd`** ou
+**`Iniciar-Teste.cmd`** abre a imagem consolidada. A execução visual dessa nova
+interface está pendente. Alguns títulos são imagens e ainda permanecem em inglês.
+[Escopo, reprodução e roteiro de teste](docs/interface-v001.md).
+
 O reconhecimento inicial está em [docs/reconhecimento.md](docs/reconhecimento.md).
 Há experimentos separados de diário, diálogo inicial e acentuação. A fala ASCII
 inicial foi confirmada visualmente pelo usuário; os dois grupos de acentos receberam
@@ -24,7 +32,7 @@ Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e val
 7.231 registros localmente, sem gerar outra ISO. São 5.892 registros traduzidos e
 1.339 preservados, incluindo 123 adiados mantidos no original.
 O rascunho PT-BR está em `translations/regiao-inicial-v029.json`, com herança dos
-lotes anteriores. **`Testar-Regiao-Inicial.cmd`** ou **`Iniciar-Teste.cmd`**
+lotes anteriores. **`Testar-Regiao-Inicial.cmd`**
 abre a ISO consolidada com textos v029, fontes v002 e layout v005,
 confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v029.md).
 [Glossário e regras de preservação](docs/glossario.md).
@@ -39,7 +47,8 @@ sugestões de nomes/expressões e preservados a revisar em `work/auditorias/`.
 - [Pesquisa dos quatro projetos públicos](docs/referencias-tecnicas.md).
 - [Experimento de acentuação, mapeamento e teste manual](docs/acentuacao.md).
 
-Para abrir a ISO histórica do primeiro diálogo, na raiz:
+Imagens históricas podem já ter sido removidas pela retenção das dez mais recentes.
+Se a imagem histórica do primeiro diálogo ainda estiver presente, na raiz:
 
 ```powershell
 .\Iniciar-Teste.cmd dialogue

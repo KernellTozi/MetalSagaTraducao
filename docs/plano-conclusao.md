@@ -1,5 +1,14 @@
 # Plano para concluir a tradução
 
+## Ordem atual, definida pelo usuário
+
+1. **Em execução: HUD, Satcom, mensagens, menus e diário.** Consolidar strings com referências no ELF, separar rótulos rasterizados e conteúdo em arquivos próprios. Primeiro lote: 88 strings em `docs/interface-v001.md`. Confirmar apresentação e acentos por tipo de tela; manter os diálogos v029.
+2. **Depois: itens/equipamentos.** Extrair tabelas de S_PACK.SDA e investigar os arquivos de dados correspondentes, preservando nomes únicos. Não iniciar essa etapa antes de avançar a interface.
+3. **Por último: pendências pequenas do MAP.MCT.** Congelar os 123 adiamentos v029 (109 opacos e 14 nativos), sem perder receitas/evidências. %$0/%$2 deixam de ser o próximo alvo imediato.
+4. Revisão contextual e passagem funcional consolidada continuam necessárias.
+
+As seções e estados históricos abaixo registram a ordem anterior; não prevalecem sobre esta atualização. Títulos rasterizados do HUD integram a primeira etapa, mesmo que o procedimento técnico seja de imagem.
+
 ## Base e método
 
 Manter a tradução consolidada e o perfil de layout v005 aprovado nas falas de Nina. Cada etapa produz ferramentas locais reutilizáveis, evidência por formato e um lote contextual. Separar extração, edição binária e teste visual. Não trocar confiabilidade por contagem.
@@ -8,7 +17,7 @@ A primeira triagem reproduzível está em `reports/plano-pendencias-v001.json`, 
 
 ## 1 — Fechar o MAP.MCT conhecido
 
-**Em execução:** liberar uma família de controle por vez, começando por grupos grandes com contexto coerente. Primeiro grupo: 32 registros cujo único opaco é `%B$15`, tratados na v024 com política própria e limite de tamanho mais estrito.
+**Pausado pela prioridade atual:** liberar uma família de controle por vez, começando por grupos grandes com contexto coerente. Primeiro grupo: 32 registros cujo único opaco é `%B$15`, tratados na v024 com política própria e limite de tamanho mais estrito.
 
 **Segundo grupo:** 31 registros exclusivos `%$1`, tratados na v025 com política v007. O leitor e o handler em `0x1B5DEC..0x1B5E83` confirmam a variável 1 e o formato inteiro `%d`. O caminho com f minúsculo continua bloqueado; a tradução preserva G e não fixa os números. Ver `docs/controles-numericos-v007.md`.
 

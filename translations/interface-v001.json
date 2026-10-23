@@ -1,0 +1,539 @@
+{
+  "schema": 1,
+  "policy": "elf-ui-fixed-original-string-v001",
+  "base_dialogue_draft": "translations/regiao-inicial-v029.json",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-interface-v001.iso",
+  "status": "primeiro lote textual de interface; validacao visual pendente",
+  "source_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "entries": [
+    {
+      "id": "elf.ui.0032c018",
+      "source_sha256": "ba615e89e13d8340cf22cbcebe25bb320e715893948201301d8a78a53497e95b",
+      "group": "navigation",
+      "translation": "Escolha o destino"
+    },
+    {
+      "id": "elf.ui.0032c030",
+      "source_sha256": "d0374633e2eff91c6cbbf20d13d6460dc78367e956e5363670485a04d35eabf2",
+      "group": "navigation",
+      "translation": "Excede o teto"
+    },
+    {
+      "id": "elf.ui.0032c060",
+      "source_sha256": "7213922be8f2b0338dc89ad81428e01b6b1d5a9fd4215f145fdffba6501799ff",
+      "group": "navigation",
+      "translation": "Envio feito"
+    },
+    {
+      "id": "elf.ui.0032c0a8",
+      "source_sha256": "d99336b1c3f9fc8c63de6569b877e323fdb018cb3f5c69d4cfbb74684c4cda46",
+      "group": "navigation",
+      "translation": "Sem veíc."
+    },
+    {
+      "id": "elf.ui.0032c0b8",
+      "source_sha256": "e67e03dade4eb238a0e8b828b75ba12394ef2adedb23a698f5f207051fd06e2f",
+      "group": "navigation",
+      "translation": "Sem destino"
+    },
+    {
+      "id": "elf.ui.0032c0c8",
+      "source_sha256": "3d7e52bac36dfd920f547ea92d72b36a7506e0c81384ab52bc8fd23aabb7c06d",
+      "group": "navigation",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.0032c0d8",
+      "source_sha256": "055d9a02753530d8ac89ea15e3930b0836278430eb7e36fc35982ab5a0ecd5aa",
+      "group": "navigation",
+      "translation": "Desativado"
+    },
+    {
+      "id": "elf.ui.0032c0f0",
+      "source_sha256": "6a93dc384a44c0181b0cf83b745048448b3f471ba7afcf5bfa26b143072d329b",
+      "group": "navigation",
+      "translation": "Submerso"
+    },
+    {
+      "id": "elf.ui.0032c100",
+      "source_sha256": "4395900932bc81d1dd7cba63ff31cc1a8c63dff1ef112c63ffc6bfdc220ddaef",
+      "group": "navigation",
+      "translation": "Inoperante"
+    },
+    {
+      "id": "elf.ui.0032c110",
+      "source_sha256": "ca184496974204a0bd3fd4925e0540bc4b0df6fcc232994d29754272b7183812",
+      "group": "navigation",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.0032c1d8",
+      "source_sha256": "eacda7929f8d31ec11dd90b16b473e24aba5f643fef056c2768b8820b9406240",
+      "group": "satcom",
+      "translation": "Você ouvirá um aviso|quando atingir a meta."
+    },
+    {
+      "id": "elf.ui.0032c210",
+      "source_sha256": "4a29a4d8051af4fd757232a3a3a17f83836dee525e79714a8022156b4395ff68",
+      "group": "satcom",
+      "translation": "A meta deve superar seu saldo atual"
+    },
+    {
+      "id": "elf.ui.0032c238",
+      "source_sha256": "25e6dacf8f4da23195cbccbd7c83282e42d2c1af5f9b7682d1ab79837f1cd515",
+      "group": "satcom",
+      "translation": "Meta salva"
+    },
+    {
+      "id": "elf.ui.0032c308",
+      "source_sha256": "0933f10e406e015b8eb971bbe5c676a9c116180abc8b07f18a39bc003bdb3b71",
+      "group": "satcom",
+      "translation": "Qual jogo?"
+    },
+    {
+      "id": "elf.ui.0032c318",
+      "source_sha256": "f8e46b1698efc691d09fb36fd6656def046948d76c6b3ace4ac770f840ea0cb8",
+      "group": "satcom",
+      "translation": "Nenhum"
+    },
+    {
+      "id": "elf.ui.0032c4e0",
+      "source_sha256": "6c351c116cc7feeaf5724426f891c890b4f7d9cb8baab5f2ec1d6c512cc016b6",
+      "group": "satcom",
+      "translation": "Vazio"
+    },
+    {
+      "id": "elf.ui.0032c5a0",
+      "source_sha256": "18c35f29f2dcd7c32d2d92882171c335ce2dfb341e47a52644542027f3295a5d",
+      "group": "satcom",
+      "translation": "Escolha o tema"
+    },
+    {
+      "id": "elf.ui.0032c858",
+      "source_sha256": "722d2b8d6f0a2be3c0295d2cfe930ce483472a31a88608fe701893869f13163f",
+      "group": "satcom",
+      "translation": "Nenhum alugado"
+    },
+    {
+      "id": "elf.ui.0032ca00",
+      "source_sha256": "74bed7b49a5d8b99451913d44c2a60cce198c1d94b408e4f19a09ce0cc1d2a47",
+      "group": "mail",
+      "translation": "Escolha a pasta"
+    },
+    {
+      "id": "elf.ui.0032ca10",
+      "source_sha256": "bf738509a86844b42ec8b38ee5af5a4b5e8868cb4af075791cd89a5d0c239689",
+      "group": "mail",
+      "translation": "Escolha a mensagem"
+    },
+    {
+      "id": "elf.ui.0032ca40",
+      "source_sha256": "8919c177ca5650217c5b2d28ccb59e8a635f939c7837e8cfa13f75768884fd8c",
+      "group": "mail",
+      "translation": "Msg nova"
+    },
+    {
+      "id": "elf.ui.0032ca60",
+      "source_sha256": "459fc38f0399929de7bfb21a5fa3bede3cdb89f28ff662ad2441c620660a3138",
+      "group": "mail",
+      "translation": "    Sem msg"
+    },
+    {
+      "id": "elf.ui.0032cb30",
+      "source_sha256": "5e37688384fe6fce334bcb20e19aeb05689c3a45023a23f09caf1b0f74fbc831",
+      "group": "navigation",
+      "translation": "Sem loja"
+    },
+    {
+      "id": "elf.ui.0032cb60",
+      "source_sha256": "649d57c58231ec97ff78aaead46fe9139d734d7d23a2da640dcd6ca523e246b8",
+      "group": "navigation",
+      "translation": "Escolha a cidade"
+    },
+    {
+      "id": "elf.ui.0032cc40",
+      "source_sha256": "97816115551d31d8c94a2f88a7d7607119c3475cbfb4824d2164e8c617b89fc6",
+      "group": "controls",
+      "translation": "Escolha o estilo;|Set1/Set2 são editáveis"
+    },
+    {
+      "id": "elf.ui.0032cc70",
+      "source_sha256": "9cd0f52d216481d417fefe63938ee6b8f3d15836fa634616093c4022b652c1b3",
+      "group": "controls",
+      "translation": "Defina os atalhos"
+    },
+    {
+      "id": "elf.ui.0032ccc8",
+      "source_sha256": "c494202ba705dc9b73626387a4699d47650c66ed13e33272441f782368ab297a",
+      "group": "controls",
+      "translation": "O padrão não pode mudar"
+    },
+    {
+      "id": "elf.ui.0032cce8",
+      "source_sha256": "3eb1fa977e676255aaf441c28de906d4935e75d63f30386ff22b6d6c7bdbaade",
+      "group": "controls",
+      "translation": "Qual %s original?"
+    },
+    {
+      "id": "elf.ui.0032cd00",
+      "source_sha256": "15aca981b2a627010754204ecb4620b9b2c18c980addbe3ca5b4f8ef4b0f7165",
+      "group": "controls",
+      "translation": "Novo %s"
+    },
+    {
+      "id": "elf.ui.0032cd20",
+      "source_sha256": "5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe",
+      "group": "controls",
+      "translation": "local"
+    },
+    {
+      "id": "elf.ui.0032cd40",
+      "source_sha256": "fac1313ab9bfdc9e51ed51c55b3ef2437bbdc3a9a29d3ba00c3acd38b93aaa56",
+      "group": "controls",
+      "translation": "Qual botão?"
+    },
+    {
+      "id": "elf.ui.0032cd50",
+      "source_sha256": "68d871f8c2070243f5a2cb475d42a18f200de0c9bd930d5cdf9160e6bb5be096",
+      "group": "controls",
+      "translation": "Qual função?"
+    },
+    {
+      "id": "elf.ui.0032cd68",
+      "source_sha256": "d903a3a6d975047d57a2046ab64a70e14ac906ac614e31bd4fe90d896587bf9c",
+      "group": "controls",
+      "translation": "Veículos"
+    },
+    {
+      "id": "elf.ui.0032cd78",
+      "source_sha256": "8251adedf638b5b511de56ac9e78f49eabf44c0435a963ff41d03ed606936070",
+      "group": "controls",
+      "translation": "Batalhas"
+    },
+    {
+      "id": "elf.ui.0032cd88",
+      "source_sha256": "08def6edb1a257a77b7202e6f23d8b28e74f3b71b630fdffcf8ab720ca5c6cc9",
+      "group": "controls",
+      "translation": "Satcom"
+    },
+    {
+      "id": "elf.ui.0032cd98",
+      "source_sha256": "cd71ed7dda01cca4887da01fc24ffaafb5db342d663c04154f934f38023dbef2",
+      "group": "controls",
+      "translation": "Atalhos"
+    },
+    {
+      "id": "elf.ui.0032ce90",
+      "source_sha256": "e68b3b94586dd2ccec982c0106ff9d1afeb966f6f202bae67a439f04078b5b6f",
+      "group": "controls",
+      "translation": "Telep."
+    },
+    {
+      "id": "elf.ui.0032cea0",
+      "source_sha256": "1aa1e61e54809d29ad98e5ccf4fefbf4d1999b7bfe2a15544f0055b2973492ca",
+      "group": "controls",
+      "translation": "Conduzir"
+    },
+    {
+      "id": "elf.ui.0032ceb0",
+      "source_sha256": "7859f24e308d48e16fe0d54ea393f47a60806d4d5609d72ad001f32e2ccc0974",
+      "group": "controls",
+      "translation": "Andar a pé"
+    },
+    {
+      "id": "elf.ui.0032cec0",
+      "source_sha256": "0ba50f753c8d71ad8abc605c602fe839b070c31632a1cd863a43645b6d828982",
+      "group": "controls",
+      "translation": "Detectar"
+    },
+    {
+      "id": "elf.ui.0032ced0",
+      "source_sha256": "39d0530292b6eac49d3abed11fcb9ae3b6b06bb2df5dc5b1df7f157f664b1597",
+      "group": "controls",
+      "translation": "Tiro princ."
+    },
+    {
+      "id": "elf.ui.0032d160",
+      "source_sha256": "49c490a5fd19da62c00cd0006f0d38caea2b37173445f13dd5e01b598d37f10e",
+      "group": "diary_menu",
+      "translation": "Lembretes"
+    },
+    {
+      "id": "elf.ui.0032d178",
+      "source_sha256": "48f8def39db7549c202c1879ece1a7c9735ef73840834a61957a1cbfbfc7bc5a",
+      "group": "diary_menu",
+      "translation": "Anteriores"
+    },
+    {
+      "id": "elf.ui.0032d188",
+      "source_sha256": "c853cf6a0a20e83a730f25c0b2f0b0b52a3e002b50ed08c69166617285b206cc",
+      "group": "diary_menu",
+      "translation": "Escolha a nota"
+    },
+    {
+      "id": "elf.ui.0032d198",
+      "source_sha256": "02ee725b145eb11e005279414f12223f4361a17c8bf5e396799723eb8419c1e7",
+      "group": "diary_menu",
+      "translation": "Sem notas"
+    },
+    {
+      "id": "elf.ui.0032d308",
+      "source_sha256": "c8faa5268c32578d460719c103ffc3a765a40ec5c79de0f026646d987570dec1",
+      "group": "hunt_menu",
+      "translation": "Alvo da semana|do Posto Hunter"
+    },
+    {
+      "id": "elf.ui.0032d330",
+      "source_sha256": "5eba97cc6a3288724f7f5c1d991d628d89aa5f9d46d4b7e59a3ac0c8c7e34101",
+      "group": "hunt_menu",
+      "translation": "Dados de monstros|já reunidos"
+    },
+    {
+      "id": "elf.ui.0032d358",
+      "source_sha256": "fe06c92d22ccc3b0b4ecd3b4a5aacb4c9afce08778dec981052bfd2985a3aec8",
+      "group": "hunt_menu",
+      "translation": "Qual tipo?"
+    },
+    {
+      "id": "elf.ui.0032d368",
+      "source_sha256": "a2475579bcb6dc10299a602ade89c4944656035d7fa8ee5ab46966e6386641ed",
+      "group": "hunt_menu",
+      "translation": "Qual monstro?"
+    },
+    {
+      "id": "elf.ui.0032d378",
+      "source_sha256": "1ff6f43d47ec4eb9a6d8f58d3194f50a74fcf0595a260af9338c37240adea7b6",
+      "group": "hunt_menu",
+      "translation": "Alvo da semana"
+    },
+    {
+      "id": "elf.ui.0032d390",
+      "source_sha256": "c6e932ee92c670319b8af981f77c166b150b42f0941e22fd8410ed623ebfcbd0",
+      "group": "hunt_menu",
+      "translation": "Monstros"
+    },
+    {
+      "id": "elf.ui.0032d998",
+      "source_sha256": "cfcab97f6c0b78f23aff1f32c76eb8907a6540af995ebbc1fa0038cddb243a5c",
+      "group": "satcom",
+      "translation": "Veja as lojas nas|cidades já visitadas"
+    },
+    {
+      "id": "elf.ui.0032d9d0",
+      "source_sha256": "d35e8f8ba71df00d36f5e6e0a486ae9fa353f1ca38333580be14f47d860508a8",
+      "group": "satcom",
+      "translation": "Envie um veículo a uma|cidade já visitada"
+    },
+    {
+      "id": "elf.ui.0032da00",
+      "source_sha256": "bbb062f539018a3fa16b332659c5f58280adc86391214ad40d919b83813e86d9",
+      "group": "satcom",
+      "translation": "Veja os itens obtidos|e os veículos alugados"
+    },
+    {
+      "id": "elf.ui.0032da30",
+      "source_sha256": "2481dae968772ced322ef5259c2c1c2fe598f3927570971127b6c1c4f2f98f0a",
+      "group": "satcom",
+      "translation": "Dados sobre monstros"
+    },
+    {
+      "id": "elf.ui.0032da48",
+      "source_sha256": "f5fbffd29742afe7c25c929791fc2aadd9fbce364b9fee6d3a4261b4ea0136a1",
+      "group": "satcom",
+      "translation": "Veja os procurados"
+    },
+    {
+      "id": "elf.ui.0032da60",
+      "source_sha256": "94f9449861da69491bc24dc98bdef4ee9e7d60a0248acc2714281e64ab30ddec",
+      "group": "satcom",
+      "translation": "Leia as mensagens|recebidas"
+    },
+    {
+      "id": "elf.ui.0032da88",
+      "source_sha256": "f90f71c7b380e4da5001061fcc876a8ff303d9aa003868c2bdc55700625bb2b5",
+      "group": "satcom",
+      "translation": "Receba um aviso ao atingir|uma quantia em dinheiro"
+    },
+    {
+      "id": "elf.ui.0032dac0",
+      "source_sha256": "15e6faf0cf54d8b344f4ccb6f027277df731733468d7c0a250ccd8008d194803",
+      "group": "satcom",
+      "translation": "Ouça as músicas|que você baixou"
+    },
+    {
+      "id": "elf.ui.0032dae8",
+      "source_sha256": "82c8d0e0c0f017dcb809914b1db485c2e1f1c96fdbaa6349b518a045ddd36ca6",
+      "group": "satcom",
+      "translation": "Jogue os minijogos|que você baixou"
+    },
+    {
+      "id": "elf.ui.0032db18",
+      "source_sha256": "51dc412b57df032444e2ef38fd3b608876cb1a01deb3fb3ba04a6994ba3b171f",
+      "group": "satcom",
+      "translation": "Defina os controles e|organize os menus"
+    },
+    {
+      "id": "elf.ui.0032db48",
+      "source_sha256": "9e641ef077dc508f82d1a5e5b08d13258f019a2632eb5a76a919707bbde07a70",
+      "group": "satcom",
+      "translation": "Consulte o diário"
+    },
+    {
+      "id": "elf.ui.0032db60",
+      "source_sha256": "780cddfb3f5b9f36e073eb4d177f16b21d7f7f17b0baf5802d09b65d9ceb6f85",
+      "group": "satcom",
+      "translation": "Veja a ajuda"
+    },
+    {
+      "id": "elf.ui.0032dd20",
+      "source_sha256": "7b790708ff1b171315a152018f3712e8c71c82f4f9000635f77a1336c34f1893",
+      "group": "common_labels",
+      "translation": "Coleção"
+    },
+    {
+      "id": "elf.ui.0032dd30",
+      "source_sha256": "bb6eb742146afcfd08152cb99c0531bf1eec2797cbdf6b203df2f9fe468782ac",
+      "group": "common_labels",
+      "translation": "Minijogo"
+    },
+    {
+      "id": "elf.ui.0032dd50",
+      "source_sha256": "edd3df9d5178bad168fa85b90b9508c8ef3774d99d9b08ec34f34aa10ce990a1",
+      "group": "common_labels",
+      "translation": "Resumo"
+    },
+    {
+      "id": "elf.ui.003496b8",
+      "source_sha256": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6",
+      "group": "common_labels",
+      "translation": "Resumo"
+    },
+    {
+      "id": "elf.ui.003496c0",
+      "source_sha256": "a69c4dece144a46e40d430726395533d8f335a7d601d8ca292220b3a4a7faca4",
+      "group": "common_labels",
+      "translation": "Depós."
+    },
+    {
+      "id": "elf.ui.003496c8",
+      "source_sha256": "dbd6652e88f2b0b3089cbdd61956d31c478ce903be169427361134e5039b6e49",
+      "group": "common_labels",
+      "translation": "Alug."
+    },
+    {
+      "id": "elf.ui.00349718",
+      "source_sha256": "bd2d677b2ed4381b48bb1d0841052c6d076e7d634d5052e85dcbe0b8a0dedd80",
+      "group": "mail",
+      "translation": "Fam."
+    },
+    {
+      "id": "elf.ui.00349720",
+      "source_sha256": "acd8f66440162511efe9b24a2677bab20518f44d6f233b08e9387d9747601f18",
+      "group": "mail",
+      "translation": "Amigos"
+    },
+    {
+      "id": "elf.ui.00349730",
+      "source_sha256": "f97e9da0e3b879f0a9df979ae260a5f7e1371edb127c1862d4f861981166cdc1",
+      "group": "mail",
+      "translation": "Outro"
+    },
+    {
+      "id": "elf.ui.00349758",
+      "source_sha256": "d00aae6b7fbf77a4566d8df36805d7ae973894da9f533ec96516b31e028b71eb",
+      "group": "mail",
+      "translation": "Loja"
+    },
+    {
+      "id": "elf.ui.00349790",
+      "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+      "group": "common_labels",
+      "translation": "Aceitar"
+    },
+    {
+      "id": "elf.ui.003497b8",
+      "source_sha256": "6df1bb18a59ab97df82e307b93fe4f3bbda34d531bcbb79ec573dda23ba64918",
+      "group": "common_labels",
+      "translation": "Hab."
+    },
+    {
+      "id": "elf.ui.003497c0",
+      "source_sha256": "07ed6ccf6bf6393d18684d1d4f774639d44c7d2d2895fd30491ccc50614ed4ea",
+      "group": "mail",
+      "translation": "Msgs"
+    },
+    {
+      "id": "elf.ui.003497c8",
+      "source_sha256": "67e1bca0889ba21ce995cb2e05f0a0f19aad003a39ddcd8a336eaadb9c8a1b4f",
+      "group": "common_labels",
+      "translation": "Vazio"
+    },
+    {
+      "id": "elf.ui.003497e0",
+      "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+      "group": "common_labels",
+      "translation": "Aceitar"
+    },
+    {
+      "id": "elf.ui.00349800",
+      "source_sha256": "b5286edc25eae99e2bad5d37436642ef1bc966fa76bcce30fb5f927e35e2170a",
+      "group": "diary_menu",
+      "translation": "Destaq."
+    },
+    {
+      "id": "elf.ui.00349828",
+      "source_sha256": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+      "group": "common_labels",
+      "translation": "Máq."
+    },
+    {
+      "id": "elf.ui.00349830",
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+      "group": "common_labels",
+      "translation": "Veíc."
+    },
+    {
+      "id": "elf.ui.00349838",
+      "source_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+      "group": "common_labels",
+      "translation": "Descon."
+    },
+    {
+      "id": "elf.ui.00349840",
+      "source_sha256": "2b2740cdf152a7f51d12b711113613369ab18efcaba9689b0e74ac74203eecfd",
+      "group": "common_labels",
+      "translation": "Alvos"
+    },
+    {
+      "id": "elf.ui.00349860",
+      "source_sha256": "3b41ba9c7cb8c5d6530c12eec5000c4e2ad0c48b2d4b9149a3ef6d2a23802819",
+      "group": "common_labels",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.00349880",
+      "source_sha256": "c24a6007704eb9d073a418f0d2b985bbf4d835024718a1fe1fe7c9a0c41eea32",
+      "group": "common_labels",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.003498b8",
+      "source_sha256": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6",
+      "group": "common_labels",
+      "translation": "Resumo"
+    },
+    {
+      "id": "elf.ui.003498c0",
+      "source_sha256": "1b18ebbc3f490c845c2ebeca8853fcc82daefc66068eb984a445f8b1b7068438",
+      "group": "common_labels",
+      "translation": "Lutas"
+    },
+    {
+      "id": "elf.ui.003498d0",
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+      "group": "common_labels",
+      "translation": "Veíc."
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "schema": 1,
+  "scope": "Targeted ASCII scan and previously validated SDA boundaries; no format or runtime UI approval",
+  "resources": [
+    {
+      "path": "DATA/FDATA/DIARY.DAT",
+      "size": 11252,
+      "sda_nodes": [],
+      "targeted_ascii_hits": 1,
+      "example_offsets": [
+        284
+      ]
+    },
+    {
+      "path": "DATA/FDATA/FBS_DATA.SDA",
+      "size": 366224,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 366224,
+          "slot_size": 366224,
+          "count": 10,
+          "offsets": [
+            64,
+            66640,
+            133216,
+            199792,
+            232640,
+            364752,
+            365184,
+            365312,
+            365696,
+            366192
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/FD_END.SDA",
+      "size": 206848,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 206848,
+          "slot_size": 206848,
+          "count": 3,
+          "offsets": [
+            2048,
+            6144,
+            106496
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/FD_POST.SDA",
+      "size": 1011344,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 1011344,
+          "slot_size": 1011344,
+          "count": 49,
+          "offsets": [
+            208,
+            132320,
+            132576,
+            132720,
+            150144,
+            182992,
+            215840,
+            248688,
+            281536,
+            314384,
+            331808,
+            349232,
+            366656,
+            384080,
+            401504,
+            418928,
+            436352,
+            453776,
+            471200,
+            488624,
+            506048,
+            523472,
+            540896,
+            558320,
+            575744,
+            593168,
+            610592,
+            628016,
+            645440,
+            662864,
+            680288,
+            697712,
+            715136,
+            732560,
+            749984,
+            767408,
+            784832,
+            802256,
+            819680,
+            837104,
+            854528,
+            871952,
+            889376,
+            906800,
+            924224,
+            941648,
+            959072,
+            976496,
+            993920
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/FNAME_DT.SDA",
+      "size": 558272,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 558272,
+          "slot_size": 558272,
+          "count": 9,
+          "offsets": [
+            64,
+            17536,
+            19648,
+            282880,
+            546112,
+            551296,
+            551936,
+            552000,
+            558080
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/FNP_VIEW.SDA",
+      "size": 133376,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 133376,
+          "slot_size": 133376,
+          "count": 4,
+          "offsets": [
+            32,
+            66608,
+            133184,
+            133264
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/F_COMMON.SDA",
+      "size": 171936,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 171936,
+          "slot_size": 171936,
+          "count": 10,
+          "offsets": [
+            64,
+            17488,
+            50336,
+            83184,
+            99648,
+            124304,
+            148960,
+            161328,
+            166464,
+            171600
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/F_PCDKF.SDA",
+      "size": 41460992,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 41460992,
+          "slot_size": 41460992,
+          "count": 140,
+          "offsets": [
+            640,
+            195456,
+            391936,
+            591360,
+            774016,
+            967552,
+            1150208,
+            1332864,
+            1524864,
+            1718656,
+            1915648,
+            2108672,
+            2307328,
+            2502400,
+            2697344,
+            3093376,
+            3493248,
+            3891200,
+            4269312,
+            4662784,
+            5040896,
+            5419008,
+            5812352,
+            6205696,
+            6597248,
+            6991232,
+            7393024,
+            7789312,
+            8189696,
+            8708096,
+            9227264,
+            9758848,
+            10262144,
+            10784512,
+            11287808,
+            11791104,
+            12323328,
+            12857216,
+            13382912,
+            13906688,
+            14439552,
+            14962688,
+            15493760,
+            15855232,
+            16217984,
+            16578688,
+            16952832,
+            17287424,
+            17622016,
+            17956608,
+            18291200,
+            18625792,
+            18960384,
+            19315584,
+            19676544,
+            20039296,
+            20411136,
+            20705664,
+            20980480,
+            21255296,
+            21530112,
+            21819520,
+            22117760,
+            22410752,
+            22706688,
+            23002624,
+            23303936,
+            23592960,
+            23883904,
+            24158720,
+            24433536,
+            24865152,
+            25296768,
+            25728384,
+            26160000,
+            26591616,
+            27023232,
+            27454848,
+            27886464,
+            28318080,
+            28749696,
+            29181312,
+            29612928,
+            30044544,
+            30476160,
+            30701568,
+            30924160,
+            31139456,
+            31360768,
+            31579648,
+            31783808,
+            31987968,
+            32192128,
+            32396288,
+            32600448,
+            32804608,
+            33008768,
+            33212928,
+            33417088,
+            33643520,
+            33857920,
+            34074624,
+            34297856,
+            34518016,
+            34722816,
+            34927616,
+            35132416,
+            35337216,
+            35542016,
+            35746816,
+            35951616,
+            36156416,
+            36361216,
+            36593280,
+            36823424,
+            37047552,
+            37275392,
+            37500800,
+            37714816,
+            37928832,
+            38142848,
+            38356864,
+            38570880,
+            38784896,
+            38998912,
+            39212928,
+            39426944,
+            39587584,
+            39743744,
+            39894912,
+            40052480,
+            40207616,
+            40346880,
+            40486144,
+            40625408,
+            40764672,
+            40903936,
+            41043200,
+            41182464,
+            41321728
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/F_SPEND.SDA",
+      "size": 821280,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 821280,
+          "slot_size": 821280,
+          "count": 15,
+          "offsets": [
+            80,
+            58944,
+            149152,
+            227616,
+            285456,
+            376288,
+            442880,
+            509472,
+            576064,
+            642656,
+            709248,
+            721728,
+            748496,
+            773184,
+            777152
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    },
+    {
+      "path": "DATA/FDATA/PASSWORD.SDA",
+      "size": 466624,
+      "sda_nodes": [
+        {
+          "offset": 0,
+          "declared_size": 466624,
+          "slot_size": 466624,
+          "count": 14,
+          "offsets": [
+            80,
+            66656,
+            133232,
+            199808,
+            266384,
+            332960,
+            399536,
+            466112,
+            466144,
+            466176,
+            466208,
+            466240,
+            466272,
+            466304
+          ]
+        }
+      ],
+      "targeted_ascii_hits": 0,
+      "example_offsets": []
+    }
+  ],
+  "preview_inspection": {
+    "tool": "tools/interface_textures.py",
+    "manifest": "work/interface-textures-v001-export/manifest.json",
+    "scope": "First three root entries of FBS_DATA.SDA and F_COMMON.SDA; six readable previews inspected",
+    "read_only": true,
+    "observations": [
+      {
+        "resource": "DATA/FDATA/FBS_DATA.SDA",
+        "entries": [
+          0,
+          2
+        ],
+        "raster_text_confirmed": true,
+        "areas": [
+          "battle command tiles",
+          "Satcom headings and mail/time field headings"
+        ]
+      },
+      {
+        "resource": "DATA/FDATA/F_COMMON.SDA",
+        "entries": [
+          0,
+          1,
+          2
+        ],
+        "areas": [
+          "controller icons",
+          "backgrounds"
+        ],
+        "menu_text_found_in_these_previews": false
+      }
+    ],
+    "import_roundtrip_supported": false
+  }
+}

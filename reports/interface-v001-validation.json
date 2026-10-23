@@ -1,0 +1,2517 @@
+{
+  "schema": 1,
+  "metadata_source": "completed build report; no new runtime validation",
+  "draft_sources": [
+    {
+      "path": "translations/piloto-inicial-v001.json",
+      "sha256": "fd3047bf9fc550ff9610afe96492697f72435ca01f2afd2b30d392a581dc9d65"
+    },
+    {
+      "path": "translations/regiao-inicial-v002.json",
+      "sha256": "f76b62b6e3080a9d844cfc9c4e1f104cdd36b835e9ea24a91e74c8c7b164b7de"
+    },
+    {
+      "path": "translations/regiao-inicial-v003.json",
+      "sha256": "87647182df8efb765b11984573f5a4d163501409faf96b640985186ce66f4ccc"
+    },
+    {
+      "path": "translations/regiao-inicial-v004.json",
+      "sha256": "9666653dbd5ae5f6c91ef47e6b07e4d6bb15decd07df478f8d8fb9c50a28b230"
+    },
+    {
+      "path": "translations/regiao-inicial-v005.json",
+      "sha256": "9ef45797ad1d1b51b284cd51fef5adf058dba3f4ef49c0d191dedf02849e6711"
+    },
+    {
+      "path": "translations/regiao-inicial-v006.json",
+      "sha256": "ed2cd1a4bd97d5424e5aed29e9fb0fbf77bfcf9fe85acf7c0ac204d06870f29b"
+    },
+    {
+      "path": "translations/regiao-inicial-v007.json",
+      "sha256": "94723a445a395926be7754952bd69d8f1d28e1b95410279d3a5e46b3e67ba993"
+    },
+    {
+      "path": "translations/regiao-inicial-v008.json",
+      "sha256": "22770ed22f12b7b55f285d56d676b11281a31432d4b5b60d06fc060270915b3d"
+    },
+    {
+      "path": "translations/regiao-inicial-v009.json",
+      "sha256": "6ac148d393700e562ddbea0f9161a57d6aacf5d2b92d23124509246201fd6b50"
+    },
+    {
+      "path": "translations/regiao-inicial-v010.json",
+      "sha256": "509d4f1f4b3c10eb0b8fd131b11bdf75977ccccd22c575fbd13624b270f1409c"
+    },
+    {
+      "path": "translations/regiao-inicial-v011.json",
+      "sha256": "fbbc4aef5a3401a07900ce2c963b4fab4098ee044a38f77dab9a1db4fab0e9c5"
+    },
+    {
+      "path": "translations/regiao-inicial-v012.json",
+      "sha256": "d39133e726c7a49da7303958aefcaf0f3ffe825f05fa784969b208ff3ad0fa64"
+    },
+    {
+      "path": "translations/regiao-inicial-v013.json",
+      "sha256": "9ccae94e99e0d7fbf5f73b48dfdb23ec57f22db85ae8321f49eab807ad7daae5"
+    },
+    {
+      "path": "translations/regiao-inicial-v014.json",
+      "sha256": "d9b51c0a27dd5d133d6efe0c7570d5242f34fe096cf60febb4aa3be3a98580be"
+    },
+    {
+      "path": "translations/regiao-inicial-v015.json",
+      "sha256": "6952739066afe529bcb0377a7cb2af2f93e0fba545ea1dfc593b78338b0a67e4"
+    },
+    {
+      "path": "translations/regiao-inicial-v016.json",
+      "sha256": "7f26127449f674ffd070ac12dd9b9a6e28f9864e9bb268411bd9718a71c38463"
+    },
+    {
+      "path": "translations/regiao-inicial-v017.json",
+      "sha256": "ba9a91025947c01f38fb3daaab7ca4ed57aedaace16288fed8d49eca3da05125"
+    },
+    {
+      "path": "translations/regiao-inicial-v018.json",
+      "sha256": "d109309f0a59c5cb1b46b384bc85676b939d0ce910fe564cd6ecab5e47e5fcc8"
+    },
+    {
+      "path": "translations/regiao-inicial-v019.json",
+      "sha256": "45c3b5a9cc4988722627ad919edb0065c651bb9f673d509ddbf25a75918a3e08"
+    },
+    {
+      "path": "translations/regiao-inicial-v020.json",
+      "sha256": "a196486d51b4f7a80fa3be9436fb8c67e60d3fa9a73a29afeb7aa4c2e2581e9c"
+    },
+    {
+      "path": "translations/regiao-inicial-v021.json",
+      "sha256": "13eb9c831b88f55ca6a6c374ef00915e87572adfb9dd30324ab6c294be30e66e"
+    },
+    {
+      "path": "translations/regiao-inicial-v022.json",
+      "sha256": "4b23485f0b29a120d2d8783ae78925eaa57325df604da06d8022a3531a7429c3"
+    },
+    {
+      "path": "translations/regiao-inicial-v023.json",
+      "sha256": "8cd668b2a928b993d99990a599764ee6ae3079672b6a1fb965f8fa4d67a5686d"
+    },
+    {
+      "path": "translations/regiao-inicial-v024.json",
+      "sha256": "98fc44fd93c2e19aa58af9e1f59ed4dc2591cc4010ba77abd65eb00195c85761"
+    },
+    {
+      "path": "translations/regiao-inicial-v025.json",
+      "sha256": "827cf38daba8c51bdf0ee8f030e7107dd53663f561881737b02737b17f415621"
+    },
+    {
+      "path": "translations/regiao-inicial-v026.json",
+      "sha256": "fc48ee61b4605b3ff226eb9d55b4115526ce5578f26b2ef07ed126b538248447"
+    },
+    {
+      "path": "translations/regiao-inicial-v027.json",
+      "sha256": "1292e7f4cdad0c7cb3b478886101f319889c333bd675a6d58b39a81611ff6a03"
+    },
+    {
+      "path": "translations/regiao-inicial-v028.json",
+      "sha256": "44942a7b99dc240af23f89e8e973e28901bf1b58483a980135f35c0f3c7acf65"
+    },
+    {
+      "path": "translations/regiao-inicial-v029.json",
+      "sha256": "a84dda10dcfad2aa4795f5dade6ba45b19c539593de8165e4aeeec163126dd9c"
+    }
+  ],
+  "source_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "reinsertion_policy": "fixed-record-n0-preserved-slots-v011",
+  "named_choice_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "instruction_assertions": 22,
+    "named_slots_only": true,
+    "label_and_tail_immutable": true,
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "b15_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "argument_reader": [
+      1792560,
+      1792720
+    ],
+    "b_handler": [
+      1793248,
+      1793324
+    ],
+    "dispatch_table": 3399008,
+    "allowed_token_hex": "2542243135",
+    "variable_index": 15,
+    "grammar": "B plus numeric argument reader: $15 loads uint32 at context+15*4",
+    "growth_allowed": false,
+    "mode": "slots",
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "numeric1_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "argument_reader": [
+      1792560,
+      1792720
+    ],
+    "handler": [
+      1793516,
+      1793668
+    ],
+    "handler_sha256": "34410c8529e2e6613013f4f1a831fd9f3c1d44312a47e588cc81aabeebc038e9",
+    "dispatch_table": 3399008,
+    "format_offset": 3448256,
+    "format_hex": "256400",
+    "allowed_token_hex": "252431",
+    "variable_index": 1,
+    "format": "signed 32-bit decimal; at most 11 visible ASCII bytes",
+    "excluded_suffix": "lowercase f invokes another argument and floating-point formatting",
+    "growth_allowed": false,
+    "mode": "slots",
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "numeric15_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "argument_reader": [
+      1792560,
+      1792720
+    ],
+    "handler": [
+      1793516,
+      1793668
+    ],
+    "handler_sha256": "34410c8529e2e6613013f4f1a831fd9f3c1d44312a47e588cc81aabeebc038e9",
+    "dispatch_table": 3399008,
+    "format_offset": 3448256,
+    "format_hex": "256400",
+    "allowed_token_hex": "25243135",
+    "variable_index": 15,
+    "format": "signed 32-bit decimal; at most 11 visible ASCII bytes",
+    "excluded_suffix": "lowercase f invokes another argument and floating-point formatting",
+    "growth_allowed": false,
+    "mode": "slots",
+    "runtime_visual_status": "pending_manual_validation",
+    "grammar": "$15 reads uint32 at context+60; existing handler formats signed decimal"
+  },
+  "t0_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "windows": [
+      {
+        "start": 1793324,
+        "end": 1793396,
+        "sha256": "d52e88d683ab08c287d43e547b69e463029ab9a6af4d10eef293d894d162f4f8"
+      },
+      {
+        "start": 521880,
+        "end": 521888,
+        "sha256": "f06d86d2158c0b83da5ac105b082b9811449614fe9c06af47266a1cacadcae68"
+      },
+      {
+        "start": 441184,
+        "end": 441220,
+        "sha256": "6fa08c8e897e93b9d5c8576345ac613ff3c99fe7b9bb25b429744b4181f04d3a"
+      }
+    ],
+    "allowed_token_hex": "25542430",
+    "variable_index": 0,
+    "entity_stride": 576,
+    "entity_base_pointer_va": 4674928,
+    "object_pointer_offset": 552,
+    "selector_offset": 108,
+    "string_table_va": 3552376,
+    "growth_allowed": false,
+    "mode": "slots",
+    "identity": "unresolved; do not infer canonical character ID from source text",
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "i0_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "handler": [
+      1793396,
+      1793444
+    ],
+    "handler_sha256": "e7173459777850dc32449a40f72148b044dcaab01098f53c3fdb5fc355ecdb46",
+    "allowed_token_hex": "25492430",
+    "variable_index": 0,
+    "table_base_pointer_va": 4676328,
+    "record_stride": 128,
+    "growth_allowed": false,
+    "mode": "slots",
+    "runtime_table_binding": "not fully traced to source resource",
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "n0_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "handler": [
+      1793196,
+      1793248
+    ],
+    "handler_sha256": "ad4b84a4542c7b5a456286ba5cb796ceaa155374e24940d6f3e1eee62431cd1e",
+    "allowed_token_hex": "254e2430",
+    "variable_index": 0,
+    "name_pointer_table_va": 4674956,
+    "pointer_stride": 4,
+    "growth_allowed": false,
+    "mode": "slots",
+    "runtime_identity": "context-dependent; no canonical actor or vehicle ID inferred",
+    "runtime_visual_status": "pending_manual_validation"
+  },
+  "scope": {
+    "first_offset": "00011074",
+    "last_offset": "1ff30844",
+    "records": 7231
+  },
+  "accepted": 5892,
+  "unchanged": 1339,
+  "interface": {
+    "schema": 1,
+    "policy": "elf-ui-fixed-original-string-v001",
+    "source_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "accepted": 88,
+    "elf_size_unchanged": true,
+    "addresses_and_pointers_unchanged": true,
+    "reverse_roundtrip": true,
+    "runtime_visual_status": "pending_user_verification",
+    "results": [
+      {
+        "id": "elf.ui.0032c018",
+        "offset": 3325976,
+        "source_sha256": "ba615e89e13d8340cf22cbcebe25bb320e715893948201301d8a78a53497e95b",
+        "target_sha256": "e8123aa87c12e6539dc95c8a0afa5862c754fac63172fcc26b0c46e41f99c5da",
+        "source_bytes": 20,
+        "target_bytes": 17,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1174900,
+            "immediate_offset": 1174912,
+            "words": [
+              "3c050043",
+              "24a5b018"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c030",
+        "offset": 3326000,
+        "source_sha256": "d0374633e2eff91c6cbbf20d13d6460dc78367e956e5363670485a04d35eabf2",
+        "target_sha256": "ade8312a55469dc208ca7bc1f8aeb3bbcd0680d4fcc44023861c49fa3a83e816",
+        "source_bytes": 13,
+        "target_bytes": 13,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1175056,
+            "immediate_offset": 1175064,
+            "words": [
+              "3c050043",
+              "24a5b030"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c060",
+        "offset": 3326048,
+        "source_sha256": "7213922be8f2b0338dc89ad81428e01b6b1d5a9fd4215f145fdffba6501799ff",
+        "target_sha256": "5cc4228e96fe44ca4106317583886704c8dc53bc4ab9c1135dce9e290a3bb903",
+        "source_bytes": 12,
+        "target_bytes": 11,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1175380,
+            "immediate_offset": 1175396,
+            "words": [
+              "3c050043",
+              "24a5b060"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c0a8",
+        "offset": 3326120,
+        "source_sha256": "d99336b1c3f9fc8c63de6569b877e323fdb018cb3f5c69d4cfbb74684c4cda46",
+        "target_sha256": "3f0984cd40442151c3ec9cec2d77ac8ce52d44978610abb3e9617d371c0b7bbd",
+        "source_bytes": 10,
+        "target_bytes": 10,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1176104,
+            "immediate_offset": 1176120,
+            "words": [
+              "3c050043",
+              "24a5b0a8"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c0b8",
+        "offset": 3326136,
+        "source_sha256": "e67e03dade4eb238a0e8b828b75ba12394ef2adedb23a698f5f207051fd06e2f",
+        "target_sha256": "72aabdf6242b5c37ac9e86139867fda31cd8c663e405dc9a7c36009aa0959813",
+        "source_bytes": 14,
+        "target_bytes": 11,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1176612,
+            "immediate_offset": 1176620,
+            "words": [
+              "3c050043",
+              "24a5b0b8"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c0c8",
+        "offset": 3326152,
+        "source_sha256": "3d7e52bac36dfd920f547ea92d72b36a7506e0c81384ab52bc8fd23aabb7c06d",
+        "target_sha256": "fa4c2df8a0180ca757254a3347ec779438767a1b1d4f13d390a170defbc42a6f",
+        "source_bytes": 11,
+        "target_bytes": 7,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1176824,
+            "immediate_offset": 1176836,
+            "words": [
+              "3c050043",
+              "24a5b0c8"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c0d8",
+        "offset": 3326168,
+        "source_sha256": "055d9a02753530d8ac89ea15e3930b0836278430eb7e36fc35982ab5a0ecd5aa",
+        "target_sha256": "f47dfde9cb6fd44e4be5d25be16a8bea3bd596e711d262997e16f429a50a6f93",
+        "source_bytes": 16,
+        "target_bytes": 10,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1176852,
+            "immediate_offset": 1176864,
+            "words": [
+              "3c050043",
+              "24a5b0d8"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c0f0",
+        "offset": 3326192,
+        "source_sha256": "6a93dc384a44c0181b0cf83b745048448b3f471ba7afcf5bfa26b143072d329b",
+        "target_sha256": "0f6535eb7680cba6477679dcdaa36114b88e90e77f5be37c53454b980ac6cd03",
+        "source_bytes": 9,
+        "target_bytes": 8,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1176888,
+            "immediate_offset": 1176900,
+            "words": [
+              "3c050043",
+              "24a5b0f0"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c100",
+        "offset": 3326208,
+        "source_sha256": "4395900932bc81d1dd7cba63ff31cc1a8c63dff1ef112c63ffc6bfdc220ddaef",
+        "target_sha256": "b81a090882777a00af9b1df8785d51d0db0a0f1d04665c0b5417f7e09599fe12",
+        "source_bytes": 10,
+        "target_bytes": 10,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1176964,
+            "immediate_offset": 1176976,
+            "words": [
+              "3c050043",
+              "24a5b100"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c110",
+        "offset": 3326224,
+        "source_sha256": "ca184496974204a0bd3fd4925e0540bc4b0df6fcc232994d29754272b7183812",
+        "target_sha256": "fa4c2df8a0180ca757254a3347ec779438767a1b1d4f13d390a170defbc42a6f",
+        "source_bytes": 11,
+        "target_bytes": 7,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1177068,
+            "immediate_offset": 1177080,
+            "words": [
+              "3c050043",
+              "24a5b110"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c1d8",
+        "offset": 3326424,
+        "source_sha256": "eacda7929f8d31ec11dd90b16b473e24aba5f643fef056c2768b8820b9406240",
+        "target_sha256": "195ee3f6a99eda7c91d832c43ce56cf80cd5f58d12314780f985d682b3b23303",
+        "source_bytes": 50,
+        "target_bytes": 45,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1179968,
+            "immediate_offset": 1179980,
+            "words": [
+              "3c050043",
+              "24a5b1d8"
+            ]
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032c210",
+        "offset": 3326480,
+        "source_sha256": "4a29a4d8051af4fd757232a3a3a17f83836dee525e79714a8022156b4395ff68",
+        "target_sha256": "8ed8f89b7d0882cc576c90fec6c02313dec6af2472ad39dcf6dcdf7c4464e085",
+        "source_bytes": 38,
+        "target_bytes": 35,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1180416,
+            "immediate_offset": 1180428,
+            "words": [
+              "3c050043",
+              "24a5b210"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c238",
+        "offset": 3326520,
+        "source_sha256": "25e6dacf8f4da23195cbccbd7c83282e42d2c1af5f9b7682d1ab79837f1cd515",
+        "target_sha256": "4790f06b71a335ee19a96e0956744cafa131c0fe8929a7d52a7dbe133dcfde31",
+        "source_bytes": 10,
+        "target_bytes": 10,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1180472,
+            "immediate_offset": 1180476,
+            "words": [
+              "3c050043",
+              "24a5b238"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c308",
+        "offset": 3326728,
+        "source_sha256": "0933f10e406e015b8eb971bbe5c676a9c116180abc8b07f18a39bc003bdb3b71",
+        "target_sha256": "11c333d3315f5164ba4563e52599b631d522480e6740a95f4432c25794efe462",
+        "source_bytes": 13,
+        "target_bytes": 10,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1183200,
+            "immediate_offset": 1183212,
+            "words": [
+              "3c050043",
+              "24a5b308"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c318",
+        "offset": 3326744,
+        "source_sha256": "f8e46b1698efc691d09fb36fd6656def046948d76c6b3ace4ac770f840ea0cb8",
+        "target_sha256": "496a53a0f11e2a18d6c45add3b20e9dde6ce74131ba4f998ceb3420b5de9ac91",
+        "source_bytes": 14,
+        "target_bytes": 6,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1183552,
+            "immediate_offset": 1183556,
+            "words": [
+              "3c050043",
+              "24a5b318"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c4e0",
+        "offset": 3327200,
+        "source_sha256": "6c351c116cc7feeaf5724426f891c890b4f7d9cb8baab5f2ec1d6c512cc016b6",
+        "target_sha256": "86d77436c31a50cea671be9a2fe36c25b38c77dc730f8bc63faa591d0bed8c88",
+        "source_bytes": 8,
+        "target_bytes": 5,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1185724,
+            "immediate_offset": 1185728,
+            "words": [
+              "3c050043",
+              "24a5b4e0"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c5a0",
+        "offset": 3327392,
+        "source_sha256": "18c35f29f2dcd7c32d2d92882171c335ce2dfb341e47a52644542027f3295a5d",
+        "target_sha256": "ef8876d1772dba43995ce4b0ff54a65b113a697b6f06fc3f71ab8ab7b43283e7",
+        "source_bytes": 14,
+        "target_bytes": 14,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1186368,
+            "immediate_offset": 1186380,
+            "words": [
+              "3c050043",
+              "24a5b5a0"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032c858",
+        "offset": 3328088,
+        "source_sha256": "722d2b8d6f0a2be3c0295d2cfe930ce483472a31a88608fe701893869f13163f",
+        "target_sha256": "d2d7a4e0a3310f5637b7fd22a9a4fb456458e4b9fd9c2a9566f0e27b1251efcd",
+        "source_bytes": 18,
+        "target_bytes": 14,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1189484,
+            "immediate_offset": 1189488,
+            "words": [
+              "3c050043",
+              "24a5b858"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ca00",
+        "offset": 3328512,
+        "source_sha256": "74bed7b49a5d8b99451913d44c2a60cce198c1d94b408e4f19a09ce0cc1d2a47",
+        "target_sha256": "4b73bd0a60da06781418689e6612078d53406ff228b00b3ed6cc9dfa01332da1",
+        "source_bytes": 15,
+        "target_bytes": 15,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1193752,
+            "immediate_offset": 1193764,
+            "words": [
+              "3c050043",
+              "24a5ba00"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ca10",
+        "offset": 3328528,
+        "source_sha256": "bf738509a86844b42ec8b38ee5af5a4b5e8868cb4af075791cd89a5d0c239689",
+        "target_sha256": "7b1404f6c901b7a0ddeecb10d60adbcbd1bdc6193293208158c53a24226d9219",
+        "source_bytes": 24,
+        "target_bytes": 18,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1194012,
+            "immediate_offset": 1194024,
+            "words": [
+              "3c050043",
+              "24a5ba10"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ca40",
+        "offset": 3328576,
+        "source_sha256": "8919c177ca5650217c5b2d28ccb59e8a635f939c7837e8cfa13f75768884fd8c",
+        "target_sha256": "0c86c5692d00e9ddebbe10a385117a54ec9913d39886dadbe7099c0a8464d5be",
+        "source_bytes": 8,
+        "target_bytes": 8,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1195056,
+            "immediate_offset": 1195072,
+            "words": [
+              "3c050043",
+              "24a5ba40"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ca60",
+        "offset": 3328608,
+        "source_sha256": "459fc38f0399929de7bfb21a5fa3bede3cdb89f28ff662ad2441c620660a3138",
+        "target_sha256": "6ea2452e8f3bc2d359e5d7aa38d8f16e43c4234fe07be64f6abfce5cfdfca1fd",
+        "source_bytes": 11,
+        "target_bytes": 11,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1196140,
+            "immediate_offset": 1196144,
+            "words": [
+              "3c050043",
+              "24a5ba60"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cb30",
+        "offset": 3328816,
+        "source_sha256": "5e37688384fe6fce334bcb20e19aeb05689c3a45023a23f09caf1b0f74fbc831",
+        "target_sha256": "b7c654bf7c5337f354a542bdf41be07b6b74ad6d1bd4b0a5b0db67814af378e5",
+        "source_bytes": 8,
+        "target_bytes": 8,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1200368,
+            "immediate_offset": 1200380,
+            "words": [
+              "3c050043",
+              "24a5bb30"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cb60",
+        "offset": 3328864,
+        "source_sha256": "649d57c58231ec97ff78aaead46fe9139d734d7d23a2da640dcd6ca523e246b8",
+        "target_sha256": "e2e5bf6d7b05f0dac5711e6659e06be223993a2bf3dc7bff3845c8cd65be93ec",
+        "source_bytes": 18,
+        "target_bytes": 16,
+        "group": "navigation",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1201096,
+            "immediate_offset": 1201108,
+            "words": [
+              "3c050043",
+              "24a5bb60"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cc40",
+        "offset": 3329088,
+        "source_sha256": "97816115551d31d8c94a2f88a7d7607119c3475cbfb4824d2164e8c617b89fc6",
+        "target_sha256": "50a90a5c8b08c176887db5e7d8bd07af0e4297eb928c4368a34a23686a385d13",
+        "source_bytes": 46,
+        "target_bytes": 43,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329160
+          },
+          {
+            "kind": "data-pointer",
+            "offset": 3329164
+          },
+          {
+            "kind": "data-pointer",
+            "offset": 3329168
+          }
+        ],
+        "controls_hex": [
+          "3b",
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032cc70",
+        "offset": 3329136,
+        "source_sha256": "9cd0f52d216481d417fefe63938ee6b8f3d15836fa634616093c4022b652c1b3",
+        "target_sha256": "954bbaf8566a9da4ec19f2055cbd686fdb8b980e8f85f0da749f6758429d7a90",
+        "source_bytes": 23,
+        "target_bytes": 17,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329172
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ccc8",
+        "offset": 3329224,
+        "source_sha256": "c494202ba705dc9b73626387a4699d47650c66ed13e33272441f782368ab297a",
+        "target_sha256": "0552c7a705ec1f0ac17f753dc66ea561dabeb0dcaf3c365e644d529ef0229d65",
+        "source_bytes": 26,
+        "target_bytes": 25,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329296
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cce8",
+        "offset": 3329256,
+        "source_sha256": "3eb1fa977e676255aaf441c28de906d4935e75d63f30386ff22b6d6c7bdbaade",
+        "target_sha256": "84cb6f77b3ee5953d768aaaaf8de51ef8c426ae48bd321b696766a25d227d261",
+        "source_bytes": 18,
+        "target_bytes": 17,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329300
+          }
+        ],
+        "controls_hex": [
+          "2573"
+        ]
+      },
+      {
+        "id": "elf.ui.0032cd00",
+        "offset": 3329280,
+        "source_sha256": "15aca981b2a627010754204ecb4620b9b2c18c980addbe3ca5b4f8ef4b0f7165",
+        "target_sha256": "bfecda0429c4d458cc4bad7b1fe09f2b36bc19613a9d0a3ab58f18b3229b29bc",
+        "source_bytes": 13,
+        "target_bytes": 7,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329304
+          }
+        ],
+        "controls_hex": [
+          "2573"
+        ]
+      },
+      {
+        "id": "elf.ui.0032cd20",
+        "offset": 3329312,
+        "source_sha256": "5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe",
+        "target_sha256": "25bf8e1a2393f1108d37029b3df5593236c755742ec93465bbafa9b290bddcf6",
+        "source_bytes": 8,
+        "target_bytes": 5,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329328
+          },
+          {
+            "kind": "data-pointer",
+            "offset": 3329332
+          },
+          {
+            "kind": "data-pointer",
+            "offset": 3329336
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cd40",
+        "offset": 3329344,
+        "source_sha256": "fac1313ab9bfdc9e51ed51c55b3ef2437bbdc3a9a29d3ba00c3acd38b93aaa56",
+        "target_sha256": "f0c4f3b57d62a4395824277ac09855ba171ca5967f7388f730faaede748059f4",
+        "source_bytes": 15,
+        "target_bytes": 12,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3446656
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cd50",
+        "offset": 3329360,
+        "source_sha256": "68d871f8c2070243f5a2cb475d42a18f200de0c9bd930d5cdf9160e6bb5be096",
+        "target_sha256": "5ba97a3f06b9263f848ee8c98afb213262a0df6f698db099ce452d009cad488e",
+        "source_bytes": 17,
+        "target_bytes": 14,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3446660
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cd68",
+        "offset": 3329384,
+        "source_sha256": "d903a3a6d975047d57a2046ab64a70e14ac906ac614e31bd4fe90d896587bf9c",
+        "target_sha256": "35847b929595827b0203067dfac174a6cbc8436e1b021696f6d90e9a5cb776e0",
+        "source_bytes": 12,
+        "target_bytes": 9,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329456
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cd78",
+        "offset": 3329400,
+        "source_sha256": "8251adedf638b5b511de56ac9e78f49eabf44c0435a963ff41d03ed606936070",
+        "target_sha256": "b4d8ed2b6abbfd38d3639a2b4e2bca3f3a8691b5f1fe1a96d7c8fdf57ef23e77",
+        "source_bytes": 11,
+        "target_bytes": 8,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329460
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cd88",
+        "offset": 3329416,
+        "source_sha256": "08def6edb1a257a77b7202e6f23d8b28e74f3b71b630fdffcf8ab720ca5c6cc9",
+        "target_sha256": "fc009166c788a5a2c125780dd56e28c659d2aa445e0bb41ec33e5a2c7f1d729c",
+        "source_bytes": 11,
+        "target_bytes": 6,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329464
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cd98",
+        "offset": 3329432,
+        "source_sha256": "cd71ed7dda01cca4887da01fc24ffaafb5db342d663c04154f934f38023dbef2",
+        "target_sha256": "4f30b1f869e56fcbbfdc4be75316279460f42613dbfe821bfc663958612c4f18",
+        "source_bytes": 16,
+        "target_bytes": 7,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329468
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ce90",
+        "offset": 3329680,
+        "source_sha256": "e68b3b94586dd2ccec982c0106ff9d1afeb966f6f202bae67a439f04078b5b6f",
+        "target_sha256": "1274dbef759a37413ad42ab2e1aad0fa5e37453e9b808abefcc58bb97d081e8c",
+        "source_bytes": 8,
+        "target_bytes": 6,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512032
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cea0",
+        "offset": 3329696,
+        "source_sha256": "1aa1e61e54809d29ad98e5ccf4fefbf4d1999b7bfe2a15544f0055b2973492ca",
+        "target_sha256": "14fffe43650ff287dd1f814ed7266f1763906a6d67eb93f7c16eeb7bf80bfd81",
+        "source_bytes": 13,
+        "target_bytes": 8,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512044
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ceb0",
+        "offset": 3329712,
+        "source_sha256": "7859f24e308d48e16fe0d54ea393f47a60806d4d5609d72ad001f32e2ccc0974",
+        "target_sha256": "7d7f47035b84b92a103bc502b37b52f492d7c034a08b4d651ca568119545eebb",
+        "source_bytes": 12,
+        "target_bytes": 11,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512048
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032cec0",
+        "offset": 3329728,
+        "source_sha256": "0ba50f753c8d71ad8abc605c602fe839b070c31632a1cd863a43645b6d828982",
+        "target_sha256": "f13e749f992d201c39982b2036740762c3b50d03edce9f503b1e04dc3e6fd5e0",
+        "source_bytes": 12,
+        "target_bytes": 8,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512052
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032ced0",
+        "offset": 3329744,
+        "source_sha256": "39d0530292b6eac49d3abed11fcb9ae3b6b06bb2df5dc5b1df7f157f664b1597",
+        "target_sha256": "711e020557dacf1a43c78d373a05c1f01933a01d647550d2f06dd3b0b0aeab10",
+        "source_bytes": 13,
+        "target_bytes": 11,
+        "group": "controls",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512056
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d160",
+        "offset": 3330400,
+        "source_sha256": "49c490a5fd19da62c00cd0006f0d38caea2b37173445f13dd5e01b598d37f10e",
+        "target_sha256": "1a02ec714ff6d234acb29441df2585cd73cfb360f4bd2a4589240f49ddb2a71c",
+        "source_bytes": 18,
+        "target_bytes": 9,
+        "group": "diary_menu",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3446768
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d178",
+        "offset": 3330424,
+        "source_sha256": "48f8def39db7549c202c1879ece1a7c9735ef73840834a61957a1cbfbfc7bc5a",
+        "target_sha256": "ce06bfb67e9b790b44c175cbf22ba198044c92455b42dd39889521ff067d08ae",
+        "source_bytes": 11,
+        "target_bytes": 10,
+        "group": "diary_menu",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3446772
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d188",
+        "offset": 3330440,
+        "source_sha256": "c853cf6a0a20e83a730f25c0b2f0b0b52a3e002b50ed08c69166617285b206cc",
+        "target_sha256": "26106e1a5c3a91a2e963f48fe6e7777393ad9574967e308eeb00028e03590b3c",
+        "source_bytes": 15,
+        "target_bytes": 14,
+        "group": "diary_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1215892,
+            "immediate_offset": 1215904,
+            "words": [
+              "3c050043",
+              "24a5c188"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d198",
+        "offset": 3330456,
+        "source_sha256": "02ee725b145eb11e005279414f12223f4361a17c8bf5e396799723eb8419c1e7",
+        "target_sha256": "255e9677ae1b4437a284efe31e4b633210d1d76f16719225ac66a8af1f160a57",
+        "source_bytes": 10,
+        "target_bytes": 9,
+        "group": "diary_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1217788,
+            "immediate_offset": 1217792,
+            "words": [
+              "3c050043",
+              "24a5c198"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d308",
+        "offset": 3330824,
+        "source_sha256": "c8faa5268c32578d460719c103ffc3a765a40ec5c79de0f026646d987570dec1",
+        "target_sha256": "6735b4548aa21ea777fb8360febc3db63864311e7901ce2f5bbe833c155a5c9d",
+        "source_bytes": 38,
+        "target_bytes": 30,
+        "group": "hunt_menu",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3446856
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032d330",
+        "offset": 3330864,
+        "source_sha256": "5eba97cc6a3288724f7f5c1d991d628d89aa5f9d46d4b7e59a3ac0c8c7e34101",
+        "target_sha256": "8e2b4e160b38cc961317f06a58a4d7cf3ef236329fb9f50c00e3385942d72701",
+        "source_bytes": 33,
+        "target_bytes": 30,
+        "group": "hunt_menu",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3446860
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032d358",
+        "offset": 3330904,
+        "source_sha256": "fe06c92d22ccc3b0b4ecd3b4a5aacb4c9afce08778dec981052bfd2985a3aec8",
+        "target_sha256": "9226632d8f05e81e2a0b26f6a9880c14779ba8f52b206f660596fbf901d6fefc",
+        "source_bytes": 11,
+        "target_bytes": 10,
+        "group": "hunt_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1222976,
+            "immediate_offset": 1222988,
+            "words": [
+              "3c050043",
+              "24a5c358"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d368",
+        "offset": 3330920,
+        "source_sha256": "a2475579bcb6dc10299a602ade89c4944656035d7fa8ee5ab46966e6386641ed",
+        "target_sha256": "ed27b692eaa87de48b3d9fb8f29f0b738d924cc1d707fe83d078294e06ddcdc9",
+        "source_bytes": 14,
+        "target_bytes": 13,
+        "group": "hunt_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1223208,
+            "immediate_offset": 1223220,
+            "words": [
+              "3c050043",
+              "24a5c368"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d378",
+        "offset": 3330936,
+        "source_sha256": "1ff6f43d47ec4eb9a6d8f58d3194f50a74fcf0595a260af9338c37240adea7b6",
+        "target_sha256": "aaf5ab18c1e9fc8953423aadc3b6be16f553b823d5e0b0c51381ff95368ebe42",
+        "source_bytes": 18,
+        "target_bytes": 14,
+        "group": "hunt_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1224224,
+            "immediate_offset": 1224240,
+            "words": [
+              "3c050043",
+              "24a5c378"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d390",
+        "offset": 3330960,
+        "source_sha256": "c6e932ee92c670319b8af981f77c166b150b42f0941e22fd8410ed623ebfcbd0",
+        "target_sha256": "4eb1b896e2e5ffa108a99c81f9af817b0fcea55adf7e0768b227757f9ea5a8aa",
+        "source_bytes": 12,
+        "target_bytes": 8,
+        "group": "hunt_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1224300,
+            "immediate_offset": 1224308,
+            "words": [
+              "3c050043",
+              "24a5c390"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032d998",
+        "offset": 3332504,
+        "source_sha256": "cfcab97f6c0b78f23aff1f32c76eb8907a6540af995ebbc1fa0038cddb243a5c",
+        "target_sha256": "9808901727e04f4088f52e16ca982a5718f3e564a0f51b508257da8102c76523",
+        "source_bytes": 50,
+        "target_bytes": 39,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3332984
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032d9d0",
+        "offset": 3332560,
+        "source_sha256": "d35e8f8ba71df00d36f5e6e0a486ae9fa353f1ca38333580be14f47d860508a8",
+        "target_sha256": "bd44f829c831a34ce2a441301968ef9c25e24748ff2eb3501602b53c30546241",
+        "source_bytes": 45,
+        "target_bytes": 43,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3332988
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032da00",
+        "offset": 3332608,
+        "source_sha256": "bbb062f539018a3fa16b332659c5f58280adc86391214ad40d919b83813e86d9",
+        "target_sha256": "44b96c8e908fc8e92fe166521fe5da237e1a643561cddd2d13a1c0d96fcdddeb",
+        "source_bytes": 47,
+        "target_bytes": 45,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3332992
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032da30",
+        "offset": 3332656,
+        "source_sha256": "2481dae968772ced322ef5259c2c1c2fe598f3927570971127b6c1c4f2f98f0a",
+        "target_sha256": "d8d8a35fc6f9f8dd76674497459bcd09afd95f1cddb771490d184c2937d35d41",
+        "source_bytes": 21,
+        "target_bytes": 20,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3332996
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032da48",
+        "offset": 3332680,
+        "source_sha256": "f5fbffd29742afe7c25c929791fc2aadd9fbce364b9fee6d3a4261b4ea0136a1",
+        "target_sha256": "b22dbcafa2c068b9ebd8e642b76045100186f6454b6f2ce284fe8bf54cf2dcd6",
+        "source_bytes": 20,
+        "target_bytes": 18,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333000
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032da60",
+        "offset": 3332704,
+        "source_sha256": "94f9449861da69491bc24dc98bdef4ee9e7d60a0248acc2714281e64ab30ddec",
+        "target_sha256": "5e05368facc735807de266df01589f82c19fe3b4bb49e3d761e59479093c10d0",
+        "source_bytes": 34,
+        "target_bytes": 27,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333004
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032da88",
+        "offset": 3332744,
+        "source_sha256": "f90f71c7b380e4da5001061fcc876a8ff303d9aa003868c2bdc55700625bb2b5",
+        "target_sha256": "a0f45a2592948f199117d026480385045ae1cac24e15165dc533059697d3e1ca",
+        "source_bytes": 52,
+        "target_bytes": 50,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333008
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032dac0",
+        "offset": 3332800,
+        "source_sha256": "15e6faf0cf54d8b344f4ccb6f027277df731733468d7c0a250ccd8008d194803",
+        "target_sha256": "bb64a83ab608d0ae071594c809a74e733ab1277cff7cdc037deaf8b94c52ffde",
+        "source_bytes": 38,
+        "target_bytes": 34,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333012
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032dae8",
+        "offset": 3332840,
+        "source_sha256": "82c8d0e0c0f017dcb809914b1db485c2e1f1c96fdbaa6349b518a045ddd36ca6",
+        "target_sha256": "c5e18f47d0d836254817cd4a67465a3d5d3a133f9a4b015075a81f10a2bea235",
+        "source_bytes": 42,
+        "target_bytes": 35,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333016
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032db18",
+        "offset": 3332888,
+        "source_sha256": "51dc412b57df032444e2ef38fd3b608876cb1a01deb3fb3ba04a6994ba3b171f",
+        "target_sha256": "84b2b07b49caa0d0e1adaf53f965e633ae377739c3d3dbcf4b3acd207fd5d605",
+        "source_bytes": 41,
+        "target_bytes": 39,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333020
+          }
+        ],
+        "controls_hex": [
+          "7c"
+        ]
+      },
+      {
+        "id": "elf.ui.0032db48",
+        "offset": 3332936,
+        "source_sha256": "9e641ef077dc508f82d1a5e5b08d13258f019a2632eb5a76a919707bbde07a70",
+        "target_sha256": "24a81e84c11b4b5fd6164ed8e293bcb08e3cb1ac7eef937b5ada3e1c98db83e8",
+        "source_bytes": 23,
+        "target_bytes": 18,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333024
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032db60",
+        "offset": 3332960,
+        "source_sha256": "780cddfb3f5b9f36e073eb4d177f16b21d7f7f17b0baf5802d09b65d9ceb6f85",
+        "target_sha256": "49575f968f69a452d01410de098f43f9bfd026bdf2ca48547b523f88a46798cb",
+        "source_bytes": 18,
+        "target_bytes": 12,
+        "group": "satcom",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3333028
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032dd20",
+        "offset": 3333408,
+        "source_sha256": "7b790708ff1b171315a152018f3712e8c71c82f4f9000635f77a1336c34f1893",
+        "target_sha256": "50e81067246a48562840e75648f1cc1102a3dcabf3391243de300a486331a1ff",
+        "source_bytes": 10,
+        "target_bytes": 9,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512092
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032dd30",
+        "offset": 3333424,
+        "source_sha256": "bb6eb742146afcfd08152cb99c0531bf1eec2797cbdf6b203df2f9fe468782ac",
+        "target_sha256": "e55361b20cc3ae7894ba8d8806adf111b280416ee0687b08bc20872189445753",
+        "source_bytes": 9,
+        "target_bytes": 8,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512096
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.0032dd50",
+        "offset": 3333456,
+        "source_sha256": "edd3df9d5178bad168fa85b90b9508c8ef3774d99d9b08ec34f34aa10ce990a1",
+        "target_sha256": "3c9717bdf2260bc9ef2033566ad1f5d48e398d53fa0a6910c063a5ae9dcdedda",
+        "source_bytes": 11,
+        "target_bytes": 6,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1245920,
+            "immediate_offset": 1245924,
+            "words": [
+              "3c050043",
+              "24a5cd50"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003496b8",
+        "offset": 3446456,
+        "source_sha256": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6",
+        "target_sha256": "3c9717bdf2260bc9ef2033566ad1f5d48e398d53fa0a6910c063a5ae9dcdedda",
+        "source_bytes": 6,
+        "target_bytes": 6,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1187320,
+            "immediate_offset": 1187336,
+            "words": [
+              "3c050045",
+              "24a586b8"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003496c0",
+        "offset": 3446464,
+        "source_sha256": "a69c4dece144a46e40d430726395533d8f335a7d601d8ca292220b3a4a7faca4",
+        "target_sha256": "de9f1dcd097ea57d051259e168c0a33afad36e03f8a9071acb7087dbb2edc8f0",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1187396,
+            "immediate_offset": 1187412,
+            "words": [
+              "3c050045",
+              "24a586c0"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003496c8",
+        "offset": 3446472,
+        "source_sha256": "dbd6652e88f2b0b3089cbdd61956d31c478ce903be169427361134e5039b6e49",
+        "target_sha256": "7fe383e590db8a82badb0cae1b0b128ce11c3769239281925dbabfcf0e40466c",
+        "source_bytes": 6,
+        "target_bytes": 5,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1187472,
+            "immediate_offset": 1187488,
+            "words": [
+              "3c050045",
+              "24a586c8"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349718",
+        "offset": 3446552,
+        "source_sha256": "bd2d677b2ed4381b48bb1d0841052c6d076e7d634d5052e85dcbe0b8a0dedd80",
+        "target_sha256": "afb02b543a0e758cacba83453ff69b68c99ec6f8498558a4000564a999000ff4",
+        "source_bytes": 6,
+        "target_bytes": 4,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3328560
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349720",
+        "offset": 3446560,
+        "source_sha256": "acd8f66440162511efe9b24a2677bab20518f44d6f233b08e9387d9747601f18",
+        "target_sha256": "bead8677698a4b14b029e51ee373b7548953d132ec0f6f5505cba9bad89f0f01",
+        "source_bytes": 6,
+        "target_bytes": 6,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3328564
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349730",
+        "offset": 3446576,
+        "source_sha256": "f97e9da0e3b879f0a9df979ae260a5f7e1371edb127c1862d4f861981166cdc1",
+        "target_sha256": "5ba3cea99095f67444e52d64edb09f718991f5d8a35afdb04a09d76ca30353d3",
+        "source_bytes": 5,
+        "target_bytes": 5,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3328572
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349758",
+        "offset": 3446616,
+        "source_sha256": "d00aae6b7fbf77a4566d8df36805d7ae973894da9f533ec96516b31e028b71eb",
+        "target_sha256": "70feed55e97f08444a6703e979dce82b6836c8bd786f7d0c7a64f04f1912149a",
+        "source_bytes": 4,
+        "target_bytes": 4,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1200164,
+            "immediate_offset": 1200172,
+            "words": [
+              "3c050045",
+              "24a58758"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349790",
+        "offset": 3446672,
+        "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+        "target_sha256": "aea17ec1a6c80de6ce022f2ae608590f326a12251ef82ab98236daabed6dd7b4",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 3329476
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003497b8",
+        "offset": 3446712,
+        "source_sha256": "6df1bb18a59ab97df82e307b93fe4f3bbda34d531bcbb79ec573dda23ba64918",
+        "target_sha256": "c4925a6372905b67665ac1a49eed6015d829829bb2aabeb63ae7f7166c7fdb6a",
+        "source_bytes": 5,
+        "target_bytes": 4,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512036
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003497c0",
+        "offset": 3446720,
+        "source_sha256": "07ed6ccf6bf6393d18684d1d4f774639d44c7d2d2895fd30491ccc50614ed4ea",
+        "target_sha256": "f374dea5e1c92c60559f20d43a8f00e39d8cffe6eb8a87869e9928085bab47d7",
+        "source_bytes": 4,
+        "target_bytes": 4,
+        "group": "mail",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512040
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003497c8",
+        "offset": 3446728,
+        "source_sha256": "67e1bca0889ba21ce995cb2e05f0a0f19aad003a39ddcd8a336eaadb9c8a1b4f",
+        "target_sha256": "86d77436c31a50cea671be9a2fe36c25b38c77dc730f8bc63faa591d0bed8c88",
+        "source_bytes": 7,
+        "target_bytes": 5,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512060
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003497e0",
+        "offset": 3446752,
+        "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+        "target_sha256": "aea17ec1a6c80de6ce022f2ae608590f326a12251ef82ab98236daabed6dd7b4",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1207696,
+            "immediate_offset": 1207712,
+            "words": [
+              "3c050045",
+              "24a587e0"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349800",
+        "offset": 3446784,
+        "source_sha256": "b5286edc25eae99e2bad5d37436642ef1bc966fa76bcce30fb5f927e35e2170a",
+        "target_sha256": "b44d466276e2b622c6617b2c395d27ca1c01e5061548b8975d70d196f8743e25",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "diary_menu",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1216820,
+            "immediate_offset": 1216836,
+            "words": [
+              "3c050045",
+              "24a58800"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349828",
+        "offset": 3446824,
+        "source_sha256": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+        "target_sha256": "39bcf5456fe67340f80abab901f2e0f6d82decd362de088e074e362671be75c3",
+        "source_bytes": 7,
+        "target_bytes": 5,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512072
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349830",
+        "offset": 3446832,
+        "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+        "target_sha256": "40de08b6588c4bf37ce7405f4f819af5eb12671a0c0fb31df5eb98138f8785ae",
+        "source_bytes": 7,
+        "target_bytes": 6,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512076
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349838",
+        "offset": 3446840,
+        "source_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+        "target_sha256": "ab9a42bfb5d104976b92a71b39ffc69792c706298395ce5594ee893e7d5ca107",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512080
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349840",
+        "offset": 3446848,
+        "source_sha256": "2b2740cdf152a7f51d12b711113613369ab18efcaba9689b0e74ac74203eecfd",
+        "target_sha256": "963e87efaf8e8b9145e6d156d3745a369e7b34e3f3d644d1605649262e5463a5",
+        "source_bytes": 6,
+        "target_bytes": 5,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512084
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349860",
+        "offset": 3446880,
+        "source_sha256": "3b41ba9c7cb8c5d6530c12eec5000c4e2ad0c48b2d4b9149a3ef6d2a23802819",
+        "target_sha256": "fa4c2df8a0180ca757254a3347ec779438767a1b1d4f13d390a170defbc42a6f",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1225608,
+            "immediate_offset": 1225624,
+            "words": [
+              "3c050045",
+              "24a58860"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.00349880",
+        "offset": 3446912,
+        "source_sha256": "c24a6007704eb9d073a418f0d2b985bbf4d835024718a1fe1fe7c9a0c41eea32",
+        "target_sha256": "fa4c2df8a0180ca757254a3347ec779438767a1b1d4f13d390a170defbc42a6f",
+        "source_bytes": 7,
+        "target_bytes": 7,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "lui-immediate-candidate",
+            "offset": 1228708,
+            "immediate_offset": 1228712,
+            "words": [
+              "3c050045",
+              "24a58880"
+            ]
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003498b8",
+        "offset": 3446968,
+        "source_sha256": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6",
+        "target_sha256": "3c9717bdf2260bc9ef2033566ad1f5d48e398d53fa0a6910c063a5ae9dcdedda",
+        "source_bytes": 6,
+        "target_bytes": 6,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512088
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003498c0",
+        "offset": 3446976,
+        "source_sha256": "1b18ebbc3f490c845c2ebeca8853fcc82daefc66068eb984a445f8b1b7068438",
+        "target_sha256": "4c893b8f669075ca13cbe0cc01d40747fc0ec14ddcd2ef677e60fd6d531a7edd",
+        "source_bytes": 6,
+        "target_bytes": 5,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512100
+          }
+        ],
+        "controls_hex": []
+      },
+      {
+        "id": "elf.ui.003498d0",
+        "offset": 3446992,
+        "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+        "target_sha256": "40de08b6588c4bf37ce7405f4f819af5eb12671a0c0fb31df5eb98138f8785ae",
+        "source_bytes": 7,
+        "target_bytes": 6,
+        "group": "common_labels",
+        "references": [
+          {
+            "kind": "data-pointer",
+            "offset": 2512108
+          }
+        ],
+        "controls_hex": []
+      }
+    ],
+    "recipe": "translations/interface-v001.json",
+    "recipe_sha256": "975a831c8bf7e597138e49ee3619d0fe32d5f67ccf80d2d217bb7e3dabee4b7b"
+  },
+  "refused": 0,
+  "deferred": [
+    {
+      "id": "map.smsg.1df4d28c",
+      "reason": "Nome dinâmico e preço com controles opacos"
+    },
+    {
+      "id": "map.smsg.1df4d364",
+      "reason": "Nome dinâmico e preço com controles opacos"
+    },
+    {
+      "id": "map.smsg.1df4d5cc",
+      "reason": "Preço com controle opaco"
+    },
+    {
+      "id": "map.smsg.1df4d6a8",
+      "reason": "Preço com controle opaco"
+    },
+    {
+      "id": "map.msg.1df7ec14",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df7ed3c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df7ee6c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df88cd4",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df88d9c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1df88e6c",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.1f288494",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1f288584",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1f32cfa0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd46558",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1fd47390",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd485fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48688",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48730",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1fd48858",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.sel.1d0b9c8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0bfa2c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.1df465e0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.1df478b8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1c64aa64",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0aa8ec",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1d0b290c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.169bd464",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.169bd620",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.169bfd54",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.176aa3d0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.17743858",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.17746fe0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.17747f84",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1774a448",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1774a49c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1774e674",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12830b18",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.13709cc0",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aa9e18",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aa9e6c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.14aaedc4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1576b864",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77a724",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77a8a8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77b478",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e77bad4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0e77c3ec",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.1033e304",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.10cf4c80",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.10cf4e8c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12120fc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.121210f4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.121219fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12121a88",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.12121f74",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.128226b4",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.128226fc",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.12822744",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.12822790",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.smsg.12827734",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be2b65c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be2b6fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be2b79c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2befc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2bf40",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2bf84",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2bfc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c00c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c054",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c098",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c0e0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c128",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c16c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c1b0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c1f4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c238",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c27c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c2c4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c308",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c34c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c390",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.0be2c3d4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2smg.0be2c4e4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2smg.0be2ca48",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0be2ccb4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db10ac8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db10b1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0db16188",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e5513c0",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e5517d4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e551e7c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e768d74",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e76dabc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e76dd0c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e774dc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0e774e1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e779e3c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.0e77a194",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a13ad4c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fc504",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fc764",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fe774",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0b8fef6c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be0fcac",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0be0ff70",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057d3cc8",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057d3d1c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.057d54fc",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.057d9928",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b264e0",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b2812c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b28310",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.07b2845c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.smsg.085408ec",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a138544",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.0a1387a4",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.supr.01deb800",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.01def818",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.01defc7c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.01df008c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.2snm.038d5974",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msgn.038df66c",
+      "reason": "Controle opaco: edição bloqueada"
+    },
+    {
+      "id": "map.msg.040ef0ec",
+      "reason": "Origem com bytes nativos: preservação permitida, edição bloqueada"
+    }
+  ],
+  "preservation_decisions": {
+    "map.supr.01deb784": "Marcador numerico com F literal mantido integralmente, sem texto traduzivel."
+  },
+  "translated_segments": 6315,
+  "ssd_groups": 1595,
+  "terminology_issues": [],
+  "terminology_policy_sha256": "3740fac35b1ddcfcff36b7f94eeb2ebb950624354921019e6dbf686c6173ca17",
+  "source_iso_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+  "output_iso_sha256": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "iso_size": 1704427520,
+  "changed_byte_count": 489687,
+  "all_bytes_match_expected_patch": true,
+  "iso_directory_identical": true,
+  "fonts": [
+    {
+      "path": "DATA/SYS/SUC20I22.GFI",
+      "sha256": "68a5158652183fec1f88721412ddbc0f8eafb8fc4172f93740113a34e9e9bb6d",
+      "side": 22
+    },
+    {
+      "path": "DATA/SYS/SUC24I26.GFI",
+      "sha256": "cb844c63f3155f8026f7f8f87f5c7d0b6f4b00fb7d26b11620c6b9c935a4085b",
+      "side": 26
+    }
+  ],
+  "elf_profile": "ptbr-layout-v005",
+  "layout_patch": {
+    "offset": 255264,
+    "size": 824,
+    "source_sha256": "f41beaffa20879e2fd90490dc354df14902202fa967b2fd4a80c91c1dc9d699a",
+    "patched_sha256": "48eb3fc657f5da90fa289c2bdbaf5cbbad53b780a83d4d3db98b06e9e62227f1",
+    "scope": "18 PT-BR codes inherit ASCII base draw width, width margin, bearing and advance",
+    "bitmaps": "unchanged v002",
+    "runtime_validated": false,
+    "single_glyph": {
+      "offset": 254688,
+      "size": 576,
+      "source_sha256": "bbdeb34cea6c45c4b8780d1a3322b9e28e0701e6b846accff96cd9a30be38169",
+      "patched_sha256": "797d7ded165aca970e5efbeb6e357987e47edecdfdb4ef32fab09d187316cdc5",
+      "cache_code_retained": true,
+      "runtime_validated": false
+    }
+  },
+  "output_iso": "work/interface-v001/MetalSaga-ptbr-interface-v001.iso",
+  "record_relocation": false,
+  "modes": [
+    "slots"
+  ],
+  "unit_tests_passed_reported": 28,
+  "legacy_width_warnings": 665,
+  "visual_status": "pending_user_verification",
+  "narrative_status": "hospedagem, recebimento e nomeacao de veiculos; N0 dinamico preservado; teste conjunto pendente",
+  "pcsx2_executed": false,
+  "iso_retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 10,
+    "reserve": 0,
+    "before_count": 10,
+    "delete": [],
+    "remaining_count": 10,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "detailed_results": "work/interface-v001/relatorio.json",
+  "baseline_comparison": {
+    "baseline_iso": "work/regiao-inicial-v029/MetalSaga-ptbr-regiao-inicial-v029.iso",
+    "baseline_sha256": "02ca2cada8a231cbc11fe125450a409414515934b5d9f78741a5ac08b40482d0",
+    "changed_bytes_from_v029": 1272,
+    "entire_image_matches_v029_plus_88_ui_patches": true,
+    "map_plan_identical": true,
+    "map_plan_sha256": "55e6055aa7def1b2e164d698b6e07f44b4fa5480cfd7aeb419236c1e8235187b",
+    "map_and_fonts_and_all_other_resources_unchanged": true,
+    "elf_unchanged_outside_reviewed_ui_spans": true
+  },
+  "build_retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 10,
+    "reserve": 1,
+    "before_count": 10,
+    "delete": [
+      {
+        "path": "C:\\Projetos\\MetalSagaTraducao\\work\\regiao-inicial-v022\\MetalSaga-ptbr-regiao-inicial-v022.iso",
+        "size": 1704427520,
+        "mtime_ns": 1792694616819222000
+      }
+    ],
+    "remaining_count": 9,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "launcher_dry_run": {
+    "alias": "interface",
+    "iso": "work/interface-v001/MetalSaga-ptbr-interface-v001.iso",
+    "passed": true,
+    "emulator_started": false
+  }
+}
