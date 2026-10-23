@@ -1,0 +1,1261 @@
+{
+  "source": "PCSX2",
+  "destination": "C:\\Users\\Kernell\\OneDrive\\METAL SAGA\\PCSX2",
+  "files": [
+    {
+      "path": "avcodec-62.dll",
+      "sha256": "554553ccbb7d78fae98c834685846e740baf54bba934442e4af0a4a5f35c78b4",
+      "size": 7389184
+    },
+    {
+      "path": "avformat-62.dll",
+      "sha256": "7cfeff5a8499bc357b982175ed1ae016bbf90c85a175b9f679db69af865619a7",
+      "size": 466944
+    },
+    {
+      "path": "avutil-60.dll",
+      "sha256": "8d9a32f9a9d3ffbd6221b87fdc5d952a5ddff387404001a667a60c74a91852fc",
+      "size": 1075712
+    },
+    {
+      "path": "BIOS/scph39001.bin",
+      "sha256": "f4c948e61a291d4b3f92a141e550cf8357204287a31ff784caccbedaef910c9d",
+      "size": 4194304
+    },
+    {
+      "path": "BIOS/scph39001.MEC",
+      "sha256": "fbbfc6c156266ac7e9afb37f0cc53fb78fadf2f09f580e56b2da57e6539e463b",
+      "size": 4
+    },
+    {
+      "path": "BIOS/scph39001.NVM",
+      "sha256": "20ea5a0b33828c8312034e1436e4e3d6d5635866feeadabc742cab512aeba5dc",
+      "size": 1024
+    },
+    {
+      "path": "D3D12/D3D12Core.dll",
+      "sha256": "90770bc8028ebb9f78051f903343b0aabc12fe7a2b886e007278b5312ba6f101",
+      "size": 5019680
+    },
+    {
+      "path": "docs/GameIndex.pdf",
+      "sha256": "b000e6386e931b5ccf12f626a2868a7034b667efb2d158050b0e13e9ce286e51",
+      "size": 55211
+    },
+    {
+      "path": "docs/GPL.html",
+      "sha256": "ed87aac8d4bce28735fd868416b46abe4d0f0b42ee65461d706df3f9443f3eb9",
+      "size": 37975
+    },
+    {
+      "path": "docs/ThirdPartyLicenses.html",
+      "sha256": "d3cd33eecc96114efc9feb8fdc57e523311f01c7b43af74f46d1705067324d67",
+      "size": 308431
+    },
+    {
+      "path": "freetype.dll",
+      "sha256": "b37837a35d68b04ec7873dbb1c7ea97ad940be41b029ba6cedd1077843a50290",
+      "size": 702976
+    },
+    {
+      "path": "harfbuzz.dll",
+      "sha256": "ed0f039bd459784478447e4250b8294fbbb330f9848c061ebd813a9403ca4b8d",
+      "size": 1163264
+    },
+    {
+      "path": "inis/debuggerlayouts/R3000.json",
+      "sha256": "3109744266ae108ba378d5b68b6028d5414a68ec091c1fa862740f33355732d2",
+      "size": 26420
+    },
+    {
+      "path": "inis/debuggerlayouts/R5900.json",
+      "sha256": "5db5e1b2fe948da8c461d043e629f014059caa03eafa1ad4f7a59046cc209a7c",
+      "size": 23448
+    },
+    {
+      "path": "inis/PCSX2.ini",
+      "sha256": "7234e054abec29be81d412b11f5e0fde3cb3d4c0f959def2fab25dff5c324814",
+      "size": 13617
+    },
+    {
+      "path": "inis/playtime.dat",
+      "sha256": "8c65d15226d74c5330abc40ad28b5bf4a13c47805cb8dcb33d1a90d55906aeca",
+      "size": 75
+    },
+    {
+      "path": "jpeg62.dll",
+      "sha256": "22d9b3a04cc73948ba56456c6fe856f2481df5842c6d5d766585333aa95424fa",
+      "size": 723456
+    },
+    {
+      "path": "kddockwidgets-qt6.dll",
+      "sha256": "fd02e930f4122b4cb0a4b0f3a0a8e5c38b0cccdd3194f60182936c05db35489f",
+      "size": 1421312
+    },
+    {
+      "path": "libpng16.dll",
+      "sha256": "dd88144f028e8b7797f4686b1e7858a7cff7c30d76d1c1bae7f26a9fc11204cf",
+      "size": 206848
+    },
+    {
+      "path": "libsharpyuv.dll",
+      "sha256": "7cf7df8ff31098dae627d0ebfc7f0da2795db9d3bb84e9e1b9ba038c35460bf0",
+      "size": 24576
+    },
+    {
+      "path": "libwebp.dll",
+      "sha256": "49e9107237e7348f58099b2d4144df32409875da801df718ff84f0afdd99b511",
+      "size": 381440
+    },
+    {
+      "path": "libwebpdemux.dll",
+      "sha256": "d94b3ec4852193a85c4ff123fe411542b2ecd4efe74bd451ed19185ec15c6524",
+      "size": 19968
+    },
+    {
+      "path": "libwebpmux.dll",
+      "sha256": "f728649f02ada0500432d05c61e3b68fd55260be48aeb5d7f9b643d1fc49622a",
+      "size": 41472
+    },
+    {
+      "path": "lz4.dll",
+      "sha256": "b6fa83090b3f13531960ea3e5fad93c2b309e08cc21a8fab1939f67d0fd49b9d",
+      "size": 130048
+    },
+    {
+      "path": "memcards/Mcd001.ps2",
+      "sha256": "47ebe237a3987f843fc19b0f801ce1edc1690768ef6b18e4b03a12ca6b298358",
+      "size": 8650752
+    },
+    {
+      "path": "memcards/Mcd002.ps2",
+      "sha256": "47ebe237a3987f843fc19b0f801ce1edc1690768ef6b18e4b03a12ca6b298358",
+      "size": 8650752
+    },
+    {
+      "path": "pcsx2-qt.exe",
+      "sha256": "982c7c62600a999cf15a25c18349426166c785e7867b2fcc5018d733245b71a3",
+      "size": 15257088
+    },
+    {
+      "path": "plutosvg.dll",
+      "sha256": "5b581e91afd9197ce63b49320ce32b33a8fb29472c35c5862e6a02c231aae24c",
+      "size": 55296
+    },
+    {
+      "path": "plutovg.dll",
+      "sha256": "d2a86e37b4b4f5a7814f2a66304839a44ab69fffbee906677c973a2a74e78c89",
+      "size": 258048
+    },
+    {
+      "path": "portable.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "qt.conf",
+      "sha256": "da31ed085667c6c5ee067916cfd9dedfa1d414a0cfa3fcfd441196d94579f393",
+      "size": 30
+    },
+    {
+      "path": "Qt6Core.dll",
+      "sha256": "949cd49051622de98790cf6fbeec7c9f202ab0f7ef105f68d126bf8b16ba18c7",
+      "size": 9253888
+    },
+    {
+      "path": "Qt6Gui.dll",
+      "sha256": "e2ef9c30321485d750bda8e10f3f42eba9f8e7f7941ebb95b93aeb60128efe6b",
+      "size": 5623296
+    },
+    {
+      "path": "Qt6Svg.dll",
+      "sha256": "e74bb1fd63e06b2c750e79e48478102e37f0b517316c28644d38eebcdc3b0d68",
+      "size": 513536
+    },
+    {
+      "path": "Qt6Widgets.dll",
+      "sha256": "a31953bb3c1178908cf883357979a41d23fc6cb691d4b0503b9322198eff45f0",
+      "size": 5192704
+    },
+    {
+      "path": "QtPlugins/iconengines/qsvgicon.dll",
+      "sha256": "4810a162693be336e2c9996411676c98bd227e31c406920d3c426eb91e9f99ae",
+      "size": 46080
+    },
+    {
+      "path": "QtPlugins/imageformats/qapng.dll",
+      "sha256": "2bd188c230243c7b29838f22755ec473d1bb346c249955d7abfe552272c66349",
+      "size": 93184
+    },
+    {
+      "path": "QtPlugins/imageformats/qgif.dll",
+      "sha256": "9ed5e3c43567bb1f9635101b5ec2ba7df63d89d3bc4d4e58aed0babb2ee4db66",
+      "size": 33280
+    },
+    {
+      "path": "QtPlugins/imageformats/qicns.dll",
+      "sha256": "032b51fb46fe7d744d2209303cd84c5d69810f1f151cdff1ff91c02be3bc3db3",
+      "size": 40960
+    },
+    {
+      "path": "QtPlugins/imageformats/qico.dll",
+      "sha256": "b7ab67439fa6d3bfafe6139315b87aec8a27aa0445051298c06b8491177f4d81",
+      "size": 33280
+    },
+    {
+      "path": "QtPlugins/imageformats/qjpeg.dll",
+      "sha256": "0ede323733d967ca06df870658ba3603799ff7e7ec9c4adb2c6c458535759bf0",
+      "size": 48640
+    },
+    {
+      "path": "QtPlugins/imageformats/qsvg.dll",
+      "sha256": "0ab3cd853a4eecb18537cee60576a9d6a937d24578f17bff54bbd45e8ff0d8dc",
+      "size": 26624
+    },
+    {
+      "path": "QtPlugins/imageformats/qtga.dll",
+      "sha256": "9f879ec0e1fcd63eafc09336cdd2ef1a3c27da0bf50da82be52a62312539a42d",
+      "size": 25600
+    },
+    {
+      "path": "QtPlugins/imageformats/qtiff.dll",
+      "sha256": "9eeced53ae4f09a933a2f42eb52ba1ca01adf36b0aaac01fc8c3123559ff8006",
+      "size": 377344
+    },
+    {
+      "path": "QtPlugins/imageformats/qwbmp.dll",
+      "sha256": "8a539ec1ca18c57ea34d067a07d13d8a3897afd0ad748e210496fb3b028c7061",
+      "size": 23552
+    },
+    {
+      "path": "QtPlugins/imageformats/qwebp.dll",
+      "sha256": "7880325d6ecf3c39f6d1870b3c35c2a0eb40afc5b19d6f442bebe35549fe538c",
+      "size": 30720
+    },
+    {
+      "path": "QtPlugins/platforms/qwindows.dll",
+      "sha256": "43aa305ba647d78b953138d0c3b7762edc4ca83838fb3a2923240c9947bcca97",
+      "size": 822272
+    },
+    {
+      "path": "QtPlugins/styles/qmodernwindowsstyle.dll",
+      "sha256": "ae374fa3fcf53b414efb8cfc34df9f9415a131a6d0e80fd6864a9a2ec5b920d0",
+      "size": 212480
+    },
+    {
+      "path": "resources/cover-placeholder.png",
+      "sha256": "1f00d0eba7f55dfa696950eda6ed635b433f28913b37545b61c4674d6454fa03",
+      "size": 56075
+    },
+    {
+      "path": "resources/fonts/fa-solid-900.ttf",
+      "sha256": "8a2db53f7927abee48e52262090d99ced56a22d46752fba13c8f8782ce632d73",
+      "size": 414664
+    },
+    {
+      "path": "resources/fonts/promptfont-license",
+      "sha256": "22298963b3d466f49b6b392a79b6233b80f2957198c75e67aba07cabe34b863c",
+      "size": 4392
+    },
+    {
+      "path": "resources/fonts/promptfont.otf",
+      "sha256": "92848f15d5eeea9fdfe87e272e4c9ea32f876b3665f5b27ef059711b7c757502",
+      "size": 263548
+    },
+    {
+      "path": "resources/fonts/Roboto-Regular-copyright",
+      "sha256": "75c89b3ea9efa5b313a22d77f5648676cb8ed78939a172c526ffba81be819b48",
+      "size": 1328
+    },
+    {
+      "path": "resources/fonts/Roboto-Regular.ttf",
+      "sha256": "797e35f7f5d6020a5c6ea13b42ecd668bcfb3bbc4baa0e74773527e5b6cb3174",
+      "size": 305608
+    },
+    {
+      "path": "resources/fonts/RobotoMono-Medium.ttf",
+      "sha256": "4d901b560f20f455b3c82c6616b17b72360956747cb35c3808aa370052fe8e32",
+      "size": 86820
+    },
+    {
+      "path": "resources/fullscreenui/applications-system.svg",
+      "sha256": "83d6ea51a74dc7a2862569b57f059799e9b38cf96ac463feb9a70087aca3049c",
+      "size": 3838
+    },
+    {
+      "path": "resources/fullscreenui/back-icon.svg",
+      "sha256": "2930e4849159a1bbeee650c469989b8ab8fb6d14d2c19b36d3f5c28a519dda62",
+      "size": 1364
+    },
+    {
+      "path": "resources/fullscreenui/desktop-mode.svg",
+      "sha256": "0cd9e13beb9965bdb6ba355a6bdb89a4c94a6fb799a3707c75b3ba0371bd0a85",
+      "size": 1269
+    },
+    {
+      "path": "resources/fullscreenui/drive-cdrom.svg",
+      "sha256": "2e6210f4d43dcadb9ba97984c7991fd83e76ee85b3192365f26e87d8adcc9dbb",
+      "size": 1037
+    },
+    {
+      "path": "resources/fullscreenui/exit.svg",
+      "sha256": "9dacf195fc9c6f183093fdcd045a44bafb28efe19dc672f1d2c4efa1d4ad4355",
+      "size": 4042
+    },
+    {
+      "path": "resources/fullscreenui/media-cdrom.svg",
+      "sha256": "022c8b05d8f3e7e6046077a2d6ad2d3da1e7fa0e69c8321f3c556b9963be2477",
+      "size": 3318
+    },
+    {
+      "path": "resources/fullscreenui/no-save.png",
+      "sha256": "ab829598e15b771112130cbafbd982736400690c11e3d7c81e3fc8c582c24f47",
+      "size": 9655
+    },
+    {
+      "path": "resources/fullscreenui/placeholder.png",
+      "sha256": "0a42ffa04c5895647026f4cbbd30cae3e1455bd6e36d069ae83142e0c229c74b",
+      "size": 2668
+    },
+    {
+      "path": "resources/fullscreenui/start-bios.svg",
+      "sha256": "c0a9204f361b449bd75465c22aaf3257fcf9a6554c3c34fbd164bd3654f3fea6",
+      "size": 1295
+    },
+    {
+      "path": "resources/fullscreenui/start-file.svg",
+      "sha256": "c0ca66cdb8081b7d9caa450d8e606f9fd3f9046180bef441e28013e65e11340e",
+      "size": 1120
+    },
+    {
+      "path": "resources/fullscreenui/start-game.svg",
+      "sha256": "51e2ce4df2f9a756e74d9a4a0811fac1e8767492bbbb7f7d3feff8a73938c749",
+      "size": 2839
+    },
+    {
+      "path": "resources/game_controller_db.txt",
+      "sha256": "32f76e2991d5a617004821bbf0e4667317b80f67f961d214d3e0e85d74215dd5",
+      "size": 522231
+    },
+    {
+      "path": "resources/GameIndex.yaml",
+      "sha256": "8b78610438ecbaa2545e5b9184435741aed5069c840bf528f9b56768b0006ada",
+      "size": 2757921
+    },
+    {
+      "path": "resources/icons/AppBanner.svg",
+      "sha256": "4bb22e528622898ca5afdb01e2d9190449f1ed0c7b82d56c6e5074553ed4fa27",
+      "size": 2649
+    },
+    {
+      "path": "resources/icons/AppIconLarge.ico",
+      "sha256": "b13d849f560d39b6607eec818b4a9455db39378597495b93041cf839738e2a2b",
+      "size": 302430
+    },
+    {
+      "path": "resources/icons/AppIconLarge.png",
+      "sha256": "956278a74b5ed2e6ea7a17dfa95f984282af3252a61838e7cb4cf2e0ed80ca87",
+      "size": 93501
+    },
+    {
+      "path": "resources/icons/flags/at.svg",
+      "sha256": "9f63af0ce1030685d8521059685266ea85740a796539e74e1e2db25801ddcfa8",
+      "size": 187
+    },
+    {
+      "path": "resources/icons/flags/au.svg",
+      "sha256": "01559ba97a8be0bb52f35037cf06a98f185c692396a33eea3f997470b4eade8c",
+      "size": 1304
+    },
+    {
+      "path": "resources/icons/flags/az.svg",
+      "sha256": "0e341483fbb63a1a6f6f15b6375feaf4782226e5c3736b355f34cad878160dbc",
+      "size": 509
+    },
+    {
+      "path": "resources/icons/flags/be.svg",
+      "sha256": "0ed84a65b868abe7c65ec1b945c18d474a858939fa4631e0d10f2fad315e51ba",
+      "size": 291
+    },
+    {
+      "path": "resources/icons/flags/br.svg",
+      "sha256": "7d7b361189f26a13daf83bb6e5642129a89b93f59283ef20256bb75f6d4ea810",
+      "size": 7025
+    },
+    {
+      "path": "resources/icons/flags/ch.svg",
+      "sha256": "e359431203e7f0ae6ec306f0afd7f834d8090c8d09f96c350d99695e3fe89fd1",
+      "size": 271
+    },
+    {
+      "path": "resources/icons/flags/cn.svg",
+      "sha256": "608ecb98f1017aaf38b6e489c823326ddd21abca19ad2d7ecccd7e5890b01bf8",
+      "size": 786
+    },
+    {
+      "path": "resources/icons/flags/cz.svg",
+      "sha256": "e348e166d002396f909e929cd2a7a5b7a7d7bf2a800ec2ae2ac82bbfa3c0f058",
+      "size": 218
+    },
+    {
+      "path": "resources/icons/flags/de.svg",
+      "sha256": "247e01bf68b57dd092282cb894f661ae04f57607587a4187e543e2fd973ff084",
+      "size": 214
+    },
+    {
+      "path": "resources/icons/flags/dk.svg",
+      "sha256": "48695ecc3f2403f6de0ec67308f5d97469b1db83cb7c0c8a9ec85cf5ae281df9",
+      "size": 232
+    },
+    {
+      "path": "resources/icons/flags/es.svg",
+      "sha256": "bf3055f2ce52a4b21192bb5552cd9fde3a0ec443fd7c346c9e883cc8100846d9",
+      "size": 80840
+    },
+    {
+      "path": "resources/icons/flags/eu.svg",
+      "sha256": "4a8de5b59a7dadf8694684eca2644df9c9929a7c94f03daa2cbe4448282832fb",
+      "size": 1323
+    },
+    {
+      "path": "resources/icons/flags/fi.svg",
+      "sha256": "20298e51ece7ed3e2f15d1fb551f7b34bb5a014317fedc7ced68a944fe1d75f2",
+      "size": 223
+    },
+    {
+      "path": "resources/icons/flags/fr.svg",
+      "sha256": "c400b4ad91b509603f67b8535b140dbbdff0ca58f97aa15dc1b56fb1fccfae2f",
+      "size": 225
+    },
+    {
+      "path": "resources/icons/flags/gb.svg",
+      "sha256": "70146e79a2c236bab5d58a22da551c034247e8fdae57e2f25af6a9c562d6b811",
+      "size": 511
+    },
+    {
+      "path": "resources/icons/flags/gr.svg",
+      "sha256": "e409578bdfb0a6f2ec8ba2514afa2a2ebb9a8e277073b3e9c47013ca7ebf0c6c",
+      "size": 832
+    },
+    {
+      "path": "resources/icons/flags/hk.svg",
+      "sha256": "3cb5eb3bb2539783b6a0bd33596a2fe19dbacaeab9edfd7c47fba832d68d5a70",
+      "size": 735
+    },
+    {
+      "path": "resources/icons/flags/hr.svg",
+      "sha256": "77fd58c69d3416f1c71ddb4b627e41557305949d7d578bda4a5c21d45b70b488",
+      "size": 30790
+    },
+    {
+      "path": "resources/icons/flags/hu.svg",
+      "sha256": "156d61ea2cf77717e6822db3279caa68271957ec1cf2bd787a73f7571825ec9c",
+      "size": 266
+    },
+    {
+      "path": "resources/icons/flags/id.svg",
+      "sha256": "ede124565e0b642012b38569b9fcef75a560387bde1f07c8fc964eb6c895631f",
+      "size": 167
+    },
+    {
+      "path": "resources/icons/flags/il.svg",
+      "sha256": "f9d6190de9def1ea36e88a29dc9a8f7f23519a661c6fb87dee4f9534ab52ccb2",
+      "size": 825
+    },
+    {
+      "path": "resources/icons/flags/in.svg",
+      "sha256": "9e2755b5975c3dd97950ce7e49037abaff19c0cbebafd2b639f3eea0866f28e5",
+      "size": 1115
+    },
+    {
+      "path": "resources/icons/flags/ir.svg",
+      "sha256": "1145dd626830beb59ec3ccb479bc65a17f4eb3cb6f41e79f3160a084b58bfc8a",
+      "size": 14914
+    },
+    {
+      "path": "resources/icons/flags/it.svg",
+      "sha256": "95e97c05c4770ba93264771ab9cfbda3307fa3076a2b03b5f646e51f63746aed",
+      "size": 280
+    },
+    {
+      "path": "resources/icons/flags/jp.svg",
+      "sha256": "6e5ccf6f29516f5afb7ae26a53b338e42c3d7259fd41d6357bc6446b093a4b1a",
+      "size": 447
+    },
+    {
+      "path": "resources/icons/flags/kr.svg",
+      "sha256": "e1d5bc191cd5df0639028423f64f0cc6a88902b86626a715da6da0e768a65bad",
+      "size": 1038
+    },
+    {
+      "path": "resources/icons/flags/LICENSE",
+      "sha256": "5f6432917a260a6e8f7022742bb6cb8761b1d17cf45083e30174908041405225",
+      "size": 1106
+    },
+    {
+      "path": "resources/icons/flags/LICENSESCN",
+      "sha256": "6ad253024bfb4c4b2c21d7e9fd7acced4388461f2f4e1a295a17ca4f668fd145",
+      "size": 22889
+    },
+    {
+      "path": "resources/icons/flags/lt.svg",
+      "sha256": "e578dc040cb1eb756a851497e3f8eb88ff0072477841ef7515ef4e10decb6492",
+      "size": 388
+    },
+    {
+      "path": "resources/icons/flags/lv.svg",
+      "sha256": "1e94d4b5f9ee2fe10b8e251ce42f9af647b4307f295fb86ad6feec4b9f7b4452",
+      "size": 220
+    },
+    {
+      "path": "resources/icons/flags/mx.svg",
+      "sha256": "c42b682d752441f6be5a3355d6fb0f01caabcc258ae7419248c7015ee0cf06fc",
+      "size": 84116
+    },
+    {
+      "path": "resources/icons/flags/nl.svg",
+      "sha256": "e020f473e06cf9aa7dd79accd9e5242434b1ce2db638d990a9bb0fb691a44f43",
+      "size": 217
+    },
+    {
+      "path": "resources/icons/flags/no.svg",
+      "sha256": "7d8bb851f4867277d80fb4b04e022911560d51441240fd70fc4de0e450ffe358",
+      "size": 311
+    },
+    {
+      "path": "resources/icons/flags/Other.svg",
+      "sha256": "2f1fbb62d1c90d9864dd7cd645ad9a7c212c009aa512d7104fede6ef877cf2e1",
+      "size": 657
+    },
+    {
+      "path": "resources/icons/flags/pl.svg",
+      "sha256": "f297b53b6ae7e09e82eb1a1b8b30bfe4a532f0502363dec6da97475173b95de9",
+      "size": 210
+    },
+    {
+      "path": "resources/icons/flags/pt.svg",
+      "sha256": "600bcae24482f1a730fb4ad2ecd0b759d27a3dac9e809771d70ffca8fb2da76e",
+      "size": 7947
+    },
+    {
+      "path": "resources/icons/flags/ro.svg",
+      "sha256": "f1987be1a98eac4f87fe28e58e9b05efb9bd1bd9349da95e8fc27b027f8bc13e",
+      "size": 291
+    },
+    {
+      "path": "resources/icons/flags/rs.svg",
+      "sha256": "eeef44d278515b32acaac73e360f6197738deab909dcbc561ca3c39335d3e442",
+      "size": 181522
+    },
+    {
+      "path": "resources/icons/flags/ru.svg",
+      "sha256": "baa7d856e100c5a0026f385d91436ae549c418ce3c0302b09cc00f9f9073eacf",
+      "size": 217
+    },
+    {
+      "path": "resources/icons/flags/sa.svg",
+      "sha256": "bc5c7bb5d7bf00ae6225b784dfa188262e5a1120d4e994f7b9f09f835dc2f924",
+      "size": 9910
+    },
+    {
+      "path": "resources/icons/flags/scn.svg",
+      "sha256": "1cc1e3540fd6585849d97edd2583d3a3b5ed80ca39f4834a0fcd28ff423f5867",
+      "size": 534
+    },
+    {
+      "path": "resources/icons/flags/se.svg",
+      "sha256": "04025a6914da6529c76212d840ecdc574c2016ca4d85ed4dc30d36c2aa81cc3f",
+      "size": 203
+    },
+    {
+      "path": "resources/icons/flags/tr.svg",
+      "sha256": "12253a7bf2627f1b44592c65ceaee5337e8625469e88e4f8ca857293e119d8dd",
+      "size": 531
+    },
+    {
+      "path": "resources/icons/flags/tw.svg",
+      "sha256": "8a596eb65073730e8b1d21fc06dc2e4386c5afc1eb0f95173b1f447e18999666",
+      "size": 2484
+    },
+    {
+      "path": "resources/icons/flags/ua.svg",
+      "sha256": "a674203bd65f432cb0dc858d2244a2ad19acd2e28cf68399c578c8abadd5e9e5",
+      "size": 222
+    },
+    {
+      "path": "resources/icons/flags/us.svg",
+      "sha256": "3e34559acb99614a3c4d5f1cfcb1cbdff5f0525b4b637d45dae1db5f31389c3b",
+      "size": 2581
+    },
+    {
+      "path": "resources/icons/flags/vn.svg",
+      "sha256": "4f0dfb7a8c6781f133ee43aa65b3ee444d47361fc57c121bbaf474d381bba037",
+      "size": 470
+    },
+    {
+      "path": "resources/icons/flags/za.svg",
+      "sha256": "1fd6dbad231416825d5361a1527001c1a957e769584dffa63cf3924f3e481be7",
+      "size": 877
+    },
+    {
+      "path": "resources/icons/ra-icon.svg",
+      "sha256": "5152db580a3ced03c052dfb18b8e57df9b5f46eef395359b2d961a40c306dce2",
+      "size": 2106
+    },
+    {
+      "path": "resources/icons/star-0.svg",
+      "sha256": "e8315f06c4d7be6c646c34b4dbbce2d87274d1fb08a72882020baeac36fc1f7c",
+      "size": 5443
+    },
+    {
+      "path": "resources/icons/star-1.svg",
+      "sha256": "f938f13d88fe4af77a5753d79f45e6f277430f4be58e97cdae7b7995dbaf3727",
+      "size": 5428
+    },
+    {
+      "path": "resources/icons/star-2.svg",
+      "sha256": "f5f11dee09c83407e71453de68cbd14d8ac7c67f1ab983e4febe68112d3beefc",
+      "size": 5413
+    },
+    {
+      "path": "resources/icons/star-3.svg",
+      "sha256": "1b815d2f49e132fbc2ebd1ef939a082473c511cc573bf85b7cb8272691dc3db2",
+      "size": 5398
+    },
+    {
+      "path": "resources/icons/star-4.svg",
+      "sha256": "86099a924f9f8d91b195f6310bc0aaa6be2481ffc5969d5b2a4230e099055b64",
+      "size": 5383
+    },
+    {
+      "path": "resources/icons/star-5.svg",
+      "sha256": "35bc8247779916143d9355d038133a7a2136135fe9e23a7c6e6f105bbc72ca3b",
+      "size": 5368
+    },
+    {
+      "path": "resources/patches.zip",
+      "sha256": "60b0c9977428a7d1922129f8600b25309f098e79bbcd72f4b801e8a5d53003be",
+      "size": 2170255
+    },
+    {
+      "path": "resources/RedumpDatabase.yaml",
+      "sha256": "365f6118c489b572cabb04b324e9e17fb48ec23740a2c151c4d2804d704db89e",
+      "size": 1976895
+    },
+    {
+      "path": "resources/shaders/common/ffx_a.h",
+      "sha256": "03c2aa15da98279bca9f5cde04a26e94995f1ae542351c4c6524e8ffce58c270",
+      "size": 163893
+    },
+    {
+      "path": "resources/shaders/common/ffx_cas.h",
+      "sha256": "b95ba23eaef5bde2392979ece9e39f066178335d41a1fc5b4fadf650770b5fa4",
+      "size": 64988
+    },
+    {
+      "path": "resources/shaders/common/fxaa.fx",
+      "sha256": "0978f59617f28960bf974ddea85af8c33e129ef5955551bdc46b902e3729e84e",
+      "size": 17930
+    },
+    {
+      "path": "resources/shaders/dx11/cas.hlsl",
+      "sha256": "29bee0f8bbe631f551799112b56da2630e6803f2e64086be0a1061796747c7eb",
+      "size": 2672
+    },
+    {
+      "path": "resources/shaders/dx11/convert.fx",
+      "sha256": "d88b12b555982038be652332c884a075b7db39687138fba79a707eaf96eddf50",
+      "size": 16545
+    },
+    {
+      "path": "resources/shaders/dx11/imgui.fx",
+      "sha256": "aa513d11762a7945fd749acbc75580173e3c3b3ca9f6a3331bc47aa8640e74bc",
+      "size": 775
+    },
+    {
+      "path": "resources/shaders/dx11/interlace.fx",
+      "sha256": "d095ae16dbca8b705abe4e4346c2aa4bc932996905427c39610543a66cb58fe1",
+      "size": 7412
+    },
+    {
+      "path": "resources/shaders/dx11/merge.fx",
+      "sha256": "ef291848b8ba1bd244f6f73669e5f640c1330236afdae7edc12d97f9f67f773f",
+      "size": 571
+    },
+    {
+      "path": "resources/shaders/dx11/present.fx",
+      "sha256": "d31a55854378ec1eb5077c639d15765e85e0f796a8b67599151013b6815f70a6",
+      "size": 11425
+    },
+    {
+      "path": "resources/shaders/dx11/shadeboost.fx",
+      "sha256": "de61ec602a2b83c163c1625090e7043dc36c8aded3c1584bed158cb0aee56f2f",
+      "size": 1366
+    },
+    {
+      "path": "resources/shaders/dx11/tfx.fx",
+      "sha256": "dee4ee502ce2dab5e508b2134363fdc082991a09b5c91ca436137537d46dae4a",
+      "size": 53774
+    },
+    {
+      "path": "resources/shaders/opengl/cas.glsl",
+      "sha256": "69afc645fa05a4eda661a89368136a5d8d55c8476c19215da4548bde4f8870bb",
+      "size": 2477
+    },
+    {
+      "path": "resources/shaders/opengl/convert.glsl",
+      "sha256": "add99e4f81de552b4235e025eceb243a12227c2d618bc660cfa8df90283895d7",
+      "size": 14716
+    },
+    {
+      "path": "resources/shaders/opengl/imgui.glsl",
+      "sha256": "8bcfdbc4fb0e884ea15f6efe857cab6f468bec313107783ba8810a62b879ba52",
+      "size": 675
+    },
+    {
+      "path": "resources/shaders/opengl/interlace.glsl",
+      "sha256": "05b3c6b97edb8002223cd2534b53a0cb6dddfc6675ad4c3e3f2ce16b75028d92",
+      "size": 7117
+    },
+    {
+      "path": "resources/shaders/opengl/merge.glsl",
+      "sha256": "4290b9649e17f4b46d865727610de80a608a4ffb3c79e5a6caea67bf9ef307ba",
+      "size": 612
+    },
+    {
+      "path": "resources/shaders/opengl/present.glsl",
+      "sha256": "3f0cc1b704be17bc6620e511b0d98cbb864bda39f51cea25cd48d82522b8fff3",
+      "size": 12197
+    },
+    {
+      "path": "resources/shaders/opengl/shadeboost.glsl",
+      "sha256": "342c622a942f59553ea2f8863f374149cd1d0aaa134d7fb2d152bd43324be82a",
+      "size": 1687
+    },
+    {
+      "path": "resources/shaders/opengl/tfx_fs.glsl",
+      "sha256": "e8454e2d63d58f6efb67bbf62ebb27ea5ec8de15fe4379b411c13dcf07f541e2",
+      "size": 38386
+    },
+    {
+      "path": "resources/shaders/opengl/tfx_vgs.glsl",
+      "sha256": "5703e1c42510d2bd37113ba937003db678bd72bcc0dc22fa4aa2513066a8b220",
+      "size": 14571
+    },
+    {
+      "path": "resources/shaders/vulkan/cas.glsl",
+      "sha256": "40fe48d4bd5de3cc562f3c13d8f3611a88a39900a1e62df90c8090e9f43021a2",
+      "size": 2708
+    },
+    {
+      "path": "resources/shaders/vulkan/convert.glsl",
+      "sha256": "304ec9898f750c23b47fbc8935f08dfa682ea6b04b839429f4fb8ce24ad2c0d3",
+      "size": 14540
+    },
+    {
+      "path": "resources/shaders/vulkan/imgui.glsl",
+      "sha256": "7431c6f117ba5fe0e2314f965abee21d3268d66b54a3083fa864fe59e90116ea",
+      "size": 833
+    },
+    {
+      "path": "resources/shaders/vulkan/interlace.glsl",
+      "sha256": "4657cd21a6bbda3f2819d7ca5c91aa3f333d8361165584ace9c35d4fb292537d",
+      "size": 7516
+    },
+    {
+      "path": "resources/shaders/vulkan/merge.glsl",
+      "sha256": "69b691476c590b540fa9415f97794b5e06d0ea260f5e7320a476d37eec61b858",
+      "size": 805
+    },
+    {
+      "path": "resources/shaders/vulkan/present.glsl",
+      "sha256": "7a3668c736374e6e216b8a670bd7f194b2877e7db092474f350a9aa137f3a15a",
+      "size": 10770
+    },
+    {
+      "path": "resources/shaders/vulkan/shadeboost.glsl",
+      "sha256": "47b89e72d6a7da713bbe61bae8c46101a5bea8bab49abef0b89d251d15fae17f",
+      "size": 1991
+    },
+    {
+      "path": "resources/shaders/vulkan/tfx.glsl",
+      "sha256": "258ab3960c2fea11feed9a1a40ef1bb8914e0f09f326fe950ef0c351e51f228e",
+      "size": 54475
+    },
+    {
+      "path": "resources/sounds/achievements/lbsubmit.wav",
+      "sha256": "08ca1285218bf04048d2064a20f79e6bf72267fc98d555430502c245d75b42ab",
+      "size": 82096
+    },
+    {
+      "path": "resources/sounds/achievements/message.wav",
+      "sha256": "dfd8035387a463722ad07af3c91934e0a685f2afa57e31d305f0602656d1edb1",
+      "size": 15696
+    },
+    {
+      "path": "resources/sounds/achievements/README.txt",
+      "sha256": "5a979cf721b8ba76d57a2ec6dfb9b31b818f4e4cd4343afe98f8335fa2a5193a",
+      "size": 209
+    },
+    {
+      "path": "resources/sounds/achievements/unlock.wav",
+      "sha256": "d9b8d3b5e4ae0a6ed336e769301546735ff34f29c14be6e1232da6b7096c0988",
+      "size": 202702
+    },
+    {
+      "path": "ryml.dll",
+      "sha256": "52916fbbacc4188899b046b23da5897d05f3b716b4503d572fc25c9d3cc7fa8e",
+      "size": 356864
+    },
+    {
+      "path": "SDL3.dll",
+      "sha256": "94e33f54d754a9cdcef05173f0a9c23ed338143a1696da8bf5afccc54de2ad72",
+      "size": 3258368
+    },
+    {
+      "path": "shaderc_shared.dll",
+      "sha256": "5d3c95949b2427ad7bbd25cd68eb450f81d12ba5595992defddd3e24bb6f16ed",
+      "size": 4988416
+    },
+    {
+      "path": "swresample-6.dll",
+      "sha256": "15b0df33b868bb2aec69ade3f75803374d7e583ffcdf455f3f5c453be2bf6c5e",
+      "size": 102912
+    },
+    {
+      "path": "swscale-9.dll",
+      "sha256": "885ed4af2f2c90be80007fe4227531130751d3f7ed1ff6ba37eb80106a725211",
+      "size": 826368
+    },
+    {
+      "path": "translations/pcsx2-qt_af-ZA.qm",
+      "sha256": "753817897c67d9e641c632ff8e0254159b91f5c7c44207f9eb6346712167b609",
+      "size": 710018
+    },
+    {
+      "path": "translations/pcsx2-qt_ar-SA.qm",
+      "sha256": "6c9c153321ace73ed38d6e94c532934b3d2e18cc08293120bf7954641842818b",
+      "size": 703105
+    },
+    {
+      "path": "translations/pcsx2-qt_az-AZ.qm",
+      "sha256": "0ba423d1e3be48c8412c172c5aca4301dfa222da32ee84d3ff72120e1a508583",
+      "size": 723818
+    },
+    {
+      "path": "translations/pcsx2-qt_bg-BG.qm",
+      "sha256": "dac9d8f7576f2da0a7b3b75adc2d0fcb453f70d44e937d2f1bc474153099bb09",
+      "size": 709252
+    },
+    {
+      "path": "translations/pcsx2-qt_ca-ES.qm",
+      "sha256": "d00c05eaecd551f6c54958823d33da5c3fd268c96767bf3ed1aeabb1cbf06dba",
+      "size": 774892
+    },
+    {
+      "path": "translations/pcsx2-qt_cs-CZ.qm",
+      "sha256": "a600d2caed679b770bf0123b9eaf5823656191aff7516fbf8415d351616d49b2",
+      "size": 722633
+    },
+    {
+      "path": "translations/pcsx2-qt_da-DK.qm",
+      "sha256": "77ae9ae1d6162daab7c13e1f50c944e6596af781720b99c8f681752de7e09d32",
+      "size": 708374
+    },
+    {
+      "path": "translations/pcsx2-qt_de-DE.qm",
+      "sha256": "66b954db16883452a2a79374e218c475c142784957e1c57d43a9af40c0020603",
+      "size": 766086
+    },
+    {
+      "path": "translations/pcsx2-qt_el-GR.qm",
+      "sha256": "31d298a7955af6daeab91b4c7d46a3330daf50e90be2ba57a1242581df95efa3",
+      "size": 804544
+    },
+    {
+      "path": "translations/pcsx2-qt_en-fg.qm",
+      "sha256": "ae9fb67a8826d4ff63d831aeca1c16b8cab101531062fb67fdeed6fe8a15e2fb",
+      "size": 708180
+    },
+    {
+      "path": "translations/pcsx2-qt_en-US.qm",
+      "sha256": "693273d4809760c6dd490fb8e908671c00046a97ca6269b406e07002c4e6b9a6",
+      "size": 1816
+    },
+    {
+      "path": "translations/pcsx2-qt_es-419.qm",
+      "sha256": "448d39d47870ad72d4bdb56c953f9b9369659482de36519f4f19e5ed6d67229b",
+      "size": 787689
+    },
+    {
+      "path": "translations/pcsx2-qt_es-ES.qm",
+      "sha256": "cb28ec3087eea75dd8618152b0852242488fbf1de1f5bae073221819569ce465",
+      "size": 797332
+    },
+    {
+      "path": "translations/pcsx2-qt_fa-IR.qm",
+      "sha256": "38a67f8e371e0afc149b5f5d42e3dd35f8285a2e9703ca1342fcf0910ec98e9a",
+      "size": 715688
+    },
+    {
+      "path": "translations/pcsx2-qt_fi-FI.qm",
+      "sha256": "3ece4ee65554947f15c850eec3a7a2f6ee7ac353b032cea2186b8b18d8cdb5f8",
+      "size": 738650
+    },
+    {
+      "path": "translations/pcsx2-qt_fr-FR.qm",
+      "sha256": "6abed5ecc79f66284d119e945bbcbd782516f0ee7cbbb9f26e42a97151543503",
+      "size": 801986
+    },
+    {
+      "path": "translations/pcsx2-qt_gn-PY.qm",
+      "sha256": "969e624da7a76ca87bd99ebbd1880112f73c267bcc922a5e9cf3d2c772ec8ea2",
+      "size": 713302
+    },
+    {
+      "path": "translations/pcsx2-qt_he-IL.qm",
+      "sha256": "c7fa381b0a0c9d8cdbd76437c2138860fcd9bbe5b99a4ea03628eae18e3eb2c2",
+      "size": 702818
+    },
+    {
+      "path": "translations/pcsx2-qt_hi-IN.qm",
+      "sha256": "1fce105874b7aea131eaa8a3a27af2d389506d0b73de9dd360e352a3cd2fcd2a",
+      "size": 708706
+    },
+    {
+      "path": "translations/pcsx2-qt_hr-HR.qm",
+      "sha256": "345c4f372a6774cdb34afc50745c65a5495608304265f0a6ce237c6fa9c1817a",
+      "size": 740424
+    },
+    {
+      "path": "translations/pcsx2-qt_hu-HU.qm",
+      "sha256": "8bc628638776eb24f7fd567e68f67e7b957e7b0382aac03b76132bdf5e6e0f69",
+      "size": 751566
+    },
+    {
+      "path": "translations/pcsx2-qt_id-ID.qm",
+      "sha256": "df87d206697d700dfbc3fa80b636fa61b27a9b95dad19da830b6a57bd780451f",
+      "size": 736268
+    },
+    {
+      "path": "translations/pcsx2-qt_it-IT.qm",
+      "sha256": "6fcb57ff0279559f891f17c15b11f1c492bbfc6a58e51e818d32a0653f1da47a",
+      "size": 777864
+    },
+    {
+      "path": "translations/pcsx2-qt_ja-JP.qm",
+      "sha256": "08c5393390150fe9bd1b9d188add9c664e13459fc528d73a266df5ce3f225bcd",
+      "size": 614198
+    },
+    {
+      "path": "translations/pcsx2-qt_ka-GE.qm",
+      "sha256": "d3e34a2f804e28123111194048ca4654e147c2b3ad7e0c5d4333e5e32ad4fd51",
+      "size": 710336
+    },
+    {
+      "path": "translations/pcsx2-qt_ko-KR.qm",
+      "sha256": "e6801f5559cdaf7c63fbaeb9d57e6642ca4214107ac4eac239bfda5eb2bfe534",
+      "size": 583640
+    },
+    {
+      "path": "translations/pcsx2-qt_lt-LT.qm",
+      "sha256": "ed1b0d5ffc48c32f8229c68a0fadeb54df87e9beb3b91ce2781a115f279ab87e",
+      "size": 727657
+    },
+    {
+      "path": "translations/pcsx2-qt_lv-LV.qm",
+      "sha256": "3ac9406da807b855461c7cf59cbb9c696242a6dafc3b56a5d7048789150bdf4e",
+      "size": 744067
+    },
+    {
+      "path": "translations/pcsx2-qt_nl-NL.qm",
+      "sha256": "873406658672be5172cc2234480ef45d11577c878ebc9b0e80b9642144615cc3",
+      "size": 756330
+    },
+    {
+      "path": "translations/pcsx2-qt_no-NO.qm",
+      "sha256": "4ec84c0ffb64b3b4aa0e68fde8e184ebd8a05bdd1350cddc48cd8f16c5a9464d",
+      "size": 716156
+    },
+    {
+      "path": "translations/pcsx2-qt_pl-PL.qm",
+      "sha256": "bd64a17aa7b2c5c691c0f4ec66e57197ace5c86bb687fd2d18da5bc8bf6fe43e",
+      "size": 742679
+    },
+    {
+      "path": "translations/pcsx2-qt_pt-BR.qm",
+      "sha256": "4873dd73657a3f92920eb20e3171e582db3d222a5976b03aca61875f5826efe6",
+      "size": 769692
+    },
+    {
+      "path": "translations/pcsx2-qt_pt-PT.qm",
+      "sha256": "75c16425f08732db75fb8c5670c4986d6881ca76bd353978b1b7d9579dd53a98",
+      "size": 755430
+    },
+    {
+      "path": "translations/pcsx2-qt_qu-PE.qm",
+      "sha256": "00e6d165f0137cfc5243e63b9e0156db890083c80569b2e1895e07f57b3981b9",
+      "size": 708180
+    },
+    {
+      "path": "translations/pcsx2-qt_ro-RO.qm",
+      "sha256": "f657c19b1977cff92d553f34461beb4eb0fb89a0af8368497927aa582932ca80",
+      "size": 715230
+    },
+    {
+      "path": "translations/pcsx2-qt_ru-RU.qm",
+      "sha256": "19de8f2d62aa963062616e001435be06ae3f3d080f37e32caab0f5b1018b7834",
+      "size": 762638
+    },
+    {
+      "path": "translations/pcsx2-qt_sr-SP.qm",
+      "sha256": "7c3150683f6da97efd2fc49486121ca791673349e5e26f1454aa7ebf5c56c883",
+      "size": 735618
+    },
+    {
+      "path": "translations/pcsx2-qt_sv-SE.qm",
+      "sha256": "e0dea490b7b0afb39febc1cd36d9985bf3061a46fb52862de0d2994e4d6ce3d4",
+      "size": 733200
+    },
+    {
+      "path": "translations/pcsx2-qt_tr-TR.qm",
+      "sha256": "01e7580b8cf01248332f47e1f5f20194d8eb9ce64a65a15c756a5925243074ef",
+      "size": 726580
+    },
+    {
+      "path": "translations/pcsx2-qt_uk-UA.qm",
+      "sha256": "766627edeeff8af09dbe87ee2b788a91b2068a0dbcbd60d81526890d55bb9c4a",
+      "size": 728044
+    },
+    {
+      "path": "translations/pcsx2-qt_vi-VN.qm",
+      "sha256": "3a5397743267c0bbc7a2447d9a017fd673062fadb5d3e37999dcdf75c80ba680",
+      "size": 708536
+    },
+    {
+      "path": "translations/pcsx2-qt_zh-CN.qm",
+      "sha256": "1cc3ac8e9c6a4e7b910e30e1deeae5198f0e57e6739edb3a9b1ed588fc22c868",
+      "size": 514234
+    },
+    {
+      "path": "translations/pcsx2-qt_zh-TW.qm",
+      "sha256": "7229ea6bb8c1f57fb70b1c23b9869a23d16e863bc586d7d609c9a6022f727d2b",
+      "size": 626984
+    },
+    {
+      "path": "translations/qt_ar.qm",
+      "sha256": "f4302b2f98bfe16c719554fac2012353a5d2abba06a3be1a92f9aa3cae61ecd0",
+      "size": 180727
+    },
+    {
+      "path": "translations/qt_bg.qm",
+      "sha256": "45738fd1ca355e5d9d274753aed0db2a196ddaa5eb94c020a5a918f755ca22c0",
+      "size": 349958
+    },
+    {
+      "path": "translations/qt_ca.qm",
+      "sha256": "d5b3f19997085fa563302472925337c0a92979122867f196e17d1e7c0ff0005d",
+      "size": 453839
+    },
+    {
+      "path": "translations/qt_cs.qm",
+      "sha256": "06f332650b0b75c62e3fa62c13a2dd40f47341038376b381ec234f15af0f524f",
+      "size": 205810
+    },
+    {
+      "path": "translations/qt_da.qm",
+      "sha256": "99cc96d8a8eac873fb50009b40f1c0b878385517b3084d2819937d8ce4de78e5",
+      "size": 359400
+    },
+    {
+      "path": "translations/qt_de.qm",
+      "sha256": "e92a042296fc693c7d0d68b0cb43cf1d8323ea3a0b7352860d209c7a183c24cd",
+      "size": 479750
+    },
+    {
+      "path": "translations/qt_en.qm",
+      "sha256": "494ac9a2b2cb2fdeced353f4a9f898ed8dcf616e9bc667438c62681e3f7f79cf",
+      "size": 33
+    },
+    {
+      "path": "translations/qt_es.qm",
+      "sha256": "45e8b0d7401b60987bc2e3675d10b981aeabef67b109e8f03042c992903bbec3",
+      "size": 343063
+    },
+    {
+      "path": "translations/qt_fa.qm",
+      "sha256": "e1252e8374bb13b5c373ee1e7c95f6f2f20cfa387982b90cb893155777a24d5c",
+      "size": 189261
+    },
+    {
+      "path": "translations/qt_fi.qm",
+      "sha256": "3353b22f1af915daf46aae2cdb982fab3740cddbca12cf06660034eebe35ce5f",
+      "size": 303243
+    },
+    {
+      "path": "translations/qt_fr.qm",
+      "sha256": "e95c161983cf33e51f9779865ebd1b2eb1c115d95d43ab5255d98dfdcb7e0030",
+      "size": 261799
+    },
+    {
+      "path": "translations/qt_gd.qm",
+      "sha256": "63b439dd44139aa3aed54c2ebe03fa9bc77f22c14ed8fba8eff2608445bb233d",
+      "size": 189580
+    },
+    {
+      "path": "translations/qt_gl.qm",
+      "sha256": "204a01ac7deb6b5bae193afecbd1e50d18c73bf7d94badeb2bbfdf6123c4ed93",
+      "size": 323590
+    },
+    {
+      "path": "translations/qt_he.qm",
+      "sha256": "e1ebca16afe8994356f81ca007fbdb9ddf865842010fe908923d873b687cad3f",
+      "size": 138690
+    },
+    {
+      "path": "translations/qt_hr.qm",
+      "sha256": "be27e00991d396ec1ff6b86192b147d2971620822cbe9ce0278e94002b001ee1",
+      "size": 321892
+    },
+    {
+      "path": "translations/qt_hu.qm",
+      "sha256": "2ce9837d22a794b3fd72b39f2c6f803ea64c1f3e704751c14c47c24c29fe3a8c",
+      "size": 420689
+    },
+    {
+      "path": "translations/qt_it.qm",
+      "sha256": "1907314e600d85b4628377d47f75ebca257dd12c38d736ed275b095daff480e3",
+      "size": 188853
+    },
+    {
+      "path": "translations/qt_ja.qm",
+      "sha256": "ded284db9cfa89fc96f5a9e3527b646f416432e9f7222febbf086082b35329df",
+      "size": 206311
+    },
+    {
+      "path": "translations/qt_ka.qm",
+      "sha256": "cdb6e46eb6738141d46186a1973ef5a45e0974014fabafe671da6378ce6c832c",
+      "size": 436344
+    },
+    {
+      "path": "translations/qt_ko.qm",
+      "sha256": "7cd8f6a4c8a9ea9ab8d4aa9774d5898bcc862dcfe96adf5e218bd946bb409273",
+      "size": 310541
+    },
+    {
+      "path": "translations/qt_lg.qm",
+      "sha256": "f378d81c8a7934873ae11c89f80d55a68ca6f1f69f0f713e99474d8253aeee46",
+      "size": 330359
+    },
+    {
+      "path": "translations/qt_lt.qm",
+      "sha256": "47eb5f97467df769261421d54a5bea1131c9fb9b6388791d38bb6574335b64bf",
+      "size": 165383
+    },
+    {
+      "path": "translations/qt_lv.qm",
+      "sha256": "d87cb760d1864772e28190ba1539821eaa7963e18c6d021f43f2bb1f01ed9b9a",
+      "size": 207499
+    },
+    {
+      "path": "translations/qt_nl.qm",
+      "sha256": "4502dfc769f1f4f1ce988854c64e90a834a29de48f3112217f4a639407bc6eb4",
+      "size": 389395
+    },
+    {
+      "path": "translations/qt_nn.qm",
+      "sha256": "a59bf98c4c16fd2c2e0e10aa6c4bff68b448528fea5f779b1a1d42346041a906",
+      "size": 282114
+    },
+    {
+      "path": "translations/qt_pl.qm",
+      "sha256": "156e1afb4d9258359f8a5434309e6d5e0f42928e7624e056194f00593ed7eab8",
+      "size": 340727
+    },
+    {
+      "path": "translations/qt_pt_BR.qm",
+      "sha256": "7a60f72ce2cb63e9d0100757077e5248ca481dfe0f2d53bcaa72b9d11c401e11",
+      "size": 591199
+    },
+    {
+      "path": "translations/qt_pt_PT.qm",
+      "sha256": "2c1e7bbf5168a64b43752dd4c547601c0bde6d610f8671fa3e3af38597e84783",
+      "size": 70334
+    },
+    {
+      "path": "translations/qt_ru.qm",
+      "sha256": "9c67662f6021d4dc468cef6ee79c273743c879630441f527bda5fcb5349d6e9c",
+      "size": 411382
+    },
+    {
+      "path": "translations/qt_sk.qm",
+      "sha256": "8f5debf5ecc4e6014e88f81d83179de6910ca8c5c6891a7c0e29292de5c46b99",
+      "size": 194563
+    },
+    {
+      "path": "translations/qt_sl.qm",
+      "sha256": "c44e0313a9414cc0e490b65b0c036fa11bca959353b228886547bc2c8492034f",
+      "size": 228428
+    },
+    {
+      "path": "translations/qt_sv.qm",
+      "sha256": "f03da2bae5c5b1bd2c8e3db1841b09b6b34d2ee04e5753bceffc1e34176ed94d",
+      "size": 479728
+    },
+    {
+      "path": "translations/qt_tr.qm",
+      "sha256": "f0908d71e25bc043e56627b995000e17e28ff01528e585cd295607d4f52efd65",
+      "size": 479506
+    },
+    {
+      "path": "translations/qt_uk.qm",
+      "sha256": "5aa6323ba581f226887d0202e6c376ddf7d1ca53a734ae62b2ff6ebb023971b2",
+      "size": 343921
+    },
+    {
+      "path": "translations/qt_zh_CN.qm",
+      "sha256": "d04e84ee406c555ad2119ff28892cb8765e689c404a9bd4a6e5a5fd201c4be9c",
+      "size": 309184
+    },
+    {
+      "path": "translations/qt_zh_TW.qm",
+      "sha256": "30e4b566df89065d42b8583a0e8909ac4467acad119cdc15b8955e9658bf8454",
+      "size": 141711
+    },
+    {
+      "path": "updater.exe",
+      "sha256": "211a7707caf958c21ed5c47461beab54f4b05ffe29cea9d3e2125122c7243b92",
+      "size": 267264
+    },
+    {
+      "path": "utils/bulk_compression.py",
+      "sha256": "7a331b279ec6bab89cbf0397a88797c9ab81b61caaf85484bb66030e0eb5e3ca",
+      "size": 18168
+    },
+    {
+      "path": "z.dll",
+      "sha256": "3472889391ffaa515d2c65339191a18eabe9d3ba344a6ff3577a8089ccb4eb52",
+      "size": 91648
+    },
+    {
+      "path": "zstd.dll",
+      "sha256": "fde6da3a04de196c8e30403cd5b520cce6d0bed6a09e48a73cc6120956738894",
+      "size": 657408
+    }
+  ],
+  "file_count": 248,
+  "bytes": 140594359,
+  "source_preserved": true,
+  "local_copy_verified": true,
+  "included": "emulator, BIOS, memory cards, settings and existing runtime resources",
+  "copy_only_changes": [
+    "INI folder paths portable and original external game list cleared"
+  ],
+  "excluded": [
+    "cache",
+    "logs"
+  ],
+  "launcher": "C:\\Users\\Kernell\\OneDrive\\METAL SAGA\\Iniciar-MetalSaga.cmd",
+  "emulator_executed": false,
+  "cloud_sync_confirmed": false
+}
