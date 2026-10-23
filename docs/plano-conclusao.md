@@ -1,5 +1,15 @@
 # Plano para concluir a tradução
 
+## Atualização após interface v014
+
+A ordem operacional atual está em `docs/proximas-etapas-interface.md`:
+personagem/inventário/equipamentos, lojas/serviços, veículos/batalha e demais
+interfaces frequentes; depois tabelas de itens e, por último, fragmentos MAP e
+revisão final. Base: interface v014 (641 ocorrências), MAP v030 e layout v005.
+As contagens e próximos alvos das seções abaixo são históricos quando divergirem
+dessa atualização. Não refazer campos já traduzidos; começar por auditar lacunas
+das telas propostas. Nenhuma ISO é criada nesta rodada de planejamento.
+
 ## Ordem atual, definida pelo usuário
 
 1. **Em execução: HUD, Satcom, mensagens, menus e diário.** Consolidar strings com referências no ELF, separar rótulos rasterizados e conteúdo em arquivos próprios. Lote atual: 473 campos (200 novos) em `docs/interface-v003.md`; alpha v001 preservada separadamente em dist/. Confirmar apresentação e acentos por tipo de tela; manter os diálogos v029.

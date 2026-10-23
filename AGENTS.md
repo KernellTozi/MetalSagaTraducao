@@ -392,3 +392,9 @@ Não iniciar uma tradução em massa antes de validar tecnicamente o processo.
 - `tools/title_wordart.py` aplica somente os três PNGs completos preparados, com hashes de arquivos/índices, ordem, dimensão P 228×24 e paleta RGB/alpha originais vinculados. Não redesenhar ou gerar outra imagem silenciosamente. Assets aprovados permanecem em `work/title-wordart-v001/`; conservar master e pacote para reprodução local.
 - Única mudança frente à v013: pixels das três palavras em RTITLE. Frames/hotspots, assinatura, borda/fundo/fade, ELF, fontes, diálogos e demais textos permanecem idênticos. Células em (0,0), (14,128), (0,24); mudança fora dessas áreas é recusada. A assinatura ainda acompanha a cor de Retomar.
 - Continuam 641 ocorrências de interface, MAP v030 e layout v005, sem novas traduções nesta rodada. Preservar alpha/dez ISOs; sem cópia OneDrive, navegação automática ou desligamento.
+
+## Próxima prioridade — personagem e lojas
+
+- Planejamento atual em `docs/proximas-etapas-interface.md`: fechar lacunas de personagem/inventário/equipamentos, depois lojas/serviços, veículos/batalha e demais interfaces frequentes. Tabelas de nomes/descrições de itens vêm depois; fragmentos MAP ficam por último. Defeitos que impeçam uso de menus/transações/progressão têm precedência.
+- Já existem campos traduzidos nesses conjuntos; auditar receitas e catálogo por tela antes de acrescentar. Não declarar cobertura completa por grupo/contagem nem retraduzir o que já está pronto. Primeiro lote amplo pode reunir personagem/equipamentos e campos comuns de lojas cujo formato já seja comprovado.
+- Esta rodada apenas documentou a ordem, sem traduções ou ISO nova. Continuar com lotes amplos, ferramentas locais, nomes protegidos e uma imagem consolidada por rodada relevante; testes visuais agrupados pelo usuário.
