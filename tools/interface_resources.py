@@ -121,6 +121,12 @@ def compile_resources(elf,draft):
     if config is None:return [],{'accepted':0,'results':[]}
     if config.get('policy')!=POLICY:raise ValueError('Unknown resource policy')
     evidence=verify(elf);patches=[];results=[];seen=set()
+    def weapon_check(before,text):
+        if draft.get('weapon_terms_policy'):
+            from weapon_terms import validate as validate_weapon,POLICY as WEAPON_POLICY
+            if draft['weapon_terms_policy']!=WEAPON_POLICY:raise ValueError('Unknown weapon terminology policy')
+            issues=validate_weapon(before.decode('ascii'),text)
+            if issues:raise ValueError('Resource weapon terminology: '+'; '.join(issues))
     bindings=config['source_bindings']
     for resource in (NDATA,DIARY):
         if bindings.get(resource)!=sha(original(resource)):raise ValueError('Resource recipe source mismatch')
@@ -134,6 +140,7 @@ def compile_resources(elf,draft):
         output=[]
         for i,(before,target) in enumerate(zip(rows,table['rows'])):
             if target['id']!=f'ndata.{index:03d}.{i:03d}' or target['source_sha256']!=sha(before):raise ValueError('NDATA row identity mismatch')
+            weapon_check(before,target['translation'])
             after=validate_text(before,target['translation'])
             if len(after)>511:raise ValueError('CRLF scratch row overflow')
             output.append(after)
@@ -153,11 +160,17 @@ def compile_resources(elf,draft):
         seen.add(key);entry=known[key];a=entry['offset'];capacity=entry['capacity'];before=raw[a:a+capacity+1];old=before.split(b'\0',1)[0]
         if any(c>=128 for c in old):raise ValueError('Native diary bytes remain blocked')
         if target['source_sha256']!=sha(old):raise ValueError('Diary field binding mismatch')
+        weapon_check(old,target['translation'])
         after=validate_text(old,target['translation'],True)
         if len(after)>capacity:raise ValueError(f'Diary slot overflow: {key}')
         if old==after:raise ValueError('Unchanged diary field must be omitted')
         patches.append({'resource':DIARY,'id':key,'offset':a,'before':before,'after':after+bytes(len(before)-len(after))})
         results.append({'id':key,'resource':DIARY,'offset':a,'capacity':capacity,'source_bytes':len(old),'target_bytes':len(after)})
+    if config.get('help'):
+        from help_text import compile_help,POLICY as HELP_POLICY
+        if config.get('help_profile')!=HELP_POLICY:raise ValueError('Unknown help profile')
+        help_patches,help_results=compile_help(elf,config['help'])
+        patches.extend(help_patches);results.extend(help_results)
     # Independent per-resource readback/reversal; no original bytes are written.
     for resource in (NDATA,DIARY):
         source=original(resource);out=bytearray(source);spans=sorted((p for p in patches if p['resource']==resource),key=lambda p:p['offset'])

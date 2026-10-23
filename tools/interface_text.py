@@ -113,6 +113,11 @@ def compile_draft(data,draft):
         if target['source_sha256']!=old['source_sha256']:raise ValueError('UI string binding mismatch')
         if not target.get('group'):raise ValueError('UI context group required')
         before=bytes.fromhex(old['source_hex']);after=encode(target['translation'])
+        if draft.get('weapon_terms_policy'):
+            from weapon_terms import validate as validate_weapon,POLICY as WEAPON_POLICY
+            if draft['weapon_terms_policy']!=WEAPON_POLICY:raise ValueError('Unknown weapon terminology policy')
+            issues=validate_weapon(before.decode('ascii'),target['translation'])
+            if issues:raise ValueError('UI weapon terminology: '+'; '.join(issues))
         if not after or len(after)>len(before):raise ValueError(f'UI overflow: {key}: {len(after)} > {len(before)}')
         if decode(after)!=target['translation']:raise ValueError('UI Unicode round-trip failed')
         if controls(before)!=controls(after):raise ValueError('UI format/control sequence changed')

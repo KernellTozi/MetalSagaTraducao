@@ -110,3 +110,8 @@ A alpha escolhida pelo usuário é a interface v001, copiada para dist/alpha-v00
 Os 200 campos novos abrangem 98 mensagens de Memory Card/HD, 100 campos em 65 registros do diário e dois literais de estatísticas/cabeçalho de veículos. O novo leitor CRLF está limitado a duas entradas NDATA e aos tamanhos carregados pelos descritores originais. Preservam-se os 273 textos anteriores e os diálogos v029. A validação visual será consolidada; não é necessário provocar erros de cartão ou formatar saves.
 
 Próximos conjuntos: páginas de ajuda HTML em NDATA (ainda bloqueadas), origem do corpo das mensagens e importação fiel de textos gráficos de Satcom/batalha/título/nomeação. A entrada 12 de instalação de HD permanece original. Os dois corpos nativos do diário seguem bloqueados; manter nomes, expressões e tabelas intactas onde não houve tradução. Não retomar os pequenos controles MAP enquanto a interface estiver na prioridade.
+
+
+## Interface v004 — ajuda do Satcom
+
+As 44 páginas HTML identificadas foram traduzidas com marcações e imagens preservadas, elevando a interface a 519 campos. MAIN/SUB/SE seguem a regra expressa do usuário; oito diálogos e duas traduções de interface anteriores receberam somente essa revisão terminológica. As páginas têm conferência binária, mas layout, rolagem e quebras automáticas ainda precisam do teste visual consolidado. A próxima etapa permanece na interface: importação fiel dos textos gráficos e localização do conteúdo das mensagens ainda não catalogado, antes de itens e dos fragmentos MAP. Não abrir novamente os pequenos controles opacos por conveniência.

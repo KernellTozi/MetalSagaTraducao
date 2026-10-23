@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v029.json",
+  "name": "regiao-inicial-v030",
+  "status": "Revisão das categorias MAIN, SUB e SE; demais traduções preservadas",
+  "reinsertion_policy": "fixed-record-n0-preserved-slots-v011",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-regiao-inicial-v030.iso",
+  "weapon_terms_policy": "preserve-main-sub-se-v001",
+  "reviewed_changes": [
+    "map.msgn.0db1a210",
+    "map.msgn.0f83cbcc",
+    "map.smnn.1d0bb234",
+    "map.smnn.1d0bb2ec",
+    "map.smnn.1d0bb470",
+    "map.msgn.1d0bb574",
+    "map.smsg.1fd4701c",
+    "map.smsg.1fd4716c"
+  ],
+  "translations": {
+    "map.msgn.0db1a210": {
+      "body": "Não dispare a\narma MAIN na cidade!"
+    },
+    "map.msgn.0f83cbcc": {
+      "body": "Não dispare a\narma MAIN na cidade!"
+    },
+    "map.smnn.1d0bb234": {
+      "body": "Ei, como vai sua arma MAIN?\nQuer comparar\ncom a minha?",
+      "choices": "......\tGuarde sua MAIN para você."
+    },
+    "map.smnn.1d0bb2ec": {
+      "body": "Quanto maior o calibre,\nmais potente\né a arma MAIN.\tUm canhão de 50mm\né mais potente\nque um de 37mm,\te um de 75mm\né mais potente\nque um de 50mm.\tA resistência da\narma MAIN também é\nimportante.",
+      "choices": "Fale mais, meu irmão.\tJá ouvi bastante."
+    },
+    "map.smnn.1d0bb470": {
+      "body": "Se a arma MAIN for\ndestruída em batalha,\nde nada adianta\tser tão potente,\npois não poderá\nusá-la.",
+      "choices": "Continue, meu irmão.\tÉ tudo que preciso saber."
+    },
+    "map.msgn.1d0bb574": {
+      "body": "Evite isso reforçando\na arma numa oficina\nde modificações.\tTer uma arma MAIN\npotente é importante,\tmas acho ainda melhor\nter uma MAIN que\naguente o tranco."
+    },
+    "map.smsg.1fd4701c": {
+      "body": "Vamos reforçar\nseu arsenal,\n%B$15!\tPosso equipar o tanque\ncom uma arma MAIN,\narma SUB,\te um armamento\nSE.\tBasta dizer o que\nprefere, %B$15.\tPrimeiro, escolha\na arma MAIN!",
+      "choices": "160mm Spark\t120mm SBG\t140mm SBG\t177mm Amorph\t205mm Cannon"
+    },
+    "map.smsg.1fd4716c": {
+      "body": "Agora a arma SUB!",
+      "choices": "20mm Vulcan\t20mm Gatling\t30mm Vulcan\t30mm Gatling\tFlute Cannon"
+    }
+  }
+}

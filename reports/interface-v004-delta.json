@@ -1,0 +1,350 @@
+{
+  "old_recipe": "translations/interface-v003.json",
+  "new_recipe": "translations/interface-v004.json",
+  "source_iso_sha256": "f3fd86e2df37ff6fb7bf77d18fc39afd7bc776f9828f426029651e59787eccc1",
+  "output_iso_sha256": "672b08b36679c5226a93a07b7074f7c5b11118ae7d0119f4d945d98e8d1db178",
+  "iso_size": 1704427520,
+  "changed_bytes": 14429,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "diary.056.body",
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "iso_offset": 1326356,
+      "size": 280
+    },
+    {
+      "id": "map.msgn.0db1a210",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 283521552,
+      "size": 84
+    },
+    {
+      "id": "map.msgn.0f83cbcc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 314072012,
+      "size": 80
+    },
+    {
+      "id": "map.smnn.1d0bb234",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541082164,
+      "size": 144
+    },
+    {
+      "id": "map.smnn.1d0bb2ec",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541082348,
+      "size": 348
+    },
+    {
+      "id": "map.smnn.1d0bb470",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541082736,
+      "size": 220
+    },
+    {
+      "id": "map.msgn.1d0bb574",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541082996,
+      "size": 220
+    },
+    {
+      "id": "map.smsg.1fd4701c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587792412,
+      "size": 304
+    },
+    {
+      "id": "map.smsg.1fd4716c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587792748,
+      "size": 128
+    },
+    {
+      "id": "ndata.help.127",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227151360,
+      "size": 471
+    },
+    {
+      "id": "ndata.help.129",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227220992,
+      "size": 508
+    },
+    {
+      "id": "ndata.help.131",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227290624,
+      "size": 321
+    },
+    {
+      "id": "ndata.help.132",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227292672,
+      "size": 180
+    },
+    {
+      "id": "ndata.help.133",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227294720,
+      "size": 610
+    },
+    {
+      "id": "ndata.help.134",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227296768,
+      "size": 278
+    },
+    {
+      "id": "ndata.help.135",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227298816,
+      "size": 1294
+    },
+    {
+      "id": "ndata.help.136",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227300864,
+      "size": 556
+    },
+    {
+      "id": "ndata.help.137",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227302912,
+      "size": 170
+    },
+    {
+      "id": "ndata.help.138",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227304960,
+      "size": 99
+    },
+    {
+      "id": "ndata.help.139",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227307008,
+      "size": 432
+    },
+    {
+      "id": "ndata.help.140",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227309056,
+      "size": 592
+    },
+    {
+      "id": "ndata.help.141",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227311104,
+      "size": 239
+    },
+    {
+      "id": "ndata.help.142",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227313152,
+      "size": 519
+    },
+    {
+      "id": "ndata.help.143",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227315200,
+      "size": 664
+    },
+    {
+      "id": "ndata.help.144",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227317248,
+      "size": 384
+    },
+    {
+      "id": "ndata.help.145",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227319296,
+      "size": 671
+    },
+    {
+      "id": "ndata.help.146",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227321344,
+      "size": 515
+    },
+    {
+      "id": "ndata.help.147",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227323392,
+      "size": 410
+    },
+    {
+      "id": "ndata.help.148",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227325440,
+      "size": 484
+    },
+    {
+      "id": "ndata.help.149",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227327488,
+      "size": 143
+    },
+    {
+      "id": "ndata.help.150",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227329536,
+      "size": 324
+    },
+    {
+      "id": "ndata.help.151",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227331584,
+      "size": 411
+    },
+    {
+      "id": "ndata.help.152",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227333632,
+      "size": 185
+    },
+    {
+      "id": "ndata.help.153",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227335680,
+      "size": 321
+    },
+    {
+      "id": "ndata.help.154",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227337728,
+      "size": 80
+    },
+    {
+      "id": "ndata.help.155",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227339776,
+      "size": 112
+    },
+    {
+      "id": "ndata.help.156",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227341824,
+      "size": 643
+    },
+    {
+      "id": "ndata.help.157",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227343872,
+      "size": 166
+    },
+    {
+      "id": "ndata.help.158",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227345920,
+      "size": 200
+    },
+    {
+      "id": "ndata.help.159",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227347968,
+      "size": 64
+    },
+    {
+      "id": "ndata.help.160",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227350016,
+      "size": 171
+    },
+    {
+      "id": "ndata.help.161",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227352064,
+      "size": 203
+    },
+    {
+      "id": "ndata.help.162",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227354112,
+      "size": 288
+    },
+    {
+      "id": "ndata.help.163",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227356160,
+      "size": 98
+    },
+    {
+      "id": "ndata.help.164",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227358208,
+      "size": 288
+    },
+    {
+      "id": "ndata.help.165",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227360256,
+      "size": 72
+    },
+    {
+      "id": "ndata.help.166",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227362304,
+      "size": 59
+    },
+    {
+      "id": "ndata.help.167",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227364352,
+      "size": 315
+    },
+    {
+      "id": "ndata.help.168",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227366400,
+      "size": 352
+    },
+    {
+      "id": "ndata.help.169",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227368448,
+      "size": 393
+    },
+    {
+      "id": "ndata.help.170",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227370496,
+      "size": 177
+    },
+    {
+      "id": "ndata.help.171",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227372544,
+      "size": 321
+    },
+    {
+      "id": "ndata.help.172",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227374592,
+      "size": 289
+    },
+    {
+      "id": "elf.ui.0032ced0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704265424,
+      "size": 14
+    },
+    {
+      "id": "elf.ui.003495e0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704381920,
+      "size": 5
+    },
+    {
+      "id": "elf.ui.003495e8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704381928,
+      "size": 4
+    }
+  ],
+  "pcsx2_executed": false
+}

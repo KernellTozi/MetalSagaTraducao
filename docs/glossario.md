@@ -347,3 +347,8 @@ Preservar categorias de quarto, quantidades, calibres (37, 50 e 75 mm) e diferen
 ## Construção de tanques v024
 
 Preservar Thursday, C Unit, chassis e armas com nomes próprios. Scrap metal continua sucata; blueprints e design referem-se ao projeto do tanque. A referência `%B$15` permanece literal na receita, resolvida em execução; não substituir por nome/apelido fixo. A reforma deve deixar explícito que o tanque anterior vira matéria-prima e que todo o equipamento nele será destruído. Preservar as risadas e o tom expansivo do interlocutor.
+
+
+## Categorias de armamento — interface v004
+
+Preservar **MAIN**, **SUB** e **SE** como categorias de ataques e armamento de tanques, no menu e nas referências em ajuda, diário e diálogos. Pode-se escrever “arma MAIN”, “arma SUB” ou “arma SE” quando o contexto exigir. Não substituir por principal/secundária/especial nem alterar nomes únicos de armas. Regra opt-in em `tools/weapon_terms.py`; receitas históricas permanecem reproduzíveis.

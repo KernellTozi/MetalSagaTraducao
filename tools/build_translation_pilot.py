@@ -139,6 +139,11 @@ def compile_draft(data,draft):
             segment['translation']=value[segment['key']]
             if not isinstance(segment['translation'],str) or (segment['source'].strip() and not segment['translation'].strip()):
                 raise ValueError('Empty or invalid authored translation')
+            if draft.get('weapon_terms_policy'):
+                from weapon_terms import validate as validate_weapon,POLICY as WEAPON_POLICY
+                if draft['weapon_terms_policy']!=WEAPON_POLICY:raise ValueError('Unknown weapon terminology policy')
+                terminology.extend({'id':entry['id'],'segment':segment['key'],'reason':reason}
+                                   for reason in validate_weapon(segment['source'],segment['translation']))
             if draft.get('terminology_policy'):
                 if draft['terminology_policy']!='translations/politica.json':raise ValueError('Unknown terminology policy')
                 from translation_policy import validate

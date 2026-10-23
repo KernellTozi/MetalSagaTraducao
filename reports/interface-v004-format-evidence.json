@@ -1,0 +1,381 @@
+{
+  "policy": "ndata-html-help-fixed-load-v004",
+  "source_elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "pages": [
+    {
+      "id": "ndata.help.127",
+      "index": 127,
+      "offset": 17487872,
+      "loaded_bytes": 471,
+      "descriptor_offset": 3285864,
+      "source_sha256": "b7c44c6461079f808269b3eae806dc7454e866f62ea84015bb3e246c5487e1e1"
+    },
+    {
+      "id": "ndata.help.129",
+      "index": 129,
+      "offset": 17557504,
+      "loaded_bytes": 508,
+      "descriptor_offset": 3285872,
+      "source_sha256": "fa4e65793bf65dd4aab3e44f908cee3445a0a727f2bad35d0bed7d0b5c1bd9a5"
+    },
+    {
+      "id": "ndata.help.131",
+      "index": 131,
+      "offset": 17627136,
+      "loaded_bytes": 321,
+      "descriptor_offset": 3285880,
+      "source_sha256": "d96c6e011b84cac86f2f0af512bc2b31ad1bf7b3c8f166c58d8ac417303d1741"
+    },
+    {
+      "id": "ndata.help.132",
+      "index": 132,
+      "offset": 17629184,
+      "loaded_bytes": 180,
+      "descriptor_offset": 3285888,
+      "source_sha256": "fae556679de1f65f27c0205b67b43dcb686b99e258804678f890a91dde7ffc25"
+    },
+    {
+      "id": "ndata.help.133",
+      "index": 133,
+      "offset": 17631232,
+      "loaded_bytes": 610,
+      "descriptor_offset": 3285896,
+      "source_sha256": "93d49131dd9ea634f7302c4856e2c0d67852f7d8edeabe1cb70c8749196efc47"
+    },
+    {
+      "id": "ndata.help.134",
+      "index": 134,
+      "offset": 17633280,
+      "loaded_bytes": 278,
+      "descriptor_offset": 3285904,
+      "source_sha256": "4ec1c375bb22623bb3fce36a357cbdeb2d7dd19aed3b86431570cbf4299a0cdb"
+    },
+    {
+      "id": "ndata.help.135",
+      "index": 135,
+      "offset": 17635328,
+      "loaded_bytes": 1294,
+      "descriptor_offset": 3285912,
+      "source_sha256": "f6be9b3a58e3cbb0130496e294472935ac3cc8dc92ca635627e7cfff5209acf9"
+    },
+    {
+      "id": "ndata.help.136",
+      "index": 136,
+      "offset": 17637376,
+      "loaded_bytes": 556,
+      "descriptor_offset": 3285920,
+      "source_sha256": "319cc2a72b07ac1c347c4fd26830f544efb8bf91c20accdebdf5c6a147559c17"
+    },
+    {
+      "id": "ndata.help.137",
+      "index": 137,
+      "offset": 17639424,
+      "loaded_bytes": 170,
+      "descriptor_offset": 3285928,
+      "source_sha256": "e3da846b1f0265f4a94d8e12d40cb7d14f065457872fee805158b9f99dd2ea36"
+    },
+    {
+      "id": "ndata.help.138",
+      "index": 138,
+      "offset": 17641472,
+      "loaded_bytes": 99,
+      "descriptor_offset": 3285936,
+      "source_sha256": "5ad07a48a4ee8442bc90233816f43c5eb724b2a099e79d636674164b31c2a141"
+    },
+    {
+      "id": "ndata.help.139",
+      "index": 139,
+      "offset": 17643520,
+      "loaded_bytes": 432,
+      "descriptor_offset": 3285944,
+      "source_sha256": "80fd53d06d82a01d2ee187ca403f665f2949e6d173411fedf70071856044e9ce"
+    },
+    {
+      "id": "ndata.help.140",
+      "index": 140,
+      "offset": 17645568,
+      "loaded_bytes": 592,
+      "descriptor_offset": 3285952,
+      "source_sha256": "bd609e66562dbbd5006394c155d84c441b3b8e734a0548a8f20518669b955a40"
+    },
+    {
+      "id": "ndata.help.141",
+      "index": 141,
+      "offset": 17647616,
+      "loaded_bytes": 239,
+      "descriptor_offset": 3285960,
+      "source_sha256": "0d70101deaf78f3b91400b0a2438033714ad5bb5190f31511d68e541536abdb3"
+    },
+    {
+      "id": "ndata.help.142",
+      "index": 142,
+      "offset": 17649664,
+      "loaded_bytes": 519,
+      "descriptor_offset": 3285968,
+      "source_sha256": "b0f29e126d19214b73866b689f9e76223d5dcfb4fcac4139c049076943e92b88"
+    },
+    {
+      "id": "ndata.help.143",
+      "index": 143,
+      "offset": 17651712,
+      "loaded_bytes": 664,
+      "descriptor_offset": 3285976,
+      "source_sha256": "78625b66a37f93134addcbf7817bee03859f79a210596280c8ed351920c81267"
+    },
+    {
+      "id": "ndata.help.144",
+      "index": 144,
+      "offset": 17653760,
+      "loaded_bytes": 384,
+      "descriptor_offset": 3285984,
+      "source_sha256": "5228136bf76a1e115a048fe7faeb709779373a858c3501621aac1b8b76cd536d"
+    },
+    {
+      "id": "ndata.help.145",
+      "index": 145,
+      "offset": 17655808,
+      "loaded_bytes": 671,
+      "descriptor_offset": 3285992,
+      "source_sha256": "13b1a33d5a9942158b639538a330cc742e606b0d8cf3cd1094b6c3bae0eddcb7"
+    },
+    {
+      "id": "ndata.help.146",
+      "index": 146,
+      "offset": 17657856,
+      "loaded_bytes": 515,
+      "descriptor_offset": 3286000,
+      "source_sha256": "7020b254c911624eb5c0629b7350baf22577f1dd3ac2649dc899d96ac0058cdf"
+    },
+    {
+      "id": "ndata.help.147",
+      "index": 147,
+      "offset": 17659904,
+      "loaded_bytes": 410,
+      "descriptor_offset": 3286008,
+      "source_sha256": "276bec25442a69949c63c2988ea32fabcc07a46e586806c87a1494c966557d36"
+    },
+    {
+      "id": "ndata.help.148",
+      "index": 148,
+      "offset": 17661952,
+      "loaded_bytes": 484,
+      "descriptor_offset": 3286024,
+      "source_sha256": "4dd58a2c1977fbad0d29d7f69c2c03ab10ad94f97af9d1ef884098b411b9ffc7"
+    },
+    {
+      "id": "ndata.help.149",
+      "index": 149,
+      "offset": 17664000,
+      "loaded_bytes": 143,
+      "descriptor_offset": 3286032,
+      "source_sha256": "709c16d66a1b0685f59d473dc6f1b5e7fcd7858ef2a331c989fef127a437fe04"
+    },
+    {
+      "id": "ndata.help.150",
+      "index": 150,
+      "offset": 17666048,
+      "loaded_bytes": 324,
+      "descriptor_offset": 3286040,
+      "source_sha256": "f37c03a46c34de8fef0e6a43cb2ced5ea431edcc95c9deea63aefc4c048f2d46"
+    },
+    {
+      "id": "ndata.help.151",
+      "index": 151,
+      "offset": 17668096,
+      "loaded_bytes": 411,
+      "descriptor_offset": 3286048,
+      "source_sha256": "aefed150b9b16b56eb7ce6633e7b5753d86a65693f30dd12b47d8f7d8401ddf7"
+    },
+    {
+      "id": "ndata.help.152",
+      "index": 152,
+      "offset": 17670144,
+      "loaded_bytes": 185,
+      "descriptor_offset": 3286064,
+      "source_sha256": "5b82f09bc0f9cbb6e4082467c30f50488b23e38d47fc49272da889f996566780"
+    },
+    {
+      "id": "ndata.help.153",
+      "index": 153,
+      "offset": 17672192,
+      "loaded_bytes": 321,
+      "descriptor_offset": 3286072,
+      "source_sha256": "9484e186b07edac9a95807637be681cc971a95c117c8148fc560beaf4e1792ac"
+    },
+    {
+      "id": "ndata.help.154",
+      "index": 154,
+      "offset": 17674240,
+      "loaded_bytes": 80,
+      "descriptor_offset": 3286104,
+      "source_sha256": "95bf42372def0386e3aef2dc6acb6c018e3ea7fbc20f6a4f3617ac80a8036557"
+    },
+    {
+      "id": "ndata.help.155",
+      "index": 155,
+      "offset": 17676288,
+      "loaded_bytes": 112,
+      "descriptor_offset": 3286112,
+      "source_sha256": "0b60d8011cb168b7ba7e5be617eb5f5526badf343542a847fbf483533b389bbb"
+    },
+    {
+      "id": "ndata.help.156",
+      "index": 156,
+      "offset": 17678336,
+      "loaded_bytes": 643,
+      "descriptor_offset": 3286120,
+      "source_sha256": "f838ecba63d0a1f3a0cb34297ba1e4e4c26205b6f643ef3e3f40b0acfdfcfdc1"
+    },
+    {
+      "id": "ndata.help.157",
+      "index": 157,
+      "offset": 17680384,
+      "loaded_bytes": 166,
+      "descriptor_offset": 3286128,
+      "source_sha256": "7239aac4a81479c8a4e630d2b0daa3791792b1715461ff4c8503e979addd5cc2"
+    },
+    {
+      "id": "ndata.help.158",
+      "index": 158,
+      "offset": 17682432,
+      "loaded_bytes": 200,
+      "descriptor_offset": 3286136,
+      "source_sha256": "5b1bbfee840df9f6dcba900d702259b2f5f7f833fe8770c1258ec9905ea17985"
+    },
+    {
+      "id": "ndata.help.159",
+      "index": 159,
+      "offset": 17684480,
+      "loaded_bytes": 64,
+      "descriptor_offset": 3286144,
+      "source_sha256": "3f1fbe67c0710063c0c0a4fd2467dfce8bc3888030a44a84015aedf694dc067c"
+    },
+    {
+      "id": "ndata.help.160",
+      "index": 160,
+      "offset": 17686528,
+      "loaded_bytes": 171,
+      "descriptor_offset": 3286152,
+      "source_sha256": "b2b248512b9e0b733545341403bb12f9d129dd72e6d82dde5571d09a9444c55d"
+    },
+    {
+      "id": "ndata.help.161",
+      "index": 161,
+      "offset": 17688576,
+      "loaded_bytes": 203,
+      "descriptor_offset": 3286160,
+      "source_sha256": "b2ac83b9ae259888c8620f6a6eced5d7f3413107dd72a7070f159c7b539b9fac"
+    },
+    {
+      "id": "ndata.help.162",
+      "index": 162,
+      "offset": 17690624,
+      "loaded_bytes": 288,
+      "descriptor_offset": 3286168,
+      "source_sha256": "263ca8517b5ed3d404b0e37022ee41df813df2cdb88ae5afe10a5e2f75332b10"
+    },
+    {
+      "id": "ndata.help.163",
+      "index": 163,
+      "offset": 17692672,
+      "loaded_bytes": 98,
+      "descriptor_offset": 3286176,
+      "source_sha256": "37a23ceb8a5d615e3cf7f77bfb1678c25aca0c935c7cc562406a4337677dbb59"
+    },
+    {
+      "id": "ndata.help.164",
+      "index": 164,
+      "offset": 17694720,
+      "loaded_bytes": 288,
+      "descriptor_offset": 3286184,
+      "source_sha256": "fa3a8e620a4b42dead5873bd2d971a69a814112e615444888fd29b098a812c5b"
+    },
+    {
+      "id": "ndata.help.165",
+      "index": 165,
+      "offset": 17696768,
+      "loaded_bytes": 72,
+      "descriptor_offset": 3286192,
+      "source_sha256": "01cc7d54eb0600eeab9662f2af8e3244888459fc8f8f3c233502432770acac31"
+    },
+    {
+      "id": "ndata.help.166",
+      "index": 166,
+      "offset": 17698816,
+      "loaded_bytes": 59,
+      "descriptor_offset": 3286200,
+      "source_sha256": "8570b8c3d08bec1936ade1cef64066643ed0d0aa04a64d2b8cc18fe5c61c26ee"
+    },
+    {
+      "id": "ndata.help.167",
+      "index": 167,
+      "offset": 17700864,
+      "loaded_bytes": 315,
+      "descriptor_offset": 3286224,
+      "source_sha256": "69b7212067c693bd97c4d2a6f76ca34f4000990b5c3c7eb21c3aae57e1a27bdf"
+    },
+    {
+      "id": "ndata.help.168",
+      "index": 168,
+      "offset": 17702912,
+      "loaded_bytes": 352,
+      "descriptor_offset": 3286232,
+      "source_sha256": "548dbfff2562e37372f0b36fdc061ca5be3dca8dd886f0da0e4c44697065dc94"
+    },
+    {
+      "id": "ndata.help.169",
+      "index": 169,
+      "offset": 17704960,
+      "loaded_bytes": 393,
+      "descriptor_offset": 3286264,
+      "source_sha256": "7b49cff363077027eca6d788bd26b8912276a2e551670a05f7358a9dcaa2f195"
+    },
+    {
+      "id": "ndata.help.170",
+      "index": 170,
+      "offset": 17707008,
+      "loaded_bytes": 177,
+      "descriptor_offset": 3286304,
+      "source_sha256": "58ca0cc048b6265e5602fb38130dfbe8534e13fa4315a25ae59f43f14b463d56"
+    },
+    {
+      "id": "ndata.help.171",
+      "index": 171,
+      "offset": 17709056,
+      "loaded_bytes": 321,
+      "descriptor_offset": 3286312,
+      "source_sha256": "b42c214a29b41c4716fc315b73ef3b2b33f379ccc7ae6d984e373801b7bd9234"
+    },
+    {
+      "id": "ndata.help.172",
+      "index": 172,
+      "offset": 17711104,
+      "loaded_bytes": 289,
+      "descriptor_offset": 3286344,
+      "source_sha256": "e614aefd9e04ba2a3b5496c9e763befc6a045c80ea4b57d2c371dcc55012bafb"
+    }
+  ],
+  "consumer_windows": [
+    {
+      "offset": 868704,
+      "end": 868940,
+      "sha256": "8b6da68e8b1e6abfe2901e99078ea926f14fd2a2dc6474f74d0242be796083b7"
+    },
+    {
+      "offset": 872376,
+      "end": 873632,
+      "sha256": "fb27631924e1f6cc5bd284974be25b150f68e271741b155fe98b9d085708d178"
+    },
+    {
+      "offset": 872248,
+      "end": 872320,
+      "sha256": "f1b388dd974fbf1f715ef497ccd79a58c0d2ad94ac4e1b2743556bdced0458f4"
+    }
+  ],
+  "analysis": "static instruction review of descriptor loader, HTML/FONT/IMG/BR parser and closing HTML return 6; no runtime execution",
+  "target_payload_bytes": 14487,
+  "source_payload_bytes": 15072,
+  "pages_count": 44,
+  "visual_status": "pending_user_verification",
+  "byte_based_auxiliary_line_counter": true
+}
