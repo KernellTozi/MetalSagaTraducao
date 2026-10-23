@@ -94,5 +94,6 @@ O perfil de acentos v005 continua vinculado à receita. O usuário fará a confe
 **Preparar-Atlas.cmd** prepara 69 texturas dos próximos cinco conjuntos de interface,
 com previews e PNGs indexados em work/. A reconstrução local preserva os recursos
 originais e não altera ISO. [Manual dos atlas](docs/atlas-interface-v001.md).
-A imagem de teste atual é interface v009: tela inicial com Novo jogo, Retomar e
-Instalar, mantendo o alinhamento Satcom corrigido. [Manual da v009](docs/interface-v009.md).
+A imagem de teste atual é interface v010: cabeçalho e instruções da nomeação,
+preservando a tela inicial traduzida e o alinhamento Satcom corrigido.
+[Manual da v010](docs/interface-v010.md). Abrir pelo **Iniciar-Teste.cmd** na raiz.

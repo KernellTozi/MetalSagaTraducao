@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "policy": "name-entry-fixed-literals-v001",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "records": [
+    {
+      "id": "name-entry.0033b3b8",
+      "offset": 3388344,
+      "size": 22,
+      "source_sha256": "828fff47c23acb0c1285f2c548c609271dbcdf3aaea080d0bcfd2cdbfa3cbf20",
+      "kind": "heading",
+      "slots": []
+    },
+    {
+      "id": "name-entry.0032a310",
+      "offset": 3318544,
+      "size": 51,
+      "source_sha256": "f7b7441389507e272069e8b2ec6b1632ffac2d2ce3254962d1453f8a8285f109",
+      "kind": "legend",
+      "slots": [
+        {
+          "offset": 2,
+          "size": 5,
+          "source_sha256": "f4262548cb993257ce8409eec8b0382e2836b5dd6d9cec1e8527b458dccd3098"
+        },
+        {
+          "offset": 14,
+          "size": 5,
+          "source_sha256": "5d106b1ed4249f057bd208354edc50e8e9648964def4c892003eadfdc94cdf8b"
+        },
+        {
+          "offset": 26,
+          "size": 6,
+          "source_sha256": "6e4261695ad1aa36aac75303151674266d135fc12c26f8dc64bba0546d4238f2"
+        },
+        {
+          "offset": 38,
+          "size": 4,
+          "source_sha256": "639807a2e01886a2236b9fe1fe9bdbdea267b9c84c4acb3ab0858a6a13531b9a"
+        },
+        {
+          "offset": 48,
+          "size": 3,
+          "source_sha256": "b891f9e2a69626266100a5fa3161423408bdf539816e578cc6464a315b138668"
+        }
+      ]
+    },
+    {
+      "id": "name-entry.0032a348",
+      "offset": 3318600,
+      "size": 51,
+      "source_sha256": "72485dd1ae6399dc8c2d6f3ab133977b75709163f43aa791759f7b7ebdf270f3",
+      "kind": "legend",
+      "slots": [
+        {
+          "offset": 2,
+          "size": 5,
+          "source_sha256": "f4262548cb993257ce8409eec8b0382e2836b5dd6d9cec1e8527b458dccd3098"
+        },
+        {
+          "offset": 14,
+          "size": 6,
+          "source_sha256": "ad8d698573fcb090121f2003187e82cec33f5596e4ee2279d6c6fb7b61dc0179"
+        },
+        {
+          "offset": 26,
+          "size": 6,
+          "source_sha256": "6e4261695ad1aa36aac75303151674266d135fc12c26f8dc64bba0546d4238f2"
+        },
+        {
+          "offset": 38,
+          "size": 4,
+          "source_sha256": "639807a2e01886a2236b9fe1fe9bdbdea267b9c84c4acb3ab0858a6a13531b9a"
+        },
+        {
+          "offset": 48,
+          "size": 3,
+          "source_sha256": "b891f9e2a69626266100a5fa3161423408bdf539816e578cc6464a315b138668"
+        }
+      ]
+    },
+    {
+      "id": "name-entry.0032a380",
+      "offset": 3318656,
+      "size": 51,
+      "source_sha256": "bd315665347927ace7bccafb3842c807ce69d6248459fec34026d7df8095f7dc",
+      "kind": "legend",
+      "slots": [
+        {
+          "offset": 2,
+          "size": 5,
+          "source_sha256": "f4262548cb993257ce8409eec8b0382e2836b5dd6d9cec1e8527b458dccd3098"
+        },
+        {
+          "offset": 14,
+          "size": 6,
+          "source_sha256": "65daeb378bdec35d90224389f6e10917bcc0b94c90c489014ba156dd6cbf9350"
+        },
+        {
+          "offset": 26,
+          "size": 6,
+          "source_sha256": "6e4261695ad1aa36aac75303151674266d135fc12c26f8dc64bba0546d4238f2"
+        },
+        {
+          "offset": 38,
+          "size": 4,
+          "source_sha256": "639807a2e01886a2236b9fe1fe9bdbdea267b9c84c4acb3ab0858a6a13531b9a"
+        },
+        {
+          "offset": 48,
+          "size": 3,
+          "source_sha256": "b891f9e2a69626266100a5fa3161423408bdf539816e578cc6464a315b138668"
+        }
+      ]
+    }
+  ],
+  "instruction_windows": [
+    {
+      "offset": 1537920,
+      "size": 144,
+      "sha256": "cdd1367c3b7cdb7aa3ffcd9bcb458712d0b220c09d8e9967ff74f1e05eca5c17"
+    },
+    {
+      "offset": 1094504,
+      "size": 56,
+      "sha256": "7a3b6239e7177ad215860b55e39ca243e782581ad2f308af3831a417529982d1"
+    },
+    {
+      "offset": 1091968,
+      "size": 256,
+      "sha256": "d19524783c93c6fe591eff3daa257632229fb0d74b2960f447af1d862428c2f0"
+    },
+    {
+      "offset": 1107464,
+      "size": 216,
+      "sha256": "d6f3d7b36d079e19c503ecdf9ebde758e737f2c4eb7bba43c5f7c6d56fa43823"
+    }
+  ],
+  "heading_reference": {
+    "saved_high_register": "s2",
+    "high_load_offsets": [
+      1537928,
+      1537948
+    ],
+    "low_addiu_offset": 1538032,
+    "resolved_va": 4432824,
+    "forwarder_va": 2138984,
+    "consumer_va": 2151944
+  },
+  "legend_reference_offsets": [
+    1092052,
+    1092064,
+    1092188
+  ],
+  "native_literal_bytes_preserved": "81 40 and all separators outside ASCII word spans",
+  "pending_command_semantics": [
+    "TITLE",
+    "BACK"
+  ],
+  "verification": "Instruction inspection and binary checks; not full CPU/game execution",
+  "pcsx2_executed": false
+}

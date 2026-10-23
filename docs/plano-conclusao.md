@@ -145,3 +145,7 @@ Os oito painéis foram inspecionados. FD_POST contém nomes e retratos de procur
 ## Interface v009 — tela inicial completa
 
 Novo jogo, Retomar e Instalar foram compostos com rasters da própria tela, sem reduzir as letras; V/J/R são reconstruções explícitas de traços nativos. Descritor, carregamento e recortes foram conferidos no ELF original e vinculados por hashes. Preservam-se os 613 campos/ocorrências anteriores, incluindo a linha de base Satcom corrigida; total 616. Conferência no PCSX2 continua pendente. Próximo conjunto: senha, depois nomeação, usando as próprias famílias visuais. Correio continua aguardando localização. Ver `docs/interface-v009.md`.
+
+## Interface v010 — nomeação em texto
+
+Foram localizados e traduzidos o cabeçalho e três legendas mistas no ELF. A busca ASCII não capturava as legendas completas por conterem bytes nativos; a referência do cabeçalho usa registrador salvo distante da janela heurística. A política opt-in preserva os bytes opacos e as posições de cada palavra. São quatro campos novos, 620 acumulados. TITLE/BACK continuam em inglês até conferir o comando, sem bloquear a tradução segura das outras instruções. Fonte, gráficos, MAP e seleção de caracteres permanecem iguais à v009. Próxima investigação: semântica desses comandos e rótulos da senha; não adivinhar funções por rótulo. Ver `docs/interface-v010.md`.

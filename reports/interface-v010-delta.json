@@ -1,0 +1,38 @@
+{
+  "old_recipe": "translations/interface-v009.json",
+  "new_recipe": "translations/interface-v010.json",
+  "source_iso_sha256": "95ce7f53b708fa7ab6e08e938d256df967f16f17b413be74f6483a3a91b1ae2f",
+  "output_iso_sha256": "eed0c6fd2c22bc73d56f92371dbd61e95f9d4ce519869962979ec3c944e36ce7",
+  "iso_size": 1704427520,
+  "changed_bytes": 55,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "name-entry.0032a310",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254224,
+      "size": 52
+    },
+    {
+      "id": "name-entry.0032a348",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254280,
+      "size": 52
+    },
+    {
+      "id": "name-entry.0032a380",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254336,
+      "size": 52
+    },
+    {
+      "id": "name-entry.0033b3b8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704324024,
+      "size": 23
+    }
+  ],
+  "pcsx2_executed": false
+}

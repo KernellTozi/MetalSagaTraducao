@@ -144,6 +144,14 @@ def compile_draft(data,draft):
     from interface_resources import compile_resources
     resource_patches,resource_report=compile_resources(data,draft)
     patches.extend(resource_patches)
+    name_report={'accepted':0}
+    if draft.get('name_entry'):
+        from name_entry_text import compile_name_entry
+        name_patches,name_report=compile_name_entry(data,draft['name_entry'])
+        for p in name_patches:
+            if any(q['resource']==p['resource'] and max(p['offset'],q['offset'])<min(p['offset']+len(p['before']),q['offset']+len(q['before'])) for q in patches):
+                raise ValueError('Name entry patches overlap prior interface fields')
+            patches.append(p)
     graphics_report={'accepted':0}
     if draft.get('graphics'):
         binding=draft['graphics'];path=(ROOT/binding['recipe']).resolve()
@@ -153,9 +161,10 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         'graphic_labels':graphics_report,
+        **({'name_entry':name_report} if draft.get('name_entry') else {}),
         'elf_size_unchanged':True,'addresses_and_pointers_unchanged':True,'reverse_roundtrip':True,
         'runtime_visual_status':'pending_user_verification','results':metadata}
 
