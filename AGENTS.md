@@ -379,3 +379,9 @@ Não iniciar uma tradução em massa antes de validar tecnicamente o processo.
 - Correção de batalha herdada da v012: `battle-ptbr-half-cell-advance-v001`, função 0x8C0B8..0x8C2E0, somente os 18 pares PT-BR; avanço ASCII, mesmo glifo/consumo, sem alterar bitmaps. Execução limitada de instruções e testes binários não equivalem a teste visual. Não estender a outros códigos por semelhança.
 - Três campos Soma restauram Total original através da lista cumulativa `restored_originals`; o comparador aceita somente essas restaurações explícitas. Acrescentadas 23 descrições/avisos de batalha, com MAIN/SUB/SE preservados. Demais textos v011 permanecem.
 - O usuário escolheu realizar a conferência visual: não reabrir automaticamente PCSX2 nesta rodada. A v013 permanece pendente de aprovação visual; o boot curto v012 atingiu a abertura e foi encerrado antes da conferência do título pelo agente. Manter alpha/dez ISOs de trabalho; sem OneDrive ou desligamento nesta rodada.
+
+## Arte completa do título — proposta v001
+
+- O usuário pediu desenhar novas letras/palavras antes da aplicação, após identificar os remendos da v013. Proposta em `docs/arte-titulo-v001.md` e `reports/title-wordart-v001.json`: palavras completas geradas por image_gen a partir da referência original, sem colagem de glifos. Master/PNGs editáveis/pacote em `work/title-wordart-v001/`, fora do Git.
+- `tools/prepare_title_wordart.py` prepara três linhas em células 228×24, proporções uniformes, corpo branco 16 px e paleta original preservada. PNG indexado usa alpha bruto PS2; usar o preview normalizado para avaliar a transparência em editores comuns. Quatro testes de preparação passaram.
+- Esta é proposta artística, não fonte completa, reinserção ou teste no PCSX2. Nenhuma ISO foi criada/modificada; iniciadores continuam v013. Não promover a arte automaticamente a aprovada. Preservar o master local e seu hash; a preparação posterior é local e não usa IA/APIs.

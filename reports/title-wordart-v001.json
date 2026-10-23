@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "master_sha256": "ed5b8dc4e2a631d1855a812e9e2c221dc721d1e4a226956bd6bdd6bf7b46f422",
+  "master_size": [
+    1983,
+    793
+  ],
+  "source": "complete words generated from reference; no letter collage",
+  "rows": [
+    {
+      "text": "NOVO JOGO",
+      "master_core_box": [
+        45,
+        12,
+        1927,
+        186
+      ],
+      "source_rows": [
+        91,
+        294
+      ],
+      "scale_xy": 0.09195402298850575,
+      "rendered_size": [
+        176,
+        19
+      ],
+      "cell_size": [
+        228,
+        24
+      ],
+      "white_cap_height": 16,
+      "cap_top": 4,
+      "cell_rgba_sha256": "ccb2690acec6d3d7c7e8ad6cc28ab86f4d634e2a039e5e0974c6743e2c90d957"
+    },
+    {
+      "text": "RETOMAR",
+      "master_core_box": [
+        169,
+        11,
+        1811,
+        184
+      ],
+      "source_rows": [
+        337,
+        538
+      ],
+      "scale_xy": 0.09248554913294797,
+      "rendered_size": [
+        155,
+        19
+      ],
+      "cell_size": [
+        228,
+        24
+      ],
+      "white_cap_height": 16,
+      "cap_top": 4,
+      "cell_rgba_sha256": "1212c109078596d8e03d1f17551841e563c432481cb8087c90323b41bb633c9b"
+    },
+    {
+      "text": "INSTALAR",
+      "master_core_box": [
+        124,
+        12,
+        1854,
+        185
+      ],
+      "source_rows": [
+        577,
+        779
+      ],
+      "scale_xy": 0.09248554913294797,
+      "rendered_size": [
+        163,
+        19
+      ],
+      "cell_size": [
+        228,
+        24
+      ],
+      "white_cap_height": 16,
+      "cap_top": 4,
+      "cell_rgba_sha256": "704853b229d974083f92ec5f91f6c808f6ae2edf8c21d4a67714900c478e6b44"
+    }
+  ],
+  "palette_conversion": [
+    {
+      "label": "novo-jogo",
+      "indices_sha256": "f87b84a0c98219e356aa6113b5497479a639fcb9d963a1b0a817aeb96d57c010",
+      "palette_sha256": "6682773532b692489096c5d9c82a9f89342ff0c5444116348e8fd64cccdda72a",
+      "palette_unchanged": true
+    },
+    {
+      "label": "retomar",
+      "indices_sha256": "3739cba8793b80eddba78a5947ac2628f6d3f0eacacc61c8ab87af09d5d7aaec",
+      "palette_sha256": "6682773532b692489096c5d9c82a9f89342ff0c5444116348e8fd64cccdda72a",
+      "palette_unchanged": true
+    },
+    {
+      "label": "instalar",
+      "indices_sha256": "9224762f1aa06704f60d2da4f49ba8528eccad4323f96b5770a28ac5008bfa88",
+      "palette_sha256": "6682773532b692489096c5d9c82a9f89342ff0c5444116348e8fd64cccdda72a",
+      "palette_unchanged": true
+    }
+  ],
+  "iso_modified": false,
+  "runtime_tested": false,
+  "status": "artwork prepared and quantized; not applied to game",
+  "tool": "built-in image_gen",
+  "reference": "Original RTITLE title lettering; style reference only",
+  "tests_passed": 4,
+  "current_game_version_unchanged": "interface-v013",
+  "artwork_status": "first proposal; not visually approved",
+  "generated_asset": "work/title-wordart-v001/master.png"
+}
