@@ -1,0 +1,59 @@
+{
+  "policy": "six-textures-original-palette-v002",
+  "records": [
+    {
+      "id": "FBS_DATA.SDA.0",
+      "changed_bytes": 0,
+      "record_sha256": "989a5ba618d25c782e68a18d9846d70f553460ccf3435d294e84cc610414f1fc",
+      "reverse_roundtrip": true
+    },
+    {
+      "id": "FBS_DATA.SDA.1",
+      "changed_bytes": 0,
+      "record_sha256": "562cb9918a40b01f6ff0d46b9d1aa5fdc3614215f8e2a5628a75fe6288de1d80",
+      "reverse_roundtrip": true
+    },
+    {
+      "id": "FBS_DATA.SDA.2",
+      "changed_bytes": 0,
+      "record_sha256": "c0f1e03cd520fadfdaa9a62fa46283fc2308faebdefebaf78faae29b1dc6948b",
+      "reverse_roundtrip": true
+    },
+    {
+      "id": "F_COMMON.SDA.0",
+      "changed_bytes": 0,
+      "record_sha256": "751539ed5b0d495544c2da8b32428b5147a4a3a3b3b43ca86088fc83bc9743a1",
+      "reverse_roundtrip": true
+    },
+    {
+      "id": "F_COMMON.SDA.1",
+      "changed_bytes": 0,
+      "record_sha256": "a920ad832e1bcab80d6e09735992d0a47df31e88d49a26ca9a5d8685382f2a6b",
+      "reverse_roundtrip": true
+    },
+    {
+      "id": "F_COMMON.SDA.2",
+      "changed_bytes": 0,
+      "record_sha256": "ab1ff9d9ae092f53bd150c00fad9e86f1f71dafa260d73eb6705fd572bf90b65",
+      "reverse_roundtrip": true
+    }
+  ],
+  "resources": [
+    {
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "size": 366224,
+      "sha256": "5b53111e7e3ee309f813c6cf3284277774f3c5d0aa2b0d6b53b39fed4884c470"
+    },
+    {
+      "resource": "DATA/FDATA/F_COMMON.SDA",
+      "size": 171936,
+      "sha256": "4b2762a8444c8d609cfeed96c3854d45c04f18a68187a769a9f29cf84680973f"
+    }
+  ],
+  "originals_unchanged": true,
+  "iso_modified": false,
+  "visual_status": "not_tested",
+  "export_entries": 6,
+  "purpose": "Lossless transport only; original pixel content restored; no translated graphics or ISO patch",
+  "png_palette_and_alpha_immutable": true
+}

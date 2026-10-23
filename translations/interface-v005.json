@@ -1,0 +1,3266 @@
+{
+  "schema": 1,
+  "policy": "elf-ui-fixed-original-string-v001",
+  "base_dialogue_draft": "translations/regiao-inicial-v030.json",
+  "layout_profile": "ptbr-layout-v005",
+  "iso_name": "MetalSaga-ptbr-interface-v005.iso",
+  "status": "Índice da ajuda do Satcom; validação visual consolidada pendente",
+  "source_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "entries": [
+    {
+      "id": "elf.ui.0032c018",
+      "source_sha256": "ba615e89e13d8340cf22cbcebe25bb320e715893948201301d8a78a53497e95b",
+      "group": "navigation",
+      "translation": "Escolha o destino"
+    },
+    {
+      "id": "elf.ui.0032c030",
+      "source_sha256": "d0374633e2eff91c6cbbf20d13d6460dc78367e956e5363670485a04d35eabf2",
+      "group": "navigation",
+      "translation": "Excede o teto"
+    },
+    {
+      "id": "elf.ui.0032c060",
+      "source_sha256": "7213922be8f2b0338dc89ad81428e01b6b1d5a9fd4215f145fdffba6501799ff",
+      "group": "navigation",
+      "translation": "Envio feito"
+    },
+    {
+      "id": "elf.ui.0032c0a8",
+      "source_sha256": "d99336b1c3f9fc8c63de6569b877e323fdb018cb3f5c69d4cfbb74684c4cda46",
+      "group": "navigation",
+      "translation": "Sem veíc."
+    },
+    {
+      "id": "elf.ui.0032c0b8",
+      "source_sha256": "e67e03dade4eb238a0e8b828b75ba12394ef2adedb23a698f5f207051fd06e2f",
+      "group": "navigation",
+      "translation": "Sem destino"
+    },
+    {
+      "id": "elf.ui.0032c0c8",
+      "source_sha256": "3d7e52bac36dfd920f547ea92d72b36a7506e0c81384ab52bc8fd23aabb7c06d",
+      "group": "navigation",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.0032c0d8",
+      "source_sha256": "055d9a02753530d8ac89ea15e3930b0836278430eb7e36fc35982ab5a0ecd5aa",
+      "group": "navigation",
+      "translation": "Desativado"
+    },
+    {
+      "id": "elf.ui.0032c0f0",
+      "source_sha256": "6a93dc384a44c0181b0cf83b745048448b3f471ba7afcf5bfa26b143072d329b",
+      "group": "navigation",
+      "translation": "Submerso"
+    },
+    {
+      "id": "elf.ui.0032c100",
+      "source_sha256": "4395900932bc81d1dd7cba63ff31cc1a8c63dff1ef112c63ffc6bfdc220ddaef",
+      "group": "navigation",
+      "translation": "Inoperante"
+    },
+    {
+      "id": "elf.ui.0032c110",
+      "source_sha256": "ca184496974204a0bd3fd4925e0540bc4b0df6fcc232994d29754272b7183812",
+      "group": "navigation",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.0032c1d8",
+      "source_sha256": "eacda7929f8d31ec11dd90b16b473e24aba5f643fef056c2768b8820b9406240",
+      "group": "satcom",
+      "translation": "Você ouvirá um aviso|quando atingir a meta."
+    },
+    {
+      "id": "elf.ui.0032c210",
+      "source_sha256": "4a29a4d8051af4fd757232a3a3a17f83836dee525e79714a8022156b4395ff68",
+      "group": "satcom",
+      "translation": "A meta deve superar seu saldo atual"
+    },
+    {
+      "id": "elf.ui.0032c238",
+      "source_sha256": "25e6dacf8f4da23195cbccbd7c83282e42d2c1af5f9b7682d1ab79837f1cd515",
+      "group": "satcom",
+      "translation": "Meta salva"
+    },
+    {
+      "id": "elf.ui.0032c308",
+      "source_sha256": "0933f10e406e015b8eb971bbe5c676a9c116180abc8b07f18a39bc003bdb3b71",
+      "group": "satcom",
+      "translation": "Qual jogo?"
+    },
+    {
+      "id": "elf.ui.0032c318",
+      "source_sha256": "f8e46b1698efc691d09fb36fd6656def046948d76c6b3ace4ac770f840ea0cb8",
+      "group": "satcom",
+      "translation": "Nenhum"
+    },
+    {
+      "id": "elf.ui.0032c4e0",
+      "source_sha256": "6c351c116cc7feeaf5724426f891c890b4f7d9cb8baab5f2ec1d6c512cc016b6",
+      "group": "satcom",
+      "translation": "Vazio"
+    },
+    {
+      "id": "elf.ui.0032c5a0",
+      "source_sha256": "18c35f29f2dcd7c32d2d92882171c335ce2dfb341e47a52644542027f3295a5d",
+      "group": "satcom",
+      "translation": "Escolha o tema"
+    },
+    {
+      "id": "elf.ui.0032c858",
+      "source_sha256": "722d2b8d6f0a2be3c0295d2cfe930ce483472a31a88608fe701893869f13163f",
+      "group": "satcom",
+      "translation": "Nenhum alugado"
+    },
+    {
+      "id": "elf.ui.0032ca00",
+      "source_sha256": "74bed7b49a5d8b99451913d44c2a60cce198c1d94b408e4f19a09ce0cc1d2a47",
+      "group": "mail",
+      "translation": "Escolha a pasta"
+    },
+    {
+      "id": "elf.ui.0032ca10",
+      "source_sha256": "bf738509a86844b42ec8b38ee5af5a4b5e8868cb4af075791cd89a5d0c239689",
+      "group": "mail",
+      "translation": "Escolha a mensagem"
+    },
+    {
+      "id": "elf.ui.0032ca40",
+      "source_sha256": "8919c177ca5650217c5b2d28ccb59e8a635f939c7837e8cfa13f75768884fd8c",
+      "group": "mail",
+      "translation": "Msg nova"
+    },
+    {
+      "id": "elf.ui.0032ca60",
+      "source_sha256": "459fc38f0399929de7bfb21a5fa3bede3cdb89f28ff662ad2441c620660a3138",
+      "group": "mail",
+      "translation": "    Sem msg"
+    },
+    {
+      "id": "elf.ui.0032cb30",
+      "source_sha256": "5e37688384fe6fce334bcb20e19aeb05689c3a45023a23f09caf1b0f74fbc831",
+      "group": "navigation",
+      "translation": "Sem loja"
+    },
+    {
+      "id": "elf.ui.0032cb60",
+      "source_sha256": "649d57c58231ec97ff78aaead46fe9139d734d7d23a2da640dcd6ca523e246b8",
+      "group": "navigation",
+      "translation": "Escolha a cidade"
+    },
+    {
+      "id": "elf.ui.0032cc40",
+      "source_sha256": "97816115551d31d8c94a2f88a7d7607119c3475cbfb4824d2164e8c617b89fc6",
+      "group": "controls",
+      "translation": "Escolha o estilo;|Set1/Set2 são editáveis"
+    },
+    {
+      "id": "elf.ui.0032cc70",
+      "source_sha256": "9cd0f52d216481d417fefe63938ee6b8f3d15836fa634616093c4022b652c1b3",
+      "group": "controls",
+      "translation": "Defina os atalhos"
+    },
+    {
+      "id": "elf.ui.0032ccc8",
+      "source_sha256": "c494202ba705dc9b73626387a4699d47650c66ed13e33272441f782368ab297a",
+      "group": "controls",
+      "translation": "O padrão não pode mudar"
+    },
+    {
+      "id": "elf.ui.0032cce8",
+      "source_sha256": "3eb1fa977e676255aaf441c28de906d4935e75d63f30386ff22b6d6c7bdbaade",
+      "group": "controls",
+      "translation": "Qual %s original?"
+    },
+    {
+      "id": "elf.ui.0032cd00",
+      "source_sha256": "15aca981b2a627010754204ecb4620b9b2c18c980addbe3ca5b4f8ef4b0f7165",
+      "group": "controls",
+      "translation": "Novo %s"
+    },
+    {
+      "id": "elf.ui.0032cd20",
+      "source_sha256": "5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe",
+      "group": "controls",
+      "translation": "local"
+    },
+    {
+      "id": "elf.ui.0032cd40",
+      "source_sha256": "fac1313ab9bfdc9e51ed51c55b3ef2437bbdc3a9a29d3ba00c3acd38b93aaa56",
+      "group": "controls",
+      "translation": "Qual botão?"
+    },
+    {
+      "id": "elf.ui.0032cd50",
+      "source_sha256": "68d871f8c2070243f5a2cb475d42a18f200de0c9bd930d5cdf9160e6bb5be096",
+      "group": "controls",
+      "translation": "Qual função?"
+    },
+    {
+      "id": "elf.ui.0032cd68",
+      "source_sha256": "d903a3a6d975047d57a2046ab64a70e14ac906ac614e31bd4fe90d896587bf9c",
+      "group": "controls",
+      "translation": "Veículos"
+    },
+    {
+      "id": "elf.ui.0032cd78",
+      "source_sha256": "8251adedf638b5b511de56ac9e78f49eabf44c0435a963ff41d03ed606936070",
+      "group": "controls",
+      "translation": "Batalhas"
+    },
+    {
+      "id": "elf.ui.0032cd88",
+      "source_sha256": "08def6edb1a257a77b7202e6f23d8b28e74f3b71b630fdffcf8ab720ca5c6cc9",
+      "group": "controls",
+      "translation": "Satcom"
+    },
+    {
+      "id": "elf.ui.0032cd98",
+      "source_sha256": "cd71ed7dda01cca4887da01fc24ffaafb5db342d663c04154f934f38023dbef2",
+      "group": "controls",
+      "translation": "Atalhos"
+    },
+    {
+      "id": "elf.ui.0032ce90",
+      "source_sha256": "e68b3b94586dd2ccec982c0106ff9d1afeb966f6f202bae67a439f04078b5b6f",
+      "group": "controls",
+      "translation": "Telep."
+    },
+    {
+      "id": "elf.ui.0032cea0",
+      "source_sha256": "1aa1e61e54809d29ad98e5ccf4fefbf4d1999b7bfe2a15544f0055b2973492ca",
+      "group": "controls",
+      "translation": "Conduzir"
+    },
+    {
+      "id": "elf.ui.0032ceb0",
+      "source_sha256": "7859f24e308d48e16fe0d54ea393f47a60806d4d5609d72ad001f32e2ccc0974",
+      "group": "controls",
+      "translation": "Andar a pé"
+    },
+    {
+      "id": "elf.ui.0032cec0",
+      "source_sha256": "0ba50f753c8d71ad8abc605c602fe839b070c31632a1cd863a43645b6d828982",
+      "group": "controls",
+      "translation": "Detectar"
+    },
+    {
+      "id": "elf.ui.0032ced0",
+      "source_sha256": "39d0530292b6eac49d3abed11fcb9ae3b6b06bb2df5dc5b1df7f157f664b1597",
+      "group": "controls",
+      "translation": "Tiro MAIN"
+    },
+    {
+      "id": "elf.ui.0032d160",
+      "source_sha256": "49c490a5fd19da62c00cd0006f0d38caea2b37173445f13dd5e01b598d37f10e",
+      "group": "diary_menu",
+      "translation": "Lembretes"
+    },
+    {
+      "id": "elf.ui.0032d178",
+      "source_sha256": "48f8def39db7549c202c1879ece1a7c9735ef73840834a61957a1cbfbfc7bc5a",
+      "group": "diary_menu",
+      "translation": "Anteriores"
+    },
+    {
+      "id": "elf.ui.0032d188",
+      "source_sha256": "c853cf6a0a20e83a730f25c0b2f0b0b52a3e002b50ed08c69166617285b206cc",
+      "group": "diary_menu",
+      "translation": "Escolha a nota"
+    },
+    {
+      "id": "elf.ui.0032d198",
+      "source_sha256": "02ee725b145eb11e005279414f12223f4361a17c8bf5e396799723eb8419c1e7",
+      "group": "diary_menu",
+      "translation": "Sem notas"
+    },
+    {
+      "id": "elf.ui.0032d308",
+      "source_sha256": "c8faa5268c32578d460719c103ffc3a765a40ec5c79de0f026646d987570dec1",
+      "group": "hunt_menu",
+      "translation": "Alvo da semana|do Posto Hunter"
+    },
+    {
+      "id": "elf.ui.0032d330",
+      "source_sha256": "5eba97cc6a3288724f7f5c1d991d628d89aa5f9d46d4b7e59a3ac0c8c7e34101",
+      "group": "hunt_menu",
+      "translation": "Dados de monstros|já reunidos"
+    },
+    {
+      "id": "elf.ui.0032d358",
+      "source_sha256": "fe06c92d22ccc3b0b4ecd3b4a5aacb4c9afce08778dec981052bfd2985a3aec8",
+      "group": "hunt_menu",
+      "translation": "Qual tipo?"
+    },
+    {
+      "id": "elf.ui.0032d368",
+      "source_sha256": "a2475579bcb6dc10299a602ade89c4944656035d7fa8ee5ab46966e6386641ed",
+      "group": "hunt_menu",
+      "translation": "Qual monstro?"
+    },
+    {
+      "id": "elf.ui.0032d378",
+      "source_sha256": "1ff6f43d47ec4eb9a6d8f58d3194f50a74fcf0595a260af9338c37240adea7b6",
+      "group": "hunt_menu",
+      "translation": "Alvo da semana"
+    },
+    {
+      "id": "elf.ui.0032d390",
+      "source_sha256": "c6e932ee92c670319b8af981f77c166b150b42f0941e22fd8410ed623ebfcbd0",
+      "group": "hunt_menu",
+      "translation": "Monstros"
+    },
+    {
+      "id": "elf.ui.0032d998",
+      "source_sha256": "cfcab97f6c0b78f23aff1f32c76eb8907a6540af995ebbc1fa0038cddb243a5c",
+      "group": "satcom",
+      "translation": "Veja as lojas nas|cidades já visitadas"
+    },
+    {
+      "id": "elf.ui.0032d9d0",
+      "source_sha256": "d35e8f8ba71df00d36f5e6e0a486ae9fa353f1ca38333580be14f47d860508a8",
+      "group": "satcom",
+      "translation": "Envie um veículo a uma|cidade já visitada"
+    },
+    {
+      "id": "elf.ui.0032da00",
+      "source_sha256": "bbb062f539018a3fa16b332659c5f58280adc86391214ad40d919b83813e86d9",
+      "group": "satcom",
+      "translation": "Veja os itens obtidos|e os veículos alugados"
+    },
+    {
+      "id": "elf.ui.0032da30",
+      "source_sha256": "2481dae968772ced322ef5259c2c1c2fe598f3927570971127b6c1c4f2f98f0a",
+      "group": "satcom",
+      "translation": "Dados sobre monstros"
+    },
+    {
+      "id": "elf.ui.0032da48",
+      "source_sha256": "f5fbffd29742afe7c25c929791fc2aadd9fbce364b9fee6d3a4261b4ea0136a1",
+      "group": "satcom",
+      "translation": "Veja os procurados"
+    },
+    {
+      "id": "elf.ui.0032da60",
+      "source_sha256": "94f9449861da69491bc24dc98bdef4ee9e7d60a0248acc2714281e64ab30ddec",
+      "group": "satcom",
+      "translation": "Leia as mensagens|recebidas"
+    },
+    {
+      "id": "elf.ui.0032da88",
+      "source_sha256": "f90f71c7b380e4da5001061fcc876a8ff303d9aa003868c2bdc55700625bb2b5",
+      "group": "satcom",
+      "translation": "Receba um aviso ao atingir|uma quantia em dinheiro"
+    },
+    {
+      "id": "elf.ui.0032dac0",
+      "source_sha256": "15e6faf0cf54d8b344f4ccb6f027277df731733468d7c0a250ccd8008d194803",
+      "group": "satcom",
+      "translation": "Ouça as músicas|que você baixou"
+    },
+    {
+      "id": "elf.ui.0032dae8",
+      "source_sha256": "82c8d0e0c0f017dcb809914b1db485c2e1f1c96fdbaa6349b518a045ddd36ca6",
+      "group": "satcom",
+      "translation": "Jogue os minijogos|que você baixou"
+    },
+    {
+      "id": "elf.ui.0032db18",
+      "source_sha256": "51dc412b57df032444e2ef38fd3b608876cb1a01deb3fb3ba04a6994ba3b171f",
+      "group": "satcom",
+      "translation": "Defina os controles e|organize os menus"
+    },
+    {
+      "id": "elf.ui.0032db48",
+      "source_sha256": "9e641ef077dc508f82d1a5e5b08d13258f019a2632eb5a76a919707bbde07a70",
+      "group": "satcom",
+      "translation": "Consulte o diário"
+    },
+    {
+      "id": "elf.ui.0032db60",
+      "source_sha256": "780cddfb3f5b9f36e073eb4d177f16b21d7f7f17b0baf5802d09b65d9ceb6f85",
+      "group": "satcom",
+      "translation": "Veja a ajuda"
+    },
+    {
+      "id": "elf.ui.0032dd20",
+      "source_sha256": "7b790708ff1b171315a152018f3712e8c71c82f4f9000635f77a1336c34f1893",
+      "group": "common_labels",
+      "translation": "Coleção"
+    },
+    {
+      "id": "elf.ui.0032dd30",
+      "source_sha256": "bb6eb742146afcfd08152cb99c0531bf1eec2797cbdf6b203df2f9fe468782ac",
+      "group": "common_labels",
+      "translation": "Minijogo"
+    },
+    {
+      "id": "elf.ui.0032dd50",
+      "source_sha256": "edd3df9d5178bad168fa85b90b9508c8ef3774d99d9b08ec34f34aa10ce990a1",
+      "group": "common_labels",
+      "translation": "Resumo"
+    },
+    {
+      "id": "elf.ui.003496b8",
+      "source_sha256": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6",
+      "group": "common_labels",
+      "translation": "Resumo"
+    },
+    {
+      "id": "elf.ui.003496c0",
+      "source_sha256": "a69c4dece144a46e40d430726395533d8f335a7d601d8ca292220b3a4a7faca4",
+      "group": "common_labels",
+      "translation": "Depós."
+    },
+    {
+      "id": "elf.ui.003496c8",
+      "source_sha256": "dbd6652e88f2b0b3089cbdd61956d31c478ce903be169427361134e5039b6e49",
+      "group": "common_labels",
+      "translation": "Alug."
+    },
+    {
+      "id": "elf.ui.00349718",
+      "source_sha256": "bd2d677b2ed4381b48bb1d0841052c6d076e7d634d5052e85dcbe0b8a0dedd80",
+      "group": "mail",
+      "translation": "Fam."
+    },
+    {
+      "id": "elf.ui.00349720",
+      "source_sha256": "acd8f66440162511efe9b24a2677bab20518f44d6f233b08e9387d9747601f18",
+      "group": "mail",
+      "translation": "Amigos"
+    },
+    {
+      "id": "elf.ui.00349730",
+      "source_sha256": "f97e9da0e3b879f0a9df979ae260a5f7e1371edb127c1862d4f861981166cdc1",
+      "group": "mail",
+      "translation": "Outro"
+    },
+    {
+      "id": "elf.ui.00349758",
+      "source_sha256": "d00aae6b7fbf77a4566d8df36805d7ae973894da9f533ec96516b31e028b71eb",
+      "group": "mail",
+      "translation": "Loja"
+    },
+    {
+      "id": "elf.ui.00349790",
+      "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+      "group": "common_labels",
+      "translation": "Aceitar"
+    },
+    {
+      "id": "elf.ui.003497b8",
+      "source_sha256": "6df1bb18a59ab97df82e307b93fe4f3bbda34d531bcbb79ec573dda23ba64918",
+      "group": "common_labels",
+      "translation": "Hab."
+    },
+    {
+      "id": "elf.ui.003497c0",
+      "source_sha256": "07ed6ccf6bf6393d18684d1d4f774639d44c7d2d2895fd30491ccc50614ed4ea",
+      "group": "mail",
+      "translation": "Msgs"
+    },
+    {
+      "id": "elf.ui.003497c8",
+      "source_sha256": "67e1bca0889ba21ce995cb2e05f0a0f19aad003a39ddcd8a336eaadb9c8a1b4f",
+      "group": "common_labels",
+      "translation": "Vazio"
+    },
+    {
+      "id": "elf.ui.003497e0",
+      "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+      "group": "common_labels",
+      "translation": "Aceitar"
+    },
+    {
+      "id": "elf.ui.00349800",
+      "source_sha256": "b5286edc25eae99e2bad5d37436642ef1bc966fa76bcce30fb5f927e35e2170a",
+      "group": "diary_menu",
+      "translation": "Destaq."
+    },
+    {
+      "id": "elf.ui.00349828",
+      "source_sha256": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+      "group": "common_labels",
+      "translation": "Máq."
+    },
+    {
+      "id": "elf.ui.00349830",
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+      "group": "common_labels",
+      "translation": "Veíc."
+    },
+    {
+      "id": "elf.ui.00349838",
+      "source_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+      "group": "common_labels",
+      "translation": "Descon."
+    },
+    {
+      "id": "elf.ui.00349840",
+      "source_sha256": "2b2740cdf152a7f51d12b711113613369ab18efcaba9689b0e74ac74203eecfd",
+      "group": "common_labels",
+      "translation": "Alvos"
+    },
+    {
+      "id": "elf.ui.00349860",
+      "source_sha256": "3b41ba9c7cb8c5d6530c12eec5000c4e2ad0c48b2d4b9149a3ef6d2a23802819",
+      "group": "common_labels",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.00349880",
+      "source_sha256": "c24a6007704eb9d073a418f0d2b985bbf4d835024718a1fe1fe7c9a0c41eea32",
+      "group": "common_labels",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.003498b8",
+      "source_sha256": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6",
+      "group": "common_labels",
+      "translation": "Resumo"
+    },
+    {
+      "id": "elf.ui.003498c0",
+      "source_sha256": "1b18ebbc3f490c845c2ebeca8853fcc82daefc66068eb984a445f8b1b7068438",
+      "group": "common_labels",
+      "translation": "Lutas"
+    },
+    {
+      "id": "elf.ui.003498d0",
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+      "group": "common_labels",
+      "translation": "Veíc."
+    },
+    {
+      "id": "elf.ui.00315ee0",
+      "source_sha256": "6c638eeb2fae89b84d9748d43115c21324724acc03ed37d9f2c13648a43a7db5",
+      "group": "field_and_paint",
+      "translation": "Dirigir ou rebocar?"
+    },
+    {
+      "id": "elf.ui.00315f00",
+      "source_sha256": "b89a60689bf8c74eec31b8fa99452fa5bfb8282be9dae7f7bfd2d9fb9ffcac44",
+      "group": "field_and_paint",
+      "translation": "Desembarcar   "
+    },
+    {
+      "id": "elf.ui.00317580",
+      "source_sha256": "413b1da07bb52af8fc5e15561ee1e9742acff08ffca889233d139fc09def5c54",
+      "group": "field_and_paint",
+      "translation": "Falta um Teleporter"
+    },
+    {
+      "id": "elf.ui.00317720",
+      "source_sha256": "9c60e72fcf2d8a45fd873674dda9c39c373942785bb69d2ba7fabda2ec7746f9",
+      "group": "field_and_paint",
+      "translation": "Mapa do mundo"
+    },
+    {
+      "id": "elf.ui.00317998",
+      "source_sha256": "d35bca467588a7b079e9c65081e17aa3790b9fd15cf086be0d3a172eba9ab84d",
+      "group": "field_and_paint",
+      "translation": "Ouviu um som!"
+    },
+    {
+      "id": "elf.ui.00317b50",
+      "source_sha256": "e91f89fdb72586fbd850c1a0c2dc6035c8428f4837c81cb617c26bf4107c1636",
+      "group": "field_and_paint",
+      "translation": "Sem habilidades"
+    },
+    {
+      "id": "elf.ui.00318be8",
+      "source_sha256": "065f22f42b307c88ccf2357b2b840fc6b8f72edb41239053bc5dd0a46712a01e",
+      "group": "field_and_paint",
+      "translation": "Voltar à pintura"
+    },
+    {
+      "id": "elf.ui.00318c00",
+      "source_sha256": "fddd954064693e9b353874b9f110b4661194d8569b4bba454736649af7d26668",
+      "group": "field_and_paint",
+      "translation": "Sair da pintura"
+    },
+    {
+      "id": "elf.ui.00318c10",
+      "source_sha256": "1e0a785379d4846ac59ebc4b041fe20f2231e1b12a573825299a100d8dfbdc63",
+      "group": "field_and_paint",
+      "translation": "Voltar aos carimbos"
+    },
+    {
+      "id": "elf.ui.00318c28",
+      "source_sha256": "ac404ab475524c4ceb57c68576c45dca4edddfe3908deee27d384e67cbaaf39e",
+      "group": "field_and_paint",
+      "translation": "Ver modelo"
+    },
+    {
+      "id": "elf.ui.00318c38",
+      "source_sha256": "06ed41e11f660e4951beb792f93119e93b6520395c4e40a0e6854b2faab985e2",
+      "group": "field_and_paint",
+      "translation": "Sair do carimbo"
+    },
+    {
+      "id": "elf.ui.00318e40",
+      "source_sha256": "ad04fc3a56652bd57143abfaac647086c96c89465aef075d2c0c4d6338820b6b",
+      "group": "field_and_paint",
+      "translation": "Sair da pintura?"
+    },
+    {
+      "id": "elf.ui.0031a618",
+      "source_sha256": "75c47aa81c26c0498ea446d6de2a1f2050edf743ca6c0462c26faaa587dba2c7",
+      "group": "field_and_paint",
+      "translation": "Ineficaz"
+    },
+    {
+      "id": "elf.ui.0031a750",
+      "source_sha256": "0a855e830a7e8b1f7bfb2336745d01b0c399bbfcd2c18bb3237025ed38bf5150",
+      "group": "field_and_paint",
+      "translation": "Nada a converter..."
+    },
+    {
+      "id": "elf.ui.0031a780",
+      "source_sha256": "0a1928d9d003c104c6b631350a1c723ca1a7d263ed98bb7f668a9f7cb289304f",
+      "group": "field_and_paint",
+      "translation": "Modo vigia: mais ataques preventivos"
+    },
+    {
+      "id": "elf.ui.0031a7b0",
+      "source_sha256": "f54ed39d4f4870c81b6761865366da1c2f2e095fd1d167b763ce9b7de7109e2b",
+      "group": "field_and_paint",
+      "translation": "Modo ameaça: afasta inimigos fracos"
+    },
+    {
+      "id": "elf.ui.0031a7d8",
+      "source_sha256": "840d819ef0243f56404b5de1113b0e3ba9d579961c5289c80ea19257e3c28d91",
+      "group": "field_and_paint",
+      "translation": "Modo evasão: menos encontros"
+    },
+    {
+      "id": "elf.ui.0031a818",
+      "source_sha256": "78f386b4bd9bf364f56aae156ed6d868561cc1b512e32b074f59cc563510a5d9",
+      "group": "field_and_paint",
+      "translation": "Ouviu um som"
+    },
+    {
+      "id": "elf.ui.0031dc70",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_notices",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0031e100",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_notices",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0031e730",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_notices",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0031e748",
+      "source_sha256": "ede0163831fce9623e6a743b4e084a2774bf2a86bc0c4f4e256a94bff21e9e28",
+      "group": "minigame_notices",
+      "translation": "Perdeu"
+    },
+    {
+      "id": "elf.ui.0031ebf0",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_notices",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0031f0e8",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_notices",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0031f1c8",
+      "source_sha256": "eea4fb33efd382834952e3e7ab52f8dc41ccc2c3f5c3f246f0505235e0e962aa",
+      "group": "minigame_notices",
+      "translation": "Tente outra vez."
+    },
+    {
+      "id": "elf.ui.0031f1e0",
+      "source_sha256": "5ca2bfcdcc40ca813050967de215cb1305335364ead4e15528a602e4504a26a2",
+      "group": "minigame_notices",
+      "translation": "Ganhou %dG!"
+    },
+    {
+      "id": "elf.ui.0031fd58",
+      "source_sha256": "b11c4957260353e5af3f839ba3d2e1602102b34a4146781eb77c71476f90f7d5",
+      "group": "minigame_notices",
+      "translation": "Roleta"
+    },
+    {
+      "id": "elf.ui.0031fdb8",
+      "source_sha256": "12e494e197203c13e249621de28bcb6746a0e3ead8eec9db46a5569b14323f4d",
+      "group": "minigame_notices",
+      "translation": "Musculação"
+    },
+    {
+      "id": "elf.ui.0031fdc8",
+      "source_sha256": "4986a179dcd644b207abe93c4e120de2bfb9071435c80151dd5c812e99270f2b",
+      "group": "minigame_notices",
+      "translation": "Até Arthur"
+    },
+    {
+      "id": "elf.ui.0031fdf8",
+      "source_sha256": "64061648730d5d97994dd1edca3ae3b8e10bce35ec30eaef115027365ba4b7aa",
+      "group": "minigame_notices",
+      "translation": "Rinha"
+    },
+    {
+      "id": "elf.ui.0031fe08",
+      "source_sha256": "15aef074311fbc834a1223aba1079744bd4e8d4d849ffcf263b5426522615367",
+      "group": "minigame_notices",
+      "translation": "Disputa de copos"
+    },
+    {
+      "id": "elf.ui.0031fe70",
+      "source_sha256": "4572fca4f8fcca88b286527f65909c4e9b17b7bb060541c4d199eb35c98dd1ba",
+      "group": "minigame_notices",
+      "translation": "Minijogo"
+    },
+    {
+      "id": "elf.ui.003200e8",
+      "source_sha256": "f084444d93e99ba304043e8ba92f35f3aeeaf0a3902b161fc143ea274563a106",
+      "group": "minigame_notices",
+      "translation": "Escolha o minijogo"
+    },
+    {
+      "id": "elf.ui.00320298",
+      "source_sha256": "5fdbf834ac31edc22bb1686363dd6cfc6e65541c98c552296318fe4531adc91a",
+      "group": "minigame_notices",
+      "translation": "Bolsa cheia;"
+    },
+    {
+      "id": "elf.ui.003202a8",
+      "source_sha256": "6974d1e2ae5127c7b05eab07533c5dfb61d054b7ffde6397e1a549ea15b16ffc",
+      "group": "minigame_notices",
+      "translation": "Qual item descartar?"
+    },
+    {
+      "id": "elf.ui.003202c0",
+      "source_sha256": "411c4070f77933f573a69e5ea2dd7ba24c27b4432a495d5d14d936980d9dd19a",
+      "group": "minigame_notices",
+      "translation": "será descartado. OK?"
+    },
+    {
+      "id": "elf.ui.003202d8",
+      "source_sha256": "58ed3e1d87c8d78371b8d9170d96835307ad40bcf371b67de3b749788af0d2d5",
+      "group": "minigame_notices",
+      "translation": "Item obtido"
+    },
+    {
+      "id": "elf.ui.00320350",
+      "source_sha256": "41694f171aaa3416f8da99bfaedb19fabaf4f2ce47c2c3783e1d21a55b454537",
+      "group": "minigame_notices",
+      "translation": "Sair do jogo?"
+    },
+    {
+      "id": "elf.ui.00320638",
+      "source_sha256": "07ae7fd684564e68cac0181cc95916cb616319dfe87d79129cfcef36ea83a328",
+      "group": "options",
+      "translation": "Instalando..."
+    },
+    {
+      "id": "elf.ui.00321310",
+      "source_sha256": "63c4820da87bf195367d1d702f05d05f7161261b01dde96a59192d26e1b13b9d",
+      "group": "options",
+      "translation": "Vel. do texto"
+    },
+    {
+      "id": "elf.ui.00321320",
+      "source_sha256": "59e1fd02f6c20f7e1cc84937c36e22ec9574fc3fba67ea9a88bd8df9c456fb34",
+      "group": "options",
+      "translation": "Vibrar"
+    },
+    {
+      "id": "elf.ui.00321330",
+      "source_sha256": "f3fc91e694f604e93ec9b59d225b7beb6aa5999b75a9c945e8dfc6a39108d852",
+      "group": "options",
+      "translation": "Estac. aut"
+    },
+    {
+      "id": "elf.ui.00321340",
+      "source_sha256": "1a322cfac3611b82330acffafd7f0538d8386c61e2b15cba1b34b6a4fadfc1e1",
+      "group": "options",
+      "translation": "Vol. mús."
+    },
+    {
+      "id": "elf.ui.00321350",
+      "source_sha256": "e16693a605f5a24a2f77a24e273d5e9f1358b8ee10ca975b9b796760605bae31",
+      "group": "options",
+      "translation": "Vol. efeitos"
+    },
+    {
+      "id": "elf.ui.00321360",
+      "source_sha256": "dbdbcb2a87f2ff782ca324399f99daa01f2dfd0dc6ddd05b6ac927d5328ec1bf",
+      "group": "options",
+      "translation": "Pos. da tela"
+    },
+    {
+      "id": "elf.ui.003213b8",
+      "source_sha256": "29a0576f67696b5ebe31341d2609a5d9223e3382036b882a32b74b5778bbc824",
+      "group": "options",
+      "translation": "Use os direcionais"
+    },
+    {
+      "id": "elf.ui.003213d8",
+      "source_sha256": "b5fb2da386be09e0fb99fe13d02534beb88c7526d42e96de3dcfcc3736df386e",
+      "group": "options",
+      "translation": "para ajustar a tela."
+    },
+    {
+      "id": "elf.ui.003237b0",
+      "source_sha256": "b4739a4f08650db25283a2b1d91cded5b7003353eab212a467bb2b03c0495963",
+      "group": "battle_status",
+      "translation": "Pensando..."
+    },
+    {
+      "id": "elf.ui.00323900",
+      "source_sha256": "4d555f4f2895a325239687214607ba9691f282b4091a98c44b2d18d639bea5c8",
+      "group": "battle_status",
+      "translation": "Incapacitado!"
+    },
+    {
+      "id": "elf.ui.003239e0",
+      "source_sha256": "4688af9f21deacbdc881e3cf056152c9ffd9789ce5e00b4c0fc3f6986d3ebde5",
+      "group": "battle_status",
+      "translation": "Nível:    %3d"
+    },
+    {
+      "id": "elf.ui.00323a00",
+      "source_sha256": "2e181391601ec8e68d689e354271213f0003f9eac3f5fad34d6c85dddf31751b",
+      "group": "battle_status",
+      "translation": "Soma:  %7d"
+    },
+    {
+      "id": "elf.ui.00323a10",
+      "source_sha256": "428703795bf2f9dd6c6037dd9e2cb98180430e85858ec904b982a8cd5d53100a",
+      "group": "battle_status",
+      "translation": "Dinheiro        %8d"
+    },
+    {
+      "id": "elf.ui.00323a28",
+      "source_sha256": "9966515b7eb5c1e278363221fbc414d407e2321f9413c314d9183ba0478233d8",
+      "group": "battle_status",
+      "translation": "Prêmio         %8d"
+    },
+    {
+      "id": "elf.ui.00323a40",
+      "source_sha256": "188a0b6777e17c0ca134e81390185314cd38629cb6384c33e3503e9b6a7b797a",
+      "group": "battle_status",
+      "translation": "Despesa         %8d"
+    },
+    {
+      "id": "elf.ui.00323a58",
+      "source_sha256": "3eeaf46f626de15fb13911554eccd26872d11341ff8d46e680cc136e2509a402",
+      "group": "battle_status",
+      "translation": "Soma            %8d"
+    },
+    {
+      "id": "elf.ui.003240d8",
+      "source_sha256": "4d555f4f2895a325239687214607ba9691f282b4091a98c44b2d18d639bea5c8",
+      "group": "battle_status",
+      "translation": "Incapacitado!"
+    },
+    {
+      "id": "elf.ui.003242a0",
+      "source_sha256": "558f73a8ce35afdf1b60152112cba3b3d3cff002f2bf99e799e29b3337d91456",
+      "group": "battle_status",
+      "translation": "No ar"
+    },
+    {
+      "id": "elf.ui.003242b0",
+      "source_sha256": "9e4fba0196580c55e8b771a01e02a5e98937ed7cc450bb05a1c5ffe5ec958de4",
+      "group": "battle_status",
+      "translation": "Sob a terra"
+    },
+    {
+      "id": "elf.ui.003242c0",
+      "source_sha256": "33f26cec3c3cc8630d27f8bde39df4b4de2dcea143a2ac650dff614756792924",
+      "group": "battle_status",
+      "translation": "Submerso"
+    },
+    {
+      "id": "elf.ui.003242d0",
+      "source_sha256": "312e9333f389bcb7c6eb6e2756f37911e5706afc03e643c5dd7db148a9fe4756",
+      "group": "battle_status",
+      "translation": "Fora do raio"
+    },
+    {
+      "id": "elf.ui.003242e0",
+      "source_sha256": "9b0e067497cfb7782445e8437b1b5e17f39c937bb76ff92c5d1e5b0bd4d71c56",
+      "group": "battle_status",
+      "translation": "Altitude alta"
+    },
+    {
+      "id": "elf.ui.0032a3b8",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "vehicle_and_status",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0032a408",
+      "source_sha256": "6196884e5da982551efe9789f05a68d6b791ca7b3cb21f83f8685e65c1db6a68",
+      "group": "vehicle_and_status",
+      "translation": "Nome correto?"
+    },
+    {
+      "id": "elf.ui.0032ada0",
+      "source_sha256": "f0d53cf52350aadcf71592d13cc52c45cfdc3ce2780abf975e2d66854f2d8efe",
+      "group": "vehicle_and_status",
+      "translation": "Quantos enviar?"
+    },
+    {
+      "id": "elf.ui.0032adb8",
+      "source_sha256": "c9dc9e8f74221d08dd5956b97b79272f8d94991c5ca7253b6235581dd6f68fe7",
+      "group": "vehicle_and_status",
+      "translation": "Quantos largar?"
+    },
+    {
+      "id": "elf.ui.0032add0",
+      "source_sha256": "ece35d277db84e4e1f194b7f777daac9eafcd10b6ff154e8254c5175d8fee51e",
+      "group": "vehicle_and_status",
+      "translation": "Obuses          %2d/%2d"
+    },
+    {
+      "id": "elf.ui.0032b120",
+      "source_sha256": "1b887a472c2da168337ef17b03cbefc80797cc37b53d8628d8337df77049bc55",
+      "group": "vehicle_and_status",
+      "translation": "Status humano"
+    },
+    {
+      "id": "elf.ui.0032b130",
+      "source_sha256": "f3e802173a14dff1ec540999b8cd9f23b191b57306f63fdd58cbabd4b2bb148f",
+      "group": "vehicle_and_status",
+      "translation": "Veículo"
+    },
+    {
+      "id": "elf.ui.0032b140",
+      "source_sha256": "e9bb8229d3e146cc72f3b641dcf1f526b9d921fa8d06a37405e7b9d183eaeb83",
+      "group": "vehicle_and_status",
+      "translation": "Comparar"
+    },
+    {
+      "id": "elf.ui.0032b3e0",
+      "source_sha256": "4bd7bf00d4c6d81f1484dc9fedaca2eab5c5f0bee5f8647b0f936e2ac63bb252",
+      "group": "vehicle_and_status",
+      "translation": "Sem nada"
+    },
+    {
+      "id": "elf.ui.0032b540",
+      "source_sha256": "7543a82b77e824cbe0ebb30c550582e47ce09d707083a539c452a15d32db9a4d",
+      "group": "vehicle_and_status",
+      "translation": "Item removido"
+    },
+    {
+      "id": "elf.ui.0032b588",
+      "source_sha256": "375db8a1f4814921bdda2b3c0c6087958463ba3b11b1c0111bc0dfb9733d2e66",
+      "group": "vehicle_and_status",
+      "translation": "Item trocado"
+    },
+    {
+      "id": "elf.ui.0032b598",
+      "source_sha256": "96d91711e6bb007c7c7f6e3063394a02749c6f92285f1afc3a947a0e52fe7bef",
+      "group": "vehicle_and_status",
+      "translation": "Item equipado"
+    },
+    {
+      "id": "elf.ui.0032b608",
+      "source_sha256": "6dc21afe4edec3c11b085c474e88026cefc74581cca0c738a9fcca1466b7ff99",
+      "group": "vehicle_and_status",
+      "translation": "Veneno"
+    },
+    {
+      "id": "elf.ui.0032b628",
+      "source_sha256": "f8e46b1698efc691d09fb36fd6656def046948d76c6b3ace4ac770f840ea0cb8",
+      "group": "vehicle_and_status",
+      "translation": "Nada a usar"
+    },
+    {
+      "id": "elf.ui.0032b638",
+      "source_sha256": "57d04c6969ddd7503f0e3224feb68e69f70e9dc5f5145645a5b4f85ef61e4f61",
+      "group": "vehicle_and_status",
+      "translation": "Mecân."
+    },
+    {
+      "id": "elf.ui.0032b670",
+      "source_sha256": "cb62accf41c25bddbf4dd58e93415e7cfb8a41d586321187c2fec1b67c035f05",
+      "group": "vehicle_and_status",
+      "translation": "Classe %s"
+    },
+    {
+      "id": "elf.ui.0032b680",
+      "source_sha256": "7e65acaebc9a9b617edcf4d1d47ca62442a3d3279391c4d0904cd7f2a63c9c45",
+      "group": "vehicle_and_status",
+      "translation": "Pilot.: %4d"
+    },
+    {
+      "id": "elf.ui.0032b7b8",
+      "source_sha256": "e87229d5e43bbab0f8190d469c8da7aed013dfc45e1478659a99f087356e1b01",
+      "group": "vehicle_and_status",
+      "translation": "Peças"
+    },
+    {
+      "id": "elf.ui.0032b7c8",
+      "source_sha256": "cf3366adda56ffc51d4dab96df14dfea70ed475f5fe2b15aae3a1afda8ba3b1a",
+      "group": "vehicle_and_status",
+      "translation": "Obuses extra"
+    },
+    {
+      "id": "elf.ui.0032b7d8",
+      "source_sha256": "b9174527c0321ffa9b696e8db70609e9e387bce02ecea5503152f414a86c6f5d",
+      "group": "vehicle_and_status",
+      "translation": "Blindagem"
+    },
+    {
+      "id": "elf.ui.0032b7e8",
+      "source_sha256": "223f4cd0ec6de9f8fb64c3bc3a1c9083962dcc04bb5f0e1131d7899fcc7a5f49",
+      "group": "vehicle_and_status",
+      "translation": "Detalhes"
+    },
+    {
+      "id": "elf.ui.0032b820",
+      "source_sha256": "8effc25740a65c6e249defe9c6d61f9b402c8c54c636e41cd4d202c6b38dee91",
+      "group": "vehicle_and_status",
+      "translation": "Não pode trocar o chassi"
+    },
+    {
+      "id": "elf.ui.0032b870",
+      "source_sha256": "40b6415d146798fcae2b2957d7dc15dc0117ee1cf1aed9baac827afddfb801b7",
+      "group": "vehicle_and_status",
+      "translation": "Não pode transferir ou descartar;|vá ao lava-tanques"
+    },
+    {
+      "id": "elf.ui.0032b8b8",
+      "source_sha256": "5468e4d67a2475ce4c55d32bf178fdd1470e446602f62bc5126de3d8a7c6d687",
+      "group": "vehicle_and_status",
+      "translation": "Peça tirada"
+    },
+    {
+      "id": "elf.ui.0032b8c8",
+      "source_sha256": "e418e8094b6be2eaef1690b45ffff381e31afec29c592f80665f97496b6f0d4a",
+      "group": "vehicle_and_status",
+      "translation": "Encaixe indisponível"
+    },
+    {
+      "id": "elf.ui.0032b8e0",
+      "source_sha256": "971c1db7c500bdd4babe42129da59dfc41db0a57e465984879b407564344d1d6",
+      "group": "vehicle_and_status",
+      "translation": "Peças trocadas"
+    },
+    {
+      "id": "elf.ui.0032b8f0",
+      "source_sha256": "dd987171106db925abb55a2668ef5a30130c03ad8482efe6f68b0d2b9ece1edd",
+      "group": "vehicle_and_status",
+      "translation": "Peça colocada"
+    },
+    {
+      "id": "elf.ui.0032b900",
+      "source_sha256": "68b211980961b6a09677906f784b8c3b8466eb7c8423fa1c9bc058583ac078af",
+      "group": "vehicle_and_status",
+      "translation": "Itens trocados"
+    },
+    {
+      "id": "elf.ui.0032b918",
+      "source_sha256": "ce275c9ca3a8ae84f71eb76815547ac69a3cbd264488d5ec4fa7ee92c3e0c982",
+      "group": "vehicle_and_status",
+      "translation": "Peça enviada|(tanque sobrecarregado)"
+    },
+    {
+      "id": "elf.ui.0032b940",
+      "source_sha256": "77252ce39aaaec9aeb7552c0671dedf5806e0feb661e9b6f7780061712008522",
+      "group": "vehicle_and_status",
+      "translation": "Não há espaço"
+    },
+    {
+      "id": "elf.ui.0032b958",
+      "source_sha256": "824b148d70ff0fbfa165d2d46b42a627f24f77da3c24072269792dbedcef7b17",
+      "group": "vehicle_and_status",
+      "translation": "Peça enviada"
+    },
+    {
+      "id": "elf.ui.0032b970",
+      "source_sha256": "e2344a603b86a425866bb4cce3641a3d7e99069aa17e33b921fafac9065c51dc",
+      "group": "vehicle_and_status",
+      "translation": "C Unit ajustada"
+    },
+    {
+      "id": "elf.ui.0032ba88",
+      "source_sha256": "43d2eae9065da1815a9a9c7e7af58f404efe7bbe7ee8679f9d59b1d87ef36bdd",
+      "group": "vehicle_and_status",
+      "translation": "Mun. lot."
+    },
+    {
+      "id": "elf.ui.0032ba98",
+      "source_sha256": "a811a61c52b66bc1f90eb59d7bbc476e9336d48eb076592fbd9e3fcd8df46b3e",
+      "group": "vehicle_and_status",
+      "translation": "Munição dada"
+    },
+    {
+      "id": "elf.ui.0032bb58",
+      "source_sha256": "7b01d6e3fc09b01f76266e4f7194862fd88ee6c1bacf915f2a07d4d108eac0e8",
+      "group": "vehicle_and_status",
+      "translation": "Blindagem descartada"
+    },
+    {
+      "id": "elf.ui.0032bbd8",
+      "source_sha256": "6c351c116cc7feeaf5724426f891c890b4f7d9cb8baab5f2ec1d6c512cc016b6",
+      "group": "vehicle_and_status",
+      "translation": "Vazio"
+    },
+    {
+      "id": "elf.ui.0032bc80",
+      "source_sha256": "059294bd535a80b3be751d1ec8aeb19e12f377080def4dc91b2a8187b2b94994",
+      "group": "vehicle_and_status",
+      "translation": "Pôr/tirar"
+    },
+    {
+      "id": "elf.ui.0032bc90",
+      "source_sha256": "dde8bef78cbb720683fa1fe76bfb900592099ed4346ed995bcbc514e9aa67256",
+      "group": "vehicle_and_status",
+      "translation": "Passar"
+    },
+    {
+      "id": "elf.ui.0032bca0",
+      "source_sha256": "14f1f4ab3f6871f8a5ce393fa8f6a85fc022b2388217c8725eda805a0666f34d",
+      "group": "vehicle_and_status",
+      "translation": "Ajustar C Unit"
+    },
+    {
+      "id": "elf.ui.0032bce8",
+      "source_sha256": "3cbe95e6bb13ebe2f682264dd0d5c80212fc218dec333379004aa51658b595d6",
+      "group": "vehicle_and_status",
+      "translation": "Escolha o encaixe"
+    },
+    {
+      "id": "elf.ui.0032bd00",
+      "source_sha256": "375919329ada275c91d444c1df3249a24114462f90cc0078cb79efdb676d249f",
+      "group": "vehicle_and_status",
+      "translation": "Qual lado?"
+    },
+    {
+      "id": "elf.ui.0032bd10",
+      "source_sha256": "68d871f8c2070243f5a2cb475d42a18f200de0c9bd930d5cdf9160e6bb5be096",
+      "group": "vehicle_and_status",
+      "translation": "Qual a função?"
+    },
+    {
+      "id": "elf.ui.0032bd28",
+      "source_sha256": "f2406ea1362f8aef2e2718bd91719127f19e86a5fdea2cadbef40e78f1bebc91",
+      "group": "vehicle_and_status",
+      "translation": "Sem obus"
+    },
+    {
+      "id": "elf.ui.0032bd90",
+      "source_sha256": "67519175f482a2b80be9d63e3a18fbad47ffaeab7dbd00d449959a35fdbc4a7b",
+      "group": "vehicle_and_status",
+      "translation": "Mun.  %2d/%2d"
+    },
+    {
+      "id": "elf.ui.0032bda0",
+      "source_sha256": "d9e019b947f1d15d06635b643ffd337c5cbfd37798691f12b34d21fa90ee29ef",
+      "group": "vehicle_and_status",
+      "translation": "Mun.  0/%2d"
+    },
+    {
+      "id": "elf.ui.0032bdb0",
+      "source_sha256": "c766acb5d37a54627fdaf3467af5678a3f8ca1f929551680dd1fc0f7e250f0f9",
+      "group": "vehicle_and_status",
+      "translation": "Mun. %2d/%2d  Atq  %4d"
+    },
+    {
+      "id": "elf.ui.0032bdc8",
+      "source_sha256": "468b190bc8f8ac4503f60c7db367d44a18479484c951490b5ae26de02b6ac519",
+      "group": "vehicle_and_status",
+      "translation": "          Atq  %4d"
+    },
+    {
+      "id": "elf.ui.0032bde0",
+      "source_sha256": "86cdf22f95c0c5f55b1ef6dbc2228835316710f547d8d1ed4b0498df06fa45ee",
+      "group": "vehicle_and_status",
+      "translation": "Peso %2d.%02dt"
+    },
+    {
+      "id": "elf.ui.0032bdf0",
+      "source_sha256": "f71c4e949eb1e66d8b34dbb5599e5bc7d761ce310583df6b1ead9321b7e7cd3d",
+      "group": "vehicle_and_status",
+      "translation": "Estado  %s"
+    },
+    {
+      "id": "elf.ui.0032d520",
+      "source_sha256": "74d8aa7f127bd2b9a5b4053b4b5c997fd91dcc2e1e7ce76e11c32c68b16d719c",
+      "group": "satcom_and_field",
+      "translation": "Seu nível:     %3d"
+    },
+    {
+      "id": "elf.ui.0032e1e8",
+      "source_sha256": "7014aff13517c4071a9de8a8d338ac3ca12ae8ecf6589941d84170aa47cdcac3",
+      "group": "satcom_and_field",
+      "translation": "Digite a senha"
+    },
+    {
+      "id": "elf.ui.0032e250",
+      "source_sha256": "14b55f3d66cb7601c0c962c5fb051401889df57fbbb33f430c35aba5873807de",
+      "group": "satcom_and_field",
+      "translation": "Senha incorreta"
+    },
+    {
+      "id": "elf.ui.0032e870",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "satcom_and_field",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.0032e888",
+      "source_sha256": "2d700ab232464414dd3ef5390068087580d63ac914e9257d3020ec478acf7e11",
+      "group": "satcom_and_field",
+      "translation": "Qual valor?"
+    },
+    {
+      "id": "elf.ui.0032e898",
+      "source_sha256": "7d2a89fa56032bf20bd4f17f72c81fc49ad0a202dd5c8e563e083fdf24239b4c",
+      "group": "satcom_and_field",
+      "translation": "Seguir?"
+    },
+    {
+      "id": "elf.ui.0032e8c0",
+      "source_sha256": "15dff877d68184c7670f50bb5efa235c8579ebf310c369c79d8630348a4cb68e",
+      "group": "satcom_and_field",
+      "translation": "Quanto dar?"
+    },
+    {
+      "id": "elf.ui.0032e8d0",
+      "source_sha256": "6a9f80fee4371d3b94d0ee35e3c789c941d340110a05fbe8ac392fd09abb46d1",
+      "group": "satcom_and_field",
+      "translation": "Moocher se alegrou!"
+    },
+    {
+      "id": "elf.ui.0032e8e8",
+      "source_sha256": "1cba8cb940db476414908cb3d6b92761941f0e4cc3cb6d64d7e15ce6df254afe",
+      "group": "satcom_and_field",
+      "translation": "Moocher cresceu!"
+    },
+    {
+      "id": "elf.ui.0032e900",
+      "source_sha256": "3f121023926c5b93f043802a47be717957152e92ab830bb2a2ab0ad3ccdc2928",
+      "group": "satcom_and_field",
+      "translation": "Moocher se alterou!"
+    },
+    {
+      "id": "elf.ui.0032e968",
+      "source_sha256": "fd9fad09293e54148a22b1edc2d741826abbbfed4427070c14968e53ee320d84",
+      "group": "satcom_and_field",
+      "translation": "Dar grana"
+    },
+    {
+      "id": "elf.ui.0032ec80",
+      "source_sha256": "6fbd8e7da5837d7b041ef3699aa678d4f5946646e34c72e63a71ef75e855f321",
+      "group": "satcom_and_field",
+      "translation": "Reduza SP e alivie o tanque"
+    },
+    {
+      "id": "elf.ui.0032ecf8",
+      "source_sha256": "e8707909afe1462a706df2b77db478e38cf026823a2186ace5038df47bfd7132",
+      "group": "satcom_and_field",
+      "translation": "Blindagem descartada"
+    },
+    {
+      "id": "elf.ui.0032eeb0",
+      "source_sha256": "b1d3c8d6869a3e2773984948513eb8d7d402bfb2fbb47983822b6c30e5bcc139",
+      "group": "satcom_and_field",
+      "translation": "Requer Mine/Metal Detector"
+    },
+    {
+      "id": "elf.ui.0032ffb0",
+      "source_sha256": "fab91b5cd01f0f6ef8ccdb62278a6dbf71050b1d0cbf82405bc8b963a1a4ef3f",
+      "group": "satcom_and_field",
+      "translation": "Bolsa cheia"
+    },
+    {
+      "id": "elf.ui.0032ffc0",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "satcom_and_field",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.00334e20",
+      "source_sha256": "305035e84324294b2e0c13696263e2605e0973ad915d06e56a73f1b35da329ee",
+      "group": "minigame_and_actions",
+      "translation": "Ganhou %dG!"
+    },
+    {
+      "id": "elf.ui.003352e0",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_and_actions",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.00335f90",
+      "source_sha256": "e6c4055eb8f5b2c6771cd910e425e8f5ac73bb80c8d9c297e8f2f34f99de9c55",
+      "group": "minigame_and_actions",
+      "translation": "Ganhou %dG x %d = %dG!"
+    },
+    {
+      "id": "elf.ui.003375c0",
+      "source_sha256": "eeb698263e24999f6654c2fb2feda513577a8500f337cbb676759b62fbb9dca1",
+      "group": "minigame_and_actions",
+      "translation": "Dinheiro insuf."
+    },
+    {
+      "id": "elf.ui.00338b90",
+      "source_sha256": "15e125c7aa50d9d8f7324cf967124317f7439ba13f9cec4ce7e40a07e55295e2",
+      "group": "minigame_and_actions",
+      "translation": "Ganhou %s!"
+    },
+    {
+      "id": "elf.ui.00338ba0",
+      "source_sha256": "e1eff11416b72be3597fa34d0c443f9e5c95e7ece2b28f2151e84d8b1caefbe5",
+      "group": "minigame_and_actions",
+      "translation": "De novo?"
+    },
+    {
+      "id": "elf.ui.0033aa80",
+      "source_sha256": "7d33b8408f0448afaae3de69f5273210c667dd8d36c1e788a10e244692f3c8d8",
+      "group": "minigame_and_actions",
+      "translation": "Continue e busque %dG"
+    },
+    {
+      "id": "elf.ui.0033aa98",
+      "source_sha256": "69b1d23cf5372c44844b246b474c424db836b1770ffe0866f573e7206a75425b",
+      "group": "minigame_and_actions",
+      "translation": "Pare e leve %dG"
+    },
+    {
+      "id": "elf.ui.0033aab0",
+      "source_sha256": "18a0a830c0560c2fc60e35e35200fafb0f56d673a920ce6c6547d222c429ff8d",
+      "group": "minigame_and_actions",
+      "translation": "Em primeiro!"
+    },
+    {
+      "id": "elf.ui.0033aac0",
+      "source_sha256": "305035e84324294b2e0c13696263e2605e0973ad915d06e56a73f1b35da329ee",
+      "group": "minigame_and_actions",
+      "translation": "Ganhou %dG!"
+    },
+    {
+      "id": "elf.ui.0033d770",
+      "source_sha256": "3d88efb74cd7aa0ae8f9ee21677050ce4cd59f9dbde8c0ddf08c9af2567a2271",
+      "group": "minigame_and_actions",
+      "translation": "Soma         %8dG"
+    },
+    {
+      "id": "elf.ui.0033da88",
+      "source_sha256": "3d449f8b29e6c5c1fc54a7e0a041c9f8a6d4879c7e44e65a3277e14466adda6a",
+      "group": "minigame_and_actions",
+      "translation": "Aqui não adianta colocar"
+    },
+    {
+      "id": "elf.ui.0033daa8",
+      "source_sha256": "5b186d51fcea6507d6ff29699e851fb8003e5f7076e4f3a05a93d76966e15d16",
+      "group": "minigame_and_actions",
+      "translation": "Você está bem perto do lugar certo..."
+    },
+    {
+      "id": "elf.ui.0033dad0",
+      "source_sha256": "e638c8e5ff36ed07c0a974c9c5bbb4fe038fee5bdf6dfd3241618852856faa8a",
+      "group": "minigame_and_actions",
+      "translation": "A placa de ônibus foi posta"
+    },
+    {
+      "id": "elf.ui.0033fa18",
+      "source_sha256": "632f9ac737860c7605f42fd6369d049653a88a121f4bc5e94033d6a7d6fb4dcd",
+      "group": "minigame_and_actions",
+      "translation": "Digite o nome"
+    },
+    {
+      "id": "elf.ui.00341ca8",
+      "source_sha256": "55a80aa4a7e002c3da65639619f9b536544e4c87786c77bdc15cd080cb35bcd0",
+      "group": "minigame_and_actions",
+      "translation": "Qual componente de %s?"
+    },
+    {
+      "id": "elf.ui.00341d20",
+      "source_sha256": "e8e1a750b3c1247231f5331abd90e5a33beb6c017b45a42597f7145b80a40e55",
+      "group": "minigame_and_actions",
+      "translation": "Qual item desmontar?"
+    },
+    {
+      "id": "elf.ui.003420e0",
+      "source_sha256": "a81d00a2e03d231c87f2e66172f7fbe7523d7e82ae437141eb5dfdd786c37fac",
+      "group": "minigame_and_actions",
+      "translation": "Sem nome"
+    },
+    {
+      "id": "elf.ui.003420f0",
+      "source_sha256": "11a9be6e0dbd7c1c53b1991d7dab73567e6889b684ab4d882e11345dcbff7a90",
+      "group": "minigame_and_actions",
+      "translation": "Sem pintura"
+    },
+    {
+      "id": "elf.ui.00342138",
+      "source_sha256": "b3794f8e9fba378fd94298f27b5c72c0edce5f3a0cd2479fc1ac5cde8df4c774",
+      "group": "minigame_and_actions",
+      "translation": "Qual o título?"
+    },
+    {
+      "id": "elf.ui.00342df0",
+      "source_sha256": "a45ba166905b693248dd2549763a6386308132bdfcc7be02948331d81710a920",
+      "group": "minigame_and_actions",
+      "translation": "Qual golpe esquecer?"
+    },
+    {
+      "id": "elf.ui.00344058",
+      "source_sha256": "135654f5172809010a1634342c7a7184f0b6b9ee54c316ca811aa829e72ff3e0",
+      "group": "minigame_and_actions",
+      "translation": "Entrou um mosquito"
+    },
+    {
+      "id": "elf.ui.00344070",
+      "source_sha256": "acfdc40d5d69e8d4deeb1e6b7809be56607b1e38a77bf8a3d0378ced6831cf47",
+      "group": "minigame_and_actions",
+      "translation": "Usou %s!"
+    },
+    {
+      "id": "elf.ui.00344080",
+      "source_sha256": "f0cadfc10c60b4fcecd9cd0798fd0a62d2da02f03c5f87a5ac451e50b1a2a952",
+      "group": "minigame_and_actions",
+      "translation": "Todos sofreram 1 de dano!"
+    },
+    {
+      "id": "elf.ui.00348fb0",
+      "source_sha256": "46124e023603420f8670526e3eb9a603935e8916cb8e0428ea84bbe42d85d297",
+      "group": "short_labels",
+      "translation": "Som"
+    },
+    {
+      "id": "elf.ui.00348fb8",
+      "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+      "group": "short_labels",
+      "translation": "Aceitar"
+    },
+    {
+      "id": "elf.ui.00348fc8",
+      "source_sha256": "11a6767d5674c7e45f7e00dc525762275b3a48491ad6045427d2609cc496c516",
+      "group": "short_labels",
+      "translation": "OK"
+    },
+    {
+      "id": "elf.ui.00348fd0",
+      "source_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "group": "short_labels",
+      "translation": "Voltar"
+    },
+    {
+      "id": "elf.ui.00348fd8",
+      "source_sha256": "21b111cbfe6e8fca2d181c43f53ad548b22e38aca955b9824706a504b0a07a2d",
+      "group": "short_labels",
+      "translation": "Padrão"
+    },
+    {
+      "id": "elf.ui.00349218",
+      "source_sha256": "f4db1e48476f60753980b10d66219042b3a3d9c65c9cc77a53d81b88fd869c64",
+      "group": "short_labels",
+      "translation": "Fim"
+    },
+    {
+      "id": "elf.ui.00349248",
+      "source_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+      "group": "short_labels",
+      "translation": "Descon."
+    },
+    {
+      "id": "elf.ui.00349260",
+      "source_sha256": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+      "group": "short_labels",
+      "translation": "Máq."
+    },
+    {
+      "id": "elf.ui.00349268",
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+      "group": "short_labels",
+      "translation": "Veíc."
+    },
+    {
+      "id": "elf.ui.00349270",
+      "source_sha256": "2b2740cdf152a7f51d12b711113613369ab18efcaba9689b0e74ac74203eecfd",
+      "group": "short_labels",
+      "translation": "Alvos"
+    },
+    {
+      "id": "elf.ui.00349280",
+      "source_sha256": "526a40a447ddd7aa52d34bb62dbf1da04dc4aba8403769d239ade80893ffef7a",
+      "group": "short_labels",
+      "translation": "Furtivo"
+    },
+    {
+      "id": "elf.ui.00349288",
+      "source_sha256": "cfcd1f3d6aeb187475efdb655ac5b948fcc05c97fac3cef2f07c8563d96da28c",
+      "group": "short_labels",
+      "translation": "Abrigo"
+    },
+    {
+      "id": "elf.ui.00349548",
+      "source_sha256": "ec9b10a4a79c4e8a4a23be6edb064854d91b9aebf348d9a910fe6b38cad08022",
+      "group": "short_labels",
+      "translation": "KO"
+    },
+    {
+      "id": "elf.ui.00349550",
+      "source_sha256": "6f9e89b67d77112fe25395befc2692931d3ff19a5b4d61065a23c39237fb4e16",
+      "group": "short_labels",
+      "translation": "Atordo."
+    },
+    {
+      "id": "elf.ui.00349568",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "group": "short_labels",
+      "translation": "Nada"
+    },
+    {
+      "id": "elf.ui.00349570",
+      "source_sha256": "95e154398a4bc0091aa4d6b607472ac5a89e41fbc84a3a49f823314d6de9eebc",
+      "group": "short_labels",
+      "translation": "Trocar"
+    },
+    {
+      "id": "elf.ui.00349578",
+      "source_sha256": "4543c883301ab0ca4fe7a4a8cf7d0146aed15f9c5079e31aa9b81bd5c02972cd",
+      "group": "short_labels",
+      "translation": "Remover"
+    },
+    {
+      "id": "elf.ui.00349580",
+      "source_sha256": "eb1a70e39274bb762b5d7c1adb5debeea2b05e12af28207f21a375b596853273",
+      "group": "short_labels",
+      "translation": "Largar"
+    },
+    {
+      "id": "elf.ui.003495b8",
+      "source_sha256": "c3613b1704f54c8bd38987e4e810ae6040935d048ac5bb0dd9c0bde269ecf739",
+      "group": "short_labels",
+      "translation": "Girar"
+    },
+    {
+      "id": "elf.ui.003495d8",
+      "source_sha256": "eb1a70e39274bb762b5d7c1adb5debeea2b05e12af28207f21a375b596853273",
+      "group": "short_labels",
+      "translation": "Largar"
+    },
+    {
+      "id": "elf.ui.00349658",
+      "source_sha256": "750af77aa42eea62726061b574cf8ab011cf3f7f60926532aad4b0da028ed046",
+      "group": "short_labels",
+      "translation": "Em uso"
+    },
+    {
+      "id": "elf.ui.00349660",
+      "source_sha256": "b4b6d8d8a3737656d9b2d5e59001ae56e6e7f57c7da088b636c11b22600c544b",
+      "group": "short_labels",
+      "translation": "Reboc."
+    },
+    {
+      "id": "elf.ui.003496a0",
+      "source_sha256": "ab5ac0ca226cd388ac342e80b8c64991c6ba3f0e820658932e85792e48ec3265",
+      "group": "short_labels",
+      "translation": "Acs."
+    },
+    {
+      "id": "elf.ui.003496f8",
+      "source_sha256": "ab5ac0ca226cd388ac342e80b8c64991c6ba3f0e820658932e85792e48ec3265",
+      "group": "short_labels",
+      "translation": "Acs."
+    },
+    {
+      "id": "elf.ui.003498f8",
+      "source_sha256": "92c1cdfdf4cb9cf6fcca962f206de36fd5d60db1178bc9461052f8de703a0e06",
+      "group": "short_labels",
+      "translation": "Ativo"
+    },
+    {
+      "id": "elf.ui.00349960",
+      "source_sha256": "9d79bd716998076474a556b70c4f4ecf5e928b13780c98ace9c69854d666008b",
+      "group": "short_labels",
+      "translation": "Grana "
+    },
+    {
+      "id": "elf.ui.00349970",
+      "source_sha256": "67e1bca0889ba21ce995cb2e05f0a0f19aad003a39ddcd8a336eaadb9c8a1b4f",
+      "group": "short_labels",
+      "translation": "Vazio"
+    },
+    {
+      "id": "elf.ui.003499a0",
+      "source_sha256": "c24a6007704eb9d073a418f0d2b985bbf4d835024718a1fe1fe7c9a0c41eea32",
+      "group": "short_labels",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.003499b0",
+      "source_sha256": "c24a6007704eb9d073a418f0d2b985bbf4d835024718a1fe1fe7c9a0c41eea32",
+      "group": "short_labels",
+      "translation": "Indisp."
+    },
+    {
+      "id": "elf.ui.003499e8",
+      "source_sha256": "9d79bd716998076474a556b70c4f4ecf5e928b13780c98ace9c69854d666008b",
+      "group": "short_labels",
+      "translation": "Grana "
+    },
+    {
+      "id": "elf.ui.00349e80",
+      "source_sha256": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+      "group": "short_labels",
+      "translation": "Máq."
+    },
+    {
+      "id": "elf.ui.00349e88",
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+      "group": "short_labels",
+      "translation": "Veíc."
+    },
+    {
+      "id": "elf.ui.00349e90",
+      "source_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+      "group": "short_labels",
+      "translation": "Descon."
+    },
+    {
+      "id": "elf.ui.00349e98",
+      "source_sha256": "2b2740cdf152a7f51d12b711113613369ab18efcaba9689b0e74ac74203eecfd",
+      "group": "short_labels",
+      "translation": "Alvos"
+    },
+    {
+      "id": "elf.ui.0032b840",
+      "source_sha256": "24f88bf4a77b351ea0bbb25f64b2014b3821d49eb3db901f54ebf0a35e9d2ef3",
+      "group": "vehicle_and_status",
+      "translation": "Não troque peças|de um tanque alugado"
+    },
+    {
+      "id": "elf.ui.0032c6c0",
+      "source_sha256": "caa9d9c88ce127b0b0e68003a66ca86a5b1bcd5f5d12dcd538de231961a660b1",
+      "group": "statistics_and_rental_headers",
+      "translation": "Batalhas vencidas       %4d\nFugas em batalhas       %4d\nVeículos obtidos       %4d\nInimigos vencidos       %4d\nProcurados vencidos     %4d\nTítulos obtidos        %4d\n"
+    },
+    {
+      "id": "elf.ui.0032c810",
+      "source_sha256": "2400ff44bf0e62655986ab9b665b5d336f83077ee7ab3779ef047412a7a42ddb",
+      "group": "statistics_and_rental_headers",
+      "translation": "Nome                     SP   Obus"
+    },
+    {
+      "id": "elf.ui.003495e0",
+      "source_sha256": "eb814be3ca3b78c0734c560518be2a03e8d8f6e7e26447224cc7c7b105e1193e",
+      "group": "tank-weapon-categories",
+      "translation": "MAIN"
+    },
+    {
+      "id": "elf.ui.003495e8",
+      "source_sha256": "21c1eb891c686f67d9f2fca7127c1f37a2980c5f57bc419e886f6caf22bce12c",
+      "group": "tank-weapon-categories",
+      "translation": "SUB"
+    },
+    {
+      "id": "elf.ui.0032bd78",
+      "source_sha256": "bb5f40beccae6ef8e11653827ec086e9011dc1a8574bcd30ddd61a64643ccb57",
+      "group": "tank-weapon-categories",
+      "translation": "MAIN %d SUB %d SE %d"
+    }
+  ],
+  "parent_recipe": "translations/interface-v004.json",
+  "added_ids": [
+    "ndata.help-index.000",
+    "ndata.help-index.001",
+    "ndata.help-index.002",
+    "ndata.help-index.003",
+    "ndata.help-index.004",
+    "ndata.help-index.005",
+    "ndata.help-index.006",
+    "ndata.help-index.007",
+    "ndata.help-index.008",
+    "ndata.help-index.009",
+    "ndata.help-index.010",
+    "ndata.help-index.011",
+    "ndata.help-index.012",
+    "ndata.help-index.013",
+    "ndata.help-index.014",
+    "ndata.help-index.015",
+    "ndata.help-index.016",
+    "ndata.help-index.017",
+    "ndata.help-index.018",
+    "ndata.help-index.019",
+    "ndata.help-index.020",
+    "ndata.help-index.021",
+    "ndata.help-index.022",
+    "ndata.help-index.023",
+    "ndata.help-index.024",
+    "ndata.help-index.025",
+    "ndata.help-index.026",
+    "ndata.help-index.027",
+    "ndata.help-index.029",
+    "ndata.help-index.030",
+    "ndata.help-index.032",
+    "ndata.help-index.033",
+    "ndata.help-index.034",
+    "ndata.help-index.035",
+    "ndata.help-index.036",
+    "ndata.help-index.037",
+    "ndata.help-index.038",
+    "ndata.help-index.039",
+    "ndata.help-index.040",
+    "ndata.help-index.041",
+    "ndata.help-index.042",
+    "ndata.help-index.043",
+    "ndata.help-index.044",
+    "ndata.help-index.045",
+    "ndata.help-index.046",
+    "ndata.help-index.047",
+    "ndata.help-index.048",
+    "ndata.help-index.049",
+    "ndata.help-index.050",
+    "ndata.help-index.052",
+    "ndata.help-index.053",
+    "ndata.help-index.054",
+    "ndata.help-index.055",
+    "elf.ui.0032bd78"
+  ],
+  "embedded_literal_profile": "two-proven-format-literals-v003",
+  "resource_texts": {
+    "policy": "ndata-crlf-and-diary-fixed-v003",
+    "source_bindings": {
+      "DATA/NDATA/NDATA.SDA": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "DATA/FDATA/DIARY.DAT": "9dcd179dc289aa558d5046884cfcb603925f7f605d7c5a871cf75939d785b86b"
+    },
+    "tables": [
+      {
+        "index": 186,
+        "source_sha256": "84fc0fa343b14db6d6f1933556c3343289c7bcad5f75517e487106d3706806af",
+        "rows": [
+          {
+            "id": "ndata.186.000",
+            "source_sha256": "e0cbc050b388c7560b0ce2824aeee25fc758e542c133c67617560ba427baf73e",
+            "translation": "Cartão: slot 1"
+          },
+          {
+            "id": "ndata.186.001",
+            "source_sha256": "07733dabe645593a6303e0e0abc55303b3b298e40185f30e9a9f18ad22db28fe",
+            "translation": "Cartão: slot 2"
+          },
+          {
+            "id": "ndata.186.002",
+            "source_sha256": "b96fac6ef64e19df98261c75317013d4ad35efead57e59dd4d6946a0d07b55a1",
+            "translation": "HD"
+          },
+          {
+            "id": "ndata.186.003",
+            "source_sha256": "f36f73f3fa665e7d1625376552683a71e7b3faa5217006d46c004a96792ee054",
+            "translation": "Verificando os cartões|nos slots 1 e 2."
+          },
+          {
+            "id": "ndata.186.004",
+            "source_sha256": "c72a8dfc647f82e094824ae4e084c5779d8db61247332d08036c6189230f0c87",
+            "translation": "Verificando o HD e os|cartões nos slots 1 e 2."
+          },
+          {
+            "id": "ndata.186.005",
+            "source_sha256": "c8102f544f0bcadd1be61036cb89f0596a9f1c489915f5a26727c2c60443a905",
+            "translation": "Onde salvar?"
+          },
+          {
+            "id": "ndata.186.006",
+            "source_sha256": "7918899267cd8e7fab705c448cd3f4d99ad1cf622f87c902952b371e6a5eac03",
+            "translation": "Verificando. Não retire o|cartão (PS2), abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.007",
+            "source_sha256": "7918899267cd8e7fab705c448cd3f4d99ad1cf622f87c902952b371e6a5eac03",
+            "translation": "Verificando. Não retire o|cartão (PS2), abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.008",
+            "source_sha256": "2d4abfcd73cfda05e64c5918d68550802b63a45d7828c6602c8230281cac81fb",
+            "translation": "Verificando. Não retire o HD,|abra a bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.009",
+            "source_sha256": "d2328c061236fbe06c26a46301515730a6f2f0753a68c8aeca250cc8524c82da",
+            "translation": "O cartão (PS2) no|slot 1 não está|formatado. Formatar?"
+          },
+          {
+            "id": "ndata.186.010",
+            "source_sha256": "dadfa554b89d2b62db8819ddac0ac581003709c501f89b14e6e5f57d924927a2",
+            "translation": "O cartão (PS2) no|slot 2 não está|formatado. Formatar?"
+          },
+          {
+            "id": "ndata.186.011",
+            "source_sha256": "07dfcb70c74ba285713c904fb5a208a17059bc90b28a76dec9526d4a8ba46048",
+            "translation": "O HD não está formatado.|Para formatá-lo, consulte|o manual do disco|HDD Utility Disc."
+          },
+          {
+            "id": "ndata.186.012",
+            "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+            "translation": "Sim"
+          },
+          {
+            "id": "ndata.186.013",
+            "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+            "translation": "Não"
+          },
+          {
+            "id": "ndata.186.014",
+            "source_sha256": "b0e9083116d2264b3068c5cd9dfa7cbc5431bf3b755229c75d90aa1edcd89131",
+            "translation": "Falha ao verificar o cartão|(PS2) no slot 1.|Confira se o cartão|de memória (PS2) está|inserido corretamente."
+          },
+          {
+            "id": "ndata.186.015",
+            "source_sha256": "00d9bb6bb56f0350f33f4c2f2369d1030651075d0b56f024861de6a3d6a91a2d",
+            "translation": "Falha ao verificar o cartão|(PS2) no slot 2.|Confira se o cartão|de memória (PS2) está|inserido corretamente."
+          },
+          {
+            "id": "ndata.186.016",
+            "source_sha256": "9d095d85730eafd05625cee94787ba1d5da885ae3accdaf5efeac3546010f476",
+            "translation": "Falha ao verificar o HD.|Confira se ele está|conectado corretamente."
+          },
+          {
+            "id": "ndata.186.017",
+            "source_sha256": "8ba4a8c0580879ebd0826d3c967bdac8d1a55dfa786f9b6cd4bf03a1add9e9f9",
+            "translation": "Ocorreu um erro no HD.|Para restaurá-lo,|consulte o manual|de instruções do HD."
+          },
+          {
+            "id": "ndata.186.018",
+            "source_sha256": "f2453138687481192bd57a6617c60e6192e38f4a1fc55e22f1c59728a93e85b7",
+            "translation": "Formatando. Não retire o|cartão (PS2), abra a|bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.019",
+            "source_sha256": "f2453138687481192bd57a6617c60e6192e38f4a1fc55e22f1c59728a93e85b7",
+            "translation": "Formatando. Não retire o|cartão (PS2), abra a|bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.020",
+            "source_sha256": "467019da6e8cf8141942b60892a80714082918eec7245ac8299a579d3efbe6c6",
+            "translation": "Falha ao formatar. Confira|se o cartão (PS2)|está inserido corretamente|no slot 1."
+          },
+          {
+            "id": "ndata.186.021",
+            "source_sha256": "dacc6da566eb114f706187cb78104b8c1198f757ab0797fe257886c6c68cc8f2",
+            "translation": "Falha ao formatar. Confira|se o cartão (PS2)|está inserido corretamente|no slot 2."
+          },
+          {
+            "id": "ndata.186.022",
+            "source_sha256": "77349ecd24b3942012e30c186b5eaca85592b115cdf1be50f1e612fbb245ab0e",
+            "translation": "Onde salvar?"
+          },
+          {
+            "id": "ndata.186.023",
+            "source_sha256": "7d9384d7ed7fce622759cc6786e2760aeaebbadb5ff9864ab865ebf77885b3c4",
+            "translation": "Espaço insuficiente no|cartão de memória (PS2)|do slot 1.|São necessários $MD$KB livres|no mínimo."
+          },
+          {
+            "id": "ndata.186.024",
+            "source_sha256": "326e27694de20852c3cdf82d367165389dc20850bc8d5b3de337845b0c01910d",
+            "translation": "Espaço insuficiente no|cartão de memória (PS2)|do slot 2.|São necessários $MD$KB livres|no mínimo."
+          },
+          {
+            "id": "ndata.186.025",
+            "source_sha256": "7c46a3eb1f4b792be40c1fb96c3dd4b8e327911261a7ff8ce322557a9f4fa610",
+            "translation": "Espaço insuficiente no HD.|São necessários $MD$KB livres|no mínimo."
+          },
+          {
+            "id": "ndata.186.026",
+            "source_sha256": "e87b816156c583df50f3efb8d3ea9aaa3708f628b84c00aa0b3a320085a9e21d",
+            "translation": "Salvar aqui?"
+          },
+          {
+            "id": "ndata.186.027",
+            "source_sha256": "0221a67e86f6f4a319b44d285b7aa23ec1c760b945f12a4cc20235ec600ab048",
+            "translation": "Já existem dados salvos.|Os dados anteriores serão|substituídos. Sobrescrever?"
+          },
+          {
+            "id": "ndata.186.028",
+            "source_sha256": "9d6df264d4b091e4df2e12779b979e7a886c793a4cf57832e54d889ba50a7805",
+            "translation": "Salvando. Não retire o cartão|(PS2), abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.029",
+            "source_sha256": "9d6df264d4b091e4df2e12779b979e7a886c793a4cf57832e54d889ba50a7805",
+            "translation": "Salvando. Não retire o cartão|(PS2), abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.030",
+            "source_sha256": "4e5f443a2c2df9258d921c5c279744afb6777358633c9320127d43ca0c376f02",
+            "translation": "Salvando. Não retire o HD,|abra a bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.031",
+            "source_sha256": "fca046ccd586c67f7fe0b3c12c29873a8abf9376f7cd514fc6272ec03b2de0b3",
+            "translation": "Dados salvos."
+          },
+          {
+            "id": "ndata.186.032",
+            "source_sha256": "7a8f7cbf1f1d634626f9607d11e659e19fec248a615fec373ef5b51d20fae177",
+            "translation": "Falha ao salvar. Confira|se o cartão (PS2)|está inserido corretamente|no slot 1."
+          },
+          {
+            "id": "ndata.186.033",
+            "source_sha256": "1bd34b40b693ca6c2899a0a304f5eba08ec78aae4ff4050f3770443f68260a07",
+            "translation": "Falha ao salvar. Confira|se o cartão (PS2)|está inserido corretamente|no slot 2."
+          },
+          {
+            "id": "ndata.186.034",
+            "source_sha256": "8b16c34f4b86449d48471ad083beead08d2ea16fb50abe1c48332056433c9d8c",
+            "translation": "Falha ao salvar. Confira|se o HD está conectado|corretamente."
+          },
+          {
+            "id": "ndata.186.035",
+            "source_sha256": "5c1257ca702166fc0b81ed1ad0e89b7a100f16cad756821811b07066d582d33c",
+            "translation": "De onde carregar?"
+          },
+          {
+            "id": "ndata.186.036",
+            "source_sha256": "62ba511362cadb573c3c80e7f59c750979e1daa3840ca1b1e363878a52385a36",
+            "translation": "Não há dados salvos no|cartão de memória (PS2)|do slot 1."
+          },
+          {
+            "id": "ndata.186.037",
+            "source_sha256": "1b988ed15123296be0601d65bb60590cf2263df502d426aab1d4eeb4c59dbd72",
+            "translation": "Não há dados salvos no|cartão de memória (PS2)|do slot 2."
+          },
+          {
+            "id": "ndata.186.038",
+            "source_sha256": "83a794b9e05a2cdcd075ddc381c8baf938619d3b5f1637983503f8a94d894d68",
+            "translation": "Não há dados salvos no HD."
+          },
+          {
+            "id": "ndata.186.039",
+            "source_sha256": "cf8eb64bb6ed40cc5c27f9c89f0b649d62b5f34f3d0f3ff1b09489cef066aab7",
+            "translation": "Não há pinturas no|cartão de memória (PS2)|do slot 1."
+          },
+          {
+            "id": "ndata.186.040",
+            "source_sha256": "83a0c80f364f76fad14d378928d7928eb026af6fa185ccc5ff3a1ee6ba84268c",
+            "translation": "Não há pinturas no|cartão de memória (PS2)|do slot 2."
+          },
+          {
+            "id": "ndata.186.041",
+            "source_sha256": "4a7e1b1cf8d2e8a8159e14fc48c2750f14cde7b0fceaf1223b98c2f0534cec5b",
+            "translation": "Não há pinturas no HD."
+          },
+          {
+            "id": "ndata.186.042",
+            "source_sha256": "8d0192cb8f20d77f0c39dcf9b64a6ebf2a45424fd45d19c384a3879a52a554db",
+            "translation": "Quais dados carregar?"
+          },
+          {
+            "id": "ndata.186.043",
+            "source_sha256": "7985524afee193b223022d490b85193e56f2f460d15fc5227cfbdc9c06e63d65",
+            "translation": "Carregar estes dados?"
+          },
+          {
+            "id": "ndata.186.044",
+            "source_sha256": "6bf9bc1f262ab2081f8f5d309e21fb865261ecd9471522c28a3c2388241d987e",
+            "translation": "Carregando. Não retire o|cartão (PS2), abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.045",
+            "source_sha256": "6bf9bc1f262ab2081f8f5d309e21fb865261ecd9471522c28a3c2388241d987e",
+            "translation": "Carregando. Não retire o|cartão (PS2), abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.046",
+            "source_sha256": "b896d9bfbf068d833dbe6abde5c76ebe94e4f027d1cfeae2f588cda049a1a7ef",
+            "translation": "Carregando. Não retire o HD,|abra a bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.047",
+            "source_sha256": "9fffb58e7a3c9a0236842da7968004f12f32c4bdefc1c7d28a0f76a5aa99c0be",
+            "translation": "Falha ao carregar. Confira|se o cartão (PS2)|está inserido corretamente|no slot 1."
+          },
+          {
+            "id": "ndata.186.048",
+            "source_sha256": "4430dda375c79fe7ec2af8174021719270509748054a4888575bf9884bf9a801",
+            "translation": "Falha ao carregar. Confira|se o cartão (PS2)|está inserido corretamente|no slot 2."
+          },
+          {
+            "id": "ndata.186.049",
+            "source_sha256": "f840556acc9dc271f536d53019dd68a7c0717cfa58fa44edcc1d2eecb3a5ed4b",
+            "translation": "Falha ao carregar. Confira|se o HD está conectado|corretamente."
+          },
+          {
+            "id": "ndata.186.050",
+            "source_sha256": "d8bcc08db6e0794568c84af684c2fbdd2fe56fd582a4822c1dea9ab3fed5512b",
+            "translation": "Falha ao carregar.|Os dados estão corrompidos."
+          },
+          {
+            "id": "ndata.186.051",
+            "source_sha256": "58e5b4fc0eac46983699182f01e96633cdb3a8fb196284ce40ed0192403da587",
+            "translation": "Espaço insuficiente no|cartão de memória (PS2)|do slot 1.|São necessários $MP$KB livres|no mínimo."
+          },
+          {
+            "id": "ndata.186.052",
+            "source_sha256": "ef5f07d427d98d000f2e4100d0d95a9fb91caf2870b080ecb64576bcbf23e3b8",
+            "translation": "Espaço insuficiente no|cartão de memória (PS2)|do slot 2.|São necessários $MP$KB livres|no mínimo."
+          },
+          {
+            "id": "ndata.186.053",
+            "source_sha256": "c4e97bdcd50eab554f7edeaada5d1ec0d7a7a003350d5dad76f79049a1397bf8",
+            "translation": "Espaço insuficiente no HD.|São necessários $MP$KB livres|no mínimo."
+          },
+          {
+            "id": "ndata.186.054",
+            "source_sha256": "fe494a7700a853b07314bfc43ce32ab53ad454c881e70b5f0c37984b84d2ccf7",
+            "translation": "Os dados são mais recentes.|Instale a nova versão no HD|para poder carregá-los."
+          },
+          {
+            "id": "ndata.186.055",
+            "source_sha256": "16da2a74c8d43aff3c8347c56de0cb73f96e3ccf1cd2259cf536260b8a666711",
+            "translation": "Há um veículo pintado.|Continuar carregando?"
+          },
+          {
+            "id": "ndata.186.056",
+            "source_sha256": "5f658fa46796125b19fa58a019851f55005ec356c3d95a4a229ea7ccc7a53234",
+            "translation": "Carregando a pintura. Não|retire o cartão (PS2),|abra a bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.057",
+            "source_sha256": "5f658fa46796125b19fa58a019851f55005ec356c3d95a4a229ea7ccc7a53234",
+            "translation": "Carregando a pintura. Não|retire o cartão (PS2),|abra a bandeja ou reinicie/|desligue o console."
+          },
+          {
+            "id": "ndata.186.058",
+            "source_sha256": "cb9bed200563b381e4c8801857ceec8c736a7bffbd745c277bf52de53b447221",
+            "translation": "Carregando a pintura. Não|retire o HD, abra a bandeja|ou reinicie/desligue o console."
+          },
+          {
+            "id": "ndata.186.059",
+            "source_sha256": "6902d47bc98d42a5b503d6106f06fbfc37ba2e8cc548ef95f58ef1ee01e3dc5b",
+            "translation": "Pintura: carga cancelada."
+          },
+          {
+            "id": "ndata.186.060",
+            "source_sha256": "c312cda5c97cfb578ef56572f8931ff6da1e4a401cbf716bf7ad0c0632de6074",
+            "translation": "Pintura: carga cancelada.|Pinte novamente em uma|oficina de pintura."
+          },
+          {
+            "id": "ndata.186.061",
+            "source_sha256": "61def3e2a575558ff3708a7f1488979d05ef6ed9010070b095fcad0ec70313f4",
+            "translation": "Falha ao carregar a pintura.|Carregue na oficina de pintura."
+          },
+          {
+            "id": "ndata.186.062",
+            "source_sha256": "61def3e2a575558ff3708a7f1488979d05ef6ed9010070b095fcad0ec70313f4",
+            "translation": "Falha ao carregar a pintura.|Carregue na oficina de pintura."
+          },
+          {
+            "id": "ndata.186.063",
+            "source_sha256": "61def3e2a575558ff3708a7f1488979d05ef6ed9010070b095fcad0ec70313f4",
+            "translation": "Falha ao carregar a pintura.|Carregue na oficina de pintura."
+          },
+          {
+            "id": "ndata.186.064",
+            "source_sha256": "0cbe2e1fa6e85874c33ec723e588d0597cfc427e79fdc240f7f30628bdecc0fd",
+            "translation": "NOTA: para carregar a pintura|automaticamente,|salve-a no mesmo cartão|de memória (PS2) usado|para salvar o jogo.|Para salvar uma pintura,|é preciso ter ao menos $MP$KB|livres no cartão (PS2)."
+          },
+          {
+            "id": "ndata.186.065",
+            "source_sha256": "2c4c94ae63d7cac2f14c1bafb63da2579a25ae1415f440f272f10b3b36c26b6e",
+            "translation": "NOTA: para carregar a pintura|automaticamente,|salve-a no mesmo cartão|de memória (PS2) ou HD|usado para salvar o jogo.|É preciso ter pelo menos|$MP$KB livres no cartão (PS2)|ou no HD."
+          },
+          {
+            "id": "ndata.186.066",
+            "source_sha256": "2f05bac9d9154e0b61e8b3e781165987197c04a4436aaabacd5a24feb8c97bd4",
+            "translation": "Há pastas demais no HD.|Exclua as pastas sem uso."
+          },
+          {
+            "id": "ndata.186.067",
+            "source_sha256": "5bded83d7dc8d22642606357ac70227612a0fcd54783b2f5d3cf5c9fd84ab41d",
+            "translation": "Há arquivos demais no HD.|Exclua os dados sem uso."
+          },
+          {
+            "id": "ndata.186.068",
+            "source_sha256": "b52f9d6b83b19c0997645c2a51dc9e36fbd0ebac57870e4230856fdab9640788",
+            "translation": "Cartão de memória (PS2)|no slot 1"
+          },
+          {
+            "id": "ndata.186.069",
+            "source_sha256": "f003393676db47db57f93075c481d247528b3c386679cfba04805079732fdcd2",
+            "translation": "Cartão de memória (PS2)|no slot 2"
+          },
+          {
+            "id": "ndata.186.070",
+            "source_sha256": "b96fac6ef64e19df98261c75317013d4ad35efead57e59dd4d6946a0d07b55a1",
+            "translation": "HD"
+          },
+          {
+            "id": "ndata.186.071",
+            "source_sha256": "ab3dc9c5f85f4a63218ef98c0fd3cd23ec269a21262144b16c94c62003656239",
+            "translation": "Pintura não encontrada."
+          },
+          {
+            "id": "ndata.186.072",
+            "source_sha256": "c0f17acda625ae00b02f8303ddada376da19b7a6d4cf70cfe39a3049e720ceaf",
+            "translation": "Falha ao carregar.|A pintura está corrompida."
+          },
+          {
+            "id": "ndata.186.073",
+            "source_sha256": "55040535d1d45e242693b93fef2095a6fe7c69fe94e1c3fb437668546d1be87d",
+            "translation": "Pintura não encontrada em|"
+          },
+          {
+            "id": "ndata.186.074",
+            "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+            "translation": "."
+          },
+          {
+            "id": "ndata.186.075",
+            "source_sha256": "6902d47bc98d42a5b503d6106f06fbfc37ba2e8cc548ef95f58ef1ee01e3dc5b",
+            "translation": "Pintura: carga cancelada."
+          },
+          {
+            "id": "ndata.186.076",
+            "source_sha256": "0bdec0ea2e118374b65318c39e07d3b7eb27658fc6928d18b20117b585e4bbcd",
+            "translation": "Número da pintura:"
+          },
+          {
+            "id": "ndata.186.077",
+            "source_sha256": "e134b3f33722a30d855c522110f15ffb4c5a8ec4f42d1aa8809ca1f722e26a7c",
+            "translation": "Os dados carregados"
+          },
+          {
+            "id": "ndata.186.078",
+            "source_sha256": "0ec0cb799a51b83f5b708979bd0a800fd96a6a4f0283f1921e966868a0683d09",
+            "translation": "|precisam ser verificados."
+          }
+        ]
+      },
+      {
+        "index": 200,
+        "source_sha256": "65c40f167bdd753ba3903058d8091d7e75bfc65884e68abe3ec4d74b37e0d122",
+        "rows": [
+          {
+            "id": "ndata.200.000",
+            "source_sha256": "e8f6aa5a629cfb5c9739faa898ebe449c4e3f787d7b1f9b1296641369c2eb72c",
+            "translation": "Verificando os slots 1 e 2.|Não retire o cartão (PS2)|nem reinicie ou desligue|o console."
+          },
+          {
+            "id": "ndata.200.001",
+            "source_sha256": "0322ac4af0980e4ac8cd99a1f70e599b542520a1e637d8f14927b47a569b29cf",
+            "translation": "Verificando o HD e os|slots 1 e 2. Não retire|o cartão (PS2) nem reinicie|ou desligue o console."
+          },
+          {
+            "id": "ndata.200.002",
+            "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+            "translation": "Sim"
+          },
+          {
+            "id": "ndata.200.003",
+            "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+            "translation": "Não"
+          },
+          {
+            "id": "ndata.200.004",
+            "source_sha256": "0fa4e814090341ad4ce04a3e313940513666b4a7371582d74573e0deaadd624b",
+            "translation": "Não há cartão de memória|(PS2) nos slots 1 ou 2."
+          },
+          {
+            "id": "ndata.200.005",
+            "source_sha256": "dcb215f03e5baf709c321b7d11a48efbff38bb1e8d987482bb22e6c1da17fd35",
+            "translation": "Espaço insuficiente no|cartão de memória (PS2)|do slot 1."
+          },
+          {
+            "id": "ndata.200.006",
+            "source_sha256": "168902a2e7f91cb15c89c678fbd0515b1feb1a795dc0cf1830ea7380af9b2652",
+            "translation": "Espaço insuficiente no|cartão de memória (PS2)|do slot 2."
+          },
+          {
+            "id": "ndata.200.007",
+            "source_sha256": "8d65df24c3952cec685ae2c0847cdff96773628493013ed3fe60094b95fef7c0",
+            "translation": "Espaço insuficiente nos|cartões de memória (PS2)|dos slots 1 e 2."
+          },
+          {
+            "id": "ndata.200.008",
+            "source_sha256": "7c8d836ad05f988861defe90bdd5144b060cfa8e9ea436760292bbc28f5c1074",
+            "translation": "Espaço insuficiente no HD."
+          },
+          {
+            "id": "ndata.200.009",
+            "source_sha256": "8f86deda6c60f7afae2ea0c0537a2c64e0b1bab06fdc2321af7ac3a45378a9f2",
+            "translation": "O HD não está formatado.|Para formatá-lo, consulte|o manual de instruções|do HDD Utility Disc."
+          },
+          {
+            "id": "ndata.200.010",
+            "source_sha256": "a4990d262225228037978722dd079df228748047c008ebf86cc6c88fc71989d1",
+            "translation": "Falha ao salvar.|Há pastas demais no HD."
+          },
+          {
+            "id": "ndata.200.011",
+            "source_sha256": "b9919a71ad013569ffb0ccc1ea53fb16c27c37a10f8ce8cc60e477187ab487b4",
+            "translation": "Falha ao salvar.|Há arquivos demais no HD."
+          },
+          {
+            "id": "ndata.200.012",
+            "source_sha256": "ec9c3f3328b6f20e75544b7e8bfb924bd259989cf879152dda4d8a97056422e1",
+            "translation": "Para salvar,"
+          },
+          {
+            "id": "ndata.200.013",
+            "source_sha256": "3116992072249dc4d5499accb9b96ccd7445ab627277a5b8eb3a6a19fa6c1862",
+            "translation": "são necessários $MEM$KB|livres no cartão de memória (PS2)"
+          },
+          {
+            "id": "ndata.200.014",
+            "source_sha256": "c2adf554ffdc71e54b66c45dc28dc0296cf5af3c602b85cd70c9d2b93f716bf6",
+            "translation": "são necessários $HDD$KB|livres no HD"
+          },
+          {
+            "id": "ndata.200.015",
+            "source_sha256": "d5c93acc4a67764553755d33cbdcf030639482ea665eca76025f0f4ed1fbc65b",
+            "translation": "no mínimo."
+          },
+          {
+            "id": "ndata.200.016",
+            "source_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6",
+            "translation": "ou"
+          },
+          {
+            "id": "ndata.200.017",
+            "source_sha256": "b6cc0c32b7dc5b2a9b690ac42d8bc44e99d07ad36fcac5644a5d236869fdf783",
+            "translation": "Iniciar o jogo mesmo assim?"
+          },
+          {
+            "id": "ndata.200.018",
+            "source_sha256": "a8aaf87239f016b1d756806f571640a59f1caab32c2b67921e14eb027eeb6223",
+            "translation": "Ocorreu um erro no HD.|Para restaurá-lo, consulte|o manual de instruções do HD.|O jogo será carregado apenas|pelo DVD-ROM."
+          },
+          {
+            "id": "ndata.200.019",
+            "source_sha256": "dd6f5f8ee34df5271e06d6447494148ba184102d8314ca9261bdba4e6c37c25a",
+            "translation": "O HD foi restaurado.|Pode haver dados corrompidos;|reinstale. O jogo será lido|apenas pelo DVD-ROM."
+          }
+        ]
+      }
+    ],
+    "diary": [
+      {
+        "id": "diary.000.title",
+        "source_sha256": "6dd0db0d4529921f5a34e09fbc01526f55b9f9332363347b4114fce780b06f1b",
+        "translation": "Tarefas"
+      },
+      {
+        "id": "diary.000.body",
+        "source_sha256": "f3e68ec082331ee45361a606dbf76f9154d1f3494f724028c46800017cea6d17",
+        "translation": "O que preciso fazer:|1. Buscar informações no Posto Hunter.|2. Achar um veículo na Montanha de Sucata.|3. Ir ao bar falar com Jack.|4. ...E Rachel.|5. Falar com a pessoa da igreja.|6. Falar com Dr. Solomon.|7. Ir a nordeste até Newfolk."
+      },
+      {
+        "id": "diary.001.body",
+        "source_sha256": "85c2ddf50f38204519557a389a9a05fcded4fbc7201b28e2d55b77b00d7c75f0",
+        "translation": "Ela pareceu simpática.||Dá para ver que é forte.||Mas há algo estranho nela.|Não sei bem dizer|o que é..."
+      },
+      {
+        "id": "diary.002.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Um novo companheiro"
+      },
+      {
+        "id": "diary.002.body",
+        "source_sha256": "0956b642fe89a4db5f0c729a934011f331edd95d4c2a98dcabfdcb6601a75d6b",
+        "translation": "Convidei %N1|para vir comigo.||Preciso equipá-lo.|E arranjar um veículo. Os|Prédios Abandonados podem ser|um bom lugar. Também devo olhar|o prédio antigo a oeste de lá."
+      },
+      {
+        "id": "diary.003.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Uma nova companheira"
+      },
+      {
+        "id": "diary.003.body",
+        "source_sha256": "c7137d286c764b151c2744626c65c9e9e9766a88be7406c92fe4b64488b0c151",
+        "translation": "Convidei %N2|para vir comigo.||Preciso equipá-la.|E arranjar um veículo. Os|Prédios Abandonados podem ser|um bom lugar. Também devo olhar|o prédio antigo a oeste de lá."
+      },
+      {
+        "id": "diary.004.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Um novo companheiro"
+      },
+      {
+        "id": "diary.004.body",
+        "source_sha256": "848713b2c72a9dbd7dfb287fbdfe794a548af2fd2b006f25b40f7b63b422192c",
+        "translation": "Convidei %N3|para vir comigo.||Preciso equipá-lo.|Ele é bom com espadas.||Também precisa de um veículo."
+      },
+      {
+        "id": "diary.005.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Uma nova companheira"
+      },
+      {
+        "id": "diary.005.body",
+        "source_sha256": "718c312d3c9e0faf3a7dae69e6cc0e7f4ea644e691c3dc3f58519daa619c9322",
+        "translation": "Convidei %N4|para vir comigo.||Preciso equipá-la.|Ela é boa com armas de fogo.||Também precisa de um veículo."
+      },
+      {
+        "id": "diary.006.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Uma nova companheira"
+      },
+      {
+        "id": "diary.006.body",
+        "source_sha256": "20305ad559aa74cb552375fd041af206dd5b3bcffd8409959c4ca6395e197e0a",
+        "translation": "Achei %N6 no|Laboratório de Biogenética.||Devo comprar armas e armaduras|feitas para cães."
+      },
+      {
+        "id": "diary.007.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Uma nova companheira"
+      },
+      {
+        "id": "diary.007.body",
+        "source_sha256": "45d37f2d6751751d761cf4e5904d8c451bf814015365ea0c3268f8d9fd1381d6",
+        "translation": "Achei %N7 no|Laboratório de Biogenética.||Devo comprar armas e armaduras|feitas para cães."
+      },
+      {
+        "id": "diary.008.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Um novo companheiro"
+      },
+      {
+        "id": "diary.008.body",
+        "source_sha256": "16db626e55831956f34aaaa7a6ce14339f19ad412265f8d9cf52ccc0aa08e77a",
+        "translation": "Achei %N8 no|Laboratório de Biogenética.||Devo comprar armas e armaduras|feitas para cães."
+      },
+      {
+        "id": "diary.009.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Um novo companheiro"
+      },
+      {
+        "id": "diary.009.body",
+        "source_sha256": "6bff461e4f95015f0130b6fb057c4ba316a40e20f553179246801b4594cd2dd9",
+        "translation": "Achei %N9 no|Laboratório de Biogenética.||Devo comprar armas e armaduras|feitas para cães."
+      },
+      {
+        "id": "diary.010.title",
+        "source_sha256": "8125dcf32ac7ee9a2f07cb7bbb009288edeb628ba98c273f230e1418cc6a3d8b",
+        "translation": "Uma nova companheira"
+      },
+      {
+        "id": "diary.010.body",
+        "source_sha256": "924de984b15685c34d3c02d496ed4d562b75bee7e9f5102ceb58ddc3b25776bc",
+        "translation": "Achei %N5 dentro|do Tiamat. Parece não precisar|de armas nem armaduras.||A tecnologia anterior à Grande|Destruição é impressionante."
+      },
+      {
+        "id": "diary.011.title",
+        "source_sha256": "f83d50f69881bd5991dac6e75105cdffb159cc8d08dbe8cc3bc62713e136b943",
+        "translation": "A Liga e Scarlet"
+      },
+      {
+        "id": "diary.011.body",
+        "source_sha256": "ed8b8f6a69556a55ae3db8fbda39de8ac4062edd6ad3aa0c683c30043806b1f8",
+        "translation": "Derrotei Mad Maxwell.|Ouvi que a Liga dos Bárbaros|Incivilizados age no Oeste.||Scarlet é forte... Mas algo|nela me deixa inquieto."
+      },
+      {
+        "id": "diary.012.body",
+        "source_sha256": "84ca33159efd9f0de2bfb3310db2fbe58d2cdb9626685047f2682ba76571baf8",
+        "translation": "Preciso de um Soldier no grupo...||A Ferrovia Continental leva|ao Oeste. Dizem que os monstros|de lá são muito mais fortes.|Tomara que vendam boas armas.|É melhor viajar entre|o Leste e o Oeste."
+      },
+      {
+        "id": "diary.013.title",
+        "source_sha256": "741df4fdba5b4df9898c2cb5bd4249f0f01f1a868a7fd3c6da7e09210136f7a0",
+        "translation": "Corretor de tanques"
+      },
+      {
+        "id": "diary.013.body",
+        "source_sha256": "a1e746193c177544ca9698da89b5d20341ad4bdcda4b90ea8d6faf1654b0dc98",
+        "translation": "Pedi a MC Hamir que encontre|um tanque para mim. Quero ver|o que ele vai conseguir."
+      },
+      {
+        "id": "diary.014.title",
+        "source_sha256": "741df4fdba5b4df9898c2cb5bd4249f0f01f1a868a7fd3c6da7e09210136f7a0",
+        "translation": "Corretor de tanques"
+      },
+      {
+        "id": "diary.014.body",
+        "source_sha256": "50281d4ab0c50b18c777020bebdbf8749de36e99a7dad9ee02e9ea70c80470ee",
+        "translation": "Vi MC Hamir no trem.|Ele apostava muito dinheiro.|Disse que ia para o Oeste,|pois lá é o melhor lugar|para achar tanques."
+      },
+      {
+        "id": "diary.015.body",
+        "source_sha256": "097df7bfc6cf285d31bfa0884475bf6699ef564ee3e9f25af220bb3338887ed0",
+        "translation": "Disse que roubaram o dinheiro|que dei a ele... Só me restou|dar mais um pouco."
+      },
+      {
+        "id": "diary.017.title",
+        "source_sha256": "164fe7f35fca97459294647527e5c18ad72fb0634be39fdabf76e039828d8692",
+        "translation": "O golpista"
+      },
+      {
+        "id": "diary.017.body",
+        "source_sha256": "f33169dd24aa18aa3b219176435366707e22b8d7eda869a1f5537e2e667f9410",
+        "translation": "O líder de Fort Gears pôs|o golpista a prêmio. Além|do dinheiro, oferece seu tanque.|Ele quer mesmo levar|o golpista à justiça.||Hmm... Será que é ele?"
+      },
+      {
+        "id": "diary.018.title",
+        "source_sha256": "68060b8a0208416e5030b9a712443a1a7ebcd2cb81ebd53a5a7373dfcb81c194",
+        "translation": "Entregando Binramen"
+      },
+      {
+        "id": "diary.018.body",
+        "source_sha256": "c546923b879b0b2a58292580ac9029b33758c2187498b52dba4c348ea9f73ba9",
+        "translation": "Então é assim que se entrega|um procurado.||Não recuperei meu dinheiro...|Mas o líder de Fort Gears|vai me dar seu tanque."
+      },
+      {
+        "id": "diary.019.body",
+        "source_sha256": "492851b067584fdc2ea787a61ac6d572d7e4baa6a04b89c2c29f416aeaaa2e1d",
+        "translation": "Um monstro chamado Orochi vive|na Toca da Cobra, uma caverna|ao norte de Torikami. Ele exige|Kaede como sacrifício.|Tenho que ajudá-la!"
+      },
+      {
+        "id": "diary.020.title",
+        "source_sha256": "ab4e16330ebb8ae0a51d5cb251b743d1fbc4a08922da15177bba09f90e2174c5",
+        "translation": "Ajudando Kaede"
+      },
+      {
+        "id": "diary.020.body",
+        "source_sha256": "71c04823c10e36d1406bf8a529e694edd6124d7d87f41ef5e744a7e249eef707",
+        "translation": "Que bom que pude ajudar Kaede."
+      },
+      {
+        "id": "diary.021.body",
+        "source_sha256": "ed370612f2222685a139079af00d95fbf0483fd76c75b586e5dc8d7c65c6e756",
+        "translation": "Beldaire é enorme!||Arthur é o líder daqui. Ele|era Hunter. Meu pai já me|falou um pouco dele.||Ao norte há ruínas de um forte.|Torikami fica a oeste."
+      },
+      {
+        "id": "diary.022.body",
+        "source_sha256": "4f9943b822aafbc88a0ef7f8e43e85f0bb76023af74df1a392df0fac2370acd7",
+        "translation": "Derrotei Disassembler!|Tomara que Rosa se sinta|melhor.||Quem estaria naquela foto...?"
+      },
+      {
+        "id": "diary.023.body",
+        "source_sha256": "90da32d1220a9331189b88d2dfb0e942363b83949e99df4793300ac00c50a55a",
+        "translation": "Fui derrotado por Disassembler.|Ele falou dos meus outros veículos.|Aonde terá ido?||...Ao ferro-velho!?"
+      },
+      {
+        "id": "diary.024.title",
+        "source_sha256": "cba017101a5da83700ccd0bdae78c4909876d4fc9dfe7d5378410f5c8cce33be",
+        "translation": "Ursinho de pelúcia"
+      },
+      {
+        "id": "diary.024.body",
+        "source_sha256": "a94c918f83df4c8f34f8d15b355caf15b320d7e000046f02f568bc9d1256af08",
+        "translation": "Uma menina no trem procurava|seu ursinho. ...Acho que o vi|na estação."
+      },
+      {
+        "id": "diary.025.title",
+        "source_sha256": "cba017101a5da83700ccd0bdae78c4909876d4fc9dfe7d5378410f5c8cce33be",
+        "translation": "Ursinho de pelúcia"
+      },
+      {
+        "id": "diary.025.body",
+        "source_sha256": "70d32825196126d637cf81216b1cfdf6b0a5cb4d1fa68cbad7e9d573a6352f85",
+        "translation": "Devolvi o ursinho à menina.|Ela ficou muito feliz|por tê-lo de volta."
+      },
+      {
+        "id": "diary.026.body",
+        "source_sha256": "ab7f163e37d6efc7470f0d2af08eea291a5da044817353500ffdbf4e81ec641c",
+        "translation": "Conheci o cientista Leon. Nunca|pensei muito na causa da|Grande Destruição.||Ele me achou familiar... Talvez|por causa do meu pai. Usamos|o mesmo tipo de boné."
+      },
+      {
+        "id": "diary.027.body",
+        "source_sha256": "e89d8af7a9bb20f70b9330d114496c5f3594f56d4b6aa8198ef8c1cd5f604e4c",
+        "translation": "Cheguei a Dowan.||Será que a fábrica está abandonada?||Devo ir a Lorelei Bay.|Posso pegar a balsa até lá."
+      },
+      {
+        "id": "diary.028.body",
+        "source_sha256": "513873089c018cb16e3db277558d2fb2e5386f768c09485d7b1aa731a0e7e3e1",
+        "translation": "Olga me ajudou quando outro|batedor de carteiras tentou|me roubar. Devo agradecer|se a encontrar de novo."
+      },
+      {
+        "id": "diary.029.body",
+        "source_sha256": "db5307465d98d661a12c612f2e1e5dc8532259aaf45b53bc0986fe8bf3ed1a32",
+        "translation": "Olga é uma Hunter veterana.|Que assunto de família seria?|Parece pessoal. É melhor|não me intrometer."
+      },
+      {
+        "id": "diary.030.title",
+        "source_sha256": "b4ef7b9e4af3be07f54988733648637c001b4648937e07bd5914496f6919434a",
+        "translation": "Meu navio"
+      },
+      {
+        "id": "diary.030.body",
+        "source_sha256": "7d7b7185639dbccb40aec37fdc9a2ca3334139283606b77cbe00f1e4eb675bff",
+        "translation": "Dowan me deu um navio.|Agora posso cruzar o lago|quando quiser. Devo visitar|a cidade onde a balsa não para.|Preciso tomar cuidado com os|procurados: se perder no lago,|todos os veículos vão afundar.|Aí terei que resgatá-los."
+      },
+      {
+        "id": "diary.032.title",
+        "source_sha256": "c8428a903a591a57d7569089bd08130de5631729e6d4a776069d45d36029aac3",
+        "translation": "Meu dinheiro..."
+      },
+      {
+        "id": "diary.032.body",
+        "source_sha256": "da8b846caa94851c5e599daee3eaea91255237b893bc4cfa697fbcef39cbae83",
+        "translation": "Nada bom... Aquela pessoa|idosa era um batedor de carteiras?||Lembro dos líderes da Denture Squad|em um cartaz de|procurados."
+      },
+      {
+        "id": "diary.033.title",
+        "source_sha256": "2e22f4cb7e4f9af040c34c0dfe0a923c157f5796c5c49bec8ac5d7b826ab2e3f",
+        "translation": "Desaparecimentos"
+      },
+      {
+        "id": "diary.033.body",
+        "source_sha256": "2035e6710cab1a17ccb2355ff30260ea75653cb72622fdd6ba215606f0bd0a9f",
+        "translation": "As pessoas estão desaparecendo?|O que houve? Tem que haver|alguma pista..."
+      },
+      {
+        "id": "diary.034.title",
+        "source_sha256": "2e22f4cb7e4f9af040c34c0dfe0a923c157f5796c5c49bec8ac5d7b826ab2e3f",
+        "translation": "Desaparecimentos"
+      },
+      {
+        "id": "diary.034.body",
+        "source_sha256": "9034a6524062743be21723ef6cffa9f0c5b7744b07be84eaabbcaae72b25be53",
+        "translation": "Um lagarto enorme que some?|Só pode ser Commi Chameleon.||Talvez o ninho fique no prédio|perto de Lorelei Bay..."
+      },
+      {
+        "id": "diary.035.body",
+        "source_sha256": "4f222bb7d9788edd1127a3b25c56a7a31881bbc9fb53db5f3635ee1da489058a",
+        "translation": "Que bom que o Professor Grey|pode recuperar o HP de %N5."
+      },
+      {
+        "id": "diary.036.body",
+        "source_sha256": "d691d434a7c994d72e3ec7e9a505bf55da212fe0444a8c22de2a3f4e7352a971",
+        "translation": "Que bom que o Professor Grey está|seguro e a memória de %N5 está OK.|Os homens de preto estão|atrás dela por ser de antes|da Grande Destruição?"
+      },
+      {
+        "id": "diary.037.title",
+        "source_sha256": "920ed21558b416b1ffaa2c4dd1d5317cd8b8239bb634f5049c50cb1dedd8ec99",
+        "translation": "Gazua"
+      },
+      {
+        "id": "diary.037.body",
+        "source_sha256": "beab42717efe3cedce7cd09567257b0b7758d757014a2142d7f1554d2101d8a1",
+        "translation": "Agora que tenho uma gazua...|Devo voltar aos lugares|onde não consegui entrar!"
+      },
+      {
+        "id": "diary.038.body",
+        "source_sha256": "15b0f8d6f9b86c2e6930da8aede34f2ea7e5be1640b6049d0192ffa8b7bdabc4",
+        "translation": "Este lugar é incrível! Há monstros|de sobra para treinar.||Não posso ficar atrás de Rosa!"
+      },
+      {
+        "id": "diary.039.body",
+        "source_sha256": "39a29bee7e2adadca5f640912f41745233f7a17a378d2246ab18980217d6e6c5",
+        "translation": "Todos aqui gostam de tanques.|São o oposto dos habitantes|do Antitank Fort."
+      },
+      {
+        "id": "diary.040.title",
+        "source_sha256": "d71bb26cb9dd5c708c968daaea224b545ce3d08fc901cccf570db3f71ad2c338",
+        "translation": "O tanque do líder"
+      },
+      {
+        "id": "diary.040.body",
+        "source_sha256": "d88dc3e677ea3f80fdbd72cbf600a9535e2a093940d73afa55a3a9571a963e5a",
+        "translation": "O líder de Fort Gears tem um Maus.|Nunca tinha visto um antes."
+      },
+      {
+        "id": "diary.041.body",
+        "source_sha256": "97817868f213c8c583144b703a812465a7875143e829e35a2c41fbc0b2bbd50c",
+        "translation": "A cidade é contra tanques...|Dá um pouco de medo."
+      },
+      {
+        "id": "diary.042.body",
+        "source_sha256": "e49ed3eb50399951ef495a68cde1c843550d03a9dd9ea68c739690e4a4200f23",
+        "translation": "Só Jared não é criança aqui.|Deve ser difícil viverem|sozinhos... Mas estão felizes.||Golem parece confiável...|Mesmo sendo difícil de lidar."
+      },
+      {
+        "id": "diary.043.title",
+        "source_sha256": "36cb497c7ab554b2bb4c402dfd8c1e70c679500b1cb4c212b6d0b574c07dd11a",
+        "translation": "%N4 e Golem"
+      },
+      {
+        "id": "diary.043.body",
+        "source_sha256": "68626f6f60266812aaf66b09dbbb74c6db0645acf7dcf06e7ebc028b0b92abb2",
+        "translation": "Sobre o que conversavam?|%N4 parecia bem|séria. E Golem... Quem sabe|o que se passa na cabeça dele."
+      },
+      {
+        "id": "diary.044.title",
+        "source_sha256": "3580c65acfc531856cb5bbac1479bc081d755a62a44fc12c775fba4a4c5f163e",
+        "translation": "Golem sumiu"
+      },
+      {
+        "id": "diary.044.body",
+        "source_sha256": "96e58acb89476cb2706537dae80d5cd21ddcaeef873e89b352db4ae54a52e6d2",
+        "translation": "Aonde ele foi? Syd falou|das ruínas de uma fábrica...|Será a de Dowan?"
+      },
+      {
+        "id": "diary.045.title",
+        "source_sha256": "05779079a992b7f68b59e81d7660c1dc9e51c2c998f93382d8027ae85f721994",
+        "translation": "O piloto Wilco"
+      },
+      {
+        "id": "diary.045.body",
+        "source_sha256": "79dbc6592ba2f3aacefd89f7c901baab8f08c62b5ae44534778ceef8e69b33a1",
+        "translation": "Como será voar?||É difícil vencer procurados|voadores: armas comuns não|funcionam bem contra eles.|As habilidades especiais e armas SE|ajudam muito nessas horas."
+      },
+      {
+        "id": "diary.046.title",
+        "source_sha256": "846ee509e274fcd6dccb21fb421556d01e3c960491047bce6d44febdc05b31e8",
+        "translation": "Wilco e seu avião"
+      },
+      {
+        "id": "diary.046.body",
+        "source_sha256": "484af856470e14e153cd8d671a72c1ddf17a46cb1e4ebf601c0252fb7b01fd98",
+        "translation": "Wilco ficou tão feliz! Será que|um dia ele me leva no avião?"
+      },
+      {
+        "id": "diary.047.title",
+        "source_sha256": "bd68508f199b6ea0a193b4594fc7d9f855d0007d9c3ddf6dd4c54adee3a79f3a",
+        "translation": "Fuga aérea"
+      },
+      {
+        "id": "diary.047.body",
+        "source_sha256": "507ce89408b3185168d8bb02a85f0f46d1116d6eb1aa122c385b82bf254f67b5",
+        "translation": "Queria andar de avião... Mas|não esperava que fosse assim."
+      },
+      {
+        "id": "diary.048.body",
+        "source_sha256": "89e73c12f9aacea795f80d035dead6c22215e36e48285780b74720a3367ddbc5",
+        "translation": "Aceitei ser amigo do Dr. Palm."
+      },
+      {
+        "id": "diary.049.title",
+        "source_sha256": "4c2ff4509845fdaac0650456a7c707fe47cd59d83e235a37fcf7964514a6f681",
+        "translation": "Projeto de um novo tanque"
+      },
+      {
+        "id": "diary.049.body",
+        "source_sha256": "4873979ff344671a07b5b1e4465ce03a9c02c0e8cf5942aab61340f73c795b2a",
+        "translation": "Só falta juntar sucata suficiente|para construí-lo."
+      },
+      {
+        "id": "diary.050.title",
+        "source_sha256": "62b4ead014a730e20f1249d502e0f71b7cb1092c3921055afc410918d7eeecbc",
+        "translation": "Tanque pronto"
+      },
+      {
+        "id": "diary.050.body",
+        "source_sha256": "55df11e693128064317749135697bd242ae84af5d48bb4ccaa25de98fc564d00",
+        "translation": "Foi amor à primeira vista!"
+      },
+      {
+        "id": "diary.051.body",
+        "source_sha256": "9f2936c3cf9587258d364e9e763caa4fd4bbc46175457305d488e6bcbeba33a2",
+        "translation": "Fiquei amigo de Doc Optica.|Ele me pediu para encontrar lentes."
+      },
+      {
+        "id": "diary.052.body",
+        "source_sha256": "374a8d0a9cdd39a4361f24006fa422d2f12d5033f9b3effc051d8cfee6e43793",
+        "translation": "Dr. Solomon me deu uma Camera Lens."
+      },
+      {
+        "id": "diary.053.body",
+        "source_sha256": "602d6d6c2069133a0139835b702cb0048a720df39a8717f4286aec820f738ac1",
+        "translation": "Sebastian me deu a lente|dos óculos quebrados."
+      },
+      {
+        "id": "diary.054.body",
+        "source_sha256": "9b5ca0cc82a3651308d881eb54fe94d62532d0974454810cd3308fda46a985b6",
+        "translation": "Comprei uma Ruby Lens."
+      },
+      {
+        "id": "diary.055.body",
+        "source_sha256": "d05bfd0b6be9561e89ff987afb5f799264a5c965002cd1276014f5026a532e61",
+        "translation": "Danny me deu a Solar Lens."
+      },
+      {
+        "id": "diary.056.body",
+        "source_sha256": "462e3868613cb1437131526d242a32ac7c4bb483b2c61a3734de60bb103efb68",
+        "translation": "Achei um Buggy na Montanha de Sucata.|Ter um veículo custa caro...|Preciso ganhar mais dinheiro.|Quero um bom motor e uma arma SUB.|Também preciso de um mecânico.|Nikolai pode ajudar: ele ensinou|o ofício à minha mãe. Ele fica|a nordeste do ferro-velho de Newfolk."
+      },
+      {
+        "id": "diary.057.title",
+        "source_sha256": "62f3fa6b11817483dc452f2ef1140f90b79fc041717545a05aa622c0dea91654",
+        "translation": "Connie e Clive"
+      },
+      {
+        "id": "diary.057.body",
+        "source_sha256": "adb5b014c3ee476646aa61f2f79a1c6ff9c3789a9595695358fe707475c3ef96",
+        "translation": "O que eles estarão procurando?"
+      },
+      {
+        "id": "diary.058.title",
+        "source_sha256": "b72c040049ee26e61602297d2756d8f7aad3178191196bacb2aaef088797e207",
+        "translation": "Rosa e Carl"
+      },
+      {
+        "id": "diary.058.body",
+        "source_sha256": "f252d54241e8714d22dcd4e840f5bd918b0e55704e02764f126fbfebee480e3e",
+        "translation": "O sobrenome deles é Beldaire...|Será que têm relação com a cidade|de mesmo nome a leste|de East Zero?"
+      },
+      {
+        "id": "diary.059.body",
+        "source_sha256": "ef80773af1711affa8f317379ee76583b7ff61bfc41bb86250f9dea2798b756a",
+        "translation": "Salvei Jack. ...Mas será que|esse era o único jeito...?"
+      },
+      {
+        "id": "diary.060.body",
+        "source_sha256": "4ab38eedeca3b3048601669810da5dbfc3e0bae5a2f06cbeb7e9ee531f2fb4c7",
+        "translation": "Está tudo bem. Jack está salvo.|Rachel me deu um susto...|Ela é muito corajosa.||O que será que Wayne vai|fazer agora...?"
+      },
+      {
+        "id": "diary.061.title",
+        "source_sha256": "648282e690ad411133d983fbcbe3857b5d87081b8883b240975f066ba2449a0f",
+        "translation": "O prédio soterrado"
+      },
+      {
+        "id": "diary.061.body",
+        "source_sha256": "669219298d6931a3af964ff415622b1c0d14d1060dfa153fda7a54b5e4704475",
+        "translation": "A entrada está soterrada.|Será que dá para chegar|ao topo do prédio|pelo lado de fora...?|Se eu tivesse uma escada longa..."
+      },
+      {
+        "id": "diary.063.title",
+        "source_sha256": "89499bd1323749a9a88adca464ec74e57e48237fc9a8f141214e35518d07d3ef",
+        "translation": "Onde está Jack?"
+      },
+      {
+        "id": "diary.063.body",
+        "source_sha256": "de0b2a3c908def8e3c7fc16b1353212f1b59648682d0aaeb30d8d4d3a21a9442",
+        "translation": "Onde estará Jack? É melhor|seguir o conselho do meu pai|e procurar em Morgue Town..."
+      },
+      {
+        "id": "diary.064.body",
+        "source_sha256": "e4cd5962f200b03d06010fb13169690df4b6790ea1e151bf5d05f8168abb154b",
+        "translation": "%N5 está fora|de ação. O que fazer...?"
+      },
+      {
+        "id": "diary.065.body",
+        "source_sha256": "43e48b252e570cacdfd0d560c5f69432bc3231133bb4ffe8a5de15042682db15",
+        "translation": "Será que o Professor Grey pode|ajudá-la...?"
+      },
+      {
+        "id": "diary.066.body",
+        "source_sha256": "1b5303e032117ed95acc419f1b63c590fba933e010c0c11576179438bfa23e91",
+        "translation": "Já o derrotei! Por que ele|sempre volta!? Por ser|um fantasma? Será que alguém|pode fazê-lo sumir de vez...?"
+      },
+      {
+        "id": "diary.067.body",
+        "source_sha256": "699ddd948417b25ede160a63ad9ca186e51e7ed78a081da0e57d81866bc2f07c",
+        "translation": "Kaede disse que preciso achar|a causa da inquietação|do Ghost Tank e resolvê-la.|Mas o que será...?"
+      }
+    ],
+    "help_profile": "ndata-html-help-fixed-load-v004",
+    "help": [
+      {
+        "id": "ndata.help.127",
+        "source_sha256": "b7c44c6461079f808269b3eae806dc7454e866f62ea84015bb3e246c5487e1e1",
+        "translation": "<HTML>Fique ao lado de um<BR>veículo obtido<BR>e aperte o<BR><FONT COLOR=GREEN>botão triângulo</FONT> para<BR>abrir o <FONT COLOR=YELLOW>menu</FONT>.<BR><IMG SRC=nHelp000.bmp ALT=\"196,188\"><BR><BR>Ao escolher <FONT COLOR=GRAY>Drive</FONT>,<BR>você pode indicar<BR>um membro do grupo<BR>para dirigir.<BR><BR>Para tirar<BR>um integrante<BR>do veículo,<BR>escolha <FONT COLOR=GRAY>Desembarcar</FONT>.<BR><IMG SRC=nHelp001.bmp ALT=\"256,142\"><BR></HTML>"
+      },
+      {
+        "id": "ndata.help.129",
+        "source_sha256": "fa4e65793bf65dd4aab3e44f908cee3445a0a727f2bad35d0bed7d0b5c1bd9a5",
+        "translation": "<HTML>Em <FONT COLOR=GRAY>áreas com<BR>monstros</FONT>,<BR>é recomendável<BR>usar um veículo.<BR><BR>Porém, há lugares<BR>como<BR><FONT COLOR=YELLOW>prédios</FONT>, <FONT COLOR=YELLOW>florestas</FONT>,<BR>e <FONT COLOR=YELLOW>escadas </FONT>onde<BR><FONT COLOR=YELLOW>os veículos não</FONT><BR><FONT COLOR=YELLOW>podem circular</FONT>.<BR><BR>Nessas áreas,<BR>você deve <FONT COLOR=YELLOW>sair</FONT><BR>do <FONT COLOR=YELLOW>veículo</FONT> e<BR>seguir a pé.</HTML>"
+      },
+      {
+        "id": "ndata.help.131",
+        "source_sha256": "d96c6e011b84cac86f2f0af512bc2b31ad1bf7b3c8f166c58d8ac417303d1741",
+        "translation": "<HTML>Por padrão,<BR>você pode<BR><FONT COLOR=YELLOW>dirigir o<BR>veículo atribuído</FONT> com<BR>o <FONT COLOR=GRAY>botão R1</FONT>.<BR><BR>Você pode <FONT COLOR=YELLOW>sair</FONT><BR><FONT COLOR=YELLOW>do veículo</FONT><BR>com<BR>o <FONT COLOR=GRAY>botão L1</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.132",
+        "source_sha256": "fae556679de1f65f27c0205b67b43dcb686b99e258804678f890a91dde7ffc25",
+        "translation": "<HTML><FONT COLOR=YELLOW>O ácido</FONT> fica<BR>no veículo<BR>após a batalha.<BR>Para removê-lo,<BR>use um item<BR>ou vá a um<BR>lava-tanques.</HTML>"
+      },
+      {
+        "id": "ndata.help.133",
+        "source_sha256": "93d49131dd9ea634f7302c4856e2c0d67852f7d8edeabe1cb70c8749196efc47",
+        "translation": "<HTML><FONT COLOR=YELLOW>Como o nome diz,</FONT><BR><FONT COLOR=YELLOW>um veículo antiaéreo</FONT><BR><FONT COLOR=YELLOW>é feito para</FONT><BR><FONT COLOR=YELLOW>enfrentar inimigos</FONT><BR><FONT COLOR=YELLOW>voadores.<BR><BR>Por isso</FONT>,<BR><FONT COLOR=YELLOW>ele só pode</FONT><BR><FONT COLOR=YELLOW>receber uma</FONT><BR><FONT COLOR=YELLOW>arma MAIN própria</FONT><BR><FONT COLOR=YELLOW>para combate</FONT><BR><FONT COLOR=YELLOW>antiaéreo</FONT>.<BR><BR>Por outro lado,<BR>não há restrições<BR>ao tipo de<BR>arma SUB que<BR>ele pode usar.</HTML>"
+      },
+      {
+        "id": "ndata.help.134",
+        "source_sha256": "4ec1c375bb22623bb3fce36a357cbdeb2d7dd19aed3b86431570cbf4299a0cdb",
+        "translation": "<HTML>Por melhor que seja<BR>seu equipamento,<BR><FONT COLOR=YELLOW>você nunca terá<BR>a potência da arma<BR>MAIN de um veículo</FONT>.<BR><BR>Por isso, Hunters<BR>veteranos usam seus<BR>veículos para<BR>cruzar os ermos<BR>e enfrentar<BR>os monstros.</HTML>"
+      },
+      {
+        "id": "ndata.help.135",
+        "source_sha256": "f6be9b3a58e3cbb0130496e294472935ac3cc8dc92ca635627e7cfff5209acf9",
+        "translation": "<HTML>Os veículos têm um<BR>atributo chamado<BR><FONT COLOR=YELLOW>SP</FONT>, que indica<BR>a quantidade de<BR><FONT COLOR=GREEN>placas de blindagem</FONT><BR>instaladas<BR>no veículo.<BR><BR>O valor de <FONT COLOR=YELLOW>SP</FONT><BR>diminui quando<BR>o veículo é<BR>atacado.<BR><BR>Quando o <FONT COLOR=YELLOW>SP</FONT><BR>chega a 0,<BR>as peças começam<BR>a sofrer<BR>danos.<BR><BR>Com o acúmulo<BR>de danos,<BR>o estado das<BR>peças afetadas<BR>vai piorando<BR>de <FONT COLOR=YELLOW>Danificado</FONT><BR>para <FONT COLOR=RED>Quebrado</FONT>.<BR><BR>Se uma peça quebra,<BR><FONT COLOR=RED>ela deixa de</FONT><BR><FONT COLOR=RED>funcionar direito</FONT>.<BR><BR>Por exemplo, se<BR>a arma MAIN<BR>quebrar, o comando <FONT COLOR=YELLOW>MAIN</FONT><BR>ficará<BR>indisponível.<BR><BR>Do mesmo modo, se<BR>a arma SUB quebrar,<BR>o comando <FONT COLOR=YELLOW>SUB</FONT><BR>ficará<BR>indisponível.<BR><BR>Se o motor<BR>ou a C Unit<BR>quebrar, isso não<BR>vai prejudicar<BR>seu desempenho<BR>em combate.<BR><BR>Mas, se o<BR>chassi quebrar,<BR><FONT COLOR=RED>você será expulso</FONT><BR><FONT COLOR=RED>do veículo</FONT>,<BR>e terá que lutar<BR>o resto da<BR>batalha a pé.</HTML>"
+      },
+      {
+        "id": "ndata.help.136",
+        "source_sha256": "319cc2a72b07ac1c347c4fd26830f544efb8bf91c20accdebdf5c6a147559c17",
+        "translation": "<HTML>O veículo <FONT COLOR=YELLOW>não vai</FONT><BR><FONT COLOR=YELLOW>andar</FONT> se o motor,<BR>chassi ou C Unit<BR>estiver <FONT COLOR=RED>quebrado</FONT>.<BR><BR>Resolva isso<BR><FONT COLOR=GREEN>trocando</FONT> as<BR>peças quebradas<BR>por outras boas.<BR><BR>Também pode usar<BR>outro dos seus<BR>veículos para <FONT COLOR=GRAY>rebocar</FONT><BR>o veículo parado<BR>de volta<BR>à cidade.<BR><BR>Se não tiver<BR>outro veículo,<BR>alugue um<BR>na agência<BR><FONT COLOR=GREEN>Rent-a-Tank</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.137",
+        "source_sha256": "e3da846b1f0265f4a94d8e12d40cb7d14f065457872fee805158b9f99dd2ea36",
+        "translation": "<HTML>Tente montar um<BR>item quando tiver<BR>uma chance.<BR><BR>Talvez você consiga<BR>algo valioso<BR>que não se encontra<BR>nas lojas.</HTML>"
+      },
+      {
+        "id": "ndata.help.138",
+        "source_sha256": "5ad07a48a4ee8442bc90233816f43c5eb724b2a099e79d636674164b31c2a141",
+        "translation": "<HTML>Cebola<BR>Alho<BR>Cenoura<BR>Batata<BR>Carne<BR>Sal<BR>Curry<BR>Outros</HTML>"
+      },
+      {
+        "id": "ndata.help.139",
+        "source_sha256": "80fd53d06d82a01d2ee187ca403f665f2949e6d173411fedf70071856044e9ce",
+        "translation": "<HTML>Você pode carregar<BR>seu veículo com<BR>várias peças e<BR>armas.<BR><BR>Mas tome<BR>cuidado para não<BR>ultrapassar o limite<BR>de Max Load.<BR><BR>Se esse limite<BR>for excedido,<BR><FONT COLOR=YELLOW>o veículo não</FONT><BR><FONT COLOR=YELLOW>vai andar</FONT>.<BR><BR>Será preciso<BR>aliviar o peso<BR>do veículo até<BR>ele poder<BR>andar de novo.<BR></HTML>"
+      },
+      {
+        "id": "ndata.help.140",
+        "source_sha256": "bd609e66562dbbd5006394c155d84c441b3b8e734a0548a8f20518669b955a40",
+        "translation": "<HTML>O jeito mais fácil<BR>de aliviar o peso<BR>é descartar<BR>blindagem (<FONT COLOR=YELLOW>SP</FONT>).<BR><BR>Por exemplo, se<BR>você achar uma<BR>arma de veículo<BR>potente, mas<BR>pesada demais,<BR>descarte logo<BR>o <FONT COLOR=YELLOW>SP</FONT> necessário<BR>para deixar o peso<BR>do veículo abaixo<BR>do limite Max Load. <BR><BR>Depois vá à cidade<BR>e venda algumas<BR>das armas<BR>que não quer.<BR><BR>Com o dinheiro<BR>recebido, você<BR>pode comprar<BR>blindagem e repor<BR>o <FONT COLOR=YELLOW>SP</FONT> do veículo.</HTML>"
+      },
+      {
+        "id": "ndata.help.141",
+        "source_sha256": "0d70101deaf78f3b91400b0a2438033714ad5bb5190f31511d68e541536abdb3",
+        "translation": "<HTML>Para o armamento,<BR>basta ter uma MAIN,<BR>uma SUB e<BR>uma arma SE<BR>equipadas no<BR>seu veículo.<BR><BR>Não hesite<BR>em descartar<BR>armas fracas<BR>que não tenham<BR>mais utilidade.</HTML>"
+      },
+      {
+        "id": "ndata.help.142",
+        "source_sha256": "b0f29e126d19214b73866b689f9e76223d5dcfb4fcac4139c049076943e92b88",
+        "translation": "<HTML>Se deixar seu<BR>veículo parado<BR><FONT COLOR=YELLOW>em qualquer lugar</FONT><BR><FONT COLOR=YELLOW>fora da garagem</FONT><BR><FONT COLOR=YELLOW>subterrânea</FONT> por<BR>muito tempo,<BR>a carroceria<BR>ficará coberta<BR>de cogumelos e<BR>fezes de pássaros.<BR><BR><FONT COLOR=YELLOW>Isso aumenta<BR>o peso do veículo</FONT>,<BR>podendo deixá-lo<BR>sobrecarregado.<BR><BR>Você pode remover<BR>os cogumelos e as<BR>fezes em um<BR><FONT COLOR=YELLOW>lava-tanques</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.143",
+        "source_sha256": "78625b66a37f93134addcbf7817bee03859f79a210596280c8ed351920c81267",
+        "translation": "<HTML>1. Prepare a carne<BR>para cozinhar. Pique<BR>o alho e corte<BR>o restante dos<BR>legumes em<BR>pedaços pequenos.<BR><BR>2. Ponha a carne<BR>e os legumes em<BR>uma panela e junte<BR>o sal. Cubra<BR>com água e<BR>leve ao fogo.<BR><BR>3. Quando a carne<BR>cozinhar, misture<BR>os temperos de curry.<BR><BR>4. Tampe a panela<BR>e cozinhe em fogo<BR>baixo por 10 minutos.<BR><BR><FONT COLOR=GREEN>Nota:</FONT> Carne bovina,<BR>frango e peixe<BR>são comuns<BR>no curry,<BR>mas experimente<BR>usar <FONT COLOR=YELLOW>Syrup Cells</FONT><BR>e <FONT COLOR=YELLOW>Gelatin Cells</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.144",
+        "source_sha256": "5228136bf76a1e115a048fe7faeb709779373a858c3501621aac1b8b76cd536d",
+        "translation": "<HTML>A <FONT COLOR=YELLOW>MAIN</FONT><BR>é potente, mas<BR><FONT COLOR=YELLOW>consome munição</FONT>.<BR><BR>A <FONT COLOR=YELLOW>SUB</FONT> é<BR>mais fraca,<BR>mas tem<BR><FONT COLOR=YELLOW>munição ilimitada</FONT>.<BR><BR>Por isso, use a<BR>SUB nos monstros<BR>fracos e atinja<BR>os mais fortes<BR>com a MAIN.</HTML>"
+      },
+      {
+        "id": "ndata.help.145",
+        "source_sha256": "13b1a33d5a9942158b639538a330cc742e606b0d8cf3cd1094b6c3bae0eddcb7",
+        "translation": "<HTML>Os veículos têm<BR>um número fixo de<BR><FONT COLOR=YELLOW>encaixes</FONT> para<BR>armas.<BR><BR>Além de<BR>uma MAIN e<BR>uma SUB, alguns<BR>veículos têm<BR>um <FONT COLOR=YELLOW>terceiro encaixe</FONT> <BR>que permite<BR>equipar uma SE.<BR><BR>Uma SE é <FONT COLOR=YELLOW>tão</FONT><BR><FONT COLOR=YELLOW>potente quanto</FONT><BR><FONT COLOR=YELLOW>uma MAIN, ou até</FONT><BR><FONT COLOR=YELLOW>mais potente que</FONT><BR><FONT COLOR=YELLOW>ela</FONT>.<BR><BR>Além disso, <FONT COLOR=YELLOW>uma SE</FONT><BR><FONT COLOR=YELLOW>atinge inimigos que</FONT><BR><FONT COLOR=YELLOW>a MAIN não alcança</FONT>.<BR></HTML>"
+      },
+      {
+        "id": "ndata.help.146",
+        "source_sha256": "7020b254c911624eb5c0629b7350baf22577f1dd3ac2649dc899d96ac0058cdf",
+        "translation": "<HTML>Ao mirar<BR>um inimigo voador,<BR>a precisão<BR>da arma MAIN<BR>diminui em 50%%.<BR><BR>Por isso, uma SE<BR>como a<BR>Swatter seria<BR>muito mais<BR>eficaz.<BR><BR>Do mesmo modo,<BR>a Bloodhound<BR>seria muito mais<BR>eficaz contra<BR>um inimigo fora<BR>do alcance.<BR><BR>Quando sua arma<BR>MAIN deixar de<BR>ser eficaz,<BR>visite as lojas<BR>de uma cidade<BR>e confira as<BR>armas SE à venda.</HTML>"
+      },
+      {
+        "id": "ndata.help.147",
+        "source_sha256": "276bec25442a69949c63c2988ea32fabcc07a46e586806c87a1494c966557d36",
+        "translation": "<HTML>Mecânicos hábeis<BR>oferecem serviços<BR>de modificação<BR>em suas oficinas.<BR><BR>Ao modificar<BR>seu veículo,<BR>você aumenta<BR>o poder de fogo<BR>das armas e<BR>a resistência<BR>das peças.<BR><BR>Talvez possa<BR>adicionar um<BR>encaixe para SE.<BR><BR>Os upgrades<BR>aumentam o peso<BR>do veículo. Portanto,<BR>aumente também<BR>a Max Load do motor.</HTML>"
+      },
+      {
+        "id": "ndata.help.148",
+        "source_sha256": "4dd58a2c1977fbad0d29d7f69c2c03ab10ad94f97af9d1ef884098b411b9ffc7",
+        "translation": "<HTML>Ser Hunter pode<BR>ser uma profissão<BR>muito lucrativa;<BR>há vários jeitos<BR>de ganhar dinheiro.<BR><BR>Por exemplo, você<BR>recebe uma<BR>recompensa no<BR>Posto Hunter<BR>por caçar<BR>um procurado ou<BR>o alvo da semana.<BR><BR>Também pode obter<BR>materiais valiosos,<BR>como células e<BR>sucata dos<BR>monstros.<BR><BR>Venda as células<BR>aos donos de bares,<BR>e leve a sucata<BR>aos Comerciantes.</HTML>"
+      },
+      {
+        "id": "ndata.help.149",
+        "source_sha256": "709c16d66a1b0685f59d473dc6f1b5e7fcd7858ef2a331c989fef127a437fe04",
+        "translation": "<HTML>Procurados são<BR>monstros caçados<BR>vivos ou<BR>mortos.<BR><BR>Você recebe<BR>a recompensa<BR>em um Posto Hunter.</HTML>"
+      },
+      {
+        "id": "ndata.help.150",
+        "source_sha256": "f37c03a46c34de8fef0e6a43cb2ced5ea431edcc95c9deea63aefc4c048f2d46",
+        "translation": "<HTML>No início de<BR>cada semana,<BR>o Posto Hunter<BR>anuncia um<BR>monstro como<BR>alvo principal.<BR><BR>Você recebe<BR>um pagamento por<BR>cada monstro-alvo<BR>que conseguir<BR>derrotar.<BR><BR>Mas lembre-se<BR>de buscar a<BR>recompensa antes<BR>do fim da semana.</HTML>"
+      },
+      {
+        "id": "ndata.help.151",
+        "source_sha256": "aefed150b9b16b56eb7ce6633e7b5753d86a65693f30dd12b47d8f7d8401ddf7",
+        "translation": "<HTML>Os veículos não<BR>entram em locais<BR>como florestas.<BR><BR>Nessas áreas,<BR>os monstros podem<BR>deixar valiosos<BR><FONT COLOR=YELLOW>materiais</FONT>.<BR><BR>Antes de entrar<BR>nesses lugares<BR>a pé, faça um<BR>upgrade no seu<BR>equipamento.<BR><BR>Leve também<BR>muitas granadas:<BR>elas salvam<BR>sua vida<BR>nos combates<BR>fora do veículo.</HTML>"
+      },
+      {
+        "id": "ndata.help.152",
+        "source_sha256": "5b82f09bc0f9cbb6e4082467c30f50488b23e38d47fc49272da889f996566780",
+        "translation": "<HTML>Há muitos tipos<BR>de armas e<BR>armaduras.<BR><BR>Mas há restrições<BR>aos tipos de<BR>armas que cada<BR>personagem pode<BR>equipar.<BR></HTML>"
+      },
+      {
+        "id": "ndata.help.153",
+        "source_sha256": "9484e186b07edac9a95807637be681cc971a95c117c8148fc560beaf4e1792ac",
+        "translation": "<HTML>Protetores são<BR>um tipo especial<BR>de armadura que<BR>reduz o dano<BR>sofrido.<BR><BR>Eles costumam quebrar<BR>ao receber<BR>muito dano.<BR><BR>Um protetor quebrado<BR>vira <FONT COLOR=YELLOW>sucata de</FONT><BR><FONT COLOR=YELLOW>armadura</FONT> e deixa<BR>de funcionar.</HTML>"
+      },
+      {
+        "id": "ndata.help.154",
+        "source_sha256": "95bf42372def0386e3aef2dc6acb6c018e3ea7fbc20f6a4f3617ac80a8036557",
+        "translation": "<HTML>Os locais que<BR>você já visitou<BR>aparecem no<BR>mapa.</HTML>"
+      },
+      {
+        "id": "ndata.help.155",
+        "source_sha256": "0b60d8011cb168b7ba7e5be617eb5f5526badf343542a847fbf483533b389bbb",
+        "translation": "<HTML>Você pode ver<BR>as listas de preços<BR>das lojas nas<BR>cidades que<BR>já visitou.</HTML>"
+      },
+      {
+        "id": "ndata.help.156",
+        "source_sha256": "f838ecba63d0a1f3a0cb34297ba1e4e4c26205b6f643ef3e3f40b0acfdfcfdc1",
+        "translation": "<HTML>Ao <FONT COLOR=YELLOW>ajustar a</FONT><BR><FONT COLOR=YELLOW>C Unit para Remote</FONT>,<BR>envie<BR>um veículo para<BR>uma cidade que<BR>já visitou.<BR><BR>Isso<BR>não funciona<BR>se o veículo estiver<BR><FONT COLOR=YELLOW>sobrecarregado</FONT>,<BR>se o <FONT COLOR=YELLOW>chassi ou outras</FONT><BR><FONT COLOR=YELLOW>peças essenciais</FONT><BR>estiverem <FONT COLOR=RED>quebrados</FONT>, ou<BR>se estiver <FONT COLOR=YELLOW>submerso</FONT><BR><FONT COLOR=YELLOW>na água</FONT>.<BR><BR>Dizem que<BR>há alguém capaz<BR>de dar um upgrade<BR>ao <FONT COLOR=YELLOW>Remote</FONT><BR>da sua C Unit...</HTML>"
+      },
+      {
+        "id": "ndata.help.157",
+        "source_sha256": "7239aac4a81479c8a4e630d2b0daa3791792b1715461ff4c8503e979addd5cc2",
+        "translation": "<HTML>Veja seus itens,<BR>dados das<BR>batalhas, conteúdo<BR>do Depósito,<BR>dados dos veículos<BR>alugados e o<BR>catálogo de<BR>decoração.</HTML>"
+      },
+      {
+        "id": "ndata.help.158",
+        "source_sha256": "5b1bbfee840df9f6dcba900d702259b2f5f7f833fe8770c1258ec9905ea17985",
+        "translation": "<HTML>Você pode ver<BR>no Posto Hunter o<BR><FONT COLOR=YELLOW>alvo da semana</FONT><BR>e <FONT COLOR=YELLOW>informações</FONT><BR>sobre os monstros<BR>que já enfrentou.</HTML>"
+      },
+      {
+        "id": "ndata.help.159",
+        "source_sha256": "3f1fbe67c0710063c0c0a4fd2467dfce8bc3888030a44a84015aedf694dc067c",
+        "translation": "<HTML>Veja os dados<BR>sobre os<BR>procurados.</HTML>"
+      },
+      {
+        "id": "ndata.help.160",
+        "source_sha256": "b2b248512b9e0b733545341403bb12f9d129dd72e6d82dde5571d09a9444c55d",
+        "translation": "<HTML>Leia as<BR><FONT COLOR=YELLOW>mensagens</FONT><BR>recebidas.<BR><BR>Mas não pode<BR>respondê-las<BR>nem criar<BR>novas<BR>mensagens...</HTML>"
+      },
+      {
+        "id": "ndata.help.161",
+        "source_sha256": "b2ac83b9ae259888c8620f6a6eced5d7f3413107dd72a7070f159c7b539b9fac",
+        "translation": "<HTML>Essa função<BR>emite um aviso<BR>quando <FONT COLOR=YELLOW>seu dinheiro</FONT><BR><FONT COLOR=YELLOW>atinge o valor</FONT><BR><FONT COLOR=YELLOW>que você definiu</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.162",
+        "source_sha256": "263ca8517b5ed3d404b0e37022ee41df813df2cdb88ae5afe10a5e2f75332b10",
+        "translation": "<HTML>Baixe<BR>músicas de uma<BR><FONT COLOR=YELLOW>jukebox</FONT> e ouça<BR>quando<BR>quiser.<BR><BR>As <FONT COLOR=YELLOW>jukeboxes</FONT> ficam<BR>nos <FONT COLOR=YELLOW>bares</FONT>, e<BR>podem ser compradas<BR>nas <FONT COLOR=YELLOW>lojas de presentes</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.163",
+        "source_sha256": "37a23ceb8a5d615e3cf7f77bfb1678c25aca0c935c7cc562406a4337677dbb59",
+        "translation": "<HTML>Você pode jogar<BR>os <FONT COLOR=YELLOW>minijogos</FONT><BR>que já baixou.</HTML>"
+      },
+      {
+        "id": "ndata.help.164",
+        "source_sha256": "fa3a8e620a4b42dead5873bd2d971a69a814112e615444888fd29b098a812c5b",
+        "translation": "<HTML>Aqui, organize<BR>os menus e<BR>defina funções<BR>dos botões nas<BR><FONT COLOR=YELLOW>telas do Satcom</FONT><BR><FONT COLOR=YELLOW>e dos combates,</FONT><BR><FONT COLOR=YELLOW>a pé ou em</FONT><BR><FONT COLOR=YELLOW>um veículo</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.165",
+        "source_sha256": "01cc7d54eb0600eeab9662f2af8e3244888459fc8f8f3c233502432770acac31",
+        "translation": "<HTML>Leia as<BR>entradas antigas<BR>do diário.</HTML>"
+      },
+      {
+        "id": "ndata.help.166",
+        "source_sha256": "8570b8c3d08bec1936ade1cef64066643ed0d0aa04a64d2b8cc18fe5c61c26ee",
+        "translation": "<HTML>Veja os<BR>tópicos de<BR>ajuda.</HTML>"
+      },
+      {
+        "id": "ndata.help.167",
+        "source_sha256": "69b7212067c693bd97c4d2a6f76ca34f4000990b5c3c7eb21c3aae57e1a27bdf",
+        "translation": "<HTML><FONT COLOR=YELLOW>Habilidades</FONT> servem<BR>em combate e no<BR>mapa de campo.<BR><BR>Cada personagem<BR>começa com<BR>um número de<BR><FONT COLOR=YELLOW>habilidades</FONT>.<BR><BR>Compre<BR>novas habilidades<BR>com <FONT COLOR=YELLOW>Mestres</FONT> que<BR>vivem nas cidades.</HTML>"
+      },
+      {
+        "id": "ndata.help.168",
+        "source_sha256": "548dbfff2562e37372f0b36fdc061ca5be3dca8dd886f0da0e4c44697065dc94",
+        "translation": "<HTML>Ao usar<BR>uma <FONT COLOR=YELLOW>habilidade</FONT>, você<BR>gasta uma<BR>quantia.<BR><BR>Se a <FONT COLOR=YELLOW>habilidade</FONT> tiver o <FONT COLOR=GRAY>nome</FONT><BR><FONT COLOR=GRAY>e o custo de uso</FONT><BR><FONT COLOR=GRAY>em cinza</FONT>, você<BR>não poderá usar<BR><FONT COLOR=YELLOW>a habilidade</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.169",
+        "source_sha256": "7b49cff363077027eca6d788bd26b8912276a2e551670a05f7358a9dcaa2f195",
+        "translation": "<HTML>As oficinas de<BR>montagem criam itens<BR>se você fornecer<BR>4 componentes.<BR><BR>Algumas oficinas<BR>fazem <FONT COLOR=YELLOW>itens</FONT><BR><FONT COLOR=YELLOW>e equipamentos</FONT>,<BR>e outras<BR>se especializam<BR>em <FONT COLOR=YELLOW>peças de veículos</FONT>.<BR><BR>Há rumores<BR>de itens especiais<BR>montados<BR>em outros<BR>lugares...</HTML>"
+      },
+      {
+        "id": "ndata.help.170",
+        "source_sha256": "58ca0cc048b6265e5602fb38130dfbe8534e13fa4315a25ae59f43f14b463d56",
+        "translation": "<HTML>Móveis são<BR>itens que<BR>servem para<BR>decorar cômodos.<BR><BR>Os itens<BR>comprados serão<BR>enviados ao<BR>destinatário.</HTML>"
+      },
+      {
+        "id": "ndata.help.171",
+        "source_sha256": "b42c214a29b41c4716fc315b73ef3b2b33f379ccc7ae6d984e373801b7bd9234",
+        "translation": "<HTML>Roupas podem ser<BR>dadas de presente<BR>a quem você conhece.<BR>Se a pessoa gostar<BR>do presente, é bem<BR>provável que<BR>o use.<BR><BR>Você só pode mandar<BR>roupas a uma pessoa<BR>se já tiver<BR>dado a ela<BR>algum tipo<BR>de <FONT COLOR=YELLOW>armário</FONT>.</HTML>"
+      },
+      {
+        "id": "ndata.help.172",
+        "source_sha256": "e614aefd9e04ba2a3b5496c9e763befc6a045c80ea4b57d2c371dcc55012bafb",
+        "translation": "<HTML>Um androide<BR>Alpha Series tem<BR>vários sistemas<BR>de armas internos<BR>e dispensa<BR>o uso de<BR>equipamento externo.<BR><BR>Ao contrário<BR>dos humanos,<BR>seu HP só é<BR>recuperado ao<BR>recarregar a energia<BR>em uma instalação<BR>cibernética.</HTML>"
+      }
+    ],
+    "help_index": {
+      "policy": "ndata-help-index-fixed-load-v005",
+      "source_sha256": "19bbb164b321f2c045f7877e8bcf1d7d9ce2eb70ad4216d9986506ceaed910ab",
+      "rows": [
+        {
+          "id": "ndata.help-index.000",
+          "source_sha256": "d61f3033cbb6e0b2583eec3cd08b2b913d53f1001109c9baa8db6876a69ef8c0",
+          "translation": "Direção"
+        },
+        {
+          "id": "ndata.help-index.001",
+          "source_sha256": "57733079f046e2d3f751dd73b67cf465e63c6d148e23dda8dfbd4253bc1299f6",
+          "translation": "Como usar"
+        },
+        {
+          "id": "ndata.help-index.002",
+          "source_sha256": "72fa5509b2f9133a3a52feec7bbe360214d4c7d0b559432d57d5960fa1e85e47",
+          "translation": "Locais"
+        },
+        {
+          "id": "ndata.help-index.003",
+          "source_sha256": "9d6a95b40e98d36fc745d40e6cc9bef0f3a263cd0dc3bbc516efe383a765d266",
+          "translation": "Atalhos"
+        },
+        {
+          "id": "ndata.help-index.004",
+          "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f",
+          "translation": "Veículos"
+        },
+        {
+          "id": "ndata.help-index.005",
+          "source_sha256": "f43a77c18817f5469cdc2b035a88d862d9825b73d03d3572d9d1ac445bf7ce52",
+          "translation": "Potência"
+        },
+        {
+          "id": "ndata.help-index.006",
+          "source_sha256": "36a73cf744af558cc1d6731791424f1128625029d86a2be4a52f26ef749f39ae",
+          "translation": "Resistência"
+        },
+        {
+          "id": "ndata.help-index.007",
+          "source_sha256": "e4f4ae200b10852b5ffbf896db40c772962fbc94d1fc13537c84f0c6d7a6d1e7",
+          "translation": "Avarias"
+        },
+        {
+          "id": "ndata.help-index.008",
+          "source_sha256": "3b782428828dd6d141cd5eb1e5ef18bf693db784f3ef6a647e072ab86edf9172",
+          "translation": "Sobrecarga"
+        },
+        {
+          "id": "ndata.help-index.009",
+          "source_sha256": "aa10f1f23662f0469b3740bcd1943dc53f8677d88f109514684b2c0e590fd5ce",
+          "translation": "Peso máximo"
+        },
+        {
+          "id": "ndata.help-index.010",
+          "source_sha256": "b9174527c0321ffa9b696e8db70609e9e387bce02ecea5503152f414a86c6f5d",
+          "translation": "Blindagem"
+        },
+        {
+          "id": "ndata.help-index.011",
+          "source_sha256": "a3102321bbe763454e252a2cda462ccf6cd3edb3c2a33aef72ae1cc214307a44",
+          "translation": "Peças sem uso"
+        },
+        {
+          "id": "ndata.help-index.012",
+          "source_sha256": "5f0217ea9b994761d28fbe51da5726c98630e0c778d28281576d4880ac22e61b",
+          "translation": "Cogumelos"
+        },
+        {
+          "id": "ndata.help-index.013",
+          "source_sha256": "30c41afa8414f053ac878840067143b2af916b2b2f1faa0a0636d5a235d0b651",
+          "translation": "Dicas: tanque"
+        },
+        {
+          "id": "ndata.help-index.014",
+          "source_sha256": "48034545c5326b5cd44273358a884af693903c9438b7ca971e8cd56ffe626ba9",
+          "translation": "MAIN x SUB"
+        },
+        {
+          "id": "ndata.help-index.015",
+          "source_sha256": "169e987b5069c6ca2a3856e3185c33c1008ac5ac2b2faf2ac6aecfe2fdd94b83",
+          "translation": "Arma SE"
+        },
+        {
+          "id": "ndata.help-index.016",
+          "source_sha256": "55cb987f2eb06d9e9651c977fac014afd1bededf447da3cfaf471c8df31be31c",
+          "translation": "Alcance MAIN"
+        },
+        {
+          "id": "ndata.help-index.017",
+          "source_sha256": "f4cbaa1ed5c88f278ba499f3a325920e0697e066ae6b68f29e8863f1c5661168",
+          "translation": "Modificar"
+        },
+        {
+          "id": "ndata.help-index.018",
+          "source_sha256": "c4fdf6b89bdcabbcb692f511afd5ffa4d10fdc19d3374e5b84b8cb5ac75306d8",
+          "translation": "Ácido"
+        },
+        {
+          "id": "ndata.help-index.019",
+          "source_sha256": "53e4275d8908289dfc14a86f3b4112d38e24692d20cf93050adb20b9e0cd288c",
+          "translation": "Antiaéreos"
+        },
+        {
+          "id": "ndata.help-index.020",
+          "source_sha256": "05a687c87a3edbe35ef0ddd16149f4fc26e813839895ae12b08899907aa41ad0",
+          "translation": "Ser Hunter"
+        },
+        {
+          "id": "ndata.help-index.021",
+          "source_sha256": "da9d5c41138206c8349dbad390050019ae1d9d1dff3528c9645f251a0f1f7d73",
+          "translation": "Dinheiro"
+        },
+        {
+          "id": "ndata.help-index.022",
+          "source_sha256": "641718103277d79da27fbf4fd1dc04cec0af987b60274fa391eff7fcc01a3149",
+          "translation": "Procurados"
+        },
+        {
+          "id": "ndata.help-index.023",
+          "source_sha256": "27445f6ab61d9a5cea1584df4a98277b77e1d091fb67c143d4d40116468dcdec",
+          "translation": "Alvos"
+        },
+        {
+          "id": "ndata.help-index.024",
+          "source_sha256": "0ccb1207e6cff3c5456de5f1a1b4d817b4fa269cea56b6d03107f4fa075b8cf5",
+          "translation": "A pé"
+        },
+        {
+          "id": "ndata.help-index.025",
+          "source_sha256": "7f2465ac7cefab2766e6ee0714647089df9364b0ff09858c84b21b8a436a845d",
+          "translation": "Equipamento"
+        },
+        {
+          "id": "ndata.help-index.026",
+          "source_sha256": "a5fc918683bf9602be66b508a32e2a19f4d59eb866fbc21c8bb3e1d503335d9e",
+          "translation": "Tipos"
+        },
+        {
+          "id": "ndata.help-index.027",
+          "source_sha256": "0fa92731a3c6d5b9e541e59fa7e794b312abfa31ae65489d8e4d0e334aedb400",
+          "translation": "Protetores"
+        },
+        {
+          "id": "ndata.help-index.028",
+          "source_sha256": "fc009166c788a5a2c125780dd56e28c659d2aa445e0bb41ec33e5a2c7f1d729c",
+          "translation": "Satcom"
+        },
+        {
+          "id": "ndata.help-index.029",
+          "source_sha256": "be176b0015c424b78e9f343f8bc3014a7a701cc2eb9000b6acbc04d67dbecb8f",
+          "translation": "Mapa"
+        },
+        {
+          "id": "ndata.help-index.030",
+          "source_sha256": "ae71ba566c6760060a877687a958783ae3d9e941adb2a7864ec34a893ece6b0d",
+          "translation": "Lojas"
+        },
+        {
+          "id": "ndata.help-index.031",
+          "source_sha256": "ffa98e02f7ce33fc935f02b3b668f6ad57661814dade5f41453fbee2b70cdd95",
+          "translation": "Remote"
+        },
+        {
+          "id": "ndata.help-index.032",
+          "source_sha256": "170322a32f3c35b2c61576a5553d352d7b3c8ae7086dab78f15fc891a28c067c",
+          "translation": "Dados"
+        },
+        {
+          "id": "ndata.help-index.033",
+          "source_sha256": "81f16575878f411f316d404008ac7908b58fe71f6cbfc58471036beafd745ff6",
+          "translation": "Caça"
+        },
+        {
+          "id": "ndata.help-index.034",
+          "source_sha256": "c2968326561c6aaddc0409d03b714cfa86f5804bc4d60eaabe98dfed510b7613",
+          "translation": "Procurados"
+        },
+        {
+          "id": "ndata.help-index.035",
+          "source_sha256": "07ed6ccf6bf6393d18684d1d4f774639d44c7d2d2895fd30491ccc50614ed4ea",
+          "translation": "Mensagens"
+        },
+        {
+          "id": "ndata.help-index.036",
+          "source_sha256": "44a57b22e03d9a661c22ffc5ffea51b3e1e33de24a53609e70f690dea8f70872",
+          "translation": "Alerta"
+        },
+        {
+          "id": "ndata.help-index.037",
+          "source_sha256": "6eb00b4b2614a144d41ccdf709017a675953fae2df6cfd6b397bd9e4d8708461",
+          "translation": "Música"
+        },
+        {
+          "id": "ndata.help-index.038",
+          "source_sha256": "d9dae78103ad099379d5d31c54b12de14dd342225794c6f3df11b3c4f67b9e06",
+          "translation": "Jogos"
+        },
+        {
+          "id": "ndata.help-index.039",
+          "source_sha256": "87e89abb4c1c551fe08d355d097f18b8de78edca5f556997085681662fce8eed",
+          "translation": "Ajustes"
+        },
+        {
+          "id": "ndata.help-index.040",
+          "source_sha256": "bc64125d752f42799834eb82cdc0967a265728ba33c0a9fce365bfd300dff964",
+          "translation": "Diário"
+        },
+        {
+          "id": "ndata.help-index.041",
+          "source_sha256": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc",
+          "translation": "Ajuda"
+        },
+        {
+          "id": "ndata.help-index.042",
+          "source_sha256": "66d0f523a379b2de6f8d5fba3a817ebc395f7bcaa54cc132ca9dfa665d1e9378",
+          "translation": "Habilidades"
+        },
+        {
+          "id": "ndata.help-index.043",
+          "source_sha256": "16ee4625bce919a2ec1a3ac9e3168a9e2c5d04a3159fd30539788f175e44b3ba",
+          "translation": "Descrição"
+        },
+        {
+          "id": "ndata.help-index.044",
+          "source_sha256": "e153b6b716089c42f2e8d1b35ef79429bad219c7bca9038e19af167577cac28c",
+          "translation": "Custo"
+        },
+        {
+          "id": "ndata.help-index.045",
+          "source_sha256": "445d922e0e008c35625c75fd17a3ce31e8a914dcbddddfcc178e3f44d92c9ff6",
+          "translation": "Montagem"
+        },
+        {
+          "id": "ndata.help-index.046",
+          "source_sha256": "16ee4625bce919a2ec1a3ac9e3168a9e2c5d04a3159fd30539788f175e44b3ba",
+          "translation": "Descrição"
+        },
+        {
+          "id": "ndata.help-index.047",
+          "source_sha256": "0c0829d3e30125b0e9350631b17c2102c298265645d8252eefdc45831517521a",
+          "translation": "Vantagens"
+        },
+        {
+          "id": "ndata.help-index.048",
+          "source_sha256": "67a025d8b0ecfeff3b2f336ae255a3e939204c4ff822712f2a19eca02963f268",
+          "translation": "Presentes"
+        },
+        {
+          "id": "ndata.help-index.049",
+          "source_sha256": "cc8186cf277416368395fd3807979269cc920ac26b09dab2ee1e63d19390bc87",
+          "translation": "Móveis"
+        },
+        {
+          "id": "ndata.help-index.050",
+          "source_sha256": "5bea3ab36d884792954cfa0f3bae76334d75580b675b56b7877ae8fc3339efa2",
+          "translation": "Roupas"
+        },
+        {
+          "id": "ndata.help-index.051",
+          "source_sha256": "dd1c57d4f4114a8b414f443263b331f64b7a17f3aca9269237778bdc2a4037ee",
+          "translation": "Alpha Series"
+        },
+        {
+          "id": "ndata.help-index.052",
+          "source_sha256": "ae43692b2a310b8ed2443d2b7d2a3e4cf0b6d73115badd72831b3d22381f235f",
+          "translation": "Sistemas"
+        },
+        {
+          "id": "ndata.help-index.053",
+          "source_sha256": "4cc88bbb31923566e8576476201476391def1131f1ecc0162c6a401ae8563ccd",
+          "translation": "Curry"
+        },
+        {
+          "id": "ndata.help-index.054",
+          "source_sha256": "87675db83a32caa1966ce6c94b089aea788ac3635683d9e5827390d4526ef41d",
+          "translation": "Ingredientes"
+        },
+        {
+          "id": "ndata.help-index.055",
+          "source_sha256": "c95356784006777154fdebbc10ec36864b423178e099b73ba653df94e5d129a1",
+          "translation": "Preparo"
+        }
+      ]
+    }
+  },
+  "weapon_terms_policy": "preserve-main-sub-se-v001",
+  "reviewed_changes": []
+}

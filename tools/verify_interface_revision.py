@@ -1,5 +1,6 @@
 """Independent whole-image comparison of two consolidated interface recipes."""
 import argparse
+import hashlib
 import json
 import mmap
 from pathlib import Path
@@ -10,20 +11,26 @@ from build_dialogue_iso import compare_streams
 from disc import entries,SECTOR
 
 
-def compile_recipe(ui_path):
+def compile_recipe(ui_path,dialogue_cache=None):
     ui=json.loads(ui_path.read_text(encoding='utf-8'))
     draft,_=load_draft(ROOT/ui['base_dialogue_draft'])
     if draft.get('layout_profile')!=ui.get('layout_profile'):
         raise ValueError('Recipe layout mismatch')
-    with MAP.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
-        _,patches,report=compile_draft(data,draft)
-    if not report['valid']:raise ValueError('Invalid dialogue recipe')
+    key=hashlib.sha256(json.dumps(draft,sort_keys=True,ensure_ascii=False).encode('utf-8')).hexdigest()
+    cache={} if dialogue_cache is None else dialogue_cache
+    if key not in cache:
+        with MAP.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
+            _,patches,report=compile_draft(data,draft)
+        if not report['valid']:raise ValueError('Invalid dialogue recipe')
+        cache[key]=patches
+    patches=cache[key]
     additions,_=compile_ui(ELF.read_bytes(),ui)
     return ui,patches+additions
 
 
 def verify(old_folder,new_folder,old_recipe,new_recipe):
-    old_ui,old=compile_recipe(old_recipe);new_ui,new=compile_recipe(new_recipe)
+    cache={}
+    old_ui,old=compile_recipe(old_recipe,cache);new_ui,new=compile_recipe(new_recipe,cache)
     if old_ui['layout_profile']!=new_ui['layout_profile']:
         raise ValueError('This comparator requires an unchanged font/layout profile')
     old_patches={(p.get('resource','DATA/MAP/MAP.MCT'),p['offset']):p for p in old}

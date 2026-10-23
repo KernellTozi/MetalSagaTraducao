@@ -1,0 +1,26 @@
+{
+  "old_recipe": "translations/interface-v004.json",
+  "new_recipe": "translations/interface-v005.json",
+  "source_iso_sha256": "672b08b36679c5226a93a07b7074f7c5b11118ae7d0119f4d945d98e8d1db178",
+  "output_iso_sha256": "fa0dc5783fefe0fa9593ba670365f7f5dcdb05288a202bece422acd9b9343434",
+  "iso_size": 1704427520,
+  "changed_bytes": 762,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "ndata.help-index",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227376640,
+      "size": 798
+    },
+    {
+      "id": "elf.ui.0032bd78",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704260984,
+      "size": 21
+    }
+  ],
+  "pcsx2_executed": false
+}

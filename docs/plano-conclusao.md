@@ -115,3 +115,8 @@ Próximos conjuntos: páginas de ajuda HTML em NDATA (ainda bloqueadas), origem 
 ## Interface v004 — ajuda do Satcom
 
 As 44 páginas HTML identificadas foram traduzidas com marcações e imagens preservadas, elevando a interface a 519 campos. MAIN/SUB/SE seguem a regra expressa do usuário; oito diálogos e duas traduções de interface anteriores receberam somente essa revisão terminológica. As páginas têm conferência binária, mas layout, rolagem e quebras automáticas ainda precisam do teste visual consolidado. A próxima etapa permanece na interface: importação fiel dos textos gráficos e localização do conteúdo das mensagens ainda não catalogado, antes de itens e dos fragmentos MAP. Não abrir novamente os pequenos controles opacos por conveniência.
+
+
+## Interface v005 — índice e preparação gráfica
+
+O índice da ajuda agora tem 53 rótulos traduzidos, com 12 categorias e 44 vínculos de tópico preservados; Satcom/Remote/Alpha Series permanecem iguais. Mais um literal de status usa MAIN/SUB/SE em maiúsculas. São 573 campos acumulados, com os textos anteriores intactos. O transporte local de seis texturas foi comprovado por round-trip sem edição e preservação de paletas/alpha/headers. O próximo passo é mapear recortes/UVs e traduzir os rótulos rasterizados; localizar o conteúdo das mensagens segue pendente. A busca ASCII inicial em FD_POST não encontrou frases de correspondência, mas não identifica seu formato nem exclui codificação/compactação. Testes visuais continuam acumulados.

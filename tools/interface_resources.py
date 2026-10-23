@@ -171,6 +171,10 @@ def compile_resources(elf,draft):
         if config.get('help_profile')!=HELP_POLICY:raise ValueError('Unknown help profile')
         help_patches,help_results=compile_help(elf,config['help'])
         patches.extend(help_patches);results.extend(help_results)
+    if config.get('help_index'):
+        from help_index import compile_index
+        index_patches,index_results=compile_index(elf,config['help_index'])
+        patches.extend(index_patches);results.extend(index_results)
     # Independent per-resource readback/reversal; no original bytes are written.
     for resource in (NDATA,DIARY):
         source=original(resource);out=bytearray(source);spans=sorted((p for p in patches if p['resource']==resource),key=lambda p:p['offset'])

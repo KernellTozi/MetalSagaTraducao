@@ -1,0 +1,477 @@
+{
+  "policy": "ndata-help-index-fixed-load-v005",
+  "source_sha256": "19bbb164b321f2c045f7877e8bcf1d7d9ce2eb70ad4216d9986506ceaed910ab",
+  "offset": 17713152,
+  "loaded_bytes": 798,
+  "rows": [
+    {
+      "id": "ndata.help-index.000",
+      "prefix": "2500",
+      "kind": "category",
+      "reference": 2500,
+      "category_row": 0,
+      "source_sha256": "d61f3033cbb6e0b2583eec3cd08b2b913d53f1001109c9baa8db6876a69ef8c0"
+    },
+    {
+      "id": "ndata.help-index.001",
+      "prefix": "\t000",
+      "kind": "page",
+      "reference": 0,
+      "category_row": 0,
+      "source_sha256": "57733079f046e2d3f751dd73b67cf465e63c6d148e23dda8dfbd4253bc1299f6"
+    },
+    {
+      "id": "ndata.help-index.002",
+      "prefix": "\t001",
+      "kind": "page",
+      "reference": 1,
+      "category_row": 0,
+      "source_sha256": "72fa5509b2f9133a3a52feec7bbe360214d4c7d0b559432d57d5960fa1e85e47"
+    },
+    {
+      "id": "ndata.help-index.003",
+      "prefix": "\t002",
+      "kind": "page",
+      "reference": 2,
+      "category_row": 0,
+      "source_sha256": "9d6a95b40e98d36fc745d40e6cc9bef0f3a263cd0dc3bbc516efe383a765d266"
+    },
+    {
+      "id": "ndata.help-index.004",
+      "prefix": "9999",
+      "kind": "category",
+      "reference": 9999,
+      "category_row": 4,
+      "source_sha256": "a62394ba4acc97cd00f78b57e4ff3a1e623525529df2981dea2a3650ba56a77f"
+    },
+    {
+      "id": "ndata.help-index.005",
+      "prefix": "\t005",
+      "kind": "page",
+      "reference": 5,
+      "category_row": 4,
+      "source_sha256": "f43a77c18817f5469cdc2b035a88d862d9825b73d03d3572d9d1ac445bf7ce52"
+    },
+    {
+      "id": "ndata.help-index.006",
+      "prefix": "\t006",
+      "kind": "page",
+      "reference": 6,
+      "category_row": 4,
+      "source_sha256": "36a73cf744af558cc1d6731791424f1128625029d86a2be4a52f26ef749f39ae"
+    },
+    {
+      "id": "ndata.help-index.007",
+      "prefix": "\t007",
+      "kind": "page",
+      "reference": 7,
+      "category_row": 4,
+      "source_sha256": "e4f4ae200b10852b5ffbf896db40c772962fbc94d1fc13537c84f0c6d7a6d1e7"
+    },
+    {
+      "id": "ndata.help-index.008",
+      "prefix": "2502",
+      "kind": "category",
+      "reference": 2502,
+      "category_row": 8,
+      "source_sha256": "3b782428828dd6d141cd5eb1e5ef18bf693db784f3ef6a647e072ab86edf9172"
+    },
+    {
+      "id": "ndata.help-index.009",
+      "prefix": "\t010",
+      "kind": "page",
+      "reference": 10,
+      "category_row": 8,
+      "source_sha256": "aa10f1f23662f0469b3740bcd1943dc53f8677d88f109514684b2c0e590fd5ce"
+    },
+    {
+      "id": "ndata.help-index.010",
+      "prefix": "\t011",
+      "kind": "page",
+      "reference": 11,
+      "category_row": 8,
+      "source_sha256": "b9174527c0321ffa9b696e8db70609e9e387bce02ecea5503152f414a86c6f5d"
+    },
+    {
+      "id": "ndata.help-index.011",
+      "prefix": "\t012",
+      "kind": "page",
+      "reference": 12,
+      "category_row": 8,
+      "source_sha256": "a3102321bbe763454e252a2cda462ccf6cd3edb3c2a33aef72ae1cc214307a44"
+    },
+    {
+      "id": "ndata.help-index.012",
+      "prefix": "\t013",
+      "kind": "page",
+      "reference": 13,
+      "category_row": 8,
+      "source_sha256": "5f0217ea9b994761d28fbe51da5726c98630e0c778d28281576d4880ac22e61b"
+    },
+    {
+      "id": "ndata.help-index.013",
+      "prefix": "2502",
+      "kind": "category",
+      "reference": 2502,
+      "category_row": 13,
+      "source_sha256": "30c41afa8414f053ac878840067143b2af916b2b2f1faa0a0636d5a235d0b651"
+    },
+    {
+      "id": "ndata.help-index.014",
+      "prefix": "\t015",
+      "kind": "page",
+      "reference": 15,
+      "category_row": 13,
+      "source_sha256": "48034545c5326b5cd44273358a884af693903c9438b7ca971e8cd56ffe626ba9"
+    },
+    {
+      "id": "ndata.help-index.015",
+      "prefix": "\t016",
+      "kind": "page",
+      "reference": 16,
+      "category_row": 13,
+      "source_sha256": "169e987b5069c6ca2a3856e3185c33c1008ac5ac2b2faf2ac6aecfe2fdd94b83"
+    },
+    {
+      "id": "ndata.help-index.016",
+      "prefix": "\t017",
+      "kind": "page",
+      "reference": 17,
+      "category_row": 13,
+      "source_sha256": "55cb987f2eb06d9e9651c977fac014afd1bededf447da3cfaf471c8df31be31c"
+    },
+    {
+      "id": "ndata.help-index.017",
+      "prefix": "\t018",
+      "kind": "page",
+      "reference": 18,
+      "category_row": 13,
+      "source_sha256": "f4cbaa1ed5c88f278ba499f3a325920e0697e066ae6b68f29e8863f1c5661168"
+    },
+    {
+      "id": "ndata.help-index.018",
+      "prefix": "\t003",
+      "kind": "page",
+      "reference": 3,
+      "category_row": 13,
+      "source_sha256": "c4fdf6b89bdcabbcb692f511afd5ffa4d10fdc19d3374e5b84b8cb5ac75306d8"
+    },
+    {
+      "id": "ndata.help-index.019",
+      "prefix": "\t004",
+      "kind": "page",
+      "reference": 4,
+      "category_row": 13,
+      "source_sha256": "53e4275d8908289dfc14a86f3b4112d38e24692d20cf93050adb20b9e0cd288c"
+    },
+    {
+      "id": "ndata.help-index.020",
+      "prefix": "2504",
+      "kind": "category",
+      "reference": 2504,
+      "category_row": 20,
+      "source_sha256": "05a687c87a3edbe35ef0ddd16149f4fc26e813839895ae12b08899907aa41ad0"
+    },
+    {
+      "id": "ndata.help-index.021",
+      "prefix": "\t020",
+      "kind": "page",
+      "reference": 20,
+      "category_row": 20,
+      "source_sha256": "da9d5c41138206c8349dbad390050019ae1d9d1dff3528c9645f251a0f1f7d73"
+    },
+    {
+      "id": "ndata.help-index.022",
+      "prefix": "\t021",
+      "kind": "page",
+      "reference": 21,
+      "category_row": 20,
+      "source_sha256": "641718103277d79da27fbf4fd1dc04cec0af987b60274fa391eff7fcc01a3149"
+    },
+    {
+      "id": "ndata.help-index.023",
+      "prefix": "\t022",
+      "kind": "page",
+      "reference": 22,
+      "category_row": 20,
+      "source_sha256": "27445f6ab61d9a5cea1584df4a98277b77e1d091fb67c143d4d40116468dcdec"
+    },
+    {
+      "id": "ndata.help-index.024",
+      "prefix": "\t023",
+      "kind": "page",
+      "reference": 23,
+      "category_row": 20,
+      "source_sha256": "0ccb1207e6cff3c5456de5f1a1b4d817b4fa269cea56b6d03107f4fa075b8cf5"
+    },
+    {
+      "id": "ndata.help-index.025",
+      "prefix": "9999",
+      "kind": "category",
+      "reference": 9999,
+      "category_row": 25,
+      "source_sha256": "7f2465ac7cefab2766e6ee0714647089df9364b0ff09858c84b21b8a436a845d"
+    },
+    {
+      "id": "ndata.help-index.026",
+      "prefix": "\t025",
+      "kind": "page",
+      "reference": 25,
+      "category_row": 25,
+      "source_sha256": "a5fc918683bf9602be66b508a32e2a19f4d59eb866fbc21c8bb3e1d503335d9e"
+    },
+    {
+      "id": "ndata.help-index.027",
+      "prefix": "\t026",
+      "kind": "page",
+      "reference": 26,
+      "category_row": 25,
+      "source_sha256": "0fa92731a3c6d5b9e541e59fa7e794b312abfa31ae65489d8e4d0e334aedb400"
+    },
+    {
+      "id": "ndata.help-index.028",
+      "prefix": "9999",
+      "kind": "category",
+      "reference": 9999,
+      "category_row": 28,
+      "source_sha256": "fc009166c788a5a2c125780dd56e28c659d2aa445e0bb41ec33e5a2c7f1d729c"
+    },
+    {
+      "id": "ndata.help-index.029",
+      "prefix": "\t030",
+      "kind": "page",
+      "reference": 30,
+      "category_row": 28,
+      "source_sha256": "be176b0015c424b78e9f343f8bc3014a7a701cc2eb9000b6acbc04d67dbecb8f"
+    },
+    {
+      "id": "ndata.help-index.030",
+      "prefix": "\t031",
+      "kind": "page",
+      "reference": 31,
+      "category_row": 28,
+      "source_sha256": "ae71ba566c6760060a877687a958783ae3d9e941adb2a7864ec34a893ece6b0d"
+    },
+    {
+      "id": "ndata.help-index.031",
+      "prefix": "\t032",
+      "kind": "page",
+      "reference": 32,
+      "category_row": 28,
+      "source_sha256": "ffa98e02f7ce33fc935f02b3b668f6ad57661814dade5f41453fbee2b70cdd95"
+    },
+    {
+      "id": "ndata.help-index.032",
+      "prefix": "\t033",
+      "kind": "page",
+      "reference": 33,
+      "category_row": 28,
+      "source_sha256": "170322a32f3c35b2c61576a5553d352d7b3c8ae7086dab78f15fc891a28c067c"
+    },
+    {
+      "id": "ndata.help-index.033",
+      "prefix": "\t034",
+      "kind": "page",
+      "reference": 34,
+      "category_row": 28,
+      "source_sha256": "81f16575878f411f316d404008ac7908b58fe71f6cbfc58471036beafd745ff6"
+    },
+    {
+      "id": "ndata.help-index.034",
+      "prefix": "\t035",
+      "kind": "page",
+      "reference": 35,
+      "category_row": 28,
+      "source_sha256": "c2968326561c6aaddc0409d03b714cfa86f5804bc4d60eaabe98dfed510b7613"
+    },
+    {
+      "id": "ndata.help-index.035",
+      "prefix": "\t036",
+      "kind": "page",
+      "reference": 36,
+      "category_row": 28,
+      "source_sha256": "07ed6ccf6bf6393d18684d1d4f774639d44c7d2d2895fd30491ccc50614ed4ea"
+    },
+    {
+      "id": "ndata.help-index.036",
+      "prefix": "\t037",
+      "kind": "page",
+      "reference": 37,
+      "category_row": 28,
+      "source_sha256": "44a57b22e03d9a661c22ffc5ffea51b3e1e33de24a53609e70f690dea8f70872"
+    },
+    {
+      "id": "ndata.help-index.037",
+      "prefix": "\t038",
+      "kind": "page",
+      "reference": 38,
+      "category_row": 28,
+      "source_sha256": "6eb00b4b2614a144d41ccdf709017a675953fae2df6cfd6b397bd9e4d8708461"
+    },
+    {
+      "id": "ndata.help-index.038",
+      "prefix": "\t039",
+      "kind": "page",
+      "reference": 39,
+      "category_row": 28,
+      "source_sha256": "d9dae78103ad099379d5d31c54b12de14dd342225794c6f3df11b3c4f67b9e06"
+    },
+    {
+      "id": "ndata.help-index.039",
+      "prefix": "\t040",
+      "kind": "page",
+      "reference": 40,
+      "category_row": 28,
+      "source_sha256": "87e89abb4c1c551fe08d355d097f18b8de78edca5f556997085681662fce8eed"
+    },
+    {
+      "id": "ndata.help-index.040",
+      "prefix": "\t041",
+      "kind": "page",
+      "reference": 41,
+      "category_row": 28,
+      "source_sha256": "bc64125d752f42799834eb82cdc0967a265728ba33c0a9fce365bfd300dff964"
+    },
+    {
+      "id": "ndata.help-index.041",
+      "prefix": "\t042",
+      "kind": "page",
+      "reference": 42,
+      "category_row": 28,
+      "source_sha256": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc"
+    },
+    {
+      "id": "ndata.help-index.042",
+      "prefix": "2507",
+      "kind": "category",
+      "reference": 2507,
+      "category_row": 42,
+      "source_sha256": "66d0f523a379b2de6f8d5fba3a817ebc395f7bcaa54cc132ca9dfa665d1e9378"
+    },
+    {
+      "id": "ndata.help-index.043",
+      "prefix": "\t045",
+      "kind": "page",
+      "reference": 45,
+      "category_row": 42,
+      "source_sha256": "16ee4625bce919a2ec1a3ac9e3168a9e2c5d04a3159fd30539788f175e44b3ba"
+    },
+    {
+      "id": "ndata.help-index.044",
+      "prefix": "\t046",
+      "kind": "page",
+      "reference": 46,
+      "category_row": 42,
+      "source_sha256": "e153b6b716089c42f2e8d1b35ef79429bad219c7bca9038e19af167577cac28c"
+    },
+    {
+      "id": "ndata.help-index.045",
+      "prefix": "2508",
+      "kind": "category",
+      "reference": 2508,
+      "category_row": 45,
+      "source_sha256": "445d922e0e008c35625c75fd17a3ce31e8a914dcbddddfcc178e3f44d92c9ff6"
+    },
+    {
+      "id": "ndata.help-index.046",
+      "prefix": "\t050",
+      "kind": "page",
+      "reference": 50,
+      "category_row": 45,
+      "source_sha256": "16ee4625bce919a2ec1a3ac9e3168a9e2c5d04a3159fd30539788f175e44b3ba"
+    },
+    {
+      "id": "ndata.help-index.047",
+      "prefix": "\t008",
+      "kind": "page",
+      "reference": 8,
+      "category_row": 45,
+      "source_sha256": "0c0829d3e30125b0e9350631b17c2102c298265645d8252eefdc45831517521a"
+    },
+    {
+      "id": "ndata.help-index.048",
+      "prefix": "2509",
+      "kind": "category",
+      "reference": 2509,
+      "category_row": 48,
+      "source_sha256": "67a025d8b0ecfeff3b2f336ae255a3e939204c4ff822712f2a19eca02963f268"
+    },
+    {
+      "id": "ndata.help-index.049",
+      "prefix": "\t055",
+      "kind": "page",
+      "reference": 55,
+      "category_row": 48,
+      "source_sha256": "cc8186cf277416368395fd3807979269cc920ac26b09dab2ee1e63d19390bc87"
+    },
+    {
+      "id": "ndata.help-index.050",
+      "prefix": "\t056",
+      "kind": "page",
+      "reference": 56,
+      "category_row": 48,
+      "source_sha256": "5bea3ab36d884792954cfa0f3bae76334d75580b675b56b7877ae8fc3339efa2"
+    },
+    {
+      "id": "ndata.help-index.051",
+      "prefix": "2510",
+      "kind": "category",
+      "reference": 2510,
+      "category_row": 51,
+      "source_sha256": "dd1c57d4f4114a8b414f443263b331f64b7a17f3aca9269237778bdc2a4037ee"
+    },
+    {
+      "id": "ndata.help-index.052",
+      "prefix": "\t060",
+      "kind": "page",
+      "reference": 60,
+      "category_row": 51,
+      "source_sha256": "ae43692b2a310b8ed2443d2b7d2a3e4cf0b6d73115badd72831b3d22381f235f"
+    },
+    {
+      "id": "ndata.help-index.053",
+      "prefix": "2511",
+      "kind": "category",
+      "reference": 2511,
+      "category_row": 53,
+      "source_sha256": "4cc88bbb31923566e8576476201476391def1131f1ecc0162c6a401ae8563ccd"
+    },
+    {
+      "id": "ndata.help-index.054",
+      "prefix": "\t009",
+      "kind": "page",
+      "reference": 9,
+      "category_row": 53,
+      "source_sha256": "87675db83a32caa1966ce6c94b089aea788ac3635683d9e5827390d4526ef41d"
+    },
+    {
+      "id": "ndata.help-index.055",
+      "prefix": "\t014",
+      "kind": "page",
+      "reference": 14,
+      "category_row": 53,
+      "source_sha256": "c95356784006777154fdebbc10ec36864b423178e099b73ba653df94e5d129a1"
+    }
+  ],
+  "instruction_windows": [
+    {
+      "offset": 865740,
+      "end": 865776,
+      "sha256": "ba02d0936241914dcd95ffc2719e738d5b9914f09df24c3a791cfa72b026209b"
+    },
+    {
+      "offset": 865792,
+      "end": 866256,
+      "sha256": "6d2d868bf93c20a84a6ed94c436518c27f0e3d2b1d9fa2d4994d25c5c5a15345"
+    }
+  ],
+  "source_resource": "DATA/NDATA/NDATA.SDA",
+  "source_resource_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+  "source_elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "categories": 12,
+  "pages": 44,
+  "translated_labels": 53,
+  "preserved_labels": 3,
+  "analysis": "Static instruction review; no PCSX2 execution",
+  "validation": "IDs and grouping match; all 44 page numbers bind to known page descriptor slots"
+}

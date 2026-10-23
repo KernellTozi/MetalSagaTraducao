@@ -4,13 +4,13 @@ Tradução por modificação dos recursos do jogo original para execução no PC
 Projeto independente de recompilação nativa. Não distribui arquivos do jogo, BIOS ou emulador.
 
 Prioridade atual: **HUD, Satcom, mensagens e menus**, depois itens; os pequenos
-fragmentos restantes de MAP.MCT ficam para o final. O primeiro lote de interface
-soma **519 campos de interface** (46 novos nesta rodada, incluindo 44 páginas de ajuda) à base de diálogos v030, mantendo o layout v005.
+fragmentos restantes de MAP.MCT ficam para o final. O lote atual de interface
+soma **573 campos de interface** (54 novos nesta rodada, incluindo 53 rótulos da ajuda) à base de diálogos v030, mantendo o layout v005.
 **`Preparar-Interface.cmd`** valida localmente; **`Testar-Interface.cmd`** ou
 **`Iniciar-Teste.cmd`** abre a imagem consolidada. A execução visual dessa nova
 interface está pendente. O lote inclui mensagens de Memory Card, diário e estatísticas.
 Alguns títulos são imagens e ainda permanecem em inglês.
-[Escopo, reprodução e roteiro de teste](docs/interface-v004.md).
+[Escopo, reprodução e roteiro de teste](docs/interface-v005.md).
 
 A **alpha v001 está preservada** em `dist/alpha-v001/MetalSaga-ptbr-alpha-v001.iso`,
 fora da retenção, somente leitura e conferida por hash. Ela contém a interface v001

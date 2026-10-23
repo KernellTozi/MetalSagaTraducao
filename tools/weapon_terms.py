@@ -13,6 +13,8 @@ def validate(source,target):
     for term,pattern in rules.items():
         needed=len(re.findall(pattern,source))
         if source.strip() in ('Main','Sub') and source.strip().upper()==term:needed=1
+        if not needed and term in ('MAIN','SUB') and re.search(r'\bmain vs\.? sub\b',source,re.IGNORECASE):needed=1
+        if not needed and term in ('MAIN','SUB') and re.search(r'\b'+term+r'\s+%d',source,re.IGNORECASE):needed=1
         actual=len(re.findall(r'(?<!\w)'+term+r'(?:s)?(?!\w)',target))
         if actual<needed:issues.append(f'Categoria de armamento deve permanecer {term} ({actual}/{needed})')
     return issues
