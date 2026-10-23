@@ -36,7 +36,18 @@ def verify(old_folder,new_folder,old_recipe,new_recipe):
     old_patches={(p.get('resource','DATA/MAP/MAP.MCT'),p['offset']):p for p in old}
     new_patches={(p.get('resource','DATA/MAP/MAP.MCT'),p['offset']):p for p in new}
     if len(old_patches)!=len(old) or len(new_patches)!=len(new):raise ValueError('Duplicate patch')
-    if old_patches.keys()-new_patches.keys():raise ValueError('Prior patch dropped')
+    dropped=old_patches.keys()-new_patches.keys()
+    restorations=new_ui.get('restored_originals',[])
+    previous_restorations=set(old_ui.get('restored_originals',[]))
+    if (len(restorations)!=len(set(restorations)) or not previous_restorations<=set(restorations)
+        or {old_patches[k]['id'] for k in dropped}!=set(restorations)-previous_restorations):
+        raise ValueError('Prior patch dropped without exact restoration ledger')
+    for key in dropped:
+        prior=old_patches[key]
+        if key[0]!='SLUS_212.93' or not prior['id'].startswith('elf.ui.'):
+            raise ValueError('Only fixed ELF UI strings can be restored')
+        new_patches[key]={**prior,'after':prior['before']}
+
     reports=[json.loads((folder/'relatorio.json').read_text(encoding='utf-8')) for folder in (old_folder,new_folder)]
     if not all(r['valid'] and 'iso' in r for r in reports):raise ValueError('Incomplete build')
     images=[folder/r['iso']['image_name'] for folder,r in zip((old_folder,new_folder),reports)]

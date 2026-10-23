@@ -1,5 +1,5 @@
 @echo off
 cd /d "%~dp0"
-python tools\interface_graphics.py --recipe translations\interface-graphics-v007.json
+python tools\interface_graphics.py --recipe translations\interface-graphics-v009.json
 if errorlevel 1 echo Falha na composicao. Nenhuma ISO foi alterada.
 pause

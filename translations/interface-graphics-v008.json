@@ -1,0 +1,140 @@
+{
+  "policy": "title-uniform-labels-visible-credit-v008",
+  "parent": {
+    "recipe": "translations/interface-graphics-v007.json",
+    "sha256": "974b3fcc6c5d8c5ac99eef544c904d6a64f8c44d65d524c76355bd6755f63602"
+  },
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "reviewed_artwork": {
+    "labels": [
+      {
+        "index": 0,
+        "translation": "NOVO JOGO",
+        "width": 167,
+        "mask_sha256": "b0250e8da834d70a5525a02676f2227f95a08160860a6705f7b999181d84df50"
+      },
+      {
+        "index": 1,
+        "translation": "RETOMAR",
+        "width": 138,
+        "mask_sha256": "01c4c8fe1efdf301a7778b4c078c5a15815b52ef806ca779eff14aaf9b949b87"
+      },
+      {
+        "index": 2,
+        "translation": "INSTALAR",
+        "width": 140,
+        "mask_sha256": "d5a71ed5c91ec9fac2de11d4ba6fbc52a8b14395a41a26a1ce73b67d1bd68619"
+      }
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        180,
+        24,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        128,
+        256,
+        256,
+        128,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        180,
+        48,
+        90,
+        12,
+        0,
+        0
+      ],
+      [
+        240,
+        0,
+        245,
+        4,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        228,
+        88,
+        114,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        88,
+        228,
+        128,
+        114,
+        22,
+        0,
+        0
+      ]
+    ],
+    "credit": {
+      "text": "Traduzido por: Kernell Tozi",
+      "texture_rect": [
+        55,
+        240,
+        201,
+        254
+      ],
+      "screen_rect": [
+        247,
+        430,
+        393,
+        444
+      ],
+      "mask_sha256": "a751249089bbc67fc6b3f6fb5e12c20f025f7d0f6cc62926487f42a1abfbe1e3",
+      "height": 14,
+      "layout": {
+        "natural_width": 144,
+        "rendered_width": 144,
+        "height": 12,
+        "horizontal_scale": 1.0
+      },
+      "inherits_continue_tint_and_visibility": true
+    },
+    "font": {
+      "file": "ariblk.ttf",
+      "sha256": "10df702864b1f89cb29ba0d6b97c04228338d16807e13e8d8c74b91aba5e5f23",
+      "size": 24,
+      "supersampling": 4,
+      "horizontal_rescale": false
+    },
+    "menu_positions": {
+      "two_options": [
+        296,
+        330
+      ],
+      "three_options": [
+        296,
+        330,
+        364
+      ],
+      "credit_screen_rect": [
+        247,
+        430,
+        393,
+        444
+      ]
+    }
+  }
+}

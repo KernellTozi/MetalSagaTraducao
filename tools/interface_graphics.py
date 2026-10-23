@@ -124,6 +124,12 @@ def render(record,row):
 
 
 def compile_graphics(config):
+    if config.get('policy') == 'title-native-separated-labels-credit-v009':
+        from title_authentic import compile_authentic
+        return compile_authentic(config)
+    if config.get('policy') == 'title-uniform-labels-visible-credit-v008':
+        from title_revision import compile_revision
+        return compile_revision(config)
     if config.get('policy') == 'title-credit-and-raster-v007':
         from title_credit import compile_credit
         return compile_credit(config)

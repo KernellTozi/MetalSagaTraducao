@@ -1,0 +1,200 @@
+{
+  "old_recipe": "translations/interface-v011.json",
+  "new_recipe": "translations/interface-v013.json",
+  "source_iso_sha256": "de08838897a3ceda7b9066b10fc3b1344cfd6d1ca2fa5a8d6dc4e5c5771c7849",
+  "output_iso_sha256": "28c941ebea3c9a587495175f9fea1638cfacb0ed9e93427c5192666950e81d12",
+  "iso_size": 1704427520,
+  "changed_bytes": 11322,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "title.texture.0",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "iso_offset": 1241078832,
+      "size": 65536
+    },
+    {
+      "id": "title.frames",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "iso_offset": 1241144384,
+      "size": 96
+    },
+    {
+      "id": "title.position.393bc",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701170108,
+      "size": 4
+    },
+    {
+      "id": "title.position.393c8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701170120,
+      "size": 4
+    },
+    {
+      "id": "battle.ptbr-advance",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701509304,
+      "size": 552
+    },
+    {
+      "id": "elf.ui.00323a00",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704227328,
+      "size": 11
+    },
+    {
+      "id": "elf.ui.00323a58",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704227416,
+      "size": 20
+    },
+    {
+      "id": "elf.ui.00323cc0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228032,
+      "size": 30
+    },
+    {
+      "id": "elf.ui.00323ce0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228064,
+      "size": 29
+    },
+    {
+      "id": "elf.ui.00323d00",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228096,
+      "size": 31
+    },
+    {
+      "id": "elf.ui.00323d20",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228128,
+      "size": 37
+    },
+    {
+      "id": "elf.ui.00323d48",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228168,
+      "size": 31
+    },
+    {
+      "id": "elf.ui.00323d68",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228200,
+      "size": 19
+    },
+    {
+      "id": "elf.ui.00323d80",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228224,
+      "size": 29
+    },
+    {
+      "id": "elf.ui.00323da0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228256,
+      "size": 26
+    },
+    {
+      "id": "elf.ui.00323dc0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228288,
+      "size": 31
+    },
+    {
+      "id": "elf.ui.00323de0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228320,
+      "size": 18
+    },
+    {
+      "id": "elf.ui.00323df8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228344,
+      "size": 30
+    },
+    {
+      "id": "elf.ui.00323e18",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228376,
+      "size": 23
+    },
+    {
+      "id": "elf.ui.00323e30",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228400,
+      "size": 30
+    },
+    {
+      "id": "elf.ui.00323e50",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228432,
+      "size": 29
+    },
+    {
+      "id": "elf.ui.00323e70",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228464,
+      "size": 31
+    },
+    {
+      "id": "elf.ui.00323e90",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228496,
+      "size": 28
+    },
+    {
+      "id": "elf.ui.00323eb0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228528,
+      "size": 33
+    },
+    {
+      "id": "elf.ui.00323ed8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228568,
+      "size": 27
+    },
+    {
+      "id": "elf.ui.00323ef8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228600,
+      "size": 27
+    },
+    {
+      "id": "elf.ui.00323f18",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228632,
+      "size": 34
+    },
+    {
+      "id": "elf.ui.00323f40",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228672,
+      "size": 24
+    },
+    {
+      "id": "elf.ui.00323f58",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228696,
+      "size": 26
+    },
+    {
+      "id": "elf.ui.00323f78",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704228728,
+      "size": 22
+    },
+    {
+      "id": "elf.ui.0033d770",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704333168,
+      "size": 18
+    }
+  ],
+  "pcsx2_executed": false
+}

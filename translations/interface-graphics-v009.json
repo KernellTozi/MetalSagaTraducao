@@ -1,0 +1,135 @@
+{
+  "policy": "title-native-separated-labels-credit-v009",
+  "parent": {
+    "recipe": "translations/interface-graphics-v008.json",
+    "sha256": "4896315de32ad9d4610026f0d5b89d93f96ff06ec53bc079bf210614c2ec6bc5"
+  },
+  "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+  "reviewed_artwork": {
+    "labels": [
+      {
+        "index": 0,
+        "translation": "NOVO JOGO",
+        "width": 197,
+        "mask_sha256": "24ba7a76d045e44ff918cc2f995d51c26a7a44a8b017d145d839dfe5a6823c9f"
+      },
+      {
+        "index": 1,
+        "translation": "RETOMAR",
+        "width": 166,
+        "mask_sha256": "588ad3954e08c23640ef075e014b5e5726992870026f1d60819d4c30f1745013"
+      },
+      {
+        "index": 2,
+        "translation": "INSTALAR",
+        "width": 172,
+        "mask_sha256": "b06214926374c0a40b7ffa4fc30c7c3ffef7a77c1ca77e80039ff785c2638cd5"
+      }
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        228,
+        24,
+        114,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        128,
+        256,
+        256,
+        128,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        228,
+        48,
+        114,
+        12,
+        0,
+        0
+      ],
+      [
+        240,
+        0,
+        245,
+        4,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        228,
+        88,
+        114,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        88,
+        228,
+        128,
+        114,
+        22,
+        0,
+        0
+      ]
+    ],
+    "native_letters_preserved": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "L",
+      "M",
+      "N",
+      "O",
+      "S",
+      "T",
+      "U",
+      "W"
+    ],
+    "constructed_letters": [
+      "V",
+      "J",
+      "R"
+    ],
+    "horizontal_rescale": false,
+    "interglyph_gap": 1,
+    "credit": {
+      "text": "Traduzido por: Kernell Tozi",
+      "texture_rect": [
+        34,
+        238,
+        222,
+        254
+      ],
+      "screen_rect": [
+        226,
+        428,
+        414,
+        444
+      ],
+      "mask_sha256": "4e72e095de176ecb9b56febd08f80957f1c5da1d1777e1fc2094505a59943060",
+      "font_file": "ARLRDBD.TTF",
+      "font_sha256": "d9352e7d73711f006a27f44e71808a74fec109e2342e680e054c4458569f0a94",
+      "body_size": 14,
+      "outline_pixels": 1,
+      "inherits_continue_tint_and_visibility": true
+    }
+  }
+}

@@ -152,6 +152,9 @@ def compile_draft(data,draft):
             if any(q['resource']==p['resource'] and max(p['offset'],q['offset'])<min(p['offset']+len(p['before']),q['offset']+len(q['before'])) for q in patches):
                 raise ValueError('Name entry patches overlap prior interface fields')
             patches.append(p)
+    if draft.get('battle_spacing'):
+        from battle_font_advance import elf_patch
+        patches.append(elf_patch(data,draft['battle_spacing']))
     graphics_report={'accepted':0}
     if draft.get('graphics'):
         binding=draft['graphics'];path=(ROOT/binding['recipe']).resolve()
@@ -165,6 +168,9 @@ def compile_draft(data,draft):
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         'graphic_labels':graphics_report,
         **({'name_entry':name_report} if draft.get('name_entry') else {}),
+        **({'battle_spacing':{'policy':draft['battle_spacing']['policy'], 'codes':18,
+            'advance':'Existing ASCII half-cell; glyph dispatch and input bytes preserved',
+            'runtime_visual_status':'pending_user_verification'}} if draft.get('battle_spacing') else {}),
         'elf_size_unchanged':True,'addresses_and_pointers_unchanged':True,'reverse_roundtrip':True,
         'runtime_visual_status':'pending_user_verification','results':metadata}
 
