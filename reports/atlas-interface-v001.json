@@ -1,0 +1,4677 @@
+{
+  "schema": 1,
+  "policy": "read-only-known-sda-atlas-discovery-v001",
+  "preview": "RGB only; raw PS2 alpha not normalized; no edit/import authority",
+  "uv_associations": "not inferred from record adjacency",
+  "resources": [
+    {
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+      "records": [
+        {
+          "node_offset": 0,
+          "entry": 0,
+          "offset": 32,
+          "size": 66576,
+          "sha256": "f7e4a5e9afcf21064b0da9965aafa82d7f5f5375f3945c4b6dcd036eff521f5c",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "RTITLE-0-000.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 1,
+          "offset": 66608,
+          "size": 112,
+          "sha256": "44900a3e4595a4954cdbff33eb616e99d901bc172b65173983f22d1cb536309c",
+          "kind": "ganm",
+          "count": 6,
+          "stride": 16,
+          "declared_size": 112,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                0,
+                0,
+                180,
+                24
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                32
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                0,
+                24,
+                180,
+                48
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                32
+              ]
+            },
+            {
+              "index": 2,
+              "rect": [
+                0,
+                48,
+                180,
+                72
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                32
+              ]
+            },
+            {
+              "index": 3,
+              "rect": [
+                1,
+                74,
+                6,
+                78
+              ],
+              "hotspot": [
+                1,
+                1
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                32
+              ]
+            },
+            {
+              "index": 4,
+              "rect": [
+                0,
+                96,
+                228,
+                136
+              ],
+              "hotspot": [
+                114,
+                22
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                32
+              ]
+            },
+            {
+              "index": 5,
+              "rect": [
+                0,
+                136,
+                228,
+                176
+              ],
+              "hotspot": [
+                114,
+                22
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                32
+              ]
+            }
+          ]
+        }
+      ],
+      "contact_sheets": [
+        "RTITLE-sheet-00.png"
+      ],
+      "counts": {
+        "texture": 1,
+        "ganm": 1,
+        "unknown": 0
+      },
+      "visual_inspection": "eight contact sheets inspected locally; not PCSX2"
+    },
+    {
+      "resource": "DATA/FDATA/FNAME_DT.SDA",
+      "source_sha256": "2b009179ceaa08f0f048997abb606da354773ec9a0f8802a27a30741de667d24",
+      "records": [
+        {
+          "node_offset": 0,
+          "entry": 0,
+          "offset": 64,
+          "size": 17472,
+          "sha256": "7df28366ab71f610d6cb0a7aa115dec118e7ee2a7310ca04abede8d29cf7fc2a",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 48
+          },
+          "index_roundtrip": true,
+          "preview": "FNAME_DT-0-000.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 1,
+          "offset": 17536,
+          "size": 2112,
+          "sha256": "e1a75de8e7e9a4de937c91305678e01ba6fecc8d20fcec7c2f0d484b18c46074",
+          "kind": "texture",
+          "texture": {
+            "width": 32,
+            "height": 32,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 1024,
+            "trailing_bytes": 48
+          },
+          "index_roundtrip": true,
+          "preview": "FNAME_DT-0-001.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 2,
+          "offset": 19648,
+          "size": 263232,
+          "sha256": "e94d53c4c2ef32c86ffaf32921e964b07196831fcb7c5cba7d829cf9f7f68c7b",
+          "kind": "texture",
+          "texture": {
+            "width": 512,
+            "height": 512,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 262144,
+            "trailing_bytes": 48
+          },
+          "index_roundtrip": true,
+          "preview": "FNAME_DT-0-002.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 3,
+          "offset": 282880,
+          "size": 263232,
+          "sha256": "fba448b53bd87a26e249d8ccda0fdfa34ba40804bdae9f34558e450012e9307e",
+          "kind": "texture",
+          "texture": {
+            "width": 512,
+            "height": 512,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 262144,
+            "trailing_bytes": 48
+          },
+          "index_roundtrip": true,
+          "preview": "FNAME_DT-0-003.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 4,
+          "offset": 546112,
+          "size": 5184,
+          "sha256": "5f6b1bef636273dceca189473c6fb672b4ee1d9babfabde98fee49f2c6b2e88a",
+          "kind": "texture",
+          "texture": {
+            "width": 64,
+            "height": 64,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 4096,
+            "trailing_bytes": 48
+          },
+          "index_roundtrip": true,
+          "preview": "FNAME_DT-0-004.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 5,
+          "offset": 551296,
+          "size": 640,
+          "sha256": "16787bc21c1cb3d6a96c7877fb6cdab37fa4b8b7c44df1fa7024c9e8ad283f3a",
+          "kind": "ganm",
+          "count": 36,
+          "stride": 16,
+          "declared_size": 592,
+          "trailing_bytes": 48,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                280,
+                0,
+                368,
+                24
+              ],
+              "hotspot": [
+                13,
+                9
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                376,
+                0,
+                464,
+                24
+              ],
+              "hotspot": [
+                -83,
+                27
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 2,
+              "rect": [
+                312,
+                24,
+                338,
+                50
+              ],
+              "hotspot": [
+                -14,
+                30
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 3,
+              "rect": [
+                0,
+                248,
+                296,
+                304
+              ],
+              "hotspot": [
+                148,
+                28
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 4,
+              "rect": [
+                0,
+                0,
+                136,
+                136
+              ],
+              "hotspot": [
+                68,
+                68
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 5,
+              "rect": [
+                0,
+                304,
+                312,
+                352
+              ],
+              "hotspot": [
+                156,
+                24
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 6,
+              "rect": [
+                0,
+                352,
+                312,
+                400
+              ],
+              "hotspot": [
+                156,
+                24
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 7,
+              "rect": [
+                0,
+                136,
+                312,
+                192
+              ],
+              "hotspot": [
+                156,
+                28
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 8,
+              "rect": [
+                0,
+                192,
+                312,
+                248
+              ],
+              "hotspot": [
+                156,
+                28
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 9,
+              "rect": [
+                384,
+                32,
+                505,
+                64
+              ],
+              "hotspot": [
+                -16,
+                121
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 10,
+              "rect": [
+                384,
+                68,
+                505,
+                100
+              ],
+              "hotspot": [
+                -16,
+                117
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 11,
+              "rect": [
+                384,
+                104,
+                505,
+                136
+              ],
+              "hotspot": [
+                -16,
+                113
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 12,
+              "rect": [
+                384,
+                140,
+                505,
+                172
+              ],
+              "hotspot": [
+                -16,
+                109
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 13,
+              "rect": [
+                384,
+                176,
+                505,
+                208
+              ],
+              "hotspot": [
+                -16,
+                105
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 14,
+              "rect": [
+                384,
+                212,
+                505,
+                244
+              ],
+              "hotspot": [
+                -16,
+                101
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 15,
+              "rect": [
+                137,
+                404,
+                149,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 16,
+              "rect": [
+                29,
+                404,
+                41,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 17,
+              "rect": [
+                41,
+                404,
+                53,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 18,
+              "rect": [
+                53,
+                404,
+                65,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 19,
+              "rect": [
+                65,
+                404,
+                77,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 20,
+              "rect": [
+                77,
+                404,
+                89,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 21,
+              "rect": [
+                89,
+                404,
+                101,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 22,
+              "rect": [
+                101,
+                404,
+                113,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 23,
+              "rect": [
+                113,
+                404,
+                125,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 24,
+              "rect": [
+                125,
+                404,
+                137,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 25,
+              "rect": [
+                5,
+                404,
+                17,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 26,
+              "rect": [
+                17,
+                404,
+                29,
+                424
+              ],
+              "hotspot": [
+                6,
+                10
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 27,
+              "rect": [
+                136,
+                0,
+                280,
+                112
+              ],
+              "hotspot": [
+                72,
+                56
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 28,
+              "rect": [
+                280,
+                24,
+                306,
+                50
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 29,
+              "rect": [
+                384,
+                256,
+                505,
+                288
+              ],
+              "hotspot": [
+                -16,
+                89
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 30,
+              "rect": [
+                384,
+                292,
+                505,
+                324
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 31,
+              "rect": [
+                384,
+                328,
+                505,
+                360
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 32,
+              "rect": [
+                384,
+                364,
+                505,
+                396
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 33,
+              "rect": [
+                384,
+                400,
+                505,
+                432
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 34,
+              "rect": [
+                384,
+                436,
+                505,
+                468
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 35,
+              "rect": [
+                280,
+                58,
+                316,
+                84
+              ],
+              "hotspot": [
+                18,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 6,
+          "offset": 551936,
+          "size": 64,
+          "sha256": "460c3eecc7cc8aec4c292207f217a077d5030d44218ed81ff28e5ef80a312949",
+          "kind": "ganm",
+          "count": 2,
+          "stride": 16,
+          "declared_size": 48,
+          "trailing_bytes": 16,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                0,
+                0,
+                312,
+                248
+              ],
+              "hotspot": [
+                156,
+                124
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                0,
+                248,
+                312,
+                496
+              ],
+              "hotspot": [
+                156,
+                124
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                19648,
+                282880
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 7,
+          "offset": 552000,
+          "size": 6080,
+          "sha256": "48be8fa6b224e67e209f10371ee1fc53241f24187855b60024e9b9aafc6f1b96",
+          "kind": "unknown",
+          "reason": "not a supported texture/GANM"
+        },
+        {
+          "node_offset": 0,
+          "entry": 8,
+          "offset": 558080,
+          "size": 192,
+          "sha256": "45533bfc914bd44127121c39211bb9184c671665bbd45c3da7021ea05096de07",
+          "kind": "unknown",
+          "reason": "not a supported texture/GANM"
+        }
+      ],
+      "contact_sheets": [
+        "FNAME_DT-sheet-00.png"
+      ],
+      "counts": {
+        "texture": 5,
+        "ganm": 2,
+        "unknown": 2
+      },
+      "visual_inspection": "eight contact sheets inspected locally; not PCSX2"
+    },
+    {
+      "resource": "DATA/FDATA/F_COMMON.SDA",
+      "source_sha256": "4b2762a8444c8d609cfeed96c3854d45c04f18a68187a769a9f29cf84680973f",
+      "records": [
+        {
+          "node_offset": 0,
+          "entry": 0,
+          "offset": 64,
+          "size": 17424,
+          "sha256": "751539ed5b0d495544c2da8b32428b5147a4a3a3b3b43ca86088fc83bc9743a1",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-000.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 1,
+          "offset": 17488,
+          "size": 32848,
+          "sha256": "a920ad832e1bcab80d6e09735992d0a47df31e88d49a26ca9a5d8685382f2a6b",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-001.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 2,
+          "offset": 50336,
+          "size": 32848,
+          "sha256": "ab1ff9d9ae092f53bd150c00fad9e86f1f71dafa260d73eb6705fd572bf90b65",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-002.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 3,
+          "offset": 83184,
+          "size": 16464,
+          "sha256": "134c7f9e11960644eacda3dd3c515e6534cb080447c0245e5f1e9d3d4536ea37",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-003.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 4,
+          "offset": 99648,
+          "size": 24656,
+          "sha256": "5cbdcca0f074d7673bf1e603cbc741f5ff4adf76e6c16b5881a8cd9ad4d13812",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 192,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 24576,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-004.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 5,
+          "offset": 124304,
+          "size": 24656,
+          "sha256": "ec48bda4d1a646307e8d177462c3b7c4f642fb4c85a8a93f2a6a7f785902baf0",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 192,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 24576,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-005.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 6,
+          "offset": 148960,
+          "size": 12368,
+          "sha256": "f0cd81006f68fc0f0ffe88cee2d039481d4ba23b7249c122b1435619705481a4",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 192,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 12288,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-006.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 7,
+          "offset": 161328,
+          "size": 5136,
+          "sha256": "e3383c0da15347088899f25455b6b879251ab5e0853a7ac397fb7229d2072a20",
+          "kind": "texture",
+          "texture": {
+            "width": 64,
+            "height": 64,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 4096,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-007.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 8,
+          "offset": 166464,
+          "size": 5136,
+          "sha256": "0db4769ee8d07119f6e2c1e1ec33a51ebb2db0b21cc96b70db3723a80294613f",
+          "kind": "texture",
+          "texture": {
+            "width": 64,
+            "height": 64,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 4096,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "F_COMMON-0-008.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 9,
+          "offset": 171600,
+          "size": 336,
+          "sha256": "2bff047c050f9b8c3b15df3b0b5e4246cbddec4e9a61a4a6d8efc72460dec1d8",
+          "kind": "ganm",
+          "count": 20,
+          "stride": 16,
+          "declared_size": 336,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                0,
+                0,
+                27,
+                27
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960,
+                161328,
+                166464
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                28,
+                0,
+                55,
+                27
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960,
+                161328,
+                166464
+              ]
+            },
+            {
+              "index": 2,
+              "rect": [
+                56,
+                0,
+                83,
+                27
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 3,
+              "rect": [
+                84,
+                0,
+                111,
+                27
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 4,
+              "rect": [
+                0,
+                28,
+                26,
+                54
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960,
+                161328,
+                166464
+              ]
+            },
+            {
+              "index": 5,
+              "rect": [
+                26,
+                28,
+                52,
+                54
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960,
+                161328,
+                166464
+              ]
+            },
+            {
+              "index": 6,
+              "rect": [
+                52,
+                28,
+                78,
+                54
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 7,
+              "rect": [
+                78,
+                28,
+                104,
+                54
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 8,
+              "rect": [
+                0,
+                54,
+                26,
+                80
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 9,
+              "rect": [
+                26,
+                54,
+                52,
+                80
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 10,
+              "rect": [
+                52,
+                54,
+                78,
+                80
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 11,
+              "rect": [
+                78,
+                54,
+                104,
+                80
+              ],
+              "hotspot": [
+                13,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 12,
+              "rect": [
+                0,
+                108,
+                25,
+                126
+              ],
+              "hotspot": [
+                12,
+                9
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 13,
+              "rect": [
+                28,
+                108,
+                53,
+                126
+              ],
+              "hotspot": [
+                12,
+                9
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 14,
+              "rect": [
+                56,
+                108,
+                81,
+                126
+              ],
+              "hotspot": [
+                12,
+                9
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 15,
+              "rect": [
+                84,
+                108,
+                109,
+                126
+              ],
+              "hotspot": [
+                12,
+                9
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 16,
+              "rect": [
+                0,
+                80,
+                25,
+                105
+              ],
+              "hotspot": [
+                12,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 17,
+              "rect": [
+                25,
+                80,
+                50,
+                105
+              ],
+              "hotspot": [
+                12,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 18,
+              "rect": [
+                52,
+                80,
+                88,
+                106
+              ],
+              "hotspot": [
+                18,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            },
+            {
+              "index": 19,
+              "rect": [
+                88,
+                80,
+                127,
+                106
+              ],
+              "hotspot": [
+                19,
+                13
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                64,
+                17488,
+                50336,
+                83184,
+                99648,
+                124304,
+                148960
+              ]
+            }
+          ]
+        }
+      ],
+      "contact_sheets": [
+        "F_COMMON-sheet-00.png"
+      ],
+      "counts": {
+        "texture": 9,
+        "ganm": 1,
+        "unknown": 0
+      },
+      "visual_inspection": "eight contact sheets inspected locally; not PCSX2"
+    },
+    {
+      "resource": "DATA/FDATA/FD_POST.SDA",
+      "source_sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb",
+      "records": [
+        {
+          "node_offset": 0,
+          "entry": 0,
+          "offset": 208,
+          "size": 132112,
+          "sha256": "4f775fb8f6fe21f025c79bc03bfe8adcc31785c34e65273d739597970a686e22",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 512,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 131072,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-000.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 1,
+          "offset": 132320,
+          "size": 256,
+          "sha256": "67d1323a73f506e03970442ee51722eda4ab7f4033b4a1918b9dc26357f9a254",
+          "kind": "ganm",
+          "count": 15,
+          "stride": 16,
+          "declared_size": 256,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                196,
+                260
+              ],
+              "hotspot": [
+                96,
+                128
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                0,
+                328,
+                120,
+                448
+              ],
+              "hotspot": [
+                264,
+                -264
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 2,
+              "rect": [
+                204,
+                132,
+                226,
+                154
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 3,
+              "rect": [
+                234,
+                132,
+                256,
+                154
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 4,
+              "rect": [
+                0,
+                272,
+                18,
+                306
+              ],
+              "hotspot": [
+                213,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 5,
+              "rect": [
+                24,
+                272,
+                42,
+                306
+              ],
+              "hotspot": [
+                215,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 6,
+              "rect": [
+                48,
+                272,
+                66,
+                306
+              ],
+              "hotspot": [
+                217,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 7,
+              "rect": [
+                72,
+                272,
+                90,
+                306
+              ],
+              "hotspot": [
+                219,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 8,
+              "rect": [
+                96,
+                272,
+                114,
+                306
+              ],
+              "hotspot": [
+                221,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 9,
+              "rect": [
+                120,
+                272,
+                138,
+                306
+              ],
+              "hotspot": [
+                223,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 10,
+              "rect": [
+                144,
+                272,
+                162,
+                306
+              ],
+              "hotspot": [
+                225,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 11,
+              "rect": [
+                168,
+                272,
+                186,
+                306
+              ],
+              "hotspot": [
+                227,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 12,
+              "rect": [
+                192,
+                272,
+                210,
+                306
+              ],
+              "hotspot": [
+                229,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 13,
+              "rect": [
+                216,
+                272,
+                234,
+                306
+              ],
+              "hotspot": [
+                231,
+                -88
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            },
+            {
+              "index": 14,
+              "rect": [
+                240,
+                296,
+                251,
+                313
+              ],
+              "hotspot": [
+                0,
+                0
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 2,
+          "offset": 132576,
+          "size": 144,
+          "sha256": "778e89d5d8ca6a37101201c27f7c894ae71396541f6d4b851a6baa321fd718ea",
+          "kind": "ganm",
+          "count": 8,
+          "stride": 16,
+          "declared_size": 144,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                184,
+                28
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                4,
+                36,
+                184,
+                60
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 2,
+              "rect": [
+                4,
+                68,
+                184,
+                92
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 3,
+              "rect": [
+                4,
+                100,
+                184,
+                124
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 4,
+              "rect": [
+                4,
+                132,
+                184,
+                156
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 5,
+              "rect": [
+                4,
+                164,
+                184,
+                188
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 6,
+              "rect": [
+                4,
+                196,
+                184,
+                220
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            },
+            {
+              "index": 7,
+              "rect": [
+                4,
+                228,
+                184,
+                252
+              ],
+              "hotspot": [
+                90,
+                12
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                208,
+                150144,
+                182992,
+                215840,
+                248688,
+                281536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 3,
+          "offset": 132720,
+          "size": 17424,
+          "sha256": "613274a0cf96204d50772137ad74a58bc6693b2f37b92cef3ef13d6ce520fb6d",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-003.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 4,
+          "offset": 150144,
+          "size": 32848,
+          "sha256": "7294d4660f7e5da507d074a6a61a750b54bf90c19a7f832059ff44e98383ee90",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-004.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 5,
+          "offset": 182992,
+          "size": 32848,
+          "sha256": "5fa76098ede361d636ac66325b3c5d5833e4e9487f592bae931f40d57b05cdec",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-005.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 6,
+          "offset": 215840,
+          "size": 32848,
+          "sha256": "2bc606004ffbc4628a23c9979171947aa21702a8833b4dacf070a7cd6c8cfe47",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-006.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 7,
+          "offset": 248688,
+          "size": 32848,
+          "sha256": "47aaff6ef71e0cbc4ab8ddcb2061911e7df27ade5215515437e711040c0ee9b8",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-007.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 8,
+          "offset": 281536,
+          "size": 32848,
+          "sha256": "2123494b1ba5dc752a45110cef07f671a1c02ad34c783e70d462ded7837a8523",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 4,
+            "palette_offset": 16,
+            "pixel_offset": 80,
+            "pixel_bytes": 32768,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-008.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 9,
+          "offset": 314384,
+          "size": 17424,
+          "sha256": "03cc7b71837605742b3a407195c95762f368bac6af9a267005a6b0c99f98f8d8",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-009.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 10,
+          "offset": 331808,
+          "size": 17424,
+          "sha256": "078adf252a6df0726287b2dc12e0cadb5996394eb03ad99a5d133cad59489def",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-010.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 11,
+          "offset": 349232,
+          "size": 17424,
+          "sha256": "35999931bed852faa60a1ebac2549feb378645de66b9c1443c9d43bd149eef1c",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-011.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 12,
+          "offset": 366656,
+          "size": 17424,
+          "sha256": "a428dec26a9a5ca93edb1c8dc140f6319d3e4c4f6c0ccce115b350fec09b9c60",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-012.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 13,
+          "offset": 384080,
+          "size": 17424,
+          "sha256": "8f9d2ca88c7bd84f9505b09c9a2d786e9196ca8b01f2249317997973e886cc58",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-013.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 14,
+          "offset": 401504,
+          "size": 17424,
+          "sha256": "bf9a301afdde8299f3d499ea20f88e2bc12efec119f5b1b02308441fb5ea0840",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-014.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 15,
+          "offset": 418928,
+          "size": 17424,
+          "sha256": "652ea56cf2b3ef38af6adf975dd12ca0f7526178dd9103d0fa2acacfb33d5f1f",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-015.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 16,
+          "offset": 436352,
+          "size": 17424,
+          "sha256": "3267b509d32abc50e37e870de0a49d9ed2078305aca1f9c42aa35884d978848d",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-016.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 17,
+          "offset": 453776,
+          "size": 17424,
+          "sha256": "c4479109b85012e09dbc9d932c05d922f5b1100ec12ba06dc03e78c7e801a71e",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-017.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 18,
+          "offset": 471200,
+          "size": 17424,
+          "sha256": "d0e8281b0bffec34e931a01344e11c8b8562fca39516c7afc76c2f1bb0b5dad6",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-018.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 19,
+          "offset": 488624,
+          "size": 17424,
+          "sha256": "6509a0329d0329a3904902bfadba02c46f03db374b8dbf3d30a6c6af513a1f53",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-019.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 20,
+          "offset": 506048,
+          "size": 17424,
+          "sha256": "1a5b470de5f727516290d4551c189834bccac43a95902fdfdde3d787bdda9563",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-020.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 21,
+          "offset": 523472,
+          "size": 17424,
+          "sha256": "4dbfe68c3f0b337df48e4eab2adde19e1f16f4e73adbb205f2b1188b755d183d",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-021.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 22,
+          "offset": 540896,
+          "size": 17424,
+          "sha256": "a73bb83e0be20e5f1f22cf84d2f498884d3cdd4365a37b618cf1caad0d9036e5",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-022.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 23,
+          "offset": 558320,
+          "size": 17424,
+          "sha256": "48ff9582e149fe9ee524047b02a8c6bda8693c7782a3d7b3b4893971b5e2550e",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-023.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 24,
+          "offset": 575744,
+          "size": 17424,
+          "sha256": "67910f8040d2d39fba7c2b2b78672f432fc397f34b1366d96a37662ebf323bce",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-024.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 25,
+          "offset": 593168,
+          "size": 17424,
+          "sha256": "28e0c5ff4de15eb2a74e52211f4fa942158291b56753b8a4a45b9cd1189b4015",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-025.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 26,
+          "offset": 610592,
+          "size": 17424,
+          "sha256": "45fc3ccaeda43b54cef6c4ba0f2f04a7252847dcfe38a298009348e70573ddbc",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-026.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 27,
+          "offset": 628016,
+          "size": 17424,
+          "sha256": "15867d5b8008ca2591498ef7e1f13ff6c3e568857e95f169dc5e2ebf04aaa8f0",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-027.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 28,
+          "offset": 645440,
+          "size": 17424,
+          "sha256": "79f096e9908e70c51ec9c25be9576c2f689bdc6825ac892354c720f10e511990",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-028.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 29,
+          "offset": 662864,
+          "size": 17424,
+          "sha256": "4842c971802c616a7ac348b324b0b3a00bb5f2e940b5a947e2b3b2740337e353",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-029.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 30,
+          "offset": 680288,
+          "size": 17424,
+          "sha256": "360336591a94e709e858118b5b5b73220e7b17b1e9f2108d9f62081f5f06e2d9",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-030.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 31,
+          "offset": 697712,
+          "size": 17424,
+          "sha256": "a6fd19b6a5f9d89116b1b3b6ac01d0376c684bdcf7e256d1f1dfebfbc1ba5d80",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-031.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 32,
+          "offset": 715136,
+          "size": 17424,
+          "sha256": "63edc17c476ee0edd4be0ded18c473ab04bf6d12cef74178803b868b8deac170",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-032.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 33,
+          "offset": 732560,
+          "size": 17424,
+          "sha256": "2f224ab06e89e275f484c42efc18fd856b02a3c72229fd581fdaea623d57b249",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-033.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 34,
+          "offset": 749984,
+          "size": 17424,
+          "sha256": "6a53376efb4919dfbd930e5a4302f21a1e3cca08bc63a6eca7d01fc0b77c0547",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-034.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 35,
+          "offset": 767408,
+          "size": 17424,
+          "sha256": "4d70b2e59773714cb2385e572f10f5a08a1c765c388ccf13212a2383d26a98bb",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-035.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 36,
+          "offset": 784832,
+          "size": 17424,
+          "sha256": "7bfb333757b7c6c8e23722e8b5b221c7c898544fd5acb62addce828bcd310793",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-036.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 37,
+          "offset": 802256,
+          "size": 17424,
+          "sha256": "30a0a8b9971a4ccb0bc94b18890b54143a27700cc50f134dbde87e82e59ab360",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-037.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 38,
+          "offset": 819680,
+          "size": 17424,
+          "sha256": "169401c7ea3cecb11db0e3d68a79eda5f95337d8ff9594805d3ee4bd9c2e9180",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-038.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 39,
+          "offset": 837104,
+          "size": 17424,
+          "sha256": "aeb8b35a40a8b6dfaf93cbc691b57e43a36966fbab71af5e0c13d360ff07616d",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-039.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 40,
+          "offset": 854528,
+          "size": 17424,
+          "sha256": "0ee3f1c13f97c7f3bb616784e05da80f8058b5b5c875c6e3300601d4ef0b84bb",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-040.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 41,
+          "offset": 871952,
+          "size": 17424,
+          "sha256": "634be96c9ff73189d2c827bb05f5abf1cc02ec9ab5a8f3c853ff89e703b5b714",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-041.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 42,
+          "offset": 889376,
+          "size": 17424,
+          "sha256": "f391fb3a7bc3bb88765d2342fb0f6e65de949348a18d89c650c83838440e80ac",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-042.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 43,
+          "offset": 906800,
+          "size": 17424,
+          "sha256": "0618cb06761d976474f086da3c3d6ebc94486177e979264b52a03d3585a25293",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-043.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 44,
+          "offset": 924224,
+          "size": 17424,
+          "sha256": "60c7ed6e0cd91a45495003b940e960095d98852300b8b74f1f709df434def5b6",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-044.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 45,
+          "offset": 941648,
+          "size": 17424,
+          "sha256": "6411884ca06b9a0de8931f436a8686062f490fd352aabf03a202ebdb6af58177",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-045.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 46,
+          "offset": 959072,
+          "size": 17424,
+          "sha256": "54b07c8c77f7816ba8195173a31d652ca836beaa8e0b58212750d7cf36cc03a6",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-046.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 47,
+          "offset": 976496,
+          "size": 17424,
+          "sha256": "3f93a0e86d533387a13167b4f7c791a947d5e2447bf43341254729d7248d67b4",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-047.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 48,
+          "offset": 993920,
+          "size": 17424,
+          "sha256": "7179692c48d36629a0f6248ff4cedc683bfe95a1c528ab8499cbf366b9092c1b",
+          "kind": "texture",
+          "texture": {
+            "width": 128,
+            "height": 128,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 16384,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "FD_POST-0-048.png"
+        }
+      ],
+      "contact_sheets": [
+        "FD_POST-sheet-00.png",
+        "FD_POST-sheet-01.png",
+        "FD_POST-sheet-02.png",
+        "FD_POST-sheet-03.png"
+      ],
+      "counts": {
+        "texture": 47,
+        "ganm": 2,
+        "unknown": 0
+      },
+      "visual_inspection": "eight contact sheets inspected locally; not PCSX2"
+    },
+    {
+      "resource": "DATA/FDATA/PASSWORD.SDA",
+      "source_sha256": "e519149acbcd1ed75f188cd3559e02fd4c47bfec211b04852a37b763a5e83e11",
+      "records": [
+        {
+          "node_offset": 0,
+          "entry": 0,
+          "offset": 80,
+          "size": 66576,
+          "sha256": "9a9bbf7ea5949e477d0e8d305f12e0b7e60f7020577464d5a7485985a183f27a",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-000.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 1,
+          "offset": 66656,
+          "size": 66576,
+          "sha256": "3b25b7aab764542294c27951c97728566dccc64a24e999c99cdb46c328cb51b6",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-001.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 2,
+          "offset": 133232,
+          "size": 66576,
+          "sha256": "d10f3a78d129829df4ec347187eb25256a78ad075f0075addb94c5edc38ec92c",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-002.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 3,
+          "offset": 199808,
+          "size": 66576,
+          "sha256": "751164af2e3b6a82a208aec6717ab8b2a7f9e5bbc369825782a75d6bd2e85b18",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-003.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 4,
+          "offset": 266384,
+          "size": 66576,
+          "sha256": "9797628c0d33d7a5ea4a0ba783b97f14cdce291a20736d1b948afa22b30e4d33",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-004.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 5,
+          "offset": 332960,
+          "size": 66576,
+          "sha256": "9710ab77606269ee28e675728ec54232853669765f58e5869551f75f8e56effe",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-005.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 6,
+          "offset": 399536,
+          "size": 66576,
+          "sha256": "3da7ae903b9eb2ba2cac0628c189bde0161db75d0e9199ecc6beba7c93260c23",
+          "kind": "texture",
+          "texture": {
+            "width": 256,
+            "height": 256,
+            "bpp": 8,
+            "palette_offset": 16,
+            "pixel_offset": 1040,
+            "pixel_bytes": 65536,
+            "trailing_bytes": 0
+          },
+          "index_roundtrip": true,
+          "preview": "PASSWORD-0-006.png"
+        },
+        {
+          "node_offset": 0,
+          "entry": 7,
+          "offset": 466112,
+          "size": 32,
+          "sha256": "e9b59d685905d231b48b64117421bf2dbed5567444fc6bc3ed3a9a226b2f6730",
+          "kind": "ganm",
+          "count": 1,
+          "stride": 16,
+          "declared_size": 32,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                252,
+                252
+              ],
+              "hotspot": [
+                124,
+                124
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 8,
+          "offset": 466144,
+          "size": 32,
+          "sha256": "e9b59d685905d231b48b64117421bf2dbed5567444fc6bc3ed3a9a226b2f6730",
+          "kind": "ganm",
+          "count": 1,
+          "stride": 16,
+          "declared_size": 32,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                252,
+                252
+              ],
+              "hotspot": [
+                124,
+                124
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 9,
+          "offset": 466176,
+          "size": 32,
+          "sha256": "7c96b2af7983ac167ed1538f11ace2fa092b5baf183f1ac96884a1a1f0763aef",
+          "kind": "ganm",
+          "count": 1,
+          "stride": 16,
+          "declared_size": 32,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                150,
+                252
+              ],
+              "hotspot": [
+                73,
+                124
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 10,
+          "offset": 466208,
+          "size": 32,
+          "sha256": "927896e04039400f1a45c38bd4c243b1fe7fbe7beddc1f3302ba94fdba4da3ba",
+          "kind": "ganm",
+          "count": 1,
+          "stride": 16,
+          "declared_size": 32,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                252,
+                204
+              ],
+              "hotspot": [
+                124,
+                100
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 11,
+          "offset": 466240,
+          "size": 32,
+          "sha256": "927896e04039400f1a45c38bd4c243b1fe7fbe7beddc1f3302ba94fdba4da3ba",
+          "kind": "ganm",
+          "count": 1,
+          "stride": 16,
+          "declared_size": 32,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                252,
+                204
+              ],
+              "hotspot": [
+                124,
+                100
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 12,
+          "offset": 466272,
+          "size": 32,
+          "sha256": "2fdf03c2e7fa8f157320e5f369c7e5a12f13698536952f5e46f8fea277eb2e55",
+          "kind": "ganm",
+          "count": 1,
+          "stride": 16,
+          "declared_size": 32,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                4,
+                4,
+                148,
+                204
+              ],
+              "hotspot": [
+                72,
+                100
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        },
+        {
+          "node_offset": 0,
+          "entry": 13,
+          "offset": 466304,
+          "size": 320,
+          "sha256": "43020246afe86772b724d763012129ab3d1726a0601b7c15ca7c659a85db7405",
+          "kind": "ganm",
+          "count": 19,
+          "stride": 16,
+          "declared_size": 320,
+          "trailing_bytes": 0,
+          "sprites": [
+            {
+              "index": 0,
+              "rect": [
+                154,
+                230,
+                252,
+                252
+              ],
+              "hotspot": [
+                49,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 1,
+              "rect": [
+                154,
+                200,
+                252,
+                222
+              ],
+              "hotspot": [
+                49,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 2,
+              "rect": [
+                64,
+                4,
+                212,
+                51
+              ],
+              "hotspot": [
+                74,
+                23
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 3,
+              "rect": [
+                64,
+                58,
+                212,
+                104
+              ],
+              "hotspot": [
+                74,
+                23
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 4,
+              "rect": [
+                4,
+                170,
+                26,
+                192
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 5,
+              "rect": [
+                34,
+                170,
+                56,
+                192
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 6,
+              "rect": [
+                64,
+                170,
+                86,
+                192
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 7,
+              "rect": [
+                94,
+                170,
+                116,
+                192
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 8,
+              "rect": [
+                124,
+                170,
+                146,
+                192
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 9,
+              "rect": [
+                4,
+                200,
+                26,
+                222
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 10,
+              "rect": [
+                34,
+                200,
+                56,
+                222
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 11,
+              "rect": [
+                64,
+                200,
+                86,
+                222
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 12,
+              "rect": [
+                94,
+                200,
+                116,
+                222
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 13,
+              "rect": [
+                124,
+                200,
+                146,
+                222
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 14,
+              "rect": [
+                4,
+                230,
+                26,
+                252
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 15,
+              "rect": [
+                34,
+                230,
+                56,
+                252
+              ],
+              "hotspot": [
+                11,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 16,
+              "rect": [
+                4,
+                4,
+                56,
+                50
+              ],
+              "hotspot": [
+                26,
+                23
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 17,
+              "rect": [
+                4,
+                58,
+                56,
+                104
+              ],
+              "hotspot": [
+                26,
+                23
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            },
+            {
+              "index": 18,
+              "rect": [
+                154,
+                170,
+                252,
+                192
+              ],
+              "hotspot": [
+                49,
+                11
+              ],
+              "reserved": [
+                0,
+                0
+              ],
+              "geometric_texture_candidates": [
+                80,
+                66656,
+                133232,
+                199808,
+                266384,
+                332960,
+                399536
+              ]
+            }
+          ]
+        }
+      ],
+      "contact_sheets": [
+        "PASSWORD-sheet-00.png"
+      ],
+      "counts": {
+        "texture": 7,
+        "ganm": 7,
+        "unknown": 0
+      },
+      "visual_inspection": "eight contact sheets inspected locally; not PCSX2"
+    }
+  ],
+  "total_textures": 69,
+  "total_ganm": 13,
+  "total_unknown": 2,
+  "total_contact_sheets": 8,
+  "roundtrip": {
+    "schema": 1,
+    "policy": "surveyed-ui-atlases-original-palette-v001",
+    "records": [
+      {
+        "id": "RTITLE.0.000",
+        "changed_bytes": 0,
+        "sha256": "f7e4a5e9afcf21064b0da9965aafa82d7f5f5375f3945c4b6dcd036eff521f5c",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FNAME_DT.0.000",
+        "changed_bytes": 0,
+        "sha256": "7df28366ab71f610d6cb0a7aa115dec118e7ee2a7310ca04abede8d29cf7fc2a",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FNAME_DT.0.001",
+        "changed_bytes": 0,
+        "sha256": "e1a75de8e7e9a4de937c91305678e01ba6fecc8d20fcec7c2f0d484b18c46074",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FNAME_DT.0.002",
+        "changed_bytes": 0,
+        "sha256": "e94d53c4c2ef32c86ffaf32921e964b07196831fcb7c5cba7d829cf9f7f68c7b",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FNAME_DT.0.003",
+        "changed_bytes": 0,
+        "sha256": "fba448b53bd87a26e249d8ccda0fdfa34ba40804bdae9f34558e450012e9307e",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FNAME_DT.0.004",
+        "changed_bytes": 0,
+        "sha256": "5f6b1bef636273dceca189473c6fb672b4ee1d9babfabde98fee49f2c6b2e88a",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.000",
+        "changed_bytes": 0,
+        "sha256": "751539ed5b0d495544c2da8b32428b5147a4a3a3b3b43ca86088fc83bc9743a1",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.001",
+        "changed_bytes": 0,
+        "sha256": "a920ad832e1bcab80d6e09735992d0a47df31e88d49a26ca9a5d8685382f2a6b",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.002",
+        "changed_bytes": 0,
+        "sha256": "ab1ff9d9ae092f53bd150c00fad9e86f1f71dafa260d73eb6705fd572bf90b65",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.003",
+        "changed_bytes": 0,
+        "sha256": "134c7f9e11960644eacda3dd3c515e6534cb080447c0245e5f1e9d3d4536ea37",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.004",
+        "changed_bytes": 0,
+        "sha256": "5cbdcca0f074d7673bf1e603cbc741f5ff4adf76e6c16b5881a8cd9ad4d13812",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.005",
+        "changed_bytes": 0,
+        "sha256": "ec48bda4d1a646307e8d177462c3b7c4f642fb4c85a8a93f2a6a7f785902baf0",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.006",
+        "changed_bytes": 0,
+        "sha256": "f0cd81006f68fc0f0ffe88cee2d039481d4ba23b7249c122b1435619705481a4",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.007",
+        "changed_bytes": 0,
+        "sha256": "e3383c0da15347088899f25455b6b879251ab5e0853a7ac397fb7229d2072a20",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "F_COMMON.0.008",
+        "changed_bytes": 0,
+        "sha256": "0db4769ee8d07119f6e2c1e1ec33a51ebb2db0b21cc96b70db3723a80294613f",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.000",
+        "changed_bytes": 0,
+        "sha256": "4f775fb8f6fe21f025c79bc03bfe8adcc31785c34e65273d739597970a686e22",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.003",
+        "changed_bytes": 0,
+        "sha256": "613274a0cf96204d50772137ad74a58bc6693b2f37b92cef3ef13d6ce520fb6d",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.004",
+        "changed_bytes": 0,
+        "sha256": "7294d4660f7e5da507d074a6a61a750b54bf90c19a7f832059ff44e98383ee90",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.005",
+        "changed_bytes": 0,
+        "sha256": "5fa76098ede361d636ac66325b3c5d5833e4e9487f592bae931f40d57b05cdec",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.006",
+        "changed_bytes": 0,
+        "sha256": "2bc606004ffbc4628a23c9979171947aa21702a8833b4dacf070a7cd6c8cfe47",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.007",
+        "changed_bytes": 0,
+        "sha256": "47aaff6ef71e0cbc4ab8ddcb2061911e7df27ade5215515437e711040c0ee9b8",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.008",
+        "changed_bytes": 0,
+        "sha256": "2123494b1ba5dc752a45110cef07f671a1c02ad34c783e70d462ded7837a8523",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.009",
+        "changed_bytes": 0,
+        "sha256": "03cc7b71837605742b3a407195c95762f368bac6af9a267005a6b0c99f98f8d8",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.010",
+        "changed_bytes": 0,
+        "sha256": "078adf252a6df0726287b2dc12e0cadb5996394eb03ad99a5d133cad59489def",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.011",
+        "changed_bytes": 0,
+        "sha256": "35999931bed852faa60a1ebac2549feb378645de66b9c1443c9d43bd149eef1c",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.012",
+        "changed_bytes": 0,
+        "sha256": "a428dec26a9a5ca93edb1c8dc140f6319d3e4c4f6c0ccce115b350fec09b9c60",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.013",
+        "changed_bytes": 0,
+        "sha256": "8f9d2ca88c7bd84f9505b09c9a2d786e9196ca8b01f2249317997973e886cc58",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.014",
+        "changed_bytes": 0,
+        "sha256": "bf9a301afdde8299f3d499ea20f88e2bc12efec119f5b1b02308441fb5ea0840",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.015",
+        "changed_bytes": 0,
+        "sha256": "652ea56cf2b3ef38af6adf975dd12ca0f7526178dd9103d0fa2acacfb33d5f1f",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.016",
+        "changed_bytes": 0,
+        "sha256": "3267b509d32abc50e37e870de0a49d9ed2078305aca1f9c42aa35884d978848d",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.017",
+        "changed_bytes": 0,
+        "sha256": "c4479109b85012e09dbc9d932c05d922f5b1100ec12ba06dc03e78c7e801a71e",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.018",
+        "changed_bytes": 0,
+        "sha256": "d0e8281b0bffec34e931a01344e11c8b8562fca39516c7afc76c2f1bb0b5dad6",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.019",
+        "changed_bytes": 0,
+        "sha256": "6509a0329d0329a3904902bfadba02c46f03db374b8dbf3d30a6c6af513a1f53",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.020",
+        "changed_bytes": 0,
+        "sha256": "1a5b470de5f727516290d4551c189834bccac43a95902fdfdde3d787bdda9563",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.021",
+        "changed_bytes": 0,
+        "sha256": "4dbfe68c3f0b337df48e4eab2adde19e1f16f4e73adbb205f2b1188b755d183d",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.022",
+        "changed_bytes": 0,
+        "sha256": "a73bb83e0be20e5f1f22cf84d2f498884d3cdd4365a37b618cf1caad0d9036e5",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.023",
+        "changed_bytes": 0,
+        "sha256": "48ff9582e149fe9ee524047b02a8c6bda8693c7782a3d7b3b4893971b5e2550e",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.024",
+        "changed_bytes": 0,
+        "sha256": "67910f8040d2d39fba7c2b2b78672f432fc397f34b1366d96a37662ebf323bce",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.025",
+        "changed_bytes": 0,
+        "sha256": "28e0c5ff4de15eb2a74e52211f4fa942158291b56753b8a4a45b9cd1189b4015",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.026",
+        "changed_bytes": 0,
+        "sha256": "45fc3ccaeda43b54cef6c4ba0f2f04a7252847dcfe38a298009348e70573ddbc",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.027",
+        "changed_bytes": 0,
+        "sha256": "15867d5b8008ca2591498ef7e1f13ff6c3e568857e95f169dc5e2ebf04aaa8f0",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.028",
+        "changed_bytes": 0,
+        "sha256": "79f096e9908e70c51ec9c25be9576c2f689bdc6825ac892354c720f10e511990",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.029",
+        "changed_bytes": 0,
+        "sha256": "4842c971802c616a7ac348b324b0b3a00bb5f2e940b5a947e2b3b2740337e353",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.030",
+        "changed_bytes": 0,
+        "sha256": "360336591a94e709e858118b5b5b73220e7b17b1e9f2108d9f62081f5f06e2d9",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.031",
+        "changed_bytes": 0,
+        "sha256": "a6fd19b6a5f9d89116b1b3b6ac01d0376c684bdcf7e256d1f1dfebfbc1ba5d80",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.032",
+        "changed_bytes": 0,
+        "sha256": "63edc17c476ee0edd4be0ded18c473ab04bf6d12cef74178803b868b8deac170",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.033",
+        "changed_bytes": 0,
+        "sha256": "2f224ab06e89e275f484c42efc18fd856b02a3c72229fd581fdaea623d57b249",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.034",
+        "changed_bytes": 0,
+        "sha256": "6a53376efb4919dfbd930e5a4302f21a1e3cca08bc63a6eca7d01fc0b77c0547",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.035",
+        "changed_bytes": 0,
+        "sha256": "4d70b2e59773714cb2385e572f10f5a08a1c765c388ccf13212a2383d26a98bb",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.036",
+        "changed_bytes": 0,
+        "sha256": "7bfb333757b7c6c8e23722e8b5b221c7c898544fd5acb62addce828bcd310793",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.037",
+        "changed_bytes": 0,
+        "sha256": "30a0a8b9971a4ccb0bc94b18890b54143a27700cc50f134dbde87e82e59ab360",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.038",
+        "changed_bytes": 0,
+        "sha256": "169401c7ea3cecb11db0e3d68a79eda5f95337d8ff9594805d3ee4bd9c2e9180",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.039",
+        "changed_bytes": 0,
+        "sha256": "aeb8b35a40a8b6dfaf93cbc691b57e43a36966fbab71af5e0c13d360ff07616d",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.040",
+        "changed_bytes": 0,
+        "sha256": "0ee3f1c13f97c7f3bb616784e05da80f8058b5b5c875c6e3300601d4ef0b84bb",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.041",
+        "changed_bytes": 0,
+        "sha256": "634be96c9ff73189d2c827bb05f5abf1cc02ec9ab5a8f3c853ff89e703b5b714",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.042",
+        "changed_bytes": 0,
+        "sha256": "f391fb3a7bc3bb88765d2342fb0f6e65de949348a18d89c650c83838440e80ac",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.043",
+        "changed_bytes": 0,
+        "sha256": "0618cb06761d976474f086da3c3d6ebc94486177e979264b52a03d3585a25293",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.044",
+        "changed_bytes": 0,
+        "sha256": "60c7ed6e0cd91a45495003b940e960095d98852300b8b74f1f709df434def5b6",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.045",
+        "changed_bytes": 0,
+        "sha256": "6411884ca06b9a0de8931f436a8686062f490fd352aabf03a202ebdb6af58177",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.046",
+        "changed_bytes": 0,
+        "sha256": "54b07c8c77f7816ba8195173a31d652ca836beaa8e0b58212750d7cf36cc03a6",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.047",
+        "changed_bytes": 0,
+        "sha256": "3f93a0e86d533387a13167b4f7c791a947d5e2447bf43341254729d7248d67b4",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "FD_POST.0.048",
+        "changed_bytes": 0,
+        "sha256": "7179692c48d36629a0f6248ff4cedc683bfe95a1c528ab8499cbf366b9092c1b",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.000",
+        "changed_bytes": 0,
+        "sha256": "9a9bbf7ea5949e477d0e8d305f12e0b7e60f7020577464d5a7485985a183f27a",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.001",
+        "changed_bytes": 0,
+        "sha256": "3b25b7aab764542294c27951c97728566dccc64a24e999c99cdb46c328cb51b6",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.002",
+        "changed_bytes": 0,
+        "sha256": "d10f3a78d129829df4ec347187eb25256a78ad075f0075addb94c5edc38ec92c",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.003",
+        "changed_bytes": 0,
+        "sha256": "751164af2e3b6a82a208aec6717ab8b2a7f9e5bbc369825782a75d6bd2e85b18",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.004",
+        "changed_bytes": 0,
+        "sha256": "9797628c0d33d7a5ea4a0ba783b97f14cdce291a20736d1b948afa22b30e4d33",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.005",
+        "changed_bytes": 0,
+        "sha256": "9710ab77606269ee28e675728ec54232853669765f58e5869551f75f8e56effe",
+        "reverse_roundtrip": true
+      },
+      {
+        "id": "PASSWORD.0.006",
+        "changed_bytes": 0,
+        "sha256": "3da7ae903b9eb2ba2cac0628c189bde0161db75d0e9199ecc6beba7c93260c23",
+        "reverse_roundtrip": true
+      }
+    ],
+    "resources": [
+      {
+        "resource": "DATA/RDATA/RTITLE.SDA",
+        "size": 66720,
+        "sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+        "source_sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9"
+      },
+      {
+        "resource": "DATA/FDATA/FNAME_DT.SDA",
+        "size": 558272,
+        "sha256": "2b009179ceaa08f0f048997abb606da354773ec9a0f8802a27a30741de667d24",
+        "source_sha256": "2b009179ceaa08f0f048997abb606da354773ec9a0f8802a27a30741de667d24"
+      },
+      {
+        "resource": "DATA/FDATA/F_COMMON.SDA",
+        "size": 171936,
+        "sha256": "4b2762a8444c8d609cfeed96c3854d45c04f18a68187a769a9f29cf84680973f",
+        "source_sha256": "4b2762a8444c8d609cfeed96c3854d45c04f18a68187a769a9f29cf84680973f"
+      },
+      {
+        "resource": "DATA/FDATA/FD_POST.SDA",
+        "size": 1011344,
+        "sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb",
+        "source_sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb"
+      },
+      {
+        "resource": "DATA/FDATA/PASSWORD.SDA",
+        "size": 466624,
+        "sha256": "e519149acbcd1ed75f188cd3559e02fd4c47bfec211b04852a37b763a5e83e11",
+        "source_sha256": "e519149acbcd1ed75f188cd3559e02fd4c47bfec211b04852a37b763a5e83e11"
+      }
+    ],
+    "iso_modified": false,
+    "originals_unchanged": true,
+    "runtime_visual_status": "not_tested",
+    "uv_usage_approval": false
+  },
+  "tests": {
+    "passed": 10,
+    "commands": [
+      "python -m unittest discover -s tests -p test_interface_atlas_pack.py -v",
+      "python -m unittest discover -s tests -p test_interface_texture_pack.py -v"
+    ],
+    "new_suite_passed": 6,
+    "historical_pack_passed": 4
+  },
+  "current_iso": "work/interface-v008/MetalSaga-ptbr-interface-v008.iso",
+  "iso_created": false,
+  "new_translations": 0,
+  "pcsx2_executed": false,
+  "onedrive_copied": false
+}

@@ -135,3 +135,9 @@ A comparação com Remote confirmou que a v006 empregava outra família (GFI de 
 ## Alinhamento dos glifos — v008
 
 O retorno do usuário aprovou a aparência geral da fonte, mas identificou oscilação vertical. A extração clara reutilizava origens da variante normal; Music/Config/Diary diferem em um pixel entre variantes. A v008 corrige essa amostragem, mantendo os corpos em uma base comum a Remote, sem escala. Descendentes de g/j/ç permanecem naturais. Os testes novos verificam métricas por glifo; a checagem anterior de tamanho/limites não detectava esse erro. Retomar outras famílias gráficas somente mantendo comparação de fonte e métricas por contexto; validação visual em jogo segue pendente.
+
+## Preparação ampla dos próximos conjuntos gráficos
+
+O transporte local agora cobre 69 texturas em RTITLE, FNAME_DT, F_COMMON, FD_POST e PASSWORD, com round-trip integral de cinco recursos e proteção de paleta/alpha/estruturas. Ver `docs/atlas-interface-v001.md` e `Preparar-Atlas.cmd`. A v008 permanece como ISO atual, sem novas traduções nesta rodada de infraestrutura.
+
+Os oito painéis foram inspecionados. FD_POST contém nomes e retratos de procurados, que devem permanecer preservados; a origem das mensagens de correio continua desconhecida. RTITLE tem fonte pesada/inclinada própria e três regiões de 180×24. Priorizar título, depois senha/nomeação em conjuntos completos, após vincular consumidores e métricas, mantendo a identidade visual de cada família. Os dois registros desconhecidos da nomeação não foram liberados. Não ampliar automaticamente as políticas de ISO por ter conseguido transportar PNGs.

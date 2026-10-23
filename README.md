@@ -90,3 +90,8 @@ Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v029 acresce
 22 registros de hospedagem, recebimento e nomeação de veículos com [referência N0 preservada](docs/controle-n0-v011.md).
 Drive continua igual ao comando da interface; nomes, apelidos e risadas permanecem intactos.
 O perfil de acentos v005 continua vinculado à receita. O usuário fará a conferência conjunta em um save corrido.
+
+**Preparar-Atlas.cmd** prepara 69 texturas dos próximos cinco conjuntos de interface,
+com previews e PNGs indexados em work/. A reconstrução local preserva os recursos
+originais e não altera ISO. [Manual dos atlas](docs/atlas-interface-v001.md).
+A imagem de teste continua interface v008, com alinhamento Satcom corrigido.
