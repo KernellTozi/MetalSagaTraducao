@@ -144,6 +144,13 @@ def compile_draft(data,draft):
     from interface_resources import compile_resources
     resource_patches,resource_report=compile_resources(data,draft)
     patches.extend(resource_patches)
+    spack_report={'accepted':0};status_report={'accepted':0}
+    if draft.get('spack_ui'):
+        from spack_ui import compile_ui as compile_spack
+        added,spack_report=compile_spack(data,draft['spack_ui']);patches.extend(added)
+    if draft.get('character_status'):
+        from spack_ui import compile_status
+        added,status_report=compile_status(data,draft['character_status']);patches.extend(added)
     name_report={'accepted':0}
     if draft.get('name_entry'):
         from name_entry_text import compile_name_entry
@@ -164,14 +171,17 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         'graphic_labels':graphics_report,
+        **({'spack_ui':spack_report} if draft.get('spack_ui') else {}),
+        **({'character_status':status_report} if draft.get('character_status') else {}),
         **({'name_entry':name_report} if draft.get('name_entry') else {}),
         **({'battle_spacing':{'policy':draft['battle_spacing']['policy'], 'codes':18,
             'advance':'Existing ASCII half-cell; glyph dispatch and input bytes preserved',
             'runtime_visual_status':'pending_user_verification'}} if draft.get('battle_spacing') else {}),
-        'elf_size_unchanged':True,'addresses_and_pointers_unchanged':True,'reverse_roundtrip':True,
+        'elf_size_unchanged':True,'addresses_and_pointers_unchanged':not bool(draft.get('spack_ui')),
+        'elf_addresses_and_pointers_unchanged':True,'reverse_roundtrip':True,
         'runtime_visual_status':'pending_user_verification','results':metadata}
 
 

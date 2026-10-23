@@ -1,5 +1,12 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v015:** o lote amplo planejado abaixo foi aplicado: 278 textos
+distintos da tabela UI S_PACK, usados por 333 IDs, e um formato do personagem.
+São 920 ocorrências de interface, com 39 alvos S_PACK preservados. O perfil
+opt-in, limites, testes e pendências estão em `docs/interface-v015.md`. O catálogo
+local único agora cruza a v015. As descrições abaixo de tabela ainda não editável
+registram a fase anterior ao novo compilador; não autorizam outras tabelas.
+
 Planejamento solicitado após a entrega da interface v014. Esta rodada não
 traduz textos nem altera a ISO. O próximo trabalho será organizado por telas
 completas e mecanismos comprovados, em lotes amplos.

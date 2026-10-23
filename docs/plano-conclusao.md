@@ -1,5 +1,12 @@
 # Plano para concluir a tradução
 
+**Atualização v015:** aplicado o lote consolidado de personagem/inventário,
+lojas e serviços, com 279 campos novos e 920 ocorrências totais de interface.
+Consultar `docs/interface-v015.md`; o repack é exclusivo da tabela UI S_PACK
+em 0x35070/0x2000. Não libera tabelas gerais de itens. Seguem pendentes teste
+visual consolidado, composição `%screased`, contexto de Coat e lacunas fora
+desse catálogo. Arte v014, MAP v030 e layout v005 preservados.
+
 ## Atualização após interface v014
 
 A ordem operacional atual está em `docs/proximas-etapas-interface.md`:

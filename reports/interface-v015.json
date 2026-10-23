@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "version": "interface-v015",
+  "previous": "interface-v014",
+  "map_changed": 5892,
+  "map_unchanged": 1339,
+  "map_refused": 0,
+  "interface_count": 920,
+  "new_unique_ui_texts": 278,
+  "new_pointer_occurrences": 333,
+  "new_character_formatter": 1,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v015/MetalSaga-ptbr-interface-v015.iso",
+    "size": 1704427520,
+    "sha256": "2008cf7e98df4f70c039d4a9fee06e009262856cdd1339f15c053d388f0cb40b"
+  },
+  "spack_ui": {
+    "policy": "spack-ui-counted-alias-preserving-repack-v001",
+    "accepted": 278,
+    "changed_pointer_occurrences": 333,
+    "total_unique_strings": 317,
+    "preserved_unique_strings": 39,
+    "pointer_count": 378,
+    "alias_references": 61,
+    "size": 8192,
+    "used_bytes": 7956,
+    "free_bytes": 236,
+    "offsets_changed_inside_table_only": true,
+    "reverse_roundtrip": true,
+    "source_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+    "table_sha256": "3fbb3e03e08f6ae5d1770896e36215acda001b836489f8d5eb107e65289fe642",
+    "evidence": {
+      "instruction_windows": [
+        {
+          "offset": 445332,
+          "size": 84,
+          "sha256": "d932a96ee8dee58d80a485193c36e8c11e624d436f1fadbf469a19327c7b1bbf"
+        },
+        {
+          "offset": 445476,
+          "size": 164,
+          "sha256": "e1b9de6e9899f34eede9edfef37bf4d23107118025244def687b510db305f58e"
+        },
+        {
+          "offset": 445956,
+          "size": 24,
+          "sha256": "a5b566c8b7dcc186b68dceb2608fb5f3852fc700a18e60fd9a18cc5839947693"
+        },
+        {
+          "offset": 257296,
+          "size": 96,
+          "sha256": "9d46d361efdef895b16616e8f733cba4d60cef4e52aaec74267a1986491ffa70"
+        },
+        {
+          "offset": 2002196,
+          "size": 32,
+          "sha256": "88349d9ba4ef61ab4230e01c3bf287d17907adac8572bb8f7912f51543309fc9"
+        },
+        {
+          "offset": 252844,
+          "size": 204,
+          "sha256": "dbf1f75e9221c763a2c8164a750f529b344e7120207addaa9d873fb5607de32e"
+        },
+        {
+          "offset": 2254540,
+          "size": 12,
+          "sha256": "ab1a1818f0e4af7236578309ea8ccfe2a88fb8454c1ede156f470bea1a457d13"
+        },
+        {
+          "offset": 2254832,
+          "size": 32,
+          "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+        }
+      ],
+      "ui_global_pointer_va": 4676376,
+      "bounded_pointer_read_census": {
+        "reads": 244,
+        "following_instructions_max": 12,
+        "direct_pool_addiu_candidates": 0,
+        "completeness": "local instruction scan, not full alias/control-flow proof"
+      },
+      "load": "S_PACK root entry 1, then nested SDA entry 0",
+      "lookup": "base + u32(base + 4 + 4*id)",
+      "text_buffer": "Observed common text path allocates (byte_length+32)&~3 and converts pipe to LF",
+      "limits": "Proof is scoped to inspected paths; not a full-game execution or all consumers"
+    },
+    "preserved_ids": [
+      2,
+      3,
+      4,
+      9,
+      13,
+      14,
+      17,
+      20,
+      29,
+      33,
+      37,
+      38,
+      39,
+      45,
+      48,
+      49,
+      142,
+      143,
+      144,
+      159,
+      161,
+      162,
+      163,
+      165,
+      166,
+      167,
+      169,
+      170,
+      216,
+      261,
+      306,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377
+    ],
+    "growth_guard": "At most max(original byte length,31) per entry; conservative policy, not a universal runtime buffer bound",
+    "runtime_visual_status": "pending_user_verification"
+  },
+  "character_status": {
+    "accepted": 1,
+    "policy": "character-status-single-multiline-v001",
+    "offset": 3323552,
+    "consumer": [
+      1149472,
+      1149580
+    ],
+    "source_length": 51,
+    "target_length": 50,
+    "consumer_sha256": "2cd4452197d2127ce8c4d396a56aaaeb28a548ac48cef1e25ef7addfde0b998e",
+    "runtime_visual_status": "pending_user_verification"
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v014.json",
+    "new_recipe": "translations/interface-v015.json",
+    "source_iso_sha256": "fa516e211df45c868dc9958cfd8b9e62cfb6d737cd8662b3170f5b2fa757fbbf",
+    "output_iso_sha256": "2008cf7e98df4f70c039d4a9fee06e009262856cdd1339f15c053d388f0cb40b",
+    "iso_size": 1704427520,
+    "changed_bytes": 6818,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "spack.ui.table",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290254448,
+        "size": 8192
+      },
+      {
+        "id": "elf.ui.0032b6a0",
+        "resource": "SLUS_212.93",
+        "iso_offset": 1704259232,
+        "size": 52
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "build_output_mode": "compact",
+  "build_output_files": [
+    "MetalSaga-ptbr-interface-v015.iso",
+    "relatorio.json"
+  ],
+  "work_iso_count": 10,
+  "tests": {
+    "interface_suite_passed": 87,
+    "interface_elapsed_seconds": 276.563,
+    "planning_tests_passed": 6,
+    "total_unique_tests_passed": 93,
+    "spack_tests_included": 11,
+    "all_378_ids_executed_in_bounded_original_lookup": true,
+    "all_unique_text_byte_lengths_executed": true,
+    "compact_preflight_tested": true,
+    "note": "Bounded probes do not run PCSX2, I/O, allocator or GPU"
+  },
+  "pcsx2_executed": false,
+  "onedrive_copied": false,
+  "runtime_visual_status": "pending_user_verification"
+}

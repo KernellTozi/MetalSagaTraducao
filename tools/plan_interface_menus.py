@@ -93,6 +93,19 @@ def audit(draft,output):
         row['candidate_contexts']=[name for a,z,name in RANGES if a<=row['offset']<z]
         if row['id'] in translated:row['translation']=translated[row['id']]['translation']
         rows.append(row)
+    spack_config=recipe.get('spack_ui')
+    if spack_config:
+        if spack_config.get('policy')!='spack-ui-counted-alias-preserving-repack-v001' or spack_config['source_sha256']!=digest(pack) or spack_config['table_sha256']!=table['table_sha256']:
+            raise ValueError('S_PACK recipe planning binding mismatch')
+        for row in table['entries']:
+            target=spack_config['translations'].get(str(row['pointer_ids'][0]))
+            if target:
+                if target['source_sha256']!=row['source_sha256']:raise ValueError('S_PACK entry planning binding mismatch')
+                row['translation']=target['translation'];row['status']='translated-in-recipe-pending-visual'
+                row['reason']='Explicit alias-preserving UI policy; original source offsets retained in this audit'
+            else:
+                row['status']='preserved-in-recipe'
+                row['reason']='Native bytes, protected names, stable symbols, unchanged Portuguese or blocked composition; consult current release'
     multiline=[];refs=None
     from interface_text import references,sections
     refs=references(elf,sections(elf))
@@ -102,12 +115,18 @@ def audit(draft,output):
             'source_ascii':value.decode('ascii'),'source_length':len(value),'source_sha256':digest(value),
             'references':refs.get(start+0xff000,[]),'control_sequence_hex':[c.hex() for c in controls(value)],
             'status':'identified-not-editable','reason':'Multiline literal excluded by historical catalog; explicit consumer/alias policy needed'})
+    if recipe.get('character_status'):
+        target=recipe['character_status']
+        if target['source_sha256']!=multiline[0]['source_sha256']:raise ValueError('Character status planning binding mismatch')
+        multiline[0]['translation']=target['translation'];multiline[0]['status']='translated-in-recipe-pending-visual'
+        multiline[0]['reason']='Explicit single multiline formatter policy'
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
         'spack_alias_references':table['alias_references'],'spack_unique_payload_bytes':table['unique_payload_bytes'],
         'spack_unclaimed_bytes':table['unclaimed_bytes'],
         'spack_repertoires':dict(collections.Counter(r['repertoire'] for r in table['entries'])),
+        'spack_statuses':dict(collections.Counter(r['status'] for r in table['entries'])),
         'spack_control_parse_issues':sum(bool(r['control_parse_issue']) for r in table['entries']),
         'additional_multiline_literals':len(multiline)}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
@@ -115,9 +134,9 @@ def audit(draft,output):
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
         'elf':rows,'additional_elf_literals':multiline,'spack_ui':table,
         'composition_review':[{'id':r['id'],'pointer_ids':r['pointer_ids'],'reason':'English word assembled with %screased; caller arguments and sentence structure need review'} for r in table['entries'] if r['source_ascii'] and '%screased' in r['source_ascii']],
-        'next_work':['Trace S_PACK UI table reader and bounds; preserve aliases and native bytes',
-            'Pin multiline character status formatter; do not relax general catalog',
-            'Context review of remaining literal candidates and protected names'],
+        'next_work':(['Review blocked %screased composition and remaining interface contexts; retain native/name locks',
+            'Collect consolidated visual test of character, inventory and shops'] if spack_config else
+            ['Trace S_PACK UI reader/buffers; pin character formatter; review literal candidates']),
         'originals_modified':False,'iso_created':False,'translation_created':False}
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
@@ -130,6 +149,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v014.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v015.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

@@ -272,6 +272,7 @@ def main():
     parser.add_argument('--draft',type=Path,default=DEFAULT_DRAFT)
     parser.add_argument('--output',type=Path,default=ROOT/'work/pilotos'/f'{datetime.now():%Y%m%d-%H%M%S-%f}')
     parser.add_argument('--build-iso',action='store_true')
+    parser.add_argument('--compact-output',action='store_true',help='Keep recipe by path/hash; write only report and optional ISO')
     parser.add_argument('--layout-profile',choices=('spacing-v003','ptbr-layout-v004','ptbr-layout-v005'),default=None)
     parser.add_argument('--iso-name',help='Optional experimental image name; never changes the saved recipe')
     parser.add_argument('--interface-draft',type=Path,help='Optional separately reviewed ELF UI recipe')
@@ -295,10 +296,11 @@ def main():
         report['interface']={**ui_report,'recipe':ui_path.relative_to(ROOT).as_posix(),
                              'recipe_sha256':hashlib.sha256(ui_path.read_bytes()).hexdigest()}
     output.mkdir(parents=True)
-    write_json(output/'plano.json',document)
-    write_json(output/'rascunho.json',draft)
+    if not args.compact_output:
+        write_json(output/'plano.json',document)
+        write_json(output/'rascunho.json',draft)
     report.update({'draft_sha256':hashlib.sha256(raw).hexdigest(),
-                   'draft_sources':sources,
+                   'draft_sources':sources,'output_mode':'compact' if args.compact_output else 'historical',
                    'font_profile':PROFILE,'layout_profile':layout_profile,'narrative_status':draft['status'],
                    'visual_status':'assumed_by_user_pending_actual_test'})
     if draft.get('terminology_policy'):
@@ -312,13 +314,14 @@ def main():
         report['iso']['image_name']=name
         report['visual_status']=report['iso']['visual_status']
     write_json(output/'relatorio.json',report)
-    with (output/'revisao.jsonl').open('x',encoding='utf-8') as stream:
-        for e,r in zip(document['entries'],report['results']):
-            source=e['segments'][0]['source'];target=e['segments'][0]['translation']
-            stream.write(json.dumps({'id':e['id'],'block_offset':e['block_offset'],
-                'source':source,'translation':target,'validation':r,
-                'segments':e['segments'],
-                'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
+    if not args.compact_output:
+        with (output/'revisao.jsonl').open('x',encoding='utf-8') as stream:
+            for e,r in zip(document['entries'],report['results']):
+                source=e['segments'][0]['source'];target=e['segments'][0]['translation']
+                stream.write(json.dumps({'id':e['id'],'block_offset':e['block_offset'],
+                    'source':source,'translation':target,'validation':r,
+                    'segments':e['segments'],
+                    'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
     print(f"Traduzidos: {report['accepted']}; preservados: {report['unchanged']}; recusados: {report['refused']}. {output}")
     if report.get('interface'):print(f"Interface: {report['interface']['accepted']} campos; validação visual pendente.")
     if report['terminology_issues']:print('Lote bloqueado por violações de terminologia; consulte o relatório.')
