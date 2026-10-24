@@ -158,6 +158,11 @@ def compile_draft(data,draft):
     item_report={'accepted':0}
     if draft.get('item_descriptions'):
         from item_descriptions import compile_descriptions
+        if draft.get('description_review',{}).get('policy'):
+            from prepare_item_batch import validate_review
+            from item_descriptions import catalog as item_catalog,RESOURCE as ITEM_RESOURCE
+            from interface_resources import original
+            validate_review(draft['description_review'],draft['item_descriptions'],item_catalog(original(ITEM_RESOURCE)))
         added,item_report=compile_descriptions(data,draft['item_descriptions']);patches.extend(added)
     name_report={'accepted':0}
     if draft.get('name_entry'):

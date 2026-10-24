@@ -144,10 +144,19 @@ def audit(draft,output):
         from item_descriptions import catalog as item_catalog
         config=recipe['item_descriptions'];targets={r['id']:r for r in config['entries']}
         if config['source_sha256']!=digest(pack):raise ValueError('Item planning source binding mismatch')
-        pending={r['id'] for r in recipe.get('description_review',{}).get('pending',[])}
-        for row in item_catalog(pack):
+        review=recipe.get('description_review',{})
+        pending={r['id']:r for r in review.get('pending',[])}
+        preserved={r['id'] for r in review.get('preserved',[])}
+        item_sources=item_catalog(pack)
+        if review.get('policy'):
+            from prepare_item_batch import validate_review
+            validate_review(review,config,item_sources)
+        for row in item_sources:
             item=dict(row);target=targets.get(row['id'])
-            item['status']='translated-in-recipe-pending-visual' if target else ('deferred-space' if row['id'] in pending else 'not-reviewed')
+            deferred=pending.get(row['id'])
+            item['status']=('translated-in-recipe-pending-visual' if target else
+                ('preserved-reviewed-marker' if row['id'] in preserved else
+                 (('deferred-control' if deferred.get('kind')=='technical-control' else 'deferred-space') if deferred else 'not-reviewed')))
             if target:
                 if target['source_sha256']!=row['source_sha256'] or target['item_records']!=row['items']:raise ValueError('Item planning binding mismatch')
                 item['translation']=target['translation']
@@ -185,6 +194,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v017.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v018.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

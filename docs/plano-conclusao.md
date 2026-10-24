@@ -1,5 +1,13 @@
 # Plano para concluir a tradução
 
+**Atualização v018:** revisão inicial dos 567 alvos do pool conhecido de descrições
+concluída: 353 traduzidos (602 IDs), 212 adiados por espaço/linhas, um percentual
+bloqueado e o marcador ??? preservado. A rodada acrescenta 239 textos e mantém
+toda a v017. Total 1.392 campos de interface. Ver `docs/interface-v018.md`.
+Próxima etapa técnica: triagem das causas de espaço e prova de referências/
+consumidores antes de qualquer reorganização do pool. Não confundir esse catálogo
+revisto com descoberta ou tradução de todos os itens do jogo.
+
 **Atualização v017:** iniciada a etapa de descrições de equipamentos. São 114
 textos novos usados por 126 itens; 61 propostas adiadas por espaço e 392 ainda
 não revistas no catálogo de 567 alvos. Nomes/atributos intactos e toda v016

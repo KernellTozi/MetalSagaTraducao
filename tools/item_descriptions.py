@@ -51,9 +51,23 @@ def validate_value(before,text):
     if issues:raise ValueError('; '.join(issues))
     return value
 
+def validate_names(source,target):
+    """Explicit unique references for the broader component/memo lot; opt-in."""
+    from translation_policy import occurrences
+    names=('Defending Blade','Twin Fang','Jamadhar','Stirm Pistol','G3A3','Cement Gun',
+        'Firebreather','USP','Magnum','Ingram','Drill Claw','Evil Sword','Evil Toy Sword',
+        'Deathbringer','165mm Ghost','205mm Crimson','Crimson Vulcan','Priceless Map',
+        'Legendary Map','Beam Claw','Bomb Claw','Spiked Fender','Iron Claw','Pilebunker',
+        'Moocher','C Unit','Max Load')
+    source=source.replace('|',' ');target=target.replace('|',' ')
+    for name in names:
+        if occurrences(source,name,True)>occurrences(target,name,True):raise ValueError('Unique item reference missing: '+name)
+
 def compile_descriptions(elf,config):
     if sha(elf)!=ORIGINAL_SHA or config.get('policy')!=POLICY or config.get('instruction_windows')!=bindings(elf):
         raise ValueError('Item reader/source policy mismatch')
+    if config.get('name_reference_policy') not in (None,'item-description-unique-name-references-v002'):
+        raise ValueError('Unknown item name policy')
     raw=original(RESOURCE)
     if sha(raw)!=config['source_sha256'] or sha(raw[POOL:POOL+SIZE])!=config['pool_sha256']:
         raise ValueError('Item pool source mismatch')
@@ -67,6 +81,8 @@ def compile_descriptions(elf,config):
         if target['source_sha256']!=row['source_sha256'] or target['item_records']!=row['items']:
             raise ValueError('Description source/item alias binding changed')
         after=validate_value(before,target['translation'])
+        if config.get('name_reference_policy'):
+            validate_names(before.decode('ascii'),target['translation'])
         if after==before:raise ValueError('Unchanged description must be omitted')
         patches.append({'id':key,'resource':RESOURCE,'offset':row['offset'],'before':before+b'\0',
             'after':after+bytes(len(before)+1-len(after))})

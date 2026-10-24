@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v017**, sobre MAP v030 e fontes/layout v005. Preserva os lotes anteriores de menus, lojas, diário, ajuda, mensagens do Satcom, procurados e arte da tela inicial. Acrescenta **114 descrições de equipamentos**, usadas por 126 itens, mantendo todos os nomes originais.
+**Interface v018**, sobre MAP v030 e fontes/layout v005. Preserva menus, lojas, diário, ajuda, mensagens do Satcom, procurados e arte da tela inicial. Acrescenta 239 descrições nesta rodada: são **353 descrições traduzidas**, usadas por 602 IDs de itens, mantendo todos os nomes originais.
 
-São **1.153 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. Há textos pendentes e validações visuais.
+São **1.392 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O pool conhecido de descrições foi revisto: 212 alvos ficam adiados por espaço, um por controle e um marcador permanece original. Há validações visuais pendentes.
 
-ISO: `work/interface-v017/MetalSaga-ptbr-interface-v017.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
+ISO: `work/interface-v018/MetalSaga-ptbr-interface-v018.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/interface-v017.md)
+- [Lote atual e limites](docs/interface-v018.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

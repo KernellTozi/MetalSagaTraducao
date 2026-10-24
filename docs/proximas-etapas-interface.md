@@ -1,5 +1,11 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v018:** 239 descrições novas; o catálogo de 567 alvos recebeu
+revisão inicial completa, com 353 traduções/602 referências, 212 adiamentos de
+espaço, um bloqueio percentual e um marcador preservado. Ferramenta local de
+preparação e ledger em `docs/interface-v018.md`. As pendências de espaço seguem
+separadas, sem expansão não comprovada de slots ou alteração dos nomes dos itens.
+
 **Estado após a v017:** primeiro lote de descrições de equipamentos entregue:
 114 textos/126 itens, com nomes e dados intactos. Das 175 propostas revistas,
 61 aguardam solução de espaço; 392 descrições ainda não foram revistas.
