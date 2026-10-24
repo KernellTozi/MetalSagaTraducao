@@ -1,5 +1,15 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v021:** 37 equipamentos, 105 consumíveis/materiais, 56 móveis/
+acessórios, 51 habilidades e 19 objetos genéricos recebem nomes traduzidos;
+também foram traduzidas 17 mensagens da instalação de HDD. Total 457 nomes e
+2.057 ocorrências de interface. A v020 permanece intacta nos patches existentes.
+O teto de 16 bytes é opt-in, ancorado no original e no caminho comum de desenho;
+não comprova todos os consumidores ou largura em pixels. Há 47 propostas
+pendentes, com diagnóstico atual e evidência histórica separados. Ver
+`docs/interface-v021.md`. Próximos limites: glifos Ó/Í, identidades protegidas,
+redações que excedem o teto e semântica de TITLE/BACK/Coat, sem repack de descrições.
+
 **Estado após a v020:** lote consolidado com 189 nomes de itens/habilidades,
 41 descrições e oito rótulos de interface. O catálogo local único inclui os
 1.349 registros de nomes, com fontes legíveis e classes; 1.041 não são vazios,

@@ -144,6 +144,10 @@ def compile_draft(data,draft):
     from interface_resources import compile_resources
     resource_patches,resource_report=compile_resources(data,draft)
     patches.extend(resource_patches)
+    install_report={'accepted':0}
+    if draft.get('install_texts'):
+        from install_texts import compile_install
+        extra,install_report=compile_install(data,draft['install_texts']);patches.extend(extra)
     spack_report={'accepted':0};status_report={'accepted':0}
     if draft.get('spack_ui'):
         from spack_ui import compile_ui as compile_spack
@@ -192,8 +196,9 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
+        **({'install_texts':install_report} if draft.get('install_texts') else {}),
         'graphic_labels':graphics_report,
         **({'spack_ui':spack_report} if draft.get('spack_ui') else {}),
         **({'character_status':status_report} if draft.get('character_status') else {}),

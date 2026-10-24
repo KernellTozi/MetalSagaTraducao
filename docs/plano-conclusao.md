@@ -1,5 +1,15 @@
 # Plano para concluir a tradução
 
+**Atualização v021:** cinco frentes de nomes somam 268 inclusões, mais 17
+mensagens de sistema: 285 ocorrências novas e 2.057 acumuladas. São 457 nomes
+traduzidos; descrições continuam 536/567 e MAP v030 intacto. Perfil opt-in de
+nomes usa apenas o teto observado de 16 bytes e o preenchimento zerado do próprio
+registro, sem alterar +17..+127. NDATA 12 usa perfil específico, com o descritor
+de 875 bytes e %INSTALLSIZE% preservados. Restam 47 propostas de nomes pendentes;
+o planejador separa motivo histórico de diagnóstico atual. TITLE/BACK e Coat
+permanecem bloqueados; não adivinhar ações nem expandir nomes além do teto.
+Procedimentos, evidências e teste visual consolidado em `docs/interface-v021.md`.
+
 **Atualização v020:** três blocos em uma única imagem: 189 nomes genéricos/
 habilidades (183 rótulos distintos), 41 descrições retomadas e oito campos de
 interface. São 536/567 descrições (883 IDs) e 1.772 campos acumulados. A confirmação

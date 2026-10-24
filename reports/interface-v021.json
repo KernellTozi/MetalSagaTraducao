@@ -1,0 +1,4140 @@
+{
+  "schema": 1,
+  "version": "interface-v021",
+  "previous": "interface-v020",
+  "interface_count": 2057,
+  "new_fields": 285,
+  "fronts": {
+    "generic-equipment": 37,
+    "consumables-materials": 105,
+    "furniture-accessories": 56,
+    "skills": 51,
+    "generic-key-items": 19
+  },
+  "new_names": 268,
+  "total_names": 457,
+  "distinct_translated_labels": 442,
+  "new_name_source_bytes": 2767,
+  "new_name_target_bytes": 3537,
+  "grown_names": 264,
+  "new_names_recovered_from_previous_pending": 204,
+  "name_policy": {
+    "policy": "spack-reviewed-generic-names-observed-ceiling-v002",
+    "accepted": 457,
+    "catalog_records": 1349,
+    "nonempty_records": 1041,
+    "unique_translated_labels": 442,
+    "instruction_windows": [
+      {
+        "offset": 461416,
+        "size": 308,
+        "sha256": "42307fbc53bb70b9295fcd9d6a149efce0cd2aa19c011f0b1f1f51197fc97871"
+      },
+      {
+        "offset": 448824,
+        "size": 24,
+        "sha256": "5b05719b823fd7c6a75854455560bb75ff3f78337c31532889065d9779902cc8"
+      },
+      {
+        "offset": 460200,
+        "size": 104,
+        "sha256": "945eaf71383d746c2ffa023c65df3198fea2513fc3a85097324053a17cef453f"
+      },
+      {
+        "offset": 1782992,
+        "size": 96,
+        "sha256": "742248cbee223cdcdedcec89b1f4c56446b5fafc753bb8c5f487f0c03debb667"
+      },
+      {
+        "offset": 1669064,
+        "size": 120,
+        "sha256": "39fadd563fccf1514153a081cbda6008bfb3132b965cc47aae93dfdb7aee6972"
+      },
+      {
+        "offset": 2254540,
+        "size": 12,
+        "sha256": "ab1a1818f0e4af7236578309ea8ccfe2a88fb8454c1ede156f470bea1a457d13"
+      },
+      {
+        "offset": 2254832,
+        "size": 32,
+        "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+      }
+    ],
+    "record_stride": 128,
+    "name_field_bytes": 24,
+    "per_name_growth": true,
+    "maximum_target_bytes": 16,
+    "ceiling_evidence": {
+      "maximum_original_name_bytes": 16,
+      "witness_item_ids": [
+        954
+      ],
+      "zero_name_tails": true,
+      "instruction_windows": [
+        {
+          "offset": 1783020,
+          "size": 24,
+          "sha256": "17e898bbd760f6edd2c1ace82dee8ec399b486906a2fdb0405945a9e84cf88f0"
+        },
+        {
+          "offset": 1669064,
+          "size": 328,
+          "sha256": "6652c9e08771d2cbf1979a1f3cd308869278c961785fb9d6efffef89e9f9089c"
+        }
+      ]
+    },
+    "attributes_description_offsets_and_ids_unchanged": true,
+    "shared_labels_consistent": true,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Observed 16-byte ceiling and original zero tails; no growth beyond the largest original name. Sort order may change. No full consumer census, formatter or PS2 execution claimed"
+  },
+  "new_name_fields": [
+    {
+      "id": "item.name.0100",
+      "item_id": 100,
+      "offset": 14880,
+      "source_bytes": 8,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0101",
+      "item_id": 101,
+      "offset": 15008,
+      "source_bytes": 8,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0102",
+      "item_id": 102,
+      "offset": 15136,
+      "source_bytes": 8,
+      "target_bytes": 9,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0104",
+      "item_id": 104,
+      "offset": 15392,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0107",
+      "item_id": 107,
+      "offset": 15776,
+      "source_bytes": 6,
+      "target_bytes": 8,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0108",
+      "item_id": 108,
+      "offset": 15904,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0110",
+      "item_id": 110,
+      "offset": 16160,
+      "source_bytes": 13,
+      "target_bytes": 13,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0117",
+      "item_id": 117,
+      "offset": 17056,
+      "source_bytes": 8,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0120",
+      "item_id": 120,
+      "offset": 17440,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0122",
+      "item_id": 122,
+      "offset": 17696,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0124",
+      "item_id": 124,
+      "offset": 17952,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0125",
+      "item_id": 125,
+      "offset": 18080,
+      "source_bytes": 6,
+      "target_bytes": 10,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0126",
+      "item_id": 126,
+      "offset": 18208,
+      "source_bytes": 10,
+      "target_bytes": 13,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0131",
+      "item_id": 131,
+      "offset": 18848,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0137",
+      "item_id": 137,
+      "offset": 19616,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0142",
+      "item_id": 142,
+      "offset": 20256,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0143",
+      "item_id": 143,
+      "offset": 20384,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0144",
+      "item_id": 144,
+      "offset": 20512,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0147",
+      "item_id": 147,
+      "offset": 20896,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0148",
+      "item_id": 148,
+      "offset": 21024,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0152",
+      "item_id": 152,
+      "offset": 21536,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0153",
+      "item_id": 153,
+      "offset": 21664,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0154",
+      "item_id": 154,
+      "offset": 21792,
+      "source_bytes": 7,
+      "target_bytes": 10,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0157",
+      "item_id": 157,
+      "offset": 22176,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0158",
+      "item_id": 158,
+      "offset": 22304,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0159",
+      "item_id": 159,
+      "offset": 22432,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0160",
+      "item_id": 160,
+      "offset": 22560,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0163",
+      "item_id": 163,
+      "offset": 22944,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0164",
+      "item_id": 164,
+      "offset": 23072,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0174",
+      "item_id": 174,
+      "offset": 24352,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0175",
+      "item_id": 175,
+      "offset": 24480,
+      "source_bytes": 7,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0180",
+      "item_id": 180,
+      "offset": 25120,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0184",
+      "item_id": 184,
+      "offset": 25632,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0185",
+      "item_id": 185,
+      "offset": 25760,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0186",
+      "item_id": 186,
+      "offset": 25888,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0188",
+      "item_id": 188,
+      "offset": 26144,
+      "source_bytes": 9,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0189",
+      "item_id": 189,
+      "offset": 26272,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0319",
+      "item_id": 319,
+      "offset": 42912,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0320",
+      "item_id": 320,
+      "offset": 43040,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0321",
+      "item_id": 321,
+      "offset": 43168,
+      "source_bytes": 14,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0322",
+      "item_id": 322,
+      "offset": 43296,
+      "source_bytes": 12,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0324",
+      "item_id": 324,
+      "offset": 43552,
+      "source_bytes": 8,
+      "target_bytes": 9,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0326",
+      "item_id": 326,
+      "offset": 43808,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0327",
+      "item_id": 327,
+      "offset": 43936,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0328",
+      "item_id": 328,
+      "offset": 44064,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0329",
+      "item_id": 329,
+      "offset": 44192,
+      "source_bytes": 7,
+      "target_bytes": 8,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0333",
+      "item_id": 333,
+      "offset": 44704,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0335",
+      "item_id": 335,
+      "offset": 44960,
+      "source_bytes": 9,
+      "target_bytes": 11,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0343",
+      "item_id": 343,
+      "offset": 45984,
+      "source_bytes": 12,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0346",
+      "item_id": 346,
+      "offset": 46368,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0347",
+      "item_id": 347,
+      "offset": 46496,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0348",
+      "item_id": 348,
+      "offset": 46624,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0349",
+      "item_id": 349,
+      "offset": 46752,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0353",
+      "item_id": 353,
+      "offset": 47264,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0356",
+      "item_id": 356,
+      "offset": 47648,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0358",
+      "item_id": 358,
+      "offset": 47904,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0361",
+      "item_id": 361,
+      "offset": 48288,
+      "source_bytes": 14,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0363",
+      "item_id": 363,
+      "offset": 48544,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0365",
+      "item_id": 365,
+      "offset": 48800,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0371",
+      "item_id": 371,
+      "offset": 49568,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0375",
+      "item_id": 375,
+      "offset": 50080,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0376",
+      "item_id": 376,
+      "offset": 50208,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0377",
+      "item_id": 377,
+      "offset": 50336,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0379",
+      "item_id": 379,
+      "offset": 50592,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0381",
+      "item_id": 381,
+      "offset": 50848,
+      "source_bytes": 4,
+      "target_bytes": 5,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0382",
+      "item_id": 382,
+      "offset": 50976,
+      "source_bytes": 8,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0387",
+      "item_id": 387,
+      "offset": 51616,
+      "source_bytes": 8,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0390",
+      "item_id": 390,
+      "offset": 52000,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0391",
+      "item_id": 391,
+      "offset": 52128,
+      "source_bytes": 9,
+      "target_bytes": 10,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0392",
+      "item_id": 392,
+      "offset": 52256,
+      "source_bytes": 8,
+      "target_bytes": 10,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0393",
+      "item_id": 393,
+      "offset": 52384,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0395",
+      "item_id": 395,
+      "offset": 52640,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0397",
+      "item_id": 397,
+      "offset": 52896,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0398",
+      "item_id": 398,
+      "offset": 53024,
+      "source_bytes": 9,
+      "target_bytes": 11,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0399",
+      "item_id": 399,
+      "offset": 53152,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0400",
+      "item_id": 400,
+      "offset": 53280,
+      "source_bytes": 5,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0401",
+      "item_id": 401,
+      "offset": 53408,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0402",
+      "item_id": 402,
+      "offset": 53536,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0403",
+      "item_id": 403,
+      "offset": 53664,
+      "source_bytes": 8,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0404",
+      "item_id": 404,
+      "offset": 53792,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0405",
+      "item_id": 405,
+      "offset": 53920,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0406",
+      "item_id": 406,
+      "offset": 54048,
+      "source_bytes": 8,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0407",
+      "item_id": 407,
+      "offset": 54176,
+      "source_bytes": 5,
+      "target_bytes": 7,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0408",
+      "item_id": 408,
+      "offset": 54304,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0410",
+      "item_id": 410,
+      "offset": 54560,
+      "source_bytes": 10,
+      "target_bytes": 11,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0414",
+      "item_id": 414,
+      "offset": 55072,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0415",
+      "item_id": 415,
+      "offset": 55200,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0416",
+      "item_id": 416,
+      "offset": 55328,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0419",
+      "item_id": 419,
+      "offset": 55712,
+      "source_bytes": 9,
+      "target_bytes": 10,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0421",
+      "item_id": 421,
+      "offset": 55968,
+      "source_bytes": 3,
+      "target_bytes": 8,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0423",
+      "item_id": 423,
+      "offset": 56224,
+      "source_bytes": 8,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0424",
+      "item_id": 424,
+      "offset": 56352,
+      "source_bytes": 8,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0426",
+      "item_id": 426,
+      "offset": 56608,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0427",
+      "item_id": 427,
+      "offset": 56736,
+      "source_bytes": 8,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0428",
+      "item_id": 428,
+      "offset": 56864,
+      "source_bytes": 8,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0430",
+      "item_id": 430,
+      "offset": 57120,
+      "source_bytes": 7,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0432",
+      "item_id": 432,
+      "offset": 57376,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0435",
+      "item_id": 435,
+      "offset": 57760,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0436",
+      "item_id": 436,
+      "offset": 57888,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0438",
+      "item_id": 438,
+      "offset": 58144,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0439",
+      "item_id": 439,
+      "offset": 58272,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0440",
+      "item_id": 440,
+      "offset": 58400,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0443",
+      "item_id": 443,
+      "offset": 58784,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0445",
+      "item_id": 445,
+      "offset": 59040,
+      "source_bytes": 10,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0446",
+      "item_id": 446,
+      "offset": 59168,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0452",
+      "item_id": 452,
+      "offset": 59936,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0458",
+      "item_id": 458,
+      "offset": 60704,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0459",
+      "item_id": 459,
+      "offset": 60832,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0461",
+      "item_id": 461,
+      "offset": 61088,
+      "source_bytes": 7,
+      "target_bytes": 8,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0462",
+      "item_id": 462,
+      "offset": 61216,
+      "source_bytes": 5,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0621",
+      "item_id": 621,
+      "offset": 81568,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0622",
+      "item_id": 622,
+      "offset": 81696,
+      "source_bytes": 4,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0623",
+      "item_id": 623,
+      "offset": 81824,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0627",
+      "item_id": 627,
+      "offset": 82336,
+      "source_bytes": 4,
+      "target_bytes": 7,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0629",
+      "item_id": 629,
+      "offset": 82592,
+      "source_bytes": 3,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0634",
+      "item_id": 634,
+      "offset": 83232,
+      "source_bytes": 9,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0638",
+      "item_id": 638,
+      "offset": 83744,
+      "source_bytes": 9,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0639",
+      "item_id": 639,
+      "offset": 83872,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0640",
+      "item_id": 640,
+      "offset": 84000,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0641",
+      "item_id": 641,
+      "offset": 84128,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0642",
+      "item_id": 642,
+      "offset": 84256,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0643",
+      "item_id": 643,
+      "offset": 84384,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0644",
+      "item_id": 644,
+      "offset": 84512,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0645",
+      "item_id": 645,
+      "offset": 84640,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0649",
+      "item_id": 649,
+      "offset": 85152,
+      "source_bytes": 5,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0651",
+      "item_id": 651,
+      "offset": 85408,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0652",
+      "item_id": 652,
+      "offset": 85536,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0653",
+      "item_id": 653,
+      "offset": 85664,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0654",
+      "item_id": 654,
+      "offset": 85792,
+      "source_bytes": 10,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0656",
+      "item_id": 656,
+      "offset": 86048,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0657",
+      "item_id": 657,
+      "offset": 86176,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0658",
+      "item_id": 658,
+      "offset": 86304,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0698",
+      "item_id": 698,
+      "offset": 91424,
+      "source_bytes": 5,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0699",
+      "item_id": 699,
+      "offset": 91552,
+      "source_bytes": 4,
+      "target_bytes": 6,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0702",
+      "item_id": 702,
+      "offset": 91936,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0703",
+      "item_id": 703,
+      "offset": 92064,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0704",
+      "item_id": 704,
+      "offset": 92192,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0705",
+      "item_id": 705,
+      "offset": 92320,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0706",
+      "item_id": 706,
+      "offset": 92448,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0707",
+      "item_id": 707,
+      "offset": 92576,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0708",
+      "item_id": 708,
+      "offset": 92704,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0709",
+      "item_id": 709,
+      "offset": 92832,
+      "source_bytes": 12,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0713",
+      "item_id": 713,
+      "offset": 93344,
+      "source_bytes": 7,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0721",
+      "item_id": 721,
+      "offset": 94368,
+      "source_bytes": 12,
+      "target_bytes": 13,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0722",
+      "item_id": 722,
+      "offset": 94496,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0723",
+      "item_id": 723,
+      "offset": 94624,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0728",
+      "item_id": 728,
+      "offset": 95264,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0730",
+      "item_id": 730,
+      "offset": 95520,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0731",
+      "item_id": 731,
+      "offset": 95648,
+      "source_bytes": 9,
+      "target_bytes": 11,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0732",
+      "item_id": 732,
+      "offset": 95776,
+      "source_bytes": 11,
+      "target_bytes": 12,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0734",
+      "item_id": 734,
+      "offset": 96032,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0736",
+      "item_id": 736,
+      "offset": 96288,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0737",
+      "item_id": 737,
+      "offset": 96416,
+      "source_bytes": 9,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0738",
+      "item_id": 738,
+      "offset": 96544,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0739",
+      "item_id": 739,
+      "offset": 96672,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0743",
+      "item_id": 743,
+      "offset": 97184,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0744",
+      "item_id": 744,
+      "offset": 97312,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0745",
+      "item_id": 745,
+      "offset": 97440,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0754",
+      "item_id": 754,
+      "offset": 98592,
+      "source_bytes": 5,
+      "target_bytes": 6,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0755",
+      "item_id": 755,
+      "offset": 98720,
+      "source_bytes": 7,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0758",
+      "item_id": 758,
+      "offset": 99104,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0761",
+      "item_id": 761,
+      "offset": 99488,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0764",
+      "item_id": 764,
+      "offset": 99872,
+      "source_bytes": 6,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0767",
+      "item_id": 767,
+      "offset": 100256,
+      "source_bytes": 6,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0770",
+      "item_id": 770,
+      "offset": 100640,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0771",
+      "item_id": 771,
+      "offset": 100768,
+      "source_bytes": 6,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0772",
+      "item_id": 772,
+      "offset": 100896,
+      "source_bytes": 5,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0775",
+      "item_id": 775,
+      "offset": 101280,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0776",
+      "item_id": 776,
+      "offset": 101408,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0777",
+      "item_id": 777,
+      "offset": 101536,
+      "source_bytes": 5,
+      "target_bytes": 7,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0778",
+      "item_id": 778,
+      "offset": 101664,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0780",
+      "item_id": 780,
+      "offset": 101920,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0792",
+      "item_id": 792,
+      "offset": 103456,
+      "source_bytes": 6,
+      "target_bytes": 9,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0793",
+      "item_id": 793,
+      "offset": 103584,
+      "source_bytes": 8,
+      "target_bytes": 11,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0798",
+      "item_id": 798,
+      "offset": 104224,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0809",
+      "item_id": 809,
+      "offset": 105632,
+      "source_bytes": 5,
+      "target_bytes": 6,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0811",
+      "item_id": 811,
+      "offset": 105888,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0816",
+      "item_id": 816,
+      "offset": 106528,
+      "source_bytes": 5,
+      "target_bytes": 7,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0817",
+      "item_id": 817,
+      "offset": 106656,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0819",
+      "item_id": 819,
+      "offset": 106912,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0821",
+      "item_id": 821,
+      "offset": 107168,
+      "source_bytes": 8,
+      "target_bytes": 12,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0822",
+      "item_id": 822,
+      "offset": 107296,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0823",
+      "item_id": 823,
+      "offset": 107424,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0824",
+      "item_id": 824,
+      "offset": 107552,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0825",
+      "item_id": 825,
+      "offset": 107680,
+      "source_bytes": 5,
+      "target_bytes": 7,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0826",
+      "item_id": 826,
+      "offset": 107808,
+      "source_bytes": 8,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0827",
+      "item_id": 827,
+      "offset": 107936,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0828",
+      "item_id": 828,
+      "offset": 108064,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0829",
+      "item_id": 829,
+      "offset": 108192,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0830",
+      "item_id": 830,
+      "offset": 108320,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0831",
+      "item_id": 831,
+      "offset": 108448,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0833",
+      "item_id": 833,
+      "offset": 108704,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0834",
+      "item_id": 834,
+      "offset": 108832,
+      "source_bytes": 4,
+      "target_bytes": 8,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0836",
+      "item_id": 836,
+      "offset": 109088,
+      "source_bytes": 9,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0837",
+      "item_id": 837,
+      "offset": 109216,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0839",
+      "item_id": 839,
+      "offset": 109472,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0840",
+      "item_id": 840,
+      "offset": 109600,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0848",
+      "item_id": 848,
+      "offset": 110624,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0850",
+      "item_id": 850,
+      "offset": 110880,
+      "source_bytes": 4,
+      "target_bytes": 5,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0851",
+      "item_id": 851,
+      "offset": 111008,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0860",
+      "item_id": 860,
+      "offset": 112160,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0866",
+      "item_id": 866,
+      "offset": 112928,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0867",
+      "item_id": 867,
+      "offset": 113056,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0868",
+      "item_id": 868,
+      "offset": 113184,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0869",
+      "item_id": 869,
+      "offset": 113312,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0876",
+      "item_id": 876,
+      "offset": 114208,
+      "source_bytes": 8,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0878",
+      "item_id": 878,
+      "offset": 114464,
+      "source_bytes": 5,
+      "target_bytes": 7,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0880",
+      "item_id": 880,
+      "offset": 114720,
+      "source_bytes": 10,
+      "target_bytes": 13,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0881",
+      "item_id": 881,
+      "offset": 114848,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0882",
+      "item_id": 882,
+      "offset": 114976,
+      "source_bytes": 8,
+      "target_bytes": 9,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0890",
+      "item_id": 890,
+      "offset": 116000,
+      "source_bytes": 9,
+      "target_bytes": 10,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0894",
+      "item_id": 894,
+      "offset": 116512,
+      "source_bytes": 7,
+      "target_bytes": 8,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0896",
+      "item_id": 896,
+      "offset": 116768,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0903",
+      "item_id": 903,
+      "offset": 117664,
+      "source_bytes": 9,
+      "target_bytes": 10,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0905",
+      "item_id": 905,
+      "offset": 117920,
+      "source_bytes": 5,
+      "target_bytes": 7,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0906",
+      "item_id": 906,
+      "offset": 118048,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0907",
+      "item_id": 907,
+      "offset": 118176,
+      "source_bytes": 9,
+      "target_bytes": 11,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0908",
+      "item_id": 908,
+      "offset": 118304,
+      "source_bytes": 6,
+      "target_bytes": 8,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0909",
+      "item_id": 909,
+      "offset": 118432,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0910",
+      "item_id": 910,
+      "offset": 118560,
+      "source_bytes": 7,
+      "target_bytes": 11,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0912",
+      "item_id": 912,
+      "offset": 118816,
+      "source_bytes": 8,
+      "target_bytes": 11,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0915",
+      "item_id": 915,
+      "offset": 119200,
+      "source_bytes": 11,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0916",
+      "item_id": 916,
+      "offset": 119328,
+      "source_bytes": 10,
+      "target_bytes": 11,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0918",
+      "item_id": 918,
+      "offset": 119584,
+      "source_bytes": 10,
+      "target_bytes": 13,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0921",
+      "item_id": 921,
+      "offset": 119968,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0924",
+      "item_id": 924,
+      "offset": 120352,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0925",
+      "item_id": 925,
+      "offset": 120480,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0926",
+      "item_id": 926,
+      "offset": 120608,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0928",
+      "item_id": 928,
+      "offset": 120864,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0930",
+      "item_id": 930,
+      "offset": 121120,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0934",
+      "item_id": 934,
+      "offset": 121632,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0943",
+      "item_id": 943,
+      "offset": 122784,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0947",
+      "item_id": 947,
+      "offset": 123296,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0948",
+      "item_id": 948,
+      "offset": 123424,
+      "source_bytes": 10,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0955",
+      "item_id": 955,
+      "offset": 124320,
+      "source_bytes": 11,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0962",
+      "item_id": 962,
+      "offset": 125216,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0967",
+      "item_id": 967,
+      "offset": 125856,
+      "source_bytes": 8,
+      "target_bytes": 9,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0968",
+      "item_id": 968,
+      "offset": 125984,
+      "source_bytes": 11,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0969",
+      "item_id": 969,
+      "offset": 126112,
+      "source_bytes": 11,
+      "target_bytes": 12,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0970",
+      "item_id": 970,
+      "offset": 126240,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0972",
+      "item_id": 972,
+      "offset": 126496,
+      "source_bytes": 7,
+      "target_bytes": 8,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0973",
+      "item_id": 973,
+      "offset": 126624,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0974",
+      "item_id": 974,
+      "offset": 126752,
+      "source_bytes": 8,
+      "target_bytes": 11,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0979",
+      "item_id": 979,
+      "offset": 127392,
+      "source_bytes": 6,
+      "target_bytes": 7,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0980",
+      "item_id": 980,
+      "offset": 127520,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0981",
+      "item_id": 981,
+      "offset": 127648,
+      "source_bytes": 7,
+      "target_bytes": 11,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0984",
+      "item_id": 984,
+      "offset": 128032,
+      "source_bytes": 7,
+      "target_bytes": 15,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0986",
+      "item_id": 986,
+      "offset": 128288,
+      "source_bytes": 7,
+      "target_bytes": 10,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0988",
+      "item_id": 988,
+      "offset": 128544,
+      "source_bytes": 6,
+      "target_bytes": 8,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.1000",
+      "item_id": 1000,
+      "offset": 130080,
+      "source_bytes": 9,
+      "target_bytes": 11,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1001",
+      "item_id": 1001,
+      "offset": 130208,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1003",
+      "item_id": 1003,
+      "offset": 130464,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1005",
+      "item_id": 1005,
+      "offset": 130720,
+      "source_bytes": 10,
+      "target_bytes": 11,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1006",
+      "item_id": 1006,
+      "offset": 130848,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1007",
+      "item_id": 1007,
+      "offset": 130976,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1008",
+      "item_id": 1008,
+      "offset": 131104,
+      "source_bytes": 10,
+      "target_bytes": 15,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1009",
+      "item_id": 1009,
+      "offset": 131232,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1010",
+      "item_id": 1010,
+      "offset": 131360,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1014",
+      "item_id": 1014,
+      "offset": 131872,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1016",
+      "item_id": 1016,
+      "offset": 132128,
+      "source_bytes": 7,
+      "target_bytes": 11,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1017",
+      "item_id": 1017,
+      "offset": 132256,
+      "source_bytes": 10,
+      "target_bytes": 11,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1018",
+      "item_id": 1018,
+      "offset": 132384,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1019",
+      "item_id": 1019,
+      "offset": 132512,
+      "source_bytes": 9,
+      "target_bytes": 13,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1020",
+      "item_id": 1020,
+      "offset": 132640,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1038",
+      "item_id": 1038,
+      "offset": 134944,
+      "source_bytes": 8,
+      "target_bytes": 12,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1039",
+      "item_id": 1039,
+      "offset": 135072,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1041",
+      "item_id": 1041,
+      "offset": 135328,
+      "source_bytes": 9,
+      "target_bytes": 15,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1042",
+      "item_id": 1042,
+      "offset": 135456,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "generic-key-items"
+    }
+  ],
+  "name_review": {
+    "selected": 505,
+    "accepted": 457,
+    "pending": 47,
+    "protected_preserved": 1,
+    "current_entry_issues": {
+      "Unsupported project glyph U+00D3": 1,
+      "Item name original slot/control budget exceeded": 37,
+      "Entry guards pass; editorial/alias review required": 4,
+      "Termo/nome protegido ausente: Repair Kit": 1,
+      "Unsupported project glyph U+00CD": 1,
+      "Termo/nome protegido ausente: Fang": 2,
+      "Termo/nome protegido ausente: Bus Stop Sign": 1
+    },
+    "historical_evidence_preserved": true
+  },
+  "installer": {
+    "policy": "ndata-install-crlf-original-loaded-region-v001",
+    "accepted": 17,
+    "results": [
+      {
+        "id": "install.000",
+        "source_bytes": 105,
+        "target_bytes": 81
+      },
+      {
+        "id": "install.001",
+        "source_bytes": 64,
+        "target_bytes": 74
+      },
+      {
+        "id": "install.002",
+        "source_bytes": 86,
+        "target_bytes": 57
+      },
+      {
+        "id": "install.003",
+        "source_bytes": 101,
+        "target_bytes": 88
+      },
+      {
+        "id": "install.004",
+        "source_bytes": 66,
+        "target_bytes": 54
+      },
+      {
+        "id": "install.005",
+        "source_bytes": 26,
+        "target_bytes": 30
+      },
+      {
+        "id": "install.006",
+        "source_bytes": 62,
+        "target_bytes": 67
+      },
+      {
+        "id": "install.007",
+        "source_bytes": 22,
+        "target_bytes": 24
+      },
+      {
+        "id": "install.008",
+        "source_bytes": 30,
+        "target_bytes": 27
+      },
+      {
+        "id": "install.009",
+        "source_bytes": 11,
+        "target_bytes": 11
+      },
+      {
+        "id": "install.010",
+        "source_bytes": 42,
+        "target_bytes": 39
+      },
+      {
+        "id": "install.011",
+        "source_bytes": 76,
+        "target_bytes": 54
+      },
+      {
+        "id": "install.012",
+        "source_bytes": 38,
+        "target_bytes": 48
+      },
+      {
+        "id": "install.013",
+        "source_bytes": 3,
+        "target_bytes": 3
+      },
+      {
+        "id": "install.014",
+        "source_bytes": 2,
+        "target_bytes": 4
+      },
+      {
+        "id": "install.015",
+        "source_bytes": 40,
+        "target_bytes": 44
+      },
+      {
+        "id": "install.016",
+        "source_bytes": 67,
+        "target_bytes": 65
+      }
+    ],
+    "loaded_bytes": 875,
+    "used_bytes": 804,
+    "row_count": 17,
+    "column_ceiling": 35,
+    "instruction_windows": [
+      {
+        "offset": 776372,
+        "size": 96,
+        "sha256": "b22a676093e5c51c815868368fb56ece8363a7858778f7b43199f0c60224c849"
+      },
+      {
+        "offset": 782020,
+        "size": 40,
+        "sha256": "92110dbbf4e2518871356bc2ed39d7e3d487f5acc5da5b143939d3349304d7d2"
+      },
+      {
+        "offset": 613968,
+        "size": 392,
+        "sha256": "d5eff49c282f008c95c3469f5c15f380b3981b90d9146da744bf0ae45ca83b67"
+      },
+      {
+        "offset": 3444432,
+        "size": 8,
+        "sha256": "a15c9ee67f6508943b0cc0895377887881609ef65eb47c4b6cd73d7b2c0177e7"
+      },
+      {
+        "offset": 3279008,
+        "size": 14,
+        "sha256": "3c154ee169fd2cbe5fa34edef007b5a9f12664cdff87911214eb75dcc18d6893"
+      }
+    ],
+    "descriptor_and_external_padding_unchanged": true,
+    "token": "%INSTALLSIZE%",
+    "original_counter_verified": true,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "No HDD installation, file I/O, token replacer or PCSX2 execution performed"
+  },
+  "description_count_unchanged": 536,
+  "description_item_ids_unchanged": 883,
+  "map_changed": 5892,
+  "map_unchanged": 1339,
+  "map_refused": 0,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v021/MetalSaga-ptbr-interface-v021.iso",
+    "size": 1704427520,
+    "sha256": "9aeb41ee8f1452bc24e65ac0a0c50aae5a659a66e15c5ecd9ef28ca6b3934a43"
+  },
+  "full_iso_comparison": {
+    "source": "work/interface-v020/MetalSaga-ptbr-interface-v020.iso",
+    "source_sha256": "31610ae575843c062f701b84ad84fc904057b8b6d6da7229812302d4a4a5a47f",
+    "changed_byte_count": 4103,
+    "authorized_interval_count": 269,
+    "all_bytes_match_expected_patch": true,
+    "iso_directory_identical": true,
+    "intervals": [
+      {
+        "id": "ndata.install.12",
+        "resource": "DATA/NDATA/NDATA.SDA",
+        "iso_offset": 1210279936,
+        "size": 875
+      },
+      {
+        "id": "item.name.0100",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290052128,
+        "size": 17
+      },
+      {
+        "id": "item.name.0101",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290052256,
+        "size": 16
+      },
+      {
+        "id": "item.name.0102",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290052384,
+        "size": 10
+      },
+      {
+        "id": "item.name.0104",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290052640,
+        "size": 15
+      },
+      {
+        "id": "item.name.0107",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290053024,
+        "size": 9
+      },
+      {
+        "id": "item.name.0108",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290053152,
+        "size": 17
+      },
+      {
+        "id": "item.name.0110",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290053408,
+        "size": 14
+      },
+      {
+        "id": "item.name.0117",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290054304,
+        "size": 16
+      },
+      {
+        "id": "item.name.0120",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290054688,
+        "size": 16
+      },
+      {
+        "id": "item.name.0122",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290054944,
+        "size": 17
+      },
+      {
+        "id": "item.name.0124",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290055200,
+        "size": 16
+      },
+      {
+        "id": "item.name.0125",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290055328,
+        "size": 11
+      },
+      {
+        "id": "item.name.0126",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290055456,
+        "size": 14
+      },
+      {
+        "id": "item.name.0131",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290056096,
+        "size": 16
+      },
+      {
+        "id": "item.name.0137",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290056864,
+        "size": 17
+      },
+      {
+        "id": "item.name.0142",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290057504,
+        "size": 16
+      },
+      {
+        "id": "item.name.0143",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290057632,
+        "size": 17
+      },
+      {
+        "id": "item.name.0144",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290057760,
+        "size": 14
+      },
+      {
+        "id": "item.name.0147",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290058144,
+        "size": 16
+      },
+      {
+        "id": "item.name.0148",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290058272,
+        "size": 17
+      },
+      {
+        "id": "item.name.0152",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290058784,
+        "size": 16
+      },
+      {
+        "id": "item.name.0153",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290058912,
+        "size": 17
+      },
+      {
+        "id": "item.name.0154",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290059040,
+        "size": 11
+      },
+      {
+        "id": "item.name.0157",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290059424,
+        "size": 17
+      },
+      {
+        "id": "item.name.0158",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290059552,
+        "size": 17
+      },
+      {
+        "id": "item.name.0159",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290059680,
+        "size": 15
+      },
+      {
+        "id": "item.name.0160",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290059808,
+        "size": 16
+      },
+      {
+        "id": "item.name.0163",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290060192,
+        "size": 14
+      },
+      {
+        "id": "item.name.0164",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290060320,
+        "size": 17
+      },
+      {
+        "id": "item.name.0174",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290061600,
+        "size": 17
+      },
+      {
+        "id": "item.name.0175",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290061728,
+        "size": 16
+      },
+      {
+        "id": "item.name.0180",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290062368,
+        "size": 16
+      },
+      {
+        "id": "item.name.0184",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290062880,
+        "size": 17
+      },
+      {
+        "id": "item.name.0185",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290063008,
+        "size": 17
+      },
+      {
+        "id": "item.name.0186",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290063136,
+        "size": 17
+      },
+      {
+        "id": "item.name.0188",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290063392,
+        "size": 17
+      },
+      {
+        "id": "item.name.0189",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290063520,
+        "size": 16
+      },
+      {
+        "id": "item.name.0319",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290080160,
+        "size": 17
+      },
+      {
+        "id": "item.name.0320",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290080288,
+        "size": 15
+      },
+      {
+        "id": "item.name.0321",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290080416,
+        "size": 15
+      },
+      {
+        "id": "item.name.0322",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290080544,
+        "size": 13
+      },
+      {
+        "id": "item.name.0324",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290080800,
+        "size": 10
+      },
+      {
+        "id": "item.name.0326",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290081056,
+        "size": 16
+      },
+      {
+        "id": "item.name.0327",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290081184,
+        "size": 17
+      },
+      {
+        "id": "item.name.0328",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290081312,
+        "size": 15
+      },
+      {
+        "id": "item.name.0329",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290081440,
+        "size": 9
+      },
+      {
+        "id": "item.name.0333",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290081952,
+        "size": 17
+      },
+      {
+        "id": "item.name.0335",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290082208,
+        "size": 12
+      },
+      {
+        "id": "item.name.0343",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290083232,
+        "size": 14
+      },
+      {
+        "id": "item.name.0346",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290083616,
+        "size": 16
+      },
+      {
+        "id": "item.name.0347",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290083744,
+        "size": 15
+      },
+      {
+        "id": "item.name.0348",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290083872,
+        "size": 17
+      },
+      {
+        "id": "item.name.0349",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290084000,
+        "size": 16
+      },
+      {
+        "id": "item.name.0353",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290084512,
+        "size": 15
+      },
+      {
+        "id": "item.name.0356",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290084896,
+        "size": 16
+      },
+      {
+        "id": "item.name.0358",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290085152,
+        "size": 17
+      },
+      {
+        "id": "item.name.0361",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290085536,
+        "size": 15
+      },
+      {
+        "id": "item.name.0363",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290085792,
+        "size": 13
+      },
+      {
+        "id": "item.name.0365",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290086048,
+        "size": 17
+      },
+      {
+        "id": "item.name.0371",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290086816,
+        "size": 15
+      },
+      {
+        "id": "item.name.0375",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290087328,
+        "size": 17
+      },
+      {
+        "id": "item.name.0376",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290087456,
+        "size": 16
+      },
+      {
+        "id": "item.name.0377",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290087584,
+        "size": 15
+      },
+      {
+        "id": "item.name.0379",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290087840,
+        "size": 16
+      },
+      {
+        "id": "item.name.0381",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290088096,
+        "size": 6
+      },
+      {
+        "id": "item.name.0382",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290088224,
+        "size": 13
+      },
+      {
+        "id": "item.name.0387",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290088864,
+        "size": 15
+      },
+      {
+        "id": "item.name.0390",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290089248,
+        "size": 15
+      },
+      {
+        "id": "item.name.0391",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290089376,
+        "size": 11
+      },
+      {
+        "id": "item.name.0392",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290089504,
+        "size": 11
+      },
+      {
+        "id": "item.name.0393",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290089632,
+        "size": 16
+      },
+      {
+        "id": "item.name.0395",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290089888,
+        "size": 16
+      },
+      {
+        "id": "item.name.0397",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090144,
+        "size": 17
+      },
+      {
+        "id": "item.name.0398",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090272,
+        "size": 12
+      },
+      {
+        "id": "item.name.0399",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090400,
+        "size": 15
+      },
+      {
+        "id": "item.name.0400",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090528,
+        "size": 7
+      },
+      {
+        "id": "item.name.0401",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090656,
+        "size": 16
+      },
+      {
+        "id": "item.name.0402",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090784,
+        "size": 15
+      },
+      {
+        "id": "item.name.0403",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290090912,
+        "size": 14
+      },
+      {
+        "id": "item.name.0404",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290091040,
+        "size": 17
+      },
+      {
+        "id": "item.name.0405",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290091168,
+        "size": 16
+      },
+      {
+        "id": "item.name.0406",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290091296,
+        "size": 13
+      },
+      {
+        "id": "item.name.0407",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290091424,
+        "size": 8
+      },
+      {
+        "id": "item.name.0408",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290091552,
+        "size": 14
+      },
+      {
+        "id": "item.name.0410",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290091808,
+        "size": 12
+      },
+      {
+        "id": "item.name.0414",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290092320,
+        "size": 15
+      },
+      {
+        "id": "item.name.0415",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290092448,
+        "size": 17
+      },
+      {
+        "id": "item.name.0416",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290092576,
+        "size": 16
+      },
+      {
+        "id": "item.name.0419",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290092960,
+        "size": 11
+      },
+      {
+        "id": "item.name.0421",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290093216,
+        "size": 9
+      },
+      {
+        "id": "item.name.0423",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290093472,
+        "size": 17
+      },
+      {
+        "id": "item.name.0424",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290093600,
+        "size": 16
+      },
+      {
+        "id": "item.name.0426",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290093856,
+        "size": 16
+      },
+      {
+        "id": "item.name.0427",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290093984,
+        "size": 16
+      },
+      {
+        "id": "item.name.0428",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290094112,
+        "size": 14
+      },
+      {
+        "id": "item.name.0430",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290094368,
+        "size": 14
+      },
+      {
+        "id": "item.name.0432",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290094624,
+        "size": 14
+      },
+      {
+        "id": "item.name.0435",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290095008,
+        "size": 13
+      },
+      {
+        "id": "item.name.0436",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290095136,
+        "size": 17
+      },
+      {
+        "id": "item.name.0438",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290095392,
+        "size": 16
+      },
+      {
+        "id": "item.name.0439",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290095520,
+        "size": 16
+      },
+      {
+        "id": "item.name.0440",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290095648,
+        "size": 15
+      },
+      {
+        "id": "item.name.0443",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290096032,
+        "size": 16
+      },
+      {
+        "id": "item.name.0445",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290096288,
+        "size": 14
+      },
+      {
+        "id": "item.name.0446",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290096416,
+        "size": 15
+      },
+      {
+        "id": "item.name.0452",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290097184,
+        "size": 16
+      },
+      {
+        "id": "item.name.0458",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290097952,
+        "size": 16
+      },
+      {
+        "id": "item.name.0459",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290098080,
+        "size": 16
+      },
+      {
+        "id": "item.name.0461",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290098336,
+        "size": 9
+      },
+      {
+        "id": "item.name.0462",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290098464,
+        "size": 7
+      },
+      {
+        "id": "item.name.0621",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290118816,
+        "size": 16
+      },
+      {
+        "id": "item.name.0622",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290118944,
+        "size": 7
+      },
+      {
+        "id": "item.name.0623",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290119072,
+        "size": 16
+      },
+      {
+        "id": "item.name.0627",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290119584,
+        "size": 8
+      },
+      {
+        "id": "item.name.0629",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290119840,
+        "size": 7
+      },
+      {
+        "id": "item.name.0634",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290120480,
+        "size": 17
+      },
+      {
+        "id": "item.name.0638",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290120992,
+        "size": 15
+      },
+      {
+        "id": "item.name.0639",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121120,
+        "size": 17
+      },
+      {
+        "id": "item.name.0640",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121248,
+        "size": 15
+      },
+      {
+        "id": "item.name.0641",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121376,
+        "size": 14
+      },
+      {
+        "id": "item.name.0642",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121504,
+        "size": 13
+      },
+      {
+        "id": "item.name.0643",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121632,
+        "size": 14
+      },
+      {
+        "id": "item.name.0644",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121760,
+        "size": 16
+      },
+      {
+        "id": "item.name.0645",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290121888,
+        "size": 16
+      },
+      {
+        "id": "item.name.0649",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290122400,
+        "size": 7
+      },
+      {
+        "id": "item.name.0651",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290122656,
+        "size": 16
+      },
+      {
+        "id": "item.name.0652",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290122784,
+        "size": 17
+      },
+      {
+        "id": "item.name.0653",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290122912,
+        "size": 16
+      },
+      {
+        "id": "item.name.0654",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290123040,
+        "size": 14
+      },
+      {
+        "id": "item.name.0656",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290123296,
+        "size": 17
+      },
+      {
+        "id": "item.name.0657",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290123424,
+        "size": 15
+      },
+      {
+        "id": "item.name.0658",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290123552,
+        "size": 16
+      },
+      {
+        "id": "item.name.0698",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290128672,
+        "size": 7
+      },
+      {
+        "id": "item.name.0699",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290128800,
+        "size": 7
+      },
+      {
+        "id": "item.name.0702",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129184,
+        "size": 17
+      },
+      {
+        "id": "item.name.0703",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129312,
+        "size": 16
+      },
+      {
+        "id": "item.name.0704",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129440,
+        "size": 16
+      },
+      {
+        "id": "item.name.0705",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129568,
+        "size": 16
+      },
+      {
+        "id": "item.name.0706",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129696,
+        "size": 15
+      },
+      {
+        "id": "item.name.0707",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129824,
+        "size": 17
+      },
+      {
+        "id": "item.name.0708",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290129952,
+        "size": 16
+      },
+      {
+        "id": "item.name.0709",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290130080,
+        "size": 14
+      },
+      {
+        "id": "item.name.0713",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290130592,
+        "size": 9
+      },
+      {
+        "id": "item.name.0721",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290131616,
+        "size": 14
+      },
+      {
+        "id": "item.name.0722",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290131744,
+        "size": 17
+      },
+      {
+        "id": "item.name.0723",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290131872,
+        "size": 17
+      },
+      {
+        "id": "item.name.0728",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290132512,
+        "size": 15
+      },
+      {
+        "id": "item.name.0730",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290132768,
+        "size": 15
+      },
+      {
+        "id": "item.name.0731",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290132896,
+        "size": 12
+      },
+      {
+        "id": "item.name.0732",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290133024,
+        "size": 13
+      },
+      {
+        "id": "item.name.0734",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290133280,
+        "size": 16
+      },
+      {
+        "id": "item.name.0736",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290133536,
+        "size": 14
+      },
+      {
+        "id": "item.name.0737",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290133664,
+        "size": 17
+      },
+      {
+        "id": "item.name.0738",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290133792,
+        "size": 16
+      },
+      {
+        "id": "item.name.0739",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290133920,
+        "size": 17
+      },
+      {
+        "id": "item.name.0743",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290134432,
+        "size": 15
+      },
+      {
+        "id": "item.name.0744",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290134560,
+        "size": 17
+      },
+      {
+        "id": "item.name.0745",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290134688,
+        "size": 16
+      },
+      {
+        "id": "item.name.0754",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290135840,
+        "size": 7
+      },
+      {
+        "id": "item.name.0755",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290135968,
+        "size": 9
+      },
+      {
+        "id": "item.name.0758",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290136352,
+        "size": 16
+      },
+      {
+        "id": "item.name.0761",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290136736,
+        "size": 15
+      },
+      {
+        "id": "item.name.0764",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290137120,
+        "size": 9
+      },
+      {
+        "id": "item.name.0767",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290137504,
+        "size": 9
+      },
+      {
+        "id": "item.name.0770",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290137888,
+        "size": 17
+      },
+      {
+        "id": "item.name.0771",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290138016,
+        "size": 9
+      },
+      {
+        "id": "item.name.0772",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290138144,
+        "size": 9
+      },
+      {
+        "id": "item.name.0775",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290138528,
+        "size": 17
+      },
+      {
+        "id": "item.name.0776",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290138656,
+        "size": 16
+      },
+      {
+        "id": "item.name.0777",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290138784,
+        "size": 8
+      },
+      {
+        "id": "item.name.0778",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290138912,
+        "size": 17
+      },
+      {
+        "id": "item.name.0780",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290139168,
+        "size": 16
+      },
+      {
+        "id": "item.name.0792",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290140704,
+        "size": 10
+      },
+      {
+        "id": "item.name.0793",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290140832,
+        "size": 12
+      },
+      {
+        "id": "item.name.0798",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290141472,
+        "size": 16
+      },
+      {
+        "id": "item.name.0809",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290142880,
+        "size": 7
+      },
+      {
+        "id": "item.name.0811",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290143136,
+        "size": 16
+      },
+      {
+        "id": "item.name.0816",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290143776,
+        "size": 8
+      },
+      {
+        "id": "item.name.0817",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290143904,
+        "size": 17
+      },
+      {
+        "id": "item.name.0819",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290144160,
+        "size": 17
+      },
+      {
+        "id": "item.name.0821",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290144416,
+        "size": 13
+      },
+      {
+        "id": "item.name.0822",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290144544,
+        "size": 17
+      },
+      {
+        "id": "item.name.0823",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290144672,
+        "size": 17
+      },
+      {
+        "id": "item.name.0824",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290144800,
+        "size": 17
+      },
+      {
+        "id": "item.name.0825",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290144928,
+        "size": 8
+      },
+      {
+        "id": "item.name.0826",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145056,
+        "size": 15
+      },
+      {
+        "id": "item.name.0827",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145184,
+        "size": 14
+      },
+      {
+        "id": "item.name.0828",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145312,
+        "size": 15
+      },
+      {
+        "id": "item.name.0829",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145440,
+        "size": 17
+      },
+      {
+        "id": "item.name.0830",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145568,
+        "size": 15
+      },
+      {
+        "id": "item.name.0831",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145696,
+        "size": 16
+      },
+      {
+        "id": "item.name.0833",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290145952,
+        "size": 16
+      },
+      {
+        "id": "item.name.0834",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290146080,
+        "size": 9
+      },
+      {
+        "id": "item.name.0836",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290146336,
+        "size": 15
+      },
+      {
+        "id": "item.name.0837",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290146464,
+        "size": 16
+      },
+      {
+        "id": "item.name.0839",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290146720,
+        "size": 15
+      },
+      {
+        "id": "item.name.0840",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290146848,
+        "size": 15
+      },
+      {
+        "id": "item.name.0848",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290147872,
+        "size": 16
+      },
+      {
+        "id": "item.name.0850",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290148128,
+        "size": 6
+      },
+      {
+        "id": "item.name.0851",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290148256,
+        "size": 17
+      },
+      {
+        "id": "item.name.0860",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290149408,
+        "size": 15
+      },
+      {
+        "id": "item.name.0866",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290150176,
+        "size": 17
+      },
+      {
+        "id": "item.name.0867",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290150304,
+        "size": 17
+      },
+      {
+        "id": "item.name.0868",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290150432,
+        "size": 17
+      },
+      {
+        "id": "item.name.0869",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290150560,
+        "size": 17
+      },
+      {
+        "id": "item.name.0876",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290151456,
+        "size": 13
+      },
+      {
+        "id": "item.name.0878",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290151712,
+        "size": 8
+      },
+      {
+        "id": "item.name.0880",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290151968,
+        "size": 14
+      },
+      {
+        "id": "item.name.0881",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290152096,
+        "size": 16
+      },
+      {
+        "id": "item.name.0882",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290152224,
+        "size": 10
+      },
+      {
+        "id": "item.name.0890",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290153248,
+        "size": 11
+      },
+      {
+        "id": "item.name.0894",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290153760,
+        "size": 9
+      },
+      {
+        "id": "item.name.0896",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290154016,
+        "size": 15
+      },
+      {
+        "id": "item.name.0903",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290154912,
+        "size": 11
+      },
+      {
+        "id": "item.name.0905",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290155168,
+        "size": 8
+      },
+      {
+        "id": "item.name.0906",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290155296,
+        "size": 13
+      },
+      {
+        "id": "item.name.0907",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290155424,
+        "size": 12
+      },
+      {
+        "id": "item.name.0908",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290155552,
+        "size": 9
+      },
+      {
+        "id": "item.name.0909",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290155680,
+        "size": 16
+      },
+      {
+        "id": "item.name.0910",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290155808,
+        "size": 12
+      },
+      {
+        "id": "item.name.0912",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290156064,
+        "size": 12
+      },
+      {
+        "id": "item.name.0915",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290156448,
+        "size": 13
+      },
+      {
+        "id": "item.name.0916",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290156576,
+        "size": 12
+      },
+      {
+        "id": "item.name.0918",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290156832,
+        "size": 14
+      },
+      {
+        "id": "item.name.0921",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290157216,
+        "size": 14
+      },
+      {
+        "id": "item.name.0924",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290157600,
+        "size": 17
+      },
+      {
+        "id": "item.name.0925",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290157728,
+        "size": 16
+      },
+      {
+        "id": "item.name.0926",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290157856,
+        "size": 13
+      },
+      {
+        "id": "item.name.0928",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290158112,
+        "size": 15
+      },
+      {
+        "id": "item.name.0930",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290158368,
+        "size": 16
+      },
+      {
+        "id": "item.name.0934",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290158880,
+        "size": 16
+      },
+      {
+        "id": "item.name.0943",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290160032,
+        "size": 15
+      },
+      {
+        "id": "item.name.0947",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290160544,
+        "size": 17
+      },
+      {
+        "id": "item.name.0948",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290160672,
+        "size": 15
+      },
+      {
+        "id": "item.name.0955",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290161568,
+        "size": 13
+      },
+      {
+        "id": "item.name.0962",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290162464,
+        "size": 15
+      },
+      {
+        "id": "item.name.0967",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290163104,
+        "size": 10
+      },
+      {
+        "id": "item.name.0968",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290163232,
+        "size": 13
+      },
+      {
+        "id": "item.name.0969",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290163360,
+        "size": 13
+      },
+      {
+        "id": "item.name.0970",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290163488,
+        "size": 16
+      },
+      {
+        "id": "item.name.0972",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290163744,
+        "size": 9
+      },
+      {
+        "id": "item.name.0973",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290163872,
+        "size": 14
+      },
+      {
+        "id": "item.name.0974",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290164000,
+        "size": 12
+      },
+      {
+        "id": "item.name.0979",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290164640,
+        "size": 8
+      },
+      {
+        "id": "item.name.0980",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290164768,
+        "size": 15
+      },
+      {
+        "id": "item.name.0981",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290164896,
+        "size": 12
+      },
+      {
+        "id": "item.name.0984",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290165280,
+        "size": 16
+      },
+      {
+        "id": "item.name.0986",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290165536,
+        "size": 11
+      },
+      {
+        "id": "item.name.0988",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290165792,
+        "size": 9
+      },
+      {
+        "id": "item.name.1000",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290167328,
+        "size": 12
+      },
+      {
+        "id": "item.name.1001",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290167456,
+        "size": 17
+      },
+      {
+        "id": "item.name.1003",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290167712,
+        "size": 14
+      },
+      {
+        "id": "item.name.1005",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290167968,
+        "size": 12
+      },
+      {
+        "id": "item.name.1006",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290168096,
+        "size": 17
+      },
+      {
+        "id": "item.name.1007",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290168224,
+        "size": 17
+      },
+      {
+        "id": "item.name.1008",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290168352,
+        "size": 16
+      },
+      {
+        "id": "item.name.1009",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290168480,
+        "size": 15
+      },
+      {
+        "id": "item.name.1010",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290168608,
+        "size": 17
+      },
+      {
+        "id": "item.name.1014",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290169120,
+        "size": 13
+      },
+      {
+        "id": "item.name.1016",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290169376,
+        "size": 12
+      },
+      {
+        "id": "item.name.1017",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290169504,
+        "size": 12
+      },
+      {
+        "id": "item.name.1018",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290169632,
+        "size": 14
+      },
+      {
+        "id": "item.name.1019",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290169760,
+        "size": 14
+      },
+      {
+        "id": "item.name.1020",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290169888,
+        "size": 16
+      },
+      {
+        "id": "item.name.1038",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290172192,
+        "size": 13
+      },
+      {
+        "id": "item.name.1039",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290172320,
+        "size": 16
+      },
+      {
+        "id": "item.name.1041",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290172576,
+        "size": 16
+      },
+      {
+        "id": "item.name.1042",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290172704,
+        "size": 15
+      }
+    ]
+  },
+  "tests": {
+    "status": "passed",
+    "interface_suite_passed": 153,
+    "interface_elapsed_seconds": 307.139,
+    "new_tests_included": 18,
+    "planning_tests_passed": 6,
+    "retention_tests_passed": 5,
+    "alpha_tests_passed": 3,
+    "total_unique_tests_passed": 167,
+    "getter_and_name_forwarding_each_all_indices": 1349,
+    "all_name_readback_and_reverse_roundtrip": true,
+    "old_name_patches_identical": true,
+    "all_item_attributes_and_description_offsets_unchanged": true,
+    "installer_counter_and_payload_readback": true,
+    "full_iso_comparison": true,
+    "scope": "Bounded instruction probes and binary validation; no formatting/GPU/HDD I/O/PCSX2 execution",
+    "launcher_dry_run_passed": true
+  },
+  "pending_investigations": {
+    "TITLE_BACK": "Preserved; constructor 0x10AB40 and vtable 0x3061C8 inspected, no semantics promoted",
+    "Coat": "Preserved; no unsupported guess",
+    "description_growth": "Still blocked; no repack or new pointer authority",
+    "uppercase_glyphs": "Missing mappings remain rejected, no font change"
+  },
+  "planning_summary": {
+    "elf_catalog_rows": 4299,
+    "elf_statuses": {
+      "technical-candidate": 2271,
+      "outside-current-selection": 946,
+      "format-or-data-only": 183,
+      "translated": 305,
+      "named-content-review": 90,
+      "short-fragment-review": 451,
+      "restored-original": 3,
+      "review-reference": 17,
+      "blocked-reference": 23,
+      "protected-term": 10
+    },
+    "spack_pointer_ids": 378,
+    "spack_unique_strings": 317,
+    "spack_alias_references": 61,
+    "spack_unique_payload_bytes": 6348,
+    "spack_unclaimed_bytes": 11,
+    "spack_repertoires": {
+      "ascii-bytes": 315,
+      "native-bytes-unmapped": 2
+    },
+    "spack_statuses": {
+      "translated-in-recipe-pending-visual": 279,
+      "preserved-in-recipe": 38
+    },
+    "spack_control_parse_issues": 0,
+    "additional_multiline_literals": 1,
+    "satcom_fields": 203,
+    "satcom_statuses": {
+      "preserved-in-recipe": 84,
+      "translated-in-recipe-pending-visual": 119
+    },
+    "item_descriptions": 567,
+    "item_statuses": {
+      "translated-in-recipe-pending-visual": 536,
+      "deferred-space": 29,
+      "preserved-reviewed-marker": 1,
+      "deferred-control": 1
+    },
+    "item_pending_constraints": {
+      "byte-budget": 29,
+      "word-wrap": 19,
+      "line-count": 8,
+      "columns": 19,
+      "source-control": 1,
+      "target-control": 1
+    },
+    "item_pending_constraint_groups": {
+      "byte-budget": 10,
+      "word-wrap+line-count+columns+byte-budget": 8,
+      "word-wrap+columns+byte-budget": 11,
+      "source-control+target-control": 1
+    },
+    "item_name_records": 1349,
+    "item_name_statuses": {
+      "empty-name": 308,
+      "protected-name-category": 476,
+      "translated-in-recipe-pending-visual": 457,
+      "deferred-name": 47,
+      "unreviewed-name": 61
+    },
+    "unique_translated_item_labels": 442,
+    "item_name_pending_current_issues": {
+      "Unsupported project glyph U+00D3": 1,
+      "Item name original slot/control budget exceeded": 37,
+      "Entry guards pass; editorial/alias review required": 4,
+      "Termo/nome protegido ausente: Repair Kit": 1,
+      "Unsupported project glyph U+00CD": 1,
+      "Termo/nome protegido ausente: Fang": 2,
+      "Termo/nome protegido ausente: Bus Stop Sign": 1
+    },
+    "installer_fields": 17
+  },
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "build_files": [
+    "MetalSaga-ptbr-interface-v021.iso",
+    "relatorio.json"
+  ],
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "hdd_installation_performed": false,
+  "onedrive_copied": false,
+  "dialogue_name_reference_audit": {
+    "scope": "Merged canonical dialogue translations; exact English name labels >=6 bytes, case-insensitive, whitespace normalized. Does not resolve context or expand reused aliases.",
+    "name_labels_checked": 416,
+    "segments_checked": 5183,
+    "matching_segments": 0,
+    "matches": []
+  }
+}

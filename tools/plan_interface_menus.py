@@ -166,7 +166,7 @@ def audit(draft,output):
             item_rows.append(item)
     name_rows=[]
     if recipe.get('item_names'):
-        from item_names import catalog as name_catalog,validate_review as validate_name_review,protected
+        from item_names import catalog as name_catalog,validate_review as validate_name_review,protected,validate_value as validate_name,CEILING_POLICY
         config=recipe['item_names'];name_sources=name_catalog(pack)
         validate_name_review(recipe['item_name_review'],config,name_sources)
         targets={r['id']:r for r in config['entries']};pending={r['id']:r for r in recipe['item_name_review']['pending']}
@@ -178,8 +178,26 @@ def audit(draft,output):
             if target:
                 if any(target[k]!=row[k] for k in ('source_sha256','record_sha256')):raise ValueError('Item name planning binding mismatch')
                 item['translation']=target['translation'];item['group']=target['group']
-            if deferred:item['deferred_reason']=deferred['reason']
+            if deferred:
+                item['deferred_reason']=deferred['reason'] # Historical decision remains intact.
+                try:
+                    validate_name(row,deferred['proposed'],ceiling=16 if config['policy']==CEILING_POLICY else None)
+                    issue=None
+                except ValueError as exc:issue=str(exc)
+                item['current_validation']={'entry_checks_pass':issue is None,'issue':issue,
+                    'translation_authorized':False,'alias_and_editorial_review_still_required':True}
             name_rows.append(item)
+    install_rows=[]
+    if recipe.get('install_texts'):
+        from install_texts import original as install_original,rows as install_source,NDATA,START,SIZE
+        raw=install_original(NDATA);config=recipe['install_texts']
+        if config['source_sha256']!=digest(raw) or config['table_sha256']!=digest(raw[START:START+SIZE]):raise ValueError('Installer planning binding mismatch')
+        source=install_source(raw,elf)
+        if len(source)!=len(config['rows']):raise ValueError('Installer planning row count mismatch')
+        for i,(value,target) in enumerate(zip(source,config['rows'])):
+            if target['id']!=f'install.{i:03d}' or target['source_sha256']!=digest(value):raise ValueError('Installer planning row binding mismatch')
+            install_rows.append({'id':target['id'],'source_ascii':value.decode('ascii'),'source_sha256':digest(value),
+                'translation':target['translation'],'status':'translated-in-recipe-pending-visual'})
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -194,7 +212,9 @@ def audit(draft,output):
             'item_pending_constraints':dict(collections.Counter(issue for r in item_rows for issue in r.get('pending_budget',{}).get('issues',[]))),
             'item_pending_constraint_groups':dict(collections.Counter('+'.join(r['pending_budget']['issues']) or 'non-budget-policy' for r in item_rows if 'pending_budget' in r))} if item_rows else {}),
         **({'item_name_records':len(name_rows),'item_name_statuses':dict(collections.Counter(r['status'] for r in name_rows)),
-            'unique_translated_item_labels':len({r['translation'] for r in name_rows if 'translation' in r})} if name_rows else {})}
+            'unique_translated_item_labels':len({r['translation'] for r in name_rows if 'translation' in r}),
+            'item_name_pending_current_issues':dict(collections.Counter(r['current_validation']['issue'] or 'Entry guards pass; editorial/alias review required' for r in name_rows if 'current_validation' in r))} if name_rows else {}),
+        **({'installer_fields':len(install_rows)} if install_rows else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -207,6 +227,7 @@ def audit(draft,output):
     if satcom:document['satcom_records']=satcom
     if item_rows:document['item_descriptions']=item_rows
     if name_rows:document['item_names']=name_rows
+    if install_rows:document['installer_messages']=install_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -218,6 +239,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v020.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v021.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))
