@@ -1,99 +1,45 @@
-# Metal Saga — tradução PT-BR (PS2)
+# Metal Saga — tradução PT-BR para PS2
 
-Tradução por modificação dos recursos do jogo original para execução no PCSX2.
-Projeto independente de recompilação nativa. Não distribui arquivos do jogo, BIOS ou emulador.
+Tradução dos recursos do jogo original para execução no PCSX2, independente da recompilação nativa. Não distribui ISO, originais, BIOS ou emulador.
 
-Prioridade atual: **HUD, Satcom, mensagens e menus**, depois itens; os pequenos
-fragmentos restantes de MAP.MCT ficam para o final. O lote atual de interface
-soma **573 campos de texto e 40 rótulos gráficos de interface** à base de diálogos v030, mantendo o layout v005.
-**`Preparar-Interface.cmd`** valida localmente; **`Testar-Interface.cmd`** ou
-**`Iniciar-Teste.cmd`** abre a imagem consolidada. A execução visual dessa nova
-interface está pendente. O lote inclui mensagens de Memory Card, diário e estatísticas.
-A v008 mantém a fonte recuperada do atlas original e corrige o alinhamento vertical
-das letras pela referência Remote.
-Alguns títulos são imagens e ainda permanecem em inglês.
-[Escopo, reprodução e roteiro de teste](docs/interface-v008.md).
+## O que abrir
 
-A **alpha v001 está preservada** em `dist/alpha-v001/MetalSaga-ptbr-alpha-v001.iso`,
-fora da retenção, somente leitura e conferida por hash. Ela contém a interface v001
-e não é substituída por lotes posteriores. [Manifesto e regras](docs/alpha-v001.md).
+| Arquivo na raiz | Para que serve |
+|---|---|
+| **Iniciar-Teste.cmd** | Abre a ISO traduzida atual |
+| Preparar-Interface.cmd | Valida a receita atual, sem criar outra ISO |
+| Extrair-Dialogos.cmd | Extrai o catálogo local de diálogos |
+| Reinserir-Dialogos.cmd | Reinserção e simulação de lotes |
+| Auditar-Traducao.cmd | Confere a cobertura dos diálogos |
 
-O reconhecimento inicial está em [docs/reconhecimento.md](docs/reconhecimento.md).
-Há experimentos separados de diário, diálogo inicial e acentuação. A fala ASCII
-inicial foi confirmada visualmente pelo usuário; os dois grupos de acentos receberam
-validação visual preliminar, com limitações tipográficas ainda abertas.
+Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas continuam em tools/, com procedimentos históricos em docs/ e no Git.
 
-Para extrair os diálogos localmente, dar duplo clique em **`Extrair-Dialogos.cmd`**.
-Os resultados ficam em uma pasta nova de `work/extracoes/`. Não usa IA, APIs,
-emulador nem dependências externas. [Manual do extrator](docs/extrator-dialogos.md).
-Na v003: 5.369 registros com extração validada, 1.862 identificados e bloqueados,
-zero desconhecidos no conjunto examinado e 71 rejeitados. São 7.231 registros com
-texto recuperado em 13 famílias. [Evidências e limites](docs/extracao-v003.md).
+## Versão atual
 
-Reinserção v004: dar duplo clique em **`Reinserir-Dialogos.cmd`** para exportar,
-simular e aplicar lotes. A política binária cobre 6.882 registros em onze famílias;
-349 continuam bloqueados. ISO de desenvolvimento reutilizável, snapshots e
-recuperação transacional. [Manual e teste visual preparado](docs/reinsercao-v004.md).
+**Interface v017**, sobre MAP v030 e fontes/layout v005. Preserva os lotes anteriores de menus, lojas, diário, ajuda, mensagens do Satcom, procurados e arte da tela inicial. Acrescenta **114 descrições de equipamentos**, usadas por 126 itens, mantendo todos os nomes originais.
 
-Lote atual da região inicial: **`Preparar-Regiao-Inicial.cmd`** recompila e valida
-7.231 registros localmente, sem gerar outra ISO. São 5.892 registros traduzidos e
-1.339 preservados, incluindo 123 adiados mantidos no original.
-O rascunho PT-BR está em `translations/regiao-inicial-v029.json`, com herança dos
-lotes anteriores. **`Testar-Regiao-Inicial.cmd`**
-abre a ISO consolidada com textos v029, fontes v002 e layout v005,
-confirmado visualmente pelo usuário nas falas de Nina. [Manual e limites](docs/regiao-inicial-v029.md).
-[Glossário e regras de preservação](docs/glossario.md).
+São **1.153 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. Há textos pendentes e validações visuais.
 
-O recorte atual abrange todo o catálogo conhecido do MAP.MCT; isso não significa
-100% de tradução. **`Auditar-Traducao.cmd`** separa alterações, bloqueios, pausas,
-sugestões de nomes/expressões e preservados a revisar em `work/auditorias/`.
-[Manual da auditoria](docs/auditoria-cobertura.md). A v023 traduz 91 escolhas nomeadas mediante uma [política específica de slots fixos](docs/reinsercao-v005.md), com rótulos protegidos e verificação do ELF original. A política legada permanece inalterada.
+ISO: `work/interface-v017/MetalSaga-ptbr-interface-v017.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
 
-- [Ambiente de teste, iniciador e roteiros](docs/ambiente-de-testes.md).
-- [Piloto de diálogo e expansão em lotes](docs/dialogo-inicial.md).
-- [Pesquisa dos quatro projetos públicos](docs/referencias-tecnicas.md).
-- [Experimento de acentuação, mapeamento e teste manual](docs/acentuacao.md).
+- [Lote atual e limites](docs/interface-v017.md)
+- [Plano de conclusão](docs/plano-conclusao.md)
+- [Glossário](docs/glossario.md)
+- [Extrator local](docs/extrator-dialogos.md)
+- [Reinserção e integridade](docs/reinsercao-v004.md)
 
-Imagens históricas podem já ter sido removidas pela retenção das dez mais recentes.
-Se a imagem histórica do primeiro diálogo ainda estiver presente, na raiz:
+## Organização
 
-```powershell
-.\Iniciar-Teste.cmd dialogue
-```
+- JOGO/: ISO original e extraídos imutáveis.
+- PCSX2/ e ambiente isolado de teste: preservar BIOS, cartões e configurações.
+- translations/: receitas Unicode e propostas pendentes, versionadas.
+- tools/ e tests/: ferramentas locais e testes.
+- docs/ e reports/: procedimentos e evidências próprias.
+- work/: resultados e recursos de construção, fora do Git.
+- dist/alpha-v001/: alpha permanente, somente leitura, fora da retenção.
 
-Fechar a cópia de teste e usar `.\Iniciar-Teste.cmd diary` para testar o diário.
-Para o novo experimento separado, usar `.\Iniciar-Teste.cmd accents`.
+Manter **cinco ISOs de trabalho**, as mais recentes. O construtor remove as antigas elegíveis antes de criar outra. Não apaga original, alpha, arquivos desconhecidos ou imagens com recuperação pendente. Conferir com `python tools/iso_retention.py`.
 
-Requer Python 3.11 ou superior. As ferramentas originais usam a biblioteca padrão;
-a composição de acentos usa as dependências locais descritas no relatório acima.
-Execute na raiz do projeto:
+Construções novas produzem somente ISO e relatório. Receitas, fontes editáveis aprovadas, evidências e recursos necessários à reprodução são preservados. Não apagar work/ indiscriminadamente. OneDrive somente mediante pedido expresso.
 
-```powershell
-python tools/recon.py
-python tools/probe_resources.py
-python tools/disc.py 'JOGO/Metal Saga.iso' --source 'JOGO/Metal Saga' --report reports/disc.json
-python -m unittest discover -s tests -v
-```
-
-Os relatórios versionados contêm metadados, hashes e offsets; extrações de texto e cópias
-modificadas ficam em `work/`, ignorado pelo Git. `JOGO/` é somente leitura por política.
-
-
-Correção da largura dos acentos confirmada pelo usuário na cena de Nina: **`Testar-Acentos-Corrigidos.cmd`**
-abre uma cópia da v023 com métricas PT-BR v005, mantendo os mesmos textos e
-bitmaps. [Diagnóstico, reprodução e roteiro visual](docs/layout-v005.md).
-O iniciador habitual abre o lote atual com esse mesmo perfil de correção. A aprovação cobre a cena
-testada; outros contextos continuam sujeitos a verificação.
-
-
-Próximas etapas: [plano de conclusão](docs/plano-conclusao.md). A v029 acrescenta
-22 registros de hospedagem, recebimento e nomeação de veículos com [referência N0 preservada](docs/controle-n0-v011.md).
-Drive continua igual ao comando da interface; nomes, apelidos e risadas permanecem intactos.
-O perfil de acentos v005 continua vinculado à receita. O usuário fará a conferência conjunta em um save corrido.
-
-**Preparar-Atlas.cmd** prepara 69 texturas dos próximos cinco conjuntos de interface,
-com previews e PNGs indexados em work/. A reconstrução local preserva os recursos
-originais e não altera ISO. [Manual dos atlas](docs/atlas-interface-v001.md).
-A imagem de teste atual é interface v011: R do título corrigido e assinatura
-“Traduzido por: Kernell Tozi”, preservando os textos e o alinhamento Satcom.
-[Manual e limites da v011](docs/interface-v011.md). Abrir pelo **Iniciar-Teste.cmd** na raiz.
+Extração/reinserção são locais, sem IA ou APIs. Requerem Python; dependências gráficas de construção estão documentadas nos manuais correspondentes. Não acessar arquivos de outros projetos.

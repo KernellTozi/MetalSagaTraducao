@@ -1,5 +1,13 @@
 # Plano para concluir a tradução
 
+**Atualização v017:** iniciada a etapa de descrições de equipamentos. São 114
+textos novos usados por 126 itens; 61 propostas adiadas por espaço e 392 ainda
+não revistas no catálogo de 567 alvos. Nomes/atributos intactos e toda v016
+preservada. Total 1.153 campos de interface. Próximo lote: continuar as descrições
+ainda não revistas, antes de procurar soluções de expansão para os slots difíceis.
+Manual `docs/interface-v017.md`. A raiz tem cinco iniciadores úteis, e a retenção
+passa a cinco ISOs de trabalho, além da alpha permanente fora da fila.
+
 **Atualização v016:** correio Satcom localizado em S_PACK, com 41 corpos e
 38 assuntos traduzidos; também foram traduzidas as 40 descrições de procurados.
 São 119 campos novos e 1.039 ocorrências acumuladas de interface, mantendo a

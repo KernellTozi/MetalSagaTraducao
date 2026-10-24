@@ -1,5 +1,11 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v017:** primeiro lote de descrições de equipamentos entregue:
+114 textos/126 itens, com nomes e dados intactos. Das 175 propostas revistas,
+61 aguardam solução de espaço; 392 descrições ainda não foram revistas.
+O catálogo local único inclui essas classes. Ver `docs/interface-v017.md`.
+Limpeza reduz os iniciadores da raiz a cinco e as ISOs de trabalho a cinco.
+
 **Estado após a v016:** foram localizados e traduzidos os corpos das 41 mensagens
 da tabela Satcom em S_PACK e as descrições das 40 fichas de procurados, mais
 38 assuntos. São 119 campos novos, 1.039 acumulados. Remetentes, nomes,

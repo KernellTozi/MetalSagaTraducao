@@ -139,6 +139,19 @@ def audit(draft,output):
                             raise ValueError('Satcom planning record/field binding mismatch')
                         item['translation']=target['translation']
                     satcom.append(item)
+    item_rows=[]
+    if recipe.get('item_descriptions'):
+        from item_descriptions import catalog as item_catalog
+        config=recipe['item_descriptions'];targets={r['id']:r for r in config['entries']}
+        if config['source_sha256']!=digest(pack):raise ValueError('Item planning source binding mismatch')
+        pending={r['id'] for r in recipe.get('description_review',{}).get('pending',[])}
+        for row in item_catalog(pack):
+            item=dict(row);target=targets.get(row['id'])
+            item['status']='translated-in-recipe-pending-visual' if target else ('deferred-space' if row['id'] in pending else 'not-reviewed')
+            if target:
+                if target['source_sha256']!=row['source_sha256'] or target['item_records']!=row['items']:raise ValueError('Item planning binding mismatch')
+                item['translation']=target['translation']
+            item_rows.append(item)
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -148,7 +161,8 @@ def audit(draft,output):
         'spack_statuses':dict(collections.Counter(r['status'] for r in table['entries'])),
         'spack_control_parse_issues':sum(bool(r['control_parse_issue']) for r in table['entries']),
         'additional_multiline_literals':len(multiline),
-        **({'satcom_fields':len(satcom),'satcom_statuses':dict(collections.Counter(r['status'] for r in satcom))} if satcom else {})}
+        **({'satcom_fields':len(satcom),'satcom_statuses':dict(collections.Counter(r['status'] for r in satcom))} if satcom else {}),
+        **({'item_descriptions':len(item_rows),'item_statuses':dict(collections.Counter(r['status'] for r in item_rows))} if item_rows else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -159,6 +173,7 @@ def audit(draft,output):
             ['Trace S_PACK UI reader/buffers; pin character formatter; review literal candidates']),
         'originals_modified':False,'iso_created':False,'translation_created':False}
     if satcom:document['satcom_records']=satcom
+    if item_rows:document['item_descriptions']=item_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -170,6 +185,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v016.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v017.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

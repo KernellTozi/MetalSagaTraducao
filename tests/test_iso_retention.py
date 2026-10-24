@@ -23,7 +23,7 @@ class RetentionTests(unittest.TestCase):
         os.utime(path,(100+index,100+index));return path
 
     def test_reserve_removes_oldest_generated_only(self):
-        files=[self.image(i) for i in range(10)]
+        files=[self.image(i) for i in range(5)]
         result=prune(self.root,reserve=1,pinned=())
         self.assertEqual(len(result['delete']),1)
         self.assertFalse(files[0].exists())
@@ -48,3 +48,11 @@ class RetentionTests(unittest.TestCase):
         self.assertEqual([p['path'] for p in result['delete']],[str(old)])
         self.assertTrue(old.exists())
         self.assertTrue(new.exists())
+
+    def test_new_default_retains_five_and_refuses_old_limit(self):
+        files=[self.image(i) for i in range(10)]
+        result=prune(self.root)
+        self.assertEqual(len(result['delete']),5)
+        self.assertTrue(all(not p.exists() for p in files[:5]))
+        self.assertTrue(all(p.exists() for p in files[5:]))
+        with self.assertRaises(ValueError):plan(self.root,limit=10)

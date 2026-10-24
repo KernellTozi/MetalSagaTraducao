@@ -1,4 +1,4 @@
-"""Keep the ten newest generated work ISOs; preserve originals and recovery state."""
+"""Keep the five newest generated work ISOs; preserve originals and recovery state."""
 import argparse
 import json
 import os
@@ -26,11 +26,11 @@ def images_without_links(root):
                 elif item.is_file(follow_symlinks=False) and path.suffix.lower()=='.iso':yield path
 
 
-def plan(root=WORK,limit=10,reserve=0,pinned=PINNED):
+def plan(root=WORK,limit=5,reserve=0,pinned=PINNED):
     root=Path(root).resolve()
     if not root.is_relative_to(WORK.resolve()) or not root.is_dir():
         raise ValueError('ISO retention is restricted to work/')
-    if not 1<=limit<=10 or not 0<=reserve<limit:raise ValueError('Invalid retention limit/reserve')
+    if not 1<=limit<=5 or not 0<=reserve<limit:raise ValueError('Invalid retention limit/reserve')
     protected={Path(p).resolve() for p in pinned};candidates=[];images=[]
     for path in images_without_links(root):
         resolved=path.resolve()
@@ -53,7 +53,7 @@ def plan(root=WORK,limit=10,reserve=0,pinned=PINNED):
             'original_excluded':True,'pinned_paths':[str(p) for p in sorted(protected)]}
 
 
-def prune(root=WORK,limit=10,reserve=0,pinned=PINNED):
+def prune(root=WORK,limit=5,reserve=0,pinned=PINNED):
     result=plan(root,limit,reserve,pinned);log=WORK/'iso-retention.jsonl'
     for item in result['delete']:
         path=Path(item['path']);stat=path.stat()
@@ -67,7 +67,7 @@ def prune(root=WORK,limit=10,reserve=0,pinned=PINNED):
 
 
 def main():
-    parser=argparse.ArgumentParser(description='Retenção de até dez ISOs de trabalho')
+    parser=argparse.ArgumentParser(description='Retenção de até cinco ISOs de trabalho')
     parser.add_argument('--apply',action='store_true');parser.add_argument('--reserve',type=int,default=0)
     args=parser.parse_args();print(json.dumps((prune if args.apply else plan)(reserve=args.reserve),indent=2))
 
