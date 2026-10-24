@@ -1,5 +1,12 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v019:** 142 descrições antes adiadas foram recuperadas, sem
+alterar traduções aprovadas nem estruturas binárias. São 495/567 alvos (87,30%),
+832 referências de itens e 1.534 ocorrências acumuladas de interface. Restam
+70 casos de espaço, um percentual bloqueado e um marcador preservado. O mesmo
+catálogo local passa a agrupar restrições simultâneas de bytes/linhas/colunas.
+Ver `docs/interface-v019.md`; os motivos não são somáveis como ocorrências.
+
 **Estado após a v018:** 239 descrições novas; o catálogo de 567 alvos recebeu
 revisão inicial completa, com 353 traduções/602 referências, 212 adiamentos de
 espaço, um bloqueio percentual e um marcador preservado. Ferramenta local de

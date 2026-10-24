@@ -160,6 +160,9 @@ def audit(draft,output):
             if target:
                 if target['source_sha256']!=row['source_sha256'] or target['item_records']!=row['items']:raise ValueError('Item planning binding mismatch')
                 item['translation']=target['translation']
+            if deferred:
+                from prepare_item_batch import diagnose_budget
+                item['pending_budget']=diagnose_budget(bytes.fromhex(row['source_hex']),deferred['proposed'])
             item_rows.append(item)
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
@@ -171,7 +174,9 @@ def audit(draft,output):
         'spack_control_parse_issues':sum(bool(r['control_parse_issue']) for r in table['entries']),
         'additional_multiline_literals':len(multiline),
         **({'satcom_fields':len(satcom),'satcom_statuses':dict(collections.Counter(r['status'] for r in satcom))} if satcom else {}),
-        **({'item_descriptions':len(item_rows),'item_statuses':dict(collections.Counter(r['status'] for r in item_rows))} if item_rows else {})}
+        **({'item_descriptions':len(item_rows),'item_statuses':dict(collections.Counter(r['status'] for r in item_rows)),
+            'item_pending_constraints':dict(collections.Counter(issue for r in item_rows for issue in r.get('pending_budget',{}).get('issues',[]))),
+            'item_pending_constraint_groups':dict(collections.Counter('+'.join(r['pending_budget']['issues']) or 'non-budget-policy' for r in item_rows if 'pending_budget' in r))} if item_rows else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -194,6 +199,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v018.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v019.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

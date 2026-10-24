@@ -1,5 +1,13 @@
 # Plano para concluir a tradução
 
+**Atualização v019:** 142 adiamentos recuperados por revisão contextual dentro
+dos slots existentes: 495/567 descrições traduzidas, usadas por 832 IDs; 70
+adiamentos de espaço, um percentual bloqueado e um marcador preservado. Toda
+a v018 permanece intacta; total 1.534 campos de interface. Diagnóstico de bytes,
+linhas e colunas integrado ao mesmo planejador local. Não reorganizar o pool
+sem nova prova dos consumidores; manter as lacunas de interface e os casos
+difíceis separados. Ver `docs/interface-v019.md`.
+
 **Atualização v018:** revisão inicial dos 567 alvos do pool conhecido de descrições
 concluída: 353 traduzidos (602 IDs), 212 adiados por espaço/linhas, um percentual
 bloqueado e o marcador ??? preservado. A rodada acrescenta 239 textos e mantém

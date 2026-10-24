@@ -3,6 +3,43 @@ import argparse,copy,json,functools,re
 from pathlib import Path
 from item_descriptions import catalog,original,RESOURCE,validate_value,sha
 from reinsertion import ROOT,local
+from gfi import encode
+
+def diagnose_budget(before,text):
+    """Describe existing guards, without proposing edits or granting capacity.
+
+    Keep every failing constraint: a byte overflow can coexist with an
+    impossible word wrap. Python character counts are not PS2 byte counts.
+    """
+    issues=[]
+    result={'source_bytes':len(before),'target_bytes':None,'byte_excess':None,
+        'source_lines':None,'source_max_columns':None,'target_lines':None,
+        'target_max_columns':None,'word_wrap_possible':None,
+        'issues':issues,'edit_authorized':False}
+    if any(c<32 or c>126 for c in before):
+        issues.append('native-source');return result
+    source=before.decode('ascii');result['source_lines']=source.count('|')+1
+    result['source_max_columns']=max(map(len,source.split('|')))
+    if '%' in source:issues.append('source-control')
+    if any(c in text for c in ('\0','\t','\r','\n','%')):issues.append('target-control')
+    try:
+        target=wrap_words(text,source)
+        result['word_wrap_possible']=True
+    except ValueError:
+        target=text;result['word_wrap_possible']=False;issues.append('word-wrap')
+    result['target_lines']=target.count('|')+1
+    result['target_max_columns']=max(map(len,target.split('|')))
+    if result['target_lines']!=result['source_lines']:issues.append('line-count')
+    if result['target_max_columns']>result['source_max_columns']:issues.append('columns')
+    try:
+        value=encode(target)
+    except ValueError:
+        issues.append('unsupported-glyph');return result
+    result['target_bytes']=len(value);result['byte_excess']=max(0,len(value)-len(before))
+    if len(value)>len(before):issues.append('byte-budget')
+    if any(c in value for c in (0,9,10,13,37)) and 'target-control' not in issues:issues.append('target-control')
+    # Budget fit alone never proves terminology, facts, context or edit policy.
+    return result
 
 def wrap_words(text,source):
     if '|' in text:return text
