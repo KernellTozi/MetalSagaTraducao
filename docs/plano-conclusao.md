@@ -1,5 +1,13 @@
 # Plano para concluir a tradução
 
+**Atualização v016:** correio Satcom localizado em S_PACK, com 41 corpos e
+38 assuntos traduzidos; também foram traduzidas as 40 descrições de procurados.
+São 119 campos novos e 1.039 ocorrências acumuladas de interface, mantendo a
+v015 inteira. Nomes/recompensas/metadados e offsets das duas tabelas não mudam.
+Política específica, evidências e limites em `docs/interface-v016.md`.
+Continuam os testes visuais agrupados pelo usuário; composição de melhoria e
+outras lacunas contextuais seguem pendentes, antes da expansão segura para itens.
+
 **Atualização v015:** aplicado o lote consolidado de personagem/inventário,
 lojas e serviços, com 279 campos novos e 920 ocorrências totais de interface.
 Consultar `docs/interface-v015.md`; o repack é exclusivo da tabela UI S_PACK

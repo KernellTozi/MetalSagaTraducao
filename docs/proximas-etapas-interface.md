@@ -1,5 +1,14 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v016:** foram localizados e traduzidos os corpos das 41 mensagens
+da tabela Satcom em S_PACK e as descrições das 40 fichas de procurados, mais
+38 assuntos. São 119 campos novos, 1.039 acumulados. Remetentes, nomes,
+recompensas e tabelas de offsets permanecem intactos. A localização do correio
+deixa de ser pendência para essas 41 entradas; não presumir cobertura de todo
+o jogo. Ver `docs/interface-v016.md`. O catálogo local único incorpora 203 campos
+dessas tabelas, sem criar revisões por mensagem. As descrições históricas abaixo
+de correio ainda não localizado continuam apenas como histórico.
+
 **Estado após a v015:** o lote amplo planejado abaixo foi aplicado: 278 textos
 distintos da tabela UI S_PACK, usados por 333 IDs, e um formato do personagem.
 São 920 ocorrências de interface, com 39 alvos S_PACK preservados. O perfil

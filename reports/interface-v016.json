@@ -1,0 +1,754 @@
+{
+  "schema": 1,
+  "version": "interface-v016",
+  "previous": "interface-v015",
+  "map_changed": 5892,
+  "map_unchanged": 1339,
+  "map_refused": 0,
+  "interface_count": 1039,
+  "new_fields": 119,
+  "new_mail_bodies": 41,
+  "new_mail_subjects": 38,
+  "new_wanted_descriptions": 40,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v016/MetalSaga-ptbr-interface-v016.iso",
+    "size": 1704427520,
+    "sha256": "61243a5795a907aac9f235431c6da3da508780aa7750d4e47bccf1e8a3a1929e"
+  },
+  "satcom": {
+    "policy": "spack-satcom-mail-wanted-bounded-v001",
+    "accepted": 119,
+    "mail_records": 41,
+    "wanted_records": 40,
+    "original_offsets_and_names_unchanged": true,
+    "same_record_mail_repack": true,
+    "per_field_growth": false,
+    "reverse_roundtrip": true,
+    "source_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+    "instruction_windows": [
+      {
+        "offset": 446196,
+        "size": 32,
+        "sha256": "32297153161c4b994f40626df09893ea16f24566764f0470c21d6156ce3d9c9f"
+      },
+      {
+        "offset": 465632,
+        "size": 144,
+        "sha256": "5cfab9f3526ac33ad77ecf682ca54eedf8bb66d7ac3d1374cd5804efc709088b"
+      },
+      {
+        "offset": 1196328,
+        "size": 16,
+        "sha256": "40847f348c90744443b1bc893bc692fb06d468cf1a3626c12b98740bb9b809f1"
+      },
+      {
+        "offset": 1196612,
+        "size": 36,
+        "sha256": "28d4884d33c2cb8aac2db8e5b1d3982ac8ab79d245a76b967aee20c748e80d79"
+      },
+      {
+        "offset": 1196812,
+        "size": 28,
+        "sha256": "502654441aa4684689e9ab43a2f93ecc21c7125f4476504142f49d905598ca3b"
+      },
+      {
+        "offset": 1195844,
+        "size": 60,
+        "sha256": "38f14acbf9b31000e0d69ecf09533469e9dd25108382a4f4fc8680b3a47fe372"
+      },
+      {
+        "offset": 1106152,
+        "size": 364,
+        "sha256": "85488efa95010c0840d8556783bbe1fef3fee319cdd1b9ae0560bd3573302717"
+      },
+      {
+        "offset": 1229300,
+        "size": 28,
+        "sha256": "bf64c05f72f5ed5b1690f36f707b582887bbce350e7f4dbd11e76b504848d841"
+      },
+      {
+        "offset": 1229112,
+        "size": 28,
+        "sha256": "9c7a694ba30fad3d6ab01c4db3fa4fe1ece22639b6acaa1d845e7560d08a33de"
+      },
+      {
+        "offset": 1931784,
+        "size": 60,
+        "sha256": "831efebd540be26d1f443be88ec6e421f1e7b17d66f3c1b66cb5389dce5a1527"
+      },
+      {
+        "offset": 2254540,
+        "size": 12,
+        "sha256": "ab1a1818f0e4af7236578309ea8ccfe2a88fb8454c1ede156f470bea1a457d13"
+      },
+      {
+        "offset": 2254832,
+        "size": 32,
+        "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+      }
+    ],
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Byte/line guards preserve original budgets; no general expansion buffer capacity or full PS2 execution claimed"
+  },
+  "changed_source_bytes": 11596,
+  "changed_target_bytes": 9734,
+  "field_ids": [
+    "spack.mail.000.body",
+    "spack.mail.000.subject",
+    "spack.mail.001.body",
+    "spack.mail.001.subject",
+    "spack.mail.002.body",
+    "spack.mail.002.subject",
+    "spack.mail.003.body",
+    "spack.mail.003.subject",
+    "spack.mail.004.body",
+    "spack.mail.004.subject",
+    "spack.mail.005.body",
+    "spack.mail.005.subject",
+    "spack.mail.006.body",
+    "spack.mail.006.subject",
+    "spack.mail.007.body",
+    "spack.mail.007.subject",
+    "spack.mail.008.body",
+    "spack.mail.008.subject",
+    "spack.mail.009.body",
+    "spack.mail.009.subject",
+    "spack.mail.010.body",
+    "spack.mail.010.subject",
+    "spack.mail.011.body",
+    "spack.mail.011.subject",
+    "spack.mail.012.body",
+    "spack.mail.012.subject",
+    "spack.mail.013.body",
+    "spack.mail.013.subject",
+    "spack.mail.014.body",
+    "spack.mail.014.subject",
+    "spack.mail.015.body",
+    "spack.mail.015.subject",
+    "spack.mail.016.body",
+    "spack.mail.016.subject",
+    "spack.mail.017.body",
+    "spack.mail.017.subject",
+    "spack.mail.018.body",
+    "spack.mail.018.subject",
+    "spack.mail.019.body",
+    "spack.mail.019.subject",
+    "spack.mail.020.body",
+    "spack.mail.021.body",
+    "spack.mail.021.subject",
+    "spack.mail.022.body",
+    "spack.mail.022.subject",
+    "spack.mail.023.body",
+    "spack.mail.023.subject",
+    "spack.mail.024.body",
+    "spack.mail.024.subject",
+    "spack.mail.025.body",
+    "spack.mail.025.subject",
+    "spack.mail.026.body",
+    "spack.mail.026.subject",
+    "spack.mail.027.body",
+    "spack.mail.028.body",
+    "spack.mail.028.subject",
+    "spack.mail.029.body",
+    "spack.mail.029.subject",
+    "spack.mail.030.body",
+    "spack.mail.030.subject",
+    "spack.mail.031.body",
+    "spack.mail.031.subject",
+    "spack.mail.032.body",
+    "spack.mail.032.subject",
+    "spack.mail.033.body",
+    "spack.mail.034.body",
+    "spack.mail.034.subject",
+    "spack.mail.035.body",
+    "spack.mail.035.subject",
+    "spack.mail.036.body",
+    "spack.mail.036.subject",
+    "spack.mail.037.body",
+    "spack.mail.037.subject",
+    "spack.mail.038.body",
+    "spack.mail.038.subject",
+    "spack.mail.039.body",
+    "spack.mail.039.subject",
+    "spack.mail.040.body",
+    "spack.mail.040.subject",
+    "spack.wanted.000.body",
+    "spack.wanted.001.body",
+    "spack.wanted.002.body",
+    "spack.wanted.003.body",
+    "spack.wanted.004.body",
+    "spack.wanted.005.body",
+    "spack.wanted.006.body",
+    "spack.wanted.007.body",
+    "spack.wanted.008.body",
+    "spack.wanted.009.body",
+    "spack.wanted.010.body",
+    "spack.wanted.011.body",
+    "spack.wanted.012.body",
+    "spack.wanted.013.body",
+    "spack.wanted.014.body",
+    "spack.wanted.015.body",
+    "spack.wanted.016.body",
+    "spack.wanted.017.body",
+    "spack.wanted.018.body",
+    "spack.wanted.019.body",
+    "spack.wanted.020.body",
+    "spack.wanted.021.body",
+    "spack.wanted.022.body",
+    "spack.wanted.023.body",
+    "spack.wanted.024.body",
+    "spack.wanted.025.body",
+    "spack.wanted.026.body",
+    "spack.wanted.027.body",
+    "spack.wanted.028.body",
+    "spack.wanted.029.body",
+    "spack.wanted.030.body",
+    "spack.wanted.031.body",
+    "spack.wanted.032.body",
+    "spack.wanted.033.body",
+    "spack.wanted.034.body",
+    "spack.wanted.035.body",
+    "spack.wanted.036.body",
+    "spack.wanted.037.body",
+    "spack.wanted.038.body",
+    "spack.wanted.039.body"
+  ],
+  "preservation": {
+    "prior_interface_recipe_fields_identical": true,
+    "senders": 41,
+    "wanted_names": 40,
+    "unchanged_subjects": 3,
+    "outer_pointer_tables_unchanged": true,
+    "wanted_metadata_and_bounties_unchanged": true,
+    "last_mail_opaque_c1_tail_unchanged": true
+  },
+  "full_iso_comparison": {
+    "old_recipe": "translations/interface-v015.json",
+    "new_recipe": "translations/interface-v016.json",
+    "source_iso_sha256": "2008cf7e98df4f70c039d4a9fee06e009262856cdd1339f15c053d388f0cb40b",
+    "output_iso_sha256": "61243a5795a907aac9f235431c6da3da508780aa7750d4e47bccf1e8a3a1929e",
+    "iso_size": 1704427520,
+    "changed_bytes": 10962,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "spack.mail.000",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588072,
+        "size": 128
+      },
+      {
+        "id": "spack.mail.001",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588200,
+        "size": 136
+      },
+      {
+        "id": "spack.mail.002",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588336,
+        "size": 164
+      },
+      {
+        "id": "spack.mail.003",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588500,
+        "size": 160
+      },
+      {
+        "id": "spack.mail.004",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588660,
+        "size": 132
+      },
+      {
+        "id": "spack.mail.005",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588792,
+        "size": 200
+      },
+      {
+        "id": "spack.mail.006",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290588992,
+        "size": 128
+      },
+      {
+        "id": "spack.mail.007",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290589120,
+        "size": 216
+      },
+      {
+        "id": "spack.mail.008",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290589336,
+        "size": 196
+      },
+      {
+        "id": "spack.mail.009",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290589532,
+        "size": 260
+      },
+      {
+        "id": "spack.mail.010",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290589792,
+        "size": 200
+      },
+      {
+        "id": "spack.mail.011",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290589992,
+        "size": 96
+      },
+      {
+        "id": "spack.mail.012",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590088,
+        "size": 156
+      },
+      {
+        "id": "spack.mail.013",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590244,
+        "size": 116
+      },
+      {
+        "id": "spack.mail.014",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590360,
+        "size": 128
+      },
+      {
+        "id": "spack.mail.015",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590488,
+        "size": 100
+      },
+      {
+        "id": "spack.mail.016",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590588,
+        "size": 104
+      },
+      {
+        "id": "spack.mail.017",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590692,
+        "size": 120
+      },
+      {
+        "id": "spack.mail.018",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290590812,
+        "size": 208
+      },
+      {
+        "id": "spack.mail.019",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290591020,
+        "size": 160
+      },
+      {
+        "id": "spack.mail.020",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290591180,
+        "size": 220
+      },
+      {
+        "id": "spack.mail.021",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290591400,
+        "size": 148
+      },
+      {
+        "id": "spack.mail.022",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290591548,
+        "size": 140
+      },
+      {
+        "id": "spack.mail.023",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290591688,
+        "size": 252
+      },
+      {
+        "id": "spack.mail.024",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290591940,
+        "size": 140
+      },
+      {
+        "id": "spack.mail.025",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290592080,
+        "size": 188
+      },
+      {
+        "id": "spack.mail.026",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290592268,
+        "size": 140
+      },
+      {
+        "id": "spack.mail.027",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290592408,
+        "size": 88
+      },
+      {
+        "id": "spack.mail.028",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290592496,
+        "size": 276
+      },
+      {
+        "id": "spack.mail.029",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290592772,
+        "size": 272
+      },
+      {
+        "id": "spack.mail.030",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290593044,
+        "size": 344
+      },
+      {
+        "id": "spack.mail.031",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290593388,
+        "size": 300
+      },
+      {
+        "id": "spack.mail.032",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290593688,
+        "size": 316
+      },
+      {
+        "id": "spack.mail.033",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290594004,
+        "size": 140
+      },
+      {
+        "id": "spack.mail.034",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290594144,
+        "size": 320
+      },
+      {
+        "id": "spack.mail.035",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290594464,
+        "size": 244
+      },
+      {
+        "id": "spack.mail.036",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290594708,
+        "size": 152
+      },
+      {
+        "id": "spack.mail.037",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290594860,
+        "size": 316
+      },
+      {
+        "id": "spack.mail.038",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290595176,
+        "size": 204
+      },
+      {
+        "id": "spack.mail.039",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290595380,
+        "size": 296
+      },
+      {
+        "id": "spack.mail.040",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290595676,
+        "size": 180
+      },
+      {
+        "id": "spack.wanted.000",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290596020,
+        "size": 168
+      },
+      {
+        "id": "spack.wanted.001",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290596188,
+        "size": 180
+      },
+      {
+        "id": "spack.wanted.002",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290596368,
+        "size": 164
+      },
+      {
+        "id": "spack.wanted.003",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290596532,
+        "size": 140
+      },
+      {
+        "id": "spack.wanted.004",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290596672,
+        "size": 160
+      },
+      {
+        "id": "spack.wanted.005",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290596832,
+        "size": 180
+      },
+      {
+        "id": "spack.wanted.006",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290597012,
+        "size": 168
+      },
+      {
+        "id": "spack.wanted.007",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290597180,
+        "size": 172
+      },
+      {
+        "id": "spack.wanted.008",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290597352,
+        "size": 184
+      },
+      {
+        "id": "spack.wanted.009",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290597536,
+        "size": 192
+      },
+      {
+        "id": "spack.wanted.010",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290597728,
+        "size": 168
+      },
+      {
+        "id": "spack.wanted.011",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290597896,
+        "size": 168
+      },
+      {
+        "id": "spack.wanted.012",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598064,
+        "size": 164
+      },
+      {
+        "id": "spack.wanted.013",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598228,
+        "size": 124
+      },
+      {
+        "id": "spack.wanted.014",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598352,
+        "size": 164
+      },
+      {
+        "id": "spack.wanted.015",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598516,
+        "size": 164
+      },
+      {
+        "id": "spack.wanted.016",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598680,
+        "size": 192
+      },
+      {
+        "id": "spack.wanted.017",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598872,
+        "size": 108
+      },
+      {
+        "id": "spack.wanted.018",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290598980,
+        "size": 160
+      },
+      {
+        "id": "spack.wanted.019",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290599140,
+        "size": 148
+      },
+      {
+        "id": "spack.wanted.020",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290599288,
+        "size": 156
+      },
+      {
+        "id": "spack.wanted.021",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290599444,
+        "size": 172
+      },
+      {
+        "id": "spack.wanted.022",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290599616,
+        "size": 180
+      },
+      {
+        "id": "spack.wanted.023",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290599796,
+        "size": 124
+      },
+      {
+        "id": "spack.wanted.024",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290599920,
+        "size": 172
+      },
+      {
+        "id": "spack.wanted.025",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290600092,
+        "size": 168
+      },
+      {
+        "id": "spack.wanted.026",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290600260,
+        "size": 188
+      },
+      {
+        "id": "spack.wanted.027",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290600448,
+        "size": 152
+      },
+      {
+        "id": "spack.wanted.028",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290600600,
+        "size": 184
+      },
+      {
+        "id": "spack.wanted.029",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290600784,
+        "size": 180
+      },
+      {
+        "id": "spack.wanted.030",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290600964,
+        "size": 148
+      },
+      {
+        "id": "spack.wanted.031",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601112,
+        "size": 88
+      },
+      {
+        "id": "spack.wanted.032",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601200,
+        "size": 100
+      },
+      {
+        "id": "spack.wanted.033",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601300,
+        "size": 136
+      },
+      {
+        "id": "spack.wanted.034",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601436,
+        "size": 112
+      },
+      {
+        "id": "spack.wanted.035",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601548,
+        "size": 168
+      },
+      {
+        "id": "spack.wanted.036",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601716,
+        "size": 176
+      },
+      {
+        "id": "spack.wanted.037",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290601892,
+        "size": 156
+      },
+      {
+        "id": "spack.wanted.038",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290602048,
+        "size": 128
+      },
+      {
+        "id": "spack.wanted.039",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290602176,
+        "size": 176
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "output_mode": "compact",
+  "build_files": [
+    "MetalSaga-ptbr-interface-v016.iso",
+    "relatorio.json"
+  ],
+  "tests": {
+    "status": "passed",
+    "interface_suite_passed": 96,
+    "interface_elapsed_seconds": 276.865,
+    "new_satcom_tests_included": 9,
+    "planning_tests_passed": 6,
+    "total_unique_tests_passed": 102,
+    "original_mail_getter_all_41_before_and_after": true,
+    "all_satcom_text_byte_lengths": true,
+    "prior_recipe_fields_identical": true,
+    "source_bindings_and_negative_guards": true,
+    "full_iso_comparison": true,
+    "launcher_dry_run_passed": true,
+    "scope": "Bounded original instructions in synthetic RAM, not PCSX2 execution"
+  },
+  "retention": {
+    "limit": 10,
+    "remaining_count": 10,
+    "original_excluded": true
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "onedrive_copied": false
+}

@@ -151,6 +151,10 @@ def compile_draft(data,draft):
     if draft.get('character_status'):
         from spack_ui import compile_status
         added,status_report=compile_status(data,draft['character_status']);patches.extend(added)
+    satcom_report={'accepted':0}
+    if draft.get('satcom_records'):
+        from spack_satcom import compile_satcom
+        added,satcom_report=compile_satcom(data,draft['satcom_records']);patches.extend(added)
     name_report={'accepted':0}
     if draft.get('name_entry'):
         from name_entry_text import compile_name_entry
@@ -171,11 +175,12 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         'graphic_labels':graphics_report,
         **({'spack_ui':spack_report} if draft.get('spack_ui') else {}),
         **({'character_status':status_report} if draft.get('character_status') else {}),
+        **({'satcom_records':satcom_report} if draft.get('satcom_records') else {}),
         **({'name_entry':name_report} if draft.get('name_entry') else {}),
         **({'battle_spacing':{'policy':draft['battle_spacing']['policy'], 'codes':18,
             'advance':'Existing ASCII half-cell; glyph dispatch and input bytes preserved',

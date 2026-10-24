@@ -120,6 +120,25 @@ def audit(draft,output):
         if target['source_sha256']!=multiline[0]['source_sha256']:raise ValueError('Character status planning binding mismatch')
         multiline[0]['translation']=target['translation'];multiline[0]['status']='translated-in-recipe-pending-visual'
         multiline[0]['reason']='Explicit single multiline formatter policy'
+    satcom=[]
+    if recipe.get('satcom_records'):
+        from spack_satcom import parse_table,TABLES as SATCOM_TABLES,sha as satcom_sha
+        config=recipe['satcom_records'];targets={r['id']:r for r in config['entries']}
+        if config['source_sha256']!=satcom_sha(pack):raise ValueError('Satcom planning source binding mismatch')
+        for kind,(_,base,size,_) in SATCOM_TABLES.items():
+            if config['table_sha256'][kind]!=satcom_sha(pack[base:base+size]):raise ValueError('Satcom planning table binding mismatch')
+            for row in parse_table(pack,kind):
+                for field,value in row['fields'].items():
+                    key=f"spack.{kind}.{row['id']:03d}.{field}";target=targets.get(key)
+                    item={'id':key,'offset':row['offset']+value['relative'],'record_offset':row['offset'],
+                        'record_size':row['size'],'source':value['raw'].decode('ascii'),
+                        'source_hex':value['raw'].hex(),'source_sha256':satcom_sha(value['raw']),
+                        'status':'translated-in-recipe-pending-visual' if target else 'preserved-in-recipe'}
+                    if target:
+                        if target['source_sha256']!=item['source_sha256'] or target['record_sha256']!=satcom_sha(row['raw']):
+                            raise ValueError('Satcom planning record/field binding mismatch')
+                        item['translation']=target['translation']
+                    satcom.append(item)
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -128,7 +147,8 @@ def audit(draft,output):
         'spack_repertoires':dict(collections.Counter(r['repertoire'] for r in table['entries'])),
         'spack_statuses':dict(collections.Counter(r['status'] for r in table['entries'])),
         'spack_control_parse_issues':sum(bool(r['control_parse_issue']) for r in table['entries']),
-        'additional_multiline_literals':len(multiline)}
+        'additional_multiline_literals':len(multiline),
+        **({'satcom_fields':len(satcom),'satcom_statuses':dict(collections.Counter(r['status'] for r in satcom))} if satcom else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -138,6 +158,7 @@ def audit(draft,output):
             'Collect consolidated visual test of character, inventory and shops'] if spack_config else
             ['Trace S_PACK UI reader/buffers; pin character formatter; review literal candidates']),
         'originals_modified':False,'iso_created':False,'translation_created':False}
+    if satcom:document['satcom_records']=satcom
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -149,6 +170,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v015.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v016.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))
