@@ -164,6 +164,22 @@ def audit(draft,output):
                 from prepare_item_batch import diagnose_budget
                 item['pending_budget']=diagnose_budget(bytes.fromhex(row['source_hex']),deferred['proposed'])
             item_rows.append(item)
+    name_rows=[]
+    if recipe.get('item_names'):
+        from item_names import catalog as name_catalog,validate_review as validate_name_review,protected
+        config=recipe['item_names'];name_sources=name_catalog(pack)
+        validate_name_review(recipe['item_name_review'],config,name_sources)
+        targets={r['id']:r for r in config['entries']};pending={r['id']:r for r in recipe['item_name_review']['pending']}
+        for row in name_sources:
+            item=dict(row);target=targets.get(row['id']);deferred=pending.get(row['id'])
+            item['source_ascii']=None if row['native'] else bytes.fromhex(row['source_hex']).decode('ascii')
+            item['status']=('empty-name' if row['empty'] else 'translated-in-recipe-pending-visual' if target else
+                'protected-name-category' if protected(row['index']) else 'deferred-name' if deferred else 'unreviewed-name')
+            if target:
+                if any(target[k]!=row[k] for k in ('source_sha256','record_sha256')):raise ValueError('Item name planning binding mismatch')
+                item['translation']=target['translation'];item['group']=target['group']
+            if deferred:item['deferred_reason']=deferred['reason']
+            name_rows.append(item)
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -176,7 +192,9 @@ def audit(draft,output):
         **({'satcom_fields':len(satcom),'satcom_statuses':dict(collections.Counter(r['status'] for r in satcom))} if satcom else {}),
         **({'item_descriptions':len(item_rows),'item_statuses':dict(collections.Counter(r['status'] for r in item_rows)),
             'item_pending_constraints':dict(collections.Counter(issue for r in item_rows for issue in r.get('pending_budget',{}).get('issues',[]))),
-            'item_pending_constraint_groups':dict(collections.Counter('+'.join(r['pending_budget']['issues']) or 'non-budget-policy' for r in item_rows if 'pending_budget' in r))} if item_rows else {})}
+            'item_pending_constraint_groups':dict(collections.Counter('+'.join(r['pending_budget']['issues']) or 'non-budget-policy' for r in item_rows if 'pending_budget' in r))} if item_rows else {}),
+        **({'item_name_records':len(name_rows),'item_name_statuses':dict(collections.Counter(r['status'] for r in name_rows)),
+            'unique_translated_item_labels':len({r['translation'] for r in name_rows if 'translation' in r})} if name_rows else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -188,6 +206,7 @@ def audit(draft,output):
         'originals_modified':False,'iso_created':False,'translation_created':False}
     if satcom:document['satcom_records']=satcom
     if item_rows:document['item_descriptions']=item_rows
+    if name_rows:document['item_names']=name_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -199,6 +218,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v019.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v020.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

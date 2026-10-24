@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v019**, sobre MAP v030 e fontes/layout v005. Preserva menus, lojas, diário, ajuda, mensagens do Satcom, procurados e arte da tela inicial. Recupera 142 descrições antes adiadas: são **495 descrições traduzidas**, usadas por 832 IDs de itens, mantendo todos os nomes originais.
+**Interface v020**, sobre MAP v030 e fontes/layout v005. Reúne três blocos: 189 nomes genéricos de itens/acessórios/habilidades, 41 descrições recuperadas e oito ajustes de interface, incluindo a confirmação de melhoria de peças. São **536 descrições traduzidas**, usadas por 883 IDs. Nomes únicos, motores, LOVE machine, personagens e tanques continuam preservados; atributos, preços e IDs não mudam.
 
-São **1.534 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O pool conhecido de descrições tem 87,30% dos 567 alvos traduzidos: 70 ficam adiados por espaço, um por controle e um marcador permanece original. Há validações visuais pendentes.
+São **1.772 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O pool conhecido de descrições tem 94,53% dos 567 alvos traduzidos: 29 ficam adiados por espaço, um por controle e um marcador permanece original. Nomes que não couberam continuam preservados. Há validações visuais pendentes.
 
-ISO: `work/interface-v019/MetalSaga-ptbr-interface-v019.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
+ISO: `work/interface-v020/MetalSaga-ptbr-interface-v020.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/interface-v019.md)
+- [Lote atual e limites](docs/interface-v020.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

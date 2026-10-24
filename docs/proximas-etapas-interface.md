@@ -1,5 +1,16 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Estado após a v020:** lote consolidado com 189 nomes de itens/habilidades,
+41 descrições e oito rótulos de interface. O catálogo local único inclui os
+1.349 registros de nomes, com fontes legíveis e classes; 1.041 não são vazios,
+mas muitos são nomes próprios ou termos a preservar. Não usar esse denominador
+como dívida de tradução. São 536 descrições traduzidas/883 referências e 1.772
+campos acumulados. Confirmador de melhoria com incremento/decremento liberado
+somente pelo perfil específico, sem editar os prefixos compartilhados. Ver
+`docs/interface-v020.md`. Próximos alvos: limites de nomes/descrições, Coat e
+TITLE/BACK, sem promover formatos por contagem nem modificar fontes aprovadas
+para compensar textos que não cabem.
+
 **Estado após a v019:** 142 descrições antes adiadas foram recuperadas, sem
 alterar traduções aprovadas nem estruturas binárias. São 495/567 alvos (87,30%),
 832 referências de itens e 1.534 ocorrências acumuladas de interface. Restam

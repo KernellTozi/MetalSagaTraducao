@@ -50,9 +50,12 @@ def rebuild(before,table,values):
     return bytes(output),cursor
 
 
-def validate_value(row,text,policy):
+def validate_value(row,text,policy,composition=False):
     raw=bytes.fromhex(row['source_hex']);index=row['pointer_ids'][0]
-    if index in LOCKED or row['source_ascii'] is None:raise ValueError('Protected/native/composed S_PACK entry')
+    if composition and index==142:
+        from spack_composition import SOURCE,TEXT
+        if raw!=SOURCE or text!=TEXT:raise ValueError('Unreviewed upgrade composition')
+    elif index in LOCKED or row['source_ascii'] is None:raise ValueError('Protected/native/composed S_PACK entry')
     value=encode(text)
     if not value or any(c in value for c in (0,9,10,13)):raise ValueError('Injected S_PACK delimiter')
     if decode(value)!=text:raise ValueError('S_PACK glyph round-trip mismatch')
@@ -77,6 +80,11 @@ def validate_value(row,text,policy):
 def compile_ui(elf,config):
     if config.get('policy')!=POLICY:raise ValueError('Unknown S_PACK UI policy')
     evidence=proof(elf,config['instruction_windows']);raw=original(RESOURCE)
+    composition=None
+    if config.get('composition'):
+        from spack_composition import proof as composition_proof
+        composition=composition_proof(elf,config['composition'])
+        if '142' not in config['translations']:raise ValueError('Upgrade composition opt-in requires the exact preview entry')
     before=raw[TABLE_BASE:TABLE_BASE+TABLE_SIZE]
     if sha(raw)!=config['source_sha256'] or sha(before)!=config['table_sha256']:raise ValueError('S_PACK UI source mismatch')
     from probe_resources import nested
@@ -92,7 +100,7 @@ def compile_ui(elf,config):
         if index not in rows:raise ValueError('Use canonical ID for each shared string')
         row=rows[index]
         if target['source_sha256']!=row['source_sha256']:raise ValueError('S_PACK per-entry source mismatch')
-        value=validate_value(row,target['translation'],policy);values[index]=value
+        value=validate_value(row,target['translation'],policy,composition=bool(composition));values[index]=value
         result.append({'id':row['id'],'pointer_ids':row['pointer_ids'],'old_offset':row['offset'],
             'source_length':row['source_length'],'target_length':len(value),'target_sha256':sha(value)})
     if not values:raise ValueError('Empty S_PACK translation batch')
@@ -113,6 +121,7 @@ def compile_ui(elf,config):
         'free_bytes':TABLE_SIZE-used,'offsets_changed_inside_table_only':True,'reverse_roundtrip':True,
         'source_sha256':sha(raw),'table_sha256':sha(after),'evidence':evidence,'results':result,
         'preserved_ids':[i for i in rows if i not in values],
+        **({'composition':composition} if composition else {}),
         'growth_guard':'At most max(original byte length,31) per entry; conservative policy, not a universal runtime buffer bound',
         'runtime_visual_status':'pending_user_verification'}
 

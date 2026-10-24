@@ -1,5 +1,15 @@
 # Plano para concluir a tradução
 
+**Atualização v020:** três blocos em uma única imagem: 189 nomes genéricos/
+habilidades (183 rótulos distintos), 41 descrições retomadas e oito campos de
+interface. São 536/567 descrições (883 IDs) e 1.772 campos acumulados. A confirmação
+de melhoria passa a usar incremento/decremento, mantendo os prefixos in/de
+compartilhados e os parâmetros originais. Nomes ficam nos próprios comprimentos,
+com atributos e IDs intactos; não expandir o campo aparente de 24 bytes. Restam
+29 descrições com orçamento difícil e uma com percentual bloqueado. As propostas
+pendentes de nomes exigem revisão editorial futura, mesmo que um limite técnico
+venha a ser resolvido; não promovê-las automaticamente. Ver `docs/interface-v020.md`.
+
 **Atualização v019:** 142 adiamentos recuperados por revisão contextual dentro
 dos slots existentes: 495/567 descrições traduzidas, usadas por 832 IDs; 70
 adiamentos de espaço, um percentual bloqueado e um marcador preservado. Toda
