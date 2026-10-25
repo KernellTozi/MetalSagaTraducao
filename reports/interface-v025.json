@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "version": "interface-v025",
+  "previous": "interface-v024",
+  "groups": {
+    "generic-equipment": 9,
+    "furniture-accessories": 2,
+    "generic-key-items": 2,
+    "skills": 4
+  },
+  "new_names": 17,
+  "interface_count": 2121,
+  "total_names": 516,
+  "distinct_translated_labels": 500,
+  "name_review": {
+    "selected": 540,
+    "accepted": 516,
+    "pending": 23,
+    "preserved": 1,
+    "resumed_ids": [
+      "item.name.0179",
+      "item.name.0441",
+      "item.name.0460",
+      "item.name.0646",
+      "item.name.0647",
+      "item.name.0870",
+      "item.name.0871",
+      "item.name.0872",
+      "item.name.0873"
+    ]
+  },
+  "new_name_fields": [
+    {
+      "id": "item.name.0111",
+      "item_id": 111,
+      "offset": 16288,
+      "source_bytes": 8,
+      "target_bytes": 11,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0116",
+      "item_id": 116,
+      "offset": 16928,
+      "source_bytes": 12,
+      "target_bytes": 12,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0123",
+      "item_id": 123,
+      "offset": 17824,
+      "source_bytes": 10,
+      "target_bytes": 11,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0134",
+      "item_id": 134,
+      "offset": 19232,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0138",
+      "item_id": 138,
+      "offset": 19744,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0140",
+      "item_id": 140,
+      "offset": 20000,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0177",
+      "item_id": 177,
+      "offset": 24736,
+      "source_bytes": 9,
+      "target_bytes": 11,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0179",
+      "item_id": 179,
+      "offset": 24992,
+      "source_bytes": 13,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0183",
+      "item_id": 183,
+      "offset": 25504,
+      "source_bytes": 8,
+      "target_bytes": 10,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0441",
+      "item_id": 441,
+      "offset": 58528,
+      "source_bytes": 14,
+      "target_bytes": 14,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0460",
+      "item_id": 460,
+      "offset": 60960,
+      "source_bytes": 9,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0646",
+      "item_id": 646,
+      "offset": 84768,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.0647",
+      "item_id": 647,
+      "offset": 84896,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.0870",
+      "item_id": 870,
+      "offset": 113440,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0871",
+      "item_id": 871,
+      "offset": 113568,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0872",
+      "item_id": 872,
+      "offset": 113696,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0873",
+      "item_id": 873,
+      "offset": 113824,
+      "source_bytes": 13,
+      "target_bytes": 14,
+      "group": "skills"
+    }
+  ],
+  "description_count_unchanged": 541,
+  "description_item_ids_unchanged": 889,
+  "map_changed": 5892,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v025/MetalSaga-ptbr-interface-v025.iso",
+    "size": 1704427520,
+    "sha256": "308fe9abbdb111f2df16975eecbb96bfb5c74e25f157bbb781913eec1e2d4b87"
+  },
+  "full_iso_comparison": {
+    "source_sha256": "7d54ad51ab381a03d3fa8a4a3e42c1ac92914919d8854806876e1019b1213a3e",
+    "all_bytes_match_expected_patch": true,
+    "changed_bytes": 217,
+    "authorized_intervals": 17,
+    "directory_identical": true
+  },
+  "tests": {
+    "passed": 26,
+    "v025": 5,
+    "observed_name_ceiling": 7,
+    "menu_planning": 6,
+    "iso_retention": 5,
+    "alpha": 3
+  },
+  "historical_iso_recovery": {
+    "prior_images_audited": [
+      {
+        "version": "interface-v021",
+        "expected": "9aeb41ee8f1452bc24e65ac0a0c50aae5a659a66e15c5ecd9ef28ca6b3934a43",
+        "actual": "9aeb41ee8f1452bc24e65ac0a0c50aae5a659a66e15c5ecd9ef28ca6b3934a43",
+        "matched": true
+      },
+      {
+        "version": "interface-v022",
+        "expected": "f0d33e8574cdbfee95d349d88a66353ee1292e067a3d5d05bedb6aff4a483230",
+        "actual": "f0d33e8574cdbfee95d349d88a66353ee1292e067a3d5d05bedb6aff4a483230",
+        "matched": true
+      },
+      {
+        "version": "interface-v023",
+        "expected": "b7fca2c6227be9cea4682129c6bc1ae7905d2e7999f6ed9237c9faec1b6a7840",
+        "actual": "b7fca2c6227be9cea4682129c6bc1ae7905d2e7999f6ed9237c9faec1b6a7840",
+        "matched": true
+      },
+      {
+        "version": "interface-v024",
+        "expected": "7d54ad51ab381a03d3fa8a4a3e42c1ac92914919d8854806876e1019b1213a3e",
+        "actual": "95981e490274211486a5c3ccd6f116607d367d1a37a20c42056c3d70ddb215e2",
+        "matched": false
+      },
+      {
+        "version": "interface-v025",
+        "expected": "308fe9abbdb111f2df16975eecbb96bfb5c74e25f157bbb781913eec1e2d4b87",
+        "actual": "308fe9abbdb111f2df16975eecbb96bfb5c74e25f157bbb781913eec1e2d4b87",
+        "matched": true
+      }
+    ],
+    "damaged_iso": "work/interface-v024/MetalSaga-ptbr-interface-v024.iso",
+    "damaged_offset": 305259383,
+    "observed_byte": 30,
+    "expected_byte": 62,
+    "virtually_corrected_sha256": "7d54ad51ab381a03d3fa8a4a3e42c1ac92914919d8854806876e1019b1213a3e",
+    "cause": "undetermined",
+    "strategy": "Rebuild historical v024 from immutable original; no in-place byte modification",
+    "old_build_report": "work/interface-v024-invalida/relatorio.json",
+    "restored": true,
+    "restored_sha256": "7d54ad51ab381a03d3fa8a4a3e42c1ac92914919d8854806876e1019b1213a3e",
+    "historical_hash_reproduced": true,
+    "in_place_byte_edits": false
+  },
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "onedrive_copied": false
+}
