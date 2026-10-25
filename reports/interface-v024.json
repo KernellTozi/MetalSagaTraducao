@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "version": "interface-v024",
+  "previous": "interface-v023",
+  "new_names": 6,
+  "new_descriptions": 5,
+  "interface_count": 2104,
+  "total_names": 499,
+  "distinct_translated_labels": 483,
+  "total_descriptions": 541,
+  "description_item_references": 889,
+  "name_review": {
+    "selected": 532,
+    "accepted": 499,
+    "pending": 32,
+    "preserved": 1,
+    "resumed_ids": [
+      "item.name.0861"
+    ]
+  },
+  "description_resumed_ids": [
+    "item.description.003bb",
+    "item.description.0049e",
+    "item.description.0310c",
+    "item.description.04e00",
+    "item.description.04e5a"
+  ],
+  "description_pending": 25,
+  "description_pending_space": 24,
+  "description_pending_control": 1,
+  "new_name_fields": [
+    {
+      "id": "item.name.0861",
+      "item_id": 861,
+      "offset": 112288,
+      "source_bytes": 11,
+      "target_bytes": 14,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.0899",
+      "item_id": 899,
+      "offset": 117152,
+      "source_bytes": 6,
+      "target_bytes": 9,
+      "group": "skills"
+    },
+    {
+      "id": "item.name.1015",
+      "item_id": 1015,
+      "offset": 132000,
+      "source_bytes": 9,
+      "target_bytes": 15,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1043",
+      "item_id": 1043,
+      "offset": 135584,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1044",
+      "item_id": 1044,
+      "offset": 135712,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    },
+    {
+      "id": "item.name.1045",
+      "item_id": 1045,
+      "offset": 135840,
+      "source_bytes": 10,
+      "target_bytes": 16,
+      "group": "generic-key-items"
+    }
+  ],
+  "new_patch_intervals": [
+    {
+      "id": "item.name.0861",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 112288,
+      "size": 15
+    },
+    {
+      "id": "item.name.0899",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 117152,
+      "size": 10
+    },
+    {
+      "id": "item.name.1015",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 132000,
+      "size": 16
+    },
+    {
+      "id": "item.name.1043",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 135584,
+      "size": 17
+    },
+    {
+      "id": "item.name.1044",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 135712,
+      "size": 17
+    },
+    {
+      "id": "item.name.1045",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 135840,
+      "size": 17
+    },
+    {
+      "id": "item.description.003bb",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 175707,
+      "size": 33
+    },
+    {
+      "id": "item.description.0049e",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 175934,
+      "size": 30
+    },
+    {
+      "id": "item.description.0310c",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 187308,
+      "size": 50
+    },
+    {
+      "id": "item.description.04e00",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 194720,
+      "size": 44
+    },
+    {
+      "id": "item.description.04e5a",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 194810,
+      "size": 48
+    }
+  ],
+  "map_changed": 5892,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v024/MetalSaga-ptbr-interface-v024.iso",
+    "size": 1704427520,
+    "sha256": "7d54ad51ab381a03d3fa8a4a3e42c1ac92914919d8854806876e1019b1213a3e"
+  },
+  "full_iso_comparison": {
+    "source_sha256": "b7fca2c6227be9cea4682129c6bc1ae7905d2e7999f6ed9237c9faec1b6a7840",
+    "all_bytes_match_expected_patch": true,
+    "changed_bytes": 261,
+    "authorized_intervals": 11,
+    "directory_identical": true
+  },
+  "tests": {
+    "passed": 41,
+    "v024": 5,
+    "item_descriptions_preparation": 21,
+    "observed_name_ceiling": 7,
+    "iso_retention": 5,
+    "alpha": 3
+  },
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "onedrive_copied": false
+}
