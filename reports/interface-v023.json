@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "version": "interface-v023",
+  "previous": "interface-v022",
+  "fronts": {
+    "consumables-materials": 9,
+    "furniture-accessories": 7
+  },
+  "new_names": 16,
+  "interface_count": 2093,
+  "total_names": 493,
+  "distinct_translated_labels": 477,
+  "name_review": {
+    "selected": 527,
+    "accepted": 493,
+    "pending": 33,
+    "preserved": 1,
+    "resumed_ids": [
+      "item.name.0331",
+      "item.name.0352",
+      "item.name.0354",
+      "item.name.0355",
+      "item.name.0372",
+      "item.name.0373",
+      "item.name.0385",
+      "item.name.0433",
+      "item.name.0449",
+      "item.name.0451",
+      "item.name.0727",
+      "item.name.0747"
+    ]
+  },
+  "new_name_fields": [
+    {
+      "id": "item.name.0331",
+      "item_id": 331,
+      "offset": 44448,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0352",
+      "item_id": 352,
+      "offset": 47136,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0354",
+      "item_id": 354,
+      "offset": 47392,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0355",
+      "item_id": 355,
+      "offset": 47520,
+      "source_bytes": 15,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0372",
+      "item_id": 372,
+      "offset": 49696,
+      "source_bytes": 12,
+      "target_bytes": 15,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0373",
+      "item_id": 373,
+      "offset": 49824,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0374",
+      "item_id": 374,
+      "offset": 49952,
+      "source_bytes": 11,
+      "target_bytes": 13,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0385",
+      "item_id": 385,
+      "offset": 51360,
+      "source_bytes": 8,
+      "target_bytes": 16,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0433",
+      "item_id": 433,
+      "offset": 57504,
+      "source_bytes": 12,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0449",
+      "item_id": 449,
+      "offset": 59552,
+      "source_bytes": 14,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0451",
+      "item_id": 451,
+      "offset": 59808,
+      "source_bytes": 11,
+      "target_bytes": 15,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0619",
+      "item_id": 619,
+      "offset": 81312,
+      "source_bytes": 12,
+      "target_bytes": 12,
+      "group": "consumables-materials"
+    },
+    {
+      "id": "item.name.0727",
+      "item_id": 727,
+      "offset": 95136,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0747",
+      "item_id": 747,
+      "offset": 97696,
+      "source_bytes": 15,
+      "target_bytes": 16,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0774",
+      "item_id": 774,
+      "offset": 101152,
+      "source_bytes": 6,
+      "target_bytes": 7,
+      "group": "furniture-accessories"
+    },
+    {
+      "id": "item.name.0782",
+      "item_id": 782,
+      "offset": 102176,
+      "source_bytes": 7,
+      "target_bytes": 7,
+      "group": "furniture-accessories"
+    }
+  ],
+  "description_count_unchanged": 536,
+  "description_item_ids_unchanged": 883,
+  "map_changed": 5892,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v023/MetalSaga-ptbr-interface-v023.iso",
+    "size": 1704427520,
+    "sha256": "b7fca2c6227be9cea4682129c6bc1ae7905d2e7999f6ed9237c9faec1b6a7840"
+  },
+  "full_iso_comparison": {
+    "source_sha256": "f0d33e8574cdbfee95d349d88a66353ee1292e067a3d5d05bedb6aff4a483230",
+    "all_bytes_match_expected_patch": true,
+    "changed_bytes": 204,
+    "authorized_intervals": 16,
+    "directory_identical": true
+  },
+  "tests": {
+    "passed": 26,
+    "v023": 5,
+    "observed_name_ceiling": 7,
+    "menu_planning": 6,
+    "iso_retention": 5,
+    "alpha": 3
+  },
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "onedrive_copied": false
+}

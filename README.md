@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v022**, sobre MAP v030 e fontes/layout v005. Acrescenta 20 nomes de equipamentos e proteções, incluindo nove trajes caninos, mantendo as demais frentes da v021. São **477 registros de nomes traduzidos** e **536 descrições**, usadas por 883 IDs. Nomes únicos, motores, LOVE machine, personagens e tanques continuam preservados; atributos, preços e IDs não mudam.
+**Interface v023**, sobre MAP v030 e fontes/layout v005. Acrescenta 16 nomes em duas frentes: nove consumíveis/materiais e sete móveis/acessórios, mantendo integralmente a v022. São **493 registros de nomes traduzidos** e **536 descrições**, usadas por 883 IDs. Nomes únicos, motores, LOVE machine, personagens e tanques continuam preservados; atributos, preços e IDs não mudam.
 
-São **2.077 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O pool conhecido de descrições mantém 94,53% dos 567 alvos traduzidos: 29 adiados por espaço, um por controle e um marcador original. O novo perfil de nomes permite no máximo os 16 bytes observados no original, usando somente o preenchimento zerado do próprio registro. Há validações visuais pendentes.
+São **2.093 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O pool conhecido de descrições mantém 94,53% dos 567 alvos traduzidos: 29 adiados por espaço, um por controle e um marcador original. O novo perfil de nomes permite no máximo os 16 bytes observados no original, usando somente o preenchimento zerado do próprio registro. Há validações visuais pendentes.
 
-ISO: `work/interface-v022/MetalSaga-ptbr-interface-v022.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
+ISO: `work/interface-v023/MetalSaga-ptbr-interface-v023.iso`. Abra **Iniciar-Teste.cmd**, usando inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/interface-v022.md)
+- [Lote atual e limites](docs/interface-v023.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)
