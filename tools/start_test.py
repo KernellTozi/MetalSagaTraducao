@@ -4,7 +4,8 @@ import argparse, configparser, json, os, subprocess
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'work/pcsx2-functional'
-ISOS={'interface':ROOT/'work/interface-v025/MetalSaga-ptbr-interface-v025.iso',
+ISOS={'interface':ROOT/'work/interface-v026/MetalSaga-ptbr-interface-v026.iso',
+      'interface-v025':ROOT/'work/interface-v025/MetalSaga-ptbr-interface-v025.iso',
       'interface-v024':ROOT/'work/interface-v024/MetalSaga-ptbr-interface-v024.iso',
       'interface-v023':ROOT/'work/interface-v023/MetalSaga-ptbr-interface-v023.iso',
       'interface-v022':ROOT/'work/interface-v022/MetalSaga-ptbr-interface-v022.iso',
@@ -76,6 +77,8 @@ def launch_command(iso):
         raise ValueError('Development ISO has an interrupted transaction; recover before launching')
     if image.suffix.lower()!='.iso' or not image.is_file() or not image.is_relative_to(ROOT/'work'):
         raise ValueError('Test ISO must be an existing .iso under work/')
+    from verify_test_iso import verify_image
+    verify_image(ISOS.get(iso,Path(iso)))
     cfg=configparser.ConfigParser(interpolation=None,strict=False);cfg.optionxform=str
     cfg.read(BASE/'inis/PCSX2.ini',encoding='utf-8')
     for key in ('Bios','MemoryCards','Savestates','Snapshots','Logs','Cache'):
@@ -89,7 +92,7 @@ def launch_command(iso):
     return [str(exe),'-portable','-fastboot',str(image)]
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--iso',default='region');p.add_argument('--dry-run',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--iso',default='interface');p.add_argument('--dry-run',action='store_true');a=p.parse_args()
     command=launch_command(a.iso)
     print(subprocess.list2cmdline(command))
     if a.dry_run:return

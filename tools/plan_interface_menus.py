@@ -170,11 +170,13 @@ def audit(draft,output):
         config=recipe['item_names'];name_sources=name_catalog(pack)
         validate_name_review(recipe['item_name_review'],config,name_sources)
         targets={r['id']:r for r in config['entries']};pending={r['id']:r for r in recipe['item_name_review']['pending']}
+        preserved={r['id']:r for r in recipe['item_name_review'].get('preserved',[])}
         for row in name_sources:
             item=dict(row);target=targets.get(row['id']);deferred=pending.get(row['id'])
             item['source_ascii']=None if row['native'] else bytes.fromhex(row['source_hex']).decode('ascii')
             item['status']=('empty-name' if row['empty'] else 'translated-in-recipe-pending-visual' if target else
-                'protected-name-category' if protected(row['index']) else 'deferred-name' if deferred else 'unreviewed-name')
+                'protected-name-category' if protected(row['index']) else 'reviewed-preserved-name' if row['id'] in preserved else 'deferred-name' if deferred else 'unreviewed-name')
+            if row['id'] in preserved:item['preservation_reason']=preserved[row['id']]['reason']
             if target:
                 if any(target[k]!=row[k] for k in ('source_sha256','record_sha256')):raise ValueError('Item name planning binding mismatch')
                 item['translation']=target['translation'];item['group']=target['group']
@@ -198,6 +200,33 @@ def audit(draft,output):
             if target['id']!=f'install.{i:03d}' or target['source_sha256']!=digest(value):raise ValueError('Installer planning row binding mismatch')
             install_rows.append({'id':target['id'],'source_ascii':value.decode('ascii'),'source_sha256':digest(value),
                 'translation':target['translation'],'status':'translated-in-recipe-pending-visual'})
+    battle_rows=[];interaction_rows=[]
+    if recipe.get('spack_battle'):
+        from spack_battle import catalog as battle_catalog,verify as battle_verify
+        config=recipe['spack_battle'];battle_verify(elf,pack,config)
+        targets={e['id']:e for e in config['entries']}
+        for row in battle_catalog(pack):
+            item=dict(row);target=targets.get(row['id'])
+            item['source_ascii']=None if row['native'] else bytes.fromhex(row['source_hex']).decode('ascii')
+            item['status']='translated-in-recipe-pending-visual' if target else ('empty' if row['empty'] else 'native-preserved' if row['native'] else 'preserved-or-pending-review')
+            if target:
+                if any(target[k]!=row[k] for k in ('source_sha256','record_sha256')):raise ValueError('Battle planning binding mismatch')
+                item['translation']=target['translation']
+            battle_rows.append(item)
+    if recipe.get('spack_interactions'):
+        from spack_interactions import catalog as interaction_catalog,bindings as interaction_bindings
+        config=recipe['spack_interactions']
+        if config['source_sha256']!=digest(pack) or config['instruction_windows']!=interaction_bindings(elf):raise ValueError('Interaction planning evidence mismatch')
+        for kind in ('reaction','bar'):
+            source=interaction_catalog(pack,kind);targets={e['id']:e for e in config[kind]['entries']}
+            if config[kind]['table_sha256']!=source['sha256']:raise ValueError('Interaction planning table mismatch')
+            for row in source['rows']:
+                item=dict(row);item['kind']=kind;item['source_ascii']=bytes.fromhex(row['source_hex']).decode('ascii');target=targets.get(row['id'])
+                item['status']='translated-in-recipe-pending-visual' if target else 'preserved-in-recipe'
+                if target:
+                    if target['source_sha256']!=row['source_sha256']:raise ValueError('Interaction planning row mismatch')
+                    item['translation']=target['translation']
+                interaction_rows.append(item)
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -214,7 +243,9 @@ def audit(draft,output):
         **({'item_name_records':len(name_rows),'item_name_statuses':dict(collections.Counter(r['status'] for r in name_rows)),
             'unique_translated_item_labels':len({r['translation'] for r in name_rows if 'translation' in r}),
             'item_name_pending_current_issues':dict(collections.Counter(r['current_validation']['issue'] or 'Entry guards pass; editorial/alias review required' for r in name_rows if 'current_validation' in r))} if name_rows else {}),
-        **({'installer_fields':len(install_rows)} if install_rows else {})}
+        **({'installer_fields':len(install_rows)} if install_rows else {}),
+        **({'battle_fields':len(battle_rows),'battle_translated':dict(collections.Counter(r['kind'] for r in battle_rows if 'translation' in r))} if battle_rows else {}),
+        **({'interaction_fields':len(interaction_rows),'interaction_translated':dict(collections.Counter(r['kind'] for r in interaction_rows if 'translation' in r))} if interaction_rows else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -228,6 +259,8 @@ def audit(draft,output):
     if item_rows:document['item_descriptions']=item_rows
     if name_rows:document['item_names']=name_rows
     if install_rows:document['installer_messages']=install_rows
+    if battle_rows:document['battle_fields']=battle_rows
+    if interaction_rows:document['interaction_fields']=interaction_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -239,6 +272,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v025.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v026.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

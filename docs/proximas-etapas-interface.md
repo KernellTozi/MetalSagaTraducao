@@ -1,5 +1,7 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Atualização v026:** [expansão consolidada de batalha e interações](interface-v026.md), 1.298 campos novos e 3.419 acumulados. Preflight de integridade implementado; recorte nominal revisado (25 pendentes, preservações separadas). MAP/fontes/arte anteriores intactos. Próximos alvos: prova de capacidade/consumidores para as 24 descrições de espaço, controle 80%% separado, 25 nomes pendentes, Coat/TITLE/BACK e revisão visual/contextual consolidada; fragmentos MAP por último. Não forçar outro lote desse volume sem conteúdo seguro. As indicações anteriores abaixo são históricas.
+
 **Estado após a v021:** 37 equipamentos, 105 consumíveis/materiais, 56 móveis/
 acessórios, 51 habilidades e 19 objetos genéricos recebem nomes traduzidos;
 também foram traduzidas 17 mensagens da instalação de HDD. Total 457 nomes e
