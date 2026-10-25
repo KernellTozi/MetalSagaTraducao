@@ -667,3 +667,52 @@ Nova prova executa scanner original pergunta→opções0x1C6D2C..0x1C6D68, ligad
 `tools/prepare_speaker_context.py` reproduz seleção contra v036, conserva entradas contextuais herdadas e mantém somente metadados no relatório público. Não usar heurística de nomes/IA/APIs. Mudanças nos corpos podem invalidar vínculos: rever explicitamente antes de reconstruir. Auditor mantém JSON local substituível e agora registra evidência do novo perfil. Restam49 funções antigas sem folga, todasmsgn, e566 referências fora da seleção (nomes/termos/marcadores/funções). Esses49 não têm separador de opções adicional para aproveitar: próxima frente exige revisão contextual ou armazenamento com prova própria, sem repetir zeros inexistentes/cortar frases/remover acentos. Não reinvestigar N$3 decidido nem inventar contexto dos oito nativos.
 
 64 testes distintos aprovados; delta integral v036→v037:633 bytes em45 registros MAP, incluindo deslocamentos internos de quatro opções, demais bytes/diretório/fontes/arte/interface idênticos. SHA256 `e7e65c661409946eb81b8e185c1c71478710cf1aa1538f74a04bd5fbd4c63789`, tamanho1704427520. Iniciar-Teste.cmd, Preparar-Interface.cmd, Auditar-Traducao.cmd e auditor padrão usamv037; preflight/dry-run aprovados. Cinco ISOs e alpha readonly/hash preservados. Usuário confere opções/rótulos em partida normal; sem navegação PCSX2, OneDrive ou desligamento nesta rodada.
+
+## Descoberta consolidada v001 — prioridade antes do próximo lote
+
+Em 25/10/2026 o usuário pediu uma fase inteiramente de descoberta, preparando o
+restante do catálogo para tradução posterior em conjunto. Consultar
+`docs/descoberta-v001.md` e `reports/descoberta-v001.json`. Base segue v037;
+nenhuma receita, fonte, iniciador ou ISO foi alterada. Não retomar pequenos lotes
+automaticamente: preparar mecanismos e triagem gráfica por conjuntos, depois
+uma tradução ampla consolidada do subconjunto seguro. Pendências inconclusivas
+ficam explícitas, sem exigir cobertura absoluta para todo avanço futuro.
+
+`python tools/discover_remaining_catalogue.py` renova somente o catálogo local
+`work/descoberta-catalogo.json` e o planejamento local existente. Não usa
+IA/APIs/internet. Verifica ISO/journals, hashes de 58 referências e preservação
+de 84 receitas; compila validação em memória, sem criar imagem. Originais,
+contextos e previews ficam em work/, metadados públicos em reports/. Os 2.838
+candidatos ASCII por forma e as 119 texturas reconhecidas em 17 arquivos não são
+contagens de textos faltantes. Entradas desconhecidas/comprimidas/nativas ainda
+limitam a cobertura. Não declarar 100% do jogo nem promover candidatos por inglês.
+
+Novas evidências: FD_END.SDA entrada0 em0x800 contém LZSS de dicionário zerado
+1024, posição1006; 4222 bytes descomprimidos, 292 linhas/209 não vazias.
+Decoder original limitado executado em memória sintética e replay exato de
+tokens conferido; falta recompressor de texto editado e semântica do renderer.
+S_PAINT.SDA entrada22 em0xAE6A0 tem228 registros×36, 12 legendas distintas
+repetidas19 vezes. Lookup/forwarding originais conferidos para228; campo+1 de23
+bytes incluiNUL, grupo+0 e parâmetros+24..35 preservados. Texturas0x34360/0xCCE0
+têm10/3 rótulos observados; falta vincular recortes/uso antes de editar.
+Preservar MAIN/SUB/SE. S_PACK nó0x35000 entrada3 em0x7E720 contém25 destinos,
+nomes em campo32 seguidos de flags/escritas/caudas variáveis; ponteiros originais
+conferidos, consumidores completos pendentes. Cidades permanecem protegidas,
+inclusive Junkyard; não reempacotar como pool simples.
+
+Nomes de motores em S_PACK0x320F0 (10×124, 26 campos não vazios) são protegidos;
+consumidor não comprovado. Cauda0xF5260..0xF5800 contém cópia de registro de
+batalha, mas inatividade não comprovada: não tratar como texto ativo nem folga.
+TITLE tem apenas um slot5 em0x32A31E; transições internas estudadas não provam
+destino externo. Os49 rótulos restantes são todosmsgn, déficit mínimo1..4bytes,
+sem separador adicional. Oito nativos idênticos continuam sem interpretação
+aprovada;19N$3 já estão decididos como nomes preservados.
+
+Dos25 nomes de itens pendentes,20 propostas caberiam fisicamente em23bytes+NUL,
+mas o teto16 observado continua no compilador até prova de todos os consumidores;
+uma exigeÓ e quatro exigem revisão terminológica. Perfil atual tem18 códigos;
+faltamÀ/Â/Ê/Í/Ó/Ô/Ú/Ü. Quatorze pares vazios comuns às duas GFI são candidatos,
+não códigos liberados. Auditar uso/cache/dois caminhos de layout/métricas antes
+de extensão; preservar os18 existentes e ASCII. Nenhuma fonte alterada.
+34 testes distintos aprovados (19 novos e15 de preflight/retenção/alpha).
+Probes originais limitados não são execução PCSX2 nem validação visual.

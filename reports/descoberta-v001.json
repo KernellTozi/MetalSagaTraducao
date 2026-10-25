@@ -1,0 +1,1172 @@
+{
+  "schema": 1,
+  "scope": "Read-only consolidated remaining-catalogue discovery v001",
+  "recipe": "translations/interface-v037.json",
+  "recipe_sha256": "e58615a7f4b08f93b347bc33a21779971717558b995233b963b0a41a1108041b",
+  "baseline_iso": {
+    "path": "work/interface-v037/MetalSaga-ptbr-interface-v037.iso",
+    "size": 1704427520,
+    "sha256": "e7e65c661409946eb81b8e185c1c71478710cf1aa1538f74a04bd5fbd4c63789",
+    "verified": true
+  },
+  "map": {
+    "catalog_records": 7231,
+    "translated_records": 6024,
+    "body_or_choice_changed_records": 5983,
+    "technical_deferrals": 27,
+    "protected_tank_names_still_noneditable": 19,
+    "native_pending_context": 8,
+    "other_controls_pending": 0,
+    "editorial_review_records": 129,
+    "name_expression_candidates": 456,
+    "punctuation_control_candidates": 595,
+    "native_groups": [
+      {
+        "record_ids": [
+          "map.msg.040ef0ec",
+          "map.msg.1033e304",
+          "map.msg.1df7ec14",
+          "map.msg.1df7ed3c",
+          "map.msg.1df7ee6c",
+          "map.msg.1df88cd4",
+          "map.msg.1df88d9c",
+          "map.msg.1df88e6c"
+        ],
+        "records": 8,
+        "source_segment_sha256": [
+          "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d"
+        ],
+        "decision": "Source repeated verbatim; runtime/context unresolved, not translated or declared debug"
+      }
+    ],
+    "automatic_edit_approval": false,
+    "pcsx2_executed": false,
+    "remaining_reviewed_labels": 49,
+    "label_sources": {
+      "Worker": 20,
+      "Man": 17,
+      "Transporter": 8,
+      "Cat": 1,
+      "Maintenance Man": 1,
+      "Guy": 1,
+      "Dog": 1
+    },
+    "label_deficit_distribution": {
+      "1": 22,
+      "2": 19,
+      "4": 5,
+      "3": 3
+    },
+    "editorial_review_by_family": {
+      "supr": 2,
+      "msg": 68,
+      "msgn": 59
+    },
+    "editorial_entries_with_asterisk_expressions": 32,
+    "unchanged_label_sources": 53,
+    "unchanged_label_references": 615
+  },
+  "menu_catalogue": {
+    "elf_catalog_rows": 4299,
+    "elf_statuses": {
+      "technical-candidate": 2271,
+      "outside-current-selection": 937,
+      "format-or-data-only": 183,
+      "translated": 382,
+      "named-content-review": 23,
+      "short-fragment-review": 451,
+      "restored-original": 3,
+      "review-reference": 16,
+      "blocked-reference": 23,
+      "protected-term": 10
+    },
+    "spack_pointer_ids": 378,
+    "spack_unique_strings": 317,
+    "spack_alias_references": 61,
+    "spack_unique_payload_bytes": 6348,
+    "spack_unclaimed_bytes": 11,
+    "spack_repertoires": {
+      "ascii-bytes": 315,
+      "native-bytes-unmapped": 2
+    },
+    "spack_statuses": {
+      "translated-in-recipe-pending-visual": 279,
+      "preserved-in-recipe": 38
+    },
+    "spack_control_parse_issues": 0,
+    "additional_multiline_literals": 1,
+    "satcom_fields": 203,
+    "satcom_statuses": {
+      "preserved-in-recipe": 84,
+      "translated-in-recipe-pending-visual": 119
+    },
+    "item_descriptions": 567,
+    "item_statuses": {
+      "translated-in-recipe-pending-visual": 566,
+      "preserved-reviewed-marker": 1
+    },
+    "item_pending_constraints": {},
+    "item_pending_constraint_groups": {},
+    "item_name_records": 1349,
+    "item_name_statuses": {
+      "empty-name": 308,
+      "protected-name-category": 476,
+      "translated-in-recipe-pending-visual": 516,
+      "deferred-name": 25,
+      "reviewed-preserved-name": 24
+    },
+    "unique_translated_item_labels": 500,
+    "item_name_pending_current_issues": {
+      "Unsupported project glyph U+00D3": 1,
+      "Item name original slot/control budget exceeded": 20,
+      "Termo/nome protegido ausente: Repair Kit": 1,
+      "Termo/nome protegido ausente: Fang": 2,
+      "Termo/nome protegido ausente: Bus Stop Sign": 1
+    },
+    "installer_fields": 17,
+    "battle_fields": 1489,
+    "battle_translated": {
+      "action": 679,
+      "hint": 248,
+      "enemy_name": 72
+    },
+    "interaction_fields": 317,
+    "interaction_translated": {
+      "reaction": 149,
+      "bar": 150
+    },
+    "password_graphic_fields": 3,
+    "name_finish_graphic_fields": 2,
+    "character_title_fields": 73,
+    "character_title_unique": 78,
+    "character_title_preserved": 5,
+    "name_legend_pending": [
+      "TITLE"
+    ]
+  },
+  "elf": {
+    "classes": {
+      "technical-or-symbol-review": 2615,
+      "text-context-review": 636,
+      "short-or-format-review": 192,
+      "within-authored-patch": 383,
+      "address-like-data-review": 460,
+      "already-accounted-for": 13
+    },
+    "catalogue_rows": 4299,
+    "uncovered_direct_formatter_candidates": 0,
+    "limits": "Nearby calls are bounded address evidence, not a full use/visibility proof. Address-like bytes are not rejected as false positives automatically."
+  },
+  "items": {
+    "pending_names": 25,
+    "blockers_nonexclusive": {
+      "unmapped-glyph": 1,
+      "exceeds-observed-16-byte-ceiling": 20,
+      "terminology-or-name-review": 4
+    },
+    "record_count": 1349,
+    "record_stride": 128,
+    "table_offset": 2080,
+    "name_field_bytes": 24,
+    "description_pointer_at": 24,
+    "original_maximum_bytes": 16,
+    "original_maximum_witnesses": [
+      954
+    ],
+    "all_name_tails_zero_through_23": true,
+    "proposals_above_16_but_within_23": 20,
+    "limits": "A 24-byte field and zero tail do not prove every consumer accepts 23 bytes; current compiler ceiling remains 16. No growth or new glyph authorized."
+  },
+  "title": {
+    "resource": "SLUS_212.93",
+    "legend_offsets": [
+      3318544,
+      3318600,
+      3318656
+    ],
+    "title_slots": [
+      {
+        "offset": 3318558,
+        "capacity": 5
+      }
+    ],
+    "instruction_windows": [
+      {
+        "offset": 1096236,
+        "size": 40,
+        "sha256": "12a058e1b691021bf5500861ac6b48d24a64883e443ff87989e6a07659c0e0ec"
+      },
+      {
+        "offset": 1095632,
+        "size": 12,
+        "sha256": "d88aaa52104fa210d532264271669e7c0811c2c5ace0b1e1c6f245aad4a9e4bd"
+      },
+      {
+        "offset": 1097672,
+        "size": 16,
+        "sha256": "3806970c0fedc1c7c3a6a1b065e37f7e7d264c75ee8bdd95acee3077792a8591"
+      },
+      {
+        "offset": 1094160,
+        "size": 56,
+        "sha256": "7356376f30b6ee17d936447c0bc0abd73d622e70ef27f20f983e20aa787e5321"
+      }
+    ],
+    "state_table_offset": 3319104,
+    "state_table_targets_va": [
+      2147856,
+      2147872,
+      2147888,
+      2147904,
+      2147920
+    ],
+    "request_cases": [
+      {
+        "title_mode": 0,
+        "flags": 0,
+        "stop_offset": 1096340,
+        "requested_state": null
+      },
+      {
+        "title_mode": 0,
+        "flags": 2,
+        "stop_offset": 1095632,
+        "requested_state": 4
+      },
+      {
+        "title_mode": 1,
+        "flags": 0,
+        "stop_offset": 1095632,
+        "requested_state": 4
+      },
+      {
+        "title_mode": 1,
+        "flags": 2,
+        "stop_offset": 1095632,
+        "requested_state": 4
+      }
+    ],
+    "completion_cases": [
+      {
+        "field_9e": 0,
+        "return_value": 1
+      },
+      {
+        "field_9e": 1,
+        "return_value": 0
+      }
+    ],
+    "title_initialization_cases": [
+      {
+        "flags": 0,
+        "index": 0,
+        "title_mode": 0
+      },
+      {
+        "flags": 0,
+        "index": 1,
+        "title_mode": 0
+      },
+      {
+        "flags": 1,
+        "index": 0,
+        "title_mode": 1
+      },
+      {
+        "flags": 1,
+        "index": 1,
+        "title_mode": 0
+      },
+      {
+        "flags": 2,
+        "index": 0,
+        "title_mode": 0
+      },
+      {
+        "flags": 2,
+        "index": 1,
+        "title_mode": 0
+      },
+      {
+        "flags": 3,
+        "index": 0,
+        "title_mode": 0
+      },
+      {
+        "flags": 3,
+        "index": 1,
+        "title_mode": 0
+      }
+    ],
+    "config_call_sites": [
+      1538056,
+      1865416,
+      1966096,
+      1985784
+    ],
+    "observed": "Input requests state 4; setter writes +0x84=4/+0x88=0; state 4 dispatches to 0x10BF18; bounded terminal branch returns boolean",
+    "terminal_lh_simulated_by_harness": true,
+    "pending": "External owner/destination still requires proof; return-to-title meaning not approved",
+    "editing_authorized": false,
+    "pcsx2_executed": false
+  },
+  "resources": [
+    {
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "size": 4108,
+      "sha256": "91b9dd5ba84d47496d81bf2b5c9c20e758d395a770c01eeb8b6634e48ee4adf3",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/ADATA/ATTLTEX.SDA",
+      "size": 526400,
+      "sha256": "6d1a604833960eaf9e3b20374643c349c837e14a1b48e20843fad6bf94be89bc",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/COMMON/EFMOT.SDA",
+      "size": 3616,
+      "sha256": "b68773b0622690c6c57f4dff1df472745500495a3ae54a4b53d7da88492a51e8",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/COMMON/NCOMLI.SDA",
+      "size": 26624,
+      "sha256": "5c95294b2538f85f281df34cef195d3be4b2ea2ac80c1e290f2b18c9eda7ffc0",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/COMMON/VIB.SDA",
+      "size": 1424,
+      "sha256": "a9e51841bffbb21ba33e98b01d8f08db547ba236af5c4957d29cfc992c705000",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "size": 11252,
+      "sha256": "9dcd179dc289aa558d5046884cfcb603925f7f605d7c5a871cf75939d785b86b",
+      "phrase_scan": true,
+      "phrase_candidates": 114
+    },
+    {
+      "resource": "DATA/FDATA/F_COMMON.SDA",
+      "size": 171936,
+      "sha256": "4b2762a8444c8d609cfeed96c3854d45c04f18a68187a769a9f29cf84680973f",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "size": 41460992,
+      "sha256": "7d7e3665e52cdb9c6f3543508d52b152f6810cc0f756d3ab04bd77a35b2aa4d7",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "size": 821280,
+      "sha256": "c5024c37d4a69492ce893e659b351a65817dd099928d4d8d8ebd73935e511cb7",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "size": 366224,
+      "sha256": "5b53111e7e3ee309f813c6cf3284277774f3c5d0aa2b0d6b53b39fed4884c470",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/FD_END.SDA",
+      "size": 206848,
+      "sha256": "042ef8803c1832063d45bf90f1c163c559ad716cfb134007e08cc59d0e06459b",
+      "phrase_scan": true,
+      "phrase_candidates": 1
+    },
+    {
+      "resource": "DATA/FDATA/FD_POST.SDA",
+      "size": 1011344,
+      "sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb",
+      "phrase_scan": true,
+      "phrase_candidates": 1
+    },
+    {
+      "resource": "DATA/FDATA/FNAME_DT.SDA",
+      "size": 558272,
+      "sha256": "2b009179ceaa08f0f048997abb606da354773ec9a0f8802a27a30741de667d24",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/FNP_VIEW.SDA",
+      "size": 133376,
+      "sha256": "07092f4b75f88d9c2470d5aa6bc6472b3a8e6824965fa6036bf8c4f4ac87ee81",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/FDATA/PASSWORD.SDA",
+      "size": 466624,
+      "sha256": "e519149acbcd1ed75f188cd3559e02fd4c47bfec211b04852a37b763a5e83e11",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/BTITEM.DAT",
+      "size": 43328,
+      "sha256": "81189d54f86692c7d2b46ee90d11db4118c67338859e8800923e13e609010534",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/CAPSULE.SDA",
+      "size": 142688,
+      "sha256": "b5b25ec3144cc71228ce9ba6cd0bf86260364877c685153ce55e41d961f9372b",
+      "phrase_scan": true,
+      "phrase_candidates": 1
+    },
+    {
+      "resource": "DATA/MAP/FM.SDA",
+      "size": 862208,
+      "sha256": "ef5d4426210d8b9932ad4bacde1e7d53d0ea1bf96f231568bb78671fed7b8612",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/HMAPAC.SDA",
+      "size": 129792,
+      "sha256": "c7236213c9e848514e3336bdf9d54b8813e6fde143efcaae4add7ea5d79fd59d",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/HSKYD.SDA",
+      "size": 504656,
+      "sha256": "2fb807e8c52d768d37421cd8afc8d2614bde20293656d4a4dfda6d568ed07360",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/HWEAPON.DAT",
+      "size": 3248128,
+      "sha256": "2a3e01cc44951e8693cd94270fb278533e7869c7cc468f673a15cf4e98d05ea9",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/INTERIOR.SDA",
+      "size": 2307280,
+      "sha256": "6eddba11069bc095f4183afe6eb35c219c7e735aeb79f2b8418846b2ff96dc25",
+      "phrase_scan": true,
+      "phrase_candidates": 1
+    },
+    {
+      "resource": "DATA/MAP/MAP.MCT",
+      "size": 730998784,
+      "sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/MAP_PT.PTD",
+      "size": 219456,
+      "sha256": "93e675e20066006ffa39d2edaee43c1e39f8cf212b7c88e6672cbbbbe00da9e7",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/PLIST.DAT",
+      "size": 5189632,
+      "sha256": "ca5bf48bda43b39ea345f85c473bd2da7510f7e27ff97f020239c2b03e3f13f7",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MAP/SHIP.SDA",
+      "size": 158752,
+      "sha256": "ce843837b2e2eaac0a8766b9ba0843d265d3790b31745f08c4571ca83a0e242b",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MMBATTLE/CAMERA.DAT",
+      "size": 19072,
+      "sha256": "8acfcf6ed1eab5d7aa7e8d6710543629134ecb07ce94c1514faab670f5a62dc9",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/MMBATTLE/MMBATTLE.BIN",
+      "size": 321731584,
+      "sha256": "1ee18ce5d9cfb4c2de9fe5b03f2b4bf398b203f5184f43920bd7f54bf0fe1d10",
+      "phrase_scan": true,
+      "phrase_candidates": 23
+    },
+    {
+      "resource": "DATA/MMBATTLE/MMEFFECT.BIN",
+      "size": 1888256,
+      "sha256": "3c55ac6e695ec82f92c3fff12842cf68f5ccfb1abaec324b891cf547be898a14",
+      "phrase_scan": true,
+      "phrase_candidates": 3
+    },
+    {
+      "resource": "DATA/MOVIE/DEMO.STM",
+      "size": 95670704,
+      "sha256": "c9bc03b0a0244b9169c4a1a664e69340e7d1e944cf0dea1e09783163035ee4b2",
+      "phrase_scan": true,
+      "phrase_candidates": 3
+    },
+    {
+      "resource": "DATA/NDATA/LISD.BIN",
+      "size": 139,
+      "sha256": "007ddeef81b14831db37c317c8b9e99b68c443006ac6fa0c662f7eacc14474b8",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/NDATA/LISF.BIN",
+      "size": 1160,
+      "sha256": "64c69709dd75ca2fbc42cf397d76b3f3e828ad7caf44d0042f999da95e1520c5",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "size": 20957184,
+      "sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "phrase_scan": true,
+      "phrase_candidates": 3
+    },
+    {
+      "resource": "DATA/RDATA/RLOADING.SDA",
+      "size": 6464,
+      "sha256": "dacbc7aaa7f0634a3625c7d4333ef25fa8ba6d61435a9a9046dc80faa6b3452f",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "size": 3727888,
+      "sha256": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "size": 2286976,
+      "sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "size": 522336,
+      "sha256": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "size": 2106944,
+      "sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "phrase_scan": true,
+      "phrase_candidates": 2
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "size": 1799648,
+      "sha256": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "size": 66720,
+      "sha256": "babf57aaa27d183bb179c4eb4c61402422f2b9c5e8ef866376564658cefd34c9",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/S/BBOOT.DAT",
+      "size": 1424,
+      "sha256": "39dd9a1c1696f4c1aa277766e7b88787e39f81ec938c0409bf7cbceaa323da3f",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/S/S_DICT.SDA",
+      "size": 48240640,
+      "sha256": "27764341efef1e64634d7f98bdd94492837e2d31f42d2dcdd2fc4e53672b469a",
+      "phrase_scan": true,
+      "phrase_candidates": 40
+    },
+    {
+      "resource": "DATA/S/S_EMOT.SDA",
+      "size": 649216,
+      "sha256": "f7e5851b7dbb08edcbd249f260d153e5695444a6016e5a96f505788929a20548",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/S/S_PACK.SDA",
+      "size": 1179648,
+      "sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+      "phrase_scan": true,
+      "phrase_candidates": 2564
+    },
+    {
+      "resource": "DATA/S/S_PAINT.SDA",
+      "size": 723776,
+      "sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+      "phrase_scan": true,
+      "phrase_candidates": 76
+    },
+    {
+      "resource": "DATA/S/S_PSMP.SDA",
+      "size": 10936320,
+      "sha256": "8c35579c5e3ebdd6d3002f0291e4b2fb85253db0b7916e3238a65d0d2f3b5951",
+      "phrase_scan": true,
+      "phrase_candidates": 4
+    },
+    {
+      "resource": "DATA/S/S_SHOPBG.SDA",
+      "size": 143440,
+      "sha256": "3a49639a372e429e7c1fb2b0a25222566b716c4509b438d1eff4ff811d1fd68a",
+      "phrase_scan": true,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/SOUND/BGM.SDA",
+      "size": 358459392,
+      "sha256": "88909844c5043728e51cc16d5ab992aae2be55b7b268d9e50952f6a976cb71db",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/SOUND/MMSE.SDA",
+      "size": 16143232,
+      "sha256": "b27d3bc2f81f9365b4beb05b260177d6e3fd65d0431cc1df7d11cde042ee6725",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/SYS/SUC20I22.GFI",
+      "size": 874126,
+      "sha256": "5108d271e583bc0e92a2577d4c001b160c0fcfcd0c480dc373594880190ec17c",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/SYS/SUC24I26.GFI",
+      "size": 1220590,
+      "sha256": "7b47940643d8022ec7b48660559cb0df874366638b1ba09687f22cb71294c345",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "DATA/TANK/TANK.DAT",
+      "size": 20899584,
+      "sha256": "4528620f1db5f95ef5aa31a55cf0d56b1c43183ca59a31997551af05d95eeae0",
+      "phrase_scan": true,
+      "phrase_candidates": 2
+    },
+    {
+      "resource": "MODULE/ATAD.IRX",
+      "size": 12085,
+      "sha256": "25dfca853ee6208b64133dd4e8b03dde9ad5511d544d4944931ebf8f1353a8fc",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "MODULE/DEV9.IRX",
+      "size": 14309,
+      "sha256": "f09e542bf8e5fe6eca07ffad170029001246ed0bf838de4a427f414debeb3073",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "MODULE/IOPRP300.IMG",
+      "size": 278305,
+      "sha256": "8e11fc76bbdd5770a47a56549d861c0caebc9f9190a1cf936990dcff9e5a86c5",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "MODULE/USBMOUSE.IRX",
+      "size": 7720,
+      "sha256": "8a7a1053c54aa4149b284f215f87f6c25e05e530569222cf6ae29c64bbf623f9",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "SLUS_212.93",
+      "size": 3487572,
+      "sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    },
+    {
+      "resource": "SYSTEM.CNF",
+      "size": 80,
+      "sha256": "a95a7b5e5ce69115f661ea2e47fc078b2c2336c15ba8d0c40f4381657a650e88",
+      "phrase_scan": false,
+      "phrase_candidates": 0
+    }
+  ],
+  "atlases": [
+    {
+      "resource": "DATA/FDATA/F_COMMON.SDA",
+      "entries": 10,
+      "kinds": {
+        "texture": 9,
+        "ganm": 1
+      },
+      "textures_without_recipe_patch": 9,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "entries": 140,
+      "kinds": {
+        "unknown": 140
+      },
+      "textures_without_recipe_patch": 0,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "entries": 15,
+      "kinds": {
+        "unknown": 15
+      },
+      "textures_without_recipe_patch": 0,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/FBS_DATA.SDA",
+      "entries": 10,
+      "kinds": {
+        "texture": 5,
+        "ganm": 5
+      },
+      "textures_without_recipe_patch": 2,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/FD_END.SDA",
+      "entries": 3,
+      "kinds": {
+        "unknown": 3
+      },
+      "textures_without_recipe_patch": 0,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/FD_POST.SDA",
+      "entries": 49,
+      "kinds": {
+        "texture": 47,
+        "ganm": 2
+      },
+      "textures_without_recipe_patch": 47,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/FNAME_DT.SDA",
+      "entries": 9,
+      "kinds": {
+        "texture": 5,
+        "ganm": 2,
+        "unknown": 2
+      },
+      "textures_without_recipe_patch": 4,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/FNP_VIEW.SDA",
+      "entries": 4,
+      "kinds": {
+        "texture": 2,
+        "ganm": 2
+      },
+      "textures_without_recipe_patch": 2,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/FDATA/PASSWORD.SDA",
+      "entries": 14,
+      "kinds": {
+        "texture": 7,
+        "ganm": 7
+      },
+      "textures_without_recipe_patch": 6,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RLOADING.SDA",
+      "entries": 4,
+      "kinds": {
+        "texture": 2,
+        "ganm": 2
+      },
+      "textures_without_recipe_patch": 2,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "entries": 58,
+      "kinds": {
+        "unknown": 54,
+        "texture": 2,
+        "ganm": 2
+      },
+      "textures_without_recipe_patch": 2,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "entries": 37,
+      "kinds": {
+        "texture": 4,
+        "ganm": 4,
+        "unknown": 29
+      },
+      "textures_without_recipe_patch": 4,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "entries": 19,
+      "kinds": {
+        "texture": 2,
+        "ganm": 2,
+        "unknown": 15
+      },
+      "textures_without_recipe_patch": 2,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entries": 43,
+      "kinds": {
+        "texture": 20,
+        "ganm": 7,
+        "unknown": 16
+      },
+      "textures_without_recipe_patch": 20,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "entries": 44,
+      "kinds": {
+        "texture": 2,
+        "ganm": 2,
+        "unknown": 40
+      },
+      "textures_without_recipe_patch": 2,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "entries": 2,
+      "kinds": {
+        "texture": 1,
+        "ganm": 1
+      },
+      "textures_without_recipe_patch": 0,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    },
+    {
+      "resource": "DATA/S/S_PAINT.SDA",
+      "entries": 76,
+      "kinds": {
+        "texture": 11,
+        "ganm": 13,
+        "unknown": 51,
+        "sda": 1
+      },
+      "textures_without_recipe_patch": 11,
+      "limits": "Recognized texture/GANM structures only; patch intersection does not prove every word translated; absence does not prove text exists"
+    }
+  ],
+  "phrase_candidates": 2838,
+  "phrase_catalogue_relations": {
+    "known-diary-resource": 114,
+    "compressed-credits-bytes": 1,
+    "recognized-raster-bytes": 3,
+    "unresolved-binary-or-text-shape": 73,
+    "unresolved-sentence-case-shape": 7,
+    "known-item-name-field": 622,
+    "known-description-field": 532,
+    "engine-variant-region-preserve-review": 17,
+    "known-interaction_fields": 255,
+    "known-ui-table-field": 179,
+    "known-battle-field-or-adjacent-bytes": 796,
+    "new-location-record-table": 15,
+    "known-satcom_records": 142,
+    "opaque-child-container-tail-review": 6,
+    "new-paint-caption-table": 76
+  },
+  "credits_discovery": {
+    "resource": "DATA/FDATA/FD_END.SDA",
+    "source_sha256": "042ef8803c1832063d45bf90f1c163c559ad716cfb134007e08cc59d0e06459b",
+    "entry": 0,
+    "slot_offset": 2048,
+    "slot_size": 4096,
+    "compressed_bytes_consumed": 2351,
+    "original_zero_tail_bytes": 1745,
+    "decoded_size": 4222,
+    "decoded_sha256": "53a2c807ae676a11fedeb143000d737e284da43e22ad11a55f774a8a87f2286a",
+    "declared_lines": 292,
+    "crlf_lines": 292,
+    "nonempty_lines": 209,
+    "non_ascii_line_count": 57,
+    "non_ascii_byte_values": [
+      "81",
+      "9f",
+      "a1"
+    ],
+    "dictionary_size": 1024,
+    "initial_dictionary_position": 1006,
+    "dictionary_initialization": "zero",
+    "literal_flag": "LSB first, 1=literal",
+    "backref": "low byte + high nibble <<4, dictionary index wraps &1023, length low nibble+3",
+    "original_decoder_loop_executed": true,
+    "original_decoder_steps": 60933,
+    "token_replay_roundtrip": true,
+    "instruction_windows": [
+      {
+        "offset": 1282164,
+        "size": 140,
+        "sha256": "cb1b0c3c88b18261b9d60788afaf268f499843c51e94f0ae74eb27b4dfbe30b8"
+      },
+      {
+        "offset": 1685240,
+        "size": 60,
+        "sha256": "cf57e8580fffdf397559e77806db75093530196f2a94957f105541de1758dbe1"
+      },
+      {
+        "offset": 1685376,
+        "size": 400,
+        "sha256": "0b47bf3f8a8950eed72cd209a21da887cbe0f29672aad8fdd2379e12df1471da"
+      }
+    ],
+    "consumer": "FD_END entry 0 -> 0x19B6F8 allocation wrapper -> 0x19B780 decoder; 0x1390E0 reads first decoded u32 as row count",
+    "editing_authorized": false,
+    "recompressor_implemented": false,
+    "pcsx2_executed": false,
+    "pending": [
+      "Prove credits row renderer/control bytes before editing",
+      "Implement tested same-slot recompressor",
+      "Preserve staff names, row count, layout and unknown bytes"
+    ],
+    "limits": "Only original post-memset decoder loop executed; dictionary initialized by harness, allocator/prologue/renderer/PS2 not executed. Token replay is not reinsertion of edited text."
+  },
+  "paint_discovery": {
+    "resource": "DATA/S/S_PAINT.SDA",
+    "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+    "sda_entry": 22,
+    "table_offset": 714400,
+    "table_size": 8208,
+    "records": 228,
+    "record_stride": 36,
+    "group_values": 19,
+    "records_per_group": 12,
+    "unique_captions": 12,
+    "name_field_relative_offset": 1,
+    "name_field_bytes": 23,
+    "maximum_original_caption_bytes": 10,
+    "color_data_relative_offset": 24,
+    "color_data_bytes": 12,
+    "original_table_pointer_and_name_forwarding_executed": true,
+    "name_forwarding_cases": 228,
+    "instruction_windows": [
+      {
+        "offset": 1958192,
+        "size": 48,
+        "sha256": "d6a78357483a0dc3c7fc7b314a155a1501354b12ad827f5c178e2af016f94a37"
+      },
+      {
+        "offset": 1965592,
+        "size": 32,
+        "sha256": "33693eb8804c7fb183b4a5564b7b9c76ad7721bd1fa618336fef2b346ff91fdc"
+      },
+      {
+        "offset": 1965668,
+        "size": 56,
+        "sha256": "68eaa107c936670fdfa550e79068a0cf4647bc5deed8bf39545b374648467fd7"
+      },
+      {
+        "offset": 1965824,
+        "size": 108,
+        "sha256": "5094cfc454ec83abce69da568b467f351f5a4183935a89fd0a49dc1d92d66c2f"
+      }
+    ],
+    "editing_authorized": false,
+    "pcsx2_executed": false,
+    "pending": [
+      "Prove text consumer width/capacity before allowing field growth",
+      "Preserve group byte, 12 color bytes and every alias",
+      "Map raster paint labels separately"
+    ],
+    "limits": "Table address/name argument snippets executed in synthetic RAM; full category filter, constructor, glyph draw and PS2 not executed. Group identity not canonically established."
+  },
+  "engine_variant_discovery": {
+    "resource": "DATA/S/S_PACK.SDA",
+    "offset": 205040,
+    "slot_size": 1248,
+    "record_stride": 124,
+    "records": 10,
+    "name_fields": 50,
+    "nonempty_names": 26,
+    "item_ids": [
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308
+    ],
+    "opaque_tail_bytes": 8,
+    "consumer_proven": false,
+    "editing_authorized": false,
+    "decision": "Preserve engine names per user; structural extraction does not establish every consumer"
+  },
+  "font_discovery": {
+    "current_project_mapping_count": 18,
+    "unmapped_ptbr_codepoints": [
+      "U+00C0",
+      "U+00C2",
+      "U+00CA",
+      "U+00CD",
+      "U+00D3",
+      "U+00D4",
+      "U+00DA",
+      "U+00DC"
+    ],
+    "common_blank_unassigned_pairs": [
+      "825c",
+      "825d",
+      "825e",
+      "825f",
+      "827a",
+      "827b",
+      "827c",
+      "827d",
+      "827e",
+      "8280",
+      "829b",
+      "829c",
+      "829d",
+      "829e"
+    ],
+    "fonts": [
+      {
+        "resource": "DATA/SYS/SUC20I22.GFI",
+        "source_sha256": "5108d271e583bc0e92a2577d4c001b160c0fcfcd0c480dc373594880190ec17c",
+        "cell_side": 22,
+        "unassigned_blank_pairs": 14
+      },
+      {
+        "resource": "DATA/SYS/SUC24I26.GFI",
+        "source_sha256": "7b47940643d8022ec7b48660559cb0df874366638b1ba09687f22cb71294c345",
+        "cell_side": 26,
+        "unassigned_blank_pairs": 14
+      }
+    ],
+    "editing_authorized": false,
+    "font_or_codec_changed": false,
+    "pending": "Blank cells are storage candidates only; audit usage and extend codec, cache, both layout paths, metrics and regression profiles together; preserve accepted 18 mappings and ASCII banks"
+  },
+  "location_discovery": {
+    "resource": "DATA/S/S_PACK.SDA",
+    "sda_node_offset": 217088,
+    "sda_entry": 3,
+    "offset": 517920,
+    "size": 1600,
+    "records": 25,
+    "unique_names": 25,
+    "name_field_bytes": 32,
+    "maximum_original_name_bytes": 14,
+    "original_pointer_cases": 25,
+    "original_pointer_lookup_executed": true,
+    "global_pointer_va": 4676392,
+    "instruction_windows": [
+      {
+        "offset": 446064,
+        "size": 16,
+        "sha256": "96456c6bffcebbe0bd2a61845affbe36d226e8c6487559caca810cd9c4151bf3"
+      },
+      {
+        "offset": 1176412,
+        "size": 40,
+        "sha256": "8d3bdbddc8a8a8e93b475152e2d3fee9defcec9c75249741dd0169fe8c50acc3"
+      }
+    ],
+    "editing_authorized": false,
+    "pending": "Review generic destinations versus protected cities; pin name consumers and preserve flags/coordinates/variable record tails. Do not repack as a plain string pool.",
+    "limits": "Original pointer selection executed; complete menu, unlock flags, writes, formatting and PS2 not executed"
+  },
+  "opaque_tail_discovery": {
+    "resource": "DATA/S/S_PACK.SDA",
+    "child_offset": 737280,
+    "declared_end": 1004128,
+    "slot_end": 1005568,
+    "tail_size": 1440,
+    "nonzero_bytes_in_tail": 432,
+    "matching_known_enemy_record": {
+      "tail_offset": 1004152,
+      "known_offset": 483960,
+      "record_size": 276,
+      "byte_identical": true
+    },
+    "editing_authorized": false,
+    "status": "Text outside child declared size; copied battle bytes observed; read extent/consumers unresolved. Do not promote English remnants as live untranslated dialogue."
+  },
+  "atlas_visual_review": [
+    {
+      "resource": "DATA/S/S_PAINT.SDA",
+      "texture_offset": 213856,
+      "observation": "Latin menu labels visible in decoded atlas",
+      "observed_labels": 10,
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/S/S_PAINT.SDA",
+      "texture_offset": 52448,
+      "observation": "Three component captions visible in decoded atlas; tank category preservation applies",
+      "observed_labels": 3,
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/FNP_VIEW.SDA",
+      "texture_offset": 32,
+      "observation": "Frame/background elements; no readable words observed in this preview",
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/FNP_VIEW.SDA",
+      "texture_offset": 66608,
+      "observation": "Frame/background elements; no readable words observed in this preview",
+      "editing_authorized": false
+    }
+  ],
+  "phrase_candidates_outside_recipe_patches": 687,
+  "source_files_verified": 58,
+  "recipes_verified_unchanged": 84,
+  "originals_modified": false,
+  "translation_created": false,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "completeness": "Known catalogues plus bounded ASCII/recognized-atlas discovery; no complete-game coverage or edit approval"
+}

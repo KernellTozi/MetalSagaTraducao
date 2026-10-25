@@ -1,5 +1,18 @@
 # Plano para concluir a tradução
 
+**Prioridade atual — descoberta consolidada, 25/10/2026:** por orientação do
+usuário, investigar o restante antes de outro lote de tradução. Mapa e ordem
+de preparação em [Descoberta v001](descoberta-v001.md), metadados em
+`reports/descoberta-v001.json` e catálogo local substituível em
+`work/descoberta-catalogo.json`. Novos conjuntos localizados: créditos LZSS,
+legendas/botões de pintura e tabela de destinos. Nomes protegidos, candidatos
+binários e estruturas ainda sem consumidor completo ficam separados; não contar
+tudo como texto faltante. Preparar mecanismos e triagem gráfica em conjunto,
+depois traduzir um lote amplo consolidado. A base jogável permanece interface/MAP
+v037: 6.024 registros alterados, 5.983 corpos/opções e 912 referências de rótulos
+traduzidas. Não houve tradução, fonte ou ISO nova nesta fase. Atualizações abaixo
+são históricas.
+
 **Atualização diálogos v033:** [controles restantes, texto nativo e auditoria](dialogos-v033.md). Foco do usuário voltou aos diálogos pendentes. Recuperados 14 registros; total 5.983 traduções/27 adiamentos (19 N$3 preservados e oito textos nativos repetidos). Outros oito controles foram reconhecidos com preservação exata das peculiaridades de origem; %NO e preços com % não foram reparados. Todos os 5.969 patches anteriores e interface/fontes/arte preservados. Auditor local agora consolida um JSON e mapeia 134 rótulos de falantes/1.527 referências, sem liberá-los. Varredura de 54.125 comandos SSD fora dos parsers conhecidos encontrou zero candidatos pelo filtro ASCII, sem comprovar completude do MAP. Próximos alvos: consumidor dos rótulos genéricos, contexto dos oito nativos e revisão editorial/visual. A instrução de desligar da rodada anterior foi atendida e não se repete automaticamente.
 
 **Atualização v032:** [títulos do personagem e recompensas](interface-v032.md). Rodada extensa de 75 campos: 73 títulos e duas mensagens de prêmio, com 3.526 campos acumulados. Cinco títulos preservados por decisão explícita; aliases mantidos e títulos compartilhados revisados para servir aos dois grupos. MAP v032 permanece em 5.969 traduções/41 adiamentos; nomes de itens 516/25 pendentes, descrições 566/925 referências, layout v005 e arte v014 intactos. O comando TITLE de nomeação é distinto dos títulos da ficha e continua pendente. Testes e delta integral no relatório v032. Usuário confere em partida normal. Desligamento solicitado nesta rodada somente após conclusão e envio ao GitHub; não se torna regra para outras rodadas.
