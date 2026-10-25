@@ -31,7 +31,7 @@ def tokenize(raw):
     return parts,any(p['kind']=='opaque-percent' for p in parts)
 
 
-def execute_lookup(data,index,selector):
+def execute_lookup(data,index,selector,*,literal=False):
     """Execute original T handler and both accessors against synthetic memory.
 
     Numeric-reader calls execute the original leaf via its existing probe.
@@ -40,7 +40,8 @@ def execute_lookup(data,index,selector):
     """
     verify(data)
     if not 0<=index<=100 or not 0<=selector<=100:raise ValueError('Probe bounds')
-    raw=b'T$0!\0';regs=[0]*32;regs[18]=0x1000;regs[21]=0x3000;regs[29]=0x2000
+    if literal and index!=0:raise ValueError('Only reviewed literal T0')
+    raw=b'T0!\0' if literal else b'T$0!\0';regs=[0]*32;regs[18]=0x1000;regs[21]=0x3000;regs[29]=0x2000
     memory={0x475570:0x100000,0x100000+index*0x240+0x228:0x200000,
             0x200000+0x6c:selector,0x363478+index*4:0x300000,
             0x300000+selector*4:0x400000}

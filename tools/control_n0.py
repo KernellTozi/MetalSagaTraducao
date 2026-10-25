@@ -27,7 +27,7 @@ def tokenize(raw):
     return parts,any(p['kind']=='opaque-percent' for p in parts)
 
 
-def execute_lookup(data,index):
+def execute_lookup(data,index,*,omitted=False):
     """Run original N handler and numeric reader against synthetic memory.
 
     File-offset PCs, original delay slots, synthetic pointer-table entry.
@@ -35,7 +35,8 @@ def execute_lookup(data,index):
     """
     verify(data)
     if not 0<=index<=65535:raise ValueError('Probe bounds, not proven runtime table bounds')
-    raw=b'N$0!\0';regs=[0]*32;regs[18]=0x1000;regs[21]=0x3000;regs[29]=0x2000
+    if omitted and index!=0:raise ValueError('Only reviewed omitted N argument')
+    raw=b'NO!\0' if omitted else b'N$0!\0';regs=[0]*32;regs[18]=0x1000;regs[21]=0x3000;regs[29]=0x2000
     memory={0x47558c+index*4:0x100000+index*16};reads=[];arguments=[];pc=START;pending=None
     for _ in range(50):
         if pc==0x1b5e88:

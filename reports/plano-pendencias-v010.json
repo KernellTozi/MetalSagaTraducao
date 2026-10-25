@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "source": "compiled text plan; read-only planning, not edit approval",
+  "plan_sha256": "290df3be326192103a79aeef65f2a51edb033dc7017aedc6bff08947d08c58bf",
+  "coverage": {
+    "modified": 5983,
+    "deferred": 27,
+    "controls_or_punctuation": 603,
+    "name_or_expression_candidate": 458,
+    "review_unchanged": 160
+  },
+  "opaque_records": 19,
+  "opaque_group_count": 1,
+  "disjoint_opaque_groups": [
+    {
+      "parser_spans": [
+        "%N$3"
+      ],
+      "records": 19,
+      "example_ids": [
+        "map.msgn.0be2befc",
+        "map.msgn.0be2bf40",
+        "map.msgn.0be2bf84"
+      ]
+    }
+  ],
+  "overlapping_syntax_counts": [
+    {
+      "syntax": "%N$3",
+      "records": 19,
+      "exclusive_records": 19
+    }
+  ],
+  "native_records": [
+    {
+      "id": "map.msg.040ef0ec",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1033e304",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ec14",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ed3c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ee6c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88cd4",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88d9c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88e6c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    }
+  ],
+  "review_records": 160,
+  "review_distinct_source_combinations": 114,
+  "editing_enabled": false,
+  "limitations": [
+    "Parser spans are not complete command grammar",
+    "Categories do not establish runtime semantics",
+    "Native bytes do not imply Portuguese glyph slots"
+  ]
+}

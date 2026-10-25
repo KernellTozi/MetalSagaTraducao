@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v032.json",
+  "name": "regiao-inicial-v033",
+  "status": "Diálogos pendentes: controles originais preservados e seis registros nativos revistos; visual pendente",
+  "reinsertion_policy": "fixed-record-reviewed-dialogue-quirks-v014",
+  "translations": {
+    "map.2smg.0be2c4e4": {
+      "body": "Bem-vindo à loja\nde mapas de Sodam Insein.\tQuer comprar\num mapa, sim?",
+      "choices": "Mapa do tesouro: %500 G\tMapa secreto: %5000 G\tMapa pirata: %8000 G\tPasso."
+    },
+    "map.2smg.0be2ca48": {
+      "body": "Vai fazer a gentileza\nde escolher outro?",
+      "choices": "Mapa do tesouro: %500 G\tMapa secreto: %5000 G\tMapa pirata: %8000 G\tPasso."
+    },
+    "map.smsg.0be2ccb4": {
+      "body": "Para dizer a verdade,\ntenho um mapa especial.\nMuito raro ele é!\tMas posso vendê-lo\npelo preço certo.",
+      "choices": "Mapa duvidoso: %1000 G\tPasso."
+    },
+    "map.msg.0a13ad4c": "Meu Deus!\n%NO, o que\nhouve com você?",
+    "map.msg.0b8fef6c": "Meu Deus!\n%NO, o que\nhouve com você?",
+    "map.msg.0e77a724": "Força! %M_1Muito obrigado\npelo seu tempo.\nSe cuide.",
+    "map.smsg.0e77a194": {
+      "body": "Ei, %M_4você! Quer\nvir treinar com\na gente?",
+      "choices": "Bora treinar!\tNão, Hanz.\tQuem diabos é você?"
+    },
+    "map.msgn.038df66c": "Fomos aniquilados por\n%N0, o\n%T0.\tInacreditável, né?\nComo um cara sozinho\nvenceu um exército?\tDeve ser um Hunter\nforte pra caramba!",
+    "map.msg.07b264e0": "La la la...\tHee hee hee!\nSou Syd!☆",
+    "map.msg.128226b4": "Fiu-fiu!",
+    "map.msg.128226fc": "Valeu!",
+    "map.msg.12822744": "Valeu a rodada!",
+    "map.msg.12822790": "Ei, que generoso!",
+    "map.msg.13709cc0": "。\n%M0_4Desculpe, só pessoal\nautorizado pode entrar\nna sala de máquinas."
+  },
+  "resume_deferred": [
+    "map.2smg.0be2c4e4", "map.2smg.0be2ca48", "map.smsg.0be2ccb4",
+    "map.msg.0a13ad4c", "map.msg.0b8fef6c", "map.msg.0e77a724", "map.smsg.0e77a194",
+    "map.msgn.038df66c", "map.msg.07b264e0", "map.msg.128226b4", "map.msg.128226fc",
+    "map.msg.12822744", "map.msg.12822790", "map.msg.13709cc0"
+  ]
+}
