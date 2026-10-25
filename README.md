@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v026**, sobre MAP v030 e fontes/layout v005. Acrescenta **1.298 campos**: 679 ações de batalha, 248 dicas de análise, 72 nomes genéricos de inimigos, 149 reações a itens e 150 textos de bares. Mantém os textos anteriores, os nomes próprios e as regras MAIN/SUB/SE. A tabela original de itens continua com **516 registros de nomes traduzidos** e **541 descrições**, usadas por 889 IDs. Nomes únicos, motores, LOVE machine, personagens e tanques continuam preservados; atributos, preços e IDs não mudam.
+**Interface v028**, sobre MAP v030 e fontes/layout v005. Conclui as descrições conhecidas: **566 de 567 traduzidas**, usadas por **925 itens**; somente o marcador `???` fica preservado. A reorganização permanece no pool original e atualiza apenas suas referências, sem mudar nomes ou atributos. Acrescenta também `Pelo` no status dos cães e o erro de leitura de pintura. Mantém integralmente os textos anteriores de batalha, bares e diálogos, os nomes próprios e as regras MAIN/SUB/SE. A tabela de nomes continua com **516 registros traduzidos** e 25 pendentes. Nomes únicos, motores, LOVE machine, personagens e tanques continuam preservados.
 
-São **3.419 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O pool conhecido de descrições mantém 95,41% dos 567 alvos traduzidos: 24 adiados por espaço, um por controle e um marcador original. O novo perfil de nomes permite no máximo os 16 bytes observados no original, usando somente o preenchimento zerado do próprio registro. Há validações visuais pendentes.
+São **3.446 campos/ocorrências de interface** acumulados e 5.892 registros de diálogo alterados. Isso não representa porcentagem de todo o jogo. O catálogo conhecido de descrições tem **99,82%** traduzido e nenhuma pendência de tradução além do marcador preservado; isso não comprova todos os recursos do jogo descobertos. O perfil de nomes mantém no máximo os 16 bytes observados no original. Há validações visuais pendentes.
 
-ISO: `work/interface-v026/MetalSaga-ptbr-interface-v026.iso`. Abra **Iniciar-Teste.cmd**, que agora confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
+ISO: `work/interface-v028/MetalSaga-ptbr-interface-v028.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/interface-v026.md)
+- [Lote atual e limites](docs/interface-v028.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

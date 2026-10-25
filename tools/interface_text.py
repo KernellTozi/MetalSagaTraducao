@@ -174,7 +174,8 @@ def compile_draft(data,draft):
         validate_review(draft['item_name_review'],draft['item_names'],name_catalog(original(NAME_RESOURCE)))
         added,item_name_report=compile_names(data,draft['item_names']);patches.extend(added)
         if draft.get('item_descriptions'):
-            item_report['names_and_item_records_unchanged_by_description_patches']=item_report.pop('names_and_item_records_unchanged')
+            if 'names_and_item_records_unchanged' in item_report:
+                item_report['names_and_item_records_unchanged_by_description_patches']=item_report.pop('names_and_item_records_unchanged')
             item_report['generic_names_modified_under_separate_policy']=True
     battle_report={'accepted':0}
     if draft.get('spack_battle'):
@@ -196,6 +197,12 @@ def compile_draft(data,draft):
         from battle_font_advance import elf_patch
         patches.append(elf_patch(data,draft['battle_spacing']))
     graphics_report={'accepted':0}
+    context_report=None
+    if draft.get('canine_status_context'):
+        from character_status_context import proof as context_proof
+        context_report=context_proof(data,draft['canine_status_context'])
+        target=next((e for e in draft['entries'] if e['id']=='elf.ui.0032b690'),None)
+        if not target or target['translation']!='Pelo: %4d':raise ValueError('Canine status evidence requires the reviewed Pelo label')
     if draft.get('graphics'):
         binding=draft['graphics'];path=(ROOT/binding['recipe']).resolve()
         if not path.is_relative_to(ROOT/'translations'):raise ValueError('Graphic recipe outside translations/')
@@ -216,6 +223,7 @@ def compile_draft(data,draft):
         **({'spack_battle':battle_report} if draft.get('spack_battle') else {}),
         **({'spack_interactions':interaction_report} if draft.get('spack_interactions') else {}),
         **({'name_entry':name_report} if draft.get('name_entry') else {}),
+        **({'canine_status_context':context_report} if context_report else {}),
         **({'battle_spacing':{'policy':draft['battle_spacing']['policy'], 'codes':18,
             'advance':'Existing ASCII half-cell; glyph dispatch and input bytes preserved',
             'runtime_visual_status':'pending_user_verification'}} if draft.get('battle_spacing') else {}),

@@ -64,6 +64,10 @@ def validate_names(source,target):
         if occurrences(source,name,True)>occurrences(target,name,True):raise ValueError('Unique item reference missing: '+name)
 
 def compile_descriptions(elf,config):
+    from description_pool import POLICY as REPACK_POLICY
+    if config.get('policy')==REPACK_POLICY:
+        from description_pool import compile_pool
+        return compile_pool(elf,config)
     if sha(elf)!=ORIGINAL_SHA or config.get('policy')!=POLICY or config.get('instruction_windows')!=bindings(elf):
         raise ValueError('Item reader/source policy mismatch')
     if config.get('name_reference_policy') not in (None,'item-description-unique-name-references-v002'):

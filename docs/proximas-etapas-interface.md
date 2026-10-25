@@ -1,5 +1,7 @@
 # Próximas etapas — menus de personagem e lojas
 
+**Atualização v028:** [descrições conhecidas concluídas](interface-v028.md): 566/567 traduzidas, 925 referências, zero adiamentos nesse catálogo; somente ??? preservado. Repack vinculado ao pool original e pai v026; caso 80%% e contexto canino de Coat comprovados separadamente. São 27 campos novos e 3.446 acumulados. Uma ISO consolidada; próximos alvos: nomes bloqueados, TITLE/BACK, lacunas gráficas e teste visual corrido. Indicações anteriores abaixo são históricas.
+
 **Atualização v026:** [expansão consolidada de batalha e interações](interface-v026.md), 1.298 campos novos e 3.419 acumulados. Preflight de integridade implementado; recorte nominal revisado (25 pendentes, preservações separadas). MAP/fontes/arte anteriores intactos. Próximos alvos: prova de capacidade/consumidores para as 24 descrições de espaço, controle 80%% separado, 25 nomes pendentes, Coat/TITLE/BACK e revisão visual/contextual consolidada; fragmentos MAP por último. Não forçar outro lote desse volume sem conteúdo seguro. As indicações anteriores abaixo são históricas.
 
 **Estado após a v021:** 37 equipamentos, 105 consumíveis/materiais, 56 móveis/

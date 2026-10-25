@@ -148,11 +148,21 @@ def audit(draft,output):
         pending={r['id']:r for r in review.get('pending',[])}
         preserved={r['id'] for r in review.get('preserved',[])}
         item_sources=item_catalog(pack)
+        repack=None
+        if config.get('policy')=='spack-item-description-original-pool-repack-v002':
+            from description_pool import proof as pool_proof,parent_config,rebuild
+            from gfi import encode
+            pool_proof(elf,pack,config);parent_config(config)
+            _,new_offsets,used=rebuild(pack,item_sources,{r['id']:encode(r['translation']) for r in config['entries']})
+            repack={'used_bytes':used,'free_bytes':0x4ec0-used,'new_offsets':new_offsets}
         if review.get('policy'):
             from prepare_item_batch import validate_review
             validate_review(review,config,item_sources)
         for row in item_sources:
             item=dict(row);target=targets.get(row['id'])
+            if repack:
+                item['original_offset']=row['offset'];item['planned_pool_relative_offset']=repack['new_offsets'][row['id']]
+                item['offset_semantics']='Stable original ID/source; translated payload may relocate within the original pool'
             deferred=pending.get(row['id'])
             item['status']=('translated-in-recipe-pending-visual' if target else
                 ('preserved-reviewed-marker' if row['id'] in preserved else
@@ -255,6 +265,8 @@ def audit(draft,output):
             'Collect consolidated visual test of character, inventory and shops'] if spack_config else
             ['Trace S_PACK UI reader/buffers; pin character formatter; review literal candidates']),
         'originals_modified':False,'iso_created':False,'translation_created':False}
+    if recipe.get('item_descriptions',{}).get('policy')=='spack-item-description-original-pool-repack-v002':
+        document['description_pool']={k:v for k,v in repack.items() if k!='new_offsets'}
     if satcom:document['satcom_records']=satcom
     if item_rows:document['item_descriptions']=item_rows
     if name_rows:document['item_names']=name_rows
@@ -272,6 +284,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v026.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v028.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

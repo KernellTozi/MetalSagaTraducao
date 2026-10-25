@@ -11,6 +11,35 @@ from build_dialogue_iso import compare_streams
 from disc import entries,SECTOR
 
 
+def normalize_description_transition(old_ui,new_ui,old_recipe,old_patches,new_patches):
+    """Overlay a proved fixed-slot→pool migration before the usual delta check.
+
+    No arbitrary patch deletion is authorized: all displaced patches must be
+    the unchanged parent's description entries, inside the original pool.
+    """
+    from description_pool import POLICY,parent_config
+    from item_descriptions import POLICY as FIXED,RESOURCE,POOL,SIZE,original
+    before=old_ui.get('item_descriptions',{});after=new_ui.get('item_descriptions',{})
+    if before.get('policy')!=FIXED or after.get('policy')!=POLICY:return
+    if after['fixed_slot_parent']['recipe']!=old_recipe.relative_to(ROOT).as_posix():
+        raise ValueError('Description migration parent is not the compared recipe')
+    if parent_config(after)!=before:raise ValueError('Description migration parent configuration differs')
+    expected={e['id'] for e in before['entries']};found=set();raw=original(RESOURCE)
+    overlay=bytearray(raw[POOL:POOL+SIZE])
+    for key,p in list(old_patches.items()):
+        if p['id'] not in expected:continue
+        at=p['offset']
+        if p['resource']!=RESOURCE or not POOL<=at<at+len(p['before'])<=POOL+SIZE:
+            raise ValueError('Historical description patch outside original pool')
+        if p['before']!=raw[at:at+len(p['before'])]:raise ValueError('Historical description source differs')
+        overlay[at-POOL:at-POOL+len(p['after'])]=p['after'];found.add(p['id']);del old_patches[key]
+    if found!=expected:raise ValueError('Historical description patch missing from migration')
+    key=(RESOURCE,POOL);patch=new_patches.get(key)
+    if not patch or patch['id']!='spack.item.description.pool' or patch['before']!=raw[POOL:POOL+SIZE]:
+        raise ValueError('Migration does not supply the exact original description pool')
+    old_patches[key]={**patch,'after':bytes(overlay)}
+
+
 def compile_recipe(ui_path,dialogue_cache=None):
     ui=json.loads(ui_path.read_text(encoding='utf-8'))
     draft,_=load_draft(ROOT/ui['base_dialogue_draft'])
@@ -36,6 +65,7 @@ def verify(old_folder,new_folder,old_recipe,new_recipe):
     old_patches={(p.get('resource','DATA/MAP/MAP.MCT'),p['offset']):p for p in old}
     new_patches={(p.get('resource','DATA/MAP/MAP.MCT'),p['offset']):p for p in new}
     if len(old_patches)!=len(old) or len(new_patches)!=len(new):raise ValueError('Duplicate patch')
+    normalize_description_transition(old_ui,new_ui,old_recipe,old_patches,new_patches)
     dropped=old_patches.keys()-new_patches.keys()
     restorations=new_ui.get('restored_originals',[])
     previous_restorations=set(old_ui.get('restored_originals',[]))
