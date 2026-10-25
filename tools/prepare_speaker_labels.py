@@ -32,12 +32,14 @@ def prepare(data,parent,elf):
         'excluded_unique_labels':len(excluded),'automatic_generic_role_detection':False,
         'source_body_translations_preserved':report['accepted'],'pcsx2_executed':False}
 
-def prepare_relocations(data,parent,elf):
-    from speaker_label_space import POLICY,bindings,placement
+def prepare_relocations(data,parent,elf,*,byte_packed=False):
+    from speaker_label_space import POLICY,BYTE_POLICY,bindings,placement
+    if byte_packed:POLICY=BYTE_POLICY
     document,patches,report=compile_draft(data,parent)
     if not report['valid']:raise ValueError('Invalid relocation parent')
     compiled={p['id']:p for p in patches}
-    entries=copy.deepcopy(parent.get('speaker_label_relocations',{}).get('entries',[]));inherited=len(entries)
+    key='speaker_label_byte_packing' if byte_packed else 'speaker_label_relocations'
+    entries=copy.deepcopy(parent.get(key,{}).get('entries',[]));inherited=len(entries)
     deferred=[];roles=set()
     for e in document['entries']:
         for s in e['segments']:
@@ -47,7 +49,7 @@ def prepare_relocations(data,parent,elf):
             original=bytes(data[e['offset']:e['offset']+e['size']]);base=compiled[e['id']]['after'] if e['id'] in compiled else original
             try:
                 if e['id'] in parent.get('preservation_decisions',{}):raise ValueError('Explicit preservation decision')
-                start,_,_=placement(base,e,target)
+                start,_,_=placement(base,e,target,alignment=1 if byte_packed else 4)
             except ValueError as error:
                 deferred.append({'id':e['id'],'label_sha256':sha(bytes.fromhex(s['source_hex'])),
                     'capacity':s['capacity'],'target_bytes':len(encode(target)),'reason':str(error)});continue
@@ -62,16 +64,18 @@ def prepare_relocations(data,parent,elf):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--parent',type=Path,required=True)
-    p.add_argument('--relocate',action='store_true',help='Borrow proven separator zeros after parent compilation')
+    mode=p.add_mutually_exclusive_group()
+    mode.add_argument('--relocate',action='store_true',help='Borrow proven separator zeros after parent compilation')
+    mode.add_argument('--byte-packed',action='store_true',help='Allow byte-positioned label tails under the separate v003 policy')
     p.add_argument('--output',type=Path,required=True);p.add_argument('--report',type=Path,required=True);a=p.parse_args()
     parent=a.parent.resolve();output=a.output.resolve();summary=a.report.resolve()
     if not parent.is_relative_to(ROOT/'translations') or not output.is_relative_to(ROOT/'translations') or not summary.is_relative_to(ROOT/'reports') or output.exists() or summary.exists():raise ValueError('Use new authored recipe/report inside project')
     draft,_=load_draft(parent)
     with SOURCE.open('rb') as stream,mmap.mmap(stream.fileno(),0,access=mmap.ACCESS_READ) as data:
-        config,report=(prepare_relocations if a.relocate else prepare)(data,draft,ELF.read_bytes())
+        config,report=(prepare_relocations(data,draft,ELF.read_bytes(),byte_packed=a.byte_packed) if a.relocate or a.byte_packed else prepare(data,draft,ELF.read_bytes()))
     child={'schema':1,'extends':parent.name,'name':output.stem,
-        'status':('Rótulos genéricos com folga interna; falas herdadas; visual pendente' if a.relocate else 'Rótulos genéricos de falantes em slots fixos; falas herdadas; visual pendente'),
-        'translations':{},'speaker_label_relocations' if a.relocate else 'speaker_labels':config}
+        'status':('Rótulos genéricos com folga interna; falas herdadas; visual pendente' if a.relocate or a.byte_packed else 'Rótulos genéricos de falantes em slots fixos; falas herdadas; visual pendente'),
+        'translations':{},'speaker_label_byte_packing' if a.byte_packed else 'speaker_label_relocations' if a.relocate else 'speaker_labels':config}
     for path,value in ((output,child),(summary,report)):
         with path.open('x',encoding='utf-8') as stream:json.dump(value,stream,ensure_ascii=False,indent=2);stream.write('\n')
     pending=report.get('remaining_reviewed_role_references',report.get('deferred_reviewed_role_references'))

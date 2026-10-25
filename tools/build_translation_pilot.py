@@ -173,6 +173,11 @@ def compile_draft(data,draft):
         document,patches,report=overlay(data,document,patches,report,draft['speaker_label_relocations'],
             (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions)
         by_id={e['id']:e for e in document['entries']}
+    if draft.get('speaker_label_byte_packing'):
+        from speaker_label_space import overlay
+        document,patches,report=overlay(data,document,patches,report,draft['speaker_label_byte_packing'],
+            (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions,byte_packed=True)
+        by_id={e['id']:e for e in document['entries']}
     # Read back actual translated spans independently; the existing compiler
     # validates headers, controls, lengths and structural shadow parsers.
     for patch in patches:
@@ -340,7 +345,11 @@ def main():
                     'source':source,'translation':target,'validation':r,
                     'segments':e['segments'],
                     'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
-    print(f"Traduzidos: {report['accepted']}; preservados: {report['unchanged']}; recusados: {report['refused']}. {output}")
+    print(f"Registros alterados: {report['accepted']}; inalterados: {report['unchanged']}; recusados: {report['refused']}. {output}")
+    if report.get('speaker_labels'):
+        labels=sum(report.get(key,{}).get('accepted',0) for key in ('speaker_labels','speaker_label_relocations','speaker_label_byte_packing'))
+        bodies=sum(any(s['key']!='label' and s['translation']!=s['source'] for s in entry['segments']) for entry in document['entries'])
+        print(f"Rótulos traduzidos: {labels}; registros com corpo/opções alterados: {bodies}.")
     if report.get('interface'):print(f"Interface: {report['interface']['accepted']} campos; validação visual pendente.")
     if report['terminology_issues']:print('Lote bloqueado por violações de terminologia; consulte o relatório.')
     if not report['valid']:raise SystemExit(2)
