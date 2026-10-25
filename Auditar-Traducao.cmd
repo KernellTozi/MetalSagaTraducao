@@ -1,7 +1,7 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-python tools\audit_translation_coverage.py --build-dir work\interface-v030 %*
+python tools\audit_translation_coverage.py --build-dir work\interface-v031 %*
 set "audit_result=%errorlevel%"
 echo.
 pause

@@ -1,0 +1,415 @@
+{
+  "old_recipe": "translations/interface-v030.json",
+  "new_recipe": "translations/interface-v031.json",
+  "source_iso_sha256": "1deb57e06fc864d13f850492e881ccc9ba72289fd3ab1e2603db1646a15370d6",
+  "output_iso_sha256": "375f1dede3ffb0f7adf40affd2da934e4dfe117991e94040b12ea9edb8d9efbe",
+  "iso_size": 1704427520,
+  "changed_bytes": 943,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "map.msg.07b2812c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 182915372,
+      "size": 68
+    },
+    {
+      "id": "map.msg.07b28310",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 182915856,
+      "size": 140
+    },
+    {
+      "id": "map.msg.1fd46558",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587789656,
+      "size": 276
+    },
+    {
+      "id": "map.smsg.1fd47390",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587793296,
+      "size": 360
+    },
+    {
+      "id": "map.msg.1fd485fc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587798012,
+      "size": 100
+    },
+    {
+      "id": "map.msg.1fd48688",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587798152,
+      "size": 104
+    },
+    {
+      "id": "map.msg.1fd48730",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587798320,
+      "size": 156
+    },
+    {
+      "id": "map.msg.1fd48858",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 587798616,
+      "size": 92
+    }
+  ],
+  "pcsx2_executed": false,
+  "schema": 1,
+  "map_recipe": "translations/regiao-inicial-v032.json",
+  "translation_scope": {
+    "new_map_translations": 8,
+    "explicit_resumed_records": 8,
+    "map_translations": 5969,
+    "known_map_records": 7231,
+    "map_technical_deferrals": 41,
+    "preserved_n3_names_still_deferred": 19,
+    "native_deferrals": 14,
+    "other_opaque_deferrals": 8,
+    "all_5961_previous_map_patches_identical": true,
+    "all_interface_art_fonts_and_other_iso_bytes_identical": true,
+    "ui_fields": 3451,
+    "item_descriptions": 566,
+    "description_references": 925,
+    "item_names": 516,
+    "pending_item_names": 25,
+    "new_line_width_warnings": 0,
+    "layout_profile": "ptbr-layout-v005",
+    "title_art": "v014"
+  },
+  "scaled100_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "allowed_token_hex": [
+      "25243066313030",
+      "2524313366313030",
+      "25243266313030"
+    ],
+    "handler": [
+      1793516,
+      1793668
+    ],
+    "argument_reader": [
+      1792560,
+      1792720
+    ],
+    "format_offset": 3448248,
+    "format_hex": "252e326600",
+    "case_count": 24,
+    "cases": [
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 0,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 0.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 1,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 0.009999999776482582,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 99,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 0.9900000095367432,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 100,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 1.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 101,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 1.0099999904632568,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 12345,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 123.44999694824219,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 2147483647,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 21474836.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243066313030",
+        "variable_index": 0,
+        "value_bits": 4294967295,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": -0.009999999776482582,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 0,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 0.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 1,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 0.009999999776482582,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 99,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 0.9900000095367432,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 100,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 1.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 101,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 1.0099999904632568,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 12345,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 123.44999694824219,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 2147483647,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": 21474836.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "2524313366313030",
+        "variable_index": 13,
+        "value_bits": 4294967295,
+        "divisor": 100,
+        "consumed_after_percent": 7,
+        "ratio_f32": -0.009999999776482582,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 0,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 0.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 1,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 0.009999999776482582,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 99,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 0.9900000095367432,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 100,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 1.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 101,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 1.0099999904632568,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 12345,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 123.44999694824219,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 2147483647,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": 21474836.0,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      },
+      {
+        "token_hex": "25243266313030",
+        "variable_index": 2,
+        "value_bits": 4294967295,
+        "divisor": 100,
+        "consumed_after_percent": 6,
+        "ratio_f32": -0.009999999776482582,
+        "format_offset": 3448248,
+        "conversion_stub_result_forwarded": true
+      }
+    ],
+    "scope": "Original reader/handler instruction paths with synthetic RAM and finite FP32 model; float conversion helper stubbed, formatter/emitter/PS2 not executed",
+    "mode": "slots",
+    "growth_allowed": false,
+    "divisor_immutable": 100
+  },
+  "tests": {
+    "distinct_passed": 90,
+    "suites": {
+      "controls": {
+        "passed": 48,
+        "seconds": 1.477,
+        "log": "work/testes-controles-v031.log"
+      },
+      "reinsertion": {
+        "passed": 12,
+        "seconds": 0.013,
+        "log": "work/testes-reinsercao-v031.log"
+      },
+      "batch_preservation": {
+        "passed": 3,
+        "seconds": 49.037,
+        "log": "work/testes-lote-v032.log"
+      },
+      "coverage": {
+        "passed": 6,
+        "seconds": 0.068,
+        "log": "work/testes-cobertura-v031.log"
+      },
+      "preflight": {
+        "passed": 7,
+        "seconds": 0.06,
+        "log": "work/testes-preflight-v031.log"
+      },
+      "planning": {
+        "passed": 6,
+        "seconds": 0.001,
+        "log": "work/testes-planejamento-v031.log"
+      },
+      "retention": {
+        "passed": 5,
+        "seconds": 0.045,
+        "log": "work/testes-retencao-v031.log"
+      },
+      "alpha": {
+        "passed": 3,
+        "seconds": 0.997,
+        "log": "work/testes-alpha-v031.log"
+      }
+    },
+    "repeated_runs_not_added": true,
+    "full_interface_suite_repeated": false,
+    "reason": "Interface recipe/art/renderers unchanged; complete image comparison proves no UI/font/art byte change"
+  },
+  "initial_test_fixture_correction": "Synthetic growth/repack test used legacy msgn with an advanced-layout fixture helper; changed fixture to supported smsg before final successful suite",
+  "preflight": {
+    "path": "work/interface-v031/MetalSaga-ptbr-interface-v031.iso",
+    "size": 1704427520,
+    "sha256": "375f1dede3ffb0f7adf40affd2da934e4dfe117991e94040b12ea9edb8d9efbe",
+    "verified": true
+  },
+  "launcher_dry_run_passed": true,
+  "compact_plan_reconstruction_verified": true,
+  "pending_catalogue": "reports/plano-pendencias-v009.json",
+  "retention": {
+    "work_isos": 5,
+    "alpha_readonly_hash_verified": true,
+    "alpha_sha256": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58"
+  },
+  "visual_status": "pending_user_normal_playthrough",
+  "onedrive_copy_performed": false,
+  "shutdown_performed": false
+}

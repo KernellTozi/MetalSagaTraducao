@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v031.json",
+  "name": "regiao-inicial-v032",
+  "status": "Sucata para construção de tanques; oito registros com divisor 100 preservado; visual pendente",
+  "reinsertion_policy": "fixed-record-scaled100-preserved-slots-v013",
+  "translations": {
+    "map.msg.07b2812c": "São, ao todo,\n%$0f100 toneladas.",
+    "map.msg.07b28310": "...Vejamos. Ainda\nfaltam %$2f100 toneladas.\tSei que juntar sucata\ndá trabalho, mas\nnão desista!",
+    "map.msg.1fd46558": "Hm? ...Má notícia,\n%B$15.\tO tanque que planejou\npede %$2f100 toneladas\na mais de sucata!\tTeremos que adiar\na construção até você\ntrazer o que falta!\tAdiar, %B$15!\nOuviu? %M0_6Adiar!\tEnfim, boa sorte\nna busca por sucata,\n%B$15!",
+    "map.msg.1fd485fc": "Você juntou\n%$13f100 toneladas de sucata,\nhumano inútil.",
+    "map.msg.1fd48688": "Vejo que juntou\n%$0f100 toneladas de sucata,\nhumano inútil.",
+    "map.msg.1fd48730": "Você juntou\n%$13f100 toneladas de sucata,\nhumano inútil.\tÉ o bastante.\nDr. Palm logo vai\nficar sozinho de novo.",
+    "map.msg.1fd48858": "%$2f100 toneladas de\nsucata faltam,\nhumano inútil.",
+    "map.smsg.1fd47390": {
+      "body": "Uau, que escolha,\n%B$15! Seu gosto\né mesmo, ah, bem...\tAh, deixa pra lá. O\ntanque é seu, %B$15!\tMas vai exigir muita\nsucata. Vou precisar de\n%$13f100 toneladas.\tJuntar tudo isso\ndeve ser moleza\npara você!\tQuer que eu faça\no tanque desse jeito,\n%B$15?",
+      "choices": "Isso mesmo.\tMudei de ideia."
+    }
+  },
+  "resume_deferred": [
+    "map.msg.07b2812c",
+    "map.msg.07b28310",
+    "map.msg.1fd46558",
+    "map.msg.1fd485fc",
+    "map.msg.1fd48688",
+    "map.msg.1fd48730",
+    "map.msg.1fd48858",
+    "map.smsg.1fd47390"
+  ]
+}

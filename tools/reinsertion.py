@@ -20,6 +20,7 @@ T0_POLICY='fixed-record-t0-preserved-slots-v009'
 I0_POLICY='fixed-record-i0-preserved-slots-v010'
 N0_POLICY='fixed-record-n0-preserved-slots-v011'
 VARIABLE_POLICY='fixed-record-reviewed-variable-selectors-slots-v012'
+SCALED_POLICY='fixed-record-scaled100-preserved-slots-v013'
 REPACK={b'msgn',b'smsg',b'2smg'}
 COPY_LIMITS={b'MC\0\0':31,b'SP\0\0':31,b'ST\0\0':31}
 
@@ -31,9 +32,11 @@ def local(path, new=False):
     return path
 
 
-def descriptor(data,at,index,*,named_choices=False,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False,variable_refs=False):
+def descriptor(data,at,index,*,named_choices=False,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False,variable_refs=False,scaled_refs=False):
     tokenizer=tokens
-    if variable_refs:
+    if scaled_refs:
+        from control_scaled100 import tokenize as tokenizer
+    elif variable_refs:
         from control_variable_refs import tokenize as tokenizer
     elif n0:
         from control_n0 import tokenize as tokenizer
@@ -129,9 +132,11 @@ def width_units(raw,tokenizer=tokens):
     return [sum(2 if c in CHAR_TO_BYTES else 1 for c in line) for line in decode(bytes(visible)).replace('\t','\n').split('\n')]
 
 
-def compile_entry(data,entry,old,*,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False,variable_refs=False):
+def compile_entry(data,entry,old,*,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False,variable_refs=False,scaled_refs=False):
     tokenizer=tokens
-    if variable_refs:
+    if scaled_refs:
+        from control_scaled100 import tokenize as tokenizer
+    elif variable_refs:
         from control_variable_refs import tokenize as tokenizer
     elif n0:
         from control_n0 import tokenize as tokenizer
@@ -153,7 +158,7 @@ def compile_entry(data,entry,old,*,b15=False,numeric1=False,numeric15=False,t0=F
     if not changed:return None,{'status':'unchanged','id':old['id']}
     if old['blocked_reasons']:raise ValueError('; '.join(old['blocked_reasons']))
     output=bytearray.fromhex(old['header_hex']);raws=[];warnings=[]
-    limited=(b15 or numeric1 or numeric15 or t0 or i0 or n0 or variable_refs) and any(any(t['kind'] in ('preserved-b15-reference','preserved-numeric1-reference','preserved-numeric15-reference','preserved-t0-reference','preserved-i0-reference','preserved-n0-reference','preserved-reviewed-variable-reference') for t in tokenizer(bytes.fromhex(s['source_hex']))[0]) for s in old['segments'])
+    limited=(b15 or numeric1 or numeric15 or t0 or i0 or n0 or variable_refs or scaled_refs) and any(any(t['kind'] in ('preserved-b15-reference','preserved-numeric1-reference','preserved-numeric15-reference','preserved-t0-reference','preserved-i0-reference','preserved-n0-reference','preserved-reviewed-variable-reference','preserved-scaled100-reference') for t in tokenizer(bytes.fromhex(s['source_hex']))[0]) for s in old['segments'])
     if limited and mode!='slots':raise ValueError('Dynamic reference requires fixed slots')
     for new,src in zip(entry['segments'],old['segments']):
         text=new['translation']
@@ -220,31 +225,35 @@ def compile_batch(data,document,index=None,verify_source=True):
     if not isinstance(document,dict) or not isinstance(document.get('entries'),list):raise ValueError('Formato de lote inválido')
     if any(not isinstance(e,dict) or not isinstance(e.get('segments'),list) or any(not isinstance(s,dict) for s in e['segments']) for e in document['entries']):
         raise ValueError('Estrutura de registros/segmentos inválida')
-    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY) or document.get('resource')!=RESOURCE:
+    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY) or document.get('resource')!=RESOURCE:
         raise ValueError('Schema/política incompatível')
-    named_choices=document['policy'] in (NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
-    variable_refs=document['policy']==VARIABLE_POLICY
-    n0=document['policy'] in (N0_POLICY,VARIABLE_POLICY)
+    named_choices=document['policy'] in (NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
+    scaled_refs=document['policy']==SCALED_POLICY
+    variable_refs=document['policy'] in (VARIABLE_POLICY,SCALED_POLICY)
+    if scaled_refs:
+        from control_scaled100 import verify as verify_scaled
+        scaled_evidence=verify_scaled((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
+    n0=document['policy'] in (N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
     if variable_refs:
         from control_variable_refs import verify as verify_variables
         variable_evidence=verify_variables((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    i0=document['policy'] in (I0_POLICY,N0_POLICY,VARIABLE_POLICY)
+    i0=document['policy'] in (I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
     if n0:
         from control_n0 import verify as verify_n0
         n0_evidence=verify_n0((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    t0=document['policy'] in (T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
+    t0=document['policy'] in (T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
     if i0:
         from control_i0 import verify as verify_i0
         i0_evidence=verify_i0((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    numeric15=document['policy'] in (NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
+    numeric15=document['policy'] in (NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
     if t0:
         from control_t0 import verify as verify_t0
         t0_evidence=verify_t0((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    numeric1=document['policy'] in (NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
+    numeric1=document['policy'] in (NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
     if numeric15:
         from control_numeric15 import verify as verify_numeric15
         numeric15_evidence=verify_numeric15((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    b15=document['policy'] in (B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
+    b15=document['policy'] in (B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY)
     if numeric1:
         from control_numeric1 import verify as verify_numeric1
         numeric1_evidence=verify_numeric1((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
@@ -261,8 +270,8 @@ def compile_batch(data,document,index=None,verify_source=True):
         try:
             at=entry['offset']
             if at in seen:raise ValueError('ID/offset duplicado no lote')
-            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0,variable_refs=variable_refs)
-            patch,result=compile_entry(data,entry,old,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0,variable_refs=variable_refs)
+            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0,variable_refs=variable_refs,scaled_refs=scaled_refs)
+            patch,result=compile_entry(data,entry,old,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0,variable_refs=variable_refs,scaled_refs=scaled_refs)
             results.append(result)
             if patch:patches.append(patch)
         except (ValueError,KeyError,TypeError,UnicodeError) as error:
@@ -288,6 +297,7 @@ def compile_batch(data,document,index=None,verify_source=True):
     if i0:report['i0_evidence']=i0_evidence
     if n0:report['n0_evidence']=n0_evidence
     if variable_refs:report['reviewed_variable_evidence']=variable_evidence
+    if scaled_refs:report['scaled100_evidence']=scaled_evidence
     return (patches if valid else []),report
 
 

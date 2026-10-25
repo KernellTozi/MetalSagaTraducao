@@ -17,8 +17,10 @@ def inventory(folder):
     deferred={x['id'] for x in report['deferred']};rows={e['id']:e for e in plan['entries']}
     if len(rows)!=len(plan['entries']) or not deferred.issubset(rows):raise ValueError('Invalid record IDs')
     tokenizer=tokens
-    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY
-    if plan.get('policy')==VARIABLE_POLICY:
+    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY,SCALED_POLICY
+    if plan.get('policy')==SCALED_POLICY:
+        from control_scaled100 import tokenize as tokenizer
+    elif plan.get('policy')==VARIABLE_POLICY:
         from control_variable_refs import tokenize as tokenizer
     elif plan.get('policy')==N0_POLICY:
         from control_n0 import tokenize as tokenizer

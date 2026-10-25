@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v030**, sobre MAP v031 e fontes/layout v005. Acrescenta **69 diálogos de serviços, preços, viagens, entregas, inventário e recompensas**, além de **FIM** nos dois estados do botão gráfico de entrada de nomes. Mantém os botões do cofre aprovados em preview, todas as traduções anteriores e as **566 de 567 descrições traduzidas**, usadas por **925 itens**; somente o marcador `???` fica preservado. A tabela de nomes continua com **516 registros traduzidos** e 25 pendentes. Hunter, Soldier, nomes próprios e MAIN/SUB/SE permanecem protegidos.
+**Interface v031**, sobre MAP v032 e fontes/layout v005. Rodada normal com **oito diálogos de sucata para construção de tanques**, incluindo quantidades decimais, projeto e adiamento. Mantém todas as traduções anteriores, botões do cofre e FIM, além das **566 de 567 descrições traduzidas**, usadas por **925 itens**; somente o marcador `???` fica preservado. A tabela de nomes continua com **516 registros traduzidos** e 25 pendentes. Hunter, Soldier, nomes próprios e MAIN/SUB/SE permanecem protegidos.
 
-São **3.451 campos/ocorrências de interface** acumulados e **5.961 registros de diálogo alterados**. Os adiamentos MAP caíram de 123 para **49**, incluindo 19 nomes de tanques preservados. Outros cinco registros liberados nesta rodada ficaram inalterados e não contam como tradução. Isso não representa porcentagem de todo o jogo. O catálogo conhecido de descrições tem **99,82%** traduzido. O perfil de nomes mantém no máximo os 16 bytes observados no original. TITLE continua preservado; há validações visuais pendentes.
+São **3.451 campos/ocorrências de interface** acumulados e **5.969 registros de diálogo alterados**. Os adiamentos MAP caíram de 49 para **41**, incluindo 19 nomes de tanques preservados. Isso não representa porcentagem de todo o jogo. O catálogo conhecido de descrições tem **99,82%** traduzido. O perfil de nomes mantém no máximo os 16 bytes observados no original. TITLE continua preservado; há validações visuais pendentes.
 
-ISO: `work/interface-v030/MetalSaga-ptbr-interface-v030.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
+ISO: `work/interface-v031/MetalSaga-ptbr-interface-v031.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/interface-v030.md)
+- [Lote atual e limites](docs/interface-v031.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "source": "compiled text plan; read-only planning, not edit approval",
+  "plan_sha256": "cd13ef3fb6e79786ed122b728ef3a38344ee20539e78bb44577ac01b48c12259",
+  "coverage": {
+    "modified": 5969,
+    "deferred": 41,
+    "controls_or_punctuation": 603,
+    "name_or_expression_candidate": 458,
+    "review_unchanged": 160
+  },
+  "opaque_records": 27,
+  "opaque_group_count": 6,
+  "disjoint_opaque_groups": [
+    {
+      "parser_spans": [
+        "%N$3"
+      ],
+      "records": 19,
+      "example_ids": [
+        "map.msgn.0be2befc",
+        "map.msgn.0be2bf40",
+        "map.msgn.0be2bf84"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%"
+      ],
+      "records": 3,
+      "example_ids": [
+        "map.2smg.0be2c4e4",
+        "map.2smg.0be2ca48",
+        "map.smsg.0be2ccb4"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%N"
+      ],
+      "records": 2,
+      "example_ids": [
+        "map.msg.0a13ad4c",
+        "map.msg.0b8fef6c"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%M_1"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msg.0e77a724"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%M_4"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.smsg.0e77a194"
+      ]
+    },
+    {
+      "parser_spans": [
+        "%T0"
+      ],
+      "records": 1,
+      "example_ids": [
+        "map.msgn.038df66c"
+      ]
+    }
+  ],
+  "overlapping_syntax_counts": [
+    {
+      "syntax": "%N$3",
+      "records": 19,
+      "exclusive_records": 19
+    },
+    {
+      "syntax": "%",
+      "records": 3,
+      "exclusive_records": 3
+    },
+    {
+      "syntax": "%N",
+      "records": 2,
+      "exclusive_records": 2
+    },
+    {
+      "syntax": "%M_1",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%M_4",
+      "records": 1,
+      "exclusive_records": 1
+    },
+    {
+      "syntax": "%T0",
+      "records": 1,
+      "exclusive_records": 1
+    }
+  ],
+  "native_records": [
+    {
+      "id": "map.msg.040ef0ec",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.07b264e0",
+      "native_sequences": {
+        "8199": 1
+      }
+    },
+    {
+      "id": "map.msg.1033e304",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.128226b4",
+      "native_sequences": {
+        "8149": 1,
+        "815b": 2,
+        "8371": 2,
+        "8385": 2
+      }
+    },
+    {
+      "id": "map.msg.128226fc",
+      "native_sequences": {
+        "8149": 1,
+        "815b": 1,
+        "82a0": 1,
+        "82aa": 1,
+        "82c1": 1,
+        "82c6": 1,
+        "82e8": 1
+      }
+    },
+    {
+      "id": "map.msg.12822744",
+      "native_sequences": {
+        "8149": 1,
+        "815b": 2,
+        "82b2": 1,
+        "82b3": 1,
+        "82bb": 1,
+        "82bf": 1,
+        "82c1": 1,
+        "82dc": 1
+      }
+    },
+    {
+      "id": "map.msg.12822790",
+      "native_sequences": {
+        "8140": 1,
+        "8149": 2,
+        "82a2": 1,
+        "82a8": 1,
+        "82b6": 1,
+        "82be": 1,
+        "82c1": 2,
+        "82e6": 1,
+        "82f1": 1,
+        "976c": 1
+      }
+    },
+    {
+      "id": "map.msg.13709cc0",
+      "native_sequences": {
+        "8142": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ec14",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ed3c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df7ee6c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88cd4",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88d9c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    },
+    {
+      "id": "map.msg.1df88e6c",
+      "native_sequences": {
+        "8142": 1,
+        "815b": 1,
+        "82ae": 1,
+        "82ce": 1
+      }
+    }
+  ],
+  "review_records": 160,
+  "review_distinct_source_combinations": 114,
+  "editing_enabled": false,
+  "limitations": [
+    "Parser spans are not complete command grammar",
+    "Categories do not establish runtime semantics",
+    "Native bytes do not imply Portuguese glyph slots"
+  ]
+}
