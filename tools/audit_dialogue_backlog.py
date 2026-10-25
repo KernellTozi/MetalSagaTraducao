@@ -84,11 +84,14 @@ def collect_labels(document):
             row=labels.setdefault(signature,{'source':segment['source'],'source_hex':signature,
                 'source_sha256':sha(bytes.fromhex(signature)),'references':[],'editing_authorized':False})
             target=segment.get('translation',segment['source']);changed=target!=segment['source'];translated+=changed
+            position=document.get('compiled_speaker_label_offsets',{}).get(entry['id'],segment['offset'])
             row['references'].append({'record_id':entry['id'],'offset':segment['offset'],'capacity':segment['capacity'],
+                'compiled_offset':position,'compiled_capacity':entry['offset']+entry['size']-position-1 if position!=segment['offset'] else segment['capacity'],
                 'translation':target,'translated':changed})
     return {'label_references':references,'unique_labels':len(labels),'editing_authorized':False,
         'translated_label_references':translated,'remaining_label_references':references-translated,
         'explicit_overlay_policy':document.get('speaker_label_policy'),
+        'explicit_relocation_policy':document.get('speaker_label_relocation_policy'),
         'limits':'No unrestricted or automatic label editing; explicit source-bound overlay may translate reviewed generic roles only; proper names, markers and unknown labels remain protected'},list(labels.values())
 
 
@@ -113,6 +116,7 @@ def run(folder,output,summary_path=None):
         'compiled_report_sha256':sha(r),'outside_known_parsers_scan':scan,
         'speaker_label_catalogue':label_metadata,'speaker_label_consumer_evidence':label_evidence,
         'speaker_label_overlay_evidence':{k:v for k,v in report.get('speaker_labels',{}).items() if k!='results'},
+        'speaker_label_relocation_evidence':{k:v for k,v in report.get('speaker_label_relocations',{}).items() if k!='results'},
         'originals_modified':False,'iso_created':False})
     result={**metadata,'local_review_entries':buckets,'local_new_candidates':hits,'local_speaker_labels':labels}
     output.parent.mkdir(parents=True,exist_ok=True)
@@ -125,7 +129,7 @@ def run(folder,output,summary_path=None):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Consolidar pendências de diálogo localmente em um JSON, sem IA/APIs')
-    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v034')
+    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v035')
     p.add_argument('--output',type=Path,default=ROOT/'work/dialogos-pendencias-atual.json')
     p.add_argument('--summary',type=Path);a=p.parse_args()
     print(json.dumps(run(a.build_dir,a.output,a.summary),ensure_ascii=False,indent=2))

@@ -68,15 +68,24 @@ def _run(elf,start,windows,regs,regions,stop):
             elif fn in (33,45):regs[rd]=regs[rs]+regs[rt]
             elif fn==36:regs[rd]=regs[rs]&regs[rt]
             elif fn==37:regs[rd]=regs[rs]|regs[rt]
+            elif fn==38:regs[rd]=regs[rs]^regs[rt]
+            elif fn==10:
+                if regs[rt]==0:regs[rd]=regs[rs]
             elif fn==8:pending=regs[rs]
             else:raise ValueError('Unsupported speaker integer opcode')
         elif op==9:regs[rt]=regs[rs]+n
         elif op==12:regs[rt]=regs[rs]&u
         elif op==13:regs[rt]=regs[rs]|u
         elif op==15:regs[rt]=u<<16
-        elif op in (35,36,55):regs[rt]=access((regs[rs]+n)&0xffffffff,{35:4,36:1,55:8}[op])
+        elif op in (32,35,36,55):
+            value=access((regs[rs]+n)&0xffffffff,{32:1,35:4,36:1,55:8}[op])
+            regs[rt]=value-256 if op==32 and value>=128 else value
         elif op in (40,43):access((regs[rs]+n)&0xffffffff,1 if op==40 else 4,regs[rt])
         elif op==5:pending=pc+4+n*4 if regs[rs]!=regs[rt] else pc+8
+        elif op in (4,20,21):
+            take=regs[rs]==regs[rt] if op in (4,20) else regs[rs]!=regs[rt]
+            if op in (20,21) and not take:nextpc=pc+8
+            else:pending=pc+4+n*4 if take else pc+8
         elif op==3:regs[31]=pc+8;pending=((w&0x3ffffff)<<2)-0xff000
         else:raise ValueError('Unsupported speaker probe opcode')
         regs=[r&0xffffffff for r in regs];regs[0]=0;pc=old if old is not None else nextpc

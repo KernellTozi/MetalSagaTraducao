@@ -60,6 +60,14 @@ class DialogueBacklog(unittest.TestCase):
         self.assertFalse(r['instructions_executed']);self.assertEqual(len(r['instruction_assertions']),14)
         changed=bytearray(elf);changed[0x1fda1c]^=1
         with self.assertRaises(ValueError):label_consumer_evidence(changed)
+    def test_relocated_label_keeps_source_offset_capacity_and_reports_compiled_span(self):
+        doc={'compiled_speaker_label_offsets':{'a':132},'entries':[{'id':'a','offset':100,'size':40,
+            'segments':[{'key':'label','source':'Man','translation':'Homem','source_hex':'4d616e',
+                'editable':False,'offset':136,'capacity':3}]}]}
+        meta,rows=collect_labels(doc);reference=rows[0]['references'][0]
+        self.assertEqual((reference['offset'],reference['capacity']),(136,3))
+        self.assertEqual((reference['compiled_offset'],reference['compiled_capacity']),(132,7))
+        self.assertEqual(meta['translated_label_references'],1);self.assertFalse(meta['editing_authorized'])
 
 
 if __name__=='__main__':unittest.main()

@@ -168,6 +168,11 @@ def compile_draft(data,draft):
         document,patches,report=overlay(data,document,patches,report,draft['speaker_labels'],
             (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions)
         by_id={e['id']:e for e in document['entries']}
+    if draft.get('speaker_label_relocations'):
+        from speaker_label_space import overlay
+        document,patches,report=overlay(data,document,patches,report,draft['speaker_label_relocations'],
+            (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions)
+        by_id={e['id']:e for e in document['entries']}
     # Read back actual translated spans independently; the existing compiler
     # validates headers, controls, lengths and structural shadow parsers.
     for patch in patches:
@@ -177,7 +182,8 @@ def compile_draft(data,draft):
             from dialogue_native_review import encode as reviewed_encode
             target_encode=lambda text:reviewed_encode(text,entry['id'])
         for segment in entry['segments']:
-            start=segment['offset']-entry['offset']
+            position=document.get('compiled_speaker_label_offsets',{}).get(entry['id'],segment['offset']) if segment['key']=='label' else segment['offset']
+            start=position-entry['offset']
             target=patch['after'][start:].split(b'\0',1)[0]
             if target!=(bytes.fromhex(segment['source_hex']) if segment['translation']==segment['source'] else target_encode(segment['translation'])):
                 raise ValueError('Pilot readback differs')
