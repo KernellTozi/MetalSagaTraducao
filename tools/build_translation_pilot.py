@@ -178,6 +178,11 @@ def compile_draft(data,draft):
         document,patches,report=overlay(data,document,patches,report,draft['speaker_label_byte_packing'],
             (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions,byte_packed=True)
         by_id={e['id']:e for e in document['entries']}
+    if draft.get('speaker_context_review'):
+        from speaker_label_review import overlay
+        document,patches,report=overlay(data,document,patches,report,draft['speaker_context_review'],
+            (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions)
+        by_id={e['id']:e for e in document['entries']}
     # Read back actual translated spans independently; the existing compiler
     # validates headers, controls, lengths and structural shadow parsers.
     for patch in patches:
@@ -188,6 +193,7 @@ def compile_draft(data,draft):
             target_encode=lambda text:reviewed_encode(text,entry['id'])
         for segment in entry['segments']:
             position=document.get('compiled_speaker_label_offsets',{}).get(entry['id'],segment['offset']) if segment['key']=='label' else segment['offset']
+            position=document.get('compiled_dialogue_segment_offsets',{}).get(entry['id'],{}).get(segment['key'],position)
             start=position-entry['offset']
             target=patch['after'][start:].split(b'\0',1)[0]
             if target!=(bytes.fromhex(segment['source_hex']) if segment['translation']==segment['source'] else target_encode(segment['translation'])):
@@ -347,7 +353,7 @@ def main():
                     'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
     print(f"Registros alterados: {report['accepted']}; inalterados: {report['unchanged']}; recusados: {report['refused']}. {output}")
     if report.get('speaker_labels'):
-        labels=sum(report.get(key,{}).get('accepted',0) for key in ('speaker_labels','speaker_label_relocations','speaker_label_byte_packing'))
+        labels=sum(report.get(key,{}).get('accepted',0) for key in ('speaker_labels','speaker_label_relocations','speaker_label_byte_packing','speaker_context_review'))
         bodies=sum(any(s['key']!='label' and s['translation']!=s['source'] for s in entry['segments']) for entry in document['entries'])
         print(f"Rótulos traduzidos: {labels}; registros com corpo/opções alterados: {bodies}.")
     if report.get('interface'):print(f"Interface: {report['interface']['accepted']} campos; validação visual pendente.")

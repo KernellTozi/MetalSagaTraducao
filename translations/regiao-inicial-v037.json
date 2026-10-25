@@ -1,0 +1,598 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v036.json",
+  "name": "regiao-inicial-v037",
+  "status": "Funções revistas por contexto e escolhas nomeadas com folga interna; visual pendente",
+  "translations": {},
+  "speaker_context_review": {
+    "policy": "map-context-reviewed-speaker-layout-v004",
+    "instruction_windows": [
+      {
+        "offset": 1860764,
+        "size": 24,
+        "sha256": "d2201a8de5d28fab69634c3bc05b855bd4993bd8c638a2c5c3e02281b9054d89"
+      },
+      {
+        "offset": 1860872,
+        "size": 72,
+        "sha256": "0fd2aaf893e9f879bedbba913bf71f80800453150fd3f0145bd347753bde83bb"
+      },
+      {
+        "offset": 1863052,
+        "size": 92,
+        "sha256": "e8f1d0c1ec9ac2198df06db0f1a5424a4d00f2bca7761a4e180ede1fdb223d88"
+      },
+      {
+        "offset": 2253512,
+        "size": 12,
+        "sha256": "c1bf149ca30b910419e131fd8cc515454758d4fb533c41fcf2bbe9f124c7a236"
+      },
+      {
+        "offset": 2253884,
+        "size": 44,
+        "sha256": "bc8f2be1c87550ce6a82cb33d2548d04418cedd299a13057796f24982e6ff9c1"
+      },
+      {
+        "offset": 1862848,
+        "size": 20,
+        "sha256": "0f911b51526b0236adecc4f50bc035e2ab660668e547ee6d85e79a4021671879"
+      },
+      {
+        "offset": 1862956,
+        "size": 60,
+        "sha256": "eafb2ea10a1dba36867b0e01444d84e340a9559a336287357f846758fe99f1c7"
+      }
+    ],
+    "entries": [
+      {
+        "id": "map.smnn.0be243cc",
+        "record_sha256": "06164b075d38d941e7b168e5da914f1c90b6680b767e5edb39f6ca6b47e9440e",
+        "label_sha256": "bbf01d86515b9f6f3767594099d7c1319cd2d989f09050c7099d62161236e133",
+        "base_record_sha256": "038a4985eeef8947e6d17d7282ba48b59dd344b7e254a6ebbd4670f9e366d786",
+        "translation": "Mecânico severo",
+        "layout": "named-choice-separator-pack",
+        "target_offsets": [
+          199377908,
+          199377924,
+          199377959
+        ]
+      },
+      {
+        "id": "map.smnn.0e76e4bc",
+        "record_sha256": "18c3e52c3869a9a2aa39d67622b486f7f2aae234dfd4ef083ca29bca30b290fd",
+        "label_sha256": "20fe1bd201cd900bdbffeaec0b42e40b51cbf6b37ae5fbeaddd83aab9a221837",
+        "base_record_sha256": "aacd3ff5d250976adca1c16d2d49cd738090817712a96396c027bed548d34ab0",
+        "translation": "Homem",
+        "layout": "named-choice-separator-pack",
+        "target_offsets": [
+          242672868,
+          242672972,
+          242673034
+        ]
+      },
+      {
+        "id": "map.smnn.0e76fad4",
+        "record_sha256": "44ff46c2e288c2aa8a8412258e4c4d8a674bce8f0f98aa5ab755521182301b6d",
+        "label_sha256": "20fe1bd201cd900bdbffeaec0b42e40b51cbf6b37ae5fbeaddd83aab9a221837",
+        "base_record_sha256": "674ff7d00c48f65e9a7d2d4a6f78f0a46a4810546f33127363dd4542afd61d55",
+        "translation": "Homem",
+        "layout": "named-choice-separator-pack",
+        "target_offsets": [
+          242678524,
+          242678588,
+          242678622
+        ]
+      },
+      {
+        "id": "map.smnn.0e7775d4",
+        "record_sha256": "84f584bfb1e4963b0a762b722503172348291416ff6f9d3420292fb7aa08ea73",
+        "label_sha256": "b0ff7fbd88e1917bdfdb637ac7482e5f7ae6da17edb786509eb88827497bed6f",
+        "base_record_sha256": "b79045241c52d679d16aa1747bb0519b12f511a452a04e973641775c31f38614",
+        "translation": "Fã de ônibus",
+        "layout": "label-tail-bytes",
+        "target_offsets": [
+          242710012,
+          242710088,
+          242710101
+        ]
+      },
+      {
+        "id": "map.msgn.0e77768c",
+        "record_sha256": "da2208c43c13be237322781f68d3d15c2fdc782db02db753cbf336d6a48e80c2",
+        "label_sha256": "b0ff7fbd88e1917bdfdb637ac7482e5f7ae6da17edb786509eb88827497bed6f",
+        "base_record_sha256": "0afcc36fe930013fff462cdf6da71f52d160186c87472cef7dcd96926f703d9e",
+        "translation": "Fã de ônibus",
+        "layout": "label-tail-bytes",
+        "target_offsets": [
+          242710188,
+          242710589
+        ]
+      },
+      {
+        "id": "map.msgn.0e77785c",
+        "record_sha256": "f7ee48d0f79cd378a421f761dc520a36e288b68025d3d24f7ee35506ac515821",
+        "label_sha256": "b0ff7fbd88e1917bdfdb637ac7482e5f7ae6da17edb786509eb88827497bed6f",
+        "base_record_sha256": "6a80e120b4465893acdd54c21105d3f3ac4e3aa69eff652e4da12bc82fe5cfde",
+        "translation": "Fã de ônibus",
+        "layout": "label-tail-bytes",
+        "target_offsets": [
+          242710652,
+          242710837
+        ]
+      },
+      {
+        "id": "map.msgn.1033ea84",
+        "record_sha256": "2b5374ef1b1ed6b4a3166edf847d9e30fa39c467a2af831a5f62c69ef023007e",
+        "label_sha256": "33f3275be040bad030ebbfe74c790635209d0556f454e63a1478cd6c5a8d5ba5",
+        "base_record_sha256": "0639d88fa0199cf177995fbfbaabecfe55300d5ba4387b8b39bb32f32553a7ca",
+        "translation": "Agente do Hunter Office",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          271837860,
+          271837948
+        ]
+      },
+      {
+        "id": "map.msgn.1033ed10",
+        "record_sha256": "70328826661d3fe316528a37e482a1a905b9f21104e38e1098f1bb6b461f3ff5",
+        "label_sha256": "33f3275be040bad030ebbfe74c790635209d0556f454e63a1478cd6c5a8d5ba5",
+        "base_record_sha256": "9ce06e05d2645537812b1fe8cad1fa0c1eb51a395637ce8a5338b29f05dbf319",
+        "translation": "Agente do Hunter Office",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          271838512,
+          271838612
+        ]
+      },
+      {
+        "id": "map.smnn.10340a50",
+        "record_sha256": "d94ff91de411e5ca5062065af6a4bbd5f1e1b5d597418e2716c12c24a4cb9565",
+        "label_sha256": "20fe1bd201cd900bdbffeaec0b42e40b51cbf6b37ae5fbeaddd83aab9a221837",
+        "base_record_sha256": "dbf861304de2caafaf03bf5fdeb0587ad1103afddf747ae11d4cfd9d48c7260c",
+        "translation": "Homem",
+        "layout": "named-choice-separator-pack",
+        "target_offsets": [
+          271846008,
+          271846240,
+          271846254
+        ]
+      },
+      {
+        "id": "map.smnn.169b6bec",
+        "record_sha256": "087355690e41fabf5e10cc36e6803875c11c0b9ac069b91723614cbabe6eadb1",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "a3382ead9963f5aaf407d2f6eeddb50fac9f24a4e3467400b4c6e196237fe997",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379284500,
+          379284628,
+          379284652
+        ]
+      },
+      {
+        "id": "map.msgn.169b6ce0",
+        "record_sha256": "15c7cd975dde16d7d5cb46ea8bd75e86441f0d345c5ce456b1ecc527d85d2cbc",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "ca32afcbd04a04f386a929e5d81dffac143d0f7c14b2c67b6aed9d52be9d3150",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379284736,
+          379284808
+        ]
+      },
+      {
+        "id": "map.smnn.169b6d8c",
+        "record_sha256": "cb1099338dc5de54c339821413d660d5382d014e35b62fa11e02891a50abfe72",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "f684bb9a1512a25f5a1d95e2eb66da0474fbf386abd6fecd1e02133216a78eb4",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379284916,
+          379284984,
+          379285020
+        ]
+      },
+      {
+        "id": "map.msgn.169b6e50",
+        "record_sha256": "006f419201c6a421bd3abf85422523f8f8223a8bee00a0f843ea027633c9c3ea",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "fa3b44510771d4cc3f256ce415bf748d6b808d8febbc41ff93bd43121928875d",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379285104,
+          379285308
+        ]
+      },
+      {
+        "id": "map.msgn.169b6fa0",
+        "record_sha256": "0d9930d033b34561da173a89b50bb97465468a52b27db44ee2cb164c24042e97",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "2dda869b35966a8e89baf946c01aa545d22490d9b73e4b2f2a17a5130a02a144",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379285440,
+          379285480
+        ]
+      },
+      {
+        "id": "map.msgn.169b7134",
+        "record_sha256": "32f74eb853308760f9da67c27cc9b8a96b5d2d4730a92fe8a19bd725f9ebd3f7",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "948c18d81cd760c991c5ae34c5aadd41bc7542bd464c0a4f9c70ddc1dda38bca",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379285844,
+          379285904
+        ]
+      },
+      {
+        "id": "map.msgn.169b72d4",
+        "record_sha256": "5c0d9d8a87118a2c29608a3d86c2f073bb08d7e2cae9f4a9631e94b2061d48d0",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "de728cd49372f299b53acce5af41c7e4e5c90cdc4a127b5357fa724e12e2f385",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379286260,
+          379286488
+        ]
+      },
+      {
+        "id": "map.msgn.169b75ec",
+        "record_sha256": "61246ff3fe204d5ed21cdef2d2f7d14d6971aceb8729953b707a2d4fd6e5c8bc",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "619e8884d012bf5649d125959514b43e07d0d63a2ec1fd4ec43fd98be8629715",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379287052,
+          379287288
+        ]
+      },
+      {
+        "id": "map.msgn.169b7704",
+        "record_sha256": "54f79c35e82a48b06678d7e3db8d366fdee995235e070abcb86e67b8bfd5451d",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "72981d6ef8d7a5245a64432efb5fd69dcd0e8b9a5b3351dc504f51ce1d13f632",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379287332,
+          379287372
+        ]
+      },
+      {
+        "id": "map.msgn.169b7998",
+        "record_sha256": "47742abb57096214abcbf0f7bc2d45bf691c1335025b0bbbd00d29c2e442c676",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "8793ed6b1b93ad3e2a02e4212778c2f9ff673ba38f2bf3b644b770573e68c3bb",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379287992,
+          379288064
+        ]
+      },
+      {
+        "id": "map.msgn.169b7a0c",
+        "record_sha256": "cd645d9bdbc7ccaff3d4fb8dd739c7d200cbe8f38cb50df19341e3fa177e34ff",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "dc9ecb25bf927992bb7773846da01740d65bebf233f8772c726affd0ff12708c",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379288108,
+          379288168
+        ]
+      },
+      {
+        "id": "map.msgn.169b7dfc",
+        "record_sha256": "b8ad8c320e8752296349d396349beb8ed376bd0c1d850fe331430f31a48c64ee",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "0addd270066b7aaf4030f4bd1f9e32393086fe31a36f694b8a9070da4c3e3826",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379289116,
+          379289904
+        ]
+      },
+      {
+        "id": "map.msgn.169b838c",
+        "record_sha256": "02df48d4384d01624a4b239d3d39bea1f3c7c2d8cc157217ee0f50c993990641",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "9269ca14e0b242de0eeb3a4de88dcb0a85d0ba4710c60bbcc73173a72191c500",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379290540,
+          379290740
+        ]
+      },
+      {
+        "id": "map.msgn.169b8604",
+        "record_sha256": "2d144771932f07c6a9635e25f2d678b3159313d84b909b2a6a4bf85f0af71993",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "905750a859b6f99e9c196f280bb145762fd5b64cb6d65019ad10a9c12e7ca0a5",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379291172,
+          379291392
+        ]
+      },
+      {
+        "id": "map.msgn.169b8760",
+        "record_sha256": "3c10bb9c83d47038168f230cf022ecee6cb7c0d2465147506fec1f144bc9eb53",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "ed4d86a70d52de10a19fdc4213f36b0d8761e20ec90b44078d681c6d95e18cd0",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379291520,
+          379291588
+        ]
+      },
+      {
+        "id": "map.msgn.169b91dc",
+        "record_sha256": "b8f999051648ff66906764a070ec94d21c830f277c82abc6d2754aa42ea3210a",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "648011478a3dd678528ad1c226046cab8e53a25d517710dd44e62defdb1bdf72",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379294204,
+          379294308
+        ]
+      },
+      {
+        "id": "map.msgn.169ba464",
+        "record_sha256": "f9857026a7bd68133f17e145b96e7d4f78b89244e2cc88ebdc1ccdfe8eefa07e",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "06a51d2316a2a0f39ecc8504e8b0d35f14fad97fc27517442691202e78b83ceb",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379298948,
+          379298968
+        ]
+      },
+      {
+        "id": "map.msgn.169ba62c",
+        "record_sha256": "f563a552cf1a13251af72ecf5c146c394f494d55561e2ec7b938fbac560958e7",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "d4282f6b51c008535e1bb903aa1acf3a5e3615feee6f397dd903d217218920d3",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379299404,
+          379299448
+        ]
+      },
+      {
+        "id": "map.msgn.169ba8e0",
+        "record_sha256": "d5890bf6eb8fda85a089daca5b9891c4d88970e00ccda24ac2cc9e09a8a9c061",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "7f6a160df4502ca89f89bb461b0ea88642837a749db60c60b58ee57543f50015",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379300096,
+          379300116
+        ]
+      },
+      {
+        "id": "map.msgn.169badc4",
+        "record_sha256": "f7ec3a1a3de97c755aef5d73c10815a7e4a9d8d4a7b02b95f6c27724744697f4",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "0a588822bcd09da6e3f9a14b6f8214256a96e66320189d3843b334f26f97e02e",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379301348,
+          379301444
+        ]
+      },
+      {
+        "id": "map.msgn.169bb1f8",
+        "record_sha256": "20c66eb4ec7aa16ede8f8dd7b595071cf551836bbc4a6638586315564c9fdad5",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "da9fe19c5cb41fbe4d8da755be5945d401b998acd439e9043ade28da55b27db5",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379302424,
+          379302472
+        ]
+      },
+      {
+        "id": "map.smnn.169bb498",
+        "record_sha256": "9fa269d505b2f5d71b038738da51bc13fbef5f7a266c0e1e45fb1af2f6cd937a",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "68796f777b49bdaa8d255b96f14284f8bb39acc30166c4e2c4b490525c378a41",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379303104,
+          379303148,
+          379303192
+        ]
+      },
+      {
+        "id": "map.msgn.169bb5ac",
+        "record_sha256": "5d39eeb09eb6733ef139aa035697cb5e4b05bb24b03888b3a2c1922b52c0b9b0",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "7e8e3110cd3c46bcec32e74bdd155cff7639da716f59dba5e647b1e35a2d7cc4",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379303372,
+          379303444
+        ]
+      },
+      {
+        "id": "map.msgn.169bb770",
+        "record_sha256": "321a1a9d890eb9d67122408027d7286b29fa37ee9ddbd3208805ae2c6bcbb591",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "4c5fffd9b1432f523a97d4d39aebd4117d8fcd167ed496d51d816d37a78a349c",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379303824,
+          379303896
+        ]
+      },
+      {
+        "id": "map.msgn.169bbbd8",
+        "record_sha256": "5feba4812eefb552a119c18f44c3fef98e934570ae9f1a8a33e03045d1e575db",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "5ab01f222def6d35a50299af39ceeeaaa5849ad9c4c4f0fba6ca96b0b4e3be94",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379304952,
+          379304972
+        ]
+      },
+      {
+        "id": "map.msgn.169bbda0",
+        "record_sha256": "c7a842872bd159c6b42857b9bfe1b6309bc28e082fe8f39a977551793503cf79",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "08b6cb44b05f3c32b17edc89fa553a529e926037150ef783057b39aa59a4ef76",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379305408,
+          379305452
+        ]
+      },
+      {
+        "id": "map.msgn.169bc054",
+        "record_sha256": "c7256c37784eb1213f089f12f69f97384f716e5e1a47e70bd446955a74978627",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "6d9ecfdbf1eb01cf478df194a6107d48e7070b4bb6dad554b5e8c43feaf8c76a",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379306100,
+          379306120
+        ]
+      },
+      {
+        "id": "map.msgn.169bc538",
+        "record_sha256": "80eccd677d4cd7a32b6f643dfbb44ca67ac7e0186fab407e66ffb09ffdb08465",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "e6aaf6d84d01ad8c3235f202c1b7f08a8601afc3a409df53762feded0493c2c7",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379307352,
+          379307448
+        ]
+      },
+      {
+        "id": "map.msgn.169bc98c",
+        "record_sha256": "b879ae1fbb5df89a07a390df322877cfda56a77f061e77ebeec992188f7c7635",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "4da6be2acf6ae707948654ac42d0db7a21c2c1e63e5ed9f91264bbfb75313fc4",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379308460,
+          379308508
+        ]
+      },
+      {
+        "id": "map.smnn.169bcc2c",
+        "record_sha256": "6abd579c08c8585082855310545de364adaaac310fe6f86aa45e764fee3382ea",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "21413e455ebde691c0a8b855bc0e58c10738baa2b9839b5bd92a6445f7d0c804",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379309140,
+          379309184,
+          379309228
+        ]
+      },
+      {
+        "id": "map.msgn.169bcd40",
+        "record_sha256": "417ad0b97fef6de0002f1c5bcddc44c12e13daae1840e0df7406d85de426717e",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "f2a1cfcdd50de89622bb762a2e702a7c461c45050af2a85ab81a384f4fab0fac",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379309408,
+          379309480
+        ]
+      },
+      {
+        "id": "map.msgn.169bcf04",
+        "record_sha256": "7e5306c7b15d843c5c5b81658d92947734ac709262cc129c1909c6a2156699d9",
+        "label_sha256": "efc88501f197fe927c1ef348d5b0ea8812d50f2154651676a6e5f466d8b5262a",
+        "base_record_sha256": "f91d5889ba47a7b3ea7f40bd2847e626cef9a244de7aa4347298e7e7f1dae8c4",
+        "translation": "Fiel dirigente",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379309860,
+          379309932
+        ]
+      },
+      {
+        "id": "map.msgn.169bd7c4",
+        "record_sha256": "c5d0ea79e205c154df929417647168e5f8befe960af85eb11d9bc9720bbcabd8",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "db5527f5ee5ab38918a121afdd603cf38b670849147b622bc0f625b9ebb12b59",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379312100,
+          379312132
+        ]
+      },
+      {
+        "id": "map.msgn.169bdab4",
+        "record_sha256": "037dad9e5c775c391fbe1f2114d90a1210a574c0c76ec1ea5da3df5d4d7ef5ae",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "192765282adf241ec4c01653fa9ebe7c6896ae08276a0c6c4596cb70f6580f7c",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379312852,
+          379312884
+        ]
+      },
+      {
+        "id": "map.msgn.169bdc5c",
+        "record_sha256": "a68781f3ffbe8b8c1b99e26895b6547207b78aa240d1ee9f83984e94e0b0b4b1",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "398b54b86ec077f5033b9d875af72a5f7c6104b6f9bf3683dea46b10d669da30",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379313276,
+          379313320
+        ]
+      },
+      {
+        "id": "map.msgn.169c02ec",
+        "record_sha256": "5b7d5eb391c537136118b8d0c4986f131ade603ceff90ef7e061bb49032b541e",
+        "label_sha256": "5efd9ee5672b9d961720fc8adb95ff4d8c87a6c5d6501942f5b014a85e590b85",
+        "base_record_sha256": "c089a57046076c42db6037dbe6b11b94b786cae539ef848448bc3793155e26c1",
+        "translation": "Musculoso",
+        "layout": "fixed-label-slot",
+        "target_offsets": [
+          379323148,
+          379323276
+        ]
+      }
+    ]
+  }
+}

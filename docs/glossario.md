@@ -352,3 +352,19 @@ Preservar Thursday, C Unit, chassis e armas com nomes próprios. Scrap metal con
 ## Categorias de armamento — interface v004
 
 Preservar **MAIN**, **SUB** e **SE** como categorias de ataques e armamento de tanques, no menu e nas referências em ajuda, diário e diálogos. Pode-se escrever “arma MAIN”, “arma SUB” ou “arma SE” quando o contexto exigir. Não substituir por principal/secundária/especial nem alterar nomes únicos de armas. Regra opt-in em `tools/weapon_terms.py`; receitas históricas permanecem reproduzíveis.
+## Rótulos contextuais v037
+
+Estas formas valem para os rótulos explicitamente revistos na receita v037:
+
+| Origem | Rótulo PT-BR | Contexto |
+|---|---|---|
+| Muscle Man | Musculoso | Guia/participantes da catedral; não alterar Father Muscle |
+| Executive Believer | Fiel dirigente | Fiel que organiza os grupos e orienta os iniciados; título funcional |
+| Bus Maniac | Fã de ônibus | Entusiasta que procura gravações dos anúncios do ônibus |
+| Hunter Office employee | Agente do Hunter Office | Funcionário do guichê; preservar Hunter Office completo |
+
+Executive foi interpretado como qualificação funcional nesse grupo de falas,
+não como nome de uma divindade. Isso não estabelece um ID canônico nem autoriza
+traduzir automaticamente títulos semelhantes. Father Muscle e Gluteus Maximism
+continuam preservados. As falas da catedral, incluindo humor e doutrina,
+não foram reescritas nesta rodada. Fonte/layout e nomes próprios permanecem.
