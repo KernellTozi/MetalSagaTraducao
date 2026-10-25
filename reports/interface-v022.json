@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "version": "interface-v022",
+  "previous": "interface-v021",
+  "front": "generic-equipment",
+  "new_names": 20,
+  "interface_count": 2077,
+  "total_names": 477,
+  "distinct_translated_labels": 462,
+  "name_review": {
+    "selected": 523,
+    "accepted": 477,
+    "pending": 45,
+    "preserved": 1,
+    "resumed_ids": [
+      "item.name.0141",
+      "item.name.0187"
+    ]
+  },
+  "new_name_fields": [
+    {
+      "id": "item.name.0113",
+      "item_id": 113,
+      "offset": 16544,
+      "source_bytes": 10,
+      "target_bytes": 12,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0127",
+      "item_id": 127,
+      "offset": 18336,
+      "source_bytes": 10,
+      "target_bytes": 10,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0128",
+      "item_id": 128,
+      "offset": 18464,
+      "source_bytes": 13,
+      "target_bytes": 13,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0133",
+      "item_id": 133,
+      "offset": 19104,
+      "source_bytes": 10,
+      "target_bytes": 11,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0135",
+      "item_id": 135,
+      "offset": 19360,
+      "source_bytes": 9,
+      "target_bytes": 12,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0141",
+      "item_id": 141,
+      "offset": 20128,
+      "source_bytes": 11,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0150",
+      "item_id": 150,
+      "offset": 21280,
+      "source_bytes": 14,
+      "target_bytes": 15,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0151",
+      "item_id": 151,
+      "offset": 21408,
+      "source_bytes": 10,
+      "target_bytes": 9,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0161",
+      "item_id": 161,
+      "offset": 22688,
+      "source_bytes": 12,
+      "target_bytes": 11,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0162",
+      "item_id": 162,
+      "offset": 22816,
+      "source_bytes": 9,
+      "target_bytes": 9,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0165",
+      "item_id": 165,
+      "offset": 23200,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0166",
+      "item_id": 166,
+      "offset": 23328,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0167",
+      "item_id": 167,
+      "offset": 23456,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0168",
+      "item_id": 168,
+      "offset": 23584,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0169",
+      "item_id": 169,
+      "offset": 23712,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0170",
+      "item_id": 170,
+      "offset": 23840,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0171",
+      "item_id": 171,
+      "offset": 23968,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0172",
+      "item_id": 172,
+      "offset": 24096,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0173",
+      "item_id": 173,
+      "offset": 24224,
+      "source_bytes": 13,
+      "target_bytes": 16,
+      "group": "generic-equipment"
+    },
+    {
+      "id": "item.name.0187",
+      "item_id": 187,
+      "offset": 26016,
+      "source_bytes": 12,
+      "target_bytes": 14,
+      "group": "generic-equipment"
+    }
+  ],
+  "description_count_unchanged": 536,
+  "description_item_ids_unchanged": 883,
+  "map_changed": 5892,
+  "layout_profile": "ptbr-layout-v005",
+  "iso": {
+    "path": "work/interface-v022/MetalSaga-ptbr-interface-v022.iso",
+    "size": 1704427520,
+    "sha256": "f0d33e8574cdbfee95d349d88a66353ee1292e067a3d5d05bedb6aff4a483230"
+  },
+  "full_iso_comparison": {
+    "source_sha256": "9aeb41ee8f1452bc24e65ac0a0c50aae5a659a66e15c5ecd9ef28ca6b3934a43",
+    "all_bytes_match_expected_patch": true,
+    "changed_bytes": 270,
+    "authorized_intervals": 20,
+    "directory_identical": true
+  },
+  "tests": {
+    "passed": 26,
+    "v022": 5,
+    "observed_name_ceiling": 7,
+    "menu_planning": 6,
+    "iso_retention": 5,
+    "alpha": 3
+  },
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "onedrive_copied": false
+}
