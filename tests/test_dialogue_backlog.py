@@ -47,6 +47,10 @@ class DialogueBacklog(unittest.TestCase):
         meta,rows=collect_labels(doc)
         self.assertEqual((meta['label_references'],meta['unique_labels']),(2,1))
         self.assertFalse(meta['editing_authorized']);self.assertEqual(len(rows[0]['references']),2)
+        doc['speaker_label_policy']='scoped-test';doc['entries'][0]['segments'][0]['translation']='Nome'
+        meta,rows=collect_labels(doc)
+        self.assertEqual(meta['translated_label_references'],1);self.assertEqual(meta['remaining_label_references'],1)
+        self.assertFalse(meta['editing_authorized']);self.assertEqual(meta['explicit_overlay_policy'],'scoped-test')
         doc['entries'][0]['segments'][0]['editable']=True
         with self.assertRaises(ValueError):collect_labels(doc)
     def test_label_consumer_calls_bound_but_editing_still_not_enabled(self):

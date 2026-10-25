@@ -163,6 +163,11 @@ def compile_draft(data,draft):
     document={'schema':1,'policy':policy,'resource':RESOURCE,'source_sha256':source_hash(data),
               'catalog_version':'v003','entries':selected}
     patches,report=compile_batch(data,document,index)
+    if draft.get('speaker_labels'):
+        from speaker_labels import overlay
+        document,patches,report=overlay(data,document,patches,report,draft['speaker_labels'],
+            (ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes(),decisions)
+        by_id={e['id']:e for e in document['entries']}
     # Read back actual translated spans independently; the existing compiler
     # validates headers, controls, lengths and structural shadow parsers.
     for patch in patches:

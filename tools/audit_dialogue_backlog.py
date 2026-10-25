@@ -46,6 +46,7 @@ def classify(document,report,protected):
     groups=[{'record_ids':ids,'records':len(ids),'source_segment_sha256':[sha(bytes.fromhex(v)) for v in sig],
         'decision':'Source repeated verbatim; runtime/context unresolved, not translated or declared debug'} for sig,ids in native.items()]
     metadata={'catalog_records':summary['records'],'translated_records':summary['classes']['modified'],
+        'body_or_choice_changed_records':sum(any(s.get('key','body')!='label' and s['translation']!=s['source'] for s in e['segments']) for e in document['entries']),
         'technical_deferrals':summary['classes']['deferred'],
         'protected_tank_names_still_noneditable':len(buckets['protected_tank_names_still_noneditable']),
         'native_pending_context':len(buckets['native_pending_context']),
@@ -74,7 +75,7 @@ def scan_unparsed_ssd(data,index):
 
 
 def collect_labels(document):
-    labels={};references=0
+    labels={};references=0;translated=0
     for entry in document['entries']:
         for segment in entry['segments']:
             if segment['key']!='label':continue
@@ -82,9 +83,13 @@ def collect_labels(document):
             signature=segment['source_hex'];references+=1
             row=labels.setdefault(signature,{'source':segment['source'],'source_hex':signature,
                 'source_sha256':sha(bytes.fromhex(signature)),'references':[],'editing_authorized':False})
-            row['references'].append({'record_id':entry['id'],'offset':segment['offset'],'capacity':segment['capacity']})
+            target=segment.get('translation',segment['source']);changed=target!=segment['source'];translated+=changed
+            row['references'].append({'record_id':entry['id'],'offset':segment['offset'],'capacity':segment['capacity'],
+                'translation':target,'translated':changed})
     return {'label_references':references,'unique_labels':len(labels),'editing_authorized':False,
-        'limits':'Includes proper names, possible roles, markers and dynamic labels; no automatic translation or buffer-capacity proof'},list(labels.values())
+        'translated_label_references':translated,'remaining_label_references':references-translated,
+        'explicit_overlay_policy':document.get('speaker_label_policy'),
+        'limits':'No unrestricted or automatic label editing; explicit source-bound overlay may translate reviewed generic roles only; proper names, markers and unknown labels remain protected'},list(labels.values())
 
 
 def run(folder,output,summary_path=None):
@@ -107,6 +112,7 @@ def run(folder,output,summary_path=None):
         'source_map_sha256':document['source_sha256'],'compiled_plan_sha256':sha(p),
         'compiled_report_sha256':sha(r),'outside_known_parsers_scan':scan,
         'speaker_label_catalogue':label_metadata,'speaker_label_consumer_evidence':label_evidence,
+        'speaker_label_overlay_evidence':{k:v for k,v in report.get('speaker_labels',{}).items() if k!='results'},
         'originals_modified':False,'iso_created':False})
     result={**metadata,'local_review_entries':buckets,'local_new_candidates':hits,'local_speaker_labels':labels}
     output.parent.mkdir(parents=True,exist_ok=True)
@@ -119,7 +125,7 @@ def run(folder,output,summary_path=None):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Consolidar pendências de diálogo localmente em um JSON, sem IA/APIs')
-    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v033')
+    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v034')
     p.add_argument('--output',type=Path,default=ROOT/'work/dialogos-pendencias-atual.json')
     p.add_argument('--summary',type=Path);a=p.parse_args()
     print(json.dumps(run(a.build_dir,a.output,a.summary),ensure_ascii=False,indent=2))
