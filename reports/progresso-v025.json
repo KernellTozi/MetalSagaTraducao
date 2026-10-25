@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "baseline": "interface-v025 / MAP-v030",
+  "recipe_sha256": "9882bf5cf790b55eab1b65bbbcf4e847727201efb4fdbe98adfb19157318e414",
+  "percent_basis": "Counts of records/fields, not words, playtime or whole-game coverage",
+  "dialogue": {
+    "translated": 5892,
+    "catalogued": 7231,
+    "percent": 81.48,
+    "unchanged": 1339,
+    "technically_deferred": 123,
+    "note": "Unchanged includes names, expressions, control-only records and other preservation decisions; not 1339 missing translations."
+  },
+  "descriptions": {
+    "translated": 541,
+    "catalogued": 567,
+    "percent": 95.41,
+    "pending_space": 24,
+    "pending_control": 1,
+    "preserved_marker": 1,
+    "item_references": 889,
+    "pending_budget_groups": {
+      "byte-budget": 8,
+      "word-wrap+line-count+columns+byte-budget": 5,
+      "word-wrap+columns+byte-budget": 11,
+      "source-control+target-control": 1
+    }
+  },
+  "names": {
+    "translated_records": 516,
+    "distinct_translated_labels": 500,
+    "nonempty_total": 1041,
+    "outside_current_edit_scope_by_protected_category": 476,
+    "current_nonprotected_scope": 565,
+    "percent_of_current_nonprotected_scope": 91.33,
+    "pending_reviewed": 23,
+    "unreviewed": 26,
+    "pending_first_failures": {
+      "Unsupported project glyph U+00D3": 1,
+      "Item name original slot/control budget exceeded": 17,
+      "Termo/nome protegido ausente: Repair Kit": 1,
+      "Termo/nome protegido ausente: Fang": 2,
+      "Termo/nome protegido ausente: Bus Stop Sign": 1,
+      "Entry guards pass; editorial/alias review required": 1
+    },
+    "note": "Protected category is conservative scope exclusion, not a completed editorial review. Unreviewed names may need preservation rather than translation."
+  },
+  "interface": {
+    "implemented_fields": 2121,
+    "whole_interface_denominator": null,
+    "elf_referenced_candidates": 17,
+    "elf_blocked_reference_candidates": 23,
+    "note": "ELF candidates include technical data; not automatically translation targets. Graphical and uncatalogued contexts prevent a reliable total denominator."
+  },
+  "whole_game_percent": null,
+  "whole_game_percent_reason": "No complete deduplicated inventory of all visible resources and contexts; structural tests do not prove visual coverage.",
+  "integrity": {
+    "iso": "work/interface-v025/MetalSaga-ptbr-interface-v025.iso",
+    "sha256": "308fe9abbdb111f2df16975eecbb96bfb5c74e25f157bbb781913eec1e2d4b87",
+    "verified_this_planning_round": true,
+    "pending_transaction": false
+  },
+  "actions_this_round": {
+    "translation_changes": 0,
+    "iso_builds": 0,
+    "pcsx2_tests": 0
+  },
+  "priorities": [
+    "Add integrity check before emulator launch/delivery, with safe refusal on mismatch.",
+    "Review 49 name entries; classify preservation versus natural translations within proven limits.",
+    "Investigate original consumers and pool limits for 24 descriptions; prove 80%% separately.",
+    "Resolve remaining visible UI labels and audit graphical contexts; avoid treating ELF debug strings as menus.",
+    "Return to 123 MAP deferred entries by proven control family, excluding already decided N3 names.",
+    "Consolidated contextual/visual playthrough and reproducible final patch."
+  ]
+}

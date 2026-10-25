@@ -1,5 +1,7 @@
 # Plano para concluir a tradução
 
+**Planejamento atual sobre v025:** consultar [Próximos passos e cobertura](proximos-passos-v025.md). MAP conhecido: 81,48%; descrições: 95,41%; nomes no recorte não protegido: 91,33%. São métricas de registros, não percentual do jogo inteiro. Prioridade: integridade no iniciador, revisão dos 49 nomes restantes, capacidade das descrições e lacunas reais de interface; fragmentos MAP depois. Nenhuma tradução ou ISO nova nesta rodada.
+
 **Atualização v021:** cinco frentes de nomes somam 268 inclusões, mais 17
 mensagens de sistema: 285 ocorrências novas e 2.057 acumuladas. São 457 nomes
 traduzidos; descrições continuam 536/567 e MAP v030 intacto. Perfil opt-in de
