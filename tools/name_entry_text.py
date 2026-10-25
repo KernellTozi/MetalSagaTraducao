@@ -36,8 +36,12 @@ def catalog(elf):
 
 
 def compile_name_entry(elf, config):
-    if config.get('policy') != POLICY:
+    from name_back_command import POLICY as BACK_POLICY,proof as back_proof
+    if config.get('policy') not in (POLICY,BACK_POLICY):
         raise ValueError('Unknown name entry policy')
+    back=None
+    if config['policy']==BACK_POLICY:back=back_proof(elf,config['back_evidence'])
+    elif 'back_evidence' in config:raise ValueError('Historic name policy cannot release BACK')
     rows = catalog(elf)
     targets = config.get('entries', [])
     if len(targets) != len(rows):
@@ -64,6 +68,7 @@ def compile_name_entry(elf, config):
                 raise ValueError('Name legend slot topology changed')
             reviewed = {b'INPUT': 'INS.', b'SELECT': 'SEL.', b'END': 'FIM',
                         b'CANCEL': 'CANC.', b'DELETE': 'APAGAR', b'TITLE': 'TITLE', b'BACK': 'BACK'}
+            if back:reviewed[b'BACK']='VOL.'
             for slot, replacement in zip(row['slots'], target['slots']):
                 a, n = slot['offset'], slot['size']
                 if set(replacement) != {'offset', 'size', 'source_sha256', 'translation'}:
@@ -85,8 +90,9 @@ def compile_name_entry(elf, config):
         patches.append({'resource': 'SLUS_212.93', 'id': row['id'], 'offset': start,
                         'before': before+b'\0', 'after': bytes(after)+b'\0'})
         reports.append({**row, 'target_sha256': sha(after), 'changed_bytes': sum(a != b for a, b in zip(before, after))})
-    return patches, {'policy': POLICY, 'accepted': len(rows), 'results': reports,
+    return patches, {'policy': config['policy'], 'accepted': len(rows), 'results': reports,
                      'native_bytes_and_slot_offsets_unchanged': True,
                      'runtime_visual_status': 'pending_user_verification',
-                     'pending_command_semantics': ['TITLE', 'BACK'],
+                     'pending_command_semantics': ['TITLE'] if back else ['TITLE', 'BACK'],
+                     **({'back_navigation':back} if back else {}),
                      'instruction_windows': [{'offset': a, 'size': z-a, 'sha256': h} for a, z, h in WINDOWS]}

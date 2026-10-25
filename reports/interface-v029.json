@@ -1,0 +1,664 @@
+{
+  "old_recipe": "translations/interface-v028.json",
+  "new_recipe": "translations/interface-v029.json",
+  "source_iso_sha256": "594b1344b0088b5218795c8c3e7943b08a5d7a40514c210b19f6704644bdd32e",
+  "output_iso_sha256": "f6d5bde30abbda60206a4434663e717e6735c71c7c92f90b260514a250254ca3",
+  "iso_size": 1704427520,
+  "changed_bytes": 3638,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "password.three-labels",
+      "resource": "DATA/FDATA/PASSWORD.SDA",
+      "iso_offset": 46465200,
+      "size": 66576
+    },
+    {
+      "id": "name-entry.0032a310",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254224,
+      "size": 52
+    },
+    {
+      "id": "name-entry.0032a348",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254280,
+      "size": 52
+    },
+    {
+      "id": "name-entry.0032a380",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254336,
+      "size": 52
+    }
+  ],
+  "pcsx2_executed": false,
+  "schema": 1,
+  "version": "interface-v029",
+  "previous": "interface-v028",
+  "date": "2026-10-25",
+  "interface_count": 3449,
+  "new_graphic_fields": 3,
+  "revised_existing_name_legend_slots": 3,
+  "revised_legend_different_bytes": 12,
+  "revised_slots_not_counted_as_new_records": true,
+  "password_graphics": {
+    "policy": "password-panel-three-native-labels-v001",
+    "accepted": 3,
+    "results": [
+      {
+        "id": "password.graphic.18",
+        "translation": "DESTRAVAR",
+        "sprite_index": 18,
+        "rect": [
+          154,
+          170,
+          252,
+          192
+        ],
+        "layout": {
+          "natural_width": 98,
+          "rendered_width": 94,
+          "height": 20,
+          "horizontal_scale": 0.9591836734693877
+        }
+      },
+      {
+        "id": "password.graphic.01",
+        "translation": "TRAVAR",
+        "sprite_index": 1,
+        "rect": [
+          154,
+          200,
+          252,
+          222
+        ],
+        "layout": {
+          "natural_width": 66,
+          "rendered_width": 66,
+          "height": 20,
+          "horizontal_scale": 1.0
+        }
+      },
+      {
+        "id": "password.graphic.00",
+        "translation": "SAIR",
+        "sprite_index": 0,
+        "rect": [
+          154,
+          230,
+          252,
+          252
+        ],
+        "layout": {
+          "natural_width": 38,
+          "rendered_width": 38,
+          "height": 20,
+          "horizontal_scale": 1.0
+        }
+      }
+    ],
+    "evidence": {
+      "texture_offset": 399536,
+      "texture_bytes": 66576,
+      "ganm_offset": 466304,
+      "logical_key_to_sprite": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        1,
+        0
+      ],
+      "texture_upload_cases": 1,
+      "label_draw_cases": 15,
+      "action_keys": {
+        "unlock": 12,
+        "lock": 13,
+        "exit": 14
+      },
+      "scope": "Original integer argument forwarding in synthetic RAM; no renderer, resource loader, password validation or PS2 execution"
+    },
+    "instruction_windows": [
+      {
+        "offset": 1251664,
+        "size": 324,
+        "sha256": "6b782cafa4ee33e6a6b5d14476604b15974c7ccee70b035d04fa8dcf0c9a38cf"
+      },
+      {
+        "offset": 1255896,
+        "size": 196,
+        "sha256": "9dc305f8842fb215e8b2c244c2bff70cb048ea1fa2aed1243b4a224fd4f4327e"
+      },
+      {
+        "offset": 1256256,
+        "size": 260,
+        "sha256": "43c030752982a48b5551d7ba9bb3050d085520c501a8dadf937688e3960feb10"
+      },
+      {
+        "offset": 1253812,
+        "size": 52,
+        "sha256": "4cb9c1f1da96a7950b326dd2bbb4f9b49a7a28d8b7b4bc8e95a9793d9851e295"
+      },
+      {
+        "offset": 1254144,
+        "size": 44,
+        "sha256": "f0e2d61bffbb8b4ccf6fc215545bddcfb5e2988b062313645599f5dc6462bb72"
+      },
+      {
+        "offset": 3334432,
+        "size": 16,
+        "sha256": "a4e65fa0c28f136ae783b9991e18a5acafeeb786ba0a8db47659b3a65cf7eea2"
+      },
+      {
+        "offset": 3334656,
+        "size": 60,
+        "sha256": "fb3835d9a6bdb62d6f84e0981d29527987e1d4ef86d2ec12c0d89f58ca9ba564"
+      },
+      {
+        "offset": 3334800,
+        "size": 92,
+        "sha256": "c2e53f2cc3429ea200a427ac46ca35c609346014a2354248f6625bdb242203b2"
+      }
+    ],
+    "palette_alpha_ganm_numbers_controls_unchanged": true,
+    "target_texture_sha256": "60d7d56a31f7ac6e53fe9513daf931cf8d33737f24dc17954ee17eabffaf80cd",
+    "runtime_visual_status": "pending_user_verification"
+  },
+  "name_back_navigation": {
+    "policy": "name-entry-back-navigation-v002",
+    "instruction_windows": [
+      {
+        "offset": 1096284,
+        "size": 56,
+        "sha256": "6844cd409862274e60e7515923c3b6bbeeeda4d0e8c7096d965f2bb876857298"
+      },
+      {
+        "offset": 1100712,
+        "size": 56,
+        "sha256": "2e5ea2754953028ab00b8d902f27150a7000477c21bcb5d10d6ed98bcfa4d76a"
+      },
+      {
+        "offset": 1103160,
+        "size": 80,
+        "sha256": "7f85290090ecb7bf9b9c074a591e6eaf3de4bed10f1d8148db4673123a1bb1a3"
+      },
+      {
+        "offset": 1091956,
+        "size": 116,
+        "sha256": "c201bdb5a41449ef48776cf7b4e3d42fe774037eea3336197ef6bd52c9de0b8d"
+      },
+      {
+        "offset": 3318544,
+        "size": 168,
+        "sha256": "1a999aa9687de7895b61e4cf99f71c960c59938e8c60668d7abcd0d39b74f30c"
+      }
+    ],
+    "navigation_cases": [
+      {
+        "row": 0,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 4,
+        "name_unchanged": true
+      },
+      {
+        "row": 0,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 4,
+        "name_unchanged": true
+      },
+      {
+        "row": 0,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 4,
+        "name_unchanged": true
+      },
+      {
+        "row": 0,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 4,
+        "name_unchanged": true
+      },
+      {
+        "row": 0,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 4,
+        "name_unchanged": true
+      },
+      {
+        "row": 0,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 4,
+        "name_unchanged": true
+      },
+      {
+        "row": 1,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 1,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 1,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 1,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 1,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 1,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 2,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 2,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 2,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 2,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 2,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 2,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 3,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 3,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 3,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 3,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 3,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 3,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 4,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 4,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 4,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 4,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 4,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 4,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 5,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 5,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 5,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 5,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 5,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 5,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 6,
+        "alphabet": 0,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 6,
+        "alphabet": 0,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 0,
+        "name_unchanged": true
+      },
+      {
+        "row": 6,
+        "alphabet": 1,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 6,
+        "alphabet": 1,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 1,
+        "name_unchanged": true
+      },
+      {
+        "row": 6,
+        "alphabet": 2,
+        "name_present": false,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      },
+      {
+        "row": 6,
+        "alphabet": 2,
+        "name_present": true,
+        "next_row": 0,
+        "next_column": 2,
+        "name_unchanged": true
+      }
+    ],
+    "legend_cases": [
+      {
+        "name_present": false,
+        "title_mode": false,
+        "flags": 0,
+        "legend_mode": 3
+      },
+      {
+        "name_present": false,
+        "title_mode": false,
+        "flags": 2,
+        "legend_mode": 2
+      },
+      {
+        "name_present": false,
+        "title_mode": true,
+        "flags": 0,
+        "legend_mode": 1
+      },
+      {
+        "name_present": false,
+        "title_mode": true,
+        "flags": 2,
+        "legend_mode": 1
+      },
+      {
+        "name_present": true,
+        "title_mode": false,
+        "flags": 0,
+        "legend_mode": 3
+      },
+      {
+        "name_present": true,
+        "title_mode": false,
+        "flags": 2,
+        "legend_mode": 3
+      },
+      {
+        "name_present": true,
+        "title_mode": true,
+        "flags": 0,
+        "legend_mode": 3
+      },
+      {
+        "name_present": true,
+        "title_mode": true,
+        "flags": 2,
+        "legend_mode": 3
+      }
+    ],
+    "translation": "VOL.",
+    "meaning": "Return cursor from the character grid to the alphabet/category selector; no deletion or exit",
+    "title_status": "Still preserved; legend selection alone does not prove the caller returns to the title screen",
+    "scope": "Original integer navigation and legend selection in synthetic RAM; callback rendering, input backend and PS2 not executed"
+  },
+  "preserved": {
+    "item_descriptions": 566,
+    "description_item_references": 925,
+    "item_names": 516,
+    "pending_item_names": 25,
+    "map_translations": 5892,
+    "map_technical_deferrals": 123,
+    "layout_profile": "ptbr-layout-v005",
+    "title_art": "v014"
+  },
+  "tests": {
+    "distinct_passed": 258,
+    "suites": {
+      "interface": {
+        "passed": 237,
+        "seconds": 464.669,
+        "log": "work/testes-interface-v029.log"
+      },
+      "preflight": {
+        "passed": 7,
+        "seconds": 0.056,
+        "log": "work/testes-v029-iniciador.log"
+      },
+      "planning": {
+        "passed": 6,
+        "seconds": 0.001,
+        "log": "work/testes-v029-planejamento.log"
+      },
+      "retention": {
+        "passed": 5,
+        "seconds": 0.04,
+        "log": "work/testes-v029-retencao.log"
+      },
+      "alpha": {
+        "passed": 3,
+        "seconds": 0.973,
+        "log": "work/testes-v029-alpha.log"
+      }
+    },
+    "focused_password_repeat": {
+      "passed": 8,
+      "log": "work/testes-password-v029-final.log",
+      "reason": "Pinned deterministic raster hash and negative rendering-drift check after the complete regression; repeat not added to distinct count"
+    },
+    "repeated_runs_not_added": true
+  },
+  "final_compiler_report_equals_image_build_interface_report": true,
+  "preflight": {
+    "path": "work/interface-v029/MetalSaga-ptbr-interface-v029.iso",
+    "size": 1704427520,
+    "sha256": "f6d5bde30abbda60206a4434663e717e6735c71c7c92f90b260514a250254ca3",
+    "verified": true
+  },
+  "launcher_dry_run_passed": true,
+  "preview": "work/password-v029-comparacao.png",
+  "preview_inspected": true,
+  "preview_is_not_emulator_capture": true,
+  "retention": {
+    "work_isos": 5,
+    "alpha_readonly_hash_verified": true
+  },
+  "visual_status": "pending_user_normal_playthrough",
+  "onedrive_copy_performed": false
+}

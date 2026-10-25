@@ -237,6 +237,21 @@ def audit(draft,output):
                     if target['source_sha256']!=row['source_sha256']:raise ValueError('Interaction planning row mismatch')
                     item['translation']=target['translation']
                 interaction_rows.append(item)
+    password_rows=[];legend_pending=None
+    if recipe.get('password_graphics'):
+        from password_graphics import (RESOURCE as PASSWORD_RESOURCE,POLICY as PASSWORD_POLICY,
+            LABELS as PASSWORD_LABELS,bindings as password_bindings,probes as password_probes)
+        from interface_resources import original
+        cfg=recipe['password_graphics'];password=original(PASSWORD_RESOURCE)
+        if cfg!={'policy':PASSWORD_POLICY,'source_sha256':digest(password),'instruction_windows':password_bindings(elf)}:
+            raise ValueError('Password planning source/evidence mismatch')
+        password_probes(elf)
+        password_rows=[{'id':f'password.graphic.{i:02d}','resource':PASSWORD_RESOURCE,
+            'sprite_index':i,'rect':list(rect),'translation':text,
+            'status':'translated-in-recipe-pending-visual'} for i,text,rect in PASSWORD_LABELS]
+    if recipe.get('name_entry',{}).get('policy')=='name-entry-back-navigation-v002':
+        from name_back_command import proof as back_proof
+        back_proof(elf,recipe['name_entry']['back_evidence']);legend_pending=['TITLE']
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -255,7 +270,9 @@ def audit(draft,output):
             'item_name_pending_current_issues':dict(collections.Counter(r['current_validation']['issue'] or 'Entry guards pass; editorial/alias review required' for r in name_rows if 'current_validation' in r))} if name_rows else {}),
         **({'installer_fields':len(install_rows)} if install_rows else {}),
         **({'battle_fields':len(battle_rows),'battle_translated':dict(collections.Counter(r['kind'] for r in battle_rows if 'translation' in r))} if battle_rows else {}),
-        **({'interaction_fields':len(interaction_rows),'interaction_translated':dict(collections.Counter(r['kind'] for r in interaction_rows if 'translation' in r))} if interaction_rows else {})}
+        **({'interaction_fields':len(interaction_rows),'interaction_translated':dict(collections.Counter(r['kind'] for r in interaction_rows if 'translation' in r))} if interaction_rows else {}),
+        **({'password_graphic_fields':len(password_rows)} if password_rows else {}),
+        **({'name_legend_pending':legend_pending} if legend_pending is not None else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
         'source_elf_sha256':digest(elf),'source_spack_sha256':digest(pack),'summary':summary,
@@ -273,6 +290,7 @@ def audit(draft,output):
     if install_rows:document['installer_messages']=install_rows
     if battle_rows:document['battle_fields']=battle_rows
     if interaction_rows:document['interaction_fields']=interaction_rows
+    if password_rows:document['password_graphics']=password_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -284,6 +302,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v028.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v029.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))
