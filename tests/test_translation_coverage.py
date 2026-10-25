@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
-from audit_translation_coverage import audit
+from audit_translation_coverage import audit,load_compiled
 
 
 class CoverageTests(unittest.TestCase):
@@ -50,3 +50,27 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(summary['deferred_by_tag'],{'unknown':1})
         self.assertEqual(summary['opaque_parser_spans'],[{'syntax':'%I$15','occurrences':1,'records':1}])
         self.assertFalse(summary['automatic_edit_approval'])
+
+    def test_compact_plan_rebuilt_only_from_same_recipe_chain_and_counts(self):
+        import json,tempfile
+        from unittest.mock import patch
+        root=Path(__file__).resolve().parents[1]
+        report={'draft_sources':[{'path':'translations/regiao-inicial-v031.json','sha256':'bound'}],
+                'valid':True,'accepted':1,'unchanged':0,'refused':0,'deferred':[],
+                'source_sha256':'map','policy':'test'}
+        with tempfile.TemporaryDirectory(dir=root/'work',prefix='test-compact-audit-') as folder:
+            folder=Path(folder);(folder/'relatorio.json').write_text(json.dumps(report),encoding='utf-8')
+            with patch('build_translation_pilot.load_draft',return_value=({},report['draft_sources'])),patch(
+                'build_translation_pilot.compile_draft',return_value=({'entries':[]},[],report)):
+                plan,_=load_compiled(folder);self.assertEqual(json.loads(plan),{'entries':[]})
+            with patch('build_translation_pilot.load_draft',return_value=({},[])),self.assertRaises(ValueError):load_compiled(folder)
+            with patch('build_translation_pilot.load_draft',return_value=({},report['draft_sources'])),patch(
+                'build_translation_pilot.compile_draft',return_value=({},[],{**report,'accepted':2})),self.assertRaises(ValueError):load_compiled(folder)
+
+    def test_new_variable_policy_classifies_preserved_name_without_promoting_unknown(self):
+        from reinsertion import VARIABLE_POLICY
+        doc,report,policy=self.fixture();doc['policy']=VARIABLE_POLICY
+        entry=doc['entries'][2];entry['segments'][0].update(source='%N$1.',translation='%N$1.',source_hex=b'%N$1.'.hex())
+        summary,_=audit(doc,report,policy)
+        self.assertEqual(summary['classes']['controls_or_punctuation'],2)
+        self.assertEqual(summary['classes']['deferred'],1)

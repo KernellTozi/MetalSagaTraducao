@@ -9,15 +9,18 @@ from reinsertion import ROOT,local
 
 
 def inventory(folder):
-    plan_raw=(folder/'plano.json').read_bytes();report_raw=(folder/'relatorio.json').read_bytes()
+    from audit_translation_coverage import load_compiled
+    plan_raw,report_raw=load_compiled(folder)
     plan=json.loads(plan_raw);report=json.loads(report_raw)
     if not report['valid'] or report['refused']:raise ValueError('Use valid compiled data')
     if plan['source_sha256']!=report['source_sha256']:raise ValueError('Source bindings differ')
     deferred={x['id'] for x in report['deferred']};rows={e['id']:e for e in plan['entries']}
     if len(rows)!=len(plan['entries']) or not deferred.issubset(rows):raise ValueError('Invalid record IDs')
     tokenizer=tokens
-    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY
-    if plan.get('policy')==N0_POLICY:
+    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY
+    if plan.get('policy')==VARIABLE_POLICY:
+        from control_variable_refs import tokenize as tokenizer
+    elif plan.get('policy')==N0_POLICY:
         from control_n0 import tokenize as tokenizer
     elif plan.get('policy')==I0_POLICY:
         from control_i0 import tokenize as tokenizer

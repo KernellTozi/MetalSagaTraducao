@@ -19,6 +19,7 @@ NUMERIC15_POLICY='fixed-record-numeric15-preserved-slots-v008'
 T0_POLICY='fixed-record-t0-preserved-slots-v009'
 I0_POLICY='fixed-record-i0-preserved-slots-v010'
 N0_POLICY='fixed-record-n0-preserved-slots-v011'
+VARIABLE_POLICY='fixed-record-reviewed-variable-selectors-slots-v012'
 REPACK={b'msgn',b'smsg',b'2smg'}
 COPY_LIMITS={b'MC\0\0':31,b'SP\0\0':31,b'ST\0\0':31}
 
@@ -30,9 +31,11 @@ def local(path, new=False):
     return path
 
 
-def descriptor(data,at,index,*,named_choices=False,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False):
+def descriptor(data,at,index,*,named_choices=False,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False,variable_refs=False):
     tokenizer=tokens
-    if n0:
+    if variable_refs:
+        from control_variable_refs import tokenize as tokenizer
+    elif n0:
         from control_n0 import tokenize as tokenizer
     elif i0:
         from control_i0 import tokenize as tokenizer
@@ -126,9 +129,11 @@ def width_units(raw,tokenizer=tokens):
     return [sum(2 if c in CHAR_TO_BYTES else 1 for c in line) for line in decode(bytes(visible)).replace('\t','\n').split('\n')]
 
 
-def compile_entry(data,entry,old,*,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False):
+def compile_entry(data,entry,old,*,b15=False,numeric1=False,numeric15=False,t0=False,i0=False,n0=False,variable_refs=False):
     tokenizer=tokens
-    if n0:
+    if variable_refs:
+        from control_variable_refs import tokenize as tokenizer
+    elif n0:
         from control_n0 import tokenize as tokenizer
     elif i0:
         from control_i0 import tokenize as tokenizer
@@ -148,7 +153,7 @@ def compile_entry(data,entry,old,*,b15=False,numeric1=False,numeric15=False,t0=F
     if not changed:return None,{'status':'unchanged','id':old['id']}
     if old['blocked_reasons']:raise ValueError('; '.join(old['blocked_reasons']))
     output=bytearray.fromhex(old['header_hex']);raws=[];warnings=[]
-    limited=(b15 or numeric1 or numeric15 or t0 or i0 or n0) and any(any(t['kind'] in ('preserved-b15-reference','preserved-numeric1-reference','preserved-numeric15-reference','preserved-t0-reference','preserved-i0-reference','preserved-n0-reference') for t in tokenizer(bytes.fromhex(s['source_hex']))[0]) for s in old['segments'])
+    limited=(b15 or numeric1 or numeric15 or t0 or i0 or n0 or variable_refs) and any(any(t['kind'] in ('preserved-b15-reference','preserved-numeric1-reference','preserved-numeric15-reference','preserved-t0-reference','preserved-i0-reference','preserved-n0-reference','preserved-reviewed-variable-reference') for t in tokenizer(bytes.fromhex(s['source_hex']))[0]) for s in old['segments'])
     if limited and mode!='slots':raise ValueError('Dynamic reference requires fixed slots')
     for new,src in zip(entry['segments'],old['segments']):
         text=new['translation']
@@ -215,27 +220,31 @@ def compile_batch(data,document,index=None,verify_source=True):
     if not isinstance(document,dict) or not isinstance(document.get('entries'),list):raise ValueError('Formato de lote inválido')
     if any(not isinstance(e,dict) or not isinstance(e.get('segments'),list) or any(not isinstance(s,dict) for s in e['segments']) for e in document['entries']):
         raise ValueError('Estrutura de registros/segmentos inválida')
-    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY) or document.get('resource')!=RESOURCE:
+    if document.get('schema')!=1 or document.get('policy') not in (POLICY,NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY) or document.get('resource')!=RESOURCE:
         raise ValueError('Schema/política incompatível')
-    named_choices=document['policy'] in (NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY)
-    n0=document['policy']==N0_POLICY
-    i0=document['policy'] in (I0_POLICY,N0_POLICY)
+    named_choices=document['policy'] in (NAMED_POLICY,B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
+    variable_refs=document['policy']==VARIABLE_POLICY
+    n0=document['policy'] in (N0_POLICY,VARIABLE_POLICY)
+    if variable_refs:
+        from control_variable_refs import verify as verify_variables
+        variable_evidence=verify_variables((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
+    i0=document['policy'] in (I0_POLICY,N0_POLICY,VARIABLE_POLICY)
     if n0:
         from control_n0 import verify as verify_n0
         n0_evidence=verify_n0((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    t0=document['policy'] in (T0_POLICY,I0_POLICY,N0_POLICY)
+    t0=document['policy'] in (T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
     if i0:
         from control_i0 import verify as verify_i0
         i0_evidence=verify_i0((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    numeric15=document['policy'] in (NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY)
+    numeric15=document['policy'] in (NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
     if t0:
         from control_t0 import verify as verify_t0
         t0_evidence=verify_t0((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    numeric1=document['policy'] in (NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY)
+    numeric1=document['policy'] in (NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
     if numeric15:
         from control_numeric15 import verify as verify_numeric15
         numeric15_evidence=verify_numeric15((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
-    b15=document['policy'] in (B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY)
+    b15=document['policy'] in (B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY)
     if numeric1:
         from control_numeric1 import verify as verify_numeric1
         numeric1_evidence=verify_numeric1((ROOT/'JOGO/Metal Saga/SLUS_212.93').read_bytes())
@@ -252,8 +261,8 @@ def compile_batch(data,document,index=None,verify_source=True):
         try:
             at=entry['offset']
             if at in seen:raise ValueError('ID/offset duplicado no lote')
-            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0)
-            patch,result=compile_entry(data,entry,old,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0)
+            seen.add(at);old=descriptor(data,at,index,named_choices=named_choices,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0,variable_refs=variable_refs)
+            patch,result=compile_entry(data,entry,old,b15=b15,numeric1=numeric1,numeric15=numeric15,t0=t0,i0=i0,n0=n0,variable_refs=variable_refs)
             results.append(result)
             if patch:patches.append(patch)
         except (ValueError,KeyError,TypeError,UnicodeError) as error:
@@ -278,6 +287,7 @@ def compile_batch(data,document,index=None,verify_source=True):
     if t0:report['t0_evidence']=t0_evidence
     if i0:report['i0_evidence']=i0_evidence
     if n0:report['n0_evidence']=n0_evidence
+    if variable_refs:report['reviewed_variable_evidence']=variable_evidence
     return (patches if valid else []),report
 
 

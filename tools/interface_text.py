@@ -201,6 +201,10 @@ def compile_draft(data,draft):
     if draft.get('password_graphics'):
         from password_graphics import compile_graphics as compile_password
         extra,password_report=compile_password(data,draft['password_graphics']);patches.extend(extra)
+    finish_report={'accepted':0}
+    if draft.get('name_finish_graphics'):
+        from name_finish_graphics import compile_graphics as compile_finish
+        extra,finish_report=compile_finish(data,draft['name_finish_graphics']);patches.extend(extra)
     context_report=None
     if draft.get('canine_status_context'):
         from character_status_context import proof as context_proof
@@ -215,11 +219,12 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted']+battle_report['accepted']+interaction_report['accepted']+password_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted']+battle_report['accepted']+interaction_report['accepted']+password_report['accepted']+finish_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         **({'install_texts':install_report} if draft.get('install_texts') else {}),
         'graphic_labels':graphics_report,
         **({'password_graphics':password_report} if draft.get('password_graphics') else {}),
+        **({'name_finish_graphics':finish_report} if draft.get('name_finish_graphics') else {}),
         **({'spack_ui':spack_report} if draft.get('spack_ui') else {}),
         **({'character_status':status_report} if draft.get('character_status') else {}),
         **({'satcom_records':satcom_report} if draft.get('satcom_records') else {}),

@@ -45,8 +45,10 @@ def audit(document,report,policy):
     if not report.get('valid') or report.get('refused')!=0:raise ValueError('Use a valid compiled lot')
     if document['source_sha256']!=report['source_sha256']:raise ValueError('Source hash mismatch')
     tokenizer=tokens
-    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY
-    if document.get('policy')==N0_POLICY:
+    from reinsertion import B15_POLICY,NUMERIC1_POLICY,NUMERIC15_POLICY,T0_POLICY,I0_POLICY,N0_POLICY,VARIABLE_POLICY
+    if document.get('policy')==VARIABLE_POLICY:
+        from control_variable_refs import tokenize as tokenizer
+    elif document.get('policy')==N0_POLICY:
         from control_n0 import tokenize as tokenizer
     elif document.get('policy')==I0_POLICY:
         from control_i0 import tokenize as tokenizer
@@ -91,12 +93,32 @@ def audit(document,report,policy):
             'pcsx2_validation':False,'classification':'conservative triage; names/expressions are suggestions'},rows
 
 
+def load_compiled(folder):
+    """Rebuild the in-memory plan for compact builds, bound to their recipe chain."""
+    report_raw=(folder/'relatorio.json').read_bytes();report=json.loads(report_raw)
+    plan_path=folder/'plano.json'
+    if plan_path.exists():return plan_path.read_bytes(),report_raw
+    from build_translation_pilot import load_draft,compile_draft,SOURCE
+    import mmap
+    sources=report.get('draft_sources')
+    if not sources:raise ValueError('Compact build has no bound recipe chain')
+    path=(ROOT/sources[-1]['path']).resolve()
+    if not path.is_relative_to(ROOT/'translations'):raise ValueError('Compact recipe outside translations/')
+    draft,actual=load_draft(path)
+    if actual!=sources:raise ValueError('Compact build recipes changed; rebuild before auditing')
+    with SOURCE.open('rb') as f,mmap.mmap(f.fileno(),0,access=mmap.ACCESS_READ) as data:
+        plan,_,compiled=compile_draft(data,draft)
+    for key in ('valid','accepted','unchanged','refused','deferred','source_sha256','policy'):
+        if compiled.get(key)!=report.get(key):raise ValueError('Compact build no longer reproduces its dialogue report')
+    return json.dumps(plan,ensure_ascii=False,sort_keys=True).encode('utf-8'),report_raw
+
+
 def main():
     parser=argparse.ArgumentParser(description='Auditar cobertura local sem IA ou alteração binária')
     parser.add_argument('--build-dir',type=Path,default=ROOT/'work'/DEFAULT_DRAFT.stem)
     parser.add_argument('--output',type=Path,default=ROOT/'work/auditorias'/f'{datetime.now():%Y%m%d-%H%M%S-%f}')
     args=parser.parse_args();folder=local(args.build_dir);output=local(args.output,True)
-    plan_raw=(folder/'plano.json').read_bytes();report_raw=(folder/'relatorio.json').read_bytes()
+    plan_raw,report_raw=load_compiled(folder)
     policy_raw=POLICY_PATH.read_bytes()
     summary,rows=audit(json.loads(plan_raw),json.loads(report_raw),json.loads(policy_raw))
     summary.update({'plan_sha256':hashlib.sha256(plan_raw).hexdigest(),

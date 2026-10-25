@@ -46,6 +46,7 @@ def run(elf,start,end,stop,regs,memory):
             fn=w&63
             if fn in (33,45):regs[rd]=regs[rs]+regs[rt]
             elif fn==0:regs[rd]=regs[rt]<<((w>>6)&31)
+            elif fn==24:regs[rd]=(regs[rs]*regs[rt])&0xffffffff # R5900 MULT rd,rs,rt
             elif fn==8:pending=regs[rs]-0xff000
             else:raise ValueError('Unsupported password integer opcode')
         elif op==9:regs[rt]=regs[rs]+n

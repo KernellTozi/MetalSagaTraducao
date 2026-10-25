@@ -1,0 +1,2164 @@
+{
+  "old_recipe": "translations/interface-v029.json",
+  "new_recipe": "translations/interface-v030.json",
+  "source_iso_sha256": "f6d5bde30abbda60206a4434663e717e6735c71c7c92f90b260514a250254ca3",
+  "output_iso_sha256": "1deb57e06fc864d13f850492e881ccc9ba72289fd3ab1e2603db1646a15370d6",
+  "iso_size": 1704427520,
+  "changed_bytes": 5845,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "name.finish.texture",
+      "resource": "DATA/FDATA/FNAME_DT.SDA",
+      "iso_offset": 2933952,
+      "size": 263232
+    },
+    {
+      "id": "map.msg.01def818",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 85166104,
+      "size": 84
+    },
+    {
+      "id": "map.msg.01defc7c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 85167228,
+      "size": 84
+    },
+    {
+      "id": "map.msg.01df008c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 85168268,
+      "size": 176
+    },
+    {
+      "id": "map.2snm.038d5974",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 113371508,
+      "size": 132
+    },
+    {
+      "id": "map.msg.057d3cc8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 145870024,
+      "size": 68
+    },
+    {
+      "id": "map.msg.057d3d1c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 145870108,
+      "size": 76
+    },
+    {
+      "id": "map.smsg.057d54fc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 145876220,
+      "size": 188
+    },
+    {
+      "id": "map.msg.057d9928",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 145893672,
+      "size": 72
+    },
+    {
+      "id": "map.msg.07b2845c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 182916188,
+      "size": 136
+    },
+    {
+      "id": "map.smsg.085408ec",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 193501420,
+      "size": 204
+    },
+    {
+      "id": "map.msg.0a138544",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 222827844,
+      "size": 92
+    },
+    {
+      "id": "map.msg.0a1387a4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 222828452,
+      "size": 104
+    },
+    {
+      "id": "map.msg.0b8fc504",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 247747844,
+      "size": 92
+    },
+    {
+      "id": "map.msg.0b8fc764",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 247748452,
+      "size": 104
+    },
+    {
+      "id": "map.msg.0b8fe774",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 247756660,
+      "size": 92
+    },
+    {
+      "id": "map.msg.0be0fcac",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 253070508,
+      "size": 108
+    },
+    {
+      "id": "map.msg.0be0ff70",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 253071216,
+      "size": 68
+    },
+    {
+      "id": "map.msg.0be2b65c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 253183580,
+      "size": 44
+    },
+    {
+      "id": "map.msg.0be2b6fc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 253183740,
+      "size": 44
+    },
+    {
+      "id": "map.msg.0be2b79c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 253183900,
+      "size": 44
+    },
+    {
+      "id": "map.msg.0db10ac8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 283482824,
+      "size": 68
+    },
+    {
+      "id": "map.msg.0db10b1c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 283482908,
+      "size": 76
+    },
+    {
+      "id": "map.msg.0db16188",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 283505032,
+      "size": 72
+    },
+    {
+      "id": "map.msg.0e5513c0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 294233024,
+      "size": 68
+    },
+    {
+      "id": "map.smsg.0e5517d4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 294234068,
+      "size": 180
+    },
+    {
+      "id": "map.msg.0e551e7c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 294235772,
+      "size": 172
+    },
+    {
+      "id": "map.smsg.0e768d74",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296426868,
+      "size": 204
+    },
+    {
+      "id": "map.msg.0e76dabc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296446652,
+      "size": 84
+    },
+    {
+      "id": "map.msg.0e76dd0c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296447244,
+      "size": 72
+    },
+    {
+      "id": "map.msg.0e774dc8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296476104,
+      "size": 68
+    },
+    {
+      "id": "map.msg.0e774e1c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296476188,
+      "size": 76
+    },
+    {
+      "id": "map.smsg.0e779e3c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296496700,
+      "size": 252
+    },
+    {
+      "id": "map.msg.0e77a8a8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296499368,
+      "size": 80
+    },
+    {
+      "id": "map.msg.0e77b478",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296502392,
+      "size": 72
+    },
+    {
+      "id": "map.msg.0e77bad4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296504020,
+      "size": 72
+    },
+    {
+      "id": "map.msgn.0e77c3ec",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 296506348,
+      "size": 76
+    },
+    {
+      "id": "map.msg.10cf4c80",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 335797376,
+      "size": 48
+    },
+    {
+      "id": "map.msg.10cf4e8c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 335797900,
+      "size": 48
+    },
+    {
+      "id": "map.msg.12120fc8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 356949960,
+      "size": 108
+    },
+    {
+      "id": "map.smsg.121210f4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 356950260,
+      "size": 132
+    },
+    {
+      "id": "map.msg.121219fc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 356952572,
+      "size": 108
+    },
+    {
+      "id": "map.msg.12121a88",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 356952712,
+      "size": 172
+    },
+    {
+      "id": "map.msg.12121f74",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 356953972,
+      "size": 44
+    },
+    {
+      "id": "map.smsg.12827734",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 364316468,
+      "size": 204
+    },
+    {
+      "id": "map.msg.12830b18",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 364354328,
+      "size": 72
+    },
+    {
+      "id": "map.msg.14aa9e18",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 400502296,
+      "size": 68
+    },
+    {
+      "id": "map.msg.14aa9e6c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 400502380,
+      "size": 76
+    },
+    {
+      "id": "map.msg.14aaedc4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 400522692,
+      "size": 72
+    },
+    {
+      "id": "map.msg.169bd464",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 433087588,
+      "size": 84
+    },
+    {
+      "id": "map.msg.169bd620",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 433088032,
+      "size": 112
+    },
+    {
+      "id": "map.msg.169bfd54",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 433098068,
+      "size": 72
+    },
+    {
+      "id": "map.msg.176aa3d0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 446641104,
+      "size": 60
+    },
+    {
+      "id": "map.msg.17743858",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447268952,
+      "size": 56
+    },
+    {
+      "id": "map.smsg.17746fe0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447283168,
+      "size": 136
+    },
+    {
+      "id": "map.msg.17747f84",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447287172,
+      "size": 92
+    },
+    {
+      "id": "map.msg.1774a448",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447296584,
+      "size": 68
+    },
+    {
+      "id": "map.msg.1774a49c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447296668,
+      "size": 76
+    },
+    {
+      "id": "map.msg.1774e674",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447313524,
+      "size": 72
+    },
+    {
+      "id": "map.msg.1c64aa64",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 530135652,
+      "size": 76
+    },
+    {
+      "id": "map.msg.1d0b290c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541047052,
+      "size": 92
+    },
+    {
+      "id": "map.sel.1d0b9c8c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541076620,
+      "size": 64
+    },
+    {
+      "id": "map.msg.1d0bfa2c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 541100588,
+      "size": 44
+    },
+    {
+      "id": "map.smsg.1df465e0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556332512,
+      "size": 112
+    },
+    {
+      "id": "map.msgn.1df478b8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556337336,
+      "size": 128
+    },
+    {
+      "id": "map.smsg.1df4d28c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556360332,
+      "size": 160
+    },
+    {
+      "id": "map.smsg.1df4d364",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556360548,
+      "size": 224
+    },
+    {
+      "id": "map.smsg.1df4d5cc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556361164,
+      "size": 164
+    },
+    {
+      "id": "map.smsg.1df4d6a8",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556361384,
+      "size": 232
+    },
+    {
+      "id": "map.msg.1f32cfa0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 577200032,
+      "size": 60
+    }
+  ],
+  "pcsx2_executed": false,
+  "schema": 1,
+  "map_recipe": "translations/regiao-inicial-v031.json",
+  "translation_scope": {
+    "new_map_translations": 69,
+    "explicit_resumed_records": 74,
+    "new_preserved_records_not_translations": 5,
+    "all_5892_previous_map_patches_identical": true,
+    "all_3449_previous_ui_fields_preserved": true,
+    "map_translations": 5961,
+    "known_map_records": 7231,
+    "map_technical_deferrals": 49,
+    "map_preserved_n3_names_still_deferred": 19,
+    "map_native_deferrals": 14,
+    "map_other_deferrals": 16,
+    "ui_fields": 3451,
+    "new_graphic_fields": 2,
+    "item_descriptions": 566,
+    "description_references": 925,
+    "item_names": 516,
+    "pending_item_names": 25,
+    "layout_profile": "ptbr-layout-v005",
+    "title_art": "v014"
+  },
+  "reviewed_variable_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "approved_selectors": {
+      "decimal": [
+        0,
+        2,
+        5,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18
+      ],
+      "item": [
+        1,
+        2,
+        9,
+        10,
+        15,
+        19
+      ],
+      "name": [
+        1,
+        2,
+        6,
+        10
+      ]
+    },
+    "argument_reader": [
+      1792560,
+      1792720
+    ],
+    "handlers": {
+      "decimal": [
+        1793516,
+        1793668
+      ],
+      "item": [
+        1793396,
+        1793444
+      ],
+      "name": [
+        1793196,
+        1793248
+      ]
+    },
+    "probe_cases": [
+      {
+        "kind": "decimal",
+        "selector": 0,
+        "value": 0,
+        "variable_indices": [
+          0
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 0,
+        "value": 1,
+        "variable_indices": [
+          0
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 0,
+        "value": 999,
+        "variable_indices": [
+          0
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 0,
+        "value": 2147483647,
+        "variable_indices": [
+          0
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 0,
+        "value": 2147483648,
+        "variable_indices": [
+          0
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 0,
+        "value": 4294967295,
+        "variable_indices": [
+          0
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 2,
+        "value": 0,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 2,
+        "value": 1,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 2,
+        "value": 999,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 2,
+        "value": 2147483647,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 2,
+        "value": 2147483648,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 2,
+        "value": 4294967295,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 5,
+        "value": 0,
+        "variable_indices": [
+          5
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 5,
+        "value": 1,
+        "variable_indices": [
+          5
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 5,
+        "value": 999,
+        "variable_indices": [
+          5
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 5,
+        "value": 2147483647,
+        "variable_indices": [
+          5
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 5,
+        "value": 2147483648,
+        "variable_indices": [
+          5
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 5,
+        "value": 4294967295,
+        "variable_indices": [
+          5
+        ],
+        "consumed_after_percent": 2,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 10,
+        "value": 0,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 10,
+        "value": 1,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 10,
+        "value": 999,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 10,
+        "value": 2147483647,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 10,
+        "value": 2147483648,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 10,
+        "value": 4294967295,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 11,
+        "value": 0,
+        "variable_indices": [
+          11
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 11,
+        "value": 1,
+        "variable_indices": [
+          11
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 11,
+        "value": 999,
+        "variable_indices": [
+          11
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 11,
+        "value": 2147483647,
+        "variable_indices": [
+          11
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 11,
+        "value": 2147483648,
+        "variable_indices": [
+          11
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 11,
+        "value": 4294967295,
+        "variable_indices": [
+          11
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 12,
+        "value": 0,
+        "variable_indices": [
+          12
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 12,
+        "value": 1,
+        "variable_indices": [
+          12
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 12,
+        "value": 999,
+        "variable_indices": [
+          12
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 12,
+        "value": 2147483647,
+        "variable_indices": [
+          12
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 12,
+        "value": 2147483648,
+        "variable_indices": [
+          12
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 12,
+        "value": 4294967295,
+        "variable_indices": [
+          12
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 13,
+        "value": 0,
+        "variable_indices": [
+          13
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 13,
+        "value": 1,
+        "variable_indices": [
+          13
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 13,
+        "value": 999,
+        "variable_indices": [
+          13
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 13,
+        "value": 2147483647,
+        "variable_indices": [
+          13
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 13,
+        "value": 2147483648,
+        "variable_indices": [
+          13
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 13,
+        "value": 4294967295,
+        "variable_indices": [
+          13
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 14,
+        "value": 0,
+        "variable_indices": [
+          14
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 14,
+        "value": 1,
+        "variable_indices": [
+          14
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 14,
+        "value": 999,
+        "variable_indices": [
+          14
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 14,
+        "value": 2147483647,
+        "variable_indices": [
+          14
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 14,
+        "value": 2147483648,
+        "variable_indices": [
+          14
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 14,
+        "value": 4294967295,
+        "variable_indices": [
+          14
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 16,
+        "value": 0,
+        "variable_indices": [
+          16
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 16,
+        "value": 1,
+        "variable_indices": [
+          16
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 16,
+        "value": 999,
+        "variable_indices": [
+          16
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 16,
+        "value": 2147483647,
+        "variable_indices": [
+          16
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 16,
+        "value": 2147483648,
+        "variable_indices": [
+          16
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 16,
+        "value": 4294967295,
+        "variable_indices": [
+          16
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 17,
+        "value": 0,
+        "variable_indices": [
+          17
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 17,
+        "value": 1,
+        "variable_indices": [
+          17
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 17,
+        "value": 999,
+        "variable_indices": [
+          17
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 17,
+        "value": 2147483647,
+        "variable_indices": [
+          17
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 17,
+        "value": 2147483648,
+        "variable_indices": [
+          17
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 17,
+        "value": 4294967295,
+        "variable_indices": [
+          17
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "decimal",
+        "selector": 18,
+        "value": 0,
+        "variable_indices": [
+          18
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 0
+      },
+      {
+        "kind": "decimal",
+        "selector": 18,
+        "value": 1,
+        "variable_indices": [
+          18
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 1
+      },
+      {
+        "kind": "decimal",
+        "selector": 18,
+        "value": 999,
+        "variable_indices": [
+          18
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 999
+      },
+      {
+        "kind": "decimal",
+        "selector": 18,
+        "value": 2147483647,
+        "variable_indices": [
+          18
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": 2147483647
+      },
+      {
+        "kind": "decimal",
+        "selector": 18,
+        "value": 2147483648,
+        "variable_indices": [
+          18
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -2147483648
+      },
+      {
+        "kind": "decimal",
+        "selector": 18,
+        "value": 4294967295,
+        "variable_indices": [
+          18
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8248
+        ],
+        "format_offset": 3448256,
+        "signed_value": -1
+      },
+      {
+        "kind": "item",
+        "selector": 1,
+        "value": 0,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "item",
+        "selector": 1,
+        "value": 1,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048704
+      },
+      {
+        "kind": "item",
+        "selector": 1,
+        "value": 1348,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1221120
+      },
+      {
+        "kind": "item",
+        "selector": 1,
+        "value": 65535,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 9437056
+      },
+      {
+        "kind": "item",
+        "selector": 2,
+        "value": 0,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "item",
+        "selector": 2,
+        "value": 1,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048704
+      },
+      {
+        "kind": "item",
+        "selector": 2,
+        "value": 1348,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1221120
+      },
+      {
+        "kind": "item",
+        "selector": 2,
+        "value": 65535,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 9437056
+      },
+      {
+        "kind": "item",
+        "selector": 9,
+        "value": 0,
+        "variable_indices": [
+          9
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "item",
+        "selector": 9,
+        "value": 1,
+        "variable_indices": [
+          9
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048704
+      },
+      {
+        "kind": "item",
+        "selector": 9,
+        "value": 1348,
+        "variable_indices": [
+          9
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1221120
+      },
+      {
+        "kind": "item",
+        "selector": 9,
+        "value": 65535,
+        "variable_indices": [
+          9
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 9437056
+      },
+      {
+        "kind": "item",
+        "selector": 10,
+        "value": 0,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "item",
+        "selector": 10,
+        "value": 1,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048704
+      },
+      {
+        "kind": "item",
+        "selector": 10,
+        "value": 1348,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1221120
+      },
+      {
+        "kind": "item",
+        "selector": 10,
+        "value": 65535,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 9437056
+      },
+      {
+        "kind": "item",
+        "selector": 15,
+        "value": 0,
+        "variable_indices": [
+          15
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "item",
+        "selector": 15,
+        "value": 1,
+        "variable_indices": [
+          15
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048704
+      },
+      {
+        "kind": "item",
+        "selector": 15,
+        "value": 1348,
+        "variable_indices": [
+          15
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1221120
+      },
+      {
+        "kind": "item",
+        "selector": 15,
+        "value": 65535,
+        "variable_indices": [
+          15
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 9437056
+      },
+      {
+        "kind": "item",
+        "selector": 19,
+        "value": 0,
+        "variable_indices": [
+          19
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "item",
+        "selector": 19,
+        "value": 1,
+        "variable_indices": [
+          19
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1048704
+      },
+      {
+        "kind": "item",
+        "selector": 19,
+        "value": 1348,
+        "variable_indices": [
+          19
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 1221120
+      },
+      {
+        "kind": "item",
+        "selector": 19,
+        "value": 65535,
+        "variable_indices": [
+          19
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8244,
+          4676328
+        ],
+        "string_pointer": 9437056
+      },
+      {
+        "kind": "name",
+        "selector": 1,
+        "value": 0,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4674956
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "name",
+        "selector": 1,
+        "value": 1,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4674960
+        ],
+        "string_pointer": 1048592
+      },
+      {
+        "kind": "name",
+        "selector": 1,
+        "value": 1348,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4680348
+        ],
+        "string_pointer": 1070144
+      },
+      {
+        "kind": "name",
+        "selector": 1,
+        "value": 65535,
+        "variable_indices": [
+          1
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4937096
+        ],
+        "string_pointer": 2097136
+      },
+      {
+        "kind": "name",
+        "selector": 2,
+        "value": 0,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4674956
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "name",
+        "selector": 2,
+        "value": 1,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4674960
+        ],
+        "string_pointer": 1048592
+      },
+      {
+        "kind": "name",
+        "selector": 2,
+        "value": 1348,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4680348
+        ],
+        "string_pointer": 1070144
+      },
+      {
+        "kind": "name",
+        "selector": 2,
+        "value": 65535,
+        "variable_indices": [
+          2
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4937096
+        ],
+        "string_pointer": 2097136
+      },
+      {
+        "kind": "name",
+        "selector": 6,
+        "value": 0,
+        "variable_indices": [
+          6
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4674956
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "name",
+        "selector": 6,
+        "value": 1,
+        "variable_indices": [
+          6
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4674960
+        ],
+        "string_pointer": 1048592
+      },
+      {
+        "kind": "name",
+        "selector": 6,
+        "value": 1348,
+        "variable_indices": [
+          6
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4680348
+        ],
+        "string_pointer": 1070144
+      },
+      {
+        "kind": "name",
+        "selector": 6,
+        "value": 65535,
+        "variable_indices": [
+          6
+        ],
+        "consumed_after_percent": 3,
+        "memory_reads": [
+          8232,
+          4937096
+        ],
+        "string_pointer": 2097136
+      },
+      {
+        "kind": "name",
+        "selector": 10,
+        "value": 0,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8232,
+          4674956
+        ],
+        "string_pointer": 1048576
+      },
+      {
+        "kind": "name",
+        "selector": 10,
+        "value": 1,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8232,
+          4674960
+        ],
+        "string_pointer": 1048592
+      },
+      {
+        "kind": "name",
+        "selector": 10,
+        "value": 1348,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8232,
+          4680348
+        ],
+        "string_pointer": 1070144
+      },
+      {
+        "kind": "name",
+        "selector": 10,
+        "value": 65535,
+        "variable_indices": [
+          10
+        ],
+        "consumed_after_percent": 4,
+        "memory_reads": [
+          8232,
+          4937096
+        ],
+        "string_pointer": 2097136
+      }
+    ],
+    "case_count": 106,
+    "allowed_token_hex": [
+      "252430",
+      "25243130",
+      "25243131",
+      "25243132",
+      "25243133",
+      "25243134",
+      "25243136",
+      "25243137",
+      "25243138",
+      "252432",
+      "252435",
+      "25492431",
+      "2549243130",
+      "2549243135",
+      "2549243139",
+      "25492432",
+      "25492439",
+      "254e2431",
+      "254e243130",
+      "254e2432",
+      "254e2436"
+    ],
+    "growth_allowed": false,
+    "mode": "slots",
+    "float_suffix_blocked": true,
+    "scope": "Original handlers and argument reader in synthetic RAM; no emitter, table initialization, canonical identity, runtime index limit or PS2 execution proved"
+  },
+  "name_finish_graphics": {
+    "policy": "name-entry-two-finish-sprites-v001",
+    "accepted": 2,
+    "results": [
+      {
+        "id": "name.finish.14",
+        "translation": "FIM",
+        "sprite": 14,
+        "inner_rect": [
+          426,
+          216,
+          475,
+          240
+        ],
+        "layout": {
+          "natural_width": 33,
+          "rendered_width": 33,
+          "height": 24,
+          "horizontal_scale": 1.0
+        }
+      },
+      {
+        "id": "name.finish.34",
+        "translation": "FIM",
+        "sprite": 34,
+        "inner_rect": [
+          426,
+          440,
+          475,
+          464
+        ],
+        "layout": {
+          "natural_width": 33,
+          "rendered_width": 33,
+          "height": 24,
+          "horizontal_scale": 1.0
+        }
+      }
+    ],
+    "evidence": {
+      "texture_offset": 19648,
+      "upload_bytes": 263184,
+      "record_bytes": 263232,
+      "ganm_offset": 551296,
+      "category_cases": [
+        {
+          "category": 0,
+          "default_sprite": 32,
+          "selected_sprite": 12
+        },
+        {
+          "category": 1,
+          "default_sprite": 33,
+          "selected_sprite": 13
+        },
+        {
+          "category": 2,
+          "default_sprite": 34,
+          "selected_sprite": 14
+        }
+      ],
+      "scope": "Original bounded upload, GANM pointer arithmetic and category argument forwarding; no GPU or PS2 execution"
+    },
+    "target_texture_sha256": "8fb48e5c4e6c965826885bd4555b45f42de8860f1433f326938195d0a38c3ab9",
+    "palette_alpha_frames_other_labels_and_tail_unchanged": true,
+    "runtime_visual_status": "pending_user_verification"
+  },
+  "tests": {
+    "distinct_passed": 319,
+    "suites": {
+      "interface": {
+        "passed": 246,
+        "seconds": 495.29,
+        "log": "work/testes-interface-v030.log"
+      },
+      "controls": {
+        "passed": 42,
+        "seconds": 0.957,
+        "log": "work/testes-controles-v030.log"
+      },
+      "map_parent_preservation": {
+        "passed": 4,
+        "seconds": 53.25,
+        "log": "work/testes-servicos-v031.log"
+      },
+      "coverage": {
+        "passed": 6,
+        "seconds": 0.07,
+        "log": "work/testes-cobertura-v030.log"
+      },
+      "preflight": {
+        "passed": 7,
+        "seconds": 0.045,
+        "log": "work/testes-preflight-v030.log"
+      },
+      "planning": {
+        "passed": 6,
+        "seconds": 0.001,
+        "log": "work/testes-planejamento-v030.log"
+      },
+      "retention": {
+        "passed": 5,
+        "seconds": 0.052,
+        "log": "work/testes-retencao-v030.log"
+      },
+      "alpha": {
+        "passed": 3,
+        "seconds": 0.96,
+        "log": "work/testes-alpha-v030.log"
+      }
+    },
+    "repeated_runs_not_added": true,
+    "focused_finish_repeat": {
+      "passed": 6,
+      "log": "work/testes-fim-v030-final.log",
+      "reason": "Added negative private-preview path guard; image renderer and target raster unchanged"
+    }
+  },
+  "initial_test_corrections": [
+    "Preserved N3 assertion initially searched editorial deferral reason instead of source/explicit protected IDs; corrected test, no translation change",
+    "Compact audit initially reused a work-only path guard for a translations recipe; corrected before release and covered by negative recipe-chain tests"
+  ],
+  "final_compiler_report_equals_image_build_interface_report": true,
+  "compact_plan_reconstruction_verified": true,
+  "pending_catalogue": "reports/plano-pendencias-v008.json",
+  "preflight": {
+    "path": "work/interface-v030/MetalSaga-ptbr-interface-v030.iso",
+    "size": 1704427520,
+    "sha256": "1deb57e06fc864d13f850492e881ccc9ba72289fd3ab1e2603db1646a15370d6",
+    "verified": true
+  },
+  "launcher_dry_run_passed": true,
+  "preview": "work/nome-fim-v030-comparacao.png",
+  "preview_inspected": true,
+  "preview_is_not_emulator_capture": true,
+  "retention": {
+    "work_isos": 5,
+    "alpha_readonly_hash_verified": true,
+    "alpha_sha256": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58"
+  },
+  "visual_status": "pending_user_normal_playthrough",
+  "onedrive_copy_performed": false,
+  "shutdown_performed": false
+}

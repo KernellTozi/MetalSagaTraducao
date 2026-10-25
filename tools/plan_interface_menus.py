@@ -252,6 +252,16 @@ def audit(draft,output):
     if recipe.get('name_entry',{}).get('policy')=='name-entry-back-navigation-v002':
         from name_back_command import proof as back_proof
         back_proof(elf,recipe['name_entry']['back_evidence']);legend_pending=['TITLE']
+    finish_rows=[]
+    if recipe.get('name_finish_graphics'):
+        from name_finish_graphics import RESOURCE as FINISH_RESOURCE,POLICY as FINISH_POLICY,bindings as finish_bindings,probes as finish_probes
+        from interface_resources import original
+        cfg=recipe['name_finish_graphics'];raw=original(FINISH_RESOURCE)
+        if cfg!={'policy':FINISH_POLICY,'source_sha256':digest(raw),'instruction_windows':finish_bindings(elf)}:
+            raise ValueError('Name finish planning evidence mismatch')
+        finish_probes(elf,raw)
+        finish_rows=[{'id':f'name.finish.{i:02d}','resource':FINISH_RESOURCE,'sprite_index':i,
+            'translation':'FIM','status':'translated-in-recipe-pending-visual'} for i in (14,34)]
     # Counts are disjoint statuses, not percentages of all game screens.
     summary={'elf_catalog_rows':len(rows),'elf_statuses':dict(collections.Counter(r['planning_status'] for r in rows)),
         'spack_pointer_ids':table['count'],'spack_unique_strings':table['unique_strings'],
@@ -272,6 +282,7 @@ def audit(draft,output):
         **({'battle_fields':len(battle_rows),'battle_translated':dict(collections.Counter(r['kind'] for r in battle_rows if 'translation' in r))} if battle_rows else {}),
         **({'interaction_fields':len(interaction_rows),'interaction_translated':dict(collections.Counter(r['kind'] for r in interaction_rows if 'translation' in r))} if interaction_rows else {}),
         **({'password_graphic_fields':len(password_rows)} if password_rows else {}),
+        **({'name_finish_graphic_fields':len(finish_rows)} if finish_rows else {}),
         **({'name_legend_pending':legend_pending} if legend_pending is not None else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
@@ -291,6 +302,7 @@ def audit(draft,output):
     if battle_rows:document['battle_fields']=battle_rows
     if interaction_rows:document['interaction_fields']=interaction_rows
     if password_rows:document['password_graphics']=password_rows
+    if finish_rows:document['name_finish_graphics']=finish_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -302,6 +314,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v029.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v030.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))
