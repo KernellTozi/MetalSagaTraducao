@@ -11,12 +11,17 @@ from explore_interface_atlases import SOURCES, inspect, sha
 from interface_texture_pack import pillow, unpack_indices, replace_indices
 
 POLICY = 'surveyed-ui-atlases-original-palette-v001'
+REMAINING_POLICY = 'remaining-ui-atlases-original-palette-v002'
+REMAINING_SOURCES = tuple('DATA/FDATA/'+n+'.SDA' for n in
+    ('F_COMMON','F_PCDKF','F_SPEND','FBS_DATA','FD_END','FD_POST','FNAME_DT','FNP_VIEW','PASSWORD')) + tuple(
+    'DATA/RDATA/'+n+'.SDA' for n in ('RLOADING','RMGALAN','RMGDANCE','RMGDOG','RMGKAERU','RMGTANK','RTITLE')) + ('DATA/S/S_PAINT.SDA',)
 
 
-def sources():
+def sources(policy=POLICY):
+    if policy not in (POLICY,REMAINING_POLICY):raise ValueError('Unknown atlas profile')
     inventory = {r['path']: r for r in json.loads((ROOT/'reports/inventory.json').read_text(encoding='utf-8'))}
     result = {}
-    for resource in SOURCES:
+    for resource in (SOURCES if policy==POLICY else REMAINING_SOURCES):
         raw = (ROOT/'JOGO/Metal Saga'/resource).read_bytes()
         if sha(raw) != inventory[resource]['sha256']:
             raise ValueError('Atlas source binding mismatch')
@@ -38,16 +43,16 @@ def entries(originals):
     return result
 
 
-def manifest(rows):
-    return {'schema': 1, 'policy': POLICY, 'entries': rows,
+def manifest(rows,policy=POLICY):
+    return {'schema': 1, 'policy': policy, 'entries': rows,
             'scope': 'Standalone work copies only; not authorization to patch ISO or all sprite uses',
             'alpha': 'Keep raw original PS2 palette alpha bytes; no normalization',
             'allowed_changes': 'Pixel indices only; dimensions/palette/header/tail/GANM/SDA immutable'}
 
 
-def export(folder):
+def export(folder,policy=POLICY):
     folder = local(folder, True)
-    originals = sources()
+    originals = sources(policy)
     rows = entries(originals)
     Image = pillow()
     folder.mkdir(parents=True)
@@ -61,7 +66,7 @@ def export(folder):
         image = Image.frombytes('P', (meta['width'], meta['height']), unpack_indices(raw, meta))
         image.putpalette(rgb+bytes(768-len(rgb)))
         image.save(folder/row['png'], transparency=alpha, bits=meta['bpp'])
-    result = manifest(rows)
+    result = manifest(rows,policy)
     (folder/'manifest.json').write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8')
     return result
 
@@ -69,15 +74,15 @@ def export(folder):
 def import_pack(folder, output):
     folder = local(folder)
     output = local(output, True)
-    originals = sources()
-    rows = entries(originals)
     if (folder/'manifest.json').is_symlink():
         raise ValueError('Linked manifest blocked')
     actual = json.loads((folder/'manifest.json').read_text(encoding='utf-8'))
-    if actual != manifest(rows):
+    policy=actual.get('policy');originals=sources(policy);rows=entries(originals)
+    if actual != manifest(rows,policy):
         raise ValueError('Atlas manifest mismatch')
     Image = pillow()
-    rebuilt = {resource: bytearray(raw) for resource, raw in originals.items()}
+    selected={r['resource'] for r in rows}
+    rebuilt = {resource: bytearray(raw) for resource, raw in originals.items() if resource in selected}
     results = []
     for row in rows:
         path = folder/row['png']
@@ -116,7 +121,7 @@ def import_pack(folder, output):
             stream.write(rebuilt[row['resource']])
         if sha(path.read_bytes()) != row['sha256']:
             raise ValueError('Atlas output readback failed')
-    result = {'schema': 1, 'policy': POLICY, 'records': results, 'resources': resources,
+    result = {'schema': 1, 'policy': policy, 'records': results, 'resources': resources,
               'iso_modified': False, 'originals_unchanged': True,
               'runtime_visual_status': 'not_tested', 'uv_usage_approval': False}
     (output/'roundtrip.json').write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8')
@@ -128,11 +133,12 @@ def main():
     sub = parser.add_subparsers(dest='action', required=True)
     e = sub.add_parser('export')
     e.add_argument('--output', type=Path, required=True)
+    e.add_argument('--profile',choices=('legacy','remaining-v002'),default='legacy')
     i = sub.add_parser('import')
     i.add_argument('--pack', type=Path, required=True)
     i.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    result = export(args.output) if args.action == 'export' else import_pack(args.pack, args.output)
+    result = export(args.output,REMAINING_POLICY if args.profile=='remaining-v002' else POLICY) if args.action == 'export' else import_pack(args.pack, args.output)
     print(f"{len(result['entries'] if args.action == 'export' else result['records'])} texturas processadas; ISO não alterada")
 
 

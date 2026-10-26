@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "scope": "Edit preparation and complete visual triage of recognized atlases; no new translation or ISO",
+  "baseline_iso": {
+    "path": "work/interface-v038/MetalSaga-ptbr-interface-v038.iso",
+    "size": 1704427520,
+    "sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+    "verified": true
+  },
+  "distinct_tests_passed": 50,
+  "new_tests": 11,
+  "credits": {
+    "lines": 292,
+    "editable_role_headings": 49,
+    "editable_closing_phrases": 2,
+    "preserved_lines": 241,
+    "decoded_size": 4222,
+    "recompressed_bytes": 2348,
+    "compressed_slot_bytes": 4096,
+    "original_decoder_matches_recompression": true,
+    "original_decoder_steps": 60988,
+    "original_token_replay_only": false,
+    "unchanged_pack_exact_resource_identity": true,
+    "source_and_unchanged_output_sha256": "042ef8803c1832063d45bf90f1c163c559ad716cfb134007e08cc59d0e06459b",
+    "renderer_execution": false,
+    "iso_integration": false
+  },
+  "paint_crops": {
+    "total": 12,
+    "editable": 10,
+    "protected": 2,
+    "unchanged_pack_exact_resource_identity": true,
+    "source_and_unchanged_output_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+    "component_argument_forwarding_executed": true,
+    "full_atlas_usage_proven": false,
+    "iso_integration": false
+  },
+  "atlas_transport": {
+    "textures": 119,
+    "source_resources_verified": 17,
+    "output_resources": 14,
+    "unchanged_pixel_differences": 0,
+    "all_output_resource_hashes_match_originals": true,
+    "legacy_69_texture_profile_preserved": true
+  },
+  "visual_triage": {
+    "report": "reports/triagem-grafica-v001.json",
+    "contact_sheets_reviewed": 18,
+    "textures_reviewed": 119,
+    "classes": {
+      "protected-control-markings": 3,
+      "no-localizable-word-observed": 84,
+      "covered-text-review": 6,
+      "candidate-latin-interface": 18,
+      "protected-names-artwork": 6,
+      "candidate-native-interface": 1,
+      "candidate-mixed-protected-category": 1
+    },
+    "unknown_structure_records_retained": 365,
+    "complete_game_coverage_proven": false
+  },
+  "work_isos": 5,
+  "alpha_preserved": true,
+  "originals_modified": false,
+  "translation_created": false,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "one_drive_copied": false
+}

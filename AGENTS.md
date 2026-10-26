@@ -753,3 +753,51 @@ Usuário verifica pintura/seleção/acentos/largura em partida normal; não exig
 navegação imediata. Próximo alvo são os rótulos gráficos da pintura, com prova
 de recortes/consumidores antes de importar, preservando MAIN/SUB/SE; créditos e
 demais bloqueios continuam no mapa de descoberta. Sem OneDrive/desligamento.
+
+## Preparação de edição v001 — correção de prioridade após v038
+
+O usuário esclareceu que esperava mecanismos de edição e triagem gráfica,
+não apenas mais legendas traduzidas. Rodada dedicada a essa preparação, sem
+nova tradução/ISO/fontes. Consultar `docs/preparacao-edicao-v001.md`,
+`reports/preparacao-edicao-v001.json` e `reports/triagem-grafica-v001.json`.
+Base jogável segue interfacev038/MAPv037. Pacotes em
+`work/preparacao-edicao-v001/`, sem novos.cmd. Imagens/originais/JSONbilíngue
+permanecem fora do Git.50testes distintos passaram, onze novos.
+
+`tools/credits_edit_pack.py`: compressor LZSS determinístico1KiB zerado,
+posição1006, sobreposição/circulação e flagsLSB; 4222bytes originais recomprimem
+em2348 no slot4096 e conferem com decoder original em memória sintética.
+Pacote292linhas, somente49cabeçalhos e2frases selecionáveis; outras241imutáveis.
+Preservar prefixos nativos opacos, staff/empresas, Atlus, CRLF/ordem/contagem.
+Teto35bytes por linha e4222total decodificado,4096comprimido. Sem edição,
+reproduzir exatamente o fluxo/recurso original. Não aumentar limites por caber
+no disco. Inspecionados leitorCRLF, dispatch# e cópia ao buffer; renderer/fontes
+nesta tela ainda não executados. Saída FD_END.SDA em cópia work/, sem ISO.
+
+`tools/paint_button_pack.py`: doze recortes de três texturas S_PAINT,
+dez editáveis e duas linhas SUB/SE protegidas. MAIN em linha mista exige revisão
+semântica da arte; o importador não fazOCR nem garante texto por pixels. Índices,
+paleta/alpha/tamanho, GANM/hotspots e pixels fora dos recortes imutáveis.
+Forwarding limitado0x5E250..0x5E284 de textura0xCCE0/tamanho0x2410 eGANM0xF0F0
+executado com base/contexto fornecidos. Demais pares são visuais/geométricos,
+dispatch completo ainda pendente. Apenas cópia S_PAINT.SDA emwork, sem ISO.
+
+`tools/interface_atlas_pack.py` acrescenta perfil explícito `remaining-v002`
+(`remaining-ui-atlases-original-palette-v002`) para119texturas em14recursos,
+verificando17fontes. Perfil legado69texturas preservado. Não copiar os três
+arquivos sem texturas reconhecidas à saída. Importação indexada preserva todo
+restante; não significa UV/uso/ISO aprovados. `tools/triage_graphic_pack.py`
+gera folhas e classificação vinculada às fontes. Foram revisadas18folhas com
+todos119atlas:18latinos candidatos,1nativo,1misto com categorias protegidas,
+6com mecanismos existentes a revisar,6nomes/assinatura protegidos,3marcações
+protegidas e84sem palavra localizável observada. São texturas, não frases.
+Atlas originais podem ter texto já traduzido na receita; não somar novamente.
+365entradas desconhecidas permanecem explícitas, sem cobertura total alegada.
+
+Próximo trabalho: concluir vínculos/uso da pintura, recortes por minijogo,
+carregamento/cartazes e apresentação dos créditos; então compor tradução ampla
+e consolidar os subconjuntos seguros. Não editar atlas inteiros como se fossem
+texto, traduzir nomes dos procurados ou promover automaticamente cópias à ISO.
+TITLE, nomes de itens, destinos e nativos sem contexto conservam seus bloqueios.
+Round-trips locais executados idênticos; hash ISOv038, cinco ISOs ealpha
+conferidos. Sem PCSX2, OneDrive ou desligamento nesta rodada.

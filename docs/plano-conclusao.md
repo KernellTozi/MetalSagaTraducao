@@ -1,5 +1,17 @@
 # Plano para concluir a tradução
 
+**Preparação retomada após v038:** o usuário esclareceu que esperava os
+mecanismos e a triagem antes de mais tradução. Entrega em
+[Preparação de edição v001](preparacao-edicao-v001.md): recompressor e pacote
+de 51 linhas selecionáveis dos créditos, doze recortes de pintura (dez
+editáveis/dois protegidos), transporte reversível dos119atlas e revisão visual
+de todos eles em18folhas.50testes aprovados. Não houve tradução ou ISO nova.
+O transporte produz cópias locais, sem integração automática; concluir vínculos
+de uso da pintura e apresentação dos créditos antes dessa integração.365entradas
+desconhecidas continuam explícitas. Próximo lote pode agrupar pintura,
+carregamento, minijogos e elementos genéricos de cartazes conforme forem
+liberados, preservando nomes/categorias. A base jogável continua v038.
+
 **Retomada da tradução — interface v038:** usuário autorizou iniciar a tradução
 após a descoberta. [Legendas de pintura](interface-v038.md): doze nomes distintos
 aplicados às 228 referências, com células fixas e teto conservador de dez bytes.
