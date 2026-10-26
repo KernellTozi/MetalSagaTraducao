@@ -1,5 +1,22 @@
 # Plano para concluir a tradução
 
+**Atualização — descoberta v002 e interface v039, 26/10/2026:**
+As 81 raízes antes sem parser foram separadas em 18 contêineres de animação,
+55 modelos vinculados a consumidores, cinco bancos de som e três recursos
+especiais ainda opacos. Com os 140 contêineres anteriores, há 5.876 partes de
+animação/571 conteúdos distintos descompactados e verificados; não são textos
+novos. Semântica interna permanece parcial, sem declaração de cobertura total.
+Ver [descoberta v002](descoberta-desconhecidos-v002.md).
+
+A tradução foi retomada com 50 linhas dos créditos finais, totalizando
+3.804 campos de interface na [v039](interface-v039.md), sem alterar diálogos,
+nomes ou a tipografia aprovada. Marketing preservado não conta como tradução.
+Próximos conjuntos: concluir vínculos dos recortes de pintura e traduzir seus
+botões em conjunto; depois carregamento/minijogos/cartazes conhecidos. Não
+condicionar esses lotes a uma engenharia completa de geometria e áudio sem
+evidência de texto. As pendências específicas de TITLE, fontes maiúsculas,
+rótulos sem espaço e nativos continuam separadas.
+
 **Descoberta das entradas desconhecidas — 26/10/2026:**
 [Relatório técnico](descoberta-desconhecidos-v001.md). As365entradas foram
 agrupadas e investigadas:284têm estrutura identificada e81continuam sem parser.

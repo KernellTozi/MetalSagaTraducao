@@ -62,7 +62,11 @@ def template(elf,raw,metadata,catalogue):
         'iso_integration':False,'rows':rows}
 
 
-def rebuild(elf,raw,metadata,catalogue,draft):
+def rebuild(elf,raw,metadata,catalogue,draft,*,extra_decoded_bytes=0):
+    # Default/local pack remains historical. Only the separately bound font22
+    # compiler opts into the proven size-driven allocation, capped at +256 B.
+    if type(extra_decoded_bytes) is not int or not 0<=extra_decoded_bytes<=256:
+        raise ValueError('Unknown credits decoded growth budget')
     expected=template(elf,raw,metadata,catalogue)
     binding={k:v for k,v in draft.items() if k!='rows'}
     if binding!={k:v for k,v in expected.items() if k!='rows'}:raise ValueError('Credits draft bindings differ')
@@ -82,7 +86,7 @@ def rebuild(elf,raw,metadata,catalogue,draft):
             if value!=bytes.fromhex(old['source_hex']):changed.append(old['id'])
         rows.append(value)
     decoded=struct.pack('<I',len(rows))+b'\r\n'.join(rows)+b'\r\n'
-    if len(decoded)>metadata['decoded_size']:raise ValueError('Credits total decompressed budget exceeded')
+    if len(decoded)>metadata['decoded_size']+extra_decoded_bytes:raise ValueError('Credits total decompressed budget exceeded')
     if not changed:
         after=raw;compressed=raw[0x800:0x1800]
     else:
@@ -98,6 +102,7 @@ def rebuild(elf,raw,metadata,catalogue,draft):
     return after,{'policy':POLICY,'changed_rows':changed,'changed_line_count':len(changed),
         'editable_line_count':sum(r['kind']!='preserved-name-company-or-layout' for r in expected['rows']),
         'line_count':len(rows),'decoded_size':len(decoded),'compressed_bytes_consumed':consumed,
+        'extra_decoded_budget_bytes':extra_decoded_bytes,
         'original_decoder_steps':steps,'original_decoder_matches':True,'source_sha256':sha(raw),
         'output_sha256':sha(after),'decoded_sha256':sha(decoded),'resource_size':len(after),
         'outside_compressed_slot_identical':True,'staff_names_companies_layout_preserved':True,

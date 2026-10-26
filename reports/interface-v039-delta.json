@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v038.json",
+  "new_recipe": "translations/interface-v039.json",
+  "source_iso_sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+  "output_iso_sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+  "iso_size": 1704427520,
+  "changed_bytes": 2341,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "credits.roles.same-extent-v001",
+      "resource": "DATA/FDATA/FD_END.SDA",
+      "iso_offset": 1697792,
+      "size": 4096
+    }
+  ],
+  "pcsx2_executed": false
+}

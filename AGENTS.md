@@ -847,3 +847,46 @@ por scope, novos caminhos para previews/resumo público.48testes distintos
 aprovados,14novos;10fontes e85receitas verificadas, ISOv038 conferida antes/depois.
 Receitas/fontes/ISO/iniciadores imutáveis nesta fase. Cinco ISOs ealpha
 preservadas. Nenhuma tradução, novaISO, PCSX2, OneDrive ou desligamento.
+
+## Descoberta v002 e interface v039 — 26/10/2026
+
+Atual: `translations/interface-v039.json`, sobre MAPv037, layoutv005 e arte
+v014. Iniciar-Teste.cmd/alias interface abre `work/interface-v039/MetalSaga-ptbr-interface-v039.iso`;
+Preparar-Interface.cmd valida a mesma receita. Cinquenta linhas novas dos
+créditos finais; total3804campos de interface. Marketing preservado não conta
+como tradução; 241linhas de nomes/empresas/layout permanecem intocadas.
+MAP6024registros,5983corpos/opções e912referências de rótulos permanecem iguais.
+
+Investigação em `tools/discover_binary_remainder.py`, manual
+`docs/descoberta-desconhecidos-v002.md` e relatório homônimo. Complementa as
+221raízes da v001:158contêineres de animação (140anteriores+18novos),55recursos
+vinculados a modelos,5bancos SAF e3recursos especiais ainda opacos. São5876
+ocorrências/571conteúdos distintos descompactados; filtro ASCII sem candidatos
+não exclui outras codificações. Não são5876diálogos novos. Geometria, valores
+dos quadros, áudio e3raízes especiais continuam incompletos; não declarar100%.
+
+Partes de animação: u16tracks em+4,u16+6opaco,u32ponteiro comprimido+8;
+metadados começam+12, base8portrack, contadores de listas nosbytes+6/+7,
+blocos adicionais8+8*u16. Fim deve coincidir com ponteiro; codec1KiB já
+comprovado. Todas as partes passam por replay/recomposição; três laços originais
+de decoder executados em RAM sintética. Caudas não são livres:65conteúdos
+F_PCDKF com cauda>3zeros somente na última parte; cinco caudas não zeradas
+F_SPEND somente na última parte e<16bytes. Dois modelos F_SPEND também têm
+sufixos não zerados preservados. Não promover esses parsers à reinserção.
+
+Créditos: `translations/creditos-v001.json`, `tools/credits_translation.py`,
+política opt-in `credits-roles-same-slot-lzss-font22-v001`. Fonte22/encaminhamento
+do buffer e tamanho dinâmico de alocação foram comprovados por instruções
+originais limitadas. A nova política admite até256bytes adicionais na saída
+descompactada, sem crescer slot/arquivo/ISO; receita usa4373bytes(+151),2433
+comprimidos no slot4096. Pacote local legado conserva teto original por padrão.
+35bytes/linha,292linhas, prefixos819F/CRLF/numeradores e nomes protegidos.
+Não confundir alocação/decoder/argumentos em RAM sintética com rolagem ou
+aparência visual noPCSX2; essa verificação continua pendente no save corrido.
+
+66testes distintos aprovados,20novos. Delta integral v038→v039:2341bytes,
+exclusivamente no slot de créditos. Próximos alvos: recortes de pintura, depois
+grupos gráficos de carregamento/minijogos/cartazes conhecidos. Não manter uma
+engenharia indefinida de modelos sem evidência textual bloqueando esses lotes.
+Cinco ISOs de trabalho ealpha preservada fora da retenção; não copiar OneDrive
+nem desligar sem nova solicitação.

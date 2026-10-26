@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v039.json",
+  "recipe_sha256": "be1eb2251672db057955d80994117d46f8d6349e642979476c07c93f4739e967",
+  "parent_iso": {
+    "path": "work/interface-v038/MetalSaga-ptbr-interface-v038.iso",
+    "size": 1704427520,
+    "sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+    "verified": true
+  },
+  "iso": {
+    "path": "work/interface-v039/MetalSaga-ptbr-interface-v039.iso",
+    "size": 1704427520,
+    "sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+    "verified": true
+  },
+  "new_fields": 50,
+  "new_unique_translations": 50,
+  "preserved_reviewed_credit_terms": 1,
+  "interface_accumulated_fields": 3804,
+  "map_changed_records": 6024,
+  "map_body_or_choice_changed_records": 5983,
+  "map_speaker_label_translated_references": 912,
+  "credits": {
+    "policy": "credits-roles-same-slot-lzss-font22-v001",
+    "changed_rows": [
+      "credits.line.0003",
+      "credits.line.0006",
+      "credits.line.0010",
+      "credits.line.0015",
+      "credits.line.0019",
+      "credits.line.0022",
+      "credits.line.0033",
+      "credits.line.0036",
+      "credits.line.0039",
+      "credits.line.0042",
+      "credits.line.0045",
+      "credits.line.0048",
+      "credits.line.0051",
+      "credits.line.0054",
+      "credits.line.0057",
+      "credits.line.0060",
+      "credits.line.0072",
+      "credits.line.0087",
+      "credits.line.0093",
+      "credits.line.0096",
+      "credits.line.0099",
+      "credits.line.0119",
+      "credits.line.0127",
+      "credits.line.0130",
+      "credits.line.0133",
+      "credits.line.0139",
+      "credits.line.0145",
+      "credits.line.0148",
+      "credits.line.0151",
+      "credits.line.0154",
+      "credits.line.0159",
+      "credits.line.0167",
+      "credits.line.0208",
+      "credits.line.0211",
+      "credits.line.0214",
+      "credits.line.0217",
+      "credits.line.0220",
+      "credits.line.0223",
+      "credits.line.0226",
+      "credits.line.0230",
+      "credits.line.0235",
+      "credits.line.0238",
+      "credits.line.0241",
+      "credits.line.0252",
+      "credits.line.0259",
+      "credits.line.0262",
+      "credits.line.0265",
+      "credits.line.0270",
+      "credits.line.0286",
+      "credits.line.0291"
+    ],
+    "changed_line_count": 50,
+    "editable_line_count": 51,
+    "line_count": 292,
+    "decoded_size": 4373,
+    "compressed_bytes_consumed": 2433,
+    "extra_decoded_budget_bytes": 256,
+    "original_decoder_steps": 63089,
+    "original_decoder_matches": true,
+    "source_sha256": "042ef8803c1832063d45bf90f1c163c559ad716cfb134007e08cc59d0e06459b",
+    "output_sha256": "c32118a8b78aebd63e9457279f1aea4e8679e17aeaec3f962ff6ba9b24b968c5",
+    "decoded_sha256": "0a55b18921bc7b7e44b4605cdaf2e26a902dab5c2bef8a4358725703fa05500d",
+    "resource_size": 206848,
+    "outside_compressed_slot_identical": true,
+    "staff_names_companies_layout_preserved": true,
+    "iso_modified": false,
+    "font_and_runtime_visual_validation": "Font 22 argument and setter forwarding verified; visual appearance/scrolling pending",
+    "accepted": 50,
+    "preserved_common_terms": [
+      "credits.line.0109"
+    ],
+    "consumer_probe": {
+      "constructor_font": 22,
+      "constructor_arguments_executed": true,
+      "setter_buffer_forwarding_executed": true,
+      "decoded_allocation_request": 4373,
+      "consumer_size_from_compressed_header": 4373,
+      "limits": "Bounded caller instructions in synthetic RAM; allocation return, object base and stack supplied. Constructor internals, font drawing, scrolling and PCSX2 not executed."
+    },
+    "instruction_windows": [
+      {
+        "offset": 1282216,
+        "size": 72,
+        "sha256": "5fd199015a3bbbbf7368c69e9a88530426151a737f97af705aac34f74b2f3f95"
+      },
+      {
+        "offset": 1284580,
+        "size": 208,
+        "sha256": "ea41243c03a263c5af0809a535229017736c4a485c259ba1ceb7a953802273c1"
+      },
+      {
+        "offset": 1285440,
+        "size": 344,
+        "sha256": "0bb4da6dcb2d297199b1d3f384f48ff992ab5d8d0102a9ca0559b3bb03d548ac"
+      },
+      {
+        "offset": 1106648,
+        "size": 120,
+        "sha256": "b68921edd96d81d70c80a78ca1a3ce225910e2e8a1c63fbc7d25fd85385a6cd5"
+      },
+      {
+        "offset": 1107464,
+        "size": 80,
+        "sha256": "f075ce1f105d619d7ef009532f08e50f8a3b1061531d633101ee9f139f9c3f7e"
+      },
+      {
+        "offset": 1685240,
+        "size": 60,
+        "sha256": "cf57e8580fffdf397559e77806db75093530196f2a94957f105541de1758dbe1"
+      }
+    ],
+    "runtime_visual_status": "pending_user_verification"
+  },
+  "delta_against_parent": {
+    "old_recipe": "translations/interface-v038.json",
+    "new_recipe": "translations/interface-v039.json",
+    "source_iso_sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+    "output_iso_sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+    "iso_size": 1704427520,
+    "changed_bytes": 2341,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "credits.roles.same-extent-v001",
+        "resource": "DATA/FDATA/FD_END.SDA",
+        "iso_offset": 1697792,
+        "size": 4096
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "automated_tests": {
+    "modules": [
+      "test_binary_remainder_discovery",
+      "test_credits_translation",
+      "test_edit_preparation",
+      "test_discovery_credits_paint",
+      "test_unknown_entry_discovery",
+      "test_iso_retention",
+      "test_alpha_archive",
+      "test_verify_test_iso"
+    ],
+    "tests": 66,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "one_drive_copied": false
+}

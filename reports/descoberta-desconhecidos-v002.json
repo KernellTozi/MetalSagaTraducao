@@ -1,0 +1,3637 @@
+{
+  "schema": 1,
+  "scope": "Bounded binary remainder discovery v002",
+  "historical_baseline": 365,
+  "follow_up_roots": 221,
+  "classes": {
+    "motion-offset-bundle": 158,
+    "consumer-bound-model-opaque-geometry": 55,
+    "sound-bank-chunk-envelope": 5,
+    "special-consumer-bound-opaque-payload": 2,
+    "special-table-bound-opaque-payload": 1
+  },
+  "motion_child_occurrences": 5876,
+  "unique_motion_payloads": 571,
+  "decoded_unique_bytes": 11653536,
+  "maximum_decoded_payload": 139424,
+  "nonzero_tail_unique_payloads": 5,
+  "decoded_ascii_phrase_probe": {
+    "candidates": [],
+    "count": 0,
+    "limits": "No hit does not prove absence of native/custom encoded text. Motion purpose also supported by original consumers."
+  },
+  "original_decoder_cases": [
+    {
+      "profile": "flat",
+      "child_sha256": "03b3cedd89da232cbf7249a4a6aa2612644a51297169498ae8a164303f2e642b",
+      "decoded_size": 1184,
+      "steps": 15726,
+      "matches": true
+    },
+    {
+      "profile": "variable",
+      "child_sha256": "2cd0056dc0b0c45c0b0811b77d3b2f4d9dc8879b81a240a88858ee26286f1470",
+      "decoded_size": 17784,
+      "steps": 237049,
+      "matches": true
+    },
+    {
+      "profile": "nonzero-tail",
+      "child_sha256": "b666f0f38aafef1ff66d159690a6c0dc786ce78f6a19725856da8307da130408",
+      "decoded_size": 4736,
+      "steps": 61022,
+      "matches": true
+    }
+  ],
+  "instruction_windows": [
+    {
+      "offset": 1296820,
+      "size": 84,
+      "sha256": "b5bc9c0a2a8b25b6d241ea21625da1abded33babc8a2f412427a28be213cfb51"
+    },
+    {
+      "offset": 1642440,
+      "size": 56,
+      "sha256": "0f39fd77d40cf5c37b4082973d5dbd0af59ff92af7440a4d2a12578819d31ba6"
+    },
+    {
+      "offset": 1620644,
+      "size": 236,
+      "sha256": "cf26f1b0afa11618540fc91cf2dea5be14f17ca72200115ffa4f93af5612917c"
+    },
+    {
+      "offset": 1621000,
+      "size": 80,
+      "sha256": "699f4d3fb4a0d4dd94cb7faa27bf8e0cff38abb1962333bba51420491ec81131"
+    },
+    {
+      "offset": 1640152,
+      "size": 20,
+      "sha256": "5aead83ac84824fa851563d98e4ade7c1c12c9adb924399e337f10c1e681d070"
+    },
+    {
+      "offset": 1685304,
+      "size": 472,
+      "sha256": "8c3c6e0645dc5acb3f535d0bcedf82b6c547a93b171daf0c94863de245c3291e"
+    },
+    {
+      "offset": 1364728,
+      "size": 416,
+      "sha256": "d37da3ea04eb68a85982a6323dd7673af1294182663e61e5ce96e521c9223aa6"
+    },
+    {
+      "offset": 1274228,
+      "size": 160,
+      "sha256": "7421a97195c24ac656241a7a5331ea1526fbb186aa786caa06c6fb1c15f63526"
+    },
+    {
+      "offset": 1616280,
+      "size": 72,
+      "sha256": "6d8c470b3c8206c7c94914d0831e2ab9868bfe800856190387f4ee94918a1d93"
+    },
+    {
+      "offset": 2113032,
+      "size": 436,
+      "sha256": "7d69325fb32ec3c021719b13c58ef347cb91278033edb594ba20b56bafd89fa2"
+    },
+    {
+      "offset": 1514652,
+      "size": 36,
+      "sha256": "4d7ce4cc5c9767f812fe5cea6ada8a0ecffefb4191f25edf36348bb6cd7275e8"
+    },
+    {
+      "offset": 1514716,
+      "size": 36,
+      "sha256": "1bf77c0a0d4ce243c9ceb5c58362f66b8b1adade2470b1499ae84c8555f15d3c"
+    },
+    {
+      "offset": 1267320,
+      "size": 84,
+      "sha256": "b346815c68466043f1d7a367f094b79be81b9f2ae994199af2ef0b79a650d319"
+    },
+    {
+      "offset": 1438172,
+      "size": 100,
+      "sha256": "103d8898cee0489046c82623e03c8bae9d9440fb9357227db7c80d8c94d7f938"
+    }
+  ],
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "source_sha256": {
+    "DATA/FDATA/F_PCDKF.SDA": "7d7e3665e52cdb9c6f3543508d52b152f6810cc0f756d3ab04bd77a35b2aa4d7",
+    "DATA/FDATA/F_SPEND.SDA": "c5024c37d4a69492ce893e659b351a65817dd099928d4d8d8ebd73935e511cb7",
+    "DATA/RDATA/RMGALAN.SDA": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+    "DATA/RDATA/RMGDANCE.SDA": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+    "DATA/RDATA/RMGDOG.SDA": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+    "DATA/RDATA/RMGKAERU.SDA": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+    "DATA/RDATA/RMGTANK.SDA": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e"
+  },
+  "recipes_verified_unchanged": 85,
+  "iso_verified_unchanged": {
+    "path": "work/interface-v038/MetalSaga-ptbr-interface-v038.iso",
+    "size": 1704427520,
+    "sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+    "verified": true
+  },
+  "records": [
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 640,
+      "size": 194816,
+      "sha256": "cadb7fc6b8c0f0cdf56991084bb2c6807da20b8ce0c6e8c4cd4ab19240058034",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 195456,
+      "size": 196480,
+      "sha256": "a7b8b48b5dd46faa55b3f192380891ffeda05e01da4c6ff5b1f79925a7d76b6a",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 391936,
+      "size": 199424,
+      "sha256": "197ce18bc176b935032a9abf35af1f5bf0fe86c2e6d0db2d0597f175e0e42f42",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 591360,
+      "size": 182656,
+      "sha256": "6b195850e5d086cfedaf16f51bd401e4209f3df8a25ed4d6a08b92d476620313",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 774016,
+      "size": 193536,
+      "sha256": "19be1b8221f8ca3007d08617dd7d74e335e46edf2488c10bf6714cf51a5755f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 967552,
+      "size": 182656,
+      "sha256": "6b195850e5d086cfedaf16f51bd401e4209f3df8a25ed4d6a08b92d476620313",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 1150208,
+      "size": 182656,
+      "sha256": "6b195850e5d086cfedaf16f51bd401e4209f3df8a25ed4d6a08b92d476620313",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 1332864,
+      "size": 192000,
+      "sha256": "f0af88b7e0699776cefbd52694954c09fffc04f2d7839d7413b880daa8a19220",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 1524864,
+      "size": 193792,
+      "sha256": "8b048838935ca2066914136b01c6b9e8f6bac7e4c9f196d7845b55661b67b36c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 1718656,
+      "size": 196992,
+      "sha256": "e1d756606358e1298667c773a4a207c01f5c08b84b9373e8672194d558c24fea",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 1915648,
+      "size": 193024,
+      "sha256": "6911ff1beaaa206e5a088726ac7db258e584c30953eb4f770cecb73485497870",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 2108672,
+      "size": 198656,
+      "sha256": "653ba4def016bb9218ecf3fb2aab2fac2daea928f8c2db5e252805879eebd919",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 2307328,
+      "size": 195072,
+      "sha256": "1a5a7ec1661bb635bffab50cdfd156b2d39c6d040e55036482428bbaeeed982b",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 2502400,
+      "size": 194944,
+      "sha256": "dbf80fd112905ca912fb50d9ac0981e2dd2eb758676b0fb4ccb7da9d35bde9a3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 2697344,
+      "size": 396032,
+      "sha256": "439ab533cfc48d095043e247d336e8857d5f2def2d0c1b037ea55cd2cf0acf0d",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 3093376,
+      "size": 399872,
+      "sha256": "5491fb0e1e68c6770f822cf296e96f0ecd00032d81745e9951e0551f0493dbcf",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 3493248,
+      "size": 397952,
+      "sha256": "096bf5a3139cbbb72082221c6a705789030a827e5e38ef76729ec47458fbf60f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 3891200,
+      "size": 378112,
+      "sha256": "83f319d7d98df14b218d25e41b6f6f8df5ca683cb604a8936bf3211dbc76f3a6",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 4269312,
+      "size": 393472,
+      "sha256": "e96879d2931f030612076d5ea5a64aa11d5965780d789ee2b9d292b266489a56",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 4662784,
+      "size": 378112,
+      "sha256": "83f319d7d98df14b218d25e41b6f6f8df5ca683cb604a8936bf3211dbc76f3a6",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 5040896,
+      "size": 378112,
+      "sha256": "83f319d7d98df14b218d25e41b6f6f8df5ca683cb604a8936bf3211dbc76f3a6",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 5419008,
+      "size": 393344,
+      "sha256": "7e78ee542e3a9a005b0304dff6fece65f596ce2f9d0d306cc4d75b0e91c49c33",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 5812352,
+      "size": 393344,
+      "sha256": "ddf610dcd89585202c7435ac44c7878d6f85fe5bb5760e12e3ac52faa39bceb5",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 6205696,
+      "size": 391552,
+      "sha256": "bd7e96ebbb5b1b01015ef030485316ba8e6cb1b7ec39d729fcb8c5790f02270f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 6597248,
+      "size": 393984,
+      "sha256": "a194b2715181cf8d46e72156f9e0b1ffb7427e5f2880e359a822f124da9ac0d0",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 6991232,
+      "size": 401792,
+      "sha256": "acdaeb7b5c9f8560ddd07471026e384b79869409dc9ec2917696d003ddc1fa47",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 7393024,
+      "size": 396288,
+      "sha256": "24c0860e11512132e6487d3591cec86328a20452ca2423935cd557802c080e5c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 7789312,
+      "size": 400384,
+      "sha256": "a2461e76143d74ae0ef861c3370d5118c11368cb176af8f954659ce28db55e29",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 8189696,
+      "size": 518400,
+      "sha256": "1702992abc190d74eabddf307ffc8e0151669c19230ffd10c3d5bd00347c5284",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 8708096,
+      "size": 519168,
+      "sha256": "b8ce72e996426fa3ebb6b87bdd099fcd0a7aa1cb446f76dbf3dfeeda6f4f0c9a",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 9227264,
+      "size": 531584,
+      "sha256": "63a9c5dc3ad00165291872fdd9f5582803e0a2f2699afdb4a22d8b5dc81a3a25",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 9758848,
+      "size": 503296,
+      "sha256": "67e1a149566b0eac7b50499a5a4e88435c67dd01a34ea72ab9b70c4e26ba551c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 10262144,
+      "size": 522368,
+      "sha256": "7b7bfe4cb807bf909c03e9e21fb9f5d63bc5a8a3a0ec20e8a29eca8cf00536f8",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 10784512,
+      "size": 503296,
+      "sha256": "67e1a149566b0eac7b50499a5a4e88435c67dd01a34ea72ab9b70c4e26ba551c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 11287808,
+      "size": 503296,
+      "sha256": "67e1a149566b0eac7b50499a5a4e88435c67dd01a34ea72ab9b70c4e26ba551c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 11791104,
+      "size": 532224,
+      "sha256": "209366d69124a1b99506a94b6f960850a511710c781f68bd5194774d98d50942",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 12323328,
+      "size": 533888,
+      "sha256": "215dd65540669c7887d87609242abd52d9dbebd5520dec436908462630d9b64a",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 12857216,
+      "size": 525696,
+      "sha256": "08d70c90a22bfa789d3a5159d2b3a3edaee7d4acb3111b18046935dfc2c0e9ed",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 13382912,
+      "size": 523776,
+      "sha256": "c01972b161ed1af545674b08a49fda07e6008c244e161e0e02cc8b8fe2b32fe3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 13906688,
+      "size": 532864,
+      "sha256": "7ebc80b32ad4adcc67083774abbfd3379cf001d0f6cf3a4b06690d010b90e78c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 14439552,
+      "size": 523136,
+      "sha256": "b0a851fb23b7c3be2ee368ab475aef2ac4b047e1550222d796ad42d621263218",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 14962688,
+      "size": 531072,
+      "sha256": "c2a9fc3cdd44c33f11982c20602024a7f9f119401d65ab22cb6fe97cd6e79ff0",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 15493760,
+      "size": 361472,
+      "sha256": "dd278d3a5291199d604b2df90d62f462f00d7b8e6ea9d286ce3f0cead94388d9",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 15855232,
+      "size": 362752,
+      "sha256": "9f775a72331a237df8a1058bc6fa86eed1876ab51ecdb373578f6672fa3c51c0",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 16217984,
+      "size": 360704,
+      "sha256": "a68e544ddc7cce7afdb7a965c5dfdeeef50c63456c3b77bab49f4932b81a171e",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 16578688,
+      "size": 374144,
+      "sha256": "753ceb0b8c6b82f5d303e5ea9bf34238fc0bb4bd4f036729399cbbf1aee123b2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 16952832,
+      "size": 334592,
+      "sha256": "65b7f732536b5c7e2cf08bdc44d7da061f782b63f94fd265393a5217c058f46f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 17287424,
+      "size": 334592,
+      "sha256": "65b7f732536b5c7e2cf08bdc44d7da061f782b63f94fd265393a5217c058f46f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 17622016,
+      "size": 334592,
+      "sha256": "65b7f732536b5c7e2cf08bdc44d7da061f782b63f94fd265393a5217c058f46f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 17956608,
+      "size": 334592,
+      "sha256": "65b7f732536b5c7e2cf08bdc44d7da061f782b63f94fd265393a5217c058f46f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 18291200,
+      "size": 334592,
+      "sha256": "65b7f732536b5c7e2cf08bdc44d7da061f782b63f94fd265393a5217c058f46f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 18625792,
+      "size": 334592,
+      "sha256": "65b7f732536b5c7e2cf08bdc44d7da061f782b63f94fd265393a5217c058f46f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 18960384,
+      "size": 355200,
+      "sha256": "8f059a6932735d4bfbfe48b5cb1babb9820807a3a7dc7ae1e9f2b9c1b82db29d",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 19315584,
+      "size": 360960,
+      "sha256": "545150e59ea13c2f04566a91e1eb048043f442ffeefe1a2e6a6a7de7a5c17638",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 19676544,
+      "size": 362752,
+      "sha256": "0162c2e7092f020f1e485ea31d86c11edf3f1c2a9031bae6dcc9eb22d4f85614",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 20039296,
+      "size": 371840,
+      "sha256": "4a77398a6fa7e21971bb1ffd6596c4ebfe0366d6fa5f594a8751297b5e5a00cb",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 20411136,
+      "size": 294528,
+      "sha256": "8d05c01e2e5d31d3a3cadafe38094cd6ebe039602472c6a07ab94f7f62439d12",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 20705664,
+      "size": 274816,
+      "sha256": "a65b917a8a009841151b6593a2f074893e6ae89c3a4abb0616182a30a5574c90",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 20980480,
+      "size": 274816,
+      "sha256": "a65b917a8a009841151b6593a2f074893e6ae89c3a4abb0616182a30a5574c90",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 21255296,
+      "size": 274816,
+      "sha256": "a65b917a8a009841151b6593a2f074893e6ae89c3a4abb0616182a30a5574c90",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 21530112,
+      "size": 289408,
+      "sha256": "8d32012f8e8f3721cd321ab4773a1897483d6d33976ce76a6a952570b851542d",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 21819520,
+      "size": 298240,
+      "sha256": "567b95f90c3bdac91890160e118bb7bdc006e674337170203bd614960e8adac2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 22117760,
+      "size": 292992,
+      "sha256": "a075e4e5aebf4f2b25eaaee66f9808f1cb42d0f2ca5c4ffcb3062c0687d44449",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 22410752,
+      "size": 295936,
+      "sha256": "34201464b5589d2d5e270ab88af3398d1ea57f95ce1d8605de4dc88463291dac",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 22706688,
+      "size": 295936,
+      "sha256": "dd7d4442c9e5b8b166245057846de980d60e016d137992757541bc2b25bf858f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 23002624,
+      "size": 301312,
+      "sha256": "f3bce25bbbd3b48905179515457b15645a7627088a8fe0e195fee7321bd3ab86",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 23303936,
+      "size": 289024,
+      "sha256": "c4cf70377bdff22f0950acb79670eefbf83062f2a965b86698ac245288159f7d",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 23592960,
+      "size": 290944,
+      "sha256": "e48da5542e509ce675bee0f453e2dd5e69f377a71baa66de2c86b49c7a01c700",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 23883904,
+      "size": 274816,
+      "sha256": "a65b917a8a009841151b6593a2f074893e6ae89c3a4abb0616182a30a5574c90",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 24158720,
+      "size": 274816,
+      "sha256": "a65b917a8a009841151b6593a2f074893e6ae89c3a4abb0616182a30a5574c90",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 24433536,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 24865152,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 25296768,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 25728384,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 26160000,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 26591616,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 27023232,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 27454848,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 27886464,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 28318080,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 28749696,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 29181312,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 29612928,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 30044544,
+      "size": 431616,
+      "sha256": "dae284c7f8e63b5856521dc0c6b3c7e7bd2ee43646543e66d1394c8c6fe9f1f1",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 30476160,
+      "size": 225408,
+      "sha256": "46e74494e418f85d4ce8cffd664460c5225738de8229b1c8ef4a68775c60b87e",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 30701568,
+      "size": 222592,
+      "sha256": "d869536b2728f509adf4defdb9d5eedb978a357944ce7039457a7361340d8145",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 30924160,
+      "size": 215296,
+      "sha256": "2a6e387cb713e8116af43a7dd26cdf66db34cf945fd7e40a6bfb0faa52e3f8bf",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 31139456,
+      "size": 221312,
+      "sha256": "192dadc760c2f55811c9f8ba4c32dbfca0ddc9b8bd445ae71ade3d8f7e91f667",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 31360768,
+      "size": 218880,
+      "sha256": "ed4f374d9d08852916661bce6e7f0a86e72185098afbe597d38b93140e195167",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 31579648,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 31783808,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 31987968,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 32192128,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 32396288,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 32600448,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 32804608,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 33008768,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 33212928,
+      "size": 204160,
+      "sha256": "93157669d902c6b0d3b487bfe0febb79a49ab1a09304224e044b72c86ef844e2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 33417088,
+      "size": 226432,
+      "sha256": "27ea28ce710fa6ef3a97966cfa408a4eb87032dd5b4d4ce16f6401fcdbb5a7c5",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 33643520,
+      "size": 214400,
+      "sha256": "847fe3fb0a57967b2b3132bfa6639895409a33a4c92b034447df745481d6b9a2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 33857920,
+      "size": 216704,
+      "sha256": "912959ba9874094a7d37eeec328d58db3de4f14d7540b64e9eea1c78e131c539",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 34074624,
+      "size": 223232,
+      "sha256": "dd6a2822311825dd2eaeb0ad15c9e6faa2dafc1d3845c8897e6552ee70df74c4",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 34297856,
+      "size": 220160,
+      "sha256": "3d490874198218925d0a5957f6c540b1e6fe09e549497d75222b2e6902e1f9ec",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 34518016,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 34722816,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 34927616,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 35132416,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 35337216,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 35542016,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 35746816,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 35951616,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 36156416,
+      "size": 204800,
+      "sha256": "4d0ecaa3b7e329d69cb5eb0ca01c540cfb96107eac23f675d2bc1b87b6b4d7e3",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 36361216,
+      "size": 232064,
+      "sha256": "ebb0a3c1a70d1e6150e035469a955228e67d93c8c533082988a8bee4d64bac85",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 36593280,
+      "size": 230144,
+      "sha256": "83f5d8d4af5e71cea23fa3c9d25cad9e3af7cf0c4d86c0b5265699d39a6e11a2",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 36823424,
+      "size": 224128,
+      "sha256": "75cb257a7dc4162a1fad16bd32760fcc4a5747b2495b9534ca65b988604dc0e4",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 37047552,
+      "size": 227840,
+      "sha256": "ed936239ddfb765170d3d2d6b7ed091a459929bbfe9223ba63cdd29108ef3897",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 37275392,
+      "size": 225408,
+      "sha256": "a54495b6bf8195bdcaef8c10605c80da5e76b457bb88bb4f30fcdebeb9acc267",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 37500800,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 37714816,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 37928832,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 38142848,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 38356864,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 38570880,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 38784896,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 38998912,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 39212928,
+      "size": 214016,
+      "sha256": "08ab46c5dc1f98c2beb9f3ef39e265a45cb9677822400011242b0f18082fffee",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 39426944,
+      "size": 160640,
+      "sha256": "730373ffb8d06bbf5fbe5ffb1c64ac0997e818a4ce374443e48039b5493764cc",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 39587584,
+      "size": 156160,
+      "sha256": "7ea8042219766b165d4e7870aacc863b9979b110a2e121a5b48ef3ca71ffedbf",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 39743744,
+      "size": 151168,
+      "sha256": "8e1783c600ff61b425698c43751400ad7c03a8e9043284e542cbccb8cefa9802",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 39894912,
+      "size": 157568,
+      "sha256": "0199f1423940649c717a13ee17884a74cea0822bc83e1ec6ea8129e4b452114d",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40052480,
+      "size": 155136,
+      "sha256": "a6dc88704164221501dd13728a8073df6937863341f2bf1a9983d3b9b43b246b",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40207616,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40346880,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40486144,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40625408,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40764672,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 40903936,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 41043200,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 41182464,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_PCDKF.SDA",
+      "offset": 41321728,
+      "size": 139264,
+      "sha256": "807b43b3a1a3596a0a77b3b3d7e3b4821f6ac840cf3d2be3b020c80dafcbe2d7",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 41,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 80,
+      "size": 58864,
+      "sha256": "863824d109794b33d4dd150bc13ca0567c6aaec0365b05e5f91d6bcb266bc613",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 3336152,
+        "table_sha256": "1f6a2e9b4c4c752be501e3882cdc02aa3b8d475a90547a187715a26525b9ae46",
+        "caller_offset": 1274380,
+        "model_size": 58852,
+        "texture_offset": 376288,
+        "texture_size": 66592,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 709248,
+        "motion_size": 12472,
+        "opaque_suffix_size": 12,
+        "opaque_suffix_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 58944,
+      "size": 90208,
+      "sha256": "1fbffb5520711419503992c279f2d876463ea71e387f729161dd2ba903d2ce90",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 3336176,
+        "table_sha256": "c92bfb7647cd3365d54d0d9b3ce950623ec58285602605873a24b4657bb8a326",
+        "caller_offset": 1274380,
+        "model_size": 90196,
+        "texture_offset": 442880,
+        "texture_size": 66592,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 721728,
+        "motion_size": 26760,
+        "opaque_suffix_size": 12,
+        "opaque_suffix_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 149152,
+      "size": 78464,
+      "sha256": "5513c6e142ab87997f3b81f212c895801d74ecc7694313ae9ed7dc4c16e22893",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 3336200,
+        "table_sha256": "9b0f4046882a8fcd7cf780461881d4755f8fe2df8f10222f06a2c90d392b1c77",
+        "caller_offset": 1274380,
+        "model_size": 78456,
+        "texture_offset": 509472,
+        "texture_size": 66592,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 748496,
+        "motion_size": 24676,
+        "opaque_suffix_size": 8,
+        "opaque_suffix_sha256": "7553aa329f5c4b19a144975d9c77414de30bf387a550a18a857b6ed848387027",
+        "opaque_suffix_nonzero": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 227616,
+      "size": 57840,
+      "sha256": "d8238e6053ffb8513a29c9aeecad7424ab406966d09dade82856c87d53265138",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 3336224,
+        "table_sha256": "fa017b330d6388ad68c92c1a04bfb4a75af3577ecfa265a4bbee4f203ede4d17",
+        "caller_offset": 1274380,
+        "model_size": 57828,
+        "texture_offset": 576064,
+        "texture_size": 66592,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 773184,
+        "motion_size": 3964,
+        "opaque_suffix_size": 12,
+        "opaque_suffix_sha256": "0a2cbf82a3fabe74b3af4c74f510b26175621dac9fd06a2ada5b4fdaada7a737",
+        "opaque_suffix_nonzero": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 285456,
+      "size": 90832,
+      "sha256": "596821f865693400f425f784e6ee8c8350967ee133b927efb22d24e0613d45fd",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 3336248,
+        "table_sha256": "73ac34653945da38227bb85a833d58f6ce323b5336d5d3d18f2b5557655f6ea7",
+        "caller_offset": 1274380,
+        "model_size": 90818,
+        "texture_offset": 642656,
+        "texture_size": 66592,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 777152,
+        "motion_size": 44124,
+        "opaque_suffix_size": 14,
+        "opaque_suffix_sha256": "e7ecebbc590bc88b3761fa6cd03d749f87463dabb67021a5c6768c25ec68b3f2",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 709248,
+      "size": 12480,
+      "sha256": "9847e26e1a3187294459b63e3e41e036d012e88b54b67cd2f8636148c569c5f8",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 2,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 721728,
+      "size": 26768,
+      "sha256": "70f669c432e649771b5e2497c74f822bddf0b43e61dee1787e06d71ecb6bd6c9",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 2,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 748496,
+      "size": 24688,
+      "sha256": "320f0f9692b51831a95154f9b68988aa711e05424c5dfa25958d119440df96f5",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 2,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 773184,
+      "size": 3968,
+      "sha256": "77ec98ae30d0b32739c60b206562f77f2bf1ef602c40edb6931423d07e1c7696",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 2,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/FDATA/F_SPEND.SDA",
+      "offset": 777152,
+      "size": 44128,
+      "sha256": "0ca019bff8b903c468de0f86bf866d25cd59f9ed117a24d2ab15ff0b1fa16791",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 2,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 256,
+      "size": 281024,
+      "sha256": "eb5febebf56666bd9fc347de8668e067fe22216e661823c5cbfb9091203be2db",
+      "discovery": {
+        "kind": "sound-bank-chunk-envelope",
+        "chunks": [
+          {
+            "tag": "SAF ",
+            "offset": 0,
+            "payload_offset": 16,
+            "size": 304
+          },
+          {
+            "tag": "HD  ",
+            "offset": 320,
+            "payload_offset": 336,
+            "size": 2592
+          },
+          {
+            "tag": "BD  ",
+            "offset": 2928,
+            "payload_offset": 2944,
+            "size": 278064
+          },
+          {
+            "tag": "END ",
+            "offset": 281008,
+            "payload_offset": 281024,
+            "size": 0
+          }
+        ],
+        "hd_subsections": [
+          {
+            "kind": "sreV",
+            "offset": 336,
+            "size": 16
+          },
+          {
+            "kind": "daeH",
+            "offset": 352,
+            "size": 64
+          },
+          {
+            "kind": "igaV",
+            "offset": 416,
+            "size": 304
+          },
+          {
+            "kind": "lpmS",
+            "offset": 720,
+            "size": 1408
+          },
+          {
+            "kind": "tesS",
+            "offset": 2128,
+            "size": 272
+          },
+          {
+            "kind": "gorP",
+            "offset": 2400,
+            "size": 528
+          }
+        ],
+        "roundtrip": true,
+        "audio_samples_decoded": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 711888,
+      "size": 544,
+      "sha256": "9e1cd3610474b09c831a1bba98031380140d883f29cab6f2f88a34b245decc8b",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 1,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 712432,
+      "size": 78464,
+      "sha256": "dd8be1ee21f387dc3007128d0466e3406c120514b2107dd86bdcb06780b3e779",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524344,
+        "table_sha256": "08958917b71b9d88f8b22bcf4f2e7802e8e570a3be5380203f5ac7f9246c8c5b",
+        "caller_offset": 1514552,
+        "model_size": 78453,
+        "texture_offset": 577616,
+        "texture_size": 134272,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 711888,
+        "motion_size": 536,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1085184,
+      "size": 212896,
+      "sha256": "3ffe2b20f395629e133ff3c6c2219d450169ad7631f2905656f36e475de48020",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524380,
+        "table_sha256": "a27fd88b6e0540315e04b59e6dadb45ce0ab5b8c5041bbf540c59112c79786d6",
+        "caller_offset": 1514552,
+        "model_size": 212887,
+        "texture_offset": 790896,
+        "texture_size": 294288,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 9,
+        "opaque_suffix_sha256": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1315520,
+      "size": 12512,
+      "sha256": "d31383ba0380761d6566dab49e73a0e7181b27dce943be8e57c95bbabc8337bd",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524416,
+        "table_sha256": "7c9ab0fd2ae627b82da82538e5ec32c05f9475f4308cfea1cea3db890090e2f8",
+        "caller_offset": 1514552,
+        "model_size": 12510,
+        "texture_offset": 1298080,
+        "texture_size": 17440,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 2,
+        "opaque_suffix_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1345280,
+      "size": 19920,
+      "sha256": "420a0224746ae86b7b2828200beefdb0ef08fa7e9aab96f4b2564c2b14e86c7f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 2,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1365200,
+      "size": 40624,
+      "sha256": "8d903da9d178117708908ab094dd0c59e28e91b487a6744b1e5dc2886a96e387",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524812,
+        "table_sha256": "388956b3395a7501b4e77a6bef39695307c3c2ab8a8b722c33fb380c3a0e4bb7",
+        "caller_offset": 1514552,
+        "model_size": 40612,
+        "texture_offset": 1340128,
+        "texture_size": 5152,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 1345280,
+        "motion_size": 19908,
+        "opaque_suffix_size": 12,
+        "opaque_suffix_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1458128,
+      "size": 143696,
+      "sha256": "5a9a63b0ab5cf109a24de2eedaad58a48d6046e4dd4fde8cefd978af88907716",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 14,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1601824,
+      "size": 73712,
+      "sha256": "ded2775ec15eb144b3c91af33f403755319035e4464761c5c75a18fe9551c37d",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524452,
+        "table_sha256": "053dc61242e28dd6cc42c5789188eecc0dd4c3269ba50c7b54f7c6c3473e9dcb",
+        "caller_offset": 1514552,
+        "model_size": 73708,
+        "texture_offset": 1405824,
+        "texture_size": 52304,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 1458128,
+        "motion_size": 143688,
+        "opaque_suffix_size": 4,
+        "opaque_suffix_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1727840,
+      "size": 144672,
+      "sha256": "aeedb040eddd75cb36f6374390fb2d98113bafd706a96d6ef607b79474871e0a",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 14,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 1872512,
+      "size": 84320,
+      "sha256": "f631655aeb323486f96f06cb3ba23efaca45f537df670b35a64061f9d1872748",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524488,
+        "table_sha256": "c6d71310abc9e2f5afabcffb50645fc56ddac1070496a5fb7dd05948a4f7ce06",
+        "caller_offset": 1514552,
+        "model_size": 84315,
+        "texture_offset": 1675536,
+        "texture_size": 52304,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 1727840,
+        "motion_size": 144664,
+        "opaque_suffix_size": 5,
+        "opaque_suffix_sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 2156592,
+      "size": 161136,
+      "sha256": "5d899951d3f884c8df38d63005d4c415751822161a3f0ef26e3d5a2882cb55e8",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 15,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 2317728,
+      "size": 121584,
+      "sha256": "6f9297b82039db2500a6074c8ba02a7ad304b3b9cb9d7d0108a25844084cfd18",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524524,
+        "table_sha256": "294f3a8b9c0a071e4d889c50b20b7823fcd4c9cb6ea0dc43d6bf0bb0ff9fa2ce",
+        "caller_offset": 1514552,
+        "model_size": 121573,
+        "texture_offset": 1956832,
+        "texture_size": 199760,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 2156592,
+        "motion_size": 161136,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 2491616,
+      "size": 139696,
+      "sha256": "5b031af10864444f48b56356ee404529328156e976e74db086d51e7827660776",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 14,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 2631312,
+      "size": 64128,
+      "sha256": "025a0ec8ea028ce255b84dd338e33ce427d9ee5885f85fe7b8558b2a16afab13",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524560,
+        "table_sha256": "c64b5a6e60092178eec9c2196afca21f173ea4ee82bca27addcb4232241eaf4f",
+        "caller_offset": 1514552,
+        "model_size": 64122,
+        "texture_offset": 2439312,
+        "texture_size": 52304,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 2491616,
+        "motion_size": 139696,
+        "opaque_suffix_size": 6,
+        "opaque_suffix_sha256": "b0f66adc83641586656866813fd9dd0b8ebb63796075661ba45d1aa8089e1d44",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 2747744,
+      "size": 137808,
+      "sha256": "3e3003f117fe814535a3681067e89ef9583c94e3df00056ee9592123d514657e",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 14,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 2885552,
+      "size": 72736,
+      "sha256": "427d75196894ea6371e48079f686fbaeecd69e810f781a49d8b742bec5b23d59",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524596,
+        "table_sha256": "89ab54a924ca72ec9c53c4f23ea20d9e1f87a9d31f74bc8f6ff803eeb2d8c261",
+        "caller_offset": 1514552,
+        "model_size": 72728,
+        "texture_offset": 2695440,
+        "texture_size": 52304,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 2747744,
+        "motion_size": 137800,
+        "opaque_suffix_size": 8,
+        "opaque_suffix_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3010592,
+      "size": 141440,
+      "sha256": "c6dfed14cfd09c86972e598b8fe6d696178f1cc4729d42e292990c881c5f14fd",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 14,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3152032,
+      "size": 73072,
+      "sha256": "8a8ccd5bb9d0c76519590ef337659d6d8223df22d4a8ab6737e8e402c7f99ec4",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524632,
+        "table_sha256": "0e7481068d7f61305976fae7359d9b8ac3bd16347247e60b09ef6b7b58b2f3aa",
+        "caller_offset": 1514552,
+        "model_size": 73061,
+        "texture_offset": 2958288,
+        "texture_size": 52304,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 3010592,
+        "motion_size": 141428,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3277408,
+      "size": 144928,
+      "sha256": "22e16df7a5ddd9d7ecbeef8080d279d99a9584a1ca70e12d0b033423b515454c",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 14,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3422336,
+      "size": 80288,
+      "sha256": "58a697be0c6dc2ca86303ed86a64834da045fc20bc26a451069e7fef2bd176d3",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524668,
+        "table_sha256": "8cd599db6e57b755dbb2dd9c6b4dfcede61eabe017dcee08cdddd5dc231f9ef6",
+        "caller_offset": 1514552,
+        "model_size": 80273,
+        "texture_offset": 3225104,
+        "texture_size": 52304,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 3277408,
+        "motion_size": 144920,
+        "opaque_suffix_size": 15,
+        "opaque_suffix_sha256": "5322fecfc92a5e3248a297a3df3eddfb9bd9049504272e4f572b87fa36d4b3bd",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3596272,
+      "size": 7152,
+      "sha256": "a4ae7d99bd07f246ecae1c6ac46abe4245ce05b84be3b8ba9fe76440e5619eac",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524704,
+        "table_sha256": "98fa1f2782960fe81060a9ffeab4c65e91dfc2139e5a9f1e8572a6b99384e64e",
+        "caller_offset": 1514552,
+        "model_size": 7147,
+        "texture_offset": 3502624,
+        "texture_size": 93648,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 5,
+        "opaque_suffix_sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3631280,
+      "size": 4448,
+      "sha256": "b04670f90036298e76ed759d690c177a11fe9afc4af79a47bdd86be08b71269c",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524740,
+        "table_sha256": "ebc824475e74a4d4affa141dde2dc52139cd12b111cb0e5e7e611f103a5993ef",
+        "caller_offset": 1514552,
+        "model_size": 4447,
+        "texture_offset": 3603424,
+        "texture_size": 27856,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 1,
+        "opaque_suffix_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3644016,
+      "size": 1024,
+      "sha256": "86bbb33b2a3b83c8eee2f40ad43e651fca7f496823f2fcca2b83c1e134e9b6ab",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524776,
+        "table_sha256": "6f121e486f6b7c9bbe9a29884c014664283227f3f77870aad18ef39673056e29",
+        "caller_offset": 1514552,
+        "model_size": 1010,
+        "texture_offset": 3635728,
+        "texture_size": 8288,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 14,
+        "opaque_suffix_sha256": "e7ecebbc590bc88b3761fa6cd03d749f87463dabb67021a5c6768c25ec68b3f2",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3654288,
+      "size": 1776,
+      "sha256": "ac459b72fcd135b4b165c4b877959303ecf1c4104a8d430b9b195ccbd66d8544",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524848,
+        "table_sha256": "0c3418fbc3a3a136a85c376fe4c5d758c6f8cfbdcc7b1ce6d84bd2b798a10abb",
+        "caller_offset": 1514552,
+        "model_size": 1772,
+        "texture_offset": 3645040,
+        "texture_size": 1772,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 4,
+        "opaque_suffix_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3661216,
+      "size": 512,
+      "sha256": "f02203f83632c19cd1a9824cc97f5679733167092648bb2637dbebfcadf0f1b7",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524884,
+        "table_sha256": "514d5ab3b76ad8aabf88b0cfa692c96cb2fb2cc11f809243fc2485cdea7f2cbf",
+        "caller_offset": 1514552,
+        "model_size": 501,
+        "texture_offset": 3656064,
+        "texture_size": 5152,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3666880,
+      "size": 512,
+      "sha256": "ea433b116c427fe7e0d3d0a59491a450660ed21db5d8fe35055cdf90cdcfddf6",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524920,
+        "table_sha256": "325b4c7e59454da7bfd9fa34ce01ec6e8fa33098db3f07dd54030fa8f5423fdd",
+        "caller_offset": 1514552,
+        "model_size": 504,
+        "texture_offset": 3661728,
+        "texture_size": 5152,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 8,
+        "opaque_suffix_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3675680,
+      "size": 496,
+      "sha256": "cb0fbc87c0484f63879251af7b3a66d8bc95ae4c1a41ce169c65532a7fe3e214",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2524956,
+        "table_sha256": "a2dc0842f1e52e6aac49edaef6eb081981ec73370fca2e4774285fddc80e1762",
+        "caller_offset": 1514552,
+        "model_size": 494,
+        "texture_offset": 3667392,
+        "texture_size": 8288,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 2,
+        "opaque_suffix_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3676176,
+      "size": 24096,
+      "sha256": "131cbe8d1461a10349fcb6c3709d5aaf1b2fb6aaad5ca72c8cd8634b893fbe31",
+      "discovery": {
+        "kind": "special-consumer-bound-opaque-payload",
+        "consumer_offset": 1267320,
+        "caller_offset": 1514652,
+        "limits": "Original bounded resource forwarded to object initializer; internal format and exact purpose unresolved"
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 3700272,
+      "size": 27616,
+      "sha256": "110ea9808944bc9620aeaffc5b00595276e38f7354ecff7bfadfc21d74f03126",
+      "discovery": {
+        "kind": "special-consumer-bound-opaque-payload",
+        "consumer_offset": 1267320,
+        "caller_offset": 1514716,
+        "limits": "Original bounded resource forwarded to object initializer; internal format and exact purpose unresolved"
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 399712,
+      "size": 27440,
+      "sha256": "e92fe7fa03481648f9f42c226cfc007dac56c6b95fcaa3a61bfb366c313d9fc0",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523176,
+        "table_sha256": "0d78e7b92a94230561dfe6409a025a8a7424d2313eafe0196bc368bfb23df892",
+        "caller_offset": 1462248,
+        "model_size": 27426,
+        "texture_offset": 263376,
+        "texture_size": 136336,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 14,
+        "opaque_suffix_sha256": "e7ecebbc590bc88b3761fa6cd03d749f87463dabb67021a5c6768c25ec68b3f2",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 462032,
+      "size": 2448,
+      "sha256": "cda98ae6350e26838eb8ef4a13ca676f25c0009b9c1cfc1a810c6485e2327522",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523212,
+        "table_sha256": "ad5521f5128914d29c12ccbfbadebbb7ad895ae9a875e18e7ced8a63cd8c16d0",
+        "caller_offset": 1462248,
+        "model_size": 2437,
+        "texture_offset": 427152,
+        "texture_size": 34880,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 466624,
+      "size": 512,
+      "sha256": "9b1c12b8f8be0a00d9f28acd83717db7131a88ebdf9c1960041a02d697ff965b",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523248,
+        "table_sha256": "c65edfed579830ef51b90d891ee26f232b556917a24d82cd67535f70230eb67b",
+        "caller_offset": 1462248,
+        "model_size": 500,
+        "texture_offset": 464480,
+        "texture_size": 2144,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 12,
+        "opaque_suffix_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 668912,
+      "size": 22864,
+      "sha256": "880925191282bb60ee4105435126782b2bf14e9efc1ae9785f909c3f6ee5a85f",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 6,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 691776,
+      "size": 121296,
+      "sha256": "c1df812e9f72200a391ede99e8616ef2f7e68e4494925892e19a09af0b88b75c",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523284,
+        "table_sha256": "e4d3f2a04e2b6278fbabfd62deceb67b1c538555e6dc0a3b18b8eeba63ef3da9",
+        "caller_offset": 1462248,
+        "model_size": 121294,
+        "texture_offset": 469152,
+        "texture_size": 199760,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 668912,
+        "motion_size": 22860,
+        "opaque_suffix_size": 2,
+        "opaque_suffix_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 870512,
+      "size": 36944,
+      "sha256": "20546749b66d63b185ea410105b67b164c5eef64560a8c293f1a03a22b35be1e",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 6,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 907456,
+      "size": 78096,
+      "sha256": "16aefc6a19635c95ffa091d632025d7782f255e7ea14313867762146612e9fea",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523320,
+        "table_sha256": "109317fdfb019de346c64f9faa9c2e71385d6d89d766f39beff13821c44d2360",
+        "caller_offset": 1462248,
+        "model_size": 78081,
+        "texture_offset": 813072,
+        "texture_size": 57440,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 870512,
+        "motion_size": 36940,
+        "opaque_suffix_size": 15,
+        "opaque_suffix_sha256": "5322fecfc92a5e3248a297a3df3eddfb9bd9049504272e4f572b87fa36d4b3bd",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1509408,
+      "size": 38992,
+      "sha256": "00afe6d77e7e1a3f9264df88a73892ad62d5f6a21d24a74fd81c53e267ca950b",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522960,
+        "table_sha256": "bdca4ca684d2411c430b24096bd74f2c51c50de4384e01b26e934dfc1e749336",
+        "caller_offset": 1462248,
+        "model_size": 38983,
+        "texture_offset": 1381296,
+        "texture_size": 128112,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 9,
+        "opaque_suffix_sha256": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1583280,
+      "size": 2448,
+      "sha256": "147bd563522ca25347eab588f802099d6331ec98b57b8c29e5fbf3a3bff69839",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522996,
+        "table_sha256": "9c1ef708ea9d086ce1088fcd8a9b241e22b5d7b8c2b707b2ad72643feb9ab26e",
+        "caller_offset": 1462248,
+        "model_size": 2440,
+        "texture_offset": 1548400,
+        "texture_size": 34880,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 8,
+        "opaque_suffix_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1587872,
+      "size": 512,
+      "sha256": "fb6a58225412ede720e58dd7caa5b087075a9196a95e6d0275fa363b914610d2",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523032,
+        "table_sha256": "8fb3475401f52e077a083e410c3c7f9c1a0cf10cd61a10e4e60eb7c7b92cf458",
+        "caller_offset": 1462248,
+        "model_size": 502,
+        "texture_offset": 1585728,
+        "texture_size": 2144,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 10,
+        "opaque_suffix_sha256": "01d448afd928065458cf670b60f5a594d735af0172c8d67f22a81680132681ca",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1788752,
+      "size": 60096,
+      "sha256": "ceea463d2203c1ce14fc8244d0bfb190ac8528113ab16ff049123b47b99abefc",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 6,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1848848,
+      "size": 121344,
+      "sha256": "3620666b181b7db946427b19d50aaa76df6079bf0502cdd0ff707f72a9114e85",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523068,
+        "table_sha256": "aeba96328e08cf5f91fc56f06fb9e3f41d3faf573a6fca2ebc73cefc63fc7de3",
+        "caller_offset": 1462248,
+        "model_size": 121331,
+        "texture_offset": 1588992,
+        "texture_size": 199760,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 1788752,
+        "motion_size": 60092,
+        "opaque_suffix_size": 13,
+        "opaque_suffix_sha256": "dd46c3eebb1884ff3b5258c0a2fc9398e560a29e0780d4b53869b6254aa46a96",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 2104416,
+      "size": 50592,
+      "sha256": "dd27ef3a257a3fbabc9c4c0fc41907c82a0aad19642109e68340fbf1d36ad86e",
+      "discovery": {
+        "kind": "motion-offset-bundle",
+        "count": 6,
+        "roundtrip": true
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 2155008,
+      "size": 79344,
+      "sha256": "6ceecdb161414239c31dc1b24fc9c59d0e7c4974e3b1f9114d7bd32e194c2fcf",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523104,
+        "table_sha256": "cde0f7e26b1c08b14dd38c46350dcbfc7fe10cfae974f78067e0424e80ec9b45",
+        "caller_offset": 1462248,
+        "model_size": 79337,
+        "texture_offset": 1970192,
+        "texture_size": 134224,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 2104416,
+        "motion_size": 50592,
+        "opaque_suffix_size": 7,
+        "opaque_suffix_sha256": "837885c8f8091aeaeb9ec3c3f85a6ff470a415e610b8ba3e49f9b33c9cf9d619",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 2236496,
+      "size": 496,
+      "sha256": "666260e9dc97ec7c7baa981079154e0690c7eaafd371daf7e46f15763b134568",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2523140,
+        "table_sha256": "8a4347c23e5a0f411d1c496c02c9052fb2aab4f4a2438e696b76c8d3b4934dfa",
+        "caller_offset": 1462248,
+        "model_size": 492,
+        "texture_offset": 2234352,
+        "texture_size": 2144,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 4,
+        "opaque_suffix_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 2236992,
+      "size": 49984,
+      "sha256": "b6348c0aafff908d107638228529930129dcd8ffee2291fe8e38e9d897f2a511",
+      "discovery": {
+        "kind": "sound-bank-chunk-envelope",
+        "chunks": [
+          {
+            "tag": "SAF ",
+            "offset": 0,
+            "payload_offset": 16,
+            "size": 144
+          },
+          {
+            "tag": "HD  ",
+            "offset": 160,
+            "payload_offset": 176,
+            "size": 1328
+          },
+          {
+            "tag": "BD  ",
+            "offset": 1504,
+            "payload_offset": 1520,
+            "size": 48448
+          },
+          {
+            "tag": "END ",
+            "offset": 49968,
+            "payload_offset": 49984,
+            "size": 0
+          }
+        ],
+        "hd_subsections": [
+          {
+            "kind": "sreV",
+            "offset": 176,
+            "size": 16
+          },
+          {
+            "kind": "daeH",
+            "offset": 192,
+            "size": 64
+          },
+          {
+            "kind": "igaV",
+            "offset": 256,
+            "size": 144
+          },
+          {
+            "kind": "lpmS",
+            "offset": 400,
+            "size": 720
+          },
+          {
+            "kind": "tesS",
+            "offset": 1120,
+            "size": 128
+          },
+          {
+            "kind": "gorP",
+            "offset": 1248,
+            "size": 256
+          }
+        ],
+        "roundtrip": true,
+        "audio_samples_decoded": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 448624,
+      "size": 30192,
+      "sha256": "e954e2e3fda4d6dae028f72bd6861c5f68f28d877ec60bb846076816d1b12b2c",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2512592,
+        "table_sha256": "221b5d30bf05a0f3cce4c138305878ac0ae534c1d62d6f6649bdab78836454c2",
+        "caller_offset": 1377396,
+        "model_size": 30188,
+        "texture_offset": 431184,
+        "texture_size": 17440,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 4,
+        "opaque_suffix_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 478816,
+      "size": 43520,
+      "sha256": "8ba53ba88b67d76b9fc4b77d5f6c6bf67e75b341850fdf35dcb0db1e450a325c",
+      "discovery": {
+        "kind": "sound-bank-chunk-envelope",
+        "chunks": [
+          {
+            "tag": "SAF ",
+            "offset": 0,
+            "payload_offset": 16,
+            "size": 32
+          },
+          {
+            "tag": "HD  ",
+            "offset": 48,
+            "payload_offset": 64,
+            "size": 336
+          },
+          {
+            "tag": "BD  ",
+            "offset": 400,
+            "payload_offset": 416,
+            "size": 43088
+          },
+          {
+            "tag": "END ",
+            "offset": 43504,
+            "payload_offset": 43520,
+            "size": 0
+          }
+        ],
+        "hd_subsections": [
+          {
+            "kind": "sreV",
+            "offset": 64,
+            "size": 16
+          },
+          {
+            "kind": "daeH",
+            "offset": 80,
+            "size": 64
+          },
+          {
+            "kind": "igaV",
+            "offset": 144,
+            "size": 32
+          },
+          {
+            "kind": "lpmS",
+            "offset": 176,
+            "size": 112
+          },
+          {
+            "kind": "tesS",
+            "offset": 288,
+            "size": 32
+          },
+          {
+            "kind": "gorP",
+            "offset": 320,
+            "size": 80
+          }
+        ],
+        "roundtrip": true,
+        "audio_samples_decoded": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1521472,
+      "size": 501680,
+      "sha256": "ff4399a400f2ec1be76faea79908710703a2282c4d88a340cc312f7924cf96ed",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2514568,
+        "table_sha256": "3f123c3c63aa875f29ed29de2b4d03c1d27d783c4bb1d7eaad45c9b3ca8e30bc",
+        "caller_offset": 1399924,
+        "model_size": 501669,
+        "texture_offset": 1430128,
+        "texture_size": 91344,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 2023152,
+      "size": 83792,
+      "sha256": "7e01d774a8ee1304a764fff9e7ec4b45ab788f9e39c2ec050bbb3d510dffcbe1",
+      "discovery": {
+        "kind": "sound-bank-chunk-envelope",
+        "chunks": [
+          {
+            "tag": "SAF ",
+            "offset": 0,
+            "payload_offset": 16,
+            "size": 256
+          },
+          {
+            "tag": "HD  ",
+            "offset": 272,
+            "payload_offset": 288,
+            "size": 2000
+          },
+          {
+            "tag": "BD  ",
+            "offset": 2288,
+            "payload_offset": 2304,
+            "size": 81472
+          },
+          {
+            "tag": "END ",
+            "offset": 83776,
+            "payload_offset": 83792,
+            "size": 0
+          }
+        ],
+        "hd_subsections": [
+          {
+            "kind": "sreV",
+            "offset": 288,
+            "size": 16
+          },
+          {
+            "kind": "daeH",
+            "offset": 304,
+            "size": 64
+          },
+          {
+            "kind": "igaV",
+            "offset": 368,
+            "size": 256
+          },
+          {
+            "kind": "lpmS",
+            "offset": 624,
+            "size": 992
+          },
+          {
+            "kind": "tesS",
+            "offset": 1616,
+            "size": 224
+          },
+          {
+            "kind": "gorP",
+            "offset": 1840,
+            "size": 448
+          }
+        ],
+        "roundtrip": true,
+        "audio_samples_decoded": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 527344,
+      "size": 12112,
+      "sha256": "b7092c46abecf2be263c664c61fb1c2697015626f8d19760ddd7fc6dd61a170d",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521752,
+        "table_sha256": "4ba972c33c23501b390f47e672084ee5b8b7c7556ef054259197dbce29937939",
+        "caller_offset": 1436584,
+        "model_size": 12112,
+        "texture_offset": 539456,
+        "texture_size": 5152,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 544608,
+      "size": 10944,
+      "sha256": "e942ee2d97b3c0614ddefeebb7f43645e19ba879faad7c5ace99d1a3d1897cdc",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521776,
+        "table_sha256": "701b5735ead873ab1c8ada0f7bcf1067c9964cf179a4dd9efe54b38db3df605e",
+        "caller_offset": 1436584,
+        "model_size": 10944,
+        "texture_offset": 555552,
+        "texture_size": 4192,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 559744,
+      "size": 5408,
+      "sha256": "24f154eb56a920bea60352cfe1f038296fbcdabe1ebfe154482e1aa2c505cf68",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521800,
+        "table_sha256": "a3078cb2dac6811e15fdf40e998ead2fbb7a50d66a91cc2a6ce508d60c7d324c",
+        "caller_offset": 1436584,
+        "model_size": 5408,
+        "texture_offset": 565152,
+        "texture_size": 8224,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 573376,
+      "size": 96576,
+      "sha256": "e8c71e1f1aecec56565f345f3c08fbbf491f539fa86bc93599c4b1da5f70cff1",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521824,
+        "table_sha256": "1cccceb2962a3d93dc684556e40a8004a58d95c0b78a529e5cdaf5d0145b97bf",
+        "caller_offset": 1436584,
+        "model_size": 96576,
+        "texture_offset": 669952,
+        "texture_size": 66592,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 736544,
+      "size": 58384,
+      "sha256": "6f45cdcae8db2576232ae505a625cc603566e63e6b68d2b394572abdd6154ca5",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521848,
+        "table_sha256": "781a86486851d0617d9074372412f3e4dccc190ef945b45f761acf07851262ba",
+        "caller_offset": 1436584,
+        "model_size": 58384,
+        "texture_offset": 794928,
+        "texture_size": 17440,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 812368,
+      "size": 9744,
+      "sha256": "e4a9bfb19775a1af2ec5f92af6808d66f5a01a5c975011b1e836c5e5aaffd045",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521872,
+        "table_sha256": "786c2c49dc5b90e7b5c48ee7edda20e6e5b8ac9e8bbad104f3bb6c4ae069971b",
+        "caller_offset": 1436584,
+        "model_size": 9744,
+        "texture_offset": 822112,
+        "texture_size": 16416,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 838528,
+      "size": 9744,
+      "sha256": "e4a9bfb19775a1af2ec5f92af6808d66f5a01a5c975011b1e836c5e5aaffd045",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521896,
+        "table_sha256": "b26dae61ed80c56c4f816867028b93fcff95e3dfd70e320a2784f98d38831d97",
+        "caller_offset": 1436584,
+        "model_size": 9744,
+        "texture_offset": 848272,
+        "texture_size": 16416,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 864688,
+      "size": 9744,
+      "sha256": "e4a9bfb19775a1af2ec5f92af6808d66f5a01a5c975011b1e836c5e5aaffd045",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521920,
+        "table_sha256": "73a8772131d0f9222e6d14762f8c3ce8527b3fb226f63393e8df8dac75c43516",
+        "caller_offset": 1436584,
+        "model_size": 9744,
+        "texture_offset": 874432,
+        "texture_size": 16416,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 890848,
+      "size": 70288,
+      "sha256": "a04792ba7319bc393e2580c019c5f6a248738030117b71a1d0a1054d6ca98448",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521944,
+        "table_sha256": "deef50ac25291b6f469d0fd41dbaa7ba6869563df914d04e23e566d103307c6d",
+        "caller_offset": 1436584,
+        "model_size": 70288,
+        "texture_offset": 961136,
+        "texture_size": 36928,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 998064,
+      "size": 32944,
+      "sha256": "1e69ef9d697c2c290eae160dc5ce3cf9a4eebd42120e783b8edab004a52f6fd1",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521968,
+        "table_sha256": "dad54be8bcd7524fcb53123622a277b4f6ceff011edcec1541623b9809535aef",
+        "caller_offset": 1436584,
+        "model_size": 32944,
+        "texture_offset": 1031008,
+        "texture_size": 2144,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": null,
+        "motion_size": null,
+        "opaque_suffix_size": 0,
+        "opaque_suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1065984,
+      "size": 1632,
+      "sha256": "356dada30aa1d5ba5df1e6c5506e5b424b2829132ce1898047d7bb456d416614",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2521992,
+        "table_sha256": "8c791aab5810eff662f8be410494e93affe6c2b27edc415bed05c5a1a0176832",
+        "caller_offset": 1436612,
+        "model_size": 1621,
+        "texture_offset": 1033152,
+        "texture_size": 32832,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1100448,
+      "size": 3856,
+      "sha256": "a7239339ecbc7db0594ea3f82ea7f6bafe2992e3f16db9e4c9a279a3c3a02d0f",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522028,
+        "table_sha256": "c2b6c989047c390ac24fe1299663696183951446f3614390158f4fc0032954c1",
+        "caller_offset": 1436612,
+        "model_size": 3853,
+        "texture_offset": 1067616,
+        "texture_size": 32832,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 3,
+        "opaque_suffix_sha256": "709e80c88487a2411e1ee4dfb9f22a861492d20c4765150c0c794abd70f8147c",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1120720,
+      "size": 8112,
+      "sha256": "eb8520e64edaedeea77d405160d1024d90db49eb047c24f768910556576c4c3b",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522064,
+        "table_sha256": "26a126f27cc9b72ed1565e20473fa76ae7c3d2ccb6fbef0f8648ea96c23e5a27",
+        "caller_offset": 1436612,
+        "model_size": 8099,
+        "texture_offset": 1104304,
+        "texture_size": 16416,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 13,
+        "opaque_suffix_sha256": "dd46c3eebb1884ff3b5258c0a2fc9398e560a29e0780d4b53869b6254aa46a96",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1132960,
+      "size": 4592,
+      "sha256": "059143d90cdfe238e6bdc6f77dd5ae799b78c64bad7e6ed5e075de3fe322a4b7",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522100,
+        "table_sha256": "3d90751041b24e4374228174d7273a27816b8a56e00e97fc198f6db45a97f29f",
+        "caller_offset": 1436612,
+        "model_size": 4584,
+        "texture_offset": 1128832,
+        "texture_size": 4128,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 8,
+        "opaque_suffix_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1153968,
+      "size": 38000,
+      "sha256": "7795e828b0d4b7d59d51465bb0d17a59ce2ee332c29062b7bbb120567dc73576",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522136,
+        "table_sha256": "850fa3b45a6d91d16963bb9caea6937989a9cd52dd9cd27a43899cc007cce757",
+        "caller_offset": 1436612,
+        "model_size": 37989,
+        "texture_offset": 1137552,
+        "texture_size": 16416,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 11,
+        "opaque_suffix_sha256": "71b6c1d53832f789a7f2435a7c629245fa3761ad8487775ebf4957330213a706",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1228896,
+      "size": 62496,
+      "sha256": "be9504ca03c6ac11cf10b33de4340e394c21b5188990c3de896c30e88cebfae1",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522172,
+        "table_sha256": "2bfc5abf15c280599283b4899c9815babe05881db965d92656bb54a55c7d7adf",
+        "caller_offset": 1436612,
+        "model_size": 62489,
+        "texture_offset": 1191968,
+        "texture_size": 36928,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 7,
+        "opaque_suffix_sha256": "837885c8f8091aeaeb9ec3c3f85a6ff470a415e610b8ba3e49f9b33c9cf9d619",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1328320,
+      "size": 57552,
+      "sha256": "1b509a27d81d573d08230f64e325aff7a6185287de642b5e6beb0e3908255c23",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522208,
+        "table_sha256": "43a5450a41dece591cc647440237c07ed732848cf798ae739edd9f8f09f894c5",
+        "caller_offset": 1436612,
+        "model_size": 57545,
+        "texture_offset": 1291392,
+        "texture_size": 36928,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 7,
+        "opaque_suffix_sha256": "837885c8f8091aeaeb9ec3c3f85a6ff470a415e610b8ba3e49f9b33c9cf9d619",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1391024,
+      "size": 8768,
+      "sha256": "56f5f574d5677ca4ad93a433824a447c0ef9dd0a0e2352fb5b910a1144f166fd",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522244,
+        "table_sha256": "f3a3275dbbf20520de6bdf2b25fa95f1dbf54a90f6766f9634ad1f98a7e48126",
+        "caller_offset": 1436612,
+        "model_size": 8764,
+        "texture_offset": 1385872,
+        "texture_size": 5152,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 4,
+        "opaque_suffix_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1401936,
+      "size": 64864,
+      "sha256": "810b5ced2b87e33fc05621803d130cb37566ca63a4271616e8349424e6b7136e",
+      "discovery": {
+        "kind": "consumer-bound-model-opaque-geometry",
+        "table_offset": 2522280,
+        "table_sha256": "a6d49ec06fbed8e67fcc090e61cde1e6013a3b743445da05f913a65539cd59d6",
+        "caller_offset": 1436612,
+        "model_size": 64861,
+        "texture_offset": 1399792,
+        "texture_size": 2144,
+        "format_semantics": "Model consumer binding; internal geometry not decoded",
+        "motion_offset": 0,
+        "motion_size": 0,
+        "opaque_suffix_size": 3,
+        "opaque_suffix_sha256": "709e80c88487a2411e1ee4dfb9f22a861492d20c4765150c0c794abd70f8147c",
+        "opaque_suffix_nonzero": false
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1466800,
+      "size": 51824,
+      "sha256": "4468fb3369d599da7d1b55fa92c9119d38ce905b48d30b6a0d8e86b58ac7c7e8",
+      "discovery": {
+        "kind": "special-table-bound-opaque-payload",
+        "table_offset": 3447488,
+        "table_sha256": "3d2daa7a8b908a08872863259b3b55ec3cf0f5dc061ede65499329a2709ab9d0",
+        "limits": "Bound size/offset and caller references; payload semantics unresolved"
+      },
+      "editing_authorized": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 1518624,
+      "size": 281024,
+      "sha256": "eb5febebf56666bd9fc347de8668e067fe22216e661823c5cbfb9091203be2db",
+      "discovery": {
+        "kind": "sound-bank-chunk-envelope",
+        "chunks": [
+          {
+            "tag": "SAF ",
+            "offset": 0,
+            "payload_offset": 16,
+            "size": 304
+          },
+          {
+            "tag": "HD  ",
+            "offset": 320,
+            "payload_offset": 336,
+            "size": 2592
+          },
+          {
+            "tag": "BD  ",
+            "offset": 2928,
+            "payload_offset": 2944,
+            "size": 278064
+          },
+          {
+            "tag": "END ",
+            "offset": 281008,
+            "payload_offset": 281024,
+            "size": 0
+          }
+        ],
+        "hd_subsections": [
+          {
+            "kind": "sreV",
+            "offset": 336,
+            "size": 16
+          },
+          {
+            "kind": "daeH",
+            "offset": 352,
+            "size": 64
+          },
+          {
+            "kind": "igaV",
+            "offset": 416,
+            "size": 304
+          },
+          {
+            "kind": "lpmS",
+            "offset": 720,
+            "size": 1408
+          },
+          {
+            "kind": "tesS",
+            "offset": 2128,
+            "size": 272
+          },
+          {
+            "kind": "gorP",
+            "offset": 2400,
+            "size": 528
+          }
+        ],
+        "roundtrip": true,
+        "audio_samples_decoded": false
+      },
+      "editing_authorized": false
+    }
+  ],
+  "remaining_unresolved_root_semantics": 3,
+  "limits": "Motion numeric/keyframe semantics, model geometry, audio decoding and three special payloads remain incomplete. No editing release, no 100% game text coverage claim.",
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "translation_created": false
+}

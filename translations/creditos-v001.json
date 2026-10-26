@@ -1,0 +1,294 @@
+{
+  "policy": "credits-roles-same-slot-lzss-font22-v001",
+  "source_sha256": "042ef8803c1832063d45bf90f1c163c559ad716cfb134007e08cc59d0e06459b",
+  "decoded_sha256": "53a2c807ae676a11fedeb143000d737e284da43e22ad11a55f774a8a87f2286a",
+  "instruction_windows": [
+    {
+      "offset": 1282216,
+      "size": 72,
+      "sha256": "5fd199015a3bbbbf7368c69e9a88530426151a737f97af705aac34f74b2f3f95"
+    },
+    {
+      "offset": 1284580,
+      "size": 208,
+      "sha256": "ea41243c03a263c5af0809a535229017736c4a485c259ba1ceb7a953802273c1"
+    },
+    {
+      "offset": 1285440,
+      "size": 344,
+      "sha256": "0bb4da6dcb2d297199b1d3f384f48ff992ab5d8d0102a9ca0559b3bb03d548ac"
+    },
+    {
+      "offset": 1106648,
+      "size": 120,
+      "sha256": "b68921edd96d81d70c80a78ca1a3ce225910e2e8a1c63fbc7d25fd85385a6cd5"
+    },
+    {
+      "offset": 1107464,
+      "size": 80,
+      "sha256": "f075ce1f105d619d7ef009532f08e50f8a3b1061531d633101ee9f139f9c3f7e"
+    },
+    {
+      "offset": 1685240,
+      "size": 60,
+      "sha256": "cf57e8580fffdf397559e77806db75093530196f2a94957f105541de1758dbe1"
+    }
+  ],
+  "entries": [
+    {
+      "id": "credits.line.0003",
+      "source_sha256": "a82a81314cb20c66cdcccbc6bd292989f50bf1f50f26744e5c34bd7eba63e869",
+      "translation": "Produção executiva"
+    },
+    {
+      "id": "credits.line.0006",
+      "source_sha256": "e0f5839b85510cdf2edd0b65df06cf3f04a98fe45182458f6e1c423f08982d6f",
+      "translation": "Produção"
+    },
+    {
+      "id": "credits.line.0010",
+      "source_sha256": "2ed2e2a01c409a62d331811570761136596b4068f494fc6006731649153c9e85",
+      "translation": "Direção"
+    },
+    {
+      "id": "credits.line.0015",
+      "source_sha256": "18e534d5a94bf2fb0e36fee409c039cc7cf0cac0bd90a8451aea22b95683eb57",
+      "translation": "Planejamento e conceito"
+    },
+    {
+      "id": "credits.line.0019",
+      "source_sha256": "abb80c01f50adb2940a0386a0d0b2b5e93887b2d10a1c742c0f1d73d931fac63",
+      "translation": "Roteiro"
+    },
+    {
+      "id": "credits.line.0022",
+      "source_sha256": "dad4808d3c41c1b92e4711cfa1867f455d653bc72e941c602ea2f33a4936bbdd",
+      "translation": "Programação"
+    },
+    {
+      "id": "credits.line.0033",
+      "source_sha256": "bbd326c4a40f399d5249e6f32f0ff3c5ae5ecc8971a576a40d6b7532d23fae04",
+      "translation": "Supervisão gráfica"
+    },
+    {
+      "id": "credits.line.0036",
+      "source_sha256": "39413025f9386f31f25e52d2c06d0e4193aa196f941b8b64a8bd189f2b433aea",
+      "translation": "Design de personagens"
+    },
+    {
+      "id": "credits.line.0039",
+      "source_sha256": "04c4b12231a5eacb5fa5d6d113bdd9d6a7e426734fe47c0da07d54a627d9619c",
+      "translation": "Design de monstros"
+    },
+    {
+      "id": "credits.line.0042",
+      "source_sha256": "7bc4ebc92b7fe4c7e503ef7dbfbb687e3546c6e9e630f8995cf956e9540da371",
+      "translation": "Design de veículos"
+    },
+    {
+      "id": "credits.line.0045",
+      "source_sha256": "2091085220af3ed2fd892fa96aa9babd7a1e18daa69e0adec5f2c79da79b7a30",
+      "translation": "Design de janelas"
+    },
+    {
+      "id": "credits.line.0048",
+      "source_sha256": "c1d62a45555d22a6b027d5d9f24477aa608fc09238016ce2f2b64fa68e144710",
+      "translation": "Ajustes gráficos 3D"
+    },
+    {
+      "id": "credits.line.0051",
+      "source_sha256": "a9713a1351431ce29e2300f13859e20636e19a6d88ca4fb439844246074847b4",
+      "translation": "Efeitos visuais"
+    },
+    {
+      "id": "credits.line.0054",
+      "source_sha256": "87635b8989ac29a3e9ff5a2b7acf2c4ff90e9eb839c61ff7fcd1710be5d0c716",
+      "translation": "Gráficos dos minijogos"
+    },
+    {
+      "id": "credits.line.0057",
+      "source_sha256": "c118a7f59b8116f70f631d365980efbd8b79205a2cf639a2fbf52d3f128c7756",
+      "translation": "Design do título"
+    },
+    {
+      "id": "credits.line.0060",
+      "source_sha256": "93c95ae2bacbeac7ee14b2659ea5946b649adc06087f452f7c56e88a9e1ab1dc",
+      "translation": "Apoio gráfico"
+    },
+    {
+      "id": "credits.line.0072",
+      "source_sha256": "2b3d7e4368ab5ce9f7cb7971ecdda4bfc724aae9a94f6768c1e87630d23d1e57",
+      "translation": "Scripts"
+    },
+    {
+      "id": "credits.line.0087",
+      "source_sha256": "5f42c3887fb16843ed22a48b4c829efa08b94fc711efb80c9c3eb9563ca4c118",
+      "translation": "Efeitos sonoros"
+    },
+    {
+      "id": "credits.line.0093",
+      "source_sha256": "76ac0c727bd3c332ede2be85522a8d78a48ac8b309ee21a06d809a93c80acf0e",
+      "translation": "Controle de qualidade"
+    },
+    {
+      "id": "credits.line.0096",
+      "source_sha256": "3eaed486e4580df3761fa83605fda8a1f7f0ec9e879db55558d4aa39e1e95ddf",
+      "translation": "Editoração eletrônica"
+    },
+    {
+      "id": "credits.line.0099",
+      "source_sha256": "31974a27ff20b62df71b9d7e8ad0b38adf6f348b5dd7a96ebbf750d4f7a13f25",
+      "translation": "Divulgação"
+    },
+    {
+      "id": "credits.line.0109",
+      "source_sha256": "08f1adb48cb097940d316c625d3420165458cff74f5576a6d55595d5a21ba7b2",
+      "translation": "Marketing"
+    },
+    {
+      "id": "credits.line.0119",
+      "source_sha256": "c016f242e33c6c2d6540a1e1babef58f4afdba7e7a1d3a69d31b56ad6fcd09c6",
+      "translation": "Apoio à produção"
+    },
+    {
+      "id": "credits.line.0127",
+      "source_sha256": "5bdaab497b7db17ce6f63b4280225d3eff864273baf51e4abd234e669a5381c7",
+      "translation": "Composição e arranjos"
+    },
+    {
+      "id": "credits.line.0130",
+      "source_sha256": "2c3591857492a08996f5c872b21310066c1e0dd4851f3f0cd8d64d464e4aba99",
+      "translation": "Engenharia de som"
+    },
+    {
+      "id": "credits.line.0133",
+      "source_sha256": "a33e3bdaded523d71e02701a40bc25a80f0b4186c53ed740704ef2fec810c602",
+      "translation": "Tratamento de áudio"
+    },
+    {
+      "id": "credits.line.0139",
+      "source_sha256": "fb84f055a83a05ba2ff233bd84f0151fd0d1f80409f9f4f51607bb9f0ba84b10",
+      "translation": "Gestão"
+    },
+    {
+      "id": "credits.line.0145",
+      "source_sha256": "e0f5839b85510cdf2edd0b65df06cf3f04a98fe45182458f6e1c423f08982d6f",
+      "translation": "Produção"
+    },
+    {
+      "id": "credits.line.0148",
+      "source_sha256": "eecadc9ff03c2829a5e2a4e9f8686db78791a1e9a54fb4091ce908c7d78d16eb",
+      "translation": "Direção de personagens 3D"
+    },
+    {
+      "id": "credits.line.0151",
+      "source_sha256": "8cafb7b86788ab846ce6df77ddf57b5dcb282156683cca08bc24456bdf1373e8",
+      "translation": "Direção de cenários 3D"
+    },
+    {
+      "id": "credits.line.0154",
+      "source_sha256": "fe3471d87d7b76575dec2ae7580a3c9ec6573201ac3cec6ec4075dbb00e48549",
+      "translation": "Modelagem e animação 3D"
+    },
+    {
+      "id": "credits.line.0159",
+      "source_sha256": "bab4581f33abec07d265edf3e57e510dcd0c844a5486fa8326409faf6e12ddc1",
+      "translation": "Cenários 3D"
+    },
+    {
+      "id": "credits.line.0167",
+      "source_sha256": "3fa5f45331e07c982b3f7bfc2db9304cd8e871ef2951643771a803827e452894",
+      "translation": "Gráficos"
+    },
+    {
+      "id": "credits.line.0208",
+      "source_sha256": "a82a81314cb20c66cdcccbc6bd292989f50bf1f50f26744e5c34bd7eba63e869",
+      "translation": "Produção executiva"
+    },
+    {
+      "id": "credits.line.0211",
+      "source_sha256": "627ea73663d17f2b8b3a557c76862503a4f0677f156662b2b5992b422093ae5a",
+      "translation": "VP de produto e marketing"
+    },
+    {
+      "id": "credits.line.0214",
+      "source_sha256": "1ac0c838caf5c40223e72a150cf0794c6702b506d93379207d3be907c6745419",
+      "translation": "Líder do projeto"
+    },
+    {
+      "id": "credits.line.0217",
+      "source_sha256": "1355f39d0ff02939b2870ed807cd7ac2189a2cb499accfaa83ed5742b6dd9c7e",
+      "translation": "Coordenação do projeto"
+    },
+    {
+      "id": "credits.line.0220",
+      "source_sha256": "bc3eb1bf8e8fdce4329a18084c02ea9596019f157fb5af104cc601a8798a1cf4",
+      "translation": "Gerência de marketing"
+    },
+    {
+      "id": "credits.line.0223",
+      "source_sha256": "b14aa00a6c576a24ae80fb2698ead629b2dab6c4af668d4bec794e9ebb87c5c5",
+      "translation": "Assistência de marketing e RP"
+    },
+    {
+      "id": "credits.line.0226",
+      "source_sha256": "4dd2395c43c92d3e45d5723c5deccdd385921071de146bb07360487fe3221d56",
+      "translation": "Tradução"
+    },
+    {
+      "id": "credits.line.0230",
+      "source_sha256": "a538fe579087c962a40f724956defddbb024a2098fb92e8550091a63f161bb3c",
+      "translation": "Edição"
+    },
+    {
+      "id": "credits.line.0235",
+      "source_sha256": "9d744235d4cee1137cd9c6f585565be8b35cdddc5891b302ad314526dfe68fb7",
+      "translation": "Gerência de qualidade"
+    },
+    {
+      "id": "credits.line.0238",
+      "source_sha256": "11ecb7014e15ffed949736f56dbfcefd5951f6365673c917507b519e230a72f3",
+      "translation": "Liderança de testes"
+    },
+    {
+      "id": "credits.line.0241",
+      "source_sha256": "435fbb3a4fd78956f0345d1d52b8445a93a5bfccb8c40b568ddf85b18cef5e94",
+      "translation": "Testes de qualidade"
+    },
+    {
+      "id": "credits.line.0252",
+      "source_sha256": "1355f39d0ff02939b2870ed807cd7ac2189a2cb499accfaa83ed5742b6dd9c7e",
+      "translation": "Coordenação do projeto"
+    },
+    {
+      "id": "credits.line.0259",
+      "source_sha256": "1355f39d0ff02939b2870ed807cd7ac2189a2cb499accfaa83ed5742b6dd9c7e",
+      "translation": "Coordenação do projeto"
+    },
+    {
+      "id": "credits.line.0262",
+      "source_sha256": "08eb4625a53cc714dc27fcf1a6beb7835554279ae6e1712833b9ab01d69b73e5",
+      "translation": "Programação da localização"
+    },
+    {
+      "id": "credits.line.0265",
+      "source_sha256": "93c95ae2bacbeac7ee14b2659ea5946b649adc06087f452f7c56e88a9e1ab1dc",
+      "translation": "Apoio gráfico"
+    },
+    {
+      "id": "credits.line.0270",
+      "source_sha256": "5c954ae9da4e5e365af35409e3253d2fbc4d2255fefea639c6ae8c8caf089ced",
+      "translation": "Agradecimentos especiais"
+    },
+    {
+      "id": "credits.line.0286",
+      "source_sha256": "4660b7a8dbbed0b6dad400f7a3774a297d7e96f43e3ead2b30aa7c590a64ced4",
+      "translation": "Apresentado pela Atlus"
+    },
+    {
+      "id": "credits.line.0291",
+      "source_sha256": "6190654bbf7ab1d52e996e71066033932aacbe469bdbc24d3d5c67ac34ef0f9d",
+      "translation": "Até a próxima..."
+    }
+  ]
+}

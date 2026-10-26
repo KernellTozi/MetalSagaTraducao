@@ -213,6 +213,15 @@ def compile_draft(data,draft):
     if draft.get('paint_captions'):
         from paint_captions import compile_captions
         extra,paint_report=compile_captions(data,draft['paint_captions']);patches.extend(extra)
+    credits_report={'accepted':0}
+    if draft.get('ending_credits'):
+        binding=draft['ending_credits'];path=(ROOT/binding['recipe']).resolve()
+        if set(binding)!={'recipe','sha256'} or not path.is_relative_to(ROOT/'translations'):
+            raise ValueError('Credits recipe outside translations or unknown binding')
+        raw=path.read_bytes()
+        if hashlib.sha256(raw).hexdigest()!=binding['sha256']:raise ValueError('Credits recipe binding mismatch')
+        from credits_translation import compile_credits
+        extra,credits_report=compile_credits(data,json.loads(raw));patches.extend(extra)
     context_report=None
     if draft.get('canine_status_context'):
         from character_status_context import proof as context_proof
@@ -227,7 +236,7 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted']+battle_report['accepted']+interaction_report['accepted']+password_report['accepted']+finish_report['accepted']+titles_report['accepted']+paint_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted']+battle_report['accepted']+interaction_report['accepted']+password_report['accepted']+finish_report['accepted']+titles_report['accepted']+paint_report['accepted']+credits_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         **({'install_texts':install_report} if draft.get('install_texts') else {}),
         'graphic_labels':graphics_report,
@@ -235,6 +244,7 @@ def compile_draft(data,draft):
         **({'name_finish_graphics':finish_report} if draft.get('name_finish_graphics') else {}),
         **({'character_titles':titles_report} if draft.get('character_titles') else {}),
         **({'paint_captions':paint_report} if draft.get('paint_captions') else {}),
+        **({'ending_credits':credits_report} if draft.get('ending_credits') else {}),
         **({'spack_ui':spack_report} if draft.get('spack_ui') else {}),
         **({'character_status':status_report} if draft.get('character_status') else {}),
         **({'satcom_records':satcom_report} if draft.get('satcom_records') else {}),
