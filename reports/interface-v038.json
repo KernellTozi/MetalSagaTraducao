@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v038.json",
+  "recipe_sha256": "4fd7aab47c9542dc4d2f6f9a68deef066a6c8b3106f4544791c59843513b328c",
+  "parent_iso": {
+    "path": "work/interface-v037/MetalSaga-ptbr-interface-v037.iso",
+    "size": 1704427520,
+    "sha256": "e7e65c661409946eb81b8e185c1c71478710cf1aa1538f74a04bd5fbd4c63789",
+    "verified": true
+  },
+  "iso": {
+    "path": "work/interface-v038/MetalSaga-ptbr-interface-v038.iso",
+    "size": 1704427520,
+    "sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+    "verified": true
+  },
+  "new_fields": 228,
+  "new_unique_translations": 12,
+  "interface_accumulated_fields": 3754,
+  "map_changed_records": 6024,
+  "map_body_or_choice_changed_records": 5983,
+  "map_speaker_label_translated_references": 912,
+  "painting": {
+    "policy": "paint-caption-fixed-cells-observed-ten-byte-ceiling-v001",
+    "accepted": 228,
+    "unique_translations": 12,
+    "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+    "instruction_windows": [
+      {
+        "offset": 1958192,
+        "size": 48,
+        "sha256": "d6a78357483a0dc3c7fc7b314a155a1501354b12ad827f5c178e2af016f94a37"
+      },
+      {
+        "offset": 1965592,
+        "size": 32,
+        "sha256": "33693eb8804c7fb183b4a5564b7b9c76ad7721bd1fa618336fef2b346ff91fdc"
+      },
+      {
+        "offset": 1965668,
+        "size": 56,
+        "sha256": "68eaa107c936670fdfa550e79068a0cf4647bc5deed8bf39545b374648467fd7"
+      },
+      {
+        "offset": 1965824,
+        "size": 108,
+        "sha256": "5094cfc454ec83abce69da568b467f351f5a4183935a89fd0a49dc1d92d66c2f"
+      },
+      {
+        "offset": 325648,
+        "size": 96,
+        "sha256": "cd023e1a967fca87f614df27b813b5bc9cf3592ea92276db8b33771b2d0e2992"
+      },
+      {
+        "offset": 260152,
+        "size": 96,
+        "sha256": "f88d8593c3b5ccf8a9d3f22d1a064fa7a3e66c32148a996493f9f200426c2c5b"
+      },
+      {
+        "offset": 260368,
+        "size": 32,
+        "sha256": "0a429486394c05bceb51d5ccc1852037740e92336c1247960ac4d3f660422080"
+      },
+      {
+        "offset": 252704,
+        "size": 356,
+        "sha256": "00624db10fdfaa6329c81830a7ab67cce16913c40c044d8f018b8b7983b332d9"
+      },
+      {
+        "offset": 2254540,
+        "size": 12,
+        "sha256": "ab1a1818f0e4af7236578309ea8ccfe2a88fb8454c1ede156f470bea1a457d13"
+      },
+      {
+        "offset": 2254832,
+        "size": 32,
+        "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+      }
+    ],
+    "maximum_target_bytes": 10,
+    "original_maximum_bytes": 10,
+    "source_and_target_consumer_probe_cases": 24,
+    "aliases_preserved": true,
+    "groups_parameters_sda_and_resource_size_unchanged": true,
+    "reverse_roundtrip": true,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Bounded forwarding/strlen/allocation argument probes only. Register setup and allocation return are supplied; full constructor, glyph drawing and PCSX2 not executed."
+  },
+  "delta_against_parent": {
+    "source_iso_sha256": "e7e65c661409946eb81b8e185c1c71478710cf1aa1538f74a04bd5fbd4c63789",
+    "output_iso_sha256": "0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0",
+    "iso_size": 1704427520,
+    "all_bytes_match_expected_patch": true,
+    "changed_bytes": 1748,
+    "authorized_cells": 228,
+    "all_bytes_outside_paint_caption_cells_identical": true,
+    "iso_directory_identical": true
+  },
+  "distinct_automated_tests_passed": 72,
+  "work_isos": 5,
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "one_drive_copied": false
+}

@@ -81,6 +81,20 @@ def audit(draft,output):
     if not node or node['count']!=22 or node['offsets'][:2]!=[0x70,0x2070]:raise ValueError('Original UI SDA bounds mismatch')
     table=counted_strings(pack,TABLE_BASE,TABLE_SIZE,COUNT)
     translated={r['id']:r for r in recipe['entries']};restored=set(recipe.get('restored_originals',[]))
+    paint_rows=[];checked_paint=None
+    if recipe.get('paint_captions'):
+        from paint_captions import compile_captions
+        from discover_paint import analyse as paint_catalogue,RESOURCE as PAINT_RESOURCE
+        paint_raw=(ROOT/'JOGO/Metal Saga'/PAINT_RESOURCE).read_bytes()
+        _,checked_paint=compile_captions(elf,recipe['paint_captions'],paint_raw)
+        _,paint_local=paint_catalogue(elf,paint_raw)
+        paint_targets={e['id']:e['translation'] for e in recipe['paint_captions']['entries']}
+        for alias in paint_local['aliases']:
+            first=paint_local['rows'][alias['indices'][0]]
+            for i in alias['indices']:
+                paint_rows.append({**paint_local['rows'][i],
+                    'translation':paint_targets[first['id']],
+                    'status':'translated-in-recipe-pending-visual'})
     title_rows=[];title_overlay={}
     if recipe.get('character_titles'):
         from character_titles import catalog as title_catalog,compile_titles
@@ -300,6 +314,8 @@ def audit(draft,output):
         **({'name_finish_graphic_fields':len(finish_rows)} if finish_rows else {}),
         **({'character_title_fields':checked_titles['accepted'],'character_title_unique':len(title_rows),
             'character_title_preserved':checked_titles['preserved']} if title_rows else {}),
+        **({'paint_caption_fields':checked_paint['accepted'],
+            'paint_caption_unique_translations':checked_paint['unique_translations']} if paint_rows else {}),
         **({'name_legend_pending':legend_pending} if legend_pending is not None else {})}
     document={'schema':1,'scope':'Menu planning only; references/keyword matches do not approve editing or prove screen coverage',
         'recipe':draft.relative_to(ROOT).as_posix(),'recipe_sha256':digest(draft.read_bytes()),
@@ -321,6 +337,7 @@ def audit(draft,output):
     if password_rows:document['password_graphics']=password_rows
     if finish_rows:document['name_finish_graphics']=finish_rows
     if title_rows:document['character_titles']=title_rows
+    if paint_rows:document['paint_captions']=paint_rows
     output=local(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():
         old=json.loads(output.read_text(encoding='utf-8'))
@@ -332,6 +349,6 @@ def audit(draft,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Planejar menus em um JSON local consolidado, sem editar jogo')
-    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v033.json')
+    p.add_argument('--draft',type=Path,default=ROOT/'translations/interface-v038.json')
     p.add_argument('--output',type=Path,default=ROOT/'work/planejamento-interface.json');a=p.parse_args()
     print(json.dumps(audit(a.draft.resolve(),a.output),ensure_ascii=False,indent=2))

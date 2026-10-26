@@ -716,3 +716,40 @@ não códigos liberados. Auditar uso/cache/dois caminhos de layout/métricas ant
 de extensão; preservar os18 existentes e ASCII. Nenhuma fonte alterada.
 34 testes distintos aprovados (19 novos e15 de preflight/retenção/alpha).
 Probes originais limitados não são execução PCSX2 nem validação visual.
+
+## Continuidade interface v038 — legendas da pintura
+
+Usuário autorizou retomar a tradução após descoberta v001. Atual:
+`translations/interface-v038.json`, base MAP v037 inalterada, manual
+`docs/interface-v038.md`, relatório `reports/interface-v038.json`. Foram
+traduzidas doze legendas distintas de cores/padrões, em228 referências
+S_PAINT.SDA. Não contar como228 novas frases. Interface acumula3754 campos;
+MAP mantém6024 registros alterados/5983 corpos-opções/912 referências de rótulos.
+Todas as traduções anteriores, nomes protegidos, fontes/layoutv005 e artev014
+foram preservados integralmente. Botões gráficos da pintura ainda pendentes.
+
+Perfil opt-in `paint-caption-fixed-cells-observed-ten-byte-ceiling-v001`,
+`tools/paint_captions.py`, seção `paint_captions` da receita. Exige hashes do
+recurso inteiro/tabela/ELF/janelas/nomes, doze grupos completos e todos19aliases
+de cada nome. Somente campo+1 de23bytes incluindoNUL; teto10bytes codificados,
+maior nome observado. Nenhuma liberação de22bytes pelo espaço físico. Preservar
+grupo+0, parâmetros+24..35, SDA, offsets e tamanho. Bloquear controles, glifos
+desconhecidos, crescimento além do teto e seleção parcial. Não generalizar esse
+teto ao nome de itens nem usar perfil para outros recursos.
+
+Encaminhamento construtor/base0x4F810→0x3F838→0x3F910→0x3DB20 inspecionado.
+Probes de registradores/strlen/cálculo de alocação `(len+32)&~3` para12origens e
+12destinos; setup de registradores salvo e prólogos fornecidos pelo harness.
+Não executados alocador, construtor completo, conversão/desenho ouPCSX2.
+Leitura independente das228células e round-trip integral conferidos.72testes
+distintos aprovados. Comparação integral v037→v038:1748bytes exclusivamente nas
+legendas; todos os demais bytes idênticos. ISO1704427520bytes, SHA256
+`0b4c931e141de804200d4e42c4fe125f9013707308b1e829871f5159102727c0`.
+
+Iniciar-Teste.cmd usa aliasinterfacev038, Preparar-Interface.cmd valida UIv038
+com MAPv037, auditor padrão usa construção v038. Planejador inclui campos de
+pintura e contagem distinta12/ocorrências228. Cinco ISOs e alpha preservadas.
+Usuário verifica pintura/seleção/acentos/largura em partida normal; não exigir
+navegação imediata. Próximo alvo são os rótulos gráficos da pintura, com prova
+de recortes/consumidores antes de importar, preservando MAIN/SUB/SE; créditos e
+demais bloqueios continuam no mapa de descoberta. Sem OneDrive/desligamento.

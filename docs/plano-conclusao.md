@@ -1,5 +1,16 @@
 # Plano para concluir a tradução
 
+**Retomada da tradução — interface v038:** usuário autorizou iniciar a tradução
+após a descoberta. [Legendas de pintura](interface-v038.md): doze nomes distintos
+aplicados às 228 referências, com células fixas e teto conservador de dez bytes.
+Interface totaliza 3.754 campos; MAP v037, fontes/layout v005 e arte v014 intactos.
+Próximo conjunto: preparar os rótulos gráficos de pintura a partir dos atlas
+descobertos, vinculando recortes/consumidores e conservando MAIN/SUB/SE. Créditos
+exigem recompressor/semântica do renderizador; destinos, TITLE e nomes pendentes
+continuam separados conforme descoberta. Não reabrir indiscriminadamente o teto
+dos itens ou as células de fonte. Entregar conjuntos completos seguros e uma
+imagem consolidada por rodada. Detalhes anteriores abaixo são históricos.
+
 **Prioridade atual — descoberta consolidada, 25/10/2026:** por orientação do
 usuário, investigar o restante antes de outro lote de tradução. Mapa e ordem
 de preparação em [Descoberta v001](descoberta-v001.md), metadados em
