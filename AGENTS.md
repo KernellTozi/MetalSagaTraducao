@@ -801,3 +801,49 @@ texto, traduzir nomes dos procurados ou promover automaticamente cópias à ISO.
 TITLE, nomes de itens, destinos e nativos sem contexto conservam seus bloqueios.
 Round-trips locais executados idênticos; hash ISOv038, cinco ISOs ealpha
 conferidos. Sem PCSX2, OneDrive ou desligamento nesta rodada.
+
+## Descoberta de desconhecidos v001 — 26/10/2026
+
+Usuário pediu investigar as365entradas desconhecidas. Consultar
+`docs/descoberta-desconhecidos-v001.md`, `reports/descoberta-desconhecidos-v001.json`
+e `tools/discover_unknown_entries.py`. Mantido conjunto histórico365 e parsers
+novos separados de `explore_interface_atlases`/importadores, sem promover edição.
+284entradas têm estrutura identificada;81sem parser.140são contêineres de41partes
+deF_PCDKF, com5740partes ainda opacas: não esconder essa pendência na contagem.
+Outros formatos:45DAI/10DPI com offsets/tamanhos;48carimbos4bpp sem cabeçalho;
+20CAME(count×20);15GANM com sequências;2RGBdiretas;lista/nota da entrada de
+nomes;2recursos já conhecidos (créditos/legendas), sem contá-los como novidade.
+
+GANM usa u16 em+4/+6 separados, stride16 e ponteiro de sequências+12. Sequência
+tem8bytes de cabeçalho+12por entrada. Preservar primeiro u16 opaco, índice de
+sprite no segundo u16, duração eflags. Variantes não sequenciais somente nos
+alvos fonte/offset0x91260/0x11A940 deRMGKAERU; não renumerar. Cauda não zerada
+deS_PAINT0xCBE0 preservada. Remontagem dos campos confere. Executados trechos
+originais limitados de cabeçalho/seleção de sprite:15casos/335quadros. Não
+executado carregador completo/alocador/GPU/PCSX2.
+
+CarimbosS_PAINT SDA0x959D0:48×2112,64bytes paleta+2048pixels compactados,
+64×64. Dimensões inspecionadas no consumidor0x670C8..0x670E8 e ordem dos
+nibbles executada0x67118..0x67130 para256valores. Não executadaCLUT completa.
+FNAME_DT0x86C40:2965pares/46linhasCP932 e58bytesA5; não mudar codecPT-BR por
+isso. Nota0x88400 tem163bytes de prefixo e29opacos, preservados. CAME é somente
+layout contado; sem afirmar semântica de câmera/consumidor. DAI/DPI e contêineres
+de41partes têm limites/round-trip comprovados, consumidores completos pendentes.
+
+Recuperadas172imagens (103indexadas+19RGBA internas,48carimbos+2RGB), revisadas
+em15folhas sob `work/descoberta-desconhecidos-v001/folhas`.117sem palavra
+localizável observada,48carimbos/símbolos/alfabeto,2logos protegidos,3letras de
+mecânica para preservar/revisar e2candidatos (RMGDANCE0x43D20/RMGKAERU0x15F2E0).
+Não contar como172textos faltantes nem ampliar o transporte119 automaticamente.
+
+Restantes81:36cabeçalhos numéricos com terceirofloat0,01;9com1,0;31outros;5SAF.
+Agrupamento não é parser. Filtro ASCII de frases aplicado a5821intervalos
+(81+5740),46473104bytes:zero candidatos. Não exclui texto nativo/comprimido ou
+outro enquadramento. Próxima investigação específica por consumidores, sem
+engenharia ilimitada de modelos como pré-requisito sem evidência textual.
+
+Ferramenta funciona localmente semIA/APIs; catálogoJSON próprio substituível
+por scope, novos caminhos para previews/resumo público.48testes distintos
+aprovados,14novos;10fontes e85receitas verificadas, ISOv038 conferida antes/depois.
+Receitas/fontes/ISO/iniciadores imutáveis nesta fase. Cinco ISOs ealpha
+preservadas. Nenhuma tradução, novaISO, PCSX2, OneDrive ou desligamento.

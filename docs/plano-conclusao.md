@@ -1,5 +1,17 @@
 # Plano para concluir a tradução
 
+**Descoberta das entradas desconhecidas — 26/10/2026:**
+[Relatório técnico](descoberta-desconhecidos-v001.md). As365entradas foram
+agrupadas e investigadas:284têm estrutura identificada e81continuam sem parser.
+Não tratar os140contêineres de41partes como totalmente compreendidos:
+5740conteúdos internos continuam opacos. Recuperadas172imagens, revisadas em
+15folhas; dois candidatos gráficos e muitos carimbos/modelos/logotipos a
+preservar. Parsers separados dos importadores históricos, sem edição liberada.
+48testes aprovados. Próxima investigação: consumidores dos36cabeçalhos numéricos
+semelhantes e dos blocosSAF, sem presumir texto; para localização, manter os
+candidatos gráficos reais no mapa de trabalho. Zero tradução ou ISO nova;
+base jogávelv038 preservada. Demais indicações abaixo são históricas.
+
 **Preparação retomada após v038:** o usuário esclareceu que esperava os
 mecanismos e a triagem antes de mais tradução. Entrega em
 [Preparação de edição v001](preparacao-edicao-v001.md): recompressor e pacote
