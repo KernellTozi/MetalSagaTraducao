@@ -1,0 +1,244 @@
+{
+  "schema": 1,
+  "policy": "paint-pixel-stroke-proposals-work-only-v001",
+  "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "proposed_labels": [
+    {
+      "id": "paint.button.13.00",
+      "png_sha256": "b8c260df156f2d807da55b1da949d14a07c0b37dc90d5837f5fe4e52799c13c0",
+      "translation": "Editar",
+      "mask_sha256": "efa776faec3bf3a5b474e91abfd4cfe0b21741d60721f0162645765e2bf206bf",
+      "width": 50,
+      "capital_body_pixels": 16,
+      "baseline_in_crop": 20,
+      "horizontal_scale": 1,
+      "font": "authored integer pixel strokes; original indexed palette; review-only"
+    },
+    {
+      "id": "paint.button.13.03",
+      "png_sha256": "a5e20e83574ef9c956f615eeac38514a6b15280d120c9136ccd950991f742fc1",
+      "translation": "Veículo",
+      "mask_sha256": "eba74f07edcff7848e99ae980646e488ff88bb1b79a4923aa6cced9a889e29f1",
+      "width": 60,
+      "capital_body_pixels": 16,
+      "baseline_in_crop": 20,
+      "horizontal_scale": 1,
+      "font": "authored integer pixel strokes; original indexed palette; review-only"
+    },
+    {
+      "id": "paint.button.13.04",
+      "png_sha256": "59152829815e2d8b8ab18f64684d0815ef4b2520e9278c1cb1b0975572c4a6c8",
+      "translation": "Ferramentas",
+      "mask_sha256": "7b53e8f64297830ef16ec1f3fe8b3e79346956551fa76266895adbfdc543ff11",
+      "width": 109,
+      "capital_body_pixels": 16,
+      "baseline_in_crop": 20,
+      "horizontal_scale": 1,
+      "font": "authored integer pixel strokes; original indexed palette; review-only"
+    },
+    {
+      "id": "paint.button.13.05",
+      "png_sha256": "6227ff32dcea1596321670935cf49cbd6143dc72ce880202fe407faf5cbb147b",
+      "translation": "Escolher carimbo",
+      "mask_sha256": "13dbd8f87f2d598ed2d6d72ede537b977f5a8dc35516d60c81862367fd7b06d0",
+      "width": 144,
+      "capital_body_pixels": 16,
+      "baseline_in_crop": 20,
+      "horizontal_scale": 1,
+      "font": "authored integer pixel strokes; original indexed palette; review-only"
+    },
+    {
+      "id": "paint.button.13.08",
+      "png_sha256": "565681d3fb3a145a7cd673bca9336973bd4fd1d249a26441f271a64eb6192263",
+      "translation": "Editar carimbo",
+      "mask_sha256": "8cb5c5b27b7b6abf48f79e75cb80a6dd3d7b9fbf4f614f5d9c843734f2f5e770",
+      "width": 122,
+      "capital_body_pixels": 16,
+      "baseline_in_crop": 20,
+      "horizontal_scale": 1,
+      "font": "authored integer pixel strokes; original indexed palette; review-only"
+    },
+    {
+      "id": "paint.button.13.09",
+      "png_sha256": "9ae8df39a8944ebee4edd709adca6f475d9de26ac56c0c899f1368693d689c70",
+      "translation": "Paleta",
+      "mask_sha256": "c9a590be91162253cc6356ebcbc5a4e19c44acd9a8924723ddd63233e3ba45f8",
+      "width": 51,
+      "capital_body_pixels": 16,
+      "baseline_in_crop": 20,
+      "horizontal_scale": 1,
+      "font": "authored integer pixel strokes; original indexed palette; review-only"
+    }
+  ],
+  "preserved_crop_ids": [
+    "paint.button.13.01",
+    "paint.button.13.02",
+    "paint.button.13.06",
+    "paint.button.13.07",
+    "paint.button.06.00",
+    "paint.button.08.19"
+  ],
+  "usage_proof": {
+    "cases": [
+      {
+        "index": 0,
+        "texture_entry": 11,
+        "ganm_entry": 12,
+        "texture_offset": 81680,
+        "ganm_offset": 213792,
+        "texture_table_offset": 3247776,
+        "ganm_table_offset": 3247808,
+        "forwarding_executed": true
+      },
+      {
+        "index": 1,
+        "texture_entry": 13,
+        "ganm_entry": 14,
+        "texture_offset": 213856,
+        "ganm_offset": 345968,
+        "texture_table_offset": 3247784,
+        "ganm_table_offset": 3247812,
+        "forwarding_executed": true
+      },
+      {
+        "index": 2,
+        "texture_entry": 15,
+        "ganm_entry": 16,
+        "texture_offset": 346144,
+        "ganm_offset": 478256,
+        "texture_table_offset": 3247792,
+        "ganm_table_offset": 3247816,
+        "forwarding_executed": true
+      },
+      {
+        "index": 3,
+        "texture_entry": 17,
+        "ganm_entry": 18,
+        "texture_offset": 478448,
+        "ganm_offset": 610560,
+        "texture_table_offset": 3247800,
+        "ganm_table_offset": 3247820,
+        "forwarding_executed": true
+      }
+    ],
+    "bound_windows": [
+      {
+        "kind": "code",
+        "offset": 378664,
+        "size": 28,
+        "sha256": "4e70279b21a85c6f7016146e102be313a8ae4a0d71fac3f31d5f4def5cd389a7"
+      },
+      {
+        "kind": "code",
+        "offset": 378728,
+        "size": 32,
+        "sha256": "f38e683f42e88017ba5f8e86a763199e46c909922962bc75a8a372e626d076dd"
+      },
+      {
+        "kind": "data-table",
+        "offset": 3247776,
+        "size": 68,
+        "sha256": "72b76e704e2d4b384edb528cceaa1eb5a568bf7579f1d7dba98aa8df3c60dfa1"
+      }
+    ],
+    "limits": "Two original integer argument windows executed for each table row. Owner/source bases supplied; uploads, drawing, selection, full dispatch and PCSX2 not executed."
+  },
+  "work_copy_import": {
+    "policy": "paint-menu-indexed-ganm-crops-work-copies-v001",
+    "entries": [
+      {
+        "id": "paint.button.13.00",
+        "changed_pixels": 517
+      },
+      {
+        "id": "paint.button.13.01",
+        "changed_pixels": 0
+      },
+      {
+        "id": "paint.button.13.02",
+        "changed_pixels": 0
+      },
+      {
+        "id": "paint.button.13.03",
+        "changed_pixels": 716
+      },
+      {
+        "id": "paint.button.13.04",
+        "changed_pixels": 844
+      },
+      {
+        "id": "paint.button.13.05",
+        "changed_pixels": 1285
+      },
+      {
+        "id": "paint.button.13.06",
+        "changed_pixels": 0
+      },
+      {
+        "id": "paint.button.13.07",
+        "changed_pixels": 0
+      },
+      {
+        "id": "paint.button.13.08",
+        "changed_pixels": 1231
+      },
+      {
+        "id": "paint.button.13.09",
+        "changed_pixels": 695
+      },
+      {
+        "id": "paint.button.06.00",
+        "changed_pixels": 0
+      },
+      {
+        "id": "paint.button.08.19",
+        "changed_pixels": 0
+      }
+    ],
+    "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+    "output_sha256": "ce2447c8c679593ae199ee401e56c7fcf7d9b87170d0b2f3faaeb14f2b5b7586",
+    "resource_size": 723776,
+    "originals_modified": false,
+    "iso_modified": false,
+    "reverse_roundtrip": true,
+    "iso_usage_approval": false,
+    "runtime_visual_status": "not_tested"
+  },
+  "preview": "work/pintura-graficos-proposta-v001/comparacao-pintura.png",
+  "iso_modified": false,
+  "pcsx2_executed": false,
+  "art_approval": "pending_user_review",
+  "limits": "Six proposed drawings only. Main mixed label, SUB/SE, Zoom, component and stamp-background captions remain original. Source-table binding does not prove complete live dispatch.",
+  "caption_overlay": {
+    "recipe": "translations/interface-v039.json",
+    "recipe_sha256": "be1eb2251672db057955d80994117d46f8d6349e642979476c07c93f4739e967",
+    "caption_fields_preserved": 228,
+    "caption_art_overlap": false,
+    "future_art_pixel_offset": 214896,
+    "future_art_pixel_bytes": 131072,
+    "future_art_pixel_sha256": "76c68dc7cf4ea9eaed43dddeabc5010637578b7db9a6ed7826f3c2c4aacdd16c",
+    "combined_resource_sha256": "3e097b2301f858f4bfb6af35343125bd199e91dae1e42ee0a9dadc4ab218f2bd",
+    "combined_reverse_roundtrip": true,
+    "combined_only_in_memory": true,
+    "iso_integration": false,
+    "limits": "Tests only S_PAINT pixel/caption composition, not live menu selection or rendering."
+  },
+  "tests_passed": 9,
+  "iso_v039_verified_unchanged": {
+    "path": "work/interface-v039/MetalSaga-ptbr-interface-v039.iso",
+    "size": 1704427520,
+    "sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+    "verified": true
+  },
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  }
+}

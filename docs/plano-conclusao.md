@@ -1,5 +1,14 @@
 # Plano para concluir a tradução
 
+**Orientação atual e gráficos de pintura — 26/10/2026:** manter os créditos
+já traduzidos e encerrar essa frente, conforme pedido do usuário. Apresentar
+comparações visuais no chat para avaliar as próximas artes. Foram preparadas
+[seis propostas de pintura](pintura-graficos-proposta-v001.md), ainda fora da
+ISO. Tabelas e oito encaminhamentos originais de textura/GANM conferidos;
+composição em memória preserva as 228 legendas existentes. Nove testes novos
+aprovados. A revisão da arte não impede continuar os outros mecanismos.
+Base jogável continua v039, com 3.804 campos de interface.
+
 **Atualização — descoberta v002 e interface v039, 26/10/2026:**
 As 81 raízes antes sem parser foram separadas em 18 contêineres de animação,
 55 modelos vinculados a consumidores, cinco bancos de som e três recursos

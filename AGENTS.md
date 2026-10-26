@@ -890,3 +890,33 @@ grupos gráficos de carregamento/minijogos/cartazes conhecidos. Não manter uma
 engenharia indefinida de modelos sem evidência textual bloqueando esses lotes.
 Cinco ISOs de trabalho ealpha preservada fora da retenção; não copiar OneDrive
 nem desligar sem nova solicitação.
+
+## Orientação do usuário e proposta gráfica de pintura — 26/10/2026
+
+Créditos dispensados para próximas etapas: manter os50textos já entregues,
+sem dedicar outra frente a eles. O usuário pediu receber comparações dos
+gráficos originais/propostos aqui no chat para avaliar; continuar ferramentas
+e investigações independentes dessa revisão. Não presumir aprovação artística.
+
+`tools/paint_graphic_proposals.py` e `docs/pintura-graficos-proposta-v001.md`
+preparam seis propostas: Editar, Veículo, Ferramentas, Escolher carimbo,
+Editar carimbo, Paleta. Desenho por polilinhas em grade inteira, corpo16pixels,
+baseline20na célula, relevo e paleta nativa; sem fonte instalada, escala ou
+colagem de glifos. Arte ainda não aprovada e fora da ISO. Preview apresentado
+no chat em `work/pintura-graficos-proposta-v001/comparacao-pintura.png`.
+MAIN/SUB/SE, rótulo misto Chassis/Main, Zoom, componente e botão decorado
+permanecem originais. Não contar essas propostas como novos campos jogáveis.
+
+Avanço de uso: tabelaELF0x318EA0(offset/tamanho textura) e0x318EC0(GANM),
+quatro pares de entradas11/12,13/14,15/16,17/18 deS_PAINT. Executados oito
+encaminhamentos originais em RAM sintética:0x5C728..0x5C740→0x1ACC58 e
+0x5C768..0x5C784→0x19AF80. Bases/objetos fornecidos; sem upload/GPU/dispatch
+completo ouPCSX2. Não afirmar seleção real em jogo por esses testes.
+
+Importador produz somente cópia local. A verificação de composição preserva
+as228legendas da receita v039 e desfaz arte+legendas até o original exato.
+Futura integração deve aplicar apenas pixels da textura13 em0x34770/tamanho
+0x20000; nunca sobrescrever oSDA inteiro baseado no original e apagar as
+legendas traduzidas. Bordas, paleta, alpha, GANM e demais bytes preservados.
+Nove testes novos aprovados. Report `reports/pintura-graficos-proposta-v001.json`.
+ISOv039/hash e cincoISOs conferidos, sem novaISO ou alteração dos iniciadores.
