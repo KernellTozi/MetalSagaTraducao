@@ -1,5 +1,14 @@
 # Plano para concluir a tradução
 
+**Escopo gráfico atualizado e v040 — 26/10/2026:** por orientação do usuário,
+preservar todas as imagens dos pôsteres wanted e dispensar recriação de títulos
+de cassino/minijogos como WIN, LOSE e ROUND. Manter trabalhos já feitos.
+Now Loading recebe somente [Carregando](interface-v040.md), numa alteração
+isolada dos pixels de RLOADING. Menus e instruções em texto continuam no
+escopo, assim como as propostas de pintura ainda separadas para revisão.
+Créditos não recebem novas intervenções. O planejamento de cartazes genéricos
+e títulos gráficos abaixo é histórico e foi substituído por esta orientação.
+
 **Orientação atual e gráficos de pintura — 26/10/2026:** manter os créditos
 já traduzidos e encerrar essa frente, conforme pedido do usuário. Apresentar
 comparações visuais no chat para avaliar as próximas artes. Foram preparadas

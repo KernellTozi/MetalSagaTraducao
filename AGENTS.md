@@ -920,3 +920,43 @@ Futura integração deve aplicar apenas pixels da textura13 em0x34770/tamanho
 legendas traduzidas. Bordas, paleta, alpha, GANM e demais bytes preservados.
 Nove testes novos aprovados. Report `reports/pintura-graficos-proposta-v001.json`.
 ISOv039/hash e cincoISOs conferidos, sem novaISO ou alteração dos iniciadores.
+
+## Escopo gráfico definido pelo usuário — 26/10/2026
+
+- Preservar os pôsteres dos wanted exatamente como estão. Não traduzir nem
+  redesenhar nada dessas imagens, inclusive rótulos genéricos do cartaz.
+- Não recriar títulos gráficos de cassino/minijogos como WIN, LOSE, ROUND 1
+  ou equivalentes. Manter o que já estiver feito; não iniciar reversões.
+- Now Loading pode ser traduzido somente como Carregando, sem acrescentar
+  palavras desnecessárias. Apresentar comparação original/proposta no chat.
+- Essas regras substituem o planejamento anterior de cartazes genéricos e
+  títulos gráficos dos minijogos. Menus e instruções em texto continuam no
+  escopo; distinguir textos úteis dessas artes dispensadas.
+
+## Interface v040 — Carregando, 26/10/2026
+
+Atual: `translations/interface-v040.json`, sobre MAPv037/layoutv005/artev014;
+3805campos de interface. Mantém integralmente v039 e acrescenta somente
+Carregando em `DATA/RDATA/RLOADING.SDA`. Iniciar-Teste.cmd/alias interface
+aponta para `work/interface-v040/MetalSaga-ptbr-interface-v040.iso` e
+Preparar-Interface.cmd valida v040. Créditos, pôsteres, títulos de minijogos e
+as propostas de pintura não receberam mudanças adicionais.
+
+`tools/loading_graphics.py`, política opt-in
+`loading-carregando-original-palette-fixed-sprite-v001`: entrada2 em0x8D0,
+256×32/4bpp; somente pixels0x920/tamanho4096. Paleta/alpha, cabeçalho, GANM
+em0x1920(um sprite inteiro), hotspot128,16 e estruturas imutáveis. Receita
+vincula saída por hash; não alterar silenciosamente um raster histórico.
+Desenho retangular mantém hastes4/travessas1, corpo19/11, baseline23 e
+descendente28; máscaras a/d/g/n/o conferem exatamente com a geometria nativa.
+C/r/e construídas na mesma grade; nenhuma GFI alterada ou fonte instalada.
+Comparação apresentada em `work/carregamento-v001/comparacao-final.png`.
+
+TabelaELF0x268788, dois descritores de56bytes; nome em0x33ADA8. Executados
+oito encaminhamentos inteiros limitados de nome/textura/GANM/objetos/ponteiro
+em RAM sintética. Bases e estado do gerenciador fornecidos, sem carregador
+completo/GPU/FPU/PCSX2. Ver `docs/interface-v040.md` e relatório homônimo.
+40testes distintos aprovados, oito novos. Delta integral v039→v040:2368bytes
+somente no plano de pixels autorizado; demais bytes/fontes/diálogos intactos.
+Visual ainda pendente, a conferir numa tela que antes exibia Now Loading.
+Cinco ISOs de trabalho ealpha preservadas; sem OneDrive ou desligamento.

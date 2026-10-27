@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v040.json",
+  "recipe_sha256": "94119a79ffe289cbc5d8c484ce900a7b184b1b6238e977b02a1fd650bfb1cf56",
+  "parent_iso": {
+    "path": "work/interface-v039/MetalSaga-ptbr-interface-v039.iso",
+    "size": 1704427520,
+    "sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+    "verified": true
+  },
+  "iso": {
+    "path": "work/interface-v040/MetalSaga-ptbr-interface-v040.iso",
+    "size": 1704427520,
+    "sha256": "e035aa3a4cdb50aab56509ba0aad04fb9d85a5ebd0bbf7b6a3d2963cea363ae1",
+    "verified": true
+  },
+  "new_fields": 1,
+  "interface_accumulated_fields": 3805,
+  "map_changed_records": 6024,
+  "map_body_or_choice_changed_records": 5983,
+  "map_speaker_label_translated_references": 912,
+  "loading_graphics": {
+    "policy": "loading-carregando-original-palette-fixed-sprite-v001",
+    "accepted": 1,
+    "evidence": {
+      "source_path_data_verified": true,
+      "descriptor_cases": [
+        {
+          "descriptor_offset": 2525064,
+          "texture_offset": 32,
+          "texture_size": 2128,
+          "ganm_offset": 2160
+        },
+        {
+          "descriptor_offset": 2525120,
+          "texture_offset": 2256,
+          "texture_size": 4176,
+          "ganm_offset": 6432
+        }
+      ],
+      "original_scalar_forwarding_cases": 8,
+      "drawing_texture_owner_offset": 2464,
+      "drawing_ganm_owner_offset": 2864,
+      "sprite_count": 1,
+      "sprite_rect": [
+        0,
+        0,
+        256,
+        32
+      ],
+      "sprite_hotspot": [
+        128,
+        16
+      ],
+      "limits": "Eight bounded original integer forwarding snippets; source/owner/stack and manager pointer supplied. Full file load, GPU, FPU animation and PCSX2 not executed."
+    },
+    "layout": {
+      "translation": "Carregando",
+      "capital_body_pixels": 19,
+      "lowercase_body_pixels": 11,
+      "stem_width": 4,
+      "crossbar_height": 1,
+      "letter_gap": 3,
+      "baseline": 23,
+      "descender_bottom": 28,
+      "rendered_width": 176,
+      "origin": [
+        21,
+        5
+      ],
+      "mask_sha256": "c3f78beee1f91a78467a2f6d85ba1225f1a4596ad3bec95811d51c24f921d900",
+      "target_indices_sha256": "21adc0642b7c273b82ac6e2d4587c8176eac9d61b53dfa4e7171344f24a3bb3d",
+      "target_texture_sha256": "bf027e233e710e714c05c0bc09640f303e9837509b699e550f65f8fabfdfb1a4",
+      "horizontal_scale": 1,
+      "palette_alpha_header_ganm_unchanged": true
+    },
+    "source_sha256": "dacbc7aaa7f0634a3625c7d4333ef25fa8ba6d61435a9a9046dc80faa6b3452f",
+    "bound_windows": [
+      {
+        "kind": "code",
+        "offset": 1528396,
+        "size": 8,
+        "sha256": "2b0a1ebdab422e1aae1384bf6f136cbf62ea309281948c4a2bb95e9d36f2c055"
+      },
+      {
+        "kind": "code",
+        "offset": 1528540,
+        "size": 96,
+        "sha256": "e83eade0729eb9b8a5f4f99aaffd2c2b0ffb86d9e62b684c2c5a57c691f1a714"
+      },
+      {
+        "kind": "code",
+        "offset": 1529424,
+        "size": 12,
+        "sha256": "ecf9b1b058ef2c8235029a0b244b634947f72805ec06881f3028234059377994"
+      },
+      {
+        "kind": "code",
+        "offset": 1529464,
+        "size": 4,
+        "sha256": "b62cb60afd7095cc13a95407e924fd985e746600896982571c0c2a544021de80"
+      },
+      {
+        "kind": "code",
+        "offset": 1529628,
+        "size": 4,
+        "sha256": "c57183186d5ea9e538057554939429c42b56818d5f8e344547be90879f025325"
+      },
+      {
+        "kind": "code",
+        "offset": 1683344,
+        "size": 20,
+        "sha256": "2e45a49a6c90281b7a33100b583366f22a3ca4b69036b2929a687271e968a3c4"
+      },
+      {
+        "kind": "data",
+        "offset": 2525064,
+        "size": 112,
+        "sha256": "93ad3b8cdec5be574880202c874c3f93d6e94324116e3b7363d2f31d25bee6d4"
+      },
+      {
+        "kind": "data",
+        "offset": 3386792,
+        "size": 32,
+        "sha256": "6ab26222bedc24de0a4a58ff443249a9e294c4195bd812d1a4ee1f1e6789dfef"
+      }
+    ],
+    "reverse_roundtrip": true,
+    "runtime_visual_status": "pending_user_verification",
+    "protected_other_resources_untouched": [
+      "wanted posters",
+      "casino/minigame title artwork"
+    ]
+  },
+  "delta_against_parent": {
+    "old_recipe": "translations/interface-v039.json",
+    "new_recipe": "translations/interface-v040.json",
+    "source_iso_sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+    "output_iso_sha256": "e035aa3a4cdb50aab56509ba0aad04fb9d85a5ebd0bbf7b6a3d2963cea363ae1",
+    "iso_size": 1704427520,
+    "changed_bytes": 2368,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "loading.carregando.texture-pixels",
+        "resource": "DATA/RDATA/RLOADING.SDA",
+        "iso_offset": 1230623008,
+        "size": 4096
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "automated_tests": {
+    "modules": [
+      "test_loading_graphics",
+      "test_credits_translation",
+      "test_paint_graphic_proposals",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive"
+    ],
+    "tests": 40,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "one_drive_copied": false,
+  "wanted_posters_unchanged": true,
+  "minigame_title_graphics_unchanged": true,
+  "credits_unchanged": true,
+  "painting_proposals_still_separate": true
+}

@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v039.json",
+  "new_recipe": "translations/interface-v040.json",
+  "source_iso_sha256": "6f3c8b3c6f88e99fc7f5092e648c68c364e62f8f1119d78a9cca9914ed700896",
+  "output_iso_sha256": "e035aa3a4cdb50aab56509ba0aad04fb9d85a5ebd0bbf7b6a3d2963cea363ae1",
+  "iso_size": 1704427520,
+  "changed_bytes": 2368,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "loading.carregando.texture-pixels",
+      "resource": "DATA/RDATA/RLOADING.SDA",
+      "iso_offset": 1230623008,
+      "size": 4096
+    }
+  ],
+  "pcsx2_executed": false
+}
