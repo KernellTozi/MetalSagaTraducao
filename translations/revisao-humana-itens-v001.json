@@ -1,0 +1,991 @@
+{
+  "schema": 1,
+  "policy": "item-user-review-exact-records-v001",
+  "source_document": "METAL_SAGA_DECISOES_PARA_CODEX.md",
+  "source_document_sha256": "02e5267f988dbf3234ad981a029e79468c7ba5e8316ffd5844fa32e741285b48",
+  "source_archive": "work/revisao-humana-itens-v001/decisoes-originais.md",
+  "parent_recipe": "translations/interface-v041.json",
+  "parent_recipe_sha256": "089e69629c1a45c0d621c66c99cfa1149eb7993e8fed1396de6b17cbaca53c14",
+  "approved": [
+    {
+      "id": "item.name.0319",
+      "source_sha256": "c5965142e819c22d0e1b6618da861198451833c02e46b741faac7dc94350e277",
+      "record_sha256": "280ddeeae0783514b844444c1ae8aa6eac8ee24b70c4a86d4f361dce3e426627",
+      "audited_translation": "Cápsula de cura",
+      "parent_effective_name_sha256": "9c7ba613fc000b435a090e480fa08fad5db771575f7b813b98257be3085050f3",
+      "translation": "Comprimido",
+      "encoded_bytes": 10,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0320",
+      "source_sha256": "a0faf1659886992ad163b4ba2f6d04e3dc65a902ae7501c4965709aaea800091",
+      "record_sha256": "9c4ef32a2f8d768b154dca6717de58a0c7d520e93cca64bf716ed5d2fe4124b8",
+      "audited_translation": "Bebida de cura",
+      "parent_effective_name_sha256": "3bde5021b3711e6c1ecd73fe401f68a6507419ca0dae1279123140348796e408",
+      "translation": "Tônico",
+      "encoded_bytes": 7,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0321",
+      "source_sha256": "2accae12267111c961d97a0895da976c156ed895bc6ec146392fc7eff4223a8e",
+      "record_sha256": "c5f7ca038a6ca203b98763fde53814b3b1789503f918093ba9301bb9e4b8a2c8",
+      "audited_translation": "Cápsula vital",
+      "parent_effective_name_sha256": "e30e94b6957b02b3ad7e325d8705d2bfef5fc22a67bb6f26467e62dd6ff81f51",
+      "translation": "Comprimido Forte",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0322",
+      "source_sha256": "31adc9243b8bc59d26aecc1f11d946e1e235625c501652e29f28c2de4d237dd3",
+      "record_sha256": "17dafced329e8eee1e88da1b2f4a800b881c7d960891d0486e0bcc928c695ac4",
+      "audited_translation": "Bebida vital",
+      "parent_effective_name_sha256": "1bc8861c64671dbb65e67ecf2d156de688c9fa2a160cf8de2ae7ee9c9001ac72",
+      "translation": "Soro",
+      "encoded_bytes": 4,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0332",
+      "source_sha256": "7882dda02f551ae2a99f9d39cddaad950b5efdae02cb187e7ebc6d32777b3e6a",
+      "record_sha256": "9dab92713877a16913f0fa7a07aa4044c20736c7ff1324045fa755f371e9cc6c",
+      "audited_translation": "Cafeína em pílula",
+      "parent_effective_name_sha256": "7882dda02f551ae2a99f9d39cddaad950b5efdae02cb187e7ebc6d32777b3e6a",
+      "translation": "Cafeína",
+      "encoded_bytes": 8,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0345",
+      "source_sha256": "1473c624a8c41c13ffb15d77d057418490a2ad6b7029f6be8e6867d51fad3a2a",
+      "record_sha256": "fc43ed50a13060949503f23173f30b20b9efa099832696e13a3c4b37d4e6ad0e",
+      "audited_translation": "Cera básica",
+      "parent_effective_name_sha256": "21f556a1353d263f64f3d5e314ab35e628aefae8175bd27438fa5e8bb1513679",
+      "translation": "Cera alcalina",
+      "encoded_bytes": 13,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0360",
+      "source_sha256": "4880485fdb238c89ce3a09ca65f489b64b47007093d7e650644f24dd8e2cd666",
+      "record_sha256": "eede0dadfa4c4ba3210199b5e2cf6d4d8a7222b49b9126154bfa9374365f4f9b",
+      "audited_translation": "Granada Remote",
+      "parent_effective_name_sha256": "9d7ca070cfd2fd92ed446cb1670dc7fe1a7112a5c0e3e8f1b9bc8c0d6cef0b6a",
+      "translation": "Granada Remota",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0365",
+      "source_sha256": "189dff91e4de2fe45e68fd8dcbcb0427948f0533a949cde673de6045c8110498",
+      "record_sha256": "3bf61e1faae3e4b25bd5040bd4e2700067fe500eda3e1016e54abd1819711b5d",
+      "audited_translation": "Foguete de festa",
+      "parent_effective_name_sha256": "d61986166663b440be3f3fb5d879c8cd888bdec085185ec7d45e395f7a42190e",
+      "translation": "Foguete festivo",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0370",
+      "source_sha256": "a4fc22416eac1e77e60d607f19a13cb1183d0585dd2f5a3574db4cf4e4c26777",
+      "record_sha256": "1ac7d6e0908d39db51fa2bf0330c6798691ad8e6cc8f192e2d6a7a4e615801ae",
+      "audited_translation": "Frasco gelado",
+      "parent_effective_name_sha256": "2ff40ab77816960268faea2ad7ad12c86e284e4bf9532d5e458a4797b056a65a",
+      "translation": "Frasco de gelo",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0371",
+      "source_sha256": "5039510074a83afd17e40e5dac2252b689909fcca1598bf2c51a64b73711737a",
+      "record_sha256": "c513c5206b7ba82556009efec3308fc361aa22f875b15dd774641f355f853c1a",
+      "audited_translation": "Frasco do sono",
+      "parent_effective_name_sha256": "923a6045e37a6f56c5ca41168a4756067cba57efb644eececb97bc04355699fa",
+      "translation": "Frasco sonífero",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0378",
+      "source_sha256": "8fd9793c584d71f7f05e5c6514aa07d32b810b7c6b1405e15cb7194fd7e6bafa",
+      "record_sha256": "422410ebb143395a92be3a7ec19ccc66d9c375d7af40118069bd4d1aa903b522",
+      "audited_translation": "Células de xarope",
+      "parent_effective_name_sha256": "8fd9793c584d71f7f05e5c6514aa07d32b810b7c6b1405e15cb7194fd7e6bafa",
+      "translation": "Secreção doce",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0379",
+      "source_sha256": "a4eb5d86f10ec0cbd52fc4f4c73c6d569df7fc4c5be7c237aa82612d2440d6fe",
+      "record_sha256": "88c826288a894e2189bc25fdcf26a74c61435a0fae9ff9ee05e9f59d08082051",
+      "audited_translation": "Células em gel",
+      "parent_effective_name_sha256": "cb70dc71429414b45501ac134ea1f02c57b17a0ec54ba67e4a4e2ba09febe49d",
+      "translation": "Massa gelatinosa",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0383",
+      "source_sha256": "f39901e78892816b8658fe9a2c3179c6560594e01769f3948537b36250131df8",
+      "record_sha256": "fed10d47f90683c0aa9dae4f4ba4cef4faa794371f0675f6da2c0a3fb8368a5e",
+      "audited_translation": "Células pegajosas",
+      "parent_effective_name_sha256": "f39901e78892816b8658fe9a2c3179c6560594e01769f3948537b36250131df8",
+      "translation": "Muco pegajoso",
+      "encoded_bytes": 13,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0410",
+      "source_sha256": "9b50e9a5b45b5319aee0a7055fc26cc0abf8a883cf6fad6af0654c1ed63c5280",
+      "record_sha256": "a1a4d05a6d479169eb22df9981ee969a855e4e65ed7d97622951d757d46a5d37",
+      "audited_translation": "Sabão real",
+      "parent_effective_name_sha256": "ad36722218737c0b7f088c764f7c7e48df47b0702ba954eefcded1f6a46cb323",
+      "translation": "Sabonete de luxo",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0411",
+      "source_sha256": "aa977640b84183e8ef4793e644a750f06219485ac0ea8a4c3399c7441a3faa1b",
+      "record_sha256": "774570e0c79cbf0f3dce85b0c524e35ae1dbc7341d94dfe1cc69b2349257746c",
+      "audited_translation": "Chinelos reais",
+      "parent_effective_name_sha256": "50340960abc70552f9fe5e67fa798e613186c3444ef7ec59fd2c8b599261cb5a",
+      "translation": "Chinelos de luxo",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0412",
+      "source_sha256": "3bdd5ff7b4497054f78789ccc72a14a3306bf0598ff5fa908c4c3afa0a521b21",
+      "record_sha256": "6ba262c9bd33a5e6d5d11dd718383c2d6783e8ddec04796e609369f99f731039",
+      "audited_translation": "Robe real",
+      "parent_effective_name_sha256": "d3b4b302a73600105d3cc012f6087eddb1eef2471b0cb92d19c002ace5bb23b1",
+      "translation": "Roupão de luxo",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0413",
+      "source_sha256": "42520de099d6274bc238a5823bb478cf014f7e58ef67753d7edb2778d0633225",
+      "record_sha256": "c7a7186a7457cb7ee1336f72bda5a7247e376f196cedaf9aa9c4331c10d398b9",
+      "audited_translation": "Toalha real",
+      "parent_effective_name_sha256": "4b6cc9bb869c978126140a2525653c9b476139a3219698e86625fc2d5b4aa13f",
+      "translation": "Toalha de luxo",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0424",
+      "source_sha256": "b5266c0205c4b9643a59bd49eba0f9d832fe4048ede8e9bda24b9881e747324d",
+      "record_sha256": "43b6e301adb87809d75ac8009cf029267ccf344df50948c90732cc6656adff88",
+      "audited_translation": "Máscara canina",
+      "parent_effective_name_sha256": "32ad029f261521667b7a821a2e203d42777a1f488c1c74a2c3e37c4fb53988ef",
+      "translation": "Máscara de cão",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0432",
+      "source_sha256": "bbaf6c9487fa027de2ac5d6e82ef2502922a456985163dd8fd7923f485361f87",
+      "record_sha256": "6c699c9d7a121af1967e4ab983cdc16691f8d70617311784f03128d4c2f4dbc1",
+      "audited_translation": "Bandana rubra",
+      "parent_effective_name_sha256": "ad37c1979b4d1cdeafc31916aa2b87b2738a07ea40fb37110429a6bb91168b99",
+      "translation": "Bandana vermelha",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0438",
+      "source_sha256": "f0a7a2a08b7a82177e6daea4ce67e262ae9356675a8268613ac1d0cd7daa0af7",
+      "record_sha256": "9ba16c068c744871cdb616d4a17d1c9bd30dd7c19308b632bf853c747b049ac2",
+      "audited_translation": "Broche de cobre",
+      "parent_effective_name_sha256": "44292270d18eb4ca03b683bad58779d6f6dde7d3518d08ab01d1b9c9954daf84",
+      "translation": "Medalha de cobre",
+      "encoded_bytes": 16,
+      "human_note": "Medalha de Boss Rush pós-jogo, não broche."
+    },
+    {
+      "id": "item.name.0439",
+      "source_sha256": "1106360dd2e17e2de94c16232a847f59f6c4490d8f71bf4d6142486dac6fd328",
+      "record_sha256": "96a79391f845c990769ba8893324b3dffc57883adfd84c92de89e89ad1f188fb",
+      "audited_translation": "Broche de prata",
+      "parent_effective_name_sha256": "67e2c839aeeea9d5a4331b8024a5926a820b51c66019844d86e9396ede0a0588",
+      "translation": "Medalha de prata",
+      "encoded_bytes": 16,
+      "human_note": "Medalha de Boss Rush pós-jogo, não broche."
+    },
+    {
+      "id": "item.name.0440",
+      "source_sha256": "a90c119f07c6d959922fe3777e116de41747f259775d0904bbbadb03df13844c",
+      "record_sha256": "2ba8f1449e95d70008b6e09ca4b4b334288cd018717eeeefa60e4b723a20ecc0",
+      "audited_translation": "Broche de ouro",
+      "parent_effective_name_sha256": "6a4430f9e48ad86b9fbc7ee37076645d0a05b45d2e5c8ff6c5c138df0f86c1e4",
+      "translation": "Medalha de ouro",
+      "encoded_bytes": 15,
+      "human_note": "Medalha de Boss Rush pós-jogo, não broche."
+    },
+    {
+      "id": "item.name.0441",
+      "source_sha256": "1f7b054b5ffac85d822c8b4ed3aef8d95256f517c57169fe037b9890cfaededd",
+      "record_sha256": "b9b3ad47857945cf213c53e58a72deda5ca9ad91b9af6858d466a94cabaf54d6",
+      "audited_translation": "Pin de platina",
+      "parent_effective_name_sha256": "af27ec25dcd522f6f6683f7915587fac40d28e6e989b25660751be34e7cec5cf",
+      "translation": "Medalha platina",
+      "encoded_bytes": 15,
+      "human_note": "Medalha de Boss Rush pós-jogo, não broche."
+    },
+    {
+      "id": "item.name.0640",
+      "source_sha256": "2a4b22d3823b211b3251596d8680d462d23ef29b42372bf1188c75eeaefea26d",
+      "record_sha256": "47a3fe841b7fb652f1b94aafa986117acb5b31fa097d4874ce2a6eda3cbabfe5",
+      "audited_translation": "Peça do peito",
+      "parent_effective_name_sha256": "d5494350139f3d1c51a88d624019363fb2479da4ac19bdd9a0d2abf5b8482ad9",
+      "translation": "Peça do tórax",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0655",
+      "source_sha256": "7e9e5b2cb2727e7bdf832ecabe2ff115790225a2ac825bfe562258bfe5f7b089",
+      "record_sha256": "771740f012729e3457619e64059bf3980f8e750711bd5dfea7b616e500783190",
+      "audited_translation": "Bainha menor",
+      "parent_effective_name_sha256": "7a86906a213a440a9b3690216961ab06a4646805299e19557f2d102fdf0ed76c",
+      "translation": "Bainha pequena",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0700",
+      "source_sha256": "e2864eff112a2aaa986fad55c0fc5f41bb23c4eec03705ecf2cbc10c096dcf57",
+      "record_sha256": "cc43b23be11b6128bcc86835280eb9c8ea75fdfb099cb8cc31bc4ba8221f9fc7",
+      "audited_translation": "Sucata viva",
+      "parent_effective_name_sha256": "d269fc4ad240fcd52af292ad70318b91cf1f2cf8940d835fa53231b006afbb11",
+      "translation": "Sucata orgânica",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0704",
+      "source_sha256": "2f16c59b41ffb0e687868948189c8a2a11d2ca411b41f1311086751faa99ab50",
+      "record_sha256": "a37270b05e53f475067eda20b192260bf154dabc3b73c7b0f029ad523d94e81c",
+      "audited_translation": "Sucata anônima",
+      "parent_effective_name_sha256": "c98f5c5f9598ba745958796ee10c752bbddbbbdcc36982c57bc19bbe0faf22cf",
+      "translation": "Sucata estranha",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0710",
+      "source_sha256": "cfb70947aac9e3f2bb0dafa37016949587aaee4fe00b0b810733933b1b3ff94f",
+      "record_sha256": "bed92feaeb2183e578294087eae382d47be694c28055a2f031eb62cbeec685d5",
+      "audited_translation": "Busca-minas",
+      "parent_effective_name_sha256": "468258f8d6c99b62482708b2012bf7b4acba9c3ece96bec8eee374b90940f9a6",
+      "translation": "Detector básico",
+      "encoded_bytes": 16,
+      "human_note": "Duas ferramentas de detecção com alcances distintos; qual é superior ainda não foi confirmado."
+    },
+    {
+      "id": "item.name.0735",
+      "source_sha256": "95441f1bc028b6f2e097410b118ade56f9fd65377fc170a2b7d80643f265ee30",
+      "record_sha256": "fb72aa3ba23548910ea7567bd844371fa01e68bd67098ec3a77180c9e49e89b4",
+      "audited_translation": "Urso talhado",
+      "parent_effective_name_sha256": "41539a7c69cf76f53a037cf9c6297be800da0d29b48b67d44d62243ebc4cef63",
+      "translation": "Urso esculpido",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0748",
+      "source_sha256": "b4a59bb85f3e0c16e30797daadac095db6123f0c7c2345d2b3e62b0142155596",
+      "record_sha256": "fe55d181f2811128fb306008f39c32893493dc848e0478f862f5572a374998a3",
+      "audited_translation": "Mesa de ceia",
+      "parent_effective_name_sha256": "84529c12b09b6c6594e4803d0c91c39119cad742d741d0386d7577df79e70e9a",
+      "translation": "Mesa de jantar",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0767",
+      "source_sha256": "5d37d431109d86e6263ddb26b4a3f4b50bb0d99c1084dcc560dcafb59e324fc0",
+      "record_sha256": "ca3881fdbf3ba5a5b3867f1676b0af315fd0795fcaab3661c01f786ef7e9dc18",
+      "audited_translation": "Armário",
+      "parent_effective_name_sha256": "dbf591548411ece4e64ba81a4ea48de327730303f5f520e8930d8108f2ef3cd3",
+      "translation": "Armário pessoal",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0779",
+      "source_sha256": "4f5544e3c97f8d1f306929259ffb8c1ff7488b8fa53208e0202dbb0c572a887f",
+      "record_sha256": "6b0352ac07cdafddb0f8cb3241333042c2b6de854abde5cd33ff6e4e01d1ef98",
+      "audited_translation": "Traje chinês",
+      "parent_effective_name_sha256": "9d21b44e868721b3e5f1dc60e5ab12fdb6d975dac71e5ec391481336add5945b",
+      "translation": "Vestido chinês",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0780",
+      "source_sha256": "d5cdaf5d0188fc10ee7dd95638b5cf3690849ba1aea1ab2168fd903586cbf857",
+      "record_sha256": "22a7e0b8b5041400a2fd0a3224639da42fe9f7f16c426d9f24617d24e5549315",
+      "audited_translation": "Traje de criada",
+      "parent_effective_name_sha256": "a9c7681193a273539d3a7854965a4a412a7b127521f1f17c749e0fd0d3272ba9",
+      "translation": "Roupa empregada",
+      "encoded_bytes": 15,
+      "human_note": "Escolha textual explícita do usuário."
+    },
+    {
+      "id": "item.name.0784",
+      "source_sha256": "8b3e34288edc3933cc01039aaeed6fa936851e2f620e717504a00143d977e70e",
+      "record_sha256": "28efd64df427ae13f3ba909dddfb18aedb54a9c23108a8edbe901a70e414748c",
+      "audited_translation": "Teleporte",
+      "parent_effective_name_sha256": "88dbd7c84acaaf96b34df355043b9a081022e087baf7473ac856e20da5b647fd",
+      "translation": "Teleportador",
+      "encoded_bytes": 12,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0807",
+      "source_sha256": "050aedf49062a717a0ba1f8666982246a0a7e3e06283b5573444fb500b206d57",
+      "record_sha256": "92b53140d02469da6f4ede313c7cfef645b378f6af688bc2701f454a547c4a7d",
+      "audited_translation": "Buzina E.",
+      "parent_effective_name_sha256": "e6ab2eb24dd68d8e99d70ed4e422efeb7ef27fd871f73e7c934199a654327285",
+      "translation": "Buzina esquerda",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0808",
+      "source_sha256": "b32c999364eb2a0c1b660ad946cd5ea44744becb93e8929aa42918f2400aa173",
+      "record_sha256": "d8825297bf06138d0dc1094f4d410c9742f5f87d1d5c7f48f8869139ef96a6eb",
+      "audited_translation": "Buzina D.",
+      "parent_effective_name_sha256": "5f1dba8c987aca9816877465f15819a57697be0413d17b40ea8616e972508c65",
+      "translation": "Buzina direita",
+      "encoded_bytes": 14,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0815",
+      "source_sha256": "31ef92854ee2e6ae6f3ab8deed571b9b7235d8e3c8d199d99a7dd231ea3123e1",
+      "record_sha256": "2df6cc8582e52cc370bdc39307111ba312f895c2907ad1ce56bca9c1ac3bb971",
+      "audited_translation": "Urso de pano",
+      "parent_effective_name_sha256": "e7b11ece9a1524118dac0af607ef94fbe1d8d2b665a15a709c8ca36275da19d9",
+      "translation": "Urso de pelúcia",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0822",
+      "source_sha256": "7f40f611754c6c5dbe7d154e11df31a761fd8aa87df0a230f614567518533744",
+      "record_sha256": "89039df2ec501f53d9984a742064385119be679b87ad302a645f1759e57022f6",
+      "audited_translation": "Sucata metálica",
+      "parent_effective_name_sha256": "0f56b1fadb42b5e42dd7b54b565bd554ed5b70d677391715ad03b3dc21f0cbfc",
+      "translation": "Sucata leve",
+      "encoded_bytes": 11,
+      "human_note": "Ordem leve/média/pesada é suposição assumida provisoriamente para validação jogando."
+    },
+    {
+      "id": "item.name.0823",
+      "source_sha256": "7f40f611754c6c5dbe7d154e11df31a761fd8aa87df0a230f614567518533744",
+      "record_sha256": "16dc98f3af67ae435eed466aedab6c4c21f935e7396c8bfbfb012806fb3f4c39",
+      "audited_translation": "Sucata metálica",
+      "parent_effective_name_sha256": "0f56b1fadb42b5e42dd7b54b565bd554ed5b70d677391715ad03b3dc21f0cbfc",
+      "translation": "Sucata média",
+      "encoded_bytes": 13,
+      "human_note": "Ordem leve/média/pesada é suposição assumida provisoriamente para validação jogando."
+    },
+    {
+      "id": "item.name.0824",
+      "source_sha256": "7f40f611754c6c5dbe7d154e11df31a761fd8aa87df0a230f614567518533744",
+      "record_sha256": "731f529a0402fcd3e37eaa6770cb98a2c82af63a61d3673f305dfd01dc0abb42",
+      "audited_translation": "Sucata metálica",
+      "parent_effective_name_sha256": "0f56b1fadb42b5e42dd7b54b565bd554ed5b70d677391715ad03b3dc21f0cbfc",
+      "translation": "Sucata pesada",
+      "encoded_bytes": 13,
+      "human_note": "Ordem leve/média/pesada é suposição assumida provisoriamente para validação jogando."
+    },
+    {
+      "id": "item.name.0835",
+      "source_sha256": "89e3dc8a3ab77d0eb25ebdd27ee391c79fb9682475b750d948ad943f416dbe0c",
+      "record_sha256": "1e6f4988ec289b041ad53b1ace7d1f4a701404de93756957d4d43a9733d694c0",
+      "audited_translation": "Obus extra",
+      "parent_effective_name_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "translation": "Projétil extra",
+      "encoded_bytes": 15,
+      "human_note": "Família Shell: preferência explícita do usuário por Projétil."
+    },
+    {
+      "id": "item.name.0837",
+      "source_sha256": "ede9a8a8ff999a7ac894fc2b92026c40e64f162bc124a51a21a1ee04c940a0b5",
+      "record_sha256": "699a6a68ddfc22ecee0ae03c3016b20fd9ea3d6fcd4890befdc2518fc432d83a",
+      "audited_translation": "Obus de fótons",
+      "parent_effective_name_sha256": "8f4d610802cd35c65748c486b202625cce10ec06221cacdc41d90d8ac241efc6",
+      "translation": "Projétil de luz",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0839",
+      "source_sha256": "fa0f5a487e21236c289b3528ce9125a22f504573bcc262295dacc9272c6f5f6a",
+      "record_sha256": "c83066c8aa0713720ae4d2692168a454291730328250b10f74da28feb087daa3",
+      "audited_translation": "Obus de napalm",
+      "parent_effective_name_sha256": "a9af6703f6a751ea64a6b103b4ed54efa5e54080f52e711662f2e6d60ef11f30",
+      "translation": "Projétil napalm",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0843",
+      "source_sha256": "f612d9547aa8b9598e306a02a7e036eb467f5e65e8ea57529249989ccb29f653",
+      "record_sha256": "f006dd7b03108103f8a10b891b77030368b15ede92bc8f4aaa09181032ec95a0",
+      "audited_translation": "Obus AG",
+      "parent_effective_name_sha256": "ccd4a5f4c33d65d2be06d5c4f4924e6c269471e7977faefec9daf2cd62b69302",
+      "translation": "Projétil AG",
+      "encoded_bytes": 12,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0844",
+      "source_sha256": "7c1aacdbe1de912abd3934538165e7d7bee00a4ade3e093af8c497f9c5998f86",
+      "record_sha256": "9aa124e640d372173673966ce1e1ed3a1d4f3b6aef0664fc7622527e45a21c16",
+      "audited_translation": "Obus AW",
+      "parent_effective_name_sha256": "9d9ea37fd45e235cb9ac54d6d3c2c4913e5b2809dc44e1653d61f295275cac3e",
+      "translation": "Projétil AW",
+      "encoded_bytes": 12,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0845",
+      "source_sha256": "f74d148bd65e232d3bb22db0ec49dd2c8fc279c820faec36cb212f6a198f5beb",
+      "record_sha256": "fecda6422b3e4c770c8db7c1840f6d35031b2ab20ab71f021dee28279e7305a9",
+      "audited_translation": "Obus RAP",
+      "parent_effective_name_sha256": "02729cb34703e774e81ac2926de0327361ae2ea09cb48060749c549f7dc5f98d",
+      "translation": "Projétil RAP",
+      "encoded_bytes": 13,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0846",
+      "source_sha256": "07f85156cefb59e4c592d5c2499d46ab31fcd4f9c93e08bf6bb62a3bc85366fc",
+      "record_sha256": "823cd518ba92070e2d8b0b4e6f18b5ed643c5cad4cd65c0a61c660c7ea5a57cb",
+      "audited_translation": "Obus Strato",
+      "parent_effective_name_sha256": "e55fd530c3d811ca5fc1615067bfd89c1df87a9311fc54beddd0d3f3d3f31fee",
+      "translation": "Projétil Strato",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0847",
+      "source_sha256": "af8e6944f67839e01db706286f3c1a3ac0b7c940a18193c0790789f3cd26f90a",
+      "record_sha256": "d4bd350f7d78904f6e85b408f2eff40d74b87f9831f7007fbcd66eeb72d5ca27",
+      "audited_translation": "Obus AS",
+      "parent_effective_name_sha256": "c29d0ee5805a80021876a5626b85c895828fe9b20d29d3ccb3177084d0ae9e24",
+      "translation": "Projétil AS",
+      "encoded_bytes": 12,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0848",
+      "source_sha256": "a2283a9c57a4b6c2719534c9b6112a479cf4b3bfbe74b84f4d6e5923e60998ea",
+      "record_sha256": "cfb93e5366f74be8eba8fa05d02b747b196e8d4c5b34f50b40030ad6e71542b3",
+      "audited_translation": "Obus perfurante",
+      "parent_effective_name_sha256": "49587eb0730f0d21e89d252b695e7d655aafddee354dcf924229e85daeb307e3",
+      "translation": "Bala perfurante",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0857",
+      "source_sha256": "7f7a5269d4a5aa9e06751f52f21202f9f4f33d0a4cc386428efa10130256891e",
+      "record_sha256": "a643f0530c5f9cd3a587f6adbcfb526aa7a5a2dac77259bea2bdf9604da5e916",
+      "audited_translation": "Recicla",
+      "parent_effective_name_sha256": "d35a461e37b8b9c33af1ddb3191c3d4d36e50f308b61f905f4255ea7fbc0d8fc",
+      "translation": "Reciclar",
+      "encoded_bytes": 8,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0865",
+      "source_sha256": "35de2da495048b4f43abec7981955ec21ffae67cedbac28944e5f00278ab06b2",
+      "record_sha256": "4f22cc6c92635d244bad29a5758b40ca0e3c2d1843f3e19d746cf8bed412fbe5",
+      "audited_translation": "Regenerar",
+      "parent_effective_name_sha256": "4477deff6ab77d2afeb11cf761631e1efa2bd6bee7258fd0975a779d9bc3bf76",
+      "translation": "Regeneração",
+      "encoded_bytes": 13,
+      "human_note": "Mesmo original do ID 960: Regeneração."
+    },
+    {
+      "id": "item.name.0874",
+      "source_sha256": "aa385c6430ec1c29449c6637e72a5415d837720b3d4696d5a08b65cd85d4051e",
+      "record_sha256": "f34ca227ebaf06bb12bffe31322a5d6822dbd7cf88e1b4b46b0039266bf9a58c",
+      "audited_translation": "Laser Remote",
+      "parent_effective_name_sha256": "f6c6362a8e959cef0bed1aad9d1da7e86593045bb6b913bf0623516ec4ecba3c",
+      "translation": "Laser remoto",
+      "encoded_bytes": 12,
+      "human_note": "Habilidade inicial da história: chama laser de satélite com notebook; manter nome próximo do original."
+    },
+    {
+      "id": "item.name.0875",
+      "source_sha256": "165300ae3ca9d9d2943bcbf8adba21872d412bf52de4cde78b69aeae0f8ea8c9",
+      "record_sha256": "7c56257b92519345f0508b17482ef2737de7affc89b496ae47edc9a564f9c876",
+      "audited_translation": "Laser Remote EX",
+      "parent_effective_name_sha256": "7d8312f966ba7408b226e886a37e8ec71e0f2fb5ac9b4a0483727d9c4d1898d3",
+      "translation": "Laser remoto EX",
+      "encoded_bytes": 15,
+      "human_note": "Versão EX do Laser remoto."
+    },
+    {
+      "id": "item.name.0886",
+      "source_sha256": "4f33bf7298cf35135db12f2a17fe38f2834ff7a42c73ab526722c7c1950ee2d2",
+      "record_sha256": "45d7c8a551b25267ca64c1bd8d152cacf0070011fbc3241e0344c0be28677ef7",
+      "audited_translation": "Brio",
+      "parent_effective_name_sha256": "af7d80f986f372b6d0f89a0ea5889cd2a35ded1b6645da9d688c467d00289e0a",
+      "translation": "Garra",
+      "encoded_bytes": 5,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0901",
+      "source_sha256": "14320c2cd7edbd6b62b715820f4e54938c62c66b649bd098a8e282017b4ca6b5",
+      "record_sha256": "ee51332295ef1157873863b82578a6efcc6f7b364c7a7e9d5d5151802233ec3d",
+      "audited_translation": "Bloqueio",
+      "parent_effective_name_sha256": "2a76a891d7cb3cf7216b57b1d06e101b04ff1a9bb2aee514229dcc0286575381",
+      "translation": "Desligamento",
+      "encoded_bytes": 12,
+      "human_note": "Habilidade de mecânico, desliga máquinas/veículos inimigos."
+    },
+    {
+      "id": "item.name.0905",
+      "source_sha256": "906a2e80999043c850d1db45fdd142e935f69efb22bfab3ed685a41691480c5d",
+      "record_sha256": "888c6ab9cf276aede6b9574ea92a68694198e7b4a3a307cc48ff30da8fdc2af5",
+      "audited_translation": "Torcida",
+      "parent_effective_name_sha256": "029170c848fe5d0df6d8fe7583867b81762d2a9095a822171a107cdb8b46400a",
+      "translation": "Incentivo",
+      "encoded_bytes": 9,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0908",
+      "source_sha256": "3d46249e7981482f0ae8d3a7eb770a5e27e5c863d1a4f8aa9e4e3e5e4808b4e2",
+      "record_sha256": "03dfda07cf1141b0b02ef977ba5b8eb40dd420ea6d7cddf9a70ae63734bd5d65",
+      "audited_translation": "Atirador",
+      "parent_effective_name_sha256": "7ef91b05d05b6c4e98102168d31a0e8ae36c9bb0458117c194b523c209aff201",
+      "translation": "Franco-atirador",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0912",
+      "source_sha256": "02b6a6f78b9eaa4b13d3f1db9a1326ebd58b09f10ba137d7477fd5da08802dbe",
+      "record_sha256": "58246e9fef25d08c417380a5e45df46e7e5dec7014b6b3771e63e78d24cb1f3e",
+      "audited_translation": "Mira mortal",
+      "parent_effective_name_sha256": "2c3e48ddaf17c08184a86c696131c49761189422f9a7f1b9488ed722cc63f833",
+      "translation": "Olho Morto",
+      "encoded_bytes": 10,
+      "human_note": "Escolha inspirada no uso conhecido do nome Dead Eye em Red Dead."
+    },
+    {
+      "id": "item.name.0921",
+      "source_sha256": "dd1e393900a2d9917b716dcad1ad950ed9637a094d893c5b30cf6526bf364462",
+      "record_sha256": "71101673f72d35eab8828a3cf440106a40c8db599f0f4f266deaeff9c75534c7",
+      "audited_translation": "Dança armada",
+      "parent_effective_name_sha256": "58c08efa2582a078064b034615a114753b903bf918b4114de80873f1ba4153c5",
+      "translation": "Dança das armas",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0936",
+      "source_sha256": "3d42b36fcf4cfefe39232742758195e53c79d55eb2cb506eb79235784159b09b",
+      "record_sha256": "3a4b27e0b2cdf48406ecfa477bae6009c4bdfd71b85cb96d79a4a4fb0397ecdc",
+      "audited_translation": "Aperto fatal",
+      "parent_effective_name_sha256": "ddbd081463f67d5f309877450e8008c7f4faaa79626da2a73557f1ae207c887f",
+      "translation": "Aperto da morte",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0937",
+      "source_sha256": "b9ebfa5791cb02fed3e06f4ccfdd45fb92e65d27be7b95fbfb6c9d170766a034",
+      "record_sha256": "f6e1e0e0c0f100228fc4e20d9df368ab18626b7555a2c96965d6c9f4c831478a",
+      "audited_translation": "Dança fatal",
+      "parent_effective_name_sha256": "e0af88a25e7555825e06d203f5989f19f387b129e430c986c8329bbec934fc2e",
+      "translation": "Dança da morte",
+      "encoded_bytes": 15,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0939",
+      "source_sha256": "054f4dcf194c64d4f9d53360a13219b4d66b07713922dea29e237d399bb37a86",
+      "record_sha256": "3ab97780b69252a699fdae7315d99100d2e52e6eaf66889e9c4ea39872897e95",
+      "audited_translation": "Poder reserva",
+      "parent_effective_name_sha256": "a3158874d3c8bc090a02c61c8a794d605ebcfd06ba7934fb375200e6ba1590f5",
+      "translation": "Poder de reserva",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.0948",
+      "source_sha256": "dfeac4099c5ad84fa66c306c362bcc7aa6b22a6ed2324253da21d662fc7fcae6",
+      "record_sha256": "3273bb8e250ef98837320fb9a84ea7e05121659872acf04fbd08712e2d8eb54b",
+      "audited_translation": "Espada de raio",
+      "parent_effective_name_sha256": "f3fc34296a59fc6d673fe2b92aa806197fd0f8e70edd8270d0154cf59d5b63e8",
+      "translation": "Espada de luz",
+      "encoded_bytes": 13,
+      "human_note": "Lâmina de energia da Alpha (descrição exata/visual não confirmados)."
+    },
+    {
+      "id": "item.name.0960",
+      "source_sha256": "35de2da495048b4f43abec7981955ec21ffae67cedbac28944e5f00278ab06b2",
+      "record_sha256": "054e4f31b1531a7e15ba3080cdfc5fb2795293b05ee1cffff4348c65fde21fc9",
+      "audited_translation": "Regenerar",
+      "parent_effective_name_sha256": "4477deff6ab77d2afeb11cf761631e1efa2bd6bee7258fd0975a779d9bc3bf76",
+      "translation": "Regeneração",
+      "encoded_bytes": 13,
+      "human_note": "Mesmo original do ID 865."
+    },
+    {
+      "id": "item.name.0966",
+      "source_sha256": "af9827a3117ae173c738bc74baa65c46e0e9141896ccf031ff7e2ba3a1a72599",
+      "record_sha256": "66db66a3c5236359df1cb8cdfdb52f1b2bff703609550c1f459886aa4614351a",
+      "audited_translation": "Brado",
+      "parent_effective_name_sha256": "8507ec17852589d6d1fa68646967f5266d001bd39c1678ab2e7e8bc30405d9b6",
+      "translation": "Grito de guerra",
+      "encoded_bytes": 15,
+      "human_note": "Habilidades do cachorro."
+    },
+    {
+      "id": "item.name.0977",
+      "source_sha256": "8b773803e66e0fc2e2bb6a629f56a915cf65dffb599302b3d54a08179af6bd07",
+      "record_sha256": "4668e6c5173a180547a5a158a5430ae3c3a3fc23b966a4ada4604c68c6b5eb2e",
+      "audited_translation": "Transparente",
+      "parent_effective_name_sha256": "0e733e445a9f47e54e7683708479deade626e7f6237260da28bdc5f0076f4c95",
+      "translation": "Transparência",
+      "encoded_bytes": 14,
+      "human_note": "Habilidades do cachorro."
+    },
+    {
+      "id": "item.name.0983",
+      "source_sha256": "de6778e4d7ee4837115c6e7146eb67e7179a2e8dac1a92f2e406b30a79e5136c",
+      "record_sha256": "168a44978b8df5a749adfe105429b1749fa9b1ac2e282e3b8921594452960d35",
+      "audited_translation": "Ressurge",
+      "parent_effective_name_sha256": "b702b1784c246270c54c905c82da4f17c0281761f782e78f7971e999505e1881",
+      "translation": "Reaparecer",
+      "encoded_bytes": 10,
+      "human_note": "Habilidade do mecânico que manipula posições/estados dos inimigos."
+    },
+    {
+      "id": "item.name.1012",
+      "source_sha256": "e079acb2368b8c308281ea3c256034330039b8ecff70a9ec53b6af4041e2e536",
+      "record_sha256": "255df0a5e7b820ba6777201c710caf2bf01f092cf5b19ba85efaeaa8b628e2e2",
+      "audited_translation": "Memória",
+      "parent_effective_name_sha256": "bba9e16ba30797691d4f6ab5fc38417276709d0758072f5555b870bd8aefa22c",
+      "translation": "Unidade de dados",
+      "encoded_bytes": 16,
+      "human_note": "Unidade removida da Alpha em certa escolha narrativa; posteriormente transforma-se em peça de tanque."
+    },
+    {
+      "id": "item.name.1015",
+      "source_sha256": "218c6cc7f02335fc09799023df507c47f1f5a350f1bdb9e7b4f230ec09b4f9f1",
+      "record_sha256": "8327652de80cd25f95e1536e350f8f125cf154ca3043c2a1282005906e503700",
+      "audited_translation": "Mapa do tesouro",
+      "parent_effective_name_sha256": "637f2706710834dd75cd9d7844c68fa48e08c5f5aa27846b29ec793cb56c9a37",
+      "translation": "Pista secreta",
+      "encoded_bytes": 13,
+      "human_note": "Não é mapa geográfico: anotação que revela dinheiro escondido atrás de um quadro."
+    },
+    {
+      "id": "item.name.1021",
+      "source_sha256": "4e49b0209242b6d0ea94692bf56fa98f33ee07ff975df606b107aa90706a9f8b",
+      "record_sha256": "e6b84b116f10d0e6ee3553cd696a79282a4b324822ee5ecf65f7b496a39189e8",
+      "audited_translation": "Meio mapa",
+      "parent_effective_name_sha256": "d18e14e12ece383c4ea15081e5596bc48674d8bc1dd9c6ff8fa663c941733826",
+      "translation": "Metade do mapa",
+      "encoded_bytes": 14,
+      "human_note": "Mesmo nome original do ID 1040."
+    },
+    {
+      "id": "item.name.1024",
+      "source_sha256": "b4187f9c65729cb4510794d4f3d7e400b317a45e4fc68f0bc123d2da27b81751",
+      "record_sha256": "275c3d454dba0d4de476266a4856baafee3cfeeddd0ea84a9de007f745fc9240",
+      "audited_translation": "Papel antigo",
+      "parent_effective_name_sha256": "97c2ed16415190f7fac36b650ba5a68fbf4e1911c33bcba47de99e88d2abdf5a",
+      "translation": "Documento antigo",
+      "encoded_bytes": 16,
+      "human_note": ""
+    },
+    {
+      "id": "item.name.1040",
+      "source_sha256": "4e49b0209242b6d0ea94692bf56fa98f33ee07ff975df606b107aa90706a9f8b",
+      "record_sha256": "813d667261235108532a235b36a6c20c36dbe372e737f8e37785fdb26021d232",
+      "audited_translation": "Meio mapa",
+      "parent_effective_name_sha256": "d18e14e12ece383c4ea15081e5596bc48674d8bc1dd9c6ff8fa663c941733826",
+      "translation": "Metade do mapa",
+      "encoded_bytes": 14,
+      "human_note": "Mesmo nome original do ID 1021."
+    }
+  ],
+  "ratified_unchanged": [
+    {
+      "id": "item.name.0323",
+      "translation": "Incenso de cura"
+    },
+    {
+      "id": "item.name.0324",
+      "translation": "Antídoto"
+    },
+    {
+      "id": "item.name.0325",
+      "translation": "Spray alcalino"
+    },
+    {
+      "id": "item.name.0326",
+      "translation": "Antiparalisante"
+    },
+    {
+      "id": "item.name.0327",
+      "translation": "Antiparalisia SP"
+    },
+    {
+      "id": "item.name.0328",
+      "translation": "Superaquecedor"
+    },
+    {
+      "id": "item.name.0329",
+      "translation": "Vitamina"
+    },
+    {
+      "id": "item.name.0330",
+      "translation": "Minerais"
+    },
+    {
+      "id": "item.name.0333",
+      "translation": "Multivitamínico"
+    },
+    {
+      "id": "item.name.0334",
+      "translation": "Ração gourmet"
+    },
+    {
+      "id": "item.name.0335",
+      "translation": "Foto antiga"
+    },
+    {
+      "id": "item.name.0336",
+      "translation": "Revigorante"
+    },
+    {
+      "id": "item.name.0337",
+      "translation": "Placas P"
+    },
+    {
+      "id": "item.name.0338",
+      "translation": "Placas M"
+    },
+    {
+      "id": "item.name.0339",
+      "translation": "Placas G"
+    },
+    {
+      "id": "item.name.0340",
+      "translation": "Placas GG"
+    },
+    {
+      "id": "item.name.0341",
+      "translation": "Placas XGG"
+    },
+    {
+      "id": "item.name.0343",
+      "translation": "Kit mecânico"
+    },
+    {
+      "id": "item.name.0344",
+      "translation": "Antiestrume"
+    },
+    {
+      "id": "item.name.0346",
+      "translation": "Camada alcalina"
+    },
+    {
+      "id": "item.name.0347",
+      "translation": "Camada furtiva"
+    },
+    {
+      "id": "item.name.0348",
+      "translation": "Camada espelhada"
+    },
+    {
+      "id": "item.name.0349",
+      "translation": "Chave milagrosa"
+    },
+    {
+      "id": "item.name.0395",
+      "translation": "Proteína sacra"
+    },
+    {
+      "id": "item.name.0422",
+      "translation": "Tampões"
+    },
+    {
+      "id": "item.name.0458",
+      "translation": "Louça de barro"
+    },
+    {
+      "id": "item.name.0461",
+      "translation": "Androide"
+    },
+    {
+      "id": "item.name.0462",
+      "translation": "Boneco"
+    },
+    {
+      "id": "item.name.0623",
+      "translation": "Queixada grande"
+    },
+    {
+      "id": "item.name.0705",
+      "translation": "Sucata especial"
+    },
+    {
+      "id": "item.name.0706",
+      "translation": "Sucata incomum"
+    },
+    {
+      "id": "item.name.0707",
+      "translation": "Sucata incrível"
+    },
+    {
+      "id": "item.name.0708",
+      "translation": "Sucata superior"
+    },
+    {
+      "id": "item.name.0709",
+      "translation": "Sucata antiga"
+    },
+    {
+      "id": "item.name.0842",
+      "translation": "Seta AA"
+    }
+  ],
+  "blocked": [
+    {
+      "id": "item.name.0331",
+      "desired_not_applied": "Pílula Açucarada",
+      "encoded_bytes": 18,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0354",
+      "desired_not_applied": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0372",
+      "desired_not_applied": "Frasco do pânico",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0373",
+      "desired_not_applied": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0431",
+      "desired_not_applied": "Coleira anti-pulga",
+      "encoded_bytes": 18,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0459",
+      "desired_not_applied": "Estátua de barro",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0460",
+      "desired_not_applied": "Ídolo de barro",
+      "encoded_bytes": null,
+      "reason": "Unsupported project glyph U+00CD"
+    },
+    {
+      "id": "item.name.0647",
+      "desired_not_applied": "Retalho de casaco",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0711",
+      "desired_not_applied": "Detector avançado",
+      "encoded_bytes": 18,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0798",
+      "desired_not_applied": "Corrente de cauda",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0826",
+      "desired_not_applied": "Bandeira vermelha",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0836",
+      "desired_not_applied": "Projétil explosivo",
+      "encoded_bytes": 19,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0838",
+      "desired_not_applied": "Projétil sônico",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0840",
+      "desired_not_applied": "Projétil elétrico",
+      "encoded_bytes": 19,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0841",
+      "desired_not_applied": "Projétil de gelo",
+      "encoded_bytes": 17,
+      "reason": "exceeds-16-byte-ceiling"
+    },
+    {
+      "id": "item.name.0849",
+      "desired_not_applied": "Projétil crítico",
+      "encoded_bytes": 18,
+      "reason": "exceeds-16-byte-ceiling"
+    }
+  ],
+  "alternative_unconfirmed": {
+    "id": "item.name.0861",
+    "keep": "Sentidos finos",
+    "not_applied": "Hipersentidos"
+  },
+  "remote_term_exception_ids": [
+    360,
+    874,
+    875
+  ],
+  "record_specific_scrap_ids": [
+    822,
+    823,
+    824
+  ],
+  "runtime_visual_status": "pending_user_verification",
+  "record_specific_uniform_ids": [
+    142,
+    780
+  ]
+}

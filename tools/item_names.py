@@ -7,6 +7,7 @@ from spack_ui import execute_sda_pointer,execute_byte_length,_execute,_reader
 
 POLICY='spack-reviewed-generic-item-names-original-slots-v001'
 CEILING_POLICY='spack-reviewed-generic-names-observed-ceiling-v002'
+USER_REVIEW_POLICY='spack-user-reviewed-item-names-observed-ceiling-v003'
 CEILING_WINDOWS=((0x1b34ec,0x1b3504),(0x1977c8,0x197910))
 WINDOWS=((0x70a68,0x70b9c),(0x6d938,0x6d950),(0x705a8,0x70610),
          (0x1b34d0,0x1b3530),(0x1977c8,0x197840),
@@ -51,7 +52,7 @@ def protected(index):
               1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1046,1047,1048,1049)
             or index>1049)
 
-def validate_value(row,text,*,ceiling=None):
+def validate_value(row,text,*,ceiling=None,remote_review=False):
     if row['empty'] or row['native'] or protected(row['index']):raise ValueError('Protected, native or empty item name')
     value=encode(text);before=bytes.fromhex(row['source_hex'])
     if any(c in before for c in (37,124)):raise ValueError('Variable/control item name blocked')
@@ -68,11 +69,15 @@ def validate_value(row,text,*,ceiling=None):
     from translation_policy import validate
     from weapon_terms import validate as weapons
     issues=validate(before.decode('ascii'),text)+weapons(before.decode('ascii'),text)
+    if remote_review:
+        from item_name_user_review import remote_exception
+        if not remote_exception(row,text):raise ValueError('Unreviewed per-record Remote exception')
+        issues=[issue for issue in issues if issue!='Termo/nome protegido ausente: Remote']
     if issues:raise ValueError('; '.join(issues))
     return value
 
 def compile_names(elf,config):
-    if (sha(elf)!=ORIGINAL_SHA or config.get('policy') not in (POLICY,CEILING_POLICY) or
+    if (sha(elf)!=ORIGINAL_SHA or config.get('policy') not in (POLICY,CEILING_POLICY,USER_REVIEW_POLICY) or
         config.get('instruction_windows')!=bindings(elf)):raise ValueError('Item name policy/reader mismatch')
     raw=original(RESOURCE)
     if config.get('source_sha256')!=sha(raw) or config.get('table_sha256')!=sha(raw[ITEM_BASE:ITEM_BASE+ITEM_COUNT*STRIDE]):
@@ -80,7 +85,7 @@ def compile_names(elf,config):
     if execute_sda_pointer(elf,raw,0)!=0x800 or execute_sda_pointer(elf,raw[0x800:],0)!=0x20:
         raise ValueError('Item name SDA lookup mismatch')
     ceiling=None
-    if config['policy']==CEILING_POLICY:
+    if config['policy'] in (CEILING_POLICY,USER_REVIEW_POLICY):
         expected=ceiling_binding(elf,raw)
         if (config.get('ceiling_evidence')!=expected or expected['maximum_original_name_bytes']!=16 or
             expected['witness_item_ids']!=[954] or not expected['zero_name_tails']):
@@ -88,6 +93,11 @@ def compile_names(elf,config):
         ceiling=16
     elif 'ceiling_evidence' in config:raise ValueError('Historic name policy cannot opt into growth')
     rows=catalog(raw);byid={r['id']:r for r in rows};values={};patches=[];results=[]
+    user_review=None
+    if config['policy']==USER_REVIEW_POLICY:
+        from item_name_user_review import validate_config
+        user_review=validate_config(config,rows)
+    elif 'user_review' in config:raise ValueError('Legacy policy cannot consume human-review exceptions')
     for target in config['entries']:
         if set(target)!={'id','source_sha256','record_sha256','translation','group'}:raise ValueError('Unknown item name metadata')
         key=target['id']
@@ -97,7 +107,8 @@ def compile_names(elf,config):
             raise ValueError('Item name record binding mismatch')
         if target['group'] not in ('generic-equipment','consumables-materials','furniture-accessories','skills','generic-key-items'):
             raise ValueError('Item name editorial context missing')
-        value=validate_value(row,target['translation'],ceiling=ceiling);values[key]=value
+        remote_review=bool(user_review and row['index'] in user_review['remote_term_exception_ids'])
+        value=validate_value(row,target['translation'],ceiling=ceiling,remote_review=remote_review);values[key]=value
         span=max(row['source_bytes'],len(value))+1
         before=raw[row['offset']:row['offset']+span]
         if before!=bytes.fromhex(row['source_hex'])+bytes(span-row['source_bytes']):raise ValueError('Nonzero item name tail is not editable padding')
@@ -114,8 +125,13 @@ def compile_names(elf,config):
     for row in rows:
         if not row['empty']:
             source=bytes.fromhex(row['source_hex'])
-            aliases.setdefault(source,[]).append(values.get(row['id'],source))
-    if any(len(set(group))!=1 for group in aliases.values()):raise ValueError('Shared item name translated inconsistently')
+            aliases.setdefault(source,[]).append(row)
+    exceptions=[]
+    for source,group in aliases.items():
+        if len({values.get(r['id'],source) for r in group})==1:continue
+        from item_name_user_review import alias_allowed
+        if not user_review or not alias_allowed(source,group,values):raise ValueError('Shared item name translated inconsistently')
+        exceptions.append([r['index'] for r in group])
     if not patches:raise ValueError('Empty item name batch')
     return patches,{'policy':config['policy'],'accepted':len(patches),'catalog_records':len(rows),
         'nonempty_records':sum(not r['empty'] for r in rows),
@@ -124,7 +140,11 @@ def compile_names(elf,config):
         'per_name_growth':bool(ceiling),'maximum_target_bytes':max(r['target_bytes'] for r in results),
         **({'ceiling_evidence':config['ceiling_evidence']} if ceiling else {}),
         'attributes_description_offsets_and_ids_unchanged':True,
-        'shared_labels_consistent':True,'runtime_visual_status':'pending_user_verification','results':results,
+        'shared_labels_consistent':not bool(exceptions),
+        **({'human_review':{'binding':config['user_review'],'approved_ids':[r['id'] for r in user_review['approved']],
+            'remote_term_exception_ids':user_review['remote_term_exception_ids'],
+            'record_specific_alias_groups':exceptions,'all_other_shared_labels_consistent':True}} if user_review else {}),
+        'runtime_visual_status':'pending_user_verification','results':results,
         'limits':('Observed 16-byte ceiling and original zero tails; no growth beyond the largest original name. '
             if ceiling else 'Fixed original name budgets; ')+
             'Sort order may change. No full consumer census, formatter or PS2 execution claimed'}

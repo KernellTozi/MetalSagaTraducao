@@ -1010,3 +1010,52 @@ Delta integral v040→v041:5288bytes somente no plano de pixels autorizado;
 todos os demais bytes/diretório idênticos. Preflight integral, cinco ISOs e
 hash daalpha conferidos. Iniciar-Teste.cmd/alias interface abre v041;
 Preparar-Interface.cmd valida v041. Sem PCSX2, OneDrive ou desligamento.
+
+## Revisão humana de itens e escolha inicial — v042
+
+O usuário entregou `METAL_SAGA_DECISOES_PARA_CODEX.md` no Desktop, autorizou
+aplicar as decisões, corrigir o artigo da primeira escolha e desligar o PC
+ao terminar esta rodada. Leitura externa limitada ao arquivo explicitamente
+indicado; fonte arquivada em `work/revisao-humana-itens-v001/decisoes-originais.md`.
+Não alterar Desktop ou sobrescrever a auditoria v040 do usuário.
+
+Atual: `translations/interface-v042.json`, MAP `regiao-inicial-v038.json`,
+fontes/layout v005 e arte v014. 72 IDs humanos revistos (69 revisões+3 retomados),
+35 escolhas já iguais; zero conflitos. 16 escolhas bloqueadas e alternativa 861
+não aplicadas. Demais 134 escolhas e 18 nomes protegidos explícitos conferidos.
+519 nomes aplicados,22 pendentes; interface 3.814 campos. 30 rótulos correspondentes
+de batalha sincronizados; não contar revisões como nova cobertura.
+
+Políticas opt-in em `tools/item_name_user_review.py`:
+`spack-user-reviewed-item-names-observed-ceiling-v003` e
+`spack-user-reviewed-item-action-labels-fixed-fields-v002`, vinculadas ao pai
+v041 e `translations/revisao-humana-itens-v001.json`. Não alterar esse manifesto
+ou receitas anteriores silenciosamente. Teto 16 bytes, charset, marcadores,
+IDs/atributos/ponteiros e controles mantidos. Só três pares Remote permitem
+remoto/remota: itens 360/874/875 e ações 112/134/135. Política global intacta.
+Diferenças de aliases somente 142/780 (142 inalterado) e 822/823/824 (sucatas).
+Todos os outros grupos e nomes protegidos permanecem sob checagem estrita.
+
+Pesos leve/média/pesada e comparação Detector básico/avançado são hipóteses
+editoriais autorizadas, não fatos de gameplay comprovados. As escolhas da
+seção B e Hipersentidos não estão liberadas; não inventar substitutos.
+
+Único diálogo revisto: `map.sel.1df48484`, Eu quero ser um Hunter., mantendo
+Está bem, serei mecânico. e TAB. 51/55 bytes, sem aliases desse registro;
+demais 7.230 registros e adiamentos preservados. MAP: 6.024 traduzidos/5.983 corpos ou
+opções/912 referências de rótulos, sem aumento artificial por revisão.
+
+90 testes distintos aprovados,12 novos. Auditoria adicional de largura executou
+474 probes do layout existente em 6 perfis. 939 (Poder de reserva) supera o maior
+avanço original no modo 1 por 2 pixels em 22 e 1 pixel em 26; não é prova de corte
+real nem motivo para mudar a escolha humana. Demais perfis dentro do envelope.
+Arte/fontes não alteradas. Validação visual em todos os menus permanece pendente.
+
+`tools/audit_human_item_decisions.py` conferiu a entrada e gerou diff de 72 nomes e 69
+possíveis referências literais; nada foi substituído globalmente. Contexto em
+`work/revisao-humana-itens-v001/conferencia/`; nova auditoria completa em
+`work/auditoria-itens-v042/`, comparada à ISO real. Fonte/bilíngues só em work/.
+Comparador normaliza só união de prefixos dos slots de nomes autorizados;
+não relaxar limites nem ignorar diferenças arbitrárias. Ver `docs/interface-v042.md`.
+Iniciar-Teste.cmd e Preparar-Interface.cmd usam v042/MAPv038 após preflight e
+comparação integral. Preservar 5 ISOs/alpha; sem OneDrive ou jogo autônomo.

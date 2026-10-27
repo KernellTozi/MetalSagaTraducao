@@ -57,6 +57,37 @@ def compile_recipe(ui_path,dialogue_cache=None):
     return ui,patches+additions
 
 
+def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,new_patches):
+    """Normalize bounded name-slot prefixes for the explicit human review only.
+
+    Both builds originate at immutable source. Shorter translations may restore
+    bytes beyond their own patch prefix; compare the union of the two prefixes.
+    This does not resize the compiled patch or release other item fields.
+    """
+    from item_name_user_review import POLICY,load_manifest
+    from item_names import CEILING_POLICY,catalog,original,RESOURCE
+    before=old_ui.get('item_names',{});after=new_ui.get('item_names',{})
+    if before.get('policy')!=CEILING_POLICY or after.get('policy')!=POLICY:return
+    m=load_manifest(after['user_review'])
+    if m['parent_recipe']!=old_recipe.relative_to(ROOT).as_posix():
+        raise ValueError('Reviewed item transition parent is not compared recipe')
+    raw=original(RESOURCE);rows={r['id']:r for r in catalog(raw)}
+    for target in m['approved']:
+        row=rows[target['id']];key=(RESOURCE,row['offset'])
+        old=old_patches.get(key);new=new_patches.get(key)
+        if new is None or new['id']!=row['id']:raise ValueError('Reviewed item target patch missing')
+        if old is None:continue
+        if old['id']!=row['id']:raise ValueError('Reviewed item parent patch identity differs')
+        sizes=[len(p['before']) for p in (old,new)]
+        if not all(1<=n<=24 for n in sizes):raise ValueError('Reviewed item prefix escapes name field')
+        width=max(sizes);source=raw[row['offset']:row['offset']+width]
+        for patches,patch in ((old_patches,old),(new_patches,new)):
+            n=len(patch['before'])
+            if patch['before']!=source[:n] or len(patch['after'])!=n:
+                raise ValueError('Reviewed item prefix source/size differs')
+            patches[key]={**patch,'before':source,'after':patch['after']+source[n:]}
+
+
 def verify(old_folder,new_folder,old_recipe,new_recipe):
     cache={}
     old_ui,old=compile_recipe(old_recipe,cache);new_ui,new=compile_recipe(new_recipe,cache)
@@ -66,6 +97,7 @@ def verify(old_folder,new_folder,old_recipe,new_recipe):
     new_patches={(p.get('resource','DATA/MAP/MAP.MCT'),p['offset']):p for p in new}
     if len(old_patches)!=len(old) or len(new_patches)!=len(new):raise ValueError('Duplicate patch')
     normalize_description_transition(old_ui,new_ui,old_recipe,old_patches,new_patches)
+    normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,new_patches)
     dropped=old_patches.keys()-new_patches.keys()
     restorations=new_ui.get('restored_originals',[])
     previous_restorations=set(old_ui.get('restored_originals',[]))

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v037.json",
+  "name": "regiao-inicial-v038",
+  "status": "Escolha inicial revisada pelo usuário: Eu quero ser um Hunter. Demais diálogos intactos.",
+  "translations": {
+    "map.sel.1df48484": "Eu quero ser um Hunter.\tEstá bem, serei mecânico."
+  },
+  "reviewed_changes": [
+    "map.sel.1df48484"
+  ]
+}

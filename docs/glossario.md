@@ -368,3 +368,30 @@ não como nome de uma divindade. Isso não estabelece um ID canônico nem autori
 traduzir automaticamente títulos semelhantes. Father Muscle e Gluteus Maximism
 continuam preservados. As falas da catedral, incluindo humor e doutrina,
 não foram reescritas nesta rodada. Fonte/layout e nomes próprios permanecem.
+
+## Revisão humana de itens v042 — precedência por ID
+
+Aplicar os destinos explícitos em `translations/revisao-humana-itens-v001.json`
+somente aos 72 IDs ali registrados; não generalizar substituições de palavras
+em diálogos, descrições ou outros objetos. As 16 escolhas bloqueadas e a
+alternativa não ratificada de 861 permanecem como estavam.
+
+- 319 Comprimido; 320 Tônico; 321 Comprimido Forte; 322 Soro.
+- Royal nos itens 410–413 foi revisto como de luxo, sem regra global sobre Royal.
+- Badges 438–441 recebem Medalha conforme revisão humana, sem renomear Medal
+  ou outros broches automaticamente.
+- 360 Granada Remota, 874 Laser remoto, 875 Laser remoto EX são exceções
+  descritivas por ID. O comando Remote continua preservado.
+- Família Shell recebe Projétil somente nos destinos liberados; 848 é a
+  exceção humana Bala perfurante. Não abreviar os nomes bloqueados por conta
+  própria. MAIN/SUB/SE e equipamentos únicos mantêm suas proteções.
+- 822–824: Sucata leve/média/pesada, ordem provisória autorizada para conferir
+  jogando. Não afirmar que os pesos foram comprovados. 710 Detector básico
+  também é provisório quanto à comparação de alcance com 711.
+- 780 Roupa empregada é a escolha textual explícita; 142 continua Traje de
+  criada apesar do mesmo nome original. Preservar os IDs e seus campos separados.
+- 865/960 Regeneração; 1012 Unidade de dados; 1015 Pista secreta;
+  1021/1040 Metade do mapa.
+
+A primeira escolha de Nina passa a Eu quero ser um Hunter., preservando Hunter
+e o artigo. A opção de mecânico e os demais diálogos continuam iguais.

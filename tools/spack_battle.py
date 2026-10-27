@@ -99,14 +99,15 @@ def execute_enemy_name(elf,index):
     return out[5]-0x600000
 
 def verify(elf,raw,config):
-    if sha(elf)!=ORIGINAL_SHA or config.get('policy')!=POLICY or config.get('instruction_windows')!=bindings(elf):
+    from item_name_user_review import BATTLE_POLICY
+    if sha(elf)!=ORIGINAL_SHA or config.get('policy') not in (POLICY,BATTLE_POLICY) or config.get('instruction_windows')!=bindings(elf):
         raise ValueError('Battle reader/profile evidence differs')
     if config.get('source_sha256')!=sha(raw) or elf[0x3495d0:0x3495d3]!=b'%s\0' or elf[0x349870:0x349878]!=b'INFO\n%s\0':
         raise ValueError('Battle source or formatter binding differs')
     if execute_sda_pointer(elf,raw[0x35000:],1)!=ACTION_BASE-0x35000 or execute_sda_pointer(elf,raw[0x35000:],2)!=ENEMY_BASE-0x35000:
         raise ValueError('Battle SDA selector differs')
 
-def validate_value(row,text):
+def validate_value(row,text,*,reviewed_remote=False):
     before=bytes.fromhex(row['source_hex'])
     if row['native'] or row['empty'] or '%' in before.decode('ascii',errors='replace'):raise ValueError('Native/empty/variable battle field blocked')
     value=encode(text)
@@ -125,6 +126,10 @@ def validate_value(row,text):
     from translation_policy import validate
     from weapon_terms import validate as weapons
     issues=validate(before.decode('ascii').replace('|',' '),text.replace('|',' '))+weapons(before.decode('ascii'),text)
+    if reviewed_remote:
+        from item_name_user_review import remote_action_exception
+        if not remote_action_exception(row,text):raise ValueError('Unreviewed Remote action exception')
+        issues=[issue for issue in issues if issue!='Termo/nome protegido ausente: Remote']
     if issues:raise ValueError('; '.join(issues))
     return value
 
@@ -137,6 +142,10 @@ def compile_battle(elf,config,item_config):
     if max(r['source_bytes'] for r in rows if r['kind']=='enemy_name')!=16:
         raise ValueError('Observed enemy name ceiling differs')
     items=item_catalog(raw);targets={r['id']:r['translation'] for r in item_config['entries']};approved={};all_names=set()
+    from item_name_user_review import BATTLE_POLICY,REMOTE_ACTION,validate_battle_config
+    human_aliases=[]
+    if config['policy']==BATTLE_POLICY:human_aliases=validate_battle_config(config,item_config,items,rows)
+    elif 'item_review' in config:raise ValueError('Legacy battle policy cannot consume human exceptions')
     from spack_satcom import parse_table
     wanted_names={r['fields']['name']['raw'].decode('ascii') for r in parse_table(raw,'wanted')}
     for row in items:
@@ -153,7 +162,7 @@ def compile_battle(elf,config,item_config):
         if row['kind']=='enemy_name' and source in wanted_names:raise ValueError('Wanted identity cannot be translated')
         if row['kind']=='action' and source in all_names:
             if source not in approved or text!=approved[source]:raise ValueError('Battle name must preserve protected names or match approved item wording')
-        value=validate_value(row,text);size=row['field_bytes'];at=row['offset'];before=raw[at:at+size];after=value+bytes(size-len(value))
+        value=validate_value(row,text,reviewed_remote=bool(human_aliases and row['kind']=='action' and row['index'] in REMOTE_ACTION));size=row['field_bytes'];at=row['offset'];before=raw[at:at+size];after=value+bytes(size-len(value))
         pointer={'action':execute_action,'hint':execute_hint,'enemy_name':execute_enemy_name}[row['kind']](elf,row['index'])
         expected=row['index']*(ACTION_STRIDE if row['kind']=='action' else ENEMY_STRIDE)+(232 if row['kind']=='hint' else 0)
         if pointer!=expected:raise ValueError('Original battle pointer forwarding differs')
@@ -165,7 +174,8 @@ def compile_battle(elf,config,item_config):
         for row in rows:
             if row['kind']==kind:aliases.setdefault(row['source_hex'],set()).add(seen.get(row['id'],bytes.fromhex(row['source_hex'])))
         if any(len(v)>1 for v in aliases.values()):raise ValueError('Repeated battle label translated inconsistently')
-    return patches,{'policy':POLICY,'accepted':len(patches),'actions':sum(r['kind']=='action' for r in results),
+    return patches,{'policy':config['policy'],'accepted':len(patches),'actions':sum(r['kind']=='action' for r in results),
+        **({'reviewed_item_counterparts':human_aliases,'human_item_review':config['item_review']} if human_aliases else {}),
         'hints':sum(r['kind']=='hint' for r in results),'generic_enemy_names':sum(r['kind']=='enemy_name' for r in results),
         'source_action_records':ACTION_COUNT,'source_enemy_records':ENEMY_COUNT,
         'enemy_attributes_and_protected_names_unchanged':True,'instruction_windows':bindings(elf),'results':results,

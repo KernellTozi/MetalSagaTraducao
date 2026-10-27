@@ -1,5 +1,15 @@
 # Plano para concluir a tradução
 
+**Revisão humana aplicada — v042:** processar somente a seção A do documento
+entregue: 72 IDs revisados, 35 ratificados já iguais, zero conflitos; preservar
+16 escolhas bloqueadas e uma alternativa não confirmada. [Entrega v042](interface-v042.md)
+sincroniza também 30 nomes correspondentes em batalha e corrige somente a
+primeira escolha para Eu quero ser um Hunter. Catálogo atualizado em
+`work/auditoria-itens-v042/`, sem sobrescrever a auditoria v040.
+Próxima revisão humana: bloqueados, hipótese de pesos/alcances e conferência
+visual do nome 939. Há 69 possíveis referências literais para ler por contexto,
+sem substituição global automática. Manter o escopo gráfico já acordado.
+
 **Pintura enquanto o usuário revisa os itens — 26/10/2026:** o usuário aprovou
 manter os seis desenhos apresentados e indicou baixa prioridade para refiná-los.
 Aplicação na [v041](interface-v041.md), preservando a v040, as 228 legendas de
