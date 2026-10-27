@@ -1,5 +1,12 @@
 # Plano para concluir a tradução
 
+**Prioridade atual — auditoria conjunta dos nomes, 26/10/2026:** o usuário
+pediu todos os nomes traduzidos e originais para revisar a qualidade antes de
+novas aplicações. [Lista e procedimento](auditoria-nomes-itens.md): tabela
+completa de 1.349 IDs, mais as 50 variantes conhecidas de motores em apêndice.
+Não aplicar propostas antigas nem decisões novas sem concluir a revisão
+correspondente. ISO v040 permanece intacta durante a exportação/auditoria.
+
 **Escopo gráfico atualizado e v040 — 26/10/2026:** por orientação do usuário,
 preservar todas as imagens dos pôsteres wanted e dispensar recriação de títulos
 de cassino/minijogos como WIN, LOSE e ROUND. Manter trabalhos já feitos.

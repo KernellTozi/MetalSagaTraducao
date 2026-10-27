@@ -960,3 +960,21 @@ completo/GPU/FPU/PCSX2. Ver `docs/interface-v040.md` e relatório homônimo.
 somente no plano de pixels autorizado; demais bytes/fontes/diálogos intactos.
 Visual ainda pendente, a conferir numa tela que antes exibia Now Loading.
 Cinco ISOs de trabalho ealpha preservadas; sem OneDrive ou desligamento.
+
+## Prioridade atual — auditoria completa dos nomes de itens
+
+Em26/10/2026 o usuário pediu TODOS os nomes, já traduzidos e não traduzidos,
+para participar de uma auditoria editorial. Preparar/discutir as escolhas
+antes de aplicar novos nomes; propostas antigas não são aprovação.
+`tools/export_item_name_audit.py` exporta a tabela conhecida completa:
+1349IDs,1041nomes preenchidos (516aplicados,25pendentes,500originais),308vazios.
+Apêndice50campos de variantes de motores,26preenchidos, sem contar como
+50itens novos. Inclui habilidades/marcadores; não declarar todos obtíveis.
+Manual `docs/auditoria-nomes-itens.md`; tabelas no formato ID/Original/
+Tradução/Bytes em `work/auditoria-itens-v040/auditoria-completa.md` e revisão
+JSON ao lado. Originais e revisão bilíngue não vão ao Git. O resumo público
+é `reports/auditoria-itens-v040.json`. Todos os1349campos e50variantes foram
+comparados à ISOv040 real após preflight. Nenhuma tradução/ISO foi alterada.
+Continuar com teto16bytes, acentos2bytes, proteção de nomes e sem importar
+review_translation/review_decision automaticamente. Usuário pode responder
+por ID ou anotar JSON. Não encurtar semântica/retirar acentos para caber.
