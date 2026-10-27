@@ -978,3 +978,35 @@ comparados à ISOv040 real após preflight. Nenhuma tradução/ISO foi alterada.
 Continuar com teto16bytes, acentos2bytes, proteção de nomes e sem importar
 review_translation/review_decision automaticamente. Usuário pode responder
 por ID ou anotar JSON. Não encurtar semântica/retirar acentos para caber.
+
+## Pintura aprovada e interface v041 — 26/10/2026
+
+Enquanto revisa os itens, o usuário pediu resolver os botões de pintura e
+aprovou manter o desenho apresentado, indicando baixa prioridade para novos
+refinamentos. Aprovação das seis artes em
+`reports/pintura-graficos-aprovacao-v001.json`; não equivale a validação no jogo.
+`translations/interface-v041.json` herda v040 e acrescenta só Editar, Veículo,
+Ferramentas, Escolher carimbo, Editar carimbo e Paleta. Total3811campos; demais
+seis recortes originais, MAIN/SUB/SE, fontes/layoutv005, MAPv037, Carregando,
+créditos, pôsteres e títulos de minijogos preservados.
+
+Política opt-in `paint-six-reviewed-main-menu-buttons-v001`, implementada em
+`tools/paint_menu_graphics.py`. Regenera os mesmos pixels apresentados, sem
+nova arte; hashes vinculados na receita e aprovação, sem depender de PNG local.
+Patch exclusivo do plano de pixels0x34770/tamanho0x20000 da textura13 de
+S_PAINT. Diferenças limitadas aos seis interiores, bordas2pixels, paleta/alpha,
+GANM/SDA e demais bytes imutáveis. Preservar as228legendas separadas; nunca
+substituir oSDA completo baseado no original.
+
+47testes distintos aprovados, sete novos: máscaras/geometria/identidade,
+aprovação vinculada, source/ELF, limites/protegidos, composição de legendas,
+reversão e igualdade da receita anterior. Conferência visual pendente para
+quando o usuário chegar à pintura, sem exigir navegação imediata.
+
+Todos os campos/decisões de itens permanecem exatamente iguais àv040. Não
+regenerar/sobrescrever `work/auditoria-itens-v040/`, que pode estar sendo anotada.
+Lista de auditoria continua válida nesta versão. Ver `docs/interface-v041.md`.
+Delta integral v040→v041:5288bytes somente no plano de pixels autorizado;
+todos os demais bytes/diretório idênticos. Preflight integral, cinco ISOs e
+hash daalpha conferidos. Iniciar-Teste.cmd/alias interface abre v041;
+Preparar-Interface.cmd valida v041. Sem PCSX2, OneDrive ou desligamento.

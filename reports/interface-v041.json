@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v041.json",
+  "recipe_sha256": "089e69629c1a45c0d621c66c99cfa1149eb7993e8fed1396de6b17cbaca53c14",
+  "parent_iso": {
+    "path": "work/interface-v040/MetalSaga-ptbr-interface-v040.iso",
+    "size": 1704427520,
+    "sha256": "e035aa3a4cdb50aab56509ba0aad04fb9d85a5ebd0bbf7b6a3d2963cea363ae1",
+    "verified": true
+  },
+  "iso": {
+    "path": "work/interface-v041/MetalSaga-ptbr-interface-v041.iso",
+    "size": 1704427520,
+    "sha256": "a0baac76fc34b299be98c0f5618fc64b914e53a3b3ef7246faaf09aee57645ca",
+    "verified": true
+  },
+  "new_fields": 6,
+  "interface_accumulated_fields": 3811,
+  "map_changed_records": 6024,
+  "map_body_or_choice_changed_records": 5983,
+  "map_speaker_label_translated_references": 912,
+  "paint_menu_graphics": {
+    "policy": "paint-six-reviewed-main-menu-buttons-v001",
+    "accepted": 6,
+    "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+    "art_approval": {
+      "report": "reports/pintura-graficos-aprovacao-v001.json",
+      "sha256": "dbf4a6ab4f49ebd5adcbe3cc06aa76b28e372b0b7e2165b9b945484a824b228b"
+    },
+    "target_pixel_sha256": "76c68dc7cf4ea9eaed43dddeabc5010637578b7db9a6ed7826f3c2c4aacdd16c",
+    "results": [
+      {
+        "id": "paint.button.13.00",
+        "translation": "Editar",
+        "rect": [
+          0,
+          0,
+          238,
+          29
+        ],
+        "ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+        "source_crop_indices_sha256": "e61ea619443ef1dd50df8a0f21b7c0824a81ca846114b1fcf81d7d9661653097",
+        "target_crop_indices_sha256": "cb2034a761802401d1af13670d58c1738257cb473c39adb711c45a24bea4df73",
+        "mask_sha256": "efa776faec3bf3a5b474e91abfd4cfe0b21741d60721f0162645765e2bf206bf",
+        "capital_body_pixels": 16,
+        "baseline": 20,
+        "horizontal_scale": 1
+      },
+      {
+        "id": "paint.button.13.03",
+        "translation": "Veículo",
+        "rect": [
+          0,
+          96,
+          238,
+          125
+        ],
+        "ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+        "source_crop_indices_sha256": "4d2f20f645092c67318c9ae547fd2b579a9e840f754e7a0466e39f20a63793cb",
+        "target_crop_indices_sha256": "b3f0d3d53a7c6636e88c664d2d307c55e3134f04444896cc1333b4254453393a",
+        "mask_sha256": "eba74f07edcff7848e99ae980646e488ff88bb1b79a4923aa6cced9a889e29f1",
+        "capital_body_pixels": 16,
+        "baseline": 20,
+        "horizontal_scale": 1
+      },
+      {
+        "id": "paint.button.13.04",
+        "translation": "Ferramentas",
+        "rect": [
+          0,
+          128,
+          238,
+          157
+        ],
+        "ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+        "source_crop_indices_sha256": "d585cb98f6e70d02841218c7e6a23cb2e4e5df30c653c944ae9c8cd5241aed48",
+        "target_crop_indices_sha256": "0c08224c88025dba83f1a73a998f97074da9e511028b4ef72eab38046001bdda",
+        "mask_sha256": "7b53e8f64297830ef16ec1f3fe8b3e79346956551fa76266895adbfdc543ff11",
+        "capital_body_pixels": 16,
+        "baseline": 20,
+        "horizontal_scale": 1
+      },
+      {
+        "id": "paint.button.13.05",
+        "translation": "Escolher carimbo",
+        "rect": [
+          0,
+          160,
+          238,
+          189
+        ],
+        "ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+        "source_crop_indices_sha256": "289b7bb6a90bf0e95270fd4f5047d5ab028a570468bd0ea6b5522ffc0816ef1c",
+        "target_crop_indices_sha256": "f7618a264e0db7d5d97a20c35723be2a734221e87b7d7038d452826b0db52ff1",
+        "mask_sha256": "13dbd8f87f2d598ed2d6d72ede537b977f5a8dc35516d60c81862367fd7b06d0",
+        "capital_body_pixels": 16,
+        "baseline": 20,
+        "horizontal_scale": 1
+      },
+      {
+        "id": "paint.button.13.08",
+        "translation": "Editar carimbo",
+        "rect": [
+          0,
+          256,
+          238,
+          285
+        ],
+        "ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+        "source_crop_indices_sha256": "e10578f32eba5a0a0cd55d1f212ded2ac8bce6acbe1dd8b5fe63902c2deba0cb",
+        "target_crop_indices_sha256": "177495ac4285e894dcb720519f5837a0869efe4040513851d880358c0fd4fbb4",
+        "mask_sha256": "8cb5c5b27b7b6abf48f79e75cb80a6dd3d7b9fbf4f614f5d9c843734f2f5e770",
+        "capital_body_pixels": 16,
+        "baseline": 20,
+        "horizontal_scale": 1
+      },
+      {
+        "id": "paint.button.13.09",
+        "translation": "Paleta",
+        "rect": [
+          0,
+          288,
+          238,
+          317
+        ],
+        "ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+        "source_crop_indices_sha256": "3b5b873f477e41f69f8f4688b73c53f15a63f79b07d41febe7246536103d3981",
+        "target_crop_indices_sha256": "1ed2af42c313028487514de961b4066b4e872ed269b519472ed19f2293ccfd41",
+        "mask_sha256": "c9a590be91162253cc6356ebcbc5a4e19c44acd9a8924723ddd63233e3ba45f8",
+        "capital_body_pixels": 16,
+        "baseline": 20,
+        "horizontal_scale": 1
+      }
+    ],
+    "bound_windows": [
+      {
+        "kind": "code",
+        "offset": 378664,
+        "size": 28,
+        "sha256": "4e70279b21a85c6f7016146e102be313a8ae4a0d71fac3f31d5f4def5cd389a7"
+      },
+      {
+        "kind": "code",
+        "offset": 378728,
+        "size": 32,
+        "sha256": "f38e683f42e88017ba5f8e86a763199e46c909922962bc75a8a372e626d076dd"
+      },
+      {
+        "kind": "data-table",
+        "offset": 3247776,
+        "size": 68,
+        "sha256": "72b76e704e2d4b384edb528cceaa1eb5a568bf7579f1d7dba98aa8df3c60dfa1"
+      }
+    ],
+    "original_scalar_forwarding_cases": 8,
+    "protected_labels_and_six_other_crops_unchanged": true,
+    "reverse_roundtrip": true,
+    "palette_alpha_frames_ganm_sda_and_resource_size_unchanged": true,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Only reviewed texture 13 pixel plane; never whole original-based SDA. File-load/forwarding snippets already tested; full dispatch/GPU/PCSX2 not executed."
+  },
+  "translated_paint_caption_fields_preserved": 228,
+  "all_item_name_choices_preserved": true,
+  "user_audit_files_not_regenerated": true,
+  "delta_against_parent": {
+    "old_recipe": "translations/interface-v040.json",
+    "new_recipe": "translations/interface-v041.json",
+    "source_iso_sha256": "e035aa3a4cdb50aab56509ba0aad04fb9d85a5ebd0bbf7b6a3d2963cea363ae1",
+    "output_iso_sha256": "a0baac76fc34b299be98c0f5618fc64b914e53a3b3ef7246faaf09aee57645ca",
+    "iso_size": 1704427520,
+    "changed_bytes": 5288,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "paint.menu.six-reviewed-buttons",
+        "resource": "DATA/S/S_PAINT.SDA",
+        "iso_offset": 1291431792,
+        "size": 131072
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "automated_tests": {
+    "modules": [
+      "test_paint_menu_graphics",
+      "test_paint_graphic_proposals",
+      "test_loading_graphics",
+      "test_item_name_audit",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive"
+    ],
+    "tests": 47,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "runtime_visual_status": "pending_user_verification",
+  "pcsx2_executed": false,
+  "one_drive_copied": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "date": "2026-10-26",
+  "user_art_approved": true,
+  "runtime_visual_validation": false,
+  "user_statement": "pintura não é realmente importante, então pode manter o desenho apresentado",
+  "scope": "Six previously presented main paint-menu button drawings; no approval of live rendering, remaining labels or general font changes",
+  "approved_art_ids": [
+    "paint.button.13.00",
+    "paint.button.13.03",
+    "paint.button.13.04",
+    "paint.button.13.05",
+    "paint.button.13.08",
+    "paint.button.13.09"
+  ],
+  "target_pixel_sha256": "76c68dc7cf4ea9eaed43dddeabc5010637578b7db9a6ed7826f3c2c4aacdd16c",
+  "preview": "work/pintura-graficos-proposta-v001/comparacao-pintura.png",
+  "preview_sha256": "07f4185645af468e677b9d34a991d539106f18407bd3981d016c85f6ebed8a74"
+}

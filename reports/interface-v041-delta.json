@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v040.json",
+  "new_recipe": "translations/interface-v041.json",
+  "source_iso_sha256": "e035aa3a4cdb50aab56509ba0aad04fb9d85a5ebd0bbf7b6a3d2963cea363ae1",
+  "output_iso_sha256": "a0baac76fc34b299be98c0f5618fc64b914e53a3b3ef7246faaf09aee57645ca",
+  "iso_size": 1704427520,
+  "changed_bytes": 5288,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "paint.menu.six-reviewed-buttons",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "iso_offset": 1291431792,
+      "size": 131072
+    }
+  ],
+  "pcsx2_executed": false
+}

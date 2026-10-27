@@ -1,5 +1,12 @@
 # Plano para concluir a tradução
 
+**Pintura enquanto o usuário revisa os itens — 26/10/2026:** o usuário aprovou
+manter os seis desenhos apresentados e indicou baixa prioridade para refiná-los.
+Aplicação na [v041](interface-v041.md), preservando a v040, as 228 legendas de
+pintura, MAIN/SUB/SE e todos os nomes de itens. Não regenerar/sobrescrever a
+lista de auditoria enquanto o usuário a revisa; nenhuma proposta editorial
+nova aplicada. Os demais recortes de pintura ficam como estão nesta rodada.
+
 **Prioridade atual — auditoria conjunta dos nomes, 26/10/2026:** o usuário
 pediu todos os nomes traduzidos e originais para revisar a qualidade antes de
 novas aplicações. [Lista e procedimento](auditoria-nomes-itens.md): tabela
