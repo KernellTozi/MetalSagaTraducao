@@ -1059,3 +1059,12 @@ Comparador normaliza só união de prefixos dos slots de nomes autorizados;
 não relaxar limites nem ignorar diferenças arbitrárias. Ver `docs/interface-v042.md`.
 Iniciar-Teste.cmd e Preparar-Interface.cmd usam v042/MAPv038 após preflight e
 comparação integral. Preservar 5 ISOs/alpha; sem OneDrive ou jogo autônomo.
+
+## Nomes restantes — aguardando revisão humana
+
+O usuário solicitou sugestões antes de decidir a aplicação. Entrega em
+`docs/revisao-nomes-restantes-v001.md`: 22 pendentes e 16 revisões bloqueadas,
+38 IDs distintos; alternativa 861 separada. Catálogo bilíngue/JSON em
+`work/revisao-nomes-restantes-v001/`. Não aplicar essas sugestões nem as
+alternativas compactas sem a resposta do usuário. Base jogável segue v042;
+nomes protegidos e os 500 preservados não viraram tradução faltante.
