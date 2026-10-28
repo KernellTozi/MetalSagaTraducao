@@ -1,0 +1,653 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v045.json",
+  "recipe_sha256": "14f857542b016896d03653150d43707eec8f060683bf30078a9a7094ada4c2f9",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "layout_function_offset": 255264,
+  "layout_function_sha256": "48eb3fc657f5da90fa289c2bdbaf5cbbad53b780a83d4d3db98b06e9e62227f1",
+  "original_nonempty_names_compared": 1041,
+  "reviewed_names_measured": 14,
+  "profiles": [
+    {
+      "side": 22,
+      "mode": 0,
+      "maximum_original_name_advance": 176,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 22,
+      "mode": 1,
+      "maximum_original_name_advance": 173,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 22,
+      "mode": 2,
+      "maximum_original_name_advance": 176,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 26,
+      "mode": 0,
+      "maximum_original_name_advance": 208,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 26,
+      "mode": 1,
+      "maximum_original_name_advance": 203,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 26,
+      "mode": 2,
+      "maximum_original_name_advance": 208,
+      "witness_ids": [
+        954
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "item.name.0625",
+      "encoded_bytes": 5,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 55,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 54,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 55,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 65,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 63,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 65,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0631",
+      "encoded_bytes": 12,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 132,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 130,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 132,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 156,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 152,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 156,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0635",
+      "encoded_bytes": 15,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 143,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 129,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 143,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 169,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 150,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 169,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0650",
+      "encoded_bytes": 15,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 154,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 149,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 154,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 182,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 176,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 182,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0695",
+      "encoded_bytes": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 156,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 195,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 184,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 195,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0701",
+      "encoded_bytes": 14,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 154,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 144,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 154,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 182,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 169,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 182,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0741",
+      "encoded_bytes": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 168,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 195,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0753",
+      "encoded_bytes": 8,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 88,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 80,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 88,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 104,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 94,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 104,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0762",
+      "encoded_bytes": 15,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 154,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 148,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 154,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 182,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 175,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 182,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0765",
+      "encoded_bytes": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 163,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 190,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0768",
+      "encoded_bytes": 15,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 158,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 195,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 185,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 195,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0781",
+      "encoded_bytes": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 157,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 195,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 185,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 195,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.0786",
+      "encoded_bytes": 15,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 153,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 165,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 195,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 177,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 195,
+          "within_original_maximum": true
+        }
+      ]
+    },
+    {
+      "id": "item.name.1037",
+      "encoded_bytes": 9,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 88,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 82,
+          "within_original_maximum": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 88,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 104,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 96,
+          "within_original_maximum": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 104,
+          "within_original_maximum": true
+        }
+      ]
+    }
+  ],
+  "names_above_observed_advance_envelope": [],
+  "unique_glyph_profile_probes": 444,
+  "limits": "Bounded layout-v004 instruction harness used by layout-v005, native metrics in immutable ELF. Font size/mode supplied. Sum of advances only; no actual menu box, bearing/clipping, glyph drawing, FPU caller, GPU or PCSX2 verification. Not authorization to enlarge 16-byte ceiling."
+}

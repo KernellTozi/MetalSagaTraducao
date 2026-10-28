@@ -428,3 +428,19 @@ sugestões pendentes por analogia. Fonte/layout continuam v005.
 Não converter palavras comuns como memória, armário, bloqueio e regenerar
 em nomes de itens/habilidades automaticamente. Preservar nomes de outros
 inimigos e instalações mesmo quando contêm palavras de nomes traduzidos.
+
+## Resolução das 14 pendências — v045
+
+Sob o pedido do usuário para resolver as pendências, foram escolhidos os
+rótulos compactos em `docs/interface-v045.md`: Presa/Presa grande, Peça
+cilíndr., Lâm. de espada, Placa de ônibus, Sucata cibern., Jarro de porcel.,
+Guaxinim, Máq. de vendas, Roupeiro orient., Geladeira comum, Vest. garçonete,
+Mira infraverm. e Cinturão. Não atribuir aprovação humana individual nova.
+
+São nomes até 16 bytes, com os acentos existentes preservados. Abreviações
+não autorizam mudar a redação de nomes já aprovados. A figura de barro
+permanece descrita; a geladeira tem a informação de uma porta na descrição.
+Fang como personagem e Twin Fang como arma são preservados. Somente os
+componentes 625/631 permitem Presa/Presa grande. As quatro falas de Bus Stop
+Sign usam Placa de ônibus e concordância feminina; demais nomes protegidos
+continuam intactos. As 16 revisões bloqueadas anteriores não foram aplicadas.

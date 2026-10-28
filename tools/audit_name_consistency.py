@@ -105,7 +105,7 @@ def run(recipe_path,output,decisions_path=None):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Conferir nomes em textos locais, sem substituir ou acessar APIs')
-    p.add_argument('--recipe',type=Path,default=ROOT/'translations/interface-v044.json')
+    p.add_argument('--recipe',type=Path,default=ROOT/'translations/interface-v045.json')
     p.add_argument('--decisions',type=Path)
     p.add_argument('--output',type=Path,required=True);a=p.parse_args()
     print(json.dumps(run(a.recipe,a.output,a.decisions),ensure_ascii=False))

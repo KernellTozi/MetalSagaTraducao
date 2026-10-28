@@ -1,0 +1,969 @@
+{
+  "schema": 1,
+  "policy": "context-classified-name-concordance-v001",
+  "input_recipe": "translations/interface-v044.json",
+  "input_recipe_sha256": "a8284372fd9f95b5a3070eee6b5a345773809b1e1b6194c4935962b1aba0ecd1",
+  "output_recipe": "translations/interface-v045.json",
+  "output_recipe_sha256": "14f857542b016896d03653150d43707eec8f060683bf30078a9a7094ada4c2f9",
+  "original_69_all_classified": true,
+  "fields_scanned": 10682,
+  "terms_scanned": 594,
+  "name_fields": 541,
+  "counts": {
+    "correct": 29,
+    "preserve": 65
+  },
+  "changed_unique_fields": 28,
+  "decisions": [
+    {
+      "field": "interface.entries[2]",
+      "term_sha256": "8b3e34288edc3933cc01039aaeed6fa936851e2f620e717504a00143d977e70e",
+      "text_sha256": "3f6c9c5e76357225042ec063aee2df4edacb230324656cec9dc14b46e9a53bea",
+      "action": "correct",
+      "reason": "Nome canônico do equipamento Teleportador.",
+      "candidate_item_ids": [
+        "item.name.0784"
+      ]
+    },
+    {
+      "field": "interface.entries[216]",
+      "term_sha256": "41d451e42347d65b387511be8a59d02890104cd7e391ecbff55c57a789b05027",
+      "text_sha256": "fd21ea4aaf7db8efa473318cdadc47ee5899d0f87bfea1d688d08ed15ade85b7",
+      "action": "correct",
+      "reason": "Aviso de categoria; os dois nomes completos excedem juntos o slot original de 26 bytes.",
+      "candidate_item_ids": [
+        "item.name.0711"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[14]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "2ebdbaaf1c2ca94488292d7de7a45b5c951a54aa68016cbe12d2f1a20da18386",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[15]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "0997af6fb8dd3d5b7b3457116f431dd6fc5f3a66ce3a51db5b0ceec6660d10fa",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[23]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "2ac782f1c664f11a83b9d5c20ea946f38a4f9fbbb97f400136c4b15cd50653e4",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[24]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "f89e9a5533c427414005f09042aba17bd9853d8c69171291bd893a6f31f13b98",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[36]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "9c570370fdf01f895dfbd14170ae0ca6bcd971a7dea45b2627658f24240b5704",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[37]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "dec30ff6b3a1b487ecfd767418191070998d987b77aba8ef118968932378ebe1",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[39]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "871b1ea10c7170ba281194cec48332e5165574cb2efad27ca643c5aa566f2ee6",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[40]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "7fa0873604541046fb8e01ca1fc912c0eb643c589ced975adc93b1045320025a",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[51]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "cd4de815093fd92c255a727d399b90d4d1aee268651ac5902ef1cc575d812623",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[52]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "7e23bd536b4524e61b6d57a80789768f80da5f8527ea2878e17866d48b96916f",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[64]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "0a174d7dce63d0dad796c1010b17860f1ffa1d703e82191cf79a5637d7cf070c",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[65]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "e2ff80e70f92b763644a49be3f4d0148366dc0e752bd403acc7ae4a5221e91da",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[68]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "860c2b205ede50cf0a5a728c79ce08cc2f968f371d424c6986f0a01ba94789ed",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[0].rows[69]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "0175eda71e364f65ea40f1d7a67afe03dfe2a9a7e4447bb9bb2dfd55efbc0c22",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[1].rows[4]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "3bad872c5852bcfebe28d74668064c921d3de059dab62548769b68ed67422404",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[1].rows[5]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "66c4a04e563eb4fe926f4ca98ba71d3b25ebcdb13e85ca8d4d8c00a0b5aeff7c",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[1].rows[6]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "1b02790f09704e94a830fc80c7759c96cfa6c0f09f31576dccb1f3c808300497",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[1].rows[7]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "6bc381490fac8950aa8f7bff8e87e0ad0a652b6ed2c3bb9177faa0b0cde81412",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.tables[1].rows[13]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "aa2a6c47b89a3cc90d297596a2b62a6ef64ef4cbcb178f5f0c2940b34561e030",
+      "action": "preserve",
+      "reason": "hardware-memory-card",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.diary[56]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "4da593d496cbdc779eb568073998b9e40c2b18ae78113fe373d12b6b74e2cde8",
+      "action": "preserve",
+      "reason": "character-memory-not-object-label",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.help[14]",
+      "term_sha256": "a4eb5d86f10ec0cbd52fc4f4c73c6d569df7fc4c5be7c237aa82612d2440d6fe",
+      "text_sha256": "93d0707cc7133ab776c62880ddf35878432084fe70cc6f308c698ddece6ed831",
+      "action": "correct",
+      "reason": "Ingredientes pelos nomes aprovados, preservando tags, números e receita.",
+      "candidate_item_ids": [
+        "item.name.0379"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.help[14]",
+      "term_sha256": "8fd9793c584d71f7f05e5c6514aa07d32b810b7c6b1405e15cb7194fd7e6bafa",
+      "text_sha256": "93d0707cc7133ab776c62880ddf35878432084fe70cc6f308c698ddece6ed831",
+      "action": "correct",
+      "reason": "Ingredientes pelos nomes aprovados, preservando tags, números e receita.",
+      "candidate_item_ids": [
+        "item.name.0378"
+      ]
+    },
+    {
+      "field": "interface.resource_texts.help[42]",
+      "term_sha256": "e275fb3d8e5fdb04511f6a9a828671745a7255da4d0203ada5c384a36a015bcc",
+      "text_sha256": "7f8401b7d2c090d1e028ba42a927f77739e57847f9bb30a97de1871835e9ad2f",
+      "action": "preserve",
+      "reason": "generic-furniture-category",
+      "candidate_item_ids": [
+        "item.name.0767"
+      ]
+    },
+    {
+      "field": "interface.spack_ui.translations.50",
+      "term_sha256": "88dbd7c84acaaf96b34df355043b9a081022e087baf7473ac856e20da5b647fd",
+      "text_sha256": "88dbd7c84acaaf96b34df355043b9a081022e087baf7473ac856e20da5b647fd",
+      "action": "preserve",
+      "reason": "teleport-action-not-device",
+      "candidate_item_ids": [
+        "item.name.0784"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[468]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "72a2f40b0c9ddb5efe36085946b46d35b7e0a12d331a49037529bc5f5e2e5cf9",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[469]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "3356a577ce6a5441b64b60c146419e666b55195c3603dc9de8825905731df663",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[470]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "a7978600af985bc85cd84e16347dcdf74c167e43ea9cbe8dfee1f49cfd2f1689",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[471]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "1f2440f6954a24887969733102be715b18079d972e25c9df15ebfe97374ef95b",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[472]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "3da43160fd7f8d0801580f4398459e1135998ab7bd59aa46d9b59a656ed69e1e",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[473]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "70be7841bb2a34ade6646923d0a4b70de3e3a8879ea900cd0b6d02e189953a81",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[474]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "6a7e549137eabd5e3fac2625f66821e1d1db2bed153d2aa65ad39513fbfbb8c4",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[475]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "6f09920864f5b90dcb68cef42eca5c1fbd4fb8e6c459b510ec5980f49213cbe4",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[476]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[477]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "ceb538208552220ad987e0d13f4ba78a9141e67fd402627dd8a185f2eac89e87",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[478]",
+      "term_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "text_sha256": "eeae93b92f0f022f1e7857a828c612800f23ce60e7de918f0082606bbad20637",
+      "action": "correct",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "candidate_item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[540]",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "c095d506d4dcc0c2b8a6b32155dd5b0ab02838c064d36c3649fe3185f73e5c23",
+      "action": "correct",
+      "reason": "Referência explícita ao item 1012 da Alpha Series.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[543]",
+      "term_sha256": "637f2706710834dd75cd9d7844c68fa48e08c5f5aa27846b29ec793cb56c9a37",
+      "text_sha256": "6327d68dea421151f4eed8cf6d958a6e22ee14e0aba2e4bc669aba80deb3d3bd",
+      "action": "preserve",
+      "reason": "generic-treasure-map-shared-fragment-description",
+      "candidate_item_ids": [
+        "item.name.1015"
+      ]
+    },
+    {
+      "field": "interface.spack_battle.entries[65]",
+      "term_sha256": "7ef91b05d05b6c4e98102168d31a0e8ae36c9bb0458117c194b523c209aff201",
+      "text_sha256": "11844a5de277cb564701b91a6ff8e97f414bbc95845a0844bd1cf38baacb4142",
+      "action": "preserve",
+      "reason": "already-canonical-name-substring",
+      "candidate_item_ids": [
+        "item.name.0908"
+      ]
+    },
+    {
+      "field": "interface.spack_battle.entries[956]",
+      "term_sha256": "3d46249e7981482f0ae8d3a7eb770a5e27e5c863d1a4f8aa9e4e3e5e4808b4e2",
+      "text_sha256": "7f0687c498e56ea8c367ffb092ec9f5ea20d281bde463d02f0cc8f545ab91cf9",
+      "action": "preserve",
+      "reason": "different-enemy-identity-role",
+      "candidate_item_ids": [
+        "item.name.0908"
+      ]
+    },
+    {
+      "field": "interface.spack_battle.entries[972]",
+      "term_sha256": "7ef91b05d05b6c4e98102168d31a0e8ae36c9bb0458117c194b523c209aff201",
+      "text_sha256": "bc8496a9a40d9922eda9c84a95df7ef05ca85c6193cb8e916f3f84223715ac89",
+      "action": "preserve",
+      "reason": "different-enemy-identity-role",
+      "candidate_item_ids": [
+        "item.name.0908"
+      ]
+    },
+    {
+      "field": "interface.spack_battle.entries[989]",
+      "term_sha256": "7ef91b05d05b6c4e98102168d31a0e8ae36c9bb0458117c194b523c209aff201",
+      "text_sha256": "bf69368b7c6bab84aa3ad425c8fe425c4b2a5a8590571b5ca3463aa8445f4ca3",
+      "action": "preserve",
+      "reason": "different-enemy-identity-role",
+      "candidate_item_ids": [
+        "item.name.0908"
+      ]
+    },
+    {
+      "field": "interface.spack_interactions.reaction.entries[138]",
+      "term_sha256": "d18e14e12ece383c4ea15081e5596bc48674d8bc1dd9c6ff8fa663c941733826",
+      "text_sha256": "3aa6d6cc7e8c3d5361bf9484e156fa17d34cf39bd14584bd90b5355e5a3dcc0b",
+      "action": "correct",
+      "reason": "Mesma formulação aprovada para Half of a Map; manter as quatro alternativas.",
+      "candidate_item_ids": [
+        "item.name.1021",
+        "item.name.1040"
+      ]
+    },
+    {
+      "field": "map.smsg.1df4e51c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.1f32e314",
+      "term_sha256": "16d70c1cea1f424ab9792b4886193e1f95cab00c1e1ac668252240d8e76441bc",
+      "text_sha256": "418691b42c2e8cff040aff5c29b84b47db64457eed28dbebd310d5c6311cb3e7",
+      "action": "preserve",
+      "reason": "protected-junk-zombies-enemy-name",
+      "candidate_item_ids": [
+        "item.name.0699"
+      ]
+    },
+    {
+      "field": "map.smsg.1d0b4aec.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "ac080e6bf768219e1fe3161573a6a3767a900450c0bd4fc9767d1e549341944a",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.1774f70c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "41fffb3f4a4930ea94ee3415b410030c3b4e872d86be2a142490bc037ee45cca",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.1774fad4.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "39f2329fae255b2b71e5a6b5aa95609531e8d579a251ee0ac8980dc1ac96bb85",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.17750764",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "83ea022d7c936e387f4ef64d4e99788ec71dbbf170ff272e30fb14cf21a457ec",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.17750848",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "a7f7f6d5f920bc4a991b37b08577837a7e26fb71f3d725d76ed48361b6636e15",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.17750be4",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8fb8026e9d760823bd1a342df9ec87ba4899ded3978a73edc75c17f15300a63e",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.17750d8c",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "e785f2b27427068d5cc3a6fedd40dd59a80e97feac17fa488de80d973195322b",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.177551cc",
+      "term_sha256": "e275fb3d8e5fdb04511f6a9a828671745a7255da4d0203ada5c384a36a015bcc",
+      "text_sha256": "eed54a1e62be3c91be237d5204325204e3e577186ce8708d59f5edf8b84d344b",
+      "action": "preserve",
+      "reason": "ordinary-wardrobe-in-scene",
+      "candidate_item_ids": [
+        "item.name.0767"
+      ]
+    },
+    {
+      "field": "map.smsg.12829b9c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "ac080e6bf768219e1fe3161573a6a3767a900450c0bd4fc9767d1e549341944a",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msgn.04d32e50",
+      "term_sha256": "2a76a891d7cb3cf7216b57b1d06e101b04ff1a9bb2aee514229dcc0286575381",
+      "text_sha256": "3e1e365a9813eedc25a517ebd0823c54e7d96e7419a33cccf5f5c625b040cf98",
+      "action": "preserve",
+      "reason": "military-blockade-not-skill",
+      "candidate_item_ids": [
+        "item.name.0901"
+      ]
+    },
+    {
+      "field": "map.msg.084ab3fc",
+      "term_sha256": "f7ec31b19552c70ddede3aa226d954a30e5d58f67820bed8b93ff2dafb0f8a9f",
+      "text_sha256": "0ea5314657ab30e2b3214e500eb5e072ad841a0a7be3990b8d003d5a92735ff5",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.0342"
+      ]
+    },
+    {
+      "field": "map.msg.084ac950",
+      "term_sha256": "f7ec31b19552c70ddede3aa226d954a30e5d58f67820bed8b93ff2dafb0f8a9f",
+      "text_sha256": "39af2a87043645e6c5a8f360777044cb03bcad2996fe8637aeb6e96d104daa33",
+      "action": "correct",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original.",
+      "candidate_item_ids": [
+        "item.name.0342"
+      ]
+    },
+    {
+      "field": "map.msg.01df19d0",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "248c5f4b12d5442039c7676c992b0d48eb7a7aaefcb90b199a42580dc21b36cb",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.msg.01df710c",
+      "term_sha256": "4477deff6ab77d2afeb11cf761631e1efa2bd6bee7258fd0975a779d9bc3bf76",
+      "text_sha256": "adc8292149ece39c38f8c48a258d8ce51aa9b38dd5178559e5d46d12923d513a",
+      "action": "preserve",
+      "reason": "ordinary-regenerate-verb",
+      "candidate_item_ids": [
+        "item.name.0865",
+        "item.name.0960"
+      ]
+    },
+    {
+      "field": "map.msg.038b099c",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "1bac7b8a835e2895bf66d8b052d9ffb1a66641247a7494dfe349d38377a135dc",
+      "action": "preserve",
+      "reason": "commemorative-memory",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smnn.01df72bc.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "7c78d5d3b129e3a212ea515a7426bc77a42741eb59088eaac7db067d914d5c09",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smnn.19f56138.body",
+      "term_sha256": "0bd287f6ce17c0df72d097db9e24f828fbe5e24987012f8153a21ef6189a3747",
+      "text_sha256": "2de3a3f9f00f1bc782dd62187aab5db9182483ffdca3c7beaa3e9a0fa739aba7",
+      "action": "preserve",
+      "reason": "named-cs-plant-facility-not-plant-item",
+      "candidate_item_ids": [
+        "item.name.0754"
+      ]
+    },
+    {
+      "field": "map.smnn.19f56548.body",
+      "term_sha256": "0bd287f6ce17c0df72d097db9e24f828fbe5e24987012f8153a21ef6189a3747",
+      "text_sha256": "be479b858ba935225b3641c72cdf22004fb6762da7875b5d2815e56106792cc6",
+      "action": "preserve",
+      "reason": "named-cs-plant-facility-not-plant-item",
+      "candidate_item_ids": [
+        "item.name.0754"
+      ]
+    },
+    {
+      "field": "map.smnn.19f56958.body",
+      "term_sha256": "0bd287f6ce17c0df72d097db9e24f828fbe5e24987012f8153a21ef6189a3747",
+      "text_sha256": "2f3bf87c36e14c3b37d8c7c94ecf5843f59d16780829051af7866cd1c3e7879c",
+      "action": "preserve",
+      "reason": "named-cs-plant-facility-not-plant-item",
+      "candidate_item_ids": [
+        "item.name.0754"
+      ]
+    },
+    {
+      "field": "map.smnn.19f56d68.body",
+      "term_sha256": "0bd287f6ce17c0df72d097db9e24f828fbe5e24987012f8153a21ef6189a3747",
+      "text_sha256": "b7cfa7db10c119df0fcf34e4a2aa93e3865b16820daac7646698b7d42c731c1f",
+      "action": "preserve",
+      "reason": "named-cs-plant-facility-not-plant-item",
+      "candidate_item_ids": [
+        "item.name.0754"
+      ]
+    },
+    {
+      "field": "map.msg.1fd4a7dc.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "76e49748f5c34931501bbcc1366707961db80f8c76548c7c57e7702a6802ea52",
+      "action": "preserve",
+      "reason": "c-unit-memory-chip-different-item",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.2smg.0be2c4e4.choices",
+      "term_sha256": "637f2706710834dd75cd9d7844c68fa48e08c5f5aa27846b29ec793cb56c9a37",
+      "text_sha256": "c52fe403fe362bcbf6e9738a0a6e8a5c7dd763011df69f313e3d76fad9c387cc",
+      "action": "preserve",
+      "reason": "treasure-map-not-cache-map",
+      "candidate_item_ids": [
+        "item.name.1015"
+      ]
+    },
+    {
+      "field": "map.2smg.0be2ca48.choices",
+      "term_sha256": "637f2706710834dd75cd9d7844c68fa48e08c5f5aa27846b29ec793cb56c9a37",
+      "text_sha256": "c52fe403fe362bcbf6e9738a0a6e8a5c7dd763011df69f313e3d76fad9c387cc",
+      "action": "preserve",
+      "reason": "treasure-map-not-cache-map",
+      "candidate_item_ids": [
+        "item.name.1015"
+      ]
+    },
+    {
+      "field": "map.smsg.1773fab4.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.1370a2fc.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.14aa321c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.0f831f7c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.1033bc5c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.0db0accc.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.0e767eec.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.0a6117dc.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "ac080e6bf768219e1fe3161573a6a3767a900450c0bd4fc9767d1e549341944a",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.0af87f9c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "ac080e6bf768219e1fe3161573a6a3767a900450c0bd4fc9767d1e549341944a",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.0be07c2c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.057ce2fc.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "map.smsg.038d5b9c.body",
+      "term_sha256": "fcd95b14bedaade781c1bf5d9eef6912b8d49e16c8fe6341c8bc5d4d5aa5d9e6",
+      "text_sha256": "8697786fc8884c3e89a5a537295d2d969b279b25be6bbd84e2d33ea9b6a8c8e3",
+      "action": "preserve",
+      "reason": "save-system-memory-center",
+      "candidate_item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[372]",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "0720b142335a0fed1154df273b5bcb5648e0991b75fbe9dc57ad2a67a413047d",
+      "action": "preserve",
+      "reason": "protected-twin-fang-weapon-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "interface.item_descriptions.entries[373]",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "352e41c8d6b8f508a4b36cf51adea4499da2309156e2164eae79b83c630197c7",
+      "action": "preserve",
+      "reason": "protected-twin-fang-weapon-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.1df76ec0",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "f93f8d34162b6b28fe39fe054d5a18b27e2a36304043e7699bbfe6523ac53e91",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.1df76f08",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "267f70fd9655d213be406d17af16bf5e48e8e04d455d5224b5577becef41fa4f",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.1df76f60",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "7bceb68e4f82889832459ea14650db09726c576150ca83cff7d5ad1d6e9f99cb",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.1576a8b8",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "919755c41cce0e56e4a88367d5c6e6c5f44df3cceb63225c2ada341c3993b0ca",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.1576b048",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "80f9dde80157db694d13d1cd4361b1f60fb15257455ead2b593c3c68db00228d",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.0e551d94",
+      "term_sha256": "3b2b1519041fa13f2d25108dd58b28c1221fecd84d6bcd1a5aa4fc66fb0d9d87",
+      "text_sha256": "fcbb226fdbea2f5ce3d1e6384f0c0961a23d54535a2c0972365d48a7fa679aa5",
+      "action": "correct",
+      "reason": "same-bus-stop-sign-item-canonical-reference",
+      "candidate_item_ids": [
+        "item.name.0695"
+      ]
+    },
+    {
+      "field": "map.msgn.0e76fcc4",
+      "term_sha256": "3b2b1519041fa13f2d25108dd58b28c1221fecd84d6bcd1a5aa4fc66fb0d9d87",
+      "text_sha256": "030e47eb6bf42f57849bb62754ec94326fe771293b9b6da7d69062b577692c04",
+      "action": "correct",
+      "reason": "same-bus-stop-sign-item-canonical-reference",
+      "candidate_item_ids": [
+        "item.name.0695"
+      ]
+    },
+    {
+      "field": "map.smsg.06493b00.body",
+      "term_sha256": "3b2b1519041fa13f2d25108dd58b28c1221fecd84d6bcd1a5aa4fc66fb0d9d87",
+      "text_sha256": "116b1391581215002259a8b68e0669cca1e562555896277bb20767decd8dc25e",
+      "action": "correct",
+      "reason": "same-bus-stop-sign-item-canonical-reference",
+      "candidate_item_ids": [
+        "item.name.0695"
+      ]
+    },
+    {
+      "field": "map.msg.07b28d9c",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "fc99b77503fc1e239060e610b362e8372a8458b0be72b4aae84a8ed25cdd41b4",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.msg.07b28e8c",
+      "term_sha256": "f1e508c4582c09cd3b6eba95c91fea8be8d838414f21b66756b48caf956ac4c5",
+      "text_sha256": "9e6083bc9d58b9f9af10b4f18551ff2b6eb644967250a4b53bfbe4798810ac62",
+      "action": "preserve",
+      "reason": "protected-fang-character-name",
+      "candidate_item_ids": [
+        "item.name.0625"
+      ]
+    },
+    {
+      "field": "map.smsg.0e5517d4.body",
+      "term_sha256": "3b2b1519041fa13f2d25108dd58b28c1221fecd84d6bcd1a5aa4fc66fb0d9d87",
+      "text_sha256": "73d85e6d5f9351fc4ee66f43aa9c3a0bafa1386d9f4b054d86a3517e002454f4",
+      "action": "correct",
+      "reason": "same-bus-stop-sign-item-canonical-reference",
+      "candidate_item_ids": [
+        "item.name.0695"
+      ]
+    }
+  ],
+  "limits": "Complete classification of this bounded literal concordance, not proof of every narrative reference or all game text.",
+  "parent_decisions": {
+    "recipe": "translations/consistencia-nomes-decisoes-v001.json",
+    "sha256": "5f5343ae509dfbbdbae2128a3aacc9ce811501da8b44d529526f4dbfe9988a48"
+  },
+  "newly_classified_matches": 13,
+  "newly_corrected_matches": 4,
+  "newly_preserved_matches": 9
+}

@@ -38,10 +38,17 @@ def expected_interface(binding):
     return result
 
 def validate_interface(recipe):
+    if 'pending_name_resolution' in recipe:
+        from pending_name_resolution import validate_interface as validate_pending
+        return validate_pending(recipe)
     binding=recipe['name_reference_review']
     if recipe!=expected_interface(binding):raise ValueError('Non-authorized interface consistency change')
 
 def revised_descriptions(config):
+    if 'pending_name_resolution' in config:
+        from pending_name_resolution import validate_descriptions
+        parent,ids=validate_descriptions(config)
+        return revised_descriptions(parent)|ids
     binding=config['name_reference_review'];m,parent=load(binding)
     expected=expected_interface(binding)['item_descriptions']
     if config!=expected:raise ValueError('Non-authorized description consistency change')
@@ -49,6 +56,9 @@ def revised_descriptions(config):
     return {r['id'] for r in config['entries'] if r!=old.get(r['id'])}
 
 def validate_narrative(draft):
+    if 'pending_name_resolution' in draft:
+        from pending_name_resolution import validate_narrative as validate_pending
+        return validate_pending(draft)
     from build_translation_pilot import load_draft
     binding=draft['name_reference_review'];m,parent=load(binding)
     p=ROOT/parent['base_dialogue_draft']

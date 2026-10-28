@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "policy": "complete-item-name-human-audit-read-only-v001",
+  "recipe": "translations/interface-v045.json",
+  "recipe_sha256": "14f857542b016896d03653150d43707eec8f060683bf30078a9a7094ada4c2f9",
+  "source_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+  "source_elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "main_records": 1349,
+  "nonempty_names": 1041,
+  "counts": {
+    "empty": 308,
+    "preserved": 500,
+    "translated": 541
+  },
+  "engine_variant_fields": 50,
+  "nonempty_engine_variant_fields": 26,
+  "playable_iso": {
+    "path": "work/interface-v045/MetalSaga-ptbr-interface-v045.iso",
+    "size": 1704427520,
+    "sha256": "094d74c2181446647aeceb29ef53dd33095b8c3e6a11b447ed7e2ae6af40ba7c",
+    "verified": true,
+    "main_name_fields_compared": 1349,
+    "engine_variant_fields_compared": 50
+  },
+  "output": "work/auditoria-itens-v045",
+  "all_main_ids_present_once": true,
+  "originals_modified": false,
+  "iso_modified": false,
+  "translation_applied": false,
+  "limits": "Known main table and known engine-variant fields; not proof of all possible item resources or live contexts."
+}

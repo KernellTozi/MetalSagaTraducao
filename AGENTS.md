@@ -1124,3 +1124,34 @@ Entrega v044: `Iniciar-Teste.cmd` abre `work/interface-v044/MetalSaga-ptbr-inter
 `Preparar-Interface.cmd` valida v044/MAP v039. Delta integral aprovado: 4.110
 bytes em 136 patches físicos, incluindo pool/ponteiros; os 24 campos lógicos
 não são 136 traduções novas. SHA e metadados em `reports/interface-v044.json`.
+
+## Nomes pendentes resolvidos — v045 / MAP v040
+
+O usuário pediu resolver as pendências. Os 14 nomes genéricos foram resolvidos
+com redação compacta sob essa autonomia, sem nova aprovação humana por nome.
+Ver `docs/interface-v045.md` e `translations/nomes-pendentes-resolvidos-v001.json`.
+Atual: 541 nomes aplicados, zero pendentes no recorte, 500 preservados, 3.836
+campos de interface e 6.024 registros MAP alterados. Não confundir preservados
+com dívida de tradução; as 16 revisões anteriormente bloqueadas não mudaram.
+
+`pending_resolution` nos nomes e `pending_name_resolution` na interface/MAP
+vinculam ao hash da v044 os 14 destinos exatos, uma descrição, quatro falas
+e um hash de ligação de rótulo. Abreviações mantêm os materiais/tipos. Não
+ampliar teto, retirar acentos suportados ou aplicar o critério a nomes antigos
+por analogia. Geladeira comum mantém uma porta na descrição exclusiva de 768.
+Fang/Presa só nos componentes 625/631; o personagem Fang e Twin Fang não mudam.
+Bus Stop Sign/Placa de ônibus só em 695 e quatro corpos explicitamente revistos.
+As proteções globais continuam. O rótulo Homem conserva origem e posição;
+seu base_record_sha256 foi recalculado pelo compilador/placement, sem chute.
+
+113 testes passaram, oito novos. 444 probes de largura sem ultrapassar o
+envelope original. Auditoria de referências com ledger v002: 65 usos corretos
+preservados, zero sem decisão. Auditoria completa em `work/auditoria-itens-v045/`
+conferiu 1.349 campos e 50 variantes contra a ISO real. Prévia GFI inspecionada;
+não equivale ao PCSX2, que não foi executado. Visual segue em partida normal.
+
+`Iniciar-Teste.cmd` usa `work/interface-v045/MetalSaga-ptbr-interface-v045.iso`;
+`Preparar-Interface.cmd` valida v045/MAP v040. Delta integral aprovado: 4.215
+bytes em 176 patches físicos, incluindo pool e ponteiros. Fontes/layout v005,
+ELF, gráficos e demais bytes iguais. Cinco ISOs e alpha por hash conferidos.
+Sem OneDrive ou desligamento automático nesta rodada.

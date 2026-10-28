@@ -59,6 +59,9 @@ def prepare_config(parent,manifest,rows,binding):
 
 
 def validate_config(config,rows):
+    if 'pending_resolution' in config:
+        from pending_name_resolution import validate_names
+        return validate_config(validate_names(config,rows),rows)
     if 'approved_extension' in config:
         from item_name_approved_batch import validate
         return validate_config(validate(config,rows),rows)

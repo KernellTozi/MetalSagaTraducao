@@ -1,5 +1,15 @@
 # Plano para concluir a tradução
 
+**Atual — nomes pendentes resolvidos na v045:** os 14 IDs pendentes foram
+traduzidos com rótulos compactos escolhidos sob a autonomia solicitada pelo
+usuário, sem elevar o teto de 16 bytes ou remover acentos. Total 541 nomes
+aplicados/zero pendentes no recorte; 500 preservados. Descrição da geladeira
+conserva uma porta; quatro falas acompanham Placa de ônibus. Sete menções ao
+personagem Fang e duas à Twin Fang preservadas. Auditoria completa local em
+`work/auditoria-itens-v045/`. Ver `docs/interface-v045.md`. As 16 revisões
+bloqueadas da auditoria anterior são separadas e continuam sem aplicar.
+Próximas frentes: lacunas específicas de interface e revisão em partida normal.
+
 **Atual — consistência v044:** concluída a revisão de 81 ocorrências no
 recorte literal de 10.682 campos, incluindo todas as 69 anteriores. Foram
 corrigidas 25 ocorrências em 24 campos (16 de interface/oito MAP); 56 usos

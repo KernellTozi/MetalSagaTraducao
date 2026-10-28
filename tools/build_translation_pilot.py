@@ -160,6 +160,10 @@ def compile_draft(data,draft):
                         from name_reference_review import filter_terminology
                         issues=filter_terminology(draft['name_reference_review'],entry['id'],segment['key'],
                                                  segment['source'],segment['translation'],issues)
+                    if 'pending_name_resolution' in draft:
+                        from pending_name_resolution import filter_terminology as filter_pending
+                        issues=filter_pending(draft['pending_name_resolution'],entry['id'],segment['key'],
+                                              segment['source'],segment['translation'],issues)
                     terminology.extend({'id':entry['id'],'segment':segment['key'],'reason':reason}
                                        for reason in issues)
     decisions=draft.get('preservation_decisions',{})
