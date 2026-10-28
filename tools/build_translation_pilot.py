@@ -91,6 +91,9 @@ def load_draft(path,chain=()):
 
 
 def compile_draft(data,draft):
+    if 'native_fallback_review' in draft:
+        from dialogue_native_eight import compile_overlay
+        return compile_overlay(data,draft)
     if 'name_reference_review' in draft:
         from name_reference_review import validate_narrative
         validate_narrative(draft)

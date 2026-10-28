@@ -467,3 +467,10 @@ Maiúsculas e minúsculas de nomes próprios continuam sob preservação.
   enquanto o outro painel de dança usa movimentos e passos.
 - Ícones de botões, START, cápsulas e personagens dos painéis mantêm os pixels
   originais. MAIN/SUB/SE, pôsteres e títulos decorativos não são redesenhados.
+
+## Oito avisos repetidos — MAP v041
+
+Os oito IDs vinculados em `translations/dialogos-nativos-oito-v001.json`
+recebem somente Erro. A leitura como aviso técnico é uma decisão contextual,
+não uma liberação geral de japonês, remoção de debug ou prova de ausência de
+uso no jogo. Não reutilizar a exceção em outros registros por semelhança.

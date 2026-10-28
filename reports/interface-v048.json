@@ -1,0 +1,737 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v048.json",
+  "recipe_sha256": "bd379bc933f0bdf91c82fca281d34d77878dc80d5d4753bce48fe620fb445aac",
+  "dialogue_recipe": "translations/regiao-inicial-v041.json",
+  "dialogue_recipe_sha256": "c9eb8b380534741fd89910a4a0b1fd7b4ce721355a87c1ebc4afb506d7092779",
+  "iso": {
+    "path": "work/interface-v048/MetalSaga-ptbr-interface-v048.iso",
+    "size": 1704427520,
+    "sha256": "b8ac33b1e2a8d5bf408903fcbb36e65ee6e1dcd6e33df2808f7a82d22ce944c5",
+    "verified": true
+  },
+  "map_changed_records": 6032,
+  "map_body_options_changed": 5991,
+  "speaker_references_changed": 912,
+  "new_source_bound_native_occurrences": 8,
+  "distinct_new_source_bodies": 1,
+  "native_pending_context": 0,
+  "remaining_deferred_protected_tank_names": 19,
+  "interface_units_accumulated": 3848,
+  "item_names_applied": 541,
+  "tests": {
+    "modules_and_cases": [
+      "test_interface_gaps",
+      "test_pending_name_resolution",
+      "test_name_consistency",
+      "test_approved_name_batch",
+      "test_human_item_revision",
+      "test_interface_generic_names",
+      "test_interface_name_ceiling",
+      "test_interface_battle_tables",
+      "test_item_name_audit",
+      "test_paint_menu_graphics",
+      "test_loading_graphics",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive",
+      "test_translation_policy",
+      "test_translation_pilot.PilotTests.test_changed_control_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_overflow_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_protected_name_change_blocks_entire_batch",
+      "test_translation_pilot.PilotTests.test_recipe_font_binding_and_historical_fallback",
+      "test_interface_remainder_graphics",
+      "test_native_eight",
+      "test_native_dialogue_review"
+    ],
+    "tests_run": 149,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 253.74
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v047.json",
+    "new_recipe": "translations/interface-v048.json",
+    "source_iso_sha256": "46bf798661588ff274e3f6cc7b71b2a1026738344856fe259f14feb54defb1ed",
+    "output_iso_sha256": "b8ac33b1e2a8d5bf408903fcbb36e65ee6e1dcd6e33df2808f7a82d22ce944c5",
+    "iso_size": 1704427520,
+    "changed_bytes": 64,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "map.msg.040ef0ec",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 121864428,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1033e304",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 325612292,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1df7ec14",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 556563476,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1df7ed3c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 556563772,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1df7ee6c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 556564076,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1df88cd4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 556604628,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1df88d9c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 556604828,
+        "size": 44
+      },
+      {
+        "id": "map.msg.1df88e6c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 556605036,
+        "size": 44
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "native_fallback_evidence": {
+    "policy": "eight-source-bound-native-fallbacks-ascii-slots-v001",
+    "records": [
+      {
+        "id": "map.msg.040ef0ec",
+        "offset": 68088044,
+        "size": 44,
+        "record_sha256": "9871ce83d3685affc1cf09b3c65d09e65e8fd3049d1966e1c6cd4e89325375e0",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 68087056,
+        "ssd_size": 6668,
+        "ssd_sha256": "d6b8ff726472a971ef58be033027ddc253edaf0d878d15e707e3741148d8a785",
+        "previous": {
+          "offset": 68088004,
+          "tag": "69660000",
+          "index": 19,
+          "size": 40,
+          "tag_ascii": "if"
+        },
+        "following": [
+          {
+            "offset": 68088088,
+            "tag": "65786974",
+            "index": 21,
+            "size": 8
+          },
+          {
+            "offset": 68088096,
+            "tag": "6d61726b",
+            "index": 1,
+            "size": 8
+          }
+        ],
+        "is_last_ssd_instruction": false,
+        "marker_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 3,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 4,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1033e304",
+        "offset": 271835908,
+        "size": 44,
+        "record_sha256": "75042a44fd6e1ee336ac01066cf3e3155dc96f17ca13fbc43e7ac888a2e72430",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 271834976,
+        "ssd_size": 2496,
+        "ssd_sha256": "5d6f4996b5d1e840de10869c872b0d9a881a6d70a9368661d4a4df1a53d43886",
+        "previous": {
+          "offset": 271835868,
+          "tag": "69660000",
+          "index": 25,
+          "size": 40,
+          "tag_ascii": "if"
+        },
+        "following": [
+          {
+            "offset": 271835952,
+            "tag": "636d7677",
+            "index": 27,
+            "size": 16
+          },
+          {
+            "offset": 271835968,
+            "tag": "65786974",
+            "index": 28,
+            "size": 8
+          }
+        ],
+        "is_last_ssd_instruction": false,
+        "marker_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 3,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 4,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1df7ec14",
+        "offset": 502787092,
+        "size": 44,
+        "record_sha256": "e8da0a08981af3309e4be2186639e843058cee0181e23a16e451f7a7ec451675",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 502786704,
+        "ssd_size": 432,
+        "ssd_sha256": "bf462fa2f630053a808f79f993d0f428c228cfdbdb316e7cb768ee6496aa2084",
+        "previous": {
+          "offset": 502787084,
+          "tag": "6d61726b",
+          "index": 4,
+          "size": 8,
+          "tag_ascii": "mark"
+        },
+        "following": [],
+        "is_last_ssd_instruction": true,
+        "marker_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 3,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 4,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1df7ed3c",
+        "offset": 502787388,
+        "size": 44,
+        "record_sha256": "be824bea1ddf60da02800cdcfc9f9349eb709879a1b766718b3a3092dfabc240",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 502787136,
+        "ssd_size": 296,
+        "ssd_sha256": "983f4ad016682b40b4b7f7af42eebd87b1e5d8c8719bacd0ed9a0ed5a4046aca",
+        "previous": {
+          "offset": 502787380,
+          "tag": "6d61726b",
+          "index": 3,
+          "size": 8,
+          "tag_ascii": "mark"
+        },
+        "following": [],
+        "is_last_ssd_instruction": true,
+        "marker_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 3,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1df7ee6c",
+        "offset": 502787692,
+        "size": 44,
+        "record_sha256": "be824bea1ddf60da02800cdcfc9f9349eb709879a1b766718b3a3092dfabc240",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 502787440,
+        "ssd_size": 296,
+        "ssd_sha256": "01e72a6947705639bc53c46d10227cdc28b4e5aa18601b9c460c089c47c2eb1b",
+        "previous": {
+          "offset": 502787684,
+          "tag": "6d61726b",
+          "index": 3,
+          "size": 8,
+          "tag_ascii": "mark"
+        },
+        "following": [],
+        "is_last_ssd_instruction": true,
+        "marker_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 3,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1df88cd4",
+        "offset": 502828244,
+        "size": 44,
+        "record_sha256": "be824bea1ddf60da02800cdcfc9f9349eb709879a1b766718b3a3092dfabc240",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 502827952,
+        "ssd_size": 336,
+        "ssd_sha256": "1c2c09e40353a65d0939a53c3e47b7e82a1d13f7a06dcfdf444167af63613fe2",
+        "previous": {
+          "offset": 502828236,
+          "tag": "6d61726b",
+          "index": 3,
+          "size": 8,
+          "tag_ascii": "mark"
+        },
+        "following": [],
+        "is_last_ssd_instruction": true,
+        "marker_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 3,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1df88d9c",
+        "offset": 502828444,
+        "size": 44,
+        "record_sha256": "7aafb7bdf62444b22e9e223ec1bb6e6458d6edc099f917f6c18a853b58a071ae",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 502828288,
+        "ssd_size": 200,
+        "ssd_sha256": "86373d24a906aa7b292d0bdee6d842440b24fe0cb0c446e39963d521753405a8",
+        "previous": {
+          "offset": 502828436,
+          "tag": "6d61726b",
+          "index": 2,
+          "size": 8,
+          "tag_ascii": "mark"
+        },
+        "following": [],
+        "is_last_ssd_instruction": true,
+        "marker_ids": [
+          0,
+          1,
+          2
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      },
+      {
+        "id": "map.msg.1df88e6c",
+        "offset": 502828652,
+        "size": 44,
+        "record_sha256": "7aafb7bdf62444b22e9e223ec1bb6e6458d6edc099f917f6c18a853b58a071ae",
+        "body_sha256": "6190b1a7e87fac89a002d89cbc784030d61bb68447510ad4f14d0e28775ce74d",
+        "original_body_bytes": 8,
+        "slot_capacity_bytes": 11,
+        "target_bytes": 5,
+        "translation": "Erro.",
+        "ssd_offset": 502828496,
+        "ssd_size": 200,
+        "ssd_sha256": "466536cf250d24cc5f3729f1b277449421a3bb6068c2c233c5eb05f8a81665a8",
+        "previous": {
+          "offset": 502828644,
+          "tag": "6d61726b",
+          "index": 2,
+          "size": 8,
+          "tag_ascii": "mark"
+        },
+        "following": [],
+        "is_last_ssd_instruction": true,
+        "marker_ids": [
+          0,
+          1,
+          2
+        ],
+        "marker_lookup_cases": [
+          {
+            "marker": 0,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 1,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 2,
+            "found": true,
+            "correct_target_node": true
+          },
+          {
+            "marker": 65535,
+            "found": false,
+            "correct_target_node": true
+          }
+        ]
+      }
+    ],
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "instruction_windows": [
+      {
+        "offset": 1827432,
+        "size": 16,
+        "sha256": "98eadddc72a2b42c060942cfa1137eb88164fd9e495cf37d5f5bd9b5c63e5eb1"
+      },
+      {
+        "offset": 1833376,
+        "size": 52,
+        "sha256": "88e034ccd4be0a0b26357b98d9bf0f2a376c4625bc9d4f86545bc309e7294413"
+      },
+      {
+        "offset": 3192016,
+        "size": 56,
+        "sha256": "37314a4e57a9a3473448d51ee48a737e14381562c61e7405763285158dceca65"
+      },
+      {
+        "offset": 1856680,
+        "size": 68,
+        "sha256": "d51560b46cc8fcc998f6cc47efcbe1ec1da321dc6190e681c2baac35730701e8"
+      },
+      {
+        "offset": 1826184,
+        "size": 112,
+        "sha256": "91f3e639a722fdb519f64de434a7e5487941b522fdc73f1107f7670b263b4a7d"
+      },
+      {
+        "offset": 1888128,
+        "size": 8,
+        "sha256": "28869940c132b09909a7135fe12f53081e55829b566163721cb081238f05a45e"
+      }
+    ],
+    "original_if_postcomparison_cases": [
+      {
+        "comparison_result_supplied": 0,
+        "lookup_result_supplied": 0,
+        "lookup_marker_arguments": [],
+        "return_code": 2
+      },
+      {
+        "comparison_result_supplied": 1,
+        "lookup_result_supplied": 0,
+        "lookup_marker_arguments": [
+          4
+        ],
+        "return_code": 2
+      },
+      {
+        "comparison_result_supplied": 1,
+        "lookup_result_supplied": 1,
+        "lookup_marker_arguments": [
+          4
+        ],
+        "return_code": 3
+      }
+    ],
+    "original_source_glyphs": [
+      {
+        "font": "SUC20I22.GFI",
+        "jis": 9296,
+        "offset": 57618,
+        "sha256": "07c1421e575f38d97dc9ade3f11641fe2e2360ba0b42ad152f3cf7c51428578c"
+      },
+      {
+        "font": "SUC20I22.GFI",
+        "jis": 9264,
+        "offset": 49874,
+        "sha256": "8191a096e5c0e9f426cb095ccfb8fea7afd6582c924ddc1eff9cb3b4990fa8ee"
+      },
+      {
+        "font": "SUC20I22.GFI",
+        "jis": 8508,
+        "offset": 7282,
+        "sha256": "8b051ac6b32c51e8ea6ba3663685ac29e01f78e42e46a284c4b0656c36ec98e2"
+      },
+      {
+        "font": "SUC20I22.GFI",
+        "jis": 8483,
+        "offset": 1232,
+        "sha256": "3bc2612b2302158e2439d21a9f823d0e4d29183a34635b35cac61d282187d0a1"
+      },
+      {
+        "font": "SUC24I26.GFI",
+        "jis": 9296,
+        "offset": 80178,
+        "sha256": "bc9d3a26a999e300eef67cbe46ab58f55cf1fef40bb62e7ca1d03b6d7c892993"
+      },
+      {
+        "font": "SUC24I26.GFI",
+        "jis": 9264,
+        "offset": 69362,
+        "sha256": "52ce3f5ed57eea626dc1d1fa5ad2f7ffd1d356a3cf5fd1542cb3f87eb755257e"
+      },
+      {
+        "font": "SUC24I26.GFI",
+        "jis": 8508,
+        "offset": 9874,
+        "sha256": "bea4be3a6b32a437c9501352bbeb694e83e0bf10db845ae55cb2b743068192b6"
+      },
+      {
+        "font": "SUC24I26.GFI",
+        "jis": 8483,
+        "offset": 1424,
+        "sha256": "2e9444999591274e30fdacb5b73cf4328e2ebebd75e5802cee0f99542ac3c731"
+      }
+    ],
+    "distinct_bodies": 1,
+    "distinct_record_fingerprints": 5,
+    "interpretation": "Short repeated error/fallback notices, supported by local battle/conditional and tail-marker contexts. Not declared unreachable or safe to remove.",
+    "probe_limits": "Original marker lookup/setter and post-comparison branch slices in synthetic RAM; comparison/lookup supplied for the if slice. Full dispatch, battle outcomes, inter-script transitions, complete VM and PCSX2 not executed."
+  },
+  "names_audit": {
+    "fields_scanned": 10698,
+    "preserved_matches": 65,
+    "unresolved_matches": []
+  },
+  "backlog": "reports/dialogos-pendencias-v041.json",
+  "graphic_triage": "reports/interface-lacunas-v003.json",
+  "japanese_minigame_panel_preserved_by_user": true,
+  "runtime_visual_status": "pending_user_verification",
+  "originals_modified": false,
+  "elf_font_or_graphic_edits": false,
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "onedrive_copied": false,
+  "shutdown_requested_this_round": false,
+  "pcsx2_executed": false
+}

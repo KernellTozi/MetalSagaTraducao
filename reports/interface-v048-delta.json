@@ -1,0 +1,62 @@
+{
+  "old_recipe": "translations/interface-v047.json",
+  "new_recipe": "translations/interface-v048.json",
+  "source_iso_sha256": "46bf798661588ff274e3f6cc7b71b2a1026738344856fe259f14feb54defb1ed",
+  "output_iso_sha256": "b8ac33b1e2a8d5bf408903fcbb36e65ee6e1dcd6e33df2808f7a82d22ce944c5",
+  "iso_size": 1704427520,
+  "changed_bytes": 64,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "map.msg.040ef0ec",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 121864428,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1033e304",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 325612292,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1df7ec14",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556563476,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1df7ed3c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556563772,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1df7ee6c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556564076,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1df88cd4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556604628,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1df88d9c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556604828,
+      "size": 44
+    },
+    {
+      "id": "map.msg.1df88e6c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556605036,
+      "size": 44
+    }
+  ],
+  "pcsx2_executed": false
+}

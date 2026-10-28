@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v048.json",
+  "recipe_sha256": "bd379bc933f0bdf91c82fca281d34d77878dc80d5d4753bce48fe620fb445aac",
+  "scope": "Disposition of the existing 20 source atlas candidates. Japanese dog-minigame panel excluded by explicit user decision; no pixels changed. Atlas counts are not strings or a percentage of the game.",
+  "source_triage": {
+    "path": "reports/triagem-grafica-v001.json",
+    "sha256": "773d5b80bf3740807d657c75efb59657d180551341e91c949105b868833b0bae"
+  },
+  "recognized_source_atlases": 119,
+  "candidate_source_atlases": 20,
+  "counts": {
+    "preserved-user-wanted-artwork": 2,
+    "already-translated-loading-v040": 1,
+    "translated-instruction-panel-v047": 5,
+    "preserved-user-minigame-titles": 8,
+    "completed-reviewed-paint-labels-v047": 3,
+    "preserved-user-native-minigame-panel": 1
+  },
+  "records": [
+    {
+      "id": "FD_POST.0.000",
+      "resource": "DATA/FDATA/FD_POST.SDA",
+      "offset": 208,
+      "size": 132112,
+      "sha256": "4f775fb8f6fe21f025c79bc03bfe8adcc31785c34e65273d739597970a686e22",
+      "source_sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-wanted-artwork",
+      "reason": "User explicitly excluded all wanted poster pictures."
+    },
+    {
+      "id": "FD_POST.0.003",
+      "resource": "DATA/FDATA/FD_POST.SDA",
+      "offset": 132720,
+      "size": 17424,
+      "sha256": "613274a0cf96204d50772137ad74a58bc6693b2f37b92cef3ef13d6ce520fb6d",
+      "source_sha256": "6f8766a4cb654671df24dcf38fb454ef8fc3b864a53947a2570d4ff8200b7ffb",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-wanted-artwork",
+      "reason": "User explicitly excluded all wanted poster pictures."
+    },
+    {
+      "id": "RLOADING.0.002",
+      "resource": "DATA/RDATA/RLOADING.SDA",
+      "offset": 2256,
+      "size": 4176,
+      "sha256": "a7b26ca2390598aea2f78204651f4455128c19fdd50d8757c4a1a707c6168b9e",
+      "source_sha256": "dacbc7aaa7f0634a3625c7d4333ef25fa8ba6d61435a9a9046dc80faa6b3452f",
+      "visual_class": "candidate-latin-interface",
+      "status": "already-translated-loading-v040",
+      "reason": "Existing Carregando art preserved."
+    },
+    {
+      "id": "RMGALAN.0.001",
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 281280,
+      "size": 263184,
+      "sha256": "1bf1a4c32cf4c138968039b539f310dce47f583edee8f4a9c1ed7c7958ada779",
+      "source_sha256": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+      "visual_class": "candidate-latin-interface",
+      "status": "translated-instruction-panel-v047",
+      "reason": "Source-bound full-frame instruction image; indexed round-trip, original controller pictures, unchanged GANM. Visual runtime verification pending."
+    },
+    {
+      "id": "RMGALAN.0.003",
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 544496,
+      "size": 32848,
+      "sha256": "545c6b978b64a8395bf3946276b7ccedd439e251fe7fa695963e6bec463e4a8c",
+      "source_sha256": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGDANCE.0.000",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 160,
+      "size": 263184,
+      "sha256": "21a381375555e0717d4cb6ca48567b8208e8ee1a0887717fa7768c55536e2782",
+      "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+      "visual_class": "candidate-latin-interface",
+      "status": "translated-instruction-panel-v047",
+      "reason": "Source-bound full-frame instruction image; indexed round-trip, original controller pictures, unchanged GANM. Visual runtime verification pending."
+    },
+    {
+      "id": "RMGDANCE.0.015",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 985552,
+      "size": 263184,
+      "sha256": "1ae96969f58d57c8efa677ec31fabfb1daaa00d50cb82e876b1dd80d7ba94c53",
+      "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+      "visual_class": "candidate-latin-interface",
+      "status": "translated-instruction-panel-v047",
+      "reason": "Source-bound full-frame instruction image; indexed round-trip, original controller pictures, unchanged GANM. Visual runtime verification pending."
+    },
+    {
+      "id": "RMGDANCE.0.017",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1248768,
+      "size": 66576,
+      "sha256": "9fdd25efef336dd40948e279132dddba5b0ae048782671b37a13161fe3a05c3c",
+      "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGDOG.0.000",
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 96,
+      "size": 263184,
+      "sha256": "1bcd9e7b18d17b2ca8fe719e6bc45f4e093cbbd09ecefc9587d4bd194eb9d9bf",
+      "source_sha256": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+      "visual_class": "candidate-native-interface",
+      "status": "preserved-user-native-minigame-panel",
+      "reason": "User explicitly excluded the Japanese minigame instruction panel on 2026-10-28. Keep original pixels; it is no longer translation debt."
+    },
+    {
+      "id": "RMGDOG.0.002",
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 263312,
+      "size": 132112,
+      "sha256": "604265b7cfda42e3091591d52ab17678379942605a09cb0e58408845dfd2d9c9",
+      "source_sha256": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGKAERU.0.000",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 192,
+      "size": 263184,
+      "sha256": "fe028c3920255d3c4e68f865011ca50879d78db7714b939c83f8b3739e03623d",
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "visual_class": "candidate-latin-interface",
+      "status": "translated-instruction-panel-v047",
+      "reason": "Source-bound full-frame instruction image; indexed round-trip, original controller pictures, unchanged GANM. Visual runtime verification pending."
+    },
+    {
+      "id": "RMGKAERU.0.026",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1158208,
+      "size": 132112,
+      "sha256": "50c8c6e1752c96bf8ae60c16838eaaa554baebf84a065f4f067022ef0fa268ef",
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGKAERU.0.030",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1308432,
+      "size": 66576,
+      "sha256": "5404b0c082cf679a91e43c6aa637b3ca35b06cca61e22ea08e3afa472035a3f0",
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGKAERU.0.032",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1375056,
+      "size": 8272,
+      "sha256": "65821e83822e6a5c72874570b719b73bab7b4aa0f8290724d27630b88eac2c10",
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGKAERU.0.038",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1396224,
+      "size": 33808,
+      "sha256": "782b7e02c0a9213fe8e27384659547da1da08899bb5f1cefe2532caaafd2ad06",
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "RMGTANK.0.000",
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 192,
+      "size": 263184,
+      "sha256": "3f64692d86d93dcbfb1955b3dfd4d36361d3c447494870e397f356d93aff409c",
+      "source_sha256": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e",
+      "visual_class": "candidate-latin-interface",
+      "status": "translated-instruction-panel-v047",
+      "reason": "Source-bound full-frame instruction image; indexed round-trip, original controller pictures, unchanged GANM. Visual runtime verification pending."
+    },
+    {
+      "id": "RMGTANK.0.002",
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 263408,
+      "size": 263184,
+      "sha256": "9b419f6941503adc82f9505a08f584d9abfe88259e6b034cfcfeff9b2df6b935",
+      "source_sha256": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e",
+      "visual_class": "candidate-latin-interface",
+      "status": "preserved-user-minigame-titles",
+      "reason": "Decorative minigame/casino titles explicitly excluded by user; existing work retained."
+    },
+    {
+      "id": "S_PAINT.0.006",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "offset": 52448,
+      "size": 9232,
+      "sha256": "d51a7a65ff06556fde3765c9f259592717556baeb542a77eead11361e498c676",
+      "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+      "visual_class": "candidate-mixed-protected-category",
+      "status": "completed-reviewed-paint-labels-v047",
+      "reason": "Six approved labels retained; Chassi twice and Editar stamp button added. Zoom and Main Gun/Sub Gun/SE retained, other symbols unchanged."
+    },
+    {
+      "id": "S_PAINT.0.008",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "offset": 61760,
+      "size": 17424,
+      "sha256": "83785783249302ea5fb3119ed397d83527fc071d948d64453f16cd2cfcb18ccb",
+      "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+      "visual_class": "candidate-latin-interface",
+      "status": "completed-reviewed-paint-labels-v047",
+      "reason": "Six approved labels retained; Chassi twice and Editar stamp button added. Zoom and Main Gun/Sub Gun/SE retained, other symbols unchanged."
+    },
+    {
+      "id": "S_PAINT.0.013",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "offset": 213856,
+      "size": 132112,
+      "sha256": "0fc2fc89bf44e42786e93eb4b30b9f06f0ad0c3bbbafaf356f4ed98905dc5257",
+      "source_sha256": "8962110f68a1fa7ad0c0abd355da966c58396e7f99176d26d80732e764aca8ee",
+      "visual_class": "candidate-latin-interface",
+      "status": "completed-reviewed-paint-labels-v047",
+      "reason": "Six approved labels retained; Chassi twice and Editar stamp button added. Zoom and Main Gun/Sub Gun/SE retained, other symbols unchanged."
+    }
+  ],
+  "unknown_structure_follow_up": "reports/descoberta-desconhecidos-v002.json",
+  "remaining_special_roots_not_proven_text": 3,
+  "other_separate_backlog": {
+    "map_native_occurrences": 0,
+    "msgn_speaker_labels_without_budget": 49,
+    "editorial_item_revisions_previously_blocked": 16
+  },
+  "complete_game_coverage_proven": false,
+  "pcsx2_executed": false,
+  "originals_modified": false,
+  "previous_triage": {
+    "path": "reports/interface-lacunas-v002.json",
+    "sha256": "91e140ad2d694f0f19acd4e399f0e256f321ee1895980e67b498a9f2ab0d83f0"
+  }
+}

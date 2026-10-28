@@ -1,5 +1,21 @@
 # Plano para concluir a tradução
 
+**Atual — oito ocorrências nativas resolvidas, MAP v041/interface v048:** os
+oito IDs de corpo repetido receberam Erro. em slots fixos, com vínculo integral
+às origens. Inferência de aviso técnico apoiada em contexto de scripts; não
+foram declarados inalcançáveis nem removidos. Ver `docs/dialogos-v041.md`.
+MAP: 6.032 registros alterados, 5.991 com corpo/opções alterados. Zero nativos
+pendentes e zero outros controles adiados no catálogo; os 19 adiamentos
+restantes são nomes de tanques intencionalmente preservados. Interface mantém
+3.848 unidades. Passaram 149 testes; delta integral de 64 bytes em oito registros,
+com todos os demais bytes iguais à v047. Execução no PCSX2 não realizada.
+Por decisão do usuário, o painel japonês do minigame de cães fica preservado
+e deixa de ser pendência. Triagem atual em `reports/interface-lacunas-v003.json`.
+Próximas prioridades: 49 rótulos de falantes sem espaço e 16 revisões editoriais
+de itens, mantendo a revisão contextual/visual em partida normal. Os 129 sinais
+editoriais do auditor são triagem, não 129 traduções obrigatórias confirmadas.
+Não reabrir o painel excluído nem os oito avisos para inflar contagens.
+
 **Atual — gráficos restantes de interface, v047:** cinco painéis de instruções
 de minigames traduzidos e três rótulos de pintura acrescentados (Chassi duas
 vezes e Editar). Preserva integralmente MAP v040, itens, fontes/layout v005,

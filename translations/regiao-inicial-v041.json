@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v040.json",
+  "name": "regiao-inicial-v041",
+  "status": "Oito avisos nativos de erro traduzidos; demais registros v040 preservados.",
+  "translations": {
+    "map.msg.040ef0ec": "Erro.",
+    "map.msg.1033e304": "Erro.",
+    "map.msg.1df7ec14": "Erro.",
+    "map.msg.1df7ed3c": "Erro.",
+    "map.msg.1df7ee6c": "Erro.",
+    "map.msg.1df88cd4": "Erro.",
+    "map.msg.1df88d9c": "Erro.",
+    "map.msg.1df88e6c": "Erro."
+  },
+  "resume_deferred": [
+    "map.msg.040ef0ec",
+    "map.msg.1033e304",
+    "map.msg.1df7ec14",
+    "map.msg.1df7ed3c",
+    "map.msg.1df7ee6c",
+    "map.msg.1df88cd4",
+    "map.msg.1df88d9c",
+    "map.msg.1df88e6c"
+  ],
+  "reviewed_changes": [
+    "map.msg.040ef0ec",
+    "map.msg.1033e304",
+    "map.msg.1df7ec14",
+    "map.msg.1df7ed3c",
+    "map.msg.1df7ee6c",
+    "map.msg.1df88cd4",
+    "map.msg.1df88d9c",
+    "map.msg.1df88e6c"
+  ],
+  "native_fallback_review": {
+    "recipe": "translations/dialogos-nativos-oito-v001.json",
+    "sha256": "4047581792a07005409c41107cca05921931688816eef1d0729eaa985da7adf9"
+  }
+}

@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v047**, sobre MAP v040 e fontes/layout v005. Última rodada: **cinco painéis de instruções de minigames e três rótulos de pintura**, preservando os seis botões anteriormente aprovados. Hunter, Soldier, nomes próprios, MAIN/SUB/SE, pôsteres Wanted e títulos decorativos permanecem protegidos.
+**Interface v048**, sobre MAP v041 e fontes/layout v005. Última rodada: **oito ocorrências de aviso nativo traduzidas para Erro.**, mantendo a interface e todos os gráficos v047. Hunter, Soldier, nomes próprios, MAIN/SUB/SE, pôsteres Wanted e títulos decorativos permanecem protegidos. O painel japonês do minigame de cães foi excluído da tradução pelo usuário e permanece original.
 
-São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.024 registros MAP alterados**, sendo 5.983 com corpo/opções modificados. Há **541 nomes de itens aplicados**, zero pendentes naquele recorte genérico e 500 preservados; 16 revisões editoriais anteriormente bloqueadas continuam separadas. Restam oito ocorrências MAP nativas sem contexto, 49 rótulos sem orçamento e um painel japonês de regras sem uso demonstrado na edição inglesa. Isso não representa porcentagem de todo o jogo.
+São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.032 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Há **541 nomes de itens aplicados**, zero pendentes naquele recorte genérico e 500 preservados; 16 revisões editoriais anteriormente bloqueadas continuam separadas. Restam 49 rótulos sem orçamento e a revisão em partida normal. Os oito adiamentos nativos foram resolvidos; os 19 restantes são nomes de tanques preservados. Sinais editoriais do auditor não constituem traduções obrigatórias confirmadas. Isso não representa porcentagem de todo o jogo.
 
-ISO: `work/interface-v047/MetalSaga-ptbr-interface-v047.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; 133 testes automatizados e a comparação integral de ISOs não substituem execução no PCSX2.
+ISO: `work/interface-v048/MetalSaga-ptbr-interface-v048.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; 149 testes automatizados e a comparação integral de ISOs não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/interface-v047.md)
+- [Lote atual e limites](docs/dialogos-v041.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

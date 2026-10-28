@@ -265,6 +265,9 @@ def compile_paint(elf,value):
         'runtime_visual_status':'pending_user_verification','protected_SUB_SE_MAIN_pixels_unchanged':True}
 
 def validate_interface(recipe):
+    if 'native_fallback_review' in recipe:
+        from dialogue_native_eight import validate_interface as validate_native
+        return validate_native(recipe)
     binding=recipe['interface_remainder_review']
     if set(binding)!={'parent_recipe','parent_sha256'} or binding['parent_recipe']!=PARENT:raise ValueError('Remainder parent scope differs')
     raw=(ROOT/PARENT).read_bytes()

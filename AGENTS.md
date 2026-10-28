@@ -1224,3 +1224,48 @@ por suposição. Três recursos especiais continuam sem prova de conter textos.
 Separar oito ocorrências nativas MAP, 49 rótulos sem espaço e 16 revisões de
 itens bloqueadas dessas contagens gráficas. Cinco ISOs e alpha por hash
 conferidos. Sem OneDrive; usuário solicitou desligamento após concluir a rodada.
+
+## Oito avisos nativos — MAP v041/interface v048 (28/10/2026)
+
+Atual: `translations/regiao-inicial-v041.json` e `translations/interface-v048.json`,
+fontes/layout v005. Iniciar-Teste.cmd aponta para
+`work/interface-v048/MetalSaga-ptbr-interface-v048.iso`; Preparar-Interface.cmd
+valida as receitas novas. Auditar-Traducao.cmd e o default do auditor usam v048,
+sem depender do build antigo v038. Manual: `docs/dialogos-v041.md`.
+
+Os oito avisos de corpo repetido foram traduzidos para Erro. A interpretação
+de aviso técnico é contextual; não declarar os caminhos inalcançáveis nem
+remover mensagens ou alterar comandos para ocultá-las. A política opt-in
+`eight-source-bound-native-fallbacks-ascii-slots-v001` está em
+`tools/dialogue_native_eight.py`, vinculada por `native_fallback_review` ao
+manifesto `translations/dialogos-nativos-oito-v001.json` e aos pais v040/v047.
+Somente oito IDs/hashes exatos e o destino ASCII exato são aceitos. Cabeçalho
+de 32 e registro de 44 bytes imutáveis; orçamento de oito bytes de origem,
+cinco do destino. Nenhum repack, realocação, fonte nova ou liberação geral.
+
+O compilador reproduz o pai histórico integralmente e aplica uma camada
+separada. Metadados históricos de bloqueio permanecem nos descritores;
+aprovação fica em `compiled_native_fallback_overlay`. Os seis registros do
+codec nativo v033 continuam sendo somente seis, e o reinseridor legado ainda
+recusa edição desses oito fora do mecanismo explícito. Não ampliar exceções
+por corpo semelhante, hash repetido em outro endereço ou conveniência.
+
+41 casos do lookup/setter original de marcadores e três do recorte de if
+posterior à comparação foram executados em RAM sintética; comparação/retorno
+de lookup são fornecidos nesse recorte. VM completa, batalhas, transições entre
+scripts e PCSX2 não foram executados. Não exigir provocar erros no save.
+
+149 testes passaram, 12 novos e quatro legados nativos incluídos. Delta integral
+v047→v048: 64 bytes em oito registros MAP; demais bytes/fontes/ELF/gráficos
+iguais. MAP: 6.032 alterados, 5.991 com corpo/opções, 912 referências de falantes.
+Zero nativos e zero outros controles pendentes nesse catálogo; os 19 adiamentos
+restantes são nomes de tanques preservados. Sinais editoriais do auditor não
+são traduções obrigatórias confirmadas. Interface mantém 3.848 unidades.
+
+Por decisão expressa do usuário nesta rodada, preservar o painel japonês
+RMGDOG.0.000 e não voltar a contá-lo como pendência. Triagem atual:
+`reports/interface-lacunas-v003.json`; nove candidatos gráficos cobertos e onze
+preservados por decisão do usuário. Isso não comprova todo o jogo. Três raízes
+especiais sem prova de conter texto continuam com semântica desconhecida.
+Próximas frentes: 49 rótulos sem espaço, 16 revisões de itens e partida normal.
+Cinco ISOs e alpha por hash conferidos. Sem OneDrive ou desligamento nesta rodada.
