@@ -1,0 +1,44 @@
+{
+  "old_recipe": "translations/interface-v045.json",
+  "new_recipe": "translations/interface-v046.json",
+  "source_iso_sha256": "094d74c2181446647aeceb29ef53dd33095b8c3e6a11b447ed7e2ae6af40ba7c",
+  "output_iso_sha256": "eaa4c7d4b0cffabd6d8a090bddfe1048f7a9c63b2ce8dceb764d6ec34d35d0b3",
+  "iso_size": 1704427520,
+  "changed_bytes": 46,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "location.name.014",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290556120,
+      "size": 32
+    },
+    {
+      "id": "location.name.016",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290556248,
+      "size": 32
+    },
+    {
+      "id": "location.name.022",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290556616,
+      "size": 32
+    },
+    {
+      "id": "location.name.023",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290556664,
+      "size": 32
+    },
+    {
+      "id": "name-entry.0032a310",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704254224,
+      "size": 52
+    }
+  ],
+  "pcsx2_executed": false
+}

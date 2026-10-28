@@ -37,11 +37,17 @@ def catalog(elf):
 
 def compile_name_entry(elf, config):
     from name_back_command import POLICY as BACK_POLICY,proof as back_proof
-    if config.get('policy') not in (POLICY,BACK_POLICY):
+    from interface_gaps import TITLE_POLICY,title_proof
+    if config.get('policy') not in (POLICY,BACK_POLICY,TITLE_POLICY):
         raise ValueError('Unknown name entry policy')
     back=None
-    if config['policy']==BACK_POLICY:back=back_proof(elf,config['back_evidence'])
+    if config['policy'] in (BACK_POLICY,TITLE_POLICY):back=back_proof(elf,config['back_evidence'])
     elif 'back_evidence' in config:raise ValueError('Historic name policy cannot release BACK')
+    title=None
+    if config['policy']==TITLE_POLICY:
+        title=title_proof(elf)
+        if config.get('title_evidence')!=title:raise ValueError('Name exit evidence differs')
+    elif 'title_evidence' in config:raise ValueError('Historic name policy cannot release TITLE')
     rows = catalog(elf)
     targets = config.get('entries', [])
     if len(targets) != len(rows):
@@ -69,6 +75,7 @@ def compile_name_entry(elf, config):
             reviewed = {b'INPUT': 'INS.', b'SELECT': 'SEL.', b'END': 'FIM',
                         b'CANCEL': 'CANC.', b'DELETE': 'APAGAR', b'TITLE': 'TITLE', b'BACK': 'BACK'}
             if back:reviewed[b'BACK']='VOL.'
+            if title:reviewed[b'TITLE']='SAIR'
             for slot, replacement in zip(row['slots'], target['slots']):
                 a, n = slot['offset'], slot['size']
                 if set(replacement) != {'offset', 'size', 'source_sha256', 'translation'}:
@@ -93,6 +100,7 @@ def compile_name_entry(elf, config):
     return patches, {'policy': config['policy'], 'accepted': len(rows), 'results': reports,
                      'native_bytes_and_slot_offsets_unchanged': True,
                      'runtime_visual_status': 'pending_user_verification',
-                     'pending_command_semantics': ['TITLE'] if back else ['TITLE', 'BACK'],
+                     'pending_command_semantics': [] if title else ['TITLE'] if back else ['TITLE', 'BACK'],
                      **({'back_navigation':back} if back else {}),
+                     **({'title_exit':title} if title else {}),
                      'instruction_windows': [{'offset': a, 'size': z-a, 'sha256': h} for a, z, h in WINDOWS]}

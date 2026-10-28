@@ -1,5 +1,16 @@
 # Plano para concluir a tradução
 
+**Atual — lacunas pequenas de interface, v046:** SAIR substitui TITLE na
+legenda pertinente à saída da nomeação, com prova de conclusão sem confirmação
+de nome; não foi provado o destino externo. Quatro destinos genéricos recebem
+Pte. do lago L, Ilha O, Lab. médico e Cáp. transp.; 21 entradas preservadas.
+São quatro campos novos e uma revisão, total 3.840 campos de interface.
+121 testes e delta integral aprovados, só 46 bytes em cinco patches.
+Ver `docs/interface-v046.md`. Seguem separados gráficos sem edição comprovada,
+contexto nativo e rótulos sem espaço; não declarar cobertura total da interface.
+Próxima validação: saída da nomeação e destinos em partida normal, sem exigir
+desbloquear todos agora. Fontes, itens, MAP e arte anteriores preservados.
+
 **Atual — nomes pendentes resolvidos na v045:** os 14 IDs pendentes foram
 traduzidos com rótulos compactos escolhidos sob a autonomia solicitada pelo
 usuário, sem elevar o teto de 16 bytes ou remover acentos. Total 541 nomes

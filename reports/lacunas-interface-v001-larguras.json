@@ -1,0 +1,146 @@
+{
+  "destination_cases": [
+    {
+      "index": 14,
+      "side": 22,
+      "mode": 0,
+      "advance": 154,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 16,
+      "side": 22,
+      "mode": 0,
+      "advance": 66,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 22,
+      "side": 22,
+      "mode": 0,
+      "advance": 121,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 23,
+      "side": 22,
+      "mode": 0,
+      "advance": 132,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 14,
+      "side": 22,
+      "mode": 1,
+      "advance": 146,
+      "original_maximum": 146,
+      "within_original_envelope": true
+    },
+    {
+      "index": 16,
+      "side": 22,
+      "mode": 1,
+      "advance": 60,
+      "original_maximum": 146,
+      "within_original_envelope": true
+    },
+    {
+      "index": 22,
+      "side": 22,
+      "mode": 1,
+      "advance": 114,
+      "original_maximum": 146,
+      "within_original_envelope": true
+    },
+    {
+      "index": 23,
+      "side": 22,
+      "mode": 1,
+      "advance": 121,
+      "original_maximum": 146,
+      "within_original_envelope": true
+    },
+    {
+      "index": 14,
+      "side": 22,
+      "mode": 2,
+      "advance": 154,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 16,
+      "side": 22,
+      "mode": 2,
+      "advance": 66,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 22,
+      "side": 22,
+      "mode": 2,
+      "advance": 121,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    },
+    {
+      "index": 23,
+      "side": 22,
+      "mode": 2,
+      "advance": 132,
+      "original_maximum": 154,
+      "within_original_envelope": true
+    }
+  ],
+  "title_cases": [
+    {
+      "side": 22,
+      "mode": 0,
+      "before_advance": 55,
+      "after_advance": 44,
+      "not_wider": true
+    },
+    {
+      "side": 22,
+      "mode": 1,
+      "before_advance": 52,
+      "after_advance": 41,
+      "not_wider": true
+    },
+    {
+      "side": 22,
+      "mode": 2,
+      "before_advance": 55,
+      "after_advance": 44,
+      "not_wider": true
+    },
+    {
+      "side": 26,
+      "mode": 0,
+      "before_advance": 65,
+      "after_advance": 52,
+      "not_wider": true
+    },
+    {
+      "side": 26,
+      "mode": 1,
+      "before_advance": 61,
+      "after_advance": 48,
+      "not_wider": true
+    },
+    {
+      "side": 26,
+      "mode": 2,
+      "before_advance": 65,
+      "after_advance": 52,
+      "not_wider": true
+    }
+  ],
+  "unique_glyph_probes": 165,
+  "limits": "Sum of advances using existing layout-v005 metrics. Not a real menu clip/line-height/GPU/PCSX2 test."
+}

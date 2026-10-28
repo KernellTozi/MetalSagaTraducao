@@ -444,3 +444,16 @@ Fang como personagem e Twin Fang como arma são preservados. Somente os
 componentes 625/631 permitem Presa/Presa grande. As quatro falas de Bus Stop
 Sign usam Placa de ônibus e concordância feminina; demais nomes protegidos
 continuam intactos. As 16 revisões bloqueadas anteriores não foram aplicadas.
+
+## Lacunas pequenas de interface — v046
+
+- TITLE na variante de saída da nomeação passa a SAIR. O fluxo de conclusão
+  sem confirmar o nome foi demonstrado; o destino externo não foi. Não usar
+  essa prova para afirmar retorno obrigatório à tela de título ou alterar ações.
+- Lake Bridge E: Pte. do lago L; Isle W: Ilha O; Medical Lab: Lab. médico;
+  Transport Pod: Cáp. transp. São quatro destinos genéricos explícitos.
+- L/O indicam leste/oeste nesses rótulos. Os outros 21 destinos, inclusive
+  Junkyard e variantes de cidades, conservam os nomes e sufixos originais.
+
+Nomes até o maior comprimento original de 14 bytes, sem ampliar caracteres.
+Maiúsculas e minúsculas de nomes próprios continuam sob preservação.

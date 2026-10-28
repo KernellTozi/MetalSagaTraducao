@@ -80,6 +80,9 @@ def expected_interface(binding):
     return expected
 
 def validate_interface(recipe):
+    if 'interface_gap_review' in recipe:
+        from interface_gaps import validate_interface as validate_gaps
+        return validate_gaps(recipe)
     if recipe!=expected_interface(recipe['pending_name_resolution']):raise ValueError('Non-authorized interface change in pending resolution')
 
 def term_exception(row,text):

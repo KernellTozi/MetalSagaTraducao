@@ -69,6 +69,7 @@ def _run(elf,start,windows,regs,regions,stop):
             elif fn==36:regs[rd]=regs[rs]&regs[rt]
             elif fn==37:regs[rd]=regs[rs]|regs[rt]
             elif fn==38:regs[rd]=regs[rs]^regs[rt]
+            elif fn==43:regs[rd]=int((regs[rs]&0xffffffff)<(regs[rt]&0xffffffff))
             elif fn==10:
                 if regs[rt]==0:regs[rd]=regs[rs]
             elif fn==8:pending=regs[rs]
@@ -77,9 +78,9 @@ def _run(elf,start,windows,regs,regions,stop):
         elif op==12:regs[rt]=regs[rs]&u
         elif op==13:regs[rt]=regs[rs]|u
         elif op==15:regs[rt]=u<<16
-        elif op in (32,35,36,55):
-            value=access((regs[rs]+n)&0xffffffff,{32:1,35:4,36:1,55:8}[op])
-            regs[rt]=value-256 if op==32 and value>=128 else value
+        elif op in (32,33,35,36,55):
+            value=access((regs[rs]+n)&0xffffffff,{32:1,33:2,35:4,36:1,55:8}[op])
+            regs[rt]=value-256 if op==32 and value>=128 else value-65536 if op==33 and value>=32768 else value
         elif op in (40,43):access((regs[rs]+n)&0xffffffff,1 if op==40 else 4,regs[rt])
         elif op==5:pending=pc+4+n*4 if regs[rs]!=regs[rt] else pc+8
         elif op in (4,20,21):

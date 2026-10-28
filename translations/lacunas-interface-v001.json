@@ -1,0 +1,412 @@
+{
+  "schema": 1,
+  "policy": "small-interface-title-exit-and-generic-destinations-v001",
+  "parent_recipe": "translations/interface-v045.json",
+  "parent_recipe_sha256": "14f857542b016896d03653150d43707eec8f060683bf30078a9a7094ada4c2f9",
+  "title_evidence": {
+    "policy": "name-entry-title-exit-reviewed-v003",
+    "instruction_windows": [
+      {
+        "offset": 1097620,
+        "size": 24,
+        "sha256": "e1c743f7160675a7a59cef1a5e5a267f147b4f1f2cdbe213bd5cd9dacdf649d3"
+      },
+      {
+        "offset": 1097672,
+        "size": 16,
+        "sha256": "3806970c0fedc1c7c3a6a1b065e37f7e7d264c75ee8bdd95acee3077792a8591"
+      },
+      {
+        "offset": 1103440,
+        "size": 24,
+        "sha256": "91c465b8dfa2ca4458cf1d48d2cd32ef40a7ed6063b3f21a9010fdc4daf177eb"
+      },
+      {
+        "offset": 1103492,
+        "size": 4,
+        "sha256": "dbba1534d2976b129a866e779e94dbbd2d93d1c3fd4772b277687ea98cbe60fe"
+      },
+      {
+        "offset": 1103564,
+        "size": 4,
+        "sha256": "fbc74441ac58403a90c9f87b65c8fdacdbd6d733c3d7bd2c3324fdcbdc7dc991"
+      }
+    ],
+    "legacy_request_evidence": {
+      "resource": "SLUS_212.93",
+      "legend_offsets": [
+        3318544,
+        3318600,
+        3318656
+      ],
+      "title_slots": [
+        {
+          "offset": 3318558,
+          "capacity": 5
+        }
+      ],
+      "instruction_windows": [
+        {
+          "offset": 1096236,
+          "size": 40,
+          "sha256": "12a058e1b691021bf5500861ac6b48d24a64883e443ff87989e6a07659c0e0ec"
+        },
+        {
+          "offset": 1095632,
+          "size": 12,
+          "sha256": "d88aaa52104fa210d532264271669e7c0811c2c5ace0b1e1c6f245aad4a9e4bd"
+        },
+        {
+          "offset": 1097672,
+          "size": 16,
+          "sha256": "3806970c0fedc1c7c3a6a1b065e37f7e7d264c75ee8bdd95acee3077792a8591"
+        },
+        {
+          "offset": 1094160,
+          "size": 56,
+          "sha256": "7356376f30b6ee17d936447c0bc0abd73d622e70ef27f20f983e20aa787e5321"
+        }
+      ],
+      "state_table_offset": 3319104,
+      "state_table_targets_va": [
+        2147856,
+        2147872,
+        2147888,
+        2147904,
+        2147920
+      ],
+      "request_cases": [
+        {
+          "title_mode": 0,
+          "flags": 0,
+          "stop_offset": 1096340,
+          "requested_state": null
+        },
+        {
+          "title_mode": 0,
+          "flags": 2,
+          "stop_offset": 1095632,
+          "requested_state": 4
+        },
+        {
+          "title_mode": 1,
+          "flags": 0,
+          "stop_offset": 1095632,
+          "requested_state": 4
+        },
+        {
+          "title_mode": 1,
+          "flags": 2,
+          "stop_offset": 1095632,
+          "requested_state": 4
+        }
+      ],
+      "completion_cases": [
+        {
+          "field_9e": 0,
+          "return_value": 1
+        },
+        {
+          "field_9e": 1,
+          "return_value": 0
+        }
+      ],
+      "title_initialization_cases": [
+        {
+          "flags": 0,
+          "index": 0,
+          "title_mode": 0
+        },
+        {
+          "flags": 0,
+          "index": 1,
+          "title_mode": 0
+        },
+        {
+          "flags": 1,
+          "index": 0,
+          "title_mode": 1
+        },
+        {
+          "flags": 1,
+          "index": 1,
+          "title_mode": 0
+        },
+        {
+          "flags": 2,
+          "index": 0,
+          "title_mode": 0
+        },
+        {
+          "flags": 2,
+          "index": 1,
+          "title_mode": 0
+        },
+        {
+          "flags": 3,
+          "index": 0,
+          "title_mode": 0
+        },
+        {
+          "flags": 3,
+          "index": 1,
+          "title_mode": 0
+        }
+      ],
+      "config_call_sites": [
+        1538056,
+        1865416,
+        1966096,
+        1985784
+      ],
+      "observed": "Input requests state 4; setter writes +0x84=4/+0x88=0; state 4 dispatches to 0x10BF18; bounded terminal branch returns boolean",
+      "terminal_lh_simulated_by_harness": true,
+      "pending": "External owner/destination still requires proof; return-to-title meaning not approved",
+      "editing_authorized": false,
+      "pcsx2_executed": false
+    },
+    "terminal_and_dispatch_cases": [
+      {
+        "fade_field_9e": 0,
+        "completion": 1,
+        "name_commit_skipped": true
+      },
+      {
+        "fade_field_9e": 1,
+        "completion": 0,
+        "name_commit_skipped": true
+      },
+      {
+        "fade_field_9e": 65535,
+        "completion": 0,
+        "name_commit_skipped": true
+      }
+    ],
+    "translation": "SAIR",
+    "meaning": "Exit the name-entry operation without committing the name on the TITLE path.",
+    "limits": "Original bounded integer paths in synthetic RAM. Fade setup, object update callbacks, external owner/destination, controller, GPU and PS2 not executed. Does not claim return-to-title destination."
+  },
+  "destinations": {
+    "policy": "four-generic-destinations-existing-records-v001",
+    "source_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+    "evidence": {
+      "policy": "four-generic-destinations-existing-records-v001",
+      "table": {
+        "resource": "DATA/S/S_PACK.SDA",
+        "sda_node_offset": 217088,
+        "sda_entry": 3,
+        "offset": 517920,
+        "size": 1600,
+        "records": 25,
+        "unique_names": 25,
+        "name_field_bytes": 32,
+        "maximum_original_name_bytes": 14,
+        "original_pointer_cases": 25,
+        "original_pointer_lookup_executed": true,
+        "global_pointer_va": 4676392,
+        "instruction_windows": [
+          {
+            "offset": 446064,
+            "size": 16,
+            "sha256": "96456c6bffcebbe0bd2a61845affbe36d226e8c6487559caca810cd9c4151bf3"
+          },
+          {
+            "offset": 1176412,
+            "size": 40,
+            "sha256": "8d3bdbddc8a8a8e93b475152e2d3fee9defcec9c75249741dd0169fe8c50acc3"
+          }
+        ],
+        "editing_authorized": false,
+        "pending": "Review generic destinations versus protected cities; pin name consumers and preserve flags/coordinates/variable record tails. Do not repack as a plain string pool.",
+        "limits": "Original pointer selection executed; complete menu, unlock flags, writes, formatting and PS2 not executed"
+      },
+      "instruction_windows": [
+        {
+          "offset": 446064,
+          "size": 16,
+          "sha256": "96456c6bffcebbe0bd2a61845affbe36d226e8c6487559caca810cd9c4151bf3"
+        },
+        {
+          "offset": 1176412,
+          "size": 40,
+          "sha256": "8d3bdbddc8a8a8e93b475152e2d3fee9defcec9c75249741dd0169fe8c50acc3"
+        },
+        {
+          "offset": 1176496,
+          "size": 24,
+          "sha256": "8392ebea2abec6a9c9f044c063650932dc6bdf22a84f7a0c8b7dd16a895a2924"
+        },
+        {
+          "offset": 1114532,
+          "size": 52,
+          "sha256": "b15b4d8307d0c2fd5f3b7cf10a7527ad7919358b384617ca258b88e1888df9bc"
+        },
+        {
+          "offset": 260096,
+          "size": 24,
+          "sha256": "fc3da073c04e3310991dc62591cb4c775c1d874451b5264c26a964e0d61c22e9"
+        }
+      ],
+      "forwarding_cases": [
+        {
+          "index": 0,
+          "name_offset": 518024,
+          "font_size": 22
+        },
+        {
+          "index": 1,
+          "name_offset": 518084,
+          "font_size": 22
+        },
+        {
+          "index": 2,
+          "name_offset": 518140,
+          "font_size": 22
+        },
+        {
+          "index": 3,
+          "name_offset": 518212,
+          "font_size": 22
+        },
+        {
+          "index": 4,
+          "name_offset": 518268,
+          "font_size": 22
+        },
+        {
+          "index": 5,
+          "name_offset": 518332,
+          "font_size": 22
+        },
+        {
+          "index": 6,
+          "name_offset": 518400,
+          "font_size": 22
+        },
+        {
+          "index": 7,
+          "name_offset": 518472,
+          "font_size": 22
+        },
+        {
+          "index": 8,
+          "name_offset": 518528,
+          "font_size": 22
+        },
+        {
+          "index": 9,
+          "name_offset": 518584,
+          "font_size": 22
+        },
+        {
+          "index": 10,
+          "name_offset": 518632,
+          "font_size": 22
+        },
+        {
+          "index": 11,
+          "name_offset": 518696,
+          "font_size": 22
+        },
+        {
+          "index": 12,
+          "name_offset": 518752,
+          "font_size": 22
+        },
+        {
+          "index": 13,
+          "name_offset": 518800,
+          "font_size": 22
+        },
+        {
+          "index": 14,
+          "name_offset": 518872,
+          "font_size": 22
+        },
+        {
+          "index": 15,
+          "name_offset": 518932,
+          "font_size": 22
+        },
+        {
+          "index": 16,
+          "name_offset": 519000,
+          "font_size": 22
+        },
+        {
+          "index": 17,
+          "name_offset": 519056,
+          "font_size": 22
+        },
+        {
+          "index": 18,
+          "name_offset": 519124,
+          "font_size": 22
+        },
+        {
+          "index": 19,
+          "name_offset": 519184,
+          "font_size": 22
+        },
+        {
+          "index": 20,
+          "name_offset": 519244,
+          "font_size": 22
+        },
+        {
+          "index": 21,
+          "name_offset": 519308,
+          "font_size": 22
+        },
+        {
+          "index": 22,
+          "name_offset": 519368,
+          "font_size": 22
+        },
+        {
+          "index": 23,
+          "name_offset": 519416,
+          "font_size": 22
+        },
+        {
+          "index": 24,
+          "name_offset": 519464,
+          "font_size": 22
+        }
+      ],
+      "maximum_target_bytes": 14,
+      "name_field_bytes": 32,
+      "limits": "Original selection/forwarding integer windows; same observed 14-byte ceiling. No full text constructor, unlock/coordinate mutation, all-consumer census, GPU or PS2 execution."
+    },
+    "entries": [
+      {
+        "id": "location.name.014",
+        "record_sha256": "b5db1a2099076616bae79b421d641a4f1b39147f92d06f83fb506469e8db9446",
+        "source_sha256": "fe876b0b1d858859c88b7c6f005f5c93bb515afeed709fd3018a8ece7b16525e",
+        "index": 14,
+        "translation": "Pte. do lago L"
+      },
+      {
+        "id": "location.name.016",
+        "record_sha256": "39dd4f0887e90b805f4619dce6d856f109bfe076bfa96175ce375499c796aa69",
+        "source_sha256": "2411c3e269c4c9913f86663be340406be0452b6d64f800e01a76f1914123e667",
+        "index": 16,
+        "translation": "Ilha O"
+      },
+      {
+        "id": "location.name.022",
+        "record_sha256": "c89cbb26fd6a5e4d789772487603ca4527b40e1004dc4c213add43b89ce4372e",
+        "source_sha256": "2765a3c3f25d5b67fb2245a9ce2ba93aac36f39e77b7d5f8d6b96cc5b05b047d",
+        "index": 22,
+        "translation": "Lab. médico"
+      },
+      {
+        "id": "location.name.023",
+        "record_sha256": "9ab64f36a0e48c5f66d03356c71297df1107dd4ff648a57d93b20dd686db4030",
+        "source_sha256": "b947b4e118d41046c3fcfbbaea6cbcf9c6dddb8bf88726d6eeccb85ea6827343",
+        "index": 23,
+        "translation": "Cáp. transp."
+      }
+    ]
+  }
+}

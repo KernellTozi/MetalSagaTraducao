@@ -188,6 +188,10 @@ def compile_draft(data,draft):
     if draft.get('spack_interactions'):
         from spack_interactions import compile_interactions
         added,interaction_report=compile_interactions(data,draft['spack_interactions']);patches.extend(added)
+    destination_report={'accepted':0}
+    if draft.get('generic_destination_names'):
+        from interface_gaps import compile_locations
+        added,destination_report=compile_locations(data,draft['generic_destination_names']);patches.extend(added)
     name_report={'accepted':0}
     if draft.get('name_entry'):
         from name_entry_text import compile_name_entry
@@ -247,7 +251,7 @@ def compile_draft(data,draft):
         from interface_graphics import compile_graphics
         graphics_patches,graphics_report=compile_graphics(json.loads(raw))
         patches.extend(graphics_patches)
-    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted']+battle_report['accepted']+interaction_report['accepted']+password_report['accepted']+finish_report['accepted']+titles_report['accepted']+paint_report['accepted']+credits_report['accepted']+loading_report['accepted']+paint_menu_report['accepted'],
+    return patches,{'schema':1,'policy':draft['policy'],'source_sha256':ORIGINAL_SHA,'accepted':len(metadata)+resource_report['accepted']+graphics_report['accepted']+name_report['accepted']+spack_report['accepted']+status_report['accepted']+satcom_report['accepted']+item_report['accepted']+item_name_report['accepted']+install_report['accepted']+battle_report['accepted']+interaction_report['accepted']+password_report['accepted']+finish_report['accepted']+titles_report['accepted']+paint_report['accepted']+credits_report['accepted']+loading_report['accepted']+paint_menu_report['accepted']+destination_report['accepted'],
         'elf_strings':len(metadata),'resource_texts':resource_report,'patch_count':len(patches),
         **({'install_texts':install_report} if draft.get('install_texts') else {}),
         'graphic_labels':graphics_report,
@@ -265,6 +269,7 @@ def compile_draft(data,draft):
         **({'item_names':item_name_report} if draft.get('item_names') else {}),
         **({'spack_battle':battle_report} if draft.get('spack_battle') else {}),
         **({'spack_interactions':interaction_report} if draft.get('spack_interactions') else {}),
+        **({'generic_destination_names':destination_report} if draft.get('generic_destination_names') else {}),
         **({'name_entry':name_report} if draft.get('name_entry') else {}),
         **({'canine_status_context':context_report} if context_report else {}),
         **({'battle_spacing':{'policy':draft['battle_spacing']['policy'], 'codes':18,

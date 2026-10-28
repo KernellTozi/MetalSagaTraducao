@@ -1155,3 +1155,33 @@ não equivale ao PCSX2, que não foi executado. Visual segue em partida normal.
 bytes em 176 patches físicos, incluindo pool e ponteiros. Fontes/layout v005,
 ELF, gráficos e demais bytes iguais. Cinco ISOs e alpha por hash conferidos.
 Sem OneDrive ou desligamento automático nesta rodada.
+
+## Lacunas de interface — v046 (28/10/2026)
+
+Atual: `translations/interface-v046.json`, MAP v040, fontes/layout v005.
+`docs/interface-v046.md`: quatro nomes genéricos de destino novos e uma revisão
+de legenda; interface 3.840 campos, itens 541/zero pendentes naquele recorte,
+MAP 6.024 inalterado. Os 21 destinos restantes e todos os nomes próprios ficam.
+
+`interface_gap_review` vincula a v045 e só permite `generic_destination_names`
+com IDs 14/16/22/23 e `name-entry-title-exit-reviewed-v003`. Não generalizar os
+32 bytes físicos dos nomes: teto observado de 14, ponteiros/flags/+32, campos
++36/+40 e caudas preservados. Os destinos são Pte. do lago L, Ilha O,
+Lab. médico e Cáp. transp.; sufixos de cidades protegidas não são localizados.
+
+TITLE vira SAIR somente no slot de cinco bytes em 0x32A31E. A operação de
+nomeação conclui sem confirmar o nome nesse caminho; o destino externo ainda
+não foi demonstrado. Não declarar retorno garantido à tela de título. As
+outras variantes CANCEL/DELETE/BACK e bytes nativos continuam. O interpretador
+local recebeu LH com sinal/SLTU sem sinal, sem alterar instruções no jogo.
+
+121 testes passaram, oito novos. Probes executados de 25 lookups e 25
+encaminhamentos para fonte 22; 165 probes de glifos em 18 casos de largura,
+todos no envelope original. Nenhum PCSX2 executado; visual pendente em partida
+normal. Ledger v003 de nomes mantém 65 usos corretos e zero sem decisão.
+
+Iniciar-Teste.cmd usa `work/interface-v046-final/MetalSaga-ptbr-interface-v046.iso`;
+Preparar-Interface.cmd valida v046/MAP v040. Preflight e delta integral:
+46 bytes em cinco patches, só legenda ELF e quatro nomes S_PACK. Código,
+fontes, gráficos, MAP e demais bytes iguais. Cinco ISOs e alpha por hash
+conferidos. Sem OneDrive ou desligamento automático nesta rodada.
