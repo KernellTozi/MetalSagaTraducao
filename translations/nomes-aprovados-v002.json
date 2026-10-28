@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "policy": "item-approved-continuation-fixed-names-v001",
+  "parent_recipe": "translations/interface-v042.json",
+  "parent_recipe_sha256": "614573eb79433db27cf16e2bc2c5e19804b4e8bf29844f0dae179cc6d504c094",
+  "source_document_sha256": "5cd5c28bb4f2bdc74bcc73fa55922741c21dfebcdf3e41fc6062ad5be00da7f1",
+  "perception_description_sha256": "2f89dfe244520e3b895731a16c95b76fc6e2cf8a9d65d1e58ec13bd511b235ae",
+  "approved": [
+    {
+      "id": "item.name.0103",
+      "index": 103,
+      "source_sha256": "31a4730ecf0c55582ff532e16a418b97c60ca7380e7d344e4d7794f68fdf6d7f",
+      "record_sha256": "af1592699a9ce71fc97ff6defeaea66fbbaf447a738199bf196d7a11d031bc82",
+      "parent_effective_name_sha256": "31a4730ecf0c55582ff532e16a418b97c60ca7380e7d344e4d7794f68fdf6d7f",
+      "requested": "Óculos",
+      "translation": "Oculos",
+      "encoded_bytes": 6,
+      "encoded_hex": "4f63756c6f73",
+      "accent_fallback": true
+    },
+    {
+      "id": "item.name.0109",
+      "index": 109,
+      "source_sha256": "6991ea55c95231429df2e2a384fa4a94e77b6d38ec4e2ad9dd3eed485e251b65",
+      "record_sha256": "c102417ce825c490f5ae5350be73ecbce1b531498676051b3b827a03e114c5a2",
+      "parent_effective_name_sha256": "6991ea55c95231429df2e2a384fa4a94e77b6d38ec4e2ad9dd3eed485e251b65",
+      "requested": "Máscara hóquei",
+      "translation": "Máscara hóquei",
+      "encoded_bytes": 16,
+      "encoded_hex": "4d824173636172612068824871756569",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0112",
+      "index": 112,
+      "source_sha256": "61b411911ee906c51f93044ce5bd594c7d3871c6e5abb1aace424f29c1e369d7",
+      "record_sha256": "97bf51a18279fdce9b24a9679961afa51122eb2dd42aeb89264521775b762ad3",
+      "parent_effective_name_sha256": "61b411911ee906c51f93044ce5bd594c7d3871c6e5abb1aace424f29c1e369d7",
+      "requested": "Turbante aramida",
+      "translation": "Turbante aramida",
+      "encoded_bytes": 16,
+      "encoded_hex": "54757262616e7465206172616d696461",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0118",
+      "index": 118,
+      "source_sha256": "1fd2eb4ee34ba6176ee756b18b768b512ec1f0fbb1b516b75f009c08a13b760e",
+      "record_sha256": "89606b8d68d3c3c94023be96fce6c4d76572b40b12c79f65bf4931146d67f14d",
+      "parent_effective_name_sha256": "1fd2eb4ee34ba6176ee756b18b768b512ec1f0fbb1b516b75f009c08a13b760e",
+      "requested": "Orelha de coelho",
+      "translation": "Orelha de coelho",
+      "encoded_bytes": 16,
+      "encoded_hex": "4f72656c686120646520636f656c686f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0130",
+      "index": 130,
+      "source_sha256": "59e78a53a9ab1abe54a6a3cfc677cd7c0acb445f96e313b789cbb7818cb8d18f",
+      "record_sha256": "a09f4942113c86eb9d88230b15dd37f108fe91cdd5a267158e4a99924dc38934",
+      "parent_effective_name_sha256": "59e78a53a9ab1abe54a6a3cfc677cd7c0acb445f96e313b789cbb7818cb8d18f",
+      "requested": "Casaco polímero",
+      "translation": "Casaco polímero",
+      "encoded_bytes": 16,
+      "encoded_hex": "43617361636f20706f6c82476d65726f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0178",
+      "index": 178,
+      "source_sha256": "daf70eeb4efe14b3dc84d18c8d4db14ff24a56b5fbfc3fc0bc844ab24fdc32d9",
+      "record_sha256": "46fac0185821687d3b3012e1a3aa5fb7c0e107c20c9b5f2fe83299b97214dcf0",
+      "parent_effective_name_sha256": "daf70eeb4efe14b3dc84d18c8d4db14ff24a56b5fbfc3fc0bc844ab24fdc32d9",
+      "requested": "Placas polímero",
+      "translation": "Placas polímero",
+      "encoded_bytes": 16,
+      "encoded_hex": "506c6163617320706f6c82476d65726f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0342",
+      "index": 342,
+      "source_sha256": "f7ec31b19552c70ddede3aa226d954a30e5d58f67820bed8b93ff2dafb0f8a9f",
+      "record_sha256": "47bc4a19bfc921fa5c18118c0930c271754922d1b0deed684b5b412e145af374",
+      "parent_effective_name_sha256": "f7ec31b19552c70ddede3aa226d954a30e5d58f67820bed8b93ff2dafb0f8a9f",
+      "requested": "Kit de reparo",
+      "translation": "Kit de reparo",
+      "encoded_bytes": 13,
+      "encoded_hex": "4b69742064652072657061726f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0425",
+      "index": 425,
+      "source_sha256": "6281a03517bcaa3523b70f3eea372b1d27a3f0a5760b9a43d755d896307f2b50",
+      "record_sha256": "449c96773c98f3994d3c68a7fbf274141be515463051c257847f69557d046afe",
+      "parent_effective_name_sha256": "6281a03517bcaa3523b70f3eea372b1d27a3f0a5760b9a43d755d896307f2b50",
+      "requested": "Orelha de coelho",
+      "translation": "Orelha de coelho",
+      "encoded_bytes": 16,
+      "encoded_hex": "4f72656c686120646520636f656c686f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0861",
+      "index": 861,
+      "source_sha256": "524b7712a123e7714767e6d4847eadb41cd0f3a42d4a23a4a3b013438385515f",
+      "record_sha256": "3d24c31b80de837efc12757e589a005e13a62e5265fe49bd441643e90bd94c0f",
+      "parent_effective_name_sha256": "84bf94f17fd5dc3bab464a8f6c38a8c3b8e7cc70477f41bd1bb9f6103b1cdd33",
+      "requested": "Superpercepção",
+      "translation": "Superpercepção",
+      "encoded_bytes": 16,
+      "encoded_hex": "5375706572706572636570824082436f",
+      "accent_fallback": false
+    }
+  ]
+}

@@ -16,7 +16,11 @@ def measure(recipe_path):
     recipe_path=Path(recipe_path).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Width recipe outside translations')
     recipe=json.loads(recipe_path.read_text(encoding='utf-8'))
-    m=load_manifest(recipe['item_names']['user_review']);elf=SOURCE.read_bytes();patch=elf_patch(elf)
+    if 'approved_extension' in recipe['item_names']:
+        from item_name_approved_batch import load
+        m,_=load(recipe['item_names']['approved_extension'])
+    else:m=load_manifest(recipe['item_names']['user_review'])
+    elf=SOURCE.read_bytes();patch=elf_patch(elf)
     rows=[r for r in catalog(original(RESOURCE)) if not r['empty'] and not r['native']]
     @lru_cache(maxsize=None)
     def advance(char,side,mode):

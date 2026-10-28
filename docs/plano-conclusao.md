@@ -1,5 +1,14 @@
 # Plano para concluir a tradução
 
+**Atual — interface v043:** lote explicitamente aprovado aplicado a nove IDs:
+oito nomes retomados e revisão de 861 para Superpercepção. São 527 nomes
+aplicados e 14 pendentes; interface com 3.822 campos. Só Oculos perdeu acento,
+por falta do glifo Ó. A contagem correta de Superpercepção é 16 bytes e sua
+origem é Keen Senses; as menções anteriores a 17 bytes/Sixth Sense estavam
+incorretas. Demais sugestões e 16 revisões bloqueadas aguardam decisão.
+Ver `docs/interface-v043.md`; manter revisão visual agrupada no PCSX2.
+Sem desligamento ou OneDrive automático nesta rodada.
+
 **Revisão humana aplicada — v042:** processar somente a seção A do documento
 entregue: 72 IDs revisados, 35 ratificados já iguais, zero conflitos; preservar
 16 escolhas bloqueadas e uma alternativa não confirmada. [Entrega v042](interface-v042.md)

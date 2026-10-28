@@ -395,3 +395,17 @@ alternativa não ratificada de 861 permanecem como estavam.
 
 A primeira escolha de Nina passa a Eu quero ser um Hunter., preservando Hunter
 e o artigo. A opção de mecânico e os demais diálogos continuam iguais.
+
+## Lote aprovado v043 — oito retomadas e percepção
+
+- 103 Oculos: fallback sem Ó explicitamente autorizado por glifo ausente.
+- 109 Máscara hóquei; 112 Turbante aramida; 118/425 Orelha de coelho.
+- 130 Casaco polímero; 178 Placas polímero. Construções compactas aprovadas.
+- 342 Kit de reparo, distinto de Mechanic Kit/Kit mecânico.
+- 861 Superpercepção: origem comprovada Keen Senses e descrição de aumento
+  temporário da chance de ataque preventivo. São 16 bytes no codec real.
+  A indicação anterior de Sixth Sense e de 17 bytes para este ID estava errada.
+
+Não remover acentos já suportados. Não criar glifos exclusivamente para este
+lote; fallback sem acento somente quando necessário. Não aplicar outras
+sugestões pendentes por analogia. Fonte/layout continuam v005.

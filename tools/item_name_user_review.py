@@ -59,6 +59,9 @@ def prepare_config(parent,manifest,rows,binding):
 
 
 def validate_config(config,rows):
+    if 'approved_extension' in config:
+        from item_name_approved_batch import validate
+        return validate_config(validate(config,rows),rows)
     binding=config.get('user_review',{});m=load_manifest(binding)
     parent_path=(ROOT/m['parent_recipe']).resolve()
     if not parent_path.is_relative_to(ROOT/'translations'):raise ValueError('Human review parent outside translations')

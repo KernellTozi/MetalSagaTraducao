@@ -52,7 +52,7 @@ def protected(index):
               1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1046,1047,1048,1049)
             or index>1049)
 
-def validate_value(row,text,*,ceiling=None,remote_review=False):
+def validate_value(row,text,*,ceiling=None,remote_review=False,repair_review=False):
     if row['empty'] or row['native'] or protected(row['index']):raise ValueError('Protected, native or empty item name')
     value=encode(text);before=bytes.fromhex(row['source_hex'])
     if any(c in before for c in (37,124)):raise ValueError('Variable/control item name blocked')
@@ -73,6 +73,10 @@ def validate_value(row,text,*,ceiling=None,remote_review=False):
         from item_name_user_review import remote_exception
         if not remote_exception(row,text):raise ValueError('Unreviewed per-record Remote exception')
         issues=[issue for issue in issues if issue!='Termo/nome protegido ausente: Remote']
+    if repair_review:
+        from item_name_approved_batch import repair_exception
+        if not repair_exception(row,text):raise ValueError('Unreviewed Repair Kit exception')
+        issues=[issue for issue in issues if issue!='Termo/nome protegido ausente: Repair Kit']
     if issues:raise ValueError('; '.join(issues))
     return value
 
@@ -97,7 +101,7 @@ def compile_names(elf,config):
     if config['policy']==USER_REVIEW_POLICY:
         from item_name_user_review import validate_config
         user_review=validate_config(config,rows)
-    elif 'user_review' in config:raise ValueError('Legacy policy cannot consume human-review exceptions')
+    elif 'user_review' in config or 'approved_extension' in config:raise ValueError('Legacy policy cannot consume human-review exceptions')
     for target in config['entries']:
         if set(target)!={'id','source_sha256','record_sha256','translation','group'}:raise ValueError('Unknown item name metadata')
         key=target['id']
@@ -108,7 +112,8 @@ def compile_names(elf,config):
         if target['group'] not in ('generic-equipment','consumables-materials','furniture-accessories','skills','generic-key-items'):
             raise ValueError('Item name editorial context missing')
         remote_review=bool(user_review and row['index'] in user_review['remote_term_exception_ids'])
-        value=validate_value(row,target['translation'],ceiling=ceiling,remote_review=remote_review);values[key]=value
+        value=validate_value(row,target['translation'],ceiling=ceiling,remote_review=remote_review,
+            repair_review=bool(user_review and 'approved_extension' in config and row['index']==342));values[key]=value
         span=max(row['source_bytes'],len(value))+1
         before=raw[row['offset']:row['offset']+span]
         if before!=bytes.fromhex(row['source_hex'])+bytes(span-row['source_bytes']):raise ValueError('Nonzero item name tail is not editable padding')
@@ -141,6 +146,7 @@ def compile_names(elf,config):
         **({'ceiling_evidence':config['ceiling_evidence']} if ceiling else {}),
         'attributes_description_offsets_and_ids_unchanged':True,
         'shared_labels_consistent':not bool(exceptions),
+        **({'approved_extension':config['approved_extension']} if 'approved_extension' in config else {}),
         **({'human_review':{'binding':config['user_review'],'approved_ids':[r['id'] for r in user_review['approved']],
             'remote_term_exception_ids':user_review['remote_term_exception_ids'],
             'record_specific_alias_groups':exceptions,'all_other_shared_labels_consistent':True}} if user_review else {}),

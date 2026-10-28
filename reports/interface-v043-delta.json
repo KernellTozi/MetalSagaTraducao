@@ -1,0 +1,68 @@
+{
+  "old_recipe": "translations/interface-v042.json",
+  "new_recipe": "translations/interface-v043.json",
+  "source_iso_sha256": "5a687f70e0ae3bf79966204fbd36ea944951c5d6ebf75ebfc99d64c1e247fa69",
+  "output_iso_sha256": "cd893b79d21c345ce3533940d67fa10865128b949be1e7272a2b28261dc7eec5",
+  "iso_size": 1704427520,
+  "changed_bytes": 127,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "item.name.0103",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290052512,
+      "size": 8
+    },
+    {
+      "id": "item.name.0109",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290053280,
+      "size": 17
+    },
+    {
+      "id": "item.name.0112",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290053664,
+      "size": 17
+    },
+    {
+      "id": "item.name.0118",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290054432,
+      "size": 17
+    },
+    {
+      "id": "item.name.0130",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290055968,
+      "size": 17
+    },
+    {
+      "id": "item.name.0178",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290062112,
+      "size": 17
+    },
+    {
+      "id": "item.name.0342",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290083104,
+      "size": 14
+    },
+    {
+      "id": "item.name.0425",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290093728,
+      "size": 17
+    },
+    {
+      "id": "item.name.0861",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290149536,
+      "size": 17
+    }
+  ],
+  "pcsx2_executed": false
+}

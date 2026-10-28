@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v043.json",
+  "recipe_sha256": "202d874cdd434c2655b3d4155bd45a1cf50bb140d6d03a3624e5700a14554147",
+  "iso": {
+    "path": "work/interface-v043-final/MetalSaga-ptbr-interface-v043.iso",
+    "size": 1704427520,
+    "sha256": "cd893b79d21c345ce3533940d67fa10865128b949be1e7272a2b28261dc7eec5",
+    "verified": true
+  },
+  "applied": [
+    {
+      "id": "item.name.0103",
+      "index": 103,
+      "source_sha256": "31a4730ecf0c55582ff532e16a418b97c60ca7380e7d344e4d7794f68fdf6d7f",
+      "record_sha256": "af1592699a9ce71fc97ff6defeaea66fbbaf447a738199bf196d7a11d031bc82",
+      "parent_effective_name_sha256": "31a4730ecf0c55582ff532e16a418b97c60ca7380e7d344e4d7794f68fdf6d7f",
+      "requested": "Óculos",
+      "translation": "Oculos",
+      "encoded_bytes": 6,
+      "encoded_hex": "4f63756c6f73",
+      "accent_fallback": true
+    },
+    {
+      "id": "item.name.0109",
+      "index": 109,
+      "source_sha256": "6991ea55c95231429df2e2a384fa4a94e77b6d38ec4e2ad9dd3eed485e251b65",
+      "record_sha256": "c102417ce825c490f5ae5350be73ecbce1b531498676051b3b827a03e114c5a2",
+      "parent_effective_name_sha256": "6991ea55c95231429df2e2a384fa4a94e77b6d38ec4e2ad9dd3eed485e251b65",
+      "requested": "Máscara hóquei",
+      "translation": "Máscara hóquei",
+      "encoded_bytes": 16,
+      "encoded_hex": "4d824173636172612068824871756569",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0112",
+      "index": 112,
+      "source_sha256": "61b411911ee906c51f93044ce5bd594c7d3871c6e5abb1aace424f29c1e369d7",
+      "record_sha256": "97bf51a18279fdce9b24a9679961afa51122eb2dd42aeb89264521775b762ad3",
+      "parent_effective_name_sha256": "61b411911ee906c51f93044ce5bd594c7d3871c6e5abb1aace424f29c1e369d7",
+      "requested": "Turbante aramida",
+      "translation": "Turbante aramida",
+      "encoded_bytes": 16,
+      "encoded_hex": "54757262616e7465206172616d696461",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0118",
+      "index": 118,
+      "source_sha256": "1fd2eb4ee34ba6176ee756b18b768b512ec1f0fbb1b516b75f009c08a13b760e",
+      "record_sha256": "89606b8d68d3c3c94023be96fce6c4d76572b40b12c79f65bf4931146d67f14d",
+      "parent_effective_name_sha256": "1fd2eb4ee34ba6176ee756b18b768b512ec1f0fbb1b516b75f009c08a13b760e",
+      "requested": "Orelha de coelho",
+      "translation": "Orelha de coelho",
+      "encoded_bytes": 16,
+      "encoded_hex": "4f72656c686120646520636f656c686f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0130",
+      "index": 130,
+      "source_sha256": "59e78a53a9ab1abe54a6a3cfc677cd7c0acb445f96e313b789cbb7818cb8d18f",
+      "record_sha256": "a09f4942113c86eb9d88230b15dd37f108fe91cdd5a267158e4a99924dc38934",
+      "parent_effective_name_sha256": "59e78a53a9ab1abe54a6a3cfc677cd7c0acb445f96e313b789cbb7818cb8d18f",
+      "requested": "Casaco polímero",
+      "translation": "Casaco polímero",
+      "encoded_bytes": 16,
+      "encoded_hex": "43617361636f20706f6c82476d65726f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0178",
+      "index": 178,
+      "source_sha256": "daf70eeb4efe14b3dc84d18c8d4db14ff24a56b5fbfc3fc0bc844ab24fdc32d9",
+      "record_sha256": "46fac0185821687d3b3012e1a3aa5fb7c0e107c20c9b5f2fe83299b97214dcf0",
+      "parent_effective_name_sha256": "daf70eeb4efe14b3dc84d18c8d4db14ff24a56b5fbfc3fc0bc844ab24fdc32d9",
+      "requested": "Placas polímero",
+      "translation": "Placas polímero",
+      "encoded_bytes": 16,
+      "encoded_hex": "506c6163617320706f6c82476d65726f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0342",
+      "index": 342,
+      "source_sha256": "f7ec31b19552c70ddede3aa226d954a30e5d58f67820bed8b93ff2dafb0f8a9f",
+      "record_sha256": "47bc4a19bfc921fa5c18118c0930c271754922d1b0deed684b5b412e145af374",
+      "parent_effective_name_sha256": "f7ec31b19552c70ddede3aa226d954a30e5d58f67820bed8b93ff2dafb0f8a9f",
+      "requested": "Kit de reparo",
+      "translation": "Kit de reparo",
+      "encoded_bytes": 13,
+      "encoded_hex": "4b69742064652072657061726f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0425",
+      "index": 425,
+      "source_sha256": "6281a03517bcaa3523b70f3eea372b1d27a3f0a5760b9a43d755d896307f2b50",
+      "record_sha256": "449c96773c98f3994d3c68a7fbf274141be515463051c257847f69557d046afe",
+      "parent_effective_name_sha256": "6281a03517bcaa3523b70f3eea372b1d27a3f0a5760b9a43d755d896307f2b50",
+      "requested": "Orelha de coelho",
+      "translation": "Orelha de coelho",
+      "encoded_bytes": 16,
+      "encoded_hex": "4f72656c686120646520636f656c686f",
+      "accent_fallback": false
+    },
+    {
+      "id": "item.name.0861",
+      "index": 861,
+      "source_sha256": "524b7712a123e7714767e6d4847eadb41cd0f3a42d4a23a4a3b013438385515f",
+      "record_sha256": "3d24c31b80de837efc12757e589a005e13a62e5265fe49bd441643e90bd94c0f",
+      "parent_effective_name_sha256": "84bf94f17fd5dc3bab464a8f6c38a8c3b8e7cc70477f41bd1bb9f6103b1cdd33",
+      "requested": "Superpercepção",
+      "translation": "Superpercepção",
+      "encoded_bytes": 16,
+      "encoded_hex": "5375706572706572636570824082436f",
+      "accent_fallback": false
+    }
+  ],
+  "new_name_fields": 8,
+  "revised_name_fields": 1,
+  "item_names_applied": 527,
+  "item_names_pending": 14,
+  "interface_accumulated_fields": 3822,
+  "perception_identity": {
+    "id": 861,
+    "source_is_keen_senses": true,
+    "description_sha256": "2f89dfe244520e3b895731a16c95b76fc6e2cf8a9d65d1e58ec13bd511b235ae",
+    "effect": "Aumento temporário da chance de ataque preventivo, segundo a descrição original vinculada",
+    "correct_project_bytes": 16,
+    "previous_audit_correction": "Sixth Sense e 17 bytes estavam incorretos para este ID."
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v042.json",
+    "new_recipe": "translations/interface-v043.json",
+    "source_iso_sha256": "5a687f70e0ae3bf79966204fbd36ea944951c5d6ebf75ebfc99d64c1e247fa69",
+    "output_iso_sha256": "cd893b79d21c345ce3533940d67fa10865128b949be1e7272a2b28261dc7eec5",
+    "iso_size": 1704427520,
+    "changed_bytes": 127,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "item.name.0103",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290052512,
+        "size": 8
+      },
+      {
+        "id": "item.name.0109",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290053280,
+        "size": 17
+      },
+      {
+        "id": "item.name.0112",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290053664,
+        "size": 17
+      },
+      {
+        "id": "item.name.0118",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290054432,
+        "size": 17
+      },
+      {
+        "id": "item.name.0130",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290055968,
+        "size": 17
+      },
+      {
+        "id": "item.name.0178",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290062112,
+        "size": 17
+      },
+      {
+        "id": "item.name.0342",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290083104,
+        "size": 14
+      },
+      {
+        "id": "item.name.0425",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290093728,
+        "size": 17
+      },
+      {
+        "id": "item.name.0861",
+        "resource": "DATA/S/S_PACK.SDA",
+        "iso_offset": 1290149536,
+        "size": 17
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "automated_tests": {
+    "modules_and_cases": [
+      "test_approved_name_batch",
+      "test_human_item_revision",
+      "test_interface_generic_names",
+      "test_interface_name_ceiling",
+      "test_interface_battle_tables",
+      "test_item_name_audit",
+      "test_paint_menu_graphics",
+      "test_loading_graphics",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive",
+      "test_translation_policy",
+      "test_translation_pilot.PilotTests.test_changed_control_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_overflow_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_protected_name_change_blocks_entire_batch",
+      "test_translation_pilot.PilotTests.test_recipe_font_binding_and_historical_fallback"
+    ],
+    "tests": 97,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "width_audit": {
+    "report": "reports/nomes-aprovados-v002-larguras.json",
+    "unique_probes": 438,
+    "warnings": []
+  },
+  "visual": {
+    "offline_gfi_preview": "work/nomes-aprovados-v002/previa-nomes.png",
+    "offline_preview_inspected": true,
+    "actual_menu_validation": "pending_user_verification",
+    "pcsx2_executed": false
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "other_suggestions_applied": false,
+  "other_resources_unchanged": true,
+  "onedrive_copied": false,
+  "shutdown_requested_this_round": false
+}

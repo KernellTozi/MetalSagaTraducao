@@ -1068,3 +1068,26 @@ O usuário solicitou sugestões antes de decidir a aplicação. Entrega em
 `work/revisao-nomes-restantes-v001/`. Não aplicar essas sugestões nem as
 alternativas compactas sem a resposta do usuário. Base jogável segue v042;
 nomes protegidos e os 500 preservados não viraram tradução faltante.
+
+## Lote aprovado v043 — regra de fallback e percepção
+
+O usuário aprovou explicitamente IDs 103,109,112,118,130,178,342,425 e,
+após conferência de identidade, 861. Ver `docs/interface-v043.md` e
+`translations/nomes-aprovados-v002.json`. Atual: interface v043/MAP v038,
+527 nomes aplicados, 14 pendentes, 3.822 campos de interface. Não aplicar as
+demais sugestões ou as 16 revisões bloqueadas sem nova decisão.
+
+`approved_extension` vincula a v042 por hash e nove destinos exatos; mantém
+as permissões históricas v042. Kit de reparo tem exceção somente no ID 342,
+origem Repair Kit e destino exato. Fonte/layout v005 e demais textos intactos.
+O usuário permite fallback sem acento se o glifo não funcionar, sem criar
+novos glifos apenas para este lote; preservar todos os acentos suportados.
+Aqui somente 103 usa Oculos. As omissões de preposição nos nomes compactos
+foram explicitamente aprovadas; não generalizar para outras traduções.
+
+861 é Keen Senses, associado à descrição de chance de ataque preventivo.
+Superpercepção ocupa 16 bytes: corrigir a informação anterior de 17 bytes
+e de Sixth Sense quando explicar o estado atual, sem reescrever históricos.
+97 testes passaram, sete novos; 438 probes de largura sem exceder o envelope
+original. Prévia GFI local inspecionada, mas PCSX2 não executado e visual
+nos menus reais ainda pendente. Sem OneDrive/desligamento nesta rodada.
