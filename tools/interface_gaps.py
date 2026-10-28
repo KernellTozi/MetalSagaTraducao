@@ -144,4 +144,7 @@ def expected_interface(binding):
     return result
 
 def validate_interface(recipe):
+    if 'interface_remainder_review' in recipe:
+        from interface_remainder_graphics import validate_interface as validate_remainder
+        return validate_remainder(recipe)
     if recipe!=expected_interface(recipe['interface_gap_review']):raise ValueError('Non-authorized interface gap change')

@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v033**, sobre MAP v033 e fontes/layout v005. Rodada focada nos diálogos: **14 registros recuperados** por investigação de controles e seis origens nativas revisadas. Mantém todas as traduções anteriores, os 73 títulos da ficha, botões do cofre e FIM, além das **566 de 567 descrições traduzidas**, usadas por **925 itens**. A tabela de nomes continua com **516 registros traduzidos** e 25 pendentes. Hunter, Soldier, nomes próprios e MAIN/SUB/SE permanecem protegidos.
+**Interface v047**, sobre MAP v040 e fontes/layout v005. Última rodada: **cinco painéis de instruções de minigames e três rótulos de pintura**, preservando os seis botões anteriormente aprovados. Hunter, Soldier, nomes próprios, MAIN/SUB/SE, pôsteres Wanted e títulos decorativos permanecem protegidos.
 
-São **3.526 campos/ocorrências de interface** e **5.983 registros de diálogo alterados**. Restam **27 adiamentos MAP**: 19 nomes de tanques preservados e oito ocorrências nativas repetidas ainda sem contexto suficiente. A auditoria local reúne também 134 rótulos únicos de falantes em 1.527 referências, mantendo-os não editáveis. Isso não representa porcentagem de todo o jogo. O catálogo conhecido de descrições tem **99,82%** traduzido. O comando TITLE continua preservado; `%NO` e preços com `%` mantêm os bytes originais e exigem conferência específica, sem correção silenciosa.
+São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.024 registros MAP alterados**, sendo 5.983 com corpo/opções modificados. Há **541 nomes de itens aplicados**, zero pendentes naquele recorte genérico e 500 preservados; 16 revisões editoriais anteriormente bloqueadas continuam separadas. Restam oito ocorrências MAP nativas sem contexto, 49 rótulos sem orçamento e um painel japonês de regras sem uso demonstrado na edição inglesa. Isso não representa porcentagem de todo o jogo.
 
-ISO: `work/interface-v033/MetalSaga-ptbr-interface-v033.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; verificações binárias não substituem execução no PCSX2.
+ISO: `work/interface-v047/MetalSaga-ptbr-interface-v047.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; 133 testes automatizados e a comparação integral de ISOs não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/dialogos-v033.md)
+- [Lote atual e limites](docs/interface-v047.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

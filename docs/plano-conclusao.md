@@ -1,5 +1,23 @@
 # Plano para concluir a tradução
 
+**Atual — gráficos restantes de interface, v047:** cinco painéis de instruções
+de minigames traduzidos e três rótulos de pintura acrescentados (Chassi duas
+vezes e Editar). Preserva integralmente MAP v040, itens, fontes/layout v005,
+seis botões de pintura aprovados e demais traduções v046. São 3.848 unidades
+heterogêneas de interface, incluindo os cinco painéis completos; não contar
+cada painel como uma frase nem converter isso em porcentagem do jogo.
+133 testes passaram; delta integral limitado a 225.797 bytes em oito planos
+de pixels. Nenhuma alteração de código, fontes, ponteiros ou tamanho de ISO.
+Ver `docs/interface-v047.md` e `reports/interface-lacunas-v002.json`.
+Dos 20 candidatos gráficos existentes, nove estão cobertos por traduções,
+dez preservados pelas exclusões do usuário e um painel japonês de cães segue
+sem contexto/uso demonstrado na versão inglesa. Os três recursos especiais
+de semântica desconhecida não foram comprovados como textos. Permanecem
+separados os oito MAP nativos, 49 rótulos sem orçamento e 16 revisões editoriais
+de itens anteriormente bloqueadas. Próximo passo: revisão em partida normal;
+investigar o painel nativo somente com uma ocorrência concreta, sem repetir
+indefinidamente a triagem. PCSX2 não executado nesta rodada.
+
 **Atual — lacunas pequenas de interface, v046:** SAIR substitui TITLE na
 legenda pertinente à saída da nomeação, com prova de conclusão sem confirmação
 de nome; não foi provado o destino externo. Quatro destinos genéricos recebem

@@ -1,0 +1,1306 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v047.json",
+  "recipe_sha256": "6811e85621173983a39616889b12f3bfe598719dc25da3f3065d5ad3b8e7965a",
+  "iso": {
+    "path": "work/interface-v047/MetalSaga-ptbr-interface-v047.iso",
+    "size": 1704427520,
+    "sha256": "46bf798661588ff274e3f6cc7b71b2a1026738344856fe259f14feb54defb1ed",
+    "verified": true
+  },
+  "new_instruction_panels": 5,
+  "new_paint_labels": 3,
+  "interface_units_accumulated": 3848,
+  "unit_note": "Heterogeneous catalogue; five new units are complete instruction panels, not individual strings. Not a percentage of game.",
+  "map_changed_records": 6024,
+  "map_body_options_changed": 5983,
+  "speaker_references_changed": 912,
+  "item_names_applied": 541,
+  "tests": {
+    "modules_and_cases": [
+      "test_interface_gaps",
+      "test_pending_name_resolution",
+      "test_name_consistency",
+      "test_approved_name_batch",
+      "test_human_item_revision",
+      "test_interface_generic_names",
+      "test_interface_name_ceiling",
+      "test_interface_battle_tables",
+      "test_item_name_audit",
+      "test_paint_menu_graphics",
+      "test_loading_graphics",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive",
+      "test_translation_policy",
+      "test_translation_pilot.PilotTests.test_changed_control_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_overflow_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_protected_name_change_blocks_entire_batch",
+      "test_translation_pilot.PilotTests.test_recipe_font_binding_and_historical_fallback",
+      "test_interface_remainder_graphics"
+    ],
+    "tests_run": 133,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 178.69
+  },
+  "name_audit": {
+    "fields_scanned": 10690,
+    "preserved_reviewed_matches": 65,
+    "unresolved_matches": []
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v046.json",
+    "new_recipe": "translations/interface-v047.json",
+    "source_iso_sha256": "eaa4c7d4b0cffabd6d8a090bddfe1048f7a9c63b2ce8dceb764d6ec34d35d0b3",
+    "output_iso_sha256": "46bf798661588ff274e3f6cc7b71b2a1026738344856fe259f14feb54defb1ed",
+    "iso_size": 1704427520,
+    "changed_bytes": 225797,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "RMGALAN.0.001.ptbr-instructions",
+        "resource": "DATA/RDATA/RMGALAN.SDA",
+        "iso_offset": 1230911184,
+        "size": 262144
+      },
+      {
+        "id": "RMGDANCE.0.000.ptbr-instructions",
+        "resource": "DATA/RDATA/RMGDANCE.SDA",
+        "iso_offset": 1234359472,
+        "size": 262144
+      },
+      {
+        "id": "RMGDANCE.0.015.ptbr-instructions",
+        "resource": "DATA/RDATA/RMGDANCE.SDA",
+        "iso_offset": 1235344864,
+        "size": 262144
+      },
+      {
+        "id": "RMGKAERU.0.000.ptbr-instructions",
+        "resource": "DATA/RDATA/RMGKAERU.SDA",
+        "iso_offset": 1237171408,
+        "size": 262144
+      },
+      {
+        "id": "RMGTANK.0.000.ptbr-instructions",
+        "resource": "DATA/RDATA/RMGTANK.SDA",
+        "iso_offset": 1239278800,
+        "size": 262144
+      },
+      {
+        "id": "paint.component.chassi",
+        "resource": "DATA/S/S_PAINT.SDA",
+        "iso_offset": 1291270384,
+        "size": 8192
+      },
+      {
+        "id": "paint.stamp.editar",
+        "resource": "DATA/S/S_PAINT.SDA",
+        "iso_offset": 1291279696,
+        "size": 16384
+      },
+      {
+        "id": "paint.menu.six-reviewed-buttons",
+        "resource": "DATA/S/S_PAINT.SDA",
+        "iso_offset": 1291431792,
+        "size": 131072
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "graphics": {
+    "rules": {
+      "policy": "five-latin-minigame-instruction-panels-v001",
+      "accepted": 5,
+      "unit": "complete instruction panels",
+      "results": [
+        {
+          "id": "RMGALAN.0.001",
+          "source_texture_sha256": "1bf1a4c32cf4c138968039b539f310dce47f583edee8f4a9c1ed7c7958ada779",
+          "target_pixels_sha256": "9b5ecee9eacde146e207b3985ecc4ec5ad893d5bf57539e6e6b84463a4847c01",
+          "rows": [
+            {
+              "text": "Regras",
+              "rect": [
+                215,
+                14,
+                297,
+                40
+              ],
+              "height": 26,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Desvie dos ataques do tanque e chegue primeiro.",
+              "rect": [
+                38,
+                50,
+                431,
+                68
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Avance quando a torre não estiver mirando em você.",
+              "rect": [
+                38,
+                70,
+                457,
+                88
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Deitado, você sai da mira, mas o canhão ainda pode",
+              "rect": [
+                38,
+                90,
+                450,
+                108
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "atingi-lo.",
+              "rect": [
+                38,
+                110,
+                115,
+                128
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Esbarrar em um gato faz você tropeçar.",
+              "rect": [
+                108,
+                174,
+                428,
+                192
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Chegue em primeiro antes de o tempo acabar para",
+              "rect": [
+                38,
+                214,
+                432,
+                232
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "vencer!",
+              "rect": [
+                38,
+                234,
+                102,
+                252
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Controles",
+              "rect": [
+                204,
+                265,
+                308,
+                289
+              ],
+              "height": 24,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Aperte várias vezes para avançar",
+              "rect": [
+                92,
+                304,
+                365,
+                322
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Deitar",
+              "rect": [
+                92,
+                346,
+                143,
+                364
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            }
+          ],
+          "icons": [
+            {
+              "source_rect": [
+                172,
+                126,
+                227,
+                160
+              ],
+              "target_rect": [
+                38,
+                169,
+                93,
+                203
+              ],
+              "indices_sha256": "6cbca4493454f6416b9a9369470eadcef871a456408533e20f46f894e669ea99"
+            },
+            {
+              "source_rect": [
+                86,
+                255,
+                112,
+                280
+              ],
+              "target_rect": [
+                52,
+                301,
+                78,
+                326
+              ],
+              "indices_sha256": "af82a9e832a6d4dac1596bc75ecb93cc9b29c1845f5598387db05c144d19d3b1"
+            },
+            {
+              "source_rect": [
+                86,
+                287,
+                112,
+                313
+              ],
+              "target_rect": [
+                52,
+                343,
+                78,
+                369
+              ],
+              "indices_sha256": "77798424eb3dcf24b5bdede9546d979fb73b5fad610bad70ac36f4a34d733adf"
+            }
+          ],
+          "frame_and_bottom_padding_unchanged": true,
+          "reverse_roundtrip": true,
+          "source_sha256": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+          "texture_offset": 281280,
+          "ganm_offset": 544464,
+          "ganm_sha256": "a6736d6fc8c822994b232acac599997e5825918d86da874cbf018b7cab301bc7",
+          "full_panel_rect": [
+            0,
+            0,
+            512,
+            400
+          ]
+        },
+        {
+          "id": "RMGDANCE.0.000",
+          "source_texture_sha256": "21a381375555e0717d4cb6ca48567b8208e8ee1a0887717fa7768c55536e2782",
+          "target_pixels_sha256": "43aa387e7678b0b22ba2a9796ee471cc1af5735524c472600561abbc28ead7da",
+          "rows": [
+            {
+              "text": "Regras",
+              "rect": [
+                215,
+                14,
+                297,
+                40
+              ],
+              "height": 26,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Memorize e imite as poses dos Muscle Men. Observe as",
+              "rect": [
+                38,
+                54,
+                464,
+                72
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "poses e repita-as com o direcional.",
+              "rect": [
+                38,
+                74,
+                322,
+                92
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Observe as poses",
+              "rect": [
+                170,
+                120,
+                312,
+                138
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Repita na mesma ordem",
+              "rect": [
+                170,
+                154,
+                350,
+                172
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Pose diferente da rodada anterior",
+              "rect": [
+                170,
+                190,
+                446,
+                208
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Uma pose errada ou o tempo esgotado encerram o",
+              "rect": [
+                38,
+                236,
+                431,
+                254
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "jogo. Vamos lá, mostre esses músculos!",
+              "rect": [
+                38,
+                256,
+                354,
+                274
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Controles",
+              "rect": [
+                204,
+                302,
+                308,
+                326
+              ],
+              "height": 24,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Direcional: fazer pose",
+              "rect": [
+                141,
+                348,
+                321,
+                366
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            }
+          ],
+          "icons": [
+            {
+              "source_rect": [
+                295,
+                90,
+                406,
+                118
+              ],
+              "target_rect": [
+                38,
+                116,
+                149,
+                144
+              ],
+              "indices_sha256": "6f6ac836e5ba7d9fe4f3fed06a68dcb73729bcc1aa74d1b20f40b05be40aef1c"
+            },
+            {
+              "source_rect": [
+                319,
+                124,
+                419,
+                149
+              ],
+              "target_rect": [
+                38,
+                151,
+                138,
+                176
+              ],
+              "indices_sha256": "8a699da53a7f945df615d9dce9060a50e9a00f13bf87717b836328fcb93d52df"
+            },
+            {
+              "source_rect": [
+                219,
+                183,
+                333,
+                213
+              ],
+              "target_rect": [
+                38,
+                186,
+                152,
+                216
+              ],
+              "indices_sha256": "8f2ce89214d5faa5fcf75a75d47ef6a7cec28fb868fcad2d09c62cff53d898fd"
+            },
+            {
+              "source_rect": [
+                135,
+                329,
+                162,
+                358
+              ],
+              "target_rect": [
+                94,
+                343,
+                121,
+                372
+              ],
+              "indices_sha256": "cb3e9d713928944f7573101ca9b82a8a0bc3fc84e7efafbf9a8be83c84478d13"
+            }
+          ],
+          "frame_and_bottom_padding_unchanged": true,
+          "reverse_roundtrip": true,
+          "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+          "texture_offset": 160,
+          "ganm_offset": 263344,
+          "ganm_sha256": "a6736d6fc8c822994b232acac599997e5825918d86da874cbf018b7cab301bc7",
+          "full_panel_rect": [
+            0,
+            0,
+            512,
+            400
+          ]
+        },
+        {
+          "id": "RMGDANCE.0.015",
+          "source_texture_sha256": "1ae96969f58d57c8efa677ec31fabfb1daaa00d50cb82e876b1dd80d7ba94c53",
+          "target_pixels_sha256": "8ea1c44dc9f1e8babd77f3f00b6a6f6690d3bbba62baa426d757c29a2cbf9459",
+          "rows": [
+            {
+              "text": "Regras",
+              "rect": [
+                215,
+                14,
+                297,
+                40
+              ],
+              "height": 26,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Memorize e imite os movimentos dos dançarinos.",
+              "rect": [
+                38,
+                54,
+                415,
+                72
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Observe a dança e repita-a com o direcional.",
+              "rect": [
+                38,
+                74,
+                398,
+                92
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Observe os movimentos",
+              "rect": [
+                170,
+                120,
+                353,
+                138
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Repita na mesma ordem",
+              "rect": [
+                170,
+                154,
+                350,
+                172
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Movimento diferente da rodada",
+              "rect": [
+                170,
+                190,
+                417,
+                208
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "anterior",
+              "rect": [
+                170,
+                210,
+                237,
+                228
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Um passo errado ou o tempo esgotado encerram o",
+              "rect": [
+                38,
+                236,
+                431,
+                254
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "jogo. Agora, solte o corpo!",
+              "rect": [
+                38,
+                256,
+                261,
+                274
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Controles",
+              "rect": [
+                204,
+                302,
+                308,
+                326
+              ],
+              "height": 24,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Direcional: dançar",
+              "rect": [
+                141,
+                348,
+                290,
+                366
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            }
+          ],
+          "icons": [
+            {
+              "source_rect": [
+                274,
+                80,
+                389,
+                110
+              ],
+              "target_rect": [
+                38,
+                116,
+                153,
+                146
+              ],
+              "indices_sha256": "77a10820d30eaf290a7390fd12207d6d478d5dd0866e67a27025bcd461d97c81"
+            },
+            {
+              "source_rect": [
+                63,
+                137,
+                176,
+                166
+              ],
+              "target_rect": [
+                38,
+                151,
+                151,
+                180
+              ],
+              "indices_sha256": "32a5c18a7c5069ba85c1605ac11f5967a151f9b013135ac1c496369643d7a7a3"
+            },
+            {
+              "source_rect": [
+                296,
+                166,
+                411,
+                196
+              ],
+              "target_rect": [
+                38,
+                186,
+                153,
+                216
+              ],
+              "indices_sha256": "5ca120fbc23adc991ac17d06053e280e4903495a043ba0338f8a0f4376eebd8e"
+            },
+            {
+              "source_rect": [
+                113,
+                316,
+                142,
+                346
+              ],
+              "target_rect": [
+                94,
+                343,
+                123,
+                373
+              ],
+              "indices_sha256": "cffc9db4a993f3d604b95b41e1c1ff580fbed8d16335cdb3fa057b1fa2f4d1bc"
+            }
+          ],
+          "frame_and_bottom_padding_unchanged": true,
+          "reverse_roundtrip": true,
+          "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+          "texture_offset": 985552,
+          "ganm_offset": 1248736,
+          "ganm_sha256": "a6736d6fc8c822994b232acac599997e5825918d86da874cbf018b7cab301bc7",
+          "full_panel_rect": [
+            0,
+            0,
+            512,
+            400
+          ]
+        },
+        {
+          "id": "RMGKAERU.0.000",
+          "source_texture_sha256": "fe028c3920255d3c4e68f865011ca50879d78db7714b939c83f8b3739e03623d",
+          "target_pixels_sha256": "870187a960e0adcebc179ac1f67d1fadc0eef2109f863eda8efc4eca11dcc867",
+          "rows": [
+            {
+              "text": "Regras",
+              "rect": [
+                215,
+                12,
+                297,
+                38
+              ],
+              "height": 26,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Adivinhe qual sapo vai chegar primeiro. Faça sua",
+              "rect": [
+                38,
+                49,
+                430,
+                67
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "aposta e a corrida começa. Se o seu sapo vencer,",
+              "rect": [
+                38,
+                69,
+                440,
+                87
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "você ganha. Simples assim!",
+              "rect": [
+                38,
+                89,
+                255,
+                107
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Controles",
+              "rect": [
+                204,
+                133,
+                308,
+                157
+              ],
+              "height": 24,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Aposta",
+              "rect": [
+                227,
+                162,
+                284,
+                180
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Aumentar aposta",
+              "rect": [
+                115,
+                193,
+                249,
+                211
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Diminuir aposta",
+              "rect": [
+                115,
+                228,
+                236,
+                246
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Escolher sapo",
+              "rect": [
+                199,
+                261,
+                313,
+                279
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Mover cursor",
+              "rect": [
+                115,
+                292,
+                220,
+                310
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Confirmar",
+              "rect": [
+                115,
+                326,
+                193,
+                344
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Para correr: selecione",
+              "rect": [
+                38,
+                365,
+                221,
+                383
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "e aperte",
+              "rect": [
+                320,
+                365,
+                390,
+                383
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            }
+          ],
+          "icons": [
+            {
+              "source_rect": [
+                119,
+                183,
+                146,
+                211
+              ],
+              "target_rect": [
+                72,
+                188,
+                99,
+                216
+              ],
+              "indices_sha256": "4b1c120186ebd236a56439d200f67357dc38cde8a086f2cd62be2c7f8c719e88"
+            },
+            {
+              "source_rect": [
+                119,
+                215,
+                146,
+                242
+              ],
+              "target_rect": [
+                72,
+                223,
+                99,
+                250
+              ],
+              "indices_sha256": "1c6de49557572e68758ff2e71eb949ecdd2fd1a6a69ada74709266bd494a5e1d"
+            },
+            {
+              "source_rect": [
+                119,
+                272,
+                147,
+                300
+              ],
+              "target_rect": [
+                72,
+                288,
+                100,
+                316
+              ],
+              "indices_sha256": "de071a5f24d3b2b3eac9532328daf607570284bd1438eab97a47eb1886069915"
+            },
+            {
+              "source_rect": [
+                119,
+                303,
+                146,
+                330
+              ],
+              "target_rect": [
+                72,
+                321,
+                99,
+                348
+              ],
+              "indices_sha256": "bbf4f9b35a1cee7b083952ec1d3f63409e913cb4bf9dea0b19d8364aaa52111c"
+            },
+            {
+              "source_rect": [
+                290,
+                333,
+                361,
+                356
+              ],
+              "target_rect": [
+                240,
+                360,
+                311,
+                383
+              ],
+              "indices_sha256": "a9ad0606626c41411006102cf6621f263054d4ce20f06bec8bd2d8f520a5560a"
+            },
+            {
+              "source_rect": [
+                119,
+                183,
+                146,
+                211
+              ],
+              "target_rect": [
+                440,
+                358,
+                467,
+                386
+              ],
+              "indices_sha256": "4b1c120186ebd236a56439d200f67357dc38cde8a086f2cd62be2c7f8c719e88"
+            }
+          ],
+          "frame_and_bottom_padding_unchanged": true,
+          "reverse_roundtrip": true,
+          "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+          "texture_offset": 192,
+          "ganm_offset": 263376,
+          "ganm_sha256": "a6736d6fc8c822994b232acac599997e5825918d86da874cbf018b7cab301bc7",
+          "full_panel_rect": [
+            0,
+            0,
+            512,
+            400
+          ]
+        },
+        {
+          "id": "RMGTANK.0.000",
+          "source_texture_sha256": "3f64692d86d93dcbfb1955b3dfd4d36361d3c447494870e397f356d93aff409c",
+          "target_pixels_sha256": "3567bdb190e052c0172802fc2afbead6be4c1383be25e54a1ac79f2e9bea0bc8",
+          "rows": [
+            {
+              "text": "Regras",
+              "rect": [
+                215,
+                12,
+                297,
+                38
+              ],
+              "height": 26,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Destrua o máximo de inimigos que puder e desvie dos",
+              "rect": [
+                38,
+                49,
+                454,
+                67
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "ataques. Ao destruir um inimigo, uma cápsula pode",
+              "rect": [
+                38,
+                69,
+                437,
+                87
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "aparecer:",
+              "rect": [
+                38,
+                89,
+                120,
+                107
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Invencibilidade temporária",
+              "rect": [
+                83,
+                124,
+                294,
+                142
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Disparos rápidos por um tempo",
+              "rect": [
+                83,
+                155,
+                325,
+                173
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Movimento mais rápido por um tempo",
+              "rect": [
+                83,
+                186,
+                365,
+                204
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Atirar neles impede você de se mover por",
+              "rect": [
+                123,
+                222,
+                451,
+                240
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "um tempo.",
+              "rect": [
+                123,
+                242,
+                202,
+                260
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "O jogo acaba quando suas vidas ou o tempo se",
+              "rect": [
+                38,
+                268,
+                407,
+                286
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "esgotam.",
+              "rect": [
+                38,
+                288,
+                112,
+                306
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Controles",
+              "rect": [
+                204,
+                309,
+                308,
+                333
+              ],
+              "height": 24,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Mover: esq./dir.",
+              "rect": [
+                77,
+                351,
+                211,
+                369
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            },
+            {
+              "text": "Atirar",
+              "rect": [
+                287,
+                351,
+                335,
+                369
+              ],
+              "height": 18,
+              "horizontal_scale": 1
+            }
+          ],
+          "icons": [
+            {
+              "source_rect": [
+                38,
+                101,
+                68,
+                122
+              ],
+              "target_rect": [
+                38,
+                121,
+                68,
+                142
+              ],
+              "indices_sha256": "d2b521d6d73dd1640feae2506ae75e6b2f0b30c63fe2be356967bd59a86f9997"
+            },
+            {
+              "source_rect": [
+                38,
+                125,
+                68,
+                146
+              ],
+              "target_rect": [
+                38,
+                152,
+                68,
+                173
+              ],
+              "indices_sha256": "8acbbea806be283e0756a8ce891c2b999e9267bb774f26299913f5934a1b96ba"
+            },
+            {
+              "source_rect": [
+                38,
+                149,
+                68,
+                171
+              ],
+              "target_rect": [
+                38,
+                183,
+                68,
+                205
+              ],
+              "indices_sha256": "9842000b12bed12cae3864efc8c086cc560c114dc8df5744be064b27b4ce8770"
+            },
+            {
+              "source_rect": [
+                39,
+                185,
+                109,
+                219
+              ],
+              "target_rect": [
+                38,
+                216,
+                108,
+                250
+              ],
+              "indices_sha256": "50ad34d1a7d073226ba5dbbf34a4f8e64edbc130eaf337d51ea3d2524cab509b"
+            },
+            {
+              "source_rect": [
+                119,
+                302,
+                147,
+                330
+              ],
+              "target_rect": [
+                38,
+                347,
+                66,
+                375
+              ],
+              "indices_sha256": "a4f57657c16c3df306876cd0952839fbc9b38fee12ff27ed88a5b048c0537e74"
+            },
+            {
+              "source_rect": [
+                119,
+                333,
+                146,
+                361
+              ],
+              "target_rect": [
+                247,
+                347,
+                274,
+                375
+              ],
+              "indices_sha256": "c6599e1a69d56c980ea924129fe5cea6e4982d063d90004c2c206b83327720a6"
+            }
+          ],
+          "frame_and_bottom_padding_unchanged": true,
+          "reverse_roundtrip": true,
+          "source_sha256": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e",
+          "texture_offset": 192,
+          "ganm_offset": 263376,
+          "ganm_sha256": "a6736d6fc8c822994b232acac599997e5825918d86da874cbf018b7cab301bc7",
+          "full_panel_rect": [
+            0,
+            0,
+            512,
+            400
+          ]
+        }
+      ],
+      "decorative_titles_and_wanted_posters_unchanged": true,
+      "runtime_visual_status": "pending_user_verification",
+      "limits": "Source-bound indexed transport and adjacent full-panel GANM geometry; source image contents inspected. No complete consumer census, controller/render loop or PCSX2 execution."
+    },
+    "paint": {
+      "policy": "paint-six-approved-plus-chassi-and-stamp-labels-v002",
+      "accepted": 9,
+      "preserved_approved_buttons": 6,
+      "new_labels": 3,
+      "results": [
+        {
+          "id": "paint.button.13.01",
+          "translation": "Chassi",
+          "changed_rect": [
+            14,
+            34,
+            104,
+            59
+          ],
+          "target_pixels_sha256": "fe93f51ad08b16b627d6027a698affa762291937209cc66e19e8e4af423eb411",
+          "original_ganm_sha256": "1429ac6930a87cac0671006b47231d28225267084a742f4d3588b3eb6258f336",
+          "base_six_approved_cells_unchanged": true,
+          "mixed_main_gun_original_pixels_unchanged": true
+        },
+        {
+          "id": "paint.button.06.00",
+          "translation": "Chassi",
+          "changed_rect": [
+            2,
+            2,
+            62,
+            22
+          ],
+          "target_pixels_sha256": "a12b31f878fde07715b6c4888e6c2256cbe355b874bfa6160177f0f62f0b0b85",
+          "original_ganm_sha256": "588a970672ff8072ed5ecf332afb1f3329fe4838aecf3224b26fd8839195056f",
+          "base_six_approved_cells_unchanged": true,
+          "mixed_main_gun_original_pixels_unchanged": true
+        },
+        {
+          "id": "paint.button.08.19",
+          "translation": "Editar",
+          "changed_rect": [
+            66,
+            74,
+            110,
+            94
+          ],
+          "target_pixels_sha256": "6fa1d26993c443bdca591f132ab711e40bc606e569454f3a580f87d07d3a879c",
+          "original_ganm_sha256": "4bb841f4472cfa4e6e7ade149556083fcabc42fc6ffd268caf13e55e46b6c7e6",
+          "base_six_approved_cells_unchanged": true,
+          "mixed_main_gun_original_pixels_unchanged": true
+        }
+      ],
+      "reverse_roundtrip": true,
+      "runtime_visual_status": "pending_user_verification",
+      "protected_SUB_SE_MAIN_pixels_unchanged": true
+    }
+  },
+  "source_candidate_triage": "reports/interface-lacunas-v002.json",
+  "previews": "work/interface-v047-preview-aprovacao",
+  "runtime_visual_status": "pending_user_verification",
+  "originals_modified": false,
+  "font_file_edits": false,
+  "elf_instruction_edits": false,
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "onedrive_copied": false,
+  "shutdown_requested_this_round": true,
+  "pcsx2_executed": false,
+  "optional_preview_cleanup": {
+    "status": "blocked_by_automatic_review",
+    "stated_reason": "blocked by policy",
+    "intermediate_previews_retained_locally": true,
+    "outside_git": true
+  }
+}

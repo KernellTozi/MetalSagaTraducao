@@ -66,6 +66,10 @@ def config(elf):
 
 
 def compile_graphics(elf,value):
+    from interface_remainder_graphics import PAINT_POLICY
+    if value.get('policy')==PAINT_POLICY:
+        from interface_remainder_graphics import compile_paint
+        return compile_paint(elf,value)
     expected=config(elf)
     if value!=expected:raise ValueError('Paint menu policy/source/geometry/approval/raster binding differs')
     raw,manifest=inventory();patch,rows=render(raw,manifest)

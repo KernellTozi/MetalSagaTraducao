@@ -1,0 +1,62 @@
+{
+  "old_recipe": "translations/interface-v046.json",
+  "new_recipe": "translations/interface-v047.json",
+  "source_iso_sha256": "eaa4c7d4b0cffabd6d8a090bddfe1048f7a9c63b2ce8dceb764d6ec34d35d0b3",
+  "output_iso_sha256": "46bf798661588ff274e3f6cc7b71b2a1026738344856fe259f14feb54defb1ed",
+  "iso_size": 1704427520,
+  "changed_bytes": 225797,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "RMGALAN.0.001.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "iso_offset": 1230911184,
+      "size": 262144
+    },
+    {
+      "id": "RMGDANCE.0.000.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "iso_offset": 1234359472,
+      "size": 262144
+    },
+    {
+      "id": "RMGDANCE.0.015.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "iso_offset": 1235344864,
+      "size": 262144
+    },
+    {
+      "id": "RMGKAERU.0.000.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1237171408,
+      "size": 262144
+    },
+    {
+      "id": "RMGTANK.0.000.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "iso_offset": 1239278800,
+      "size": 262144
+    },
+    {
+      "id": "paint.component.chassi",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "iso_offset": 1291270384,
+      "size": 8192
+    },
+    {
+      "id": "paint.stamp.editar",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "iso_offset": 1291279696,
+      "size": 16384
+    },
+    {
+      "id": "paint.menu.six-reviewed-buttons",
+      "resource": "DATA/S/S_PAINT.SDA",
+      "iso_offset": 1291431792,
+      "size": 131072
+    }
+  ],
+  "pcsx2_executed": false
+}

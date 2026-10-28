@@ -1185,3 +1185,42 @@ Preparar-Interface.cmd valida v046/MAP v040. Preflight e delta integral:
 46 bytes em cinco patches, só legenda ELF e quatro nomes S_PACK. Código,
 fontes, gráficos, MAP e demais bytes iguais. Cinco ISOs e alpha por hash
 conferidos. Sem OneDrive ou desligamento automático nesta rodada.
+
+## Gráficos restantes da interface — v047 (28/10/2026)
+
+Atual: `translations/interface-v047.json`, sobre MAP v040/layout v005.
+`Iniciar-Teste.cmd` abre `work/interface-v047/MetalSaga-ptbr-interface-v047.iso`;
+`Preparar-Interface.cmd` valida essa receita. Ver `docs/interface-v047.md`.
+Cinco painéis latinos de instruções de minigames e três rótulos de pintura:
+Chassi em duas imagens e Editar no carimbo. Os seis botões aprovados, 228
+legendas de pintura, itens e diálogos anteriores ficam preservados. As
+3.848 unidades de interface são heterogêneas e incluem cinco painéis completos;
+não usá-las como contagem de frases ou percentual de todo o jogo.
+
+`interface_remainder_review` vincula o hash exato da v046 e só autoriza
+`minigame_rules_graphics` e a revisão explícita de `paint_menu_graphics`.
+Políticas `five-latin-minigame-instruction-panels-v001` e
+`paint-six-approved-plus-chassi-and-stamp-labels-v002` em
+`tools/interface_remainder_graphics.py`. Os perfis históricos não mudam.
+Nunca importar SDA inteiro em cima das legendas anteriores. As duas células
+Chassi preservam todos os pixels de Main Gun/Sub/SE e os seis botões aprovados.
+
+Painéis 512x512/8bpp com GANM adjacente de sprite único [0,0,512,400]; editar
+somente interior [4,4,508,396]. Paleta, alpha, cabeçalho, bordas, região inferior,
+GANM e SDA imutáveis. Ícones copiados literalmente com hashes. Máscara GFI
+existente, sem compressão horizontal; nenhum arquivo de fonte da ISO muda.
+Carimbo tem redução uniforme para corpo de 14 pixels e quadro preservado.
+O encaminhamento do carimbo foi executado em 0x64A34–0x64A70 com bases fornecidas;
+não é execução completa do consumidor. Imagens comparativas foram inspecionadas,
+mas nenhum resultado desta rodada foi validado no PCSX2.
+
+133 testes passaram, 12 novos. Delta integral contra v046: 225.797 bytes em
+oito planos de pixels; ELF, MAP, fontes, diretório e demais bytes iguais.
+Ledger de nomes v004: 65 usos preservados e zero sem decisão. SHA e evidências
+em `reports/interface-v047.json`; triagem em `reports/interface-lacunas-v002.json`.
+Dos 20 atlas candidatos, nove cobertos por traduções, dez excluídos pelo usuário
+e um painel japonês de cães pendente de uso/contexto. Não traduzir esse painel
+por suposição. Três recursos especiais continuam sem prova de conter textos.
+Separar oito ocorrências nativas MAP, 49 rótulos sem espaço e 16 revisões de
+itens bloqueadas dessas contagens gráficas. Cinco ISOs e alpha por hash
+conferidos. Sem OneDrive; usuário solicitou desligamento após concluir a rodada.

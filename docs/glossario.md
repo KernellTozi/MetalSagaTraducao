@@ -457,3 +457,13 @@ continuam intactos. As 16 revisões bloqueadas anteriores não foram aplicadas.
 
 Nomes até o maior comprimento original de 14 bytes, sem ampliar caracteres.
 Maiúsculas e minúsculas de nomes próprios continuam sob preservação.
+
+## Gráficos de interface — v047
+
+- Chassis → Chassi nas duas imagens explicitamente delimitadas da pintura.
+- Edit → Editar no botão de edição de carimbo; Zoom permanece como empréstimo.
+- Rules → Regras; Controls → Controles nos cinco painéis latinos de minigames.
+- Muscle Men permanece como denominação do grupo; a instrução usa poses,
+  enquanto o outro painel de dança usa movimentos e passos.
+- Ícones de botões, START, cápsulas e personagens dos painéis mantêm os pixels
+  originais. MAIN/SUB/SE, pôsteres e títulos decorativos não são redesenhados.
