@@ -1,0 +1,830 @@
+{
+  "old_recipe": "translations/interface-v043.json",
+  "new_recipe": "translations/interface-v044.json",
+  "source_iso_sha256": "cd893b79d21c345ce3533940d67fa10865128b949be1e7272a2b28261dc7eec5",
+  "output_iso_sha256": "d139161f28152b90d50537c86195908be367cfc37fab597784fe7f570d97c763",
+  "iso_size": 1704427520,
+  "changed_bytes": 4110,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "map.msg.084ab3fc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 192889852,
+      "size": 168
+    },
+    {
+      "id": "map.msg.084ac950",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 192895312,
+      "size": 104
+    },
+    {
+      "id": "map.smsg.1774f70c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447317772,
+      "size": 128
+    },
+    {
+      "id": "map.smsg.1774fad4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447318740,
+      "size": 304
+    },
+    {
+      "id": "map.msg.17750764",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447321956,
+      "size": 188
+    },
+    {
+      "id": "map.msg.17750848",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447322184,
+      "size": 108
+    },
+    {
+      "id": "map.msg.17750be4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447323108,
+      "size": 164
+    },
+    {
+      "id": "map.msg.17750d8c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447323532,
+      "size": 76
+    },
+    {
+      "id": "ndata.help.143",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1227315200,
+      "size": 664
+    },
+    {
+      "id": "item.description-ref.0836",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146360,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0837",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146488,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0838",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146616,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0839",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146744,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0840",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146872,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0841",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147000,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0842",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147128,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0843",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147256,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0844",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147384,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0845",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147512,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0846",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147640,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0847",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147768,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0848",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290147896,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0849",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290148024,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0851",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290148280,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0853",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290148536,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0857",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290149048,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0863",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290149816,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0866",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290150200,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0867",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290150328,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0868",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290150456,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0870",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290150712,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0871",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290150840,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0874",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290151224,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0875",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290151352,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0878",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290151736,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0879",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290151864,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0880",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290151992,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0882",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290152248,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0892",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290153528,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0893",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290153656,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0896",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290154040,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0897",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290154168,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0898",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290154296,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0900",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290154552,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0901",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290154680,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0904",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155064,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0905",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155192,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0906",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155320,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0907",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155448,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0908",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155576,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0910",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155832,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0911",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290155960,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0912",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290156088,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0915",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290156472,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0922",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290157368,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0923",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290157496,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0924",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290157624,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0928",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290158136,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0929",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290158264,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0940",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290159672,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0941",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290159800,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0945",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290160312,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0949",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290160824,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0950",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290160952,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0951",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290161080,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0953",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290161336,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0960",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290162232,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0963",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290162616,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0964",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290162744,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0967",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163128,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0968",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163256,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0969",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163384,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0970",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163512,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0971",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163640,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0972",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163768,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0973",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290163896,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0974",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290164024,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0975",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290164152,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0977",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290164408,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0980",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290164792,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0981",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290164920,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0982",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290165048,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0983",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290165176,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0987",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290165688,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.0990",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290166072,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1002",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290167608,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1003",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290167736,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1004",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290167864,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1006",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168120,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1007",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168248,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1008",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168376,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1009",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168504,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1010",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168632,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1011",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168760,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1012",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290168888,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1013",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169016,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1014",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169144,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1015",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169272,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1016",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169400,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1017",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169528,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1018",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169656,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1019",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169784,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1020",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290169912,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1021",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170040,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1022",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170168,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1023",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170296,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1025",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170552,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1026",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170680,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1027",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170808,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1028",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290170936,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1029",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171064,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1030",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171192,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1031",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171320,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1032",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171448,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1033",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171576,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1034",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171704,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1035",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171832,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1036",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290171960,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1037",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172088,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1038",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172216,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1039",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172344,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1040",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172472,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1041",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172600,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1042",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172728,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1043",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172856,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1044",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290172984,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1045",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290173112,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1046",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290173240,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1047",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290173368,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1048",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290173496,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1049",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290173624,
+      "size": 4
+    },
+    {
+      "id": "item.description-ref.1050",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290173752,
+      "size": 4
+    },
+    {
+      "id": "spack.item.description.pool",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290212000,
+      "size": 20160
+    },
+    {
+      "id": "spack.reaction.pool",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290243536,
+      "size": 8864
+    },
+    {
+      "id": "elf.ui.00317580",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704177024,
+      "size": 28
+    },
+    {
+      "id": "elf.ui.0032eeb0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273584,
+      "size": 27
+    }
+  ],
+  "pcsx2_executed": false
+}

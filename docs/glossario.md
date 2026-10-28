@@ -409,3 +409,22 @@ e o artigo. A opção de mecânico e os demais diálogos continuam iguais.
 Não remover acentos já suportados. Não criar glifos exclusivamente para este
 lote; fallback sem acento somente quando necessário. Não aplicar outras
 sugestões pendentes por analogia. Fonte/layout continuam v005.
+
+## Referências contextuais — v044
+
+- O aparelho é Teleportador; Teleporte permanece como ação.
+- Memory Unit/Alpha Series usa Unidade de dados no inventário, descrição e
+  conversa de extração/entrega. Cartão de memória, Centro de Memória,
+  lembranças e um chip de memória de C Unit são contextos diferentes.
+- Pedidos de Repair Kit usam Kit de reparo, preservando Kit mecânico para
+  Mechanic Kit. Exceção terminológica restrita aos dois corpos revistos.
+- Ingredientes Syrup Cells/Gelatin Cells da receita de curry acompanham
+  Secreção doce/Massa gelatinosa.
+- Auxiliary shell é descrito como Projétil extra; não renomear os subtipos
+  ainda bloqueados para fazer a família parecer uniforme.
+- Half of a Map usa Metade do mapa na lista correspondente. Treasure Map
+  de uma loja/descrição genérica não é Cache Map/Pista secreta.
+
+Não converter palavras comuns como memória, armário, bloqueio e regenerar
+em nomes de itens/habilidades automaticamente. Preservar nomes de outros
+inimigos e instalações mesmo quando contêm palavras de nomes traduzidos.

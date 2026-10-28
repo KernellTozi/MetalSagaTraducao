@@ -1,5 +1,14 @@
 # Plano para concluir a tradução
 
+**Atual — consistência v044:** concluída a revisão de 81 ocorrências no
+recorte literal de 10.682 campos, incluindo todas as 69 anteriores. Foram
+corrigidas 25 ocorrências em 24 campos (16 de interface/oito MAP); 56 usos
+corretos preservados e zero sem decisão nesse recorte. Nomes continuam
+527 aplicados/14 pendentes. Ver `docs/consistencia-nomes-v001.md` e o auditor
+local `tools/audit_name_consistency.py`. Demais nomes em revisão não foram
+liberados. Próximas frentes seguem as lacunas específicas de interface e
+validação contextual/visual em partida normal; não reabrir falsos positivos.
+
 **Atual — interface v043:** lote explicitamente aprovado aplicado a nove IDs:
 oito nomes retomados e revisão de 861 para Superpercepção. São 527 nomes
 aplicados e 14 pendentes; interface com 3.822 campos. Só Oculos perdeu acento,

@@ -140,6 +140,10 @@ def compile_pool(elf,config):
         from description_percent import proof as percent_proof
         percent=percent_proof(elf,raw,config['literal_percent'])
     parent=parent_config(config);old={r['id']:r for r in parent['entries']}
+    revised=set()
+    if 'name_reference_review' in config:
+        from name_reference_review import revised_descriptions
+        revised=revised_descriptions(config)
     resumed=config['resumed_ids']
     if len(resumed)!=len(set(resumed)) or set(resumed)&old.keys():raise ValueError('Invalid explicit description resumption')
     targets={};results=[]
@@ -150,8 +154,11 @@ def compile_pool(elf,config):
         if entry['source_sha256']!=row['source_sha256'] or entry['item_records']!=row['items']:
             raise ValueError('Description source/alias binding differs')
         if key in old:
-            if entry!=old[key]:raise ValueError('Earlier description translation changed')
-            value=validate_fixed(before,entry['translation']);validate_names(before.decode(),entry['translation'])
+            if key in revised:value=validate_value(before,entry['translation'])
+            else:
+                if entry!=old[key]:raise ValueError('Earlier description translation changed')
+                value=validate_fixed(before,entry['translation'])
+            validate_names(before.decode(),entry['translation'])
         elif key in resumed:
             if percent and key==config['literal_percent']['id']:
                 from description_percent import validate_value as percent_value

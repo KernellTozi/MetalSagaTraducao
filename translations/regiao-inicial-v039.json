@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v038.json",
+  "name": "regiao-inicial-v039",
+  "status": "Consistência de referências: unidade de dados e Kit de reparo, sem outras revisões.",
+  "translations": {
+    "map.smsg.1774f70c": {
+      "body": "Quer que eu retire\na unidade de dados?",
+      "choices": "Retire.\tDeixe as memórias morrerem."
+    },
+    "map.smsg.1774fad4": {
+      "body": "...Posso retirar\na unidade de dados...\tO módulo que guarda\ntodas as lembranças.\tDepois, é só instalar\nem um novo corpo.\tA aparência mudaria,\nmas as memórias\nficariam intactas.",
+      "choices": "Certo. Retire.\tDeixe as memórias morrerem."
+    },
+    "map.msg.17750764": "Obrigado por me salvar,\n%N0.\tParece que queriam\nroubar de %N5 a\nunidade de dados.\tNão sei como\ndescobriram isso...\t%M0_7Quem eram\naqueles sujeitos?",
+    "map.msg.17750848": "%M0_1Consegui retirar\na unidade de\ndados dela.\tAqui. Pegue.",
+    "map.msg.17750be4": "Parece que queriam\nroubar de %N5 a\nunidade de dados.\tNão sei como\ndescobriram isso...\t%M0_7Quem eram\naqueles sujeitos?",
+    "map.msg.17750d8c": "É de %N5:\na unidade de dados.\tPegue.",
+    "map.msg.084ab3fc": "Desculpe incomodar.\nPor acaso tem\num Kit de reparo?\tO motor do caminhão\nparou e precisa de conserto.\tEstávamos quase\nem casa...",
+    "map.msg.084ac950": "Tem um Kit de reparo\naí?\tNão consigo\nconsertar o caminhão."
+  },
+  "reviewed_changes": [
+    "map.smsg.1774f70c",
+    "map.smsg.1774fad4",
+    "map.msg.17750764",
+    "map.msg.17750848",
+    "map.msg.17750be4",
+    "map.msg.17750d8c",
+    "map.msg.084ab3fc",
+    "map.msg.084ac950"
+  ],
+  "name_reference_review": {
+    "recipe": "translations/consistencia-nomes-v001.json",
+    "sha256": "219c0c968e3eed55fe0fe04ae54a740fa434ddc4d774dbe168e3c70176b66afd"
+  }
+}

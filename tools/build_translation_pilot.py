@@ -91,6 +91,9 @@ def load_draft(path,chain=()):
 
 
 def compile_draft(data,draft):
+    if 'name_reference_review' in draft:
+        from name_reference_review import validate_narrative
+        validate_narrative(draft)
     if draft.get('schema')!=1 or draft.get('font_profile')!=PROFILE:
         raise ValueError('Unsupported pilot schema/font profile')
     policy=draft.get('reinsertion_policy',POLICY)
@@ -152,8 +155,13 @@ def compile_draft(data,draft):
                 from translation_policy import validate
                 if not isinstance(segment['translation'],str):raise ValueError('Invalid translation')
                 if segment['translation']!=segment['source']:
+                    issues=validate(segment['source'],segment['translation'])
+                    if 'name_reference_review' in draft:
+                        from name_reference_review import filter_terminology
+                        issues=filter_terminology(draft['name_reference_review'],entry['id'],segment['key'],
+                                                 segment['source'],segment['translation'],issues)
                     terminology.extend({'id':entry['id'],'segment':segment['key'],'reason':reason}
-                                       for reason in validate(segment['source'],segment['translation']))
+                                       for reason in issues)
     decisions=draft.get('preservation_decisions',{})
     if not isinstance(decisions,dict):raise ValueError('Invalid preservation decisions')
     for key,reason in decisions.items():

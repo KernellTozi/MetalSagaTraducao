@@ -67,6 +67,7 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     from item_name_user_review import POLICY,load_manifest
     from item_names import CEILING_POLICY,catalog,original,RESOURCE
     before=old_ui.get('item_names',{});after=new_ui.get('item_names',{})
+    if before==after:return
     if before.get('policy')==POLICY and after.get('policy')==POLICY and 'approved_extension' in after:
         from item_name_approved_batch import load
         m,_=load(after['approved_extension'])

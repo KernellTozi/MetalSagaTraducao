@@ -1,0 +1,312 @@
+{
+  "schema": 1,
+  "policy": "context-reviewed-canonical-name-references-v001",
+  "parent_interface": "translations/interface-v043.json",
+  "parent_interface_sha256": "202d874cdd434c2655b3d4155bd45a1cf50bb140d6d03a3624e5700a14554147",
+  "parent_dialogue_file_sha256": "32a51c8cc9bc1442e4e975ac0695f229d4eeee58d95f36da8d2341c117c9597e",
+  "new_dialogue": "translations/regiao-inicial-v039.json",
+  "dialogue_name": "regiao-inicial-v039",
+  "dialogue_status": "Consistência de referências: unidade de dados e Kit de reparo, sem outras revisões.",
+  "iso_name": "MetalSaga-ptbr-interface-v044.iso",
+  "interface_status": "Consistência contextual dos nomes aprovados; 16 campos de interface e oito diálogos revistos.",
+  "interface_changes": [
+    {
+      "path": [
+        "entries",
+        2,
+        "translation"
+      ],
+      "parent_text_sha256": "3f6c9c5e76357225042ec063aee2df4edacb230324656cec9dc14b46e9a53bea",
+      "translation": "Falta um Teleportador",
+      "reason": "Nome canônico do equipamento Teleportador.",
+      "item_ids": [
+        "item.name.0784"
+      ]
+    },
+    {
+      "path": [
+        "entries",
+        216,
+        "translation"
+      ],
+      "parent_text_sha256": "fd21ea4aaf7db8efa473318cdadc47ee5899d0f87bfea1d688d08ed15ade85b7",
+      "translation": "Requer detector de metais",
+      "reason": "Aviso de categoria; os dois nomes completos excedem juntos o slot original de 26 bytes.",
+      "item_ids": [
+        "item.name.0710",
+        "item.name.0711"
+      ]
+    },
+    {
+      "path": [
+        "resource_texts",
+        "help",
+        14,
+        "translation"
+      ],
+      "parent_text_sha256": "93d0707cc7133ab776c62880ddf35878432084fe70cc6f308c698ddece6ed831",
+      "translation": "<HTML>1. Prepare a carne<BR>para cozinhar. Pique<BR>o alho e corte<BR>o restante dos<BR>legumes em<BR>pedaços pequenos.<BR><BR>2. Ponha a carne<BR>e os legumes em<BR>uma panela e junte<BR>o sal. Cubra<BR>com água e<BR>leve ao fogo.<BR><BR>3. Quando a carne<BR>cozinhar, misture<BR>os temperos de curry.<BR><BR>4. Tampe a panela<BR>e cozinhe em fogo<BR>baixo por 10 minutos.<BR><BR><FONT COLOR=GREEN>Nota:</FONT> Carne bovina,<BR>frango e peixe<BR>são comuns<BR>no curry,<BR>mas experimente<BR>usar <FONT COLOR=YELLOW>Secreção doce</FONT><BR>e <FONT COLOR=YELLOW>Massa gelatinosa</FONT>.</HTML>",
+      "reason": "Ingredientes pelos nomes aprovados, preservando tags, números e receita.",
+      "item_ids": [
+        "item.name.0378",
+        "item.name.0379"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        468,
+        "translation"
+      ],
+      "parent_text_sha256": "72a2f40b0c9ddb5efe36085946b46d35b7e0a12d331a49037529bc5f5e2e5cf9",
+      "translation": "Projétil extra: igual|a um projétil comum.",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        469,
+        "translation"
+      ],
+      "parent_text_sha256": "3356a577ce6a5441b64b60c146419e666b55195c3603dc9de8825905731df663",
+      "translation": "Projétil extra|(explosão).",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        470,
+        "translation"
+      ],
+      "parent_text_sha256": "a7978600af985bc85cd84e16347dcdf74c167e43ea9cbe8dfee1f49cfd2f1689",
+      "translation": "Projétil extra (raio).",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        471,
+        "translation"
+      ],
+      "parent_text_sha256": "1f2440f6954a24887969733102be715b18079d972e25c9df15ebfe97374ef95b",
+      "translation": "Projétil extra (som).",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        472,
+        "translation"
+      ],
+      "parent_text_sha256": "3da43160fd7f8d0801580f4398459e1135998ab7bd59aa46d9b59a656ed69e1e",
+      "translation": "Projétil extra (fogo).",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        473,
+        "translation"
+      ],
+      "parent_text_sha256": "70be7841bb2a34ade6646923d0a4b70de3e3a8879ea900cd0b6d02e189953a81",
+      "translation": "Projétil extra|(elétrico).",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        474,
+        "translation"
+      ],
+      "parent_text_sha256": "6a7e549137eabd5e3fac2625f66821e1d1db2bed153d2aa65ad39513fbfbb8c4",
+      "translation": "Projétil extra (gelo).",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        475,
+        "translation"
+      ],
+      "parent_text_sha256": "6f09920864f5b90dcb68cef42eca5c1fbd4fb8e6c459b510ec5980f49213cbe4",
+      "translation": "Projétil extra: atinge|inimigos aéreos.",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        476,
+        "translation"
+      ],
+      "parent_text_sha256": "58d4d8ae603339b6aba2d4035241e63972b57505604e8e44147766ff76b5939f",
+      "translation": "Projétil extra",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        477,
+        "translation"
+      ],
+      "parent_text_sha256": "ceb538208552220ad987e0d13f4ba78a9141e67fd402627dd8a185f2eac89e87",
+      "translation": "Projétil extra: atinge|fora do alcance.",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        478,
+        "translation"
+      ],
+      "parent_text_sha256": "eeae93b92f0f022f1e7857a828c612800f23ce60e7de918f0082606bbad20637",
+      "translation": "Projétil extra: atinge|inimigos abrigados.",
+      "reason": "Categoria da munição pelo rótulo Projétil extra, sem alterar efeitos.",
+      "item_ids": [
+        "item.name.0835"
+      ]
+    },
+    {
+      "path": [
+        "item_descriptions",
+        "entries",
+        540,
+        "translation"
+      ],
+      "parent_text_sha256": "c095d506d4dcc0c2b8a6b32155dd5b0ab02838c064d36c3649fe3185f73e5c23",
+      "translation": "Unidade de dados|da Alpha Series.",
+      "reason": "Referência explícita ao item 1012 da Alpha Series.",
+      "item_ids": [
+        "item.name.1012"
+      ]
+    },
+    {
+      "path": [
+        "spack_interactions",
+        "reaction",
+        "entries",
+        138,
+        "translation"
+      ],
+      "parent_text_sha256": "3aa6d6cc7e8c3d5361bf9484e156fa17d34cf39bd14584bd90b5355e5a3dcc0b",
+      "translation": "1. Mapa rasgado  2. Pedaço de mapa|3. Metade do mapa  4. ?",
+      "reason": "Mesma formulação aprovada para Half of a Map; manter as quatro alternativas.",
+      "item_ids": [
+        "item.name.1021",
+        "item.name.1040"
+      ]
+    }
+  ],
+  "dialogue_changes": [
+    {
+      "id": "map.smsg.1774f70c",
+      "parent_value_sha256": "4e84902e84354b613e8bb4d9733dbb0abb410f754287df8dd0410cc44256b922",
+      "translation": {
+        "body": "Quer que eu retire\na unidade de dados?",
+        "choices": "Retire.\tDeixe as memórias morrerem."
+      },
+      "source_body_sha256": "162bad11f53c34de3efcdea360b29b9870eca893cb0fa10da1f4de962628d22a",
+      "source_record_sha256": "8677890eb10c4c92302ae1f3266ff094a2a65b481e96b61406e6abda6a58296e",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.smsg.1774fad4",
+      "parent_value_sha256": "c834eefaee6f90b3a181ce825c7ca7ab394fd1facb5d7ae367b87390e8bc14e1",
+      "translation": {
+        "body": "...Posso retirar\na unidade de dados...\tO módulo que guarda\ntodas as lembranças.\tDepois, é só instalar\nem um novo corpo.\tA aparência mudaria,\nmas as memórias\nficariam intactas.",
+        "choices": "Certo. Retire.\tDeixe as memórias morrerem."
+      },
+      "source_body_sha256": "4baabe0e0fb4138b2b9172ce5c29631ac2fa3c5474e3048fc4b701ff1d3e1e1c",
+      "source_record_sha256": "451eb1f034605a2f086f83daf87100f586a7651eb6ec3e61de64410a96fd41b6",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.msg.17750764",
+      "parent_value_sha256": "0fbe2499425714ac70a0700cb01f08d3a7dc65d8695d3eaee0005e0532eadeb7",
+      "translation": "Obrigado por me salvar,\n%N0.\tParece que queriam\nroubar de %N5 a\nunidade de dados.\tNão sei como\ndescobriram isso...\t%M0_7Quem eram\naqueles sujeitos?",
+      "source_body_sha256": "42aeea76d55c4d0b32252ab881343c95c4106ab34328409fbbde3265c2a9b87a",
+      "source_record_sha256": "90d2544cc3cc940b030955b98c0cc34f22103e799ac4a7a7cf623428887c3a04",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.msg.17750848",
+      "parent_value_sha256": "75fc771f55cdf4bb19695b9a2bc46e4ffbcc6f776136c6106a080455c08d9430",
+      "translation": "%M0_1Consegui retirar\na unidade de\ndados dela.\tAqui. Pegue.",
+      "source_body_sha256": "a37f0228d9e21aa5cbb0fc99df0b8a9657c9c4b9758fce82f1ec12af5953fbb6",
+      "source_record_sha256": "b6d2a7ea4d775adbdd7ffab3c8b0305662ccd13195df52c0d947b2f5320a12ac",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.msg.17750be4",
+      "parent_value_sha256": "6a6bb86d268a306c3c6eaf4929d842ed57a79926d664b99ddfe8cdee5252224a",
+      "translation": "Parece que queriam\nroubar de %N5 a\nunidade de dados.\tNão sei como\ndescobriram isso...\t%M0_7Quem eram\naqueles sujeitos?",
+      "source_body_sha256": "4fe99c3b977de36262391b167f4859b443ad5ae377b7d464c843b72f92955669",
+      "source_record_sha256": "77876941a9c6f8330d4308487842ac82128fbc8cbe84c53178394f9759990a01",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.msg.17750d8c",
+      "parent_value_sha256": "157859ed406afafdf0539deb1b3dccc2624e07d8fb13c49bd70bf4e855f63b5b",
+      "translation": "É de %N5:\na unidade de dados.\tPegue.",
+      "source_body_sha256": "accaf4ffca73eb791ebffb290bc6d580c7b5df1cc6ea9429f6e907753585defb",
+      "source_record_sha256": "df3ed14b083ff75f155f8b2f36b5f936b102eb2fd93aa6f0de273382cfc42944",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.msg.084ab3fc",
+      "parent_value_sha256": "1086b0445d7001ef0491c5ad324b3c15ba74c0ddf40b6624aefbea5900e5f98a",
+      "translation": "Desculpe incomodar.\nPor acaso tem\num Kit de reparo?\tO motor do caminhão\nparou e precisa de conserto.\tEstávamos quase\nem casa...",
+      "source_body_sha256": "27294510381b97bfb08368e06299809bac1bf469861cf6e0b44c24f7b6a17bd0",
+      "source_record_sha256": "6ae56c783bab1cd7839b75f26d2afd820855a37b75bd8df0d69782734ff3c8a2",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    },
+    {
+      "id": "map.msg.084ac950",
+      "parent_value_sha256": "6dc47bbfbf0278e656fe740822edcbad51cd4f07560a30971b730399d3d53bb3",
+      "translation": "Tem um Kit de reparo\naí?\tNão consigo\nconsertar o caminhão.",
+      "source_body_sha256": "031b7f3b5b57aea60c065e36a64b7316656f57cc1f2c7f6cb31773b7483ffac8",
+      "source_record_sha256": "93a2bc57cbc914c39fd8e8c8daa087850a4c1908a358d0f53921c4f9b5828db2",
+      "reason": "Referência ao nome canônico do mesmo item no contexto original."
+    }
+  ]
+}

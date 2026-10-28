@@ -1091,3 +1091,36 @@ e de Sixth Sense quando explicar o estado atual, sem reescrever históricos.
 97 testes passaram, sete novos; 438 probes de largura sem exceder o envelope
 original. Prévia GFI local inspecionada, mas PCSX2 não executado e visual
 nos menus reais ainda pendente. Sem OneDrive/desligamento nesta rodada.
+
+## Consistência dos nomes — interface v044 / MAP v039
+
+Ver `docs/consistencia-nomes-v001.md`. Foram revistos 81 matches em 10.682
+campos, por 580 termos ligados aos 527 nomes; inclui todas as 69 referências
+anteriores. Corrigidos 25 matches em 24 campos: 16 de interface/oito MAP.
+Os outros 56 são usos contextuais corretos; não trocá-los globalmente.
+Catálogo de nomes continua 527 aplicados/14 pendentes. Não aplicar as outras
+sugestões ou as 16 revisões bloqueadas por causa desta rodada.
+
+`translations/consistencia-nomes-v001.json` vincula pais v043/MAP v038 e
+destinos exatos; `name_reference_review` libera só essas revisões. As 12
+descrições usam o mesmo pool, aliases e limites já comprovados, com opt-in
+para rever os campos históricos. Mantidos nomes, atributos e demais textos.
+Repair Kit tem exceção somente nos corpos map.msg.084ab3fc/084ac950, com
+source hash e destino exatos; a política global permanece estrita.
+
+Preservar cartão/Centro de Memória, memória humana, chip de C Unit, armários
+genéricos, ação Teleporte, bloqueio militar, regenerar, Treasure Map distinto
+de Cache Map e nomes de inimigos/instalações. `tools/audit_name_consistency.py`
+confere `translations/consistencia-nomes-decisoes-v001.json` contra os hashes:
+56 ocorrências preservadas e zero sem decisão no recorte literal. Termos
+curtos, variantes semânticas e recursos desconhecidos não têm cobertura provada.
+
+105 testes passaram (oito novos), com nova execução dos oito específicos após
+o ajuste do normalizador: nomes idênticos entre versões não repetem uma
+transição histórica. PCSX2/visual pendente em partida normal. Sem OneDrive
+ou desligamento automático; manter cinco ISOs e alpha permanente.
+
+Entrega v044: `Iniciar-Teste.cmd` abre `work/interface-v044/MetalSaga-ptbr-interface-v044.iso`;
+`Preparar-Interface.cmd` valida v044/MAP v039. Delta integral aprovado: 4.110
+bytes em 136 patches físicos, incluindo pool/ponteiros; os 24 campos lógicos
+não são 136 traduções novas. SHA e metadados em `reports/interface-v044.json`.

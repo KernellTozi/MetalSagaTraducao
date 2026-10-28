@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'name_reference_review' in draft:
+        from name_reference_review import validate_interface
+        validate_interface(draft)
     if hashlib.sha256(data).hexdigest()!=ORIGINAL_SHA:raise ValueError('Original ELF revision mismatch')
     if draft.get('schema')!=1 or draft.get('policy')!='elf-ui-fixed-original-string-v001':raise ValueError('Unknown UI policy')
     if draft.get('source_sha256')!=ORIGINAL_SHA:raise ValueError('UI source binding mismatch')
