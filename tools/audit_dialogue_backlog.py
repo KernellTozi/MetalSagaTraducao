@@ -94,6 +94,7 @@ def collect_labels(document):
         'explicit_relocation_policy':document.get('speaker_label_relocation_policy'),
         'explicit_byte_tail_policy':document.get('speaker_label_byte_policy'),
         'explicit_context_review_policy':document.get('speaker_context_policy'),
+        'explicit_body_review_policy':document.get('speaker_body_policy'),
         'limits':'No unrestricted or automatic label editing; explicit source-bound overlay may translate reviewed generic roles only; proper names, markers and unknown labels remain protected'},list(labels.values())
 
 
@@ -121,6 +122,7 @@ def run(folder,output,summary_path=None):
         'speaker_label_relocation_evidence':{k:v for k,v in report.get('speaker_label_relocations',{}).items() if k!='results'},
         'speaker_label_byte_tail_evidence':{k:v for k,v in report.get('speaker_label_byte_packing',{}).items() if k!='results'},
         'speaker_context_review_evidence':{k:v for k,v in report.get('speaker_context_review',{}).items() if k!='results'},
+        'speaker_body_review_evidence':{k:v for k,v in report.get('speaker_body_review',{}).items() if k!='results'},
         'originals_modified':False,'iso_created':False})
     result={**metadata,'local_review_entries':buckets,'local_new_candidates':hits,'local_speaker_labels':labels}
     output.parent.mkdir(parents=True,exist_ok=True)
@@ -133,7 +135,7 @@ def run(folder,output,summary_path=None):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Consolidar pendências de diálogo localmente em um JSON, sem IA/APIs')
-    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v048')
+    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v049')
     p.add_argument('--output',type=Path,default=ROOT/'work/dialogos-pendencias-atual.json')
     p.add_argument('--summary',type=Path);a=p.parse_args()
     print(json.dumps(run(a.build_dir,a.output,a.summary),ensure_ascii=False,indent=2))

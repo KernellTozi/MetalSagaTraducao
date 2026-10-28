@@ -1,5 +1,23 @@
 # Plano para concluir a tradução
 
+**Atual — rótulos com revisão contextual, MAP v042/interface v049:** 36 dos 49
+rótulos pendentes foram recuperados, mantendo nomes completos. Revisões naturais
+nos respectivos corpos liberam de um a quatro bytes necessários; controles,
+artigos, acentos e estruturas são preservados. Perfil v005 separado, sobre o
+pai v041; os oito avisos nativos continuam intactos. Total 948 referências de
+falantes traduzidas. Treze casos de bordões, sons, silêncio ou redação curta
+continuam iguais à v048, sem truncamento para aumentar a contagem.
+Ver `docs/dialogos-v042.md` e `reports/rotulos-falantes-v042.json`.
+Passaram 190 testes. Delta integral: 843 bytes em 36 registros; fontes, ELF,
+gráficos, diretório e demais registros iguais. MAP mantém 6.032 alterados e
+5.991 com corpo/opções, não 36 diálogos inéditos. Interface com 3.848 unidades.
+O levantamento restrito de padding final não autoriza movimentação de comandos
+ou crescimento de registros/SSD. Próxima investigação dos 13 precisa de outra
+estratégia de armazenamento com prova própria, não repetir a busca nos mesmos
+zeros ou sacrificar as formulações preservadas. As 16 revisões de itens e o
+teste visual/contextual em partida normal continuam separados. Nenhum PCSX2
+executado, OneDrive ou desligamento solicitado nesta rodada.
+
 **Atual — oito ocorrências nativas resolvidas, MAP v041/interface v048:** os
 oito IDs de corpo repetido receberam Erro. em slots fixos, com vínculo integral
 às origens. Inferência de aviso técnico apoiada em contexto de scripts; não

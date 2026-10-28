@@ -474,3 +474,13 @@ Os oito IDs vinculados em `translations/dialogos-nativos-oito-v001.json`
 recebem somente Erro. A leitura como aviso técnico é uma decisão contextual,
 não uma liberação geral de japonês, remoção de debug ou prova de ausência de
 uso no jogo. Não reutilizar a exceção em outros registros por semelhança.
+
+## Rótulos e registro informal — MAP v042
+
+Mantidos por inteiro Trabalhador, Homem, Transportador, Técnico de manutenção
+e Rapaz nos 36 novos rótulos. Não substituir por abreviações para fechar slots.
+Brindes permitem redação informal como Valeu mesmo! e breja no corpo da fala;
+isso não renomeia o item Cerveja nem autoriza substituição global de nomes.
+O visitante da catedral aceita o convite: fechado! expressa adesão, enquanto
+convencido! isolado dava outro sentido. Os bordões, sons e citações dos 13
+registros restantes permanecem como na v048, sem abreviação ou corte automático.

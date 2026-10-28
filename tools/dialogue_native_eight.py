@@ -167,6 +167,9 @@ def validate_narrative(draft):
     if draft!=expected:raise ValueError('Non-authorized native eight narrative change')
 
 def validate_interface(recipe):
+    if 'speaker_body_review' in recipe:
+        from speaker_body_review import validate_interface as validate_speakers
+        return validate_speakers(recipe)
     binding=recipe['native_fallback_review'];load(binding)
     expected=json.loads((ROOT/PARENT_UI).read_text(encoding='utf-8'))
     expected.update(native_fallback_review=binding,base_dialogue_draft='translations/regiao-inicial-v041.json',

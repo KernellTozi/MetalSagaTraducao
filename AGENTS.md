@@ -1269,3 +1269,46 @@ preservados por decisão do usuário. Isso não comprova todo o jogo. Três raí
 especiais sem prova de conter texto continuam com semântica desconhecida.
 Próximas frentes: 49 rótulos sem espaço, 16 revisões de itens e partida normal.
 Cinco ISOs e alpha por hash conferidos. Sem OneDrive ou desligamento nesta rodada.
+
+## Revisão de redação e rótulos — MAP v042/interface v049
+
+Atual: `translations/regiao-inicial-v042.json` e `translations/interface-v049.json`,
+fontes/layout v005. Iniciar-Teste.cmd, Preparar-Interface.cmd e Auditar-Traducao.cmd
+apontam para v049/MAP v042. ISO em `work/interface-v049/MetalSaga-ptbr-interface-v049.iso`.
+Manual `docs/dialogos-v042.md`; manifesto `translations/rotulos-espaco-v005.json`.
+
+36 dos 49 rótulos pendentes foram recuperados com revisão contextual completa
+dos corpos e reutilização da cauda dentro do mesmo registro. Total 948 rótulos;
+MAP permanece em 6.032 registros alterados/5.991 com corpo/opções. Não contar
+os rótulos como diálogos novos. As outras 566 referências de falantes fora da
+seleção não são todas dívidas: incluem nomes, marcadores e funções não liberadas.
+
+`map-reviewed-body-and-complete-speaker-tail-v005`, em `tools/speaker_body_review.py`,
+é opt-in por `speaker_body_review`, com pais v041/v048 vinculados por hash.
+Decisões em `translations/rotulos-redacao-v005.json`, payload congelado por hash
+no código. Não editar o perfil histórico para revisões posteriores. Nomes de
+funções inteiros, acentos e artigos preservados; o legado valida os corpos
+antes de localizar/copiar os rótulos pelos mecanismos anteriores. Cabeçalhos,
+registros, SSD e extents não crescem. Metadados de extração/label.editable=false
+ficam; offsets compilados são registrados nos wrappers. Dois aliases continuam
+vinculados aos mesmos pais, sem propagação para registros fora dos 36.
+
+Treze casos de sons, silêncio, bordões/citações ou redação curta permanecem
+byte a byte iguais à v048. IDs no campo remaining do manifesto. Não truncar,
+retirar acentos ou mudar as formulações para inflar contagens. Uma estratégia
+de armazenamento diferente exige nova prova e perfil separado; não declarar
+impossibilidade teórica nem repetir os mesmos zeros sem hipótese nova.
+
+Levantamento restrito de padding final: 49 casos/31 SSD, quatro com candidatos
+em outros msg/msgn e um SSD de registro único. Relatório
+`reports/rotulos-espaco-investigacao-v005.json`; reproduzir por --survey-output
+na ferramenta. Não examina todas as folgas internas ou layouts e não autoriza
+mover comandos, crescer registros/SSD ou usar padding externo.
+
+190 testes passaram, 12 novos mais regressões históricas. Delta integral:
+843 bytes em 36 registros MAP; todos os demais bytes, fontes/ELF/gráficos iguais.
+948 rótulos confirmados pelo auditor; nomes com 65 usos preservados e zero sem
+decisão. Evidências em `reports/interface-v049.json`. Nenhum PCSX2 executado;
+conferir nomes/quebras/avanço em partida normal sem exigir cada cena agora.
+Oito avisos nativos, N$3 e painel japonês dos cães mantêm as decisões anteriores.
+Cinco ISOs e alpha por hash conferidos. Sem OneDrive ou desligamento nesta rodada.
