@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v051.json",
+  "recipe_sha256": "9c8a1979bc5d0fc1eb396c15e8ab1feebb886795a9fd7fca3533d0310e620abe",
+  "dialogue_recipe": "translations/regiao-inicial-v044.json",
+  "dialogue_recipe_sha256": "d629a9bdb1286c6a628304e5eeffcc83116546e801faf9d3925e7393b9357a7b",
+  "iso": {
+    "path": "work/interface-v051-final/MetalSaga-ptbr-interface-v051.iso",
+    "size": 1704427520,
+    "sha256": "5c3489e7837ae4938e00f84a9a5599c11e48ebb259366b7377e1fe351f725c12",
+    "verified": true
+  },
+  "new_speaker_labels": 11,
+  "reviewed_existing_bodies": 5,
+  "new_records_changed_only_by_labels": 1,
+  "remaining_selected_speaker_labels": 13,
+  "translated_speaker_references": 991,
+  "other_speaker_references_outside_space_selection": 523,
+  "map_changed_records": 6044,
+  "map_body_options_changed": 5991,
+  "interface_units_accumulated": 3848,
+  "item_names_applied": 541,
+  "tests": {
+    "modules": [
+      "test_dialogue_context_finish",
+      "test_speaker_faction_review",
+      "test_speaker_body_review",
+      "test_speaker_labels",
+      "test_speaker_label_space",
+      "test_speaker_label_bytes",
+      "test_speaker_label_review",
+      "test_native_eight",
+      "test_native_dialogue_review",
+      "test_translation_policy",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive",
+      "test_translation_pilot.PilotTests.test_changed_control_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_overflow_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_protected_name_change_blocks_entire_batch",
+      "test_translation_pilot.PilotTests.test_recipe_font_binding_and_historical_fallback"
+    ],
+    "tests_run": 106,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 546.32
+  },
+  "final_scope_tests": {
+    "module": "test_dialogue_context_finish",
+    "tests_run": 9,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 68.69,
+    "note": "Final-scope repeat; these nine cases are already included in the distinct regression count."
+  },
+  "distinct_tests_count": 106,
+  "repeat_runs_counted_again": false,
+  "delta": {
+    "old_recipe": "translations/interface-v050.json",
+    "new_recipe": "translations/interface-v051.json",
+    "source_iso_sha256": "cc5932c63c5497b69c9e14396aef1ce917584e7c3359e8bcdeae3e5fec22c080",
+    "output_iso_sha256": "5c3489e7837ae4938e00f84a9a5599c11e48ebb259366b7377e1fe351f725c12",
+    "iso_size": 1704427520,
+    "changed_bytes": 539,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "map.msgn.038df5cc",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 113411532,
+        "size": 132
+      },
+      {
+        "id": "map.msgn.038df7cc",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 113412044,
+        "size": 132
+      },
+      {
+        "id": "map.msgn.0be22c78",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253148280,
+        "size": 192
+      },
+      {
+        "id": "map.msgn.0e76d6c4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 296445636,
+        "size": 112
+      },
+      {
+        "id": "map.msgn.0e7781f4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 296489460,
+        "size": 160
+      },
+      {
+        "id": "map.smsg.0e77864c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 296490572,
+        "size": 260
+      },
+      {
+        "id": "map.msgn.1033ebc8",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 325614536,
+        "size": 64
+      },
+      {
+        "id": "map.msgn.1282e1d0",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 364343760,
+        "size": 152
+      },
+      {
+        "id": "map.msgn.1afd97c4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506603460,
+        "size": 100
+      },
+      {
+        "id": "map.msgn.1afd9828",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506603560,
+        "size": 88
+      },
+      {
+        "id": "map.msgn.1afd9920",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506603808,
+        "size": 112
+      },
+      {
+        "id": "map.msgn.1afd9990",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506603920,
+        "size": 84
+      },
+      {
+        "id": "map.msgn.1afd9c58",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506604632,
+        "size": 72
+      },
+      {
+        "id": "map.msgn.1afd9dd0",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506605008,
+        "size": 64
+      },
+      {
+        "id": "map.msgn.1afd9e10",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506605072,
+        "size": 132
+      },
+      {
+        "id": "map.msgn.1afdb1cc",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 506610124,
+        "size": 84
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "name_audit": {
+    "fields_scanned": 10698,
+    "preserved_matches": 65,
+    "unresolved_matches": []
+  },
+  "launcher_audit_integration": {
+    "exit_code": 0,
+    "dialogue_build": "work/interface-v051-final",
+    "translated_labels": 991,
+    "capacity_base": "translations/interface-v050.json",
+    "seconds": 32.34
+  },
+  "game_launcher_dry_run_verified": true,
+  "excluded_unchanged_review_id": "map.msg.0be140fc",
+  "unchanged_review_not_counted_as_translation": true,
+  "backlog": "reports/dialogos-pendencias-v044.json",
+  "runtime_visual_status": "pending_user_verification",
+  "originals_modified": false,
+  "elf_font_or_graphic_edits": false,
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 4,
+    "delete": [],
+    "remaining_count": 4,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "redundant_intermediate_iso_removed_after_matching_final_hash": true,
+  "onedrive_copied": false,
+  "shutdown_requested_this_round": false,
+  "pcsx2_executed": false
+}

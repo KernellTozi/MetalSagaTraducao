@@ -60,6 +60,9 @@ def validate_narrative(draft):
     if draft!=expected:raise ValueError('Non-authorized BB narrative change')
 
 def validate_interface(recipe):
+    if 'context_finish_review' in recipe:
+        from dialogue_context_finish import validate_interface as validate_context
+        return validate_context(recipe)
     binding=recipe['speaker_faction_review'];load(binding)
     expected=json.loads((ROOT/PARENT_UI).read_text(encoding='utf-8'))
     expected.update(speaker_faction_review=binding,base_dialogue_draft=MAP,

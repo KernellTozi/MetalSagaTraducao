@@ -1393,3 +1393,42 @@ nos buffers/caminhos dos seis nomes, sem repetir buscas brutas indefinidamente.
 46 testes passaram, 11 novos; iniciador real também executado com retorno zero
 e vínculos v050/980 rótulos conferidos. ISO v050 reconferida por hash/tamanho e
 transações. Nenhuma nova ISO, alteração de fontes, PCSX2, OneDrive ou desligamento.
+
+
+## Continuidade contextual — MAP v044 / interface v051
+
+Atual: translations/regiao-inicial-v044.json e translations/interface-v051.json,
+fontes/layout v005. Iniciar-Teste.cmd e alias interface-v051 apontam para
+work/interface-v051-final/MetalSaga-ptbr-interface-v051.iso. Preparar-Interface.cmd
+usa as receitas novas; Auditar-Traducao.cmd e o auditor usam o build final.
+O diagnóstico de itens continua vinculado à v050, cuja configuração de itens
+é exatamente igual à v051. Manual docs/dialogos-v044.md.
+
+A política opt-in map-contextual-final-dialogue-review-v007, módulo
+tools/dialogue_context_finish.py, vincula pais v043/v050 e manifesto
+translations/revisao-contextual-v007.json. Aplica 11 rótulos descritivos:
+Bárbaro A..D, Ex-bárbaro, Ex-ladrão e Cápsula (Binramen). Nomes próprios,
+identificadores e sons preservados; não renomear inimigos/chefes por semelhança.
+A política histórica continua estrita e a ROLES antiga não foi ampliada.
+
+Revisa cinco corpos já traduzidos: pontaria, carga predominante/frete, caminho
+para Torikami/Scorpions, relato à família e aviso sobre ferida. Sem controles
+dinâmicos, aliases novos, mudanças de linhas/páginas ou escolhas. O compilador
+legado valida os corpos contra a origem; só o intervalo correspondente é
+mesclado sobre o pai, preservando rótulos traduzidos/movidos e os demais campos.
+Cabeçalhos, registros, SSD, extents, fontes, ELF e gráficos permanecem iguais.
+O perfil recusa corpos idênticos ao pai. A frase do IS-3 sobre o peixe já estava
+correta e não foi modificada: não confundir a quebra de linha JSON seguida de
+esse com a palavra nesse, nem contá-la como correção.
+
+São 6.044 registros MAP alterados, 5.991 com corpo/opções (as cinco revisões
+não são diálogos inéditos), 991 referências de falantes traduzidas, 3.848
+unidades de interface e 541 nomes de itens. Só o rótulo da cápsula faz um
+registro antes intacto entrar na contagem. Os 16 itens bloqueados e os 13
+rótulos sem espaço continuam intactos; outras 523 referências não são todas
+dívidas confirmadas. Fonte v005, N$3 e exclusões gráficas preservados.
+
+106 testes distintos passaram; os nove do novo perfil foram reexecutados no
+escopo final, sem somar repetições. Busca original de rótulo também conferida
+após as revisões. Validação visual segue para partida normal do usuário;
+nenhum PCSX2 executado, sem OneDrive ou desligamento solicitado nesta rodada.

@@ -91,6 +91,9 @@ def load_draft(path,chain=()):
 
 
 def compile_draft(data,draft):
+    if 'context_finish_review' in draft:
+        from dialogue_context_finish import compile_overlay
+        return compile_overlay(data,draft)
     if 'speaker_faction_review' in draft:
         from speaker_faction_review import compile_overlay
         return compile_overlay(data,draft)
@@ -374,7 +377,7 @@ def main():
                     'speaker':'unresolved; infer from scene, not proven header mapping'},ensure_ascii=False)+'\n')
     print(f"Registros alterados: {report['accepted']}; inalterados: {report['unchanged']}; recusados: {report['refused']}. {output}")
     if report.get('speaker_labels'):
-        labels=sum(report.get(key,{}).get('accepted',0) for key in ('speaker_labels','speaker_label_relocations','speaker_label_byte_packing','speaker_context_review','speaker_body_review','speaker_faction_review'))
+        labels=sum(report.get(key,{}).get('accepted',0) for key in ('speaker_labels','speaker_label_relocations','speaker_label_byte_packing','speaker_context_review','speaker_body_review','speaker_faction_review','context_finish_review'))
         bodies=sum(any(s['key']!='label' and s['translation']!=s['source'] for s in entry['segments']) for entry in document['entries'])
         print(f"Rótulos traduzidos: {labels}; registros com corpo/opções alterados: {bodies}.")
     if report.get('interface'):print(f"Interface: {report['interface']['accepted']} campos; validação visual pendente.")

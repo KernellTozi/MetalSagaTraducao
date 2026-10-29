@@ -493,3 +493,18 @@ em `translations/rotulos-bb-v006.json`, sem substituir termos nos corpos.
 BB e os números identificadores permanecem. A classe Soldier e Hunter
 continuam em inglês. Não reutilizar esta decisão para nomes de inimigos,
 personagens ou outras facções por semelhança.
+
+
+## Rótulos descritivos e revisão contextual — MAP v044
+
+Barbarian A..D → Bárbaro A..D; Ex-Barbarian → Ex-bárbaro; Ex-Burglar →
+Ex-ladrão. Os termos identificam funções nos 10 registros explícitos da revisão,
+coerentes com a Liga dos Bárbaros Incivilizados já citada nas falas. Não aplicar
+por similaridade a nomes de chefes ou outros inimigos. Capsule (Binramen) →
+Cápsula (Binramen) localiza o recipiente e preserva o nome do procurado.
+
+Nas seis falas revistas, preservar IS-3, O Toi la Vie, Torikami e Scorpions.
+Pontaria, cargo predominante, comparação do frete, melhor lugar para ganhar
+dinheiro, relato à família e preocupação com a ferida são os sentidos da revisão;
+não são substituições globais de palavras. As escolhas de itens aprovadas pelo
+usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.

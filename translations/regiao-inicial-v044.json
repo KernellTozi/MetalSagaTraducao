@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v043.json",
+  "name": "regiao-inicial-v044",
+  "status": "Onze rótulos descritivos e cinco revisões contextuais; demais traduções preservadas.",
+  "translations": {
+    "map.msgn.1282e1d0": "Minha pontaria é ruim.\nProvavelmente erraria\ntodos os alvos.\tE esta arma também\nestá sem balas.",
+    "map.smsg.0e77864c": {
+      "body": "Levo cargas, sobretudo,\npara o oeste.\tCostumo levar grãos\ne álcool.\tO frete dessas cargas\npaga bem, mas menos\nque o de verduras.",
+      "choices": "Quanto duram os grãos?\tPor que verduras são caras?"
+    },
+    "map.msgn.0be22c78": "A nordeste, há\numa ponte para\nTorikami.\tO leste está cheio de\nScorpions, mas é onde\nse ganha mais dinheiro.",
+    "map.msgn.0e7781f4": "Fui à casa dele contar\nà esposa e aos filhos\no que aconteceu.\tNão esqueço a\nexpressão deles...",
+    "map.msgn.0e76d6c4": "O que faz aqui\ncom uma ferida dessas!?\nVá se tratar!"
+  },
+  "reviewed_changes": [
+    "map.msgn.1282e1d0",
+    "map.smsg.0e77864c",
+    "map.msgn.0be22c78",
+    "map.msgn.0e7781f4",
+    "map.msgn.0e76d6c4"
+  ],
+  "context_finish_review": {
+    "recipe": "translations/revisao-contextual-v007.json",
+    "sha256": "4037d946e8b22cb271124aaa45760a7fd0fa384d15abf67c2b90ce0a6eaa37c4"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "policy": "map-contextual-final-dialogue-review-v007",
+  "parent_map": "translations/regiao-inicial-v043.json",
+  "parent_map_sha256": "7f15cbce7b2dc073aedc1ee13090866096e3897d1a6c9ffde453acba52175e38",
+  "parent_interface": "translations/interface-v050.json",
+  "parent_interface_sha256": "716dd64f0d9b32c495ce8f2643af80c94d5ac348d294306c1ae6ac218b98fd7e",
+  "instruction_windows": [
+    {
+      "offset": 1860872,
+      "size": 76,
+      "sha256": "62daca9c0992e9a4e68e500fcebfee2b159057469b42650c2d3d6b147c7a5bc9"
+    },
+    {
+      "offset": 1863088,
+      "size": 56,
+      "sha256": "dae49567d199f3408c0b092c4fdbf62cdca2bad7cb0de747106ada4baa84931b"
+    },
+    {
+      "offset": 2087272,
+      "size": 216,
+      "sha256": "c0925505e58fc5393c4dcd35be6fc973df83e1c7283f5d039c6871f31800c2fb"
+    },
+    {
+      "offset": 2087680,
+      "size": 68,
+      "sha256": "a4b93ffa0573475ee1107cc83a97884ab2a2eadb79eadf18ef9d317c1f40a66b"
+    },
+    {
+      "offset": 2254260,
+      "size": 20,
+      "sha256": "e5f68fcb6107861b01b3a8d709882bdca65916623dbdcb47a3b35ac8286c4625"
+    },
+    {
+      "offset": 2254508,
+      "size": 44,
+      "sha256": "c6f7f73adafebf3dd40f05c307ad8ecce65b8876bce2d338c5e5272f7fa404e6"
+    },
+    {
+      "offset": 2254832,
+      "size": 32,
+      "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+    }
+  ],
+  "captions": [
+    {
+      "id": "map.msgn.038df5cc",
+      "record_sha256": "5fffd5a492074445b1895e634d74c735fa6b3920a7f192fff65ec8e2252db03a",
+      "label_sha256": "fbc8b8779a8a49ce57fb2cf0febb6724a45b760bba0d24ad3961fb51161d0e0c",
+      "translation": "Ex-bárbaro"
+    },
+    {
+      "id": "map.msgn.038df7cc",
+      "record_sha256": "62b980330675061652e78e918e2c1adc4f83c7f2201b1f3b3e64e156bd602d4c",
+      "label_sha256": "6c2167632209909020cf20cd2bde5fa36dd923a0c55b1a4983d640fc949ca43c",
+      "translation": "Ex-ladrão"
+    },
+    {
+      "id": "map.msgn.1033ebc8",
+      "record_sha256": "1049a91dd1dad2892a0746926029e287e29c88642dd63f08e52eb49879f7f9c0",
+      "label_sha256": "1b437ee8aba4ffaa2cb4ab7c9e2677743f2cefa115944d286330883e4e849387",
+      "translation": "Cápsula (Binramen)"
+    },
+    {
+      "id": "map.msgn.1afd97c4",
+      "record_sha256": "52dad03e00aa735e41278bea1f518741a7ec6f520478f987dadfcc502ab86e20",
+      "label_sha256": "2601561fe63c9f0396550b3147fcaf6005611a59c7e2c4407637b3976c5906ee",
+      "translation": "Bárbaro A"
+    },
+    {
+      "id": "map.msgn.1afd9828",
+      "record_sha256": "3a15459012c0716ccd4457ca000affe64049c9561f24eca87472fa0a22c90840",
+      "label_sha256": "dc964d142d13ee9949de111a0f14caefed26a87df0debeb7bdd06fa46c4be307",
+      "translation": "Bárbaro B"
+    },
+    {
+      "id": "map.msgn.1afd9920",
+      "record_sha256": "4a53f60560a3d27aabd88a22237bdcee5ab8678d286952210080e8698403a5d3",
+      "label_sha256": "11f811600b9e84252862c73767baf02b31f7b2c4ceb025c2ba99940fdc7317f7",
+      "translation": "Bárbaro C"
+    },
+    {
+      "id": "map.msgn.1afd9990",
+      "record_sha256": "3056a65a47b79c3c1dbde22b4216d182cfd09d11d9be7dca2f18a61360b2da5b",
+      "label_sha256": "11f811600b9e84252862c73767baf02b31f7b2c4ceb025c2ba99940fdc7317f7",
+      "translation": "Bárbaro C"
+    },
+    {
+      "id": "map.msgn.1afd9c58",
+      "record_sha256": "e18d971e4702cbdb4765b75cce705b045e8b55ff4d6f0d5f56bf57a25e225c0c",
+      "label_sha256": "2601561fe63c9f0396550b3147fcaf6005611a59c7e2c4407637b3976c5906ee",
+      "translation": "Bárbaro A"
+    },
+    {
+      "id": "map.msgn.1afd9dd0",
+      "record_sha256": "b2fa5c8741440af2f978d54595ca5597a9430261bb5ba783ff2f9a7ebe4871f9",
+      "label_sha256": "dc964d142d13ee9949de111a0f14caefed26a87df0debeb7bdd06fa46c4be307",
+      "translation": "Bárbaro B"
+    },
+    {
+      "id": "map.msgn.1afd9e10",
+      "record_sha256": "4fa18c034a4b739735da45fc18c1f466bd6db92376394f89d35b3e16f0e17369",
+      "label_sha256": "2601561fe63c9f0396550b3147fcaf6005611a59c7e2c4407637b3976c5906ee",
+      "translation": "Bárbaro A"
+    },
+    {
+      "id": "map.msgn.1afdb1cc",
+      "record_sha256": "4c8df75fe197c9fb7d81b7d1788333edcca137d6f4ce360b4183fde72c472506",
+      "label_sha256": "e45f4c98a312526808b2e308ebc7e868b2d144ee27f530e86911ce87b0694843",
+      "translation": "Bárbaro D"
+    }
+  ],
+  "bodies": [
+    {
+      "id": "map.msgn.1282e1d0",
+      "record_sha256": "db6a7b7e5ce829311e1c3e5991989984c326201f69fccdbd246f30c390d77d8e",
+      "parent_record_sha256": "a613c93cf385d3b6b586b01ecd366ffb243f510107522ee248eb4ae9e2e8682e",
+      "parent_body_sha256": "57ef67d02a2c1d5cb23bd2f98ef46fe685e1108254e6b2ea86d314173705603a",
+      "target_body_sha256": "f5d5d3ea49e6c5cb968ebff228ef6ee5fe8e5a41c74909d8192d211fbbb255f4",
+      "target_record_sha256": "425947eeefd53887b1a31f145b4c8e1b1ceff7390f0ba8a68dcb4f6555d9f30f",
+      "offset": 310567408,
+      "span": 99,
+      "compiled_next_segment_offset": 310567520,
+      "old_body_bytes": 65,
+      "new_body_bytes": 98,
+      "translation": "Minha pontaria é ruim.\nProvavelmente erraria\ntodos os alvos.\tE esta arma também\nestá sem balas.",
+      "warnings": []
+    },
+    {
+      "id": "map.smsg.0e77864c",
+      "record_sha256": "7d02ac1900e08d5b0ee183d600c2f007f4fcac1cc3bae235d6c70ec92f4c1dfb",
+      "parent_record_sha256": "7df0e3e4401da8b5ac840bdf5773202d28977c500f42a8464ed441bf25eaf22a",
+      "parent_body_sha256": "48fc2206bcadd78c911c2503c10bbf98a899e7b9e9a51ad9bbc9f6f12c757806",
+      "target_body_sha256": "764b96cd8962885cf005828a93722e9a153dc5f7f44558778a05e2b24dc8e7ef",
+      "target_record_sha256": "1ab9e064940e3a2e36c40541c702c99be0725fee2cfa813f8ec91594e8d66496",
+      "offset": 242714228,
+      "span": 131,
+      "compiled_next_segment_offset": 242714392,
+      "old_body_bytes": 99,
+      "new_body_bytes": 130,
+      "translation": "Levo cargas, sobretudo,\npara o oeste.\tCostumo levar grãos\ne álcool.\tO frete dessas cargas\npaga bem, mas menos\nque o de verduras.",
+      "warnings": []
+    },
+    {
+      "id": "map.msgn.0be22c78",
+      "record_sha256": "432d85cb5ba0a26f9d57c12286ca75fc10cd176bf9b767146a389007984b11ad",
+      "parent_record_sha256": "c9346d84c61a6eff0ef0a47ce83b4b7ef2816a2d81afd6019a96675427c2ebb6",
+      "parent_body_sha256": "7ff003f5f53765afa1bf8cdeeda48c07c30860ff79c9e1c02b9e4287e4f4ad8c",
+      "target_body_sha256": "c24c36d1fdb5541339d98984bdeaa49de61fa0eaf86359122d034d6b4a63d5f3",
+      "target_record_sha256": "57f68701ad2fac82aa2502edb802944ca30540e3aa2efffe3e24665fdd90202c",
+      "offset": 199371928,
+      "span": 111,
+      "compiled_next_segment_offset": 199372080,
+      "old_body_bytes": 93,
+      "new_body_bytes": 110,
+      "translation": "A nordeste, há\numa ponte para\nTorikami.\tO leste está cheio de\nScorpions, mas é onde\nse ganha mais dinheiro.",
+      "warnings": []
+    },
+    {
+      "id": "map.msgn.0e7781f4",
+      "record_sha256": "01bfbb95e2bc1aed31ec6e27c97d78fa456adaeb3873a7bb76be45529569235d",
+      "parent_record_sha256": "26f3bded2bafde21df255bd478b6493a7f31dcecc05ce288ee606db223e5b359",
+      "parent_body_sha256": "e4050c36fee6990ae734193a344497ecb366695e33a5cfed1e700adc08a51c1c",
+      "target_body_sha256": "f4d32fd001f4692103722f82bd6d50eee301ef8d7fbd23262d1360367ff874c4",
+      "target_record_sha256": "b2b60a7c2e780ebd73e7ef9eb322303b5d83513bff1602dd0b7ec36a0a70534a",
+      "offset": 242713108,
+      "span": 100,
+      "compiled_next_segment_offset": 242713224,
+      "old_body_bytes": 78,
+      "new_body_bytes": 99,
+      "translation": "Fui à casa dele contar\nà esposa e aos filhos\no que aconteceu.\tNão esqueço a\nexpressão deles...",
+      "warnings": []
+    },
+    {
+      "id": "map.msgn.0e76d6c4",
+      "record_sha256": "3af03b5b6990143cafee0911a93ffb5eab130138edbcdb8b7bdaa679e52d2cc0",
+      "parent_record_sha256": "4d4b64c5f9c5dc5860738d904e63779253031a9ca5b40376637f7ab40bec51c8",
+      "parent_body_sha256": "3071c6bbf247e075cdbecaa2a5df69dea0628eb13e0af0f41a7a455a77726e56",
+      "target_body_sha256": "24ee7e865a740ed7ff7d917145b318559defe16cd0ffefed3a3fc51f03ab4b85",
+      "target_record_sha256": "4497019e7885157e0ad33da95a42ea1369666afb8dfbe30543eb826267118193",
+      "offset": 242669284,
+      "span": 54,
+      "compiled_next_segment_offset": 242669356,
+      "old_body_bytes": 45,
+      "new_body_bytes": 53,
+      "translation": "O que faz aqui\ncom uma ferida dessas!?\nVá se tratar!",
+      "warnings": []
+    }
+  ]
+}

@@ -1,19 +1,20 @@
 # Plano para concluir a tradução
 
-## Plano vigente — base v050, revisão de 28/10/2026
+## Plano vigente — base v051, revisão de 28/10/2026
 
 Este bloco define a ordem das próximas rodadas. As seções abaixo de
 Histórico registram estados anteriores; não representam a prioridade atual.
-A investigação de capacidade v001 já foi executada e acrescentou ferramenta
-local de diagnóstico. Não houve aplicação de traduções, edição de fontes,
-ampliação de políticas de reinserção ou nova ISO. Não houve execução no PCSX2.
+A investigação de capacidade v001 separou os impedimentos dos itens. Em
+seguida, a v051 avançou no subconjunto seguro de tradução: 11 rótulos descritivos
+e cinco revisões de fala, sem ampliar os limites de itens. Não houve edição de
+fontes, gráficos ou execução no PCSX2.
 
-Base: interface v050 / MAP v043 / fontes e layout v005. Evidências em
-reports/interface-v050.json e reports/dialogos-pendencias-v043.json.
-A v050 tem 6.043 registros MAP alterados, 5.991 com corpo/opções modificados,
-980 referências de falantes traduzidas, 3.848 unidades heterogêneas de
-interface e 541 nomes de itens aplicados. Não derivar porcentagem do jogo
-somando essas métricas. Os 199 testes pertencem à construção v050 anterior.
+Base: interface v051 / MAP v044 / fontes e layout v005. Procedimento em
+docs/dialogos-v044.md. A versão tem 6.044 registros MAP alterados, 5.991 com
+corpo/opções modificados, 991 referências de falantes traduzidas, 3.848 unidades
+heterogêneas de interface e 541 nomes de itens aplicados. Não derivar porcentagem
+do jogo somando essas métricas. Os bloqueios dos 16 itens e 13 rótulos de espaço
+continuam; a revisão contextual segura pode avançar sem liberar esses formatos.
 
 ### 1. Próxima rodada de desenvolvimento: nomes aprovados bloqueados
 

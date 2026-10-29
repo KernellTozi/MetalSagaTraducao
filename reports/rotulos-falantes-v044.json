@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "dialogue_recipe": "translations/regiao-inicial-v044.json",
+  "interface_recipe": "translations/interface-v051.json",
+  "translated_speaker_references": 991,
+  "new_context_captions": 11,
+  "revised_body_records": 5,
+  "selected_remaining_role_references": 13,
+  "other_references_outside_selection": 523,
+  "remaining": [
+    {
+      "id": "map.msgn.057d67dc",
+      "record_sha256": "d65b0757d3fee16116dd2521b9268815d0a161b089507a7bb2f10109aa93f6fe",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0be1acd8",
+      "record_sha256": "4e2294278b5440b03b132caa2420f6c3990f88848d3da33a048c97895fc519c7",
+      "label_sha256": "20fe1bd201cd900bdbffeaec0b42e40b51cbf6b37ae5fbeaddd83aab9a221837",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0be25188",
+      "record_sha256": "f33d5490c1db358b99ce3bf2125e61a1318a5cea3a239b60b530be90c481f482",
+      "label_sha256": "37a3a9e4d60a470beed6a86ea8ecdc66a49bb44a870da3080fff565f24faeef2",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0be2d3a4",
+      "record_sha256": "7215594fcafb609b310ba27f7f02fa8888faa212f6cd20113ce81c15f2985296",
+      "label_sha256": "48735c4fae42d1501164976afec76730b9e5fe467f680bdd8daff4bb77674045",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0db14094",
+      "record_sha256": "ca52a6fb7cbecba650f9878144724fa3a8ad9eae8cad34089302904c35ad3b51",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0db140dc",
+      "record_sha256": "d1c6bca1a74e15434a5895af7396380bf325bcbf20ea6c1c61855ed19f4ac811",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0db147f8",
+      "record_sha256": "6eeb35bd511a860be19909e82dfa42741c67ce0b0aca53a5284c72f91079a5f3",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0db14898",
+      "record_sha256": "32810773b2705af9367d7448d54e41010f5566d42b24ef9f778ff1f205f241bc",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0db148e0",
+      "record_sha256": "892dd044539be299dcf6c4820322bcd0cf62aaf892a9ae658158692e02309e7a",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0e777edc",
+      "record_sha256": "c7d433682766a9a8e301a7382d88d82d6689973b8213c4a3b04f61836fe1a4da",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.0e778354",
+      "record_sha256": "d312c6e25a1dd019fbc357b002ffb21357039b325414aad7830c9f07e400bc7b",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.14aad804",
+      "record_sha256": "3c6a56d1d17812414b44edaa1a6293499c14bf21f4762b4729eb75fa0a92b0a0",
+      "label_sha256": "a67b04cd5c491d4d2a8cd5ab1600abc4adf4647dd4806a7f09b1e2d5a42249c0",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    },
+    {
+      "id": "map.msgn.19f55614",
+      "record_sha256": "f566dc44119105d0575dcf9deb045e6d7a656b891d773e20256713a24c4367f6",
+      "label_sha256": "0eb129bf94594aaeee66e38361d7be212cd927c3df4dd92e3ded2e0da0c7ad88",
+      "reason": "Preserve complete expression/citation/sound/silence or idiomatic short line; no safe equivalent compact revision selected."
+    }
+  ],
+  "manifest": "translations/revisao-contextual-v007.json",
+  "earlier_storage_manifest": "translations/rotulos-espaco-v005.json",
+  "classification_limits": "Outside references include preserved names/classes/markers and unreviewed roles, not confirmed mandatory translations. New bodies are revisions, not newly recovered dialogue.",
+  "pcsx2_executed": false
+}
