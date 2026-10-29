@@ -35,7 +35,7 @@ def verify(elf):
             'instruction_windows':[{'offset':a,'size':z-a,'sha256':sha(elf[a:z])} for a,z in WINDOWS]}
 
 
-def run(elf,start,windows,regs,regions,stop):
+def run(elf,start,windows,regs,regions,stop,handlers=None):
     """Small original integer runner using virtual PCs, including real jalr.
 
     Region tuples are (base, bytearray/bytes, writable). Unmapped reads and all
@@ -58,6 +58,9 @@ def run(elf,start,windows,regs,regions,stop):
     for steps in range(10000):
         if pc == stop:
             return {'registers':regs,'writes':writes,'instruction_offsets':sorted(visited),'instructions':steps}
+        if handlers is not None and handlers(pc,regs,access):
+            pc=regs[31]
+            continue
         at = pc-DELTA
         if not any(a <= at < z for a,z in windows):
             raise ValueError(f'Name source execution escaped bounded code {at:x}')
@@ -75,16 +78,26 @@ def run(elf,start,windows,regs,regions,stop):
                 pending = target
             else: raise ValueError(f'Unsupported name source opcode {w:08x}')
         elif op == 9: regs[rt] = regs[rs]+n
+        elif op == 10:
+            value=regs[rs] if regs[rs]<0x80000000 else regs[rs]-0x100000000
+            regs[rt]=int(value<n)
         elif op == 11: regs[rt] = int(regs[rs] < (n&0xffffffff))
+        elif op == 12: regs[rt] = regs[rs]&u
         elif op == 15: regs[rt] = u<<16
-        elif op in (33,35):
-            value = access((regs[rs]+n)&0xffffffff,2 if op==33 else 4)
-            regs[rt] = value-65536 if op==33 and value>=32768 else value
-        elif op in (40,43): access((regs[rs]+n)&0xffffffff,1 if op==40 else 4,regs[rt])
+        elif op in (30,32,33,35,36,55):
+            value = access((regs[rs]+n)&0xffffffff,{30:16,32:1,33:2,35:4,36:1,55:8}[op])
+            regs[rt] = value-256 if op==32 and value>=128 else value-65536 if op==33 and value>=32768 else value
+        elif op in (31,40,43,63): access((regs[rs]+n)&0xffffffff,{31:16,40:1,43:4,63:8}[op],regs[rt])
         elif op in (4,5,20,21):
             take = regs[rs]==regs[rt] if op in (4,20) else regs[rs]!=regs[rt]
             if op in (20,21) and not take: nextpc = pc+8
             else: pending = pc+4+n*4 if take else pc+8
+        elif op == 1 and rt in (1,3):
+            take = not(regs[rs]&0x80000000)
+            if rt==3 and not take: nextpc=pc+8
+            else: pending=pc+4+n*4 if take else pc+8
+        elif op == 3:
+            regs[31]=pc+8;pending=(w&0x3ffffff)<<2
         else: raise ValueError(f'Unsupported name source opcode {w:08x}')
         regs = [v&0xffffffff for v in regs]; regs[0]=0
         pc = old if old is not None else nextpc

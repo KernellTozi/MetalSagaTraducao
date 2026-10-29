@@ -114,3 +114,92 @@ O preflight reconferiu tamanho, hash e ausência de transações da ISO v052:
 SHA-256 `26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449`.
 Resumo próprio em reports/fontes-nomes-v005.json; resultados detalhados e logs
 somente em work/. Validação visual da v052 continua sendo a da partida do usuário.
+
+## Continuidade v006 — campo de nome e formatador adicional
+
+Ferramenta: `python tools/name_formatter_bounds.py`, saída substituível
+`work/limites-formatador-atual.json`. Sem rede, IA/APIs ou alteração do jogo.
+
+O construtor da estrutura em **0x74FF0..0x75034** inicializa **32 bytes** a
+partir do endereço do nome; há outro campo em +0x20. A ligação vem da chamada
+0x7EF04, que recebe objeto+0x130. O getter N0 já identificado retorna esse
+endereço no reset observado. Porém o setter **0x7F6A0** chama strcpy em
+0x7F6AC, com destino registro+0x10, **sem limite passado ao copiador**.
+Logo, 31 bytes mais NUL são uma condição de um registro válido nesse campo,
+não uma garantia já demonstrada sobre todas as entradas e todos os saves.
+O tamanho físico não foi transformado em prova de terminador universal.
+
+Para o formatador 0x10E0E8, dois chamadores têm separações concretas de
+**64 bytes**: 0x123F50 recebe SP+0; 0x123F60 recebe SP+0x40, materializado em
+0x123EC8; o próximo destino aparece em SP+0x80. São separações entre regiões
+observadas, não declarações recuperadas de arrays C nem prova dos outros sete
+chamadores. As instruções são vinculadas por hash e conferidas pelo script.
+
+A nova sonda executa a rotina até retornar para texto simples, pipes, I literal
+e N0 literal. As instruções de despacho, avanço, stores finais e restauração
+de registradores são originais. O leitor de argumentos e o strlen escalar
+também executam instruções originais. **Classificação, strcpy e cópia de dois
+bytes são modelados com regiões limitadas**; não se afirma execução completa
+do copiador nativo, GPU, alocador, chamadores ou inicialização de variáveis.
+I$ e N$ não estão liberados por esse diagnóstico.
+
+Os **18 cenários principais** combinam os seis nomes com Nina, 31 letras ASCII
+ou 15 letras é (30 bytes). São nomes fornecidos ao teste, sem identidade
+canônica atribuída. As saídas correspondem exatamente à mensagem esperada.
+O nome N0 é copiado sem reinterpretar comandos dentro dele.
+
+Foi observada outra característica do código: **pipe vira LF no próprio
+buffer de entrada** antes de ser copiado. A sonda usa uma cópia RAM gravável
+e verifica que somente esses bytes da entrada mudaram. Nenhum arquivo de
+referência é modificado e não se deve executar esse caminho com a origem
+original mapeada como memória imutável.
+
+Os testes verificam 63 bytes de saída mais NUL no destino de 64; 64 mais NUL
+são recusados pelo limite do harness. Um exemplo artificial com quatro
+referências I cabe em 24 bytes de entrada, mas excede o destino após expandir
+os nomes. **Não foi encontrado no jogo e não prova erro numa tela existente**.
+Serve para impedir uma conclusão de segurança baseada só no nome ou no
+comprimento da entrada. O diagnóstico não corrige nem limita o motor do jogo.
+
+As entradas também foram rastreadas usando os parsers e compiladores já
+existentes, sem reiniciar a descoberta de recursos. O primeiro par recebe
+remetente/assunto do getter 0x71AE0, com ponteiros locais em SP+0x108/0x10C.
+O compositor 0x124358 recebe esse mesmo descritor, sua única chamada direta
+é 0x124250. A lista de diário vem de diary.dat (literal em 0x32D150), guardado
+em objeto+0x1FC; o cache objeto+0x204 é preenchido com ponteiros dos registros
+desse arquivo em 0x129A68..0x129ACC. Detalhes carregam o cache em 0x1295B8.
+
+| Chamadas observadas | Conjunto efetivo de campos |
+|---|---|
+| 0x123F50, 0x123F60, 0x124310, 0x1243BC, 0x1243DC | 123 campos das 41 mensagens: remetente, assunto e corpo |
+| 0x129474, 0x129684, 0x129754 | 136 campos dos 68 registros do diário: título e corpo |
+| 0x12C1F8 | 40 corpos de registros de procurados |
+
+São **299 campos únicos**, conferidos no original e após os patches da v052:
+**nenhum contém `%I`**. Os getters e corpora já comprovados foram reaproveitados;
+as duas versões do getter de mail executaram 82 vezes, cobrindo seus 41 IDs.
+Os bytes nativos do diário foram preservados e examinados como bytes, sem
+liberação para edição ou suposição de codificação. Os rótulos/imagens dos
+posters não foram alterados.
+
+Portanto, **esses nove caminhos de corpus não dependem do crescimento dos
+seis nomes de itens**. Não é prova de capacidade universal dos buffers ou de
+ausência de aliases indiretos/mutações arbitrárias. O diagnóstico mantém
+essa exclusão de dependência separada dos ensaios sintéticos de capacidade.
+Não reabrir este formatador para o lote sem mudança nos corpora ou indício novo.
+
+A próxima frente volta às entradas da outra rotina e às fontes dos nomes de
+cena. Para o setter de nome 0x7F6A0, entre as chamadas diretas estão a
+nomeação em 0x1E4D94/0x1E4EDC, definições da VM em 0x1C7850/0x1C7970 e a
+inicialização em 0x178B00..0x178B80. Não exigir explorar todo o grafo sem
+limite: delimitar os conjuntos efetivos e registrar os ramos não comprovados.
+
+Os seis nomes seguem em fila até a prova restante; não alterar o teto global
+ou seus textos para contornar a prova. Nenhuma tradução nova, ISO, fonte,
+OneDrive, PCSX2 ou desligamento nesta continuação. A versão jogável é v052.
+
+Validação final desta v006: **54 testes distintos passaram**, dez novos e
+44 de regressão; zero falhas, erros ou ignorados. Os 18 cenários e 82 execuções
+internas de getter não são somados aos testes unitários. O hash/tamanho e a
+ausência de transações da ISO v052 foram reconferidos. Resumo próprio em
+reports/limites-nomes-v006.json, sem cópia de textos/binários originais.

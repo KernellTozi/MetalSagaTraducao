@@ -1564,3 +1564,36 @@ bloqueadas. Resultados condicionais das páginas continuam válidos nesse escopo
 44 testes distintos passaram nesta rodada, oito novos; preflight v052 intacto.
 Não somar com a regressão de 103 da rodada anterior como se fosse execução
 única nova. Compiladores/fontes/receitas e conteúdo da ISO não foram alterados.
+
+## Limites de nomes v006 — somente leitura
+
+Ferramenta tools/name_formatter_bounds.py; detalhes no final de
+docs/fontes-nomes-v005.md e reports/limites-nomes-v006.json. Campo N0 tem
+32 bytes inicializados (0x74FF0), setter 0x7F6A0 usa strcpy sem limite.
+31 bytes mais NUL são condição de campo válido, não prova das entradas reais.
+Os destinos do primeiro par 0x123F50/0x123F60 têm separação de 64 bytes.
+
+A sonda executa 0x10E0E8 até retornar para I/N0 literais, leitor/strlen escalar
+originais; classificação, strcpy e cópia de dois bytes são modeladas. Pipes
+viram LF na cópia RAM de entrada; originais não são gravados. 18 cenários
+principais, limites incluindo NUL e excesso artificial conferidos; não é
+prova de todos os nove chamadores nem bug observado no jogo. Não liberar I$/N$
+ou nomes maiores por essa sonda. Produção/ISO/fontes continuam iguais à v052.
+
+Próximo: rastrear entradas SP+0x108/0x10C do primeiro par e os outros sete
+chamadores; origens do setter nos offsets já listados no manual. Não repetir
+varreduras de tamanho físico nem ampliar o grafo indefinidamente. Sem novas
+traduções, ISO, PCSX2, OneDrive ou desligamento nesta continuação.
+
+Atualização da mesma v006: os nove chamadores de 0x10E0E8 foram ligados aos
+corpora existentes: 123 campos mail, 136 diário e 40 corpos wanted. Os 299
+campos únicos originais/compilados não têm I. Cache de diário em objeto+0x204
+vem dos registros de objeto+0x1FC (0x129A68..0x129ACC); o compositor de mail
+0x124358 tem uma única chamada direta em 0x124250. Esses caminhos observados
+não dependem dos seis itens. Substitui a indicação anterior de rastrear esses
+nove chamadores; não repetir sem indício novo/mudança de corpus. Não confundir
+exclusão de dependência com segurança universal ou ausência de mutações/aliases.
+Próximo: nomes de cena/0x473C8 e as entradas do setter 0x7F6A0.
+
+54 testes distintos passaram na v006, dez novos e 44 de regressão. Preflight
+v052 íntegro; sem alterações no conteúdo do jogo. Relatório limites-nomes-v006.

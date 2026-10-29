@@ -762,3 +762,23 @@ destinos desses nove chamadores. Não repetir o censo bruto. Não houve nova
 tradução ou ISO; v052, 541 nomes e 15 revisões bloqueadas permanecem atuais.
 O levantamento novo é necessário para ampliar nomes com evidência, não
 uma descoberta de nove diálogos nem prova de nove erros existentes.
+
+### Avanço v006
+
+O campo de nome de N0 tem inicialização de 32 bytes, mas seu setter usa
+strcpy sem tamanho: não foi demonstrado um limite universal das entradas.
+A rotina 0x10E0E8 já é executada pela nova sonda name_formatter_bounds.py,
+com cópias/classificação modeladas e leitor/strlen escalar originais.
+Dois destinos têm separação observada de 64 bytes; 18 cenários principais
+passaram. Um excesso artificial é recusado pelo harness, sem alegar bug real.
+
+As entradas dos nove caminhos já foram ligadas a 123 campos de mail, 136 do
+diário e 40 corpos de procurados. Os 299 campos originais/compilados não têm I;
+esses caminhos não dependem do crescimento dos seis itens. A análise desse
+consumidor está encerrada para o lote nesse escopo; não reabrir sem indício
+novo ou mudança de corpus. Isso não é declaração de segurança universal.
+
+Próximo alvo: fontes dos nomes de cena/entradas de 0x473C8 e origens do setter
+0x7F6A0. Não repetir a confirmação dos tamanhos físicos nem generalizar um
+cenário curto. Ver continuação v006 no manual de fontes de nomes.
+Sem novas traduções ou ISO; versão atual v052, 15 revisões ainda em fila.

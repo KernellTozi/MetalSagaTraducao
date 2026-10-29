@@ -1,0 +1,552 @@
+{
+  "schema": 1,
+  "scope": "additional-name-formatter-bounds-read-only-v006",
+  "evidence": {
+    "windows": [
+      {
+        "offset": 1106152,
+        "size": 404,
+        "sha256": "007c24f640910fe1f7d75d4ae3b926a3539a068ea5af7d3ce571fa9fcf1d147b"
+      },
+      {
+        "offset": 479216,
+        "size": 68,
+        "sha256": "9bc3893b069504d66d04a56c9a34157874f7c5ec537fc937776f9f58e1869f68"
+      },
+      {
+        "offset": 521888,
+        "size": 44,
+        "sha256": "a95dd1e2d92d1fe0bb4f23e985a3bd5d565114efb963c0744e074beafdc7d0b4"
+      },
+      {
+        "offset": 1195720,
+        "size": 24,
+        "sha256": "ad5e8ab56e8df23cc79450ca9fe720278ba17db50b7a54282a23c8939a672feb"
+      },
+      {
+        "offset": 1195844,
+        "size": 60,
+        "sha256": "38f14acbf9b31000e0d69ecf09533469e9dd25108382a4f4fc8680b3a47fe372"
+      }
+    ],
+    "actor_name_field": {
+      "bytes_initialized": 32,
+      "following_field_offset": 32,
+      "setter_uses_unbounded_strcpy": true,
+      "runtime_nul_within_field_proven": false,
+      "conditional_valid_nul_terminated_content_max_bytes": 31
+    },
+    "two_observed_scratch_areas": [
+      {
+        "call_offset": 1195856,
+        "destination_sp_offset": 0,
+        "next_area_sp_offset": 64,
+        "bytes": 64
+      },
+      {
+        "call_offset": 1195872,
+        "destination_sp_offset": 64,
+        "next_area_sp_offset": 128,
+        "bytes": 64
+      }
+    ],
+    "limits": "Static separation of adjacent destinations, not a C array declaration or proof of complete incoming texts. The 32-byte initialized name field alone does not guarantee all callers bound strcpy."
+  },
+  "case_count": 18,
+  "editing_authorized": false,
+  "new_translations": 0,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "limits": "Original formatter with modeled classification, strcpy and two-byte copy. strlen and numeric argument reader execute original scalar instructions. Three supplied names are conditional, not recovered scene identities. The observed-corpus dependency audit is separate from runtime name lifecycle, arbitrary mutations, indirect aliases and universal memory safety.",
+  "cases": [
+    {
+      "item_id": 331,
+      "name_bytes": 4,
+      "output_bytes": 30,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "d5da6b41ceec849b266918a337640ae17748b951608ab1bc36e24a8e6d2626ab"
+    },
+    {
+      "item_id": 331,
+      "name_bytes": 31,
+      "output_bytes": 57,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "ffe17d70fbdec0f14ef0adac169091c2d2bab2bdb22e63acd9b586764e676eab"
+    },
+    {
+      "item_id": 331,
+      "name_bytes": 30,
+      "output_bytes": 56,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "eae6d67a16567c55ee093875b79be729e3fffcc191b78c8f2f1980fd749ae3e6"
+    },
+    {
+      "item_id": 372,
+      "name_bytes": 4,
+      "output_bytes": 29,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "d388c0e2baad6dcde847548cac461e5a47b9628f9b15ce2fd49147cb7859d864"
+    },
+    {
+      "item_id": 372,
+      "name_bytes": 31,
+      "output_bytes": 56,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "6863f7eb1cb015e97762f86eb7ccbf82a0101e6162cd22f5e6f2f88c18040152"
+    },
+    {
+      "item_id": 372,
+      "name_bytes": 30,
+      "output_bytes": 55,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "82fb5ee5029975b64e467a0fc8c8f5ee66ffe2c40b73fe6d43b46fdf073abce1"
+    },
+    {
+      "item_id": 459,
+      "name_bytes": 4,
+      "output_bytes": 29,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "fb6ff7cdfa1205bf8c0508aead92bfdc97026016817be8627cb1c041910148e3"
+    },
+    {
+      "item_id": 459,
+      "name_bytes": 31,
+      "output_bytes": 56,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "dd8980e6bae440d13115bf2396d2e54bd64814b94475abbdfc68207d968f4f44"
+    },
+    {
+      "item_id": 459,
+      "name_bytes": 30,
+      "output_bytes": 55,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "c72cac05a2c7ae262fc1d01438012c982250ac9fed84bed68aa1bbcf0cd9b656"
+    },
+    {
+      "item_id": 838,
+      "name_bytes": 4,
+      "output_bytes": 29,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "0758631097843f967c538cb0626281a3754cfe39205fbd9f042e2057941e871f"
+    },
+    {
+      "item_id": 838,
+      "name_bytes": 31,
+      "output_bytes": 56,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "6e4b453465479f0c6200de7c64b61a887fecf56f8dc7077ccfcd69d900c5490a"
+    },
+    {
+      "item_id": 838,
+      "name_bytes": 30,
+      "output_bytes": 55,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "6d142c827c042fe796afc0c9d2bfdf4ac70fccfe4880cdd8c18442e75323448e"
+    },
+    {
+      "item_id": 841,
+      "name_bytes": 4,
+      "output_bytes": 29,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5ef3c1bdeeafdf5a6c66707b5cf24930f6ee8589c43795792673aa00f48d667c"
+    },
+    {
+      "item_id": 841,
+      "name_bytes": 31,
+      "output_bytes": 56,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "cd7549e0e38983f940ddabb51a18f014542dc68b224cbb8ffdd51c29fe90a169"
+    },
+    {
+      "item_id": 841,
+      "name_bytes": 30,
+      "output_bytes": 55,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "a26967419f8f683807fbcbdc20c3b78e08a7b620e09043ee180116b33717c5a1"
+    },
+    {
+      "item_id": 849,
+      "name_bytes": 4,
+      "output_bytes": 30,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f470759b5ed0f327bc1691c9d229977e6679e5737cebe800baaba5f9ddb38cc6"
+    },
+    {
+      "item_id": 849,
+      "name_bytes": 31,
+      "output_bytes": 57,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "56c3029f8451859416833380c1583a275b107166a793b5b23934afbf30ada143"
+    },
+    {
+      "item_id": 849,
+      "name_bytes": 30,
+      "output_bytes": 56,
+      "capacity_bytes": 64,
+      "nul_written": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "source_pipes_changed_to_lf": true,
+      "source_other_bytes_unchanged": true,
+      "callee_saved": true,
+      "original_instructions": 266,
+      "copy_helpers_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "3b801a9c2e02e105795624705f2ac2277d653a37f123974be37cc7af130afb44"
+    }
+  ],
+  "mail_dependency_audit": {
+    "recipe": "translations/interface-v052.json",
+    "recipe_sha256": "43c9b18a798d8ded2248b560e69decfbdaf8664774912bb118033da46745e76e",
+    "resolved_direct_calls": [
+      1195856,
+      1195872
+    ],
+    "mail_records": 41,
+    "fields": 82,
+    "original_getter_executions": 82,
+    "instruction_windows": [
+      {
+        "offset": 1195724,
+        "size": 12,
+        "sha256": "e25ceed358814e1979ba1b4eacc93bcdb0c2e56c3deec92e0ef02eeeb47c329b"
+      },
+      {
+        "offset": 1195844,
+        "size": 36,
+        "sha256": "d816219037a827a77700ba2b6d7fb941ed8dce4cad15f40dba88a724d7ef0041"
+      },
+      {
+        "offset": 465632,
+        "size": 144,
+        "sha256": "5cfab9f3526ac33ad77ecf682ca54eedf8bb66d7ac3d1374cd5804efc709088b"
+      }
+    ],
+    "item_name_growth_affects_these_two_inputs": false,
+    "all_other_formatting_capacity_proven": false,
+    "remaining_direct_calls_to_trace": 7,
+    "limits": "Sender and subject only, original and current bounded mail catalogue. Zero I dependencies removes these paths from this six-item growth question; it is not a universal buffer safety claim or exclusion of computed calls.",
+    "field_metadata_sha256": "f981ca871d8c6030bb385b5f2feb8b77143c3cb104521f0a5f7c85224aada7ed"
+  },
+  "consumer_input_audit": {
+    "recipe_sha256": "43c9b18a798d8ded2248b560e69decfbdaf8664774912bb118033da46745e76e",
+    "unique_fields": 299,
+    "mail_fields": 123,
+    "wanted_bodies": 40,
+    "diary_fields": 136,
+    "direct_call_input_classes": [
+      {
+        "call_offset": 1195856,
+        "input_class": "mail.sender"
+      },
+      {
+        "call_offset": 1195872,
+        "input_class": "mail.subject"
+      },
+      {
+        "call_offset": 1196816,
+        "input_class": "mail.body"
+      },
+      {
+        "call_offset": 1196988,
+        "input_class": "mail.sender"
+      },
+      {
+        "call_offset": 1197020,
+        "input_class": "mail.subject"
+      },
+      {
+        "call_offset": 1217652,
+        "input_class": "diary.title"
+      },
+      {
+        "call_offset": 1218180,
+        "input_class": "diary.title"
+      },
+      {
+        "call_offset": 1218388,
+        "input_class": "diary.body"
+      },
+      {
+        "call_offset": 1229304,
+        "input_class": "wanted.body"
+      }
+    ],
+    "instruction_windows": [
+      {
+        "offset": 1195700,
+        "size": 36,
+        "sha256": "58b94654a35b259d084eefc7468887c388112f0b9719b26cad2b83eac0a72a29"
+      },
+      {
+        "offset": 1196328,
+        "size": 16,
+        "sha256": "40847f348c90744443b1bc893bc692fb06d468cf1a3626c12b98740bb9b809f1"
+      },
+      {
+        "offset": 1196612,
+        "size": 36,
+        "sha256": "28d4884d33c2cb8aac2db8e5b1d3982ac8ab79d245a76b967aee20c748e80d79"
+      },
+      {
+        "offset": 1196812,
+        "size": 28,
+        "sha256": "502654441aa4684689e9ab43a2f93ecc21c7125f4476504142f49d905598ca3b"
+      },
+      {
+        "offset": 1196888,
+        "size": 140,
+        "sha256": "7d336a68253b0b64b066b241fa35a0c7d4c28553057592efbb6e9614771a2924"
+      },
+      {
+        "offset": 1214864,
+        "size": 32,
+        "sha256": "322c5215581ef08a17e0b9931c7bcd649bf968b72a85a8271df278afb59738fc"
+      },
+      {
+        "offset": 1217568,
+        "size": 88,
+        "sha256": "f459f3aa7d729722b96f5764fd2782a17a9b8b835a42873036bfb8f256eb8d16"
+      },
+      {
+        "offset": 1218172,
+        "size": 16,
+        "sha256": "6eb8b26afebfcb9d77a21338d5bfa8ae9d8a45eb4f8e3797558179ace85c5255"
+      },
+      {
+        "offset": 1218384,
+        "size": 12,
+        "sha256": "9f743bce129de47041bd4cd885c9a6b053d4d548f907f6ba15fbb6ca9d5af7b0"
+      },
+      {
+        "offset": 1217920,
+        "size": 60,
+        "sha256": "b83b16865de7075f75c958806b6dcb5a9471f9985913e16904092039b5533b75"
+      },
+      {
+        "offset": 1219176,
+        "size": 100,
+        "sha256": "8f13c74c403a1dc71e7dddf1a3205fb9d1bf979a43140cfbc67961362a34acca"
+      },
+      {
+        "offset": 1229112,
+        "size": 28,
+        "sha256": "9c7a694ba30fad3d6ab01c4db3fa4fe1ece22639b6acaa1d845e7560d08a33de"
+      },
+      {
+        "offset": 1229300,
+        "size": 28,
+        "sha256": "bf64c05f72f5ed5b1690f36f707b582887bbce350e7f4dbd11e76b504848d841"
+      }
+    ],
+    "item_name_growth_affects_observed_corpora": false,
+    "unresolved_direct_input_classes": 0,
+    "all_runtime_mutations_or_indirect_calls_proven": false,
+    "limits": "Original/current compiled bounded mail, wanted body and diary fields have no I token. This excludes these observed corpus paths from the six-item growth dependency; it is not a universal memory safety or future runtime-text mutation proof. Native diary bytes are scanned and preserved, not decoded or edited.",
+    "field_metadata_sha256": "0b5cb6ec8ad810d7db31c7a0db4c2c64b03e066240543647837e70a20cf95eae"
+  },
+  "validation": {
+    "tests": {
+      "tests": 54,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "seconds": 17.31,
+      "patterns": [
+        "test_name_formatter_bounds.py",
+        "test_name_source_paths.py",
+        "test_item_name_stream.py",
+        "test_item_name_buffers.py",
+        "test_item_accent_fallback.py"
+      ]
+    },
+    "new_tests": 10,
+    "existing_iso_preflight": {
+      "path": "work/interface-v052/MetalSaga-ptbr-interface-v052.iso",
+      "size": 1704427520,
+      "sha256": "26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449",
+      "verified": true
+    },
+    "new_translations": 0,
+    "new_isos": 0,
+    "new_font_or_production_compiler_changes": false,
+    "pcsx2_executed": false,
+    "onedrive_copied": false,
+    "shutdown_scheduled": false
+  },
+  "tool_sha256": "f4f498277d27cb1dc828d98c82c6357c1114af0a346577519dafe2960f0427eb",
+  "synthetic_item_table_recipe": "translations/interface-v051.json",
+  "synthetic_table_limits": "Only the six approved proposal IDs are exercised; the v052 item-460 fallback is unrelated to these scenarios. Corpus dependencies are audited against the complete v052 Satcom/diary configurations."
+}
