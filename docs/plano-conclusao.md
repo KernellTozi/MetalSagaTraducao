@@ -1,6 +1,134 @@
 # Plano para concluir a tradução
 
-**Atual — rótulos com revisão contextual, MAP v042/interface v049:** 36 dos 49
+## Plano vigente — base v050, revisão de 28/10/2026
+
+Este bloco define a ordem das próximas rodadas. As seções abaixo de
+Histórico registram estados anteriores; não representam a prioridade atual.
+Esta atualização é somente planejamento: nenhuma tradução, fonte, script de
+reinserção ou ISO foi alterado, e nenhum teste de execução foi realizado.
+
+Base: interface v050 / MAP v043 / fontes e layout v005. Evidências em
+reports/interface-v050.json e reports/dialogos-pendencias-v043.json.
+A v050 tem 6.043 registros MAP alterados, 5.991 com corpo/opções modificados,
+980 referências de falantes traduzidas, 3.848 unidades heterogêneas de
+interface e 541 nomes de itens aplicados. Não derivar porcentagem do jogo
+somando essas métricas. Os 199 testes pertencem à construção v050 anterior.
+
+### 1. Próxima rodada de desenvolvimento: nomes aprovados bloqueados
+
+Objetivo: aplicar a redação escolhida pelo usuário, com uma solução técnica
+comprovada, sem substituir silenciosamente por alternativas curtas.
+
+A lista vinculada em translations/revisao-humana-itens-v001.json contém
+16 revisões bloqueadas: 15 excedem o teto atual de 16 bytes e uma exige Í.
+Das 15, sete usam 17 bytes, seis usam 18 e duas usam 19. O teto é conservador,
+baseado no maior nome original observado; não é prova de um buffer universal
+de 16 bytes. O campo físico de 24 bytes também não prova uso seguro de 23.
+
+Reaproveitar tools/item_names.py, seus vínculos do ELF e os testes existentes:
+
+1. Rastrear os leitores, cópias e formatadores dos nomes em inventário,
+   equipamento, lojas e batalha, partindo das referências já documentadas.
+   Registrar os caminhos encontrados e os que não puderem ser demonstrados.
+2. Separar capacidade de armazenamento, buffers intermediários e largura
+   desenhada. Para os nomes de até 19 bytes, procurar prova em cada caminho
+   relevante; não aumentar o teto global apenas por existir padding.
+3. Se a prova permitir, criar política opt-in para IDs/destinos exatos, mantendo
+   as receitas históricas. Validar NUL, atributos, aliases, ponteiros e round-trip
+   integral. Se houver cópia limitada ou corte, investigar adaptação específica
+   antes de liberar; um recorte isolado não comprova todos os consumidores.
+4. Investigar o glifo Í em perfil separado e compatível com as duas GFI,
+   codec, cache e métricas existentes, preservando ASCII e os acentos aprovados.
+   Não remover o acento nem redesenhar o alfabeto já aprovado. Só incorporar
+   depois dos testes estruturais e de preparar comparação visual adequada.
+
+Entrega mínima da rodada: mapa de consumidores com evidências e decisão
+explícita por bloqueio. Aplicar o subconjunto comprovado em um único lote;
+se nenhum puder ser liberado, manter a v050 e documentar a causa. Não criar
+ISOs somente para cada hipótese ou repetir tentativas sem evidência nova.
+
+### 2. Revisão dirigida do inglês remanescente
+
+Reaproveitar o catálogo local do auditor, sem reiniciar a extração. Existem
+534 referências de falantes fora do grupo de 13 bloqueados por espaço. Elas
+incluem nomes, marcadores, Hunter/Soldier/Punk e funções ainda não liberadas.
+Primeiro separar preservações exigidas de funções genéricas revisáveis;
+somente estas últimas podem originar um novo lote de tradução.
+
+Os 124 sinais editoriais, 455 candidatos de nomes/expressões e 590 registros
+de controles/pontuação são classes de triagem por registro, não quantidades
+de falas em inglês que necessariamente precisam de tradução. Conferir contexto
+e aliases antes de aplicar qualquer mudança. Manter sons, risadas, bordões,
+nomes de tanques N$3 e as exceções já decididas. Não substituir palavras em massa
+com base apenas em busca literal. Agrupar correções confirmadas em uma rodada
+consolidada, com nova auditoria de consistência dos nomes.
+
+### 3. Treze rótulos sem espaço
+
+Prioridade abaixo dos nomes aprovados e da revisão de lacunas confirmadas.
+O mecanismo atual não comporta todos os nomes completos mantendo as falas
+preservadas. O levantamento anterior de caudas foi restrito; seus quatro
+candidatos não autorizam realocação nem provam ausência de outras soluções.
+
+Uma investigação nova deve partir de hipótese diferente: outro armazenamento
+com lookup comprovado ou reconstrução limitada cuja leitura possa ser
+reproduzida. Descrever limites, propriedade da memória e referências antes de
+editar. Não crescer registros/SSD, mover comandos, tomar bytes externos ou
+introduzir redirecionamento de ELF sem prova e perfil próprios. Não abreviar
+Trabalhador ou cortar gritos, bordões e silêncios para elevar a contagem.
+
+Critério de parada: se a hipótese falhar nas primeiras amostras representativas
+ou exigir mudanças de engine sem prova suficiente, registrar o resultado e
+manter os 13 como limitação conhecida. Isso não bloqueia uma versão jogável.
+
+### 4. Fechamento da descoberta, com limite de escopo
+
+O scanner atual de registros SSD fora dos parsers conhecidos encontrou zero
+candidatos pelo seu critério ASCII. Ele não exclui texto curto, nativo,
+comprimido ou fora dos blocos indexados. Não declarar 100% do jogo extraído.
+
+As três raízes especiais mantêm semântica desconhecida; ainda não há prova de
+que contenham texto. Consultar reports/descoberta-desconhecidos-v002.json
+antes de reabrir qualquer uma. Investigar somente quando houver indício novo
+ou uma tela não traduzida observada em jogo. Se a estrutura demonstrada for
+não textual, registrar essa classificação; não insistir para produzir números.
+
+Os 20 candidatos gráficos já têm decisão documentada: nove cobertos e onze
+preservados por orientação do usuário. Não reabrir pôsteres Wanted, títulos
+decorativos de cassino/minigames ou o painel japonês dos cães. Trabalhos já
+aprovados permanecem, inclusive Carregando e os botões de pintura.
+
+### 5. Revisão de uma partida e preparação de entrega
+
+A validação visual pode ocorrer em paralelo a qualquer etapa anterior, quando
+o usuário puder jogar. Não exigir acesso imediato a Dr. Palm ou a cada fala.
+Priorizar, na passagem normal: menus de personagem, inventário/equipamento,
+lojas e comparação de itens, batalha, escolhas, Satcom/mensagens e diário.
+Registrar ISO usada, cena, texto e captura quando surgir um problema; corrigir
+por causa comprovada e consolidar correções compatíveis na mesma rodada.
+
+Antes de considerar uma versão candidata à conclusão: conferir o backlog sem
+misturar preservações com dívidas, documentar limitações, verificar integridade
+e reproduzir a construção. Preparar um patch distribuível contra o hash da ISO
+original, com instruções e glossário; não incluir ISO, BIOS, saves ou arquivos
+proprietários no GitHub. A conclusão depende de cobertura conhecida e teste de
+jogo, não somente de a compilação passar.
+
+### Disciplina das próximas entregas
+
+- Uma ISO consolidada por conjunto liberado; nenhuma nova ISO nesta rodada
+  de planejamento. Cinco imagens de trabalho e alpha permanente protegida.
+- Manter os mesmos iniciadores; não criar atalhos para cada experimento.
+- Relatórios próprios concisos e evidências vinculadas; textos completos,
+  extrações e previews volumosos somente em work/.
+- Testes direcionados para a mudança e regressões necessárias, comparação
+  integral da ISO e verificação final de hash/transações antes de entregar.
+- Nenhuma cópia OneDrive, desligamento ou publicação de distribuição sem o
+  pedido correspondente. Commits de scripts/documentos continuam autorizados.
+
+## Histórico
+
+**Histórico — rótulos com revisão contextual, MAP v042/interface v049:** 36 dos 49
 rótulos pendentes foram recuperados, mantendo nomes completos. Revisões naturais
 nos respectivos corpos liberam de um a quatro bytes necessários; controles,
 artigos, acentos e estruturas são preservados. Perfil v005 separado, sobre o
@@ -18,7 +146,7 @@ zeros ou sacrificar as formulações preservadas. As 16 revisões de itens e o
 teste visual/contextual em partida normal continuam separados. Nenhum PCSX2
 executado, OneDrive ou desligamento solicitado nesta rodada.
 
-**Atual — oito ocorrências nativas resolvidas, MAP v041/interface v048:** os
+**Histórico — oito ocorrências nativas resolvidas, MAP v041/interface v048:** os
 oito IDs de corpo repetido receberam Erro. em slots fixos, com vínculo integral
 às origens. Inferência de aviso técnico apoiada em contexto de scripts; não
 foram declarados inalcançáveis nem removidos. Ver `docs/dialogos-v041.md`.
@@ -34,7 +162,7 @@ de itens, mantendo a revisão contextual/visual em partida normal. Os 129 sinais
 editoriais do auditor são triagem, não 129 traduções obrigatórias confirmadas.
 Não reabrir o painel excluído nem os oito avisos para inflar contagens.
 
-**Atual — gráficos restantes de interface, v047:** cinco painéis de instruções
+**Histórico — gráficos restantes de interface, v047:** cinco painéis de instruções
 de minigames traduzidos e três rótulos de pintura acrescentados (Chassi duas
 vezes e Editar). Preserva integralmente MAP v040, itens, fontes/layout v005,
 seis botões de pintura aprovados e demais traduções v046. São 3.848 unidades
@@ -52,7 +180,7 @@ de itens anteriormente bloqueadas. Próximo passo: revisão em partida normal;
 investigar o painel nativo somente com uma ocorrência concreta, sem repetir
 indefinidamente a triagem. PCSX2 não executado nesta rodada.
 
-**Atual — lacunas pequenas de interface, v046:** SAIR substitui TITLE na
+**Histórico — lacunas pequenas de interface, v046:** SAIR substitui TITLE na
 legenda pertinente à saída da nomeação, com prova de conclusão sem confirmação
 de nome; não foi provado o destino externo. Quatro destinos genéricos recebem
 Pte. do lago L, Ilha O, Lab. médico e Cáp. transp.; 21 entradas preservadas.
@@ -63,7 +191,7 @@ contexto nativo e rótulos sem espaço; não declarar cobertura total da interfa
 Próxima validação: saída da nomeação e destinos em partida normal, sem exigir
 desbloquear todos agora. Fontes, itens, MAP e arte anteriores preservados.
 
-**Atual — nomes pendentes resolvidos na v045:** os 14 IDs pendentes foram
+**Histórico — nomes pendentes resolvidos na v045:** os 14 IDs pendentes foram
 traduzidos com rótulos compactos escolhidos sob a autonomia solicitada pelo
 usuário, sem elevar o teto de 16 bytes ou remover acentos. Total 541 nomes
 aplicados/zero pendentes no recorte; 500 preservados. Descrição da geladeira
@@ -73,7 +201,7 @@ personagem Fang e duas à Twin Fang preservadas. Auditoria completa local em
 bloqueadas da auditoria anterior são separadas e continuam sem aplicar.
 Próximas frentes: lacunas específicas de interface e revisão em partida normal.
 
-**Atual — consistência v044:** concluída a revisão de 81 ocorrências no
+**Histórico — consistência v044:** concluída a revisão de 81 ocorrências no
 recorte literal de 10.682 campos, incluindo todas as 69 anteriores. Foram
 corrigidas 25 ocorrências em 24 campos (16 de interface/oito MAP); 56 usos
 corretos preservados e zero sem decisão nesse recorte. Nomes continuam
@@ -82,7 +210,7 @@ local `tools/audit_name_consistency.py`. Demais nomes em revisão não foram
 liberados. Próximas frentes seguem as lacunas específicas de interface e
 validação contextual/visual em partida normal; não reabrir falsos positivos.
 
-**Atual — interface v043:** lote explicitamente aprovado aplicado a nove IDs:
+**Histórico — interface v043:** lote explicitamente aprovado aplicado a nove IDs:
 oito nomes retomados e revisão de 861 para Superpercepção. São 527 nomes
 aplicados e 14 pendentes; interface com 3.822 campos. Só Oculos perdeu acento,
 por falta do glifo Ó. A contagem correta de Superpercepção é 16 bytes e sua

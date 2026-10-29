@@ -1351,3 +1351,16 @@ As 16 revisões de itens bloqueadas, N$3, o painel japonês excluído e as três
 raízes especiais desconhecidas mantêm as decisões anteriores. Cinco ISOs e
 alpha por hash conferidos. Teste visual pendente para partida normal do usuário;
 nenhum PCSX2 executado, sem OneDrive ou desligamento solicitado nesta rodada.
+
+
+## Planejamento após v050 — 28/10/2026
+
+O bloco Plano vigente no início de docs/plano-conclusao.md define a ordem
+atual; as demais seções desse documento são históricas. Próxima rodada técnica:
+investigar os 16 nomes aprovados bloqueados (15 com 17–19 bytes e um com Í),
+separando campo físico de 24 bytes, teto observado de 16, buffers e largura.
+Não liberar crescimento por padding ou por um consumidor isolado; não trocar
+as escolhas humanas por abreviações. Depois, triagem contextual das referências
+remanescentes, 13 rótulos sem espaço com hipótese nova, descoberta adicional
+somente com indícios e revisão em partida normal. Esta rodada alterou apenas
+planejamento; versão jogável continua v050 e não houve nova ISO ou novos testes.
