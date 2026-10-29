@@ -746,3 +746,19 @@ Iniciador/preparador/auditor usam v052. Cinco ISOs de trabalho e alpha protegida
 sem OneDrive, execução PCSX2 ou desligamento. Não confundir nomes sintéticos
 de teste com personagens identificados e não aplicar o orçamento 41 a todas
 as mensagens/fontes do jogo.
+
+## Continuidade v005 — origens concretas e consumidor adicional
+
+Investigação em docs/fontes-nomes-v005.md e tools/name_source_paths.py.
+Retornos virtuais dos tipos de cena 2/3 apontam ao payload em objeto+0x3C;
+dois finais de preenchimento forçam NUL no byte 33. Isso não prova os nomes
+N0: o inicializador original da tabela grava 39 ponteiros, dez do pool tipo
+13 e 29 do tipo 14. N0 chega por objeto+0x228 -> registro+0x10; no reset
+observado, offset 0x130 do objeto. Não transferir limites entre classes.
+
+Confirmado outro formatador I/N, 0x10E0E8, com nove chamadas diretas já
+catalogadas. Próxima rodada: registros de nome desse getter e entradas/
+destinos desses nove chamadores. Não repetir o censo bruto. Não houve nova
+tradução ou ISO; v052, 541 nomes e 15 revisões bloqueadas permanecem atuais.
+O levantamento novo é necessário para ampliar nomes com evidência, não
+uma descoberta de nove diálogos nem prova de nove erros existentes.

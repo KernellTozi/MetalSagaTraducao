@@ -1543,3 +1543,24 @@ recusa outros IDs/redações/fontes/layouts. Nenhum PCSX2, OneDrive ou desligame
 novos N0, além da regressão. Preflight/iniciador conferidos sem abrir emulador.
 SHA-256 v052: 26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449.
 Relatórios interface-v052.json, interface-v052-delta.json e fluxo-nomes-v004.json.
+
+## Fontes de nomes v005 — somente leitura
+
+Consultar docs/fontes-nomes-v005.md e reports/fontes-nomes-v005.json.
+tools/name_source_paths.py executa o inicializador N 0x1784AC..0x178520 e
+getters originais com pools modelados: 39 ponteiros, dez tipo 13 e 29 tipo 14.
+N0 segue objeto+0x228 -> registro+0x10 (reset: objeto+0x130); comprimento
+máximo ainda não comprovado. As caudas de setters dos tipos 2/3 forçam NUL
+em byte 33 e getters retornam payload+0; é outro caminho, não limite de N0.
+
+Novo consumidor I/N em 0x10E0E8, nove chamadas diretas nos relatórios; somente
+evidência estática, não executado e sem capacidade de destino comprovada.
+Próximo: registros alcançados por 0x7F6C0 e entradas/destinos desses nove
+chamadores; não repetir o censo 54/190 nem liberar seis nomes por assumir
+limites de outra classe. Sem nova tradução, ISO, PCSX2, OneDrive ou shutdown.
+Versão atual continua v052/MAP v044/layout v005, 541 nomes e 15 revisões
+bloqueadas. Resultados condicionais das páginas continuam válidos nesse escopo.
+
+44 testes distintos passaram nesta rodada, oito novos; preflight v052 intacto.
+Não somar com a regressão de 103 da rodada anterior como se fosse execução
+única nova. Compiladores/fontes/receitas e conteúdo da ISO não foram alterados.

@@ -1,0 +1,307 @@
+{
+  "schema": 1,
+  "scope": "name-pointer-source-paths-read-only-v005",
+  "proof": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "virtual_descriptors": [
+      {
+        "vtable_va": 4211184,
+        "adjustment": 0,
+        "getter_offset": 499384
+      },
+      {
+        "vtable_va": 4211096,
+        "adjustment": 0,
+        "getter_offset": 500656
+      },
+      {
+        "vtable_va": 4210000,
+        "adjustment": 0,
+        "getter_offset": 521920
+      },
+      {
+        "vtable_va": 4209792,
+        "adjustment": 0,
+        "getter_offset": 534472
+      }
+    ],
+    "instruction_windows": [
+      {
+        "offset": 497848,
+        "size": 64,
+        "sha256": "6e292ccdbaf8579548392351d5d26cf767dfc1065b7cbe909bd0ecf7e9dd6322"
+      },
+      {
+        "offset": 499400,
+        "size": 64,
+        "sha256": "9cf08ea138f77ad3030e0b7f7ec08309af6cf81e367b5be390ff65038a4b9ab8"
+      },
+      {
+        "offset": 498088,
+        "size": 120,
+        "sha256": "84bf604aaab97151e8af1b155c0b17881339d82f6f771d229bcbe6b1611f7a24"
+      },
+      {
+        "offset": 499640,
+        "size": 120,
+        "sha256": "84bf604aaab97151e8af1b155c0b17881339d82f6f771d229bcbe6b1611f7a24"
+      },
+      {
+        "offset": 499384,
+        "size": 16,
+        "sha256": "df3445b871992a6504015394dd7cc635588a5ca15dd5626c6f04a197913bd90f"
+      },
+      {
+        "offset": 500656,
+        "size": 16,
+        "sha256": "df3445b871992a6504015394dd7cc635588a5ca15dd5626c6f04a197913bd90f"
+      },
+      {
+        "offset": 1540308,
+        "size": 160,
+        "sha256": "986ed088867cdf45712cce7559a3da08e91fe96066896e6c5913bfa8d97aa020"
+      },
+      {
+        "offset": 1541292,
+        "size": 116,
+        "sha256": "6d7fb44e4f8172edfe5c20b8450570663c613a9c667066d74a0b5275cda89e42"
+      },
+      {
+        "offset": 519896,
+        "size": 92,
+        "sha256": "e300d9d0eb038280e2993b132ef0a5917d0e0baa0fdfe9415fda0bf41cb1639a"
+      },
+      {
+        "offset": 533384,
+        "size": 84,
+        "sha256": "0daf27bb396fe5b4b4343d509b0299fa26fc9327e9a0b17930e6bee511361e59"
+      },
+      {
+        "offset": 521920,
+        "size": 12,
+        "sha256": "bb7d7c628de9d2c05a8ee05db1d3623e6fd3461b9331bf77d9cbb5295a981071"
+      },
+      {
+        "offset": 534472,
+        "size": 8,
+        "sha256": "894c335278d77efd810a3488b0044e832aa1c47cc7553cfa8360100d95cda480"
+      },
+      {
+        "offset": 520080,
+        "size": 28,
+        "sha256": "8a69dd150f5584499443603788c08e28b481a04b66bc0bd6e2601e96d7034321"
+      },
+      {
+        "offset": 533560,
+        "size": 28,
+        "sha256": "53d6e8a93cb373d088df7031428d9fb62b7ae6e5a39264f2abd9f94e520773f7"
+      },
+      {
+        "offset": 1106204,
+        "size": 256,
+        "sha256": "0c0efe8f954db5add87046b3085ec2450a3dc2b478e3919728522c9f0c81965e"
+      },
+      {
+        "offset": 3166616,
+        "size": 176,
+        "sha256": "0354c7f726f48b1f4f6a21f40b188e1a6920e56583d226dd95dfdbdfa98e33be"
+      },
+      {
+        "offset": 3165312,
+        "size": 288,
+        "sha256": "2fe8d5a0b24f735a8480a9e345f46bb31287f4b4bbc69ec8d252dce57e1769d1"
+      }
+    ]
+  },
+  "N_table_initialization": {
+    "table_va": 4674956,
+    "entries": 39,
+    "actor_entries": 10,
+    "tank_entries": 29,
+    "actor_stride": 576,
+    "tank_stride": 672,
+    "N0_source": "actor object 0 -> field +0x228 -> record +0x10; default observed record is object+0x120",
+    "N0_default_offset_in_actor": 304,
+    "name_lengths_proven": false,
+    "memory_modeled": true,
+    "original_virtual_getters_executed": true,
+    "original_instructions": 797,
+    "surrounding_guards_unchanged": true,
+    "store_count": 39,
+    "first_store": {
+      "address": 4674956,
+      "size": 4
+    },
+    "last_store": {
+      "address": 4675108,
+      "size": 4
+    },
+    "executed_instruction_offsets": [
+      521920,
+      521924,
+      521928,
+      534472,
+      534476,
+      1541292,
+      1541296,
+      1541300,
+      1541304,
+      1541308,
+      1541312,
+      1541316,
+      1541320,
+      1541324,
+      1541328,
+      1541332,
+      1541336,
+      1541340,
+      1541344,
+      1541348,
+      1541352,
+      1541356,
+      1541360,
+      1541364,
+      1541368,
+      1541372,
+      1541376,
+      1541380,
+      1541384,
+      1541388,
+      1541392,
+      1541396,
+      1541400,
+      1541404
+    ]
+  },
+  "scene_name_paths": [
+    {
+      "scene_type": 2,
+      "setter_tail_offset": 498200,
+      "getter_offset": 499384,
+      "payload_terminator_offset": 33,
+      "maximum_bytes_before_forced_terminator": 33,
+      "tail_instructions_executed": 2,
+      "getter_instructions_executed": 2,
+      "other_payload_bytes_unchanged": true,
+      "full_setter_or_lifecycle_executed": false,
+      "not_the_N0_actor_source": true
+    },
+    {
+      "scene_type": 3,
+      "setter_tail_offset": 499752,
+      "getter_offset": 500656,
+      "payload_terminator_offset": 33,
+      "maximum_bytes_before_forced_terminator": 33,
+      "tail_instructions_executed": 2,
+      "getter_instructions_executed": 2,
+      "other_payload_bytes_unchanged": true,
+      "full_setter_or_lifecycle_executed": false,
+      "not_the_N0_actor_source": true
+    }
+  ],
+  "additional_I_consumer": {
+    "function_offset": 1106152,
+    "function_window_offset": 1106204,
+    "item_handler_offset": 1106408,
+    "name_handler_offset": 1106332,
+    "item_pointer": "global 0x475280+0x868, index * 128",
+    "copier_call_offset": 1106432,
+    "strlen_call_offset": 1106444,
+    "destination_capacity_proven": false,
+    "executed": false,
+    "direct_calls": [
+      1195856,
+      1195872,
+      1196816,
+      1196988,
+      1197020,
+      1217652,
+      1218180,
+      1218388,
+      1229304
+    ],
+    "caller_windows": [
+      {
+        "offset": 1195832,
+        "size": 32,
+        "sha256": "da086b5eadd3701a52d25897753f0b277a96bc58564d816b7b175ec6260c5fb1"
+      },
+      {
+        "offset": 1195848,
+        "size": 32,
+        "sha256": "42eafc7e32dacc0d2ab8c96ecfa347690e438d45291af3e5826ee68e70819d8e"
+      },
+      {
+        "offset": 1196792,
+        "size": 32,
+        "sha256": "9af7ccb6981b090adfa0bc92ea64631515a4fbcab6771c97bad2666c3a0255cf"
+      },
+      {
+        "offset": 1196964,
+        "size": 32,
+        "sha256": "ea2ac6ed8c7ab66d39488c0eacf0d8b4a4b800e3d012e3e079c5b1f88a269299"
+      },
+      {
+        "offset": 1196996,
+        "size": 32,
+        "sha256": "4e86533438dde91e8576c0fb867ce9d143640abaf5eb4376b5b3bd55422970fa"
+      },
+      {
+        "offset": 1217628,
+        "size": 32,
+        "sha256": "73c95d33dabdccf8e8f01d509e15c1c5764a56821ec719b0caf0dfe9748b8b66"
+      },
+      {
+        "offset": 1218156,
+        "size": 32,
+        "sha256": "8c81ca870a4e36f58631155442398cb0fb8212d9ccc886b4b63b1951c94c931a"
+      },
+      {
+        "offset": 1218364,
+        "size": 32,
+        "sha256": "d9b7ef6c1df06a3e00645c517e5f03c965f80df5ac84c7ce9cd2175802a3b8ff"
+      },
+      {
+        "offset": 1229280,
+        "size": 32,
+        "sha256": "941c791e58f10d771cbf3d94f0a08bd90fe749a620a6b46ecdaa98dc452beb33"
+      }
+    ],
+    "status": "Original static instructions establish another I/N expansion path; destination callers need tracing."
+  },
+  "editing_authorized": false,
+  "new_translations_applied": 0,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "limits": "Actual name table initializer and getters executed with synthetic object pools and records. No constructor, allocator, save loading or complete setter lifecycle. The 33-byte scene bound does not establish the N0 actor-name bound, and other virtual classes are not enumerated.",
+  "validation": {
+    "tests": {
+      "tests": 44,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "seconds": 11.89,
+      "patterns": [
+        "test_name_source_paths.py",
+        "test_item_name_stream.py",
+        "test_item_name_buffers.py",
+        "test_item_accent_fallback.py"
+      ]
+    },
+    "existing_iso_preflight": {
+      "path": "work/interface-v052/MetalSaga-ptbr-interface-v052.iso",
+      "size": 1704427520,
+      "sha256": "26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449",
+      "verified": true
+    },
+    "new_unit_tests": 8,
+    "new_translations": 0,
+    "new_isos": 0,
+    "production_compilers_changed": false,
+    "font_changes": false,
+    "onedrive_copied": false,
+    "shutdown_scheduled": false
+  },
+  "tool_sha256": "7a576f85a1d4cd54a9a6dedebe2d6e54ca678365f4a824d9bce15f07299c9cfb"
+}

@@ -27,6 +27,7 @@ ISO: `work/interface-v052/MetalSaga-ptbr-interface-v052.iso`. Abra **Iniciar-Tes
 - [Investigação dos nomes bloqueados](docs/capacidade-nomes-v001.md)
 - [Buffers e expansão dos nomes](docs/buffers-nomes-v002.md)
 - [Entradas, emissor e páginas com nomes](docs/fluxo-nomes-v003.md)
+- [Origens dos nomes e formatador adicional](docs/fontes-nomes-v005.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)
 - [Reinserção e integridade](docs/reinsercao-v004.md)
