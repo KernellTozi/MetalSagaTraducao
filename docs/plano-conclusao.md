@@ -4,8 +4,9 @@
 
 Este bloco define a ordem das próximas rodadas. As seções abaixo de
 Histórico registram estados anteriores; não representam a prioridade atual.
-Esta atualização é somente planejamento: nenhuma tradução, fonte, script de
-reinserção ou ISO foi alterado, e nenhum teste de execução foi realizado.
+A investigação de capacidade v001 já foi executada e acrescentou ferramenta
+local de diagnóstico. Não houve aplicação de traduções, edição de fontes,
+ampliação de políticas de reinserção ou nova ISO. Não houve execução no PCSX2.
 
 Base: interface v050 / MAP v043 / fontes e layout v005. Evidências em
 reports/interface-v050.json e reports/dialogos-pendencias-v043.json.
@@ -46,6 +47,19 @@ Entrega mínima da rodada: mapa de consumidores com evidências e decisão
 explícita por bloqueio. Aplicar o subconjunto comprovado em um único lote;
 se nenhum puder ser liberado, manter a v050 e documentar a causa. Não criar
 ISOs somente para cada hipótese ou repetir tentativas sem evidência nova.
+
+**Investigação v001 realizada:** docs/capacidade-nomes-v001.md e
+reports/capacidade-nomes-v001.json separam os bloqueios: seis nomes dentro da
+referência de largura, nove acima em algum perfil e um sem Í. Dois laços de
+desenho e a cópia de expansão foram executados em RAM sintética, com chamadas
+modeladas e sem prova dos buffers reais. Foram inventariados 54 candidatos de
+carga do ponteiro e 190 chamadas diretas ao getter, sem classificar tudo como
+leitor de nome. Há oito ações relacionadas; duas exigiriam superar também o
+teto de 18 bytes das ações. Próxima ação concreta: conferir buffers e caminhos
+dos seis nomes mais promissores, começando pela expansão 0x1CD474 e seus
+chamadores. Nenhuma proposta aplicada ou teto ampliado. O diagnóstico local
+foi incorporado ao iniciador de auditoria, cujo alvo explícito foi corrigido
+de v049 para v050. A versão jogável continua v050.
 
 ### 2. Revisão dirigida do inglês remanescente
 

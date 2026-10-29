@@ -1364,3 +1364,32 @@ as escolhas humanas por abreviações. Depois, triagem contextual das referênci
 remanescentes, 13 rótulos sem espaço com hipótese nova, descoberta adicional
 somente com indícios e revisão em partida normal. Esta rodada alterou apenas
 planejamento; versão jogável continua v050 e não houve nova ISO ou novos testes.
+
+
+## Investigação de capacidade dos itens v001 — sem nova ISO
+
+Consultar docs/capacidade-nomes-v001.md e reports/capacidade-nomes-v001.json.
+Ferramenta local somente leitura: tools/item_name_capacity.py. Auditar-Traducao.cmd
+agora aponta explicitamente para v050 (ainda apontava para v049) e, se a auditoria
+passar, atualiza também work/capacidade-nomes-atual.json. Não criar atalhos novos.
+A base continua MAP v043/interface v050; nenhum dos 16 nomes foi aplicado.
+
+15 nomes são codificáveis e cabem fisicamente no campo de 24 bytes; seis ficam
+dentro do envelope observado de avanços nos seis perfis, nove excedem em algum.
+O outro precisa de Í. Isso não comprova caixas/buffers reais nem autoriza teto
+maior. O compilador histórico ainda recusa todas as 16 propostas. Oito rótulos
+de ação relacionados exigem consistência; os destinos de 836/840 também excedem
+o teto independente de 18 bytes das ações. Preservar as escolhas humanas.
+
+Sondas dos bytes originais: laços 0x197858 e 0x3E1F0 percorrem os 15 nomes;
+classificação/escape/desenho têm fronteiras modeladas documentadas, sem GPU.
+Cópia 0x1CD474 alcança NUL sem copiá-lo, em destino sintético de 32 bytes com
+guarda; tamanho real desse destino ainda não demonstrado. Não transformar a
+sonda em prova do formatador/VM completo ou de segurança universal.
+54 candidatos lw/imediato e 190 chamadas ao getter são inventário parcial de
+raízes, não 244 consumidores de nomes comprovados. Usar esse mapa para avançar
+nos buffers/caminhos dos seis nomes, sem repetir buscas brutas indefinidamente.
+
+46 testes passaram, 11 novos; iniciador real também executado com retorno zero
+e vínculos v050/980 rótulos conferidos. ISO v050 reconferida por hash/tamanho e
+transações. Nenhuma nova ISO, alteração de fontes, PCSX2, OneDrive ou desligamento.

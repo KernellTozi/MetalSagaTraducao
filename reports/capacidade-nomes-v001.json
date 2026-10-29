@@ -1,0 +1,1597 @@
+{
+  "schema": 1,
+  "scope": "item-name-capacity-read-only-v001",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "spack_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+  "instruction_windows": [
+    {
+      "offset": 1669064,
+      "size": 328,
+      "sha256": "6652c9e08771d2cbf1979a1f3cd308869278c961785fb9d6efffef89e9f9089c"
+    },
+    {
+      "offset": 254448,
+      "size": 188,
+      "sha256": "6cd50cfe673b49309dbfeaff27250ef55025e3c1095a0a268903529b7adf8d4b"
+    },
+    {
+      "offset": 1889396,
+      "size": 36,
+      "sha256": "5c56c82fae94db946d935759b57d10ff5b55543b499a2256d02e736fa5f966c6"
+    },
+    {
+      "offset": 1783020,
+      "size": 24,
+      "sha256": "17e898bbd760f6edd2c1ace82dee8ec399b486906a2fdb0405945a9e84cf88f0"
+    },
+    {
+      "offset": 1784588,
+      "size": 96,
+      "sha256": "d4fbb8be44aaebb6b00d0e90f1ecf3b4e9235eef98cfc2428678a1f833f3d62a"
+    },
+    {
+      "offset": 1791464,
+      "size": 176,
+      "sha256": "60ce6facddd2f4eef15ff094a1af87bcb1f3fdbda8e7482420d37710e1ccdd15"
+    },
+    {
+      "offset": 1922320,
+      "size": 80,
+      "sha256": "5e26838b236b8b2cb2d5264bb6abfbf33cd280146b06084e94bc768c88f8b964"
+    }
+  ],
+  "items": [
+    {
+      "id": "item.name.0331",
+      "record_sha256": "2955817eb1632d5d20acd90583d0b1c2c6946e5e95860e3d41d95fe6bd5067ad",
+      "source_name_sha256": "c516a6c1793dd60168cdb550a85ed5d1d19e944b93f2b4d6f70c1c8dfe868912",
+      "current_translation": "Pílula doce",
+      "desired_translation": "Pílula Açucarada",
+      "encoded_bytes": 18,
+      "unicode_characters": 16,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 10,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 165,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 193,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_observed_envelope": true
+        }
+      ],
+      "within_all_observed_width_profiles": true,
+      "renderer_scan_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 375,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 412,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 18,
+        "source_bytes": 18,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 111
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0124",
+          "record_sha256": "6accd0d202801b7e7c5adb7180d75a34840b7ac043acaed5cb5c286565e50d27",
+          "source_sha256": "c516a6c1793dd60168cdb550a85ed5d1d19e944b93f2b4d6f70c1c8dfe868912",
+          "current_translation": "Pílula doce",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0354",
+      "record_sha256": "72bf19886e4b95f6f75fb9d05c873f751af8e249bd334670e7e43724d5bc0af9",
+      "source_name_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+      "current_translation": "Bomba a gasolina",
+      "desired_translation": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 11,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 183,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 215,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 393,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 434,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 18,
+        "source_bytes": 18,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 111
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0106",
+          "record_sha256": "be39057e4db88211cfb726c18bb13d54392ae057ba570b94d4d1e4dcbc5ce7c1",
+          "source_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+          "current_translation": "Bomba a gasolina",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0372",
+      "record_sha256": "c1347535d8ee97204a3705ca58a7924d2c526f4975d0821c66f73df79e17f4e3",
+      "source_name_sha256": "b3626c0f0cb57cdf65943c3cc8454921633aecbff7d610ad5e042afa369773f5",
+      "current_translation": "Frasco do pavor",
+      "desired_translation": "Frasco do pânico",
+      "encoded_bytes": 17,
+      "unicode_characters": 16,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 12,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 171,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 201,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_observed_envelope": true
+        }
+      ],
+      "within_all_observed_width_profiles": true,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 371,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 14,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 407,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0373",
+      "record_sha256": "6804e9e42c7bffddb9b00ccdc118e8b3a1919aa4ea2ef98113a6d04520504cc9",
+      "source_name_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+      "current_translation": "Bomba a gasolina",
+      "desired_translation": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 11,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 183,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 215,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 393,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 434,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 18,
+        "source_bytes": 18,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 111
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0106",
+          "record_sha256": "be39057e4db88211cfb726c18bb13d54392ae057ba570b94d4d1e4dcbc5ce7c1",
+          "source_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+          "current_translation": "Bomba a gasolina",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0431",
+      "record_sha256": "a23eb91199c5c03ed9f8dba7f8b1ecc5c93da8e7b6b08f8a5d1c9a8bb2741a6d",
+      "source_name_sha256": "951fa5ae36a1b9a752952eb077bdb58898fa7b7494e762a04735880c9c84fc1b",
+      "current_translation": "Antipulgas",
+      "desired_translation": "Coleira anti-pulga",
+      "encoded_bytes": 18,
+      "unicode_characters": 18,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 11,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 198,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 183,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 198,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 234,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 214,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 234,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 18,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 411,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 480,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 18,
+        "source_bytes": 18,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 111
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0459",
+      "record_sha256": "2aebc1ae27784508ed9c7630b86c227572741a3edb1b36973ae0f37d90992784",
+      "source_name_sha256": "f9ad9728f042a890eed23a1e49c7cc8c078abd6061f62c8268006a4829f792c2",
+      "current_translation": "Figura de barro",
+      "desired_translation": "Estátua de barro",
+      "encoded_bytes": 17,
+      "unicode_characters": 16,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 11,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 172,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 202,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_observed_envelope": true
+        }
+      ],
+      "within_all_observed_width_profiles": true,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 371,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 14,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 407,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0460",
+      "record_sha256": "9d10e808b90c475424e6a713ce13bd42a36b2fed7eed5563830dda50f47a139d",
+      "source_name_sha256": "0f4aa45c2a7dbbc5b5ece78dd73887a98e8fbc8356dd1b8952815e159442bc3e",
+      "current_translation": "Imagem de barro",
+      "desired_translation": "Ídolo de barro",
+      "encoded_bytes": null,
+      "unicode_characters": 14,
+      "codec_error": "Unsupported project glyph U+00CD",
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": null,
+      "original_byte_budget": 9,
+      "current_policy_ceiling": 16,
+      "profiles": [],
+      "within_all_observed_width_profiles": null,
+      "renderer_scan_probe": null,
+      "direct_draw_loop_probe": null,
+      "scalar_expansion_copy_probe": null,
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0647",
+      "record_sha256": "2590f7f774d07ce643a4f9373d01d6c3af51c86cf987c9f78bc5009d0f401d0c",
+      "source_name_sha256": "88f488b4b4ee01e85ccd35d745834c1c43f23e1f99042ae183e7036b08d61042",
+      "current_translation": "Trapo de jaqueta",
+      "desired_translation": "Retalho de casaco",
+      "encoded_bytes": 17,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 12,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 182,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 215,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 389,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 441,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0711",
+      "record_sha256": "bfaac166694d864c246ba66fad1fc2355dd449240caa2458bb887c2e6b145b60",
+      "source_name_sha256": "41d451e42347d65b387511be8a59d02890104cd7e391ecbff55c57a789b05027",
+      "current_translation": "Busca-metais",
+      "desired_translation": "Detector avançado",
+      "encoded_bytes": 18,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 14,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 184,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 217,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 393,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 446,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 18,
+        "source_bytes": 18,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 111
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0798",
+      "record_sha256": "e2f6271f1c5f9e66cad1743f6892f7da770a9cc27d73eadba2f0b6725b2ac91a",
+      "source_name_sha256": "b2a024b1d286668b7cfb619da537bd89faddb56214050cbccdec3ef52ea0c3e6",
+      "current_translation": "Corrente caudal",
+      "desired_translation": "Corrente de cauda",
+      "encoded_bytes": 17,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 10,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 184,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 216,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 389,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 441,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0826",
+      "record_sha256": "42a91b250e4006fcc2d4c64a9a9ac1969061d7ae2a6291696da9039e3bc800b9",
+      "source_name_sha256": "65e66553b3d50b99e78aa22f5adda8321e1168b152e99769be9f74d169e6fbe6",
+      "current_translation": "Bandeira rubra",
+      "desired_translation": "Bandeira vermelha",
+      "encoded_bytes": 17,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 8,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 180,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 210,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 389,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 453,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0836",
+      "record_sha256": "42785ef7f3650930bced06c57d58ef1fe6ecc1dd46babe18dde1e3a210001342",
+      "source_name_sha256": "ed83f10f7e4a902e98b9d6d4a76e0863d29382c1c16cf4b5d3f874b7df32ed07",
+      "current_translation": "Obus explosivo",
+      "desired_translation": "Projétil explosivo",
+      "encoded_bytes": 19,
+      "unicode_characters": 18,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 9,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 198,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 181,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 198,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 234,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 212,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 234,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 19,
+        "consumed_bytes": 20,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 18,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 415,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 19,
+        "consumed_bytes": 20,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 473,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 19,
+        "source_bytes": 19,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 117
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0881",
+          "record_sha256": "584fc049dc4edbf731f6db46c7fc24a160c356189c3807666cf4b462f4327099",
+          "source_sha256": "ed83f10f7e4a902e98b9d6d4a76e0863d29382c1c16cf4b5d3f874b7df32ed07",
+          "current_translation": "Obus explosivo",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": true
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0838",
+      "record_sha256": "1a6028bac32faf6c196ca24ad68c8c5a0062ec3291e1aa08b5eac8b2e6cd6d78",
+      "source_name_sha256": "9ec0e62808c25089565a14efbb4e8c5a0ae5794d47b4719014e6f8b06a5a31b5",
+      "current_translation": "Obus sonoro",
+      "desired_translation": "Projétil sônico",
+      "encoded_bytes": 17,
+      "unicode_characters": 15,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 11,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 165,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 150,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 165,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 195,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 195,
+          "within_observed_envelope": true
+        }
+      ],
+      "within_all_observed_width_profiles": true,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 353,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 14,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 385,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0884",
+          "record_sha256": "1c7d85f60dd014faf55109dbe4fc5d3d11fe8434c7a57f3c89362b2a84f55180",
+          "source_sha256": "9ec0e62808c25089565a14efbb4e8c5a0ae5794d47b4719014e6f8b06a5a31b5",
+          "current_translation": "Obus sonoro",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0840",
+      "record_sha256": "044e220a1909104bf75234e379fca7f814c8bd006ffd02ad03693e47b47b0b2c",
+      "source_name_sha256": "38e42cb9743e15446986011449918e3598f4d1cbe4d3b83a49700df0bb508a33",
+      "current_translation": "Obus elétrico",
+      "desired_translation": "Projétil elétrico",
+      "encoded_bytes": 19,
+      "unicode_characters": 17,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 13,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 170,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 187,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 221,
+          "within_observed_envelope": false
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 198,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 221,
+          "within_observed_envelope": false
+        }
+      ],
+      "within_all_observed_width_profiles": false,
+      "renderer_scan_probe": {
+        "source_bytes": 19,
+        "consumed_bytes": 20,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 17,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 397,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 19,
+        "consumed_bytes": 20,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 439,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 19,
+        "source_bytes": 19,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 117
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0886",
+          "record_sha256": "0ec702a7587302f47075c0fb2e1dea7c7c8a09b526c75e9798aa0349064ba3d5",
+          "source_sha256": "38e42cb9743e15446986011449918e3598f4d1cbe4d3b83a49700df0bb508a33",
+          "current_translation": "Obus elétrico",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": true
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0841",
+      "record_sha256": "63a6f26a397fa5cbcdcf9031a78b08e781aa68d928824cce79dc0dd99c93c61d",
+      "source_name_sha256": "4ecd5671e1dcbd5eb7cb48bc81f1da845dba7c8e07a5e102c3379efe5d6a3049",
+      "current_translation": "Obus frio",
+      "desired_translation": "Projétil de gelo",
+      "encoded_bytes": 17,
+      "unicode_characters": 16,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 9,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 163,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 191,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_observed_envelope": true
+        }
+      ],
+      "within_all_observed_width_profiles": true,
+      "renderer_scan_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 371,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 17,
+        "consumed_bytes": 18,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 14,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 407,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 17,
+        "source_bytes": 17,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 105
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0887",
+          "record_sha256": "20e14232fa69242c1f79b85c0a593215ddf17c149500ea01a80e55b8497f2a69",
+          "source_sha256": "4ecd5671e1dcbd5eb7cb48bc81f1da845dba7c8e07a5e102c3379efe5d6a3049",
+          "current_translation": "Obus frio",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    },
+    {
+      "id": "item.name.0849",
+      "record_sha256": "42f4b428c6db510fd198e4a11a1e6685e542fba76dbb578b2f5319c5b080a81a",
+      "source_name_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+      "current_translation": "Obus crítico",
+      "desired_translation": "Projétil crítico",
+      "encoded_bytes": 18,
+      "unicode_characters": 16,
+      "codec_error": null,
+      "physical_field_bytes": 24,
+      "fits_physical_name_field": true,
+      "original_byte_budget": 14,
+      "current_policy_ceiling": 16,
+      "profiles": [
+        {
+          "side": 22,
+          "mode": 0,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 1,
+          "advance": 159,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 22,
+          "mode": 2,
+          "advance": 176,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 0,
+          "advance": 208,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 1,
+          "advance": 185,
+          "within_observed_envelope": true
+        },
+        {
+          "side": 26,
+          "mode": 2,
+          "advance": 208,
+          "within_observed_envelope": true
+        }
+      ],
+      "within_all_observed_width_profiles": true,
+      "renderer_scan_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": true,
+        "draw_stub_calls": 16,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 375,
+        "loop_offset": 1669208,
+        "draw_and_escape_compare_modeled": false
+      },
+      "direct_draw_loop_probe": {
+        "source_bytes": 18,
+        "consumed_bytes": 19,
+        "source_terminator_read": true,
+        "callee_saved": null,
+        "draw_stub_calls": 15,
+        "classification_table_modeled": true,
+        "executed_instruction_count": 412,
+        "loop_offset": 254448,
+        "draw_and_escape_compare_modeled": true
+      },
+      "scalar_expansion_copy_probe": {
+        "copied_bytes": 18,
+        "source_bytes": 18,
+        "source_terminator_read": true,
+        "destination_nul_written": false,
+        "synthetic_destination_bytes": 32,
+        "guard_unchanged": true,
+        "real_destination_capacity_proven": false,
+        "executed_instruction_count": 111
+      },
+      "battle_counterparts": [
+        {
+          "id": "battle.action.0882",
+          "record_sha256": "f359a8212ed5f189e7011888d8d9d6f2fd64178fcc1168e3c18569ca0542d010",
+          "source_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+          "current_translation": "Obus crítico",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        },
+        {
+          "id": "battle.action.0895",
+          "record_sha256": "0eda1b2f2db161fcbbf18447a8a337b3a932fd605fc7e186a8875d6be33efa7f",
+          "source_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+          "current_translation": "Obus crítico",
+          "physical_field_bytes": 32,
+          "observed_policy_ceiling": 18,
+          "desired_exceeds_action_ceiling": false
+        }
+      ],
+      "editing_authorized": false,
+      "unresolved": "Missing full consumer/buffer and actual-box proof; unsupported glyph also blocks item 460."
+    }
+  ],
+  "metric_profiles": [
+    {
+      "side": 22,
+      "mode": 0,
+      "original_maximum_advance": 176,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 22,
+      "mode": 1,
+      "original_maximum_advance": 173,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 22,
+      "mode": 2,
+      "original_maximum_advance": 176,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 26,
+      "mode": 0,
+      "original_maximum_advance": 208,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 26,
+      "mode": 1,
+      "original_maximum_advance": 203,
+      "witness_ids": [
+        954
+      ]
+    },
+    {
+      "side": 26,
+      "mode": 2,
+      "original_maximum_advance": 208,
+      "witness_ids": [
+        954
+      ]
+    }
+  ],
+  "counts": {
+    "blocked": 16,
+    "codec_supported": 15,
+    "within_all_observed_width_profiles": 6,
+    "above_observed_width_in_some_profile": 9,
+    "unique_related_battle_actions": 8,
+    "raw_pointer_load_candidates": 54,
+    "raw_pointer_store_candidates": 0,
+    "direct_record_getter_calls": 190
+  },
+  "editing_authorized": false,
+  "originals_modified": false,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "limits": "Original scalar scan/copy instructions in bounded synthetic RAM. Classification-table contents and drawing are modeled; real copy destination extent and full formatter are not executed/proven. Width sums compare to original names, not actual UI boxes. Census is not full data-flow proof; no ceiling increase authorized.",
+  "recipe": "translations/interface-v050.json",
+  "recipe_sha256": "716dd64f0d9b32c495ce8f2643af80c94d5ac348d294306c1ae6ac218b98fd7e",
+  "decisions": "translations/revisao-humana-itens-v001.json",
+  "decisions_sha256": "54d6f16387410302f1d388c53b5b4ee208fa38f36717bf25c94664dd07fb137f",
+  "validation": {
+    "tests": {
+      "modules": [
+        "test_item_name_capacity",
+        "test_interface_name_ceiling",
+        "test_human_item_revision",
+        "test_interface_battle_tables",
+        "test_pending_name_resolution"
+      ],
+      "tests_run": 46,
+      "successful": true,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 49.88
+    },
+    "launcher_integration": {
+      "exit_code": 0,
+      "dialogue_build": "work/interface-v050",
+      "translated_labels": 980,
+      "capacity_recipe": "translations/interface-v050.json",
+      "capacity_counts": {
+        "blocked": 16,
+        "codec_supported": 15,
+        "within_all_observed_width_profiles": 6,
+        "above_observed_width_in_some_profile": 9,
+        "unique_related_battle_actions": 8,
+        "raw_pointer_load_candidates": 54,
+        "raw_pointer_store_candidates": 0,
+        "direct_record_getter_calls": 190
+      },
+      "seconds": 41.63
+    },
+    "existing_iso_preflight": {
+      "path": "work/interface-v050/MetalSaga-ptbr-interface-v050.iso",
+      "size": 1704427520,
+      "sha256": "cc5932c63c5497b69c9e14396aef1ce917584e7c3359e8bcdeae3e5fec22c080",
+      "verified": true
+    },
+    "new_translations_applied": 0,
+    "new_isos": 0,
+    "current_work_iso_count": 5
+  },
+  "next_priority_ids": [
+    "item.name.0331",
+    "item.name.0372",
+    "item.name.0459",
+    "item.name.0838",
+    "item.name.0841",
+    "item.name.0849"
+  ],
+  "next_priority_requires": "Resolve actual expansion destination and all relevant buffer/formatter paths before opting into any larger item names; synchronize five related actions."
+}

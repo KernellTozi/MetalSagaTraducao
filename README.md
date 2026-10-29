@@ -10,7 +10,7 @@ Tradução dos recursos do jogo original para execução no PCSX2, independente 
 | Preparar-Interface.cmd | Valida a receita atual, sem criar outra ISO |
 | Extrair-Dialogos.cmd | Extrai o catálogo local de diálogos |
 | Reinserir-Dialogos.cmd | Reinserção e simulação de lotes |
-| Auditar-Traducao.cmd | Consolida pendências e rótulos de falantes em um JSON local |
+| Auditar-Traducao.cmd | Atualiza as pendências de diálogos e o diagnóstico dos 16 nomes bloqueados |
 
 Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas continuam em tools/, com procedimentos históricos em docs/ e no Git.
 
@@ -24,6 +24,7 @@ ISO: `work/interface-v050/MetalSaga-ptbr-interface-v050.iso`. Abra **Iniciar-Tes
 
 - [Lote atual e limites](docs/dialogos-v043.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
+- [Investigação dos nomes bloqueados](docs/capacidade-nomes-v001.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)
 - [Reinserção e integridade](docs/reinsercao-v004.md)
