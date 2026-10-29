@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v053.json",
+  "recipe_sha256": "fbc97cecea306c1d5fad2bb5a694ced37288ff50ae2f7d194aee4d5de0865ace",
+  "parent": "translations/interface-v052.json",
+  "map_recipe": "translations/regiao-inicial-v044.json",
+  "policy": "six-approved-item-names-bounded-release-v001",
+  "revised_item_ids": [
+    331,
+    372,
+    459,
+    838,
+    841,
+    849
+  ],
+  "revised_action_ids": [
+    124,
+    884,
+    887,
+    882,
+    895
+  ],
+  "counts": {
+    "map_changed": 6044,
+    "interface_units": 3848,
+    "item_names": 541,
+    "remaining_reviewed_item_names": 9,
+    "scene_name_fields_investigated": 839
+  },
+  "proof": "reports/prova-seis-nomes-v007.json",
+  "iso": {
+    "path": "work/interface-v053/MetalSaga-ptbr-interface-v053.iso",
+    "size": 1704427520,
+    "sha256": "a0b4ca47ed077d5379d4e268d08d1b506b05909c03f6324220960efc980b1f4f",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v053-delta.json",
+  "tests": {
+    "tests": 137,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "seconds": 145.28,
+    "patterns": [
+      "test_scene_name_fields.py",
+      "test_large_item_name_release.py",
+      "test_name_formatter_bounds.py",
+      "test_name_source_paths.py",
+      "test_item_accent_fallback.py",
+      "test_item_name_stream.py",
+      "test_item_name_buffers.py",
+      "test_item_name_capacity.py",
+      "test_interface_name_ceiling.py",
+      "test_human_item_revision.py",
+      "test_interface_battle_tables.py",
+      "test_pending_name_resolution.py",
+      "test_dialogue_context_finish.py",
+      "test_iso_retention.py",
+      "test_verify_test_iso.py"
+    ]
+  },
+  "pcsx2_executed": false,
+  "visual_validation": "pending_user",
+  "originals_modified": false,
+  "onedrive_copy": false,
+  "shutdown_requested": false
+}

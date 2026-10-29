@@ -782,3 +782,24 @@ Próximo alvo: fontes dos nomes de cena/entradas de 0x473C8 e origens do setter
 0x7F6A0. Não repetir a confirmação dos tamanhos físicos nem generalizar um
 cenário curto. Ver continuação v006 no manual de fontes de nomes.
 Sem novas traduções ou ISO; versão atual v052, 15 revisões ainda em fila.
+
+## Continuidade v053 — liberação de seis revisões
+
+Concluída a prova das fontes de nomes de cena: 839 campos em 300 árvores,
+sem I, incluindo 400 heranças tipo 3→tipo 2, comparados com a ISO v052.
+O loader pode sobrescrever com flags o NUL no byte 33 observado no setter;
+os nomes concretos terminam até o byte 31. O orçamento de N0 é condicionado
+a um campo válido de 32 bytes, não um limite universal de strcpy.
+
+Aplicadas Pílula Açucarada, Frasco do pânico, Estátua de barro, Projétil sônico,
+Projétil de gelo e Projétil crítico, junto de cinco ações correspondentes.
+Política por ID, pai/revisão/prova vinculados, sem ampliar o limite legado.
+35 páginas com I cabem no orçamento conservador (91 células no máximo);
+maior corpo 332 bytes. Manual e limitações em docs/interface-v053.md.
+
+ISO v053 construída e verificada: 163 bytes em 11 patches, restante idêntico
+à v052. 137 testes passaram. Mantidos 541 nomes, 6.044 registros MAP alterados
+e 3.848 unidades de interface; são revisões, não novos registros traduzidos.
+Próximo: medir as caixas reais para as nove propostas de largura restantes,
+mantendo nomes aprovados e fonte atual. Não repetir caminhos já encerrados.
+Validação visual futura pelo usuário, sem navegação automática nesta rodada.

@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v052**, sobre MAP v044 e fontes/layout v005. Última rodada: **Idolo de barro**, com a omissão do acento autorizada pelo usuário somente para esse nome, e ampliação do diagnóstico de mensagens com nome/item. Preserva as 11 revisões de rótulos e cinco revisões contextuais da v051, Hunter, Soldier, nomes próprios, MAIN/SUB/SE e as decisões gráficas anteriores.
+**Interface v053**, sobre MAP v044 e fontes/layout v005. Última rodada: **seis nomes aprovados em sua forma completa e cinco entradas de ações correspondentes**, após a prova dos caminhos conhecidos. Mantém Idolo de barro com a exceção autorizada somente para esse nome, as revisões anteriores, Hunter, Soldier, nomes próprios, MAIN/SUB/SE e as decisões gráficas.
 
-São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.044 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. As cinco falas são revisões, não corpos inéditos. Há **991 referências de falantes traduzidas**, 13 bloqueadas no recorte de espaço e outras 523 fora dessa seleção, incluindo nomes e termos preservados. Mantêm-se **541 nomes de itens aplicados**, com 15 revisões editoriais ainda bloqueadas, e a revisão em partida normal. Os 19 adiamentos técnicos restantes do catálogo são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
+São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.044 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Há **991 referências de falantes traduzidas**, 13 bloqueadas no recorte de espaço e outras 523 fora dessa seleção, incluindo nomes e termos preservados. Mantêm-se **541 nomes de itens aplicados**, com nove revisões editoriais ainda bloqueadas, e a revisão em partida normal. Os seis nomes são revisões de entradas existentes, não itens novos. Os 19 adiamentos técnicos restantes do catálogo são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v052/MetalSaga-ptbr-interface-v052.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. Testes automatizados e comparação integral de ISOs não substituem a conferência visual durante a partida do usuário.
+ISO: `work/interface-v053/MetalSaga-ptbr-interface-v053.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. Testes automatizados e comparação integral de ISOs não substituem a conferência visual durante a partida do usuário.
 
-- [Lote atual e limites](docs/interface-v052.md)
+- [Lote atual e limites](docs/interface-v053.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Investigação dos nomes bloqueados](docs/capacidade-nomes-v001.md)
 - [Buffers e expansão dos nomes](docs/buffers-nomes-v002.md)

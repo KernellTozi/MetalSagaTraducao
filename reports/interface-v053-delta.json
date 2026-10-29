@@ -1,0 +1,80 @@
+{
+  "old_recipe": "translations/interface-v052.json",
+  "new_recipe": "translations/interface-v053.json",
+  "source_iso_sha256": "26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449",
+  "output_iso_sha256": "a0b4ca47ed077d5379d4e268d08d1b506b05909c03f6324220960efc980b1f4f",
+  "iso_size": 1704427520,
+  "changed_bytes": 163,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "item.name.0331",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290081696,
+      "size": 19
+    },
+    {
+      "id": "item.name.0372",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290086944,
+      "size": 18
+    },
+    {
+      "id": "item.name.0459",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290098080,
+      "size": 18
+    },
+    {
+      "id": "item.name.0838",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146592,
+      "size": 18
+    },
+    {
+      "id": "item.name.0841",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146976,
+      "size": 18
+    },
+    {
+      "id": "item.name.0849",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290148000,
+      "size": 19
+    },
+    {
+      "id": "battle.action.0124",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290290912,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0882",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290463736,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0884",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290464192,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0887",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290464876,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0895",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290466700,
+      "size": 32
+    }
+  ],
+  "pcsx2_executed": false
+}

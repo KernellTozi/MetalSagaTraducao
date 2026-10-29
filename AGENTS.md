@@ -1597,3 +1597,11 @@ Próximo: nomes de cena/0x473C8 e as entradas do setter 0x7F6A0.
 
 54 testes distintos passaram na v006, dez novos e 44 de regressão. Preflight
 v052 íntegro; sem alterações no conteúdo do jogo. Relatório limites-nomes-v006.
+
+## Continuidade v053 — seis nomes maiores aprovados
+
+- Versão atual: `translations/interface-v053.json`, MAP v044 e layout v005; manual `docs/interface-v053.md`. Iniciador, preparador e auditor usam v053. Mantidos 541 nomes aplicados; restam nove propostas de largura pendentes. Não contar revisões como novos itens/diálogos.
+- A política exata `six-approved-item-names-bounded-release-v001` libera somente itens 331/372/459/838/841/849 e ações 0124/0884/0887/0882/0895. Vincula pai v052, revisão humana e prova `reports/prova-seis-nomes-v007.json`. O limite genérico de 16 bytes permanece; não transferir a liberação aos nove casos restantes.
+- `tools/scene_name_fields.py` recupera 839 campos de nomes de cena em 300 árvores, sem I, e compara com a ISO pai. São contextos/nomes, não 839 textos novos obrigatórios. Dois campos nativos permanecem preservados. Os 400 herdeiros tipo 3 têm pais tipo 2. O loader pode sobrescrever o NUL no byte 33 com flags: o final de setter isolado não é limite universal.
+- Orçamento conservador das 35 páginas com I: item até 18 bytes, N0 válido até 31, máximo 91 células/página e 332 bytes/corpo. Requer estado válido preexistente, incluindo NUL no campo de nome de 32 bytes; não prova segurança de saves malformados, aliases indiretos ou templates arbitrários em RAM. Não reabrir os 299 campos sem I sem nova evidência.
+- Comparação integral v052→v053: 163 bytes em 11 patches S_PACK, demais bytes/fontes/diretório iguais. 137 testes passaram; preflight e iniciador conferidos sem abrir PCSX2. Teste visual pendente do usuário. Próximo: caixas reais de inventário/lojas/batalha para as nove propostas; não reduzir fonte nem abreviar automaticamente. Cinco ISOs de trabalho, alpha protegida; sem OneDrive ou desligamento.

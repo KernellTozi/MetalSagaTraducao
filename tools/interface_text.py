@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'large_name_release' in draft:
+        from large_item_name_release import compile_interface
+        return compile_interface(data,draft)
     if 'item_accent_fallback' in draft:
         from item_accent_fallback import compile_interface
         return compile_interface(data,draft)

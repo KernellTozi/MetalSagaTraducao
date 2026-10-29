@@ -200,19 +200,34 @@ def apply_authorized_fallback(result,current_recipe):
     from item_accent_fallback import validate_interface,parent_names,TARGET
     recipe_path=Path(current_recipe).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
-    recipe=json.loads(recipe_path.read_bytes());validate_interface(recipe)
+    recipe=json.loads(recipe_path.read_bytes());released=[]
+    if 'large_name_release' in recipe:
+        from large_item_name_release import validate_interface as validate_release,parent_names as release_parent,load
+        parent=validate_release(recipe);validate_interface(parent)
+        names_parent=parent_names(release_parent(recipe['item_names']))
+        manifest,_=load(recipe['large_name_release']);released=manifest['items']
+    else:
+        validate_interface(recipe);names_parent=parent_names(recipe['item_names'])
     baseline=json.loads((ROOT/RECIPE).read_bytes())
-    if parent_names(recipe['item_names'])!=baseline['item_names']:raise ValueError('Other current names differ from diagnostic baseline')
+    if names_parent!=baseline['item_names']:raise ValueError('Other current names differ from diagnostic baseline')
     from item_names import compile_names
     patches,_=compile_names(SOURCE.read_bytes(),recipe['item_names'])
     resolved=next(p for p in patches if p['id']=='item.name.0460')
     if resolved['after']!=encode(TARGET)+b'\0\0':raise ValueError('Authorized fallback not compiled')
     result=json.loads(json.dumps(result))
-    result['items']=[r for r in result['items'] if r['id']!='item.name.0460']
-    result['counts'].update(blocked=len(result['items']),codec_supported=sum(r['codec_error'] is None for r in result['items']))
+    byid={p['id']:p for p in patches}
+    for row in released:
+        if byid[row['id']]['after'].split(b'\0')[0]!=encode(row['translation']):raise ValueError('Large-name revision not compiled')
+    excluded={'item.name.0460'}|{r['id'] for r in released}
+    result['items']=[r for r in result['items'] if r['id'] not in excluded]
+    result['counts'].update(blocked=len(result['items']),codec_supported=sum(r['codec_error'] is None for r in result['items']),
+        within_all_observed_width_profiles=sum(r['within_all_observed_width_profiles'] is True for r in result['items']),
+        above_observed_width_in_some_profile=sum(r['within_all_observed_width_profiles'] is False for r in result['items']),
+        unique_related_battle_actions=len({b['id'] for r in result['items'] for b in r['battle_counterparts']}))
     result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix()
     result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
     result['resolved_authorized_fallbacks']=[{'id':'item.name.0460','translation':TARGET,'encoded_bytes':14,'compiled':True}]
+    result['resolved_large_name_revisions']=[{'id':r['id'],'translation':r['translation'],'encoded_bytes':len(encode(r['translation'])),'compiled':True} for r in released]
     return result
 
 

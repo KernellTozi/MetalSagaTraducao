@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "policy": "six-approved-item-names-bounded-release-v001",
+  "parent_recipe": "translations/interface-v052.json",
+  "parent_sha256": "43c9b18a798d8ded2248b560e69decfbdaf8664774912bb118033da46745e76e",
+  "proof": "reports/prova-seis-nomes-v007.json",
+  "proof_sha256": "c0ee91b789c96e7b64e436102b472bc9580ec6fe1fdea45022bbfd23b8de4e70",
+  "human_decisions_sha256": "54d6f16387410302f1d388c53b5b4ee208fa38f36717bf25c94664dd07fb137f",
+  "items": [
+    {
+      "id": "item.name.0331",
+      "index": 331,
+      "offset": 44448,
+      "source_sha256": "c516a6c1793dd60168cdb550a85ed5d1d19e944b93f2b4d6f70c1c8dfe868912",
+      "record_sha256": "2955817eb1632d5d20acd90583d0b1c2c6946e5e95860e3d41d95fe6bd5067ad",
+      "parent_translation": "Pílula doce",
+      "translation": "Pílula Açucarada"
+    },
+    {
+      "id": "item.name.0372",
+      "index": 372,
+      "offset": 49696,
+      "source_sha256": "b3626c0f0cb57cdf65943c3cc8454921633aecbff7d610ad5e042afa369773f5",
+      "record_sha256": "c1347535d8ee97204a3705ca58a7924d2c526f4975d0821c66f73df79e17f4e3",
+      "parent_translation": "Frasco do pavor",
+      "translation": "Frasco do pânico"
+    },
+    {
+      "id": "item.name.0459",
+      "index": 459,
+      "offset": 60832,
+      "source_sha256": "f9ad9728f042a890eed23a1e49c7cc8c078abd6061f62c8268006a4829f792c2",
+      "record_sha256": "2aebc1ae27784508ed9c7630b86c227572741a3edb1b36973ae0f37d90992784",
+      "parent_translation": "Figura de barro",
+      "translation": "Estátua de barro"
+    },
+    {
+      "id": "item.name.0838",
+      "index": 838,
+      "offset": 109344,
+      "source_sha256": "9ec0e62808c25089565a14efbb4e8c5a0ae5794d47b4719014e6f8b06a5a31b5",
+      "record_sha256": "1a6028bac32faf6c196ca24ad68c8c5a0062ec3291e1aa08b5eac8b2e6cd6d78",
+      "parent_translation": "Obus sonoro",
+      "translation": "Projétil sônico"
+    },
+    {
+      "id": "item.name.0841",
+      "index": 841,
+      "offset": 109728,
+      "source_sha256": "4ecd5671e1dcbd5eb7cb48bc81f1da845dba7c8e07a5e102c3379efe5d6a3049",
+      "record_sha256": "63a6f26a397fa5cbcdcf9031a78b08e781aa68d928824cce79dc0dd99c93c61d",
+      "parent_translation": "Obus frio",
+      "translation": "Projétil de gelo"
+    },
+    {
+      "id": "item.name.0849",
+      "index": 849,
+      "offset": 110752,
+      "source_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+      "record_sha256": "42f4b428c6db510fd198e4a11a1e6685e542fba76dbb578b2f5319c5b080a81a",
+      "parent_translation": "Obus crítico",
+      "translation": "Projétil crítico"
+    }
+  ],
+  "actions": [
+    {
+      "id": "battle.action.0124",
+      "offset": 253664,
+      "source_sha256": "c516a6c1793dd60168cdb550a85ed5d1d19e944b93f2b4d6f70c1c8dfe868912",
+      "record_sha256": "6accd0d202801b7e7c5adb7180d75a34840b7ac043acaed5cb5c286565e50d27",
+      "item_id": "item.name.0331",
+      "parent_translation": "Pílula doce",
+      "translation": "Pílula Açucarada"
+    },
+    {
+      "id": "battle.action.0884",
+      "offset": 426944,
+      "source_sha256": "9ec0e62808c25089565a14efbb4e8c5a0ae5794d47b4719014e6f8b06a5a31b5",
+      "record_sha256": "1c7d85f60dd014faf55109dbe4fc5d3d11fe8434c7a57f3c89362b2a84f55180",
+      "item_id": "item.name.0838",
+      "parent_translation": "Obus sonoro",
+      "translation": "Projétil sônico"
+    },
+    {
+      "id": "battle.action.0887",
+      "offset": 427628,
+      "source_sha256": "4ecd5671e1dcbd5eb7cb48bc81f1da845dba7c8e07a5e102c3379efe5d6a3049",
+      "record_sha256": "20e14232fa69242c1f79b85c0a593215ddf17c149500ea01a80e55b8497f2a69",
+      "item_id": "item.name.0841",
+      "parent_translation": "Obus frio",
+      "translation": "Projétil de gelo"
+    },
+    {
+      "id": "battle.action.0882",
+      "offset": 426488,
+      "source_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+      "record_sha256": "f359a8212ed5f189e7011888d8d9d6f2fd64178fcc1168e3c18569ca0542d010",
+      "item_id": "item.name.0849",
+      "parent_translation": "Obus crítico",
+      "translation": "Projétil crítico"
+    },
+    {
+      "id": "battle.action.0895",
+      "offset": 429452,
+      "source_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+      "record_sha256": "0eda1b2f2db161fcbbf18447a8a337b3a932fd605fc7e186a8875d6be33efa7f",
+      "item_id": "item.name.0849",
+      "parent_translation": "Obus crítico",
+      "translation": "Projétil crítico"
+    }
+  ]
+}
