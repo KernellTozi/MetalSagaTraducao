@@ -1,6 +1,6 @@
 # Plano para concluir a tradução
 
-## Plano vigente — base v051, revisão de 28/10/2026
+## Plano vigente — base v051, revisão de 29/10/2026
 
 Este bloco define a ordem das próximas rodadas. As seções abaixo de
 Histórico registram estados anteriores; não representam a prioridade atual.
@@ -46,7 +46,7 @@ Reaproveitar tools/item_names.py, seus vínculos do ELF e os testes existentes:
 
 Entrega mínima da rodada: mapa de consumidores com evidências e decisão
 explícita por bloqueio. Aplicar o subconjunto comprovado em um único lote;
-se nenhum puder ser liberado, manter a v050 e documentar a causa. Não criar
+se nenhum puder ser liberado, manter a versão jogável atual e documentar a causa. Não criar
 ISOs somente para cada hipótese ou repetir tentativas sem evidência nova.
 
 **Investigação v001 realizada:** docs/capacidade-nomes-v001.md e
@@ -62,15 +62,28 @@ chamadores. Nenhuma proposta aplicada ou teto ampliado. O diagnóstico local
 foi incorporado ao iniciador de auditoria, cujo alvo explícito foi corrigido
 de v049 para v050. A versão jogável continua v050.
 
+**Investigação v002 realizada (29/10):** docs/buffers-nomes-v002.md e
+reports/buffers-nomes-v002.json comprovam quatro chamadas diretas à expansão,
+com 128/128/1.024/1.024 bytes até a próxima área ativa. O harness executa a
+expansão da entrada ao retorno para 48 casos dos seis nomes e testa NUL/guardas,
+com classificação/contexto modelados. Um contraexemplo artificial mostra que
+entrada curta pode expandir além de 128 bytes; não é um defeito observado no
+jogo. O emissor separado em 0x1B5B20 tem pedido observado de 800 bytes e células
+de oito; foi inspecionado, não executado. Próximo trabalho concreto: entradas
+das chamadas 0x473C8/0x549E8 e contagem expandida no emissor de 0x1FD2BC.
+Os limites locais estão demonstrados; os conjuntos de entradas reais e seus
+máximos ainda não. Não voltar à busca bruta nem liberar nomes só pelo ensaio.
+A v051 permanece jogável, sem nova ISO ou nomes aplicados nesta rodada.
+
 ### 2. Revisão dirigida do inglês remanescente
 
 Reaproveitar o catálogo local do auditor, sem reiniciar a extração. Existem
-534 referências de falantes fora do grupo de 13 bloqueados por espaço. Elas
+523 referências de falantes fora do grupo de 13 bloqueados por espaço. Elas
 incluem nomes, marcadores, Hunter/Soldier/Punk e funções ainda não liberadas.
 Primeiro separar preservações exigidas de funções genéricas revisáveis;
 somente estas últimas podem originar um novo lote de tradução.
 
-Os 124 sinais editoriais, 455 candidatos de nomes/expressões e 590 registros
+Os 124 sinais editoriais, 455 candidatos de nomes/expressões e 589 registros
 de controles/pontuação são classes de triagem por registro, não quantidades
 de falas em inglês que necessariamente precisam de tradução. Conferir contexto
 e aliases antes de aplicar qualquer mudança. Manter sons, risadas, bordões,

@@ -1432,3 +1432,35 @@ dívidas confirmadas. Fonte v005, N$3 e exclusões gráficas preservados.
 escopo final, sem somar repetições. Busca original de rótulo também conferida
 após as revisões. Validação visual segue para partida normal do usuário;
 nenhum PCSX2 executado, sem OneDrive ou desligamento solicitado nesta rodada.
+
+
+## Buffers de nomes v002 — 29/10/2026
+
+Ferramenta nova somente leitura: tools/item_name_buffers.py, saída local
+work/buffers-nomes-atual.json. Manual docs/buffers-nomes-v002.md; resumo
+reports/buffers-nomes-v002.json. A versão jogável continua v051/MAP v044.
+Não foram aplicados os seis nomes, ampliado teto ou alterado fonte/ISO.
+
+Quatro chamadas diretas ao expansor 0x1CD248: 0x473C8 e 0x549E8 têm 128 bytes
+até os contextos seguintes; 0x1C6FE4 e 0x1CCDB0 têm 1.024 antes do retorno salvo.
+São separações conservadoras comprovadas por instruções, não fonte C nem
+censo de chamadas indiretas. 48 casos executam a função até retornar, com
+leitor de argumentos original, seis nomes, referências literais e I$0; tabela,
+valores de contexto e classificação são modelados. A função completa escreve
+NUL, diferentemente do laço isolado da v001. Nenhum chamador completo ou GPU.
+
+Um caso artificial de sete itens tem 41 bytes de entrada e 132 de saída,
+mais NUL: alcança a próxima área no destino de 128, e cabe no de 1.024. Não
+foi observado no jogo. Impede inferir capacidade universal de uma frase curta.
+O emissor separado 0x1B5B20 tem chamada 0x1FD2BC e pedido observado de 0x320
+bytes; stride oito/código final cinco implicam no máximo 99 células de conteúdo
+para essa alocação. Evidência estática somente, sem executar o emissor ou
+provar todo o ciclo de vida. Não confundir byte de string e célula de glifo.
+
+Próximos alvos: rastrear entradas das duas chamadas pequenas e contagem de
+células do emissor. Não repetir o censo de ponteiros nem promover os nomes
+sem essas provas. Os demais nove nomes mais largos e Í seguem separados.
+54 testes passaram, oito novos. ISO v051 reconferida por hash/tamanho e
+transações. Sem PCSX2, OneDrive ou nova ISO. O usuário pediu temporizador de
+35 minutos para desligar e antecipação ao terminar; ele foi programado antes
+do trabalho. Registrar e enviar os próprios arquivos antes de antecipar.

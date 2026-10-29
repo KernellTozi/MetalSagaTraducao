@@ -1,0 +1,1138 @@
+{
+  "schema": 1,
+  "scope": "item-name-expansion-buffers-read-only-v002",
+  "recipe": "translations/interface-v051.json",
+  "recipe_sha256": "9c8a1979bc5d0fc1eb396c15e8ab1feebb886795a9fd7fca3533d0310e620abe",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "spack_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+  "caller_evidence": {
+    "direct_calls": [
+      291784,
+      346600,
+      1863652,
+      1887664
+    ],
+    "aligned_function_pointer_literals": [],
+    "callers": [
+      {
+        "call_offset": 291784,
+        "destination_stack_offset": 128,
+        "next_live_area_stack_offset": 256,
+        "bytes_before_next_live_area": 128,
+        "stack_frame_bytes": 368,
+        "boundary_kind": "variable-context area"
+      },
+      {
+        "call_offset": 346600,
+        "destination_stack_offset": 0,
+        "next_live_area_stack_offset": 128,
+        "bytes_before_next_live_area": 128,
+        "stack_frame_bytes": 240,
+        "boundary_kind": "variable-context area"
+      },
+      {
+        "call_offset": 1863652,
+        "destination_stack_offset": 0,
+        "next_live_area_stack_offset": 1024,
+        "bytes_before_next_live_area": 1024,
+        "stack_frame_bytes": 1072,
+        "boundary_kind": "saved return address"
+      },
+      {
+        "call_offset": 1887664,
+        "destination_stack_offset": 0,
+        "next_live_area_stack_offset": 1024,
+        "bytes_before_next_live_area": 1024,
+        "stack_frame_bytes": 1056,
+        "boundary_kind": "saved return address"
+      }
+    ],
+    "instruction_windows": [
+      {
+        "offset": 291360,
+        "size": 8,
+        "sha256": "6407ae7825cf2678f6ffb28b12e00a1a1964725d8020ad7131686521470c8557"
+      },
+      {
+        "offset": 291752,
+        "size": 40,
+        "sha256": "c4a90eae6db22e021d1c9a89d309d5b507592de2929d82134016874e3b1101d4"
+      },
+      {
+        "offset": 346464,
+        "size": 144,
+        "sha256": "3e11a10aab033e4087c30cdc67fae9f1863ae90c3e07bdcea9803c75e6a55ddb"
+      },
+      {
+        "offset": 1863568,
+        "size": 92,
+        "sha256": "f467a47c4abf2fe4460ed50a40717b8a4dbd00546bcb425fb104c3ef2c5db299"
+      },
+      {
+        "offset": 1887624,
+        "size": 48,
+        "sha256": "b526e1f68d3a00bbe50827d26ce5e1c673691cde53d2495a8232a6bb2bd92bb8"
+      },
+      {
+        "offset": 1888840,
+        "size": 680,
+        "sha256": "cc9ee96facbe57eef43e8839beb2fec77ee254048cd6a9931706422e50e3a6c3"
+      },
+      {
+        "offset": 1792560,
+        "size": 160,
+        "sha256": "515375499c4437590c7351fb3fee25aa10c1b45bf295ac6d4cdf2723e7523791"
+      },
+      {
+        "offset": 2085492,
+        "size": 80,
+        "sha256": "439a0edcfc7ff776ccadcb5ee16e9357bc67979db40e9b4eb5a9a23448c2b956"
+      },
+      {
+        "offset": 1793672,
+        "size": 112,
+        "sha256": "c3a00dec649639dfef1dbfbab53c77227407fca29231e1f4974492ac21ae65ff"
+      },
+      {
+        "offset": 1793880,
+        "size": 60,
+        "sha256": "6c4a9a6e10fe8374f4a4d78abb11c05ed91e7a2ee98ef78fe946dcd665c34be0"
+      }
+    ],
+    "separate_glyph_emitter": {
+      "function_offset": 1792800,
+      "direct_calls": [
+        2085564
+      ],
+      "observed_allocation_request_bytes": 800,
+      "glyph_cell_stride_bytes": 8,
+      "terminal_code": 5,
+      "terminal_store_offset": 1793928,
+      "maximum_cells_before_terminal_for_observed_allocation": 99,
+      "executed_in_this_probe": false,
+      "limits": "Separate stream emitter, not the string-expansion function. Static allocation/store evidence only; real expanded cell counts, alternative allocation paths and runtime object lifecycle remain unproved."
+    },
+    "limits": "Four exact direct callers and argument/frame evidence. No proof that computed indirect calls cannot exist or that all incoming runtime strings have bounded expanded lengths."
+  },
+  "synthetic_name_ids": [
+    331,
+    372,
+    459,
+    838,
+    841,
+    849
+  ],
+  "case_count": 48,
+  "negative_case": {
+    "token_occurrences": 7,
+    "input_bytes": 41,
+    "expected_output_bytes": 132,
+    "scratch_bytes": 128,
+    "caught": "Original expansion reaches next live caller area",
+    "observed_in_game": false,
+    "meaning": "Synthetic counterexample only; not evidence of an existing game bug."
+  },
+  "full_expansion_function_executed": true,
+  "argument_reader_original_code_executed": true,
+  "upstream_runtime_input_lengths_proven": false,
+  "editing_authorized": false,
+  "new_translations_applied": 0,
+  "originals_modified": false,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "limits": "Exact expansion body with modeled classification/table address and supplied context values. Four direct caller scratch separations proved by instructions, not every incoming string or whole-game call graph. No name growth authorized.",
+  "cases": [
+    {
+      "caller_offset": 291784,
+      "item_id": 331,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 331,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 372,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 372,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 459,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 459,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 838,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 838,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 841,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 841,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 849,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 291784,
+      "item_id": 849,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 331,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 331,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 372,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 372,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 459,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 459,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 838,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 838,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 841,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 841,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 849,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 346600,
+      "item_id": 849,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 128,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 331,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 331,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 372,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 372,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 459,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 459,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 838,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 838,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 841,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 841,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 849,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 1863652,
+      "item_id": 849,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 331,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 331,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        331
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "1d625e94cee707ff2c8a3262836451018115883ebf2f0c726191cdedeec912e5"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 372,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 372,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        372
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "20f0fa99055c244324cb86399a0db061393cce05a8c0291cd3121ba56c5352cb"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 459,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 459,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        459
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "00f996a7a78e8ac9e56b6f5275275a1e25207e4b166660dd32dea53dd011e207"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 838,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 838,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        838
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "f61926c741adfe4ef3f6a760e530bfba8779730f9d7419d7d777ab216037528b"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 841,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 841,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 26,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        841
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 389,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "5063813c4b26c2d3513090217ca887f16a84b7c321ebbafc52873a2c0de03ef1"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 849,
+      "indirect": false,
+      "input_bytes": 14,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    },
+    {
+      "caller_offset": 1887664,
+      "item_id": 849,
+      "indirect": true,
+      "input_bytes": 13,
+      "output_bytes": 27,
+      "capacity_before_next_live_area": 1024,
+      "nul_written": true,
+      "guard_unchanged": true,
+      "callee_saved": true,
+      "lookup_item_ids": [
+        849
+      ],
+      "variable_indices": [
+        0
+      ],
+      "original_instructions": 395,
+      "classification_modeled": true,
+      "upstream_inputs_proven": false,
+      "output_sha256": "e144147f3ca8a7e09d21fdf297bf9305bd4f1274ca59b1bb16017674bf09ed9d"
+    }
+  ],
+  "validation": {
+    "tests": {
+      "modules": [
+        "test_item_name_buffers",
+        "test_item_name_capacity",
+        "test_interface_name_ceiling",
+        "test_human_item_revision",
+        "test_interface_battle_tables",
+        "test_pending_name_resolution"
+      ],
+      "tests_run": 54,
+      "successful": true,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 42.63
+    },
+    "existing_iso_preflight": {
+      "path": "work/interface-v051-final/MetalSaga-ptbr-interface-v051.iso",
+      "size": 1704427520,
+      "sha256": "5c3489e7837ae4938e00f84a9a5599c11e48ebb259366b7377e1fe351f725c12",
+      "verified": true
+    },
+    "new_translations_applied": 0,
+    "new_isos": 0
+  },
+  "shutdown": {
+    "requested_by_user": true,
+    "fallback_timer_seconds": 2100,
+    "scheduled_before_work": true,
+    "shutdown_to_be_advanced_after_successful_save_and_push": true
+  }
+}
