@@ -1464,3 +1464,38 @@ sem essas provas. Os demais nove nomes mais largos e Í seguem separados.
 transações. Sem PCSX2, OneDrive ou nova ISO. O usuário pediu temporizador de
 35 minutos para desligar e antecipação ao terminar; ele foi programado antes
 do trabalho. Registrar e enviar os próprios arquivos antes de antecipar.
+
+## Fluxo de nomes v003 — desligamento revogado
+
+O usuário revogou o desligamento nesta retomada. shutdown /a confirmou ausência
+de desligamento pendente (1116). Não agendar desligamento sem novo pedido.
+
+Consultar docs/fluxo-nomes-v003.md e reports/fluxo-nomes-v003.json. Ferramenta
+somente leitura tools/item_name_stream.py --audit-map, saída substituível
+work/fluxo-nomes-atual.json. Não amplia políticas de edição nem modifica ISO.
+Versão jogável permanece interface v051/MAP v044 e fontes/layout v005.
+
+A cadeia direta de 0x549E8 chega a dois literais sem I. Não extrapolar para
+aliases indiretos; overrides futuros desses literais invalidam a conclusão.
+O emissor 0x1B5B20 foi executado no subconjunto ASCII/PT-BR/newline/I até
+retornar, com tabelas de despacho originais e leitor de argumentos original.
+Classificação, registro de glifos, contexto e endereço da tabela são modelados.
+99 células mais terminal cabem na alocação observada de 800 bytes; 100 são
+recusadas pelo harness. Bytes de texto não equivalem a células de glifos.
+
+Catálogo compilado de 7.231 registros: 34 campos/35 páginas com I, 25 páginas
+com 150 cenários executados (máximo 76 células), dez com 60 cenários pendentes
+por controles mistos. Cada contexto usa o mesmo item nas variáveis I; não
+recupera identidade canônica nem todas as combinações reais. Os 16 nomes
+continuam bloqueados, sem novas traduções aplicadas ou nova ISO.
+
+Cadeia de texto: oito chamadas da VM -> 0x1FE978 -> construtor 0x1FCEC0 ->
+objeto+0x38 -> emissor. Entradas completas ainda não provadas. Próximo alvo:
+controles mistos dos dez casos e retornos virtuais de 0x473C8. Reaproveitar
+handlers existentes, sem reiniciar o censo bruto ou promover dados só por
+contagens. Testes e sondas não equivalem a execução visual no PCSX2.
+
+69 testes distintos passaram, 15 novos; ISO v051 e os dois literais de entrada
+reconferidos por leitura, hash e ausência de transações. Nenhum teste PCSX2,
+nova tradução, fonte ou ISO nesta rodada. Ver relatório v003 para os dez IDs
+e razões; os demais nove nomes largos e Í continuam separados.

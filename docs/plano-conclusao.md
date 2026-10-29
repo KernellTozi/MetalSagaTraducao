@@ -653,3 +653,19 @@ Preservar as três raízes especiais sem prova de texto como desconhecidas,
 sem contá-las como diálogos faltantes. O painel japonês de cães está excluído,
 assim como novos redesenhos de Wanted e títulos decorativos. Sem OneDrive ou
 desligamento automático; manter cinco ISOs e a alpha independente.
+
+## Continuidade atual — v051 e fluxo de nomes v003
+
+A versão atual é interface v051/MAP v044, substituindo a indicação v050 acima.
+Ver docs/dialogos-v044.md. A rodada de infraestrutura de nomes está em
+docs/fluxo-nomes-v003.md: 25 das 35 páginas conhecidas com I passaram em 150
+cenários condicionais; dez permanecem separadas por controles mistos.
+Emissor original executado no subconjunto comprovado, com limite observado
+de 99 células mais terminal. Não autoriza ampliar teto nem aplicar os seis
+nomes ainda; não confundir contexto sintético com identificação do item da cena.
+
+Próximo: completar a sonda dos controles mistos usando handlers já estudados
+e resolver os retornos virtuais da chamada 0x473C8. Só depois compilar política
+opt-in com os cinco rótulos de ação vinculados. Nomes largos e Í separados.
+Nenhuma nova ISO necessária para esta investigação. Desligamento revogado
+pelo usuário nesta retomada; nenhum agendamento sem novo pedido.
