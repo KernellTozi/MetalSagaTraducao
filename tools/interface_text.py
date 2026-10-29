@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'item_accent_fallback' in draft:
+        from item_accent_fallback import compile_interface
+        return compile_interface(data,draft)
     if 'name_reference_review' in draft:
         from name_reference_review import validate_interface
         validate_interface(draft)

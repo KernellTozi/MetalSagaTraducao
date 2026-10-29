@@ -195,7 +195,28 @@ def investigate(elf,raw,recipe,decisions):
         'editing_authorized':False,'originals_modified':False,'iso_created':False,'pcsx2_executed':False,
         'limits':'Original scalar scan/copy instructions in bounded synthetic RAM. Classification-table contents and drawing are modeled; real copy destination extent and full formatter are not executed/proven. Width sums compare to original names, not actual UI boxes. Census is not full data-flow proof; no ceiling increase authorized.'}
 
-def run(output,summary=None):
+def apply_authorized_fallback(result,current_recipe):
+    """Keep the historical investigation, exclude only a bound resolved name."""
+    from item_accent_fallback import validate_interface,parent_names,TARGET
+    recipe_path=Path(current_recipe).resolve()
+    if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
+    recipe=json.loads(recipe_path.read_bytes());validate_interface(recipe)
+    baseline=json.loads((ROOT/RECIPE).read_bytes())
+    if parent_names(recipe['item_names'])!=baseline['item_names']:raise ValueError('Other current names differ from diagnostic baseline')
+    from item_names import compile_names
+    patches,_=compile_names(SOURCE.read_bytes(),recipe['item_names'])
+    resolved=next(p for p in patches if p['id']=='item.name.0460')
+    if resolved['after']!=encode(TARGET)+b'\0\0':raise ValueError('Authorized fallback not compiled')
+    result=json.loads(json.dumps(result))
+    result['items']=[r for r in result['items'] if r['id']!='item.name.0460']
+    result['counts'].update(blocked=len(result['items']),codec_supported=sum(r['codec_error'] is None for r in result['items']))
+    result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix()
+    result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
+    result['resolved_authorized_fallbacks']=[{'id':'item.name.0460','translation':TARGET,'encoded_bytes':14,'compiled':True}]
+    return result
+
+
+def run(output,summary=None,*,current_recipe=None):
     output=Path(output).resolve()
     if not output.is_relative_to(ROOT/'work'):raise ValueError('Capacity detailed output must be under work/')
     if output.exists() and json.loads(output.read_bytes()).get('scope')!=SCOPE:raise ValueError('Refuse unrelated capacity output')
@@ -205,6 +226,7 @@ def run(output,summary=None):
     recipe=json.loads((ROOT/RECIPE).read_bytes());decisions=json.loads((ROOT/DECISIONS).read_bytes())
     result=investigate(SOURCE.read_bytes(),original(RESOURCE),recipe,decisions)
     result.update(recipe=RECIPE,recipe_sha256=sha((ROOT/RECIPE).read_bytes()),decisions=DECISIONS,decisions_sha256=sha((ROOT/DECISIONS).read_bytes()))
+    if current_recipe is not None:result=apply_authorized_fallback(result,current_recipe)
     output.parent.mkdir(parents=True,exist_ok=True);output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     if summary is not None:
         compact={k:v for k,v in result.items() if k!='pointer_candidates'}
@@ -217,4 +239,5 @@ def run(output,summary=None):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Investigar os 16 nomes bloqueados sem alterar jogo ou liberar edição')
     p.add_argument('--output',type=Path,default=ROOT/'work/capacidade-nomes-atual.json');p.add_argument('--summary',type=Path)
-    a=p.parse_args();print(json.dumps(run(a.output,a.summary)))
+    p.add_argument('--current-recipe',type=Path,help='Excluir a exceção de acento já compilada por receita vinculada')
+    a=p.parse_args();print(json.dumps(run(a.output,a.summary,current_recipe=a.current_recipe)))

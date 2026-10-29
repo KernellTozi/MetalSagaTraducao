@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v052.json",
+  "recipe_sha256": "43c9b18a798d8ded2248b560e69decfbdaf8664774912bb118033da46745e76e",
+  "parent": "translations/interface-v051.json",
+  "map_recipe": "translations/regiao-inicial-v044.json",
+  "item_accent_fallback": {
+    "policy": "single-item-authorized-ascii-accent-fallback-v001",
+    "id": "item.name.0460",
+    "translation": "Idolo de barro",
+    "target_bytes": 14,
+    "modified_span_bytes": 16,
+    "offset": 60960,
+    "source_record_sha256": "9d10e808b90c475424e6a713ce13bd42a36b2fed7eed5563830dda50f47a139d",
+    "all_other_names_unchanged": true,
+    "fonts_unchanged": true,
+    "only_this_accent_omission_authorized": true
+  },
+  "counts": {
+    "map_changed": 6044,
+    "interface_units": 3848,
+    "item_names": 541,
+    "remaining_reviewed_item_names": 15
+  },
+  "iso": {
+    "path": "work/interface-v052/MetalSaga-ptbr-interface-v052.iso",
+    "size": 1704427520,
+    "sha256": "26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v052-delta.json",
+  "tests": {
+    "tests": 103,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "seconds": 113.36,
+    "patterns": [
+      "test_item_accent_fallback.py",
+      "test_item_name_stream.py",
+      "test_item_name_buffers.py",
+      "test_item_name_capacity.py",
+      "test_interface_name_ceiling.py",
+      "test_human_item_revision.py",
+      "test_interface_battle_tables.py",
+      "test_pending_name_resolution.py",
+      "test_dialogue_context_finish.py",
+      "test_iso_retention.py",
+      "test_verify_test_iso.py"
+    ]
+  },
+  "mixed_name_report": "reports/fluxo-nomes-v004.json",
+  "fonts_layout_unchanged": true,
+  "pcsx2_executed": false
+}

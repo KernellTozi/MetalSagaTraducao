@@ -2,7 +2,8 @@
 
 No production compiler is changed. Classification and glyph registration are
 modeled; the original emitter and its jump tables execute instruction by
-instruction. Only plain project text, newlines and %I references are accepted.
+instruction. Plain project text, newlines and %I references are accepted;
+the literal N0 lookup is a separate explicit probe option.
 """
 import argparse
 import json
@@ -98,7 +99,7 @@ def input_evidence(elf, recipe):
                                     for a, z in WINDOWS]}
 
 
-def emit(elf, table, text, variables=()):
+def emit(elf, table, text, variables=(), *, literal_name=None):
     """Execute original emitter for a deliberately narrow, fail-closed subset.
 
     The observed 800-byte destination, synthetic variable context and item table
@@ -108,10 +109,17 @@ def emit(elf, table, text, variables=()):
     if sha(elf) != ORIGINAL_SHA or len(table) != ITEM_COUNT * STRIDE:
         raise ValueError('Stream source/table differs')
     source = encode(text) + b'\0'
+    name_source = None
+    if literal_name is not None:
+        name_source = encode(literal_name) + b'\0'
+        if any(b < 32 for b in name_source[:-1]) or b'%' in name_source:
+            raise ValueError('Literal name must be a plain glyph string')
     for token in re.finditer(rb'%I(\$?)([0-9]+)', source[:-1]):
         if token[1] and int(token[2]) not in (0, *SELECTORS['item']):
             raise ValueError('Stream item selector outside reviewed subset')
     rest = re.sub(rb'%I(?:\$[0-9]+|[0-9]+)', b'', source[:-1])
+    if literal_name is not None:
+        rest = re.sub(rb'%N0(?![0-9$])', b'', rest)
     if b'%' in rest or any(b < 32 and b != 10 for b in rest):
         raise ValueError('Stream probe accepts only plain text, newline and item references')
     regs = [0] * 32
@@ -120,6 +128,7 @@ def emit(elf, table, text, variables=()):
     initial = regs.copy()
     dest = bytearray(b'\xa5' * 800 + b'GUARD')
     mem, glyphs, lookups, variable_indices, visited = {}, [], [], [], set()
+    name_lookups = []
     pc, pending = START, None
 
     def read(at, size, signed=False):
@@ -129,6 +138,10 @@ def emit(elf, table, text, variables=()):
             b = table[at-0x640000:at-0x640000+size]
         elif at == 0x475ae8 and size == 4:
             b = (0x640000).to_bytes(4, 'little')
+        elif at == 0x47558c and size == 4 and name_source is not None:
+            b = (0x680000).to_bytes(4, 'little')
+        elif name_source is not None and 0x680000 <= at and at+size <= 0x680000+len(name_source):
+            b = name_source[at-0x680000:at-0x680000+size]
         elif all(at+i in mem for i in range(size)):
             b = bytes(mem[at+i] for i in range(size))
         elif 0xff000 <= at and at+size <= 0xff000+len(elf):
@@ -170,6 +183,7 @@ def emit(elf, table, text, variables=()):
             return {'cells': cells, 'content_cells': len(cells), 'terminal_cell_index': len(cells),
                     'allocation_bytes': 800, 'guard_unchanged': True, 'callee_saved': True,
                     'lookup_item_ids': lookups, 'variable_indices': variable_indices,
+                    'literal_name_indices': name_lookups,
                     'executed_instructions': steps, 'instruction_offsets': sorted(visited),
                     'glyph_registration_modeled': True, 'classification_modeled': True,
                     'upstream_inputs_proven': False}
@@ -188,14 +202,20 @@ def emit(elf, table, text, variables=()):
                 raise ValueError('Stream argument outside input')
             arg = execute_argument(elf, source[pos:], list(variables))
             index = arg['value']
-            if not 0 <= index < ITEM_COUNT:
-                raise ValueError('Stream item index outside table')
-            at = index * STRIDE
-            if 0 not in table[at:at+24]:
-                raise ValueError('Stream item name lacks physical-field NUL')
+            if source[pos-1:pos] == b'N':
+                if name_source is None or index != 0 or arg['variable_indices']:
+                    raise ValueError('Stream literal name must use exact N0')
+                name_lookups.append(index)
+            else:
+                if not 0 <= index < ITEM_COUNT:
+                    raise ValueError('Stream item index outside table')
+                at = index * STRIDE
+                if 0 not in table[at:at+24]:
+                    raise ValueError('Stream item name lacks physical-field NUL')
+                lookups.append(index)
             write(regs[5], index, 4)
             regs[2] = regs[4] + arg['consumed']
-            lookups.append(index); variable_indices.extend(arg['variable_indices'])
+            variable_indices.extend(arg['variable_indices'])
             pc = regs[31]
             continue
         if pc == 0x197778:
@@ -311,7 +331,57 @@ def audit_pages(elf, table, targets, fields):
             'limits': 'Known compiled MAP catalogue only, pages containing I references. Six conditional same-item contexts; other controls remain unresolved. Not proof of every input reaching the emitter.'}
 
 
-def audit_map():
+def audit_mixed_pages(elf, table, targets, fields):
+    """Measure conditional N0 budgets without claiming runtime name bounds."""
+    rows = []
+    scenarios = 0
+    for field in fields:
+        for page_index, text in enumerate(field['text'].split('\t')):
+            if '%I' not in text or '%N0' not in text:
+                continue
+            if text.count('%N0') != 1:
+                raise ValueError('Mixed-name budget requires one exact N0 reference')
+            cases = []
+            for index in targets:
+                variables = (index,)*20
+                empty = emit(elf, table, text, variables, literal_name='')
+                if empty['literal_name_indices'] != [0]:
+                    raise ValueError('Mixed-name lookup is not literal zero')
+                budget = 99-empty['content_cells']
+                if budget < 0:
+                    raise ValueError('Mixed page does not fit even with empty name')
+                outputs = []
+                for name in ('Nina', 'João', 'A'*budget, 'é'*budget):
+                    r = emit(elf, table, text, variables, literal_name=name)
+                    if r['content_cells'] != empty['content_cells']+len(name):
+                        raise ValueError('Mixed-name cells differ from additive expectation')
+                    outputs.append({'name_characters': len(name), 'name_bytes': len(encode(name)),
+                                    'name_sha256': sha(encode(name)), 'content_cells': r['content_cells'],
+                                    'cells_sha256': sha(json.dumps(r['cells'], sort_keys=True).encode())})
+                failure = None
+                try:
+                    emit(elf, table, text, variables, literal_name='A'*(budget+1))
+                except ValueError as error:
+                    failure = str(error)
+                if failure != 'Original stream exceeds observed 800-byte allocation':
+                    raise ValueError('Mixed-name over-budget scenario did not reach expected bound')
+                scenarios += 6  # empty, two sample names, two exact boundaries, one negative
+                cases.append({'item_id': index, 'literal_name_index': 0,
+                              'content_cells_without_name': empty['content_cells'],
+                              'maximum_name_cells_for_this_page_and_context': budget,
+                              'samples_and_boundaries': outputs, 'over_budget_refused': True,
+                              'guard_unchanged': True, 'canonical_name_length_proven': False})
+            rows.append({k: field[k] for k in ('id', 'segment', 'offset', 'record_sha256')}
+                        | {'page_index': page_index, 'page_sha256': sha(encode(text)), 'cases': cases})
+    return {'pages': len(rows), 'conditional_cases': sum(len(r['cases']) for r in rows),
+            'instruction_scenarios': scenarios, 'rows': rows,
+            'minimum_conditional_name_cell_budget': min((c['maximum_name_cells_for_this_page_and_context']
+                                                        for r in rows for c in r['cases']), default=None),
+            'canonical_name_identity_proven': False, 'runtime_name_maximum_proven': False,
+            'limits': 'The original N0 handler executes; its pointer table and supplied name are synthetic. Two sample names are not identified scene actors. Budgets are conditional on the six supplied item contexts, not all runtime values.'}
+
+
+def audit_map(*, include_mixed=False):
     from build_translation_pilot import load_draft, compile_draft
     from reinsertion import SOURCE as MAP_SOURCE
     elf = SOURCE.read_bytes()
@@ -326,14 +396,18 @@ def audit_map():
         fields = [{'id': e['id'], 'segment': part['key'], 'offset': part['offset'],
                    'record_sha256': e['record_sha256'], 'text': part['translation']}
                   for e in document['entries'] for part in e['segments'] if '%I' in part['translation']]
-    return {'catalogue_records': len(document['entries']), 'recipe_bindings': bindings,
-            **audit_pages(elf, table, targets, fields)}
+    result = {'catalogue_records': len(document['entries']), 'recipe_bindings': bindings,
+              **audit_pages(elf, table, targets, fields)}
+    if include_mixed:
+        result['mixed_names'] = audit_mixed_pages(elf, table, targets, fields)
+    return result
 
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description='Investigar entradas e fluxo de glifos de nomes, sem editar o jogo')
     p.add_argument('--output', type=Path, default=ROOT/'work/fluxo-nomes-atual.json')
     p.add_argument('--audit-map', action='store_true', help='Também compilar e conferir páginas do catálogo MAP atual')
+    p.add_argument('--audit-mixed-names', action='store_true', help='Medir também as páginas N0+I e seus limites condicionais')
     args = p.parse_args()
     out = args.output.resolve()
     if not out.is_relative_to(ROOT/'work'):
@@ -341,10 +415,12 @@ if __name__ == '__main__':
     if out.exists() and json.loads(out.read_bytes()).get('scope') != SCOPE:
         raise ValueError('Refuse unrelated stream output')
     result = investigate()
-    if args.audit_map:
-        result['map_audit'] = audit_map()
+    if args.audit_map or args.audit_mixed_names:
+        result['map_audit'] = audit_map(include_mixed=args.audit_mixed_names)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     print(json.dumps({'cases': result['case_count'], 'editing_authorized': False,
                       'map_audit': {k: v for k, v in result.get('map_audit', {}).items()
-                                    if k not in ('rows', 'recipe_bindings')}}))
+                                    if k not in ('rows', 'recipe_bindings', 'mixed_names')},
+                      'mixed_names': {k: v for k, v in result.get('map_audit', {}).get('mixed_names', {}).items()
+                                      if k != 'rows'}}))

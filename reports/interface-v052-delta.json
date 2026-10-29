@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v051.json",
+  "new_recipe": "translations/interface-v052.json",
+  "source_iso_sha256": "5c3489e7837ae4938e00f84a9a5599c11e48ebb259366b7377e1fe351f725c12",
+  "output_iso_sha256": "26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449",
+  "iso_size": 1704427520,
+  "changed_bytes": 13,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "item.name.0460",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290098208,
+      "size": 16
+    }
+  ],
+  "pcsx2_executed": false
+}

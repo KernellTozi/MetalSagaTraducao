@@ -153,6 +153,50 @@ class ItemNameStream(unittest.TestCase):
         with self.assertRaises(ValueError):
             s.emit(self.elf, self.table[:-1], 'Teste')
 
+    def test_literal_name_zero_executes_original_lookup_and_keeps_item_variables_independent(self):
+        for text, expected in [('%N0: %I$1!', 'João: '+self.targets[838]+'!'),
+                               ('%I$1 para %N0.', self.targets[838]+' para João.')]:
+            r = s.emit(self.elf, self.table, text, (331,838), literal_name='João')
+            self.assertEqual(r['cells'], cells(expected))
+            self.assertEqual(r['literal_name_indices'], [0])
+            self.assertEqual(r['lookup_item_ids'], [838])
+            self.assertEqual(r['variable_indices'], [1])
+            self.assertIn(0x1b5cd8, r['instruction_offsets'])
+
+    def test_literal_name_remains_opt_in_and_is_not_indirect_N_dollar_zero(self):
+        for text, name in [('%N0', None), ('%N$0', 'Nina'), ('%N1', 'Nina'),
+                           ('%N00', 'Nina'), ('%N0', '%I331'), ('%N0', 'A\nB')]:
+            with self.assertRaises(ValueError):
+                s.emit(self.elf, self.table, text, (331,), literal_name=name)
+
+    def test_empty_name_and_multibyte_boundary_preserve_terminal(self):
+        r = s.emit(self.elf, self.table, '%N0!', literal_name='')
+        self.assertEqual(r['cells'], cells('!'))
+        r = s.emit(self.elf, self.table, '%N0', literal_name='é'*99)
+        self.assertEqual(r['content_cells'], 99)
+        with self.assertRaisesRegex(ValueError, '800-byte allocation'):
+            s.emit(self.elf, self.table, '%N0', literal_name='é'*100)
+
+    def test_mixed_budget_is_conditional_and_exact_at_positive_and_negative_boundary(self):
+        fields = [{'id': 'fixture', 'segment': 'body', 'offset': 0,
+                   'record_sha256': 'fixture', 'text': '%N0: %I$1!'}]
+        r = s.audit_mixed_pages(self.elf, self.table, self.targets, fields)
+        self.assertEqual(r['pages'], 1)
+        self.assertEqual(r['conditional_cases'], 6)
+        self.assertEqual(r['instruction_scenarios'], 36)
+        self.assertFalse(r['runtime_name_maximum_proven'])
+        for c in r['rows'][0]['cases']:
+            self.assertEqual(c['maximum_name_cells_for_this_page_and_context'], 96-len(self.targets[c['item_id']]))
+            self.assertTrue(c['over_budget_refused'])
+            self.assertFalse(c['canonical_name_length_proven'])
+
+    def test_mixed_audit_refuses_repeated_name_and_other_controls(self):
+        for text in ('%N0 %N0 %I$1', '%N0 %I$1 %W5'):
+            with self.assertRaises(ValueError):
+                s.audit_mixed_pages(self.elf, self.table, self.targets,
+                    [{'id': 'fixture', 'segment': 'body', 'offset': 0,
+                      'record_sha256': 'fixture', 'text': text}])
+
 
 if __name__ == '__main__':
     unittest.main()

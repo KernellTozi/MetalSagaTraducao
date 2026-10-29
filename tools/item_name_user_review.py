@@ -59,6 +59,9 @@ def prepare_config(parent,manifest,rows,binding):
 
 
 def validate_config(config,rows):
+    if 'accent_fallback' in config:
+        from item_accent_fallback import parent_names
+        return validate_config(parent_names(config),rows)
     if 'pending_resolution' in config:
         from pending_name_resolution import validate_names
         return validate_config(validate_names(config,rows),rows)

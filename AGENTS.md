@@ -1511,3 +1511,35 @@ virtuais de 0x473C8 e política por seis IDs/cinco ações. Nove casos de largur
 e Í separados. Não ampliar teto global nem abreviar escolhas aprovadas.
 Planejamento somente, sem novo teste de reinserção, tradução ou ISO. Os 69
 testes citados continuam sendo os executados na rodada v003.
+
+## Interface v052 e nomes mistos v004
+
+Atual: translations/interface-v052.json sobre MAP v044 e layout v005. Manual
+docs/interface-v052.md. Iniciador principal usa work/interface-v052/MetalSaga-ptbr-interface-v052.iso;
+preparador e auditor acompanham v052. Alpha protegida e cinco ISOs de trabalho.
+
+O usuário autorizou retirar o acento só de Ídolo de barro se a inclusão de Í
+não fosse simples. Aplicado **Idolo de barro**, item 460, pela política explícita
+single-item-authorized-ascii-accent-fallback-v001. Manifesto em
+translations/excecao-acento-item460-v001.json. Não remover acentos de outros
+nomes/falas nem alterar os 18 códigos/fontes aprovados. Receita-pai e revisão
+humana original intactas. Comparação integral: 13 bytes em um prefixo de 16,
+nenhuma outra diferença v051→v052. Mantidos 541 nomes; 15 revisões bloqueadas.
+
+A sonda item_name_stream aceita N0 literal somente com literal_name fornecido;
+N$0 e variantes não estão liberados nesse modo. --audit-mixed-names executa
+dez páginas N0+I em 60 contextos e 360 cenários, incluindo limites e negativas.
+Menor orçamento condicional: 41 células para o nome. Ponteiro/tabela/nome são
+modelados; não comprova comprimento real máximo ou personagem canônico.
+Resultados do modo estrito v003 permanecem separados. Não aumentar teto com
+base nesses cenários. Próximo: fontes dos nomes e retornos virtuais de 0x473C8.
+
+item_name_capacity --current-recipe translations/interface-v052.json exclui
+apenas o fallback vinculado/compilado e informa 15 bloqueios. Sem opção, mantém
+diagnóstico histórico v050 de 16. Legados não foram relaxados; a nova política
+recusa outros IDs/redações/fontes/layouts. Nenhum PCSX2, OneDrive ou desligamento.
+
+103 testes distintos passaram na execução final, oito do fallback e cinco
+novos N0, além da regressão. Preflight/iniciador conferidos sem abrir emulador.
+SHA-256 v052: 26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449.
+Relatórios interface-v052.json, interface-v052-delta.json e fluxo-nomes-v004.json.

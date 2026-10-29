@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "policy": "single-item-authorized-ascii-accent-fallback-v001",
+  "parent_recipe": "translations/interface-v051.json",
+  "parent_sha256": "9c8a1979bc5d0fc1eb396c15e8ab1feebb886795a9fd7fca3533d0310e620abe",
+  "item_id": "item.name.0460",
+  "source_sha256": "0f4aa45c2a7dbbc5b5ece78dd73887a98e8fbc8356dd1b8952815e159442bc3e",
+  "record_sha256": "9d10e808b90c475424e6a713ce13bd42a36b2fed7eed5563830dda50f47a139d",
+  "approved_accented": "Ídolo de barro",
+  "translation": "Idolo de barro",
+  "authorization": "User explicitly permits omitting the accent on this name if adding Í is not easy; no other accent exception authorized."
+}

@@ -725,3 +725,24 @@ Este planejamento não executou novos testes de reinserção: os **69 testes**
 são o resultado anterior da v003. As verificações novas foram a identidade
 das fontes de planejamento e a classificação das dez páginas, sem alterar
 arquivos do jogo. Sem OneDrive, emulador, novas fontes ou desligamento.
+
+## Execução do plano — interface v052 / diagnóstico de nomes v004
+
+Atual: interface v052 sobre MAP v044/layout v005, manual docs/interface-v052.md.
+Aplicada a exceção solicitada para **Idolo de barro**, item 460, com 14 bytes
+ASCII e teto de 16 mantido. Os demais acentos não recebem essa exceção.
+Uma revisão de nome, sem novo item contado; permanecem 541 nomes/15 revisões
+bloqueadas. A comparação integral confirmou 13 bytes em um prefixo de 16.
+
+A etapa de controles mistos da sonda foi implementada: dez páginas N0+I,
+60 contextos item/página e 360 cenários com nomes independentes e fronteiras.
+Menor orçamento condicional para o nome: 41 células. Isso não é prova do
+tamanho máximo do nome em execução nem liberação dos seis itens maiores.
+Ainda falta a origem dos nomes/retornos virtuais de 0x473C8, próxima prioridade.
+As outras 25 páginas mantêm os resultados anteriores; nove alertas de largura
+seguem separados. Nenhum pedido de navegação imediata ao usuário.
+
+Iniciador/preparador/auditor usam v052. Cinco ISOs de trabalho e alpha protegida,
+sem OneDrive, execução PCSX2 ou desligamento. Não confundir nomes sintéticos
+de teste com personagens identificados e não aplicar o orçamento 41 a todas
+as mensagens/fontes do jogo.

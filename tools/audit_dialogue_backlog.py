@@ -139,7 +139,7 @@ def run(folder,output,summary_path=None):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description='Consolidar pendências de diálogo localmente em um JSON, sem IA/APIs')
-    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v051-final')
+    p.add_argument('--build-dir',type=Path,default=ROOT/'work/interface-v052')
     p.add_argument('--output',type=Path,default=ROOT/'work/dialogos-pendencias-atual.json')
     p.add_argument('--summary',type=Path);a=p.parse_args()
     print(json.dumps(run(a.build_dir,a.output,a.summary),ensure_ascii=False,indent=2))

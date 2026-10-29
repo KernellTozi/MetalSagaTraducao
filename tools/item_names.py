@@ -86,6 +86,9 @@ def validate_value(row,text,*,ceiling=None,remote_review=False,repair_review=Fal
     return value
 
 def compile_names(elf,config):
+    if 'accent_fallback' in config:
+        from item_accent_fallback import compile_names as compile_fallback
+        return compile_fallback(elf,config)
     if (sha(elf)!=ORIGINAL_SHA or config.get('policy') not in (POLICY,CEILING_POLICY,USER_REVIEW_POLICY) or
         config.get('instruction_windows')!=bindings(elf)):raise ValueError('Item name policy/reader mismatch')
     raw=original(RESOURCE)

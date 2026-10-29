@@ -1,0 +1,953 @@
+{
+  "schema": 1,
+  "scope": "mixed-N0-I-item-name-diagnostic-v004",
+  "diagnostic_baseline": "interface-v051/MAP-v044",
+  "current_interface_recipe": "translations/interface-v052.json",
+  "current_interface_sha256": "43c9b18a798d8ded2248b560e69decfbdaf8664774912bb118033da46745e76e",
+  "known_catalogue_records": 7231,
+  "plain_item_pages": 25,
+  "plain_item_scenarios": 150,
+  "mixed": {
+    "pages": 10,
+    "conditional_cases": 60,
+    "instruction_scenarios": 360,
+    "minimum_conditional_name_cell_budget": 41,
+    "canonical_name_identity_proven": false,
+    "runtime_name_maximum_proven": false,
+    "limits": "The original N0 handler executes; its pointer table and supplied name are synthetic. Two sample names are not identified scene actors. Budgets are conditional on the six supplied item contexts, not all runtime values."
+  },
+  "pages": [
+    {
+      "id": "map.msg.0a138544",
+      "segment": "body",
+      "offset": 169051492,
+      "record_sha256": "01436e01d16b4bacf616c050d5767ff608978f16c3178931211630827ca81bf0",
+      "page_index": 0,
+      "page_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "41d4a091e146d1ce327848c81e2e8debb155b93159ba52850595d8ded445844d",
+            "9e00e6bd68d8ce20b20d9ef43c39a4be148c3cf105abe638430c74088cda56c5",
+            "1b268db0a119a307c8826e6c581bc24200c2cf7ed291a6f5550f7137e092d655",
+            "2c93fa026689929919c8c8ace6477470713f4be532b84dcf67ecf99471a27ad1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "1053602b13d5d45abc23fbd56ea791d3debf3ec6406614ca8d132c5493d059bc",
+            "dcd9b2e8567c21e134e95d495ae312544ee9263502b8728638de579fe79f46f6",
+            "40285ff272a08733aaf56906141bd9643c82a8d55907df3f2a1116a2caef95b1",
+            "5811bf031166e9484f27ea5ea6c0924bfea137ef98671a143b979345e97ac336"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "3eb9ce53f8b88fd74ef1a0126892f6f340d634da84a3dd34348402e3a027e271",
+            "030b0c447209b731352697e402bf9a8475eb5240ed72d97decd9922a518db305",
+            "1715b5647b6f2921d8ba4f2eb55d0386a85c535fc3f1b91030e00e5ba0b0fbc2",
+            "0cc5954c6c5a88aa4610fd09668194a93761af2f21b0178222882145b4a1a108"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 37,
+          "maximum_name_cells": 62,
+          "boundary_output_hashes": [
+            "106e1c86e0ccdc6f0ecc76ef8f8a9cc3aac3a3999233c9954255b7f9391be2fd",
+            "9f243a7d200710b965259d0c3d7b86bde23c88f9112aa993edb22b1bf81a3907",
+            "1097c7101d7123ba7313f592c244bee07a0a561db61a60c140db957f8b28e97e",
+            "1fc5d77b8f5f79901f7f3ecb6b77eac85f48c4a4b94b94bf921c306f02232e8d"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "a83897101ff04164c776bf4f757d978c90e168622c17691f6c29b2c2245bf7a9",
+            "51cb29554271ac1ab378382271aa577f81f0bb8622aa99c98c361f40b04a8dd2",
+            "d00a145609b3c77010e30ab4541421e6f1cd0c77ea01898dc81f941731822bc7",
+            "4006278a7021034afa88186c6071ba1998befcf2ac9d5ab32052b8208f4c58d9"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "06026b2c7b986665e5dd4b9f7c73152632203d658d52c2544e5536e6117ccc8e",
+            "a9e82d5d4ab2b2bada0a7abdf08b9c1b01a4881296f59499ba3ff262dfc50fed",
+            "8282ae8ac2682be6cc298430ef5a099fab703be8dc5e116a3ce64477f85c7621",
+            "b58e05e45dceb778f77728da8c34f1b5a6a85fe5d78fe071916d56500ef315a8"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0a1387a4",
+      "segment": "body",
+      "offset": 169052100,
+      "record_sha256": "79423f355eb70ef7c77d5e1aafdcef747fd7410e3140e7eed36fe1db0cf21458",
+      "page_index": 0,
+      "page_sha256": "45ad33c95ae64de0139bff67a9e02ac0e67623f126b55f9ecde4e5ce08c90d60",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "9d2f4e015446ec2330e86505db1ddf9717a18fc44984db78035edab9bc9d45cb",
+            "7ba3f9d85deb8c29e050ab413943110cfad8c9fb26cfbc274c70c22ea5063ca1",
+            "4fbe3707f6145039d0079ef45301761a2fcb32532187848d3921b46592f18a41",
+            "c86b3d6b34ee1c77e8309042ea0ada9a4f2ba6218c2f60db643f4fc3225adbe5"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "b83a48d14c5962f349f53bc4fd7dcd4b1bcf530cfdb491ec002e2f8507bbe573",
+            "79b598e6745a27b4f3d0f0a0f07ed20058b17044557fb8790878c904403556e9",
+            "6cc39dd737eb11e88d338ae3b475b70a37806917d1001a0ab498db4cb16a6b1f",
+            "b22cd1090fdcaa18a966f32358d563cc4318f9c533286d3100cac36f558730f4"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "f2bf655e58ab3bedaef1d108ff95e7f9c01e73d7defa66419210fb54da1914be",
+            "843c381e71e370296a96497420a44fee0b694265655863a29c5ecddf0b0a1ed6",
+            "b92b4c50fb02968a5e471a3e8234b4dec3413f29a3d7cbacd00dfc5f1f1e1aba",
+            "a46985dcd18f204d0180edbf31f902a24ebd4047f72c3b881dc4a56321aff4d1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "0bd06e075b43b59ead62c51cec90f82fcaf7cc88757a080fc69c48a2377cb29c",
+            "c35cb5a5d74a4f76c1f05560df1a6a2fc6dbd500d927004912aed4bb3ac4a6c4",
+            "991bd6b16a3694a9e538abd07eab17f0d4d4bf794a0757a2aa9f4e270fdaeb86",
+            "28737158ace468fc80138a5e2ca6e8c4d01291ac373b4253fc0e61c799297984"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "85cd93be54c5c8dd68f9f756e7afaff4c9548ff88120599175d4a8be772912af",
+            "97d44f14438c7ba51c44bcc9db2274237836d86bfda6b733491de184b08a8c20",
+            "7609a03090c1cd0937b889199d78fda698205ffb3f3863a29de73436ec604934",
+            "355a4f465abd7b582a9bce8a329be6b7ec67f1c854407a3295ddc7144166ac83"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "8c81a20eb895931267a71af94803aa7b390a226598027e597a104237d99e8a37",
+            "4721aaf4fe0702611b7d4f3ecb13bd0e1af11d0c70c0a1f0d51d6b7e54751415",
+            "d1da0a0cc530ef05b58b90bdc84be8159a3b6781c48807797a61ea41cedc9179",
+            "bc32c56b1e44e6f12e845e5368ad0d1037d0fd4181f5486dfcf6e96e6b5efdf7"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0b8fc504",
+      "segment": "body",
+      "offset": 193971492,
+      "record_sha256": "01436e01d16b4bacf616c050d5767ff608978f16c3178931211630827ca81bf0",
+      "page_index": 0,
+      "page_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "41d4a091e146d1ce327848c81e2e8debb155b93159ba52850595d8ded445844d",
+            "9e00e6bd68d8ce20b20d9ef43c39a4be148c3cf105abe638430c74088cda56c5",
+            "1b268db0a119a307c8826e6c581bc24200c2cf7ed291a6f5550f7137e092d655",
+            "2c93fa026689929919c8c8ace6477470713f4be532b84dcf67ecf99471a27ad1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "1053602b13d5d45abc23fbd56ea791d3debf3ec6406614ca8d132c5493d059bc",
+            "dcd9b2e8567c21e134e95d495ae312544ee9263502b8728638de579fe79f46f6",
+            "40285ff272a08733aaf56906141bd9643c82a8d55907df3f2a1116a2caef95b1",
+            "5811bf031166e9484f27ea5ea6c0924bfea137ef98671a143b979345e97ac336"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "3eb9ce53f8b88fd74ef1a0126892f6f340d634da84a3dd34348402e3a027e271",
+            "030b0c447209b731352697e402bf9a8475eb5240ed72d97decd9922a518db305",
+            "1715b5647b6f2921d8ba4f2eb55d0386a85c535fc3f1b91030e00e5ba0b0fbc2",
+            "0cc5954c6c5a88aa4610fd09668194a93761af2f21b0178222882145b4a1a108"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 37,
+          "maximum_name_cells": 62,
+          "boundary_output_hashes": [
+            "106e1c86e0ccdc6f0ecc76ef8f8a9cc3aac3a3999233c9954255b7f9391be2fd",
+            "9f243a7d200710b965259d0c3d7b86bde23c88f9112aa993edb22b1bf81a3907",
+            "1097c7101d7123ba7313f592c244bee07a0a561db61a60c140db957f8b28e97e",
+            "1fc5d77b8f5f79901f7f3ecb6b77eac85f48c4a4b94b94bf921c306f02232e8d"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "a83897101ff04164c776bf4f757d978c90e168622c17691f6c29b2c2245bf7a9",
+            "51cb29554271ac1ab378382271aa577f81f0bb8622aa99c98c361f40b04a8dd2",
+            "d00a145609b3c77010e30ab4541421e6f1cd0c77ea01898dc81f941731822bc7",
+            "4006278a7021034afa88186c6071ba1998befcf2ac9d5ab32052b8208f4c58d9"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "06026b2c7b986665e5dd4b9f7c73152632203d658d52c2544e5536e6117ccc8e",
+            "a9e82d5d4ab2b2bada0a7abdf08b9c1b01a4881296f59499ba3ff262dfc50fed",
+            "8282ae8ac2682be6cc298430ef5a099fab703be8dc5e116a3ce64477f85c7621",
+            "b58e05e45dceb778f77728da8c34f1b5a6a85fe5d78fe071916d56500ef315a8"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0b8fc764",
+      "segment": "body",
+      "offset": 193972100,
+      "record_sha256": "79423f355eb70ef7c77d5e1aafdcef747fd7410e3140e7eed36fe1db0cf21458",
+      "page_index": 0,
+      "page_sha256": "45ad33c95ae64de0139bff67a9e02ac0e67623f126b55f9ecde4e5ce08c90d60",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "9d2f4e015446ec2330e86505db1ddf9717a18fc44984db78035edab9bc9d45cb",
+            "7ba3f9d85deb8c29e050ab413943110cfad8c9fb26cfbc274c70c22ea5063ca1",
+            "4fbe3707f6145039d0079ef45301761a2fcb32532187848d3921b46592f18a41",
+            "c86b3d6b34ee1c77e8309042ea0ada9a4f2ba6218c2f60db643f4fc3225adbe5"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "b83a48d14c5962f349f53bc4fd7dcd4b1bcf530cfdb491ec002e2f8507bbe573",
+            "79b598e6745a27b4f3d0f0a0f07ed20058b17044557fb8790878c904403556e9",
+            "6cc39dd737eb11e88d338ae3b475b70a37806917d1001a0ab498db4cb16a6b1f",
+            "b22cd1090fdcaa18a966f32358d563cc4318f9c533286d3100cac36f558730f4"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "f2bf655e58ab3bedaef1d108ff95e7f9c01e73d7defa66419210fb54da1914be",
+            "843c381e71e370296a96497420a44fee0b694265655863a29c5ecddf0b0a1ed6",
+            "b92b4c50fb02968a5e471a3e8234b4dec3413f29a3d7cbacd00dfc5f1f1e1aba",
+            "a46985dcd18f204d0180edbf31f902a24ebd4047f72c3b881dc4a56321aff4d1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "0bd06e075b43b59ead62c51cec90f82fcaf7cc88757a080fc69c48a2377cb29c",
+            "c35cb5a5d74a4f76c1f05560df1a6a2fc6dbd500d927004912aed4bb3ac4a6c4",
+            "991bd6b16a3694a9e538abd07eab17f0d4d4bf794a0757a2aa9f4e270fdaeb86",
+            "28737158ace468fc80138a5e2ca6e8c4d01291ac373b4253fc0e61c799297984"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "85cd93be54c5c8dd68f9f756e7afaff4c9548ff88120599175d4a8be772912af",
+            "97d44f14438c7ba51c44bcc9db2274237836d86bfda6b733491de184b08a8c20",
+            "7609a03090c1cd0937b889199d78fda698205ffb3f3863a29de73436ec604934",
+            "355a4f465abd7b582a9bce8a329be6b7ec67f1c854407a3295ddc7144166ac83"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 50,
+          "maximum_name_cells": 49,
+          "boundary_output_hashes": [
+            "8c81a20eb895931267a71af94803aa7b390a226598027e597a104237d99e8a37",
+            "4721aaf4fe0702611b7d4f3ecb13bd0e1af11d0c70c0a1f0d51d6b7e54751415",
+            "d1da0a0cc530ef05b58b90bdc84be8159a3b6781c48807797a61ea41cedc9179",
+            "bc32c56b1e44e6f12e845e5368ad0d1037d0fd4181f5486dfcf6e96e6b5efdf7"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0b8fe774",
+      "segment": "body",
+      "offset": 193980308,
+      "record_sha256": "01436e01d16b4bacf616c050d5767ff608978f16c3178931211630827ca81bf0",
+      "page_index": 0,
+      "page_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "41d4a091e146d1ce327848c81e2e8debb155b93159ba52850595d8ded445844d",
+            "9e00e6bd68d8ce20b20d9ef43c39a4be148c3cf105abe638430c74088cda56c5",
+            "1b268db0a119a307c8826e6c581bc24200c2cf7ed291a6f5550f7137e092d655",
+            "2c93fa026689929919c8c8ace6477470713f4be532b84dcf67ecf99471a27ad1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "1053602b13d5d45abc23fbd56ea791d3debf3ec6406614ca8d132c5493d059bc",
+            "dcd9b2e8567c21e134e95d495ae312544ee9263502b8728638de579fe79f46f6",
+            "40285ff272a08733aaf56906141bd9643c82a8d55907df3f2a1116a2caef95b1",
+            "5811bf031166e9484f27ea5ea6c0924bfea137ef98671a143b979345e97ac336"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "3eb9ce53f8b88fd74ef1a0126892f6f340d634da84a3dd34348402e3a027e271",
+            "030b0c447209b731352697e402bf9a8475eb5240ed72d97decd9922a518db305",
+            "1715b5647b6f2921d8ba4f2eb55d0386a85c535fc3f1b91030e00e5ba0b0fbc2",
+            "0cc5954c6c5a88aa4610fd09668194a93761af2f21b0178222882145b4a1a108"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 37,
+          "maximum_name_cells": 62,
+          "boundary_output_hashes": [
+            "106e1c86e0ccdc6f0ecc76ef8f8a9cc3aac3a3999233c9954255b7f9391be2fd",
+            "9f243a7d200710b965259d0c3d7b86bde23c88f9112aa993edb22b1bf81a3907",
+            "1097c7101d7123ba7313f592c244bee07a0a561db61a60c140db957f8b28e97e",
+            "1fc5d77b8f5f79901f7f3ecb6b77eac85f48c4a4b94b94bf921c306f02232e8d"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "a83897101ff04164c776bf4f757d978c90e168622c17691f6c29b2c2245bf7a9",
+            "51cb29554271ac1ab378382271aa577f81f0bb8622aa99c98c361f40b04a8dd2",
+            "d00a145609b3c77010e30ab4541421e6f1cd0c77ea01898dc81f941731822bc7",
+            "4006278a7021034afa88186c6071ba1998befcf2ac9d5ab32052b8208f4c58d9"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 38,
+          "maximum_name_cells": 61,
+          "boundary_output_hashes": [
+            "06026b2c7b986665e5dd4b9f7c73152632203d658d52c2544e5536e6117ccc8e",
+            "a9e82d5d4ab2b2bada0a7abdf08b9c1b01a4881296f59499ba3ff262dfc50fed",
+            "8282ae8ac2682be6cc298430ef5a099fab703be8dc5e116a3ce64477f85c7621",
+            "b58e05e45dceb778f77728da8c34f1b5a6a85fe5d78fe071916d56500ef315a8"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0be0f99c",
+      "segment": "body",
+      "offset": 199293372,
+      "record_sha256": "05f3b67247157bbee3106da7940d30a46dec8cb8c4f9d9cc9680349d21fecf23",
+      "page_index": 0,
+      "page_sha256": "3c68b5131517260de16b2619424327a3075d6764c5ecda57823c88ff9f571be3",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 47,
+          "maximum_name_cells": 52,
+          "boundary_output_hashes": [
+            "b9ac56c0b32689283be4b8214c4d8c551e00b02132df7dde1d404f7625ce3e49",
+            "1f8bd03f3ef3df7b3db12f9c720edb2be8489d0680246bff0d314d2e635b924e",
+            "e4d140a48f1902a7db36f4fab739bf797b2374452c28e766ace6ab9a8af7d9ea",
+            "b87bffeef91b6ee0cdbc0784134eb9b12e6eb2c9c9fe23bd7804fed743a3a659"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 47,
+          "maximum_name_cells": 52,
+          "boundary_output_hashes": [
+            "3a32244926f8ece0c727c6b1dd9dde8e338da6be3934558448fa74c8c83edd12",
+            "e05081d0642a55c1fdb3e8978c741294915190851ee9a10c3c3366c0342bc7b8",
+            "8018750e21430235bfdf80318872fa979efbb2574b6959b814adaf9f8ed4d34c",
+            "d1f24befa16c2755b5ec5eb61bc12c90229221344ee8498579033848af162dee"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 47,
+          "maximum_name_cells": 52,
+          "boundary_output_hashes": [
+            "6a764bafa745399cebd69886e35a68901791b0662b6cde3a1b9f3b63b65bed7a",
+            "09df37f4fc076e31bd6826d757e36872529a38ebc42a7439687e889969ae4b79",
+            "711767a737423d1dc8e203726b3de4778ca72575945f204ba82ce57e5635f605",
+            "a4ca716866962ab026a6fb847b9fd8ce1b758d6a12bf5876ce1df7bef6897fd6"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 46,
+          "maximum_name_cells": 53,
+          "boundary_output_hashes": [
+            "6c6c3ba983eec69c18e047ac1cb1f4d2204e59b144ac2b6021507b0a75c18aae",
+            "b74a2bb4011d26c1fd59967365ea4970be35776ad103b07fab6f3180cd96f510",
+            "ffb77d6130ca69c8f00a21d979608a66b5f7a3953567bdefe933ef4fcd3603e0",
+            "386be69d9d2dcc666c7185532f0917a77f37333c748a26f63e10481864371cd4"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 47,
+          "maximum_name_cells": 52,
+          "boundary_output_hashes": [
+            "363f3bdf04980e5f98c2da4dc437093379ea78be3bf80c81e2f1478b289a9d0d",
+            "a7cfd905aa0a9ae10c1bc92fb96a7c68d67706dd0a6172a70565e8aab44984f4",
+            "fca70205eadb77760b4524eccc9053c5b3c1a2219e8d51f2b02a53dee24a1d13",
+            "e1384450094abe2709a0a7aea5b3480d43767dc24cefe5f2f7897104c3816db1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 47,
+          "maximum_name_cells": 52,
+          "boundary_output_hashes": [
+            "c92bfdf8ef56e1554f164b50f3558331ce8c6740cab82837f7715b5eee138dc0",
+            "f58fe0c33e05632d3fe927786a1cdee097c8471b12ded7f4de3f5bad66bda045",
+            "691c86cb90173ac09952f69934753897651356f725cc0fd1bb1df085f8b70acb",
+            "53258ce6331239ff1a11de98a823c48ec1cf987ff4a6f22f4de7dcba2554a0af"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0e76dabc",
+      "segment": "body",
+      "offset": 242670300,
+      "record_sha256": "2e8f82be4c545486fd8cec9e4cd4f877ae3ab8772cc7f74c9d066e2f7e49e886",
+      "page_index": 0,
+      "page_sha256": "a88cd0a1c50e7a34aa53335689ae815285a338bc87ab8cd99b6f0ad51171f95f",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "8aa1e42356a53a9d1a556b5d2072000081870ba86eace7c3497d6dde5ac335e3",
+            "21c26bbfb0b4f0389d627d7972de2f94f10d835038ebc464a61305b4d2f18285",
+            "1510d3a3e972717d61c9af298c41c72df2368fa4ea2e4bb5092d7e1c39c4d52a",
+            "c0985c70de0d67863771662adf2e30eed407863aa385481c54339b7852eded19"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "ec8b08bf3fc17270ef8aef07193c44afbcef1f570965450c71357b7adee63dd9",
+            "8c439f97f7574c79c7a7781be2b59f724886dcc1be415c3333f7fc0a09af47f1",
+            "74a440ee46bd69a09d66c3a4c88205b2f751598ca92e23c1d547afee94ee23ca",
+            "125b88ac49878cdd8ebe737efafbd5c720ca00c4c4927592d899dc101f28c93b"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "1483e2de96fa08b94aca7a46065fa9d38e728042497e7e3c4d5d36eaf006601f",
+            "af929dd0bad9992485c5adf46fa5b195f2283b99db5d9ea918f9d0f897cd0351",
+            "38724134ee132305e67467af47cb45ce02ac93a828b90dda8bf3c4c8676a4c4d",
+            "8dc530c87648fb19e77696c3d24c3bfa67de0fe87d531b49bc6110d5454d4f0d"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 48,
+          "maximum_name_cells": 51,
+          "boundary_output_hashes": [
+            "63be66ae7807ba511dbcfa6ee680c0385f9bef38c1a7e477bfcc0c6312a4404f",
+            "4585e6c57539dec599fee276b68c03d2adf540e7816e364d353635274ecc9da3",
+            "7b0f77575411cb5c115115efe007b2c6cbf394de7c915811cb94ca94852eb620",
+            "ba80c40ebb0e691e274749ba0a7f13f726e8ccddf3d24dc0770dbb95902ff5e6"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "7016c42803249bba0852704a703fe1dfe4f17d636fd331613152765a60286b90",
+            "69e1b292317ec853f98809c2974c362455730fc58e67ec4035e9864d5f877bfb",
+            "1087fc23e47584d0d7093575d6f69db45e3f282e35f072c2bafefc03450c44ce",
+            "26159679d24686b3918c4d18e01429f84e7a92076d2869215916f99f57714251"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 49,
+          "maximum_name_cells": 50,
+          "boundary_output_hashes": [
+            "18d0f97da3c502793f78528f25a798e8b22d378f89c24107b0c9bd814cecaf20",
+            "e611daf8d8eb02192ed11ce488ea308e1532c46ccfa61e2fe6714eb7815c35a0",
+            "20f87ff5b933277e2e90a7f708d050ce5061b05bd37c5806df33c9ee3916419d",
+            "a47887548fda08d47bd230943efff1224c68c461c2d51089f3e23411a5fe1592"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.0e76dd0c",
+      "segment": "body",
+      "offset": 242670892,
+      "record_sha256": "7cdbf27fade380ce73f97b5c129fda7e61ea71c5f72373c4b18f31cd495768e5",
+      "page_index": 0,
+      "page_sha256": "f266b6dbe2a0c2cbe04699685b6fe41c2544ccad061d73a4916db89c2f7dbd7c",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 44,
+          "maximum_name_cells": 55,
+          "boundary_output_hashes": [
+            "ece3bc02f34729dabfc03c51604e25dba0b93a79b6f9ab8ba25b8737e21844e3",
+            "fe407271e19e874c676129467a1f0856739864007e120ce7f437c1f764231686",
+            "8c8c84cf4c69d2c9804320b638ca3376302b0acea4e6e0b088b75444da3347df",
+            "9c7d52761ef2ead3b7f1e750acd2c70edfc8f92278492299f9bd41466ee33c90"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 44,
+          "maximum_name_cells": 55,
+          "boundary_output_hashes": [
+            "3a3559ebeb5b6de0fdf38294917b1b24359b218dc3e49086c7ed80e0f986c5ca",
+            "68fe8e8ef253d390d296c0fd9b94260fa2bab1e3aef0d682b8dbf2d758912a19",
+            "a33759d0ec476e8ff8803cf46398cec8a6fb42ecf234670f8233706cd26a660f",
+            "eb28f2d49cfbb4c2ee47268411883cb44aa47cc82949940eeebb17ffb9ab61b1"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 44,
+          "maximum_name_cells": 55,
+          "boundary_output_hashes": [
+            "a8edb886595b606d5df8fd107f273556085508bd2fad8c7eeb9d6cb2aaa5ec28",
+            "98ace3e712e7a4fa5f0eb3870769f05488475fbf9265750c661329d04db2e74c",
+            "4c259a5d29ffc1094f9931484ebd76c848129a3ffe53a0d9e27b00113886a891",
+            "ba8f7739187507b8da46370d466f30f31246cdf2af012682bcc0032357104cf6"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 43,
+          "maximum_name_cells": 56,
+          "boundary_output_hashes": [
+            "376d284085e831b884e14ed0335f4c4c59d7f0b5d7e0bc9d079f9449528d8397",
+            "3204dde3308922fed0b44a419f3ef80e5ed2f993d3db3d025dec55c3f0367740",
+            "53fe1382a908df2718876bab4adc9dbfb501be9fe8df9a5dac5cd4632b21bd83",
+            "ccfc0e6ff10c91d3bfeafe6b6e6c30fd677932c7c310a116b5ad4dfd83bd1441"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 44,
+          "maximum_name_cells": 55,
+          "boundary_output_hashes": [
+            "dbaeafa71d47ff1e4be0d3827728c35d92ee006c2ae5f2310bf825b758536f4f",
+            "8a05962cdd4360bb9b6338ed018813c51111545a1c484946638518168e3ce2d5",
+            "5402a2b27579a901cf2b9765aa3333a09e1db2edb4419f4d810446f042d19e67",
+            "25ad1dba7087d3bd21726b8eead11fe092ab7867552f3ea5cf6ff93dde386640"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 44,
+          "maximum_name_cells": 55,
+          "boundary_output_hashes": [
+            "695be407f2739efc62d9a542f2621a8bff602c7ac248f105f2096d7f2e0b0483",
+            "5b2ae6b49559ca06f1a22a220bc586564660efb22f312ed2d79bbcc36d8123af",
+            "a2c87290d11fed55dd305b3463c78395ea12804633bae4b647d67ba34f869dab",
+            "2cb534c13c84e03b031d154bf39b6422814b2615b37e2ade142c556a7118328d"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.1df5f13c",
+      "segment": "body",
+      "offset": 502657372,
+      "record_sha256": "b11db1ba1af3184bbbf62d6e35f0ae7ccfe500e422639e1be0fc42ac91fca010",
+      "page_index": 0,
+      "page_sha256": "3fc273458b07f0d083aec329edbcb5ae2374d73a19a3b29c92e8e4207d0826fb",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 52,
+          "maximum_name_cells": 47,
+          "boundary_output_hashes": [
+            "5699d5bad4d8c1ea3efe2126741da797d69db59c803c09a150e3d80d11712fd7",
+            "3b3078d48e8feb3b65b7ba2880e80da284190cc0824e335a23d5a3548a2692d6",
+            "9fb4a49fe6013abeb22e378b7ef575faca91944f66eda3e738969cdf77d65c84",
+            "8d6a5cd2eb018534df5ce78620df40dfc27f770725b541889b70955d45f9ac0e"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 52,
+          "maximum_name_cells": 47,
+          "boundary_output_hashes": [
+            "c548d1f6885a25c801fe366d922e7127fd172a0cf3118981ea87c70a72069ef3",
+            "788e6aa24f77f1ba8f6bfc876090ffeb848620f8798f48025c4c7ae3aceabcb8",
+            "bcbef55acbddb40b3313e01bd7ab3ce45feb50aa60ca5782ece4a9470a4ec938",
+            "322ef285b0781e5c2bb8c7122afde1c08bc051d72288d1946ab09114dbe0c8cb"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 52,
+          "maximum_name_cells": 47,
+          "boundary_output_hashes": [
+            "95a7b94be5410edd1e229a82bc91a5f836ae058341976327b9c5afdf60a1d83b",
+            "1fbcc0e001b3a6c60cdc29dbd0b58f1e7e34bafe3b20182082bd0903047f6560",
+            "3f8be23732374be9ffe4ca89d242baeaa10927ed683fbd765330e1898137fd0e",
+            "c4bc679fcd23faad6a001c1e3dd55ec7509b036a75b9df6c99551796496a2288"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 51,
+          "maximum_name_cells": 48,
+          "boundary_output_hashes": [
+            "e6aef10ab18bd49dd2af6d6955755049c20f9587cc9c0693af026896f5ec363f",
+            "fbec811f844360ff1f2b0e457af37a95ab957e4c8408db35594fb53fb1164ae9",
+            "cbb22eb4343d21651cf9da87a1947188f40687c7393493a42922086da91f5e37",
+            "bc5d7fcafd35ff779661165cf711a585352732012ff67236964b990e7a99c4b2"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 52,
+          "maximum_name_cells": 47,
+          "boundary_output_hashes": [
+            "097a413410e46f7914a7e7a4e7b67ae8ee62b12429c849ebb4b9b6c5be3a7cbd",
+            "57b6f9e7c24a0c9b5116d864221152da104b233d1b42bf2ab6f03036aebdfca2",
+            "261f01cd8ebe7810351a746e2c234ee00b00d73b49d03eee4abd0ed3bc713418",
+            "cb54c696c19a6ea370fc154f0f5c0f4d75a00d8e11bb2b5efb6073f353306449"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 52,
+          "maximum_name_cells": 47,
+          "boundary_output_hashes": [
+            "382a494775369a6bdb4cb70eb505ef25499adb6f7b62c2dc10642692b6f45ed7",
+            "6b879d413c3fd201d6c89ab6a0004acefc016f759b9b857344a485888a0988bf",
+            "3419364c33ed4b5dbb64701391053823226ce74d57f7ebf6a238947b10be33e4",
+            "0456411450033ca2bf10d172089a319bf1dac1c619337e13495fcf0bfbdca8fa"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    },
+    {
+      "id": "map.msg.1df6435c",
+      "segment": "body",
+      "offset": 502678396,
+      "record_sha256": "afda315f503f939a7b5b0a0c361475068be496ecd48faa99a4c25a8bab3d16ea",
+      "page_index": 0,
+      "page_sha256": "f9d2e0c7ae432d6770984fbf40e267d32b12b1a35847f73b58fba570a1c7deb6",
+      "cases": [
+        {
+          "item_id": 331,
+          "content_cells_without_name": 58,
+          "maximum_name_cells": 41,
+          "boundary_output_hashes": [
+            "6bdb15df6a5df3b897aa067b8a4cf5b30406674f0863045d96c71ca46f4601f6",
+            "f1a2261154e6bfea7c9c981fb0c77accb7c50125b99765068c7a8b1cbcb7f156",
+            "7f06a5dd266ade93630ba3f573ad1007c2d03cdcbf8f2b5514df12ef4f11da6e",
+            "0d9d1989f424d20e982ceb46608226c15bcbbe51348f5e80f81a27c8eb7e72f8"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 372,
+          "content_cells_without_name": 58,
+          "maximum_name_cells": 41,
+          "boundary_output_hashes": [
+            "bda7780c1415241ddc7faaec95c1ddb6030b68e4c01e4a75766f34db95b462f8",
+            "4bc47b5e2365ed4cf7a3ba983d3473a4df3902f59b457f3d40b4bd30f97b0666",
+            "c7685e8c62bcd2d2dd724e5f858686d125e2f95f665362412d7755fc439c327a",
+            "aaadd17f68f075e24e29a23ab300267bd316c367b974bf9ba29e0be0fbde5463"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 459,
+          "content_cells_without_name": 58,
+          "maximum_name_cells": 41,
+          "boundary_output_hashes": [
+            "377ac8f1023688b18b92cd5587f3ee0fd9a0baefd6b8d9214986ef16bca5229e",
+            "9651e77dbed1ad5fc923538f0c7c4615a9b77b95da1f277af994f9bf94c75f29",
+            "3d0c09859b7f19e87a3e06b8f4c2afcb5de24570c004be5ef62cd86eff79e1d4",
+            "4d8b87c38c66320918c2f8ed7cb37451526e94fe9be353c46933d1eb1f895b35"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 838,
+          "content_cells_without_name": 57,
+          "maximum_name_cells": 42,
+          "boundary_output_hashes": [
+            "e83a266a8eeea11b8937fcd23a76f9cc48b568143016ca865ebf729e1d7b3804",
+            "a23af597c7a85ae30d7d99821c5bb05bb9859f08b80f9eafc5631b6151fe6c62",
+            "d0607db31b6b88367c702c762330ffa75d3ff1db5a7d20e9a09b07eb45fa4f49",
+            "fcbe93065a6441c1446444d493d92b2c9ae21582255806ca666e90ef281f3bc3"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 841,
+          "content_cells_without_name": 58,
+          "maximum_name_cells": 41,
+          "boundary_output_hashes": [
+            "f34fa4c5c191b843ac3eaa9085d07488020407c7d5d7dcf986747e6f4b9146a8",
+            "46dab13584a4f97b9d1658120dd83ae365a090f801b9ed740bda9ccd34ca4cca",
+            "510c257173109644f667093a6acfd131171b74cfc730e737b1cb8c0f57c0430f",
+            "1584c74127e8c16a7aec4c267ffcda4a43a750fe5171bdc17bb3192761467285"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        },
+        {
+          "item_id": 849,
+          "content_cells_without_name": 58,
+          "maximum_name_cells": 41,
+          "boundary_output_hashes": [
+            "467f0b6d62fec3508338f12bee7ac1ca199ad9265a22f7d6b23c19c51627c2e6",
+            "ad8cc950e59e2d84b6e5b247199ba20f6929b346c535b867d7decd9fff44f9aa",
+            "63b03e5864b1ff952223a649d030f7c529716b72b6463762463dc4fc79360d2a",
+            "b44591a1eaa2669e7bea1ae0ae949c7d84740b01e106d34f97e804a55764189f"
+          ],
+          "over_budget_refused": true,
+          "canonical_name_length_proven": false
+        }
+      ]
+    }
+  ],
+  "old_mode_remains_separate": true,
+  "new_names_without_accents_applied": [
+    "item.name.0460"
+  ],
+  "other_accent_omissions_authorized": false,
+  "remaining_reviewed_names": 15,
+  "six_larger_names_still_not_applied": [
+    331,
+    372,
+    459,
+    838,
+    841,
+    849
+  ],
+  "validation": {
+    "tests": {
+      "tests": 103,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "seconds": 113.36,
+      "patterns": [
+        "test_item_accent_fallback.py",
+        "test_item_name_stream.py",
+        "test_item_name_buffers.py",
+        "test_item_name_capacity.py",
+        "test_interface_name_ceiling.py",
+        "test_human_item_revision.py",
+        "test_interface_battle_tables.py",
+        "test_pending_name_resolution.py",
+        "test_dialogue_context_finish.py",
+        "test_iso_retention.py",
+        "test_verify_test_iso.py"
+      ]
+    },
+    "iso_preflight": {
+      "path": "work/interface-v052/MetalSaga-ptbr-interface-v052.iso",
+      "size": 1704427520,
+      "sha256": "26a23155f5fe8e7aa994871c7100e35929f90b59ecd96e1d9a542b8d7079b449",
+      "verified": true
+    },
+    "retention": {
+      "limit": 5,
+      "current_work_images": 5,
+      "deletions_required": 0
+    },
+    "pcsx2_executed": false,
+    "new_isos": 1,
+    "shutdown_scheduled": false,
+    "onedrive_copied": false
+  }
+}
