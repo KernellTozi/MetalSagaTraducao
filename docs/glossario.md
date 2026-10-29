@@ -484,3 +484,12 @@ isso não renomeia o item Cerveja nem autoriza substituição global de nomes.
 O visitante da catedral aceita o convite: fechado! expressa adesão, enquanto
 convencido! isolado dava outro sentido. Os bordões, sons e citações dos 13
 registros restantes permanecem como na v048, sem abreviação ou corte automático.
+
+## Funções do grupo BB — MAP v043
+
+BB Trooper → Soldado BB; numerados → Soldado BB #1..#6;
+Ex-BB Trooper → Ex-soldado BB. Aplicação restrita aos 32 rótulos vinculados
+em `translations/rotulos-bb-v006.json`, sem substituir termos nos corpos.
+BB e os números identificadores permanecem. A classe Soldier e Hunter
+continuam em inglês. Não reutilizar esta decisão para nomes de inimigos,
+personagens ou outras facções por semelhança.

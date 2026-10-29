@@ -126,12 +126,17 @@ def validate_label(source,target,capacity):
     return raw
 
 def overlay(data,document,patches,report,config,elf,preserved=()):
+    return apply_fixed_slots(data,document,patches,report,config,elf,preserved,
+                             policy=POLICY,validator=validate_label)
+
+
+def apply_fixed_slots(data,document,patches,report,config,elf,preserved=(),*,policy,validator):
     """Merge exact fixed-slot label deltas into already validated body patches.
 
     Build a private copy first. Return no changes on any exception; the core
     compiler's protected labels, extraction fingerprints and old policies stay.
     """
-    if not report['valid'] or config.get('policy')!=POLICY:raise ValueError('Invalid speaker overlay policy/base')
+    if not report['valid'] or config.get('policy')!=policy:raise ValueError('Invalid speaker overlay policy/base')
     if config.get('instruction_windows')!=bindings(elf):raise ValueError('Speaker instruction binding mismatch')
     doc=copy.deepcopy(document);rep=copy.deepcopy(report);out={p['id']:dict(p) for p in patches}
     by_id={e['id']:e for e in doc['entries']};results={r['id']:r for r in rep['results']}
@@ -147,7 +152,7 @@ def overlay(data,document,patches,report,config,elf,preserved=()):
         label=labels[0];original=bytes(data[entry['offset']:entry['offset']+entry['size']]);src=bytes.fromhex(label['source_hex'])
         if (sha(original),sha(src))!=(item['record_sha256'],item['label_sha256']) or sha(original)!=entry['record_sha256']:raise ValueError('Speaker source binding mismatch')
         if src.decode('ascii')!=label['source'] or label['translation']!=label['source']:raise ValueError('Speaker source text mismatch')
-        raw=validate_label(label['source'],item['translation'],label['capacity']);evidence=probe(elf,raw)
+        raw=validator(label['source'],item['translation'],label['capacity']);evidence=probe(elf,raw)
         prior=out.get(key);base=prior['after'] if prior else original
         if prior and prior['before']!=original:raise ValueError('Speaker base patch source differs')
         start=label['offset']-entry['offset'];end=start+label['capacity']+1
@@ -183,9 +188,9 @@ def overlay(data,document,patches,report,config,elf,preserved=()):
     if not rows:raise ValueError('Empty speaker overlay')
     compiled=sorted(out.values(),key=lambda p:p['offset'])
     if any(a['offset']+len(a['before'])>b['offset'] for a,b in zip(compiled,compiled[1:])):raise ValueError('Speaker patches overlap')
-    doc['speaker_label_policy']=POLICY
+    doc['speaker_label_policy']=policy
     rep.update(accepted=len(compiled),unchanged=len(doc['entries'])-len(compiled),requires_ptbr_fonts=True)
-    rep['speaker_labels']={'policy':POLICY,'accepted':len(rows),'distinct_roles':len(roles),'new_changed_records':new_records,
+    rep['speaker_labels']={'policy':policy,'accepted':len(rows),'distinct_roles':len(roles),'new_changed_records':new_records,
         'instruction_windows':bindings(elf),'results':rows,'legacy_labels_remain_protected':True,
         'pcsx2_executed':False,'runtime_visual_status':'pending_user_verification',
         'probe_limits':'Original scalar strlen, allocation arguments, setter forwarding, unaligned scalar strcpy and nonzero-label getter executed in synthetic memory; allocator stubbed; cleanup, aligned SIMD, drawing and portraits not executed'}

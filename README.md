@@ -16,13 +16,13 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v049**, sobre MAP v042 e fontes/layout v005. Última rodada: **36 rótulos completos de falantes**, com revisão contextual das respectivas falas e sem ampliar registros. Dos 49 rótulos antes bloqueados por espaço, 13 permanecem intactos. Hunter, Soldier, nomes próprios, MAIN/SUB/SE, pôsteres Wanted e títulos decorativos permanecem protegidos. O painel japonês do minigame de cães continua original por decisão do usuário.
+**Interface v050**, sobre MAP v043 e fontes/layout v005. Última rodada: **32 rótulos de função do grupo BB**, incluindo os numerados e o ex-integrante. Soldado BB traduz Trooper; a classe Soldier continua preservada. Os corpos e opções permanecem iguais à v049. Hunter, nomes próprios, MAIN/SUB/SE, pôsteres Wanted e títulos decorativos continuam protegidos. O painel japonês do minigame de cães permanece original por decisão do usuário.
 
-São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.032 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Os 36 rótulos novos pertencem a registros já traduzidos; não são 36 diálogos inéditos. Há **948 referências de falantes traduzidas**, 13 bloqueadas no recorte atual e outras 566 fora dessa seleção. Mantêm-se **541 nomes de itens aplicados**, 16 revisões editoriais bloqueadas e a revisão em partida normal. Os oito adiamentos nativos foram resolvidos; os 19 restantes são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
+São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.043 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Os novos rótulos não são novos corpos traduzidos. Há **980 referências de falantes traduzidas**, 13 bloqueadas no recorte de espaço e outras 534 fora dessa seleção, incluindo nomes e termos preservados. Mantêm-se **541 nomes de itens aplicados**, 16 revisões editoriais bloqueadas e a revisão em partida normal. Os oito adiamentos nativos foram resolvidos; os 19 restantes são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v049/MetalSaga-ptbr-interface-v049.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; 190 testes automatizados e a comparação integral de ISOs não substituem execução no PCSX2.
+ISO: `work/interface-v050/MetalSaga-ptbr-interface-v050.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. O usuário realiza os testes visuais durante a partida; 199 testes automatizados e a comparação integral de ISOs não substituem execução no PCSX2.
 
-- [Lote atual e limites](docs/dialogos-v042.md)
+- [Lote atual e limites](docs/dialogos-v043.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Glossário](docs/glossario.md)
 - [Extrator local](docs/extrator-dialogos.md)

@@ -470,3 +470,30 @@ São 516 nomes/500 rótulos e 2.121 campos; 541 descrições/889 IDs, MAP v030, 
 Passaram 26 testes distintos. Delta integral v024 restaurada→v025: 217 bytes em 17 intervalos; demais bytes/diretório idênticos. Durante a comparação, a ISO histórica v024 divergiu de seu hash por um byte (ISO 0x1231E377, 1E em vez de 3E). A correção virtual reproduziu o hash histórico; v021/v022/v023/v025 conferiram. A v024 foi inteiramente reconstruída dos originais pelo construtor existente, reproduzindo 7d54ad51ab381a03d3fa8a4a3e42c1ac92914919d8854806876e1019b1213a3e; sem edição de bytes in-place. Relatório anterior preservado em work/interface-v024-invalida/relatorio.json e evidências no relatório v025. Causa indeterminada; não atribuir a hardware ou ao jogo sem evidência. Reconstruir a histórica não a torna versão de desenvolvimento mais recente: iniciador e receita atual são v025.
 
 Iniciador usa `work/interface-v025/MetalSaga-ptbr-interface-v025.iso`; visual pendente, sem execução PCSX2. Cinco ISOs e alpha protegida. OneDrive/desligamento só por novo pedido. Continuar buscando lotes de pelo menos 15 nomes quando houver traduções naturais seguras, sem forçar contagens, limites ou nomes protegidos.
+
+
+## Consolidação atual — interface v050 / MAP v043
+
+A versão atual é v050, com 32 rótulos BB em slots originais, 980 referências
+traduzidas e 6.043 registros MAP alterados. Corpos/opções continuam em 5.991;
+esta rodada não acrescenta corpos novos. Fontes/layout v005 e gráficos iguais
+à v049. Soldado BB traduz somente o termo Trooper; Soldier permanece original.
+Ver docs/dialogos-v043.md e reports/interface-v050-delta.json.
+
+A comparação integral confirmou 288 bytes em 32 registros, todos previstos.
+Os 13 rótulos sem espaço continuam intactos. As outras 534 referências não
+são todas pendências obrigatórias: incluem nomes, marcadores e funções ainda
+não liberadas. Antes de ampliar, revisar contexto e política de preservação.
+
+As 16 revisões humanas de itens ainda exigem prova dos consumidores para
+ampliar o teto, e um caso exige glifo Í. Não trocar preferências humanas por
+abreviações sem autorização. A revisão em partida normal continua sendo a
+melhor forma de revelar problemas de contexto e telas fora do catálogo.
+Não exigir que o usuário alcance cenas específicas para progredir nas demais
+frentes. Não repetir os mesmos testes de zeros para os 13 rótulos; uma solução
+nova de armazenamento precisa de hipótese e evidência próprias.
+
+Preservar as três raízes especiais sem prova de texto como desconhecidas,
+sem contá-las como diálogos faltantes. O painel japonês de cães está excluído,
+assim como novos redesenhos de Wanted e títulos decorativos. Sem OneDrive ou
+desligamento automático; manter cinco ISOs e a alpha independente.

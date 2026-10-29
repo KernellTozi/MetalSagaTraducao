@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v042.json",
+  "name": "regiao-inicial-v043",
+  "status": "Trinta e dois rótulos de função BB traduzidos nos slots originais; demais recursos preservados.",
+  "translations": {},
+  "reviewed_changes": [],
+  "speaker_faction_review": {
+    "recipe": "translations/rotulos-bb-v006.json",
+    "sha256": "5974b75452a1b2adf09615d0e9e60155a00fe247bd56655c79aecbe0f2072399"
+  }
+}

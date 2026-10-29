@@ -1312,3 +1312,42 @@ decisão. Evidências em `reports/interface-v049.json`. Nenhum PCSX2 executado;
 conferir nomes/quebras/avanço em partida normal sem exigir cada cena agora.
 Oito avisos nativos, N$3 e painel japonês dos cães mantêm as decisões anteriores.
 Cinco ISOs e alpha por hash conferidos. Sem OneDrive ou desligamento nesta rodada.
+
+
+## Funções BB — MAP v043 / interface v050 (28/10/2026)
+
+Atual: translations/regiao-inicial-v043.json e translations/interface-v050.json,
+fontes/layout v005. Iniciar-Teste.cmd, Preparar-Interface.cmd e o auditor usam
+v050/MAP v043. ISO: work/interface-v050/MetalSaga-ptbr-interface-v050.iso.
+Manual docs/dialogos-v043.md, relatório reports/interface-v050.json.
+
+32 referências BB Trooper foram traduzidas como Soldado BB, incluindo #1..#6
+e Ex-soldado BB. A identificação BB, números e prefixo de ex-integrante ficam.
+Soldier e Hunter continuam preservados; não estender esta decisão a nomes de
+inimigos/personagens ou outras facções. Contexto das 32 falas revisado, com
+vínculos por hash e sem substituição global. Corpos, opções e controles iguais
+à v049, incluindo silêncios e gritos. São 31 msgn e uma smnn.
+
+Política opt-in map-reviewed-bb-occupation-original-slots-v006, módulo
+tools/speaker_faction_review.py, manifesto translations/rotulos-bb-v006.json.
+Pais v042/v049 vinculados por hash. Reutiliza o transporte fixo por
+apply_fixed_slots com validador próprio; a política histórica e sua ROLES
+continuam recusando os novos termos. Somente os slots originais de rótulos,
+sem crescer ou realocar registros/SSD. Executa os recortes originais de busca,
+comprimento, cópia e getter com RAM sintética; não é teste do renderizador,
+VM integral, SIMD ou PCSX2. Fingerprints/label.editable=false preservados.
+Relatórios das camadas anteriores não foram substituídos.
+
+199 testes passaram, nove novos. Delta integral v049→v050: 288 bytes em 32
+registros, demais bytes/ELF/fontes/gráficos/diretório iguais. São 980 referências
+de falantes traduzidas e 6.043 registros alterados; 11 antes intactos passam
+a mudar somente pelo rótulo. Corpos/opções continuam 5.991: não contar esses
+rótulos como novos diálogos traduzidos. Interface mantém 3.848 unidades e
+541 nomes de itens. Nomes: 65 usos preservados, zero sem decisão.
+
+Os 13 casos sem espaço continuam intactos; outras 534 referências incluem
+nomes, marcadores e funções não liberadas, sem dívida automática confirmada.
+As 16 revisões de itens bloqueadas, N$3, o painel japonês excluído e as três
+raízes especiais desconhecidas mantêm as decisões anteriores. Cinco ISOs e
+alpha por hash conferidos. Teste visual pendente para partida normal do usuário;
+nenhum PCSX2 executado, sem OneDrive ou desligamento solicitado nesta rodada.

@@ -1,0 +1,332 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v050.json",
+  "recipe_sha256": "716dd64f0d9b32c495ce8f2643af80c94d5ac348d294306c1ae6ac218b98fd7e",
+  "dialogue_recipe": "translations/regiao-inicial-v043.json",
+  "dialogue_recipe_sha256": "7f15cbce7b2dc073aedc1ee13090866096e3897d1a6c9ffde453acba52175e38",
+  "iso": {
+    "path": "work/interface-v050/MetalSaga-ptbr-interface-v050.iso",
+    "size": 1704427520,
+    "sha256": "cc5932c63c5497b69c9e14396aef1ce917584e7c3359e8bcdeae3e5fec22c080",
+    "verified": true
+  },
+  "new_speaker_labels": 32,
+  "reviewed_existing_bodies": 0,
+  "new_records_changed_only_by_labels": 11,
+  "remaining_selected_speaker_labels": 13,
+  "translated_speaker_references": 980,
+  "other_speaker_references_outside_space_selection": 534,
+  "map_changed_records": 6043,
+  "map_body_options_changed": 5991,
+  "interface_units_accumulated": 3848,
+  "item_names_applied": 541,
+  "context_review": {
+    "schema": 1,
+    "parent_map": "translations/regiao-inicial-v042.json",
+    "context_decision": "Generic occupational caption, with BB identification, ex-membership and numbered individuals preserved; no change to the Soldier class or faction name.",
+    "reviewed_label_records": 32,
+    "context_records": [
+      {
+        "id": "map.msg.0be1be30",
+        "record_sha256": "e9efe07caab8c4fb3576cafbcd62f55722db0d45fda538e8efcb3637af9c9a4b",
+        "segments_source_sha256": [
+          "17922b0ecee391d1f98eb42a1e43431d8f954109a214200b1291abf1ec7dcaea"
+        ]
+      },
+      {
+        "id": "map.msgn.038df66c",
+        "record_sha256": "18ffa5cfb849ae83f67a4c7889f4407b04724efe79d15899ec95d1a760f58bec",
+        "segments_source_sha256": [
+          "be1cfa2663e5e53539a35e70f8bbc9406982f6802614001ba7b36a31d0d7844f",
+          "3829c555703a6a1f795b39751b4adcd833ee64042b157232aa1d230c1f302c0e"
+        ]
+      },
+      {
+        "id": "map.msgn.12835580",
+        "record_sha256": "ab4c01fde609284950529e0ada4111704de4b50934b9bc17d4e5c3cdce979d5e",
+        "segments_source_sha256": [
+          "013d4ffca06f0ad14857116b911a401682dc22888d14bc392a072242ae35fd7f",
+          "dd61425745477cf8b71a20483e7f4e3c9c44dbc1e3aa04c0bafa83b84cf378ca"
+        ]
+      },
+      {
+        "id": "map.msgn.1d0be710",
+        "record_sha256": "ab4c01fde609284950529e0ada4111704de4b50934b9bc17d4e5c3cdce979d5e",
+        "segments_source_sha256": [
+          "013d4ffca06f0ad14857116b911a401682dc22888d14bc392a072242ae35fd7f",
+          "dd61425745477cf8b71a20483e7f4e3c9c44dbc1e3aa04c0bafa83b84cf378ca"
+        ]
+      }
+    ],
+    "source_dialogues_public": false,
+    "automatic_global_replacement": false,
+    "pcsx2_executed": false
+  },
+  "tests": {
+    "modules_and_cases": [
+      "test_interface_gaps",
+      "test_pending_name_resolution",
+      "test_name_consistency",
+      "test_approved_name_batch",
+      "test_human_item_revision",
+      "test_interface_generic_names",
+      "test_interface_name_ceiling",
+      "test_interface_battle_tables",
+      "test_item_name_audit",
+      "test_paint_menu_graphics",
+      "test_loading_graphics",
+      "test_verify_test_iso",
+      "test_iso_retention",
+      "test_alpha_archive",
+      "test_translation_policy",
+      "test_translation_pilot.PilotTests.test_changed_control_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_overflow_prevents_entire_batch",
+      "test_translation_pilot.PilotTests.test_protected_name_change_blocks_entire_batch",
+      "test_translation_pilot.PilotTests.test_recipe_font_binding_and_historical_fallback",
+      "test_interface_remainder_graphics",
+      "test_native_eight",
+      "test_native_dialogue_review",
+      "test_speaker_body_review",
+      "test_speaker_labels",
+      "test_speaker_label_space",
+      "test_speaker_label_bytes",
+      "test_speaker_label_review",
+      "test_speaker_faction_review"
+    ],
+    "tests_run": 199,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 665.97
+  },
+  "delta": {
+    "old_recipe": "translations/interface-v049.json",
+    "new_recipe": "translations/interface-v050.json",
+    "source_iso_sha256": "a22abc7d29ac8f41453cd0fbbbc03d55f9fe7282208c0943e7d22ed4e239941d",
+    "output_iso_sha256": "cc5932c63c5497b69c9e14396aef1ce917584e7c3359e8bcdeae3e5fec22c080",
+    "iso_size": 1704427520,
+    "changed_bytes": 288,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true,
+    "changed_patches": [
+      {
+        "id": "map.msgn.038df66c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 113411692,
+        "size": 204
+      },
+      {
+        "id": "map.msgn.0be1b744",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253118276,
+        "size": 72
+      },
+      {
+        "id": "map.msgn.0be1b78c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253118348,
+        "size": 136
+      },
+      {
+        "id": "map.msgn.0be1b814",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253118484,
+        "size": 124
+      },
+      {
+        "id": "map.msgn.0be1b8c8",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253118664,
+        "size": 196
+      },
+      {
+        "id": "map.msgn.0be1bd64",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253119844,
+        "size": 116
+      },
+      {
+        "id": "map.msgn.0be1be7c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253120124,
+        "size": 144
+      },
+      {
+        "id": "map.msgn.0be1bff4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253120500,
+        "size": 84
+      },
+      {
+        "id": "map.msgn.0be1c068",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253120616,
+        "size": 108
+      },
+      {
+        "id": "map.msgn.0be1c0f4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253120756,
+        "size": 120
+      },
+      {
+        "id": "map.msgn.0be1c16c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253120876,
+        "size": 112
+      },
+      {
+        "id": "map.msgn.0be1c23c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253121084,
+        "size": 160
+      },
+      {
+        "id": "map.msgn.0be1c348",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253121352,
+        "size": 56
+      },
+      {
+        "id": "map.msgn.0be1c380",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253121408,
+        "size": 56
+      },
+      {
+        "id": "map.msgn.0be1c3b8",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253121464,
+        "size": 56
+      },
+      {
+        "id": "map.msgn.0be1c448",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253121608,
+        "size": 120
+      },
+      {
+        "id": "map.smnn.0be1c7bc",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253122492,
+        "size": 116
+      },
+      {
+        "id": "map.msgn.0be1ca68",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253123176,
+        "size": 84
+      },
+      {
+        "id": "map.msgn.0be1ccfc",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253123836,
+        "size": 60
+      },
+      {
+        "id": "map.msgn.0be1cd38",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253123896,
+        "size": 64
+      },
+      {
+        "id": "map.msgn.0be1cd78",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253123960,
+        "size": 60
+      },
+      {
+        "id": "map.msgn.0be1cdb4",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253124020,
+        "size": 60
+      },
+      {
+        "id": "map.msgn.0be1cdf0",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253124080,
+        "size": 56
+      },
+      {
+        "id": "map.msgn.0be1ce28",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 253124136,
+        "size": 60
+      },
+      {
+        "id": "map.msgn.1283553c",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 364373308,
+        "size": 52
+      },
+      {
+        "id": "map.msgn.12835580",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 364373376,
+        "size": 144
+      },
+      {
+        "id": "map.msgn.12835620",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 364373536,
+        "size": 216
+      },
+      {
+        "id": "map.msgn.12835708",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 364373768,
+        "size": 228
+      },
+      {
+        "id": "map.msgn.1d0be6cc",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 541095628,
+        "size": 52
+      },
+      {
+        "id": "map.msgn.1d0be710",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 541095696,
+        "size": 144
+      },
+      {
+        "id": "map.msgn.1d0be7b0",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 541095856,
+        "size": 216
+      },
+      {
+        "id": "map.msgn.1d0be898",
+        "resource": "DATA/MAP/MAP.MCT",
+        "iso_offset": 541096088,
+        "size": 228
+      }
+    ],
+    "pcsx2_executed": false
+  },
+  "name_audit": {
+    "fields_scanned": 10698,
+    "preserved_matches": 65,
+    "unresolved_matches": []
+  },
+  "backlog": "reports/dialogos-pendencias-v043.json",
+  "runtime_visual_status": "pending_user_verification",
+  "originals_modified": false,
+  "elf_font_or_graphic_edits": false,
+  "retention": {
+    "root": "C:\\Projetos\\MetalSagaTraducao\\work",
+    "limit": 5,
+    "reserve": 0,
+    "before_count": 5,
+    "delete": [],
+    "remaining_count": 5,
+    "original_excluded": true,
+    "pinned_paths": []
+  },
+  "alpha_sha256_verified": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+  "onedrive_copied": false,
+  "shutdown_requested_this_round": false,
+  "pcsx2_executed": false
+}

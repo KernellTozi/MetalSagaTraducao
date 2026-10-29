@@ -128,6 +128,9 @@ def validate_narrative(draft):
     if draft!=expected:raise ValueError('Non-authorized speaker body narrative change')
 
 def validate_interface(recipe):
+    if 'speaker_faction_review' in recipe:
+        from speaker_faction_review import validate_interface as validate_faction
+        return validate_faction(recipe)
     binding=recipe['speaker_body_review'];load(binding)
     expected=json.loads((ROOT/PARENT_UI).read_text(encoding='utf-8'))
     expected.update(speaker_body_review=binding,base_dialogue_draft='translations/regiao-inicial-v042.json',
