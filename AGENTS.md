@@ -1499,3 +1499,15 @@ contagens. Testes e sondas não equivalem a execução visual no PCSX2.
 reconferidos por leitura, hash e ausência de transações. Nenhum teste PCSX2,
 nova tradução, fonte ou ISO nesta rodada. Ver relatório v003 para os dez IDs
 e razões; os demais nove nomes largos e Í continuam separados.
+
+## Planejamento de nomes v004
+
+Plano atualizado em docs/plano-conclusao.md, metadados em
+reports/plano-nomes-v004.json. As dez páginas pendentes da sonda v003 têm
+uma só combinação: N0 literal com I indireto (cinco I$1, três I$0, duas I$10).
+Não confundir N0 com N$0 nem contar essas páginas como diálogos não traduzidos.
+Próxima execução: sonda de N0+I com nome/item independentes, depois entradas
+virtuais de 0x473C8 e política por seis IDs/cinco ações. Nove casos de largura
+e Í separados. Não ampliar teto global nem abreviar escolhas aprovadas.
+Planejamento somente, sem novo teste de reinserção, tradução ou ISO. Os 69
+testes citados continuam sendo os executados na rodada v003.

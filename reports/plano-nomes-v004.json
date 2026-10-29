@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "scope": "item-name-next-steps-plan-v004",
+  "baseline": "interface-v051/MAP-v044",
+  "source_report": "reports/fluxo-nomes-v003.json",
+  "source_report_sha256": "3e7f7f55b1cea206209dd28a856ecf891dbe3950a9fb90d6958f78cf9a1cb548",
+  "catalogue_recipe_bindings_verified": true,
+  "pending_pages": [
+    {
+      "id": "map.msg.0a138544",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8",
+      "record_sha256": "01436e01d16b4bacf616c050d5767ff608978f16c3178931211630827ca81bf0",
+      "tokens_in_order": [
+        "%I$1",
+        "%N0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0a1387a4",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "45ad33c95ae64de0139bff67a9e02ac0e67623f126b55f9ecde4e5ce08c90d60",
+      "record_sha256": "79423f355eb70ef7c77d5e1aafdcef747fd7410e3140e7eed36fe1db0cf21458",
+      "tokens_in_order": [
+        "%I$1",
+        "%N0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0b8fc504",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8",
+      "record_sha256": "01436e01d16b4bacf616c050d5767ff608978f16c3178931211630827ca81bf0",
+      "tokens_in_order": [
+        "%I$1",
+        "%N0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0b8fc764",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "45ad33c95ae64de0139bff67a9e02ac0e67623f126b55f9ecde4e5ce08c90d60",
+      "record_sha256": "79423f355eb70ef7c77d5e1aafdcef747fd7410e3140e7eed36fe1db0cf21458",
+      "tokens_in_order": [
+        "%I$1",
+        "%N0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0b8fe774",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8",
+      "record_sha256": "01436e01d16b4bacf616c050d5767ff608978f16c3178931211630827ca81bf0",
+      "tokens_in_order": [
+        "%I$1",
+        "%N0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0be0f99c",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "3c68b5131517260de16b2619424327a3075d6764c5ecda57823c88ff9f571be3",
+      "record_sha256": "05f3b67247157bbee3106da7940d30a46dec8cb8c4f9d9cc9680349d21fecf23",
+      "tokens_in_order": [
+        "%N0",
+        "%I$0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0e76dabc",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "a88cd0a1c50e7a34aa53335689ae815285a338bc87ab8cd99b6f0ad51171f95f",
+      "record_sha256": "2e8f82be4c545486fd8cec9e4cd4f877ae3ab8772cc7f74c9d066e2f7e49e886",
+      "tokens_in_order": [
+        "%I$10",
+        "%N0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.0e76dd0c",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "f266b6dbe2a0c2cbe04699685b6fe41c2544ccad061d73a4916db89c2f7dbd7c",
+      "record_sha256": "7cdbf27fade380ce73f97b5c129fda7e61ea71c5f72373c4b18f31cd495768e5",
+      "tokens_in_order": [
+        "%N0",
+        "%I$10"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.1df5f13c",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "3fc273458b07f0d083aec329edbcb5ae2374d73a19a3b29c92e8e4207d0826fb",
+      "record_sha256": "b11db1ba1af3184bbbf62d6e35f0ae7ccfe500e422639e1be0fc42ac91fca010",
+      "tokens_in_order": [
+        "%N0",
+        "%I$0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    },
+    {
+      "id": "map.msg.1df6435c",
+      "segment": "body",
+      "page_index": 0,
+      "page_sha256": "f9d2e0c7ae432d6770984fbf40e267d32b12b1a35847f73b58fba570a1c7deb6",
+      "record_sha256": "afda315f503f939a7b5b0a0c361475068be496ecd48faa99a4c25a8bab3d16ea",
+      "tokens_in_order": [
+        "%N0",
+        "%I$0"
+      ],
+      "classification": "literal-name-zero-plus-indirect-item",
+      "canonical_name_identity_proven": false
+    }
+  ],
+  "groups": {
+    "%I$0": 3,
+    "%I$1": 5,
+    "%I$10": 2
+  },
+  "literal_N0_is_distinct_from_indirect_N_dollar_0": true,
+  "planned_steps": [
+    {
+      "order": 1,
+      "goal": "Extend read-only emitter probe to exact literal N0 plus reviewed I selectors",
+      "acceptance": "Execute original N handler, pointer lookup, full emitter and final cell; vary name length/accents and independent item contexts; preserve controls. State modeled table limits."
+    },
+    {
+      "order": 2,
+      "goal": "Resolve virtual inputs at expansion call 0x473c8",
+      "acceptance": "Trace the concrete returned pointer sources or establish source-bound lengths. Do not infer all inputs from the fixed map literal."
+    },
+    {
+      "order": 3,
+      "goal": "Prepare exact opt-in six-item and five-action policy",
+      "acceptance": "Physical slots, all applicable paths, independent action limits, exact approved wording and alias consistency proved. Existing legacy ceiling stays unchanged."
+    },
+    {
+      "order": 4,
+      "goal": "Investigate remaining nine width cases and the unsupported uppercase I-acute",
+      "acceptance": "Separate real-box and layout evidence from font support. Never abbreviate or remove accents merely to force acceptance."
+    }
+  ],
+  "item_ids_for_first_release_if_proven": [
+    331,
+    372,
+    459,
+    838,
+    841,
+    849
+  ],
+  "related_action_ids": [
+    "battle.action.0124",
+    "battle.action.0884",
+    "battle.action.0887",
+    "battle.action.0882",
+    "battle.action.0895"
+  ],
+  "new_tests_run": 0,
+  "previous_test_count": 69,
+  "new_translations_applied": 0,
+  "new_isos": 0,
+  "production_changes": false,
+  "editing_authorized_by_this_plan": false,
+  "shutdown_scheduled": false,
+  "limits": "Planning classification against fingerprinted local compiled pages. It does not execute the N0+I emitter path or prove the runtime name string length."
+}

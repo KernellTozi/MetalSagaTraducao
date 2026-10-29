@@ -669,3 +669,59 @@ e resolver os retornos virtuais da chamada 0x473C8. Só depois compilar polític
 opt-in com os cinco rótulos de ação vinculados. Nomes largos e Í separados.
 Nenhuma nova ISO necessária para esta investigação. Desligamento revogado
 pelo usuário nesta retomada; nenhum agendamento sem novo pedido.
+
+## Plano operacional v004 — liberar nomes por evidência
+
+Planejamento sobre interface v051/MAP v044, sem novas traduções ou ISO.
+Triagem reproduzida a partir das páginas compiladas da v003, com conferência
+dos hashes das receitas, registros e páginas. Metadados próprios em
+`reports/plano-nomes-v004.json`; nenhum texto original novo no Git.
+
+As dez páginas pendentes do diagnóstico são uma única família: **`%N0`
+literal junto de referência indireta a item**. São cinco com `%I$1`, três
+com `%I$0` e duas com `%I$10`. A ordem dos tokens varia e deve ser preservada.
+Isso é uma limitação atual da sonda, não dez diálogos sem tradução nem dez
+novos formatos desconhecidos. `%N0` consulta o índice literal zero; **não é
+`%N$0`**, que lê a variável zero. Não inferir personagem canônico desse índice.
+
+| Ordem | Trabalho | Critério para avançar |
+|---|---|---|
+| 1 | Ampliar a sonda para a combinação exata N0 + I | Executar handler N, leitor e emissor originais até a célula final, incluindo nome e item completos, sem substituir tokens por texto antes da execução. |
+| 2 | Rastrear as entradas virtuais da chamada 0x473C8 | Vincular as fontes efetivas dos ponteiros retornados ou demonstrar limites de origem; o literal de mapa-múndi não cobre os outros ramos. |
+| 3 | Preparar política explícita para seis nomes e cinco ações | Provas suficientes para os caminhos aplicáveis, campos físicos e limites independentes das ações; demais nomes/atributos/políticas intactos. |
+| 4 | Tratar nove nomes mais largos e um com Í | Separar prova de largura de caixas e suporte ao glifo, sem abreviar escolhas humanas ou remover acentos. |
+| 5 | Consolidar e entregar para partida normal | Construção atômica, hashes e comparação integral; uma ISO consolidada depois de alterações efetivas. |
+
+### Escopo exato do primeiro lote possível
+
+Somente após as provas restantes, aplicar as escolhas humanas dos IDs 331,
+372, 459, 838, 841 e 849. As ações vinculadas são 0124, 0884, 0887, 0882 e
+0895. Os itens 372 e 459 não têm ações correspondentes neste levantamento.
+Não elevar o teto global de 16 bytes para fazer o lote passar. A liberação
+deve identificar cada ID e seus hashes, preservando o compilador histórico.
+
+### Matriz de testes a acrescentar
+
+- Nomes sintéticos curtos, acentuados, vazios e próximos do limite demonstrado
+  da própria fonte; não adotar arbitrariamente um tamanho máximo de personagem.
+- Variar o nome N0 e o item independentemente; cobrir ambas as ordens de tokens.
+  O cenário anterior com todos os seletores I iguais não cobre combinações reais.
+- Recusar ponteiros ausentes, terminadores fora dos limites fornecidos, fonte
+  divergente e destino insuficiente; conferir NUL/célula final e sentinelas.
+- Comparar os 25 casos já suportados e os seis nomes exatos, sem alterações de
+  controles ou de atributos; manter os limites independentes dos rótulos de ação.
+
+Se não for possível comprovar um caminho, registrar o ponteiro/ramo e a prova
+que falta. Não repetir indefinidamente o censo de endereços nem promover uma
+simulação com nome curto a garantia de segurança universal. Uma correção no
+motor só será considerada se houver necessidade demonstrada e regressão própria.
+
+Após essa frente, os 13 rótulos sem espaço e as três raízes especiais mantêm
+filas separadas. Não procurar novamente diálogos em recursos sem indício novo
+nem reabrir as exclusões gráficas decididas pelo usuário. Testes visuais ficam
+para a partida normal, sem exigir navegação imediata a cada ocorrência.
+
+Este planejamento não executou novos testes de reinserção: os **69 testes**
+são o resultado anterior da v003. As verificações novas foram a identidade
+das fontes de planejamento e a classificação das dez páginas, sem alterar
+arquivos do jogo. Sem OneDrive, emulador, novas fontes ou desligamento.
