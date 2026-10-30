@@ -1,4 +1,9 @@
-# Pendências atuais — v055, com auditoria histórica v054
+# Pendências atuais — v056, com auditoria histórica v054
+
+A v056 resolve as capturas de Lojas/meta financeira/aviso de saída: Qual loja?,
+Atual, Meta e 113 prefixos Mapa do mundo; revê o desenho de Tempo de jogo.
+Ver docs/interface-v056.md. Novos rótulos de navegação não aumentam a contagem
+de diálogos. Confirmar apresentação e transição de saída no teste do usuário.
 
 A v055 corrige 14 rótulos de batalha em dois atlas comprimidos que não eram
 os de FBS_DATA. O log e a conferência da ISO confirmaram que o usuário usou

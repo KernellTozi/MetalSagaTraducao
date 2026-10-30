@@ -16,15 +16,16 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v055**, sobre MAP v044 e fontes/layout v005. Corrige **14 rótulos da batalha real**, em dois atlas comprimidos de MMBATTLE.BIN. FBS_DATA era outro conjunto de gráficos; o usuário havia aberto corretamente a v054. MAIN/SUB/SE, ícones, retratos, fontes e todas as traduções anteriores foram preservados.
+**Interface v056**, sobre MAP v044 e fontes/layout v005. Corrige as lacunas observadas no Satcom: **Qual loja?**, **Atual**, **Meta**, **Mapa do mundo** em 113 saídas e um novo desenho nativo de **Tempo de jogo**. Os botões de batalha da v055 permanecem preservados.
 
-São **3.862 unidades heterogêneas de interface**, **6.044 registros MAP alterados**, 5.991 com corpo/opções modificados, 991 referências de falantes traduzidas e **541 nomes de itens aplicados**. Permanecem 13 rótulos bloqueados no recorte de espaço, 523 outras referências que incluem nomes/termos preservados e 19 adiamentos de nomes de tanques. Essas contagens não representam porcentagem de todo o jogo.
+São **3.978 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados, 991 referências de falantes traduzidas e **541 nomes de itens aplicados**. Os novos rótulos de navegação não são contados como diálogos. Permanecem 13 rótulos bloqueados no recorte de espaço, 523 outras referências que incluem nomes/termos preservados e 19 adiamentos de nomes de tanques. Essas contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v055/MetalSaga-ptbr-interface-v055.iso`. Abra **Iniciar-Teste.cmd**. Integridade e delta integral verificados; a aparência dos novos gráficos depende do teste visual do usuário. O perfil isolado histórico tem cartões de memória desativados.
+ISO: `work/interface-v056/MetalSaga-ptbr-interface-v056.iso`. Abra **Iniciar-Teste.cmd**. Integridade e comparação integral verificadas; confirmar apresentação e transição de saída na partida do usuário. O perfil isolado histórico tem cartões de memória desativados.
 
-Foi preparada uma revisão de **175 armas**, com anexo de 15 munições, em `work/revisao-armas-v001/ARMAS-PARA-REVISAR.md`. As novas sugestões aguardam revisão humana e não foram aplicadas. Para regenerar: `python tools/weapon_name_review.py`; revisões locais diferentes são preservadas. O pacote local v054 é histórico e não contém os gráficos v055.
+A revisão de **175 armas**, com anexo de 15 munições, permanece em `work/revisao-armas-v001/ARMAS-PARA-REVISAR.md`. As propostas aguardam revisão humana e não foram aplicadas. O gerador `python tools/weapon_name_review.py` mantém a base v055 dessa revisão, cujos nomes não mudaram na v056, e preserva decisões editadas. O pacote local v054 é histórico e não contém as correções v055/v056.
 
-- [Lote atual e limites](docs/interface-v055.md)
+- [Lote atual e limites](docs/interface-v056.md)
+- [Batalha corrigida na v055](docs/interface-v055.md)
 - [Revisão das armas](docs/revisao-armas-v001.md)
 - [Pendências atuais e conferência em partida](docs/pendencias-atuais.md)
 - [Patch local: gerar, aplicar e verificar](docs/patch-local-v001.md)

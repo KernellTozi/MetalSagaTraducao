@@ -1,10 +1,10 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-python tools\audit_dialogue_backlog.py --build-dir work\interface-v055 %*
+python tools\audit_dialogue_backlog.py --build-dir work\interface-v056 %*
 set "audit_result=%errorlevel%"
 if not "%audit_result%"=="0" goto audit_end
-python tools\item_name_capacity.py --current-recipe translations\interface-v055.json
+python tools\item_name_capacity.py --current-recipe translations\interface-v056.json
 set "audit_result=%errorlevel%"
 :audit_end
 echo.

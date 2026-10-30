@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'satcom_gap_release' in draft:
+        from satcom_observed_gaps import compile_interface
+        return compile_interface(data,draft)
     if 'battle_atlas_release' in draft:
         from battle_menu_atlas import compile_interface
         return compile_interface(data,draft)

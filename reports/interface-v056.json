@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v056.json",
+  "recipe_sha256": "3f33137c5d38bfbc72fe45e2fa86b5011db5e46fbb4415e45e9c40683fea2ed7",
+  "parent": "translations/interface-v055.json",
+  "map_recipe": "translations/regiao-inicial-v044.json",
+  "policy": "satcom-observed-gaps-and-fixed-exit-labels-v001",
+  "manifest": "translations/satcom-lacunas-v001.json",
+  "counts": {
+    "map_dialogue_changed": 6044,
+    "interface_units": 3978,
+    "item_names": 541,
+    "new_elf_literals": 3,
+    "new_navigation_labels": 113,
+    "revised_graphic_labels": 1
+  },
+  "iso": {
+    "path": "work/interface-v056/MetalSaga-ptbr-interface-v056.iso",
+    "size": 1704427520,
+    "sha256": "16a3369fd5170260623b1a029db9f43b85b98d9bb0747edc093882673fc271c1",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v056-delta.json",
+  "changed_bytes": 2320,
+  "tests": {
+    "distinct_tests": 47,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "new_tests": 9,
+    "regression_tests": 38,
+    "patterns": [
+      "test_satcom_observed_gaps.py",
+      "test_battle_menu_atlas.py",
+      "test_weapon_name_review.py",
+      "test_interface_graphics.py",
+      "test_interface_native_typeface.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py"
+    ]
+  },
+  "literal_forwarding_proof": {
+    "shop_pointer": 4373368,
+    "current_pointer": 4370880,
+    "current_model_value": 200,
+    "target_pointer": 4371016,
+    "target_model_value": 500,
+    "exit_getters": [
+      {
+        "type": 6,
+        "vtable": 4210384,
+        "getter_file_offset": 517568,
+        "payload_pointer_returned": true
+      },
+      {
+        "type": 7,
+        "vtable": 4210296,
+        "getter_file_offset": 518536,
+        "payload_pointer_returned": true
+      }
+    ],
+    "scope": "Original scalar forwarding/getter windows in bounded synthetic RAM; no formatter, complete loader, scene transition or GPU execution."
+  },
+  "header": {
+    "translation": "Tempo de jogo",
+    "height": 15,
+    "width": 101,
+    "scaling": false,
+    "font_source": "Native Satcom raster alphabet; p from Shops and T from Title",
+    "mask_sha256": "96f9bd159e6320525bed4850d5c77afb492b6c23b195c08cfabba4b2bfe7d59b",
+    "rect": [
+      104,
+      232,
+      248,
+      248
+    ]
+  },
+  "exit_type_counts": {
+    "6": 8,
+    "7": 105
+  },
+  "opaque_nonzero_tail_windows_preserved": 86,
+  "weapon_suggestions_applied": false,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "iso_retention_count": 5,
+  "originals_saves_bios_unchanged": true
+}
