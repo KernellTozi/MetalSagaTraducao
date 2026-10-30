@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v057.json",
+  "recipe_sha256": "8be836a8ab630e54cd3633b80ccedc8ac8ca63b9d01078f976b8cb0faaef63e2",
+  "parent": "translations/interface-v056.json",
+  "approved_wording": "Mundo aberto",
+  "revised_map_exit_labels": 113,
+  "revised_elf_fallback": 1,
+  "new_translated_records": 0,
+  "counts": {
+    "map_dialogue_changed": 6044,
+    "interface_units": 3978,
+    "item_names": 541
+  },
+  "iso": {
+    "path": "work/interface-v057/MetalSaga-ptbr-interface-v057.iso",
+    "size": 1704427520,
+    "sha256": "2944c2aae3516e1eeadb2c2e3a101017be96b9386e0b5c811232ffaa5a994ae8",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v057-delta.json",
+  "changed_bytes": 1368,
+  "specific_tests_passed": 4,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "iso_retention_count": 5,
+  "weapon_suggestions_applied": false
+}

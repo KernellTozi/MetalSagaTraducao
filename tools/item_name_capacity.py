@@ -201,6 +201,13 @@ def apply_authorized_fallback(result,current_recipe):
     recipe_path=Path(current_recipe).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
     recipe=json.loads(recipe_path.read_bytes());released=[]
+    if 'exit_wording_revision' in recipe:
+        from exit_wording_revision import validate_interface as validate_wording,PARENT as WORDING_PARENT
+        validate_wording(recipe)
+        result=apply_authorized_fallback(result,ROOT/WORDING_PARENT)
+        result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix()
+        result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
+        return result
     if 'satcom_gap_release' in recipe:
         from satcom_observed_gaps import validate_interface as validate_gaps,PARENT as GAPS_PARENT
         validate_gaps(recipe)

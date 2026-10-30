@@ -1,5 +1,28 @@
 # Interface v056 — lacunas observadas no Satcom e nas saídas
 
+## Revisão atual v057 — Mundo aberto
+
+Por solicitação do usuário, os 113 avisos e o fallback ELF passaram de
+Mapa do mundo para **Mundo aberto**. Nenhum outro texto foi revisado.
+O perfil `user-approved-mundo-aberto-fixed-prefix-v001`, em
+`tools/exit_wording_revision.py`, compila o pai v056 intacto e revê somente
+esses 114 patches. São 12 bytes ASCII; o byte +12 vira NUL dentro do antigo
+prefixo de 13 bytes. O NUL original +13 e todos os metadados posteriores
+permanecem inalterados. Os relatos abaixo descrevem a entrega histórica v056.
+
+O iniciador atual abre `work/interface-v057/MetalSaga-ptbr-interface-v057.iso`.
+SHA-256: `2944c2aae3516e1eeadb2c2e3a101017be96b9386e0b5c811232ffaa5a994ae8`.
+Contagens de tradução, fontes e desenhos permanecem iguais à v056.
+Quatro testes específicos passaram; comparação integral em
+reports/interface-v057-delta.json e resumo em reports/interface-v057.json.
+PCSX2 não foi executado nesta revisão.
+
+```powershell
+python tools/build_translation_pilot.py --draft translations/regiao-inicial-v044.json --interface-draft translations/interface-v057.json --compact-output --build-iso --output work/interface-v057-reproducao
+```
+
+## Entrega histórica v056
+
 Correções motivadas pelas quatro capturas enviadas pelo usuário:
 
 | Elemento observado | Resultado |

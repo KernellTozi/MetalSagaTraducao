@@ -1,4 +1,7 @@
-# Pendências atuais — v056, com auditoria histórica v054
+# Pendências atuais — v057, com auditoria histórica v054
+
+A v057 muda somente os avisos de saída e o fallback ELF para **Mundo aberto**,
+conforme pedido do usuário. Demais traduções e pendências da v056 preservadas.
 
 A v056 resolve as capturas de Lojas/meta financeira/aviso de saída: Qual loja?,
 Atual, Meta e 113 prefixos Mapa do mundo; revê o desenho de Tempo de jogo.
