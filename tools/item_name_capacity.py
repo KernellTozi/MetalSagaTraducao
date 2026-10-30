@@ -201,6 +201,21 @@ def apply_authorized_fallback(result,current_recipe):
     recipe_path=Path(current_recipe).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
     recipe=json.loads(recipe_path.read_bytes());released=[]
+    if 'remaining_name_release' in recipe:
+        from remaining_item_name_release import validate_interface as validate_remaining,load as load_remaining
+        parent=validate_remaining(recipe);manifest,_=load_remaining(recipe['remaining_name_release'])
+        result=apply_authorized_fallback(result,ROOT/'translations/interface-v053.json')
+        from item_names import compile_names
+        compiled={p['id']:p for p in compile_names(SOURCE.read_bytes(),recipe['item_names'])[0]}
+        for row in manifest['items']:
+            if compiled[row['id']]['after'].split(b'\0')[0]!=encode(row['translation']):raise ValueError('Remaining name not compiled')
+        resolved={r['id'] for r in manifest['items']}
+        if resolved!={r['id'] for r in result['items']}:raise ValueError('Remaining ledger IDs differ')
+        result['items']=[]
+        for key in ('blocked','codec_supported','within_all_observed_width_profiles','above_observed_width_in_some_profile','unique_related_battle_actions'):result['counts'][key]=0
+        result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix();result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
+        result['resolved_remaining_name_revisions']=[{'id':r['id'],'translation':r['translation'],'encoded_bytes':len(encode(r['translation'])),'compiled':True} for r in manifest['items']]
+        return result
     if 'large_name_release' in recipe:
         from large_item_name_release import validate_interface as validate_release,parent_names as release_parent,load
         parent=validate_release(recipe);validate_interface(parent)

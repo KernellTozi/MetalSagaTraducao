@@ -97,7 +97,7 @@ def investigate(image=None):
 
 def message_budgets(document,item_bytes=18,name_bytes=31):
     from gfi import encode
-    if (item_bytes,name_bytes)!=(18,31):raise ValueError('Only the proposed six-name envelope and valid N0 field')
+    if item_bytes not in (18,19) or name_bytes!=31:raise ValueError('Only bound 18/19-byte item envelopes and valid N0 field')
     pattern=re.compile(r'%I(?:\$[0-9]+|[0-9]+)|%N0')
     fields=[];pages=[]
     for entry in document['entries']:

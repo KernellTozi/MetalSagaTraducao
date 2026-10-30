@@ -1,0 +1,86 @@
+{
+  "old_recipe": "translations/interface-v053.json",
+  "new_recipe": "translations/interface-v054.json",
+  "source_iso_sha256": "a0b4ca47ed077d5379d4e268d08d1b506b05909c03f6324220960efc980b1f4f",
+  "output_iso_sha256": "ebeea1bebd13cf0576c99b9eaf656036d3e23cfe7168aa37b95432e3b448fe5e",
+  "iso_size": 1704427520,
+  "changed_bytes": 176,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "item.name.0354",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290084640,
+      "size": 19
+    },
+    {
+      "id": "item.name.0373",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290087072,
+      "size": 19
+    },
+    {
+      "id": "item.name.0431",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290094496,
+      "size": 19
+    },
+    {
+      "id": "item.name.0647",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290122144,
+      "size": 18
+    },
+    {
+      "id": "item.name.0711",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290130336,
+      "size": 19
+    },
+    {
+      "id": "item.name.0798",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290141472,
+      "size": 18
+    },
+    {
+      "id": "item.name.0826",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290145056,
+      "size": 18
+    },
+    {
+      "id": "item.name.0836",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146336,
+      "size": 20
+    },
+    {
+      "id": "item.name.0840",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290146848,
+      "size": 20
+    },
+    {
+      "id": "battle.action.0106",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290286808,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0881",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290463508,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0886",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290464648,
+      "size": 32
+    }
+  ],
+  "pcsx2_executed": false
+}

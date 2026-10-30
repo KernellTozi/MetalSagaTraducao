@@ -10,19 +10,19 @@ Tradução dos recursos do jogo original para execução no PCSX2, independente 
 | Preparar-Interface.cmd | Valida a receita atual, sem criar outra ISO |
 | Extrair-Dialogos.cmd | Extrai o catálogo local de diálogos |
 | Reinserir-Dialogos.cmd | Reinserção e simulação de lotes |
-| Auditar-Traducao.cmd | Atualiza as pendências de diálogos e o diagnóstico dos 16 nomes bloqueados |
+| Auditar-Traducao.cmd | Atualiza as pendências de diálogos e confere a situação das 16 revisões de nomes |
 
 Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas continuam em tools/, com procedimentos históricos em docs/ e no Git.
 
 ## Versão atual
 
-**Interface v053**, sobre MAP v044 e fontes/layout v005. Última rodada: **seis nomes aprovados em sua forma completa e cinco entradas de ações correspondentes**, após a prova dos caminhos conhecidos. Mantém Idolo de barro com a exceção autorizada somente para esse nome, as revisões anteriores, Hunter, Soldier, nomes próprios, MAIN/SUB/SE e as decisões gráficas.
+**Interface v054**, sobre MAP v044 e fontes/layout v005. Última rodada: **nove revisões aprovadas de nomes e três entradas de ações correspondentes**, após conferir geometria e orçamentos dos caminhos conhecidos. Mantém Idolo de barro com a exceção autorizada somente para esse nome, as revisões anteriores, Hunter, Soldier, nomes próprios, MAIN/SUB/SE e as decisões gráficas.
 
-São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.044 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Há **991 referências de falantes traduzidas**, 13 bloqueadas no recorte de espaço e outras 523 fora dessa seleção, incluindo nomes e termos preservados. Mantêm-se **541 nomes de itens aplicados**, com nove revisões editoriais ainda bloqueadas, e a revisão em partida normal. Os seis nomes são revisões de entradas existentes, não itens novos. Os 19 adiamentos técnicos restantes do catálogo são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
+São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.044 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Há **991 referências de falantes traduzidas**, 13 bloqueadas no recorte de espaço e outras 523 fora dessa seleção, incluindo nomes e termos preservados. Mantêm-se **541 nomes de itens aplicados**; as 16 revisões humanas antes bloqueadas foram tratadas nas v052–v054. A conferência visual em partida normal continua pendente. Os nove nomes desta rodada são revisões de entradas existentes, não itens novos. Os 19 adiamentos técnicos restantes do catálogo são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v053/MetalSaga-ptbr-interface-v053.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. Testes automatizados e comparação integral de ISOs não substituem a conferência visual durante a partida do usuário.
+ISO: `work/interface-v054/MetalSaga-ptbr-interface-v054.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. Testes automatizados e comparação integral de ISOs não substituem a conferência visual durante a partida do usuário.
 
-- [Lote atual e limites](docs/interface-v053.md)
+- [Lote atual e limites](docs/interface-v054.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Investigação dos nomes bloqueados](docs/capacidade-nomes-v001.md)
 - [Buffers e expansão dos nomes](docs/buffers-nomes-v002.md)

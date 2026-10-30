@@ -814,3 +814,19 @@ e listas de inventário/lojas/batalha ainda não estão fechados. Não são nove
 nomes liberados. Itens 836/840 também exigem prova para ações de 19 bytes
 e recálculo do orçamento de mensagens (v053 usa 18). Ferramenta local
 `tools/item_name_boxes.py`; imagem e receitas de produção permanecem v053.
+
+### Conclusão do lote de nomes — v054
+
+As nove revisões foram aplicadas junto das três ações relacionadas. A prova
+em tools/item_box_proof.py executa geometria original e coluna de preço:
+22×17=374 por linha de loja, início do preço +264 e orçamento de nome 242,
+com pelo menos 44 unidades de avanço livres. Setter/getter recuperam a origem
+lógica, e o orçamento de mensagens foi recalculado para 19 bytes: 92 células
+por página e 333 bytes por corpo. Casos/fontes/estados não cobertos continuam
+fora da alegação; teste visual pendente. Manual docs/interface-v054.md.
+
+159 testes passaram; ISO v054 comparada integralmente com v053: 176 bytes em
+12 patches, restante idêntico. As 16 revisões humanas antes bloqueadas estão
+tratadas, com 541 nomes mantidos. Não repetir esse levantamento sem evidência
+nova. Próximo: atualizar a auditoria consolidada das lacunas de interface/
+falantes e roteiro de partida, preservando nomes próprios e adiamentos N3.

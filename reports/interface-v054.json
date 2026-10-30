@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v054.json",
+  "recipe_sha256": "1f6913d1b8b1ecd4cc3db8f109b788eb1e812e4d95d6fbf7eebe875b714677fe",
+  "parent": "translations/interface-v053.json",
+  "map_recipe": "translations/regiao-inicial-v044.json",
+  "policy": "nine-approved-item-names-bounded-release-v002",
+  "proof": "reports/prova-nove-nomes-v002.json",
+  "revised_item_ids": [
+    354,
+    373,
+    431,
+    647,
+    711,
+    798,
+    826,
+    836,
+    840
+  ],
+  "revised_action_ids": [
+    106,
+    881,
+    886
+  ],
+  "counts": {
+    "map_changed": 6044,
+    "interface_units": 3848,
+    "item_names": 541,
+    "remaining_reviewed_item_names": 0
+  },
+  "iso": {
+    "path": "work/interface-v054/MetalSaga-ptbr-interface-v054.iso",
+    "size": 1704427520,
+    "sha256": "ebeea1bebd13cf0576c99b9eaf656036d3e23cfe7168aa37b95432e3b448fe5e",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v054-delta.json",
+  "tests": {
+    "tests": 159,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "seconds": 217.04,
+    "patterns": [
+      "test_scene_name_fields.py",
+      "test_large_item_name_release.py",
+      "test_name_formatter_bounds.py",
+      "test_name_source_paths.py",
+      "test_item_accent_fallback.py",
+      "test_item_name_stream.py",
+      "test_item_name_buffers.py",
+      "test_item_name_capacity.py",
+      "test_interface_name_ceiling.py",
+      "test_human_item_revision.py",
+      "test_interface_battle_tables.py",
+      "test_pending_name_resolution.py",
+      "test_dialogue_context_finish.py",
+      "test_iso_retention.py",
+      "test_verify_test_iso.py",
+      "test_item_name_boxes.py",
+      "test_item_box_proof.py",
+      "test_remaining_item_name_release.py"
+    ]
+  },
+  "launch_dry_run_verified": true,
+  "pcsx2_executed": false,
+  "visual_validation": "pending_user",
+  "originals_modified": false,
+  "work_iso_count": 5,
+  "onedrive_copy": false,
+  "shutdown_requested_by_user_for_this_round_only": true
+}

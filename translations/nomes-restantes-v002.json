@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "policy": "nine-approved-item-names-bounded-release-v002",
+  "parent_recipe": "translations/interface-v053.json",
+  "parent_sha256": "fbc97cecea306c1d5fad2bb5a694ced37288ff50ae2f7d194aee4d5de0865ace",
+  "proof": "reports/prova-nove-nomes-v002.json",
+  "proof_sha256": "3b6a289599f9a69c7fe2035d0abaa40cc72259cb486314205ed430b75bf0e34e",
+  "human_decisions_sha256": "54d6f16387410302f1d388c53b5b4ee208fa38f36717bf25c94664dd07fb137f",
+  "items": [
+    {
+      "id": "item.name.0354",
+      "index": 354,
+      "offset": 47392,
+      "source_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+      "record_sha256": "72bf19886e4b95f6f75fb9d05c873f751af8e249bd334670e7e43724d5bc0af9",
+      "source_alias_indices": [
+        354,
+        373
+      ],
+      "parent_translation": "Bomba a gasolina",
+      "translation": "Bomba de petróleo"
+    },
+    {
+      "id": "item.name.0373",
+      "index": 373,
+      "offset": 49824,
+      "source_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+      "record_sha256": "6804e9e42c7bffddb9b00ccdc118e8b3a1919aa4ea2ef98113a6d04520504cc9",
+      "source_alias_indices": [
+        354,
+        373
+      ],
+      "parent_translation": "Bomba a gasolina",
+      "translation": "Bomba de petróleo"
+    },
+    {
+      "id": "item.name.0431",
+      "index": 431,
+      "offset": 57248,
+      "source_sha256": "951fa5ae36a1b9a752952eb077bdb58898fa7b7494e762a04735880c9c84fc1b",
+      "record_sha256": "a23eb91199c5c03ed9f8dba7f8b1ecc5c93da8e7b6b08f8a5d1c9a8bb2741a6d",
+      "source_alias_indices": [
+        431
+      ],
+      "parent_translation": "Antipulgas",
+      "translation": "Coleira anti-pulga"
+    },
+    {
+      "id": "item.name.0647",
+      "index": 647,
+      "offset": 84896,
+      "source_sha256": "88f488b4b4ee01e85ccd35d745834c1c43f23e1f99042ae183e7036b08d61042",
+      "record_sha256": "2590f7f774d07ce643a4f9373d01d6c3af51c86cf987c9f78bc5009d0f401d0c",
+      "source_alias_indices": [
+        647
+      ],
+      "parent_translation": "Trapo de jaqueta",
+      "translation": "Retalho de casaco"
+    },
+    {
+      "id": "item.name.0711",
+      "index": 711,
+      "offset": 93088,
+      "source_sha256": "41d451e42347d65b387511be8a59d02890104cd7e391ecbff55c57a789b05027",
+      "record_sha256": "bfaac166694d864c246ba66fad1fc2355dd449240caa2458bb887c2e6b145b60",
+      "source_alias_indices": [
+        711
+      ],
+      "parent_translation": "Busca-metais",
+      "translation": "Detector avançado"
+    },
+    {
+      "id": "item.name.0798",
+      "index": 798,
+      "offset": 104224,
+      "source_sha256": "b2a024b1d286668b7cfb619da537bd89faddb56214050cbccdec3ef52ea0c3e6",
+      "record_sha256": "e2f6271f1c5f9e66cad1743f6892f7da770a9cc27d73eadba2f0b6725b2ac91a",
+      "source_alias_indices": [
+        798
+      ],
+      "parent_translation": "Corrente caudal",
+      "translation": "Corrente de cauda"
+    },
+    {
+      "id": "item.name.0826",
+      "index": 826,
+      "offset": 107808,
+      "source_sha256": "65e66553b3d50b99e78aa22f5adda8321e1168b152e99769be9f74d169e6fbe6",
+      "record_sha256": "42a91b250e4006fcc2d4c64a9a9ac1969061d7ae2a6291696da9039e3bc800b9",
+      "source_alias_indices": [
+        826
+      ],
+      "parent_translation": "Bandeira rubra",
+      "translation": "Bandeira vermelha"
+    },
+    {
+      "id": "item.name.0836",
+      "index": 836,
+      "offset": 109088,
+      "source_sha256": "ed83f10f7e4a902e98b9d6d4a76e0863d29382c1c16cf4b5d3f874b7df32ed07",
+      "record_sha256": "42785ef7f3650930bced06c57d58ef1fe6ecc1dd46babe18dde1e3a210001342",
+      "source_alias_indices": [
+        836
+      ],
+      "parent_translation": "Obus explosivo",
+      "translation": "Projétil explosivo"
+    },
+    {
+      "id": "item.name.0840",
+      "index": 840,
+      "offset": 109600,
+      "source_sha256": "38e42cb9743e15446986011449918e3598f4d1cbe4d3b83a49700df0bb508a33",
+      "record_sha256": "044e220a1909104bf75234e379fca7f814c8bd006ffd02ad03693e47b47b0b2c",
+      "source_alias_indices": [
+        840
+      ],
+      "parent_translation": "Obus elétrico",
+      "translation": "Projétil elétrico"
+    }
+  ],
+  "actions": [
+    {
+      "id": "battle.action.0106",
+      "offset": 249560,
+      "source_sha256": "eb281c01b34f3ca53da186ed4791ecc7e29c01201e50d2f327bd40ed336bb603",
+      "record_sha256": "be39057e4db88211cfb726c18bb13d54392ae057ba570b94d4d1e4dcbc5ce7c1",
+      "item_id": "item.name.0354",
+      "parent_translation": "Bomba a gasolina",
+      "translation": "Bomba de petróleo"
+    },
+    {
+      "id": "battle.action.0881",
+      "offset": 426260,
+      "source_sha256": "ed83f10f7e4a902e98b9d6d4a76e0863d29382c1c16cf4b5d3f874b7df32ed07",
+      "record_sha256": "584fc049dc4edbf731f6db46c7fc24a160c356189c3807666cf4b462f4327099",
+      "item_id": "item.name.0836",
+      "parent_translation": "Obus explosivo",
+      "translation": "Projétil explosivo"
+    },
+    {
+      "id": "battle.action.0886",
+      "offset": 427400,
+      "source_sha256": "38e42cb9743e15446986011449918e3598f4d1cbe4d3b83a49700df0bb508a33",
+      "record_sha256": "0ec702a7587302f47075c0fb2e1dea7c7c8a09b526c75e9798aa0349064ba3d5",
+      "item_id": "item.name.0840",
+      "parent_translation": "Obus elétrico",
+      "translation": "Projétil elétrico"
+    }
+  ]
+}

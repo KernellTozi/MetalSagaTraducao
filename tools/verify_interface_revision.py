@@ -64,6 +64,9 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     bytes beyond their own patch prefix; compare the union of the two prefixes.
     This does not resize the compiled patch or release other item fields.
     """
+    if 'remaining_name_release' in new_ui:
+        from remaining_item_name_release import normalize_transition
+        return normalize_transition(old_ui,new_ui,old_recipe,old_patches,new_patches)
     if 'large_name_release' in new_ui:
         from large_item_name_release import normalize_transition
         return normalize_transition(old_ui,new_ui,old_recipe,old_patches,new_patches)

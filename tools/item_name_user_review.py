@@ -59,6 +59,9 @@ def prepare_config(parent,manifest,rows,binding):
 
 
 def validate_config(config,rows):
+    if 'remaining_name_release' in config:
+        from remaining_item_name_release import parent_names
+        return validate_config(parent_names(config),rows)
     if 'large_name_release' in config:
         from large_item_name_release import parent_names
         return validate_config(parent_names(config),rows)
@@ -121,6 +124,9 @@ def battle_config(parent,m,rows,battle_rows,binding):
 
 
 def validate_battle_config(config,item_config,rows,battle_rows):
+    if 'remaining_name_release' in config:
+        from remaining_item_name_release import validate_battle
+        return validate_battle(config,item_config,rows,battle_rows)
     if 'large_name_release' in config:
         from large_item_name_release import validate_battle
         return validate_battle(config,item_config,rows,battle_rows)

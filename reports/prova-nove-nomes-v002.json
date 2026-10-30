@@ -1,0 +1,836 @@
+{
+  "schema": 1,
+  "scope": "nine-approved-item-names-ui-evidence-v002",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "parent_recipe": "translations/interface-v053.json",
+  "parent_sha256": "fbc97cecea306c1d5fad2bb5a694ced37288ff50ae2f7d194aee4d5de0865ace",
+  "windows": [
+    {
+      "offset": 1794664,
+      "size": 112,
+      "sha256": "0bf0a6a5fe81823fc148d57ab43f46c7b4b1a30e2c8d946f9fe5c5983f513e0f"
+    },
+    {
+      "offset": 1794416,
+      "size": 180,
+      "sha256": "94b2d84ce1ce6dc90e5c5d5ba8b26857b93de7bdce5afbcfd0f177b2c40b5d7b"
+    },
+    {
+      "offset": 276256,
+      "size": 20,
+      "sha256": "9e8d7cd3d4b190fde6202f22c809bdb3ef6e204692c13534ea28c0947be92fee"
+    },
+    {
+      "offset": 1795064,
+      "size": 80,
+      "sha256": "618c532eb320631081566970758d380957ec7f21199b6d7306810051f37a69c6"
+    },
+    {
+      "offset": 1794776,
+      "size": 184,
+      "sha256": "cb1aa8f6eba1d38510f598f809a84d1eb27fdce80f9abd37d13f84b0b0774727"
+    },
+    {
+      "offset": 325784,
+      "size": 56,
+      "sha256": "accada2aa41fb66821a3000fce87723e5a40f1c052141c8decd47986d29950c7"
+    },
+    {
+      "offset": 326296,
+      "size": 132,
+      "sha256": "332f78e14bcea5ae601b2eb79b52d47e1c7cd1055eff2b10b3d27e4411bf984d"
+    }
+  ],
+  "caller_instruction_words": [
+    {
+      "offset": 1782612,
+      "word": "0c0ad3e6"
+    },
+    {
+      "offset": 1782616,
+      "word": "2405ffff"
+    },
+    {
+      "offset": 1793980,
+      "word": "24639680"
+    },
+    {
+      "offset": 1793988,
+      "word": "ae030010"
+    },
+    {
+      "offset": 1795164,
+      "word": "2442ced0"
+    },
+    {
+      "offset": 1795184,
+      "word": "2442cf60"
+    },
+    {
+      "offset": 1149744,
+      "word": "24070140"
+    },
+    {
+      "offset": 1167504,
+      "word": "24070120"
+    },
+    {
+      "offset": 1921688,
+      "word": "24070016"
+    },
+    {
+      "offset": 1921696,
+      "word": "24080011"
+    },
+    {
+      "offset": 1168248,
+      "word": "0c0c9a8a"
+    },
+    {
+      "offset": 1168300,
+      "word": "0c083c66"
+    },
+    {
+      "offset": 1148936,
+      "word": "0c083c66"
+    }
+  ],
+  "panel_cases": [
+    {
+      "requested_and_returned": [
+        80,
+        144,
+        272,
+        208
+      ],
+      "style": 0,
+      "stored_rectangle": [
+        78,
+        142,
+        276,
+        212
+      ],
+      "setter_instructions": 97,
+      "getter_instructions": 46,
+      "refresh_callback_intercepted": "0x2b5968",
+      "final_draw_origin_route": [
+        262240,
+        262264,
+        262344,
+        262360
+      ],
+      "gpu_clipping_executed": false
+    },
+    {
+      "requested_and_returned": [
+        0,
+        0,
+        272,
+        208
+      ],
+      "style": 0,
+      "stored_rectangle": [
+        -2,
+        -2,
+        276,
+        212
+      ],
+      "setter_instructions": 97,
+      "getter_instructions": 46,
+      "refresh_callback_intercepted": "0x2b5968",
+      "final_draw_origin_route": [
+        262240,
+        262264,
+        262344,
+        262360
+      ],
+      "gpu_clipping_executed": false
+    },
+    {
+      "requested_and_returned": [
+        120,
+        80,
+        320,
+        240
+      ],
+      "style": 1,
+      "stored_rectangle": [
+        118,
+        62,
+        324,
+        260
+      ],
+      "setter_instructions": 97,
+      "getter_instructions": 46,
+      "refresh_callback_intercepted": "0x2b5968",
+      "final_draw_origin_route": [
+        262240,
+        262264,
+        262344,
+        262360
+      ],
+      "gpu_clipping_executed": false
+    },
+    {
+      "requested_and_returned": [
+        336,
+        144,
+        288,
+        68
+      ],
+      "style": 0,
+      "stored_rectangle": [
+        334,
+        142,
+        292,
+        72
+      ],
+      "setter_instructions": 97,
+      "getter_instructions": 46,
+      "refresh_callback_intercepted": "0x2b5968",
+      "final_draw_origin_route": [
+        262240,
+        262264,
+        262344,
+        262360
+      ],
+      "gpu_clipping_executed": false
+    }
+  ],
+  "shop": {
+    "font_size": 22,
+    "width_parameter": 17,
+    "logical_row_width": 374,
+    "name_origin": 22,
+    "eight_digit_price_origin": 264,
+    "name_budget_before_price": 242,
+    "width_instructions": 14,
+    "column_instructions": 31,
+    "price_value_used": 99999999,
+    "R5900_mult_destination_executed": true
+  },
+  "items": [
+    {
+      "id": "item.name.0354",
+      "current_translation": "Bomba a gasolina",
+      "approved_translation": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        187,
+        183,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0106"
+      ],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    },
+    {
+      "id": "item.name.0373",
+      "current_translation": "Bomba a gasolina",
+      "approved_translation": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        187,
+        183,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0106"
+      ],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    },
+    {
+      "id": "item.name.0431",
+      "current_translation": "Antipulgas",
+      "approved_translation": "Coleira anti-pulga",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        198,
+        183,
+        198
+      ],
+      "conditional_direct_panel_remaining": 36,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 44
+    },
+    {
+      "id": "item.name.0647",
+      "current_translation": "Trapo de jaqueta",
+      "approved_translation": "Retalho de casaco",
+      "encoded_bytes": 17,
+      "logical_advances_size22_modes012": [
+        187,
+        182,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    },
+    {
+      "id": "item.name.0711",
+      "current_translation": "Busca-metais",
+      "approved_translation": "Detector avançado",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        187,
+        184,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    },
+    {
+      "id": "item.name.0798",
+      "current_translation": "Corrente caudal",
+      "approved_translation": "Corrente de cauda",
+      "encoded_bytes": 17,
+      "logical_advances_size22_modes012": [
+        187,
+        184,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    },
+    {
+      "id": "item.name.0826",
+      "current_translation": "Bandeira rubra",
+      "approved_translation": "Bandeira vermelha",
+      "encoded_bytes": 17,
+      "logical_advances_size22_modes012": [
+        187,
+        180,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    },
+    {
+      "id": "item.name.0836",
+      "current_translation": "Obus explosivo",
+      "approved_translation": "Projétil explosivo",
+      "encoded_bytes": 19,
+      "logical_advances_size22_modes012": [
+        198,
+        181,
+        198
+      ],
+      "conditional_direct_panel_remaining": 36,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0881"
+      ],
+      "action_ceiling_exceeded": true,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 44
+    },
+    {
+      "id": "item.name.0840",
+      "current_translation": "Obus elétrico",
+      "approved_translation": "Projétil elétrico",
+      "encoded_bytes": 19,
+      "logical_advances_size22_modes012": [
+        187,
+        170,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0886"
+      ],
+      "action_ceiling_exceeded": true,
+      "editing_authorized": false,
+      "shop_name_margin_before_price": 55
+    }
+  ],
+  "budgets": {
+    "item_byte_bound": 19,
+    "N0_byte_bound_for_valid_field": 31,
+    "name_field_precondition": "NUL within the existing 32-byte actor-name field; malformed/overflowed saves are not made valid by this release.",
+    "fields": [
+      {
+        "id": "map.msgn.038dac0c",
+        "segment": "body",
+        "text_sha256": "f5d46ad12fd4ed3a8a42a9215583eac2f9981c7da429ee972370407990bce30f",
+        "maximum_expanded_bytes": 108
+      },
+      {
+        "id": "map.msg.057d3cc8",
+        "segment": "body",
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc",
+        "maximum_expanded_bytes": 49
+      },
+      {
+        "id": "map.msg.057d3d1c",
+        "segment": "body",
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb",
+        "maximum_expanded_bytes": 45
+      },
+      {
+        "id": "map.msg.0a138544",
+        "segment": "body",
+        "text_sha256": "45e485f3c715a4caaba3f3919ab27a1d6cf8b551089f3524b185d72a1edfd30c",
+        "maximum_expanded_bytes": 98
+      },
+      {
+        "id": "map.msg.0a1387a4",
+        "segment": "body",
+        "text_sha256": "23d85fbf28b14e420800218eb26e62a85bd32fee4475553a2e09026051b0050a",
+        "maximum_expanded_bytes": 111
+      },
+      {
+        "id": "map.msg.0b8fc504",
+        "segment": "body",
+        "text_sha256": "45e485f3c715a4caaba3f3919ab27a1d6cf8b551089f3524b185d72a1edfd30c",
+        "maximum_expanded_bytes": 98
+      },
+      {
+        "id": "map.msg.0b8fc764",
+        "segment": "body",
+        "text_sha256": "23d85fbf28b14e420800218eb26e62a85bd32fee4475553a2e09026051b0050a",
+        "maximum_expanded_bytes": 111
+      },
+      {
+        "id": "map.msg.0b8fe774",
+        "segment": "body",
+        "text_sha256": "45e485f3c715a4caaba3f3919ab27a1d6cf8b551089f3524b185d72a1edfd30c",
+        "maximum_expanded_bytes": 98
+      },
+      {
+        "id": "map.msg.0be0f99c",
+        "segment": "body",
+        "text_sha256": "3c68b5131517260de16b2619424327a3075d6764c5ecda57823c88ff9f571be3",
+        "maximum_expanded_bytes": 83
+      },
+      {
+        "id": "map.msg.0be1579c",
+        "segment": "body",
+        "text_sha256": "c8b497d5c9b8ba7b2c80b30e2190b0017f21a18c8a98f59058b935d4bf66b997",
+        "maximum_expanded_bytes": 99
+      },
+      {
+        "id": "map.smsg.0be1597c",
+        "segment": "body",
+        "text_sha256": "fcc2986e90ddf8797e3f05e9ad70875c139356b60b809c6ee446cf3cfa81e1a0",
+        "maximum_expanded_bytes": 150
+      },
+      {
+        "id": "map.msgn.0be22854",
+        "segment": "body",
+        "text_sha256": "29e1a6a1e7dd9b9197033173287fba872e5facdc9ac9852073403e7666191f23",
+        "maximum_expanded_bytes": 333
+      },
+      {
+        "id": "map.msgn.0be22bc4",
+        "segment": "body",
+        "text_sha256": "3c0fdbb0f8ab7d47a792cd6eaeb67360fe8c076d28ea6372e87837721faf686e",
+        "maximum_expanded_bytes": 123
+      },
+      {
+        "id": "map.msg.0db10ac8",
+        "segment": "body",
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc",
+        "maximum_expanded_bytes": 49
+      },
+      {
+        "id": "map.msg.0db10b1c",
+        "segment": "body",
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb",
+        "maximum_expanded_bytes": 45
+      },
+      {
+        "id": "map.msg.0e55131c",
+        "segment": "body",
+        "text_sha256": "1c593f354a7ca4ac60b34abbcd8c025fd5fdd60150ac684d151bdb11a6240dc0",
+        "maximum_expanded_bytes": 111
+      },
+      {
+        "id": "map.msg.0e5513c0",
+        "segment": "body",
+        "text_sha256": "5bba3df3286189a863eccf4ab13218c99fbff0610f39d4bd643287c6f6ee2f3a",
+        "maximum_expanded_bytes": 42
+      },
+      {
+        "id": "map.msg.0e76dabc",
+        "segment": "body",
+        "text_sha256": "a88cd0a1c50e7a34aa53335689ae815285a338bc87ab8cd99b6f0ad51171f95f",
+        "maximum_expanded_bytes": 83
+      },
+      {
+        "id": "map.msg.0e76dd0c",
+        "segment": "body",
+        "text_sha256": "f266b6dbe2a0c2cbe04699685b6fe41c2544ccad061d73a4916db89c2f7dbd7c",
+        "maximum_expanded_bytes": 80
+      },
+      {
+        "id": "map.msg.0e774dc8",
+        "segment": "body",
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc",
+        "maximum_expanded_bytes": 49
+      },
+      {
+        "id": "map.msg.0e774e1c",
+        "segment": "body",
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb",
+        "maximum_expanded_bytes": 45
+      },
+      {
+        "id": "map.msgn.1282da58",
+        "segment": "body",
+        "text_sha256": "03369685ced35a61f3eda6742ba9ef21e93783a63fe79a6ecf0332af7c29e817",
+        "maximum_expanded_bytes": 213
+      },
+      {
+        "id": "map.msg.14aa9e18",
+        "segment": "body",
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc",
+        "maximum_expanded_bytes": 49
+      },
+      {
+        "id": "map.msg.14aa9e6c",
+        "segment": "body",
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb",
+        "maximum_expanded_bytes": 45
+      },
+      {
+        "id": "map.msgn.14aab6b4",
+        "segment": "body",
+        "text_sha256": "e9d885dd02656b3261bcef64f34c9bb7e7720e8c93c59b9c157ab727b10dc506",
+        "maximum_expanded_bytes": 201
+      },
+      {
+        "id": "map.msg.17747f84",
+        "segment": "body",
+        "text_sha256": "d3a8d0296d406ae9b33155ff702cd13cfe1f35b1368a08432a88442507fba5ec",
+        "maximum_expanded_bytes": 67
+      },
+      {
+        "id": "map.msg.1774a448",
+        "segment": "body",
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc",
+        "maximum_expanded_bytes": 49
+      },
+      {
+        "id": "map.msg.1774a49c",
+        "segment": "body",
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb",
+        "maximum_expanded_bytes": 45
+      },
+      {
+        "id": "map.msg.1d0aa8ec",
+        "segment": "body",
+        "text_sha256": "0052cecfe48e3b718415078d7da2162bd75be4506c8bd62e189a165ea110ff9f",
+        "maximum_expanded_bytes": 22
+      },
+      {
+        "id": "map.msgn.1d0b9e94",
+        "segment": "body",
+        "text_sha256": "eda0c41d9aa2d76cd1c1229519eadeb6581f833ec7da125b194a5c09a896b038",
+        "maximum_expanded_bytes": 221
+      },
+      {
+        "id": "map.msg.1df5e3bc",
+        "segment": "body",
+        "text_sha256": "ae646b2948b4f873bc934bdffbd190628a7047842b2c5c5fbe30cdf6c61629df",
+        "maximum_expanded_bytes": 116
+      },
+      {
+        "id": "map.msg.1df5e4a4",
+        "segment": "body",
+        "text_sha256": "93fd9e2661bf37f8ab31341c6979a84235aa160a6f4e810e94683b2c7fdfbc6c",
+        "maximum_expanded_bytes": 89
+      },
+      {
+        "id": "map.msg.1df5f13c",
+        "segment": "body",
+        "text_sha256": "9465e5cc15744259a3a96a3ff259d029fcd8bcece37c757f308bbf812c81102d",
+        "maximum_expanded_bytes": 188
+      },
+      {
+        "id": "map.msg.1df6435c",
+        "segment": "body",
+        "text_sha256": "80d8f20f7e93014743d6dd3582cc4115ce6cdd2b31a4962aee0fcf8d3bfa5622",
+        "maximum_expanded_bytes": 132
+      }
+    ],
+    "pages": [
+      {
+        "id": "map.msgn.038dac0c",
+        "page": 0,
+        "maximum_content_cells": 30,
+        "text_sha256": "3d7c45d3d27752d728747c508d1028c3a8e45294c435e8a911b8d9d44c293a47"
+      },
+      {
+        "id": "map.msg.057d3cc8",
+        "page": 0,
+        "maximum_content_cells": 48,
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc"
+      },
+      {
+        "id": "map.msg.057d3d1c",
+        "page": 0,
+        "maximum_content_cells": 43,
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb"
+      },
+      {
+        "id": "map.msg.0a138544",
+        "page": 0,
+        "maximum_content_cells": 72,
+        "text_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8"
+      },
+      {
+        "id": "map.msg.0a1387a4",
+        "page": 0,
+        "maximum_content_cells": 84,
+        "text_sha256": "45ad33c95ae64de0139bff67a9e02ac0e67623f126b55f9ecde4e5ce08c90d60"
+      },
+      {
+        "id": "map.msg.0b8fc504",
+        "page": 0,
+        "maximum_content_cells": 72,
+        "text_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8"
+      },
+      {
+        "id": "map.msg.0b8fc764",
+        "page": 0,
+        "maximum_content_cells": 84,
+        "text_sha256": "45ad33c95ae64de0139bff67a9e02ac0e67623f126b55f9ecde4e5ce08c90d60"
+      },
+      {
+        "id": "map.msg.0b8fe774",
+        "page": 0,
+        "maximum_content_cells": 72,
+        "text_sha256": "b4d59ca1c14fb5b6d0cab32c828ab61a0d93184c2a9cb7ee1c9567f1f1f903f8"
+      },
+      {
+        "id": "map.msg.0be0f99c",
+        "page": 0,
+        "maximum_content_cells": 81,
+        "text_sha256": "3c68b5131517260de16b2619424327a3075d6764c5ecda57823c88ff9f571be3"
+      },
+      {
+        "id": "map.msg.0be1579c",
+        "page": 1,
+        "maximum_content_cells": 64,
+        "text_sha256": "f8de9e03e4e58dde926947d979bf41e916d711f3aa4c589d1339e216f41bdc44"
+      },
+      {
+        "id": "map.smsg.0be1597c",
+        "page": 1,
+        "maximum_content_cells": 48,
+        "text_sha256": "a8c6b65a887dd7af18f76b290867c166ac258a3a65903a47116eddf3a7bfa501"
+      },
+      {
+        "id": "map.msgn.0be22854",
+        "page": 5,
+        "maximum_content_cells": 64,
+        "text_sha256": "42137c04ea74993c98e8f8e6cfccf1af27fc8be7a409e9cfb0224d3dcad66fe7"
+      },
+      {
+        "id": "map.msgn.0be22bc4",
+        "page": 1,
+        "maximum_content_cells": 68,
+        "text_sha256": "4a87ebed8830342eb700b959c702750260d575895d8202e02bdeddf7b29d8853"
+      },
+      {
+        "id": "map.msg.0db10ac8",
+        "page": 0,
+        "maximum_content_cells": 48,
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc"
+      },
+      {
+        "id": "map.msg.0db10b1c",
+        "page": 0,
+        "maximum_content_cells": 43,
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb"
+      },
+      {
+        "id": "map.msg.0e55131c",
+        "page": 0,
+        "maximum_content_cells": 47,
+        "text_sha256": "87c9d4dc385522e2e4b6d7d4ba30adc77e9766772efff5ef377df4260771bff3"
+      },
+      {
+        "id": "map.msg.0e5513c0",
+        "page": 0,
+        "maximum_content_cells": 41,
+        "text_sha256": "5bba3df3286189a863eccf4ab13218c99fbff0610f39d4bd643287c6f6ee2f3a"
+      },
+      {
+        "id": "map.msg.0e76dabc",
+        "page": 0,
+        "maximum_content_cells": 83,
+        "text_sha256": "a88cd0a1c50e7a34aa53335689ae815285a338bc87ab8cd99b6f0ad51171f95f"
+      },
+      {
+        "id": "map.msg.0e76dd0c",
+        "page": 0,
+        "maximum_content_cells": 78,
+        "text_sha256": "f266b6dbe2a0c2cbe04699685b6fe41c2544ccad061d73a4916db89c2f7dbd7c"
+      },
+      {
+        "id": "map.msg.0e774dc8",
+        "page": 0,
+        "maximum_content_cells": 48,
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc"
+      },
+      {
+        "id": "map.msg.0e774e1c",
+        "page": 0,
+        "maximum_content_cells": 43,
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb"
+      },
+      {
+        "id": "map.msgn.1282da58",
+        "page": 0,
+        "maximum_content_cells": 61,
+        "text_sha256": "081d5e4f376305f53b2e9aa3e2c41553faf3909c56c605bbf26a5c367b22f485"
+      },
+      {
+        "id": "map.msgn.1282da58",
+        "page": 2,
+        "maximum_content_cells": 74,
+        "text_sha256": "b1a26988a6610729bf17cb9b2f1fa52bf57c5973c5ce949a12d51fd94e41dc4f"
+      },
+      {
+        "id": "map.msg.14aa9e18",
+        "page": 0,
+        "maximum_content_cells": 48,
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc"
+      },
+      {
+        "id": "map.msg.14aa9e6c",
+        "page": 0,
+        "maximum_content_cells": 43,
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb"
+      },
+      {
+        "id": "map.msgn.14aab6b4",
+        "page": 1,
+        "maximum_content_cells": 79,
+        "text_sha256": "fad20d74e9a0a8f6b42f0c3ca0ac8f9845c68dcd6a6c559fb87621764f7870ae"
+      },
+      {
+        "id": "map.msg.17747f84",
+        "page": 1,
+        "maximum_content_cells": 63,
+        "text_sha256": "a0deff5f2648f020dad19cccc185b745b68a700fbf3d13ef3a11eb8a1ea41166"
+      },
+      {
+        "id": "map.msg.1774a448",
+        "page": 0,
+        "maximum_content_cells": 48,
+        "text_sha256": "7dd5e82f6c768bc18c440f5f0f46e57ac1327f3625d8bdb7dfadd84858cc3ffc"
+      },
+      {
+        "id": "map.msg.1774a49c",
+        "page": 0,
+        "maximum_content_cells": 43,
+        "text_sha256": "33ca7af801e2e90e59ba1dfdac1c09478c25e523e22d93801ee2b2ad98a020cb"
+      },
+      {
+        "id": "map.msg.1d0aa8ec",
+        "page": 0,
+        "maximum_content_cells": 22,
+        "text_sha256": "0052cecfe48e3b718415078d7da2162bd75be4506c8bd62e189a165ea110ff9f"
+      },
+      {
+        "id": "map.msgn.1d0b9e94",
+        "page": 3,
+        "maximum_content_cells": 72,
+        "text_sha256": "606cfe576e8330f069c9f6df7a226db078bf7bf898171131118cc64553d4f328"
+      },
+      {
+        "id": "map.msg.1df5e3bc",
+        "page": 0,
+        "maximum_content_cells": 64,
+        "text_sha256": "72cf534344c7145fdddb7c0f5233f4bca4cc8f501e309d1a36e3d64cdf15563b"
+      },
+      {
+        "id": "map.msg.1df5e4a4",
+        "page": 0,
+        "maximum_content_cells": 76,
+        "text_sha256": "781152a6642eb543883a937006fc6810662130f16017c809d53344ee451b91ba"
+      },
+      {
+        "id": "map.msg.1df5f13c",
+        "page": 0,
+        "maximum_content_cells": 86,
+        "text_sha256": "3fc273458b07f0d083aec329edbcb5ae2374d73a19a3b29c92e8e4207d0826fb"
+      },
+      {
+        "id": "map.msg.1df6435c",
+        "page": 0,
+        "maximum_content_cells": 92,
+        "text_sha256": "f9d2e0c7ae432d6770984fbf40e267d32b12b1a35847f73b58fba570a1c7deb6"
+      }
+    ],
+    "field_count": 34,
+    "page_count": 35,
+    "maximum_body_bytes": 333,
+    "maximum_page_content_cells": 92,
+    "independent_variable_values_bounded": true,
+    "method": "Independent item outputs conservatively bounded at 19 bytes/cells; N0 conditional valid field bound remains 31. No template or token changes."
+  },
+  "observed_list_rectangles": [
+    {
+      "context": "inventory item list",
+      "width": 320,
+      "offset": 1149744,
+      "name_widget_calls": [
+        1148912,
+        1148936
+      ]
+    },
+    {
+      "context": "battle action list",
+      "width": 288,
+      "offset": 1167504,
+      "name_widget_calls": [
+        1168248,
+        1168300
+      ]
+    }
+  ],
+  "legacy_scene_dependency_proof": "reports/prova-seis-nomes-v007.json",
+  "legacy_scene_dependency_sha256": "c0ee91b789c96e7b64e436102b472bc9580ec6fe1fdea45022bbfd23b8de4e70",
+  "limits": "Source-bound original scalar geometry plus compiled message budgets. Refresh/GPU/printf and complete list rendering are not executed. Representative known menu paths support an exact opt-in test build, not universal visual approval or safety for malformed game state."
+}
