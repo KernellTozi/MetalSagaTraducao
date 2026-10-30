@@ -803,3 +803,14 @@ e 3.848 unidades de interface; são revisões, não novos registros traduzidos.
 Próximo: medir as caixas reais para as nove propostas de largura restantes,
 mantendo nomes aprovados e fonte atual. Não repetir caminhos já encerrados.
 Validação visual futura pelo usuário, sem navegação automática nesta rodada.
+
+### Geometria inicial das nove revisões restantes
+
+`docs/caixas-nomes-v001.md` registra dois consumidores concretos: painel
+direto com largura solicitada 272/X do nome +38/tamanho 22; painel de
+nome/preço com largura 400, margens 8/8 e campo mínimo de 20 bytes.
+Os nove nomes passam essas verificações parciais, mas origem/recorte efetivos
+e listas de inventário/lojas/batalha ainda não estão fechados. Não são nove
+nomes liberados. Itens 836/840 também exigem prova para ações de 19 bytes
+e recálculo do orçamento de mensagens (v053 usa 18). Ferramenta local
+`tools/item_name_boxes.py`; imagem e receitas de produção permanecem v053.

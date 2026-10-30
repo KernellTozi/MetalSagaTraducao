@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "scope": "remaining-item-names-requested-boxes-v001",
+  "recipe": "translations/interface-v053.json",
+  "recipe_sha256": "fbc97cecea306c1d5fad2bb5a694ced37288ff50ae2f7d194aee4d5de0865ace",
+  "human_decisions_sha256": "54d6f16387410302f1d388c53b5b4ee208fa38f36717bf25c94664dd07fb137f",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "spack_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+  "geometry": {
+    "direct_name_panel": {
+      "requested_width": 272,
+      "name_x_from_draw_origin": 38,
+      "requested_font_size": 22,
+      "conditional_remaining_width": 234,
+      "same_origin_and_effective_clip_proven": false
+    },
+    "name_price_panel": {
+      "requested_width": 400,
+      "left_margin": 8,
+      "right_margin": 8,
+      "conditional_inner_width": 384,
+      "constructor_default_size": 22,
+      "string_minimum_bytes": 20,
+      "price_minimum_columns": 8,
+      "format_offset": 3413592,
+      "format_sha256": "27bb35b752170ce4702a752116a906aad641f5722111b9d3c4889abd45c19d8d",
+      "minimum_is_not_precision_or_truncation": true,
+      "actual_render_bounds_proven": false
+    },
+    "windows": [
+      {
+        "offset": 1783164,
+        "size": 40,
+        "sha256": "8165ca48aa15fc03417d71f2f1a0748d320ea0f81fe26e1334dc0fade0f405f1"
+      },
+      {
+        "offset": 1784568,
+        "size": 116,
+        "sha256": "53ca3c041aff460db09614f7c259ad659e55cc1ad837e6aad9b7f944b34f50f0"
+      },
+      {
+        "offset": 1922268,
+        "size": 132,
+        "sha256": "bdc66b4aecd0218b8ce00a13bd870615f6d24bd56e8194771612b039e4ff58eb"
+      },
+      {
+        "offset": 330200,
+        "size": 28,
+        "sha256": "213277011e671f7a8919d8f41d7fb19ba32af666fc77f887109b108a01ea0f5e"
+      },
+      {
+        "offset": 327744,
+        "size": 20,
+        "sha256": "17f19dc033f08e92943f727e2b80a331feb50e4679611b1be32cd156b03d7963"
+      },
+      {
+        "offset": 330816,
+        "size": 80,
+        "sha256": "a45a501b8739ee1a9622ceac38b602cae3ee4f58fd3b506e6a5caa0cad958194"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "item.name.0354",
+      "current_translation": "Bomba a gasolina",
+      "approved_translation": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        187,
+        183,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0106"
+      ],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0373",
+      "current_translation": "Bomba a gasolina",
+      "approved_translation": "Bomba de petróleo",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        187,
+        183,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0106"
+      ],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0431",
+      "current_translation": "Antipulgas",
+      "approved_translation": "Coleira anti-pulga",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        198,
+        183,
+        198
+      ],
+      "conditional_direct_panel_remaining": 36,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0647",
+      "current_translation": "Trapo de jaqueta",
+      "approved_translation": "Retalho de casaco",
+      "encoded_bytes": 17,
+      "logical_advances_size22_modes012": [
+        187,
+        182,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0711",
+      "current_translation": "Busca-metais",
+      "approved_translation": "Detector avançado",
+      "encoded_bytes": 18,
+      "logical_advances_size22_modes012": [
+        187,
+        184,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0798",
+      "current_translation": "Corrente caudal",
+      "approved_translation": "Corrente de cauda",
+      "encoded_bytes": 17,
+      "logical_advances_size22_modes012": [
+        187,
+        184,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0826",
+      "current_translation": "Bandeira rubra",
+      "approved_translation": "Bandeira vermelha",
+      "encoded_bytes": 17,
+      "logical_advances_size22_modes012": [
+        187,
+        180,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [],
+      "action_ceiling_exceeded": false,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0836",
+      "current_translation": "Obus explosivo",
+      "approved_translation": "Projétil explosivo",
+      "encoded_bytes": 19,
+      "logical_advances_size22_modes012": [
+        198,
+        181,
+        198
+      ],
+      "conditional_direct_panel_remaining": 36,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0881"
+      ],
+      "action_ceiling_exceeded": true,
+      "editing_authorized": false
+    },
+    {
+      "id": "item.name.0840",
+      "current_translation": "Obus elétrico",
+      "approved_translation": "Projétil elétrico",
+      "encoded_bytes": 19,
+      "logical_advances_size22_modes012": [
+        187,
+        170,
+        187
+      ],
+      "conditional_direct_panel_remaining": 47,
+      "name_price_padded_field_bytes": 20,
+      "fits_price_minimum_byte_field": true,
+      "battle_actions": [
+        "battle.action.0886"
+      ],
+      "action_ceiling_exceeded": true,
+      "editing_authorized": false
+    }
+  ],
+  "counts": {
+    "remaining_names": 9,
+    "conditional_direct_advance_fits": 9,
+    "name_price_byte_field_fits": 9,
+    "action_ceiling_exceeded_names": 2
+  },
+  "editing_authorized": false,
+  "originals_modified": false,
+  "iso_created": false,
+  "pcsx2_executed": false,
+  "next_evidence": [
+    "Resolve effective rectangle implementation and draw origin for the direct-name panel.",
+    "Trace inventory/shop list columns and battle action consumers; these two panels do not cover them.",
+    "Separately prove 19-byte action names and variable-message budgets before any release."
+  ],
+  "limits": "Original caller instructions and existing metric harness only. Virtual rectangle calls, full printf, GPU drawing, clipping, glyph overhang and every caller are not executed. Requested geometry and byte padding alone do not authorize names or compiler ceilings.",
+  "validation": {
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "seconds": 13.82
+  }
+}
