@@ -64,6 +64,11 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     bytes beyond their own patch prefix; compare the union of the two prefixes.
     This does not resize the compiled patch or release other item fields.
     """
+    if 'battle_atlas_release' in new_ui:
+        from battle_menu_atlas import validate_interface,PARENT
+        if old_ui!=validate_interface(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
+            raise ValueError('Combat atlas comparator parent differs')
+        return
     if 'remaining_name_release' in new_ui:
         from remaining_item_name_release import normalize_transition
         return normalize_transition(old_ui,new_ui,old_recipe,old_patches,new_patches)

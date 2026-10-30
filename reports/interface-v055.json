@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v055.json",
+  "recipe_sha256": "4b8cc29d49b6cf04df1a700ee98f9085a2e4a7bb9b8d0c88357fd4d51439c354",
+  "parent": "translations/interface-v054.json",
+  "map_recipe": "translations/regiao-inicial-v044.json",
+  "policy": "battle-compressed-tim2-fixed-labels-v001",
+  "proof": "reports/batalha-grafica-v001.json",
+  "counts": {
+    "map_changed": 6044,
+    "interface_units": 3862,
+    "item_names": 541,
+    "new_graphic_labels": 14
+  },
+  "iso": {
+    "path": "work/interface-v055/MetalSaga-ptbr-interface-v055.iso",
+    "size": 1704427520,
+    "sha256": "47509f21ccf240ae084fe67b0afe723c71d39688502445b116b09569123be49a",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v055-delta.json",
+  "changed_bytes": 43837,
+  "tests": {
+    "distinct_tests": 67,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "patterns": [
+      "test_battle_menu_atlas.py (8)",
+      "test_weapon_name_review.py (8)",
+      "test_interface_graphics.py",
+      "test_interface_title_wordart.py",
+      "test_credits_translation.py",
+      "test_remaining_item_name_release.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py",
+      "test_interface_texture_pack.py",
+      "test_interface_battle_tables.py"
+    ],
+    "regression_distinct_tests": 51
+  },
+  "weapon_review": {
+    "weapons": 175,
+    "special_ammunition_appendix": 15,
+    "weapon_names_already_changed": 1,
+    "weapon_suggestions_changed": 87,
+    "weapon_suggestions_over_16_bytes": 18
+  },
+  "weapon_suggestions_applied": false,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "old_patch_package": "v054 retained as historical; does not include v055"
+}

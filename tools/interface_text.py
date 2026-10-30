@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'battle_atlas_release' in draft:
+        from battle_menu_atlas import compile_interface
+        return compile_interface(data,draft)
     if 'remaining_name_release' in draft:
         from remaining_item_name_release import compile_interface
         return compile_interface(data,draft)

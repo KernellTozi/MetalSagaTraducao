@@ -1,4 +1,15 @@
-# Pendências atuais — base v054
+# Pendências atuais — v055, com auditoria histórica v054
+
+A v055 corrige 14 rótulos de batalha em dois atlas comprimidos que não eram
+os de FBS_DATA. O log e a conferência da ISO confirmaram que o usuário usou
+corretamente o iniciador v054; não era um save state. Ver docs/interface-v055.md.
+Testes visuais da correção ficam pendentes do usuário.
+
+Revisão completa de 175 registros de armas e anexo de 15 munições em
+work/revisao-armas-v001/ARMAS-PARA-REVISAR.md. Novas sugestões não aplicadas;
+aguardar a revisão humana. Os atlas comprimidos 1587/1588 têm outros textos
+de efeitos/atributos localizados, ainda sem edição. A triagem anterior de
+20 candidatos gráficos não representava cobertura completa desses recursos.
 
 Auditoria reproduzida na interface v054, sem modificar a ISO.
 Relatórios: reports/auditoria-dialogos-v054.json e

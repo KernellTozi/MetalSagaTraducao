@@ -1,0 +1,1338 @@
+{
+  "schema": 1,
+  "policy": "weapon-suggestions-review-only-v001",
+  "approved_for_application": false,
+  "source_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+  "entries": [
+    {
+      "id": "item.name.0001",
+      "source_sha256": "6d3c365e011ea8f0f71e41efc7704e4551de80238e67e3c2cc72dffc2b5e15d2",
+      "preserve_original": false,
+      "suggestion": "Canivete borboleta",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0002",
+      "source_sha256": "0e9e7c8e13ec34c73db8e73090c3b934304e120da1da834dfee206040d9874ce",
+      "preserve_original": false,
+      "suggestion": "Bastão de metal",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0003",
+      "source_sha256": "d76867b64dc5dc65359a6374b6a444effaddca8a77753215d0700642f8a2bbf2",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0004",
+      "source_sha256": "add71474746175c1b2ec0a2ac62836817ad37897e9473fab1a96fbb085bbefe7",
+      "preserve_original": false,
+      "suggestion": "Facão",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0005",
+      "source_sha256": "c39d72b3eedeac5f3b5399bf20c3a1c30be4c9c0148c0223852b91ec249e5e1d",
+      "preserve_original": false,
+      "suggestion": "Garra de tigre",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0006",
+      "source_sha256": "466d4acfbb0a1aa6669e6a61617e0a18ffd49c7b0a7f99408d330f5ab58e54ff",
+      "preserve_original": false,
+      "suggestion": "Espada chinesa",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0007",
+      "source_sha256": "f0b11180f8fd0f9a413610c66f3deace3015bbb2fec194de7ad661fa976a250f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0008",
+      "source_sha256": "0badecc5f2cdd2d968f0ac5dc2fc74e77b997ac30c7fe1112c9a2bacec276db5",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0009",
+      "source_sha256": "9ce6222595e92264657832c0236491c04dd80f8e4ef5705726d510373d33a253",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0010",
+      "source_sha256": "530dce53ee0b40ab3ea4bb6485cc87cad55d27ff064b4065e62d814dce07837c",
+      "preserve_original": false,
+      "suggestion": "Lâmina sem nome",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0011",
+      "source_sha256": "c25070814c9dba6590da65372dfb30ecbe45fe2b54174f88ec067351266c74c1",
+      "preserve_original": false,
+      "suggestion": "Lâmina afiada",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0012",
+      "source_sha256": "ced97b8032c988f298fee254ced34ad6f33ea940e387b6b90642ea8b5ef38dc9",
+      "preserve_original": false,
+      "suggestion": "Espada vibratória",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0013",
+      "source_sha256": "24f2a302d2efe1a10f6575d2df510854e8cf46e086fdf867b563bde238c1a655",
+      "preserve_original": false,
+      "suggestion": "Espada Damasco",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0014",
+      "source_sha256": "74f6bfe8586846cba532fc9a8568368f27055fc9d627ad17105fccc81dcc94f5",
+      "preserve_original": false,
+      "suggestion": "Lâmina defensiva",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0015",
+      "source_sha256": "fc3f25517d873b28507d9987a4dd8e0866009d17b41060389db9ae7b0734c53e",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0016",
+      "source_sha256": "04456f1508665dcfb2fed12dec86bca4a1847e4b7ae9d76ed759703b4d081bf0",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0017",
+      "source_sha256": "1755cb4fad2209ab07b1f9baa388caf0b032ad909bcf721499f2e3f00c5b4ca0",
+      "preserve_original": false,
+      "suggestion": "Lâmina de aço",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0018",
+      "source_sha256": "de4d8d53cabfb4fd460ceb2b3e40ae986a68bb09362de198fb49b5ea9bc14431",
+      "preserve_original": false,
+      "suggestion": "Espada demoníaca",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0019",
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "preserve_original": false,
+      "suggestion": "Mãos nuas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0020",
+      "source_sha256": "adff300da43d5d22c300a659ae9cf5b1ef582b51e1363e5039f442182f59a66f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0021",
+      "source_sha256": "de8aa6a70615e9b94c6e7264815ad06c9cdb132e10511b81fe72a400f23d8a48",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0022",
+      "source_sha256": "9c96259d29beb2c54dd7a15c58a3f956b18c38258493f2e8e05cfd83bec09e51",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0023",
+      "source_sha256": "4fe4476b403801cb95f127cf6770e5e3918283bf06249eb2474594ef818f7276",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0024",
+      "source_sha256": "7825d486d1498a7043943f5ad59d8c1ba2b004594d90a935317a76e32bd6b864",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0025",
+      "source_sha256": "5d907e09f9c22fec429d7e0e83ddf443cd4f6d0204328c3d7203456032a48dab",
+      "preserve_original": false,
+      "suggestion": "Para-raios",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0026",
+      "source_sha256": "369a54eaeed51000c23f55dbed21d6e00b283bc533e48a00ca8c8c2a80ac5d13",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0027",
+      "source_sha256": "f80097185aec9d53d11993dd90724f13d9340bb374fd34c1970afbc52ad66bc1",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0028",
+      "source_sha256": "4c941c994dc7387eb2d795e65a88ab626c0616dac4d782407d953478f53f0766",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0029",
+      "source_sha256": "857d54cffab4b47336ea440ffb235196950fd830ccdebed5a9f8d4b113e120a2",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0030",
+      "source_sha256": "da26ec95cbf3ee18442a2375e83a3eb2081042968918e01cab92b0c4064c1187",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0031",
+      "source_sha256": "5dc385286432cb4d0ae9b4cad31ca741106699094031fd9fed2a6bb5da6f79d4",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0032",
+      "source_sha256": "40cd692e1c9bcc80e4ec7e60fb7036d808db040b1fb0517595ef11572c50a759",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0033",
+      "source_sha256": "925aaf8da5fc104f5aef2a1d71e6db266425040349c08a102bb4559e60b4b74b",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0034",
+      "source_sha256": "6cd65558a1368c7933d6f2f63315b3932ed9a1dcceb19e21da52a29c8a34bc2e",
+      "preserve_original": false,
+      "suggestion": "Garra broca",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0035",
+      "source_sha256": "cb34aac86952be3a4a8454b4ce78e494227fc42815852dfe906e784c76befc34",
+      "preserve_original": false,
+      "suggestion": "Garra de feixe",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0036",
+      "source_sha256": "0631a3a10fe0185996060b4db40a7ce7059fa133531d3e140dec589f6d34647e",
+      "preserve_original": false,
+      "suggestion": "Garra-bomba",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0037",
+      "source_sha256": "3fddfc6a0b27f621dabd584b6293cf02032f5ed35f5acc793e96dadffa64b6b9",
+      "preserve_original": false,
+      "suggestion": "Espada maligna",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0038",
+      "source_sha256": "7d77fd2df7d55b79d85842ed8b8a61962b3cd6aaa7492549344543f2281658cd",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0039",
+      "source_sha256": "226f915e0ecadc2eba5e6e5cf533ddcc0c4195e128f559cf3ad0985d515139fa",
+      "preserve_original": false,
+      "suggestion": "Estilingue",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0040",
+      "source_sha256": "b015d3ddeff42d858d06bfc28ab994f070479ba167c7f26d00f16decc9331a16",
+      "preserve_original": false,
+      "suggestion": "Revólver",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0041",
+      "source_sha256": "81c82e5a909eca04dd2e1f4728984b977abf87d1155de0c1df062fd36a3c25e0",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0042",
+      "source_sha256": "4229d78964ec545ee34333398193c831cf580fca3f475b8e7476e5de4f28a617",
+      "preserve_original": false,
+      "suggestion": "Besta",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0043",
+      "source_sha256": "f6b33c658c0191fb72e911645eb699e9b4a22fd6a2b3299a281ca8278f20da39",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0044",
+      "source_sha256": "7e25f20c2a758ac939b8ceb37d5211b6121228f7f68efdbe78913560e26d9d73",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0045",
+      "source_sha256": "b4de5ce3bfcae4176ff46a55544124ca3df1cc90e59fb8ce25475247d320d92f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0046",
+      "source_sha256": "2e33b43fdffc08b1c823fec056cac0414d61bc199f8482d1e03321a05ad2c0cb",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0047",
+      "source_sha256": "1df239da423a0b71bfcba5a339d243e965047899ce0298e713001b6ee7bc1619",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0048",
+      "source_sha256": "2c4ffb14576d879d642df4dae3c9191968b29a638cf41dd1458c99a190b7947a",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0049",
+      "source_sha256": "868a517d3c018257d2aacd6f3c8f924565eb6a68cf9202c739bf424d07a505d9",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0050",
+      "source_sha256": "050991792ba0040cbbaffd71ee45d7d99d96c74467d4ac4f04f56113964f6a0a",
+      "preserve_original": false,
+      "suggestion": "Escopeta",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0051",
+      "source_sha256": "de28c7fe5ccae17edca7ea829be7d012096ed9e95fe0f598eff173f37004b87f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0052",
+      "source_sha256": "a67dbc996d51e7b485bb7cbe1a84a7ef99f215a0e5c9267d03205b0a4a83845e",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0053",
+      "source_sha256": "9e6081bca090e304c001ffabffadaacde692aa296535c76b3651b01575645669",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0054",
+      "source_sha256": "91b2d84f6ce54827194496d5a4cce83222434e961dfb2c5280dfc32938fa5f47",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0055",
+      "source_sha256": "d46ca53cfcd1b97a5eef85be385cf583039365fd43dc7c9ca3de70013e24ab16",
+      "preserve_original": false,
+      "suggestion": "Lança-granadas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0056",
+      "source_sha256": "c3fdac746f7a20c07b9d7053bfa004d448e7925cf6d1d45c58ae603bc918d89d",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0057",
+      "source_sha256": "96ffd05172a78cdde4195797d26733370d209b39a0cb28583eb67c101cbeae33",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0058",
+      "source_sha256": "88b30ec3c1793b00f2d03d6901b4953137c15ed294644444cb68a5cea2d7b71b",
+      "preserve_original": false,
+      "suggestion": "Faca de arremesso",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0059",
+      "source_sha256": "6cdc997adf5c994db67a5ac8389188823ad2e5bfaf7af8ffe6fbb58865744dea",
+      "preserve_original": false,
+      "suggestion": "Chave remota",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0060",
+      "source_sha256": "d2662d3485ff91337b821ca55da41ffa18413fb48ea5c957805d578a4f1eec48",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0061",
+      "source_sha256": "e67fcc6ff0f0171ac908e4b20fe88661912cc7a01035c3b6b756335e4d96739e",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0062",
+      "source_sha256": "2bce2982deda92e4334e1eba413174b87e2853485b88b8b192f3d5178d886985",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0063",
+      "source_sha256": "a37245b5cc3de31b1ff06844de37738602732d2df1df31090493255c4bcb6d62",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0064",
+      "source_sha256": "92d37d5589dfad05259847d36e7fb6b82a52f8b8af7f2f5c2d749684258ec8b3",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0065",
+      "source_sha256": "9ec12f1e745d3f5961aad2fa512b803d19987084e080d23c70e6de5a2a0f4d73",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0066",
+      "source_sha256": "999b402526c91e3870062d7dd19ddbd3f9988091296cff9c04077244ccd50d35",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0067",
+      "source_sha256": "9088f3ee2d1808e85b471a846e09209752b846f02f41ae7aaf77c3e0d8922003",
+      "preserve_original": false,
+      "suggestion": "Blaster sônico",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0068",
+      "source_sha256": "4078ff2bceff0e7bd2db3fec750f8c5062999d6d7efb14d2ad7b4dd7a3ab7c50",
+      "preserve_original": false,
+      "suggestion": "Lança-chamas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0069",
+      "source_sha256": "5fa4784a59e2bbdf6199d61513173ae473624e7d8263131440d68f76ee6d8ad1",
+      "preserve_original": false,
+      "suggestion": "Blaster de fogo",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0070",
+      "source_sha256": "0a7b77ddb79865c172d5ffb5abef3ca7e5ea2e82e041293adcd84665f653805f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0071",
+      "source_sha256": "088cc9c6f49b2daef145022a4c9f13b0735d6982614585cf3d6e1028397c1f13",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0072",
+      "source_sha256": "ac13ba97b4abd8943029bfd95249ad57cec8da975dfbf1a6de184d721c5a2be7",
+      "preserve_original": false,
+      "suggestion": "Arma congelante",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0073",
+      "source_sha256": "3b107bb4a7803b0705458b203dd2875c3b0e1d5b7d7eebd2fdde6cd90ee366ad",
+      "preserve_original": false,
+      "suggestion": "Blaster de gelo",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0074",
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "preserve_original": false,
+      "suggestion": "Mãos nuas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0075",
+      "source_sha256": "b51e9459022206ecfca5417d5c7eba1692d1cdb7701f628e4fb1c8b6e70d499a",
+      "preserve_original": false,
+      "suggestion": "Arma de cimento",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0076",
+      "source_sha256": "58e0579b87c7e3ce1bcfb48f24413cb26d5f05985aa9ac36910dcba30848fc40",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0077",
+      "source_sha256": "998b770c45546d25505393aa7ebaaa082e08507da148d9d57624010642cbce18",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 1",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0078",
+      "source_sha256": "9ff32a19b08a126ca188ee67bd0a3012ad330806fcdb1abb1863ce4fd4b89c00",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 2",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0079",
+      "source_sha256": "bac66d6a12f802380e2d52cc96f15fd294f90622b0df690dc8464af21c6e72c9",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 3",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0080",
+      "source_sha256": "3cdb7b4c3bde76dfa51b533057cc23f765b15c921514b10c06036617885cb16c",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 4",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0081",
+      "source_sha256": "b31b2898ae26abd515e5f030cec4aba92d333ba9b448a6bdc6d2560afaab9da5",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 5",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0082",
+      "source_sha256": "7b3be29edc9e15edb9f158c4d82e4ca8e182324887677683df992a6052b86169",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 6",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0083",
+      "source_sha256": "decd8fba0adc3cf7b5032df33898318cc5a722c07eede9970e421a34834498a1",
+      "preserve_original": false,
+      "suggestion": "Bazuca laser 7",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0084",
+      "source_sha256": "6104e909531bbe22a97e78ac8a3ca697f09fa56102c7a739b4435859b7d3b1f5",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0085",
+      "source_sha256": "6d9bcb286daf23f325537f2b3b7c3b683dcbc11903352af95dcc7b596c0da3ed",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0086",
+      "source_sha256": "8089e09a62e1ccc6e180a1691aa570a266cbc3242f29ac83f3cf8ff653c8eb72",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0087",
+      "source_sha256": "90cf93b5dd6185d8ad0f1c2683c535a260f211215f079096d8ae0511e33da8eb",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0088",
+      "source_sha256": "193333f1ae02780d4187101c4684e46df674c048f9c3d8ffb911458ab5a35339",
+      "preserve_original": false,
+      "suggestion": "Arma canina",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0089",
+      "source_sha256": "0c5e53a00e6054bb4659f803eb812000063b713a98773695dc02d23795746bb5",
+      "preserve_original": false,
+      "suggestion": "Vulcan canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0090",
+      "source_sha256": "b69b5711d8d18c7fb565a76eb618233bad2ee20e6138101a978206dd0237138a",
+      "preserve_original": false,
+      "suggestion": "Canhão canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0091",
+      "source_sha256": "d713684c85a669712612cd7a1545b3afcd817a52a4c066a2f452af9e8e92ad29",
+      "preserve_original": false,
+      "suggestion": "Baioneta canina",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0092",
+      "source_sha256": "f9dbb1dd14cabfded5990b500e0ba3b70ff504769a04263ef48da4e235750e81",
+      "preserve_original": false,
+      "suggestion": "Laser canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0093",
+      "source_sha256": "31c5dff1aacc67b6340e6691cc42f7227a36a66e264458b82ce2c813b11c7d7c",
+      "preserve_original": false,
+      "suggestion": "Amplificador canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0094",
+      "source_sha256": "e0130eaed431810ed7dc1666d17ffe03c6ccfb2718a7e4f2d5fae3c652f00a38",
+      "preserve_original": false,
+      "suggestion": "Maçarico canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0095",
+      "source_sha256": "8caf03934b94fd9288eee806169d8c1c4d0b99cb8c25e341a99e5d02a20d2173",
+      "preserve_original": false,
+      "suggestion": "Taser canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0096",
+      "source_sha256": "3cb49a77c702910bc40b95b9adc01d9e9a829f8e0dd4149da3e388255593f944",
+      "preserve_original": false,
+      "suggestion": "Canhão de gelo canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0097",
+      "source_sha256": "6e7834c5de7dda517d3291b7ddb7cfe9c0a83475dcdcc039ca311c3a095010e1",
+      "preserve_original": false,
+      "suggestion": "Morteiro canino",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0098",
+      "source_sha256": "fa169004614a95f2d26c4f6d9f710a4139ff648795af0c69faa18752db90e470",
+      "preserve_original": false,
+      "suggestion": "Asas caninas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0099",
+      "source_sha256": "ef911fab09df364dac309ca8a9623bdee032e2fb4ebaf41dfd34f76d47ffa01d",
+      "preserve_original": false,
+      "suggestion": "Bazuca canina",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0191",
+      "source_sha256": "077a10f4e315c655f344ffcc62cd1b2ec37eb582b1505c99ea3332a3d8a61624",
+      "preserve_original": false,
+      "suggestion": "Canhão 37mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0192",
+      "source_sha256": "f9ff0d7b1ca7e78b1247f2f051f90b3f5a2053ce29822b581c1b85b965371c50",
+      "preserve_original": false,
+      "suggestion": "Canhão 50mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0193",
+      "source_sha256": "4838d9b9308a41f50b6dc7f9a6c72acc07f6cabd830c7c268d32ec394af9a4e0",
+      "preserve_original": false,
+      "suggestion": "Canhão S 75mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0194",
+      "source_sha256": "2d1efb2d03bfa9b4878f0a84de2dbbaa69bb79faf5ff5f277daa3399f977d965",
+      "preserve_original": false,
+      "suggestion": "Canhão L 75mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0195",
+      "source_sha256": "72023a530814c9ff6e15ff7e7c30a45cbb0701b9a575ca1bb017de7606a3cd55",
+      "preserve_original": false,
+      "suggestion": "Canhão 88mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0196",
+      "source_sha256": "026af5e4da65d74a2b9d273a291b4090ceaec741c0821bb96098ef2f5fe43cd8",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0197",
+      "source_sha256": "df486839fbccc798f876fd3d18a3ac77cb26d0f175b18971b7781d53ed38e2ba",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0198",
+      "source_sha256": "f488ceff306c6b475d8c9bee8fbba5849c902fe7918738277aea72643fdc3fcb",
+      "preserve_original": false,
+      "suggestion": "Canhão raiado 105mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0199",
+      "source_sha256": "12033241792bc60617041e23a055e6b29605ed26ccb25c47453ed57152ebfd35",
+      "preserve_original": false,
+      "suggestion": "Canhão raiado 120mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0200",
+      "source_sha256": "f969f3942d818d6880e4310e998af35b602c2ed87b511ec3aec35f0d7815bff5",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0201",
+      "source_sha256": "0c876c87be866c0007f25bc0c8a07ebee15aafc19a87eff904c8f6bc67705a46",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0202",
+      "source_sha256": "4d046c5e9ae6e857f26c8183dc9534dd71c0d90953a9ee996131c330f6780a8c",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0203",
+      "source_sha256": "9f7b8b028b8db8c3b58840be273fb965e2953a5265576dfb143aa8010be26ff9",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0204",
+      "source_sha256": "be6532cdf6c1b6a0e8708961f26c8ec98c14b7f04995c39754f47bba010f8ec8",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0205",
+      "source_sha256": "a4d77817342f975da762cfe3b91d4828544983bfc1d7610d004df37d1495af28",
+      "preserve_original": false,
+      "suggestion": "Canhão 205mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0206",
+      "source_sha256": "3a1176e0df1f925275f6aff23cebed59dab347ec4979c60f872ded7703bac4fc",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0207",
+      "source_sha256": "69bf9058fac97bc4dbe2c471ba7612d19e8043668201b63bbe5cea3e7d0ac9d2",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0208",
+      "source_sha256": "a82bd6d90612d4847321d06e8cfd86f21d9a1cab66dd0a859612244745616d81",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0209",
+      "source_sha256": "75bd792c56c496df97095f567f848983bf2e9d556b86a42ecce785e009b1fd66",
+      "preserve_original": false,
+      "suggestion": "Canhão eletromagnético",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0210",
+      "source_sha256": "05cf593aa8a6199ddaa7c87dae427f8b64c6be765427b95a83e1d42a595d41e3",
+      "preserve_original": false,
+      "suggestion": "Canhão rajada 180mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0211",
+      "source_sha256": "7dc24d35ae4227169deb355f5e11315611a0ae6eaae0715091dd6405737b9a69",
+      "preserve_original": false,
+      "suggestion": "Canhão rajada 190mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0212",
+      "source_sha256": "295877c888ee040e1a749758071c18513999e1dfec46c23c2705b8819c4b32ce",
+      "preserve_original": false,
+      "suggestion": "Rajada tripla",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0213",
+      "source_sha256": "d504dfd9ba01e7ccd0979693d34bfd2684ce89087ad264e1adaa086eb6f6e543",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0214",
+      "source_sha256": "a4d36b11b7fb702a71db97c90d5858fece68e498b514b43cb9a05ed80984e0c5",
+      "preserve_original": false,
+      "suggestion": "Canhão de trovão",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0215",
+      "source_sha256": "526d57d45f0dbbd6d79cc2e98c295b6e3b9b11e23f57248899e687ce6df597be",
+      "preserve_original": false,
+      "suggestion": "Canhão de plasma",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0216",
+      "source_sha256": "5bc56b4cfb1f9a0b454ea274b4d65a5132a53ec2502ccbcbbc29bf4479ff0d5d",
+      "preserve_original": false,
+      "suggestion": "Canhão AA 20mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0217",
+      "source_sha256": "2a7c096984156f3022f88300f88e75e93ccfb28b56d060bf4e50c2dbacbc5859",
+      "preserve_original": false,
+      "suggestion": "Canhão AA 25mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0218",
+      "source_sha256": "fbedabd8ef5bf6fe400cef0cdfe74774318c454595e3b3f0cc3928b90ef486a9",
+      "preserve_original": false,
+      "suggestion": "Canhão AA 30mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0219",
+      "source_sha256": "ad76b67b86f3a251cb472741e4ba3b8026ebfcc020515e4e0c7b0add2d5314b8",
+      "preserve_original": false,
+      "suggestion": "Canhão AA 35mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0220",
+      "source_sha256": "358ae746a66cdbf1916e37266717bbbe3b2f21630ea345e014f3860f4b50791c",
+      "preserve_original": false,
+      "suggestion": "Canhão AA 57mm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0221",
+      "source_sha256": "4bb0ac322cd35170a8323be7394ce30ca786972c11aa9e70243c68637a8e1bdf",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0222",
+      "source_sha256": "9259206c71f4be8d7c4a324469581b1a17f5043b4ec53fe9f86bcc58e360aabd",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0223",
+      "source_sha256": "a6056e8d0798143fac526fcf37b7da63d5661cbba0512a92d3826db19eeb9f8e",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0224",
+      "source_sha256": "bc1b785cf7d228aaae3adaef5516720c7e2e6452c1d33a2be718ee79d66639e5",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0225",
+      "source_sha256": "4dc5b6a88d7459484874be868df4bfa8a924830e9d1fcad502611efe9b5bf372",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0226",
+      "source_sha256": "2094edff1733c87cfd6633a609376353a6404d64cb2fab1e81dd5db36c5d0a7f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0227",
+      "source_sha256": "112f5ec2a5d2447d85925bc2a6eb6119d09f3353e018e4d2e2cf99e6edfd666a",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0228",
+      "source_sha256": "262ce8bc4d7bd9b0753ac70031331ebcf40eb12705f4e0ccc47913613f3f22b3",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0229",
+      "source_sha256": "31f1c1344c586b9c5075a9065f58cf1202c91965a3cd92cd45dd2487c266265b",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0230",
+      "source_sha256": "8942924a15354225d74018b58d072a9bc348254ffeff216225c4b9346b307c30",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0231",
+      "source_sha256": "233b902368d6e26c32496a9fc44a5c14f99f9b16ced941c1e8a32f7d758efe1d",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0232",
+      "source_sha256": "0046548b2b9e96cc6cc743a65aa79a01ad0ea0f5df03c0bd334891dfa21cada8",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0233",
+      "source_sha256": "37a174a22934692347c8106373caa31579e666126c09b0fe0eb5aee39d283b08",
+      "preserve_original": false,
+      "suggestion": "Lança-chamas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0234",
+      "source_sha256": "077bd0c1f29e126ccfab0147d6d336807b3f824891f6f808a6bbb727cc72bab4",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0235",
+      "source_sha256": "da95034939c5e5d6c2a26dea397154b3e3eb3db4a50658dc948bdca2a4ce606f",
+      "preserve_original": false,
+      "suggestion": "Blaster elétrico",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0236",
+      "source_sha256": "c0a766b99287786cba0476b5d3fbc1581755b2b3c891bac060c65e8e21952a3a",
+      "preserve_original": false,
+      "suggestion": "Canhão de tempestade",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0237",
+      "source_sha256": "85eba45346d98c00eb2d91e33a028794b5727e371b8474423ed8a51da805b882",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0238",
+      "source_sha256": "a616664c6aa28f4237a8f758ddbce02c1993e1ada15d0f0425d2cc0b4dbc726c",
+      "preserve_original": false,
+      "suggestion": "Canhão flauta",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0239",
+      "source_sha256": "fa663e3e7711791005d6622a8c6d6a0bd71d2976ac3c60ef8f3c0982d541fafd",
+      "preserve_original": false,
+      "suggestion": "Arma de raios",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0240",
+      "source_sha256": "0911ab4bc0e9338691f569a08633019c2f6619117b681e22f3fa0b42318b646d",
+      "preserve_original": false,
+      "suggestion": "Canhão laser",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0241",
+      "source_sha256": "fef0a2c67b87fa5f964ff72be1b6079d2ce8ac68732994b2b54f0b7cc0826bdc",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0242",
+      "source_sha256": "bd8a4408f6588fd8e2a2537cb0c2fc7522c48369fba76b9580c6cc6c80221117",
+      "preserve_original": false,
+      "suggestion": "Bomba de arremesso",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0243",
+      "source_sha256": "aae047ce13d9a04f9a52de7ea6aec68b448b21ce9294fb002b1f1a5e8793e071",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0244",
+      "source_sha256": "ac0826f563956c15f804834d600f10cf1696b7782afa7da6a872a7112a6ea66d",
+      "preserve_original": false,
+      "suggestion": "Eletrificador",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0245",
+      "source_sha256": "152031e880458972044ca63c02865c4be5780e141a1f9613af5014af4bdeb666",
+      "preserve_original": false,
+      "suggestion": "Lançador AT",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0246",
+      "source_sha256": "9f5f6a4d35b384a2fbdb6999533658e63e195f17a76726fdcd6f6791dfb97974",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0247",
+      "source_sha256": "6e1698f0d8ae8433ae8631af74964c20b9cc695a5c9a96d033746aad34f68ae5",
+      "preserve_original": false,
+      "suggestion": "Mata-moscas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0248",
+      "source_sha256": "2591d087f41df9900a0d452ce61175bf0c7befe5eab2d375df716667cc8ec557",
+      "preserve_original": false,
+      "suggestion": "Vaporizador",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0249",
+      "source_sha256": "04ffca2ea2e4e18789319b9ac4a5e282a12a01c69be4129346c5d007e218b6b1",
+      "preserve_original": false,
+      "suggestion": "Canhão napalm",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0250",
+      "source_sha256": "6aafa7e6b5f863d285454a1d67b9ab08e6e3cc989282186fa62f224f3fb828b6",
+      "preserve_original": false,
+      "suggestion": "Canhão de pipoca",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0251",
+      "source_sha256": "0750477d50ede98e450b7b778fda0f46a844c021763389e9192b78fadc0c83c2",
+      "preserve_original": false,
+      "suggestion": "Lança-granadas",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0252",
+      "source_sha256": "419ef1646920c704fd13ed1697fb1ff8c5996fc2d0586be600700fcc1e408d5b",
+      "preserve_original": false,
+      "suggestion": "Arma broca",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0253",
+      "source_sha256": "1b5e29699dc0ad6d11a16001be6e6bfe9413c8548c1f2df7e8bb9466bb253f41",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0254",
+      "source_sha256": "649c12c9385054007e122cefdc01831c849cd396e1758ee6ceb2a0ec8acda8a3",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0255",
+      "source_sha256": "f74a879c6ad1447a6356d876dc32fe07e993cf5857bab37a0dae5704f71222ae",
+      "preserve_original": false,
+      "suggestion": "Canhão ciclone",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    },
+    {
+      "id": "item.name.0256",
+      "source_sha256": "0e02e61d928b7409c158336018431bbd36ec6d350f7878d49fa73eb750de7f28",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0257",
+      "source_sha256": "bf4b0c03c646add9b518fc4f658deba189e5bc4918607186e4570472bf6cb19f",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0258",
+      "source_sha256": "af7e5ebe9e564af1a380c0682effd44e095a1f3cb25dcf44d1f4fe6ebb0e11a2",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0259",
+      "source_sha256": "24b57dafdc1448eb63f6f9ac4d026663e67d81cbc9e6dd34c83776f3f5beef48",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0260",
+      "source_sha256": "82d4401a0f7b9cb0becf1eb0fb26c8ea28db7609e2410a92600ff2a96f7b35a5",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0261",
+      "source_sha256": "66e04c98d48af3d38bda6e9a44b4c8f94f060c6f5b9055ce05c9ee59f5c32767",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0262",
+      "source_sha256": "04f01c60a3e88d857a0344097752a8b9111e017684fa97076660f04457a9c471",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0263",
+      "source_sha256": "b991454756b6309148fbee4b014b009941ff14ee7ed65a217aed6da2051fa6ae",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0264",
+      "source_sha256": "00edbd472e06536f40c949509f9c68ce04a35bf394debbb42c6c0000dab51a23",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0265",
+      "source_sha256": "6bf746e7fbfd282d0c84c3c4130db20ff661e2d808c2812c9c6d03d31b342d82",
+      "preserve_original": true,
+      "suggestion": null,
+      "reason": "Preservação conservadora de nome/modelo; confirmar na revisão humana."
+    },
+    {
+      "id": "item.name.0835",
+      "source_sha256": "89e3dc8a3ab77d0eb25ebdd27ee391c79fb9682475b750d948ad943f416dbe0c",
+      "preserve_original": false,
+      "suggestion": "Projétil extra",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0836",
+      "source_sha256": "ed83f10f7e4a902e98b9d6d4a76e0863d29382c1c16cf4b5d3f874b7df32ed07",
+      "preserve_original": false,
+      "suggestion": "Projétil explosivo",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0837",
+      "source_sha256": "ede9a8a8ff999a7ac894fc2b92026c40e64f162bc124a51a21a1ee04c940a0b5",
+      "preserve_original": false,
+      "suggestion": "Projétil de luz",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0838",
+      "source_sha256": "9ec0e62808c25089565a14efbb4e8c5a0ae5794d47b4719014e6f8b06a5a31b5",
+      "preserve_original": false,
+      "suggestion": "Projétil sônico",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0839",
+      "source_sha256": "fa0f5a487e21236c289b3528ce9125a22f504573bcc262295dacc9272c6f5f6a",
+      "preserve_original": false,
+      "suggestion": "Projétil napalm",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0840",
+      "source_sha256": "38e42cb9743e15446986011449918e3598f4d1cbe4d3b83a49700df0bb508a33",
+      "preserve_original": false,
+      "suggestion": "Projétil elétrico",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0841",
+      "source_sha256": "4ecd5671e1dcbd5eb7cb48bc81f1da845dba7c8e07a5e102c3379efe5d6a3049",
+      "preserve_original": false,
+      "suggestion": "Projétil de gelo",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0842",
+      "source_sha256": "f553335c5e2418c44d85143bf864d26da174669fb0c209e6c19fe0bbb6167954",
+      "preserve_original": false,
+      "suggestion": "Seta AA",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0843",
+      "source_sha256": "f612d9547aa8b9598e306a02a7e036eb467f5e65e8ea57529249989ccb29f653",
+      "preserve_original": false,
+      "suggestion": "Projétil AG",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0844",
+      "source_sha256": "7c1aacdbe1de912abd3934538165e7d7bee00a4ade3e093af8c497f9c5998f86",
+      "preserve_original": false,
+      "suggestion": "Projétil AW",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0845",
+      "source_sha256": "f74d148bd65e232d3bb22db0ec49dd2c8fc279c820faec36cb212f6a198f5beb",
+      "preserve_original": false,
+      "suggestion": "Projétil RAP",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0846",
+      "source_sha256": "07f85156cefb59e4c592d5c2499d46ab31fcd4f9c93e08bf6bb62a3bc85366fc",
+      "preserve_original": false,
+      "suggestion": "Projétil Strato",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0847",
+      "source_sha256": "af8e6944f67839e01db706286f3c1a3ac0b7c940a18193c0790789f3cd26f90a",
+      "preserve_original": false,
+      "suggestion": "Projétil AS",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0848",
+      "source_sha256": "a2283a9c57a4b6c2719534c9b6112a479cf4b3bfbe74b84f4d6e5923e60998ea",
+      "preserve_original": false,
+      "suggestion": "Bala perfurante",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.0849",
+      "source_sha256": "3828b08043b378e019766b6555dfa22482c4a802fe21b0e9340e50b0b0eec8fd",
+      "preserve_original": false,
+      "suggestion": "Projétil crítico",
+      "reason": "Tradução atual de munição aprovada; mantida na revisão."
+    },
+    {
+      "id": "item.name.1042",
+      "source_sha256": "9f38849dab3174f7947a77dc4c27c0cedaea5b0ad719bb14005d5cebb680c2a9",
+      "preserve_original": false,
+      "suggestion": "Rede elétrica",
+      "reason": "Sugestão descritiva para revisão humana; sem autorização de aplicação."
+    }
+  ]
+}

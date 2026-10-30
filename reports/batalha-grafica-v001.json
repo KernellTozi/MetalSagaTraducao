@@ -1,0 +1,233 @@
+{
+  "policy": "battle-compressed-tim2-fixed-labels-v001",
+  "accepted": 14,
+  "source_sha256": "1ee18ce5d9cfb4c2de9fe5b03f2b4bf398b203f5184f43920bd7f54bf0fe1d10",
+  "results": [
+    {
+      "index": 1589,
+      "offset": 321460224,
+      "slot_size": 35840,
+      "original_consumed": 35152,
+      "packed_size": 35017,
+      "remaining_slot_bytes": 823,
+      "decoded_size": 66624,
+      "decoded_sha256": "d84ab839cb9408c06e4d2eb782c4a514c1c0cef3e3c3739baa7b697a3642f22f",
+      "original_decoder_steps": 893570,
+      "labels": [
+        {
+          "id": "battle.atlas.1589.06",
+          "translation": "Habil.",
+          "rect": [
+            38,
+            139,
+            80,
+            157
+          ],
+          "natural_width": 42,
+          "rendered_width": 42,
+          "height": 16,
+          "horizontal_scale": 1.0
+        },
+        {
+          "id": "battle.atlas.1589.07",
+          "translation": "Equip.",
+          "rect": [
+            94,
+            139,
+            136,
+            157
+          ],
+          "natural_width": 46,
+          "rendered_width": 42,
+          "height": 16,
+          "horizontal_scale": 0.9130434782608695
+        },
+        {
+          "id": "battle.atlas.1589.08",
+          "translation": "Munição",
+          "rect": [
+            150,
+            139,
+            192,
+            157
+          ],
+          "natural_width": 56,
+          "rendered_width": 42,
+          "height": 16,
+          "horizontal_scale": 0.75
+        },
+        {
+          "id": "battle.atlas.1589.10",
+          "translation": "Fugir",
+          "rect": [
+            94,
+            171,
+            136,
+            189
+          ],
+          "natural_width": 38,
+          "rendered_width": 38,
+          "height": 16,
+          "horizontal_scale": 1.0
+        },
+        {
+          "id": "battle.atlas.1589.11",
+          "translation": "Dirigir",
+          "rect": [
+            150,
+            171,
+            192,
+            189
+          ],
+          "natural_width": 45,
+          "rendered_width": 42,
+          "height": 16,
+          "horizontal_scale": 0.9333333333333333
+        },
+        {
+          "id": "battle.atlas.1589.12",
+          "translation": "Arma",
+          "rect": [
+            206,
+            107,
+            248,
+            125
+          ],
+          "natural_width": 34,
+          "rendered_width": 34,
+          "height": 16,
+          "horizontal_scale": 1.0
+        },
+        {
+          "id": "battle.atlas.1589.13",
+          "translation": "Passar",
+          "rect": [
+            206,
+            139,
+            248,
+            157
+          ],
+          "natural_width": 50,
+          "rendered_width": 42,
+          "height": 16,
+          "horizontal_scale": 0.84
+        },
+        {
+          "id": "battle.atlas.1589.14",
+          "translation": "Defesa",
+          "rect": [
+            206,
+            171,
+            248,
+            189
+          ],
+          "natural_width": 51,
+          "rendered_width": 42,
+          "height": 16,
+          "horizontal_scale": 0.8235294117647058
+        }
+      ]
+    },
+    {
+      "index": 1594,
+      "offset": 321573888,
+      "slot_size": 13312,
+      "original_consumed": 12566,
+      "packed_size": 12257,
+      "remaining_slot_bytes": 1055,
+      "decoded_size": 66624,
+      "decoded_sha256": "8211d936028fec6451fd7585890d18390722391d172134e583b02269d9dca63e",
+      "original_decoder_steps": 788923,
+      "labels": [
+        {
+          "id": "battle.atlas.1594.00",
+          "translation": "Fogo",
+          "rect": [
+            2,
+            94,
+            30,
+            106
+          ],
+          "natural_width": 27,
+          "rendered_width": 27,
+          "height": 12,
+          "horizontal_scale": 1.0
+        },
+        {
+          "id": "battle.atlas.1594.01",
+          "translation": "Ácido",
+          "rect": [
+            42,
+            94,
+            70,
+            106
+          ],
+          "natural_width": 30,
+          "rendered_width": 28,
+          "height": 12,
+          "horizontal_scale": 0.9333333333333333
+        },
+        {
+          "id": "battle.atlas.1594.02",
+          "translation": "Veneno",
+          "rect": [
+            82,
+            94,
+            110,
+            106
+          ],
+          "natural_width": 36,
+          "rendered_width": 28,
+          "height": 11,
+          "horizontal_scale": 0.7777777777777778
+        },
+        {
+          "id": "battle.atlas.1594.03",
+          "translation": "Atord.",
+          "rect": [
+            122,
+            94,
+            150,
+            106
+          ],
+          "natural_width": 36,
+          "rendered_width": 28,
+          "height": 12,
+          "horizontal_scale": 0.7777777777777778
+        },
+        {
+          "id": "battle.atlas.1594.04",
+          "translation": "Caído",
+          "rect": [
+            162,
+            94,
+            190,
+            106
+          ],
+          "natural_width": 30,
+          "rendered_width": 28,
+          "height": 12,
+          "horizontal_scale": 0.9333333333333333
+        },
+        {
+          "id": "battle.atlas.1594.05",
+          "translation": "Habil.",
+          "rect": [
+            1,
+            66,
+            21,
+            77
+          ],
+          "natural_width": 27,
+          "rendered_width": 20,
+          "height": 10,
+          "horizontal_scale": 0.7407407407407407
+        }
+      ]
+    }
+  ],
+  "headers_palettes_dimensions_directory_unchanged": true,
+  "original_decoder_roundtrip": true,
+  "pcsx2_executed": false,
+  "visual_validation": "pending_user"
+}

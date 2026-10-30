@@ -1,0 +1,5 @@
+# These new recipes are bound by raw SHA-256. Preserve their exact bytes.
+# Do not renormalize historical recipes: their existing bindings stay valid.
+/translations/batalha-grafica-v001.json -text
+/translations/interface-v055.json -text
+/translations/sugestoes-armas-v001.json -text

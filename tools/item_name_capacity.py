@@ -201,6 +201,14 @@ def apply_authorized_fallback(result,current_recipe):
     recipe_path=Path(current_recipe).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
     recipe=json.loads(recipe_path.read_bytes());released=[]
+    if 'battle_atlas_release' in recipe:
+        from battle_menu_atlas import validate_interface as validate_combat,PARENT as COMBAT_PARENT
+        parent,_=validate_combat(recipe)
+        result=apply_authorized_fallback(result,ROOT/COMBAT_PARENT)
+        result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix()
+        result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
+        result['unchanged_names_overlay']='battle-compressed-tim2-fixed-labels-v001'
+        return result
     if 'remaining_name_release' in recipe:
         from remaining_item_name_release import validate_interface as validate_remaining,load as load_remaining
         parent=validate_remaining(recipe);manifest,_=load_remaining(recipe['remaining_name_release'])

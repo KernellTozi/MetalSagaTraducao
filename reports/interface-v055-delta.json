@@ -1,0 +1,26 @@
+{
+  "old_recipe": "translations/interface-v054.json",
+  "new_recipe": "translations/interface-v055.json",
+  "source_iso_sha256": "ebeea1bebd13cf0576c99b9eaf656036d3e23cfe7168aa37b95432e3b448fe5e",
+  "output_iso_sha256": "47509f21ccf240ae084fe67b0afe723c71d39688502445b116b09569123be49a",
+  "iso_size": 1704427520,
+  "changed_bytes": 43837,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "battle.tim2.1589",
+      "resource": "DATA/MMBATTLE/MMBATTLE.BIN",
+      "iso_offset": 1111826432,
+      "size": 35840
+    },
+    {
+      "id": "battle.tim2.1594",
+      "resource": "DATA/MMBATTLE/MMBATTLE.BIN",
+      "iso_offset": 1111940096,
+      "size": 13312
+    }
+  ],
+  "pcsx2_executed": false
+}

@@ -16,13 +16,16 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v054**, sobre MAP v044 e fontes/layout v005. Última rodada: **nove revisões aprovadas de nomes e três entradas de ações correspondentes**, após conferir geometria e orçamentos dos caminhos conhecidos. Mantém Idolo de barro com a exceção autorizada somente para esse nome, as revisões anteriores, Hunter, Soldier, nomes próprios, MAIN/SUB/SE e as decisões gráficas.
+**Interface v055**, sobre MAP v044 e fontes/layout v005. Corrige **14 rótulos da batalha real**, em dois atlas comprimidos de MMBATTLE.BIN. FBS_DATA era outro conjunto de gráficos; o usuário havia aberto corretamente a v054. MAIN/SUB/SE, ícones, retratos, fontes e todas as traduções anteriores foram preservados.
 
-São **3.848 unidades de interface** (métrica heterogênea que inclui painéis completos) e **6.044 registros MAP alterados**, sendo 5.991 com corpo/opções modificados. Há **991 referências de falantes traduzidas**, 13 bloqueadas no recorte de espaço e outras 523 fora dessa seleção, incluindo nomes e termos preservados. Mantêm-se **541 nomes de itens aplicados**; as 16 revisões humanas antes bloqueadas foram tratadas nas v052–v054. A conferência visual em partida normal continua pendente. Os nove nomes desta rodada são revisões de entradas existentes, não itens novos. Os 19 adiamentos técnicos restantes do catálogo são nomes de tanques preservados. Essas contagens não representam porcentagem de todo o jogo.
+São **3.862 unidades heterogêneas de interface**, **6.044 registros MAP alterados**, 5.991 com corpo/opções modificados, 991 referências de falantes traduzidas e **541 nomes de itens aplicados**. Permanecem 13 rótulos bloqueados no recorte de espaço, 523 outras referências que incluem nomes/termos preservados e 19 adiamentos de nomes de tanques. Essas contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v054/MetalSaga-ptbr-interface-v054.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. Testes automatizados e comparação integral de ISOs não substituem a conferência visual durante a partida do usuário.
+ISO: `work/interface-v055/MetalSaga-ptbr-interface-v055.iso`. Abra **Iniciar-Teste.cmd**. Integridade e delta integral verificados; a aparência dos novos gráficos depende do teste visual do usuário. O perfil isolado histórico tem cartões de memória desativados.
 
-- [Lote atual e limites](docs/interface-v054.md)
+Foi preparada uma revisão de **175 armas**, com anexo de 15 munições, em `work/revisao-armas-v001/ARMAS-PARA-REVISAR.md`. As novas sugestões aguardam revisão humana e não foram aplicadas. Para regenerar: `python tools/weapon_name_review.py`; revisões locais diferentes são preservadas. O pacote local v054 é histórico e não contém os gráficos v055.
+
+- [Lote atual e limites](docs/interface-v055.md)
+- [Revisão das armas](docs/revisao-armas-v001.md)
 - [Pendências atuais e conferência em partida](docs/pendencias-atuais.md)
 - [Patch local: gerar, aplicar e verificar](docs/patch-local-v001.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
