@@ -1,6 +1,23 @@
 # Plano para concluir a tradução
 
-## Plano vigente — base v051, revisão de 29/10/2026
+## Plano vigente — base v054, revisão de 30/10/2026
+
+As 16 revisões humanas de nomes foram tratadas nas v052–v054. A auditoria
+atual está em docs/pendencias-atuais.md: 13 rótulos genéricos sem espaço,
+revisão contextual dirigida e conferência visual em partida normal.
+Preservar as decisões de nomes e gráficos; não tratar preservações como dívida.
+
+Infraestrutura de entrega adiantada: tools/translation_patch.py gera/aplica
+um patch local com hashes integrais. O pacote v054 foi reconstruído contra
+a ISO original com resultado idêntico; procedimento em docs/patch-local-v001.md.
+Não publicar distribuição automaticamente nem declarar versão final por isso.
+
+Próximo: investigar uma hipótese diferente para o lookup dos 13 rótulos,
+com escopo limitado e testes próprios, ou corrigir problemas observados em
+uma partida. Não repetir a investigação dos 16 nomes nem as buscas de padding.
+As seções seguintes registram planos históricos e não sobrepõem este bloco.
+
+## Plano anterior — base v051, revisão de 29/10/2026
 
 Este bloco define a ordem das próximas rodadas. As seções abaixo de
 Histórico registram estados anteriores; não representam a prioridade atual.

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "scope": "local-translation-patch-and-full-ISO-roundtrip-v001",
+  "recipe": "translations/interface-v054.json",
+  "image": {
+    "path": "work/interface-v054/MetalSaga-ptbr-interface-v054.iso",
+    "size": 1704427520,
+    "sha256": "ebeea1bebd13cf0576c99b9eaf656036d3e23cfe7168aa37b95432e3b448fe5e",
+    "verified": true
+  },
+  "package": "work/entrega/MetalSaga-ptbr-v054.mspatch",
+  "patch": {
+    "format": "metal-saga-same-size-page-patch-v001",
+    "page_size": 4096,
+    "source_size": 1704427520,
+    "target_size": 1704427520,
+    "source_sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403",
+    "target_sha256": "ebeea1bebd13cf0576c99b9eaf656036d3e23cfe7168aa37b95432e3b448fe5e",
+    "records": 974,
+    "delta_sha256": "d16a05efec6e820c29ad2beb1564948d5767f4e4ffc07dbd1bbf3367086fcb7e",
+    "package_size": 872465,
+    "package_sha256": "9ea80e82776f59c73d59f83e3f79df6d193e713306714b2f7b9fa68d5f097857",
+    "replacement_page_bytes": 3989504
+  },
+  "roundtrip": {
+    "size": 1704427520,
+    "sha256": "ebeea1bebd13cf0576c99b9eaf656036d3e23cfe7168aa37b95432e3b448fe5e",
+    "verified": true
+  },
+  "originals_modified": false,
+  "pcsx2_executed": false,
+  "public_distribution_performed": false,
+  "temporary_verification_image_retained": false,
+  "validation": {
+    "tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "patterns": [
+      "test_translation_patch.py",
+      "test_iso_retention.py",
+      "test_verify_test_iso.py"
+    ]
+  },
+  "final_tool_roundtrip_verified": true
+}

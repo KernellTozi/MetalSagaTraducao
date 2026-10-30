@@ -9,6 +9,7 @@
 *.bin
 *.cue
 *.chd
+*.mspatch
 
 # Arquivos temporarios
 __pycache__/

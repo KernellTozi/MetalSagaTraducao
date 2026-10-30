@@ -1,0 +1,677 @@
+{
+  "catalog_records": 7231,
+  "translated_records": 6044,
+  "body_or_choice_changed_records": 5991,
+  "technical_deferrals": 19,
+  "protected_tank_names_still_noneditable": 19,
+  "native_pending_context": 0,
+  "other_controls_pending": 0,
+  "editorial_review_records": 124,
+  "name_expression_candidates": 455,
+  "punctuation_control_candidates": 589,
+  "native_groups": [],
+  "automatic_edit_approval": false,
+  "pcsx2_executed": false,
+  "schema": 1,
+  "scope": "Consolidated local dialogue backlog; classification is not edit approval",
+  "build": "work/interface-v054",
+  "source_map_sha256": "06b4a68a31ceb32e9298e7550affad89152a3e44e5a61013f50023745d0000f0",
+  "compiled_plan_sha256": "eefcd7eeec18f58d8ed02b09f1e072228e91f4c500025bcbe87448d7f9636691",
+  "compiled_report_sha256": "00bf9bb05ace5829a8cbcb6d0968dc456a6297539e1d3e2f364569839a810f23",
+  "outside_known_parsers_scan": {
+    "indexed_ssd_blocks": 2741,
+    "indexed_ssd_records": 61356,
+    "other_records_scanned": 54125,
+    "other_payload_bytes_scanned": 781072,
+    "other_tags": {
+      "414b0000": 1,
+      "425f6174": 1,
+      "425f6361": 1,
+      "425f6364": 1,
+      "425f6474": 1,
+      "425f6777": 2,
+      "425f7461": 3,
+      "425f7463": 1,
+      "425f7467": 5,
+      "43434800": 2,
+      "44470000": 1,
+      "454e4447": 24,
+      "456c6576": 22,
+      "46430000": 18,
+      "474a4200": 1,
+      "47534e44": 107,
+      "484f0000": 14,
+      "49410000": 88,
+      "49490000": 9,
+      "494e4e00": 16,
+      "49500000": 2,
+      "4a000000": 21,
+      "4a420000": 12,
+      "4c440000": 9,
+      "4c500000": 14,
+      "4c530000": 3,
+      "4c540000": 13,
+      "4c543200": 6,
+      "4c6e4c64": 2,
+      "4c6e4d76": 6,
+      "4d5f4400": 182,
+      "4d5f444f": 110,
+      "4d5f4500": 26,
+      "4d5f4c00": 19,
+      "4e000000": 5,
+      "50000000": 1,
+      "52424f54": 27,
+      "52450000": 24,
+      "52570000": 4,
+      "53444e50": 9,
+      "53490000": 4,
+      "534c4154": 21,
+      "534c4f54": 2,
+      "534d0000": 8,
+      "534e0000": 24,
+      "534e5200": 24,
+      "53534e44": 479,
+      "54695200": 1,
+      "57540000": 6,
+      "5f500000": 6,
+      "5f505400": 8,
+      "61646400": 544,
+      "61646466": 86,
+      "616d6263": 4,
+      "616d6264": 4,
+      "616e6400": 37,
+      "62745f32": 137,
+      "62745f33": 5,
+      "62745f73": 39,
+      "634d7274": 48,
+      "635f6473": 2,
+      "635f6863": 11,
+      "635f6874": 25,
+      "6363676d": 62,
+      "63645f6d": 48,
+      "63646c6d": 310,
+      "63647a6d": 1,
+      "63677000": 97,
+      "63677200": 1,
+      "636c5f6d": 49,
+      "636c6d00": 617,
+      "636c6d73": 303,
+      "636c6f73": 13,
+      "636d6300": 543,
+      "636d6663": 13,
+      "636d696e": 172,
+      "636d6c61": 97,
+      "636d6c66": 21,
+      "636d6c73": 25,
+      "636d7032": 18,
+      "636d7073": 163,
+      "636d7232": 14,
+      "636d7266": 22,
+      "636d7274": 167,
+      "636d7300": 5,
+      "636d7363": 95,
+      "636d7374": 1,
+      "636d7379": 107,
+      "636d7466": 9,
+      "636d7470": 20,
+      "636d7677": 371,
+      "636d7a6d": 38,
+      "636d7a73": 2,
+      "636f6d66": 574,
+      "63706300": 29,
+      "63707232": 4,
+      "63707274": 9,
+      "63707300": 24,
+      "63707332": 124,
+      "6370746c": 79,
+      "63727300": 50,
+      "63735f6d": 24,
+      "63736164": 6,
+      "6373616d": 3,
+      "63736432": 33,
+      "63736469": 110,
+      "6373646f": 81,
+      "63736474": 569,
+      "63736600": 29,
+      "63736832": 1882,
+      "6373686f": 223,
+      "63736d30": 637,
+      "63736d31": 16,
+      "63736d32": 116,
+      "63736d33": 80,
+      "63736d74": 19,
+      "63736d76": 243,
+      "63737000": 69,
+      "6373706d": 35,
+      "63737274": 192,
+      "6373796e": 653,
+      "64697600": 12,
+      "6569746d": 19,
+      "656d6f00": 1,
+      "65786974": 3472,
+      "66634146": 202,
+      "66634150": 778,
+      "66634152": 188,
+      "66634153": 680,
+      "66634446": 433,
+      "66634941": 237,
+      "66635a4d": 6,
+      "66635a4f": 3,
+      "66696e00": 238,
+      "666c6167": 602,
+      "666c6772": 207,
+      "666c6773": 1086,
+      "666f7574": 359,
+      "675f4549": 4,
+      "675f4e53": 10,
+      "675f6172": 14,
+      "675f6569": 10,
+      "675f6675": 18,
+      "675f6961": 1,
+      "675f6962": 73,
+      "675f6969": 21,
+      "675f696b": 1,
+      "675f696d": 12,
+      "675f696e": 6,
+      "675f6974": 1,
+      "675f6c69": 33,
+      "675f6c6e": 1,
+      "675f6d00": 74,
+      "675f6d69": 14,
+      "675f6d6e": 1,
+      "675f6e73": 59,
+      "675f7070": 2,
+      "675f7769": 210,
+      "675f776b": 44,
+      "67666c67": 234,
+      "6768646e": 1,
+      "67686964": 169,
+      "67687274": 29,
+      "6769696d": 5,
+      "67696c63": 12,
+      "676f746f": 2042,
+      "67707300": 44,
+      "67736870": 16,
+      "67737562": 316,
+      "6774626c": 41,
+      "67746968": 50,
+      "67746e00": 66,
+      "69660000": 5201,
+      "69666500": 346,
+      "69666600": 1585,
+      "69666665": 694,
+      "69666900": 56,
+      "69666e65": 80,
+      "69666e66": 1873,
+      "696d0000": 3,
+      "6974656d": 628,
+      "6a6d0000": 10,
+      "6c677463": 4,
+      "6c677464": 4,
+      "6d61696c": 1410,
+      "6d61726b": 8099,
+      "6d630000": 736,
+      "6d637400": 29,
+      "6d637461": 7,
+      "6d637469": 63,
+      "6d66696e": 611,
+      "6d675f73": 16,
+      "6d6f7600": 3045,
+      "6d756c00": 7,
+      "6f720000": 50,
+      "7061726b": 1,
+      "7069646a": 9,
+      "70696477": 151,
+      "70696a00": 59,
+      "70696a32": 46,
+      "70697700": 172,
+      "70746365": 141,
+      "70746772": 77,
+      "70746773": 29,
+      "70746972": 3,
+      "7074706b": 27,
+      "70747076": 42,
+      "70747366": 124,
+      "7074736d": 8,
+      "70756200": 15,
+      "72657400": 109,
+      "726d0000": 17,
+      "726e6400": 424,
+      "735f616d": 10,
+      "735f6367": 17,
+      "735f6764": 12,
+      "735f6773": 1,
+      "735f6774": 23,
+      "735f6966": 15,
+      "735f6a64": 12,
+      "735f6d6f": 2,
+      "735f7064": 2,
+      "735f7074": 5,
+      "735f7270": 27,
+      "735f736d": 63,
+      "735f7400": 8,
+      "735f7470": 2,
+      "735f7476": 19,
+      "735f7700": 95,
+      "735f776b": 29,
+      "73636a70": 589,
+      "7364706c": 329,
+      "7364706f": 47,
+      "73647075": 50,
+      "73647374": 27,
+      "73653200": 4,
+      "7365706c": 669,
+      "73657363": 36,
+      "73657374": 186,
+      "73686f70": 132,
+      "73736168": 49,
+      "73736276": 1,
+      "73736500": 16,
+      "73756200": 40,
+      "73756266": 84,
+      "73757077": 102,
+      "73757200": 12,
+      "746c5f68": 58,
+      "746c5f73": 3,
+      "746c5f76": 52,
+      "746c5f77": 3,
+      "76696250": 8,
+      "76696253": 1,
+      "77616974": 1388,
+      "77696e00": 10,
+      "776f7574": 64
+    },
+    "candidate_records": 0,
+    "criterion": "ASCII letter followed by >=10 printable bytes, contains space, excludes path/scope delimiters",
+    "limits": "Indexed SSD only; short/native/compressed/outside-SSD text may be missed; no completeness proof or automatic parser promotion"
+  },
+  "speaker_label_catalogue": {
+    "label_references": 1527,
+    "unique_labels": 134,
+    "editing_authorized": false,
+    "translated_label_references": 991,
+    "remaining_label_references": 536,
+    "explicit_overlay_policy": "map-generic-speaker-label-fixed-slots-v001",
+    "explicit_relocation_policy": "map-generic-speaker-label-same-record-tail-borrow-v002",
+    "explicit_byte_tail_policy": "map-generic-speaker-label-byte-tail-borrow-v003",
+    "explicit_context_review_policy": "map-context-reviewed-speaker-layout-v004",
+    "explicit_body_review_policy": "map-reviewed-body-and-complete-speaker-tail-v005",
+    "explicit_faction_review_policy": "map-reviewed-bb-occupation-original-slots-v006",
+    "explicit_context_finish_policy": "map-contextual-final-dialogue-review-v007",
+    "limits": "No unrestricted or automatic label editing; explicit source-bound overlay may translate reviewed generic roles only; proper names, markers and unknown labels remain protected"
+  },
+  "speaker_label_consumer_evidence": {
+    "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+    "instruction_assertions": [
+      {
+        "offset": 1860936,
+        "word": "0c0bf25a"
+      },
+      {
+        "offset": 1860940,
+        "word": "0240282d"
+      },
+      {
+        "offset": 1863136,
+        "word": "0c0bf25a"
+      },
+      {
+        "offset": 1863140,
+        "word": "0200282d"
+      },
+      {
+        "offset": 2087292,
+        "word": "00a0902d"
+      },
+      {
+        "offset": 2087384,
+        "word": "0c0c95b3"
+      },
+      {
+        "offset": 2087388,
+        "word": "0240202d"
+      },
+      {
+        "offset": 2087412,
+        "word": "24420004"
+      },
+      {
+        "offset": 2087436,
+        "word": "00442024"
+      },
+      {
+        "offset": 2087440,
+        "word": "0c0a9478"
+      },
+      {
+        "offset": 2087448,
+        "word": "0240282d"
+      },
+      {
+        "offset": 2087452,
+        "word": "ae220034"
+      },
+      {
+        "offset": 2087456,
+        "word": "0c0c956d"
+      },
+      {
+        "offset": 2087460,
+        "word": "0040202d"
+      }
+    ],
+    "msgn_label_call": 1860936,
+    "named_choice_label_call": 1863136,
+    "setter": 2087272,
+    "setter_destination_field": 52,
+    "helper_call_offsets": [
+      2254540,
+      1728992,
+      2254260
+    ],
+    "observed": "Both callers forward their label pointer in a1; setter retains it, transforms helper return with +4/alignment mask, stores a returned pointer at object+0x34, and forwards source/destination to another helper",
+    "hypothesis": "Length-based allocation and string copy; helper implementations/rendering and any portrait dependencies require further proof before editing",
+    "editing_enabled": false,
+    "instructions_executed": false,
+    "pcsx2_executed": false
+  },
+  "speaker_label_overlay_evidence": {
+    "policy": "map-generic-speaker-label-fixed-slots-v001",
+    "accepted": 553,
+    "distinct_roles": 72,
+    "new_changed_records": 16,
+    "instruction_windows": [
+      {
+        "offset": 1860872,
+        "size": 76,
+        "sha256": "62daca9c0992e9a4e68e500fcebfee2b159057469b42650c2d3d6b147c7a5bc9"
+      },
+      {
+        "offset": 1863088,
+        "size": 56,
+        "sha256": "dae49567d199f3408c0b092c4fdbf62cdca2bad7cb0de747106ada4baa84931b"
+      },
+      {
+        "offset": 2087272,
+        "size": 216,
+        "sha256": "c0925505e58fc5393c4dcd35be6fc973df83e1c7283f5d039c6871f31800c2fb"
+      },
+      {
+        "offset": 2087680,
+        "size": 68,
+        "sha256": "a4b93ffa0573475ee1107cc83a97884ab2a2eadb79eadf18ef9d317c1f40a66b"
+      },
+      {
+        "offset": 2254260,
+        "size": 20,
+        "sha256": "e5f68fcb6107861b01b3a8d709882bdca65916623dbdcb47a3b35ac8286c4625"
+      },
+      {
+        "offset": 2254508,
+        "size": 44,
+        "sha256": "c6f7f73adafebf3dd40f05c307ad8ecce65b8876bce2d338c5e5272f7fa404e6"
+      },
+      {
+        "offset": 2254832,
+        "size": 32,
+        "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+      }
+    ],
+    "legacy_labels_remain_protected": true,
+    "pcsx2_executed": false,
+    "runtime_visual_status": "pending_user_verification",
+    "probe_limits": "Original scalar strlen, allocation arguments, setter forwarding, unaligned scalar strcpy and nonzero-label getter executed in synthetic memory; allocator stubbed; cleanup, aligned SIMD, drawing and portraits not executed"
+  },
+  "speaker_label_relocation_evidence": {
+    "policy": "map-generic-speaker-label-same-record-tail-borrow-v002",
+    "accepted": 239,
+    "new_changed_records": 0,
+    "instruction_windows": [
+      {
+        "offset": 1860764,
+        "size": 24,
+        "sha256": "d2201a8de5d28fab69634c3bc05b855bd4993bd8c638a2c5c3e02281b9054d89"
+      },
+      {
+        "offset": 1860872,
+        "size": 72,
+        "sha256": "0fd2aaf893e9f879bedbba913bf71f80800453150fd3f0145bd347753bde83bb"
+      },
+      {
+        "offset": 1863052,
+        "size": 92,
+        "sha256": "e8f1d0c1ec9ac2198df06db0f1a5424a4d00f2bca7761a4e180ede1fdb223d88"
+      },
+      {
+        "offset": 2253512,
+        "size": 12,
+        "sha256": "c1bf149ca30b910419e131fd8cc515454758d4fb533c41fcf2bbe9f124c7a236"
+      },
+      {
+        "offset": 2253884,
+        "size": 44,
+        "sha256": "bc8f2be1c87550ce6a82cb33d2548d04418cedd299a13057796f24982e6ff9c1"
+      }
+    ],
+    "bodies_choices_headers_and_record_boundaries_unchanged": true,
+    "extraction_metadata_unchanged": true,
+    "pcsx2_executed": false,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Original scalar strchr and zero-skip scanners executed in synthetic memory for both old/new records; aligned SIMD, complete caller, objects, drawing and portraits not executed; original record/SSD/ISO extents preserved"
+  },
+  "speaker_label_byte_tail_evidence": {
+    "policy": "map-generic-speaker-label-byte-tail-borrow-v003",
+    "accepted": 75,
+    "new_changed_records": 25,
+    "instruction_windows": [
+      {
+        "offset": 1860764,
+        "size": 24,
+        "sha256": "d2201a8de5d28fab69634c3bc05b855bd4993bd8c638a2c5c3e02281b9054d89"
+      },
+      {
+        "offset": 1860872,
+        "size": 72,
+        "sha256": "0fd2aaf893e9f879bedbba913bf71f80800453150fd3f0145bd347753bde83bb"
+      },
+      {
+        "offset": 1863052,
+        "size": 92,
+        "sha256": "e8f1d0c1ec9ac2198df06db0f1a5424a4d00f2bca7761a4e180ede1fdb223d88"
+      },
+      {
+        "offset": 2253512,
+        "size": 12,
+        "sha256": "c1bf149ca30b910419e131fd8cc515454758d4fb533c41fcf2bbe9f124c7a236"
+      },
+      {
+        "offset": 2253884,
+        "size": 44,
+        "sha256": "bc8f2be1c87550ce6a82cb33d2548d04418cedd299a13057796f24982e6ff9c1"
+      }
+    ],
+    "bodies_choices_headers_and_record_boundaries_unchanged": true,
+    "extraction_metadata_unchanged": true,
+    "pcsx2_executed": false,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Original scalar strchr and zero-skip scanners executed in synthetic memory for both old/new records; aligned SIMD, complete caller, objects, drawing and portraits not executed; original record/SSD/ISO extents preserved"
+  },
+  "speaker_context_review_evidence": {
+    "policy": "map-context-reviewed-speaker-layout-v004",
+    "accepted": 45,
+    "new_changed_records": 0,
+    "instruction_windows": [
+      {
+        "offset": 1860764,
+        "size": 24,
+        "sha256": "d2201a8de5d28fab69634c3bc05b855bd4993bd8c638a2c5c3e02281b9054d89"
+      },
+      {
+        "offset": 1860872,
+        "size": 72,
+        "sha256": "0fd2aaf893e9f879bedbba913bf71f80800453150fd3f0145bd347753bde83bb"
+      },
+      {
+        "offset": 1863052,
+        "size": 92,
+        "sha256": "e8f1d0c1ec9ac2198df06db0f1a5424a4d00f2bca7761a4e180ede1fdb223d88"
+      },
+      {
+        "offset": 2253512,
+        "size": 12,
+        "sha256": "c1bf149ca30b910419e131fd8cc515454758d4fb533c41fcf2bbe9f124c7a236"
+      },
+      {
+        "offset": 2253884,
+        "size": 44,
+        "sha256": "bc8f2be1c87550ce6a82cb33d2548d04418cedd299a13057796f24982e6ff9c1"
+      },
+      {
+        "offset": 1862848,
+        "size": 20,
+        "sha256": "0f911b51526b0236adecc4f50bc035e2ab660668e547ee6d85e79a4021671879"
+      },
+      {
+        "offset": 1862956,
+        "size": 60,
+        "sha256": "eafb2ea10a1dba36867b0e01444d84e340a9559a336287357f846758fe99f1c7"
+      }
+    ],
+    "pcsx2_executed": false,
+    "runtime_visual_status": "pending_user_verification",
+    "limits": "Original scalar searches, zero scanners and label copy probes only; complete choice helper, aligned SIMD, objects, allocator and drawing not executed; body/options bytes preserved exactly"
+  },
+  "speaker_body_review_evidence": {
+    "policy": "map-reviewed-body-and-complete-speaker-tail-v005",
+    "accepted": 36,
+    "remaining_reviewed_role_references": 13,
+    "new_changed_records": 0,
+    "instruction_windows": [
+      {
+        "offset": 1860764,
+        "size": 24,
+        "sha256": "d2201a8de5d28fab69634c3bc05b855bd4993bd8c638a2c5c3e02281b9054d89"
+      },
+      {
+        "offset": 1860872,
+        "size": 72,
+        "sha256": "0fd2aaf893e9f879bedbba913bf71f80800453150fd3f0145bd347753bde83bb"
+      },
+      {
+        "offset": 1863052,
+        "size": 92,
+        "sha256": "e8f1d0c1ec9ac2198df06db0f1a5424a4d00f2bca7761a4e180ede1fdb223d88"
+      },
+      {
+        "offset": 2253512,
+        "size": 12,
+        "sha256": "c1bf149ca30b910419e131fd8cc515454758d4fb533c41fcf2bbe9f124c7a236"
+      },
+      {
+        "offset": 2253884,
+        "size": 44,
+        "sha256": "bc8f2be1c87550ce6a82cb33d2548d04418cedd299a13057796f24982e6ff9c1"
+      }
+    ],
+    "runtime_visual_status": "pending_user_verification",
+    "pcsx2_executed": false,
+    "limits": "Existing legacy body checks, source-bound complete labels and original scalar lookup/copy/getter probes; no record/SSD growth, full renderer, aligned SIMD or PCSX2 execution."
+  },
+  "speaker_faction_review_evidence": {
+    "policy": "map-reviewed-bb-occupation-original-slots-v006",
+    "accepted": 32,
+    "distinct_roles": 8,
+    "new_changed_records": 11,
+    "instruction_windows": [
+      {
+        "offset": 1860872,
+        "size": 76,
+        "sha256": "62daca9c0992e9a4e68e500fcebfee2b159057469b42650c2d3d6b147c7a5bc9"
+      },
+      {
+        "offset": 1863088,
+        "size": 56,
+        "sha256": "dae49567d199f3408c0b092c4fdbf62cdca2bad7cb0de747106ada4baa84931b"
+      },
+      {
+        "offset": 2087272,
+        "size": 216,
+        "sha256": "c0925505e58fc5393c4dcd35be6fc973df83e1c7283f5d039c6871f31800c2fb"
+      },
+      {
+        "offset": 2087680,
+        "size": 68,
+        "sha256": "a4b93ffa0573475ee1107cc83a97884ab2a2eadb79eadf18ef9d317c1f40a66b"
+      },
+      {
+        "offset": 2254260,
+        "size": 20,
+        "sha256": "e5f68fcb6107861b01b3a8d709882bdca65916623dbdcb47a3b35ac8286c4625"
+      },
+      {
+        "offset": 2254508,
+        "size": 44,
+        "sha256": "c6f7f73adafebf3dd40f05c307ad8ecce65b8876bce2d338c5e5272f7fa404e6"
+      },
+      {
+        "offset": 2254832,
+        "size": 32,
+        "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+      }
+    ],
+    "legacy_labels_remain_protected": true,
+    "pcsx2_executed": false,
+    "runtime_visual_status": "pending_user_verification",
+    "probe_limits": "Original scalar strlen, allocation arguments, setter forwarding, unaligned scalar strcpy and nonzero-label getter executed in synthetic memory; allocator stubbed; cleanup, aligned SIMD, drawing and portraits not executed"
+  },
+  "context_finish_evidence": {
+    "policy": "map-contextual-final-dialogue-review-v007",
+    "accepted": 11,
+    "distinct_roles": 7,
+    "new_changed_records": 1,
+    "instruction_windows": [
+      {
+        "offset": 1860872,
+        "size": 76,
+        "sha256": "62daca9c0992e9a4e68e500fcebfee2b159057469b42650c2d3d6b147c7a5bc9"
+      },
+      {
+        "offset": 1863088,
+        "size": 56,
+        "sha256": "dae49567d199f3408c0b092c4fdbf62cdca2bad7cb0de747106ada4baa84931b"
+      },
+      {
+        "offset": 2087272,
+        "size": 216,
+        "sha256": "c0925505e58fc5393c4dcd35be6fc973df83e1c7283f5d039c6871f31800c2fb"
+      },
+      {
+        "offset": 2087680,
+        "size": 68,
+        "sha256": "a4b93ffa0573475ee1107cc83a97884ab2a2eadb79eadf18ef9d317c1f40a66b"
+      },
+      {
+        "offset": 2254260,
+        "size": 20,
+        "sha256": "e5f68fcb6107861b01b3a8d709882bdca65916623dbdcb47a3b35ac8286c4625"
+      },
+      {
+        "offset": 2254508,
+        "size": 44,
+        "sha256": "c6f7f73adafebf3dd40f05c307ad8ecce65b8876bce2d338c5e5272f7fa404e6"
+      },
+      {
+        "offset": 2254832,
+        "size": 32,
+        "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+      }
+    ],
+    "legacy_labels_remain_protected": true,
+    "pcsx2_executed": false,
+    "runtime_visual_status": "pending_user_verification",
+    "probe_limits": "Original scalar strlen, allocation arguments, setter forwarding, unaligned scalar strcpy and nonzero-label getter executed in synthetic memory; allocator stubbed; cleanup, aligned SIMD, drawing and portraits not executed",
+    "reviewed_bodies": 5
+  },
+  "originals_modified": false,
+  "iso_created": false
+}

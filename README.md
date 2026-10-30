@@ -23,6 +23,8 @@ São **3.848 unidades de interface** (métrica heterogênea que inclui painéis 
 ISO: `work/interface-v054/MetalSaga-ptbr-interface-v054.iso`. Abra **Iniciar-Teste.cmd**, que confere tamanho/hash/transações e usa inicialização limpa em vez de save state antigo. Testes automatizados e comparação integral de ISOs não substituem a conferência visual durante a partida do usuário.
 
 - [Lote atual e limites](docs/interface-v054.md)
+- [Pendências atuais e conferência em partida](docs/pendencias-atuais.md)
+- [Patch local: gerar, aplicar e verificar](docs/patch-local-v001.md)
 - [Plano de conclusão](docs/plano-conclusao.md)
 - [Investigação dos nomes bloqueados](docs/capacidade-nomes-v001.md)
 - [Buffers e expansão dos nomes](docs/buffers-nomes-v002.md)

@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v054.json",
+  "audit": "reports/auditoria-dialogos-v054.json",
+  "blocked_role_labels": [
+    {
+      "id": "map.msgn.057d67dc",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 92104736,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0db14094",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 229720260,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0db140dc",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 229720332,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0db147f8",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 229722156,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0db14898",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 229722304,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0db148e0",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 229722380,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0e777edc",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 242712324,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0e778354",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 242713500,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.14aad804",
+      "source_role": "Worker",
+      "target": "Trabalhador",
+      "compiled_capacity": 7,
+      "target_bytes": 11,
+      "offset": 346740780,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0be1acd8",
+      "source_role": "Man",
+      "target": "Homem",
+      "compiled_capacity": 3,
+      "target_bytes": 5,
+      "offset": 199339264,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0be25188",
+      "source_role": "Transporter",
+      "target": "Transportador",
+      "compiled_capacity": 11,
+      "target_bytes": 13,
+      "offset": 199381428,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.0be2d3a4",
+      "source_role": "Cat",
+      "target": "Gato",
+      "compiled_capacity": 3,
+      "target_bytes": 4,
+      "offset": 199414732,
+      "status": "blocked-space-no-edit-authorized"
+    },
+    {
+      "id": "map.msgn.19f55614",
+      "source_role": "Dog",
+      "target": "Cão",
+      "compiled_capacity": 3,
+      "target_bytes": 4,
+      "offset": 435508796,
+      "status": "blocked-space-no-edit-authorized"
+    }
+  ],
+  "technical_deferrals_preserved_tank_names": 19,
+  "native_pending": 0,
+  "other_controls_pending": 0,
+  "outside_parser_candidates": 0,
+  "remaining_speaker_references": 536,
+  "remaining_nonblocked_speaker_references_are_mixed_preservations_and_context": 523,
+  "full_game_coverage_proven": false,
+  "pcsx2_executed": false
+}
