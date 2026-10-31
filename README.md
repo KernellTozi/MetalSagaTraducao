@@ -16,17 +16,17 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v057**, sobre MAP v044 e fontes/layout v005. Corrige as lacunas observadas no Satcom: **Qual loja?**, **Atual**, **Meta**, **Mundo aberto** em 113 saídas e um novo desenho nativo de **Tempo de jogo**. Os botões de batalha da v055 permanecem preservados.
+**Interface v058**, sobre MAP v044 e fontes/layout v005. Aplica em uma única versão os **86 nomes de armas aprovados** e suas **91 referências de ação**, preservando os **89 MANTER**. Zero fallback sem acento e zero conflitos. As 15 munições especiais permanecem intactas.
 
-São **3.978 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados, 991 referências de falantes traduzidas e **541 nomes de itens aplicados**. Os novos rótulos de navegação não são contados como diálogos. Permanecem 13 rótulos bloqueados no recorte de espaço, 523 outras referências que incluem nomes/termos preservados e 19 adiamentos de nomes de tanques. Essas contagens não representam porcentagem de todo o jogo.
+São **627 nomes de itens aplicados**, **4.155 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências de falantes traduzidas. Mundo aberto e os gráficos da v057 permanecem iguais. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v057/MetalSaga-ptbr-interface-v057.iso`. Abra **Iniciar-Teste.cmd**. Integridade e comparação integral verificadas; confirmar apresentação e transição de saída na partida do usuário. O perfil isolado histórico tem cartões de memória desativados.
+ISO: `work/interface-v058/MetalSaga-ptbr-interface-v058.iso`. Abra **Iniciar-Teste.cmd**. Testar nomes em equipamentos, lojas e ações de batalha na próxima partida. O perfil isolado histórico tem cartões de memória desativados.
 
-A revisão de **175 armas**, com anexo de 15 munições, permanece em `work/revisao-armas-v001/ARMAS-PARA-REVISAR.md`. As propostas aguardam revisão humana e não foram aplicadas. O gerador `python tools/weapon_name_review.py` mantém a base v055 dessa revisão, cujos nomes não mudaram nas v056/v057, e preserva decisões editadas. O pacote local v054 é histórico e não contém as correções v055–v057.
+A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
-- [Lote atual e limites](docs/interface-v056.md)
+- [Lote de armas aplicado e limites](docs/interface-v058.md)
+- [Satcom e Mundo aberto](docs/interface-v056.md)
 - [Batalha corrigida na v055](docs/interface-v055.md)
-- [Revisão das armas](docs/revisao-armas-v001.md)
 - [Pendências atuais e conferência em partida](docs/pendencias-atuais.md)
 - [Patch local: gerar, aplicar e verificar](docs/patch-local-v001.md)
 - [Plano de conclusão](docs/plano-conclusao.md)

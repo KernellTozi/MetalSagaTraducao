@@ -1,0 +1,3274 @@
+{
+  "schema": 1,
+  "policy": "human-approved-86-weapon-names-fixed-fields-v001",
+  "parent_recipe": "translations/interface-v057.json",
+  "parent_sha256": "8be836a8ab630e54cd3633b80ccedc8ac8ca63b9d01078f976b8cb0faaef63e2",
+  "approval_document_sha256": "4a622a8682d61f865c797eb4af7c435396aea7e38ba7fc5996f00adcf2ee8dcf",
+  "approval_source_format": "Complete equivalent Markdown table; no CSV supplied",
+  "audit_sha256": "1fdcc163bbfafda8ee564282c80dfab867325c6b0257d3822cff72dfc9c4a72c",
+  "spack_sha256": "2aa5afcade85bceeced003ac4005a4f81d6135713f24b6ebee22f4fd8f7d244c",
+  "proof": "reports/armas-aprovadas-largura-v001.json",
+  "proof_sha256": "9bc9f81df676a7a76d25e2071d003de9ba89781b97d392f17b2e2ea91bce6e63",
+  "decisions": [
+    {
+      "id": "item.name.0001",
+      "index": 1,
+      "offset": 2208,
+      "source_sha256": "6d3c365e011ea8f0f71e41efc7704e4551de80238e67e3c2cc72dffc2b5e15d2",
+      "record_sha256": "fc93e09d5dc9600621d39f6d4eea719227a5c00c5e3f1be550e1d37b581d1578",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "c4769f4fb6e86b048c2dff66cafe7eca08d45346f73acb31d08bda7f6edc7aec",
+      "parent_name_sha256": "6d3c365e011ea8f0f71e41efc7704e4551de80238e67e3c2cc72dffc2b5e15d2"
+    },
+    {
+      "id": "item.name.0002",
+      "index": 2,
+      "offset": 2336,
+      "source_sha256": "0e9e7c8e13ec34c73db8e73090c3b934304e120da1da834dfee206040d9874ce",
+      "record_sha256": "cff2689e5736ad402a3d1b8e366f05a88ae993d16e96623d247986569c3c039a",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 16,
+      "approved_name_sha256": "e7fb26970926365e19f4570b93f7be9a7aca53fcdbf7c0200ee93c1cfca036ad",
+      "parent_name_sha256": "0e9e7c8e13ec34c73db8e73090c3b934304e120da1da834dfee206040d9874ce"
+    },
+    {
+      "id": "item.name.0003",
+      "index": 3,
+      "offset": 2464,
+      "source_sha256": "d76867b64dc5dc65359a6374b6a444effaddca8a77753215d0700642f8a2bbf2",
+      "record_sha256": "6b60e48bcdaaab0d7283d40d417f660ece8e482fe41ebe0835ddefe7e3e8838d",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "d76867b64dc5dc65359a6374b6a444effaddca8a77753215d0700642f8a2bbf2",
+      "parent_name_sha256": "d76867b64dc5dc65359a6374b6a444effaddca8a77753215d0700642f8a2bbf2"
+    },
+    {
+      "id": "item.name.0004",
+      "index": 4,
+      "offset": 2592,
+      "source_sha256": "add71474746175c1b2ec0a2ac62836817ad37897e9473fab1a96fbb085bbefe7",
+      "record_sha256": "9bc9c020d785121f91906232ea95d0a02bb6c03407ff27a0d5a05549610c9931",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 6,
+      "approved_name_sha256": "0e138d16401285cccabf06674a65f62e7b6184d6c3fb0b615d16abf4c7e95455",
+      "parent_name_sha256": "add71474746175c1b2ec0a2ac62836817ad37897e9473fab1a96fbb085bbefe7"
+    },
+    {
+      "id": "item.name.0005",
+      "index": 5,
+      "offset": 2720,
+      "source_sha256": "c39d72b3eedeac5f3b5399bf20c3a1c30be4c9c0148c0223852b91ec249e5e1d",
+      "record_sha256": "da3515d35f66f7b453e5ae6d5fab0cd4b7a6a0f2b86d0fc09acad37834d1576a",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "e9c84a763b91664dd77319f35c3ef8eaa094b3b5c7f37d600050437a6c8f9c02",
+      "parent_name_sha256": "c39d72b3eedeac5f3b5399bf20c3a1c30be4c9c0148c0223852b91ec249e5e1d"
+    },
+    {
+      "id": "item.name.0006",
+      "index": 6,
+      "offset": 2848,
+      "source_sha256": "466d4acfbb0a1aa6669e6a61617e0a18ffd49c7b0a7f99408d330f5ab58e54ff",
+      "record_sha256": "eb932b7ec787076862a70dd81ad3169b1b1baed142ecb1226c2d767ae88c17b6",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "80d91bc9b06d300b6afa9fb410b346542832364a106d69a8e8f375a0f80ea842",
+      "parent_name_sha256": "466d4acfbb0a1aa6669e6a61617e0a18ffd49c7b0a7f99408d330f5ab58e54ff"
+    },
+    {
+      "id": "item.name.0007",
+      "index": 7,
+      "offset": 2976,
+      "source_sha256": "f0b11180f8fd0f9a413610c66f3deace3015bbb2fec194de7ad661fa976a250f",
+      "record_sha256": "411df8f8b8abdb955ad318275a362a1996106c54557a40da372aa409d4fc0fde",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "f0b11180f8fd0f9a413610c66f3deace3015bbb2fec194de7ad661fa976a250f",
+      "parent_name_sha256": "f0b11180f8fd0f9a413610c66f3deace3015bbb2fec194de7ad661fa976a250f"
+    },
+    {
+      "id": "item.name.0008",
+      "index": 8,
+      "offset": 3104,
+      "source_sha256": "0badecc5f2cdd2d968f0ac5dc2fc74e77b997ac30c7fe1112c9a2bacec276db5",
+      "record_sha256": "de9829dd88f57119b2e8521ebd4f55e453a6b35bf87d45b41a480ff00695aef0",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 13,
+      "approved_name_sha256": "0badecc5f2cdd2d968f0ac5dc2fc74e77b997ac30c7fe1112c9a2bacec276db5",
+      "parent_name_sha256": "0badecc5f2cdd2d968f0ac5dc2fc74e77b997ac30c7fe1112c9a2bacec276db5"
+    },
+    {
+      "id": "item.name.0009",
+      "index": 9,
+      "offset": 3232,
+      "source_sha256": "9ce6222595e92264657832c0236491c04dd80f8e4ef5705726d510373d33a253",
+      "record_sha256": "7ec8576730b43c8c6287f24013f809226282e55ac9caac711eebc533be522d1f",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "9ce6222595e92264657832c0236491c04dd80f8e4ef5705726d510373d33a253",
+      "parent_name_sha256": "9ce6222595e92264657832c0236491c04dd80f8e4ef5705726d510373d33a253"
+    },
+    {
+      "id": "item.name.0010",
+      "index": 10,
+      "offset": 3360,
+      "source_sha256": "530dce53ee0b40ab3ea4bb6485cc87cad55d27ff064b4065e62d814dce07837c",
+      "record_sha256": "56e803fdcfbb3c577791e7fe22654303d68278ea9866f67f1ec0bbd717dd6028",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 16,
+      "approved_name_sha256": "41398c9b00a7a0b7c22df70901b59086afef052db46c7b3519dbb0d632159bff",
+      "parent_name_sha256": "530dce53ee0b40ab3ea4bb6485cc87cad55d27ff064b4065e62d814dce07837c"
+    },
+    {
+      "id": "item.name.0011",
+      "index": 11,
+      "offset": 3488,
+      "source_sha256": "c25070814c9dba6590da65372dfb30ecbe45fe2b54174f88ec067351266c74c1",
+      "record_sha256": "1bba42bbab4f7d636faa9af2a335a379db07d6fe5041518e387ecd5a61ac35dd",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "917844ba92634c21fd71d44d5dae412ce35e0e9f10d1aa09335b8b9c939bf064",
+      "parent_name_sha256": "c25070814c9dba6590da65372dfb30ecbe45fe2b54174f88ec067351266c74c1"
+    },
+    {
+      "id": "item.name.0012",
+      "index": 12,
+      "offset": 3616,
+      "source_sha256": "ced97b8032c988f298fee254ced34ad6f33ea940e387b6b90642ea8b5ef38dc9",
+      "record_sha256": "3249ca1989ca8cae99e617ee168f2d0d74d1ac97fad5f52fa61efc6b33de9fa2",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "4d44451b079bf54c9c9267fd4f191fc39f1c452c43c4892b32ae67ebca71bd8d",
+      "parent_name_sha256": "ced97b8032c988f298fee254ced34ad6f33ea940e387b6b90642ea8b5ef38dc9"
+    },
+    {
+      "id": "item.name.0013",
+      "index": 13,
+      "offset": 3744,
+      "source_sha256": "24f2a302d2efe1a10f6575d2df510854e8cf46e086fdf867b563bde238c1a655",
+      "record_sha256": "dc740ce890f72d6339edc2800ab6fe1d24f085e67dd20a17c6971a7af452557a",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "ab0ba4a0590a6fec2de7fbdade210ebfac067dec689cfc006248bb12d05c8fea",
+      "parent_name_sha256": "24f2a302d2efe1a10f6575d2df510854e8cf46e086fdf867b563bde238c1a655"
+    },
+    {
+      "id": "item.name.0014",
+      "index": 14,
+      "offset": 3872,
+      "source_sha256": "74f6bfe8586846cba532fc9a8568368f27055fc9d627ad17105fccc81dcc94f5",
+      "record_sha256": "0efd683901fa24e32902080ab9bb89bc58a5d0511d0809b4f7f5acfd39210cfd",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 16,
+      "approved_name_sha256": "cbd872d03ba6de27e917d580866ba5a33278547b06bfb44b60abf33540f12668",
+      "parent_name_sha256": "74f6bfe8586846cba532fc9a8568368f27055fc9d627ad17105fccc81dcc94f5"
+    },
+    {
+      "id": "item.name.0015",
+      "index": 15,
+      "offset": 4000,
+      "source_sha256": "fc3f25517d873b28507d9987a4dd8e0866009d17b41060389db9ae7b0734c53e",
+      "record_sha256": "3959ef252eaa840de9780e0573d8516f28fc1d00d5ed18b2ab5be29d63b2ad86",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "fc3f25517d873b28507d9987a4dd8e0866009d17b41060389db9ae7b0734c53e",
+      "parent_name_sha256": "fc3f25517d873b28507d9987a4dd8e0866009d17b41060389db9ae7b0734c53e"
+    },
+    {
+      "id": "item.name.0016",
+      "index": 16,
+      "offset": 4128,
+      "source_sha256": "04456f1508665dcfb2fed12dec86bca4a1847e4b7ae9d76ed759703b4d081bf0",
+      "record_sha256": "4df8d2693d9aa440f982b7b65ddb3d816d88e28f3aacdbb560b9e57d63c471a2",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 8,
+      "approved_name_sha256": "04456f1508665dcfb2fed12dec86bca4a1847e4b7ae9d76ed759703b4d081bf0",
+      "parent_name_sha256": "04456f1508665dcfb2fed12dec86bca4a1847e4b7ae9d76ed759703b4d081bf0"
+    },
+    {
+      "id": "item.name.0017",
+      "index": 17,
+      "offset": 4256,
+      "source_sha256": "1755cb4fad2209ab07b1f9baa388caf0b032ad909bcf721499f2e3f00c5b4ca0",
+      "record_sha256": "c71994505ef049933f4ab20d156558c4eba5a816c0b1693755e8cdb24ffeabcd",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "1b74060465475b46fc8d85fb277dc236e8e75037a61153be79f1744ee38ba1c7",
+      "parent_name_sha256": "1755cb4fad2209ab07b1f9baa388caf0b032ad909bcf721499f2e3f00c5b4ca0"
+    },
+    {
+      "id": "item.name.0018",
+      "index": 18,
+      "offset": 4384,
+      "source_sha256": "de4d8d53cabfb4fd460ceb2b3e40ae986a68bb09362de198fb49b5ea9bc14431",
+      "record_sha256": "a530e7faac345bd881d0e2b2c6576cc5132605bd1a2177c7fd1bf31b53167c00",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "6541248fa26277eda14065242ecc2c6feaa4af9b00bc12594b920d387768352b",
+      "parent_name_sha256": "de4d8d53cabfb4fd460ceb2b3e40ae986a68bb09362de198fb49b5ea9bc14431"
+    },
+    {
+      "id": "item.name.0019",
+      "index": 19,
+      "offset": 4512,
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "record_sha256": "db68e0e0e4c00996f36389d33dc33c5504807caf0a245e42b7dece02a2424c31",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 10,
+      "approved_name_sha256": "9ac699fffac449c5283cd2704a9938acba25d6f07817ebcda504efc7e324569c",
+      "parent_name_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0"
+    },
+    {
+      "id": "item.name.0020",
+      "index": 20,
+      "offset": 4640,
+      "source_sha256": "adff300da43d5d22c300a659ae9cf5b1ef582b51e1363e5039f442182f59a66f",
+      "record_sha256": "3d8d60fa86f232ad54a10d14795ee03b31dd16a7f6f60b5d702ca5b93e9a88af",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "adff300da43d5d22c300a659ae9cf5b1ef582b51e1363e5039f442182f59a66f",
+      "parent_name_sha256": "adff300da43d5d22c300a659ae9cf5b1ef582b51e1363e5039f442182f59a66f"
+    },
+    {
+      "id": "item.name.0021",
+      "index": 21,
+      "offset": 4768,
+      "source_sha256": "de8aa6a70615e9b94c6e7264815ad06c9cdb132e10511b81fe72a400f23d8a48",
+      "record_sha256": "db935a162369d1de29723995e66e085e3788d13638b801f3a7bc9a27e5b9b6bf",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "de8aa6a70615e9b94c6e7264815ad06c9cdb132e10511b81fe72a400f23d8a48",
+      "parent_name_sha256": "de8aa6a70615e9b94c6e7264815ad06c9cdb132e10511b81fe72a400f23d8a48"
+    },
+    {
+      "id": "item.name.0022",
+      "index": 22,
+      "offset": 4896,
+      "source_sha256": "9c96259d29beb2c54dd7a15c58a3f956b18c38258493f2e8e05cfd83bec09e51",
+      "record_sha256": "227ba0d463f7ffb20750333c2e214c58d84e237a9e583abacfd3a1c7b5b37e38",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "9c96259d29beb2c54dd7a15c58a3f956b18c38258493f2e8e05cfd83bec09e51",
+      "parent_name_sha256": "9c96259d29beb2c54dd7a15c58a3f956b18c38258493f2e8e05cfd83bec09e51"
+    },
+    {
+      "id": "item.name.0023",
+      "index": 23,
+      "offset": 5024,
+      "source_sha256": "4fe4476b403801cb95f127cf6770e5e3918283bf06249eb2474594ef818f7276",
+      "record_sha256": "854b6fa61eec1e8ab5715d70bd0872f4db383f76642a3ae9cd91f92fb3237d8a",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 15,
+      "approved_name_sha256": "4fe4476b403801cb95f127cf6770e5e3918283bf06249eb2474594ef818f7276",
+      "parent_name_sha256": "4fe4476b403801cb95f127cf6770e5e3918283bf06249eb2474594ef818f7276"
+    },
+    {
+      "id": "item.name.0024",
+      "index": 24,
+      "offset": 5152,
+      "source_sha256": "7825d486d1498a7043943f5ad59d8c1ba2b004594d90a935317a76e32bd6b864",
+      "record_sha256": "7ceaebe6d6f20bf567312d992657b157b261f32dcf8312ec6a36326a99b51550",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "7825d486d1498a7043943f5ad59d8c1ba2b004594d90a935317a76e32bd6b864",
+      "parent_name_sha256": "7825d486d1498a7043943f5ad59d8c1ba2b004594d90a935317a76e32bd6b864"
+    },
+    {
+      "id": "item.name.0025",
+      "index": 25,
+      "offset": 5280,
+      "source_sha256": "5d907e09f9c22fec429d7e0e83ddf443cd4f6d0204328c3d7203456032a48dab",
+      "record_sha256": "6c1eacdaec55157dfab293e8e5ab87c3a7dba6a58ee811ab2494441347a935fb",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 10,
+      "approved_name_sha256": "29cc9d231167d0d7ac0a5e745b9033110b7d17f1b82610377462829a8479446a",
+      "parent_name_sha256": "5d907e09f9c22fec429d7e0e83ddf443cd4f6d0204328c3d7203456032a48dab"
+    },
+    {
+      "id": "item.name.0026",
+      "index": 26,
+      "offset": 5408,
+      "source_sha256": "369a54eaeed51000c23f55dbed21d6e00b283bc533e48a00ca8c8c2a80ac5d13",
+      "record_sha256": "6dc6154a059508185e24692edbb2e7f04387e097a0a0757a87ed1b25717e46b2",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 15,
+      "approved_name_sha256": "369a54eaeed51000c23f55dbed21d6e00b283bc533e48a00ca8c8c2a80ac5d13",
+      "parent_name_sha256": "369a54eaeed51000c23f55dbed21d6e00b283bc533e48a00ca8c8c2a80ac5d13"
+    },
+    {
+      "id": "item.name.0027",
+      "index": 27,
+      "offset": 5536,
+      "source_sha256": "f80097185aec9d53d11993dd90724f13d9340bb374fd34c1970afbc52ad66bc1",
+      "record_sha256": "ca3d16d2e01d50673fb959dc93303cb7e5618af9539fa873ebb086da537a42f2",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "f80097185aec9d53d11993dd90724f13d9340bb374fd34c1970afbc52ad66bc1",
+      "parent_name_sha256": "f80097185aec9d53d11993dd90724f13d9340bb374fd34c1970afbc52ad66bc1"
+    },
+    {
+      "id": "item.name.0028",
+      "index": 28,
+      "offset": 5664,
+      "source_sha256": "4c941c994dc7387eb2d795e65a88ab626c0616dac4d782407d953478f53f0766",
+      "record_sha256": "e315ef1601dcab09f035eb4d65e58df28f87dce7b12098dac356e31c49fc6252",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "4c941c994dc7387eb2d795e65a88ab626c0616dac4d782407d953478f53f0766",
+      "parent_name_sha256": "4c941c994dc7387eb2d795e65a88ab626c0616dac4d782407d953478f53f0766"
+    },
+    {
+      "id": "item.name.0029",
+      "index": 29,
+      "offset": 5792,
+      "source_sha256": "857d54cffab4b47336ea440ffb235196950fd830ccdebed5a9f8d4b113e120a2",
+      "record_sha256": "7b33502abb811701be0382a51a99f92c627efb4f47ae665ef0b4c82fea663025",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "857d54cffab4b47336ea440ffb235196950fd830ccdebed5a9f8d4b113e120a2",
+      "parent_name_sha256": "857d54cffab4b47336ea440ffb235196950fd830ccdebed5a9f8d4b113e120a2"
+    },
+    {
+      "id": "item.name.0030",
+      "index": 30,
+      "offset": 5920,
+      "source_sha256": "da26ec95cbf3ee18442a2375e83a3eb2081042968918e01cab92b0c4064c1187",
+      "record_sha256": "f053df63def80d05b25b2ddadfd869edd6efbff86c085ca3725ad384e951da28",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "da26ec95cbf3ee18442a2375e83a3eb2081042968918e01cab92b0c4064c1187",
+      "parent_name_sha256": "da26ec95cbf3ee18442a2375e83a3eb2081042968918e01cab92b0c4064c1187"
+    },
+    {
+      "id": "item.name.0031",
+      "index": 31,
+      "offset": 6048,
+      "source_sha256": "5dc385286432cb4d0ae9b4cad31ca741106699094031fd9fed2a6bb5da6f79d4",
+      "record_sha256": "ba53dd8a456d16d2f324586e09700ebbdb72acb495cf40f10413cdb0f9a9324f",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "5dc385286432cb4d0ae9b4cad31ca741106699094031fd9fed2a6bb5da6f79d4",
+      "parent_name_sha256": "5dc385286432cb4d0ae9b4cad31ca741106699094031fd9fed2a6bb5da6f79d4"
+    },
+    {
+      "id": "item.name.0032",
+      "index": 32,
+      "offset": 6176,
+      "source_sha256": "40cd692e1c9bcc80e4ec7e60fb7036d808db040b1fb0517595ef11572c50a759",
+      "record_sha256": "b382dd9afb5102069024c3b253c9ce6847aff4f93d27c057b8b7c2541fc701c4",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "40cd692e1c9bcc80e4ec7e60fb7036d808db040b1fb0517595ef11572c50a759",
+      "parent_name_sha256": "40cd692e1c9bcc80e4ec7e60fb7036d808db040b1fb0517595ef11572c50a759"
+    },
+    {
+      "id": "item.name.0033",
+      "index": 33,
+      "offset": 6304,
+      "source_sha256": "925aaf8da5fc104f5aef2a1d71e6db266425040349c08a102bb4559e60b4b74b",
+      "record_sha256": "caefdb7aae8b3c7cbc355029d93ee6b69efc51334797d694651e50b7b4a84982",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "925aaf8da5fc104f5aef2a1d71e6db266425040349c08a102bb4559e60b4b74b",
+      "parent_name_sha256": "925aaf8da5fc104f5aef2a1d71e6db266425040349c08a102bb4559e60b4b74b"
+    },
+    {
+      "id": "item.name.0034",
+      "index": 34,
+      "offset": 6432,
+      "source_sha256": "6cd65558a1368c7933d6f2f63315b3932ed9a1dcceb19e21da52a29c8a34bc2e",
+      "record_sha256": "d02453afc6c20f1b770f41a398996d2dc46fbab846f0744a900c0003d2bdb932",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 11,
+      "approved_name_sha256": "f4b0ff0173c4695a7b8b0bcfb5f11a5184b6fb283e777504fa7d35508278a1a5",
+      "parent_name_sha256": "6cd65558a1368c7933d6f2f63315b3932ed9a1dcceb19e21da52a29c8a34bc2e"
+    },
+    {
+      "id": "item.name.0035",
+      "index": 35,
+      "offset": 6560,
+      "source_sha256": "cb34aac86952be3a4a8454b4ce78e494227fc42815852dfe906e784c76befc34",
+      "record_sha256": "aea7641f98f56905515b5547b74d1d05323586f83c8bc1d598df7c08a79433c2",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 11,
+      "approved_name_sha256": "f76ca78198c2f2c0bbfdaa3fbe467d5b9f69d5b9b78dec91d2fd330d2999520f",
+      "parent_name_sha256": "cb34aac86952be3a4a8454b4ce78e494227fc42815852dfe906e784c76befc34"
+    },
+    {
+      "id": "item.name.0036",
+      "index": 36,
+      "offset": 6688,
+      "source_sha256": "0631a3a10fe0185996060b4db40a7ce7059fa133531d3e140dec589f6d34647e",
+      "record_sha256": "25540f68db2fa8b2af2eb58231962c63516a3125160717f0648dd90e3dacabe7",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 11,
+      "approved_name_sha256": "61e2d1a2c02bcb9449a74a45c1dd6879a8a01990fde832ba50d717bfe17ea611",
+      "parent_name_sha256": "0631a3a10fe0185996060b4db40a7ce7059fa133531d3e140dec589f6d34647e"
+    },
+    {
+      "id": "item.name.0037",
+      "index": 37,
+      "offset": 6816,
+      "source_sha256": "3fddfc6a0b27f621dabd584b6293cf02032f5ed35f5acc793e96dadffa64b6b9",
+      "record_sha256": "8dfc468cc135a2876760d6aaf26e8bf4a17a854332c09d6b7fa0514124789bd7",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "75ad6a5e25360e0892f394987c19df8e5dd2ce7a073fb78978942e3d535e18ed",
+      "parent_name_sha256": "3fddfc6a0b27f621dabd584b6293cf02032f5ed35f5acc793e96dadffa64b6b9"
+    },
+    {
+      "id": "item.name.0038",
+      "index": 38,
+      "offset": 6944,
+      "source_sha256": "7d77fd2df7d55b79d85842ed8b8a61962b3cd6aaa7492549344543f2281658cd",
+      "record_sha256": "d315b02ef2f99d893561ce42cc471b1a56c6c360acdebb8292a92bbb52eb5d74",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "7d77fd2df7d55b79d85842ed8b8a61962b3cd6aaa7492549344543f2281658cd",
+      "parent_name_sha256": "7d77fd2df7d55b79d85842ed8b8a61962b3cd6aaa7492549344543f2281658cd"
+    },
+    {
+      "id": "item.name.0039",
+      "index": 39,
+      "offset": 7072,
+      "source_sha256": "226f915e0ecadc2eba5e6e5cf533ddcc0c4195e128f559cf3ad0985d515139fa",
+      "record_sha256": "23a33795b9ec9654956eb21c249b1adcee7124c288ead85d40f5273a03f2f970",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 10,
+      "approved_name_sha256": "b43c0f24746803041c087300b215e1cbfb49864e5e9b3008a3836d840599656d",
+      "parent_name_sha256": "226f915e0ecadc2eba5e6e5cf533ddcc0c4195e128f559cf3ad0985d515139fa"
+    },
+    {
+      "id": "item.name.0040",
+      "index": 40,
+      "offset": 7200,
+      "source_sha256": "b015d3ddeff42d858d06bfc28ab994f070479ba167c7f26d00f16decc9331a16",
+      "record_sha256": "3d54cfa2f3d01b9d2bf45215eb490e3e8ab5cc2692f72ff1b348cd6a1cb5aa5e",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 9,
+      "approved_name_sha256": "fdc907a9e7916c4688edf5ef69a758ca440aecd322303a00b0a46e673d6a8148",
+      "parent_name_sha256": "b015d3ddeff42d858d06bfc28ab994f070479ba167c7f26d00f16decc9331a16"
+    },
+    {
+      "id": "item.name.0041",
+      "index": 41,
+      "offset": 7328,
+      "source_sha256": "81c82e5a909eca04dd2e1f4728984b977abf87d1155de0c1df062fd36a3c25e0",
+      "record_sha256": "a3d98cc27af52e88acf0c90b408e9a619643baa76662377066209eb0d65b7745",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 3,
+      "approved_name_sha256": "81c82e5a909eca04dd2e1f4728984b977abf87d1155de0c1df062fd36a3c25e0",
+      "parent_name_sha256": "81c82e5a909eca04dd2e1f4728984b977abf87d1155de0c1df062fd36a3c25e0"
+    },
+    {
+      "id": "item.name.0042",
+      "index": 42,
+      "offset": 7456,
+      "source_sha256": "4229d78964ec545ee34333398193c831cf580fca3f475b8e7476e5de4f28a617",
+      "record_sha256": "7a2f7cdeb7f216d06dd71139d2e50dfa6ad5fa5beca8ac9124c3421c9bc59d3a",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 5,
+      "approved_name_sha256": "7648b94cc82230894e19ee3febb05d6ebc79d8f65f543f3e6f1d65239c7dec41",
+      "parent_name_sha256": "4229d78964ec545ee34333398193c831cf580fca3f475b8e7476e5de4f28a617"
+    },
+    {
+      "id": "item.name.0043",
+      "index": 43,
+      "offset": 7584,
+      "source_sha256": "f6b33c658c0191fb72e911645eb699e9b4a22fd6a2b3299a281ca8278f20da39",
+      "record_sha256": "6f1ed283c307cb21f2e8b08b87c0bc1eeca7b459fd9e654e5dec71922bd7b2d3",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "f6b33c658c0191fb72e911645eb699e9b4a22fd6a2b3299a281ca8278f20da39",
+      "parent_name_sha256": "f6b33c658c0191fb72e911645eb699e9b4a22fd6a2b3299a281ca8278f20da39"
+    },
+    {
+      "id": "item.name.0044",
+      "index": 44,
+      "offset": 7712,
+      "source_sha256": "7e25f20c2a758ac939b8ceb37d5211b6121228f7f68efdbe78913560e26d9d73",
+      "record_sha256": "ff2f8ebabe525cbc513310cb657bd88472f56c9370ad5196646ffcf3faf27c34",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "7e25f20c2a758ac939b8ceb37d5211b6121228f7f68efdbe78913560e26d9d73",
+      "parent_name_sha256": "7e25f20c2a758ac939b8ceb37d5211b6121228f7f68efdbe78913560e26d9d73"
+    },
+    {
+      "id": "item.name.0045",
+      "index": 45,
+      "offset": 7840,
+      "source_sha256": "b4de5ce3bfcae4176ff46a55544124ca3df1cc90e59fb8ce25475247d320d92f",
+      "record_sha256": "314e36c94ef0e176145e5677456ccc18cf4187ad48701b70e305560a59616fd6",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 4,
+      "approved_name_sha256": "b4de5ce3bfcae4176ff46a55544124ca3df1cc90e59fb8ce25475247d320d92f",
+      "parent_name_sha256": "b4de5ce3bfcae4176ff46a55544124ca3df1cc90e59fb8ce25475247d320d92f"
+    },
+    {
+      "id": "item.name.0046",
+      "index": 46,
+      "offset": 7968,
+      "source_sha256": "2e33b43fdffc08b1c823fec056cac0414d61bc199f8482d1e03321a05ad2c0cb",
+      "record_sha256": "2a2d078439baf144a7ad0c97e2021c4bc27781717f6760a881d7534bc38a4fcb",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 14,
+      "approved_name_sha256": "2e33b43fdffc08b1c823fec056cac0414d61bc199f8482d1e03321a05ad2c0cb",
+      "parent_name_sha256": "2e33b43fdffc08b1c823fec056cac0414d61bc199f8482d1e03321a05ad2c0cb"
+    },
+    {
+      "id": "item.name.0047",
+      "index": 47,
+      "offset": 8096,
+      "source_sha256": "1df239da423a0b71bfcba5a339d243e965047899ce0298e713001b6ee7bc1619",
+      "record_sha256": "270c21d2b8de2a8a94b3ca94b87d180a1c8affb3d185154e0a00b7ea98cd981d",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "1df239da423a0b71bfcba5a339d243e965047899ce0298e713001b6ee7bc1619",
+      "parent_name_sha256": "1df239da423a0b71bfcba5a339d243e965047899ce0298e713001b6ee7bc1619"
+    },
+    {
+      "id": "item.name.0048",
+      "index": 48,
+      "offset": 8224,
+      "source_sha256": "2c4ffb14576d879d642df4dae3c9191968b29a638cf41dd1458c99a190b7947a",
+      "record_sha256": "89ce83d69515a4ede55283653854077324724787df6fc59e0aad09ceaad7d5f7",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 6,
+      "approved_name_sha256": "2c4ffb14576d879d642df4dae3c9191968b29a638cf41dd1458c99a190b7947a",
+      "parent_name_sha256": "2c4ffb14576d879d642df4dae3c9191968b29a638cf41dd1458c99a190b7947a"
+    },
+    {
+      "id": "item.name.0049",
+      "index": 49,
+      "offset": 8352,
+      "source_sha256": "868a517d3c018257d2aacd6f3c8f924565eb6a68cf9202c739bf424d07a505d9",
+      "record_sha256": "92281072563701645a9746eb1c211957b181eef29941e688816ebad470a4c8c8",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 15,
+      "approved_name_sha256": "868a517d3c018257d2aacd6f3c8f924565eb6a68cf9202c739bf424d07a505d9",
+      "parent_name_sha256": "868a517d3c018257d2aacd6f3c8f924565eb6a68cf9202c739bf424d07a505d9"
+    },
+    {
+      "id": "item.name.0050",
+      "index": 50,
+      "offset": 8480,
+      "source_sha256": "050991792ba0040cbbaffd71ee45d7d99d96c74467d4ac4f04f56113964f6a0a",
+      "record_sha256": "5a14cb755c895f32ecb20f43909d32085014c2691dd33ab40e6790f519466f4d",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 8,
+      "approved_name_sha256": "dd0f3cc7356feb54a88f6adb86cc00e8c484f78c9561549e89d069cf39c08422",
+      "parent_name_sha256": "050991792ba0040cbbaffd71ee45d7d99d96c74467d4ac4f04f56113964f6a0a"
+    },
+    {
+      "id": "item.name.0051",
+      "index": 51,
+      "offset": 8608,
+      "source_sha256": "de28c7fe5ccae17edca7ea829be7d012096ed9e95fe0f598eff173f37004b87f",
+      "record_sha256": "202f3a7228613a82c55c8f982cf524bbd39055d7ef850e49e90dd0128ad85225",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 3,
+      "approved_name_sha256": "de28c7fe5ccae17edca7ea829be7d012096ed9e95fe0f598eff173f37004b87f",
+      "parent_name_sha256": "de28c7fe5ccae17edca7ea829be7d012096ed9e95fe0f598eff173f37004b87f"
+    },
+    {
+      "id": "item.name.0052",
+      "index": 52,
+      "offset": 8736,
+      "source_sha256": "a67dbc996d51e7b485bb7cbe1a84a7ef99f215a0e5c9267d03205b0a4a83845e",
+      "record_sha256": "59dcd1a8812d9cefd850eeba3d997ee7b4bcc6ddc4468067121639e31323442a",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "a67dbc996d51e7b485bb7cbe1a84a7ef99f215a0e5c9267d03205b0a4a83845e",
+      "parent_name_sha256": "a67dbc996d51e7b485bb7cbe1a84a7ef99f215a0e5c9267d03205b0a4a83845e"
+    },
+    {
+      "id": "item.name.0053",
+      "index": 53,
+      "offset": 8864,
+      "source_sha256": "9e6081bca090e304c001ffabffadaacde692aa296535c76b3651b01575645669",
+      "record_sha256": "d1f69a657130d3bc79520f27c2360655af01ac4e6fa0af3ce1bf49d5f11c6e72",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 5,
+      "approved_name_sha256": "9e6081bca090e304c001ffabffadaacde692aa296535c76b3651b01575645669",
+      "parent_name_sha256": "9e6081bca090e304c001ffabffadaacde692aa296535c76b3651b01575645669"
+    },
+    {
+      "id": "item.name.0054",
+      "index": 54,
+      "offset": 8992,
+      "source_sha256": "91b2d84f6ce54827194496d5a4cce83222434e961dfb2c5280dfc32938fa5f47",
+      "record_sha256": "e10e3c8496d4a6d40bd86709511d02b0c91e9579c644968df527d5a027e78410",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 8,
+      "approved_name_sha256": "91b2d84f6ce54827194496d5a4cce83222434e961dfb2c5280dfc32938fa5f47",
+      "parent_name_sha256": "91b2d84f6ce54827194496d5a4cce83222434e961dfb2c5280dfc32938fa5f47"
+    },
+    {
+      "id": "item.name.0055",
+      "index": 55,
+      "offset": 9120,
+      "source_sha256": "d46ca53cfcd1b97a5eef85be385cf583039365fd43dc7c9ca3de70013e24ab16",
+      "record_sha256": "74023b1e503a9b07c1a1206b515b2f0ed541db90d4731b332e01d4175d53ed71",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "94b8d55b975e73e5bdcc8ac427311f28b920f69cf8d1932aa1a87ff658b831ff",
+      "parent_name_sha256": "d46ca53cfcd1b97a5eef85be385cf583039365fd43dc7c9ca3de70013e24ab16"
+    },
+    {
+      "id": "item.name.0056",
+      "index": 56,
+      "offset": 9248,
+      "source_sha256": "c3fdac746f7a20c07b9d7053bfa004d448e7925cf6d1d45c58ae603bc918d89d",
+      "record_sha256": "e02ee87cecf96d036e62def058c2c54e56eafa1d03f60a328f699f0ee5458e6c",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "c3fdac746f7a20c07b9d7053bfa004d448e7925cf6d1d45c58ae603bc918d89d",
+      "parent_name_sha256": "c3fdac746f7a20c07b9d7053bfa004d448e7925cf6d1d45c58ae603bc918d89d"
+    },
+    {
+      "id": "item.name.0057",
+      "index": 57,
+      "offset": 9376,
+      "source_sha256": "96ffd05172a78cdde4195797d26733370d209b39a0cb28583eb67c101cbeae33",
+      "record_sha256": "f863c4b95440ba81150fd5dbbcd3c2453f152a46079bc2bbcd35da79a6c2b6a6",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "96ffd05172a78cdde4195797d26733370d209b39a0cb28583eb67c101cbeae33",
+      "parent_name_sha256": "96ffd05172a78cdde4195797d26733370d209b39a0cb28583eb67c101cbeae33"
+    },
+    {
+      "id": "item.name.0058",
+      "index": 58,
+      "offset": 9504,
+      "source_sha256": "88b30ec3c1793b00f2d03d6901b4953137c15ed294644444cb68a5cea2d7b71b",
+      "record_sha256": "6335f612f97fd0f06d5ef57f2156e563bf57501b73291cf97586a6987f7b4f7c",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "12cb8f5555dacc52d1b6f8020c4a04bb731a93453fdce30066d44048911cf5ce",
+      "parent_name_sha256": "88b30ec3c1793b00f2d03d6901b4953137c15ed294644444cb68a5cea2d7b71b"
+    },
+    {
+      "id": "item.name.0059",
+      "index": 59,
+      "offset": 9632,
+      "source_sha256": "6cdc997adf5c994db67a5ac8389188823ad2e5bfaf7af8ffe6fbb58865744dea",
+      "record_sha256": "cc75188eba34bad4e5a42658207cc394aa85e2a24e1bdd2cec328c765425eeaf",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "72f8d50ec6a2f96ed78d94a30784bea79b6ee083097a1de0d8a36b8b397f8c8f",
+      "parent_name_sha256": "6cdc997adf5c994db67a5ac8389188823ad2e5bfaf7af8ffe6fbb58865744dea"
+    },
+    {
+      "id": "item.name.0060",
+      "index": 60,
+      "offset": 9760,
+      "source_sha256": "d2662d3485ff91337b821ca55da41ffa18413fb48ea5c957805d578a4f1eec48",
+      "record_sha256": "68f824b133c49e63c230d981a354c9cd6fae28ef47f72b6f84e31c9cd77e7cc4",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "d2662d3485ff91337b821ca55da41ffa18413fb48ea5c957805d578a4f1eec48",
+      "parent_name_sha256": "d2662d3485ff91337b821ca55da41ffa18413fb48ea5c957805d578a4f1eec48"
+    },
+    {
+      "id": "item.name.0061",
+      "index": 61,
+      "offset": 9888,
+      "source_sha256": "e67fcc6ff0f0171ac908e4b20fe88661912cc7a01035c3b6b756335e4d96739e",
+      "record_sha256": "127e65aadf8f423e5f06e9891b6c9e4b6789b9cdb50916b4f6e9b941094d7d8e",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 4,
+      "approved_name_sha256": "e67fcc6ff0f0171ac908e4b20fe88661912cc7a01035c3b6b756335e4d96739e",
+      "parent_name_sha256": "e67fcc6ff0f0171ac908e4b20fe88661912cc7a01035c3b6b756335e4d96739e"
+    },
+    {
+      "id": "item.name.0062",
+      "index": 62,
+      "offset": 10016,
+      "source_sha256": "2bce2982deda92e4334e1eba413174b87e2853485b88b8b192f3d5178d886985",
+      "record_sha256": "fb77f5726c02a600c6faadffe530167f24d202b47388c30d7e9c51dcff3f60d0",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "2bce2982deda92e4334e1eba413174b87e2853485b88b8b192f3d5178d886985",
+      "parent_name_sha256": "2bce2982deda92e4334e1eba413174b87e2853485b88b8b192f3d5178d886985"
+    },
+    {
+      "id": "item.name.0063",
+      "index": 63,
+      "offset": 10144,
+      "source_sha256": "a37245b5cc3de31b1ff06844de37738602732d2df1df31090493255c4bcb6d62",
+      "record_sha256": "7eb3e8b18196599e9a68d61c3ec37b94c838eeaf4cde8126800ff837cdc42910",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 8,
+      "approved_name_sha256": "a37245b5cc3de31b1ff06844de37738602732d2df1df31090493255c4bcb6d62",
+      "parent_name_sha256": "a37245b5cc3de31b1ff06844de37738602732d2df1df31090493255c4bcb6d62"
+    },
+    {
+      "id": "item.name.0064",
+      "index": 64,
+      "offset": 10272,
+      "source_sha256": "92d37d5589dfad05259847d36e7fb6b82a52f8b8af7f2f5c2d749684258ec8b3",
+      "record_sha256": "f3ae4a30a19bb6d9466078343c3469fd9fb874f87eb0f54e855ef22c1b58ac6e",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "92d37d5589dfad05259847d36e7fb6b82a52f8b8af7f2f5c2d749684258ec8b3",
+      "parent_name_sha256": "92d37d5589dfad05259847d36e7fb6b82a52f8b8af7f2f5c2d749684258ec8b3"
+    },
+    {
+      "id": "item.name.0065",
+      "index": 65,
+      "offset": 10400,
+      "source_sha256": "9ec12f1e745d3f5961aad2fa512b803d19987084e080d23c70e6de5a2a0f4d73",
+      "record_sha256": "5f239121dd7454dac44f754003483ddcf51efeae6f758b408c04da95d3aa0f9c",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 13,
+      "approved_name_sha256": "9ec12f1e745d3f5961aad2fa512b803d19987084e080d23c70e6de5a2a0f4d73",
+      "parent_name_sha256": "9ec12f1e745d3f5961aad2fa512b803d19987084e080d23c70e6de5a2a0f4d73"
+    },
+    {
+      "id": "item.name.0066",
+      "index": 66,
+      "offset": 10528,
+      "source_sha256": "999b402526c91e3870062d7dd19ddbd3f9988091296cff9c04077244ccd50d35",
+      "record_sha256": "5f0449581d6a361d3d435f2314810943b7d222fdf7d28a0239e64a912f8fc033",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "999b402526c91e3870062d7dd19ddbd3f9988091296cff9c04077244ccd50d35",
+      "parent_name_sha256": "999b402526c91e3870062d7dd19ddbd3f9988091296cff9c04077244ccd50d35"
+    },
+    {
+      "id": "item.name.0067",
+      "index": 67,
+      "offset": 10656,
+      "source_sha256": "9088f3ee2d1808e85b471a846e09209752b846f02f41ae7aaf77c3e0d8922003",
+      "record_sha256": "4fe4676f071e5c42759cfeed0a75f0e3d40199e4c025eb80ab445f0d4ac2fb97",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "f27e69b92f77d71e892b2740e4eee2678b6c882a62b96708f13d2f7653890b44",
+      "parent_name_sha256": "9088f3ee2d1808e85b471a846e09209752b846f02f41ae7aaf77c3e0d8922003"
+    },
+    {
+      "id": "item.name.0068",
+      "index": 68,
+      "offset": 10784,
+      "source_sha256": "4078ff2bceff0e7bd2db3fec750f8c5062999d6d7efb14d2ad7b4dd7a3ab7c50",
+      "record_sha256": "2466eb63240c74efadd1e272b83e741e115d8928697d4b44e5d75d3f97e70422",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "72e7264a57a90f93c4cfdf70fd2d33685128596d884cbcbd0630787dbe2133a8",
+      "parent_name_sha256": "4078ff2bceff0e7bd2db3fec750f8c5062999d6d7efb14d2ad7b4dd7a3ab7c50"
+    },
+    {
+      "id": "item.name.0069",
+      "index": 69,
+      "offset": 10912,
+      "source_sha256": "5fa4784a59e2bbdf6199d61513173ae473624e7d8263131440d68f76ee6d8ad1",
+      "record_sha256": "8d303fb002ebf977a9d779fc487b010b2c3e1ceba5a3fcae632674371d5b3017",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "5220c29c57a8af822e493326f20b87f6e512f43a14a19883d892e31f8e18247a",
+      "parent_name_sha256": "5fa4784a59e2bbdf6199d61513173ae473624e7d8263131440d68f76ee6d8ad1"
+    },
+    {
+      "id": "item.name.0070",
+      "index": 70,
+      "offset": 11040,
+      "source_sha256": "0a7b77ddb79865c172d5ffb5abef3ca7e5ea2e82e041293adcd84665f653805f",
+      "record_sha256": "a595c91343f743e5a3dc5dcb14f19b41c6ab3b88cd2526a21d1b62676f1087c9",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "0a7b77ddb79865c172d5ffb5abef3ca7e5ea2e82e041293adcd84665f653805f",
+      "parent_name_sha256": "0a7b77ddb79865c172d5ffb5abef3ca7e5ea2e82e041293adcd84665f653805f"
+    },
+    {
+      "id": "item.name.0071",
+      "index": 71,
+      "offset": 11168,
+      "source_sha256": "088cc9c6f49b2daef145022a4c9f13b0735d6982614585cf3d6e1028397c1f13",
+      "record_sha256": "22710856bc63078caa5e81e3e36b13be103cc4ff9913596d9bec858f64682145",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 6,
+      "approved_name_sha256": "088cc9c6f49b2daef145022a4c9f13b0735d6982614585cf3d6e1028397c1f13",
+      "parent_name_sha256": "088cc9c6f49b2daef145022a4c9f13b0735d6982614585cf3d6e1028397c1f13"
+    },
+    {
+      "id": "item.name.0072",
+      "index": 72,
+      "offset": 11296,
+      "source_sha256": "ac13ba97b4abd8943029bfd95249ad57cec8da975dfbf1a6de184d721c5a2be7",
+      "record_sha256": "e700c3b2fad6a700c1350bcb147edec0717b0de554aa8f67a79ca9a0f83ac9d9",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "723b4f72e7a2e84f59a33b8d3cdc9317b39a472de98d7abcb390486e2030adb7",
+      "parent_name_sha256": "ac13ba97b4abd8943029bfd95249ad57cec8da975dfbf1a6de184d721c5a2be7"
+    },
+    {
+      "id": "item.name.0073",
+      "index": 73,
+      "offset": 11424,
+      "source_sha256": "3b107bb4a7803b0705458b203dd2875c3b0e1d5b7d7eebd2fdde6cd90ee366ad",
+      "record_sha256": "81757d5bc904b4971f1f991ef7cf1ce3710cd0df81165feddde595dcf0602974",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "c4189af5c62695d3ee02f43dcd517a745f4f33c8e28e9f6dadab4b1c79745e6b",
+      "parent_name_sha256": "3b107bb4a7803b0705458b203dd2875c3b0e1d5b7d7eebd2fdde6cd90ee366ad"
+    },
+    {
+      "id": "item.name.0074",
+      "index": 74,
+      "offset": 11552,
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "record_sha256": "68bf23996a9862586027d0b6d0082276a23265dc608650e9c6d4e603b2f39aea",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 10,
+      "approved_name_sha256": "9ac699fffac449c5283cd2704a9938acba25d6f07817ebcda504efc7e324569c",
+      "parent_name_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0"
+    },
+    {
+      "id": "item.name.0075",
+      "index": 75,
+      "offset": 11680,
+      "source_sha256": "b51e9459022206ecfca5417d5c7eba1692d1cdb7701f628e4fb1c8b6e70d499a",
+      "record_sha256": "ebaa3ddbc79ed7f3d61d5e4c64fa816ce8cbdaba63d5f7f1ef68a57caf2ac431",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "f3d0975dcbe77972f28285e93f9ed4acdcab480cdbf8530f6d66d23d47103db4",
+      "parent_name_sha256": "b51e9459022206ecfca5417d5c7eba1692d1cdb7701f628e4fb1c8b6e70d499a"
+    },
+    {
+      "id": "item.name.0076",
+      "index": 76,
+      "offset": 11808,
+      "source_sha256": "58e0579b87c7e3ce1bcfb48f24413cb26d5f05985aa9ac36910dcba30848fc40",
+      "record_sha256": "a4c81152405bd8fdaf5ec69260da7b20bdaf04c84ad8fa06ec7c439cdda62b0f",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "58e0579b87c7e3ce1bcfb48f24413cb26d5f05985aa9ac36910dcba30848fc40",
+      "parent_name_sha256": "58e0579b87c7e3ce1bcfb48f24413cb26d5f05985aa9ac36910dcba30848fc40"
+    },
+    {
+      "id": "item.name.0077",
+      "index": 77,
+      "offset": 11936,
+      "source_sha256": "998b770c45546d25505393aa7ebaaa082e08507da148d9d57624010642cbce18",
+      "record_sha256": "bfe57b1010c18628db9667f5246d4835a019d0be0ddfaa1b0bae6fc1d84b2e28",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "935443cf8448d51493efb5f8e866dc1c504bfdbaec9e808b1964763620fbbf2a",
+      "parent_name_sha256": "998b770c45546d25505393aa7ebaaa082e08507da148d9d57624010642cbce18"
+    },
+    {
+      "id": "item.name.0078",
+      "index": 78,
+      "offset": 12064,
+      "source_sha256": "9ff32a19b08a126ca188ee67bd0a3012ad330806fcdb1abb1863ce4fd4b89c00",
+      "record_sha256": "946e9d82a99bfddf4d7020598261f761aecdcdc446ed7608086bd0255bd30cf4",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "03755db4f3da6850b46b3d8d73567816326fed44368b5b1342cb593037dda7d8",
+      "parent_name_sha256": "9ff32a19b08a126ca188ee67bd0a3012ad330806fcdb1abb1863ce4fd4b89c00"
+    },
+    {
+      "id": "item.name.0079",
+      "index": 79,
+      "offset": 12192,
+      "source_sha256": "bac66d6a12f802380e2d52cc96f15fd294f90622b0df690dc8464af21c6e72c9",
+      "record_sha256": "4b7a459a67bf3c5844e6b91ecd9ecdf6616b791ef45548be17672cd54871b68d",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "20a7e2e500daac2a26bd5c7a1daef9dfa17ee728660b98ffdf22163b5dc4c2e8",
+      "parent_name_sha256": "bac66d6a12f802380e2d52cc96f15fd294f90622b0df690dc8464af21c6e72c9"
+    },
+    {
+      "id": "item.name.0080",
+      "index": 80,
+      "offset": 12320,
+      "source_sha256": "3cdb7b4c3bde76dfa51b533057cc23f765b15c921514b10c06036617885cb16c",
+      "record_sha256": "aa4be76d8e96270e4a24dbc3090eb98f11eea10b1a1323bdc3449c8ba0ace716",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "2d2f3d30c9c4cca0059287c2bd59ac4c6ea3fca79c02980fd582bf190d41541f",
+      "parent_name_sha256": "3cdb7b4c3bde76dfa51b533057cc23f765b15c921514b10c06036617885cb16c"
+    },
+    {
+      "id": "item.name.0081",
+      "index": 81,
+      "offset": 12448,
+      "source_sha256": "b31b2898ae26abd515e5f030cec4aba92d333ba9b448a6bdc6d2560afaab9da5",
+      "record_sha256": "b1bf42a47250885f60946985b3f0fde7058a27bc723971730600bd4e5442846b",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "82a36f41bed1760c459f23b69a3013a628a3e8d0ac23d5d3969d7d9e2027e407",
+      "parent_name_sha256": "b31b2898ae26abd515e5f030cec4aba92d333ba9b448a6bdc6d2560afaab9da5"
+    },
+    {
+      "id": "item.name.0082",
+      "index": 82,
+      "offset": 12576,
+      "source_sha256": "7b3be29edc9e15edb9f158c4d82e4ca8e182324887677683df992a6052b86169",
+      "record_sha256": "09d519e310ae724b285864787169229ef21fc451ddf9c3c521e04cf6eebac30a",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "5a74343c6c0b21c59c35410faafb5666a60186936a1de43041d0be90c1de6b8e",
+      "parent_name_sha256": "7b3be29edc9e15edb9f158c4d82e4ca8e182324887677683df992a6052b86169"
+    },
+    {
+      "id": "item.name.0083",
+      "index": 83,
+      "offset": 12704,
+      "source_sha256": "decd8fba0adc3cf7b5032df33898318cc5a722c07eede9970e421a34834498a1",
+      "record_sha256": "d5e56cf3c379297b8f3f1ae8dc96017e62c63a943cd412fef17192710ae71e5c",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "7ff9c430405d1c08703b1352d24040d163379f6f55aa6c95a7b4bdfdb296dbda",
+      "parent_name_sha256": "decd8fba0adc3cf7b5032df33898318cc5a722c07eede9970e421a34834498a1"
+    },
+    {
+      "id": "item.name.0084",
+      "index": 84,
+      "offset": 12832,
+      "source_sha256": "6104e909531bbe22a97e78ac8a3ca697f09fa56102c7a739b4435859b7d3b1f5",
+      "record_sha256": "fc2880f850f6b0ab1a2cf832154977cdfc7c7b13f2d9a3767abc54063b401849",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 3,
+      "approved_name_sha256": "6104e909531bbe22a97e78ac8a3ca697f09fa56102c7a739b4435859b7d3b1f5",
+      "parent_name_sha256": "6104e909531bbe22a97e78ac8a3ca697f09fa56102c7a739b4435859b7d3b1f5"
+    },
+    {
+      "id": "item.name.0085",
+      "index": 85,
+      "offset": 12960,
+      "source_sha256": "6d9bcb286daf23f325537f2b3b7c3b683dcbc11903352af95dcc7b596c0da3ed",
+      "record_sha256": "baab5c1cef73970c22323604696547f2938fe3e553720a2d0aae19162b90ebc8",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 6,
+      "approved_name_sha256": "6d9bcb286daf23f325537f2b3b7c3b683dcbc11903352af95dcc7b596c0da3ed",
+      "parent_name_sha256": "6d9bcb286daf23f325537f2b3b7c3b683dcbc11903352af95dcc7b596c0da3ed"
+    },
+    {
+      "id": "item.name.0086",
+      "index": 86,
+      "offset": 13088,
+      "source_sha256": "8089e09a62e1ccc6e180a1691aa570a266cbc3242f29ac83f3cf8ff653c8eb72",
+      "record_sha256": "d639dc30abae0207da3b61eb74f201ff13bbe2b0767028dbf10747ff82bf2ec8",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 6,
+      "approved_name_sha256": "8089e09a62e1ccc6e180a1691aa570a266cbc3242f29ac83f3cf8ff653c8eb72",
+      "parent_name_sha256": "8089e09a62e1ccc6e180a1691aa570a266cbc3242f29ac83f3cf8ff653c8eb72"
+    },
+    {
+      "id": "item.name.0087",
+      "index": 87,
+      "offset": 13216,
+      "source_sha256": "90cf93b5dd6185d8ad0f1c2683c535a260f211215f079096d8ae0511e33da8eb",
+      "record_sha256": "d182ece69a35275789234774464f693dd8dd6f79f444d1c2aec82ad133a8a97c",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 3,
+      "approved_name_sha256": "90cf93b5dd6185d8ad0f1c2683c535a260f211215f079096d8ae0511e33da8eb",
+      "parent_name_sha256": "90cf93b5dd6185d8ad0f1c2683c535a260f211215f079096d8ae0511e33da8eb"
+    },
+    {
+      "id": "item.name.0088",
+      "index": 88,
+      "offset": 13344,
+      "source_sha256": "193333f1ae02780d4187101c4684e46df674c048f9c3d8ffb911458ab5a35339",
+      "record_sha256": "985f9792f202d29fd1a0cf85c2a3141d74b4e0325da6abb38da665e85fd376b4",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 11,
+      "approved_name_sha256": "e8fdb30118616cfafeee974e08c6569020f85b1eed338d2f74869022bb104311",
+      "parent_name_sha256": "193333f1ae02780d4187101c4684e46df674c048f9c3d8ffb911458ab5a35339"
+    },
+    {
+      "id": "item.name.0089",
+      "index": 89,
+      "offset": 13472,
+      "source_sha256": "0c5e53a00e6054bb4659f803eb812000063b713a98773695dc02d23795746bb5",
+      "record_sha256": "50c23445b47131ee4e92872fba8b1b9f236e62619b13220c6341d8084b1bf569",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "635c446ab9d30101a269798b268ebac038aca2969d7b54eccafcd5b166206081",
+      "parent_name_sha256": "0c5e53a00e6054bb4659f803eb812000063b713a98773695dc02d23795746bb5"
+    },
+    {
+      "id": "item.name.0090",
+      "index": 90,
+      "offset": 13600,
+      "source_sha256": "b69b5711d8d18c7fb565a76eb618233bad2ee20e6138101a978206dd0237138a",
+      "record_sha256": "5f541c0d52d79e7a4e3f04cd21dc03c3af7a533bcbc4e379013b95a6c6d9dee2",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "25f6e57863c27abd9ee6260283f3d6f61d9dbd281755a9b7616e5705af507ce1",
+      "parent_name_sha256": "b69b5711d8d18c7fb565a76eb618233bad2ee20e6138101a978206dd0237138a"
+    },
+    {
+      "id": "item.name.0091",
+      "index": 91,
+      "offset": 13728,
+      "source_sha256": "d713684c85a669712612cd7a1545b3afcd817a52a4c066a2f452af9e8e92ad29",
+      "record_sha256": "72a6535ff442b335b6099650d5da6e4192974ac9ce14a6c790aabac0798c0ff0",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "06c344e356c7abbdfdd9a78b34532c117dd6557f951aa56798e231e7bad8e73d",
+      "parent_name_sha256": "d713684c85a669712612cd7a1545b3afcd817a52a4c066a2f452af9e8e92ad29"
+    },
+    {
+      "id": "item.name.0092",
+      "index": 92,
+      "offset": 13856,
+      "source_sha256": "f9dbb1dd14cabfded5990b500e0ba3b70ff504769a04263ef48da4e235750e81",
+      "record_sha256": "6180c2623ef0972dc9df24dd468a0168bcdf058a5fb8717319ed891c06ba35de",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "b5ae5aaa52d0b4773b3272cb40c33e8eb9c2318a7c0d38b33a0c6850599b9602",
+      "parent_name_sha256": "f9dbb1dd14cabfded5990b500e0ba3b70ff504769a04263ef48da4e235750e81"
+    },
+    {
+      "id": "item.name.0093",
+      "index": 93,
+      "offset": 13984,
+      "source_sha256": "31c5dff1aacc67b6340e6691cc42f7227a36a66e264458b82ce2c813b11c7d7c",
+      "record_sha256": "ecece898f48494380c69a22e08f63b9e3f2461506d15495f5bafb1c7a3b75e67",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "d15e3c52a1832fe8b91be4c12d0de76db753f11824e8c39d57389065956b07f0",
+      "parent_name_sha256": "31c5dff1aacc67b6340e6691cc42f7227a36a66e264458b82ce2c813b11c7d7c"
+    },
+    {
+      "id": "item.name.0094",
+      "index": 94,
+      "offset": 14112,
+      "source_sha256": "e0130eaed431810ed7dc1666d17ffe03c6ccfb2718a7e4f2d5fae3c652f00a38",
+      "record_sha256": "7423cd147ea2236d15c2d06a2c0dfa96773189f119dc92cd2c5e66016a9c6fbd",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 16,
+      "approved_name_sha256": "5290115d0fc5bff8438ef71b2392c03b2454cad29cb8bd4612f5a6f61e9d1961",
+      "parent_name_sha256": "e0130eaed431810ed7dc1666d17ffe03c6ccfb2718a7e4f2d5fae3c652f00a38"
+    },
+    {
+      "id": "item.name.0095",
+      "index": 95,
+      "offset": 14240,
+      "source_sha256": "8caf03934b94fd9288eee806169d8c1c4d0b99cb8c25e341a99e5d02a20d2173",
+      "record_sha256": "e006fefe00a9daed364f1429e995fd3e7e5b6f1a01bab0ac83a65835a859660f",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "56ef7bcc676fc36d65c031a0450e3e6278bb754e9bcc9dd123d3d98aa0c16a02",
+      "parent_name_sha256": "8caf03934b94fd9288eee806169d8c1c4d0b99cb8c25e341a99e5d02a20d2173"
+    },
+    {
+      "id": "item.name.0096",
+      "index": 96,
+      "offset": 14368,
+      "source_sha256": "3cb49a77c702910bc40b95b9adc01d9e9a829f8e0dd4149da3e388255593f944",
+      "record_sha256": "ac289d2b649055ffa8d70bec493175453b00755aea4037361f5981008afbf88d",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "6d49222d732a7da173dff22d7cb40b654acfd8d8a2a20b11c40a865253842699",
+      "parent_name_sha256": "3cb49a77c702910bc40b95b9adc01d9e9a829f8e0dd4149da3e388255593f944"
+    },
+    {
+      "id": "item.name.0097",
+      "index": 97,
+      "offset": 14496,
+      "source_sha256": "6e7834c5de7dda517d3291b7ddb7cfe9c0a83475dcdcc039ca311c3a095010e1",
+      "record_sha256": "3765005f5556920f4f06cf03170b0cbcab56993b35c501c14312828bfbc41223",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "72474b1756e857888559d854f0d88db88b854e77bc63d043ad02a0e2cc3691c9",
+      "parent_name_sha256": "6e7834c5de7dda517d3291b7ddb7cfe9c0a83475dcdcc039ca311c3a095010e1"
+    },
+    {
+      "id": "item.name.0098",
+      "index": 98,
+      "offset": 14624,
+      "source_sha256": "fa169004614a95f2d26c4f6d9f710a4139ff648795af0c69faa18752db90e470",
+      "record_sha256": "1b61553ee8dc31a4dc943cf8020ebefd986f14296ac2420a9f31a02195d8770c",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "68297e9f371b694a0acf0c77dd16014a8d24d72e19a3f0e27661949585399181",
+      "parent_name_sha256": "fa169004614a95f2d26c4f6d9f710a4139ff648795af0c69faa18752db90e470"
+    },
+    {
+      "id": "item.name.0099",
+      "index": 99,
+      "offset": 14752,
+      "source_sha256": "ef911fab09df364dac309ca8a9623bdee032e2fb4ebaf41dfd34f76d47ffa01d",
+      "record_sha256": "74f66922060c8bd1042b6874943ff2ac9a2d902371f39b048b4d261499d3daa6",
+      "category": 1,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "7932898d725fd19f6109b88d2b3a9b535b785247067a76786fb2971f1983fccf",
+      "parent_name_sha256": "ef911fab09df364dac309ca8a9623bdee032e2fb4ebaf41dfd34f76d47ffa01d"
+    },
+    {
+      "id": "item.name.1042",
+      "index": 1042,
+      "offset": 135456,
+      "source_sha256": "9f38849dab3174f7947a77dc4c27c0cedaea5b0ad719bb14005d5cebb680c2a9",
+      "record_sha256": "cc0482433febf8243186160d25f46c8b8101fe1fd7482ecb1b53554be29b67f7",
+      "category": 1,
+      "decision": "MANTER",
+      "approved_bytes": 14,
+      "approved_name_sha256": "c8b69e7a4827276b747adbf6369158cb8e12ee829494ddb8a5650893167efe9d",
+      "parent_name_sha256": "c8b69e7a4827276b747adbf6369158cb8e12ee829494ddb8a5650893167efe9d"
+    },
+    {
+      "id": "item.name.0191",
+      "index": 191,
+      "offset": 26528,
+      "source_sha256": "077a10f4e315c655f344ffcc62cd1b2ec37eb582b1505c99ea3332a3d8a61624",
+      "record_sha256": "0367989ff9daec0afc36dd59a01daa39785e065cc733d5d2e02da35a7c85ad55",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "7a93d79081d8ef4ba07bc0b43b52f4069085457f7f68d6b3e79089a85bb08c77",
+      "parent_name_sha256": "077a10f4e315c655f344ffcc62cd1b2ec37eb582b1505c99ea3332a3d8a61624"
+    },
+    {
+      "id": "item.name.0192",
+      "index": 192,
+      "offset": 26656,
+      "source_sha256": "f9ff0d7b1ca7e78b1247f2f051f90b3f5a2053ce29822b581c1b85b965371c50",
+      "record_sha256": "dee084fcf77120eb1a027026b81b847a5c2add593ce15052a1f04befd47b3e56",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "f3e81f28e5913f95e7e655c5536cd38777fb8c4d79040cfd60c7bcd5666b2530",
+      "parent_name_sha256": "f9ff0d7b1ca7e78b1247f2f051f90b3f5a2053ce29822b581c1b85b965371c50"
+    },
+    {
+      "id": "item.name.0193",
+      "index": 193,
+      "offset": 26784,
+      "source_sha256": "4838d9b9308a41f50b6dc7f9a6c72acc07f6cabd830c7c268d32ec394af9a4e0",
+      "record_sha256": "47b80c2b2aa6ca435580080877dd5822425e7c67b49bc00b3abf1208b24e5c8e",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "128b3d368294da0ae47d9b28bf32e09012a4dccba383999806b2a8c8360e6f17",
+      "parent_name_sha256": "4838d9b9308a41f50b6dc7f9a6c72acc07f6cabd830c7c268d32ec394af9a4e0"
+    },
+    {
+      "id": "item.name.0194",
+      "index": 194,
+      "offset": 26912,
+      "source_sha256": "2d1efb2d03bfa9b4878f0a84de2dbbaa69bb79faf5ff5f277daa3399f977d965",
+      "record_sha256": "8c52cc1af208e2aae8b58fed9619b316cffc44bf876b3c0162a7c277b29590c7",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "e9bb29909b2751670a78d798f11b857aa08de3ccd0f03b0d5fab501000bd77be",
+      "parent_name_sha256": "2d1efb2d03bfa9b4878f0a84de2dbbaa69bb79faf5ff5f277daa3399f977d965"
+    },
+    {
+      "id": "item.name.0195",
+      "index": 195,
+      "offset": 27040,
+      "source_sha256": "72023a530814c9ff6e15ff7e7c30a45cbb0701b9a575ca1bb017de7606a3cd55",
+      "record_sha256": "ae3aabdd0c659916aa3fe6171f345fcb53bac92d9f182403d86f110b51b3217d",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "06fc07c50641dff6c526fcb1c4c8e09606f45041499a9136aebc407621cd7744",
+      "parent_name_sha256": "72023a530814c9ff6e15ff7e7c30a45cbb0701b9a575ca1bb017de7606a3cd55"
+    },
+    {
+      "id": "item.name.0196",
+      "index": 196,
+      "offset": 27168,
+      "source_sha256": "026af5e4da65d74a2b9d273a291b4090ceaec741c0821bb96098ef2f5fe43cd8",
+      "record_sha256": "13385245ad06c5f635c851694e216fbdc5d54d32f1e86334d6a065090090d7f8",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "026af5e4da65d74a2b9d273a291b4090ceaec741c0821bb96098ef2f5fe43cd8",
+      "parent_name_sha256": "026af5e4da65d74a2b9d273a291b4090ceaec741c0821bb96098ef2f5fe43cd8"
+    },
+    {
+      "id": "item.name.0197",
+      "index": 197,
+      "offset": 27296,
+      "source_sha256": "df486839fbccc798f876fd3d18a3ac77cb26d0f175b18971b7781d53ed38e2ba",
+      "record_sha256": "1a3c1c7e433761e848d436597cd5a7e79181c3c5b84754a6a2c704e0300ed622",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "df486839fbccc798f876fd3d18a3ac77cb26d0f175b18971b7781d53ed38e2ba",
+      "parent_name_sha256": "df486839fbccc798f876fd3d18a3ac77cb26d0f175b18971b7781d53ed38e2ba"
+    },
+    {
+      "id": "item.name.0198",
+      "index": 198,
+      "offset": 27424,
+      "source_sha256": "f488ceff306c6b475d8c9bee8fbba5849c902fe7918738277aea72643fdc3fcb",
+      "record_sha256": "bef5c1a6041191b1cc491726041c77e14efaf0aed66d1fe210ef415bd33f7305",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "8f035c8a760b29602f6af236947c3716605861e1e8de10b1cb28d54607f379e0",
+      "parent_name_sha256": "f488ceff306c6b475d8c9bee8fbba5849c902fe7918738277aea72643fdc3fcb"
+    },
+    {
+      "id": "item.name.0199",
+      "index": 199,
+      "offset": 27552,
+      "source_sha256": "12033241792bc60617041e23a055e6b29605ed26ccb25c47453ed57152ebfd35",
+      "record_sha256": "dc9a58e75399b9984ce8fb4035d5ed477b1f7bf1ff0cf6955b2a1bc3b8a94154",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "6f4244899c82162a5964c3662425c2a1424c598d6b6a43d3873e1a06e0d49b04",
+      "parent_name_sha256": "12033241792bc60617041e23a055e6b29605ed26ccb25c47453ed57152ebfd35"
+    },
+    {
+      "id": "item.name.0200",
+      "index": 200,
+      "offset": 27680,
+      "source_sha256": "f969f3942d818d6880e4310e998af35b602c2ed87b511ec3aec35f0d7815bff5",
+      "record_sha256": "10b850c6787c1624a08f3fac982d2230484fb14e7cbe07cc10fdc0aacafb8f0f",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "f969f3942d818d6880e4310e998af35b602c2ed87b511ec3aec35f0d7815bff5",
+      "parent_name_sha256": "f969f3942d818d6880e4310e998af35b602c2ed87b511ec3aec35f0d7815bff5"
+    },
+    {
+      "id": "item.name.0201",
+      "index": 201,
+      "offset": 27808,
+      "source_sha256": "0c876c87be866c0007f25bc0c8a07ebee15aafc19a87eff904c8f6bc67705a46",
+      "record_sha256": "badfc698ec44ff6d5cc766b03d90f1b29675623ff0e112c6a3d09dc1fe5f0757",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "0c876c87be866c0007f25bc0c8a07ebee15aafc19a87eff904c8f6bc67705a46",
+      "parent_name_sha256": "0c876c87be866c0007f25bc0c8a07ebee15aafc19a87eff904c8f6bc67705a46"
+    },
+    {
+      "id": "item.name.0202",
+      "index": 202,
+      "offset": 27936,
+      "source_sha256": "4d046c5e9ae6e857f26c8183dc9534dd71c0d90953a9ee996131c330f6780a8c",
+      "record_sha256": "b5a8ebd55047a6dc5f355c1d8510148ca087830412ffdc984b783dff42cc0bde",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "4d046c5e9ae6e857f26c8183dc9534dd71c0d90953a9ee996131c330f6780a8c",
+      "parent_name_sha256": "4d046c5e9ae6e857f26c8183dc9534dd71c0d90953a9ee996131c330f6780a8c"
+    },
+    {
+      "id": "item.name.0203",
+      "index": 203,
+      "offset": 28064,
+      "source_sha256": "9f7b8b028b8db8c3b58840be273fb965e2953a5265576dfb143aa8010be26ff9",
+      "record_sha256": "5c8758de8e459585094fd857a278deb8288342642a6b748aec62994a79e26e86",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "9f7b8b028b8db8c3b58840be273fb965e2953a5265576dfb143aa8010be26ff9",
+      "parent_name_sha256": "9f7b8b028b8db8c3b58840be273fb965e2953a5265576dfb143aa8010be26ff9"
+    },
+    {
+      "id": "item.name.0204",
+      "index": 204,
+      "offset": 28192,
+      "source_sha256": "be6532cdf6c1b6a0e8708961f26c8ec98c14b7f04995c39754f47bba010f8ec8",
+      "record_sha256": "7dea194dd166f6d1dce75c276edc047e1d62b815a3e2f42c965662502ea04776",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "be6532cdf6c1b6a0e8708961f26c8ec98c14b7f04995c39754f47bba010f8ec8",
+      "parent_name_sha256": "be6532cdf6c1b6a0e8708961f26c8ec98c14b7f04995c39754f47bba010f8ec8"
+    },
+    {
+      "id": "item.name.0205",
+      "index": 205,
+      "offset": 28320,
+      "source_sha256": "a4d77817342f975da762cfe3b91d4828544983bfc1d7610d004df37d1495af28",
+      "record_sha256": "27d6607f2f19bbfbee6b3b355d4ec37b2443e778df79d448f4172617813c09f5",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "eb3ff58862ef9ce6ff71bab1c139fe22e5630095b2631052c56ac466c026d492",
+      "parent_name_sha256": "a4d77817342f975da762cfe3b91d4828544983bfc1d7610d004df37d1495af28"
+    },
+    {
+      "id": "item.name.0206",
+      "index": 206,
+      "offset": 28448,
+      "source_sha256": "3a1176e0df1f925275f6aff23cebed59dab347ec4979c60f872ded7703bac4fc",
+      "record_sha256": "b9f8af8e94176fe4801135385bda2c7b06e8951887863f6de59423c2aeed269d",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 13,
+      "approved_name_sha256": "3a1176e0df1f925275f6aff23cebed59dab347ec4979c60f872ded7703bac4fc",
+      "parent_name_sha256": "3a1176e0df1f925275f6aff23cebed59dab347ec4979c60f872ded7703bac4fc"
+    },
+    {
+      "id": "item.name.0207",
+      "index": 207,
+      "offset": 28576,
+      "source_sha256": "69bf9058fac97bc4dbe2c471ba7612d19e8043668201b63bbe5cea3e7d0ac9d2",
+      "record_sha256": "52f9ac857f98673b101dabf962c758e99fa4b0ea481905194d1afa3dac5be2d7",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "69bf9058fac97bc4dbe2c471ba7612d19e8043668201b63bbe5cea3e7d0ac9d2",
+      "parent_name_sha256": "69bf9058fac97bc4dbe2c471ba7612d19e8043668201b63bbe5cea3e7d0ac9d2"
+    },
+    {
+      "id": "item.name.0208",
+      "index": 208,
+      "offset": 28704,
+      "source_sha256": "a82bd6d90612d4847321d06e8cfd86f21d9a1cab66dd0a859612244745616d81",
+      "record_sha256": "655c91c0a53c10685937ea6b32a4b2f335f299d5e8571dd151790612b3af278c",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "a82bd6d90612d4847321d06e8cfd86f21d9a1cab66dd0a859612244745616d81",
+      "parent_name_sha256": "a82bd6d90612d4847321d06e8cfd86f21d9a1cab66dd0a859612244745616d81"
+    },
+    {
+      "id": "item.name.0209",
+      "index": 209,
+      "offset": 28832,
+      "source_sha256": "75bd792c56c496df97095f567f848983bf2e9d556b86a42ecce785e009b1fd66",
+      "record_sha256": "c6c1361b115c4f839ad07d672dba60656cd0770f3bef477a2acf2d70a392e8fb",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "49c144ac1f6ffce8900f9f37bac02b660ded32bbaeba52993ecadd7d02c5e366",
+      "parent_name_sha256": "75bd792c56c496df97095f567f848983bf2e9d556b86a42ecce785e009b1fd66"
+    },
+    {
+      "id": "item.name.0210",
+      "index": 210,
+      "offset": 28960,
+      "source_sha256": "05cf593aa8a6199ddaa7c87dae427f8b64c6be765427b95a83e1d42a595d41e3",
+      "record_sha256": "a19211c217f0af803350b947b1b7b6cf9afea431079634db1240e744285149fa",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "fb8ce54eccf02b3bce36546955509acbf7c19893cc2be543e66110f2e7a11a90",
+      "parent_name_sha256": "05cf593aa8a6199ddaa7c87dae427f8b64c6be765427b95a83e1d42a595d41e3"
+    },
+    {
+      "id": "item.name.0211",
+      "index": 211,
+      "offset": 29088,
+      "source_sha256": "7dc24d35ae4227169deb355f5e11315611a0ae6eaae0715091dd6405737b9a69",
+      "record_sha256": "7cca5d995056ea60b96a61d2becf0a94e2a314a8d85b3e375f8ec477d8cefc5b",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "f679e394ab8c421762bf4faaf7f8f2dc6ad83beb29aeed6e654be7959a7f5364",
+      "parent_name_sha256": "7dc24d35ae4227169deb355f5e11315611a0ae6eaae0715091dd6405737b9a69"
+    },
+    {
+      "id": "item.name.0212",
+      "index": 212,
+      "offset": 29216,
+      "source_sha256": "295877c888ee040e1a749758071c18513999e1dfec46c23c2705b8819c4b32ce",
+      "record_sha256": "15fd06636004cf0e4d32c03ae8f8aed2a4a8e50ac470f385a4f728115c446990",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "0123d9d3af7cb1e4bfad9062bb0df19a5883aeda7bfab2be89baf9409765a7e1",
+      "parent_name_sha256": "295877c888ee040e1a749758071c18513999e1dfec46c23c2705b8819c4b32ce"
+    },
+    {
+      "id": "item.name.0213",
+      "index": 213,
+      "offset": 29344,
+      "source_sha256": "d504dfd9ba01e7ccd0979693d34bfd2684ce89087ad264e1adaa086eb6f6e543",
+      "record_sha256": "632ec841b08201feafa8247ae182893dd879598a131048b590602daec18b15a7",
+      "category": 10,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "d504dfd9ba01e7ccd0979693d34bfd2684ce89087ad264e1adaa086eb6f6e543",
+      "parent_name_sha256": "d504dfd9ba01e7ccd0979693d34bfd2684ce89087ad264e1adaa086eb6f6e543"
+    },
+    {
+      "id": "item.name.0214",
+      "index": 214,
+      "offset": 29472,
+      "source_sha256": "a4d36b11b7fb702a71db97c90d5858fece68e498b514b43cb9a05ed80984e0c5",
+      "record_sha256": "d0037647f817d5d0aa20a4e9adfbdffe4ff763e94d452378d09c05584b4d1d66",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "1b264cae4a900925b8b993934affc41bbbe45973710d717f914cb809173dc46a",
+      "parent_name_sha256": "a4d36b11b7fb702a71db97c90d5858fece68e498b514b43cb9a05ed80984e0c5"
+    },
+    {
+      "id": "item.name.0215",
+      "index": 215,
+      "offset": 29600,
+      "source_sha256": "526d57d45f0dbbd6d79cc2e98c295b6e3b9b11e23f57248899e687ce6df597be",
+      "record_sha256": "65627d362cdd46316bb213afedaeb9f1f55b9adae5e558aa2d79951d993b5c8a",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "a89e94e6d549d4a796e27e6b1fe1c9976656e03ad91c6dbfdf4ae10ab8b5e939",
+      "parent_name_sha256": "526d57d45f0dbbd6d79cc2e98c295b6e3b9b11e23f57248899e687ce6df597be"
+    },
+    {
+      "id": "item.name.0216",
+      "index": 216,
+      "offset": 29728,
+      "source_sha256": "5bc56b4cfb1f9a0b454ea274b4d65a5132a53ec2502ccbcbbc29bf4479ff0d5d",
+      "record_sha256": "cb8b54d7d7d31f6768c03d28aaf99379da5a094bf6e571b3dde7d2f10e48ff58",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "0694c385f4d5d1db2bfc3cfcd7b5327887ea66f5aa0f68700262da48da756a88",
+      "parent_name_sha256": "5bc56b4cfb1f9a0b454ea274b4d65a5132a53ec2502ccbcbbc29bf4479ff0d5d"
+    },
+    {
+      "id": "item.name.0217",
+      "index": 217,
+      "offset": 29856,
+      "source_sha256": "2a7c096984156f3022f88300f88e75e93ccfb28b56d060bf4e50c2dbacbc5859",
+      "record_sha256": "602ec216100a1b8b9d9cfa233512abc0d8ee377f5111f5c74f9bc13f992319f9",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "d8e771634daa53683801d17296e230359dc6f29e3030b2faf07fa7050c3ce9d9",
+      "parent_name_sha256": "2a7c096984156f3022f88300f88e75e93ccfb28b56d060bf4e50c2dbacbc5859"
+    },
+    {
+      "id": "item.name.0218",
+      "index": 218,
+      "offset": 29984,
+      "source_sha256": "fbedabd8ef5bf6fe400cef0cdfe74774318c454595e3b3f0cc3928b90ef486a9",
+      "record_sha256": "71e8e0d873d255a37420a3ad355a5755af604ab1c749e3bfadc957aa0c259e15",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "c945089410d40aa9515066c44e8c3562413b3d8484197f1daddc2699d2c8888e",
+      "parent_name_sha256": "fbedabd8ef5bf6fe400cef0cdfe74774318c454595e3b3f0cc3928b90ef486a9"
+    },
+    {
+      "id": "item.name.0219",
+      "index": 219,
+      "offset": 30112,
+      "source_sha256": "ad76b67b86f3a251cb472741e4ba3b8026ebfcc020515e4e0c7b0add2d5314b8",
+      "record_sha256": "d176acb984b9740f1ad710c68996c5cd2d4d619056fcdda1ba6db23e0a233085",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "007a0168fbe009d91173ccb2274de020f48b5355281ba7f81b873566542ac948",
+      "parent_name_sha256": "ad76b67b86f3a251cb472741e4ba3b8026ebfcc020515e4e0c7b0add2d5314b8"
+    },
+    {
+      "id": "item.name.0220",
+      "index": 220,
+      "offset": 30240,
+      "source_sha256": "358ae746a66cdbf1916e37266717bbbe3b2f21630ea345e014f3860f4b50791c",
+      "record_sha256": "a013299b557e331d7c84c5cb98b76bc6cbb02c662475aa74c59d7281ffc50ff4",
+      "category": 10,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "00cf2a8bfa06cc7350c3642a303251cd8a525629a8cc4c87c10cb5f44afd7968",
+      "parent_name_sha256": "358ae746a66cdbf1916e37266717bbbe3b2f21630ea345e014f3860f4b50791c"
+    },
+    {
+      "id": "item.name.0221",
+      "index": 221,
+      "offset": 30368,
+      "source_sha256": "4bb0ac322cd35170a8323be7394ce30ca786972c11aa9e70243c68637a8e1bdf",
+      "record_sha256": "22b56fbb8682db9996cb6b128b2b4c167c2130f394e56ab23f9e674aa887e651",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 14,
+      "approved_name_sha256": "4bb0ac322cd35170a8323be7394ce30ca786972c11aa9e70243c68637a8e1bdf",
+      "parent_name_sha256": "4bb0ac322cd35170a8323be7394ce30ca786972c11aa9e70243c68637a8e1bdf"
+    },
+    {
+      "id": "item.name.0222",
+      "index": 222,
+      "offset": 30496,
+      "source_sha256": "9259206c71f4be8d7c4a324469581b1a17f5043b4ec53fe9f86bcc58e360aabd",
+      "record_sha256": "de3b23591ad825a61bd60c329a51e624de8a11e7134277fd04a3484494c62130",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "9259206c71f4be8d7c4a324469581b1a17f5043b4ec53fe9f86bcc58e360aabd",
+      "parent_name_sha256": "9259206c71f4be8d7c4a324469581b1a17f5043b4ec53fe9f86bcc58e360aabd"
+    },
+    {
+      "id": "item.name.0223",
+      "index": 223,
+      "offset": 30624,
+      "source_sha256": "a6056e8d0798143fac526fcf37b7da63d5661cbba0512a92d3826db19eeb9f8e",
+      "record_sha256": "3d08894b11eb18bb4d485c282cda31c63064e66e780adca55eb3ecf0f28b7a00",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "a6056e8d0798143fac526fcf37b7da63d5661cbba0512a92d3826db19eeb9f8e",
+      "parent_name_sha256": "a6056e8d0798143fac526fcf37b7da63d5661cbba0512a92d3826db19eeb9f8e"
+    },
+    {
+      "id": "item.name.0224",
+      "index": 224,
+      "offset": 30752,
+      "source_sha256": "bc1b785cf7d228aaae3adaef5516720c7e2e6452c1d33a2be718ee79d66639e5",
+      "record_sha256": "aa5784004f2a51f468de12288a2bee71aff8595258ef5303535cc04a2836d32a",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 13,
+      "approved_name_sha256": "bc1b785cf7d228aaae3adaef5516720c7e2e6452c1d33a2be718ee79d66639e5",
+      "parent_name_sha256": "bc1b785cf7d228aaae3adaef5516720c7e2e6452c1d33a2be718ee79d66639e5"
+    },
+    {
+      "id": "item.name.0225",
+      "index": 225,
+      "offset": 30880,
+      "source_sha256": "4dc5b6a88d7459484874be868df4bfa8a924830e9d1fcad502611efe9b5bf372",
+      "record_sha256": "bedeaaecef63805ad99babe3863da2ae641ead36741942f07498022ac96ebb21",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 14,
+      "approved_name_sha256": "4dc5b6a88d7459484874be868df4bfa8a924830e9d1fcad502611efe9b5bf372",
+      "parent_name_sha256": "4dc5b6a88d7459484874be868df4bfa8a924830e9d1fcad502611efe9b5bf372"
+    },
+    {
+      "id": "item.name.0226",
+      "index": 226,
+      "offset": 31008,
+      "source_sha256": "2094edff1733c87cfd6633a609376353a6404d64cb2fab1e81dd5db36c5d0a7f",
+      "record_sha256": "d20d5859e731d09067b72e75fdfb5c98b0c4812c0f35dff4c5620dbae180f7b8",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "2094edff1733c87cfd6633a609376353a6404d64cb2fab1e81dd5db36c5d0a7f",
+      "parent_name_sha256": "2094edff1733c87cfd6633a609376353a6404d64cb2fab1e81dd5db36c5d0a7f"
+    },
+    {
+      "id": "item.name.0227",
+      "index": 227,
+      "offset": 31136,
+      "source_sha256": "112f5ec2a5d2447d85925bc2a6eb6119d09f3353e018e4d2e2cf99e6edfd666a",
+      "record_sha256": "76e6bf3e959ed35e7af286f0e2e56db6c23f13a9a2b0e7965c2f6528c96dfbb5",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "112f5ec2a5d2447d85925bc2a6eb6119d09f3353e018e4d2e2cf99e6edfd666a",
+      "parent_name_sha256": "112f5ec2a5d2447d85925bc2a6eb6119d09f3353e018e4d2e2cf99e6edfd666a"
+    },
+    {
+      "id": "item.name.0228",
+      "index": 228,
+      "offset": 31264,
+      "source_sha256": "262ce8bc4d7bd9b0753ac70031331ebcf40eb12705f4e0ccc47913613f3f22b3",
+      "record_sha256": "8da09cab8bcde72c21fbb5f59df77f56acd0ece8537756072a71165b328423f2",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "262ce8bc4d7bd9b0753ac70031331ebcf40eb12705f4e0ccc47913613f3f22b3",
+      "parent_name_sha256": "262ce8bc4d7bd9b0753ac70031331ebcf40eb12705f4e0ccc47913613f3f22b3"
+    },
+    {
+      "id": "item.name.0229",
+      "index": 229,
+      "offset": 31392,
+      "source_sha256": "31f1c1344c586b9c5075a9065f58cf1202c91965a3cd92cd45dd2487c266265b",
+      "record_sha256": "1bfd0bff5e7b5ba2e51dc62c5ef88f06adbff38bd67bd4930e199e9226001d1b",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "31f1c1344c586b9c5075a9065f58cf1202c91965a3cd92cd45dd2487c266265b",
+      "parent_name_sha256": "31f1c1344c586b9c5075a9065f58cf1202c91965a3cd92cd45dd2487c266265b"
+    },
+    {
+      "id": "item.name.0230",
+      "index": 230,
+      "offset": 31520,
+      "source_sha256": "8942924a15354225d74018b58d072a9bc348254ffeff216225c4b9346b307c30",
+      "record_sha256": "1005755e657dd1dfaa847113845bdd56c47deb5ed4fd396703faafdb750518a0",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "8942924a15354225d74018b58d072a9bc348254ffeff216225c4b9346b307c30",
+      "parent_name_sha256": "8942924a15354225d74018b58d072a9bc348254ffeff216225c4b9346b307c30"
+    },
+    {
+      "id": "item.name.0231",
+      "index": 231,
+      "offset": 31648,
+      "source_sha256": "233b902368d6e26c32496a9fc44a5c14f99f9b16ced941c1e8a32f7d758efe1d",
+      "record_sha256": "0cca74441aed763c28bbda22b1e4f2e2e1cd5d5e595b673f71cf169298906e70",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 12,
+      "approved_name_sha256": "233b902368d6e26c32496a9fc44a5c14f99f9b16ced941c1e8a32f7d758efe1d",
+      "parent_name_sha256": "233b902368d6e26c32496a9fc44a5c14f99f9b16ced941c1e8a32f7d758efe1d"
+    },
+    {
+      "id": "item.name.0232",
+      "index": 232,
+      "offset": 31776,
+      "source_sha256": "0046548b2b9e96cc6cc743a65aa79a01ad0ea0f5df03c0bd334891dfa21cada8",
+      "record_sha256": "ea8a9fbf78abce70fa07dd915b9ffdc29056306a2d61d9446107d7299163fe78",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 14,
+      "approved_name_sha256": "0046548b2b9e96cc6cc743a65aa79a01ad0ea0f5df03c0bd334891dfa21cada8",
+      "parent_name_sha256": "0046548b2b9e96cc6cc743a65aa79a01ad0ea0f5df03c0bd334891dfa21cada8"
+    },
+    {
+      "id": "item.name.0233",
+      "index": 233,
+      "offset": 31904,
+      "source_sha256": "37a174a22934692347c8106373caa31579e666126c09b0fe0eb5aee39d283b08",
+      "record_sha256": "8999e00ed43136a43983cdc593ca154d47d3ae67f482719b12c060e1f3a9e329",
+      "category": 11,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "72e7264a57a90f93c4cfdf70fd2d33685128596d884cbcbd0630787dbe2133a8",
+      "parent_name_sha256": "37a174a22934692347c8106373caa31579e666126c09b0fe0eb5aee39d283b08"
+    },
+    {
+      "id": "item.name.0234",
+      "index": 234,
+      "offset": 32032,
+      "source_sha256": "077bd0c1f29e126ccfab0147d6d336807b3f824891f6f808a6bbb727cc72bab4",
+      "record_sha256": "7159e983d82adf6a7583ac40bbf1dd325413f18471612f7282a4b08f0c651181",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "077bd0c1f29e126ccfab0147d6d336807b3f824891f6f808a6bbb727cc72bab4",
+      "parent_name_sha256": "077bd0c1f29e126ccfab0147d6d336807b3f824891f6f808a6bbb727cc72bab4"
+    },
+    {
+      "id": "item.name.0235",
+      "index": 235,
+      "offset": 32160,
+      "source_sha256": "da95034939c5e5d6c2a26dea397154b3e3eb3db4a50658dc948bdca2a4ce606f",
+      "record_sha256": "f9c5a955676bea144e0e2ee848cf35646a0c8087d09e3ad7501443049ad521ca",
+      "category": 11,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "5ef6f0e9d76b7b63c5a1df139e6906415c539e269123ea6aba4f09b312197cb7",
+      "parent_name_sha256": "da95034939c5e5d6c2a26dea397154b3e3eb3db4a50658dc948bdca2a4ce606f"
+    },
+    {
+      "id": "item.name.0236",
+      "index": 236,
+      "offset": 32288,
+      "source_sha256": "c0a766b99287786cba0476b5d3fbc1581755b2b3c891bac060c65e8e21952a3a",
+      "record_sha256": "d5399539e9f548a69291ebef85d8655148138d8b814669a09d3026a0ba63b524",
+      "category": 11,
+      "decision": "ALTERAR",
+      "approved_bytes": 16,
+      "approved_name_sha256": "8df656708ab34635f5515635292dddf16a3cf73647be1221998260b57519c001",
+      "parent_name_sha256": "c0a766b99287786cba0476b5d3fbc1581755b2b3c891bac060c65e8e21952a3a"
+    },
+    {
+      "id": "item.name.0237",
+      "index": 237,
+      "offset": 32416,
+      "source_sha256": "85eba45346d98c00eb2d91e33a028794b5727e371b8474423ed8a51da805b882",
+      "record_sha256": "55d2ff87093568a45f32349495d5282648e4dd0720de1651cad0ccf434aab78f",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "85eba45346d98c00eb2d91e33a028794b5727e371b8474423ed8a51da805b882",
+      "parent_name_sha256": "85eba45346d98c00eb2d91e33a028794b5727e371b8474423ed8a51da805b882"
+    },
+    {
+      "id": "item.name.0238",
+      "index": 238,
+      "offset": 32544,
+      "source_sha256": "a616664c6aa28f4237a8f758ddbce02c1993e1ada15d0f0425d2cc0b4dbc726c",
+      "record_sha256": "00be6daa545e7b6becc3148fd0e162b5813269b7329765a6b5fc395609aab96d",
+      "category": 11,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "1c4465153e0318ab9d4174e808209aaa0afff70d791c6e9bcaa7c7b00dcdee71",
+      "parent_name_sha256": "a616664c6aa28f4237a8f758ddbce02c1993e1ada15d0f0425d2cc0b4dbc726c"
+    },
+    {
+      "id": "item.name.0239",
+      "index": 239,
+      "offset": 32672,
+      "source_sha256": "fa663e3e7711791005d6622a8c6d6a0bd71d2976ac3c60ef8f3c0982d541fafd",
+      "record_sha256": "40174222ac4ccf72a31e7a9011f1977cc07e2fc2aab95d4b881ce956f296f3bf",
+      "category": 11,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "8d3a52bfb79b704c2f7e4dcec4acd71b3089107bfdaa4d1f764e714ef5250ef4",
+      "parent_name_sha256": "fa663e3e7711791005d6622a8c6d6a0bd71d2976ac3c60ef8f3c0982d541fafd"
+    },
+    {
+      "id": "item.name.0240",
+      "index": 240,
+      "offset": 32800,
+      "source_sha256": "0911ab4bc0e9338691f569a08633019c2f6619117b681e22f3fa0b42318b646d",
+      "record_sha256": "f689c6e8793ac65875f3c402949a180efa3ebcf0ae0bb2dd645258e48b424caa",
+      "category": 11,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "019fc171fbf54c711b7667df52b107794004fd4ad731860c86f3840bc186244d",
+      "parent_name_sha256": "0911ab4bc0e9338691f569a08633019c2f6619117b681e22f3fa0b42318b646d"
+    },
+    {
+      "id": "item.name.0241",
+      "index": 241,
+      "offset": 32928,
+      "source_sha256": "fef0a2c67b87fa5f964ff72be1b6079d2ce8ac68732994b2b54f0b7cc0826bdc",
+      "record_sha256": "3034d57570caa4a163ff29b3e03d44bd467385124fbf99291d20e747f21126ae",
+      "category": 11,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "fef0a2c67b87fa5f964ff72be1b6079d2ce8ac68732994b2b54f0b7cc0826bdc",
+      "parent_name_sha256": "fef0a2c67b87fa5f964ff72be1b6079d2ce8ac68732994b2b54f0b7cc0826bdc"
+    },
+    {
+      "id": "item.name.0242",
+      "index": 242,
+      "offset": 33056,
+      "source_sha256": "bd8a4408f6588fd8e2a2537cb0c2fc7522c48369fba76b9580c6cc6c80221117",
+      "record_sha256": "248a33f3c10131db526ebb11d886be9e38840607ffb39b36ef8cd628c16af957",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "29a5da9e547b61416d931de7d1b378de8bc31aacc21c7310b769c14e9a115f11",
+      "parent_name_sha256": "bd8a4408f6588fd8e2a2537cb0c2fc7522c48369fba76b9580c6cc6c80221117"
+    },
+    {
+      "id": "item.name.0243",
+      "index": 243,
+      "offset": 33184,
+      "source_sha256": "aae047ce13d9a04f9a52de7ea6aec68b448b21ce9294fb002b1f1a5e8793e071",
+      "record_sha256": "c431bbc67fa95637e85b4939c909fe50f29b026629a726db61f5d2eadadf1be1",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "aae047ce13d9a04f9a52de7ea6aec68b448b21ce9294fb002b1f1a5e8793e071",
+      "parent_name_sha256": "aae047ce13d9a04f9a52de7ea6aec68b448b21ce9294fb002b1f1a5e8793e071"
+    },
+    {
+      "id": "item.name.0244",
+      "index": 244,
+      "offset": 33312,
+      "source_sha256": "ac0826f563956c15f804834d600f10cf1696b7782afa7da6a872a7112a6ea66d",
+      "record_sha256": "17b0eda45f38c97dfa206026658104d8508492c491caee5bc10c87363157866f",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 13,
+      "approved_name_sha256": "d9ac61eec391ed7205f035d2f223e8337b2269362646fedd64fb47e7473bdfdc",
+      "parent_name_sha256": "ac0826f563956c15f804834d600f10cf1696b7782afa7da6a872a7112a6ea66d"
+    },
+    {
+      "id": "item.name.0245",
+      "index": 245,
+      "offset": 33440,
+      "source_sha256": "152031e880458972044ca63c02865c4be5780e141a1f9613af5014af4bdeb666",
+      "record_sha256": "4e8e6774df9c43231ef5f4c79f654f3b0a47cf05dc5946b584bfdd0ddb93de5d",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 12,
+      "approved_name_sha256": "5b6e8ada7a5a1df7e269ead21fddbb9a4f9f1b7b17ff8e5e652e30b321e47509",
+      "parent_name_sha256": "152031e880458972044ca63c02865c4be5780e141a1f9613af5014af4bdeb666"
+    },
+    {
+      "id": "item.name.0246",
+      "index": 246,
+      "offset": 33568,
+      "source_sha256": "9f5f6a4d35b384a2fbdb6999533658e63e195f17a76726fdcd6f6791dfb97974",
+      "record_sha256": "25965958964a0ec601be768fa7cd0ae6df6f3a36ed4da4b3f872e6bf0da73c85",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "9f5f6a4d35b384a2fbdb6999533658e63e195f17a76726fdcd6f6791dfb97974",
+      "parent_name_sha256": "9f5f6a4d35b384a2fbdb6999533658e63e195f17a76726fdcd6f6791dfb97974"
+    },
+    {
+      "id": "item.name.0247",
+      "index": 247,
+      "offset": 33696,
+      "source_sha256": "6e1698f0d8ae8433ae8631af74964c20b9cc695a5c9a96d033746aad34f68ae5",
+      "record_sha256": "3d2d24f5488b559d80c06fc5c2542fa3eeff1c6384cc2d1ed3bde3c848495ade",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 11,
+      "approved_name_sha256": "850dd39963441f13df7652ee50e56bf6a84fca066a0f5f2949cd5c7574c6a9f3",
+      "parent_name_sha256": "6e1698f0d8ae8433ae8631af74964c20b9cc695a5c9a96d033746aad34f68ae5"
+    },
+    {
+      "id": "item.name.0248",
+      "index": 248,
+      "offset": 33824,
+      "source_sha256": "2591d087f41df9900a0d452ce61175bf0c7befe5eab2d375df716667cc8ec557",
+      "record_sha256": "7ba0a36d081e6cf6cf3d66dc2c0c48e1d8a5825fa306e161b7b372d720b291dd",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 11,
+      "approved_name_sha256": "b0008bf7edb92814d8965e3009f766e2cce83a763f59147f7adee0d7a667d19d",
+      "parent_name_sha256": "2591d087f41df9900a0d452ce61175bf0c7befe5eab2d375df716667cc8ec557"
+    },
+    {
+      "id": "item.name.0249",
+      "index": 249,
+      "offset": 33952,
+      "source_sha256": "04ffca2ea2e4e18789319b9ac4a5e282a12a01c69be4129346c5d007e218b6b1",
+      "record_sha256": "1e7e807614c45f4ad951bc6b539e40c603969ebffee874f6ed689f669cef6d70",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "57ab966ee634a040d87322f452da43fd10c7b4c43d4a59dcef1ed3a0f708a576",
+      "parent_name_sha256": "04ffca2ea2e4e18789319b9ac4a5e282a12a01c69be4129346c5d007e218b6b1"
+    },
+    {
+      "id": "item.name.0250",
+      "index": 250,
+      "offset": 34080,
+      "source_sha256": "6aafa7e6b5f863d285454a1d67b9ab08e6e3cc989282186fa62f224f3fb828b6",
+      "record_sha256": "d090381ccb80b3ef718e6e4f56a0fbc11b69c45fc8c2faf1fc7f6d1363be5b8f",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 14,
+      "approved_name_sha256": "57f2eb3439aa2ff50f744ccf34715f5c5cb65144bd5391fa4f2086f0d250ee30",
+      "parent_name_sha256": "6aafa7e6b5f863d285454a1d67b9ab08e6e3cc989282186fa62f224f3fb828b6"
+    },
+    {
+      "id": "item.name.0251",
+      "index": 251,
+      "offset": 34208,
+      "source_sha256": "0750477d50ede98e450b7b778fda0f46a844c021763389e9192b78fadc0c83c2",
+      "record_sha256": "ee5cf086a834a6a96e04176375aa5bf9c89dac589e23f6e4c30a63ffa2154852",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "94b8d55b975e73e5bdcc8ac427311f28b920f69cf8d1932aa1a87ff658b831ff",
+      "parent_name_sha256": "0750477d50ede98e450b7b778fda0f46a844c021763389e9192b78fadc0c83c2"
+    },
+    {
+      "id": "item.name.0252",
+      "index": 252,
+      "offset": 34336,
+      "source_sha256": "419ef1646920c704fd13ed1697fb1ff8c5996fc2d0586be600700fcc1e408d5b",
+      "record_sha256": "2cdd195a3178e4744d7fff0be5fdb377d6f860dd325defaa92b49c9feb1e5232",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 10,
+      "approved_name_sha256": "32b8bcdc8a8d4d188728983ef1a6e5aa7c2a122492f7a9a89dfc8d3636390fb3",
+      "parent_name_sha256": "419ef1646920c704fd13ed1697fb1ff8c5996fc2d0586be600700fcc1e408d5b"
+    },
+    {
+      "id": "item.name.0253",
+      "index": 253,
+      "offset": 34464,
+      "source_sha256": "1b5e29699dc0ad6d11a16001be6e6bfe9413c8548c1f2df7e8bb9466bb253f41",
+      "record_sha256": "794879acd3b5f0245b0091ac7b2f8de6cb2fe75b9e76bb2d9db8e3b432f480a8",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 13,
+      "approved_name_sha256": "1b5e29699dc0ad6d11a16001be6e6bfe9413c8548c1f2df7e8bb9466bb253f41",
+      "parent_name_sha256": "1b5e29699dc0ad6d11a16001be6e6bfe9413c8548c1f2df7e8bb9466bb253f41"
+    },
+    {
+      "id": "item.name.0254",
+      "index": 254,
+      "offset": 34592,
+      "source_sha256": "649c12c9385054007e122cefdc01831c849cd396e1758ee6ceb2a0ec8acda8a3",
+      "record_sha256": "296cd0cc49cdce5e5b4e008984eaa75145c70a49d131514b0528663d55a4fada",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 14,
+      "approved_name_sha256": "649c12c9385054007e122cefdc01831c849cd396e1758ee6ceb2a0ec8acda8a3",
+      "parent_name_sha256": "649c12c9385054007e122cefdc01831c849cd396e1758ee6ceb2a0ec8acda8a3"
+    },
+    {
+      "id": "item.name.0255",
+      "index": 255,
+      "offset": 34720,
+      "source_sha256": "f74a879c6ad1447a6356d876dc32fe07e993cf5857bab37a0dae5704f71222ae",
+      "record_sha256": "34fe94be15327597c6ec0501d762f8e250c48f13b9e41ac53760be9923531749",
+      "category": 12,
+      "decision": "ALTERAR",
+      "approved_bytes": 15,
+      "approved_name_sha256": "db9b3d8db3bf47f04bd3d5e7a358dbf53ef0949ab5aad015f541c4d6a5e9e225",
+      "parent_name_sha256": "f74a879c6ad1447a6356d876dc32fe07e993cf5857bab37a0dae5704f71222ae"
+    },
+    {
+      "id": "item.name.0256",
+      "index": 256,
+      "offset": 34848,
+      "source_sha256": "0e02e61d928b7409c158336018431bbd36ec6d350f7878d49fa73eb750de7f28",
+      "record_sha256": "bbf980ae12b73d4662000ed5dece198e8e37f1d23b8af041b01ad49ece8344c2",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 4,
+      "approved_name_sha256": "0e02e61d928b7409c158336018431bbd36ec6d350f7878d49fa73eb750de7f28",
+      "parent_name_sha256": "0e02e61d928b7409c158336018431bbd36ec6d350f7878d49fa73eb750de7f28"
+    },
+    {
+      "id": "item.name.0257",
+      "index": 257,
+      "offset": 34976,
+      "source_sha256": "bf4b0c03c646add9b518fc4f658deba189e5bc4918607186e4570472bf6cb19f",
+      "record_sha256": "8035f7e101374f4d568c3ac9527feea827d3fca93a7877e6d47feca016021515",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 3,
+      "approved_name_sha256": "bf4b0c03c646add9b518fc4f658deba189e5bc4918607186e4570472bf6cb19f",
+      "parent_name_sha256": "bf4b0c03c646add9b518fc4f658deba189e5bc4918607186e4570472bf6cb19f"
+    },
+    {
+      "id": "item.name.0258",
+      "index": 258,
+      "offset": 35104,
+      "source_sha256": "af7e5ebe9e564af1a380c0682effd44e095a1f3cb25dcf44d1f4fe6ebb0e11a2",
+      "record_sha256": "4c7a682983f1ce489272b2bdd513049952fe88a61f78d86fbea2b3fefb138f48",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "af7e5ebe9e564af1a380c0682effd44e095a1f3cb25dcf44d1f4fe6ebb0e11a2",
+      "parent_name_sha256": "af7e5ebe9e564af1a380c0682effd44e095a1f3cb25dcf44d1f4fe6ebb0e11a2"
+    },
+    {
+      "id": "item.name.0259",
+      "index": 259,
+      "offset": 35232,
+      "source_sha256": "24b57dafdc1448eb63f6f9ac4d026663e67d81cbc9e6dd34c83776f3f5beef48",
+      "record_sha256": "e6e7b83b4f065efe9aada962706dc3254c9c6752d629094aa8b30b13349a1b08",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "24b57dafdc1448eb63f6f9ac4d026663e67d81cbc9e6dd34c83776f3f5beef48",
+      "parent_name_sha256": "24b57dafdc1448eb63f6f9ac4d026663e67d81cbc9e6dd34c83776f3f5beef48"
+    },
+    {
+      "id": "item.name.0260",
+      "index": 260,
+      "offset": 35360,
+      "source_sha256": "82d4401a0f7b9cb0becf1eb0fb26c8ea28db7609e2410a92600ff2a96f7b35a5",
+      "record_sha256": "f0139d68023cf76e2ee9b581cf5c32b49b46c4e6e1cbf3bf35acd07f08851784",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "82d4401a0f7b9cb0becf1eb0fb26c8ea28db7609e2410a92600ff2a96f7b35a5",
+      "parent_name_sha256": "82d4401a0f7b9cb0becf1eb0fb26c8ea28db7609e2410a92600ff2a96f7b35a5"
+    },
+    {
+      "id": "item.name.0261",
+      "index": 261,
+      "offset": 35488,
+      "source_sha256": "66e04c98d48af3d38bda6e9a44b4c8f94f060c6f5b9055ce05c9ee59f5c32767",
+      "record_sha256": "0f227e70b563904c4de10a9fab84e8193bf82b3cf9433c108576ff41995cec6b",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 7,
+      "approved_name_sha256": "66e04c98d48af3d38bda6e9a44b4c8f94f060c6f5b9055ce05c9ee59f5c32767",
+      "parent_name_sha256": "66e04c98d48af3d38bda6e9a44b4c8f94f060c6f5b9055ce05c9ee59f5c32767"
+    },
+    {
+      "id": "item.name.0262",
+      "index": 262,
+      "offset": 35616,
+      "source_sha256": "04f01c60a3e88d857a0344097752a8b9111e017684fa97076660f04457a9c471",
+      "record_sha256": "6418801d3fdf2e23942974e0f499d5afd4c43933dd5b0168f7de09e58e22c45b",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 10,
+      "approved_name_sha256": "04f01c60a3e88d857a0344097752a8b9111e017684fa97076660f04457a9c471",
+      "parent_name_sha256": "04f01c60a3e88d857a0344097752a8b9111e017684fa97076660f04457a9c471"
+    },
+    {
+      "id": "item.name.0263",
+      "index": 263,
+      "offset": 35744,
+      "source_sha256": "b991454756b6309148fbee4b014b009941ff14ee7ed65a217aed6da2051fa6ae",
+      "record_sha256": "17cf8990e439e9b82988abdda89ffea4ca1c1d7c2eb1f5e6af7d06b299ad7073",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 8,
+      "approved_name_sha256": "b991454756b6309148fbee4b014b009941ff14ee7ed65a217aed6da2051fa6ae",
+      "parent_name_sha256": "b991454756b6309148fbee4b014b009941ff14ee7ed65a217aed6da2051fa6ae"
+    },
+    {
+      "id": "item.name.0264",
+      "index": 264,
+      "offset": 35872,
+      "source_sha256": "00edbd472e06536f40c949509f9c68ce04a35bf394debbb42c6c0000dab51a23",
+      "record_sha256": "0bf56c056fd12de029cae43042f0f0775cf19251310c0d5ae7fa0f8ff6afef8c",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 9,
+      "approved_name_sha256": "00edbd472e06536f40c949509f9c68ce04a35bf394debbb42c6c0000dab51a23",
+      "parent_name_sha256": "00edbd472e06536f40c949509f9c68ce04a35bf394debbb42c6c0000dab51a23"
+    },
+    {
+      "id": "item.name.0265",
+      "index": 265,
+      "offset": 36000,
+      "source_sha256": "6bf746e7fbfd282d0c84c3c4130db20ff661e2d808c2812c9c6d03d31b342d82",
+      "record_sha256": "760df2096fa0ec40fa04267eba42e9a28944813f9d6361c88be3a90b263de1c2",
+      "category": 12,
+      "decision": "MANTER",
+      "approved_bytes": 11,
+      "approved_name_sha256": "6bf746e7fbfd282d0c84c3c4130db20ff661e2d808c2812c9c6d03d31b342d82",
+      "parent_name_sha256": "6bf746e7fbfd282d0c84c3c4130db20ff661e2d808c2812c9c6d03d31b342d82"
+    }
+  ],
+  "items": [
+    {
+      "id": "item.name.0001",
+      "source_sha256": "6d3c365e011ea8f0f71e41efc7704e4551de80238e67e3c2cc72dffc2b5e15d2",
+      "record_sha256": "fc93e09d5dc9600621d39f6d4eea719227a5c00c5e3f1be550e1d37b581d1578",
+      "translation": "Faca borboleta",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0002",
+      "source_sha256": "0e9e7c8e13ec34c73db8e73090c3b934304e120da1da834dfee206040d9874ce",
+      "record_sha256": "cff2689e5736ad402a3d1b8e366f05a88ae993d16e96623d247986569c3c039a",
+      "translation": "Bastão de metal",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0004",
+      "source_sha256": "add71474746175c1b2ec0a2ac62836817ad37897e9473fab1a96fbb085bbefe7",
+      "record_sha256": "9bc9c020d785121f91906232ea95d0a02bb6c03407ff27a0d5a05549610c9931",
+      "translation": "Facão",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0005",
+      "source_sha256": "c39d72b3eedeac5f3b5399bf20c3a1c30be4c9c0148c0223852b91ec249e5e1d",
+      "record_sha256": "da3515d35f66f7b453e5ae6d5fab0cd4b7a6a0f2b86d0fc09acad37834d1576a",
+      "translation": "Garra de tigre",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0006",
+      "source_sha256": "466d4acfbb0a1aa6669e6a61617e0a18ffd49c7b0a7f99408d330f5ab58e54ff",
+      "record_sha256": "eb932b7ec787076862a70dd81ad3169b1b1baed142ecb1226c2d767ae88c17b6",
+      "translation": "Espada chinesa",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0010",
+      "source_sha256": "530dce53ee0b40ab3ea4bb6485cc87cad55d27ff064b4065e62d814dce07837c",
+      "record_sha256": "56e803fdcfbb3c577791e7fe22654303d68278ea9866f67f1ec0bbd717dd6028",
+      "translation": "Lâmina sem nome",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0011",
+      "source_sha256": "c25070814c9dba6590da65372dfb30ecbe45fe2b54174f88ec067351266c74c1",
+      "record_sha256": "1bba42bbab4f7d636faa9af2a335a379db07d6fe5041518e387ecd5a61ac35dd",
+      "translation": "Lâmina afiada",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0012",
+      "source_sha256": "ced97b8032c988f298fee254ced34ad6f33ea940e387b6b90642ea8b5ef38dc9",
+      "record_sha256": "3249ca1989ca8cae99e617ee168f2d0d74d1ac97fad5f52fa61efc6b33de9fa2",
+      "translation": "Espada vibrante",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0013",
+      "source_sha256": "24f2a302d2efe1a10f6575d2df510854e8cf46e086fdf867b563bde238c1a655",
+      "record_sha256": "dc740ce890f72d6339edc2800ab6fe1d24f085e67dd20a17c6971a7af452557a",
+      "translation": "Espada Damasco",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0014",
+      "source_sha256": "74f6bfe8586846cba532fc9a8568368f27055fc9d627ad17105fccc81dcc94f5",
+      "record_sha256": "0efd683901fa24e32902080ab9bb89bc58a5d0511d0809b4f7f5acfd39210cfd",
+      "translation": "Espada defensiva",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0017",
+      "source_sha256": "1755cb4fad2209ab07b1f9baa388caf0b032ad909bcf721499f2e3f00c5b4ca0",
+      "record_sha256": "c71994505ef049933f4ab20d156558c4eba5a816c0b1693755e8cdb24ffeabcd",
+      "translation": "Lâmina de aço",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0018",
+      "source_sha256": "de4d8d53cabfb4fd460ceb2b3e40ae986a68bb09362de198fb49b5ea9bc14431",
+      "record_sha256": "a530e7faac345bd881d0e2b2c6576cc5132605bd1a2177c7fd1bf31b53167c00",
+      "translation": "Espada demônio",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0019",
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "record_sha256": "db68e0e0e4c00996f36389d33dc33c5504807caf0a245e42b7dece02a2424c31",
+      "translation": "Mãos nuas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0025",
+      "source_sha256": "5d907e09f9c22fec429d7e0e83ddf443cd4f6d0204328c3d7203456032a48dab",
+      "record_sha256": "6c1eacdaec55157dfab293e8e5ab87c3a7dba6a58ee811ab2494441347a935fb",
+      "translation": "Para-raios",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0034",
+      "source_sha256": "6cd65558a1368c7933d6f2f63315b3932ed9a1dcceb19e21da52a29c8a34bc2e",
+      "record_sha256": "d02453afc6c20f1b770f41a398996d2dc46fbab846f0744a900c0003d2bdb932",
+      "translation": "Garra broca",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0035",
+      "source_sha256": "cb34aac86952be3a4a8454b4ce78e494227fc42815852dfe906e784c76befc34",
+      "record_sha256": "aea7641f98f56905515b5547b74d1d05323586f83c8bc1d598df7c08a79433c2",
+      "translation": "Garra laser",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0036",
+      "source_sha256": "0631a3a10fe0185996060b4db40a7ce7059fa133531d3e140dec589f6d34647e",
+      "record_sha256": "25540f68db2fa8b2af2eb58231962c63516a3125160717f0648dd90e3dacabe7",
+      "translation": "Garra-bomba",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0037",
+      "source_sha256": "3fddfc6a0b27f621dabd584b6293cf02032f5ed35f5acc793e96dadffa64b6b9",
+      "record_sha256": "8dfc468cc135a2876760d6aaf26e8bf4a17a854332c09d6b7fa0514124789bd7",
+      "translation": "Espada maligna",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0039",
+      "source_sha256": "226f915e0ecadc2eba5e6e5cf533ddcc0c4195e128f559cf3ad0985d515139fa",
+      "record_sha256": "23a33795b9ec9654956eb21c249b1adcee7124c288ead85d40f5273a03f2f970",
+      "translation": "Estilingue",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0040",
+      "source_sha256": "b015d3ddeff42d858d06bfc28ab994f070479ba167c7f26d00f16decc9331a16",
+      "record_sha256": "3d54cfa2f3d01b9d2bf45215eb490e3e8ab5cc2692f72ff1b348cd6a1cb5aa5e",
+      "translation": "Revólver",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0042",
+      "source_sha256": "4229d78964ec545ee34333398193c831cf580fca3f475b8e7476e5de4f28a617",
+      "record_sha256": "7a2f7cdeb7f216d06dd71139d2e50dfa6ad5fa5beca8ac9124c3421c9bc59d3a",
+      "translation": "Besta",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0050",
+      "source_sha256": "050991792ba0040cbbaffd71ee45d7d99d96c74467d4ac4f04f56113964f6a0a",
+      "record_sha256": "5a14cb755c895f32ecb20f43909d32085014c2691dd33ab40e6790f519466f4d",
+      "translation": "Escopeta",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0055",
+      "source_sha256": "d46ca53cfcd1b97a5eef85be385cf583039365fd43dc7c9ca3de70013e24ab16",
+      "record_sha256": "74023b1e503a9b07c1a1206b515b2f0ed541db90d4731b332e01d4175d53ed71",
+      "translation": "Lança-granadas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0058",
+      "source_sha256": "88b30ec3c1793b00f2d03d6901b4953137c15ed294644444cb68a5cea2d7b71b",
+      "record_sha256": "6335f612f97fd0f06d5ef57f2156e563bf57501b73291cf97586a6987f7b4f7c",
+      "translation": "Faca de lançar",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0059",
+      "source_sha256": "6cdc997adf5c994db67a5ac8389188823ad2e5bfaf7af8ffe6fbb58865744dea",
+      "record_sha256": "cc75188eba34bad4e5a42658207cc394aa85e2a24e1bdd2cec328c765425eeaf",
+      "translation": "Chave remota",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0067",
+      "source_sha256": "9088f3ee2d1808e85b471a846e09209752b846f02f41ae7aaf77c3e0d8922003",
+      "record_sha256": "4fe4676f071e5c42759cfeed0a75f0e3d40199e4c025eb80ab445f0d4ac2fb97",
+      "translation": "Blaster sônico",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0068",
+      "source_sha256": "4078ff2bceff0e7bd2db3fec750f8c5062999d6d7efb14d2ad7b4dd7a3ab7c50",
+      "record_sha256": "2466eb63240c74efadd1e272b83e741e115d8928697d4b44e5d75d3f97e70422",
+      "translation": "Lança-chamas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0069",
+      "source_sha256": "5fa4784a59e2bbdf6199d61513173ae473624e7d8263131440d68f76ee6d8ad1",
+      "record_sha256": "8d303fb002ebf977a9d779fc487b010b2c3e1ceba5a3fcae632674371d5b3017",
+      "translation": "Blaster de fogo",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0072",
+      "source_sha256": "ac13ba97b4abd8943029bfd95249ad57cec8da975dfbf1a6de184d721c5a2be7",
+      "record_sha256": "e700c3b2fad6a700c1350bcb147edec0717b0de554aa8f67a79ca9a0f83ac9d9",
+      "translation": "Arma congelante",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0073",
+      "source_sha256": "3b107bb4a7803b0705458b203dd2875c3b0e1d5b7d7eebd2fdde6cd90ee366ad",
+      "record_sha256": "81757d5bc904b4971f1f991ef7cf1ce3710cd0df81165feddde595dcf0602974",
+      "translation": "Blaster de gelo",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0074",
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "record_sha256": "68bf23996a9862586027d0b6d0082276a23265dc608650e9c6d4e603b2f39aea",
+      "translation": "Mãos nuas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0075",
+      "source_sha256": "b51e9459022206ecfca5417d5c7eba1692d1cdb7701f628e4fb1c8b6e70d499a",
+      "record_sha256": "ebaa3ddbc79ed7f3d61d5e4c64fa816ce8cbdaba63d5f7f1ef68a57caf2ac431",
+      "translation": "Arma de cimento",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0077",
+      "source_sha256": "998b770c45546d25505393aa7ebaaa082e08507da148d9d57624010642cbce18",
+      "record_sha256": "bfe57b1010c18628db9667f5246d4835a019d0be0ddfaa1b0bae6fc1d84b2e28",
+      "translation": "Bazuca laser 1",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0078",
+      "source_sha256": "9ff32a19b08a126ca188ee67bd0a3012ad330806fcdb1abb1863ce4fd4b89c00",
+      "record_sha256": "946e9d82a99bfddf4d7020598261f761aecdcdc446ed7608086bd0255bd30cf4",
+      "translation": "Bazuca laser 2",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0079",
+      "source_sha256": "bac66d6a12f802380e2d52cc96f15fd294f90622b0df690dc8464af21c6e72c9",
+      "record_sha256": "4b7a459a67bf3c5844e6b91ecd9ecdf6616b791ef45548be17672cd54871b68d",
+      "translation": "Bazuca laser 3",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0080",
+      "source_sha256": "3cdb7b4c3bde76dfa51b533057cc23f765b15c921514b10c06036617885cb16c",
+      "record_sha256": "aa4be76d8e96270e4a24dbc3090eb98f11eea10b1a1323bdc3449c8ba0ace716",
+      "translation": "Bazuca laser 4",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0081",
+      "source_sha256": "b31b2898ae26abd515e5f030cec4aba92d333ba9b448a6bdc6d2560afaab9da5",
+      "record_sha256": "b1bf42a47250885f60946985b3f0fde7058a27bc723971730600bd4e5442846b",
+      "translation": "Bazuca laser 5",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0082",
+      "source_sha256": "7b3be29edc9e15edb9f158c4d82e4ca8e182324887677683df992a6052b86169",
+      "record_sha256": "09d519e310ae724b285864787169229ef21fc451ddf9c3c521e04cf6eebac30a",
+      "translation": "Bazuca laser 6",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0083",
+      "source_sha256": "decd8fba0adc3cf7b5032df33898318cc5a722c07eede9970e421a34834498a1",
+      "record_sha256": "d5e56cf3c379297b8f3f1ae8dc96017e62c63a943cd412fef17192710ae71e5c",
+      "translation": "Bazuca laser 7",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0088",
+      "source_sha256": "193333f1ae02780d4187101c4684e46df674c048f9c3d8ffb911458ab5a35339",
+      "record_sha256": "985f9792f202d29fd1a0cf85c2a3141d74b4e0325da6abb38da665e85fd376b4",
+      "translation": "Arma canina",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0089",
+      "source_sha256": "0c5e53a00e6054bb4659f803eb812000063b713a98773695dc02d23795746bb5",
+      "record_sha256": "50c23445b47131ee4e92872fba8b1b9f236e62619b13220c6341d8084b1bf569",
+      "translation": "Vulcan canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0090",
+      "source_sha256": "b69b5711d8d18c7fb565a76eb618233bad2ee20e6138101a978206dd0237138a",
+      "record_sha256": "5f541c0d52d79e7a4e3f04cd21dc03c3af7a533bcbc4e379013b95a6c6d9dee2",
+      "translation": "Canhão canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0091",
+      "source_sha256": "d713684c85a669712612cd7a1545b3afcd817a52a4c066a2f452af9e8e92ad29",
+      "record_sha256": "72a6535ff442b335b6099650d5da6e4192974ac9ce14a6c790aabac0798c0ff0",
+      "translation": "Baioneta canina",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0092",
+      "source_sha256": "f9dbb1dd14cabfded5990b500e0ba3b70ff504769a04263ef48da4e235750e81",
+      "record_sha256": "6180c2623ef0972dc9df24dd468a0168bcdf058a5fb8717319ed891c06ba35de",
+      "translation": "Laser canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0093",
+      "source_sha256": "31c5dff1aacc67b6340e6691cc42f7227a36a66e264458b82ce2c813b11c7d7c",
+      "record_sha256": "ecece898f48494380c69a22e08f63b9e3f2461506d15495f5bafb1c7a3b75e67",
+      "translation": "Amplif. canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0094",
+      "source_sha256": "e0130eaed431810ed7dc1666d17ffe03c6ccfb2718a7e4f2d5fae3c652f00a38",
+      "record_sha256": "7423cd147ea2236d15c2d06a2c0dfa96773189f119dc92cd2c5e66016a9c6fbd",
+      "translation": "Maçarico canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0095",
+      "source_sha256": "8caf03934b94fd9288eee806169d8c1c4d0b99cb8c25e341a99e5d02a20d2173",
+      "record_sha256": "e006fefe00a9daed364f1429e995fd3e7e5b6f1a01bab0ac83a65835a859660f",
+      "translation": "Taser canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0096",
+      "source_sha256": "3cb49a77c702910bc40b95b9adc01d9e9a829f8e0dd4149da3e388255593f944",
+      "record_sha256": "ac289d2b649055ffa8d70bec493175453b00755aea4037361f5981008afbf88d",
+      "translation": "Canhão de gelo",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0097",
+      "source_sha256": "6e7834c5de7dda517d3291b7ddb7cfe9c0a83475dcdcc039ca311c3a095010e1",
+      "record_sha256": "3765005f5556920f4f06cf03170b0cbcab56993b35c501c14312828bfbc41223",
+      "translation": "Morteiro canino",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0098",
+      "source_sha256": "fa169004614a95f2d26c4f6d9f710a4139ff648795af0c69faa18752db90e470",
+      "record_sha256": "1b61553ee8dc31a4dc943cf8020ebefd986f14296ac2420a9f31a02195d8770c",
+      "translation": "Asas caninas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0099",
+      "source_sha256": "ef911fab09df364dac309ca8a9623bdee032e2fb4ebaf41dfd34f76d47ffa01d",
+      "record_sha256": "74f66922060c8bd1042b6874943ff2ac9a2d902371f39b048b4d261499d3daa6",
+      "translation": "Bazuca canina",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0191",
+      "source_sha256": "077a10f4e315c655f344ffcc62cd1b2ec37eb582b1505c99ea3332a3d8a61624",
+      "record_sha256": "0367989ff9daec0afc36dd59a01daa39785e065cc733d5d2e02da35a7c85ad55",
+      "translation": "Canhão 37mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0192",
+      "source_sha256": "f9ff0d7b1ca7e78b1247f2f051f90b3f5a2053ce29822b581c1b85b965371c50",
+      "record_sha256": "dee084fcf77120eb1a027026b81b847a5c2add593ce15052a1f04befd47b3e56",
+      "translation": "Canhão 50mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0193",
+      "source_sha256": "4838d9b9308a41f50b6dc7f9a6c72acc07f6cabd830c7c268d32ec394af9a4e0",
+      "record_sha256": "47b80c2b2aa6ca435580080877dd5822425e7c67b49bc00b3abf1208b24e5c8e",
+      "translation": "Canhão S 75mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0194",
+      "source_sha256": "2d1efb2d03bfa9b4878f0a84de2dbbaa69bb79faf5ff5f277daa3399f977d965",
+      "record_sha256": "8c52cc1af208e2aae8b58fed9619b316cffc44bf876b3c0162a7c277b29590c7",
+      "translation": "Canhão L 75mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0195",
+      "source_sha256": "72023a530814c9ff6e15ff7e7c30a45cbb0701b9a575ca1bb017de7606a3cd55",
+      "record_sha256": "ae3aabdd0c659916aa3fe6171f345fcb53bac92d9f182403d86f110b51b3217d",
+      "translation": "Canhão 88mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0198",
+      "source_sha256": "f488ceff306c6b475d8c9bee8fbba5849c902fe7918738277aea72643fdc3fcb",
+      "record_sha256": "bef5c1a6041191b1cc491726041c77e14efaf0aed66d1fe210ef415bd33f7305",
+      "translation": "105mm raiado",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0199",
+      "source_sha256": "12033241792bc60617041e23a055e6b29605ed26ccb25c47453ed57152ebfd35",
+      "record_sha256": "dc9a58e75399b9984ce8fb4035d5ed477b1f7bf1ff0cf6955b2a1bc3b8a94154",
+      "translation": "120mm raiado",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0205",
+      "source_sha256": "a4d77817342f975da762cfe3b91d4828544983bfc1d7610d004df37d1495af28",
+      "record_sha256": "27d6607f2f19bbfbee6b3b355d4ec37b2443e778df79d448f4172617813c09f5",
+      "translation": "Canhão 205mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0209",
+      "source_sha256": "75bd792c56c496df97095f567f848983bf2e9d556b86a42ecce785e009b1fd66",
+      "record_sha256": "c6c1361b115c4f839ad07d672dba60656cd0770f3bef477a2acf2d70a392e8fb",
+      "translation": "Canhão trilho",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0210",
+      "source_sha256": "05cf593aa8a6199ddaa7c87dae427f8b64c6be765427b95a83e1d42a595d41e3",
+      "record_sha256": "a19211c217f0af803350b947b1b7b6cf9afea431079634db1240e744285149fa",
+      "translation": "180mm rajada",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0211",
+      "source_sha256": "7dc24d35ae4227169deb355f5e11315611a0ae6eaae0715091dd6405737b9a69",
+      "record_sha256": "7cca5d995056ea60b96a61d2becf0a94e2a314a8d85b3e375f8ec477d8cefc5b",
+      "translation": "190mm rajada",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0212",
+      "source_sha256": "295877c888ee040e1a749758071c18513999e1dfec46c23c2705b8819c4b32ce",
+      "record_sha256": "15fd06636004cf0e4d32c03ae8f8aed2a4a8e50ac470f385a4f728115c446990",
+      "translation": "Rajada tripla",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0214",
+      "source_sha256": "a4d36b11b7fb702a71db97c90d5858fece68e498b514b43cb9a05ed80984e0c5",
+      "record_sha256": "d0037647f817d5d0aa20a4e9adfbdffe4ff763e94d452378d09c05584b4d1d66",
+      "translation": "Canhão de raio",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0215",
+      "source_sha256": "526d57d45f0dbbd6d79cc2e98c295b6e3b9b11e23f57248899e687ce6df597be",
+      "record_sha256": "65627d362cdd46316bb213afedaeb9f1f55b9adae5e558aa2d79951d993b5c8a",
+      "translation": "Canhão plasma",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0216",
+      "source_sha256": "5bc56b4cfb1f9a0b454ea274b4d65a5132a53ec2502ccbcbbc29bf4479ff0d5d",
+      "record_sha256": "cb8b54d7d7d31f6768c03d28aaf99379da5a094bf6e571b3dde7d2f10e48ff58",
+      "translation": "Canhão AA 20mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0217",
+      "source_sha256": "2a7c096984156f3022f88300f88e75e93ccfb28b56d060bf4e50c2dbacbc5859",
+      "record_sha256": "602ec216100a1b8b9d9cfa233512abc0d8ee377f5111f5c74f9bc13f992319f9",
+      "translation": "Canhão AA 25mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0218",
+      "source_sha256": "fbedabd8ef5bf6fe400cef0cdfe74774318c454595e3b3f0cc3928b90ef486a9",
+      "record_sha256": "71e8e0d873d255a37420a3ad355a5755af604ab1c749e3bfadc957aa0c259e15",
+      "translation": "Canhão AA 30mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0219",
+      "source_sha256": "ad76b67b86f3a251cb472741e4ba3b8026ebfcc020515e4e0c7b0add2d5314b8",
+      "record_sha256": "d176acb984b9740f1ad710c68996c5cd2d4d619056fcdda1ba6db23e0a233085",
+      "translation": "Canhão AA 35mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0220",
+      "source_sha256": "358ae746a66cdbf1916e37266717bbbe3b2f21630ea345e014f3860f4b50791c",
+      "record_sha256": "a013299b557e331d7c84c5cb98b76bc6cbb02c662475aa74c59d7281ffc50ff4",
+      "translation": "Canhão AA 57mm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0233",
+      "source_sha256": "37a174a22934692347c8106373caa31579e666126c09b0fe0eb5aee39d283b08",
+      "record_sha256": "8999e00ed43136a43983cdc593ca154d47d3ae67f482719b12c060e1f3a9e329",
+      "translation": "Lança-chamas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0235",
+      "source_sha256": "da95034939c5e5d6c2a26dea397154b3e3eb3db4a50658dc948bdca2a4ce606f",
+      "record_sha256": "f9c5a955676bea144e0e2ee848cf35646a0c8087d09e3ad7501443049ad521ca",
+      "translation": "Blaster de raio",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0236",
+      "source_sha256": "c0a766b99287786cba0476b5d3fbc1581755b2b3c891bac060c65e8e21952a3a",
+      "record_sha256": "d5399539e9f548a69291ebef85d8655148138d8b814669a09d3026a0ba63b524",
+      "translation": "Canhão tormenta",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0238",
+      "source_sha256": "a616664c6aa28f4237a8f758ddbce02c1993e1ada15d0f0425d2cc0b4dbc726c",
+      "record_sha256": "00be6daa545e7b6becc3148fd0e162b5813269b7329765a6b5fc395609aab96d",
+      "translation": "Canhão flauta",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0239",
+      "source_sha256": "fa663e3e7711791005d6622a8c6d6a0bd71d2976ac3c60ef8f3c0982d541fafd",
+      "record_sha256": "40174222ac4ccf72a31e7a9011f1977cc07e2fc2aab95d4b881ce956f296f3bf",
+      "translation": "Arma de raios",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0240",
+      "source_sha256": "0911ab4bc0e9338691f569a08633019c2f6619117b681e22f3fa0b42318b646d",
+      "record_sha256": "f689c6e8793ac65875f3c402949a180efa3ebcf0ae0bb2dd645258e48b424caa",
+      "translation": "Canhão laser",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0242",
+      "source_sha256": "bd8a4408f6588fd8e2a2537cb0c2fc7522c48369fba76b9580c6cc6c80221117",
+      "record_sha256": "248a33f3c10131db526ebb11d886be9e38840607ffb39b36ef8cd628c16af957",
+      "translation": "Lança-bombas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0244",
+      "source_sha256": "ac0826f563956c15f804834d600f10cf1696b7782afa7da6a872a7112a6ea66d",
+      "record_sha256": "17b0eda45f38c97dfa206026658104d8508492c491caee5bc10c87363157866f",
+      "translation": "Eletrificador",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0245",
+      "source_sha256": "152031e880458972044ca63c02865c4be5780e141a1f9613af5014af4bdeb666",
+      "record_sha256": "4e8e6774df9c43231ef5f4c79f654f3b0a47cf05dc5946b584bfdd0ddb93de5d",
+      "translation": "Lançador AT",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0247",
+      "source_sha256": "6e1698f0d8ae8433ae8631af74964c20b9cc695a5c9a96d033746aad34f68ae5",
+      "record_sha256": "3d2d24f5488b559d80c06fc5c2542fa3eeff1c6384cc2d1ed3bde3c848495ade",
+      "translation": "Mata-moscas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0248",
+      "source_sha256": "2591d087f41df9900a0d452ce61175bf0c7befe5eab2d375df716667cc8ec557",
+      "record_sha256": "7ba0a36d081e6cf6cf3d66dc2c0c48e1d8a5825fa306e161b7b372d720b291dd",
+      "translation": "Vaporizador",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0249",
+      "source_sha256": "04ffca2ea2e4e18789319b9ac4a5e282a12a01c69be4129346c5d007e218b6b1",
+      "record_sha256": "1e7e807614c45f4ad951bc6b539e40c603969ebffee874f6ed689f669cef6d70",
+      "translation": "Canhão napalm",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0250",
+      "source_sha256": "6aafa7e6b5f863d285454a1d67b9ab08e6e3cc989282186fa62f224f3fb828b6",
+      "record_sha256": "d090381ccb80b3ef718e6e4f56a0fbc11b69c45fc8c2faf1fc7f6d1363be5b8f",
+      "translation": "Canhão pipoca",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0251",
+      "source_sha256": "0750477d50ede98e450b7b778fda0f46a844c021763389e9192b78fadc0c83c2",
+      "record_sha256": "ee5cf086a834a6a96e04176375aa5bf9c89dac589e23f6e4c30a63ffa2154852",
+      "translation": "Lança-granadas",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0252",
+      "source_sha256": "419ef1646920c704fd13ed1697fb1ff8c5996fc2d0586be600700fcc1e408d5b",
+      "record_sha256": "2cdd195a3178e4744d7fff0be5fdb377d6f860dd325defaa92b49c9feb1e5232",
+      "translation": "Arma broca",
+      "group": "approved-weapons"
+    },
+    {
+      "id": "item.name.0255",
+      "source_sha256": "f74a879c6ad1447a6356d876dc32fe07e993cf5857bab37a0dae5704f71222ae",
+      "record_sha256": "34fe94be15327597c6ec0501d762f8e250c48f13b9e41ac53760be9923531749",
+      "translation": "Canhão ciclone",
+      "group": "approved-weapons"
+    }
+  ],
+  "actions": [
+    {
+      "id": "battle.action.0003",
+      "source_sha256": "6d3c365e011ea8f0f71e41efc7704e4551de80238e67e3c2cc72dffc2b5e15d2",
+      "record_sha256": "e9b84c8b1e1ab23ad230d1722a5471f53826dfb1b2972ff1483d57f413c7152c",
+      "translation": "Faca borboleta"
+    },
+    {
+      "id": "battle.action.0004",
+      "source_sha256": "0e9e7c8e13ec34c73db8e73090c3b934304e120da1da834dfee206040d9874ce",
+      "record_sha256": "e5c0e32b8a62a8e73d550e6cae9ea203957caea58bcce38bc4b63ac6f6c12cf3",
+      "translation": "Bastão de metal"
+    },
+    {
+      "id": "battle.action.0006",
+      "source_sha256": "add71474746175c1b2ec0a2ac62836817ad37897e9473fab1a96fbb085bbefe7",
+      "record_sha256": "253070106a87f8e883b450ebbf2fc56dbf4c15466ec91f7adaff8456bf28fd9a",
+      "translation": "Facão"
+    },
+    {
+      "id": "battle.action.0007",
+      "source_sha256": "c39d72b3eedeac5f3b5399bf20c3a1c30be4c9c0148c0223852b91ec249e5e1d",
+      "record_sha256": "0a673295fdefa80b3e9c97cf6cc6a205ce9f10d266b363e53eb60a0bf53bbde2",
+      "translation": "Garra de tigre"
+    },
+    {
+      "id": "battle.action.0008",
+      "source_sha256": "466d4acfbb0a1aa6669e6a61617e0a18ffd49c7b0a7f99408d330f5ab58e54ff",
+      "record_sha256": "33ad7ef0f3dedc8ff1e32ad7fa9e5604c145930bf79282a7aebdff4551e1f6a1",
+      "translation": "Espada chinesa"
+    },
+    {
+      "id": "battle.action.0012",
+      "source_sha256": "530dce53ee0b40ab3ea4bb6485cc87cad55d27ff064b4065e62d814dce07837c",
+      "record_sha256": "bcc8affa135f60344d33e090699ad305329bd7c614e10c8c57966570bfb736da",
+      "translation": "Lâmina sem nome"
+    },
+    {
+      "id": "battle.action.0013",
+      "source_sha256": "c25070814c9dba6590da65372dfb30ecbe45fe2b54174f88ec067351266c74c1",
+      "record_sha256": "bc3a6283a308d7057f3b338cb765f762f56f9db2b5a2e932561307daa0a9fd18",
+      "translation": "Lâmina afiada"
+    },
+    {
+      "id": "battle.action.0014",
+      "source_sha256": "ced97b8032c988f298fee254ced34ad6f33ea940e387b6b90642ea8b5ef38dc9",
+      "record_sha256": "b3fbc98f312844ef61b9629638c5354612efd42abc26677361072a70e27300a7",
+      "translation": "Espada vibrante"
+    },
+    {
+      "id": "battle.action.0015",
+      "source_sha256": "24f2a302d2efe1a10f6575d2df510854e8cf46e086fdf867b563bde238c1a655",
+      "record_sha256": "cb4c4d045f0351a9577b07a425cbc4e967b31d222d1c332afaca44f5ee9ecc82",
+      "translation": "Espada Damasco"
+    },
+    {
+      "id": "battle.action.0016",
+      "source_sha256": "74f6bfe8586846cba532fc9a8568368f27055fc9d627ad17105fccc81dcc94f5",
+      "record_sha256": "b88d21dc4de7851e313304ba5f3e266acfc7f6afa7e8fe4024843dc280f6b474",
+      "translation": "Espada defensiva"
+    },
+    {
+      "id": "battle.action.0019",
+      "source_sha256": "1755cb4fad2209ab07b1f9baa388caf0b032ad909bcf721499f2e3f00c5b4ca0",
+      "record_sha256": "305b8302c31f32328e56b97a96ab7f7bac7183b7137725a472f6e39f500c58fa",
+      "translation": "Lâmina de aço"
+    },
+    {
+      "id": "battle.action.0020",
+      "source_sha256": "de4d8d53cabfb4fd460ceb2b3e40ae986a68bb09362de198fb49b5ea9bc14431",
+      "record_sha256": "29b0437b716bf183ba2d6a478c030f822a0c3b13917650828926bef8fcdd56fa",
+      "translation": "Espada demônio"
+    },
+    {
+      "id": "battle.action.0021",
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "record_sha256": "a9492a7e6fec8a4fcd8e69810dddd24670d1e408a6f3ccb7786dd774069d5a84",
+      "translation": "Mãos nuas"
+    },
+    {
+      "id": "battle.action.0027",
+      "source_sha256": "5d907e09f9c22fec429d7e0e83ddf443cd4f6d0204328c3d7203456032a48dab",
+      "record_sha256": "8683abd156841c6368d789b1dde62b61f70154d3b7b627612c0ce88eea79380e",
+      "translation": "Para-raios"
+    },
+    {
+      "id": "battle.action.0036",
+      "source_sha256": "6cd65558a1368c7933d6f2f63315b3932ed9a1dcceb19e21da52a29c8a34bc2e",
+      "record_sha256": "7e0a5e1bacf6ea79be07bac713d14a6777c83c2505fb4672d3799d38b7b78d90",
+      "translation": "Garra broca"
+    },
+    {
+      "id": "battle.action.0037",
+      "source_sha256": "cb34aac86952be3a4a8454b4ce78e494227fc42815852dfe906e784c76befc34",
+      "record_sha256": "57d4820d6948451db5de969c86a8ebcef83c450759922b7361641be61dec34ae",
+      "translation": "Garra laser"
+    },
+    {
+      "id": "battle.action.0038",
+      "source_sha256": "0631a3a10fe0185996060b4db40a7ce7059fa133531d3e140dec589f6d34647e",
+      "record_sha256": "219e537a3223801633d88806c81ee358d268cd352d3bcbaeead6e530c9e66cbc",
+      "translation": "Garra-bomba"
+    },
+    {
+      "id": "battle.action.0039",
+      "source_sha256": "3fddfc6a0b27f621dabd584b6293cf02032f5ed35f5acc793e96dadffa64b6b9",
+      "record_sha256": "cb368b1798e1ab2c0ccf427ed1027d15e7c93f827a860000889b8dd8980f033f",
+      "translation": "Espada maligna"
+    },
+    {
+      "id": "battle.action.0041",
+      "source_sha256": "226f915e0ecadc2eba5e6e5cf533ddcc0c4195e128f559cf3ad0985d515139fa",
+      "record_sha256": "e89e3df700057f58cde5b2b5879fff72e5bd04076a0d80c25eafa4251831a5d2",
+      "translation": "Estilingue"
+    },
+    {
+      "id": "battle.action.0042",
+      "source_sha256": "b015d3ddeff42d858d06bfc28ab994f070479ba167c7f26d00f16decc9331a16",
+      "record_sha256": "14816be4f0fed8aa3af24bead7038fa069d28833918d2aae9e73d7356ab9e06f",
+      "translation": "Revólver"
+    },
+    {
+      "id": "battle.action.0044",
+      "source_sha256": "4229d78964ec545ee34333398193c831cf580fca3f475b8e7476e5de4f28a617",
+      "record_sha256": "8848339e9042f0683ad163a9f283a030fc95c79b31e7709e9452f088b9c74338",
+      "translation": "Besta"
+    },
+    {
+      "id": "battle.action.0052",
+      "source_sha256": "050991792ba0040cbbaffd71ee45d7d99d96c74467d4ac4f04f56113964f6a0a",
+      "record_sha256": "596c1ee9e5769de839701153c97b92ab262a66fdf289e60d3306c12da6065a61",
+      "translation": "Escopeta"
+    },
+    {
+      "id": "battle.action.0057",
+      "source_sha256": "d46ca53cfcd1b97a5eef85be385cf583039365fd43dc7c9ca3de70013e24ab16",
+      "record_sha256": "acad9f2001f94ae8e5e1ddcd532e731ce24e55ac710f5392c609b86665561c01",
+      "translation": "Lança-granadas"
+    },
+    {
+      "id": "battle.action.0060",
+      "source_sha256": "88b30ec3c1793b00f2d03d6901b4953137c15ed294644444cb68a5cea2d7b71b",
+      "record_sha256": "17647db2695859760aeb6de43a6ccbdef0671623eb545e525c67f5199e140d52",
+      "translation": "Faca de lançar"
+    },
+    {
+      "id": "battle.action.0061",
+      "source_sha256": "6cdc997adf5c994db67a5ac8389188823ad2e5bfaf7af8ffe6fbb58865744dea",
+      "record_sha256": "72481e35db6d7729c2fe594a093090b5e4267dc1a2fb66b72dc6723d3a0ca9a0",
+      "translation": "Chave remota"
+    },
+    {
+      "id": "battle.action.0069",
+      "source_sha256": "9088f3ee2d1808e85b471a846e09209752b846f02f41ae7aaf77c3e0d8922003",
+      "record_sha256": "d368695014ab962b51231070920bf7c767550c850c566ce69dadc7c95e49a4a4",
+      "translation": "Blaster sônico"
+    },
+    {
+      "id": "battle.action.0070",
+      "source_sha256": "4078ff2bceff0e7bd2db3fec750f8c5062999d6d7efb14d2ad7b4dd7a3ab7c50",
+      "record_sha256": "2c98960b20235d36aa6d32fe9ee7c37b0b3b0d3ba7c69246cb98f578124a9e65",
+      "translation": "Lança-chamas"
+    },
+    {
+      "id": "battle.action.0071",
+      "source_sha256": "5fa4784a59e2bbdf6199d61513173ae473624e7d8263131440d68f76ee6d8ad1",
+      "record_sha256": "2f99808f9193b5c64f65f5266203764a924e50d8480387b35e34c4e26e2cd19f",
+      "translation": "Blaster de fogo"
+    },
+    {
+      "id": "battle.action.0074",
+      "source_sha256": "ac13ba97b4abd8943029bfd95249ad57cec8da975dfbf1a6de184d721c5a2be7",
+      "record_sha256": "bdb7d35d855f68bcbc7b562f7e72956b4ffb48d81eb8ffa6cdc5687c1ae20924",
+      "translation": "Arma congelante"
+    },
+    {
+      "id": "battle.action.0075",
+      "source_sha256": "3b107bb4a7803b0705458b203dd2875c3b0e1d5b7d7eebd2fdde6cd90ee366ad",
+      "record_sha256": "e3229944c02fc623aa75033a95935eea2edaf461ee1d5e010fd67ac7c3efd0f2",
+      "translation": "Blaster de gelo"
+    },
+    {
+      "id": "battle.action.0076",
+      "source_sha256": "0ace54470a59ba4df1aaa3875a0ff66139bfbcea3fda926572ab38a67930b5d0",
+      "record_sha256": "91e647f456fc7d8090d25a7fa0ea903c9e2b297e9ddda39aefbe75ba10120895",
+      "translation": "Mãos nuas"
+    },
+    {
+      "id": "battle.action.0077",
+      "source_sha256": "b51e9459022206ecfca5417d5c7eba1692d1cdb7701f628e4fb1c8b6e70d499a",
+      "record_sha256": "38249998b8e9f6b702bdca3999450b9c0136f7ad97b4a51a4433bdaf8d09bcb3",
+      "translation": "Arma de cimento"
+    },
+    {
+      "id": "battle.action.0079",
+      "source_sha256": "998b770c45546d25505393aa7ebaaa082e08507da148d9d57624010642cbce18",
+      "record_sha256": "bf84fbf3fb17702d8aba1f781419783ae55b58cb923511e8160225fea1033e54",
+      "translation": "Bazuca laser 1"
+    },
+    {
+      "id": "battle.action.0080",
+      "source_sha256": "9ff32a19b08a126ca188ee67bd0a3012ad330806fcdb1abb1863ce4fd4b89c00",
+      "record_sha256": "498133696bde1e617a2983dc15fe5a2d905eb2b5e97c86cd4c728bebf6425b46",
+      "translation": "Bazuca laser 2"
+    },
+    {
+      "id": "battle.action.0081",
+      "source_sha256": "bac66d6a12f802380e2d52cc96f15fd294f90622b0df690dc8464af21c6e72c9",
+      "record_sha256": "02f212c07335dcc6d55f91d449f0a605fa4e21203d7e2f1ebccc77a077811b1f",
+      "translation": "Bazuca laser 3"
+    },
+    {
+      "id": "battle.action.0082",
+      "source_sha256": "3cdb7b4c3bde76dfa51b533057cc23f765b15c921514b10c06036617885cb16c",
+      "record_sha256": "25ed83683e4d5af70772e5cafbacf71f4af1701c7d363a0a11a1ec4f58746c45",
+      "translation": "Bazuca laser 4"
+    },
+    {
+      "id": "battle.action.0083",
+      "source_sha256": "b31b2898ae26abd515e5f030cec4aba92d333ba9b448a6bdc6d2560afaab9da5",
+      "record_sha256": "86ba01dc5842061723fe62954d801b361feb914ed4988955d05b9e1497ab0914",
+      "translation": "Bazuca laser 5"
+    },
+    {
+      "id": "battle.action.0084",
+      "source_sha256": "7b3be29edc9e15edb9f158c4d82e4ca8e182324887677683df992a6052b86169",
+      "record_sha256": "c4ab4bb0f8d9b07898010858a40d8e2eddb5d0980392cde6dcb4daf2c447310f",
+      "translation": "Bazuca laser 6"
+    },
+    {
+      "id": "battle.action.0085",
+      "source_sha256": "decd8fba0adc3cf7b5032df33898318cc5a722c07eede9970e421a34834498a1",
+      "record_sha256": "8df0fa475909b109c46b584744ae2e8506424280ee45772442e623ee7e184470",
+      "translation": "Bazuca laser 7"
+    },
+    {
+      "id": "battle.action.0090",
+      "source_sha256": "193333f1ae02780d4187101c4684e46df674c048f9c3d8ffb911458ab5a35339",
+      "record_sha256": "66f271b7e74895b62088c6ddcf2aa4aa866990ca2f3fd66b5511d87947742459",
+      "translation": "Arma canina"
+    },
+    {
+      "id": "battle.action.0091",
+      "source_sha256": "0c5e53a00e6054bb4659f803eb812000063b713a98773695dc02d23795746bb5",
+      "record_sha256": "d26b19150bdb51bb91d1f3d287387d9f5afe04e7e41f9986526918e5bc13efc7",
+      "translation": "Vulcan canino"
+    },
+    {
+      "id": "battle.action.0092",
+      "source_sha256": "b69b5711d8d18c7fb565a76eb618233bad2ee20e6138101a978206dd0237138a",
+      "record_sha256": "d13f1470537bb7f0f63f614bfb9b72dc5e2b161e3e5ce2c3f4465827cfe1c49e",
+      "translation": "Canhão canino"
+    },
+    {
+      "id": "battle.action.0093",
+      "source_sha256": "d713684c85a669712612cd7a1545b3afcd817a52a4c066a2f452af9e8e92ad29",
+      "record_sha256": "82c74d7902b772a23958e492c9d182968228136f9a1f86bbc9ee260557ac6f02",
+      "translation": "Baioneta canina"
+    },
+    {
+      "id": "battle.action.0094",
+      "source_sha256": "f9dbb1dd14cabfded5990b500e0ba3b70ff504769a04263ef48da4e235750e81",
+      "record_sha256": "84d874794fc0d6a971b4fb33afb6e49bbdc8ff4572671575fee74a7105a9cc78",
+      "translation": "Laser canino"
+    },
+    {
+      "id": "battle.action.0095",
+      "source_sha256": "31c5dff1aacc67b6340e6691cc42f7227a36a66e264458b82ce2c813b11c7d7c",
+      "record_sha256": "15816e3e376b151a00de9825486cbbdbb4e20eb484f7923837660f70e2102c46",
+      "translation": "Amplif. canino"
+    },
+    {
+      "id": "battle.action.0096",
+      "source_sha256": "e0130eaed431810ed7dc1666d17ffe03c6ccfb2718a7e4f2d5fae3c652f00a38",
+      "record_sha256": "4e3d79c07f8a9d2604c9bcb0a883ac378c4a3abb9370a50c0355ddafa0d81460",
+      "translation": "Maçarico canino"
+    },
+    {
+      "id": "battle.action.0097",
+      "source_sha256": "8caf03934b94fd9288eee806169d8c1c4d0b99cb8c25e341a99e5d02a20d2173",
+      "record_sha256": "5a904244c5003e9ba318e3cb6dbdc7c5fc6527ab18416f6084525bd8eeb02769",
+      "translation": "Taser canino"
+    },
+    {
+      "id": "battle.action.0098",
+      "source_sha256": "3cb49a77c702910bc40b95b9adc01d9e9a829f8e0dd4149da3e388255593f944",
+      "record_sha256": "4fa33a7ac32202a8366d0bfcefb6ab5c8077f209c01607200447ebd90846ea76",
+      "translation": "Canhão de gelo"
+    },
+    {
+      "id": "battle.action.0099",
+      "source_sha256": "6e7834c5de7dda517d3291b7ddb7cfe9c0a83475dcdcc039ca311c3a095010e1",
+      "record_sha256": "645ac8fcb26d345bf451521e992655ef47ea47477680cee3799a8eee3803f600",
+      "translation": "Morteiro canino"
+    },
+    {
+      "id": "battle.action.0100",
+      "source_sha256": "fa169004614a95f2d26c4f6d9f710a4139ff648795af0c69faa18752db90e470",
+      "record_sha256": "f8175c5c34189de302a3a5fe4f3c1460935e31e0ca52e952e2ece961af17d414",
+      "translation": "Asas caninas"
+    },
+    {
+      "id": "battle.action.0101",
+      "source_sha256": "ef911fab09df364dac309ca8a9623bdee032e2fb4ebaf41dfd34f76d47ffa01d",
+      "record_sha256": "cc9e7880931fe712f0bcb4b98fcfc455f53390244eb757d176ed5ff295eee33d",
+      "translation": "Bazuca canina"
+    },
+    {
+      "id": "battle.action.0206",
+      "source_sha256": "d46ca53cfcd1b97a5eef85be385cf583039365fd43dc7c9ca3de70013e24ab16",
+      "record_sha256": "7f04dd6fbaf5106395fdd90fbebf95eeb4ae7c1d3b9016e4c7a76df547602d22",
+      "translation": "Lança-granadas"
+    },
+    {
+      "id": "battle.action.0250",
+      "source_sha256": "077a10f4e315c655f344ffcc62cd1b2ec37eb582b1505c99ea3332a3d8a61624",
+      "record_sha256": "e019378d44944c3d3fb9a55bf7cbc610642b7b23485db833e9e81dc90c8bd09f",
+      "translation": "Canhão 37mm"
+    },
+    {
+      "id": "battle.action.0251",
+      "source_sha256": "f9ff0d7b1ca7e78b1247f2f051f90b3f5a2053ce29822b581c1b85b965371c50",
+      "record_sha256": "1f773fecea83d899d77246f4a13f78f2a8f70733039ba18548ae0aceec8e75bb",
+      "translation": "Canhão 50mm"
+    },
+    {
+      "id": "battle.action.0252",
+      "source_sha256": "4838d9b9308a41f50b6dc7f9a6c72acc07f6cabd830c7c268d32ec394af9a4e0",
+      "record_sha256": "dfb6d219b609b8aa6e94b301872f82e471d90fd92859a7ffd9ca09d2eaac5792",
+      "translation": "Canhão S 75mm"
+    },
+    {
+      "id": "battle.action.0253",
+      "source_sha256": "2d1efb2d03bfa9b4878f0a84de2dbbaa69bb79faf5ff5f277daa3399f977d965",
+      "record_sha256": "79fcd8d9379b653d282b94221d6bb94ce4e34fd6242c75039e66f3fd17c002db",
+      "translation": "Canhão L 75mm"
+    },
+    {
+      "id": "battle.action.0254",
+      "source_sha256": "72023a530814c9ff6e15ff7e7c30a45cbb0701b9a575ca1bb017de7606a3cd55",
+      "record_sha256": "be900fbe2ea6767d4e266470c108d87a4f0e0db57b769c93825ea9ce9c10f99c",
+      "translation": "Canhão 88mm"
+    },
+    {
+      "id": "battle.action.0257",
+      "source_sha256": "f488ceff306c6b475d8c9bee8fbba5849c902fe7918738277aea72643fdc3fcb",
+      "record_sha256": "c2197b5640513cde8bc2438a2ca454754e77e959f6d1153dfcc3791c53bf2a46",
+      "translation": "105mm raiado"
+    },
+    {
+      "id": "battle.action.0258",
+      "source_sha256": "12033241792bc60617041e23a055e6b29605ed26ccb25c47453ed57152ebfd35",
+      "record_sha256": "b3ec2ff0c03494ac6ca42cff69ae637b4116076adb2bba34e8886cd1b88fff75",
+      "translation": "120mm raiado"
+    },
+    {
+      "id": "battle.action.0264",
+      "source_sha256": "a4d77817342f975da762cfe3b91d4828544983bfc1d7610d004df37d1495af28",
+      "record_sha256": "570fdb845ff8dfbf9c308caad6169b0b7c4d73853d1b9f6ee9022c840b79570f",
+      "translation": "Canhão 205mm"
+    },
+    {
+      "id": "battle.action.0268",
+      "source_sha256": "75bd792c56c496df97095f567f848983bf2e9d556b86a42ecce785e009b1fd66",
+      "record_sha256": "7c4938b99886874240f75fc52933066dbbca7f775161f9f7e75827c34102f67d",
+      "translation": "Canhão trilho"
+    },
+    {
+      "id": "battle.action.0269",
+      "source_sha256": "05cf593aa8a6199ddaa7c87dae427f8b64c6be765427b95a83e1d42a595d41e3",
+      "record_sha256": "f6251f74bf2bbe2fa1e77a7efd3c4d10553a1f046237fdc7a1dec676b72fa5c9",
+      "translation": "180mm rajada"
+    },
+    {
+      "id": "battle.action.0270",
+      "source_sha256": "7dc24d35ae4227169deb355f5e11315611a0ae6eaae0715091dd6405737b9a69",
+      "record_sha256": "6b5ddd643e163ff50ede2fa9a4a1e622ff9221db6c45a72a78e26a228765723f",
+      "translation": "190mm rajada"
+    },
+    {
+      "id": "battle.action.0271",
+      "source_sha256": "295877c888ee040e1a749758071c18513999e1dfec46c23c2705b8819c4b32ce",
+      "record_sha256": "8ac41a9e7e242259c0277b46ae51cf1378d4506cf2e774dd103d4c9be276f221",
+      "translation": "Rajada tripla"
+    },
+    {
+      "id": "battle.action.0273",
+      "source_sha256": "a4d36b11b7fb702a71db97c90d5858fece68e498b514b43cb9a05ed80984e0c5",
+      "record_sha256": "d6a2c101e9edf218aa6d040fcb12503ba2b6c36e16b54417549fb08c42e5710d",
+      "translation": "Canhão de raio"
+    },
+    {
+      "id": "battle.action.0274",
+      "source_sha256": "526d57d45f0dbbd6d79cc2e98c295b6e3b9b11e23f57248899e687ce6df597be",
+      "record_sha256": "6647eeeca36d3afba5c75b0b8b111fbb563d57c183dbfe094f91c8648b355e9a",
+      "translation": "Canhão plasma"
+    },
+    {
+      "id": "battle.action.0275",
+      "source_sha256": "5bc56b4cfb1f9a0b454ea274b4d65a5132a53ec2502ccbcbbc29bf4479ff0d5d",
+      "record_sha256": "f92dbf3c4afab1a87200aa62e71c916d0a054ed995cfb749e0efd6a21f6c2ce8",
+      "translation": "Canhão AA 20mm"
+    },
+    {
+      "id": "battle.action.0276",
+      "source_sha256": "2a7c096984156f3022f88300f88e75e93ccfb28b56d060bf4e50c2dbacbc5859",
+      "record_sha256": "84144c91901cb01b1b8ad9736784da9757fd65a147ed7871dd9d9f1c3ff9035b",
+      "translation": "Canhão AA 25mm"
+    },
+    {
+      "id": "battle.action.0277",
+      "source_sha256": "fbedabd8ef5bf6fe400cef0cdfe74774318c454595e3b3f0cc3928b90ef486a9",
+      "record_sha256": "c39e4c88720c75b3f18d8f2668cc3adea9144bc122ed11c4be887e2ad783fa31",
+      "translation": "Canhão AA 30mm"
+    },
+    {
+      "id": "battle.action.0278",
+      "source_sha256": "ad76b67b86f3a251cb472741e4ba3b8026ebfcc020515e4e0c7b0add2d5314b8",
+      "record_sha256": "210e0e92b4c0f7cb9b199ad2489ad60c58c8e0370da3508b96bb12fca8ffa7ec",
+      "translation": "Canhão AA 35mm"
+    },
+    {
+      "id": "battle.action.0279",
+      "source_sha256": "358ae746a66cdbf1916e37266717bbbe3b2f21630ea345e014f3860f4b50791c",
+      "record_sha256": "c50c87121f1b458d9e64f5d7c1392c369b4599ed67a048f4f398bcef25e7f2cf",
+      "translation": "Canhão AA 57mm"
+    },
+    {
+      "id": "battle.action.0292",
+      "source_sha256": "37a174a22934692347c8106373caa31579e666126c09b0fe0eb5aee39d283b08",
+      "record_sha256": "824412a8472ac8f4da1bf807fea59f701ddde61fe44f72eaa214d9216356dfee",
+      "translation": "Lança-chamas"
+    },
+    {
+      "id": "battle.action.0294",
+      "source_sha256": "da95034939c5e5d6c2a26dea397154b3e3eb3db4a50658dc948bdca2a4ce606f",
+      "record_sha256": "fc30625a7482875e47c7a3633b0ccb50b8dde9e761aeeaeba9fd54e1e0aa7f3a",
+      "translation": "Blaster de raio"
+    },
+    {
+      "id": "battle.action.0295",
+      "source_sha256": "c0a766b99287786cba0476b5d3fbc1581755b2b3c891bac060c65e8e21952a3a",
+      "record_sha256": "5e96a3835c5ca7e3404c72cc6a5ce421be9e5a60c32d250cfae90f41ed086281",
+      "translation": "Canhão tormenta"
+    },
+    {
+      "id": "battle.action.0297",
+      "source_sha256": "a616664c6aa28f4237a8f758ddbce02c1993e1ada15d0f0425d2cc0b4dbc726c",
+      "record_sha256": "26776fa68b96ee30f974cbf558e5956f8230d704dfa7a8fee72cd9a45005e986",
+      "translation": "Canhão flauta"
+    },
+    {
+      "id": "battle.action.0298",
+      "source_sha256": "fa663e3e7711791005d6622a8c6d6a0bd71d2976ac3c60ef8f3c0982d541fafd",
+      "record_sha256": "9893e7ae95c02bdb640cada539af87bef87622b47efcd1d7083b6cb4b366776e",
+      "translation": "Arma de raios"
+    },
+    {
+      "id": "battle.action.0299",
+      "source_sha256": "0911ab4bc0e9338691f569a08633019c2f6619117b681e22f3fa0b42318b646d",
+      "record_sha256": "3c8590db0482aad604dabdea3cd7229e76e188893e653c442ed52d480651b2b0",
+      "translation": "Canhão laser"
+    },
+    {
+      "id": "battle.action.0301",
+      "source_sha256": "bd8a4408f6588fd8e2a2537cb0c2fc7522c48369fba76b9580c6cc6c80221117",
+      "record_sha256": "9884112819b696768c047529eeec6e7fb5c8a10018145f0aeb0cce078cdb87fc",
+      "translation": "Lança-bombas"
+    },
+    {
+      "id": "battle.action.0303",
+      "source_sha256": "ac0826f563956c15f804834d600f10cf1696b7782afa7da6a872a7112a6ea66d",
+      "record_sha256": "b0a987a534a341a956597ceae7cfcb240c8580525daa9aeb10099d89c46e13d0",
+      "translation": "Eletrificador"
+    },
+    {
+      "id": "battle.action.0304",
+      "source_sha256": "152031e880458972044ca63c02865c4be5780e141a1f9613af5014af4bdeb666",
+      "record_sha256": "0fcb4362d297eb870744b86f29e92c40eccd5ffff6e520f09c6d607add57f794",
+      "translation": "Lançador AT"
+    },
+    {
+      "id": "battle.action.0306",
+      "source_sha256": "6e1698f0d8ae8433ae8631af74964c20b9cc695a5c9a96d033746aad34f68ae5",
+      "record_sha256": "5e56ac1d6be7ddad05046f2d1c1a06dad8f79468f27d23239745264b555d22fc",
+      "translation": "Mata-moscas"
+    },
+    {
+      "id": "battle.action.0307",
+      "source_sha256": "2591d087f41df9900a0d452ce61175bf0c7befe5eab2d375df716667cc8ec557",
+      "record_sha256": "1ffa4f1b5d6e5c3dd71d7881fad359067f1a44cf18be6b5eaa9e5f8f149d8796",
+      "translation": "Vaporizador"
+    },
+    {
+      "id": "battle.action.0308",
+      "source_sha256": "04ffca2ea2e4e18789319b9ac4a5e282a12a01c69be4129346c5d007e218b6b1",
+      "record_sha256": "aa79a6be44a5afba868ee6e084c3bab79de0fd9e0a29c737232c98eee402c437",
+      "translation": "Canhão napalm"
+    },
+    {
+      "id": "battle.action.0309",
+      "source_sha256": "6aafa7e6b5f863d285454a1d67b9ab08e6e3cc989282186fa62f224f3fb828b6",
+      "record_sha256": "7822907224dbb14e7db2800e045550f4f3be6d0aa345cb2aad903cde0f6b9ef7",
+      "translation": "Canhão pipoca"
+    },
+    {
+      "id": "battle.action.0310",
+      "source_sha256": "0750477d50ede98e450b7b778fda0f46a844c021763389e9192b78fadc0c83c2",
+      "record_sha256": "2e59d462d13c12681f6a55f2d0be88b9e7aaa92d403e690a15223c87ecc6b96d",
+      "translation": "Lança-granadas"
+    },
+    {
+      "id": "battle.action.0311",
+      "source_sha256": "419ef1646920c704fd13ed1697fb1ff8c5996fc2d0586be600700fcc1e408d5b",
+      "record_sha256": "0915d497b25767a72e10fd3b9566f309cc77f35567f519a308823b88f2667050",
+      "translation": "Arma broca"
+    },
+    {
+      "id": "battle.action.0314",
+      "source_sha256": "f74a879c6ad1447a6356d876dc32fe07e993cf5857bab37a0dae5704f71222ae",
+      "record_sha256": "441ba095e6d8cd03760897c03182306d7523c4a3a834561db06e3b3f92651b4c",
+      "translation": "Canhão ciclone"
+    },
+    {
+      "id": "battle.action.0695",
+      "source_sha256": "419ef1646920c704fd13ed1697fb1ff8c5996fc2d0586be600700fcc1e408d5b",
+      "record_sha256": "d826a91ab9be122dc231e2f647a743628ba40836fefd0c3762b65aa21d23422a",
+      "translation": "Arma broca"
+    },
+    {
+      "id": "battle.action.0728",
+      "source_sha256": "4078ff2bceff0e7bd2db3fec750f8c5062999d6d7efb14d2ad7b4dd7a3ab7c50",
+      "record_sha256": "3f7d33c070bf94a21e255127b90c3b608790dd459dac034363d1b325268c6e4e",
+      "translation": "Lança-chamas"
+    },
+    {
+      "id": "battle.action.0730",
+      "source_sha256": "ac13ba97b4abd8943029bfd95249ad57cec8da975dfbf1a6de184d721c5a2be7",
+      "record_sha256": "cb47860c702e18c3671b1cc289f335d5b788a17ae513c04715d1ad9e8f1e5fb2",
+      "translation": "Arma congelante"
+    },
+    {
+      "id": "battle.action.0860",
+      "source_sha256": "526d57d45f0dbbd6d79cc2e98c295b6e3b9b11e23f57248899e687ce6df597be",
+      "record_sha256": "41f673702487a93bc623d3914c1a1d4059cc5f13a6003f60e28f307e39f19968",
+      "translation": "Canhão plasma"
+    }
+  ],
+  "external_alias_exceptions": [
+    {
+      "translated_item": 55,
+      "out_of_scope_item_preserved": 946
+    }
+  ],
+  "fallback_ids": [],
+  "conflict_ids": []
+}

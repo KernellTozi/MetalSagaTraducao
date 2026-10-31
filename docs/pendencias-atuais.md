@@ -1,4 +1,10 @@
-# Pendências atuais — v057, com auditoria histórica v054
+# Pendências atuais — v058, com auditoria histórica v054
+
+A v058 aplica o lote humano de armas: 86 nomes, 91 referências de ação,
+89 MANTER preservados, zero fallback/conflitos. As 15 munições especiais
+ficaram intactas. Conferir visualmente equipamentos, lojas e batalha na próxima
+partida. Detalhes em docs/interface-v058.md. A habilidade 946 é um alias fora
+da autorização e permanece intacta; não traduzi-la automaticamente.
 
 A v057 muda somente os avisos de saída e o fallback ELF para **Mundo aberto**,
 conforme pedido do usuário. Demais traduções e pendências da v056 preservadas.
@@ -13,9 +19,10 @@ os de FBS_DATA. O log e a conferência da ISO confirmaram que o usuário usou
 corretamente o iniciador v054; não era um save state. Ver docs/interface-v055.md.
 Testes visuais da correção ficam pendentes do usuário.
 
-Revisão completa de 175 registros de armas e anexo de 15 munições em
-work/revisao-armas-v001/ARMAS-PARA-REVISAR.md. Novas sugestões não aplicadas;
-aguardar a revisão humana. Os atlas comprimidos 1587/1588 têm outros textos
+Revisão histórica de 175 registros de armas e anexo de 15 munições em
+work/revisao-armas-v001/ARMAS-PARA-REVISAR.md. As decisões humanas recebidas
+foram aplicadas na v058; os 89 MANTER são preservações, não pendências.
+Os atlas comprimidos 1587/1588 têm outros textos
 de efeitos/atributos localizados, ainda sem edição. A triagem anterior de
 20 candidatos gráficos não representava cobertura completa desses recursos.
 

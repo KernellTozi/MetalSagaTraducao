@@ -86,6 +86,9 @@ def validate_value(row,text,*,ceiling=None,remote_review=False,repair_review=Fal
     return value
 
 def compile_names(elf,config):
+    if 'weapon_approval' in config:
+        from approved_weapon_names import compile_names as compile_weapons
+        return compile_weapons(elf,config)
     if 'remaining_name_release' in config:
         from remaining_item_name_release import compile_names as compile_release
         return compile_release(elf,config)

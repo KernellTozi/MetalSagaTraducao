@@ -6,3 +6,6 @@
 /translations/satcom-lacunas-v001.json -text whitespace=cr-at-eol
 /translations/interface-v056.json -text whitespace=cr-at-eol
 /translations/interface-v057.json -text whitespace=cr-at-eol
+/translations/interface-v058.json -text whitespace=cr-at-eol
+/translations/armas-aprovadas-v001.json -text whitespace=cr-at-eol
+/reports/armas-aprovadas-largura-v001.json -text whitespace=cr-at-eol

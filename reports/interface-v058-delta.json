@@ -1,0 +1,1076 @@
+{
+  "old_recipe": "translations/interface-v057.json",
+  "new_recipe": "translations/interface-v058.json",
+  "source_iso_sha256": "2944c2aae3516e1eeadb2c2e3a101017be96b9386e0b5c811232ffaa5a994ae8",
+  "output_iso_sha256": "45724669564ec8bd9ef5303d85c4a4387707464de5c519776e70f93fb2d6a0fd",
+  "iso_size": 1704427520,
+  "changed_bytes": 2156,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "item.name.0001",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290039456,
+      "size": 16
+    },
+    {
+      "id": "item.name.0002",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290039584,
+      "size": 17
+    },
+    {
+      "id": "item.name.0004",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290039840,
+      "size": 8
+    },
+    {
+      "id": "item.name.0005",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290039968,
+      "size": 15
+    },
+    {
+      "id": "item.name.0006",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290040096,
+      "size": 15
+    },
+    {
+      "id": "item.name.0010",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290040608,
+      "size": 17
+    },
+    {
+      "id": "item.name.0011",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290040736,
+      "size": 15
+    },
+    {
+      "id": "item.name.0012",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290040864,
+      "size": 16
+    },
+    {
+      "id": "item.name.0013",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290040992,
+      "size": 15
+    },
+    {
+      "id": "item.name.0014",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290041120,
+      "size": 17
+    },
+    {
+      "id": "item.name.0017",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290041504,
+      "size": 16
+    },
+    {
+      "id": "item.name.0018",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290041632,
+      "size": 16
+    },
+    {
+      "id": "item.name.0019",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290041760,
+      "size": 11
+    },
+    {
+      "id": "item.name.0025",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290042528,
+      "size": 14
+    },
+    {
+      "id": "item.name.0034",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290043680,
+      "size": 12
+    },
+    {
+      "id": "item.name.0035",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290043808,
+      "size": 12
+    },
+    {
+      "id": "item.name.0036",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290043936,
+      "size": 12
+    },
+    {
+      "id": "item.name.0037",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290044064,
+      "size": 15
+    },
+    {
+      "id": "item.name.0039",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290044320,
+      "size": 11
+    },
+    {
+      "id": "item.name.0040",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290044448,
+      "size": 10
+    },
+    {
+      "id": "item.name.0042",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290044704,
+      "size": 8
+    },
+    {
+      "id": "item.name.0050",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290045728,
+      "size": 9
+    },
+    {
+      "id": "item.name.0055",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290046368,
+      "size": 16
+    },
+    {
+      "id": "item.name.0058",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290046752,
+      "size": 16
+    },
+    {
+      "id": "item.name.0059",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290046880,
+      "size": 14
+    },
+    {
+      "id": "item.name.0067",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290047904,
+      "size": 16
+    },
+    {
+      "id": "item.name.0068",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290048032,
+      "size": 14
+    },
+    {
+      "id": "item.name.0069",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290048160,
+      "size": 16
+    },
+    {
+      "id": "item.name.0072",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290048544,
+      "size": 16
+    },
+    {
+      "id": "item.name.0073",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290048672,
+      "size": 16
+    },
+    {
+      "id": "item.name.0074",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290048800,
+      "size": 11
+    },
+    {
+      "id": "item.name.0075",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290048928,
+      "size": 16
+    },
+    {
+      "id": "item.name.0077",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049184,
+      "size": 16
+    },
+    {
+      "id": "item.name.0078",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049312,
+      "size": 16
+    },
+    {
+      "id": "item.name.0079",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049440,
+      "size": 16
+    },
+    {
+      "id": "item.name.0080",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049568,
+      "size": 16
+    },
+    {
+      "id": "item.name.0081",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049696,
+      "size": 16
+    },
+    {
+      "id": "item.name.0082",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049824,
+      "size": 16
+    },
+    {
+      "id": "item.name.0083",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290049952,
+      "size": 16
+    },
+    {
+      "id": "item.name.0088",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290050592,
+      "size": 12
+    },
+    {
+      "id": "item.name.0089",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290050720,
+      "size": 14
+    },
+    {
+      "id": "item.name.0090",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290050848,
+      "size": 15
+    },
+    {
+      "id": "item.name.0091",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290050976,
+      "size": 16
+    },
+    {
+      "id": "item.name.0092",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051104,
+      "size": 13
+    },
+    {
+      "id": "item.name.0093",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051232,
+      "size": 15
+    },
+    {
+      "id": "item.name.0094",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051360,
+      "size": 17
+    },
+    {
+      "id": "item.name.0095",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051488,
+      "size": 13
+    },
+    {
+      "id": "item.name.0096",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051616,
+      "size": 16
+    },
+    {
+      "id": "item.name.0097",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051744,
+      "size": 16
+    },
+    {
+      "id": "item.name.0098",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290051872,
+      "size": 13
+    },
+    {
+      "id": "item.name.0099",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290052000,
+      "size": 14
+    },
+    {
+      "id": "item.name.0191",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290063776,
+      "size": 13
+    },
+    {
+      "id": "item.name.0192",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290063904,
+      "size": 13
+    },
+    {
+      "id": "item.name.0193",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290064032,
+      "size": 15
+    },
+    {
+      "id": "item.name.0194",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290064160,
+      "size": 15
+    },
+    {
+      "id": "item.name.0195",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290064288,
+      "size": 13
+    },
+    {
+      "id": "item.name.0198",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290064672,
+      "size": 13
+    },
+    {
+      "id": "item.name.0199",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290064800,
+      "size": 13
+    },
+    {
+      "id": "item.name.0205",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290065568,
+      "size": 14
+    },
+    {
+      "id": "item.name.0209",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066080,
+      "size": 15
+    },
+    {
+      "id": "item.name.0210",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066208,
+      "size": 13
+    },
+    {
+      "id": "item.name.0211",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066336,
+      "size": 13
+    },
+    {
+      "id": "item.name.0212",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066464,
+      "size": 14
+    },
+    {
+      "id": "item.name.0214",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066720,
+      "size": 16
+    },
+    {
+      "id": "item.name.0215",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066848,
+      "size": 15
+    },
+    {
+      "id": "item.name.0216",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290066976,
+      "size": 16
+    },
+    {
+      "id": "item.name.0217",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290067104,
+      "size": 16
+    },
+    {
+      "id": "item.name.0218",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290067232,
+      "size": 16
+    },
+    {
+      "id": "item.name.0219",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290067360,
+      "size": 16
+    },
+    {
+      "id": "item.name.0220",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290067488,
+      "size": 16
+    },
+    {
+      "id": "item.name.0233",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290069152,
+      "size": 14
+    },
+    {
+      "id": "item.name.0235",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290069408,
+      "size": 16
+    },
+    {
+      "id": "item.name.0236",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290069536,
+      "size": 17
+    },
+    {
+      "id": "item.name.0238",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290069792,
+      "size": 15
+    },
+    {
+      "id": "item.name.0239",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290069920,
+      "size": 14
+    },
+    {
+      "id": "item.name.0240",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290070048,
+      "size": 14
+    },
+    {
+      "id": "item.name.0242",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290070304,
+      "size": 14
+    },
+    {
+      "id": "item.name.0244",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290070560,
+      "size": 14
+    },
+    {
+      "id": "item.name.0245",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290070688,
+      "size": 13
+    },
+    {
+      "id": "item.name.0247",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290070944,
+      "size": 12
+    },
+    {
+      "id": "item.name.0248",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290071072,
+      "size": 12
+    },
+    {
+      "id": "item.name.0249",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290071200,
+      "size": 15
+    },
+    {
+      "id": "item.name.0250",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290071328,
+      "size": 15
+    },
+    {
+      "id": "item.name.0251",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290071456,
+      "size": 16
+    },
+    {
+      "id": "item.name.0252",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290071584,
+      "size": 11
+    },
+    {
+      "id": "item.name.0255",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290071968,
+      "size": 16
+    },
+    {
+      "id": "battle.action.0003",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290263324,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0004",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290263552,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0006",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290264008,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0007",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290264236,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0008",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290264464,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0012",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290265376,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0013",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290265604,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0014",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290265832,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0015",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290266060,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0016",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290266288,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0019",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290266972,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0020",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290267200,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0021",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290267428,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0027",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290268796,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0036",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290270848,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0037",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290271076,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0038",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290271304,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0039",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290271532,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0041",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290271988,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0042",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290272216,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0044",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290272672,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0052",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290274496,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0057",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290275636,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0060",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290276320,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0061",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290276548,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0069",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290278372,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0070",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290278600,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0071",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290278828,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0074",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290279512,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0075",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290279740,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0076",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290279968,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0077",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290280196,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0079",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290280652,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0080",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290280880,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0081",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290281108,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0082",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290281336,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0083",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290281564,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0084",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290281792,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0085",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290282020,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0090",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290283160,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0091",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290283388,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0092",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290283616,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0093",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290283844,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0094",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290284072,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0095",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290284300,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0096",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290284528,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0097",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290284756,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0098",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290284984,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0099",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290285212,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0100",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290285440,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0101",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290285668,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0206",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290309608,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0250",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290319640,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0251",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290319868,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0252",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290320096,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0253",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290320324,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0254",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290320552,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0257",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290321236,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0258",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290321464,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0264",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290322832,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0268",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290323744,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0269",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290323972,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0270",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290324200,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0271",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290324428,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0273",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290324884,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0274",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290325112,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0275",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290325340,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0276",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290325568,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0277",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290325796,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0278",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290326024,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0279",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290326252,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0292",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290329216,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0294",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290329672,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0295",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290329900,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0297",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290330356,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0298",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290330584,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0299",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290330812,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0301",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290331268,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0303",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290331724,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0304",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290331952,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0306",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290332408,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0307",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290332636,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0308",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290332864,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0309",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290333092,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0310",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290333320,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0311",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290333548,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0314",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290334232,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0695",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290421100,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0728",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290428624,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0730",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290429080,
+      "size": 32
+    },
+    {
+      "id": "battle.action.0860",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290458720,
+      "size": 32
+    }
+  ],
+  "pcsx2_executed": false
+}

@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v058.json",
+  "recipe_sha256": "a406c415dc63715118b87cf497080c3fa152659a454a21a8a39d0bacd666d91a",
+  "parent": "translations/interface-v057.json",
+  "approval_document_sha256": "4a622a8682d61f865c797eb4af7c435396aea7e38ba7fc5996f00adcf2ee8dcf",
+  "manifest": "translations/armas-aprovadas-v001.json",
+  "counts": {
+    "approved_records": 175,
+    "changed_weapon_names": 86,
+    "already_applied_among_change_rows": 0,
+    "kept_weapon_names": 89,
+    "accent_fallback": 0,
+    "conflicts": 0,
+    "battle_action_references": 91,
+    "special_ammunition_preserved": 15,
+    "total_item_names": 627,
+    "interface_units": 4155,
+    "map_changed": 6044,
+    "map_body_options_changed": 5991,
+    "speaker_references_changed": 991
+  },
+  "iso": {
+    "path": "work/interface-v058/MetalSaga-ptbr-interface-v058.iso",
+    "size": 1704427520,
+    "sha256": "45724669564ec8bd9ef5303d85c4a4387707464de5c519776e70f93fb2d6a0fd",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v058-delta.json",
+  "changed_bytes": 2156,
+  "tests": {
+    "distinct_tests": 76,
+    "new": 11,
+    "regression": 65,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "patterns": [
+      "test_approved_weapon_names.py",
+      "test_remaining_item_name_release.py",
+      "test_large_item_name_release.py",
+      "test_approved_name_batch.py",
+      "test_interface_name_ceiling.py",
+      "test_interface_battle_tables.py",
+      "test_item_box_proof.py",
+      "test_weapon_name_review.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py"
+    ]
+  },
+  "geometry_proof": "reports/armas-aprovadas-largura-v001.json",
+  "external_alias_exceptions": [
+    {
+      "translated_item": 55,
+      "out_of_scope_item_preserved": 946
+    }
+  ],
+  "fallback_names": [],
+  "legacy_guards_unchanged": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "iso_retention_count": 5,
+  "onedrive_copied": false,
+  "shutdown_requested_after_completion": true,
+  "shutdown_power_off_confirmed": false
+}

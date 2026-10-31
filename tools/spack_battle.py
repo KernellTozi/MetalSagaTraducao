@@ -134,6 +134,9 @@ def validate_value(row,text,*,reviewed_remote=False):
     return value
 
 def compile_battle(elf,config,item_config):
+    if 'weapon_approval' in config:
+        from approved_weapon_names import compile_battle as compile_weapons
+        return compile_weapons(elf,config,item_config)
     raw=original(RESOURCE);verify(elf,raw,config);rows=catalog(raw);byid={r['id']:r for r in rows}
     from item_names import compile_names
     compile_names(elf,item_config)

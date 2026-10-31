@@ -1,5 +1,10 @@
 # Revisão completa de nomes de armas
 
+Atualização v058: a revisão humana foi recebida e os 86 ALTERAR foram aplicados;
+89 MANTER preservados. Ver docs/interface-v058.md e o relatório local
+work/revisao-armas-v001/APLICACAO-ARMAS-APROVADAS.md. O gerador abaixo mantém
+a auditoria histórica v055; não representa o estado atual da tradução.
+
 Executar localmente, sem IA, APIs ou internet:
 
 ```powershell

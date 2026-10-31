@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'approved_weapons' in draft:
+        from approved_weapon_names import compile_interface
+        return compile_interface(data,draft)
     if 'exit_wording_revision' in draft:
         from exit_wording_revision import compile_interface
         return compile_interface(data,draft)

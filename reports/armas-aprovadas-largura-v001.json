@@ -1,0 +1,712 @@
+{
+  "schema": 1,
+  "policy": "human-approved-86-weapon-names-fixed-fields-v001",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "items": [
+    {
+      "id": "item.name.0001",
+      "advances_size22_modes012": [
+        154,
+        150,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0002",
+      "advances_size22_modes012": [
+        165,
+        159,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0004",
+      "advances_size22_modes012": [
+        55,
+        55,
+        55
+      ]
+    },
+    {
+      "id": "item.name.0005",
+      "advances_size22_modes012": [
+        154,
+        150,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0006",
+      "advances_size22_modes012": [
+        154,
+        148,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0010",
+      "advances_size22_modes012": [
+        165,
+        159,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0011",
+      "advances_size22_modes012": [
+        143,
+        135,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0012",
+      "advances_size22_modes012": [
+        165,
+        159,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0013",
+      "advances_size22_modes012": [
+        154,
+        152,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0014",
+      "advances_size22_modes012": [
+        176,
+        169,
+        176
+      ]
+    },
+    {
+      "id": "item.name.0017",
+      "advances_size22_modes012": [
+        143,
+        139,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0018",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0019",
+      "advances_size22_modes012": [
+        99,
+        95,
+        99
+      ]
+    },
+    {
+      "id": "item.name.0025",
+      "advances_size22_modes012": [
+        110,
+        106,
+        110
+      ]
+    },
+    {
+      "id": "item.name.0034",
+      "advances_size22_modes012": [
+        121,
+        121,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0035",
+      "advances_size22_modes012": [
+        121,
+        117,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0036",
+      "advances_size22_modes012": [
+        121,
+        121,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0037",
+      "advances_size22_modes012": [
+        154,
+        146,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0039",
+      "advances_size22_modes012": [
+        110,
+        97,
+        110
+      ]
+    },
+    {
+      "id": "item.name.0040",
+      "advances_size22_modes012": [
+        88,
+        85,
+        88
+      ]
+    },
+    {
+      "id": "item.name.0042",
+      "advances_size22_modes012": [
+        55,
+        53,
+        55
+      ]
+    },
+    {
+      "id": "item.name.0050",
+      "advances_size22_modes012": [
+        88,
+        86,
+        88
+      ]
+    },
+    {
+      "id": "item.name.0055",
+      "advances_size22_modes012": [
+        154,
+        151,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0058",
+      "advances_size22_modes012": [
+        154,
+        150,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0059",
+      "advances_size22_modes012": [
+        132,
+        131,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0067",
+      "advances_size22_modes012": [
+        154,
+        144,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0068",
+      "advances_size22_modes012": [
+        132,
+        130,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0069",
+      "advances_size22_modes012": [
+        165,
+        159,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0072",
+      "advances_size22_modes012": [
+        165,
+        159,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0073",
+      "advances_size22_modes012": [
+        165,
+        157,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0074",
+      "advances_size22_modes012": [
+        99,
+        95,
+        99
+      ]
+    },
+    {
+      "id": "item.name.0075",
+      "advances_size22_modes012": [
+        165,
+        160,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0077",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0078",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0079",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0080",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0081",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0082",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0083",
+      "advances_size22_modes012": [
+        154,
+        149,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0088",
+      "advances_size22_modes012": [
+        121,
+        116,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0089",
+      "advances_size22_modes012": [
+        143,
+        133,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0090",
+      "advances_size22_modes012": [
+        143,
+        137,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0091",
+      "advances_size22_modes012": [
+        165,
+        155,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0092",
+      "advances_size22_modes012": [
+        132,
+        126,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0093",
+      "advances_size22_modes012": [
+        154,
+        138,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0094",
+      "advances_size22_modes012": [
+        165,
+        157,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0095",
+      "advances_size22_modes012": [
+        132,
+        126,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0096",
+      "advances_size22_modes012": [
+        154,
+        150,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0097",
+      "advances_size22_modes012": [
+        165,
+        156,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0098",
+      "advances_size22_modes012": [
+        132,
+        124,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0099",
+      "advances_size22_modes012": [
+        143,
+        137,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0191",
+      "advances_size22_modes012": [
+        121,
+        120,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0192",
+      "advances_size22_modes012": [
+        121,
+        120,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0193",
+      "advances_size22_modes012": [
+        143,
+        142,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0194",
+      "advances_size22_modes012": [
+        143,
+        142,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0195",
+      "advances_size22_modes012": [
+        121,
+        120,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0198",
+      "advances_size22_modes012": [
+        132,
+        129,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0199",
+      "advances_size22_modes012": [
+        132,
+        129,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0205",
+      "advances_size22_modes012": [
+        132,
+        131,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0209",
+      "advances_size22_modes012": [
+        143,
+        135,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0210",
+      "advances_size22_modes012": [
+        132,
+        129,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0211",
+      "advances_size22_modes012": [
+        132,
+        129,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0212",
+      "advances_size22_modes012": [
+        143,
+        133,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0214",
+      "advances_size22_modes012": [
+        154,
+        150,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0215",
+      "advances_size22_modes012": [
+        143,
+        138,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0216",
+      "advances_size22_modes012": [
+        154,
+        153,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0217",
+      "advances_size22_modes012": [
+        154,
+        153,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0218",
+      "advances_size22_modes012": [
+        154,
+        153,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0219",
+      "advances_size22_modes012": [
+        154,
+        153,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0220",
+      "advances_size22_modes012": [
+        154,
+        153,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0233",
+      "advances_size22_modes012": [
+        132,
+        130,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0235",
+      "advances_size22_modes012": [
+        165,
+        157,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0236",
+      "advances_size22_modes012": [
+        165,
+        161,
+        165
+      ]
+    },
+    {
+      "id": "item.name.0238",
+      "advances_size22_modes012": [
+        143,
+        136,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0239",
+      "advances_size22_modes012": [
+        143,
+        139,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0240",
+      "advances_size22_modes012": [
+        132,
+        127,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0242",
+      "advances_size22_modes012": [
+        132,
+        130,
+        132
+      ]
+    },
+    {
+      "id": "item.name.0244",
+      "advances_size22_modes012": [
+        143,
+        132,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0245",
+      "advances_size22_modes012": [
+        121,
+        120,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0247",
+      "advances_size22_modes012": [
+        121,
+        118,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0248",
+      "advances_size22_modes012": [
+        121,
+        118,
+        121
+      ]
+    },
+    {
+      "id": "item.name.0249",
+      "advances_size22_modes012": [
+        143,
+        138,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0250",
+      "advances_size22_modes012": [
+        143,
+        139,
+        143
+      ]
+    },
+    {
+      "id": "item.name.0251",
+      "advances_size22_modes012": [
+        154,
+        151,
+        154
+      ]
+    },
+    {
+      "id": "item.name.0252",
+      "advances_size22_modes012": [
+        110,
+        110,
+        110
+      ]
+    },
+    {
+      "id": "item.name.0255",
+      "advances_size22_modes012": [
+        154,
+        146,
+        154
+      ]
+    }
+  ],
+  "maximum_advance": 176,
+  "shop": {
+    "font_size": 22,
+    "width_parameter": 17,
+    "logical_row_width": 374,
+    "name_origin": 22,
+    "eight_digit_price_origin": 264,
+    "name_budget_before_price": 242,
+    "width_instructions": 14,
+    "column_instructions": 31,
+    "price_value_used": 99999999,
+    "R5900_mult_destination_executed": true
+  },
+  "minimum_shop_margin": 66,
+  "minimum_direct_panel_margin": 58,
+  "prior_geometry_proof_sha256": "3b6a289599f9a69c7fe2035d0abaa40cc72259cb486314205ed430b75bf0e34e",
+  "limits": "Original metric/geometry windows with synthetic RAM; no GPU, full formatter, game execution or visual approval."
+}
