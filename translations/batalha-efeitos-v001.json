@@ -1,0 +1,804 @@
+{
+  "schema": 1,
+  "policy": "battle-effect-original-ink-bounds-v001",
+  "resource": "DATA/MMBATTLE/MMBATTLE.BIN",
+  "source_sha256": "1ee18ce5d9cfb4c2de9fe5b03f2b4bf398b203f5184f43920bd7f54bf0fe1d10",
+  "directory_sha256": "204360a4fc78ca5a7c6bae7f07e813e20e5a926150ff46374738a43a77a672cc",
+  "parent_recipe": "translations/interface-v058.json",
+  "parent_sha256": "a406c415dc63715118b87cf497080c3fa152659a454a21a8a39d0bacd666d91a",
+  "font": {
+    "file": "impact.ttf",
+    "sha256": "d8bbdb72e3f930157824b2e59677d3a912d4512c14a948e6656a2e3fb0c935ad",
+    "use": "local whole-word rasterization; not an original game font"
+  },
+  "instruction_windows": [
+    {
+      "offset": 1085700,
+      "size": 80,
+      "sha256": "870c9c4fc102cb7c07b4d5b5a591ecd26619db57ea115600ff4b4ee50070be89"
+    },
+    {
+      "offset": 1685376,
+      "size": 400,
+      "sha256": "0b47bf3f8a8950eed72cd209a21da887cbe0f29672aad8fdd2379e12df1471da"
+    }
+  ],
+  "entries": [
+    {
+      "index": 1587,
+      "offset": 321425408,
+      "size": 18432,
+      "slot_sha256": "73a6b51b747a8b0d3e43e9227762cc5ca2a73139409ef3c3f1b75c8717e02809",
+      "decoded_sha256": "3c5e355428279080d82d7a224314e6eec9c4971ebe5a2fa51e936788be9be220",
+      "labels": [
+        {
+          "id": "battle.effect.1587.fire",
+          "translation": "Fogo",
+          "isolation_cell": [
+            8,
+            6,
+            50,
+            30
+          ],
+          "original_ink_rect": [
+            12,
+            8,
+            48,
+            27
+          ],
+          "natural_width": 37,
+          "rendered_width": 34,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 0.918918918918919,
+          "mask_sha256": "c55cbb731ea2d3dcca8961d28f72e441ac67e918133140ff1beff4d7a3cb7daa"
+        },
+        {
+          "id": "battle.effect.1587.acid",
+          "translation": "Ácido",
+          "isolation_cell": [
+            58,
+            6,
+            88,
+            30
+          ],
+          "original_ink_rect": [
+            61,
+            12,
+            86,
+            25
+          ],
+          "natural_width": 28,
+          "rendered_width": 23,
+          "height": 11,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8214285714285714,
+          "mask_sha256": "88c744f869d504b55d5b59b5c4c055a56f2eb14fd3e6e3a3120ffd1b5e292533"
+        },
+        {
+          "id": "battle.effect.1587.shutdown",
+          "translation": "Pane",
+          "isolation_cell": [
+            92,
+            6,
+            180,
+            30
+          ],
+          "original_ink_rect": [
+            94,
+            8,
+            177,
+            26
+          ],
+          "natural_width": 41,
+          "rendered_width": 41,
+          "height": 16,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "f27b760b3661d799ed30a02d0bfe599ea7f5d22db2eee942e937e84fd29f1898"
+        },
+        {
+          "id": "battle.effect.1587.venom",
+          "translation": "Veneno",
+          "isolation_cell": [
+            3,
+            42,
+            32,
+            55
+          ],
+          "original_ink_rect": [
+            5,
+            44,
+            30,
+            53
+          ],
+          "natural_width": 27,
+          "rendered_width": 23,
+          "height": 7,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8518518518518519,
+          "mask_sha256": "82714bcf2beda6534e0afc2d346599dd9ac6e6f0f5d728ca4f27ca9610745cd5"
+        },
+        {
+          "id": "battle.effect.1587.stun",
+          "translation": "Atord.",
+          "isolation_cell": [
+            42,
+            36,
+            81,
+            57
+          ],
+          "original_ink_rect": [
+            44,
+            39,
+            78,
+            54
+          ],
+          "natural_width": 39,
+          "rendered_width": 32,
+          "height": 13,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8205128205128205,
+          "mask_sha256": "9fcc6769235d5c1312f44a291819f760d5fb09a57fb05b3c462b98af4f4936fe"
+        },
+        {
+          "id": "battle.effect.1587.recovered",
+          "translation": "Recuperado",
+          "isolation_cell": [
+            132,
+            38,
+            187,
+            56
+          ],
+          "original_ink_rect": [
+            134,
+            42,
+            185,
+            53
+          ],
+          "natural_width": 51,
+          "rendered_width": 49,
+          "height": 9,
+          "height_reduction": 0,
+          "horizontal_scale": 0.9607843137254902,
+          "mask_sha256": "de46c02b247d042b8f5f5fb85dcf3c920c991226cd28a2f74ba613edf6e9408c"
+        },
+        {
+          "id": "battle.effect.1587.drive",
+          "translation": "Dirigir",
+          "isolation_cell": [
+            85,
+            65,
+            140,
+            90
+          ],
+          "original_ink_rect": [
+            87,
+            68,
+            137,
+            87
+          ],
+          "natural_width": 51,
+          "rendered_width": 48,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 0.9411764705882353,
+          "mask_sha256": "d11648d7c95506347286d77ab19269c47d86e0f0873d251624b1deb9caaf6ab9"
+        },
+        {
+          "id": "battle.effect.1587.turn-rate",
+          "translation": "Iniciativa",
+          "isolation_cell": [
+            143,
+            65,
+            232,
+            90
+          ],
+          "original_ink_rect": [
+            146,
+            68,
+            230,
+            86
+          ],
+          "natural_width": 78,
+          "rendered_width": 78,
+          "height": 16,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "ab5c6030e66191d857829fe1bdf37f783640ab9eca98e23484fcaf017fc2f7dc"
+        },
+        {
+          "id": "battle.effect.1587.attack",
+          "translation": "Ataque",
+          "isolation_cell": [
+            10,
+            95,
+            77,
+            120
+          ],
+          "original_ink_rect": [
+            12,
+            97,
+            75,
+            117
+          ],
+          "natural_width": 60,
+          "rendered_width": 60,
+          "height": 18,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "e32e6edbaa0e7defbe7cf4068d969106f594965aa0c7c07b2f3245c0e884eae1"
+        },
+        {
+          "id": "battle.effect.1587.defense",
+          "translation": "Defesa",
+          "isolation_cell": [
+            84,
+            95,
+            166,
+            120
+          ],
+          "original_ink_rect": [
+            86,
+            97,
+            164,
+            117
+          ],
+          "natural_width": 65,
+          "rendered_width": 65,
+          "height": 18,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "780ee78dcc8ff681bbffcd5be947b01dd772cd033fc944df4b6840e0d1ae8b1b"
+        },
+        {
+          "id": "battle.effect.1587.durability",
+          "translation": "Durab.",
+          "isolation_cell": [
+            168,
+            99,
+            220,
+            117
+          ],
+          "original_ink_rect": [
+            169,
+            101,
+            218,
+            115
+          ],
+          "natural_width": 39,
+          "rendered_width": 39,
+          "height": 12,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "27f4b38457f2d71e7edf6991b590bf1da4eae68285cdfa39b79a60060d3f3e05"
+        },
+        {
+          "id": "battle.effect.1587.critical-rate",
+          "translation": "Taxa crítica",
+          "isolation_cell": [
+            5,
+            127,
+            101,
+            149
+          ],
+          "original_ink_rect": [
+            7,
+            130,
+            94,
+            145
+          ],
+          "natural_width": 74,
+          "rendered_width": 74,
+          "height": 13,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "b17862f4c1178142245b27100b91d1f1d1513876fcc9293bee509878edfc32a0"
+        },
+        {
+          "id": "battle.effect.1587.all-parts",
+          "translation": "Todas as peças",
+          "isolation_cell": [
+            102,
+            124,
+            186,
+            150
+          ],
+          "original_ink_rect": [
+            104,
+            127,
+            184,
+            146
+          ],
+          "natural_width": 109,
+          "rendered_width": 78,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 0.7155963302752294,
+          "mask_sha256": "d1c26ce77dc4d45f638fdf8526b260d52fce2c37c99b6170ae0a1428e3173521"
+        },
+        {
+          "id": "battle.effect.1587.broken",
+          "translation": "Quebrado",
+          "isolation_cell": [
+            192,
+            127,
+            248,
+            149
+          ],
+          "original_ink_rect": [
+            195,
+            130,
+            246,
+            145
+          ],
+          "natural_width": 58,
+          "rendered_width": 49,
+          "height": 13,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8448275862068966,
+          "mask_sha256": "83a93bf71eb75db5b0b703a5785ba0f85b2d5987a677f71463e61ed2d994de46"
+        },
+        {
+          "id": "battle.effect.1587.evade-rate",
+          "translation": "Esquiva",
+          "isolation_cell": [
+            158,
+            159,
+            239,
+            180
+          ],
+          "original_ink_rect": [
+            160,
+            160,
+            236,
+            175
+          ],
+          "natural_width": 47,
+          "rendered_width": 47,
+          "height": 13,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "35a2f74cb40951cbe9093fea81483491791f76fd49bcbb4b7f78c78fb6929275"
+        },
+        {
+          "id": "battle.effect.1587.engine",
+          "translation": "Motor",
+          "isolation_cell": [
+            16,
+            184,
+            85,
+            210
+          ],
+          "original_ink_rect": [
+            19,
+            185,
+            82,
+            209
+          ],
+          "natural_width": 69,
+          "rendered_width": 61,
+          "height": 22,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8840579710144928,
+          "mask_sha256": "a1849b21eaef4351943871164825274ac779f6cd7d4dcc5f44e00424e3fddd91"
+        },
+        {
+          "id": "battle.effect.1587.hit-rate",
+          "translation": "Precisão",
+          "isolation_cell": [
+            112,
+            216,
+            188,
+            241
+          ],
+          "original_ink_rect": [
+            115,
+            219,
+            187,
+            237
+          ],
+          "natural_width": 69,
+          "rendered_width": 69,
+          "height": 16,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "9ecdb0a59ec2c016d1759aadf06ed675dd38326e4955d44c6d7bfa80914df6c9"
+        },
+        {
+          "id": "battle.effect.1587.fastest",
+          "translation": "Mais rápido",
+          "isolation_cell": [
+            193,
+            218,
+            249,
+            240
+          ],
+          "original_ink_rect": [
+            196,
+            222,
+            245,
+            236
+          ],
+          "natural_width": 64,
+          "rendered_width": 47,
+          "height": 12,
+          "height_reduction": 0,
+          "horizontal_scale": 0.734375,
+          "mask_sha256": "86b65ea29a590fbf21470c55b5bb934243b137bdd1b4555f7fbe2c9411ae3123"
+        }
+      ]
+    },
+    {
+      "index": 1588,
+      "offset": 321443840,
+      "size": 16384,
+      "slot_sha256": "0d143afc10b4c7970196318ea0a26779e2cea6de714712d51ce83e88c4c18259",
+      "decoded_sha256": "f9225c0991c0a8354b7b5054cc9d2103a6665754e85ecca9110039946df537b9",
+      "labels": [
+        {
+          "id": "battle.effect.1588.recovery-2x",
+          "translation": "Recuperação 2x",
+          "isolation_cell": [
+            2,
+            2,
+            149,
+            32
+          ],
+          "original_ink_rect": [
+            8,
+            9,
+            143,
+            28
+          ],
+          "natural_width": 112,
+          "rendered_width": 112,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "6e6fcd478432e7e23f4392008d9c1740d6639c59584da7283f36961b64f062b8"
+        },
+        {
+          "id": "battle.effect.1588.hit-rate",
+          "translation": "Precisão",
+          "isolation_cell": [
+            151,
+            2,
+            230,
+            32
+          ],
+          "original_ink_rect": [
+            158,
+            8,
+            224,
+            25
+          ],
+          "natural_width": 65,
+          "rendered_width": 64,
+          "height": 15,
+          "height_reduction": 0,
+          "horizontal_scale": 0.9846153846153847,
+          "mask_sha256": "c7c1c82ef057b3d6d1e3084c783b8572d9ad6e013434916f71573ced13651941"
+        },
+        {
+          "id": "battle.effect.1588.act-twice",
+          "translation": "Ação dupla",
+          "isolation_cell": [
+            5,
+            36,
+            94,
+            58
+          ],
+          "original_ink_rect": [
+            7,
+            38,
+            92,
+            56
+          ],
+          "natural_width": 73,
+          "rendered_width": 73,
+          "height": 16,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "0b317edeff399c7e5ac0231dd30a7475db5ce69a257b7db6eca48f53b701e1ee"
+        },
+        {
+          "id": "battle.effect.1588.out-of-range",
+          "translation": "Fora de alcance",
+          "isolation_cell": [
+            154,
+            39,
+            233,
+            58
+          ],
+          "original_ink_rect": [
+            157,
+            41,
+            231,
+            56
+          ],
+          "natural_width": 97,
+          "rendered_width": 72,
+          "height": 12,
+          "height_reduction": 1,
+          "horizontal_scale": 0.7422680412371134,
+          "mask_sha256": "f5d2f902b377cd4080da52869673ca5d03d3094bcb5daa3e967f5c1095daf1f1"
+        },
+        {
+          "id": "battle.effect.1588.melee-protection",
+          "translation": "Proteção corpo a corpo",
+          "isolation_cell": [
+            8,
+            66,
+            172,
+            89
+          ],
+          "original_ink_rect": [
+            10,
+            68,
+            170,
+            87
+          ],
+          "natural_width": 160,
+          "rendered_width": 158,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 0.9875,
+          "mask_sha256": "6e821428906a77f26726b7c7595f12bc871a96084fab13b01e9c243dc12d2aa8"
+        },
+        {
+          "id": "battle.effect.1588.airborne",
+          "translation": "No ar",
+          "isolation_cell": [
+            176,
+            68,
+            230,
+            88
+          ],
+          "original_ink_rect": [
+            177,
+            72,
+            228,
+            85
+          ],
+          "natural_width": 30,
+          "rendered_width": 30,
+          "height": 11,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "ffadf8a6290a75e78f94ad55dd11e730b44655a5ca5d2d82d2f12b11e87aee0d"
+        },
+        {
+          "id": "battle.effect.1588.ranged-protection",
+          "translation": "Proteção a distância",
+          "isolation_cell": [
+            9,
+            96,
+            170,
+            120
+          ],
+          "original_ink_rect": [
+            11,
+            98,
+            168,
+            119
+          ],
+          "natural_width": 158,
+          "rendered_width": 155,
+          "height": 19,
+          "height_reduction": 0,
+          "horizontal_scale": 0.9810126582278481,
+          "mask_sha256": "bf2aab3264f8b41d8eef343a4ab1e8b2da51dfd572dbabd945bbc118ddff179f"
+        },
+        {
+          "id": "battle.effect.1588.underground",
+          "translation": "Subsolo",
+          "isolation_cell": [
+            177,
+            102,
+            231,
+            118
+          ],
+          "original_ink_rect": [
+            179,
+            103,
+            228,
+            114
+          ],
+          "natural_width": 37,
+          "rendered_width": 37,
+          "height": 9,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "aac49c947b25efe2a342ba12afbc174ae8d892788b3fc689d6b3f2bf4c3f49de"
+        },
+        {
+          "id": "battle.effect.1588.high-altitude",
+          "translation": "Alta altitude",
+          "isolation_cell": [
+            5,
+            158,
+            82,
+            177
+          ],
+          "original_ink_rect": [
+            6,
+            161,
+            81,
+            176
+          ],
+          "natural_width": 82,
+          "rendered_width": 73,
+          "height": 13,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8902439024390244,
+          "mask_sha256": "ef2a158223a1d237085e7ca59aaf91f53c7dd6ee61af0bedc9b406418921c6b8"
+        },
+        {
+          "id": "battle.effect.1588.underwater",
+          "translation": "Submerso",
+          "isolation_cell": [
+            87,
+            161,
+            139,
+            177
+          ],
+          "original_ink_rect": [
+            89,
+            164,
+            136,
+            174
+          ],
+          "natural_width": 41,
+          "rendered_width": 41,
+          "height": 8,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "5a06a07ca8114fb560957a1870d521e776eb4f8f9f57112ce2c2ced5ddc43d16"
+        },
+        {
+          "id": "battle.effect.1588.stealth",
+          "translation": "Furtivo",
+          "isolation_cell": [
+            151,
+            155,
+            225,
+            179
+          ],
+          "original_ink_rect": [
+            153,
+            158,
+            221,
+            177
+          ],
+          "natural_width": 60,
+          "rendered_width": 60,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "54773bbcb516464cbfade8d18e9bb9520b69b74371c63b99d1f6025b54a267c8"
+        },
+        {
+          "id": "battle.effect.1588.shelter",
+          "translation": "Abrigo",
+          "isolation_cell": [
+            20,
+            184,
+            94,
+            211
+          ],
+          "original_ink_rect": [
+            23,
+            187,
+            93,
+            206
+          ],
+          "natural_width": 52,
+          "rendered_width": 52,
+          "height": 17,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "42751a58ca1c87520cf735d57096a31f2066afdeefcdda4e642c44ae78bbd100"
+        },
+        {
+          "id": "battle.effect.1588.damaged",
+          "translation": "Danificado",
+          "isolation_cell": [
+            111,
+            187,
+            165,
+            207
+          ],
+          "original_ink_rect": [
+            113,
+            191,
+            163,
+            206
+          ],
+          "natural_width": 67,
+          "rendered_width": 48,
+          "height": 12,
+          "height_reduction": 1,
+          "horizontal_scale": 0.7164179104477612,
+          "mask_sha256": "97d1f06bc13b724e0524d0fdc322e0ea34b0b9208f00c42c645431b3e2bdacd4"
+        },
+        {
+          "id": "battle.effect.1588.broken",
+          "translation": "Quebrado",
+          "isolation_cell": [
+            167,
+            187,
+            220,
+            207
+          ],
+          "original_ink_rect": [
+            169,
+            190,
+            219,
+            205
+          ],
+          "natural_width": 58,
+          "rendered_width": 48,
+          "height": 13,
+          "height_reduction": 0,
+          "horizontal_scale": 0.8275862068965517,
+          "mask_sha256": "e91b223697f649fb3f223e27c2106dde8cd69b1d00a42689dcac101907ea1f68"
+        },
+        {
+          "id": "battle.effect.1588.protector",
+          "translation": "Protetor",
+          "isolation_cell": [
+            21,
+            215,
+            121,
+            241
+          ],
+          "original_ink_rect": [
+            24,
+            216,
+            119,
+            236
+          ],
+          "natural_width": 77,
+          "rendered_width": 77,
+          "height": 18,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "c2069c15032e67843ec20009b1bd331f96289ce2d29b902a0f0bd4f85749053d"
+        },
+        {
+          "id": "battle.effect.1588.decoy",
+          "translation": "Isca",
+          "isolation_cell": [
+            141,
+            215,
+            208,
+            241
+          ],
+          "original_ink_rect": [
+            144,
+            217,
+            197,
+            238
+          ],
+          "natural_width": 43,
+          "rendered_width": 43,
+          "height": 19,
+          "height_reduction": 0,
+          "horizontal_scale": 1.0,
+          "mask_sha256": "5094b03cc7497251aabb4c4c8a9249611fa38bca74eecd4597c6bd02c44ae703"
+        }
+      ]
+    }
+  ],
+  "semantic_pending": {
+    "1587": [
+      "dummy",
+      "up",
+      "down"
+    ],
+    "1588": [
+      "damage-override"
+    ]
+  }
+}

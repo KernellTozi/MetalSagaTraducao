@@ -16,14 +16,15 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v058**, sobre MAP v044 e fontes/layout v005. Aplica em uma única versão os **86 nomes de armas aprovados** e suas **91 referências de ação**, preservando os **89 MANTER**. Zero fallback sem acento e zero conflitos. As 15 munições especiais permanecem intactas.
+**Interface v059**, sobre MAP v044 e fontes/layout v005. Traduz **34 rótulos de efeitos e atributos de batalha** em dois atlas comprimidos, preservando os 86 nomes de armas aprovados, suas 91 referências de ação e os 89 MANTER da v058. Quatro rótulos ambíguos ficam em inglês até esclarecer seu uso; nenhum ícone ou paleta é alterado.
 
-São **627 nomes de itens aplicados**, **4.155 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências de falantes traduzidas. Mundo aberto e os gráficos da v057 permanecem iguais. As contagens não representam porcentagem de todo o jogo.
+São **627 nomes de itens aplicados**, **4.189 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências de falantes traduzidas. Mundo aberto e todos os patches anteriores permanecem iguais. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v058/MetalSaga-ptbr-interface-v058.iso`. Abra **Iniciar-Teste.cmd**. Testar nomes em equipamentos, lojas e ações de batalha na próxima partida. O perfil isolado histórico tem cartões de memória desativados.
+ISO: `work/interface-v059/MetalSaga-ptbr-interface-v059.iso`. Abra **Iniciar-Teste.cmd**. Testar avisos de efeitos e atributos em combate, além dos nomes em equipamentos, lojas e ações de batalha. O perfil isolado histórico tem cartões de memória desativados.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
+- [Efeitos de batalha, desenho e pendências](docs/interface-v059.md)
 - [Lote de armas aplicado e limites](docs/interface-v058.md)
 - [Satcom e Mundo aberto](docs/interface-v056.md)
 - [Batalha corrigida na v055](docs/interface-v055.md)

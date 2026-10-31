@@ -1,4 +1,12 @@
-# Pendências atuais — v058, com auditoria histórica v054
+# Pendências atuais — v059, com auditoria histórica v054
+
+A v059 traduz 34 rótulos gráficos de efeitos/atributos nos atlas comprimidos
+1587/1588. Só a área das letras originais é alterada; setas, paletas e termos
+protegidos conservam os pixels. A aparência e o contexto de exibição aguardam
+a partida do usuário. Comparações em work/batalha-atributos-v001/ e manual
+docs/interface-v059.md. Permanecem quatro rótulos por contexto: Dummy, UP,
+DOWN e Damage Override. O pequeno Underground foi confirmado por ampliação
+e traduzido como Subsolo; não existe uma pendência Overpower nesse atlas.
 
 A v058 aplica o lote humano de armas: 86 nomes, 91 referências de ação,
 89 MANTER preservados, zero fallback/conflitos. As 15 munições especiais
@@ -22,8 +30,8 @@ Testes visuais da correção ficam pendentes do usuário.
 Revisão histórica de 175 registros de armas e anexo de 15 munições em
 work/revisao-armas-v001/ARMAS-PARA-REVISAR.md. As decisões humanas recebidas
 foram aplicadas na v058; os 89 MANTER são preservações, não pendências.
-Os atlas comprimidos 1587/1588 têm outros textos
-de efeitos/atributos localizados, ainda sem edição. A triagem anterior de
+Os atlas comprimidos 1587/1588 receberam o lote v059 descrito acima; os quatro
+casos sem contexto não foram promovidos por suposição. A triagem anterior de
 20 candidatos gráficos não representava cobertura completa desses recursos.
 
 Auditoria reproduzida na interface v054, sem modificar a ISO.

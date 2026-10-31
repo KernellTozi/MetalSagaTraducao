@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'battle_effect_release' in draft:
+        from battle_effect_atlas import compile_interface
+        return compile_interface(data,draft)
     if 'approved_weapons' in draft:
         from approved_weapon_names import compile_interface
         return compile_interface(data,draft)
