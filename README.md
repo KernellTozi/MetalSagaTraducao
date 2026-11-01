@@ -17,16 +17,17 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v059**, sobre MAP v044 e fontes/layout v005. Traduz **34 rótulos de efeitos e atributos de batalha** em dois atlas comprimidos, preservando os 86 nomes de armas aprovados, suas 91 referências de ação e os 89 MANTER da v058. Quatro rótulos ambíguos ficam em inglês até esclarecer seu uso; nenhum ícone ou paleta é alterado.
+**Interface v060**, sobre MAP v044 e fontes/layout v005. Acrescenta **108 campos de nomes padrão de NPCs**, com 55 traduções distintas, incluindo as duas entradas Boy → Menino. Corrige a medição da largura das opções usada na confirmação de carregamento de saves, preservando o desenho das fontes. O alinhamento final aguarda teste visual.
 
-São **627 nomes de itens aplicados**, **4.189 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências de falantes traduzidas. Mundo aberto e todos os patches anteriores permanecem iguais. As contagens não representam porcentagem de todo o jogo.
+São **627 nomes de itens aplicados**, **4.297 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão são contados separadamente dessas referências. Armas aprovadas, Mundo aberto e patches anteriores permanecem iguais; 13 rótulos explícitos curtos continuam pendentes. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v059/MetalSaga-ptbr-interface-v059.iso`. Abra **Iniciar-Teste.cmd**. Testar avisos de efeitos e atributos em combate, além dos nomes em equipamentos, lojas e ações de batalha. O perfil isolado histórico tem cartões de memória desativados.
+ISO: `work/interface-v060/MetalSaga-ptbr-interface-v060.iso`. Abra **Iniciar-Teste.cmd**. Conferir Sim/Não na confirmação de carregar dados e em outras escolhas/listas, além dos NPCs que apareciam como Boy. O perfil isolado histórico tem cartões de memória desativados.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
 **Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. Uma nova cópia v059 em `work/falantes-lookup-v001/` serve de base à investigação dos 13 falantes; ainda não recebeu alterações. [Estado do método e limites](docs/falantes-lookup-v001.md).
 
+- [Nomes padrão de NPCs e alinhamento de Sim/Não](docs/interface-v060.md)
 - [Efeitos de batalha, desenho e pendências](docs/interface-v059.md)
 - [Lote de armas aplicado e limites](docs/interface-v058.md)
 - [Satcom e Mundo aberto](docs/interface-v056.md)
@@ -50,9 +51,9 @@ A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001
 - tools/ e tests/: ferramentas locais e testes.
 - docs/ e reports/: procedimentos e evidências próprias.
 - work/: resultados e recursos de construção, fora do Git.
-- dist/alpha-v001/: alpha permanente, somente leitura, fora da retenção.
+- dist/backup-v059/: backup atual somente leitura, fora da retenção. A alpha antiga foi substituída por ordem do usuário.
 
-Manter **cinco ISOs de trabalho**, as mais recentes. O construtor remove as antigas elegíveis antes de criar outra. Não apaga original, alpha, arquivos desconhecidos ou imagens com recuperação pendente. Conferir com `python tools/iso_retention.py`.
+Manter **cinco ISOs de trabalho**, as mais recentes. O construtor remove as antigas elegíveis antes de criar outra. Não apaga original, backup protegido, arquivos desconhecidos ou imagens com recuperação pendente. Conferir com `python tools/iso_retention.py`.
 
 Construções novas produzem somente ISO e relatório. Receitas, fontes editáveis aprovadas, evidências e recursos necessários à reprodução são preservados. Não apagar work/ indiscriminadamente. OneDrive somente mediante pedido expresso.
 

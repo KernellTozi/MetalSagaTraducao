@@ -12,3 +12,5 @@
 
 /translations/batalha-efeitos-v001.json -text whitespace=cr-at-eol
 /translations/interface-v059.json -text whitespace=cr-at-eol
+/translations/npc-menus-v001.json -text whitespace=cr-at-eol
+/translations/interface-v060.json -text whitespace=cr-at-eol

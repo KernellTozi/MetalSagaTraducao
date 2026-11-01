@@ -201,6 +201,13 @@ def apply_authorized_fallback(result,current_recipe):
     recipe_path=Path(current_recipe).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
     recipe=json.loads(recipe_path.read_bytes());released=[]
+    if 'npc_and_choice_release' in recipe:
+        from npc_menu_revision import validate_interface as validate_npc,PARENT as NPC_PARENT
+        validate_npc(recipe)
+        result=apply_authorized_fallback(result,ROOT/NPC_PARENT)
+        result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix()
+        result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
+        return result
     if 'battle_effect_release' in recipe:
         from battle_effect_atlas import validate_interface as validate_effects,PARENT as EFFECT_PARENT
         validate_effects(recipe)

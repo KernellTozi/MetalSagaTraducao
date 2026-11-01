@@ -1,11 +1,21 @@
-# Pendências atuais — v059, com auditoria histórica v054
+# Pendências atuais — v060, com auditoria histórica v054
 
 A v059 é agora a cópia de segurança em dist/backup-v059/; as ISOs antigas
 v055–v058 e a antiga alpha foram removidas por nova ordem do usuário, após
-verificação integral. A imagem jogável do iniciador continua v059. O novo
+verificação integral. A imagem jogável do iniciador agora é a v060. O novo
 protótipo dos 13 falantes está em docs/falantes-lookup-v001.md: resolve os
 nomes completos em RAM simulada, mas ainda exige reserva comprovada de
-armazenamento no ELF/heap. Nenhuma tradução de falante foi aplicada à ISO.
+armazenamento no ELF/heap. O protótipo dos 13 falantes não foi aplicado à ISO.
+
+A v060 acrescenta 108 campos de nomes padrão (55 traduções), incluindo duas
+entradas Boy → Menino no banco de modelos do MAP.MCT. São nomes usados quando
+não existe rótulo explícito no diálogo; não resolvem os 13 rótulos curtos abaixo.
+Outros 301 campos, incluindo 19 nativos, ficam intactos. A correção de Sim/Não
+substitui somente a medição de largura da classe de opções pela medição nativa
+dos glifos, sem modificar fontes. Conferir visualmente o carregamento de dados,
+outras escolhas e listas. Manual docs/interface-v060.md; 56 testes passaram e
+a comparação integral confirmou 929 bytes diferentes em 109 patches previstos.
+Nenhum novo teste visual no PCSX2 foi realizado nesta rodada.
 
 A v059 traduz 34 rótulos gráficos de efeitos/atributos nos atlas comprimidos
 1587/1588. Só a área das letras originais é alterada; setas, paletas e termos

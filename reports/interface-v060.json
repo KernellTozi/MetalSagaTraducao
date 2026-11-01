@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v060.json",
+  "recipe_sha256": "320190fb1e6f26873ecb31fe3a48838e9351e182231e4fe606dde84f70ce3ae5",
+  "parent": "translations/interface-v059.json",
+  "manifest": "translations/npc-menus-v001.json",
+  "counts": {
+    "new_npc_default_name_fields": 108,
+    "unique_translations": 55,
+    "boy_to_menino": 2,
+    "model_name_records": 409,
+    "native_records_preserved": 19,
+    "interface_units": 4297,
+    "item_names": 627,
+    "map_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "explicit_short_labels_pending": 13
+  },
+  "iso": {
+    "path": "work/interface-v060/MetalSaga-ptbr-interface-v060.iso",
+    "size": 1704427520,
+    "sha256": "89a5adba72ff73985e0a322bbe3fab682a49424a8db6a1b997644974d553bb64",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v060-delta.json",
+  "changed_bytes": 929,
+  "changed_patches": 109,
+  "font_and_layout_profile_unchanged": true,
+  "choice_patch": {
+    "file_offset": 630648,
+    "size": 48,
+    "native_measure_file_offset": 253280,
+    "new_heap_or_segment": false,
+    "before_width_mode1_size22": {
+      "Sim": 22,
+      "Não": 44
+    },
+    "after_width_mode1_size22": {
+      "Sim": 30,
+      "Não": 33
+    },
+    "scope": "shared choice-row class; visual check pending"
+  },
+  "tests": {
+    "passed": 56,
+    "new": 11,
+    "regression": 45,
+    "patterns": [
+      "test_npc_menu_revision.py",
+      "test_scene_name_fields.py",
+      "test_name_source_paths.py",
+      "test_speaker_lookup_prototype.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py",
+      "test_glyph_layout.py",
+      "test_glyph_single.py"
+    ]
+  },
+  "preflight_verified": true,
+  "launcher_and_folder_dry_run_verified": true,
+  "backup_v059_hash_and_readonly_rechecked": true,
+  "work_isos": 3,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

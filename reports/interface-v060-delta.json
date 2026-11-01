@@ -1,0 +1,668 @@
+{
+  "old_recipe": "translations/interface-v059.json",
+  "new_recipe": "translations/interface-v060.json",
+  "source_iso_sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+  "output_iso_sha256": "89a5adba72ff73985e0a322bbe3fab682a49424a8db6a1b997644974d553bb64",
+  "iso_size": 1704427520,
+  "changed_bytes": 929,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "map.model.name.0077",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497420,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0078",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497464,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0079",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497508,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0080",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497552,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0081",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497596,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0082",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497640,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0083",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497684,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0085",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497772,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0086",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497816,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0087",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497860,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0088",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497904,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0090",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593497992,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0091",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498036,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0092",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498080,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0093",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498124,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0094",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498168,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0095",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498212,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0096",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498256,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0097",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498300,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0098",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498344,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0099",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498388,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0101",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498476,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0102",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498520,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0103",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498564,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0104",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498608,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0105",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498652,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0106",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498696,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0107",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498740,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0109",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498828,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0110",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498872,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0111",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498916,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0112",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593498960,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0113",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499004,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0114",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499048,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0115",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499092,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0116",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499136,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0117",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499180,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0118",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499224,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0119",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499268,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0120",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499312,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0122",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499400,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0124",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499488,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0125",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499532,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0126",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499576,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0127",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499620,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0128",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499664,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0129",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499708,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0130",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499752,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0131",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499796,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0132",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499840,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0133",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499884,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0134",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499928,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0135",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593499972,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0137",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500060,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0138",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500104,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0142",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500280,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0143",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500324,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0144",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500368,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0150",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500632,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0151",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500676,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0152",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500720,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0154",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593500808,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0160",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501072,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0161",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501116,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0162",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501160,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0163",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501204,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0164",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501248,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0165",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501292,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0166",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501336,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0167",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501380,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0168",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501424,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0169",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501468,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0170",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501512,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0171",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501556,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0178",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501864,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0179",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501908,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0180",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501952,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0181",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593501996,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0182",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502040,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0183",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502084,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0184",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502128,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0190",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502392,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0191",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502436,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0192",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502480,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0193",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502524,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0194",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502568,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0195",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502612,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0196",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502656,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0197",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502700,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0198",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593502744,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0220",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593503712,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0223",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593503844,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0224",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593503888,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0232",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593504240,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0233",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593504284,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0234",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593504328,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0235",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593504372,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0236",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593504416,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0360",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593509872,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0398",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511544,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0399",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511588,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0400",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511632,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0401",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511676,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0402",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511720,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0403",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511764,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0405",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511852,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0407",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511940,
+      "size": 32
+    },
+    {
+      "id": "map.model.name.0408",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 593511984,
+      "size": 32
+    },
+    {
+      "id": "choice.row.native-width",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701566328,
+      "size": 48
+    }
+  ],
+  "pcsx2_executed": false
+}

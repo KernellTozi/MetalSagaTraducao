@@ -64,6 +64,11 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     bytes beyond their own patch prefix; compare the union of the two prefixes.
     This does not resize the compiled patch or release other item fields.
     """
+    if 'npc_and_choice_release' in new_ui:
+        from npc_menu_revision import validate_interface,PARENT
+        if old_ui!=validate_interface(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
+            raise ValueError('NPC/choice comparator parent differs')
+        return
     if 'battle_effect_release' in new_ui:
         from battle_effect_atlas import validate_interface,PARENT
         if old_ui!=validate_interface(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
