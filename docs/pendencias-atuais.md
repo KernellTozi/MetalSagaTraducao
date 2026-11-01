@@ -17,6 +17,19 @@ Este registro não altera receitas, fontes, ISO ou iniciadores; a versão
 jogável continua v060. Evidência: captura fornecida pelo usuário,
 `codex-clipboard-ac867316-fcf0-4d79-ad0b-b6f8a1757710.png`.
 
+## Equipamento e categorias abreviadas — pesquisa, sem aplicação
+
+Novas capturas mostram Status/Equip, MEMBER LIST, VEHICLE LIST e Compare parts
+em inglês; no menu Caça, Máq., Veíc. e Descon. precisam de nomes completos.
+O usuário pediu pesquisar ampliação de limites, sem modificar o jogo enquanto
+testa v060. Investigação e plano em docs/menus-equipamento-limites-v001.md.
+Foram localizados literais e referências candidatos no ELF: os três rótulos
+têm capacidade atual de sete bytes; propostas exigem 9/9/13 bytes no codec.
+Realocação com referências atualizadas é uma possibilidade, ainda sem espaço
+carregado/buffers/layout comprovados para esses destinos. Cabeçalhos MEMBER
+LIST/VEHICLE LIST não foram encontrados como ASCII exato no ELF; não presumir
+origem gráfica. Nenhuma receita, ISO, fonte ou iniciador foi alterado.
+
 ## Estado consolidado
 
 A v059 é agora a cópia de segurança em dist/backup-v059/; as ISOs antigas
