@@ -18,6 +18,14 @@ nenhuma nova ISO ou mudança de receita nesta recepção.
   próprio, traduzir uma parte isolada ou confirmar o título correto sem
   conferir a origem e os argumentos. Evidência:
   codex-clipboard-40440ede-1acf-4487-8c42-5deb508a5682.png.
+- **Trocadilho de Disassembler:** a captura mostra o nome do personagem
+  preservado, mas a fala foi traduzida como `...Des...montar... em... pedaços...!`.
+  O usuário explicou que ele pronuncia o próprio nome com pausas e faz um
+  trocadilho com desmontar. Revisar a fala original e o entorno da cena ao
+  retomar, preservando Disassembler, o ritmo entrecortado e o jogo de palavras;
+  não tratar automaticamente a sequência do nome como um verbo a traduzir.
+  A redação substituta e seus limites ainda não foram investigados ou definidos.
+  Evidência: codex-clipboard-c97e161e-6fe8-46a7-abd1-d3d49244810d.png.
 
 As capturas comprovam o texto exibido e o usuário fornece o contexto. Não
 comprovam a causa técnica do segundo erro ou o caminho exato da ISO usada.
