@@ -47,6 +47,13 @@ Capturas recebidas em 01/11/2026; aguardar nova ordem para implementar:
   `BONUS`, a inventariar nesse contexto, sem autorização para recriar títulos
   de minigames que o usuário anteriormente dispensou.
 
+Complemento da máquina de venda: outra captura mostra a faixa de comandos
+`Select:` (direcional), `Buy:` (X) e `Exit:` (círculo) sem tradução. Registrar
+Select e Buy junto ao Exit já listado, sem duplicar essa última pendência.
+Preservar ícones e associação entre ações e botões quando houver implementação.
+Evidência: codex-clipboard-5c673b3d-aa1a-47cc-8b0d-c187be0fcf9d.png.
+Somente registro; origem do recurso ainda não investigada e ISO inalterada.
+
 Evidências, na mesma ordem: capturas codex-clipboard-6dbdd462-6011-4c27-ac33-f923905c673c.png,
 codex-clipboard-a48f04ec-806f-4204-993d-d56f6414471f.png,
 codex-clipboard-fb1c3096-2f52-4b82-8193-c41507f392ec.png e
