@@ -121,7 +121,16 @@ def launch_command(iso):
     return [str(exe),'-portable','-fastboot',str(image)]
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--iso',default='interface');p.add_argument('--dry-run',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--iso',default='interface');p.add_argument('--dry-run',action='store_true')
+    p.add_argument('--open-folder',action='store_true',help='Abrir a pasta da mesma ISO usada pelo iniciador, sem executar o jogo')
+    a=p.parse_args()
+    if a.open_folder:
+        image=ISOS.get(a.iso,Path(a.iso)).resolve()
+        if image.suffix.lower()!='.iso' or not image.is_file() or not image.is_relative_to(ROOT/'work'):
+            raise ValueError('A versao atual deve ser uma ISO existente em work/')
+        print(str(image.parent))
+        if not a.dry_run:subprocess.Popen(['explorer.exe',str(image.parent)])
+        return
     command=launch_command(a.iso)
     print(subprocess.list2cmdline(command))
     if a.dry_run:return

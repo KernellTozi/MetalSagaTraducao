@@ -7,6 +7,7 @@ Tradução dos recursos do jogo original para execução no PCSX2, independente 
 | Arquivo na raiz | Para que serve |
 |---|---|
 | **Iniciar-Teste.cmd** | Abre a ISO traduzida atual |
+| **Abrir-Pasta-da-Ultima-Versao.cmd** | Abre no Explorador a pasta da mesma versão usada pelo iniciador |
 | Preparar-Interface.cmd | Valida a receita atual, sem criar outra ISO |
 | Extrair-Dialogos.cmd | Extrai o catálogo local de diálogos |
 | Reinserir-Dialogos.cmd | Reinserção e simulação de lotes |
