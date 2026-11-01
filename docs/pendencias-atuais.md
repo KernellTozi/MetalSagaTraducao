@@ -1,4 +1,24 @@
-# Pendências atuais — v060, com auditoria histórica v054
+# Pendências atuais — v061, com auditoria histórica v054
+
+## Entrega v061 — autorização de aplicação recebida
+
+O usuário relatou que a ISO não apresentou defeitos até o momento e autorizou
+aplicar as lacunas enviadas. A espera por aplicação descrita nos registros
+históricos abaixo foi revogada por essa ordem.
+
+A v061 trata os avisos do tanque, Nome/Nível/Tempo/Salvo, Vazio, Equipamento,
+Comparar, CIDADES/MEMBROS/FROTA e a instrução/comandos da máquina de venda.
+Detalhes e roteiro em docs/interface-v061.md. Aparência final aguarda partida.
+Não houve execução do emulador pelo Codex.
+
+Ainda pendentes: expansão das categorias Máq./Veíc./Descon., revisão de Bio/Cyber
+e os 13 rótulos explícitos curtos. Um candidato de compactação de nove strings
+em 72 bytes foi identificado para a expansão, mas ainda requer provar todos
+os leitores e atualizar referências. BONUS e títulos dispensados permanecem.
+Backup v059 e v060 preservados; iniciador e atalho de pasta acompanham v061.
+
+Os próximos registros descrevem as capturas recebidas antes desta aplicação;
+não devem ser lidos como impedimento para as traduções já aplicadas na v061.
 
 ## Aviso de tanque imobilizado — registrado, não aplicar ainda
 

@@ -1,0 +1,122 @@
+{
+  "old_recipe": "translations/interface-v060.json",
+  "new_recipe": "translations/interface-v061.json",
+  "source_iso_sha256": "89a5adba72ff73985e0a322bbe3fab682a49424a8db6a1b997644974d553bb64",
+  "output_iso_sha256": "6cfc373bacb4064b8068fef00dd6c4bfa6b0c4af831ea9088e8d3aff3e099a73",
+  "iso_size": 1704427520,
+  "changed_bytes": 4865,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "observed.vending.13",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1210283024,
+      "size": 262144
+    },
+    {
+      "id": "observed.vending.14",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1210547216,
+      "size": 65536
+    },
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290613824,
+      "size": 65536
+    },
+    {
+      "id": "observed.elf.003211f0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704217072,
+      "size": 16
+    },
+    {
+      "id": "observed.elf.00321200",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704217088,
+      "size": 16
+    },
+    {
+      "id": "observed.elf.00321210",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704217104,
+      "size": 16
+    },
+    {
+      "id": "observed.elf.00321240",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704217152,
+      "size": 16
+    },
+    {
+      "id": "observed.elf.0032b110",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704257808,
+      "size": 13
+    },
+    {
+      "id": "observed.elf.0032b250",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704258128,
+      "size": 14
+    },
+    {
+      "id": "observed.elf.0032ed10",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273168,
+      "size": 12
+    },
+    {
+      "id": "observed.elf.0032ed20",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273184,
+      "size": 16
+    },
+    {
+      "id": "observed.elf.0032ed30",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273200,
+      "size": 21
+    },
+    {
+      "id": "observed.elf.0032ed48",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273224,
+      "size": 15
+    },
+    {
+      "id": "observed.elf.0032ed58",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273240,
+      "size": 21
+    },
+    {
+      "id": "observed.elf.0032ed70",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273264,
+      "size": 15
+    },
+    {
+      "id": "observed.elf.0032ed80",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704273280,
+      "size": 15
+    },
+    {
+      "id": "observed.elf.0032ff38",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704277816,
+      "size": 28
+    },
+    {
+      "id": "observed.elf.00348f78",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704380280,
+      "size": 8
+    }
+  ],
+  "pcsx2_executed": false
+}

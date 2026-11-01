@@ -123,3 +123,21 @@ implementado ou comprovado no jogo. Nenhuma nova ISO, execução de PCSX2,
 cópia para OneDrive ou desligamento. Iniciar-Teste.cmd e o atalho de pasta
 continuam apontando para v060. O aviso do tanque imobilizado segue separado,
 também aguardando autorização para aplicação.
+
+## Continuidade após autorização — v061
+
+O usuário autorizou o desenvolvimento após relatar ausência de defeitos até
+então na ISO. As lacunas de equipamento, teletransporte, save, tanque e máquina
+de venda estão tratadas na v061; ver docs/interface-v061.md. Os títulos foram
+encontrados no atlas de S_PACK.SDA em 0x8C830. As categorias abreviadas ainda
+não foram ampliadas.
+
+Nova alternativa local: o intervalo ELF 0x349248..0x349290 contém nove strings
+de oito bytes (incluindo Normal, Stealth e Shelter). Compactar os nove alvos
+Desconhecidos/Bio/Cyber/Máquinas/Veículos/Alvos/Normal/Furtivo/Abrigo exigiria
+72 bytes incluindo NULs, igual ao intervalo total. É candidato de repack com
+ponteiros atualizados, não espaço livre nem liberação de edição. Antes de
+implementar, provar leitores, aliases, referências MIPS/dados e ausência de
+dependência dos offsets originais. As outras cópias de categorias também
+precisam de tratamento próprio. Priorizar essa alternativa ao novo segmento
+ELF, sem assumir que a simples conta de bytes já garante execução segura.

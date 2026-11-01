@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v061.json",
+  "recipe_sha256": "aa9d3228ff74df53f482b832df61a56f742252c74f80b5392c28671a74ae55d7",
+  "parent": "translations/interface-v060.json",
+  "manifest": "translations/menus-observados-v001.json",
+  "counts": {
+    "new_interface_units": 20,
+    "fixed_elf_literals": 15,
+    "native_header_labels": 3,
+    "vending_instruction_lines": 2,
+    "physical_patches": 18,
+    "interface_units": 4317,
+    "item_names": 627,
+    "map_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "npc_default_names_inherited": 108,
+    "explicit_short_labels_pending": 13
+  },
+  "iso": {
+    "path": "work/interface-v061-final/MetalSaga-ptbr-interface-v061.iso",
+    "size": 1704427520,
+    "sha256": "6cfc373bacb4064b8068fef00dd6c4bfa6b0c4af831ea9088e8d3aff3e099a73",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v061-delta.json",
+  "changed_bytes": 4865,
+  "changed_patches": 18,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "tests": {
+    "passed": 44,
+    "new": 13,
+    "regression": 31,
+    "patterns": [
+      "test_observed_menu_translation.py",
+      "test_npc_menu_revision.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py",
+      "test_glyph_layout.py",
+      "test_glyph_single.py"
+    ]
+  },
+  "save_format_cells": {
+    "physical_cell_bytes": 16,
+    "visible_prefix_characters": 8,
+    "nivel_encoded_prefix_bytes": 9,
+    "native_colon_preserved": true,
+    "printf_parameters_preserved": true,
+    "interior_address_evidence_rejected": true,
+    "terminator_moves_one_byte_within_nivel_cell": true
+  },
+  "preliminary_iso_removed": {
+    "path": "work/interface-v061/MetalSaga-ptbr-interface-v061.iso",
+    "sha256": "b5ff1fbc2c314e4aa78fa0073144ec72d4c888b04a78d1adca87fb9f417aa8ed",
+    "reason": "Superseded unpublished build before eight-visible-column Nivel revision; exact hash checked before removal"
+  },
+  "backup_v059_hash_and_readonly_rechecked": true,
+  "v060_preserved": true,
+  "work_isos": 4,
+  "launcher_and_folder_dry_run_verified": true,
+  "preflight_verified": true,
+  "category_expansion_applied": false,
+  "category_compact_bank_candidate": {
+    "start": 3445320,
+    "size": 72,
+    "strings": 9,
+    "target_encoded_bytes_with_terminators": 72,
+    "all_readers_and_references_proved": false
+  },
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

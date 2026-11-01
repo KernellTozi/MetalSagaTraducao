@@ -17,16 +17,17 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v060**, sobre MAP v044 e fontes/layout v005. Acrescenta **108 campos de nomes padrão de NPCs**, com 55 traduções distintas, incluindo as duas entradas Boy → Menino. Corrige a medição da largura das opções usada na confirmação de carregamento de saves, preservando o desenho das fontes. O alinhamento final aguarda teste visual.
+**Interface v061**, sobre MAP v044 e fontes/layout v005. Acrescenta **20 unidades de interface** nas telas apontadas pelo usuário: avisos do tanque, detalhes de save, Vazio, Equipamento/Comparar, CIDADES/MEMBROS/FROTA e instrução/comandos da máquina de venda. Preserva os 108 nomes padrão e a correção de largura de opções da v060. Menino recebeu confirmação visual pontual; os novos elementos aguardam teste em partida.
 
-São **627 nomes de itens aplicados**, **4.297 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão são contados separadamente dessas referências. Armas aprovadas, Mundo aberto e patches anteriores permanecem iguais; 13 rótulos explícitos curtos continuam pendentes. As contagens não representam porcentagem de todo o jogo.
+São **627 nomes de itens aplicados**, **4.317 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão são contados separadamente dessas referências. Armas aprovadas, Mundo aberto e patches anteriores permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v060/MetalSaga-ptbr-interface-v060.iso`. Abra **Iniciar-Teste.cmd**. Conferir Sim/Não na confirmação de carregar dados e em outras escolhas/listas, além dos NPCs que apareciam como Boy. O perfil isolado histórico tem cartões de memória desativados.
+ISO: `work/interface-v061-final/MetalSaga-ptbr-interface-v061.iso`. Abra **Iniciar-Teste.cmd**. Conferir as telas de equipamento, teletransporte, salvamento, máquina de venda e os avisos do tanque. O perfil isolado histórico tem cartões de memória desativados. A v060 continua disponível em sua pasta anterior, e o backup protegido continua v059.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
 **Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. Uma nova cópia v059 em `work/falantes-lookup-v001/` serve de base à investigação dos 13 falantes; ainda não recebeu alterações. [Estado do método e limites](docs/falantes-lookup-v001.md).
 
+- [Menus e avisos observados durante a partida](docs/interface-v061.md)
 - [Nomes padrão de NPCs e alinhamento de Sim/Não](docs/interface-v060.md)
 - [Efeitos de batalha, desenho e pendências](docs/interface-v059.md)
 - [Lote de armas aplicado e limites](docs/interface-v058.md)
