@@ -26,6 +26,17 @@ nenhuma nova ISO ou mudança de receita nesta recepção.
   não tratar automaticamente a sequência do nome como um verbo a traduzir.
   A redação substituta e seus limites ainda não foram investigados ou definidos.
   Evidência: codex-clipboard-c97e161e-6fe8-46a7-abd1-d3d49244810d.png.
+- **Nome do item 190:** o usuário substituiu a escolha anterior Colete avariado
+  por **Colete quebrado**. Redação aprovada para a próxima aplicação; a receita
+  histórica v062 e sua ISO permanecem intactas. O alvo tem 15 bytes no codec.
+- **Revigorante, item 336:** o usuário considera a tradução correta, mas quer
+  um nome mais marcante para esse item único que revive um personagem.
+  Sugestão principal para revisão: Dose Fênix (11 bytes). Alternativas:
+  Renascimento (12) e Segunda Chance (14). Todas cabem no teto conhecido de
+  16 bytes, sem novos glifos; nenhum nome novo foi aprovado ou aplicado ainda.
+  Ao escolher, conferir também referências textuais: a receita acumulada
+  contém Revigorante numa lista numerada, além do nome do item. Não alterar
+  esses textos por substituição indiscriminada sem vincular o contexto.
 
 As capturas comprovam o texto exibido e o usuário fornece o contexto. Não
 comprovam a causa técnica do segundo erro ou o caminho exato da ISO usada.
