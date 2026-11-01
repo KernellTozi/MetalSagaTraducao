@@ -129,3 +129,11 @@ ISO: work/interface-v060/MetalSaga-ptbr-interface-v060.iso, 1.704.427.520 bytes.
 SHA-256: `89a5adba72ff73985e0a322bbe3fab682a49424a8db6a1b997644974d553bb64`.
 O backup v059 teve hash integral e atributo somente leitura reconferidos.
 Relatórios próprios: reports/interface-v060.json e reports/interface-v060-delta.json.
+
+## Retorno visual posterior do usuário
+
+Em 01/11/2026, o usuário confirmou que o nome Menino funcionou perfeitamente.
+É uma validação pontual de Boy→Menino em jogo, sem identificação de qual das
+duas entradas foi observada. Os demais nomes e o alinhamento Sim/Não continuam
+sem confirmação geral. Evidência própria em reports/interface-v060-visual-user.json.
+Não houve nova execução pelo Codex ou alteração da ISO para registrar o retorno.

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "reported_date": "2026-11-01",
+  "release": "interface-v060",
+  "observer": "user",
+  "method": "manual gameplay reported by user",
+  "statement": "e o nome menino funcionou perfeitamente",
+  "validated_scope": "Boy to Menino label observed in game",
+  "specific_model_entry_identified": false,
+  "both_boy_entries_confirmed": false,
+  "all_108_default_names_confirmed": false,
+  "sim_nao_alignment_confirmed": false,
+  "codex_executed_pcsx2": false,
+  "iso_modified_for_this_record": false
+}

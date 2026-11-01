@@ -30,6 +30,38 @@ carregado/buffers/layout comprovados para esses destinos. Cabeçalhos MEMBER
 LIST/VEHICLE LIST não foram encontrados como ASCII exato no ELF; não presumir
 origem gráfica. Nenhuma receita, ISO, fonte ou iniciador foi alterado.
 
+## Teletransporte, salvamento e máquina de venda — somente registro
+
+Capturas recebidas em 01/11/2026; aguardar nova ordem para implementar:
+
+- Teletransporte: cabeçalho `TOWN LIST` ainda em inglês. Preservar nomes de
+  cidades como Junkyard, Newfolk e East Zero, conforme a política do projeto.
+- Detalhes do save: rótulos `Name`, `Level`, `Time` e `Saved` ainda em inglês.
+  Traduzir futuramente apenas a interface, preservando nome do jogador,
+  localização, valores e dados do cartão.
+- Seleção de espaço para salvar: `NO DATA` aparece tanto nas linhas vazias
+  quanto no painel de detalhes. Conferir os dois contextos. `Onde salvar?`
+  e `Cartão: slot 1` já aparecem traduzidos na captura.
+- Máquina de venda: instrução `Light the center and win a prize!` e comando
+  `Exit` ainda em inglês; `Grana` já está traduzido. A imagem também contém
+  `BONUS`, a inventariar nesse contexto, sem autorização para recriar títulos
+  de minigames que o usuário anteriormente dispensou.
+
+Evidências, na mesma ordem: capturas codex-clipboard-6dbdd462-6011-4c27-ac33-f923905c673c.png,
+codex-clipboard-a48f04ec-806f-4204-993d-d56f6414471f.png,
+codex-clipboard-fb1c3096-2f52-4b82-8193-c41507f392ec.png e
+codex-clipboard-e8fe9d54-6203-4fec-a804-dd81efd340f0.png.
+Origem binária e limites desses campos ainda não foram investigados nesta
+recepção. Nenhuma alteração de jogo ou nova ISO.
+
+## Validação pontual recebida — Menino
+
+O usuário confirmou: “o nome menino funcionou perfeitamente”. Registrar como
+validação visual relatada pelo usuário do rótulo Boy→Menino entregue na v060.
+Não há identificação de qual das duas entradas foi observada; isso não valida
+automaticamente os outros 107 campos, os 13 rótulos explícitos pendentes ou
+o alinhamento Sim/Não. O Codex não repetiu a navegação no PCSX2.
+
 ## Estado consolidado
 
 A v059 é agora a cópia de segurança em dist/backup-v059/; as ISOs antigas
