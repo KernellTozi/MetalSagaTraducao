@@ -24,6 +24,8 @@ ISO: `work/interface-v059/MetalSaga-ptbr-interface-v059.iso`. Abra **Iniciar-Tes
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
+**Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. Uma nova cópia v059 em `work/falantes-lookup-v001/` serve de base à investigação dos 13 falantes; ainda não recebeu alterações. [Estado do método e limites](docs/falantes-lookup-v001.md).
+
 - [Efeitos de batalha, desenho e pendências](docs/interface-v059.md)
 - [Lote de armas aplicado e limites](docs/interface-v058.md)
 - [Satcom e Mundo aberto](docs/interface-v056.md)

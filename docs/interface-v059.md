@@ -123,3 +123,11 @@ tradução”. O desenho dos 34 rótulos fica aprovado a partir dessas imagens.
 Os mesmos pixels já estão aplicados na ISO v059 aberta pelo iniciador;
 nenhuma ISO adicional foi gerada. A aprovação das comparações não equivale
 a teste dos efeitos durante o combate no PCSX2, que continua pendente.
+
+O usuário posteriormente informou que usou Decoy e viu **Isca** no jogo.
+Registrar como validação pontual relatada por ele desse rótulo, sem
+generalizar aos demais efeitos ou afirmar observação direta pelo Codex.
+
+A v059 passou a ser o backup atual em dist/backup-v059/. A antiga alpha e
+as ISOs v055–v058 foram removidas por nova ordem após conferência das cópias;
+ver docs/falantes-lookup-v001.md. A imagem do iniciador permanece igual.

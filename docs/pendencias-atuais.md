@@ -1,5 +1,12 @@
 # Pendências atuais — v059, com auditoria histórica v054
 
+A v059 é agora a cópia de segurança em dist/backup-v059/; as ISOs antigas
+v055–v058 e a antiga alpha foram removidas por nova ordem do usuário, após
+verificação integral. A imagem jogável do iniciador continua v059. O novo
+protótipo dos 13 falantes está em docs/falantes-lookup-v001.md: resolve os
+nomes completos em RAM simulada, mas ainda exige reserva comprovada de
+armazenamento no ELF/heap. Nenhuma tradução de falante foi aplicada à ISO.
+
 A v059 traduz 34 rótulos gráficos de efeitos/atributos nos atlas comprimidos
 1587/1588. Só a área das letras originais é alterada; setas, paletas e termos
 protegidos conservam os pixels. A aparência e o contexto de exibição aguardam
@@ -70,6 +77,12 @@ de outra hipótese de armazenamento/lookup e de prova própria; não repetir
 indefinidamente as buscas de padding já encerradas. Esses rótulos continuam
 em inglês, sem impedir a versão jogável.
 
+Essa nova hipótese já tem uma sonda funcional de 170 bytes e propostas
+restritas aos 13 registros. O bloqueio atual é a reserva em memória:
+classificar 12 referências ao fim da imagem 0x4B599C antes de testar um
+segundo segmento. Os zeros do cabeçalho ELF não são uma code cave carregada,
+e a limpeza de BSS escreve até 0x4B59A0. Não aplicar os marcadores sem o hook.
+
 **Revisão contextual do inglês remanescente:** 523 referências de falantes
 fora desses 13 incluem personagens, nomes, marcadores, Hunter/Soldier/Punk e
 termos que ainda exigem contexto. Não são 523 traduções obrigatórias.
@@ -105,5 +118,5 @@ documentadas. Não houve publicação do pacote nesta rodada.
   onze preservados por decisão do usuário. Não reabrir pôsteres Wanted,
   títulos decorativos de minigames/cassino ou o painel japonês dos cães.
 - Continuam 6.044 registros MAP alterados, 5.991 com corpo/opções modificados,
-  991 referências de falantes traduzidas e 541 nomes de itens aplicados.
+  991 referências de falantes traduzidas e 627 nomes de itens aplicados.
   Essas métricas não permitem calcular uma porcentagem confiável do jogo.

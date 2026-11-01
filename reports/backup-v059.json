@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "source": {
+    "path": "work/interface-v059/MetalSaga-ptbr-interface-v059.iso",
+    "size": 1704427520,
+    "sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+    "verified": true
+  },
+  "backup": {
+    "path": "dist/backup-v059/MetalSaga-ptbr-backup-v059.iso",
+    "size": 1704427520,
+    "sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+    "mtime_ns": 1793501546226233400,
+    "inode": 93731167245226503,
+    "read_only": true
+  },
+  "working_copy": {
+    "path": "work/falantes-lookup-v001/MetalSaga-ptbr-falantes-base-v059.iso",
+    "size": 1704427520,
+    "sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+    "mtime_ns": 1793501550289454400,
+    "inode": 106679016173917467,
+    "read_only": false
+  },
+  "deleted": [
+    {
+      "path": "work/interface-v055/MetalSaga-ptbr-interface-v055.iso",
+      "size": 1704427520,
+      "sha256": "47509f21ccf240ae084fe67b0afe723c71d39688502445b116b09569123be49a",
+      "mtime_ns": 1793399742595642300,
+      "inode": 23080948090448909
+    },
+    {
+      "path": "work/interface-v056/MetalSaga-ptbr-interface-v056.iso",
+      "size": 1704427520,
+      "sha256": "16a3369fd5170260623b1a029db9f43b85b98d9bb0747edc093882673fc271c1",
+      "mtime_ns": 1793403880590233300,
+      "inode": 12384898975408569
+    },
+    {
+      "path": "work/interface-v057/MetalSaga-ptbr-interface-v057.iso",
+      "size": 1704427520,
+      "sha256": "2944c2aae3516e1eeadb2c2e3a101017be96b9386e0b5c811232ffaa5a994ae8",
+      "mtime_ns": 1793404460613611300,
+      "inode": 14636698789095031
+    },
+    {
+      "path": "work/interface-v058/MetalSaga-ptbr-interface-v058.iso",
+      "size": 1704427520,
+      "sha256": "45724669564ec8bd9ef5303d85c4a4387707464de5c519776e70f93fb2d6a0fd",
+      "mtime_ns": 1793416585241321000,
+      "inode": 14355223812318359
+    },
+    {
+      "path": "dist/alpha-v001/MetalSaga-ptbr-alpha-v001.iso",
+      "size": 1704427520,
+      "sha256": "f928e0c375db669e16f078d6a0b7a4bd053ab3e933e7732e3772f14beb00bc58",
+      "mtime_ns": 1792760668452413000,
+      "inode": 1688849860969572
+    }
+  ],
+  "preserved_recipes_and_reports": true,
+  "old_alpha_replaced_by_user_request": true,
+  "changes_to_game_content": false,
+  "backup_outside_work_retention": true,
+  "status": "complete",
+  "planned_remaining_deletions": [],
+  "deleted_iso_count": 5,
+  "backup_hash_and_working_copy_hash_equal": true
+}

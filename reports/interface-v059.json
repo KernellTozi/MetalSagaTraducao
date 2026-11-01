@@ -853,5 +853,14 @@
     "scope": "34 rótulos apresentados nas comparações dos atlas 1587/1588; já aplicados na ISO v059",
     "runtime_visual_validation": "pending_user",
     "additional_iso_generated": false
-  }
+  },
+  "user_runtime_observations": [
+    {
+      "reported_context": "Decoy used in battle after requesting the current v059 path",
+      "observed_label": "Isca",
+      "user_statement": "ao usar o decoy o nome Isca aparece",
+      "scope": "Only the Decoy label; not validation of all effect sprites",
+      "independently_observed_by_codex": false
+    }
+  ]
 }

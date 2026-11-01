@@ -1,5 +1,11 @@
 # Alpha v001 preservada
 
+**Registro histórico, substituído por nova ordem do usuário:** a antiga ISO
+alpha foi removida após a criação e conferência do backup v059. A referência
+atual é dist/backup-v059/MetalSaga-ptbr-backup-v059.iso; ver
+docs/falantes-lookup-v001.md e reports/backup-v059.json. As instruções abaixo
+descrevem a preservação antiga e não autorizam recriá-la automaticamente.
+
 Em 23/10/2026 o usuário pediu que a última versão disponível fosse preservada como alpha. O snapshot é a **interface v001**, com os 88 textos de interface sobre os 5.892 diálogos traduzidos v029 e layout `ptbr-layout-v005`. A v002 é posterior e não substitui esta alpha.
 
 - Arquivo: `dist/alpha-v001/MetalSaga-ptbr-alpha-v001.iso`.

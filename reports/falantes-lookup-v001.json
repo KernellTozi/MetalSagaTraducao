@@ -1,0 +1,596 @@
+{
+  "schema": 1,
+  "scope": "Prototype only; 13 speaker labels still pending in playable ISO",
+  "base_iso": {
+    "path": "work/falantes-lookup-v001/MetalSaga-ptbr-falantes-base-v059.iso",
+    "size": 1704427520,
+    "sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+    "verified": true
+  },
+  "parent_interface_recipe": "translations/interface-v059.json",
+  "parent_recipe_sha256": "1dd098d33af9d1714bd914422440ed40403cacee5254b5b800bf16eb652d56d6",
+  "map_recipe": "translations/regiao-inicial-v044.json",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "hook_file_offset": 2087384,
+  "original_hook_word": "0c0c95b3",
+  "required_caller_va": 2905424,
+  "native_strlen_va": 3299020,
+  "synthetic_program": {
+    "base": 6946816,
+    "code_size": 100,
+    "table_address": 6946916,
+    "size": 170,
+    "names": [
+      {
+        "role_index": 0,
+        "pointer": 6946937,
+        "bytes": 11,
+        "encoded_hex": "54726162616c6861646f72",
+        "translation": "Trabalhador"
+      },
+      {
+        "role_index": 1,
+        "pointer": 6946949,
+        "bytes": 5,
+        "encoded_hex": "486f6d656d",
+        "translation": "Homem"
+      },
+      {
+        "role_index": 2,
+        "pointer": 6946957,
+        "bytes": 13,
+        "encoded_hex": "5472616e73706f727461646f72",
+        "translation": "Transportador"
+      },
+      {
+        "role_index": 3,
+        "pointer": 6946973,
+        "bytes": 4,
+        "encoded_hex": "4761746f",
+        "translation": "Gato"
+      },
+      {
+        "role_index": 4,
+        "pointer": 6946981,
+        "bytes": 4,
+        "encoded_hex": "4382436f",
+        "translation": "Cão"
+      }
+    ],
+    "sha256": "62cca438dfa08a04d5b9fc2ed6064e5a96ebf6acdd12a971bc859acc68661164"
+  },
+  "instruction_windows": [
+    {
+      "offset": 1860872,
+      "size": 76,
+      "sha256": "62daca9c0992e9a4e68e500fcebfee2b159057469b42650c2d3d6b147c7a5bc9"
+    },
+    {
+      "offset": 1863088,
+      "size": 56,
+      "sha256": "dae49567d199f3408c0b092c4fdbf62cdca2bad7cb0de747106ada4baa84931b"
+    },
+    {
+      "offset": 2087272,
+      "size": 216,
+      "sha256": "c0925505e58fc5393c4dcd35be6fc973df83e1c7283f5d039c6871f31800c2fb"
+    },
+    {
+      "offset": 2087680,
+      "size": 68,
+      "sha256": "a4b93ffa0573475ee1107cc83a97884ab2a2eadb79eadf18ef9d317c1f40a66b"
+    },
+    {
+      "offset": 2254260,
+      "size": 20,
+      "sha256": "e5f68fcb6107861b01b3a8d709882bdca65916623dbdcb47a3b35ac8286c4625"
+    },
+    {
+      "offset": 2254508,
+      "size": 44,
+      "sha256": "c6f7f73adafebf3dd40f05c307ad8ecce65b8876bce2d338c5e5272f7fa404e6"
+    },
+    {
+      "offset": 2254832,
+      "size": 32,
+      "sha256": "144f6712a4f7b9b76ea952d0fb1ee5296be34121b1e032dbc14e3c25cc647f43"
+    }
+  ],
+  "storage_investigation": {
+    "original_load_segment": {
+      "file_offset": 4096,
+      "va": 1048576,
+      "file_size": 3444848,
+      "memory_size": 3889564,
+      "flags": 7
+    },
+    "elf_size": 3487572,
+    "original_memory_end": 4938140,
+    "startup_clear_start": 4493440,
+    "startup_clear_stop_exclusive": 4938144,
+    "clearing_rounding_bytes_beyond_declared_end": 4,
+    "header_padding_interval": [
+      84,
+      4096
+    ],
+    "header_padding_all_zero": true,
+    "candidate_declared_segment": {
+      "file_offset": 256,
+      "synthetic_va_after_bss_clear": 4938144,
+      "program_bytes": 170,
+      "proposed_heap_start": 4938320,
+      "requires_new_program_header": true,
+      "can_apply": false
+    },
+    "end_address_references": [
+      {
+        "kind": "data-pointer",
+        "offset": 3143828,
+        "window_offset": 3143828,
+        "window_size": 4,
+        "window_sha256": "533aca874cc024dd072952798553076c8c62d1b227f07e565e3fa2c9f3aea9fd",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1538852,
+        "immediate_offset": 1538856,
+        "words": [
+          "3c03004b",
+          "2463599c"
+        ],
+        "window_offset": 1538844,
+        "window_size": 48,
+        "window_sha256": "2dc904b5df92e2c6e27d35dbfdda039346d432672b37d395d08da50a26f0359b",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1576560,
+        "immediate_offset": 1576568,
+        "words": [
+          "3c03004b",
+          "2463599c"
+        ],
+        "window_offset": 1576552,
+        "window_size": 48,
+        "window_sha256": "e6bb812096559098b95e061c35713e3a1f5cc292c4b16a89dc069fcbeaac0f3f",
+        "classification": "BSS clearing end; must not move over injected code"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1576656,
+        "immediate_offset": 1576664,
+        "words": [
+          "3c04004b",
+          "2484599c"
+        ],
+        "window_offset": 1576648,
+        "window_size": 48,
+        "window_sha256": "5ec41c6f9548aed6878986f07b0a72480c4fd4f84977e5fac3127bdbad2ea756",
+        "classification": "Startup syscall 0x3d argument; heap reservation candidate"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1685968,
+        "immediate_offset": 1685976,
+        "words": [
+          "3c03004b",
+          "2463599c"
+        ],
+        "window_offset": 1685960,
+        "window_size": 48,
+        "window_sha256": "06de5a09593dead1c5858f65d6a6f83115fa34e441e39a6f9a552bb309d92d73",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1686720,
+        "immediate_offset": 1686724,
+        "words": [
+          "3c06004b",
+          "24c6599c"
+        ],
+        "window_offset": 1686712,
+        "window_size": 48,
+        "window_sha256": "be5551d69328fb892291a6d79213cad8d1e3a1779d3a0835b379fe79558fa06c",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1693028,
+        "immediate_offset": 1693036,
+        "words": [
+          "3c06004b",
+          "24c6599c"
+        ],
+        "window_offset": 1693020,
+        "window_size": 48,
+        "window_sha256": "43307c34148c0a231af31a420b85df7a7b2685c7e65928c08bcfb1d9f7cec450",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1693128,
+        "immediate_offset": 1693144,
+        "words": [
+          "3c06004b",
+          "24c6599c"
+        ],
+        "window_offset": 1693120,
+        "window_size": 48,
+        "window_sha256": "672355bc5133f5756d757a150512b3d1393feb082270191f10344d34f9c95308",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1727348,
+        "immediate_offset": 1727352,
+        "words": [
+          "3c02004b",
+          "2442599c"
+        ],
+        "window_offset": 1727340,
+        "window_size": 48,
+        "window_sha256": "6a2330a0e2f59ef557e7b7fb5e51677779afd7e9c996472677f263761c600a31",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1727596,
+        "immediate_offset": 1727600,
+        "words": [
+          "3c02004b",
+          "2442599c"
+        ],
+        "window_offset": 1727588,
+        "window_size": 48,
+        "window_sha256": "6a2330a0e2f59ef557e7b7fb5e51677779afd7e9c996472677f263761c600a31",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1728628,
+        "immediate_offset": 1728632,
+        "words": [
+          "3c02004b",
+          "2442599c"
+        ],
+        "window_offset": 1728620,
+        "window_size": 48,
+        "window_sha256": "648c1dc925f07ff057e6658dd6227c024d1a36b804dc8a0a214b373774302da5",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      },
+      {
+        "kind": "lui-immediate-candidate",
+        "offset": 1729052,
+        "immediate_offset": 1729056,
+        "words": [
+          "3c02004b",
+          "2442599c"
+        ],
+        "window_offset": 1729044,
+        "window_size": 48,
+        "window_sha256": "648c1dc925f07ff057e6658dd6227c024d1a36b804dc8a0a214b373774302da5",
+        "classification": "End-of-image data/size/allocator reference; data flow still to prove"
+      }
+    ],
+    "startup_instruction_windows": [
+      {
+        "offset": 1576556,
+        "size": 44,
+        "sha256": "412fb9dbf2e7cf2efbe02c36de108cffcdf6e8093c0eda4bd3ebc36379e52182"
+      },
+      {
+        "offset": 1576656,
+        "size": 24,
+        "sha256": "84a6e273a1e1420682b492b3fd7f9ff677e289524506d8877682fdb14bd6086f"
+      }
+    ],
+    "limitations": "12 conservative address references, not a complete data-flow proof. Startup clears through the next 16-byte boundary. Adding PT_LOAD alone is unsafe: kernel/game allocator ranges and any reset paths must reserve the new program first. File padding is not currently loaded or executable storage.",
+    "format_reference": "https://github.com/PCSX2/pcsx2/blob/master/pcsx2/Elfheader.h"
+  },
+  "census_records": 7231,
+  "existing_label_marker_collisions": 0,
+  "proposed_records": [
+    {
+      "id": "map.msgn.057d67dc",
+      "offset": 92104668,
+      "size": 76,
+      "record_sha256": "d65b0757d3fee16116dd2521b9268815d0a161b089507a7bb2f10109aa93f6fe",
+      "compiled_record_sha256": "24a9c75c17a8b5ca65e04befe5b949be1f935125a13dc7e32c02d530c2ef3028",
+      "label_offset": 92104736,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "c6fdcdd2bb9908abec41e5131f75c570e53d4a9ffa36586f881058ab8fbc16a8",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0db14094",
+      "offset": 229720212,
+      "size": 56,
+      "record_sha256": "ca52a6fb7cbecba650f9878144724fa3a8ad9eae8cad34089302904c35ad3b51",
+      "compiled_record_sha256": "ca52a6fb7cbecba650f9878144724fa3a8ad9eae8cad34089302904c35ad3b51",
+      "label_offset": 229720260,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "5925363f948c55162e3da79776c083b835454d4b2023eb03feab94a726c07cd1",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0db140dc",
+      "offset": 229720284,
+      "size": 56,
+      "record_sha256": "d1c6bca1a74e15434a5895af7396380bf325bcbf20ea6c1c61855ed19f4ac811",
+      "compiled_record_sha256": "7d709ae125c89aa0cb4e596a3522dfc3b76f007f98c694fcc03d6dfc65caa46e",
+      "label_offset": 229720332,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "637b4ec5b612992b831ff3333ba9b1d903cec6ba0924b0ee0ab1e5ab798ccb28",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0db147f8",
+      "offset": 229722104,
+      "size": 60,
+      "record_sha256": "6eeb35bd511a860be19909e82dfa42741c67ce0b0aca53a5284c72f91079a5f3",
+      "compiled_record_sha256": "9c14a237640adc29576e58a1e060d16c54feeb84e801691222d0d24d60cdd3a3",
+      "label_offset": 229722156,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "0c4ab3bca13377f8ebc085882db717ce070b3882ba481147e475059314d3bcd8",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0db14898",
+      "offset": 229722264,
+      "size": 48,
+      "record_sha256": "32810773b2705af9367d7448d54e41010f5566d42b24ef9f778ff1f205f241bc",
+      "compiled_record_sha256": "30bbbf5da5a4cc3cdfea2a20fff095d2a425c17c2d3f60ceec02ddf964bb389b",
+      "label_offset": 229722304,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "6920fb0d958ddf49a2e032c7fbadd139d0a43ea526dc4d420887f0cef66a9bba",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0db148e0",
+      "offset": 229722336,
+      "size": 52,
+      "record_sha256": "892dd044539be299dcf6c4820322bcd0cf62aaf892a9ae658158692e02309e7a",
+      "compiled_record_sha256": "892dd044539be299dcf6c4820322bcd0cf62aaf892a9ae658158692e02309e7a",
+      "label_offset": 229722380,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "73bbd56e3ea83f1a4ef024b597b74ed7bd9f6596f26e74b48fd17fa28cf1eb3f",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0e777edc",
+      "offset": 242712284,
+      "size": 48,
+      "record_sha256": "c7d433682766a9a8e301a7382d88d82d6689973b8213c4a3b04f61836fe1a4da",
+      "compiled_record_sha256": "c7d433682766a9a8e301a7382d88d82d6689973b8213c4a3b04f61836fe1a4da",
+      "label_offset": 242712324,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "e374f7dbaef09f508087a9255d1a7768a45cf94ee01234fb34615206476b56b3",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0e778354",
+      "offset": 242713428,
+      "size": 80,
+      "record_sha256": "d312c6e25a1dd019fbc357b002ffb21357039b325414aad7830c9f07e400bc7b",
+      "compiled_record_sha256": "d312c6e25a1dd019fbc357b002ffb21357039b325414aad7830c9f07e400bc7b",
+      "label_offset": 242713500,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "70c0fb0d5d86f4ddbae72f53d1b9eb36f37377ac88f21d6f48542cb2616a2336",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.14aad804",
+      "offset": 346740740,
+      "size": 48,
+      "record_sha256": "3c6a56d1d17812414b44edaa1a6293499c14bf21f4762b4729eb75fa0a92b0a0",
+      "compiled_record_sha256": "3c6a56d1d17812414b44edaa1a6293499c14bf21f4762b4729eb75fa0a92b0a0",
+      "label_offset": 346740780,
+      "capacity": 7,
+      "marker_hex": "7e30",
+      "translation": "Trabalhador",
+      "target_bytes": 11,
+      "proposed_record_sha256": "df72b94a8aafa18d0c151cb544eda1ef69a2e57e80dabf3c8f94b27258e09cee",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 11,
+        "allocated_bytes": 12,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0be1acd8",
+      "offset": 199339224,
+      "size": 44,
+      "record_sha256": "4e2294278b5440b03b132caa2420f6c3990f88848d3da33a048c97895fc519c7",
+      "compiled_record_sha256": "4e2294278b5440b03b132caa2420f6c3990f88848d3da33a048c97895fc519c7",
+      "label_offset": 199339264,
+      "capacity": 3,
+      "marker_hex": "7e31",
+      "translation": "Homem",
+      "target_bytes": 5,
+      "proposed_record_sha256": "f4f275560dd5194b710f952c2328923851d44607d2ef1ddd157d74e2f6e0fd67",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 5,
+        "allocated_bytes": 8,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0be25188",
+      "offset": 199381384,
+      "size": 56,
+      "record_sha256": "f33d5490c1db358b99ce3bf2125e61a1318a5cea3a239b60b530be90c481f482",
+      "compiled_record_sha256": "f33d5490c1db358b99ce3bf2125e61a1318a5cea3a239b60b530be90c481f482",
+      "label_offset": 199381428,
+      "capacity": 11,
+      "marker_hex": "7e32",
+      "translation": "Transportador",
+      "target_bytes": 13,
+      "proposed_record_sha256": "3e22898cb4741bb51a25b3584248c23766e6f3098a7148853e07b795033e983a",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 13,
+        "allocated_bytes": 16,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.0be2d3a4",
+      "offset": 199414692,
+      "size": 44,
+      "record_sha256": "7215594fcafb609b310ba27f7f02fa8888faa212f6cd20113ce81c15f2985296",
+      "compiled_record_sha256": "7215594fcafb609b310ba27f7f02fa8888faa212f6cd20113ce81c15f2985296",
+      "label_offset": 199414732,
+      "capacity": 3,
+      "marker_hex": "7e33",
+      "translation": "Gato",
+      "target_bytes": 4,
+      "proposed_record_sha256": "fd90223f1cc0a0ee1dc000f7201976af3eeb38c32548837e6bdaaf7e6fbb9143",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 4,
+        "allocated_bytes": 8,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    },
+    {
+      "id": "map.msgn.19f55614",
+      "offset": 435508756,
+      "size": 44,
+      "record_sha256": "f566dc44119105d0575dcf9deb045e6d7a656b891d773e20256713a24c4367f6",
+      "compiled_record_sha256": "f566dc44119105d0575dcf9deb045e6d7a656b891d773e20256713a24c4367f6",
+      "label_offset": 435508796,
+      "capacity": 3,
+      "marker_hex": "7e34",
+      "translation": "Cão",
+      "target_bytes": 4,
+      "proposed_record_sha256": "cd8ed3d549af76195dc97cccc02792ac3f107f48695712e42452fed0ad8d9e33",
+      "body_controls_and_metadata_unchanged": true,
+      "native_label_traversal_unchanged": true,
+      "original_copy_probe": {
+        "bytes": 4,
+        "allocated_bytes": 8,
+        "copy_and_guards": true,
+        "static_getter": true
+      }
+    }
+  ],
+  "iso_modified": false,
+  "can_apply_to_iso": false,
+  "storage_status": "No safe real-game storage allocated; synthetic base must never be injected",
+  "pcsx2_executed": false,
+  "limits": "Lookup instructions executed in bounded synthetic RAM. Original scalar traversal/length/allocation arguments/copy/getter probes composed; allocator and lifetime, cleanup, full caller, GPU and drawing not executed.",
+  "validation": {
+    "distinct_tests": 57,
+    "prototype": 10,
+    "backup": 6,
+    "regression": 41,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "patterns": [
+      "test_speaker_lookup_prototype.py",
+      "test_preserve_v059.py",
+      "test_speaker_labels.py",
+      "test_speaker_label_space.py",
+      "test_speaker_label_bytes.py",
+      "test_speaker_label_review.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py"
+    ],
+    "new_working_iso_full_hash_verified_after_proposal": true,
+    "live_pcsx2_test": false
+  }
+}
