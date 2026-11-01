@@ -1,4 +1,22 @@
-# Pendências atuais — v061, com auditoria histórica v054
+# Pendências atuais — v062, com auditoria histórica v054
+
+## Entrega v062 — nova rodada de capturas
+
+Aplicados Colete avariado (190), Instinto animal (itens 864/959 e ação 219),
+Vitrola em 11 rótulos e seus comandos, Toca da Cobra no nome e aviso da caverna,
+ITENS/HABILIDADES, Reboque/Rebocar/Soltar reboque e a janela de descarte de
+placas, com Carga/Livre. Corrigida uma coluna antes dos números de Nível e
+Prêmio, preservando parâmetros e valores. Aparência final aguarda o usuário.
+Manual e roteiro em docs/interface-v062.md. Faixas musicais e Crimson Manzier
+(equipamento único 176) preservados.
+
+Passaram 60 testes distintos e a comparação integral confirmou apenas 1.268
+bytes em 26 patches previstos. Fonte/layout e diretório ISO inalterados.
+Cinco ISOs de trabalho, dentro do limite; backup v059 preservado. Iniciador
+e atalho de pasta acompanham v062. Sem execução de PCSX2 pelo Codex.
+Permanecem as categorias abreviadas e os 13 rótulos explícitos curtos listados
+abaixo. Capturas de MEMBROS/FROTA documentadas como observação pontual da arte
+v061 em reports/interface-v061-visual-user.json.
 
 ## Entrega v061 — autorização de aplicação recebida
 

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v062.json",
+  "recipe_sha256": "0614c801a58c3991a518bad5fe38495e4fccd52f98d7cc352a94e2a5787caeab",
+  "parent": "translations/interface-v061.json",
+  "manifest": "translations/telas-revisadas-v001.json",
+  "counts": {
+    "new_interface_units": 25,
+    "new_elf_literals": 6,
+    "new_item_names": 3,
+    "new_action_labels": 1,
+    "new_map_labels": 13,
+    "new_native_titles": 2,
+    "revised_statistic_formats": 2,
+    "interface_units": 4342,
+    "item_name_fields": 630,
+    "unique_translated_item_labels": 607,
+    "map_dialogue_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "npc_default_names_inherited": 108,
+    "explicit_short_labels_still_pending": 13
+  },
+  "iso": {
+    "path": "work/interface-v062/MetalSaga-ptbr-interface-v062.iso",
+    "size": 1704427520,
+    "sha256": "c000755d8447b157eae3ed5674b69a70fb223b4c813f5e9c43144fe57b4ec232",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v062-delta.json",
+  "changed_bytes": 1268,
+  "changed_patches": 26,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "tests": {
+    "passed": 60,
+    "new": 16,
+    "regression": 44,
+    "patterns": [
+      "test_screen_followup.py",
+      "test_observed_menu_translation.py",
+      "test_npc_menu_revision.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py",
+      "test_glyph_layout.py",
+      "test_glyph_single.py"
+    ]
+  },
+  "statistic_width_proof": {
+    "native_measure_executed": true,
+    "modes": [
+      0,
+      2
+    ],
+    "font_size": 22,
+    "numeric_values": [
+      0,
+      25,
+      999
+    ],
+    "restored_advance": 11,
+    "level_matches_exp_width": true,
+    "reward_matches_money_width": true,
+    "actual_battle_font_mode_confirmed": false,
+    "game_formatter_executed": false,
+    "gpu_rendered": false
+  },
+  "jukebox": {
+    "translated_map_labels": 11,
+    "translation": "Vitrola",
+    "original_nul_position_preserved": true,
+    "opaque_byte_31_preserved": true,
+    "song_names_unchanged": true,
+    "controller_tokens_unchanged": true
+  },
+  "preserved_related_captions": [
+    "Dirigir ou rebocar?",
+    "Desembarcar",
+    "Quantos largar?"
+  ],
+  "unique_equipment_176_preserved": true,
+  "backup_v059_sha256_verified": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+  "backup_readonly_verified": true,
+  "work_isos": 5,
+  "preflight_verified": true,
+  "launcher_and_folder_dry_run_verified": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

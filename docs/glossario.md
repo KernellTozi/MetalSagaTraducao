@@ -508,3 +508,20 @@ Pontaria, cargo predominante, comparação do frete, melhor lugar para ganhar
 dinheiro, relato à família e preocupação com a ferida são os sentidos da revisão;
 não são substituições globais de palavras. As escolhas de itens aprovadas pelo
 usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
+
+
+## Continuidade v062 — correções das capturas
+
+- Scrap Armor (item 190): Colete avariado, por solicitação do usuário sobre o
+  colete quebrado. Não substituir scrap por avariado em outros contextos;
+  a regra junk→sucata permanece.
+- Animal Instinct: Instinto animal nos itens 864/959 e na ação 219. Exceção
+  explícita para esses registros; não liberar outros nomes protegidos.
+- Jukebox, rótulo de interação: Vitrola. Manter títulos de todas as músicas.
+- Towed / Tow / Stop towing, painel de veículos: Reboque / Rebocar /
+  Soltar reboque. Não traduzir mensagens técnicas de log por coincidência.
+- Armor tiles na janela de descarte: Placas; Load / Free: Carga / Livre.
+  Manter SP, quantidades, sinais e unidades; não renomear itens por esta regra.
+- Crimson Manzier, equipamento único 176: manter. Não é nome de procurado.
+- Toca da Cobra já definido para Snake's Den passa também aos dois nomes
+  de mapa/aviso tratados nesta versão.

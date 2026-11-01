@@ -1,0 +1,170 @@
+{
+  "old_recipe": "translations/interface-v061.json",
+  "new_recipe": "translations/interface-v062.json",
+  "source_iso_sha256": "6cfc373bacb4064b8068fef00dd6c4bfa6b0c4af831ea9088e8d3aff3e099a73",
+  "output_iso_sha256": "c000755d8447b157eae3ed5674b69a70fb223b4c813f5e9c43144fe57b4ec232",
+  "iso_size": 1704427520,
+  "changed_bytes": 1268,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "followup.map.062.000450",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 145790504,
+      "size": 8
+    },
+    {
+      "id": "followup.map.093.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 193425372,
+      "size": 14
+    },
+    {
+      "id": "followup.map.093.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 193427456,
+      "size": 14
+    },
+    {
+      "id": "followup.map.117.0006f0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 252880560,
+      "size": 8
+    },
+    {
+      "id": "followup.map.126.0004e0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 283413880,
+      "size": 8
+    },
+    {
+      "id": "followup.map.141.0003a0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 313924764,
+      "size": 8
+    },
+    {
+      "id": "followup.map.141.000c00",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 313974996,
+      "size": 8
+    },
+    {
+      "id": "followup.map.154.0006f0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 364092656,
+      "size": 8
+    },
+    {
+      "id": "followup.map.154.0020f0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 364224396,
+      "size": 8
+    },
+    {
+      "id": "followup.map.168.000560",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 400335604,
+      "size": 8
+    },
+    {
+      "id": "followup.map.183.000500",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447089708,
+      "size": 8
+    },
+    {
+      "id": "followup.map.258.000780",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 540941380,
+      "size": 8
+    },
+    {
+      "id": "followup.map.276.000fa0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556200920,
+      "size": 8
+    },
+    {
+      "id": "item.name.0190",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290063648,
+      "size": 24
+    },
+    {
+      "id": "item.name.0864",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290149920,
+      "size": 24
+    },
+    {
+      "id": "item.name.0959",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290162080,
+      "size": 24
+    },
+    {
+      "id": "battle.action.0219",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290312572,
+      "size": 32
+    },
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290613824,
+      "size": 65536
+    },
+    {
+      "id": "followup.elf.00315e90",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704171152,
+      "size": 9
+    },
+    {
+      "id": "followup.elf.00315ea0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704171168,
+      "size": 9
+    },
+    {
+      "id": "followup.elf.00315f10",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704171280,
+      "size": 16
+    },
+    {
+      "id": "elf.ui.003239e0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704227296,
+      "size": 16
+    },
+    {
+      "id": "elf.ui.00323a28",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704227368,
+      "size": 24
+    },
+    {
+      "id": "followup.elf.0032aed0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704257232,
+      "size": 42
+    },
+    {
+      "id": "followup.elf.0032af00",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704257280,
+      "size": 81
+    },
+    {
+      "id": "followup.elf.00331cd0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704285392,
+      "size": 62
+    }
+  ],
+  "pcsx2_executed": false
+}

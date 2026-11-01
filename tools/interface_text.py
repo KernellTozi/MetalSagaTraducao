@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'screen_followup_release' in draft:
+        from screen_followup import compile_interface
+        return compile_interface(data,draft)
     if 'observed_menu_release' in draft:
         from observed_menu_translation import compile_interface
         return compile_interface(data,draft)

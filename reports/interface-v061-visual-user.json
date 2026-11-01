@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "reported_date": "2026-11-01",
+  "asset_release": "interface-v061",
+  "method": "User-provided gameplay screenshots",
+  "visible_translated_header_art": ["MEMBROS", "FROTA"],
+  "evidence_names": [
+    "codex-clipboard-1fa71afd-ecf3-482b-9f2e-763b585613df.png",
+    "codex-clipboard-73ed00a2-3c09-4c5e-a312-e9e6d8670d66.png"
+  ],
+  "exact_booted_iso_path_reported": false,
+  "all_v061_changes_validated": false,
+  "codex_executed_pcsx2": false,
+  "scope": "Only the translated header artwork visible in these captures; not full gameplay or every UI context."
+}

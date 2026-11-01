@@ -17,16 +17,17 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v061**, sobre MAP v044 e fontes/layout v005. Acrescenta **20 unidades de interface** nas telas apontadas pelo usuário: avisos do tanque, detalhes de save, Vazio, Equipamento/Comparar, CIDADES/MEMBROS/FROTA e instrução/comandos da máquina de venda. Preserva os 108 nomes padrão e a correção de largura de opções da v060. Menino recebeu confirmação visual pontual; os novos elementos aguardam teste em partida.
+**Interface v062**, sobre MAP v044 e fontes/layout v005. Acrescenta **25 unidades de interface**: Colete avariado, Instinto animal, Vitrola/comandos, Toca da Cobra, ITENS/HABILIDADES, reboque e descarte de placas. Corrige uma coluna nos formatos numéricos de Nível/Prêmio. Nomes de músicas e Crimson Manzier preservados. Aparência dos novos elementos aguarda teste em partida; as capturas já mostram MEMBROS/FROTA da v061.
 
-São **627 nomes de itens aplicados**, **4.317 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão são contados separadamente dessas referências. Armas aprovadas, Mundo aberto e patches anteriores permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
+São **630 campos de nomes de itens aplicados**, **4.342 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Armas aprovadas e Mundo aberto permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v061-final/MetalSaga-ptbr-interface-v061.iso`. Abra **Iniciar-Teste.cmd**. Conferir as telas de equipamento, teletransporte, salvamento, máquina de venda e os avisos do tanque. O perfil isolado histórico tem cartões de memória desativados. A v060 continua disponível em sua pasta anterior, e o backup protegido continua v059.
+ISO: `work/interface-v062/MetalSaga-ptbr-interface-v062.iso`. Abra **Iniciar-Teste.cmd**. Conferir reboque, descarte de placas, habilidades, vitrola, caverna e resultados de batalha. O perfil isolado histórico tem cartões de memória desativados. A v061 continua disponível em sua pasta anterior, e o backup protegido continua v059.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
 **Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. Uma nova cópia v059 em `work/falantes-lookup-v001/` serve de base à investigação dos 13 falantes; ainda não recebeu alterações. [Estado do método e limites](docs/falantes-lookup-v001.md).
 
+- [Reboque, habilidades, música e alinhamento dos resultados](docs/interface-v062.md)
 - [Menus e avisos observados durante a partida](docs/interface-v061.md)
 - [Nomes padrão de NPCs e alinhamento de Sim/Não](docs/interface-v060.md)
 - [Efeitos de batalha, desenho e pendências](docs/interface-v059.md)
