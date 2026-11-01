@@ -115,3 +115,11 @@ externos/paleta/setas, identidade de todos os patches anteriores, retorno
 pelo decoder original, recusa de overflow e de mudanças em vínculos,
 fontes/retângulos e receitas. O auditor de capacidade reconhece o filho v059
 e mantém zero das revisões de nomes anteriormente bloqueadas.
+
+## Aprovação do desenho
+
+Após receber as comparações, o usuário confirmou: “bacana, pode aplicar essa
+tradução”. O desenho dos 34 rótulos fica aprovado a partir dessas imagens.
+Os mesmos pixels já estão aplicados na ISO v059 aberta pelo iniciador;
+nenhuma ISO adicional foi gerada. A aprovação das comparações não equivale
+a teste dos efeitos durante o combate no PCSX2, que continua pendente.
