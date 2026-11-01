@@ -1,5 +1,28 @@
 # Pendências atuais — v062, com auditoria histórica v054
 
+## Novos relatos após v062 — somente registrar, desenvolvimento pausado
+
+O usuário pediu encerrar as alterações por agora e passou a enviar achados
+para registro. Aguardar nova ordem antes de investigar/aplicar esses casos;
+nenhuma nova ISO ou mudança de receita nesta recepção.
+
+- **Busca sem inimigos:** ao usar a técnica Busca num local sem inimigos,
+  aparece `No enemies in the vicinity`. Pendência de tradução da mensagem;
+  sugestão contextual: “Não há inimigos por perto.” Origem binária e limite
+  de armazenamento ainda não investigados. Evidência:
+  codex-clipboard-fe7355a1-7f9c-42e8-9565-fd4ad8435cc1.png.
+- **NPC que monta mapas:** segundo o usuário, a tela desse serviço mostra
+  o título `Montar itens` e a pergunta `Qual componente de first?`. Revisar
+  o contexto do serviço, a frase incompleta/mista e eventual composição de
+  segmentos ou variável não traduzida. Não presumir que first seja nome
+  próprio, traduzir uma parte isolada ou confirmar o título correto sem
+  conferir a origem e os argumentos. Evidência:
+  codex-clipboard-40440ede-1acf-4487-8c42-5deb508a5682.png.
+
+As capturas comprovam o texto exibido e o usuário fornece o contexto. Não
+comprovam a causa técnica do segundo erro ou o caminho exato da ISO usada.
+Versão jogável e atalhos continuam v062; backup v059 preservado.
+
 ## Entrega v062 — nova rodada de capturas
 
 Aplicados Colete avariado (190), Instinto animal (itens 864/959 e ação 219),
