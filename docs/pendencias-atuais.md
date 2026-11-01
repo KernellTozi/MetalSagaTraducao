@@ -1,5 +1,24 @@
 # Pendências atuais — v060, com auditoria histórica v054
 
+## Aviso de tanque imobilizado — registrado, não aplicar ainda
+
+Relatado pelo usuário em 01/11/2026: ao tentar utilizar o tanque sem motor e
+sem C Unit, o aviso ainda aparece em inglês. A captura mostra o veículo
+Buggy e as linhas `immobile:`, `Overloaded`, `No engine installed` e
+`No C Unit installed`. Manter Buggy como nome do veículo.
+
+A captura comprova o texto exibido; a origem binária e os limites de edição
+ainda não foram investigados. A presença de Overloaded na mesma tela não
+comprova se a sobrecarga é independente da ausência de motor. Conferir esse
+contexto ao tratar o conjunto de avisos de impedimento de uso do tanque.
+
+**Aguardar nova ordem antes de aplicar correção**, conforme pedido explícito.
+Este registro não altera receitas, fontes, ISO ou iniciadores; a versão
+jogável continua v060. Evidência: captura fornecida pelo usuário,
+`codex-clipboard-ac867316-fcf0-4d79-ad0b-b6f8a1757710.png`.
+
+## Estado consolidado
+
 A v059 é agora a cópia de segurança em dist/backup-v059/; as ISOs antigas
 v055–v058 e a antiga alpha foram removidas por nova ordem do usuário, após
 verificação integral. A imagem jogável do iniciador agora é a v060. O novo
