@@ -91,6 +91,9 @@ def load_draft(path,chain=()):
 
 
 def compile_draft(data,draft):
+    if 'capture_context_review' in draft:
+        from capture_release import compile_narrative
+        return compile_narrative(data,draft)
     if 'context_finish_review' in draft:
         from dialogue_context_finish import compile_overlay
         return compile_overlay(data,draft)

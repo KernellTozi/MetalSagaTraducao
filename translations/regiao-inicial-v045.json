@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v044.json",
+  "name": "regiao-inicial-v045",
+  "status": "Capturas revisadas: montagem, minerais, locais, Renascimento e Primeiro golpe.",
+  "translations": {
+    "map.msg.0be1a0e0": "...Dis...assembler...\nte... desmonta...!\tMwahahahaha!"
+  },
+  "reviewed_changes": [
+    "map.msg.0be1a0e0"
+  ],
+  "capture_context_review": {
+    "recipe": "translations/capturas-v001.json",
+    "sha256": "eda84287488b453bc90f212eb1dd09ff747d27d7bbda50648032a285a6faa512"
+  }
+}

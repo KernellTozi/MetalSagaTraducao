@@ -1,0 +1,164 @@
+{
+  "old_recipe": "translations/interface-v062.json",
+  "new_recipe": "translations/interface-v063.json",
+  "source_iso_sha256": "c000755d8447b157eae3ed5674b69a70fb223b4c813f5e9c43144fe57b4ec232",
+  "output_iso_sha256": "977181c148d6c49c4e166301d6d113da0b3f54e538ba5815e20f42855b08488d",
+  "iso_size": 1704427520,
+  "changed_bytes": 14375,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "capture.map.006.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 53817308,
+      "size": 29
+    },
+    {
+      "id": "capture.map.006.000040",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 53819392,
+      "size": 29
+    },
+    {
+      "id": "map.msg.0be1a0e0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 253112544,
+      "size": 88
+    },
+    {
+      "id": "capture.map.214.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 505726940,
+      "size": 32
+    },
+    {
+      "id": "capture.map.214.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 505729024,
+      "size": 32
+    },
+    {
+      "id": "capture.map.224.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 530102236,
+      "size": 31
+    },
+    {
+      "id": "capture.map.234.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 537071580,
+      "size": 22
+    },
+    {
+      "id": "capture.map.234.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 537073664,
+      "size": 22
+    },
+    {
+      "id": "capture.battle.first-strike",
+      "resource": "DATA/MMBATTLE/MMBATTLE.BIN",
+      "iso_offset": 1111777280,
+      "size": 14336
+    },
+    {
+      "id": "item.name.0190",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290063648,
+      "size": 24
+    },
+    {
+      "id": "item.name.0336",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290082336,
+      "size": 24
+    },
+    {
+      "id": "item.name.0665",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290124448,
+      "size": 24
+    },
+    {
+      "id": "item.name.0666",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290124576,
+      "size": 24
+    },
+    {
+      "id": "item.name.0667",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290124704,
+      "size": 24
+    },
+    {
+      "id": "spack.reaction.pool",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290243536,
+      "size": 8864
+    },
+    {
+      "id": "spack.ui.table",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290254448,
+      "size": 8192
+    },
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290613824,
+      "size": 65536
+    },
+    {
+      "id": "capture.elf.003179b0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704178096,
+      "size": 27
+    },
+    {
+      "id": "elf.ui.00341ca8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704350888,
+      "size": 24
+    },
+    {
+      "id": "capture.learn.prompt",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704355280,
+      "size": 32
+    },
+    {
+      "id": "capture.elf.00349540",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704381760,
+      "size": 8
+    },
+    {
+      "id": "capture.elf.00349ea0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704384160,
+      "size": 8
+    },
+    {
+      "id": "capture.elf.00349ea8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704384168,
+      "size": 8
+    },
+    {
+      "id": "capture.elf.00349eb0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704384176,
+      "size": 8
+    },
+    {
+      "id": "capture.elf.00349eb8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704384184,
+      "size": 8
+    }
+  ],
+  "pcsx2_executed": false
+}

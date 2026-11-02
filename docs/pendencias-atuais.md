@@ -1,6 +1,23 @@
-# Pendências atuais — v062, com auditoria histórica v054
+# Pendências atuais — v063, com auditoria histórica v054
 
-## Novos relatos após v062 — somente registrar, desenvolvimento pausado
+## Capturas aplicadas na v063 — validação visual pendente
+
+O pedido posterior de continuar encerrou a pausa descrita abaixo. A v063
+aplica Colete quebrado, Renascimento (nome escolhido pelo usuário), três
+minerais, o aviso de Busca, Combinar peças/Escolha a peça 1..4, o trocadilho de
+Disassembler, Equipar, EQUIPAMENTOS, Quem aprenderá?, quatro nomes de locais
+em sete campos e duas variantes de Primeiro golpe. Ver docs/interface-v063.md.
+Os relatos abaixo continuam como histórico, não como bloqueio de execução.
+
+Próxima conferência em partida: esses elementos e o alinhamento de Nível/Prêmio
+da v062. A nova compilação não comprova aparência ou alcance de todas as telas.
+Permanecem separados os 13 falantes explícitos curtos e a ampliação das
+categorias abreviadas. As 16 revisões históricas de nomes já foram tratadas
+nas v052–v054: o auditor da receita v063 continua indicando zero bloqueadas
+nesse conjunto. Não reabrir essa pendência resolvida nem confundi-la com os
+novos minerais, que só agora receberam tradução.
+
+## Histórico dos relatos após v062 — pausa já encerrada
 
 O usuário pediu encerrar as alterações por agora e passou a enviar achados
 para registro. Aguardar nova ordem antes de investigar/aplicar esses casos;

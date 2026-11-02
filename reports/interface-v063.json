@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v063.json",
+  "recipe_sha256": "b80f1491b36eb0f02fe04cf0324d118325ecb75d29403da9a354382db46e8ecc",
+  "parent": "translations/interface-v062.json",
+  "manifest": "translations/capturas-v001.json",
+  "dialogue_recipe": "translations/regiao-inicial-v045.json",
+  "counts": {
+    "new_interface_units": 20,
+    "new_elf_literals": 7,
+    "new_item_names": 3,
+    "new_map_labels": 7,
+    "new_native_titles": 1,
+    "new_first_strike_variants": 2,
+    "revised_ui_patches": 6,
+    "revised_dialogue_bodies": 1,
+    "interface_units": 4362,
+    "item_name_fields": 633,
+    "unique_translated_item_labels": 610,
+    "map_dialogue_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "npc_default_names_inherited": 108,
+    "explicit_short_labels_still_pending": 13,
+    "historical_sixteen_name_revisions_still_blocked": 0
+  },
+  "iso": {
+    "path": "work/interface-v063/MetalSaga-ptbr-interface-v063.iso",
+    "size": 1704427520,
+    "sha256": "977181c148d6c49c4e166301d6d113da0b3f54e538ba5815e20f42855b08488d",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v063-delta.json",
+  "changed_bytes": 14375,
+  "changed_patches": 25,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "tests": {
+    "passed": 76,
+    "new": 16,
+    "regression": 60,
+    "patterns": [
+      "test_capture_release.py",
+      "test_screen_followup.py",
+      "test_observed_menu_translation.py",
+      "test_npc_menu_revision.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py",
+      "test_glyph_layout.py",
+      "test_glyph_single.py"
+    ]
+  },
+  "user_selected_item_336": "Renascimento",
+  "approved_item_190": "Colete quebrado",
+  "item_name_codec_byte_ceiling_for_these_five": 16,
+  "first_strike": {
+    "index": 1586,
+    "source_sha256": "1ee18ce5d9cfb4c2de9fe5b03f2b4bf398b203f5184f43920bd7f54bf0fe1d10",
+    "directory_sha256": "204360a4fc78ca5a7c6bae7f07e813e20e5a926150ff46374738a43a77a672cc",
+    "slot_size": 14336,
+    "packed_bytes": 13101,
+    "font_sha256": "d8bbdb72e3f930157824b2e59677d3a912d4512c14a948e6656a2e3fb0c935ad",
+    "labels": [
+      {
+        "translation": "Primeiro golpe",
+        "rect": [
+          32,
+          202,
+          120,
+          218
+        ],
+        "natural_width": 94,
+        "rendered_width": 86,
+        "height": 14,
+        "height_reduction": 0,
+        "horizontal_scale": 0.9148936170212766,
+        "mask_sha256": "8e1ddf8e698e669d2870c04c41089001fca18aa6ff3e090b79a981ad9ef983f4"
+      },
+      {
+        "translation": "Primeiro golpe",
+        "rect": [
+          131,
+          202,
+          219,
+          218
+        ],
+        "natural_width": 94,
+        "rendered_width": 86,
+        "height": 14,
+        "height_reduction": 0,
+        "horizontal_scale": 0.9148936170212766,
+        "mask_sha256": "8e1ddf8e698e669d2870c04c41089001fca18aa6ff3e090b79a981ad9ef983f4"
+      }
+    ],
+    "native_decoder_steps": 792775,
+    "palettes_headers_unchanged": true,
+    "decoded_sha256": "35e019c8e9b3c4f9dcb204bad7838e9791efbe0765bc1ef560cf06ccfed20ac3"
+  },
+  "native_equipment_header": {
+    "translation": "EQUIPAMENTOS",
+    "width": 159,
+    "height": 10,
+    "rect": [
+      4,
+      180,
+      176,
+      192
+    ],
+    "resized": false
+  },
+  "ui_pool": {
+    "canonical_id": 318,
+    "translation": "Combinar peças",
+    "used_bytes": 7953,
+    "other_strings_preserved": true
+  },
+  "reaction_pool": {
+    "logical_references": [
+      2616,
+      2620,
+      2624
+    ],
+    "used_bytes": 8476,
+    "text_limit": 8849,
+    "opaque_tail_preserved": true,
+    "other_strings_preserved": true
+  },
+  "dialogue_warning": [
+    "body: linha mais larga; validação visual necessária"
+  ],
+  "backup_v059_sha256_verified": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+  "backup_readonly_verified": true,
+  "retention_removed_only": "work/interface-v059/MetalSaga-ptbr-interface-v059.iso",
+  "work_isos": 5,
+  "preflight_verified": true,
+  "launcher_and_folder_dry_run_verified": true,
+  "auditors_executed": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

@@ -525,3 +525,25 @@ usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
 - Crimson Manzier, equipamento único 176: manter. Não é nome de procurado.
 - Toca da Cobra já definido para Snake's Den passa também aos dois nomes
   de mapa/aviso tratados nesta versão.
+
+## Revisão aprovada e capturas — v063
+
+- Item 190: **Colete quebrado** substitui Colete avariado por decisão posterior
+  do usuário. Não reescrever a receita histórica v062.
+- Item 336/Revitalizer: **Renascimento**, escolhido pelo usuário; substituir
+  também Revigorante na referência da lista de reações, mantendo Evil Toy Sword.
+- Unknown Ore / Medium Ore / Large Ore: **Minério ignoto / Minério médio /
+  Minério grande**. Ignoto significa desconhecido; são nomes completos dentro
+  dos 16 bytes comprovados, sem abreviar nem remover acentos.
+- Iwasaki Medical Laboratory: Laboratório Médico Iwasaki, somente nos rótulos
+  revisados a pedido do usuário. Preservar Iwasaki; esta decisão específica
+  supera a preservação anterior do descritor inglês nesses dois campos.
+- Mysterious Transport Pod: Estranha cápsula de transporte; Grand Master's
+  Tent: Tenda do Grand Master; Lake Bridge East Gate: Portão leste da Ponte do
+  Lago. Grand Master permanece como nome, sem tradução global de falas.
+- First Strike, rótulo de vantagem de iniciativa: Primeiro golpe. Não mudar a
+  ajuda Scout Mode, já traduzida, por coincidência da expressão.
+- Título do serviço de montagem: Combinar peças. Pergunta: Escolha a peça
+  1/2/3/4. Não limitar o serviço a mapas quando ele combina outros objetos.
+- A fala de Disassembler mantém o nome entrecortado e a ameaça de desmontar,
+  com Mwahahahaha! intacto; ver a adaptação contextual no manual v063.
