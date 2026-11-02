@@ -201,6 +201,13 @@ def apply_authorized_fallback(result,current_recipe):
     recipe_path=Path(current_recipe).resolve()
     if not recipe_path.is_relative_to(ROOT/'translations'):raise ValueError('Current recipe must be under translations/')
     recipe=json.loads(recipe_path.read_bytes());released=[]
+    if 'title_menu_release' in recipe:
+        from title_menu_revision import validate,PARENT
+        validate(recipe)
+        result=apply_authorized_fallback(result,ROOT/PARENT)
+        result['effective_recipe']=recipe_path.relative_to(ROOT).as_posix()
+        result['effective_recipe_sha256']=sha(recipe_path.read_bytes())
+        return result
     if 'capture_release' in recipe:
         from capture_release import validate_interface as validate_capture,PARENT_UI as CAPTURE_PARENT
         validate_capture(recipe)

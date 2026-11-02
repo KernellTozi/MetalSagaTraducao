@@ -1,4 +1,24 @@
-# Pendências atuais — v063, com auditoria histórica v054
+# Pendências atuais — v064, com auditoria histórica v054
+
+## Título e vendas aplicados na v064 — teste visual pendente
+
+SALES LIST→VENDAS; RETOMAR→CARREGAR com palavra completa criada no estilo
+aprovado. O crédito antigo foi removido do sprite do botão e a quarta linha
+“tradução: Kernell Tozi” foi acrescentada ao recurso ADATA do bloco oficial,
+com texto branco/contorno preto, sem herdar a cor do botão. As três linhas
+oficiais conservam os pixels; os UVs e limites do próprio bloco foram ajustados.
+Conferir a entrada, o fade, as opções e o crédito em partida: o leitor LDT/GPU
+não foi executado. Ver docs/interface-v064.md e as comparações locais.
+
+**Pedido em espera:** Minério ignoto→Minério pequeno foi solicitado, mas o
+usuário pediu não aplicar ainda. O item 665 e os demais itens permanecem v063.
+Não interpretar a retomada das correções de menus como liberação dessa troca.
+
+A base isolada work/falantes-lookup-v001/MetalSaga-ptbr-falantes-base-v059.iso
+foi removida pela retenção das cinco ISOs de trabalho ao construir a v064.
+Receita/relatórios da investigação permanecem; o backup independente v059 em
+dist/backup-v059/ continua íntegro e somente leitura. Recriar uma base a partir
+dele, em nova cópia controlada e com hash conferido, se a investigação precisar.
 
 ## Capturas aplicadas na v063 — validação visual pendente
 

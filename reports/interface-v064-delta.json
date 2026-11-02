@@ -1,0 +1,152 @@
+{
+  "old_recipe": "translations/interface-v063.json",
+  "new_recipe": "translations/interface-v064.json",
+  "source_iso_sha256": "977181c148d6c49c4e166301d6d113da0b3f54e538ba5815e20f42855b08488d",
+  "output_iso_sha256": "27ed954e7a018e9769c0d4e394f8c41da8beeb6f2e2eccad24c1c2a0a9e3db4e",
+  "iso_size": 1704427520,
+  "changed_bytes": 11059,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "title.fade-swatch-uv.0288",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750216,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0294",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750228,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.02a0",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750240,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.02ac",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750252,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0308",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750344,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0314",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750356,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0320",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750368,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.032c",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 750380,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0914",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 751892,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0964",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 751972,
+      "size": 8
+    },
+    {
+      "id": "title.credit-scene.0cde",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 752862,
+      "size": 2
+    },
+    {
+      "id": "title.credit-scene.0ce2",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 752866,
+      "size": 2
+    },
+    {
+      "id": "title.credit-scene.0d18",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 752920,
+      "size": 4
+    },
+    {
+      "id": "title.credit-scene.0d9e",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 753054,
+      "size": 2
+    },
+    {
+      "id": "title.credit-scene.0db4",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 753076,
+      "size": 4
+    },
+    {
+      "id": "title.credit-scene.0dd6",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 753110,
+      "size": 2
+    },
+    {
+      "id": "title.fade-swatch-uv.0f70",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 753520,
+      "size": 8
+    },
+    {
+      "id": "title.fade-swatch-uv.0fb0",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "iso_offset": 753584,
+      "size": 8
+    },
+    {
+      "id": "title.official-block-credit",
+      "resource": "DATA/ADATA/ATTLTEX.SDA",
+      "iso_offset": 1165651,
+      "size": 27371
+    },
+    {
+      "id": "title.relocated-fade-swatch",
+      "resource": "DATA/ADATA/ATTLTEX.SDA",
+      "iso_offset": 1266208,
+      "size": 3600
+    },
+    {
+      "id": "title.texture.0",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "iso_offset": 1241078832,
+      "size": 65536
+    },
+    {
+      "id": "title.frames",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "iso_offset": 1241144384,
+      "size": 96
+    },
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290613824,
+      "size": 65536
+    }
+  ],
+  "pcsx2_executed": false
+}

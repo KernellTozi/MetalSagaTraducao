@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v064.json",
+  "recipe_sha256": "6258106d13e689c0f57c5e81d66b19738d9e54de5de772ec3b087ab1b70fadde",
+  "parent": "translations/interface-v063.json",
+  "manifest": "translations/menu-titulo-v001.json",
+  "dialogue_recipe": "translations/regiao-inicial-v045.json",
+  "counts": {
+    "new_interface_units": 1,
+    "revised_load_button": 1,
+    "relocated_credit": 1,
+    "interface_units": 4363,
+    "item_name_fields": 633,
+    "unique_translated_item_labels": 610,
+    "map_dialogue_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "npc_default_names_inherited": 108,
+    "explicit_short_labels_still_pending": 13
+  },
+  "iso": {
+    "path": "work/interface-v064/MetalSaga-ptbr-interface-v064.iso",
+    "size": 1704427520,
+    "sha256": "27ed954e7a018e9769c0d4e394f8c41da8beeb6f2e2eccad24c1c2a0a9e3db4e",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v064-delta.json",
+  "changed_bytes": 11059,
+  "changed_patches": 23,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "tests": {
+    "passed": 49,
+    "new": 14,
+    "regression": 35,
+    "patterns": [
+      "test_title_menu_revision.py",
+      "test_interface_title_wordart.py",
+      "test_interface_title_authentic.py",
+      "test_observed_menu_translation.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py"
+    ]
+  },
+  "art": {
+    "text": "CARREGAR",
+    "master_sha256": "2f41ef0aa0dd24ace3bb3e2eed3ef231b45ea7b469c281e06b4363cf8bf9ccf7",
+    "master_size": [
+      2161,
+      728
+    ],
+    "path": "work/title-revision-v064/carregar-paleta-original.png",
+    "file_sha256": "f603492a143b28eb694b94f6b7a52f066094ccef25776d169da6552273e38ad2",
+    "indices_sha256": "9d14f82a25b0bace2c5e54beb5432ee21797617d47e7ced96ab1cfb9948ca6ed",
+    "cell": [
+      228,
+      24
+    ],
+    "scale_xy": 0.07729468599033816,
+    "rendered_size": [
+      158,
+      19
+    ],
+    "cap_height": 16,
+    "source": "built-in imagegen, complete word with approved master as style reference",
+    "prompt": "CARREGAR uppercase; match approved heavy white slab-serif lettering, black outline, restrained extrusion; transparent background, common baseline; new complete word, no collage."
+  },
+  "sales_header": {
+    "translation": "VENDAS",
+    "rect": [
+      120,
+      144,
+      256,
+      156
+    ],
+    "width": 81,
+    "height": 10,
+    "resized": false
+  },
+  "credit": {
+    "text": "tradução: Kernell Tozi",
+    "resource_sha256": "6d1a604833960eaf9e3b20374643c349c837e14a1b48e20843fad6bf94be89bc",
+    "scene_sha256": "91b9dd5ba84d47496d81bf2b5c9c20e758d395a770c01eeb8b6634e48ee4adf3",
+    "texture_offset": 263216,
+    "old_uv_pixels": [
+      275,
+      298,
+      510,
+      338
+    ],
+    "new_uv_pixels": [
+      275,
+      284,
+      510,
+      338
+    ],
+    "official_lines_shift_in_atlas": -14,
+    "screen_top_before_after": [
+      381,
+      381
+    ],
+    "screen_bottom_before_after": [
+      420,
+      434
+    ],
+    "font": "arialbd.ttf",
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "font_identified_as_original": false,
+    "fade_swatch_old_rect": [
+      320,
+      290,
+      336,
+      298
+    ],
+    "fade_swatch_new_rect": [
+      480,
+      480,
+      496,
+      488
+    ],
+    "fade_uv_references": [
+      648,
+      660,
+      672,
+      684,
+      776,
+      788,
+      800,
+      812,
+      2324,
+      2404,
+      3952,
+      4016
+    ],
+    "fade_swatch_pixels_preserved": true,
+    "body_size": 11,
+    "outline": 1,
+    "ink_width": 117,
+    "mask_sha256": "e360f324d052e5be6d35adf6b44ee1fc04bcae0c4cb66924fef2cc10c57b9cd6",
+    "inherits_button_tint": false,
+    "official_line_pixels_preserved": true,
+    "scene_parser_executed": false,
+    "visual_status": "pending_user"
+  },
+  "credit_geometry_note": "Screen values are isolated projections assuming vertical origin 224; complete scene parser/transforms/GPU have not been executed. Local top 157 preserved; local bottom 196 to 210.",
+  "ore_change_held_by_user": true,
+  "all_item_names_unchanged_from_v063": true,
+  "all_dialogue_bytes_unchanged_from_v063": true,
+  "elf_unchanged_from_v063": true,
+  "movies_unchanged": true,
+  "backup_v059_sha256_verified": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+  "backup_readonly_verified": true,
+  "retention_removed_only": "work/falantes-lookup-v001/MetalSaga-ptbr-falantes-base-v059.iso",
+  "work_isos": 5,
+  "preflight_verified": true,
+  "launcher_and_folder_dry_run_verified": true,
+  "capacity_auditor_executed": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "policy": "sales-load-and-attract-credit-v001",
+  "parent": "translations/interface-v063.json",
+  "parent_sha256": "b80f1491b36eb0f02fe04cf0324d118325ecb75d29403da9a354382db46e8ecc",
+  "word": {
+    "text": "CARREGAR",
+    "master_sha256": "2f41ef0aa0dd24ace3bb3e2eed3ef231b45ea7b469c281e06b4363cf8bf9ccf7",
+    "master_size": [
+      2161,
+      728
+    ],
+    "path": "work/title-revision-v064/carregar-paleta-original.png",
+    "file_sha256": "f603492a143b28eb694b94f6b7a52f066094ccef25776d169da6552273e38ad2",
+    "indices_sha256": "9d14f82a25b0bace2c5e54beb5432ee21797617d47e7ced96ab1cfb9948ca6ed",
+    "cell": [
+      228,
+      24
+    ],
+    "scale_xy": 0.07729468599033816,
+    "rendered_size": [
+      158,
+      19
+    ],
+    "cap_height": 16,
+    "source": "built-in imagegen, complete word with approved master as style reference",
+    "prompt": "CARREGAR uppercase; match approved heavy white slab-serif lettering, black outline, restrained extrusion; transparent background, common baseline; new complete word, no collage."
+  },
+  "revised": [
+    {
+      "id": "title.texture.0",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "offset": 1072,
+      "size": 65536,
+      "before_sha256": "8a6f23627198fd7ab87e33c3d1043b9980da56dbb783495d1773a703225b7be4",
+      "after_sha256": "6ec394a6bbb10005dbe39727ad9ab9c7b8187505de5e08044f7252e0dcbc74b0"
+    },
+    {
+      "id": "title.frames",
+      "resource": "DATA/RDATA/RTITLE.SDA",
+      "offset": 66624,
+      "size": 96,
+      "before_sha256": "596cf5d125e8735cc48871a75570452c48caa30f898c1dbe3d5448776dd244db",
+      "after_sha256": "517a1b1060c777b5e630a6fb8c45c6aaf5842a9d3256ea5f3a102fe26ba57dc6"
+    },
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 576576,
+      "size": 65536,
+      "before_sha256": "dcae0b3be1de9749d56794ede632162f5d12ad43930bb767c274c9737cb88b59",
+      "after_sha256": "d7fd46521780dc5a068187d96388c11ccafa7ca5a0bf5d011555e23f9c065589"
+    }
+  ],
+  "new": [
+    {
+      "id": "title.official-block-credit",
+      "resource": "DATA/ADATA/ATTLTEX.SDA",
+      "offset": 409939,
+      "size": 27371,
+      "before_sha256": "5b8e089a2f3923d35821438b8dc51b83ff165003c5a2ca9102d79e103bd2461c",
+      "after_sha256": "43b20f3e41f53d632d792febdde1ce3f7696f3ff716fdaa5040ad9766df47661"
+    },
+    {
+      "id": "title.relocated-fade-swatch",
+      "resource": "DATA/ADATA/ATTLTEX.SDA",
+      "offset": 510496,
+      "size": 3600,
+      "before_sha256": "b4e5a6b6f7659a280a054a5ad6fd584f87ef14e1973890992aa73f5701795eaf",
+      "after_sha256": "ac8af06ef34f1d2fe7d23aa1afabb6de74f27552657c1750b5851d4c668518a2"
+    },
+    {
+      "id": "title.fade-swatch-uv.0288",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 648,
+      "size": 8,
+      "before_sha256": "2ffa30bd5d95bbbcea298b45eecb9c9bfb45996b73eb6e3b87bbca8484dab1fb",
+      "after_sha256": "7a66609fd45e64b8f90417584400714c738edf10c2edd6ed274c97c57351e6e5"
+    },
+    {
+      "id": "title.fade-swatch-uv.0294",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 660,
+      "size": 8,
+      "before_sha256": "68e6781b2f348577c5a23d882b9172362d145017c93ee9c185937b0dde07b4a6",
+      "after_sha256": "b70120a040e8f988fc6cec1656ee4722c926a7829d318799c7c85a9e14b70ab1"
+    },
+    {
+      "id": "title.fade-swatch-uv.02a0",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 672,
+      "size": 8,
+      "before_sha256": "68e6781b2f348577c5a23d882b9172362d145017c93ee9c185937b0dde07b4a6",
+      "after_sha256": "b70120a040e8f988fc6cec1656ee4722c926a7829d318799c7c85a9e14b70ab1"
+    },
+    {
+      "id": "title.fade-swatch-uv.02ac",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 684,
+      "size": 8,
+      "before_sha256": "2ffa30bd5d95bbbcea298b45eecb9c9bfb45996b73eb6e3b87bbca8484dab1fb",
+      "after_sha256": "7a66609fd45e64b8f90417584400714c738edf10c2edd6ed274c97c57351e6e5"
+    },
+    {
+      "id": "title.fade-swatch-uv.0308",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 776,
+      "size": 8,
+      "before_sha256": "0153ab268c07f20fb1f98f46cfd1217e966877e8f5df7e855ed5d73617d0990d",
+      "after_sha256": "9056debd2e484ba6e476dc8d25a3ca9b2fbe4130af0f39c0111271b6a816512a"
+    },
+    {
+      "id": "title.fade-swatch-uv.0314",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 788,
+      "size": 8,
+      "before_sha256": "c7b55dbc2689ef464d97d728a514fc1585a2da794530903eff44943ae8f257ff",
+      "after_sha256": "57323498e3e8f2ba0892b42a7ed464e058750014d0e6419c88449d0f93a9bb9d"
+    },
+    {
+      "id": "title.fade-swatch-uv.0320",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 800,
+      "size": 8,
+      "before_sha256": "c7b55dbc2689ef464d97d728a514fc1585a2da794530903eff44943ae8f257ff",
+      "after_sha256": "57323498e3e8f2ba0892b42a7ed464e058750014d0e6419c88449d0f93a9bb9d"
+    },
+    {
+      "id": "title.fade-swatch-uv.032c",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 812,
+      "size": 8,
+      "before_sha256": "0153ab268c07f20fb1f98f46cfd1217e966877e8f5df7e855ed5d73617d0990d",
+      "after_sha256": "9056debd2e484ba6e476dc8d25a3ca9b2fbe4130af0f39c0111271b6a816512a"
+    },
+    {
+      "id": "title.fade-swatch-uv.0914",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 2324,
+      "size": 8,
+      "before_sha256": "2ffa30bd5d95bbbcea298b45eecb9c9bfb45996b73eb6e3b87bbca8484dab1fb",
+      "after_sha256": "7a66609fd45e64b8f90417584400714c738edf10c2edd6ed274c97c57351e6e5"
+    },
+    {
+      "id": "title.fade-swatch-uv.0964",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 2404,
+      "size": 8,
+      "before_sha256": "0153ab268c07f20fb1f98f46cfd1217e966877e8f5df7e855ed5d73617d0990d",
+      "after_sha256": "9056debd2e484ba6e476dc8d25a3ca9b2fbe4130af0f39c0111271b6a816512a"
+    },
+    {
+      "id": "title.fade-swatch-uv.0f70",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3952,
+      "size": 8,
+      "before_sha256": "2ffa30bd5d95bbbcea298b45eecb9c9bfb45996b73eb6e3b87bbca8484dab1fb",
+      "after_sha256": "7a66609fd45e64b8f90417584400714c738edf10c2edd6ed274c97c57351e6e5"
+    },
+    {
+      "id": "title.fade-swatch-uv.0fb0",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 4016,
+      "size": 8,
+      "before_sha256": "0153ab268c07f20fb1f98f46cfd1217e966877e8f5df7e855ed5d73617d0990d",
+      "after_sha256": "9056debd2e484ba6e476dc8d25a3ca9b2fbe4130af0f39c0111271b6a816512a"
+    },
+    {
+      "id": "title.credit-scene.0cde",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3294,
+      "size": 2,
+      "before_sha256": "5aeca385d8b781825b07bbec7c858b7170426c88088935850bc13dd6402368a5",
+      "after_sha256": "3a898eecdae167231275338e9a79153cbe53f7bf99943eeb72ee64e57bb58699"
+    },
+    {
+      "id": "title.credit-scene.0ce2",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3298,
+      "size": 2,
+      "before_sha256": "e4ab5012eff32a5171b3672b59d29950fe8b3dcb4d2dadf971ebbcbc2fbb0d41",
+      "after_sha256": "aa4fb8a61cab7db73f42671f2bb987a7291a436929b3d5f17ffe05f96be13371"
+    },
+    {
+      "id": "title.credit-scene.0d18",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3352,
+      "size": 4,
+      "before_sha256": "50f4e0028ec4d68df83f3147e3cf3fc16306cc5091d9a15f796a87c09ad26e65",
+      "after_sha256": "a1787f8302a8fa6fb04dfd54c47760aca2aa8e6e918f5201ed2677cd30376ecb"
+    },
+    {
+      "id": "title.credit-scene.0d9e",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3486,
+      "size": 2,
+      "before_sha256": "ba729e58f0185cea87e4e3f5966f37289b5cfec375348550b60c96011ef57f31",
+      "after_sha256": "a05db94b63b1cf0d58024b8062140e7923b6c5ec0483300d9a3e00cc83a2400f"
+    },
+    {
+      "id": "title.credit-scene.0dd6",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3542,
+      "size": 2,
+      "before_sha256": "5aeca385d8b781825b07bbec7c858b7170426c88088935850bc13dd6402368a5",
+      "after_sha256": "3a898eecdae167231275338e9a79153cbe53f7bf99943eeb72ee64e57bb58699"
+    },
+    {
+      "id": "title.credit-scene.0db4",
+      "resource": "DATA/ADATA/ATTLSCN.LDT",
+      "offset": 3508,
+      "size": 4,
+      "before_sha256": "6007f0b3f31717627adeb7d6938ef2a0bd366e3d1ece4863041605bcdf04c039",
+      "after_sha256": "a409f16d6d2c2c97b260790bb7326021c2fdfc79923990f78282e6fbdb581181"
+    }
+  ],
+  "evidence": {
+    "sales": {
+      "translation": "VENDAS",
+      "rect": [
+        120,
+        144,
+        256,
+        156
+      ],
+      "width": 81,
+      "height": 10,
+      "resized": false
+    },
+    "credit": {
+      "text": "tradução: Kernell Tozi",
+      "resource_sha256": "6d1a604833960eaf9e3b20374643c349c837e14a1b48e20843fad6bf94be89bc",
+      "scene_sha256": "91b9dd5ba84d47496d81bf2b5c9c20e758d395a770c01eeb8b6634e48ee4adf3",
+      "texture_offset": 263216,
+      "old_uv_pixels": [
+        275,
+        298,
+        510,
+        338
+      ],
+      "new_uv_pixels": [
+        275,
+        284,
+        510,
+        338
+      ],
+      "official_lines_shift_in_atlas": -14,
+      "screen_top_before_after": [
+        381,
+        381
+      ],
+      "screen_bottom_before_after": [
+        420,
+        434
+      ],
+      "font": "arialbd.ttf",
+      "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+      "font_identified_as_original": false,
+      "fade_swatch_old_rect": [
+        320,
+        290,
+        336,
+        298
+      ],
+      "fade_swatch_new_rect": [
+        480,
+        480,
+        496,
+        488
+      ],
+      "fade_uv_references": [
+        648,
+        660,
+        672,
+        684,
+        776,
+        788,
+        800,
+        812,
+        2324,
+        2404,
+        3952,
+        4016
+      ],
+      "fade_swatch_pixels_preserved": true,
+      "body_size": 11,
+      "outline": 1,
+      "ink_width": 117,
+      "mask_sha256": "e360f324d052e5be6d35adf6b44ee1fc04bcae0c4cb66924fef2cc10c57b9cd6",
+      "inherits_button_tint": false,
+      "official_line_pixels_preserved": true,
+      "scene_parser_executed": false,
+      "visual_status": "pending_user"
+    }
+  }
+}

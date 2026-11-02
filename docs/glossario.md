@@ -547,3 +547,11 @@ usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
   1/2/3/4. Não limitar o serviço a mapas quando ele combina outros objetos.
 - A fala de Disassembler mantém o nome entrecortado e a ameaça de desmontar,
   com Mwahahahaha! intacto; ver a adaptação contextual no manual v063.
+
+## Revisão do título — v064
+
+- SALES LIST, cabeçalho da loja: VENDAS.
+- RETOMAR, botão principal: CARREGAR, por preferência expressa do usuário.
+- Crédito: “tradução: Kernell Tozi”, em linha própria do bloco oficial.
+- Minério pequeno substituirá Minério ignoto quando o usuário liberar a
+  aplicação. A instrução atual é aguardar; o nome da v063 permanece na v064.

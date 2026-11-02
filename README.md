@@ -17,16 +17,17 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v063**, sobre MAP v045 e fontes/layout v005. Aplica **Renascimento**, escolhido pelo usuário, **Colete quebrado** e três minerais. Completa Busca sem inimigos, montagem de peças, aprendizado, Equipar/EQUIPAMENTOS, quatro nomes de locais e Primeiro golpe; revisa o trocadilho de Disassembler. São **20 unidades novas** e revisões pontuais, preservando a v062. Aparência e alcance das novas telas aguardam conferência em partida.
+**Interface v064**, sobre MAP v045 e fontes/layout v005. Traduz **VENDAS**, recria **CARREGAR** e separa o crédito do botão: **tradução: Kernell Tozi** passa ao recurso do bloco oficial. Preserva integralmente os itens, falas e demais traduções v063. A troca para Minério pequeno continua aguardando liberação. Aparência, animação e alcance das novas telas aguardam conferência em partida.
 
-São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.362 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Armas aprovadas e Mundo aberto permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
+São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.363 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Armas aprovadas e Mundo aberto permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v063/MetalSaga-ptbr-interface-v063.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. Conferir os elementos v063 e o alinhamento de Nível/Prêmio da v062. O perfil isolado histórico tem cartões de memória desativados. O backup protegido continua v059; sua antiga ISO de trabalho foi removida pela retenção, mantendo o backup independente e a base isolada de investigação.
+ISO: `work/interface-v064/MetalSaga-ptbr-interface-v064.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. Conferir título, crédito e fade, VENDAS e os elementos v063/v062 ainda pendentes. O perfil isolado histórico tem cartões de memória desativados. Backup v059 protegido; as antigas cópias de trabalho e de investigação v059 foram removidas pela retenção, preservando o backup independente e todos os relatórios/receitas.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
-**Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. Uma nova cópia v059 em `work/falantes-lookup-v001/` serve de base à investigação dos 13 falantes; ainda não recebeu alterações. [Estado do método e limites](docs/falantes-lookup-v001.md).
+**Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. A base isolada v059 da investigação foi removida pela retenção ao construir v064; pode ser recriada a partir do backup protegido quando necessário. [Estado do método e limites](docs/falantes-lookup-v001.md).
 
+- [Carregar, Vendas e crédito no bloco oficial](docs/interface-v064.md)
 - [Capturas, Renascimento, minerais e Primeiro golpe](docs/interface-v063.md)
 - [Reboque, habilidades, música e alinhamento dos resultados](docs/interface-v062.md)
 - [Menus e avisos observados durante a partida](docs/interface-v061.md)
