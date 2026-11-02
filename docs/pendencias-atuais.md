@@ -1,4 +1,17 @@
-# Pendências atuais — v064, com auditoria histórica v054
+# Pendências atuais — v065, com auditoria histórica v054
+
+## Crédito refeito na v065 — aguardando novo teste visual
+
+A captura codex-clipboard-9c9c2023-4e3f-458c-ad8d-64f81e21b255.png confirma
+a linha junto ao bloco oficial, mas o usuário reprovou a leitura de Kernell
+Tozi, especialmente os e. Não considerar a tipografia v064 aprovada.
+
+A v065 usa rasterização direta no tamanho final, corpo 12 e posições inteiras
+por letra. Abertura e espaço interno de e ficam protegidos por testes. Somente
+a faixa da assinatura é revista; as três linhas oficiais, a geometria do bloco,
+CARREGAR e VENDAS permanecem v064. Preview: work/credit-v065/comparacao.png;
+procedimento em docs/interface-v065.md. Conferir novamente em tamanho normal
+no PCSX2; a nova proposta ainda não tem aprovação visual do usuário.
 
 ## Título e vendas aplicados na v064 — teste visual pendente
 

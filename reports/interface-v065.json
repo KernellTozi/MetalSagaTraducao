@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v065.json",
+  "recipe_sha256": "a6519ee6cd0a2a0f1b6c81a114a15e4c613d9cce38fc0dce021d70a5af13b215",
+  "parent": "translations/interface-v064.json",
+  "manifest": "translations/credito-legivel-v001.json",
+  "dialogue_recipe": "translations/regiao-inicial-v045.json",
+  "counts": {
+    "new_translated_units": 0,
+    "revised_credit_lines": 1,
+    "interface_units": 4363,
+    "item_name_fields": 633,
+    "unique_translated_item_labels": 610,
+    "map_dialogue_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "npc_default_names_inherited": 108
+  },
+  "iso": {
+    "path": "work/interface-v065/MetalSaga-ptbr-interface-v065.iso",
+    "size": 1704427520,
+    "sha256": "b7cb81733648703bd6ff3898cb7dfae5b35c97a751f05ae4032c2ba034f96275",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v065-delta.json",
+  "changed_bytes": 697,
+  "changed_patches": 1,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "tests": {
+    "passed": 35,
+    "new": 9,
+    "regression": 26,
+    "patterns": [
+      "test_credit_readability.py",
+      "test_title_menu_revision.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py"
+    ]
+  },
+  "review": {
+    "text": "tradução: Kernell Tozi",
+    "font_file": "arialbd.ttf",
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "body_size": 12,
+    "rasterization": "native size, hinted glyphs, integer origins, no resizing",
+    "threshold": 128,
+    "width": 129,
+    "height": 15,
+    "outline_pixels": 1,
+    "mask_sha256": "a5a86d2511ccb34707c3b198f352bd18c8979daa9f10b88a3222d6b80adbbdee",
+    "placements": [
+      {
+        "character": "t",
+        "x": 2,
+        "advance": 4
+      },
+      {
+        "character": "r",
+        "x": 6,
+        "advance": 5
+      },
+      {
+        "character": "a",
+        "x": 11,
+        "advance": 7
+      },
+      {
+        "character": "d",
+        "x": 18,
+        "advance": 7
+      },
+      {
+        "character": "u",
+        "x": 25,
+        "advance": 7
+      },
+      {
+        "character": "ç",
+        "x": 32,
+        "advance": 7
+      },
+      {
+        "character": "ã",
+        "x": 39,
+        "advance": 7
+      },
+      {
+        "character": "o",
+        "x": 46,
+        "advance": 7
+      },
+      {
+        "character": ":",
+        "x": 53,
+        "advance": 4
+      },
+      {
+        "character": " ",
+        "x": 57,
+        "advance": 3
+      },
+      {
+        "character": "K",
+        "x": 60,
+        "advance": 9
+      },
+      {
+        "character": "e",
+        "x": 69,
+        "advance": 7
+      },
+      {
+        "character": "r",
+        "x": 76,
+        "advance": 5
+      },
+      {
+        "character": "n",
+        "x": 81,
+        "advance": 7
+      },
+      {
+        "character": "e",
+        "x": 88,
+        "advance": 7
+      },
+      {
+        "character": "l",
+        "x": 95,
+        "advance": 3
+      },
+      {
+        "character": "l",
+        "x": 98,
+        "advance": 3
+      },
+      {
+        "character": " ",
+        "x": 101,
+        "advance": 3
+      },
+      {
+        "character": "T",
+        "x": 104,
+        "advance": 7
+      },
+      {
+        "character": "o",
+        "x": 111,
+        "advance": 7
+      },
+      {
+        "character": "z",
+        "x": 118,
+        "advance": 6
+      },
+      {
+        "character": "i",
+        "x": 124,
+        "advance": 3
+      }
+    ],
+    "e_bitmap": [
+      "..###.",
+      ".##.##",
+      ".#...#",
+      "######",
+      "##....",
+      ".##.##",
+      "..###."
+    ],
+    "font_identified_as_original": false,
+    "visual_status": "pending_user",
+    "texture_rect": [
+      328,
+      323,
+      457,
+      338
+    ],
+    "edit_rect": [
+      275,
+      323,
+      510,
+      338
+    ],
+    "official_line_ink_preserved": true,
+    "scene_geometry_unchanged": true
+  },
+  "v064_user_feedback": {
+    "credit_legibility_rejected": true,
+    "credit_appears_below_official_block": true,
+    "other_graphics_approved": false,
+    "screenshot": "codex-clipboard-9c9c2023-4e3f-458c-ad8d-64f81e21b255.png"
+  },
+  "official_line_ink_unchanged": true,
+  "scene_geometry_and_fade_uv_unchanged": true,
+  "all_other_patches_unchanged": true,
+  "ore_change_held_by_user": true,
+  "backup_v059_sha256_verified": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+  "backup_readonly_verified": true,
+  "work_isos": 5,
+  "retention_removed": [
+    "work/interface-v060/MetalSaga-ptbr-interface-v060.iso"
+  ],
+  "preflight_verified": true,
+  "launcher_and_folder_dry_run_verified": true,
+  "capacity_auditor_executed": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

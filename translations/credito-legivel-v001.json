@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "policy": "credit-native-hinted-integer-raster-v001",
+  "parent": "translations/interface-v064.json",
+  "parent_sha256": "6258106d13e689c0f57c5e81d66b19738d9e54de5de772ec3b087ab1b70fadde",
+  "patch": {
+    "id": "title.official-block-credit",
+    "resource": "DATA/ADATA/ATTLTEX.SDA",
+    "offset": 409939,
+    "size": 27371,
+    "source_sha256": "5b8e089a2f3923d35821438b8dc51b83ff165003c5a2ca9102d79e103bd2461c",
+    "parent_sha256": "43b20f3e41f53d632d792febdde1ce3f7696f3ff716fdaa5040ad9766df47661"
+  },
+  "after_sha256": "0e7968dd4997e023554c0590353d104bf0503cf7aac246acd292be99a9af40e1",
+  "review": {
+    "text": "tradução: Kernell Tozi",
+    "font_file": "arialbd.ttf",
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "body_size": 12,
+    "rasterization": "native size, hinted glyphs, integer origins, no resizing",
+    "threshold": 128,
+    "width": 129,
+    "height": 15,
+    "outline_pixels": 1,
+    "mask_sha256": "a5a86d2511ccb34707c3b198f352bd18c8979daa9f10b88a3222d6b80adbbdee",
+    "placements": [
+      {
+        "character": "t",
+        "x": 2,
+        "advance": 4
+      },
+      {
+        "character": "r",
+        "x": 6,
+        "advance": 5
+      },
+      {
+        "character": "a",
+        "x": 11,
+        "advance": 7
+      },
+      {
+        "character": "d",
+        "x": 18,
+        "advance": 7
+      },
+      {
+        "character": "u",
+        "x": 25,
+        "advance": 7
+      },
+      {
+        "character": "ç",
+        "x": 32,
+        "advance": 7
+      },
+      {
+        "character": "ã",
+        "x": 39,
+        "advance": 7
+      },
+      {
+        "character": "o",
+        "x": 46,
+        "advance": 7
+      },
+      {
+        "character": ":",
+        "x": 53,
+        "advance": 4
+      },
+      {
+        "character": " ",
+        "x": 57,
+        "advance": 3
+      },
+      {
+        "character": "K",
+        "x": 60,
+        "advance": 9
+      },
+      {
+        "character": "e",
+        "x": 69,
+        "advance": 7
+      },
+      {
+        "character": "r",
+        "x": 76,
+        "advance": 5
+      },
+      {
+        "character": "n",
+        "x": 81,
+        "advance": 7
+      },
+      {
+        "character": "e",
+        "x": 88,
+        "advance": 7
+      },
+      {
+        "character": "l",
+        "x": 95,
+        "advance": 3
+      },
+      {
+        "character": "l",
+        "x": 98,
+        "advance": 3
+      },
+      {
+        "character": " ",
+        "x": 101,
+        "advance": 3
+      },
+      {
+        "character": "T",
+        "x": 104,
+        "advance": 7
+      },
+      {
+        "character": "o",
+        "x": 111,
+        "advance": 7
+      },
+      {
+        "character": "z",
+        "x": 118,
+        "advance": 6
+      },
+      {
+        "character": "i",
+        "x": 124,
+        "advance": 3
+      }
+    ],
+    "e_bitmap": [
+      "..###.",
+      ".##.##",
+      ".#...#",
+      "######",
+      "##....",
+      ".##.##",
+      "..###."
+    ],
+    "font_identified_as_original": false,
+    "visual_status": "pending_user",
+    "texture_rect": [
+      328,
+      323,
+      457,
+      338
+    ],
+    "edit_rect": [
+      275,
+      323,
+      510,
+      338
+    ],
+    "official_line_ink_preserved": true,
+    "scene_geometry_unchanged": true
+  },
+  "user_rejected_v064_credit": true,
+  "evidence": "codex-clipboard-9c9c2023-4e3f-458c-ad8d-64f81e21b255.png"
+}

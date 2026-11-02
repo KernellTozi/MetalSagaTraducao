@@ -64,6 +64,11 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     bytes beyond their own patch prefix; compare the union of the two prefixes.
     This does not resize the compiled patch or release other item fields.
     """
+    if 'credit_readability_release' in new_ui:
+        from credit_readability import validate,PARENT
+        if old_ui!=validate(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
+            raise ValueError('Readability comparator parent differs')
+        return
     if 'title_menu_release' in new_ui:
         from title_menu_revision import validate,PARENT
         if old_ui!=validate(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:

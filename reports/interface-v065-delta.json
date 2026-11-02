@@ -1,0 +1,20 @@
+{
+  "old_recipe": "translations/interface-v064.json",
+  "new_recipe": "translations/interface-v065.json",
+  "source_iso_sha256": "27ed954e7a018e9769c0d4e394f8c41da8beeb6f2e2eccad24c1c2a0a9e3db4e",
+  "output_iso_sha256": "b7cb81733648703bd6ff3898cb7dfae5b35c97a751f05ae4032c2ba034f96275",
+  "iso_size": 1704427520,
+  "changed_bytes": 697,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "title.official-block-credit",
+      "resource": "DATA/ADATA/ATTLTEX.SDA",
+      "iso_offset": 1165651,
+      "size": 27371
+    }
+  ],
+  "pcsx2_executed": false
+}

@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'credit_readability_release' in draft:
+        from credit_readability import compile_interface
+        return compile_interface(data,draft)
     if 'title_menu_release' in draft:
         from title_menu_revision import compile_interface
         return compile_interface(data,draft)
