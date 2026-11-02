@@ -1,5 +1,34 @@
 # Pendências atuais — v066, com auditoria histórica v054
 
+## Novos relatos após v066 — somente registrar; desenvolvimento pausado
+
+O usuário pediu aguardar outro dia por falta de tokens. Não investigar,
+traduzir, alterar receitas ou gerar ISO até nova ordem. Versão e atalhos
+continuam v066. Os pontos abaixo são relatos visuais, sem localização
+binária, capacidade ou redação substituta ainda comprovadas.
+
+- **Minigame de dança:** TIME na barra e legenda Dance / Exit / Help ainda
+  em inglês. Traduzir futuramente preservando os ícones e suas associações
+  aos comandos. Evidência: codex-clipboard-29c39654-72c9-4562-87d5-7eda08be87ae.png.
+  Esse rótulo funcional de tempo é uma solicitação específica; não confundir
+  com a dispensa anterior de recriar títulos decorativos de minigames.
+- **MC Hamir — revisão contextual e de tom:** o usuário considera as falas
+  sem sentido/formais e pede adaptação para português brasileiro natural,
+  menos formal. Capturas: “O que eu fazer? Isto não é bom... Para onde foi!?”
+  e “P-Por que falar comigo tão de súbito!? Faz mal ao coração!”. Rever o
+  original e as falas vizinhas antes de escolher a redação, preservando nome,
+  personalidade, hesitação e contexto, sem inventar intenção ou caricatura.
+  Evidências: codex-clipboard-5d080ba2-f97a-4ef6-aa8f-f8b577156a7a.png e
+  codex-clipboard-8f81ac09-b2a1-4249-a667-e727ab61adb0.png.
+- **Pintura — confirmação ao carregar amostra:** ainda aparece
+  “Load the selected sample paint? (Previous paint will be lost)”. Registrar
+  a pergunta e o aviso como uma pendência conjunta; preservar futuramente
+  as opções Sim/Não, seus controles e o sentido de substituir a pintura
+  anterior. Evidência: codex-clipboard-63816b6e-ba25-484e-8bf1-63ae96e9db6b.png.
+
+Nenhuma correção aplicada nesta recepção. Minério pequeno também continua
+em espera; não interpretar o registro destes relatos como liberação.
+
 ## Tanque, locais e bebida aplicados na v066 — visual pendente
 
 PARTS LIST→PEÇAS; VEHICLE NAME→NOME; SELECTED ITEMS→SELECIONADOS. Prédio
