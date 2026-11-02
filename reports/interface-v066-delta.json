@@ -1,0 +1,92 @@
+{
+  "old_recipe": "translations/interface-v065.json",
+  "new_recipe": "translations/interface-v066.json",
+  "source_iso_sha256": "b7cb81733648703bd6ff3898cb7dfae5b35c97a751f05ae4032c2ba034f96275",
+  "output_iso_sha256": "51e27dda9854cb369ea49753a67a7bb4d7c1fe5d54f86581821ef6acc32b43e3",
+  "iso_size": 1704427520,
+  "changed_bytes": 27324,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "tank-gaps.map.108.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 212166620,
+      "size": 19
+    },
+    {
+      "id": "tank-gaps.map.183.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447070604,
+      "size": 18
+    },
+    {
+      "id": "tank-gaps.map.183.001020",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447152128,
+      "size": 18
+    },
+    {
+      "id": "map.supr.1857c10c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 462180620,
+      "size": 68
+    },
+    {
+      "id": "tank-gaps.map.218.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 507420636,
+      "size": 21
+    },
+    {
+      "id": "tank-gaps.map.218.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 507422720,
+      "size": 21
+    },
+    {
+      "id": "tank-gaps.map.218.0005b0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 507463680,
+      "size": 21
+    },
+    {
+      "id": "tank-gaps.map.218.0009a0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 507500544,
+      "size": 21
+    },
+    {
+      "id": "map.supr.1b0bc77c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 507533180,
+      "size": 72
+    },
+    {
+      "id": "tank-gaps.drinking-rules",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1217729552,
+      "size": 262144
+    },
+    {
+      "id": "tank-gaps.drinking-hud",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1221635088,
+      "size": 262144
+    },
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "iso_offset": 1290613824,
+      "size": 65536
+    },
+    {
+      "id": "tank-gaps.drink-input",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704210352,
+      "size": 32
+    }
+  ],
+  "pcsx2_executed": false
+}

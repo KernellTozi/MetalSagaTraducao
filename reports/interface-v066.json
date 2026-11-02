@@ -1,0 +1,445 @@
+{
+  "schema": 1,
+  "recipe": "translations/interface-v066.json",
+  "recipe_sha256": "c56dc122051be8c4cd5140f270bec4214014a55575e55b284cbf8a1afdd75b79",
+  "parent": "translations/interface-v065.json",
+  "manifest": "translations/lacunas-tanque-bebida-v001.json",
+  "dialogue_recipe": "translations/regiao-inicial-v046.json",
+  "counts": {
+    "new_interface_units": 16,
+    "native_headers": 3,
+    "map_label_occurrences": 7,
+    "elf_input_legend": 1,
+    "hud_labels": 4,
+    "instruction_panels": 1,
+    "revised_existing_location_titles": 2,
+    "interface_units": 4379,
+    "item_name_fields": 633,
+    "unique_translated_item_labels": 610,
+    "map_dialogue_changed": 6044,
+    "map_body_options_changed": 5991,
+    "explicit_speaker_references_changed": 991,
+    "npc_default_names_inherited": 108
+  },
+  "iso": {
+    "path": "work/interface-v066/MetalSaga-ptbr-interface-v066.iso",
+    "size": 1704427520,
+    "sha256": "51e27dda9854cb369ea49753a67a7bb4d7c1fe5d54f86581821ef6acc32b43e3",
+    "verified": true
+  },
+  "delta_report": "reports/interface-v066-delta.json",
+  "changed_bytes": 27324,
+  "changed_patches": 13,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "tests": {
+    "passed": 38,
+    "new": 12,
+    "regression": 26,
+    "patterns": [
+      "test_tank_drinking_gaps.py",
+      "test_title_menu_revision.py",
+      "test_verify_test_iso.py",
+      "test_iso_retention.py"
+    ]
+  },
+  "evidence": {
+    "headers": [
+      {
+        "translation": "PEÇAS",
+        "rect": [
+          118,
+          120,
+          256,
+          132
+        ],
+        "width": 67,
+        "cap_height": 10,
+        "cedilla_descender": 2
+      },
+      {
+        "translation": "NOME",
+        "rect": [
+          4,
+          192,
+          158,
+          204
+        ],
+        "width": 55,
+        "cap_height": 10,
+        "cedilla_descender": 0
+      },
+      {
+        "translation": "SELECIONADOS",
+        "rect": [
+          4,
+          228,
+          196,
+          240
+        ],
+        "width": 157,
+        "cap_height": 10,
+        "cedilla_descender": 0
+      }
+    ],
+    "map_labels": [
+      {
+        "id": "tank-gaps.map.108.000010",
+        "map": 108,
+        "node_offset": 158386192,
+        "type": 6,
+        "record_size": 204,
+        "node_sha256": "4194c6cf465c8132f7d95237ac14d24693779208d4b24fcc03fd11c2adc6b3f3",
+        "record_sha256": "e67e8a586c57068a8f874b85134ae9bea5a79c7eb310b8069650d88ab5526030",
+        "translation": "Prédio abandonado"
+      },
+      {
+        "id": "tank-gaps.map.183.000030",
+        "map": 183,
+        "node_offset": 393283632,
+        "type": 7,
+        "record_size": 216,
+        "node_sha256": "c556f7b78a2a3faa012ab43b5000523a7dafcb63454cb9950bde3fdfc612e83e",
+        "record_sha256": "13a82c6d313911c47ecb0427cfbe576fe2aee42e81ad2e69def0f0450da12455",
+        "translation": "Ruínas submersas"
+      },
+      {
+        "id": "tank-gaps.map.183.001020",
+        "map": 183,
+        "node_offset": 393287712,
+        "type": 2,
+        "record_size": 90276,
+        "node_sha256": "6112c1a17565acc123c3fb0f36b22716e883d7dabf5fac965f305be43094f755",
+        "record_sha256": "79b2e711d7fdf33d98e5b7be7b7a1a6dfce2b0e3e3e26efa827896f44b2067c3",
+        "translation": "Ruínas submersas"
+      },
+      {
+        "id": "tank-gaps.map.218.000010",
+        "map": 218,
+        "node_offset": 453638160,
+        "type": 7,
+        "record_size": 216,
+        "node_sha256": "e863c5cfe380ddd1bdbfe0d1c34d07bc75ce5354518dcb706e494ba385025614",
+        "record_sha256": "4a96975c4df79bba0949cdce968e28204a31898a856d93a267c07b977c0147af",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "tank-gaps.map.218.000030",
+        "map": 218,
+        "node_offset": 453638192,
+        "type": 2,
+        "record_size": 39744,
+        "node_sha256": "e47af5beaa641ce053e99513dbe21c2c7993102a4dd8cef08c2bb73070aa036b",
+        "record_sha256": "058b80eab91db5325226400ba48eefd05e2e5b56cae0fcb9723473c7f3138604",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "tank-gaps.map.218.0005b0",
+        "map": 218,
+        "node_offset": 453639600,
+        "type": 2,
+        "record_size": 34844,
+        "node_sha256": "411ed126c2ebc45c8c6dc80cadf37e6de69351f3eca2b1270846c0bde33af187",
+        "record_sha256": "62bcd7b186532a433d63b849f0844d124afc8926916afa564bf4ab384c549974",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "tank-gaps.map.218.0009a0",
+        "map": 218,
+        "node_offset": 453640608,
+        "type": 2,
+        "record_size": 23172,
+        "node_sha256": "0487a837432e3b948c033657c12c3c485757a65155916a7b05f4d551060879fe",
+        "record_sha256": "e8f4c97338b7cd17772edc0657a776eb7ffd9619ef8dc00e4d923baa18cedd6b",
+        "translation": "Prédios abandonados"
+      }
+    ],
+    "titles": [
+      {
+        "id": "map.supr.1b0bc77c",
+        "offset": 453756796,
+        "size": 72,
+        "capacity": 23,
+        "source_sha256": "a571bf0e65464d67b3487bc263017e227f9440db59180e811589e2ff86f48a13",
+        "parent_sha256": "19129f2dad644d65ede9b680408a461e8a5ab1a0dc95a1d3d5014bb77835910c",
+        "after_sha256": "cb4cd5f48c3a8c6f47a31cd142b52cd9488c889041153e2d00304832dab2804e",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "map.supr.1857c10c",
+        "offset": 408404236,
+        "size": 68,
+        "capacity": 19,
+        "source_sha256": "a3b26d1e8eba3c734ff8c5903874a2ef894916050889665c8b4e4677a29ff080",
+        "parent_sha256": "8c74af4696296be0183cd4dd2cab04baaffb7667af1751f852fc2101bc8fbfe5",
+        "after_sha256": "ab34ea36158658660918966f0155d2fde260e6fe8cb5b09c843841da129906e8",
+        "translation": "Ruínas submersas"
+      }
+    ],
+    "hud": [
+      {
+        "text": "Tempo",
+        "rect": [
+          37,
+          37,
+          85,
+          57
+        ],
+        "clear_rect": [
+          33,
+          33,
+          92,
+          63
+        ],
+        "font_size": 20,
+        "background_index": 20,
+        "foreground_index": 238,
+        "mask_sha256": "1309b6cd35625c79a0929fd5e34ce3dbb0e64a87114932ce53e0cd70ed222112",
+        "horizontal_scale": 0.8727272727272727
+      },
+      {
+        "text": "Bebidas",
+        "rect": [
+          24,
+          301,
+          106,
+          324
+        ],
+        "clear_rect": [
+          24,
+          301,
+          106,
+          324
+        ],
+        "font_size": 20,
+        "background_index": 227,
+        "foreground_index": 33,
+        "mask_sha256": "b8b7592d612f438b31db63f38932e80af2628736085f792da66cd91e40775ae4",
+        "horizontal_scale": 1
+      },
+      {
+        "text": "BEBER",
+        "rect": [
+          218,
+          88,
+          289,
+          105
+        ],
+        "clear_rect": [
+          205,
+          88,
+          307,
+          107
+        ],
+        "font_size": 19,
+        "background_index": 241,
+        "foreground_index": 51,
+        "mask_sha256": "8a60f99a6234764236218ef223a02c0f89ab4e42c12531acbc00ea504c1a3c5c",
+        "horizontal_scale": 1
+      },
+      {
+        "text": "PERIGO",
+        "rect": [
+          208,
+          72,
+          301,
+          87
+        ],
+        "clear_rect": [
+          205,
+          70,
+          307,
+          88
+        ],
+        "font_size": 19,
+        "background_index": 241,
+        "foreground_index": 57,
+        "mask_sha256": "327db7ba22a1e287f12f6ae03d63a295186a3d36ad73a7fd42213144d59c6ecd",
+        "horizontal_scale": 1
+      }
+    ],
+    "rules": {
+      "rows": [
+        {
+          "text": "Regras",
+          "rect": [
+            218,
+            16,
+            294,
+            40
+          ],
+          "height": 24,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Beba todas as bebidas antes que o tempo acabe para",
+          "rect": [
+            48,
+            60,
+            473,
+            78
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "vencer.",
+          "rect": [
+            48,
+            80,
+            112,
+            98
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Cada bebida faz a barra subir em um ritmo",
+          "rect": [
+            115,
+            116,
+            445,
+            134
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "diferente.",
+          "rect": [
+            115,
+            136,
+            200,
+            154
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Se a barra na parte inferior da tela encher",
+          "rect": [
+            48,
+            178,
+            393,
+            196
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "completamente, você vai engasgar.",
+          "rect": [
+            48,
+            198,
+            333,
+            216
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Controles",
+          "rect": [
+            204,
+            250,
+            308,
+            274
+          ],
+          "height": 24,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Aperte várias vezes para beber.",
+          "rect": [
+            100,
+            299,
+            362,
+            317
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        }
+      ],
+      "icons": [
+        {
+          "source_rect": [
+            171,
+            98,
+            220,
+            127
+          ],
+          "target_rect": [
+            48,
+            115,
+            97,
+            144
+          ],
+          "sha256": "128045a07f1c86ec19d27bb551664f5a2027b31975af7af6fdd6c8ce07ee5809"
+        },
+        {
+          "source_rect": [
+            95,
+            291,
+            120,
+            316
+          ],
+          "target_rect": [
+            64,
+            295,
+            89,
+            320
+          ],
+          "sha256": "58669b900ff72c01e5641db3ef07537cdfc076c010c6d29ef99516f2cc3706dd"
+        },
+        {
+          "source_rect": [
+            230,
+            370,
+            288,
+            392
+          ],
+          "target_rect": [
+            230,
+            370,
+            288,
+            392
+          ],
+          "sha256": "ace582dce211358c9f995688b4a9f01815afe2494e807586635c0fadbfff346a"
+        }
+      ],
+      "background_index": 1,
+      "foreground_index": 217
+    },
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "ndata_source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5"
+  },
+  "location_title_warnings": [
+    {
+      "id": "map.supr.1857c10c",
+      "warnings": [
+        "body: linha mais larga; validação visual necessária"
+      ]
+    },
+    {
+      "id": "map.supr.1b0bc77c",
+      "warnings": []
+    }
+  ],
+  "existing_item_names_and_love_machine_preserved": true,
+  "decorative_minigame_titles_preserved_by_user_rule": true,
+  "v065_credit_unchanged": true,
+  "ore_change_held_by_user": true,
+  "backup_v059_sha256_verified": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+  "backup_readonly_verified": true,
+  "work_isos": 5,
+  "retention_removed": [
+    "work/interface-v061-final/MetalSaga-ptbr-interface-v061.iso"
+  ],
+  "preflight_verified": true,
+  "launcher_and_folder_dry_run_verified": true,
+  "capacity_auditor_executed": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "onedrive_copied": false,
+  "shutdown_requested": false
+}

@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'tank_drinking_release' in draft:
+        from tank_drinking_gaps import compile_interface
+        return compile_interface(data,draft)
     if 'credit_readability_release' in draft:
         from credit_readability import compile_interface
         return compile_interface(data,draft)

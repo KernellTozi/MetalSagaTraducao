@@ -555,3 +555,15 @@ usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
 - Crédito: “tradução: Kernell Tozi”, em linha própria do bloco oficial.
 - Minério pequeno substituirá Minério ignoto quando o usuário liberar a
   aplicação. A instrução atual é aguardar; o nome da v063 permanece na v064.
+
+## Cabeçalhos, locais e bebida — v066
+
+- PARTS LIST→PEÇAS; VEHICLE NAME→NOME no contexto do veículo exibido;
+  SELECTED ITEMS→SELECIONADOS, junto da lista ITENS. Rótulos completos,
+  sem abreviar palavras nem renomear equipamentos ou LOVE Machine.
+- Abandoned Building→Prédio abandonado; plural→Prédios abandonados.
+  O título anterior Prédios Vazios passa a seguir a mesma redação.
+- Sunken Ruins→Ruínas submersas, com mesma capitalização nos avisos/título.
+- Drink→Beber, Drinks→Bebidas, Left:→Tempo e DANGER→PERIGO no minigame.
+  A interface usa infinitivo; as instruções usam imperativo. START/TIME UP
+  e outros títulos decorativos permanecem pela regra de gráficos do usuário.

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v045.json",
+  "name": "regiao-inicial-v046",
+  "status": "Peças, Nome, Selecionados, locais e interface/instruções de bebida; visual pendente.",
+  "translations": {
+    "map.supr.1b0bc77c": "Prédios abandonados",
+    "map.supr.1857c10c": "Ruínas submersas"
+  },
+  "reviewed_changes": [
+    "map.supr.1b0bc77c",
+    "map.supr.1857c10c"
+  ],
+  "minigame_context_review": {
+    "recipe": "translations/lacunas-tanque-bebida-v001.json",
+    "sha256": "9c120948604b4b983f16a4f369756c6a12b2a7839ad7736ecf1f8e74ce682a09"
+  }
+}

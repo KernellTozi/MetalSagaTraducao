@@ -1,0 +1,470 @@
+{
+  "schema": 1,
+  "policy": "tank-headers-locations-and-drinking-ui-v001",
+  "parent": "translations/interface-v065.json",
+  "parent_sha256": "a6519ee6cd0a2a0f1b6c81a114a15e4c613d9cce38fc0dce021d70a5af13b215",
+  "parent_map": "translations/regiao-inicial-v045.json",
+  "parent_map_sha256": "183c4e22547ee87a4d2f76443ec32cd5f352679e26dcde3ac932a47a1fdf11a4",
+  "revised": [
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 576576,
+      "size": 65536,
+      "source_sha256": "dcae0b3be1de9749d56794ede632162f5d12ad43930bb767c274c9737cb88b59",
+      "after_sha256": "aae6b393aa5c37403b147f9a7cb8b73531475bc0cffd81d5f4e264da358ed84a"
+    }
+  ],
+  "new": [
+    {
+      "id": "tank-gaps.map.108.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 158390236,
+      "size": 19,
+      "source_sha256": "1d29e8482e6070830385024071bf3c0f2285deae761376ee847622d892841077",
+      "after_sha256": "1ea2004aa973420fd305f4f0fa5f75fa40edc47ab20ed3d8417c3d8fe46a6993"
+    },
+    {
+      "id": "tank-gaps.map.183.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 393294220,
+      "size": 18,
+      "source_sha256": "0b3da37ea1885a6d40667bbcab2d11ebe5c04c47972a34eccfd58fb8ac60e718",
+      "after_sha256": "94b22b9f7a1718e39cabca9b7cf18a75c7001c383341e2a57c65d8e13f939dc2"
+    },
+    {
+      "id": "tank-gaps.map.183.001020",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 393375744,
+      "size": 18,
+      "source_sha256": "0b3da37ea1885a6d40667bbcab2d11ebe5c04c47972a34eccfd58fb8ac60e718",
+      "after_sha256": "94b22b9f7a1718e39cabca9b7cf18a75c7001c383341e2a57c65d8e13f939dc2"
+    },
+    {
+      "id": "tank-gaps.map.218.000010",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 453644252,
+      "size": 21,
+      "source_sha256": "b0d8bfe23e6a98ac173e005e622b0a287d598a4d079706906a3397a5b56c21ac",
+      "after_sha256": "e98a1d4c850b63428656663dad37f11f103118dd5f7c63a27c098c0e352e1e53"
+    },
+    {
+      "id": "tank-gaps.map.218.000030",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 453646336,
+      "size": 21,
+      "source_sha256": "b0d8bfe23e6a98ac173e005e622b0a287d598a4d079706906a3397a5b56c21ac",
+      "after_sha256": "e98a1d4c850b63428656663dad37f11f103118dd5f7c63a27c098c0e352e1e53"
+    },
+    {
+      "id": "tank-gaps.map.218.0005b0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 453687296,
+      "size": 21,
+      "source_sha256": "b0d8bfe23e6a98ac173e005e622b0a287d598a4d079706906a3397a5b56c21ac",
+      "after_sha256": "e98a1d4c850b63428656663dad37f11f103118dd5f7c63a27c098c0e352e1e53"
+    },
+    {
+      "id": "tank-gaps.map.218.0009a0",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 453724160,
+      "size": 21,
+      "source_sha256": "b0d8bfe23e6a98ac173e005e622b0a287d598a4d079706906a3397a5b56c21ac",
+      "after_sha256": "e98a1d4c850b63428656663dad37f11f103118dd5f7c63a27c098c0e352e1e53"
+    },
+    {
+      "id": "tank-gaps.drink-input",
+      "resource": "SLUS_212.93",
+      "offset": 3274672,
+      "size": 32,
+      "source_sha256": "315582378fe8639df1123f74503f8fd8491895af8391b51d1a381b5371b7c582",
+      "after_sha256": "48981bf7d1711341c506cff6ae06d0ce21f7d0fd994e8960a3ac81fce7db86e9"
+    },
+    {
+      "id": "tank-gaps.drinking-hud",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 11971600,
+      "size": 262144,
+      "source_sha256": "f41735a654893167aac49396c90ffa4a3418acb6e7049f056f52c70a81ba6927",
+      "after_sha256": "f2f219862fcdb0e3ab24fbb020ad70542aeb4499fb64247c3a368e2b0a81b2bc"
+    },
+    {
+      "id": "tank-gaps.drinking-rules",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 8066064,
+      "size": 262144,
+      "source_sha256": "0886e3c49086d04ff970f5f5e03706042451ca8049f5b750c60370e948d71e5f",
+      "after_sha256": "45f01508b458d9e9cc4ec94e61b7efde78b5ce7321986a81bdb86578ff3edd81"
+    }
+  ],
+  "evidence": {
+    "headers": [
+      {
+        "translation": "PEÇAS",
+        "rect": [
+          118,
+          120,
+          256,
+          132
+        ],
+        "width": 67,
+        "cap_height": 10,
+        "cedilla_descender": 2
+      },
+      {
+        "translation": "NOME",
+        "rect": [
+          4,
+          192,
+          158,
+          204
+        ],
+        "width": 55,
+        "cap_height": 10,
+        "cedilla_descender": 0
+      },
+      {
+        "translation": "SELECIONADOS",
+        "rect": [
+          4,
+          228,
+          196,
+          240
+        ],
+        "width": 157,
+        "cap_height": 10,
+        "cedilla_descender": 0
+      }
+    ],
+    "map_labels": [
+      {
+        "id": "tank-gaps.map.108.000010",
+        "map": 108,
+        "node_offset": 158386192,
+        "type": 6,
+        "record_size": 204,
+        "node_sha256": "4194c6cf465c8132f7d95237ac14d24693779208d4b24fcc03fd11c2adc6b3f3",
+        "record_sha256": "e67e8a586c57068a8f874b85134ae9bea5a79c7eb310b8069650d88ab5526030",
+        "translation": "Prédio abandonado"
+      },
+      {
+        "id": "tank-gaps.map.183.000030",
+        "map": 183,
+        "node_offset": 393283632,
+        "type": 7,
+        "record_size": 216,
+        "node_sha256": "c556f7b78a2a3faa012ab43b5000523a7dafcb63454cb9950bde3fdfc612e83e",
+        "record_sha256": "13a82c6d313911c47ecb0427cfbe576fe2aee42e81ad2e69def0f0450da12455",
+        "translation": "Ruínas submersas"
+      },
+      {
+        "id": "tank-gaps.map.183.001020",
+        "map": 183,
+        "node_offset": 393287712,
+        "type": 2,
+        "record_size": 90276,
+        "node_sha256": "6112c1a17565acc123c3fb0f36b22716e883d7dabf5fac965f305be43094f755",
+        "record_sha256": "79b2e711d7fdf33d98e5b7be7b7a1a6dfce2b0e3e3e26efa827896f44b2067c3",
+        "translation": "Ruínas submersas"
+      },
+      {
+        "id": "tank-gaps.map.218.000010",
+        "map": 218,
+        "node_offset": 453638160,
+        "type": 7,
+        "record_size": 216,
+        "node_sha256": "e863c5cfe380ddd1bdbfe0d1c34d07bc75ce5354518dcb706e494ba385025614",
+        "record_sha256": "4a96975c4df79bba0949cdce968e28204a31898a856d93a267c07b977c0147af",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "tank-gaps.map.218.000030",
+        "map": 218,
+        "node_offset": 453638192,
+        "type": 2,
+        "record_size": 39744,
+        "node_sha256": "e47af5beaa641ce053e99513dbe21c2c7993102a4dd8cef08c2bb73070aa036b",
+        "record_sha256": "058b80eab91db5325226400ba48eefd05e2e5b56cae0fcb9723473c7f3138604",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "tank-gaps.map.218.0005b0",
+        "map": 218,
+        "node_offset": 453639600,
+        "type": 2,
+        "record_size": 34844,
+        "node_sha256": "411ed126c2ebc45c8c6dc80cadf37e6de69351f3eca2b1270846c0bde33af187",
+        "record_sha256": "62bcd7b186532a433d63b849f0844d124afc8926916afa564bf4ab384c549974",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "tank-gaps.map.218.0009a0",
+        "map": 218,
+        "node_offset": 453640608,
+        "type": 2,
+        "record_size": 23172,
+        "node_sha256": "0487a837432e3b948c033657c12c3c485757a65155916a7b05f4d551060879fe",
+        "record_sha256": "e8f4c97338b7cd17772edc0657a776eb7ffd9619ef8dc00e4d923baa18cedd6b",
+        "translation": "Prédios abandonados"
+      }
+    ],
+    "titles": [
+      {
+        "id": "map.supr.1b0bc77c",
+        "offset": 453756796,
+        "size": 72,
+        "capacity": 23,
+        "source_sha256": "a571bf0e65464d67b3487bc263017e227f9440db59180e811589e2ff86f48a13",
+        "parent_sha256": "19129f2dad644d65ede9b680408a461e8a5ab1a0dc95a1d3d5014bb77835910c",
+        "after_sha256": "cb4cd5f48c3a8c6f47a31cd142b52cd9488c889041153e2d00304832dab2804e",
+        "translation": "Prédios abandonados"
+      },
+      {
+        "id": "map.supr.1857c10c",
+        "offset": 408404236,
+        "size": 68,
+        "capacity": 19,
+        "source_sha256": "a3b26d1e8eba3c734ff8c5903874a2ef894916050889665c8b4e4677a29ff080",
+        "parent_sha256": "8c74af4696296be0183cd4dd2cab04baaffb7667af1751f852fc2101bc8fbfe5",
+        "after_sha256": "ab34ea36158658660918966f0155d2fde260e6fe8cb5b09c843841da129906e8",
+        "translation": "Ruínas submersas"
+      }
+    ],
+    "hud": [
+      {
+        "text": "Tempo",
+        "rect": [
+          37,
+          37,
+          85,
+          57
+        ],
+        "clear_rect": [
+          33,
+          33,
+          92,
+          63
+        ],
+        "font_size": 20,
+        "background_index": 20,
+        "foreground_index": 238,
+        "mask_sha256": "1309b6cd35625c79a0929fd5e34ce3dbb0e64a87114932ce53e0cd70ed222112",
+        "horizontal_scale": 0.8727272727272727
+      },
+      {
+        "text": "Bebidas",
+        "rect": [
+          24,
+          301,
+          106,
+          324
+        ],
+        "clear_rect": [
+          24,
+          301,
+          106,
+          324
+        ],
+        "font_size": 20,
+        "background_index": 227,
+        "foreground_index": 33,
+        "mask_sha256": "b8b7592d612f438b31db63f38932e80af2628736085f792da66cd91e40775ae4",
+        "horizontal_scale": 1
+      },
+      {
+        "text": "BEBER",
+        "rect": [
+          218,
+          88,
+          289,
+          105
+        ],
+        "clear_rect": [
+          205,
+          88,
+          307,
+          107
+        ],
+        "font_size": 19,
+        "background_index": 241,
+        "foreground_index": 51,
+        "mask_sha256": "8a60f99a6234764236218ef223a02c0f89ab4e42c12531acbc00ea504c1a3c5c",
+        "horizontal_scale": 1
+      },
+      {
+        "text": "PERIGO",
+        "rect": [
+          208,
+          72,
+          301,
+          87
+        ],
+        "clear_rect": [
+          205,
+          70,
+          307,
+          88
+        ],
+        "font_size": 19,
+        "background_index": 241,
+        "foreground_index": 57,
+        "mask_sha256": "327db7ba22a1e287f12f6ae03d63a295186a3d36ad73a7fd42213144d59c6ecd",
+        "horizontal_scale": 1
+      }
+    ],
+    "rules": {
+      "rows": [
+        {
+          "text": "Regras",
+          "rect": [
+            218,
+            16,
+            294,
+            40
+          ],
+          "height": 24,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Beba todas as bebidas antes que o tempo acabe para",
+          "rect": [
+            48,
+            60,
+            473,
+            78
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "vencer.",
+          "rect": [
+            48,
+            80,
+            112,
+            98
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Cada bebida faz a barra subir em um ritmo",
+          "rect": [
+            115,
+            116,
+            445,
+            134
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "diferente.",
+          "rect": [
+            115,
+            136,
+            200,
+            154
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Se a barra na parte inferior da tela encher",
+          "rect": [
+            48,
+            178,
+            393,
+            196
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "completamente, você vai engasgar.",
+          "rect": [
+            48,
+            198,
+            333,
+            216
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Controles",
+          "rect": [
+            204,
+            250,
+            308,
+            274
+          ],
+          "height": 24,
+          "resized_horizontally": false
+        },
+        {
+          "text": "Aperte várias vezes para beber.",
+          "rect": [
+            100,
+            299,
+            362,
+            317
+          ],
+          "height": 18,
+          "resized_horizontally": false
+        }
+      ],
+      "icons": [
+        {
+          "source_rect": [
+            171,
+            98,
+            220,
+            127
+          ],
+          "target_rect": [
+            48,
+            115,
+            97,
+            144
+          ],
+          "sha256": "128045a07f1c86ec19d27bb551664f5a2027b31975af7af6fdd6c8ce07ee5809"
+        },
+        {
+          "source_rect": [
+            95,
+            291,
+            120,
+            316
+          ],
+          "target_rect": [
+            64,
+            295,
+            89,
+            320
+          ],
+          "sha256": "58669b900ff72c01e5641db3ef07537cdfc076c010c6d29ef99516f2cc3706dd"
+        },
+        {
+          "source_rect": [
+            230,
+            370,
+            288,
+            392
+          ],
+          "target_rect": [
+            230,
+            370,
+            288,
+            392
+          ],
+          "sha256": "ace582dce211358c9f995688b4a9f01815afe2494e807586635c0fadbfff346a"
+        }
+      ],
+      "background_index": 1,
+      "foreground_index": 217
+    },
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "ndata_source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5"
+  }
+}

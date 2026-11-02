@@ -91,6 +91,9 @@ def load_draft(path,chain=()):
 
 
 def compile_draft(data,draft):
+    if 'minigame_context_review' in draft:
+        from tank_drinking_gaps import compile_narrative
+        return compile_narrative(data,draft)
     if 'capture_context_review' in draft:
         from capture_release import compile_narrative
         return compile_narrative(data,draft)

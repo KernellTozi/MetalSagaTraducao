@@ -1,4 +1,20 @@
-# Pendências atuais — v065, com auditoria histórica v054
+# Pendências atuais — v066, com auditoria histórica v054
+
+## Tanque, locais e bebida aplicados na v066 — visual pendente
+
+PARTS LIST→PEÇAS; VEHICLE NAME→NOME; SELECTED ITEMS→SELECIONADOS. Prédio
+abandonado/Prédios abandonados e Ruínas submersas aplicados em sete nomes
+de nós, com dois títulos de entrada existentes padronizados no MAP v046.
+
+Minigame: Tempo, Bebidas, BEBER e PERIGO no atlas; legenda Beber/Sair/Ajuda
+com os mesmos ícones; tutorial completo em português, preservando os ícones
+das bebidas, do botão e o rodapé. Títulos decorativos e arte das embalagens
+mantidos conforme a regra anterior. Confirmar seletores/recortes, cor dos
+rótulos, cedilha de PEÇAS e acentos dos locais em partida.
+
+Procedimentos e limites em docs/interface-v066.md; comparações locais em
+work/interface-v066-investigacao/. O crédito v065 permanece igual e ainda
+não recebeu aprovação visual do usuário. Minério pequeno continua em espera.
 
 ## Crédito refeito na v065 — aguardando novo teste visual
 
