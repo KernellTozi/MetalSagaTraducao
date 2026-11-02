@@ -7,6 +7,12 @@ traduzir, alterar receitas ou gerar ISO até nova ordem. Versão e atalhos
 continuam v066. Os pontos abaixo são relatos visuais, sem localização
 binária, capacidade ou redação substituta ainda comprovadas.
 
+- **Nome de local — Land Battleship Tiamat:** rótulo de entrada ainda em
+  inglês, conforme nova captura do usuário. Investigar e traduzir futuramente
+  o descritor genérico, preservando Tiamat como nome próprio. Redação final,
+  origem binária e limite de espaço ainda não verificados. Somente registro,
+  sem autorização para retomar o desenvolvimento nesta recepção. Evidência:
+  codex-clipboard-d7b2f393-a1a6-4588-ad3a-53041fcb8b05.png.
 - **Minigame de dança:** TIME na barra e legenda Dance / Exit / Help ainda
   em inglês. Traduzir futuramente preservando os ícones e suas associações
   aos comandos. Evidência: codex-clipboard-29c39654-72c9-4562-87d5-7eda08be87ae.png.
