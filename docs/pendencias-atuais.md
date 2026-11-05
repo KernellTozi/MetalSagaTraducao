@@ -1,11 +1,14 @@
-# Pendências atuais — v066, com auditoria histórica v054
+# Pendências atuais — v067, com auditoria histórica v054
 
-## Novos relatos após v066 — somente registrar; desenvolvimento pausado
+## Relatos após v066 aplicados na v067 — visual pendente
 
-O usuário pediu aguardar outro dia por falta de tokens. Não investigar,
-traduzir, alterar receitas ou gerar ISO até nova ordem. Versão e atalhos
-continuam v066. Os pontos abaixo são relatos visuais, sem localização
-binária, capacidade ou redação substituta ainda comprovadas.
+O pedido posterior de iniciar a tradução encerrou a pausa de recepção.
+A v067 aplica os relatos abaixo. Procedimento, offsets, limites e roteiro
+em docs/interface-v067.md. Conferir em partida Sem tanques, Meu braço!,
+Vila dos Aposentados, Túnel 1 - Ferrovia Continental, Encouraçado Tiamat,
+TEMPO/Dançar/Sair/Ajuda, a confirmação de pintura e as duas falas de MC Hamir.
+O texto sobre o coração recebe aviso conservador de largura. As descrições
+dos relatos a seguir preservam o contexto observado antes da correção.
 
 - **Tank Stop:** aviso ainda em inglês ao lado do ícone de proibição de
   tanques. Priorizar uma redação curta. “Sem tanques” é a proposta inicial,
@@ -46,8 +49,8 @@ binária, capacidade ou redação substituta ainda comprovadas.
   as opções Sim/Não, seus controles e o sentido de substituir a pintura
   anterior. Evidência: codex-clipboard-63816b6e-ba25-484e-8bf1-63ae96e9db6b.png.
 
-Nenhuma correção aplicada nesta recepção. Minério pequeno também continua
-em espera; não interpretar o registro destes relatos como liberação.
+As novas traduções aguardam conferência visual do usuário. Minério pequeno
+continua aguardando liberação específica.
 
 ## Tanque, locais e bebida aplicados na v066 — visual pendente
 

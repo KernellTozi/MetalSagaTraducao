@@ -1,0 +1,110 @@
+{
+  "old_recipe": "translations/interface-v066.json",
+  "new_recipe": "translations/interface-v067.json",
+  "source_iso_sha256": "51e27dda9854cb369ea49753a67a7bb4d7c1fe5d54f86581821ef6acc32b43e3",
+  "output_iso_sha256": "5f12a2a766900bbf17c57b0f904945a115379634428660346611c62bffc53c0d",
+  "iso_size": 1704427520,
+  "changed_bytes": 3358,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "diary.031.title",
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "iso_offset": 1322988,
+      "size": 40
+    },
+    {
+      "id": "diary.031.body",
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "iso_offset": 1323028,
+      "size": 80
+    },
+    {
+      "id": "reported.raster.tank",
+      "resource": "DATA/MAP/HMAPAC.SDA",
+      "iso_offset": 47584400,
+      "size": 65536
+    },
+    {
+      "id": "reported.map.004c3800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 58771456,
+      "size": 23
+    },
+    {
+      "id": "reported.map.10ce27dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 335722460,
+      "size": 21
+    },
+    {
+      "id": "reported.map.10ce3000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 335724544,
+      "size": 21
+    },
+    {
+      "id": "reported.map.122e4fdc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 358801372,
+      "size": 32
+    },
+    {
+      "id": "reported.map.122e50b4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 358801588,
+      "size": 32
+    },
+    {
+      "id": "reported.map.122e5800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 358803456,
+      "size": 32
+    },
+    {
+      "id": "map.msgn.1774327c",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447267452,
+      "size": 108
+    },
+    {
+      "id": "map.msgn.17743328",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 447267624,
+      "size": 148
+    },
+    {
+      "id": "reported.raster.dance",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "iso_offset": 1235608080,
+      "size": 65536
+    },
+    {
+      "id": "reported.elf.0031b858",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704194136,
+      "size": 23
+    },
+    {
+      "id": "reported.elf.0031b940",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704194368,
+      "size": 23
+    },
+    {
+      "id": "reported.elf.00338b18",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704313624,
+      "size": 32
+    },
+    {
+      "id": "reported.elf.00342180",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704352128,
+      "size": 62
+    }
+  ],
+  "pcsx2_executed": false
+}

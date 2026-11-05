@@ -1785,6 +1785,48 @@ v052 íntegro; sem alterações no conteúdo do jogo. Relatório limites-nomes-v
 
 ## Continuidade v066 — tanque, locais e bebida
 
+### Retomada v067 — relatos da partida
+
+- O pedido posterior de começar a tradução encerrou a pausa dos relatos.
+  Atual `translations/interface-v067.json`, sobre v066 integral, e MAP
+  `translations/regiao-inicial-v047.json`, sobre v046. Manual
+  `docs/interface-v067.md`. Usar layout v005 e os atalhos da v067 após
+  construção verificada. Minério pequeno segue aguardando liberação específica.
+- Política `reported-diary-native-ellipsis-map-and-dance-v001` em
+  `tools/screenshot_backlog.py`, manifesto `translations/relatos-pos-v066-v001.json`.
+  Dispatch `screenshot_backlog_release` precede `tank_drinking_release` no UI,
+  `hamir_context_review` precede `minigame_context_review` no MAP. Validar
+  pai integral, binding e saídas. Comparador exige v066 exata, auditor de
+  capacidade valida o filho e herda o pai.
+- Diário somente registro 31, título Meu braço! e corpo em português.
+  A sequência nativa 81 63 é preservada como reticência no mesmo campo,
+  com quatro pipes na mesma ordem e slots 39/79. Essa exceção vinculada
+  não libera outros bytes ou registros nativos na política histórica.
+- Nomes Vila dos Aposentados, Túnel 1 - Ferrovia Continental e Encouraçado
+  Tiamat em seis campos tipo 2/7 de 32 bytes. Nome do túnel usa 31+NUL.
+  Dois literais ELF de Tiamat recebem a mesma redação. Pergunta/aviso da
+  amostra de pintura em 0x342180, Dançar/Sair/Ajuda em célula de 32 em
+  0x338B18, preservando tokens de botões e a string Pose seguinte.
+- Sem tanques ocupa só [90,44,192,70] da textura HMAPAC.SDA+0x80,
+  dentro do sprite GANM 0, sem tocar o símbolo. TEMPO ocupa só
+  [34,5,100,27] da textura RMGDANCE.SDA+0x130E00, sprite 3 do GANM
+  em 0x141210. Paleta, alpha, descritores, pixels externos e diretórios
+  mantidos. Arial Bold 14/17 local vinculada por hash, raster final sem resize.
+- MC Hamir revisa apenas map.msgn.1774327c/17743328, corpos de 43/99
+  bytes em slots 63/103. Nome, cabeçalhos, controles e quebras preservados
+  pelo compilador existente. O segundo corpo tem aviso conservador de largura
+  e precisa de conferência visual. Não transformar essa redação coloquial
+  em autorização para estereotipar o personagem.
+- São 14 unidades UI novas e duas revisões de diálogos, total UI 4393.
+  MAP mantém 6044 alterados/5991 corpos-opções/991 referências explícitas,
+  108 nomes padrão e itens 633/610. Testes 34 distintos, preflight e
+  backup v059 conferidos, atalhos simulados. Navegação e GPU aguardam o
+  usuário. Relatórios interface-v067 e interface-v067-delta. A retenção
+  mantém cinco imagens e removeu a antiga v062, com receitas preservadas.
+  Delta integral v066→v067 conferido em 3358 bytes/16 patches previstos,
+  com diretório e fontes/layout idênticos. ISO v067 SHA-256
+  `5f12a2a766900bbf17c57b0f904945a115379634428660346611c62bffc53c0d`.
+
 - Pausa posterior solicitada pelo usuário: somente registrar novos achados, sem iniciar investigação/tradução/construção até nova ordem em outro dia. Pendências registradas no início de docs/pendencias-atuais.md: TIME e Dance/Exit/Help no minigame de dança; falas de MC Hamir sem sentido/formais, a revisar com original e contexto para PT-BR natural e menos formal; confirmação inglesa de carregar amostra de pintura e perder a anterior. Manter v066 e atalhos; não considerar esse registro uma aplicação ou aprovação visual. Minério pequeno permanece em espera.
 
 - Atual: translations/interface-v066.json sobre v065 exata, MAP regiao-inicial-v046.json sobre v045, layout v005 mantido. Política tank-headers-locations-and-drinking-ui-v001 em tools/tank_drinking_gaps.py; manifesto translations/lacunas-tanque-bebida-v001.json. Dispatch tank_drinking_release precede credit_readability_release; minigame_context_review precede capture_context_review no MAP. Vincular pais, entradas, fontes e saídas; comparador exige v065 sem normalizações adicionais. Auditor de capacidade valida o filho e herda v065.

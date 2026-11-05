@@ -1,5 +1,5 @@
 @echo off
 cd /d "%~dp0"
-python tools\build_translation_pilot.py --draft translations\regiao-inicial-v046.json --interface-draft translations\interface-v066.json --compact-output
+python tools\build_translation_pilot.py --draft translations\regiao-inicial-v047.json --interface-draft translations\interface-v067.json --compact-output
 if errorlevel 1 echo Falha: consulte a mensagem acima. Nenhuma ISO foi alterada.
 pause

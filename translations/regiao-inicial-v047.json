@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v046.json",
+  "name": "regiao-inicial-v047",
+  "status": "Relatos do diário, locais, pintura e dança; MC Hamir revisado; visual pendente.",
+  "translations": {
+    "map.msgn.1774327c": "E agora?\nIsso não é bom...\nCadê aquilo!?",
+    "map.msgn.17743328": "......\t%F1%M0_8Ack!!\tP-Pra que falar\ncomigo assim, do nada!?\nMeu coração não aguenta!\tQue susto!"
+  },
+  "reviewed_changes": [
+    "map.msgn.1774327c",
+    "map.msgn.17743328"
+  ],
+  "hamir_context_review": {
+    "recipe": "translations/relatos-pos-v066-v001.json",
+    "sha256": "4bb39e8b3dcd658a2a5b766bac92097e0fb77f031336601f34f2bcdd38e68534"
+  }
+}

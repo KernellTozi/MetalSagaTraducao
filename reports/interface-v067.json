@@ -1,0 +1,58 @@
+{
+  "version": "interface-v067",
+  "parent": "interface-v066",
+  "dialogue_recipe": "translations/regiao-inicial-v047.json",
+  "interface_recipe": "translations/interface-v067.json",
+  "valid": true,
+  "iso": {
+    "image_name": "MetalSaga-ptbr-interface-v067.iso",
+    "iso_size": 1704427520,
+    "output_iso_sha256": "5f12a2a766900bbf17c57b0f904945a115379634428660346611c62bffc53c0d",
+    "all_bytes_match_expected_patch": true,
+    "iso_directory_identical": true
+  },
+  "layout_profile": "ptbr-layout-v005",
+  "map_changed_records": 6044,
+  "map_refused": 0,
+  "interface_units": 4393,
+  "new_units": {
+    "policy": "reported-diary-native-ellipsis-map-and-dance-v001",
+    "new_units": 14,
+    "diary_fields": 2,
+    "map_names": 6,
+    "elf_literals": 4,
+    "raster_labels": 2,
+    "pcsx2_executed": false,
+    "visual_status": "pending_user"
+  },
+  "hamir_revision": {
+    "policy": "reported-diary-native-ellipsis-map-and-dance-v001",
+    "revised_dialogues": 2,
+    "pcsx2_executed": false
+  },
+  "tests": {
+    "new": 10,
+    "regression": 24,
+    "total": 34,
+    "passed": true
+  },
+  "preflight_verified": true,
+  "backup_v059_hash_verified": true,
+  "backup_v059_read_only": true,
+  "retention_work_isos": 5,
+  "removed_old_work_iso": "work/interface-v062/MetalSaga-ptbr-interface-v062.iso",
+  "launchers_dry_run_verified": true,
+  "historical_sixteen_item_revisions_blocked": 0,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "ore_rename_authorized": false,
+  "warnings": [
+    "Conferir margem da segunda fala revisada de MC Hamir."
+  ],
+  "whole_iso_delta": {
+    "report": "reports/interface-v067-delta.json",
+    "changed_bytes": 3358,
+    "patches": 16,
+    "verified": true
+  }
+}

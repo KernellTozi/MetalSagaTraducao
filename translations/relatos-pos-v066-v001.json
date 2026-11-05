@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "policy": "reported-diary-native-ellipsis-map-and-dance-v001",
+  "parent": "translations/interface-v066.json",
+  "parent_sha256": "c56dc122051be8c4cd5140f270bec4214014a55575e55b284cbf8a1afdd75b79",
+  "parent_map": "translations/regiao-inicial-v046.json",
+  "parent_map_sha256": "9394ba49e5fc0944eb1251b1788fe82b91e52f265b7e2a15ed72d5951927ff99",
+  "new": [
+    {
+      "id": "reported.elf.00342180",
+      "resource": "SLUS_212.93",
+      "offset": 3416448,
+      "size": 62,
+      "source_sha256": "a3640d9ed3ec088768314053904fe1b13e5e08e998d07d9603f7e65aaa2932dc",
+      "after_sha256": "06487d69146a8fd9b0c979f8d85ddcac09d457a5a14417a2e302fca585265b0c"
+    },
+    {
+      "id": "reported.elf.00338b18",
+      "resource": "SLUS_212.93",
+      "offset": 3377944,
+      "size": 32,
+      "source_sha256": "cd5ea6b3ce1498d59819d87c77139286ec24bbd98a1c2685c9e66611bbbf1052",
+      "after_sha256": "8dc24d69a54e8465a901cc7b35a58b0d18e68e0c0dce41c17a0b5309feb75adc"
+    },
+    {
+      "id": "reported.elf.0031b858",
+      "resource": "SLUS_212.93",
+      "offset": 3258456,
+      "size": 23,
+      "source_sha256": "6c28b2881e7438b748dcc292f2c54a0a652c57ef94630cd916a7633c421ce1d4",
+      "after_sha256": "3fb98e31a9c4f29facb93d1ce5165297eadd225ad770fe75facfb96708b5cd91"
+    },
+    {
+      "id": "reported.elf.0031b940",
+      "resource": "SLUS_212.93",
+      "offset": 3258688,
+      "size": 23,
+      "source_sha256": "6c28b2881e7438b748dcc292f2c54a0a652c57ef94630cd916a7633c421ce1d4",
+      "after_sha256": "3fb98e31a9c4f29facb93d1ce5165297eadd225ad770fe75facfb96708b5cd91"
+    },
+    {
+      "id": "diary.031.title",
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "offset": 6124,
+      "size": 40,
+      "source_sha256": "adcc1d027d6d519900f9ca45667782611044c32ddcc410e7ecbc238cace9210b",
+      "after_sha256": "da688fec6838c9626bffffc37c69d384a57fd63e827cfc311cb450e2fb2d2d7c"
+    },
+    {
+      "id": "diary.031.body",
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "offset": 6164,
+      "size": 80,
+      "source_sha256": "a239094fe6fb63acb62d4251d7d0ac39c7412520bf80bdacd4b448d78ea425e1",
+      "after_sha256": "d360685ab1c47ad59288e787b51bad8b3499f438baedc12da357f0a73b35dbf4"
+    },
+    {
+      "id": "reported.map.004c3800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 4995072,
+      "size": 23,
+      "source_sha256": "6c28b2881e7438b748dcc292f2c54a0a652c57ef94630cd916a7633c421ce1d4",
+      "after_sha256": "3fb98e31a9c4f29facb93d1ce5165297eadd225ad770fe75facfb96708b5cd91"
+    },
+    {
+      "id": "reported.map.10ce27dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 281946076,
+      "size": 21,
+      "source_sha256": "95e243a9cf536eb3d7c3d1bcd1efde0cc09dc6f0f8f2a15f1dbe72291c4134ed",
+      "after_sha256": "30cb3fb79d184332e808b4e14c1fc982311f5e49b1ae424acf569bf07a9c10e4"
+    },
+    {
+      "id": "reported.map.10ce3000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 281948160,
+      "size": 21,
+      "source_sha256": "95e243a9cf536eb3d7c3d1bcd1efde0cc09dc6f0f8f2a15f1dbe72291c4134ed",
+      "after_sha256": "30cb3fb79d184332e808b4e14c1fc982311f5e49b1ae424acf569bf07a9c10e4"
+    },
+    {
+      "id": "reported.map.122e4fdc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 305024988,
+      "size": 32,
+      "source_sha256": "ed53ec36947821fd959512b7d4664ee96e384de1f4eba73eec99ae6376f0ac12",
+      "after_sha256": "0dfd84f4af40a445d04fa00b1fd786bda5cba2f7a68f8c77a088c6552a81c2ec"
+    },
+    {
+      "id": "reported.map.122e50b4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 305025204,
+      "size": 32,
+      "source_sha256": "ed53ec36947821fd959512b7d4664ee96e384de1f4eba73eec99ae6376f0ac12",
+      "after_sha256": "0dfd84f4af40a445d04fa00b1fd786bda5cba2f7a68f8c77a088c6552a81c2ec"
+    },
+    {
+      "id": "reported.map.122e5800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 305027072,
+      "size": 32,
+      "source_sha256": "ed53ec36947821fd959512b7d4664ee96e384de1f4eba73eec99ae6376f0ac12",
+      "after_sha256": "0dfd84f4af40a445d04fa00b1fd786bda5cba2f7a68f8c77a088c6552a81c2ec"
+    },
+    {
+      "id": "reported.raster.tank",
+      "resource": "DATA/MAP/HMAPAC.SDA",
+      "offset": 1168,
+      "size": 65536,
+      "source_sha256": "d5e4299f61417c5352fdc4dd0661372d02ea16c6e43e9592ee5023a97f9c7c01",
+      "after_sha256": "13a4fb0f380d7983c74abaea696ee407675a0585beaef17627d637d5660c35f1"
+    },
+    {
+      "id": "reported.raster.dance",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1249808,
+      "size": 65536,
+      "source_sha256": "9d620229f507a0b8d739620012604590be146bdb673fc586c8b98f80f9e68cc6",
+      "after_sha256": "c0fbf4daf73a2ef0c46872317e3e7680b169ddc35d71d99f2084c558d2ada892"
+    }
+  ],
+  "evidence": {
+    "locations": [
+      {
+        "map": 11,
+        "node_offset": 4986928,
+        "type": 2,
+        "node_sha256": "6b999852de4fa8fdaa97ae836171696322b0a91b75c4a6aa916e0d20aeb8279b",
+        "record_sha256": "b57db7a633dd974f9e0efe077add1083257114f5ce02d64da3ffeeeb441eb6ea",
+        "translation": "Encouraçado Tiamat"
+      },
+      {
+        "map": 143,
+        "node_offset": 281939984,
+        "type": 7,
+        "node_sha256": "7433bf3760c167ace81b64a1787f40e02cdad2a66edbf9925231802b206ca6e2",
+        "record_sha256": "00bbe011e0c9584016f5fcae259c0ff63eb16984714711efc1fee2c8823401d4",
+        "translation": "Vila dos Aposentados"
+      },
+      {
+        "map": 143,
+        "node_offset": 281940016,
+        "type": 2,
+        "node_sha256": "d252332af6cddeb53f29bf313f8024fd7f3097be56989a65074b6b351835c368",
+        "record_sha256": "5b05655b9d8c6910d225ce8d7e4562e01c6b8a78255821b564d09504c77f5448",
+        "translation": "Vila dos Aposentados"
+      },
+      {
+        "map": 153,
+        "node_offset": 305020944,
+        "type": 7,
+        "node_sha256": "1e612aae46e268fda467e36752bb1086695d50bcca6776c32a5d99d83f38f0c3",
+        "record_sha256": "2686a38896b2f9da4b6d79a18ba764c58d01f9afd891219d413740f12bbb9b1d",
+        "translation": "Túnel 1 - Ferrovia Continental"
+      },
+      {
+        "map": 153,
+        "node_offset": 305020960,
+        "type": 7,
+        "node_sha256": "ab16e7e7e4bee76343700a6f229bd7559c0ef7f097e2f19e2869fe5826d6eadb",
+        "record_sha256": "04c37b9acef53b4d67de99d1ec6faef00d1672eacdef826115bd0e552ac9c7cd",
+        "translation": "Túnel 1 - Ferrovia Continental"
+      },
+      {
+        "map": 153,
+        "node_offset": 305020992,
+        "type": 2,
+        "node_sha256": "b22515d142f3f591b46804c3347d0d726f028bfaf2a14b424c2351fae9f5d9e2",
+        "record_sha256": "421fd6d6463993026013d40d04ea73c9d5d19416ecb276172f7d5f582eede6d9",
+        "translation": "Túnel 1 - Ferrovia Continental"
+      }
+    ],
+    "graphics": [
+      {
+        "resource_sha256": "c7236213c9e848514e3336bdf9d54b8813e6fde143efcaae4add7ea5d79fd59d",
+        "texture_sha256": "006ee6b81f76ca824d60acf92a697d6f4f609bbb404b73a131ebfc26fd589441",
+        "texture_offset": 128,
+        "texture": {
+          "width": 256,
+          "height": 256,
+          "bpp": 8,
+          "palette_offset": 16,
+          "pixel_offset": 1040,
+          "pixel_bytes": 65536,
+          "trailing_bytes": 112
+        },
+        "rect": [
+          90,
+          44,
+          192,
+          70
+        ],
+        "translation": "Sem tanques",
+        "font_size": 14,
+        "mask_sha256": "d83fda096ecc0722a25aed40e66214a71befab1fa9eaadf860e6c75d59dff781",
+        "sprite_offset": 66832,
+        "sprite_sha256": "4785228c3f683f7b84d046da13f00b85e707ecb407e6dce0cc63b9aae710d390"
+      },
+      {
+        "resource_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+        "texture_sha256": "9fdd25efef336dd40948e279132dddba5b0ae048782671b37a13161fe3a05c3c",
+        "texture_offset": 1248768,
+        "texture": {
+          "width": 512,
+          "height": 128,
+          "bpp": 8,
+          "palette_offset": 16,
+          "pixel_offset": 1040,
+          "pixel_bytes": 65536,
+          "trailing_bytes": 0
+        },
+        "rect": [
+          34,
+          5,
+          100,
+          27
+        ],
+        "translation": "TEMPO",
+        "font_size": 17,
+        "mask_sha256": "e2a4f18c71084a9f440ca2746e565854eff1a7b87d272943bce97e1c32085559",
+        "sprite_offset": 1315408,
+        "sprite_sha256": "2d3dc70812e8d9629be8901ef05474051c26d803f29e79a6756672cea6562d11"
+      }
+    ],
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "diary_sha256": "9dcd179dc289aa558d5046884cfcb603925f7f605d7c5a871cf75939d785b86b"
+  }
+}
