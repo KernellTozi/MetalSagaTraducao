@@ -7,6 +7,20 @@ traduzir, alterar receitas ou gerar ISO até nova ordem. Versão e atalhos
 continuam v066. Os pontos abaixo são relatos visuais, sem localização
 binária, capacidade ou redação substituta ainda comprovadas.
 
+- **Tank Stop:** aviso ainda em inglês ao lado do ícone de proibição de
+  tanques. Priorizar uma redação curta. “Sem tanques” é a proposta inicial,
+  a conferir no contexto e no espaço do aviso. Preservar o ícone.
+  Evidência: codex-clipboard-2e31f51e-1105-4bf4-9f7b-7b56733509aa.png.
+- **Diário — My Arm!:** título e corpo ainda em inglês. A entrada menciona
+  que Dr. Mortem não consegue ajudar e que talvez o professor Grey consiga.
+  Revisar ambos os campos e preservar os nomes dos personagens.
+  Evidência: codex-clipboard-ee17f75f-677b-4df6-84e6-13516c5aa947.png.
+- **Retirement Compound:** nome de local ainda em inglês. Conferir o
+  contexto antes de definir a redação.
+  Evidência: codex-clipboard-507c3c09-5823-410c-97e7-6675cd825549.png.
+- **First Continental RR Tunnel:** nome de local ainda em inglês. Conferir
+  o nome da ferrovia e a terminologia já usada para o local.
+  Evidência: codex-clipboard-e73f477c-9d9c-414e-884d-8a64bb92a566.png.
 - **Nome de local — Land Battleship Tiamat:** rótulo de entrada ainda em
   inglês, conforme nova captura do usuário. Investigar e traduzir futuramente
   o descritor genérico, preservando Tiamat como nome próprio. Redação final,
