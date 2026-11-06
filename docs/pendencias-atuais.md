@@ -1,4 +1,16 @@
-# Pendências atuais — v067, com auditoria histórica v054
+# Pendências atuais — v068, com auditoria histórica v054
+
+## Minigames consolidados na v068 — conferência em partida pendente
+
+O usuário revogou a dispensa de títulos, resultados e painéis japoneses dos
+minigames. A v068 localiza os recursos conhecidos, com 200 rótulos, 17 novos
+painéis, três inscrições e 27 textos internos, preservando seis painéis já
+em português. Catálogo de 107 recursos revisados em
+`reports/minigames-cobertura-v001.json`; procedimentos e roteiro em
+`docs/interface-v068.md`. Não equivale a cobertura de todas as chamadas no
+PCSX2. Conferir resultados animados, cartas, comandos, rótulos pequenos e
+estados de seleção. Nomes de músicas e sapos permanecem próprios.
+
 
 ## Relatos após v066 aplicados na v067 — visual pendente
 

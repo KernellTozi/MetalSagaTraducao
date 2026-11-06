@@ -1,0 +1,881 @@
+{
+  "schema": 1,
+  "scope": "105 top-level/nested known atlas textures plus two previously discovered scene textures, across six minigame-related SDA resources. Frame/caller coverage in PCSX2 remains pending.",
+  "source_recipe": "translations/interface-v067.json",
+  "target_recipe": "translations/interface-v068.json",
+  "counts": {
+    "reviewed-scenery-symbols-or-no-localizable-word-observed": 40,
+    "outside-minigames-options-items-or-ui-reference": 7,
+    "localized-v068": 51,
+    "protected-song-names": 2,
+    "existing-portuguese-panel-preserved": 5,
+    "localized-v068-embedded-scene-texture": 2
+  },
+  "source_records_reviewed": 107,
+  "translated_texture_planes": 53,
+  "new_word_cells": 200,
+  "new_instruction_panels": 17,
+  "preserved_instruction_panels": 6,
+  "new_elf_literals": 27,
+  "table_captions": 3,
+  "protected": [
+    "Song and frog proper names",
+    "Card ranks, suits, currency, controller names and mechanical symbol identifiers",
+    "Wanted posters outside this scope"
+  ],
+  "pcsx2_executed": false,
+  "records": [
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 1,
+      "offset": 4096,
+      "size": 67584,
+      "sha256": "bb61aaa88e2efdaba9e282605ec561297c21fae85c38aecda29f6fa4583b878e",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 2,
+      "offset": 71680,
+      "size": 6144,
+      "sha256": "f1fb792bf1b18d94a48ed4cc40c94ebdf30b56a99f1e3ec5802763f5b4ae5339",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 3,
+      "offset": 77824,
+      "size": 18432,
+      "sha256": "c94a53b2c25e125419495edd34af83a14ca1f28058cd52f14d9c28f405fa166e",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 4,
+      "offset": 96256,
+      "size": 264192,
+      "sha256": "97405ed501075000b822ba8413af866a62745ab3b47f2ccd35ff0bdd79c43c7c",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 5,
+      "offset": 360448,
+      "size": 67584,
+      "sha256": "29e53ba08dbfa7a10579264269860577fda957e4e8ff1444861af6cd0f84aae3",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 13,
+      "offset": 618496,
+      "size": 264192,
+      "sha256": "358be6492e765e250962a97a58a16ac6dab5c0458a69207d2cfa80738559d367",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 14,
+      "offset": 882688,
+      "size": 67584,
+      "sha256": "721abbf94de168923bdaced69ab0d3e0a83a3bad1bc1796a3f02d428d668a439",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 15,
+      "offset": 950272,
+      "size": 264192,
+      "sha256": "63bc027a6d7460112fb2d7d221bf1ba731a5dbb9f9806e8674059fbb6c92f47e",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 16,
+      "offset": 1214464,
+      "size": 264192,
+      "sha256": "4c5f7ad9e1913fa845e4b9ce26df35ec3a63ae29810780f5440482e2a2143de0",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 17,
+      "offset": 1478656,
+      "size": 133120,
+      "sha256": "308200f2ed0c745928cd972adffa1c0859481ec87c6152e34e8624c32fdc0dab",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 18,
+      "offset": 1611776,
+      "size": 43008,
+      "sha256": "1d3f51c810e1e71b1e423e1884bc95b51e5d66d412083c35967d98943a3b95fa",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 22,
+      "offset": 1976320,
+      "size": 264192,
+      "sha256": "0bbefe9cd3e6fd228ab992ad0a6c9014944e369c8f1e7455523faea4533dc47a",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 23,
+      "offset": 2240512,
+      "size": 133120,
+      "sha256": "7bbdc1932fa9e525f0798051572696ce705f3f69eb0f48f1a7bba4140cca175c",
+      "status": "protected-song-names"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 24,
+      "offset": 2373632,
+      "size": 133120,
+      "sha256": "e8caca583121ccc723ce8a2bc44929b3736391016586c56ab904b20a5770c50a",
+      "status": "protected-song-names"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 25,
+      "offset": 2506752,
+      "size": 264192,
+      "sha256": "3366bbe9bac6ed2e3120573067c199f5be9e60a90e7e0e27e6fc8d1773d2622b",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 26,
+      "offset": 2770944,
+      "size": 67584,
+      "sha256": "b2c49220167aaa48dbf0a5add23bfda3bf338e2c7137acf7708acfeb8a1b36c1",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 27,
+      "offset": 2838528,
+      "size": 264192,
+      "sha256": "1b58e964a659b5608a3d0db6c6c97dc32536fd369e8d1c81788216ff06e5fb9a",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 28,
+      "offset": 3102720,
+      "size": 67584,
+      "sha256": "ef398679f00ec874b563a1620c3de323ff7f0f05372ecd9338721172e0d81cd9",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 29,
+      "offset": 3170304,
+      "size": 264192,
+      "sha256": "23aa5de7b675cf0133adf74e02b0191eae80a883e8c69d3b1fc01589b364c54b",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 30,
+      "offset": 3434496,
+      "size": 67584,
+      "sha256": "9275e48c3dcce84efb359abaff4e7620c8f7575b356f0623e285300ab5de3fec",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 31,
+      "offset": 3502080,
+      "size": 133120,
+      "sha256": "40349edc8f5a20a0719ec08147a8a373dbd817edf2c5705bbdf08feb3be01f9e",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 32,
+      "offset": 3635200,
+      "size": 18432,
+      "sha256": "830142bdc1c649a4251f916ddbaf9b63655bde3116f477bed9d6ec992cc7f8b2",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 33,
+      "offset": 3653632,
+      "size": 264192,
+      "sha256": "1e8e0656465d83e6046a6dd79b9ee13c4284260b7404898d4dd3989f1c465402",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 34,
+      "offset": 3917824,
+      "size": 264192,
+      "sha256": "2112e900729c34a956b4d3d215bd6ee6e7026033c96f17a27353bc006437238d",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 35,
+      "offset": 4182016,
+      "size": 264192,
+      "sha256": "7945556bf963cc3e0652b019ffac8b0f7a8b906cd3c5f76a7e7d062e7833a1e6",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 36,
+      "offset": 4446208,
+      "size": 264192,
+      "sha256": "dc5daac6d6fd334ee2c13cf2c4d8780c9958a1b12786dc1416f14c9e643c8ec1",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 37,
+      "offset": 4710400,
+      "size": 67584,
+      "sha256": "2833dfff59b47f2b0dba9c0dbf07a808ce17df9c5982efb5ac0d637434f90954",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 38,
+      "offset": 4777984,
+      "size": 133120,
+      "sha256": "2b29492e8139944f92615865223872bdcf822b6f87d610db4789a57e8642a3eb",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 39,
+      "offset": 4911104,
+      "size": 133120,
+      "sha256": "975fa630146e8732d4fda880298c1977080d770b611558d536135e142014d7c7",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 40,
+      "offset": 5044224,
+      "size": 133120,
+      "sha256": "babf806d61885424c4391b3ee8420c7db61a629dc40b6bcc9a1f762860b2779d",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 41,
+      "offset": 5177344,
+      "size": 133120,
+      "sha256": "5a85edb1c9c1883b9672a5f987f4c476a221ff87a9e4be359bb3219e9d14db2e",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 42,
+      "offset": 5310464,
+      "size": 264192,
+      "sha256": "236b97adf2862f63f7b00b8712868792dc414a56d9323cff995ce693cbcffda1",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 43,
+      "offset": 5574656,
+      "size": 264192,
+      "sha256": "3366edb9d470ad042792d3aaaabdce667f5c6f0181b3ec9b67152e35e4558da9",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 44,
+      "offset": 5838848,
+      "size": 67584,
+      "sha256": "26b8837a6eb66555a3d82e69f3e54af714b93f3b3f189eb3f9a39be557f98341",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 45,
+      "offset": 5906432,
+      "size": 264192,
+      "sha256": "d72cf090d7e878a8c38e9713c27a676d4ceac205dbf31cb793dea43d18028f2a",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 46,
+      "offset": 6170624,
+      "size": 67584,
+      "sha256": "58b0263a62acdfd55f7b5b259a749e4c82912be94ede00a3ec0e747c9dbb1874",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 47,
+      "offset": 6238208,
+      "size": 264192,
+      "sha256": "86f0243c088c8e6629bdd16cdb11a64f53ec74f6b814b408ca9274ee921be95a",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 48,
+      "offset": 6502400,
+      "size": 67584,
+      "sha256": "49087749b8366ec61f916f8243363d42c3b6e410a58161f23743a239c4fc5ec6",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 49,
+      "offset": 6569984,
+      "size": 67584,
+      "sha256": "546ec508e2bfc53047fc39b6fb7c660b9d3efded9dccc8391276caf068edfea8",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 50,
+      "offset": 6637568,
+      "size": 133120,
+      "sha256": "695976cfa9d170d1c5fb26de89ea1a28420930465d75f199fff68327213f54d5",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 51,
+      "offset": 6770688,
+      "size": 133120,
+      "sha256": "fe3dc34fe953d770f33866709df159ec51cae3bf01eaf70036bae12172c984c8",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 52,
+      "offset": 6903808,
+      "size": 264192,
+      "sha256": "d0ac23a4be25330ffb45a7582fa2b377373bd15b2f83b0895c7eaf0411c90a44",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 53,
+      "offset": 7168000,
+      "size": 133120,
+      "sha256": "c97ce85f0458a8cd8788ac3973ed9fd3d73b36ac505c3ea5cead26eb57e3d296",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 69,
+      "offset": 8065024,
+      "size": 264192,
+      "sha256": "1249026a7ea42f5d63f9ed38c72a553ac9fb9a3fd1f443f5cecb415e77044696",
+      "status": "existing-portuguese-panel-preserved"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 96,
+      "offset": 11970560,
+      "size": 264192,
+      "sha256": "c2821a5934e2acd7b9db8f526d4615b75968516ee621e9030d5c7de042a246d0",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 100,
+      "offset": 12419072,
+      "size": 264192,
+      "sha256": "ae81d744048905b09f873589b73c28c11088c68eed012bd75ef3acc8f3c11a9e",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 101,
+      "offset": 12683264,
+      "size": 264192,
+      "sha256": "8e7b53eb2935d30ecc59adf2abc6f604972a4fc20e7e4f684e966cc31e5e6842",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 102,
+      "offset": 12947456,
+      "size": 264192,
+      "sha256": "f2faef345c3d702fab761933950e26bddbaa4dbb0ad88393b0cf57d88c273c42",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 103,
+      "offset": 13211648,
+      "size": 264192,
+      "sha256": "da94b6a6f2ed67a61e342b527b77a9618b706168b622712553b42497371ffe62",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 104,
+      "offset": 13475840,
+      "size": 264192,
+      "sha256": "4e10402f37666ce05cc433dc79316b0025035fc863a7fe1211e7d12303eb0596",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 105,
+      "offset": 13740032,
+      "size": 67584,
+      "sha256": "47f8d1a587c3780276dba43134fb78bf828d807ca85a7cd5f985e0bb7477871e",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 106,
+      "offset": 13807616,
+      "size": 264192,
+      "sha256": "86fb3c1e86342d0961ecb63e83d3e56467c6af995db97188e2a73de4c92ed9f6",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 107,
+      "offset": 14071808,
+      "size": 264192,
+      "sha256": "9f05d4664f705793b357b856edd30630a0b420343b23117bd25fcf815364b3c6",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 108,
+      "offset": 14336000,
+      "size": 34816,
+      "sha256": "dbc08b981b290480a4647baa157730a82ad729ead6eb3b3cc75fd48047147767",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 109,
+      "offset": 14370816,
+      "size": 133120,
+      "sha256": "d0bd3b6530da1d86ae2ba6c12e4730f4b96b19089620bcdba52d723f8ce0502d",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 110,
+      "offset": 14503936,
+      "size": 133120,
+      "sha256": "fed42ceb3c9c8a274bff4df361c2ff51cc1d211a0659c9e4a12ca9b3b68fea9a",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 111,
+      "offset": 14637056,
+      "size": 133120,
+      "sha256": "87bba2c7335513ee11bffe4c96932be72999e308204d7f9f9376b84e609f225e",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 112,
+      "offset": 14770176,
+      "size": 264192,
+      "sha256": "4c17747aa9a889986b5a117879f3354bdf82b7e2f25dc384dbff17bcbf15f8fd",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 113,
+      "offset": 15034368,
+      "size": 67584,
+      "sha256": "913a29bd213e7888c1339c9a1182ad0d358fc5fe90f56d0f6fa72ed0ee6beae0",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 114,
+      "offset": 15101952,
+      "size": 133120,
+      "sha256": "ee19af1663633ab82a128c310e56e14d554c2f17a9feae8198399273db3943d2",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 115,
+      "offset": 15235072,
+      "size": 67584,
+      "sha256": "a45c18d290cf71132eb08663d071a3d3ead262bdfad49ba1b9d518fe305fa3d9",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 116,
+      "offset": 15302656,
+      "size": 133120,
+      "sha256": "f8f6e9eb5aa23e4dfe5114310312fbe0c9ecf01da2f3bbdfca808f473580a254",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 117,
+      "offset": 15435776,
+      "size": 133120,
+      "sha256": "d6da5fb5901a5457c961f71083938ef5107e4e48a494bf3c3b9acce9dfd44d9f",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 118,
+      "offset": 15568896,
+      "size": 264192,
+      "sha256": "0d50e2fc9cedea849036086144a77702cebf7c959b832d5401a2491506222bf4",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 119,
+      "offset": 15833088,
+      "size": 67584,
+      "sha256": "2517d0bceae2be4f1871ea305e6310ce967060af6bcd43df5ed3d235ca739d1c",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 120,
+      "offset": 15900672,
+      "size": 264192,
+      "sha256": "45cb0e10bd5dd49f7503942fbf767a0df3139c147c5e2172b4e2a1ba0e3ffbc4",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 121,
+      "offset": 16164864,
+      "size": 264192,
+      "sha256": "64f5a0bb721ccb1c9d507aad93e7ce10e55697375f900e83d8c80b45dec85533",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 123,
+      "offset": 16431104,
+      "size": 264192,
+      "sha256": "66fbe38e82a4ea19e576f7f38d9e24a213e18d1a732e900c1f0ef0fe2cb6d720",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 124,
+      "offset": 16695296,
+      "size": 264192,
+      "sha256": "e09a0e6a33a419ec46edb9d9ceaed647a0f59c5e495e80a6e8828bcd30726479",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 125,
+      "offset": 16959488,
+      "size": 264192,
+      "sha256": "05a13e6a90c135d40654fbeb8db47347fc8667e57703850333a3ed4003dead7d",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 126,
+      "offset": 17223680,
+      "size": 264192,
+      "sha256": "ce73764559c1ded186f994125eeca09cac7a9d6cf3c27b41f7a4fdceb1b032bf",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 128,
+      "offset": 17489920,
+      "size": 67584,
+      "sha256": "3165166fb18cbc8d5cd32dc369bce6e6fc24cb3fcb360c8e97d81bba38f2fd84",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 130,
+      "offset": 17559552,
+      "size": 67584,
+      "sha256": "f01eff0c6ad14268ecea8d54bdbc0ac23e89e5129268ee4715fb94c8e1dd8f4d",
+      "status": "outside-minigames-options-items-or-ui-reference"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 174,
+      "offset": 17715200,
+      "size": 10240,
+      "sha256": "6f5b0d85ca8f6061d9825bad6519eaac10bfdc998d9b71fd213cc0132cc7eafb",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "entry": 185,
+      "offset": 17747968,
+      "size": 133120,
+      "sha256": "ef93b9432f1df1a6308171e12607bddc8ccc3187aef8782109594a328f6fee62",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "entry": 1,
+      "offset": 281280,
+      "size": 263184,
+      "sha256": "1bf1a4c32cf4c138968039b539f310dce47f583edee8f4a9c1ed7c7958ada779",
+      "status": "existing-portuguese-panel-preserved"
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "entry": 3,
+      "offset": 544496,
+      "size": 32848,
+      "sha256": "545c6b978b64a8395bf3946276b7ccedd439e251fe7fa695963e6bec463e4a8c",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "entry": 0,
+      "offset": 160,
+      "size": 263184,
+      "sha256": "21a381375555e0717d4cb6ca48567b8208e8ee1a0887717fa7768c55536e2782",
+      "status": "existing-portuguese-panel-preserved"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "entry": 15,
+      "offset": 985552,
+      "size": 263184,
+      "sha256": "1ae96969f58d57c8efa677ec31fabfb1daaa00d50cb82e876b1dd80d7ba94c53",
+      "status": "existing-portuguese-panel-preserved"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "entry": 17,
+      "offset": 1248768,
+      "size": 66576,
+      "sha256": "9fdd25efef336dd40948e279132dddba5b0ae048782671b37a13161fe3a05c3c",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "entry": 19,
+      "offset": 1315536,
+      "size": 65616,
+      "sha256": "0d9677d8d5fd32c35745746ceecce606a3e03db11056c81dc3ff5d3b8e1b5689",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "entry": 0,
+      "offset": 96,
+      "size": 263184,
+      "sha256": "1bcd9e7b18d17b2ca8fe719e6bc45f4e093cbbd09ecefc9587d4bd194eb9d9bf",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "entry": 2,
+      "offset": 263312,
+      "size": 132112,
+      "sha256": "604265b7cfda42e3091591d52ab17678379942605a09cb0e58408845dfd2d9c9",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 0,
+      "offset": 192,
+      "size": 263184,
+      "sha256": "fe028c3920255d3c4e68f865011ca50879d78db7714b939c83f8b3739e03623d",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 2,
+      "offset": 263408,
+      "size": 65616,
+      "sha256": "4b7faa8166cf732c31a06e4c7e108637f782b4fca748a04146d7a53894026c42",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 4,
+      "offset": 329792,
+      "size": 65616,
+      "sha256": "9cf692a3741513e438fcb7a635e09572865555920339c9dda5e29414aa8f0e84",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 6,
+      "offset": 396160,
+      "size": 65616,
+      "sha256": "89533bd212500e3b0e3f39216fcb04c76c4285e2625a0ac802531df5b973bf22",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 8,
+      "offset": 462544,
+      "size": 65616,
+      "sha256": "59938e5e4315b5161b0608fcd5163ca3d291b66d39cd189cf2d3b3746a12c31c",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 10,
+      "offset": 528912,
+      "size": 65616,
+      "sha256": "205a21e42a9fe9d640741eba6ea1859df5740ba30668ce49bb657ea924a54802",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 12,
+      "offset": 595280,
+      "size": 65616,
+      "sha256": "61bd074d3bc46b51f37c52038cf5cd26b1e7fc5b25f97a0697711b66ec06b484",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 14,
+      "offset": 661648,
+      "size": 131152,
+      "sha256": "45c6cb0ba1edda775f578e057d1c8d3f1052f47859001ca08fd6e25d50bd37b0",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 16,
+      "offset": 793568,
+      "size": 131152,
+      "sha256": "d4e4ae73ab6318d19343d996a86472c7218e42dc8b2a5515e7778850c072fd18",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 18,
+      "offset": 925472,
+      "size": 131152,
+      "sha256": "6670dd119118f4e31db02e9efde74948bd54908c94516d4cd087e68a58041dbf",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 20,
+      "offset": 1057376,
+      "size": 32848,
+      "sha256": "492932aae51d1db941daeed6d0587f0ebc78991b9f8fa44210651b9f3830405b",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 22,
+      "offset": 1090992,
+      "size": 32848,
+      "sha256": "75b9cdfc2c025e3fdc33235d778cc003e3d3a89471db398a0f07d6f489752204",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 24,
+      "offset": 1124592,
+      "size": 32848,
+      "sha256": "8e45207d5b14dd01bece18dca4ff98c2a47d75e5b54562a7e5c0a63e7c37beae",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 26,
+      "offset": 1158208,
+      "size": 132112,
+      "sha256": "50c8c6e1752c96bf8ae60c16838eaaa554baebf84a065f4f067022ef0fa268ef",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 28,
+      "offset": 1290816,
+      "size": 17424,
+      "sha256": "e0b1cfba2eba31b3686e04b4e96d20e61f4e8e64318d497ee76426302385b5fd",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 30,
+      "offset": 1308432,
+      "size": 66576,
+      "sha256": "5404b0c082cf679a91e43c6aa637b3ca35b06cca61e22ea08e3afa472035a3f0",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 32,
+      "offset": 1375056,
+      "size": 8272,
+      "sha256": "65821e83822e6a5c72874570b719b73bab7b4aa0f8290724d27630b88eac2c10",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 34,
+      "offset": 1383424,
+      "size": 4176,
+      "sha256": "202680b1682ddd9558694e922fba9a5a8378af2e1af2d93e0dbebcf20f4739c4",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 36,
+      "offset": 1387856,
+      "size": 8272,
+      "sha256": "a9f154073e0caadc108db0de25a8939d3e8f887ea4c4a520e689c57148a5b47a",
+      "status": "reviewed-scenery-symbols-or-no-localizable-word-observed"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "entry": 38,
+      "offset": 1396224,
+      "size": 33808,
+      "sha256": "782b7e02c0a9213fe8e27384659547da1da08899bb5f1cefe2532caaafd2ad06",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "entry": 0,
+      "offset": 192,
+      "size": 263184,
+      "sha256": "3f64692d86d93dcbfb1955b3dfd4d36361d3c447494870e397f356d93aff409c",
+      "status": "existing-portuguese-panel-preserved"
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "entry": 2,
+      "offset": 263408,
+      "size": 263184,
+      "sha256": "9b419f6941503adc82f9505a08f584d9abfe88259e6b034cfcfeff9b2df6b935",
+      "status": "localized-v068"
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1438432,
+      "status": "localized-v068-embedded-scene-texture",
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e"
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 277792,
+      "status": "localized-v068-embedded-scene-texture",
+      "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a"
+    }
+  ]
+}

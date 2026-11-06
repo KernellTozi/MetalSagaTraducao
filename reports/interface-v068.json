@@ -1,0 +1,56 @@
+{
+  "version": "interface-v068",
+  "parent": "interface-v067",
+  "dialogue_recipe": "translations/regiao-inicial-v047.json",
+  "interface_recipe": "translations/interface-v068.json",
+  "valid": true,
+  "iso": {
+    "image_name": "MetalSaga-ptbr-interface-v068.iso",
+    "iso_size": 1704427520,
+    "output_iso_sha256": "3fbcbb28e1f956d758b0114e826b56ff2d1ffd5a26d0ad56f55543e9b45712ba",
+    "all_bytes_match_expected_patch": true,
+    "iso_directory_identical": true
+  },
+  "layout_profile": "ptbr-layout-v005",
+  "map_changed_records": 6044,
+  "map_refused": 0,
+  "interface_units": 4640,
+  "minigames": {
+    "policy": "all-minigames-source-bound-indexed-cells-v001",
+    "authored_units": 247,
+    "texture_planes": 53,
+    "word_cells": 200,
+    "instruction_panels": 17,
+    "elf_literals": 27,
+    "table_captions": 3,
+    "pcsx2_executed": false,
+    "visual_status": "pending_user"
+  },
+  "coverage_report": "reports/minigames-cobertura-v001.json",
+  "tests": {
+    "new": 14,
+    "regression": 22,
+    "total": 36,
+    "passed": true
+  },
+  "preflight_verified": true,
+  "backup_v059_hash_verified": true,
+  "backup_v059_read_only": true,
+  "retention_work_isos": 5,
+  "removed_old_work_iso": "work/interface-v063/MetalSaga-ptbr-interface-v063.iso",
+  "launchers_dry_run_verified": true,
+  "historical_sixteen_item_revisions_blocked": 0,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "ore_rename_authorized": false,
+  "whole_iso_delta": {
+    "report": "reports/interface-v068-delta.json",
+    "changed_bytes": 1210230,
+    "patches": 80,
+    "verified": true
+  },
+  "limitations": [
+    "Coverage is the known catalog and identified usages, not every runtime path.",
+    "Graphic fonts approximate the original style; selected states and small labels need gameplay review."
+  ]
+}

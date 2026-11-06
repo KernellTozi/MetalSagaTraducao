@@ -1,5 +1,32 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Continuidade atual — minigames v068, 05/11/2026
+
+- O usuário revogou as dispensas anteriores dos gráficos e instruções de
+  minigames, incluindo títulos/resultados e painéis japoneses. Wanted e nomes
+  próprios de músicas/sapos continuam preservados. Minério pequeno permanece
+  em espera; esta rodada não libera essa alteração.
+- Atual: `translations/interface-v068.json`, pai v067 exato, MAP v047 e
+  `ptbr-layout-v005` mantidos. Manual `docs/interface-v068.md`, catálogo
+  `reports/minigames-cobertura-v001.json`. São 53 planos de textura, 200
+  rótulos, 17 novos painéis, três inscrições de mesa e 27 literais ELF;
+  seis painéis anteriores em português preservados. Total UI 4640; MAP
+  6044/5991/991, itens 633/610 e 108 nomes padrão permanecem iguais.
+- `tools/minigames_release.py`, conteúdo `translations/minigames-conteudo-v001.json`
+  e manifesto `translations/minigames-v001.json` vinculam fonte, pai, áreas e
+  saídas. Dispatch `all_minigames_release` precede `screenshot_backlog_release`.
+  Auditor de capacidade e comparador validam o filho e o pai integral.
+- Quatro planos herdados revisados e 49 novos, em seis SDA; preservar índices
+  4/8bpp, paleta/alpha, cabeçalhos, GANM, áreas externas e ícones. Textos ELF
+  só nas células comprovadas, preservando botões, delimitadores e NUL.
+  G/O/A/L de cenário vira F/I/M/! nas mesmas quatro células.
+- Impact, Arial Bold e Times Bold locais vinculadas por hash são aproximações
+  gráficas, sem distribuição de TTF. Instruções usam GFI e fallback local.
+  Não confundir os 107 recursos revisados com todos os caminhos de execução.
+  Conferência visual dos minigames no PCSX2 fica a cargo do usuário.
+- Atalhos apontam para `work/interface-v068/MetalSaga-ptbr-interface-v068.iso`.
+  Preservar backup v059 independente e retenção de cinco ISOs de trabalho.
+
 ## Objetivo
 
 Desenvolver uma tradução de Metal Saga (PlayStation 2) para português brasileiro, modificando os recursos necessários do jogo original para execução no emulador PCSX2.

@@ -17,16 +17,17 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Interface v067**, sobre MAP v047 e fontes/layout v005. Aplica **Sem tanques**, a entrada **Meu braço!** do diário, **Vila dos Aposentados**, **Túnel 1 - Ferrovia Continental**, **Encouraçado Tiamat**, **TEMPO** e os comandos da dança, além da confirmação de pintura. Revisa duas falas de MC Hamir para português coloquial. A segunda fala tem um aviso conservador de largura a conferir em partida. Minério pequeno continua aguardando liberação.
+**Interface v068**, sobre MAP v047 e fontes/layout v005. Amplia a localização dos minigames, incluindo títulos antes dispensados: 53 planos de textura, 200 rótulos, 17 novos painéis de instruções, três inscrições de mesa e 27 textos internos. Mantém os nomes das músicas e dos sapos. As fontes gráficas são aproximações do estilo; a conferência em partida está pendente. Minério pequeno continua aguardando liberação.
 
-São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.393 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Armas aprovadas e Mundo aberto permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
+São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.640 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Armas aprovadas e Mundo aberto permanecem iguais; 13 rótulos explícitos curtos e a ampliação das categorias abreviadas continuam pendentes. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v067/MetalSaga-ptbr-interface-v067.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. Conferir os novos avisos, diário, locais, pintura, dança e falas de MC Hamir. O perfil isolado histórico tem cartões de memória desativados. Backup v059 protegido; cópias antigas de trabalho são removidas pela retenção, preservando o backup independente e todos os relatórios/receitas.
+ISO: `work/interface-v068/MetalSaga-ptbr-interface-v068.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. Conferir instruções, comandos, resultados, rótulos pequenos e estados selecionados dos minigames. O perfil isolado histórico tem cartões de memória desativados. Backup v059 protegido; cópias antigas de trabalho são removidas pela retenção, preservando o backup independente e todos os relatórios/receitas.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
 **Backup atual:** `dist/backup-v059/MetalSaga-ptbr-backup-v059.iso`, cópia independente somente leitura, com o mesmo hash da v059. Por nova ordem do usuário, foram retiradas as ISOs antigas v055–v058 e a antiga alpha, preservando receitas/relatórios. A base isolada v059 da investigação foi removida pela retenção ao construir v064; pode ser recriada a partir do backup protegido quando necessário. [Estado do método e limites](docs/falantes-lookup-v001.md).
 
+- [Minigames: gráficos, instruções e catálogo de cobertura](docs/interface-v068.md)
 - [Relatos da partida, diário, dança e MC Hamir](docs/interface-v067.md)
 - [Tanque, locais, LOVE Machine e minigame de bebida](docs/interface-v066.md)
 - [Legibilidade do crédito e abertura do e](docs/interface-v065.md)

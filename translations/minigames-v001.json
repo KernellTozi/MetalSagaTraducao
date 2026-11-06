@@ -1,0 +1,8149 @@
+{
+  "schema": 1,
+  "policy": "all-minigames-source-bound-indexed-cells-v001",
+  "parent": "translations/interface-v067.json",
+  "parent_sha256": "731a6a697b1c81e100faf64d4c7fc21ccd66aa30fb7e2744c02dce9d5675b615",
+  "content": "translations/minigames-conteudo-v001.json",
+  "content_sha256": "03f0852a9599ac07d94f623f0a2bfbf42af9930b7e6116d53e785a63dfc13124",
+  "fonts": {
+    "impact": "d8bbdb72e3f930157824b2e59677d3a912d4512c14a948e6656a2e3fb0c935ad",
+    "arial": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "times": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "revised": [
+    {
+      "id": "reported.raster.dance",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1249808,
+      "size": 65536,
+      "source_sha256": "9d620229f507a0b8d739620012604590be146bdb673fc586c8b98f80f9e68cc6",
+      "after_sha256": "ac33af657939263ad64b9c96f4c8bcdb1e5d0c891c25909ad83edd41dbb848e6"
+    },
+    {
+      "id": "RMGKAERU.0.000.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1232,
+      "size": 262144,
+      "source_sha256": "9cf12ad620dee0b53bac1cd8bd3325d88e602e46fe9b660142b8c9c56c4cf377",
+      "after_sha256": "9828afbb88850bdd9efe2d8eb1a199fae800f4918a2a41073d30f4ac5c3e2932"
+    },
+    {
+      "id": "tank-gaps.drinking-hud",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 11971600,
+      "size": 262144,
+      "source_sha256": "f41735a654893167aac49396c90ffa4a3418acb6e7049f056f52c70a81ba6927",
+      "after_sha256": "02413bc9f4e133e6a9aa0282d1880b4f6359b27bfc7e5718b3b7c401103d8d98"
+    },
+    {
+      "id": "observed.vending.13",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 619536,
+      "size": 262144,
+      "source_sha256": "561aac6899332644bf72fa0a48852bdd363f1364e02b0c895ceb1d6b4d7d4a22",
+      "after_sha256": "d3a7d99a7f97819050b20728640365ea0f8ce2b2e03f9a2b8d55768c87cd4a5b"
+    }
+  ],
+  "new": [
+    {
+      "id": "minigame.texture.NDATA.0037c000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 3654672,
+      "size": 262144,
+      "source_sha256": "2b725e88689ed52918ac83a069b2fc4e1ddea82a357097e061a84b003eb4ea48",
+      "after_sha256": "33db90cfcf02ba773226926c1ec28447787241e4fc9961a298a4d14baf90500a"
+    },
+    {
+      "id": "minigame.texture.NDATA.003bc800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 3918864,
+      "size": 262144,
+      "source_sha256": "7363ae4bfa522f02782d7165d45d8c89d6f8457bc9eaa36696163a99da6cf0e4",
+      "after_sha256": "07f26938fcd04c98eafc9c5489fd09d3bebedfb000b5b677edba5efc2bd638c3"
+    },
+    {
+      "id": "minigame.texture.NDATA.004af000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4911184,
+      "size": 131072,
+      "source_sha256": "dcec4b68b6aa87023e0917a1b8ce9fe3f3aa1e9ff14114eb7c3b3e3f67c973c1",
+      "after_sha256": "11c9c1bbfd21ab89c7de31e049a0669bcb6522da7a6ce3698d00e3b1f937d45c"
+    },
+    {
+      "id": "minigame.texture.NDATA.004cf800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5044304,
+      "size": 131072,
+      "source_sha256": "06ac629b1c2c2f9247ac8798e0e42967ec960052cd9961cc3e0c810ef113509c",
+      "after_sha256": "b60b790d5cfd7a207f5d7009885da4e99a17be616e6bace7841907a83d276a77"
+    },
+    {
+      "id": "minigame.texture.NDATA.004f0000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5177424,
+      "size": 131072,
+      "source_sha256": "2d5b6f18a210afb17f1890d12b631f45b214a6d4bbe954d0a99d1ad9c8a87a80",
+      "after_sha256": "fd54d2a7ec23372cd24121ff2062966ed71d3ddd391197ed81bf8b1a31e3a53d"
+    },
+    {
+      "id": "minigame.texture.NDATA.00510800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5311504,
+      "size": 262144,
+      "source_sha256": "86705f01564a5854c4a714b17d5c989d074541b28452cf6bcf10785afbb7112f",
+      "after_sha256": "07e8c34ae07f6a340760f044d65fefffb8da985637848f9203e19ee2400279cf"
+    },
+    {
+      "id": "minigame.texture.NDATA.00bd8000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12420112,
+      "size": 262144,
+      "source_sha256": "0a97f2cf04ab62f06b8d620cce4bc14a4783d592b46cefd50ea59c792baaf725",
+      "after_sha256": "873ba366944a3721d1fe9c1dc8a13c7f3fe0780b27a11b52c35f5ed17bfc8e1f"
+    },
+    {
+      "id": "minigame.texture.NDATA.00c18800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12684304,
+      "size": 262144,
+      "source_sha256": "461813163e0c6ca39e4ee028fb72d70d38dce94aaaa8a34c7de08000bc7f0345",
+      "after_sha256": "9786df35ce1ba25f286c9d65a4c06d041e53356f9078567071a8f357082cde04"
+    },
+    {
+      "id": "minigame.texture.NDATA.00c59000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12948496,
+      "size": 262144,
+      "source_sha256": "e9d373cdbe4969714dc5348fc46b1afcaf52d56232cf7226e34a8181778a9f90",
+      "after_sha256": "57d221b75ac89e995255f86d99dc36633f64150df996220cdf5024004f27bda1"
+    },
+    {
+      "id": "minigame.texture.NDATA.00c99800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13212688,
+      "size": 262144,
+      "source_sha256": "5a37dcdab01b3cd8ce9f77bbeb2aaa50e6d2899cf4bc0a9f514d68f8f434954a",
+      "after_sha256": "1a03b2ebae0695cc8ca16b6e6ff4c058806e19bfa28c3d72856cf7bff1a43339"
+    },
+    {
+      "id": "minigame.texture.NDATA.00db4800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14370896,
+      "size": 131072,
+      "source_sha256": "5355efcbb5ad4164844d97f798231668fe799267360d03cbd992f21deb5e081c",
+      "after_sha256": "fe181530d5370d1772ffcaad0fad578ee53f258fcb7447e6ee69d0f84f6bcc8f"
+    },
+    {
+      "id": "minigame.texture.NDATA.00dd5000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14504016,
+      "size": 131072,
+      "source_sha256": "dec1ef136503b7011cb92bdc9cf4e9b7e463d6990d4f92644786c5092e57eec5",
+      "after_sha256": "e27fea49a47ab3c987bbfd9fc48fb7121c9a2f41b833b712c35194dccfabcc73"
+    },
+    {
+      "id": "minigame.texture.NDATA.00df5800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14637136,
+      "size": 131072,
+      "source_sha256": "48e23146f7bc230df3455873294454e4e8aa1425085223afcd7efc4fcab03bb7",
+      "after_sha256": "a1c65b9bc618affb09a6d38eb76d481f0a099a8af25e408b65c165e8f3ff3a79"
+    },
+    {
+      "id": "minigame.texture.NDATA.00e98000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15302736,
+      "size": 131072,
+      "source_sha256": "fab73d43da5dd555404e273b52fa8866bc2967334215866f3230bb300806a1a4",
+      "after_sha256": "4b8d13aef645d3b062db95f6150abe72cd32e7906cd01beec193816187d1e0af"
+    },
+    {
+      "id": "minigame.texture.NDATA.00eb8800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15435856,
+      "size": 131072,
+      "source_sha256": "63265c066be385182768a1b48cd74627f4ad06f441b6da2a7bbefb3bdde62a49",
+      "after_sha256": "0b8b9113ad7e31d7da2c6bcec855b320784f3f5e455ec55e3b87b7e6ab1b2005"
+    },
+    {
+      "id": "minigame.texture.RMGDOG.00000060",
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 1136,
+      "size": 262144,
+      "source_sha256": "5bc8423d7f7464874b9f7198aba7bda15686c00133928e50cce23f69a04236cd",
+      "after_sha256": "61a940fa2a07d00eea2962108e832eb87ed533e331d0640a970c184fcaaf9b80"
+    },
+    {
+      "id": "minigame.texture.NDATA.006d6000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 7168080,
+      "size": 131072,
+      "source_sha256": "acc3f020eee18e03b23f4ef6759b5bad4d8e1f35adfbbe6162e4c406c034e53d",
+      "after_sha256": "20df95889eef422edc5f82abff21f2183b92cc9082c7374dfd83d0fdd6abb894"
+    },
+    {
+      "id": "minigame.texture.RMGALAN.00084ef0",
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 544576,
+      "size": 32768,
+      "source_sha256": "c9ccbf5051074be22dee25d808abc687524514a7a21ac82baae68ee90e09a315",
+      "after_sha256": "1aaad57898cf8c232bd39be6e2a90be036d0183775b09414ae4656dbfe0a66c6"
+    },
+    {
+      "id": "minigame.texture.RMGDOG.00040490",
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 264352,
+      "size": 131072,
+      "source_sha256": "45dfb5c15d95e3bab75ae0c6fe20776a5b5667e16228784418b39ba370ad4d81",
+      "after_sha256": "978b589d3b9802e7ef068cbec23606fe879b17a1df1c90a516732aa8ffcb7bdc"
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0011ac40",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1159248,
+      "size": 131072,
+      "source_sha256": "8f8f9a5fe01d7a3a2d8063b3f50aa283bf4b9e540ddce5722076e80a2e525191",
+      "after_sha256": "efddf2c8233c2d5451283c69b3cbe7b0a821d591fefd131aef430f128e507bf2"
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0013f710",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1309472,
+      "size": 65536,
+      "source_sha256": "ef3c5df0a4194d1257cfe4f0d0c89e307623fee717f24bf0c5fdfd490281b51d",
+      "after_sha256": "41a64d90fcf438ee1f206f28df8212edc3105d1fa7397a293ee4e0292515bb62"
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0014fb50",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1375136,
+      "size": 8192,
+      "source_sha256": "0c3d9db90f2221b2879652889e460cce5c64720480dc9a7a607e199f0a0554b0",
+      "after_sha256": "ee65930b7cf6bc02d79f1a87bfff8b783447b87bc0b8c0d8687020ba68f409db"
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.00154e00",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1397264,
+      "size": 32768,
+      "source_sha256": "d34a5654b511d68c66504d9dc59309541cbaa968f71c5dc792dcfd900f8784ed",
+      "after_sha256": "1d475db89cdc6466e73c28becc1cc86a669fdc725013efc805b3357e42d8a50d"
+    },
+    {
+      "id": "minigame.texture.RMGTANK.000404f0",
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 264448,
+      "size": 262144,
+      "source_sha256": "5636d6ec44e2fc78e5ffc5bd8718179501398b8ce330df384829985d6769f51f",
+      "after_sha256": "862751c03c9c7afa5105ab15cdd27bca56412593ab088b7fdbddb43c2b2c4361"
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0015f2e0",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1439472,
+      "size": 65536,
+      "source_sha256": "e70b434c4873a71df3a1252cadd4b598e7608d76c33476e9c046944b2dfa06ad",
+      "after_sha256": "2273376d8015600a6e31469b073e0554e3041bf94be0773ae299f677979fd320"
+    },
+    {
+      "id": "minigame.texture.RMGDANCE.00043d20",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 278832,
+      "size": 16384,
+      "source_sha256": "56578e4c42df8a12fde254e67edd7d779e08384d2855fcb081abd7a6c794648a",
+      "after_sha256": "4d6492a909df2bbf2e46d76c3262fa4e594b4139fb2e86487d20b347eb645195"
+    },
+    {
+      "id": "minigame.texture.NDATA.00d6b800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14072848,
+      "size": 262144,
+      "source_sha256": "c5f03aab42a4e99fc0ea9fd92904c59f807cf8ac03b42129bbe2818b356fefd4",
+      "after_sha256": "1c7512589beb94e8a9e2fb04a459e214fb4b0a0a0be44c91e4e286d1fac3b3a0"
+    },
+    {
+      "id": "minigame.texture.NDATA.00dac000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14336080,
+      "size": 32768,
+      "source_sha256": "856534b6a2c5e3b13c74ceea1b6e43e1c99c8254f19bb1e795cd9e9830beff35",
+      "after_sha256": "df482ce26bab9e9e73d9b71b8292ce9e212d9ab04906862c1083c827f7076050"
+    },
+    {
+      "id": "minigame.texture.NDATA.00e87800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15236112,
+      "size": 65536,
+      "source_sha256": "d3a965d1515b2a69a0b11d3663c7fe0990fb43ff8c11e3d7054e24b9681f4f00",
+      "after_sha256": "2b12802201a0a0f48f78faf45ba9639b6d121a68c96b115cab78c76585ca8fe3"
+    },
+    {
+      "id": "minigame.texture.NDATA.00f2a000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15901712,
+      "size": 262144,
+      "source_sha256": "39dd81a6f14ab0dee81768f79f264db8c3e3eda0a10ca4f7ea6056a4843a3038",
+      "after_sha256": "b023aa4549be3f2e0f7f638de709c3c9575114d9726de6b23e6d35e4a92d996f"
+    },
+    {
+      "id": "minigame.texture.NDATA.00e67000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15102992,
+      "size": 131072,
+      "source_sha256": "8f530c24edd4f192595b86bb7a013faeeb19aa97003f02cb23bb5a379c0a820c",
+      "after_sha256": "bb247c5c7c8ec556ac097ffdd8f3b3c0268f6909573a69e65461fe99c60e1392"
+    },
+    {
+      "id": "minigame.texture.NDATA.00cda000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13476880,
+      "size": 262144,
+      "source_sha256": "29ec86ec61578a59cb7d2fa4681ce5ebf47b23b8d967553ebd4d352d020d5cc9",
+      "after_sha256": "43e750532b82864824d8e709127fcd3adf04fd4cf7a94a6341f992cc8f92646d"
+    },
+    {
+      "id": "minigame.texture.NDATA.00ed9000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15569936,
+      "size": 262144,
+      "source_sha256": "005837e201913e2fc197088670716c1bb94539503d25b71fe36fbe9fe9ecc51a",
+      "after_sha256": "74e72181e70c0cff9519bc87be9fa86b41325ec36efc2e833fc573921ec7c6aa"
+    },
+    {
+      "id": "minigame.texture.NDATA.0043d800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4447248,
+      "size": 262144,
+      "source_sha256": "8744908b6c7adf7fc7edc1f8837ea89643827676496da2c0b0a66000391321fc",
+      "after_sha256": "a10b546fc475d86c2c12cdca5dc47537c74cdfbb39ba9424e6aff129e3e62739"
+    },
+    {
+      "id": "minigame.texture.NDATA.00675000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6771728,
+      "size": 131072,
+      "source_sha256": "dfb894df9d05934053629b7d94db12675945648d152a44a5c5987c0254aa8169",
+      "after_sha256": "8ea2bd05bcaca33af9ff4e1d55a360867a5e89edc1020c7011eb6d88ecf6096f"
+    },
+    {
+      "id": "minigame.texture.NDATA.00695800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6904848,
+      "size": 262144,
+      "source_sha256": "4f87028874a9495745f4e3855ecf8d4e6675d6767f1149427545ac50e98342b1",
+      "after_sha256": "f55bdb70bf12c5f67358fa12203cca0b62c601145a1826a0002e9407db59d707"
+    },
+    {
+      "id": "minigame.texture.NDATA.00d2b000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13808656,
+      "size": 262144,
+      "source_sha256": "7579b47782bf6212cf385b45d9815e9a1e3f914ecaae33d82ea5291ca589016c",
+      "after_sha256": "bf0acde023487e42fe7a6d55e6fe00e13fd6669ea1c8bfddeeaf6bb2f40b5116"
+    },
+    {
+      "id": "minigame.texture.NDATA.00f6a800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16165904,
+      "size": 262144,
+      "source_sha256": "3cab3650e3bdd9e56ef3a307517bef8ddbf879aa69b8ae40f8b55cac1a380b5f",
+      "after_sha256": "ecf6e6208ac6e861831fe35d65db333cb33307e1b76e3fe2bd11946cc86d7552"
+    },
+    {
+      "id": "minigame.texture.NDATA.00fab800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16432144,
+      "size": 262144,
+      "source_sha256": "869fb9d89e4799f64f4890083624c8d81f67b3ac9f03648234403b96755c62b0",
+      "after_sha256": "a4c7ebe25434860da4d47fca0b00e4e85ad7fcb7fb0b6ceaa4801b904b9b3a9a"
+    },
+    {
+      "id": "minigame.texture.NDATA.00fec000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16696336,
+      "size": 262144,
+      "source_sha256": "54614e6e02fb36d478a9fbafe1eddeae52d90dcbffe60ff7b3f45ee370d82a74",
+      "after_sha256": "b89e85ed42a1c9ddfa3e0705d9ed65215b84a9b9aee149daf0ff43926bf0d95e"
+    },
+    {
+      "id": "minigame.texture.NDATA.0102c800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16960528,
+      "size": 262144,
+      "source_sha256": "b845b16ca81dfee1d10b28959ca43cbfe2a4b6c0ba8d99b788d564c0d0def9da",
+      "after_sha256": "dd6a51fa220b4330b272222118665c72e822b4cdc93a89c4f95bfdb33b0987ca"
+    },
+    {
+      "id": "minigame.texture.NDATA.0106d000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 17224720,
+      "size": 262144,
+      "source_sha256": "c2e7e475c283eb40cf2666f16be1f6d77727458766fe65ff88d348cd49dbb6ff",
+      "after_sha256": "966515ac363594da5315d85166bdcd97a7045388c4074e203977fd1688722c28"
+    },
+    {
+      "id": "minigame.texture.NDATA.00551000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5575696,
+      "size": 262144,
+      "source_sha256": "2f3ee6570b6ed2eb9c749a3d05e0fd978487e7eeba88a825c15bd29da6fa174b",
+      "after_sha256": "bcc613ce1852d52e98162d998e569ca998ddd6168cf69f529ae198abc67268ca"
+    },
+    {
+      "id": "minigame.texture.NDATA.00591800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5839888,
+      "size": 65536,
+      "source_sha256": "96c94ac715830b8308a62bbf6d7118abbec65283a24cfe32a9657f2e394f61cc",
+      "after_sha256": "f757584af74ff8d9f77bcf63903a3ec0c2ba1809cf579d4e52ac7885cea9b5ed"
+    },
+    {
+      "id": "minigame.texture.NDATA.005e2800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6171664,
+      "size": 65536,
+      "source_sha256": "34520d6ff5450425b1830366b989b2f4fd67715aa8b6c922b04d3abd1b7cdfdc",
+      "after_sha256": "ec6b872397f1a5dceae9fc57c116fd548d49e51dbb192cbc4b685ee9e8839423"
+    },
+    {
+      "id": "minigame.texture.NDATA.003fd000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4183056,
+      "size": 262144,
+      "source_sha256": "5876f1b3e51377aabf017c633a2eab37bd1e2eba1e439824099f881f88920700",
+      "after_sha256": "aacbcb9c92454be6c607fb0e27245f6555ce36e6b8be94e22c6ea94a14d8cb69"
+    },
+    {
+      "id": "minigame.texture.NDATA.00e16000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14771216,
+      "size": 262144,
+      "source_sha256": "1952c048f62300dda88cef73811ce41a11a018acd1b2fbdae67802d29c861a2a",
+      "after_sha256": "0e85c2f539ce229e49e3eaa787299d5df144f4435a91581c1daee4f034010778"
+    },
+    {
+      "id": "minigame.texture.NDATA.00e56800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15035408,
+      "size": 65536,
+      "source_sha256": "833a1675900e0bfd9cf3d01573acb633ea3d5b6c64c7833d0e829c8ebc215d10",
+      "after_sha256": "ec20be8920d0d3a7f919b519a6e35fe6ebfb477934f57b2ef932910bd2e9df75"
+    },
+    {
+      "id": "minigame.texture.NDATA.001e2800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 1977360,
+      "size": 262144,
+      "source_sha256": "e08f5cfaed1d78b7a4814b1bf5977bac3b6d1dbef486b050eb520de6c495cd5a",
+      "after_sha256": "1b168a4c85c97b1bea13ac3cc1da2d5c817a3cee1c28aa9af47fe732e64ade92"
+    },
+    {
+      "id": "minigame.elf.0031dc38",
+      "resource": "SLUS_212.93",
+      "offset": 3267640,
+      "size": 56,
+      "source_sha256": "f2f84ff4dbfdef2d16f800795d6487aeffd85e4a40dae9833d3d69fa90f5a624",
+      "after_sha256": "f66f28e56d325c1ca4609ec4270505a939fbfc1fd814a3999c63311d43ace208"
+    },
+    {
+      "id": "minigame.elf.0031dc88",
+      "resource": "SLUS_212.93",
+      "offset": 3267720,
+      "size": 38,
+      "source_sha256": "a389d50fd5f3dbc0ed8effaf61ad83d991f95f713e2fa8c833812212b16d8db7",
+      "after_sha256": "2c7be868fdc9640ceeb817d2b3f1e455dc6b2496ec876d17817275aa950a150a"
+    },
+    {
+      "id": "minigame.elf.0031dcb0",
+      "resource": "SLUS_212.93",
+      "offset": 3267760,
+      "size": 45,
+      "source_sha256": "5e77d47cae6a0cec0134ec20a1139a6f3ed61369b2333c6ed7fd549de97aff23",
+      "after_sha256": "bf4058238a5b239db70ab0722a6da80020caaabae677c09fac95c75a44fe38e0"
+    },
+    {
+      "id": "minigame.elf.0031dd40",
+      "resource": "SLUS_212.93",
+      "offset": 3267904,
+      "size": 92,
+      "source_sha256": "7b9941f1a40b0b918878bbc397796f104002dd17bda7dc4b3ff7ade18f2ca726",
+      "after_sha256": "3966aeafb57e9724a681cf89d1d4d1c7b667ca5a53eb05b2c97117d208888669"
+    },
+    {
+      "id": "minigame.elf.0031e0b0",
+      "resource": "SLUS_212.93",
+      "offset": 3268784,
+      "size": 78,
+      "source_sha256": "0b9456cac22efc08c12262efb0cc2898a74acddb6821a42c3fc0ac9a4365ef5b",
+      "after_sha256": "da59201d34c89a26e6dd2c308c3b2fa2f011dd7654aee83d9b9f9ca42ae81682"
+    },
+    {
+      "id": "minigame.elf.0031e118",
+      "resource": "SLUS_212.93",
+      "offset": 3268888,
+      "size": 37,
+      "source_sha256": "3454175d383b7715a69a80252eaf86a7e2d3d8567e053c3ffe063eb420d0d88f",
+      "after_sha256": "f2d692cef032b077e037454c4e0f115e5c935ff92a173e59e2f7189f2d40bfde"
+    },
+    {
+      "id": "minigame.elf.0031e140",
+      "resource": "SLUS_212.93",
+      "offset": 3268928,
+      "size": 26,
+      "source_sha256": "ee349593d323389dc05181851a89b1a80489162422c971fc779e79424bb336f7",
+      "after_sha256": "2ab59e05f6ee23e6a810d8363c6dbd0d220265ca009549bc96527b31ba99541e"
+    },
+    {
+      "id": "minigame.elf.0031e160",
+      "resource": "SLUS_212.93",
+      "offset": 3268960,
+      "size": 40,
+      "source_sha256": "7d66acc4679a30fc08d117ab4635a6b960683a1a6a85bd9fbd7bbb99b9b6b5ce",
+      "after_sha256": "bfb5d36599d0c4c60592f675b40745ccdee89b4ed8af9c4b2bfdf49ebfeef161"
+    },
+    {
+      "id": "minigame.elf.0031e6e0",
+      "resource": "SLUS_212.93",
+      "offset": 3270368,
+      "size": 78,
+      "source_sha256": "0b9456cac22efc08c12262efb0cc2898a74acddb6821a42c3fc0ac9a4365ef5b",
+      "after_sha256": "da59201d34c89a26e6dd2c308c3b2fa2f011dd7654aee83d9b9f9ca42ae81682"
+    },
+    {
+      "id": "minigame.elf.0031e7c8",
+      "resource": "SLUS_212.93",
+      "offset": 3270600,
+      "size": 40,
+      "source_sha256": "591706b8571bd86efe0f86bbb8e2b5fc2de49c36ddb3bc4861515bbb4689ed05",
+      "after_sha256": "3921efe886da5ab434a7eaa6229a46ae52d8824d68549596760c06b10786b96c"
+    },
+    {
+      "id": "minigame.elf.0031eb98",
+      "resource": "SLUS_212.93",
+      "offset": 3271576,
+      "size": 81,
+      "source_sha256": "e0a46ba7daa37862fc42fae3c2f19a868a56d1ea7d1452bcc7526fa3c8551e4a",
+      "after_sha256": "c04b0fe0d8c8129cd436a8995c63974a2822b7382d037273dcc092c2ce85df5f"
+    },
+    {
+      "id": "minigame.elf.0031ec08",
+      "resource": "SLUS_212.93",
+      "offset": 3271688,
+      "size": 40,
+      "source_sha256": "a013401336905ea30aa25275e5f1a39099a18dd86be2b040e61eff97f2f1c186",
+      "after_sha256": "aa9bc80a62980e6b29efac27b90ea8c395496d21f46d26bbeb87dfc1846b8ad6"
+    },
+    {
+      "id": "minigame.elf.0031ec30",
+      "resource": "SLUS_212.93",
+      "offset": 3271728,
+      "size": 45,
+      "source_sha256": "82318d3e2b04712cb8eb673819110f18e3d836af108fc3090924d004c9ba3bda",
+      "after_sha256": "b92c2da6277508ce7fa992c4439920e069bc4fb04cc668faf36d5515c2c1cc93"
+    },
+    {
+      "id": "minigame.elf.0031f0b0",
+      "resource": "SLUS_212.93",
+      "offset": 3272880,
+      "size": 50,
+      "source_sha256": "50d401f858c16a132825c180b289a1d94ee6794976e9b4a7e23124a71a5c4a1b",
+      "after_sha256": "73e3753af6478e0419c2cd2e062f6f6fd3c11a04f88d9f6fbe669065f576fb28"
+    },
+    {
+      "id": "minigame.elf.0031f100",
+      "resource": "SLUS_212.93",
+      "offset": 3272960,
+      "size": 83,
+      "source_sha256": "fdd072e1eb800e32311d36d517d02b411970b70bde2174c946da43a006bacd78",
+      "after_sha256": "889271409d059b61c714a6d9dfa222bf5f37f90ec2855ba3042a8446607390b5"
+    },
+    {
+      "id": "minigame.elf.00338b38",
+      "resource": "SLUS_212.93",
+      "offset": 3377976,
+      "size": 32,
+      "source_sha256": "b201b4faa052d62829bb116bf044b56734f54de426012fd49d0f72d72b371e05",
+      "after_sha256": "b9b6e907a88ba2d79544ac1159691fef859045fd33553cd7313666c32e3aa1d6"
+    },
+    {
+      "id": "minigame.elf.0031fd38",
+      "resource": "SLUS_212.93",
+      "offset": 3276088,
+      "size": 16,
+      "source_sha256": "4ad6def40fa1af443cfc44bc2b1836669bd2084f8d6b812710a77f58e1308b80",
+      "after_sha256": "365ac38dc1bc04b60d9fdf102cffc455576cddd2fcb2b3c7964428a72dff9ae0"
+    },
+    {
+      "id": "minigame.elf.0031fd48",
+      "resource": "SLUS_212.93",
+      "offset": 3276104,
+      "size": 16,
+      "source_sha256": "ffc282783fd6c75e49958dff17f86ee4cbf5d4ff67335fa3882a432553b164df",
+      "after_sha256": "72b72cc7ad36e9aabd62560093ed6ee7e0f9c7967968013aaa75cbcaa7c2f3c7"
+    },
+    {
+      "id": "minigame.elf.0031fd68",
+      "resource": "SLUS_212.93",
+      "offset": 3276136,
+      "size": 16,
+      "source_sha256": "33a5e5cfdaea397e79621bc5a518988634d7e6b66bc926624bfb467f8c76178f",
+      "after_sha256": "db53ba8f4d5006fa97bdbf80dca9e80d61880a32bf7997c1f4c71c851f432b3d"
+    },
+    {
+      "id": "minigame.elf.0031fd78",
+      "resource": "SLUS_212.93",
+      "offset": 3276152,
+      "size": 16,
+      "source_sha256": "91c2c1f6e555401615656527aeaf06e99e9269fca76e225b8bd28df0b4f9e393",
+      "after_sha256": "87682fdac7d809bf447129e7e5b2bf3dd9b8b209e76ccdbe61a6032937e0a8bd"
+    },
+    {
+      "id": "minigame.elf.0031fd88",
+      "resource": "SLUS_212.93",
+      "offset": 3276168,
+      "size": 16,
+      "source_sha256": "28339d261c32c564a4641a379409b22e741ba82f92be5d7ad0d755425c194307",
+      "after_sha256": "be52200b7dae001e086897a692ee1c2b12d20856c72adce0224925d494c8f12e"
+    },
+    {
+      "id": "minigame.elf.0031fd98",
+      "resource": "SLUS_212.93",
+      "offset": 3276184,
+      "size": 16,
+      "source_sha256": "4bbfb4ff6559e01f0037e5afb9df86d16b0eb0ab5bed79d2a830e77f0263ddb2",
+      "after_sha256": "aeed6a3dcd2c9d999b103f991c9905ca337e8af696e113d046a527310d99e7ad"
+    },
+    {
+      "id": "minigame.elf.0031fda8",
+      "resource": "SLUS_212.93",
+      "offset": 3276200,
+      "size": 16,
+      "source_sha256": "8cdaca2caf21aaa4d7a888f26bc2705ac3eb9e44d0775daf39e9c2c82cebc18b",
+      "after_sha256": "25ffb38daba38eb6afe86e316ab625cc3612539f994531fcaf1da22f3e72f914"
+    },
+    {
+      "id": "minigame.elf.0031fdd8",
+      "resource": "SLUS_212.93",
+      "offset": 3276248,
+      "size": 16,
+      "source_sha256": "18aefa02e0e80c6ec33f3299bcc4658ccd9d630cbc35a186a4ab8afe8a0d276d",
+      "after_sha256": "ca8b375792929e4ada528c4b2311f264f4d094bbafce1158e74fbb74f5fd59ae"
+    },
+    {
+      "id": "minigame.elf.0031fde8",
+      "resource": "SLUS_212.93",
+      "offset": 3276264,
+      "size": 16,
+      "source_sha256": "56ea00e652436b99385c3832ad27f6f940c674d0ffa1b2d843f091aa57f5432e",
+      "after_sha256": "30b86b05c53c8a1ec73ece9104455add22ee8de99260b6cfa6b4108a8cfcfa7c"
+    },
+    {
+      "id": "minigame.elf.0031fe20",
+      "resource": "SLUS_212.93",
+      "offset": 3276320,
+      "size": 16,
+      "source_sha256": "bf87ae6ca75b93254a2a9f70181e5d4c864d185b538ceb64460798479aa39315",
+      "after_sha256": "ca99c90337298fca507894471c10e86de828a13e5edda75f1099ea8a6bc94661"
+    },
+    {
+      "id": "minigame.elf.00348e00",
+      "resource": "SLUS_212.93",
+      "offset": 3444224,
+      "size": 8,
+      "source_sha256": "28f9e3608d33b8e1ddccb4738aca043f9ed670fc074c0d4de6009f54caaace3a",
+      "after_sha256": "3583ffa88a0d9cf376429d45265fcbece42b6fdd9e45030414eca6c23d45dea8"
+    }
+  ],
+  "evidence": [
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 3653632,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "9180c66f9c1dff4485573ed7f4337fe387de900284f0ec803d2d7f6921b07e99",
+      "words": [
+        {
+          "text": "SALDO",
+          "rect": [
+            180,
+            338,
+            230,
+            352
+          ],
+          "point_size": 8,
+          "mask_sha256": "43f3192584babc9fe0bf5443da256526f76e031d0b78677144857d5ae47e7e52"
+        },
+        {
+          "text": "APOSTA",
+          "rect": [
+            251,
+            338,
+            287,
+            352
+          ],
+          "point_size": 8,
+          "mask_sha256": "9ad9ee62c928361c32f798ff0291478672b08a794a457ec8e73d6010895509c3"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            299,
+            338,
+            334,
+            352
+          ],
+          "point_size": 8,
+          "mask_sha256": "b44c04e9f1c25bfc2248cfbfe01ad776c0b7c880a59794af4b8dffa85fdbad5d"
+        }
+      ],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Escolha uma máquina de 10G ou 100G. Você pode fazer até três",
+          "rect": [
+            34,
+            48,
+            472,
+            64
+          ]
+        },
+        {
+          "text": "apostas por jogada.",
+          "rect": [
+            34,
+            66,
+            181,
+            82
+          ]
+        },
+        {
+          "text": "Uma aposta vale só para a linha central. Duas valem para as",
+          "rect": [
+            34,
+            98,
+            459,
+            114
+          ]
+        },
+        {
+          "text": "três linhas horizontais. Três também incluem as diagonais.",
+          "rect": [
+            34,
+            116,
+            448,
+            132
+          ]
+        },
+        {
+          "text": "Três símbolos iguais numa linha apostada dão um prêmio. O valor",
+          "rect": [
+            34,
+            164,
+            457,
+            179
+          ]
+        },
+        {
+          "text": "depende dos símbolos.",
+          "rect": [
+            34,
+            181,
+            185,
+            196
+          ]
+        },
+        {
+          "text": "Diagonal",
+          "rect": [
+            28,
+            218,
+            78,
+            231
+          ]
+        },
+        {
+          "text": "Superior",
+          "rect": [
+            28,
+            245,
+            78,
+            258
+          ]
+        },
+        {
+          "text": "Central",
+          "rect": [
+            28,
+            270,
+            71,
+            283
+          ]
+        },
+        {
+          "text": "Inferior",
+          "rect": [
+            28,
+            296,
+            73,
+            309
+          ]
+        },
+        {
+          "text": "Diagonal",
+          "rect": [
+            28,
+            323,
+            78,
+            336
+          ]
+        },
+        {
+          "text": "1 / 2",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 3917824,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "31c55912edc02b4597473e7aa61b7c28dd9008675efef684ea1b0c6d76241b96",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Controles",
+          "rect": [
+            208,
+            16,
+            304,
+            38
+          ]
+        },
+        {
+          "text": "Aumentar aposta",
+          "rect": [
+            118,
+            69,
+            259,
+            88
+          ]
+        },
+        {
+          "text": "Girar os rolos",
+          "rect": [
+            118,
+            116,
+            234,
+            135
+          ]
+        },
+        {
+          "text": "Parar o rolo esquerdo",
+          "rect": [
+            118,
+            163,
+            304,
+            182
+          ]
+        },
+        {
+          "text": "Parar o rolo central",
+          "rect": [
+            118,
+            210,
+            287,
+            229
+          ]
+        },
+        {
+          "text": "Parar o rolo direito",
+          "rect": [
+            118,
+            257,
+            282,
+            276
+          ]
+        },
+        {
+          "text": "2 / 2",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4911104,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "2aba775f36e83bb682f441920ac3ac4aef76fa2a8469892f8115dc9e6f84ccfd",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Na roleta, você aposta onde a bola vai parar. Faça suas",
+          "rect": [
+            40,
+            58,
+            468,
+            75
+          ]
+        },
+        {
+          "text": "apostas na mesa antes de girar a roda.",
+          "rect": [
+            40,
+            77,
+            337,
+            94
+          ]
+        },
+        {
+          "text": "A roda tem 38 casas: os números de 1 a 36, mais 0 e 00. Os",
+          "rect": [
+            40,
+            126,
+            466,
+            143
+          ]
+        },
+        {
+          "text": "zeros são verdes. Dos outros números, metade é",
+          "rect": [
+            40,
+            145,
+            407,
+            162
+          ]
+        },
+        {
+          "text": "vermelha e metade é preta.",
+          "rect": [
+            40,
+            164,
+            247,
+            181
+          ]
+        },
+        {
+          "text": "A bola define o resultado ao parar numa casa. Apostas",
+          "rect": [
+            40,
+            230,
+            453,
+            247
+          ]
+        },
+        {
+          "text": "perdedoras saem da mesa. As vencedoras recebem o",
+          "rect": [
+            40,
+            249,
+            435,
+            266
+          ]
+        },
+        {
+          "text": "valor apostado de volta, mais o prêmio.",
+          "rect": [
+            40,
+            268,
+            339,
+            285
+          ]
+        },
+        {
+          "text": "Exemplo: 100G num único número rendem 100G de volta mais 3500G de",
+          "rect": [
+            40,
+            316,
+            448,
+            330
+          ]
+        },
+        {
+          "text": "prêmio, pois essa aposta paga 35 para 1.",
+          "rect": [
+            40,
+            332,
+            294,
+            346
+          ]
+        },
+        {
+          "text": "1 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5044224,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "1598a2cd45f2e40a6a8b381110918e9b57a49b9c2f8b840e97feddb16b7da7c7",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Apostas e prêmios (1)",
+          "rect": [
+            150,
+            16,
+            362,
+            38
+          ]
+        },
+        {
+          "text": "Número único",
+          "rect": [
+            30,
+            50,
+            134,
+            68
+          ]
+        },
+        {
+          "text": "35:1",
+          "rect": [
+            415,
+            50,
+            447,
+            68
+          ]
+        },
+        {
+          "text": "Aposte em um número.",
+          "rect": [
+            40,
+            73,
+            174,
+            87
+          ]
+        },
+        {
+          "text": "Dois números",
+          "rect": [
+            30,
+            100,
+            133,
+            118
+          ]
+        },
+        {
+          "text": "17:1",
+          "rect": [
+            415,
+            100,
+            447,
+            118
+          ]
+        },
+        {
+          "text": "Na linha entre dois números vizinhos.",
+          "rect": [
+            40,
+            123,
+            270,
+            137
+          ]
+        },
+        {
+          "text": "Três números",
+          "rect": [
+            30,
+            150,
+            136,
+            168
+          ]
+        },
+        {
+          "text": "11:1",
+          "rect": [
+            415,
+            150,
+            447,
+            168
+          ]
+        },
+        {
+          "text": "Uma fileira de três números.",
+          "rect": [
+            40,
+            173,
+            214,
+            187
+          ]
+        },
+        {
+          "text": "Quatro números",
+          "rect": [
+            30,
+            200,
+            153,
+            218
+          ]
+        },
+        {
+          "text": "9:1",
+          "rect": [
+            415,
+            200,
+            439,
+            218
+          ]
+        },
+        {
+          "text": "No canto compartilhado por quatro números.",
+          "rect": [
+            40,
+            223,
+            316,
+            237
+          ]
+        },
+        {
+          "text": "Seis números",
+          "rect": [
+            30,
+            250,
+            133,
+            268
+          ]
+        },
+        {
+          "text": "5:1",
+          "rect": [
+            415,
+            250,
+            439,
+            268
+          ]
+        },
+        {
+          "text": "Duas fileiras, com seis números ao todo.",
+          "rect": [
+            40,
+            273,
+            291,
+            287
+          ]
+        },
+        {
+          "text": "Coluna",
+          "rect": [
+            30,
+            300,
+            83,
+            318
+          ]
+        },
+        {
+          "text": "2:1",
+          "rect": [
+            415,
+            300,
+            439,
+            318
+          ]
+        },
+        {
+          "text": "Uma coluna de doze números.",
+          "rect": [
+            40,
+            323,
+            219,
+            337
+          ]
+        },
+        {
+          "text": "2 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5177344,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "a935c8b5927725a6120dd82a110444e8d2005804755465ff506e849e94a72488",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Apostas e prêmios (2)",
+          "rect": [
+            150,
+            16,
+            362,
+            38
+          ]
+        },
+        {
+          "text": "Dúzia",
+          "rect": [
+            30,
+            55,
+            73,
+            73
+          ]
+        },
+        {
+          "text": "2:1",
+          "rect": [
+            415,
+            55,
+            439,
+            73
+          ]
+        },
+        {
+          "text": "Uma das áreas: 1ª, 2ª ou 3ª dúzia.",
+          "rect": [
+            40,
+            80,
+            269,
+            95
+          ]
+        },
+        {
+          "text": "Pares",
+          "rect": [
+            30,
+            113,
+            77,
+            131
+          ]
+        },
+        {
+          "text": "1:1",
+          "rect": [
+            415,
+            113,
+            439,
+            131
+          ]
+        },
+        {
+          "text": "Aposte nos números pares.",
+          "rect": [
+            40,
+            138,
+            208,
+            152
+          ]
+        },
+        {
+          "text": "Ímpares",
+          "rect": [
+            30,
+            171,
+            101,
+            194
+          ]
+        },
+        {
+          "text": "1:1",
+          "rect": [
+            415,
+            171,
+            439,
+            189
+          ]
+        },
+        {
+          "text": "Aposte nos números ímpares.",
+          "rect": [
+            40,
+            196,
+            219,
+            210
+          ]
+        },
+        {
+          "text": "Vermelhos",
+          "rect": [
+            30,
+            229,
+            111,
+            247
+          ]
+        },
+        {
+          "text": "1:1",
+          "rect": [
+            415,
+            229,
+            439,
+            247
+          ]
+        },
+        {
+          "text": "Aposte nos números vermelhos.",
+          "rect": [
+            40,
+            254,
+            234,
+            268
+          ]
+        },
+        {
+          "text": "Pretos",
+          "rect": [
+            30,
+            287,
+            85,
+            305
+          ]
+        },
+        {
+          "text": "1:1",
+          "rect": [
+            415,
+            287,
+            439,
+            305
+          ]
+        },
+        {
+          "text": "Aposte nos números pretos.",
+          "rect": [
+            40,
+            312,
+            214,
+            326
+          ]
+        },
+        {
+          "text": "3 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5310464,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "4d607d78783b82439d8df068d021076f426904b559cc00f09c3a81efad763137",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Controles",
+          "rect": [
+            208,
+            16,
+            304,
+            38
+          ]
+        },
+        {
+          "text": "Apostas",
+          "rect": [
+            219,
+            58,
+            292,
+            78
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            120,
+            105,
+            225,
+            123
+          ]
+        },
+        {
+          "text": "Apostar ou aumentar aposta",
+          "rect": [
+            120,
+            157,
+            345,
+            175
+          ]
+        },
+        {
+          "text": "Reduzir aposta",
+          "rect": [
+            120,
+            209,
+            240,
+            227
+          ]
+        },
+        {
+          "text": "Depois de apostar, leve o cursor até OK e aperte o",
+          "rect": [
+            40,
+            267,
+            426,
+            284
+          ]
+        },
+        {
+          "text": "botão indicado para girar.",
+          "rect": [
+            40,
+            286,
+            241,
+            303
+          ]
+        },
+        {
+          "text": "4 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12419072,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "9444402275b84ce24b2a767345df699c73a611b32e78494b7509316f5183c34c",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Forme a melhor mão com cinco cartas. Você pode trocar cada",
+          "rect": [
+            36,
+            48,
+            442,
+            63
+          ]
+        },
+        {
+          "text": "carta uma vez. Uma mão sem combinação ou com apenas um par",
+          "rect": [
+            36,
+            65,
+            445,
+            80
+          ]
+        },
+        {
+          "text": "baixo perde.",
+          "rect": [
+            36,
+            82,
+            123,
+            97
+          ]
+        },
+        {
+          "text": "SEM PAR",
+          "rect": [
+            34,
+            111,
+            98,
+            129
+          ]
+        },
+        {
+          "text": "Valores diferentes, com naipes variados.",
+          "rect": [
+            36,
+            153,
+            276,
+            166
+          ]
+        },
+        {
+          "text": "PAR BAIXO",
+          "rect": [
+            34,
+            195,
+            112,
+            213
+          ]
+        },
+        {
+          "text": "Um par abaixo de valete não dá prêmio.",
+          "rect": [
+            36,
+            242,
+            262,
+            255
+          ]
+        },
+        {
+          "text": "Após uma mão premiada, você pode tentar dobrar o prêmio. Escolha uma",
+          "rect": [
+            36,
+            275,
+            448,
+            288
+          ]
+        },
+        {
+          "text": "carta maior que a carta aberta. Você pode tentar até dez vezes. Se errar,",
+          "rect": [
+            36,
+            290,
+            470,
+            303
+          ]
+        },
+        {
+          "text": "perde tudo. Se a carta aberta for um coringa, você perde automaticamente.",
+          "rect": [
+            36,
+            305,
+            476,
+            318
+          ]
+        },
+        {
+          "text": "1 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12683264,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "5c4a545ec0796a03812d45189b693581ab371ba0b10743bcc9a426f9c1caa80a",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Controles",
+          "rect": [
+            208,
+            16,
+            304,
+            38
+          ]
+        },
+        {
+          "text": "Aposta",
+          "rect": [
+            226,
+            43,
+            286,
+            62
+          ]
+        },
+        {
+          "text": "Apostar",
+          "rect": [
+            122,
+            72,
+            186,
+            90
+          ]
+        },
+        {
+          "text": "Iniciar jogo",
+          "rect": [
+            122,
+            104,
+            214,
+            122
+          ]
+        },
+        {
+          "text": "Pôquer",
+          "rect": [
+            226,
+            144,
+            286,
+            163
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            122,
+            174,
+            227,
+            192
+          ]
+        },
+        {
+          "text": "Manter carta",
+          "rect": [
+            122,
+            206,
+            226,
+            224
+          ]
+        },
+        {
+          "text": "Trocar carta",
+          "rect": [
+            122,
+            238,
+            227,
+            256
+          ]
+        },
+        {
+          "text": "Dobro ou nada",
+          "rect": [
+            195,
+            278,
+            316,
+            297
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            122,
+            307,
+            227,
+            325
+          ]
+        },
+        {
+          "text": "Confirmar",
+          "rect": [
+            122,
+            339,
+            200,
+            357
+          ]
+        },
+        {
+          "text": "2 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12947456,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "4f07350528f29eb681e24a5623cf5ebbc0bb9685b9358f59c78b8335f5e76f0f",
+      "words": [
+        {
+          "text": "CORINGA",
+          "rect": [
+            428,
+            20,
+            462,
+            29
+          ],
+          "point_size": 6,
+          "mask_sha256": "4d30be3b49b9800a61e8311798b2f2ce8c46f16196d3176b43897b7533b62b6e"
+        }
+      ],
+      "instructions": [
+        {
+          "text": "QUINA",
+          "rect": [
+            30,
+            26,
+            67,
+            41
+          ]
+        },
+        {
+          "text": "Quatro cartas iguais e um coringa.",
+          "rect": [
+            34,
+            63,
+            233,
+            76
+          ]
+        },
+        {
+          "text": "SEQUÊNCIA REAL",
+          "rect": [
+            30,
+            98,
+            167,
+            115
+          ]
+        },
+        {
+          "text": "10, J, Q, K e A do mesmo naipe.",
+          "rect": [
+            34,
+            135,
+            210,
+            148
+          ]
+        },
+        {
+          "text": "SEQUÊNCIA DE NAIPE",
+          "rect": [
+            30,
+            170,
+            197,
+            187
+          ]
+        },
+        {
+          "text": "Cinco cartas seguidas do mesmo naipe.",
+          "rect": [
+            34,
+            207,
+            258,
+            220
+          ]
+        },
+        {
+          "text": "QUADRA",
+          "rect": [
+            30,
+            242,
+            80,
+            257
+          ]
+        },
+        {
+          "text": "Quatro cartas de mesmo valor.",
+          "rect": [
+            34,
+            279,
+            210,
+            292
+          ]
+        },
+        {
+          "text": "TRINCA E PAR",
+          "rect": [
+            30,
+            314,
+            115,
+            329
+          ]
+        },
+        {
+          "text": "Três cartas iguais e um par.",
+          "rect": [
+            34,
+            351,
+            196,
+            364
+          ]
+        },
+        {
+          "text": "3 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13211648,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "2e758ed4af9131d45618cb968e9ce03bad40a49e465c291920b5816885cf625e",
+      "words": [],
+      "instructions": [
+        {
+          "text": "MESMO NAIPE",
+          "rect": [
+            30,
+            26,
+            111,
+            41
+          ]
+        },
+        {
+          "text": "Cinco cartas do mesmo naipe.",
+          "rect": [
+            34,
+            63,
+            204,
+            76
+          ]
+        },
+        {
+          "text": "SEQUÊNCIA",
+          "rect": [
+            30,
+            98,
+            122,
+            115
+          ]
+        },
+        {
+          "text": "Cinco valores seguidos, sem voltar ao início.",
+          "rect": [
+            34,
+            135,
+            294,
+            148
+          ]
+        },
+        {
+          "text": "TRINCA",
+          "rect": [
+            30,
+            170,
+            75,
+            185
+          ]
+        },
+        {
+          "text": "Três cartas de mesmo valor.",
+          "rect": [
+            34,
+            207,
+            198,
+            220
+          ]
+        },
+        {
+          "text": "DOIS PARES",
+          "rect": [
+            30,
+            242,
+            103,
+            257
+          ]
+        },
+        {
+          "text": "Dois pares de valores diferentes.",
+          "rect": [
+            34,
+            279,
+            230,
+            292
+          ]
+        },
+        {
+          "text": "PAR ALTO",
+          "rect": [
+            30,
+            314,
+            92,
+            329
+          ]
+        },
+        {
+          "text": "Um par de J, Q, K ou A.",
+          "rect": [
+            34,
+            351,
+            164,
+            364
+          ]
+        },
+        {
+          "text": "4 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14370816,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "6ccde342407650a304183713838b9b883582df0ba2f9ebc856d2e1389532cce2",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Chegue o mais perto possível de 21 sem passar desse",
+          "rect": [
+            36,
+            58,
+            457,
+            76
+          ]
+        },
+        {
+          "text": "valor.",
+          "rect": [
+            36,
+            78,
+            87,
+            96
+          ]
+        },
+        {
+          "text": "Faça sua aposta. O crupiê dá duas cartas abertas para",
+          "rect": [
+            36,
+            111,
+            456,
+            128
+          ]
+        },
+        {
+          "text": "você e duas para si, uma aberta e uma fechada.",
+          "rect": [
+            36,
+            130,
+            398,
+            147
+          ]
+        },
+        {
+          "text": "J, Q e K valem 10. O ás vale 1 ou 11. As outras cartas valem",
+          "rect": [
+            36,
+            195,
+            476,
+            212
+          ]
+        },
+        {
+          "text": "o número que mostram.",
+          "rect": [
+            36,
+            214,
+            205,
+            231
+          ]
+        },
+        {
+          "text": "Um ás com 10, J, Q ou K nas duas primeiras cartas forma um",
+          "rect": [
+            36,
+            264,
+            448,
+            280
+          ]
+        },
+        {
+          "text": "vinte e um natural. Caso contrário, você pode pedir mais",
+          "rect": [
+            36,
+            282,
+            438,
+            298
+          ]
+        },
+        {
+          "text": "cartas, uma por vez. Se passar de 21, perde.",
+          "rect": [
+            36,
+            300,
+            358,
+            316
+          ]
+        },
+        {
+          "text": "1 / 3",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14503936,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "9166edd2f9636a2e0c81fadf5c3c7437d9806061107e767233854503c46d83e2",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "APOSTAR: coloque fichas na área de aposta.",
+          "rect": [
+            32,
+            56,
+            350,
+            72
+          ]
+        },
+        {
+          "text": "COMPRAR: peça mais uma carta.",
+          "rect": [
+            32,
+            103,
+            253,
+            119
+          ]
+        },
+        {
+          "text": "PARAR: mantenha o total que já tem.",
+          "rect": [
+            32,
+            150,
+            289,
+            166
+          ]
+        },
+        {
+          "text": "DOBRAR: dobre a aposta e receba só mais uma carta. Disponível",
+          "rect": [
+            32,
+            197,
+            482,
+            213
+          ]
+        },
+        {
+          "text": "apenas com duas cartas.",
+          "rect": [
+            32,
+            215,
+            210,
+            231
+          ]
+        },
+        {
+          "text": "DIVIDIR: se tiver um par, separe-o em duas mãos.",
+          "rect": [
+            32,
+            264,
+            375,
+            280
+          ]
+        },
+        {
+          "text": "SEGURO: se o crupiê mostrar um ás, aposte mais metade do valor inicial",
+          "rect": [
+            32,
+            313,
+            470,
+            327
+          ]
+        },
+        {
+          "text": "para recuperar sua aposta caso ele faça um vinte e um natural.",
+          "rect": [
+            32,
+            329,
+            427,
+            343
+          ]
+        },
+        {
+          "text": "2 / 3",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14637056,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "e24fceedffdb727d9d9693e60e542cb29e9b6939e873e7442eeb9e41fe7f1542",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Controles",
+          "rect": [
+            208,
+            16,
+            304,
+            38
+          ]
+        },
+        {
+          "text": "Aposta",
+          "rect": [
+            224,
+            55,
+            287,
+            75
+          ]
+        },
+        {
+          "text": "Apostar",
+          "rect": [
+            125,
+            103,
+            189,
+            121
+          ]
+        },
+        {
+          "text": "Iniciar jogo",
+          "rect": [
+            125,
+            150,
+            217,
+            168
+          ]
+        },
+        {
+          "text": "Comprar / Parar / Dividir",
+          "rect": [
+            153,
+            217,
+            359,
+            236
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            125,
+            270,
+            230,
+            288
+          ]
+        },
+        {
+          "text": "Confirmar",
+          "rect": [
+            125,
+            317,
+            203,
+            335
+          ]
+        },
+        {
+          "text": "3 / 3",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15302656,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "4bebb89b889a3c6d384489fdbc1447fc8b7e17edddbf5b4377b80f74b91ccca7",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Descubra um número de três algarismos em até cinco",
+          "rect": [
+            36,
+            56,
+            427,
+            73
+          ]
+        },
+        {
+          "text": "tentativas. Nenhum algarismo se repete.",
+          "rect": [
+            36,
+            75,
+            343,
+            92
+          ]
+        },
+        {
+          "text": "Nível 1: algarismos de 0 a 7.",
+          "rect": [
+            36,
+            124,
+            244,
+            141
+          ]
+        },
+        {
+          "text": "Nível 2: algarismos de 0 a 8.",
+          "rect": [
+            36,
+            153,
+            244,
+            170
+          ]
+        },
+        {
+          "text": "Nível 3: algarismos de 0 a 9.",
+          "rect": [
+            36,
+            182,
+            244,
+            199
+          ]
+        },
+        {
+          "text": "Dicas",
+          "rect": [
+            231,
+            226,
+            280,
+            246
+          ]
+        },
+        {
+          "text": "ERRO: nenhum algarismo correto.",
+          "rect": [
+            36,
+            259,
+            269,
+            275
+          ]
+        },
+        {
+          "text": "FORA: algarismo certo, posição errada.",
+          "rect": [
+            36,
+            288,
+            318,
+            304
+          ]
+        },
+        {
+          "text": "CERTO: algarismo e posição corretos.",
+          "rect": [
+            36,
+            317,
+            304,
+            333
+          ]
+        },
+        {
+          "text": "1 CERTO e 2 FORA: um no lugar certo e dois fora.",
+          "rect": [
+            24,
+            349,
+            300,
+            362
+          ]
+        },
+        {
+          "text": "1 / 2",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15435776,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "325b9307b3822b450b757c2fe63c3c15e88d0433c6bb34b6bffe435fd131cedb",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Controles",
+          "rect": [
+            208,
+            16,
+            304,
+            38
+          ]
+        },
+        {
+          "text": "Aposta",
+          "rect": [
+            226,
+            45,
+            286,
+            64
+          ]
+        },
+        {
+          "text": "Apostar",
+          "rect": [
+            120,
+            75,
+            181,
+            92
+          ]
+        },
+        {
+          "text": "Confirmar",
+          "rect": [
+            120,
+            108,
+            193,
+            125
+          ]
+        },
+        {
+          "text": "Dificuldade",
+          "rect": [
+            208,
+            151,
+            304,
+            170
+          ]
+        },
+        {
+          "text": "Escolher nível",
+          "rect": [
+            120,
+            180,
+            228,
+            197
+          ]
+        },
+        {
+          "text": "Iniciar jogo",
+          "rect": [
+            120,
+            213,
+            207,
+            230
+          ]
+        },
+        {
+          "text": "Palpite",
+          "rect": [
+            225,
+            251,
+            286,
+            270
+          ]
+        },
+        {
+          "text": "Alterar algarismo",
+          "rect": [
+            120,
+            280,
+            250,
+            297
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            120,
+            312,
+            219,
+            329
+          ]
+        },
+        {
+          "text": "Confirmar palpite",
+          "rect": [
+            120,
+            344,
+            251,
+            361
+          ]
+        },
+        {
+          "text": "2 / 2",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 96,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+      "header_palette_sha256": "f06391bb4f3cd9c3e1841a238bfdde864b44da6284068a3d19b55f82d14cfa96",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Seu cão enfrenta monstros em duelos. As lutas são",
+          "rect": [
+            36,
+            66,
+            464,
+            85
+          ]
+        },
+        {
+          "text": "automáticas, pois você não pode dar ordens ao",
+          "rect": [
+            36,
+            87,
+            436,
+            106
+          ]
+        },
+        {
+          "text": "cão.",
+          "rect": [
+            36,
+            108,
+            76,
+            127
+          ]
+        },
+        {
+          "text": "A cada vitória, o prêmio aumenta. Se perder, você",
+          "rect": [
+            36,
+            163,
+            461,
+            182
+          ]
+        },
+        {
+          "text": "perde todo o prêmio acumulado. Por isso, saber a",
+          "rect": [
+            36,
+            184,
+            453,
+            203
+          ]
+        },
+        {
+          "text": "hora de parar também faz parte do jogo.",
+          "rect": [
+            36,
+            205,
+            379,
+            224
+          ]
+        },
+        {
+          "text": "Vença as cinco rodadas para ser campeão!",
+          "rect": [
+            36,
+            304,
+            398,
+            323
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 7168000,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "8b32eb7a0ad0952737eba14bd2752fdf1d624f0ca516a30c49debfc4bafbc977",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Apostas da roleta",
+          "rect": [
+            168,
+            12,
+            344,
+            34
+          ]
+        },
+        {
+          "text": "Número único - Um número.",
+          "rect": [
+            34,
+            62,
+            196,
+            76
+          ]
+        },
+        {
+          "text": "Dois números - Dois números vizinhos.",
+          "rect": [
+            34,
+            94,
+            267,
+            108
+          ]
+        },
+        {
+          "text": "Três números - Uma fileira de três.",
+          "rect": [
+            34,
+            126,
+            250,
+            140
+          ]
+        },
+        {
+          "text": "Quatro números - Quatro cantos vizinhos.",
+          "rect": [
+            34,
+            158,
+            291,
+            172
+          ]
+        },
+        {
+          "text": "Seis números - Duas fileiras de três.",
+          "rect": [
+            34,
+            190,
+            261,
+            204
+          ]
+        },
+        {
+          "text": "Coluna - Uma coluna de doze.",
+          "rect": [
+            34,
+            222,
+            213,
+            236
+          ]
+        },
+        {
+          "text": "Dúzia - 1ª, 2ª ou 3ª dúzia.",
+          "rect": [
+            34,
+            254,
+            205,
+            269
+          ]
+        },
+        {
+          "text": "Pares / ímpares - Números pares ou ímpares.",
+          "rect": [
+            34,
+            286,
+            309,
+            300
+          ]
+        },
+        {
+          "text": "Vermelhos / pretos - Números vermelhos ou pretos.",
+          "rect": [
+            34,
+            318,
+            351,
+            332
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 544496,
+      "texture": {
+        "width": 256,
+        "height": 256,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 32768,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "5780b5cacbf7523bd5915e3e7fbc0367f201752dc7ca614b9d4939175d7db25f",
+      "header_palette_sha256": "54dce8474f2654dcf9859bcb62c14d9556525857784d8e8f18c04d87eaf91ae2",
+      "words": [
+        {
+          "text": "PREPARE-SE...",
+          "rect": [
+            0,
+            0,
+            168,
+            40
+          ],
+          "point_size": 31,
+          "mask_sha256": "ade21b1b4c6997c4142044dabfbe7e1398eaf0f14bb30c6725a512f456b08089"
+        },
+        {
+          "text": "JÁ!",
+          "rect": [
+            0,
+            40,
+            192,
+            88
+          ],
+          "point_size": 42,
+          "mask_sha256": "a70acdc205dcf730315e31ed96ac770883a33adc767d3a28da3ebefebba74318"
+        },
+        {
+          "text": "TEMPO ESGOTADO!",
+          "rect": [
+            0,
+            88,
+            232,
+            136
+          ],
+          "point_size": 31,
+          "mask_sha256": "f036c3fbdb63e87d0e8d4d4763d233d1bfd208ffc732f280d7be61ed7b6aa976"
+        },
+        {
+          "text": "CHEGADA!",
+          "rect": [
+            0,
+            136,
+            168,
+            184
+          ],
+          "point_size": 42,
+          "mask_sha256": "8b876f337990d89a7c1498d90b9850f2846764c0bafd2d3d2b018e0a6dec9534"
+        },
+        {
+          "text": "PERDEU",
+          "rect": [
+            0,
+            184,
+            144,
+            232
+          ],
+          "point_size": 42,
+          "mask_sha256": "e2c063454592a181fab0367cf9f6aff5fedf9b176e3aab102c4ceb5a5f15b0ac"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1248768,
+      "texture": {
+        "width": 512,
+        "height": 128,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+      "header_palette_sha256": "563b0015a849ce2a727d7e0d1522e61a9b801b9ddf8d08c18a26bf84b3933fc3",
+      "words": [
+        {
+          "text": "JÁ!",
+          "rect": [
+            0,
+            32,
+            192,
+            80
+          ],
+          "point_size": 34,
+          "mask_sha256": "bf2858478e3caa526a79e51bf4501b2e9ea131d13fab1776320b21ff4aacc3e8"
+        },
+        {
+          "text": "BOM",
+          "rect": [
+            192,
+            32,
+            256,
+            56
+          ],
+          "point_size": 25,
+          "mask_sha256": "f372581c6f077a2a8f80045842cefb8c02763632b0620535bbfa49b0f38996d9"
+        },
+        {
+          "text": "ERRO",
+          "rect": [
+            192,
+            56,
+            256,
+            80
+          ],
+          "point_size": 25,
+          "mask_sha256": "4bf1bc9b222dcdfa9966dedfca2c7603448690c9541f1ffccfed94728256332f"
+        },
+        {
+          "text": "PREPARE-SE...",
+          "rect": [
+            0,
+            80,
+            160,
+            116
+          ],
+          "point_size": 30,
+          "mask_sha256": "6589e3bfbe88c83906c02291e1c264cc7633909a77d3929467599d335a1e7944"
+        }
+      ],
+      "instructions": [],
+      "revised": true
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 263312,
+      "texture": {
+        "width": 512,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "2a9f6f78478ef891d0ce7f237b0ec2b8ff1fb5fdd747ea4cbf9048dbec717e3a",
+      "header_palette_sha256": "d386b34d04f0cd9f8dc16818a5cf8e41680138fe6e0d0e66460d22f81dd25198",
+      "words": [
+        {
+          "text": "VOCÊ\nVENCEU",
+          "rect": [
+            0,
+            0,
+            200,
+            96
+          ],
+          "point_size": 45,
+          "mask_sha256": "2fb70ded9cd8adb72422aea13676611a51277b30315844fa42c8a2b4bec14dd3"
+        },
+        {
+          "text": "PERDEU",
+          "rect": [
+            0,
+            96,
+            280,
+            200
+          ],
+          "point_size": 74,
+          "mask_sha256": "ad193f779b98ed33bb2a6f6d4e935173c9ce5c894fb84fa3d128e922ee60c588"
+        },
+        {
+          "text": "RODADA 1",
+          "rect": [
+            400,
+            0,
+            512,
+            24
+          ],
+          "point_size": 20,
+          "mask_sha256": "a55b05d172f11a1b3f32d85c065b6fa29d2db7fa93827902bea86f596b83152e"
+        },
+        {
+          "text": "RODADA 2",
+          "rect": [
+            400,
+            24,
+            512,
+            48
+          ],
+          "point_size": 20,
+          "mask_sha256": "5540e8cb3d4d275438a228ef20dccfcad93f8bc6a84fecc81422eb002ea189e5"
+        },
+        {
+          "text": "RODADA 3",
+          "rect": [
+            400,
+            48,
+            512,
+            72
+          ],
+          "point_size": 20,
+          "mask_sha256": "3892ef5fb6ecacd138e655f64fb07d479072fefb06e8814329cd731f47a3ea77"
+        },
+        {
+          "text": "RODADA 4",
+          "rect": [
+            400,
+            72,
+            512,
+            96
+          ],
+          "point_size": 20,
+          "mask_sha256": "d27ca4522cf1986d9e7d84875751e04c3264191e0abff33da4b40edd74486989"
+        },
+        {
+          "text": "RODADA 5",
+          "rect": [
+            400,
+            96,
+            512,
+            120
+          ],
+          "point_size": 20,
+          "mask_sha256": "aa1b9629f4a7b1ff297cf4a60ff5ad0318ae2fe3d7e73057e346c46f89905caa"
+        },
+        {
+          "text": "vitória",
+          "rect": [
+            384,
+            144,
+            448,
+            168
+          ],
+          "point_size": 20,
+          "mask_sha256": "b86462c0f679ef106e9c4bbf790665caca9f4caec40a8649e0ae13f1a6e68841"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1158208,
+      "texture": {
+        "width": 512,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "header_palette_sha256": "1611a8be8dc1ca3ba9a7022668bb45f30205b88ee6f3c01b92ceb7860d79e339",
+      "words": [
+        {
+          "text": "CORRER",
+          "rect": [
+            136,
+            48,
+            240,
+            72
+          ],
+          "point_size": 21,
+          "mask_sha256": "d3f7d12422eadb62ef5e46ccdb8f3028ae9496c68651df7034015b9d61e83808"
+        },
+        {
+          "text": "APOSTA",
+          "rect": [
+            136,
+            104,
+            216,
+            128
+          ],
+          "point_size": 18,
+          "mask_sha256": "243806ab655f730b2848c8c7d3240924cb8d70da21e05127fb996e9b0061eb88"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1308432,
+      "texture": {
+        "width": 256,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "header_palette_sha256": "3fe3027b9bc6245575246359c0d89115e9628941629a0b82112c95d447f7c59a",
+      "words": [
+        {
+          "text": "ACERTOU!",
+          "rect": [
+            22,
+            14,
+            237,
+            78
+          ],
+          "point_size": 54,
+          "mask_sha256": "acc2e761276124233d5742551083ecdf3308593dd2fa3e5cdb441f435a3fc423"
+        },
+        {
+          "text": "ERROU!",
+          "rect": [
+            22,
+            115,
+            239,
+            178
+          ],
+          "point_size": 58,
+          "mask_sha256": "6e096683ac7ae1a1bee161609d5c4c347e37dd33ae3465d5902dc84952e6224f"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1375056,
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 8192,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "header_palette_sha256": "06db03e246e5fb88326fdd5512d15a1f5179dc6b029d9f582cbdeb102909fe10",
+      "words": [
+        {
+          "text": "1º",
+          "rect": [
+            0,
+            0,
+            56,
+            32
+          ],
+          "point_size": 30,
+          "mask_sha256": "3a3044d095f329ba984f28f7470db80fe0cee4f6c48e648ea4474ab6a73692da"
+        },
+        {
+          "text": "2º",
+          "rect": [
+            56,
+            0,
+            112,
+            32
+          ],
+          "point_size": 30,
+          "mask_sha256": "82008bf5589e3b23a241812c600a9f557a931347befebbaec118a4147c9bd68a"
+        },
+        {
+          "text": "3º",
+          "rect": [
+            0,
+            32,
+            56,
+            64
+          ],
+          "point_size": 30,
+          "mask_sha256": "5bf758ffb3bdcf10c6a75cec56b9837efff877fc3aca3f946c8787033335420d"
+        },
+        {
+          "text": "4º",
+          "rect": [
+            56,
+            32,
+            112,
+            64
+          ],
+          "point_size": 30,
+          "mask_sha256": "c849434e0fc3f9de7d4c2e082058e28f9fd64be516ef85e0eafe8d329b4a3402"
+        },
+        {
+          "text": "5º",
+          "rect": [
+            0,
+            64,
+            56,
+            96
+          ],
+          "point_size": 30,
+          "mask_sha256": "c758f20ec5c099e8c87849931e32c1aa94b4613c904a9f35c269cc940a1553fa"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1396224,
+      "texture": {
+        "width": 256,
+        "height": 128,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 32768,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "header_palette_sha256": "96dd78018fee49ede8c9913a0265ad56d15a079124a6c678bf43f0e014d771fe",
+      "words": [
+        {
+          "text": "Mover",
+          "rect": [
+            25,
+            0,
+            72,
+            24
+          ],
+          "point_size": 15,
+          "mask_sha256": "85e6059610117902464c8cf149f2e62646d41a2e35d737affb1d383b98c79e8f"
+        },
+        {
+          "text": "Aposta",
+          "rect": [
+            96,
+            0,
+            160,
+            24
+          ],
+          "point_size": 18,
+          "mask_sha256": "a8df98bc6b28b47a90fc99ff77db8a9c305d0f3acea2d54c645f89b159fc6278"
+        },
+        {
+          "text": "OK",
+          "rect": [
+            184,
+            0,
+            224,
+            24
+          ],
+          "point_size": 19,
+          "mask_sha256": "4ce5bbb21b8334b43f343206fb28a671fd2d3bf3a2c643c6118deb8d87353689"
+        },
+        {
+          "text": "Reduzir aposta",
+          "rect": [
+            25,
+            24,
+            168,
+            48
+          ],
+          "point_size": 19,
+          "mask_sha256": "b2d8e3eb622cb3017a8ab863595a507b9b884850ecd61b3cd110463f4177dc8d"
+        },
+        {
+          "text": "Cancelar",
+          "rect": [
+            25,
+            48,
+            128,
+            72
+          ],
+          "point_size": 19,
+          "mask_sha256": "15bbac06a7e267b0de10446d7fe55822f1d48b91d3643decb27e996822ce9025"
+        },
+        {
+          "text": "Próximo",
+          "rect": [
+            202,
+            24,
+            254,
+            48
+          ],
+          "point_size": 12,
+          "mask_sha256": "7db1cee161d50f3adcd0e20aae54d61502d28f30f2f6c62eb24cdca2984822a5"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 192,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "header_palette_sha256": "00f1942b5e3b5b4613131c869c0d5b8099a3302cfd7e8f1c6e17b3f71e7dc08a",
+      "words": [
+        {
+          "text": "CORRER",
+          "rect": [
+            242,
+            366,
+            309,
+            378
+          ],
+          "point_size": 10,
+          "mask_sha256": "d55847b48b7efdc5ea8f413d54e4b0d35c978116d1f80aa3a52bdb4e640e5506"
+        }
+      ],
+      "instructions": [],
+      "revised": true
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 263408,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "4ac0d505fb2946775e97607c8fd1838b2e4da22398ee9de124fef4b35a71975e",
+      "header_palette_sha256": "e880c9ed64566a7295342444d747105a641e3b622927d57b53814c51e4d7822e",
+      "words": [
+        {
+          "text": "PONTOS",
+          "rect": [
+            32,
+            77,
+            118,
+            99
+          ],
+          "point_size": 19,
+          "mask_sha256": "8c6fb9e0cafb294174ccbc7ddf8d4081c5be74b3fb0388cf184beb6b6200f3cf"
+        },
+        {
+          "text": "VIDAS",
+          "rect": [
+            384,
+            76,
+            444,
+            99
+          ],
+          "point_size": 19,
+          "mask_sha256": "92325503caeba1a3f43acc101faf3fb067744acf821d08386cf6476caeea296a"
+        },
+        {
+          "text": "1 JOGO 100G",
+          "rect": [
+            168,
+            40,
+            312,
+            64
+          ],
+          "point_size": 17,
+          "mask_sha256": "266ac510fcfffa74ccbabbea671302197e58558b88b85e05d32ad1c83edfdd9a"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            248,
+            144,
+            480,
+            208
+          ],
+          "point_size": 54,
+          "mask_sha256": "b4cd5b19f0bc30403d1a2beb850442be0744bd8781f34950f0ce1259e44fba78"
+        },
+        {
+          "text": "FIM DO TEMPO",
+          "rect": [
+            0,
+            208,
+            272,
+            264
+          ],
+          "point_size": 45,
+          "mask_sha256": "8f2ca94678e36d67594ea878ea144931839e9ba102f139d6da8460d783b812f4"
+        },
+        {
+          "text": "FIM DE JOGO",
+          "rect": [
+            0,
+            264,
+            392,
+            320
+          ],
+          "point_size": 48,
+          "mask_sha256": "f59f90b94d1f5dde77e5fd2f080783a33aa01215aecee821a1782c25f4a736ea"
+        },
+        {
+          "text": "FOGO CRUZADO",
+          "rect": [
+            34,
+            350,
+            390,
+            448
+          ],
+          "point_size": 50,
+          "mask_sha256": "aefc9e4635740080de85101d07979cd48af2f20ffe23d5c432eaca2ee1139d01"
+        },
+        {
+          "text": "APERTE O BOTÃO START",
+          "rect": [
+            0,
+            464,
+            264,
+            488
+          ],
+          "point_size": 18,
+          "mask_sha256": "c7036d1eaf8b50471d449b7dca7349ded6f5d35361d90ef68adc247f9de5c657"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1438432,
+      "texture": {
+        "width": 256,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "72c91ed680880d2cce9cc66bdf03b5bfa7cdac83d9e55188799e35f9fd96183e",
+      "header_palette_sha256": "21e6aa135ef00f5bf21f53491bdfa31410a34f4ea03d80bd89ab6d57b944e80b",
+      "words": [
+        {
+          "text": "F",
+          "rect": [
+            199,
+            113,
+            222,
+            134
+          ],
+          "point_size": 24,
+          "mask_sha256": "788dc3da22030f6fe48ad2f9f7630d0cdfe8633d417d9702863a115986702185"
+        },
+        {
+          "text": "I",
+          "rect": [
+            224,
+            113,
+            250,
+            134
+          ],
+          "point_size": 24,
+          "mask_sha256": "b791e10f286a96a30a872b06d89488edee3ca67348c1e77ce10a1606c55a2718"
+        },
+        {
+          "text": "M",
+          "rect": [
+            199,
+            137,
+            222,
+            159
+          ],
+          "point_size": 24,
+          "mask_sha256": "803a14ccc0a6e4983167558d711f7d144852fdd2cf5764beebc097edc4a2e2f7"
+        },
+        {
+          "text": "!",
+          "rect": [
+            224,
+            137,
+            250,
+            159
+          ],
+          "point_size": 24,
+          "mask_sha256": "91a8260c922713ec3314b1eb7e941fd18d87d6caa08b792c0e385492a0dc333f"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 277792,
+      "texture": {
+        "width": 256,
+        "height": 64,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 16384,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "a7692eafefd2cbb0e7012efcdf821249625c49e166a77763c22f0dbc9863cc1a",
+      "header_palette_sha256": "2385d5f99dbbf824f6a20d2160e4317a0bf2f672e9727264aa283420708c94ed",
+      "words": [
+        {
+          "text": "DANÇA MUSCULAR",
+          "rect": [
+            56,
+            23,
+            198,
+            42
+          ],
+          "point_size": 14,
+          "mask_sha256": "ba5bcbafabcf4a1a80ec128255d20c10b5eea146feebd1e98e29d7f1d3952934"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14071808,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "943c3cc7c90e20201fdff43838312b1c6513c0dd6dca2b7da10e73b96f668a33",
+      "words": [
+        {
+          "text": "QUINA",
+          "rect": [
+            4,
+            5,
+            102,
+            23
+          ],
+          "point_size": 13,
+          "mask_sha256": "44e1fd4293d716533701d4b16a82220924fae59f2492d18bb1f7f8f6375ab668"
+        },
+        {
+          "text": "SEQUÊNCIA REAL",
+          "rect": [
+            4,
+            25,
+            165,
+            42
+          ],
+          "point_size": 13,
+          "mask_sha256": "5e0e46df9760eed0e401246dc7332eeba9937d3f512a0c12687c0dc34c915328"
+        },
+        {
+          "text": "SEQUÊNCIA DE NAIPE",
+          "rect": [
+            4,
+            44,
+            165,
+            60
+          ],
+          "point_size": 13,
+          "mask_sha256": "00c5cc7cc06ea4f337cb76b8009bc2a891bfe2b0e63ee419f575967062931b8b"
+        },
+        {
+          "text": "QUADRA",
+          "rect": [
+            4,
+            63,
+            126,
+            79
+          ],
+          "point_size": 13,
+          "mask_sha256": "1812333b44cbf4122f1095ce0bbcac74c88d5d9e0c95a0125e8764a13ffc18ff"
+        },
+        {
+          "text": "TRINCA E PAR",
+          "rect": [
+            4,
+            81,
+            129,
+            96
+          ],
+          "point_size": 13,
+          "mask_sha256": "79d8c151c458fbce5d1660103d5c9789c18b7ebd40ed52c49efa2eba55cdd1e0"
+        },
+        {
+          "text": "MESMO NAIPE",
+          "rect": [
+            235,
+            5,
+            318,
+            23
+          ],
+          "point_size": 11,
+          "mask_sha256": "2cc7d743c12af0f5e49694da91e6e5759c1031c34ef22dafa086870370a2896f"
+        },
+        {
+          "text": "SEQUÊNCIA",
+          "rect": [
+            235,
+            25,
+            318,
+            42
+          ],
+          "point_size": 13,
+          "mask_sha256": "f21b8f4a420eaa3d034b0354afc3dd89239c0f34901546870560bddb9dc780a7"
+        },
+        {
+          "text": "TRINCA",
+          "rect": [
+            235,
+            44,
+            367,
+            60
+          ],
+          "point_size": 13,
+          "mask_sha256": "fac6ffba276c47a6b95e8c85d33e07edd81f70e0979e3ec7846a2f452d9db4a8"
+        },
+        {
+          "text": "DOIS PARES",
+          "rect": [
+            235,
+            63,
+            367,
+            79
+          ],
+          "point_size": 13,
+          "mask_sha256": "78af8b971d473f4e21e74ac833c05bdceab814b5baa24527ac855ca992f814e8"
+        },
+        {
+          "text": "PAR ALTO",
+          "rect": [
+            235,
+            81,
+            367,
+            96
+          ],
+          "point_size": 13,
+          "mask_sha256": "3f7570ef750d49f972c58e47853258014e1ad7c1cc81086dcb398f0409a877e1"
+        },
+        {
+          "text": "SEM PAR",
+          "rect": [
+            0,
+            103,
+            134,
+            136
+          ],
+          "point_size": 30,
+          "mask_sha256": "fb1c8760e98193c0e43801f847de492b95b8fb59e2c8e8c4077c13d7fd672981"
+        },
+        {
+          "text": "QUINA",
+          "rect": [
+            134,
+            103,
+            410,
+            136
+          ],
+          "point_size": 30,
+          "mask_sha256": "134911edd55df9eaaca8651ef363fa8aefa8b9695b006afe1875827e67e5425b"
+        },
+        {
+          "text": "EMPATE",
+          "rect": [
+            0,
+            137,
+            85,
+            169
+          ],
+          "point_size": 27,
+          "mask_sha256": "07aadaef50d477a9520915c846a139557db7dfe5ff42f803c31521fdde3f6695"
+        },
+        {
+          "text": "SEQUÊNCIA DE NAIPE",
+          "rect": [
+            85,
+            137,
+            466,
+            169
+          ],
+          "point_size": 27,
+          "mask_sha256": "c44efb3c7d143f8754b2eefbf640a363064c86385561a6bea854c6173f2bf4ca"
+        },
+        {
+          "text": "VENCEU!",
+          "rect": [
+            0,
+            169,
+            199,
+            201
+          ],
+          "point_size": 30,
+          "mask_sha256": "c4f95ab8ca864015bb12aa29a9f4e2747997dba8f8d6515666776c3ca4b6a107"
+        },
+        {
+          "text": "SEQUÊNCIA REAL",
+          "rect": [
+            199,
+            169,
+            466,
+            201
+          ],
+          "point_size": 27,
+          "mask_sha256": "362ba715f8dc10fbaf4e9105d2659d47cec76d201b57f069c8c9e633be652a11"
+        },
+        {
+          "text": "PERDEU!",
+          "rect": [
+            0,
+            201,
+            199,
+            232
+          ],
+          "point_size": 30,
+          "mask_sha256": "b86d488757f50a7a270014a3d789a4c24704d9ee5ac333264a79c265c9a5b0c8"
+        },
+        {
+          "text": "TRINCA E PAR",
+          "rect": [
+            199,
+            201,
+            466,
+            232
+          ],
+          "point_size": 30,
+          "mask_sha256": "419edaa34c3f2b9e0155d5da719fbad1cd5284e212de958ae2d608d14ac07e92"
+        },
+        {
+          "text": "PARABÉNS!",
+          "rect": [
+            0,
+            232,
+            392,
+            265
+          ],
+          "point_size": 30,
+          "mask_sha256": "dde52ba73eef7467ba34dcf4f7a0f397258157bcd517c2d5484d7fa362e4517c"
+        },
+        {
+          "text": "DOIS PARES",
+          "rect": [
+            0,
+            265,
+            167,
+            296
+          ],
+          "point_size": 30,
+          "mask_sha256": "26f4271233afbb994233b404c1908b1760ad40aac96eb72bc251b4a98ae67c4a"
+        },
+        {
+          "text": "PAR ALTO",
+          "rect": [
+            168,
+            265,
+            410,
+            296
+          ],
+          "point_size": 30,
+          "mask_sha256": "e68fd9e657330b718ad7fbd4a3d98d5776a8ae1f44ef12f2c52cbee60c5eff87"
+        },
+        {
+          "text": "DESAFIO!",
+          "rect": [
+            0,
+            297,
+            309,
+            329
+          ],
+          "point_size": 30,
+          "mask_sha256": "8cfaf17523043713463d42a662ff048325eeb4b6bf8b7ca5a6cf52276f4e6738"
+        },
+        {
+          "text": "DOBRO OU NADA",
+          "rect": [
+            0,
+            329,
+            349,
+            361
+          ],
+          "point_size": 30,
+          "mask_sha256": "4dcbf242e6cb8a3f58f743cd83c71341c86908724c96e42e45c679ba8e43cd14"
+        },
+        {
+          "text": "TRINCA",
+          "rect": [
+            0,
+            361,
+            195,
+            393
+          ],
+          "point_size": 30,
+          "mask_sha256": "ebf2a67c8b3e9049962942ebe353a3172fe79daaae6756bd2932f11631fbd715"
+        },
+        {
+          "text": "QUADRA",
+          "rect": [
+            195,
+            361,
+            392,
+            393
+          ],
+          "point_size": 30,
+          "mask_sha256": "7c5649879b58eea6e1cff387a052e069cdccc875192e527427e9b142225175e0"
+        },
+        {
+          "text": "VENCEDOR",
+          "rect": [
+            0,
+            393,
+            208,
+            425
+          ],
+          "point_size": 30,
+          "mask_sha256": "5198ba203ba30a52feb51817d4e1523a4f5f8f02bf703a8b68fd014fc910c3e4"
+        },
+        {
+          "text": "PERDEDOR",
+          "rect": [
+            208,
+            393,
+            319,
+            425
+          ],
+          "point_size": 26,
+          "mask_sha256": "2dcdf604a00f75ab22e82e9c61d38dc20e4853ab3818290a0b2b00b25aa8c9cd"
+        },
+        {
+          "text": "VENCE!",
+          "rect": [
+            294,
+            465,
+            416,
+            497
+          ],
+          "point_size": 30,
+          "mask_sha256": "3d09f58c371967051678122bcec3b9a16cfdce332fad8bf9d79f00d10d0bfc54"
+        },
+        {
+          "text": "GANHOU!",
+          "rect": [
+            416,
+            465,
+            509,
+            497
+          ],
+          "point_size": 24,
+          "mask_sha256": "09d8ce8795ebb9b38fd360450507fab37e2626957e316ba81b087fd67f9524ea"
+        },
+        {
+          "text": "MANTER",
+          "rect": [
+            416,
+            104,
+            470,
+            121
+          ],
+          "point_size": 15,
+          "mask_sha256": "6ac4167535b5b68153e09fe3d31235f3da4f18c5fd12612e2c9233ba146e5457"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            475,
+            104,
+            511,
+            122
+          ],
+          "point_size": 8,
+          "mask_sha256": "b44c04e9f1c25bfc2248cfbfe01ad776c0b7c880a59794af4b8dffa85fdbad5d"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14336000,
+      "texture": {
+        "width": 512,
+        "height": 128,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 32768,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "c3b8cc696a633b075f87cbc8ab7d52f4f94f0e93c26f9de28a116bccf23eaaee",
+      "words": [
+        {
+          "text": "Dobrar?",
+          "rect": [
+            9,
+            96,
+            106,
+            122
+          ],
+          "point_size": 19,
+          "mask_sha256": "10ea43bcf7179b3caf09fa4e42fbe96478cad9b50e06922ba3591745c779d1d9"
+        },
+        {
+          "text": "Sim",
+          "rect": [
+            238,
+            96,
+            279,
+            122
+          ],
+          "point_size": 19,
+          "mask_sha256": "f0e3d88fbadf278316d50d32ca8732a9096b38f1c029b9167f32039550225d66"
+        },
+        {
+          "text": "Não",
+          "rect": [
+            309,
+            96,
+            349,
+            122
+          ],
+          "point_size": 19,
+          "mask_sha256": "7966166b872c2782e1b2b12b63baf20eb1c117cc05234572c25c43e507de68b9"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15235072,
+      "texture": {
+        "width": 256,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "b83fb4a9360d5a5515dd026e2c94c04334a80986f9cc2e79f7f08209209ba271",
+      "words": [
+        {
+          "text": "VENCEU",
+          "rect": [
+            0,
+            0,
+            96,
+            48
+          ],
+          "point_size": 30,
+          "mask_sha256": "39e962582a502063a983b30c3beb1f3d441733bba89ec0b21c73e8936abf709f"
+        },
+        {
+          "text": "PERDEU",
+          "rect": [
+            96,
+            0,
+            224,
+            48
+          ],
+          "point_size": 42,
+          "mask_sha256": "e2c063454592a181fab0367cf9f6aff5fedf9b176e3aab102c4ceb5a5f15b0ac"
+        },
+        {
+          "text": "EMPATE",
+          "rect": [
+            0,
+            48,
+            144,
+            96
+          ],
+          "point_size": 43,
+          "mask_sha256": "a47075cea12d3ca9827bb00c7faf1ef9cb3411cda9d26ebba8311f2480770e09"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15900672,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "82b89c6ecf6f998e1de8e6da30aa37303e8743bfad158454745a4607a6782638",
+      "words": [
+        {
+          "text": "1ª tentativa",
+          "rect": [
+            5,
+            56,
+            99,
+            72
+          ],
+          "point_size": 15,
+          "mask_sha256": "8584ab866209b6a279aceaab95ec98cc494c87325f1e7d2149ebdec178f3d8d6"
+        },
+        {
+          "text": "2ª tentativa",
+          "rect": [
+            5,
+            72,
+            99,
+            88
+          ],
+          "point_size": 15,
+          "mask_sha256": "5c543b387b3d830b44ec9198c5b3fe9de04a0ef6cbb3a080d4c65074fe4bf88d"
+        },
+        {
+          "text": "3ª tentativa",
+          "rect": [
+            5,
+            88,
+            99,
+            104
+          ],
+          "point_size": 15,
+          "mask_sha256": "b241165dd9d344e6c16e06787d94b2f9ce03eb18d6ff5dfd09f54f3293cf20eb"
+        },
+        {
+          "text": "4ª tentativa",
+          "rect": [
+            5,
+            104,
+            99,
+            120
+          ],
+          "point_size": 15,
+          "mask_sha256": "21199f695a3d14856dd687cca94e65f0dc4fc46583c8ef600025d553dc55e3bc"
+        },
+        {
+          "text": "5ª tentativa",
+          "rect": [
+            5,
+            120,
+            99,
+            136
+          ],
+          "point_size": 15,
+          "mask_sha256": "5f89a0b0ddb475fa864ec42d38621c7dccda21c8bf3454a815953726e12bcf86"
+        },
+        {
+          "text": "CERTO",
+          "rect": [
+            5,
+            136,
+            79,
+            153
+          ],
+          "point_size": 16,
+          "mask_sha256": "39cf6c7645717c1d8cfd7459fb0bc75c0dd6529ec2ac2adc33e8f7816e93c2fe"
+        },
+        {
+          "text": "FORA",
+          "rect": [
+            5,
+            153,
+            79,
+            170
+          ],
+          "point_size": 16,
+          "mask_sha256": "ad6e085d1e300897795fde59a0218d2a45799bdb68341f61ee557aabde155e49"
+        },
+        {
+          "text": "ERRO",
+          "rect": [
+            5,
+            170,
+            79,
+            187
+          ],
+          "point_size": 16,
+          "mask_sha256": "c9365a11c190be01318688252f84b8cc2fe7cc2387a33f2ed70189f48b0446fc"
+        },
+        {
+          "text": "CERTO",
+          "rect": [
+            5,
+            187,
+            79,
+            204
+          ],
+          "point_size": 16,
+          "mask_sha256": "39cf6c7645717c1d8cfd7459fb0bc75c0dd6529ec2ac2adc33e8f7816e93c2fe"
+        },
+        {
+          "text": "NÍVEL 1",
+          "rect": [
+            10,
+            240,
+            76,
+            259
+          ],
+          "point_size": 12,
+          "mask_sha256": "07c2692e24f8e51d97693bd076c3b424eeed7ddfc20a5da940ac902aed268e78"
+        },
+        {
+          "text": "NÍVEL 1",
+          "rect": [
+            83,
+            232,
+            150,
+            253
+          ],
+          "point_size": 13,
+          "mask_sha256": "358641fb0d6ca0e47c160dfbc4610ea5be26660f65a75edc3b76138e4c230a50"
+        },
+        {
+          "text": "NÍVEL 1",
+          "rect": [
+            10,
+            321,
+            135,
+            355
+          ],
+          "point_size": 26,
+          "mask_sha256": "cae8a7b2624b0c8f568aa8efbd53676bfd39b7b5ec7d0f1ece8adac34da6d342"
+        },
+        {
+          "text": "NÍVEL 2",
+          "rect": [
+            10,
+            264,
+            76,
+            283
+          ],
+          "point_size": 12,
+          "mask_sha256": "b58624b5220dcc588e7c7700da21203ed2396bb829fafa5a5f94a86d887a64e1"
+        },
+        {
+          "text": "NÍVEL 2",
+          "rect": [
+            83,
+            256,
+            150,
+            277
+          ],
+          "point_size": 13,
+          "mask_sha256": "157031bac14b04df77f13ac22ad4c05bc3b570b287f31b2cbd036b056b1648c8"
+        },
+        {
+          "text": "NÍVEL 2",
+          "rect": [
+            10,
+            361,
+            135,
+            395
+          ],
+          "point_size": 26,
+          "mask_sha256": "f329bad6ce8c0ec4a8700a5f7bde31f38d8ad250eca076b490f8f8d827bd0ae7"
+        },
+        {
+          "text": "NÍVEL 3",
+          "rect": [
+            10,
+            288,
+            76,
+            307
+          ],
+          "point_size": 12,
+          "mask_sha256": "692aa35f84690bff60c39d209940e279898e52369e17c3bbd97487d119176d09"
+        },
+        {
+          "text": "NÍVEL 3",
+          "rect": [
+            83,
+            280,
+            150,
+            301
+          ],
+          "point_size": 13,
+          "mask_sha256": "f744074cd73d6a8e68042a562e1103bec902bd2565aabf3132f9dad4dcc7fa97"
+        },
+        {
+          "text": "NÍVEL 3",
+          "rect": [
+            10,
+            401,
+            135,
+            435
+          ],
+          "point_size": 26,
+          "mask_sha256": "f805e0306f321ca285ea24cbb4fcabe0d380f933d300cca271f7363c0bac0faa"
+        },
+        {
+          "text": "VENCEU!",
+          "rect": [
+            151,
+            360,
+            248,
+            391
+          ],
+          "point_size": 27,
+          "mask_sha256": "ae58b5999322081f2409458f9af3ad08a654ebf00e5c4fde9a7bbd514e9a48a8"
+        },
+        {
+          "text": "PERDEU!",
+          "rect": [
+            250,
+            360,
+            367,
+            391
+          ],
+          "point_size": 29,
+          "mask_sha256": "5a69a9d153b5fc774f85f79c2ff4daa533c43ba5df6eae9537dd16f3a03e1144"
+        },
+        {
+          "text": "EMPATE",
+          "rect": [
+            368,
+            360,
+            500,
+            391
+          ],
+          "point_size": 29,
+          "mask_sha256": "040f553cfc1d5608deff7c8e50bad104b2637cd5a3d655cf9627e13111383a29"
+        },
+        {
+          "text": "ESCOLHER NÍVEL",
+          "rect": [
+            0,
+            469,
+            309,
+            505
+          ],
+          "point_size": 29,
+          "mask_sha256": "f42525c541fa39012601e1b0aae1eafef7dcf8417222ef07b9ec16ac4f1e841b"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15101952,
+      "texture": {
+        "width": 512,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "6a92f2f167703ff50cf5bfbc90d039aec40d9972f7f49667f15abd448dcfa8a5",
+      "words": [
+        {
+          "text": "SALDO",
+          "rect": [
+            169,
+            147,
+            235,
+            166
+          ],
+          "point_size": 18,
+          "mask_sha256": "1b57a40dd067662c7c21d7391168d31ec3d8db9965c1172b8b410604b7f3a611"
+        },
+        {
+          "text": "APOSTA",
+          "rect": [
+            240,
+            147,
+            279,
+            166
+          ],
+          "point_size": 8,
+          "mask_sha256": "6af75b75478da176f373d156a7a3136ada4b901a7fdf61664f0e945588d07755"
+        },
+        {
+          "text": "CARTA",
+          "rect": [
+            286,
+            147,
+            324,
+            166
+          ],
+          "point_size": 9,
+          "mask_sha256": "89e0c2be08c506472e024937966c827be2376d19cd45824b55c939430b3519a9"
+        },
+        {
+          "text": "PARAR",
+          "rect": [
+            329,
+            147,
+            404,
+            167
+          ],
+          "point_size": 18,
+          "mask_sha256": "0b72f80ca889f6c9954fbaf36add50292cff382faedf58124b1c2201f6b3e33a"
+        },
+        {
+          "text": "DOBRAR",
+          "rect": [
+            404,
+            147,
+            495,
+            167
+          ],
+          "point_size": 18,
+          "mask_sha256": "5befb1e352bbd4f49cd9c04fbc8451a5c48c06b2261955737a425ce787f427e2"
+        },
+        {
+          "text": "DIVIDIR?",
+          "rect": [
+            169,
+            170,
+            249,
+            190
+          ],
+          "point_size": 16,
+          "mask_sha256": "f104b31234f27e10e37c9d31bce45baed4a4c4327bedbc7972add62e62621578"
+        },
+        {
+          "text": "SEGURO?",
+          "rect": [
+            255,
+            170,
+            387,
+            190
+          ],
+          "point_size": 18,
+          "mask_sha256": "2c55701dced6dfec3c207f91bb9ed33ef1df11359d88ee9c72a7904b30586c93"
+        },
+        {
+          "text": "SIM",
+          "rect": [
+            392,
+            170,
+            431,
+            190
+          ],
+          "point_size": 18,
+          "mask_sha256": "cfc92191d3698ac6c2c031f98302ab155cfce942ef679e1af9fb40ae78e45599"
+        },
+        {
+          "text": "NÃO",
+          "rect": [
+            438,
+            170,
+            486,
+            190
+          ],
+          "point_size": 18,
+          "mask_sha256": "3a7ea09cf9943284fce89b54dc74e7c934d42970d87f1d63f15c78db664cf5a7"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            304,
+            192,
+            343,
+            213
+          ],
+          "point_size": 9,
+          "mask_sha256": "7df8a681a9539e71004e8107cb8edf9406a2255e80ce8b977a183a01beda9a11"
+        },
+        {
+          "text": "PASSOU",
+          "rect": [
+            268,
+            225,
+            319,
+            242
+          ],
+          "point_size": 11,
+          "mask_sha256": "6862ebe10a59adfa8f2784d5d75d69725021a9ce397d0d6e866d0672164e0cd2"
+        },
+        {
+          "text": "21",
+          "rect": [
+            362,
+            216,
+            390,
+            240
+          ],
+          "point_size": 18,
+          "mask_sha256": "d2616832546c42223b4fd4f4488989a861110664a2102f94b8f7b7bc80af9688"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13475840,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "f2256767c61870d9849fc07657ca0fbb1833e59e5315e23ba695faec3529faba",
+      "words": [
+        {
+          "text": "SALDO",
+          "rect": [
+            64,
+            332,
+            128,
+            354
+          ],
+          "point_size": 12,
+          "mask_sha256": "4d5db917715737aeddb870e6760c3915e923a4fa69c96b98f886791bf14f9359"
+        },
+        {
+          "text": "APOSTA",
+          "rect": [
+            280,
+            332,
+            323,
+            354
+          ],
+          "point_size": 9,
+          "mask_sha256": "fadd75bc2e5be08e2ac56ff12f58dd4903d825f9e2d9a6f5a00aac21213f00f4"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            392,
+            332,
+            436,
+            354
+          ],
+          "point_size": 10,
+          "mask_sha256": "ff6f7480614bb057d7cb65418bf72631f7dcc95135814cd7bd6a06cd3e5b9ffb"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15568896,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "04e5b0b2ec648fad0964d69ee403a1d5ac525d0b52a2328a717401f78e7d5aba",
+      "words": [
+        {
+          "text": "SALDO",
+          "rect": [
+            64,
+            332,
+            128,
+            354
+          ],
+          "point_size": 12,
+          "mask_sha256": "4d5db917715737aeddb870e6760c3915e923a4fa69c96b98f886791bf14f9359"
+        },
+        {
+          "text": "APOSTA",
+          "rect": [
+            280,
+            332,
+            323,
+            354
+          ],
+          "point_size": 9,
+          "mask_sha256": "fadd75bc2e5be08e2ac56ff12f58dd4903d825f9e2d9a6f5a00aac21213f00f4"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            392,
+            332,
+            436,
+            354
+          ],
+          "point_size": 10,
+          "mask_sha256": "ff6f7480614bb057d7cb65418bf72631f7dcc95135814cd7bd6a06cd3e5b9ffb"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4446208,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "43b24927327797eb0d4e962514b19d28d68a4e9f1a0f603927ba6ba477236333",
+      "words": [
+        {
+          "text": "SALDO",
+          "rect": [
+            109,
+            313,
+            198,
+            334
+          ],
+          "point_size": 12,
+          "mask_sha256": "4d5db917715737aeddb870e6760c3915e923a4fa69c96b98f886791bf14f9359"
+        },
+        {
+          "text": "APOSTA",
+          "rect": [
+            260,
+            313,
+            314,
+            334
+          ],
+          "point_size": 12,
+          "mask_sha256": "b3f7b4a8771c60b1f3afa4985b19ccb0238f51c9fc55d8fef86e177dd8b5bd81"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            352,
+            313,
+            410,
+            334
+          ],
+          "point_size": 12,
+          "mask_sha256": "f8c8251f13a91ddbe85dffa4c279af08c8c0e2a7c3cf6499f799f94ceb37bf8a"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6770688,
+      "texture": {
+        "width": 512,
+        "height": 256,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "2aaf26f7c2857fea285a36028d3d83dc856850ba7226cd5962a0cef552a51ffd",
+      "words": [
+        {
+          "text": "SALDO:",
+          "rect": [
+            4,
+            60,
+            103,
+            83
+          ],
+          "point_size": 20,
+          "mask_sha256": "a166fea8d8c95bb9a4b5ec157fd530d29836c5e051427063533bbaf891bc8900"
+        },
+        {
+          "text": "APOSTA:",
+          "rect": [
+            4,
+            84,
+            103,
+            108
+          ],
+          "point_size": 20,
+          "mask_sha256": "16b3422343ca06e339a8eb6425acbbb102f24cd68cce70837700ca47364ebb0e"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            242,
+            127,
+            299,
+            154
+          ],
+          "point_size": 14,
+          "mask_sha256": "4feb3c983bb8eb6d44d41342cc5ae7ace2a6bba1bf805a6251256dd6b2067247"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6903808,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "9ee345120e24ed3461700a50860482a19cbe2bd8d044ac5531d273b5409a9978",
+      "words": [
+        {
+          "text": "Histórico",
+          "rect": [
+            191,
+            9,
+            288,
+            29
+          ],
+          "point_size": 16,
+          "mask_sha256": "10205a804256fd1268414d15eae9f4384eef88ee5405851709d26862365661ce"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 11970560,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "93a810cdf902758bed7ddbcb0ec52c66a2530a1164661f93c23ede45f3e1bd4e",
+      "words": [
+        {
+          "text": "PREPARE-SE",
+          "rect": [
+            204,
+            148,
+            365,
+            180
+          ],
+          "point_size": 23,
+          "mask_sha256": "cad6c6426fc3a6df7f5e48b7dc509a417be752f000d998d1aa445d93fc706977"
+        },
+        {
+          "text": "JÁ!",
+          "rect": [
+            153,
+            185,
+            341,
+            232
+          ],
+          "point_size": 23,
+          "mask_sha256": "51260eb78465534ba1b6faaf2c066fff2ab9d37717d24e1fb3731acd1b2f4149"
+        },
+        {
+          "text": "TEMPO ESGOTADO",
+          "rect": [
+            153,
+            234,
+            378,
+            278
+          ],
+          "point_size": 23,
+          "mask_sha256": "df66638a02d2c9a4b2266c740341524721e298a75aeaed27d3ad332660499896"
+        },
+        {
+          "text": "CONCLUÍDO!",
+          "rect": [
+            153,
+            280,
+            342,
+            326
+          ],
+          "point_size": 23,
+          "mask_sha256": "b3f0dbd269c521217a8850ec9a05cbf6930ef5752bfc5184c9668e0ba556dd95"
+        },
+        {
+          "text": "LEITE",
+          "rect": [
+            5,
+            418,
+            69,
+            439
+          ],
+          "point_size": 17,
+          "mask_sha256": "fe85c5dda78675f828a9278da8dae7c601abefd02aec97488b1c514b03f246d1"
+        },
+        {
+          "text": "VINAGRE",
+          "rect": [
+            159,
+            429,
+            235,
+            451
+          ],
+          "point_size": 15,
+          "mask_sha256": "fb1840629f0eb3632a94cfb6f335f43a4e1f9b1aeea7d3a6583ccbf2fd427280"
+        }
+      ],
+      "instructions": [],
+      "revised": true
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 618496,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "5589c1d0107c4fc3a56b0d587a0ff51206a7a9384b2bc3883b500136c57fa105",
+      "words": [
+        {
+          "text": "BÔNUS",
+          "rect": [
+            374,
+            318,
+            433,
+            341
+          ],
+          "point_size": 15,
+          "mask_sha256": "453c5d66115ed01371b9ebbb893e0c7c6ad263d95cf31232461a203366faa929"
+        }
+      ],
+      "instructions": [],
+      "revised": true
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13807616,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "37e2aa3ca741de0a2542d3df851a5dde2d8514a286e622420eda89631ff3cfa0",
+      "words": [
+        {
+          "text": "VER",
+          "rect": [
+            7,
+            278,
+            48,
+            291
+          ],
+          "point_size": 10,
+          "mask_sha256": "bb370be44bf95db7a4cea71706a9344c633ed14523c1d4847124b9435f4db9f3"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            76,
+            278,
+            113,
+            291
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            142,
+            278,
+            179,
+            291
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            208,
+            278,
+            245,
+            291
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            274,
+            278,
+            311,
+            291
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            340,
+            278,
+            377,
+            291
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            407,
+            278,
+            444,
+            291
+          ],
+          "point_size": 9,
+          "mask_sha256": "74ea1ae71a923c1db5dc15e0d3ccde7454391dfcf7c2763d9ea112517d253c30"
+        },
+        {
+          "text": "VER",
+          "rect": [
+            7,
+            327,
+            48,
+            340
+          ],
+          "point_size": 10,
+          "mask_sha256": "bb370be44bf95db7a4cea71706a9344c633ed14523c1d4847124b9435f4db9f3"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            76,
+            327,
+            113,
+            340
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            142,
+            327,
+            179,
+            340
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            208,
+            327,
+            245,
+            340
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            274,
+            327,
+            311,
+            340
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            340,
+            327,
+            377,
+            340
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            407,
+            327,
+            444,
+            340
+          ],
+          "point_size": 9,
+          "mask_sha256": "74ea1ae71a923c1db5dc15e0d3ccde7454391dfcf7c2763d9ea112517d253c30"
+        },
+        {
+          "text": "VER",
+          "rect": [
+            7,
+            375,
+            48,
+            388
+          ],
+          "point_size": 10,
+          "mask_sha256": "bb370be44bf95db7a4cea71706a9344c633ed14523c1d4847124b9435f4db9f3"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            76,
+            375,
+            113,
+            388
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            142,
+            375,
+            179,
+            388
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            208,
+            375,
+            245,
+            388
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            274,
+            375,
+            311,
+            388
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "MARCAR",
+          "rect": [
+            340,
+            375,
+            377,
+            388
+          ],
+          "point_size": 7,
+          "mask_sha256": "f5c6f349a3e58fe8031ea2b942e54dd24134b4aebcabfc7b0254155339006be4"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            407,
+            375,
+            444,
+            388
+          ],
+          "point_size": 9,
+          "mask_sha256": "74ea1ae71a923c1db5dc15e0d3ccde7454391dfcf7c2763d9ea112517d253c30"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16164864,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "e867f6403dc46e8319650ca1d3c806667bbd3573fae0b2e9badc9a830012254e",
+      "words": [
+        {
+          "text": "JOGAR",
+          "rect": [
+            18,
+            275,
+            59,
+            289
+          ],
+          "point_size": 9,
+          "mask_sha256": "74ea1ae71a923c1db5dc15e0d3ccde7454391dfcf7c2763d9ea112517d253c30"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            18,
+            325,
+            59,
+            339
+          ],
+          "point_size": 9,
+          "mask_sha256": "74ea1ae71a923c1db5dc15e0d3ccde7454391dfcf7c2763d9ea112517d253c30"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            18,
+            375,
+            59,
+            389
+          ],
+          "point_size": 9,
+          "mask_sha256": "74ea1ae71a923c1db5dc15e0d3ccde7454391dfcf7c2763d9ea112517d253c30"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16431104,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "b6a8b1d3d209791e32972d2fc86e05d110c2ace8a8d18183225fc7c9cc7bd6bf",
+      "words": [
+        {
+          "text": "CORINGA",
+          "rect": [
+            436,
+            354,
+            502,
+            375
+          ],
+          "point_size": 12,
+          "mask_sha256": "9004d88dbe2d1c0fe2d5f580aa11d0c22b5a4c823ba334b257aa8bf1def16cf9"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16695296,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "bb05f52572756f73e7540466345e73147f318ea2459c62fbc656cfeae96f59ed",
+      "words": [
+        {
+          "text": "CORINGA",
+          "rect": [
+            436,
+            354,
+            502,
+            375
+          ],
+          "point_size": 12,
+          "mask_sha256": "9004d88dbe2d1c0fe2d5f580aa11d0c22b5a4c823ba334b257aa8bf1def16cf9"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16959488,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "378907436b05a70fb15318ceec9bbbb220178c63dfc15598cc6b662cd6ab010c",
+      "words": [
+        {
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "rect": [
+            434,
+            332,
+            448,
+            402
+          ],
+          "point_size": 9,
+          "mask_sha256": "3fe921a266696de9db790280274977aea24984ba13d79cd1f7cfbe0e29bb3b11"
+        },
+        {
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "rect": [
+            489,
+            370,
+            502,
+            437
+          ],
+          "point_size": 8,
+          "mask_sha256": "697296310b6728cbdb6b1ac55e22bc3eb5f0157ca44cdc5492d2b3f8c3c5517b"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 17223680,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "c7d8e89fa5285caac6d406bd813446ebe81a0c72c285490373d9e73f3292a1bf",
+      "words": [
+        {
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "rect": [
+            434,
+            332,
+            448,
+            402
+          ],
+          "point_size": 9,
+          "mask_sha256": "3fe921a266696de9db790280274977aea24984ba13d79cd1f7cfbe0e29bb3b11"
+        },
+        {
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "rect": [
+            489,
+            370,
+            502,
+            437
+          ],
+          "point_size": 8,
+          "mask_sha256": "697296310b6728cbdb6b1ac55e22bc3eb5f0157ca44cdc5492d2b3f8c3c5517b"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5574656,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "fcc524d442ca58a6de14084714eca1cbe43e7a1d1237721257efd7a9e6902f1a",
+      "words": [
+        {
+          "text": "1ª dúzia",
+          "rect": [
+            142,
+            224,
+            216,
+            248
+          ],
+          "point_size": 17,
+          "mask_sha256": "3e724f6e010367d4954d7b44d2131364675ddfecb5fcc5c6059aae803f7f6701"
+        },
+        {
+          "text": "2ª dúzia",
+          "rect": [
+            282,
+            224,
+            357,
+            248
+          ],
+          "point_size": 17,
+          "mask_sha256": "25236bba8b58613a123b315999c438301714669b670c517016cd78be1e8093b9"
+        },
+        {
+          "text": "3ª dúzia",
+          "rect": [
+            422,
+            224,
+            497,
+            248
+          ],
+          "point_size": 17,
+          "mask_sha256": "acfafdd929652da2cfd940c7c9dd68701b8a7b8a03845165f26e1f544571e2c9"
+        },
+        {
+          "text": "1 a 18",
+          "rect": [
+            108,
+            280,
+            172,
+            309
+          ],
+          "point_size": 17,
+          "mask_sha256": "e9b7750056fe428f6e29657e34bb6469fd248fcecc3a2ce6ede7864ded796895"
+        },
+        {
+          "text": "PARES",
+          "rect": [
+            178,
+            280,
+            234,
+            309
+          ],
+          "point_size": 17,
+          "mask_sha256": "2d3fe1a2264fee8d1287598417bbaa7bd2d8c5169c0000a2e50d2a24d745eae5"
+        },
+        {
+          "text": "ÍMPARES",
+          "rect": [
+            394,
+            280,
+            451,
+            309
+          ],
+          "point_size": 11,
+          "mask_sha256": "640accaeccd94794942cc4af809232833ed24a0e5d3e26c973bcd8956071f1a7"
+        },
+        {
+          "text": "19 a 36",
+          "rect": [
+            465,
+            280,
+            511,
+            309
+          ],
+          "point_size": 14,
+          "mask_sha256": "d479d916674a2b1535bd4a54a28991e0488ce5a6b9cb8988318504aaedb3197b"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5838848,
+      "texture": {
+        "width": 128,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "86e84c9781c1b14d64ad84af9a5c13cbcf24525904c7680122d6479407aa242d",
+      "words": [
+        {
+          "text": "2:3",
+          "rect": [
+            39,
+            43,
+            64,
+            88
+          ],
+          "point_size": 17,
+          "mask_sha256": "4efb42c5d697333ba66a4cae0bedc7cec666854b07cee1c2aec624088ebec466"
+        },
+        {
+          "text": "2:2",
+          "rect": [
+            39,
+            92,
+            64,
+            137
+          ],
+          "point_size": 17,
+          "mask_sha256": "84235e363f70e81a824a807029a230417c931eaab3d1f8896e3440aaf669f06c"
+        },
+        {
+          "text": "2:1",
+          "rect": [
+            39,
+            141,
+            64,
+            186
+          ],
+          "point_size": 17,
+          "mask_sha256": "87b99c269e4bab6745050f147c859ed6da58e5606e3d5800d35b6f4752b22abc"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6170624,
+      "texture": {
+        "width": 128,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "50e621844f670697afd1b8ca5a7249f9bb3935f720d204022df61014d07c9454",
+      "words": [
+        {
+          "text": "1ª dúzia",
+          "rect": [
+            46,
+            304,
+            113,
+            328
+          ],
+          "point_size": 16,
+          "mask_sha256": "961cfa05a7ed8dea598de0ccf56962a2086a95d5501adac9191c821e52098da2"
+        },
+        {
+          "text": "1 a 18",
+          "rect": [
+            6,
+            359,
+            69,
+            386
+          ],
+          "point_size": 16,
+          "mask_sha256": "3164b8d0333893771c5e9441cd5d5fc598088020d1c418de674c4e545a0e5e85"
+        },
+        {
+          "text": "PARES",
+          "rect": [
+            76,
+            359,
+            127,
+            386
+          ],
+          "point_size": 15,
+          "mask_sha256": "cecd878c8a8d7253f00bdfa55fa0925f5d8e5ee4c57a49ff0babbc000bc84795"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4182016,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "dff444364d5d63080eeab4c85d05d10872bc509a05ad86dfd9de457f0dc8a9a4",
+      "words": [
+        {
+          "text": "JOGAR",
+          "rect": [
+            112,
+            247,
+            156,
+            266
+          ],
+          "point_size": 11,
+          "mask_sha256": "c351dbf4b274464eeb0e3156f28060d1ce04ae519407291442c9acc49a685588"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            112,
+            304,
+            156,
+            323
+          ],
+          "point_size": 11,
+          "mask_sha256": "c351dbf4b274464eeb0e3156f28060d1ce04ae519407291442c9acc49a685588"
+        },
+        {
+          "text": "JOGAR",
+          "rect": [
+            112,
+            365,
+            156,
+            384
+          ],
+          "point_size": 11,
+          "mask_sha256": "c351dbf4b274464eeb0e3156f28060d1ce04ae519407291442c9acc49a685588"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14770176,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "c693a7df847b5de1490fa7ef0d46a084733d6e8f4c705760328219b7b00afd3f",
+      "words": [],
+      "instructions": [],
+      "revised": false,
+      "cloth": {
+        "rect": [
+          36,
+          62,
+          511,
+          257
+        ],
+        "removed_glyph_components": [
+          [
+            36,
+            246,
+            47,
+            11,
+            91
+          ],
+          [
+            37,
+            62,
+            7,
+            4,
+            19
+          ],
+          [
+            45,
+            176,
+            1,
+            2,
+            2
+          ],
+          [
+            46,
+            154,
+            7,
+            10,
+            20
+          ],
+          [
+            46,
+            174,
+            1,
+            2,
+            2
+          ],
+          [
+            47,
+            171,
+            2,
+            2,
+            3
+          ],
+          [
+            47,
+            178,
+            2,
+            2,
+            3
+          ],
+          [
+            50,
+            168,
+            1,
+            2,
+            2
+          ],
+          [
+            52,
+            147,
+            6,
+            8,
+            18
+          ],
+          [
+            52,
+            181,
+            3,
+            2,
+            4
+          ],
+          [
+            56,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            57,
+            144,
+            3,
+            2,
+            5
+          ],
+          [
+            58,
+            155,
+            1,
+            2,
+            2
+          ],
+          [
+            58,
+            185,
+            4,
+            2,
+            5
+          ],
+          [
+            59,
+            152,
+            2,
+            3,
+            4
+          ],
+          [
+            62,
+            148,
+            2,
+            3,
+            4
+          ],
+          [
+            66,
+            163,
+            20,
+            19,
+            125
+          ],
+          [
+            67,
+            190,
+            2,
+            1,
+            2
+          ],
+          [
+            72,
+            151,
+            3,
+            2,
+            4
+          ],
+          [
+            76,
+            154,
+            2,
+            2,
+            3
+          ],
+          [
+            76,
+            195,
+            2,
+            1,
+            2
+          ],
+          [
+            79,
+            155,
+            3,
+            2,
+            4
+          ],
+          [
+            80,
+            174,
+            17,
+            21,
+            115
+          ],
+          [
+            85,
+            159,
+            2,
+            2,
+            3
+          ],
+          [
+            93,
+            162,
+            1,
+            2,
+            2
+          ],
+          [
+            99,
+            206,
+            2,
+            1,
+            2
+          ],
+          [
+            101,
+            179,
+            18,
+            21,
+            110
+          ],
+          [
+            106,
+            209,
+            2,
+            1,
+            2
+          ],
+          [
+            107,
+            79,
+            30,
+            31,
+            299
+          ],
+          [
+            108,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            109,
+            171,
+            2,
+            1,
+            2
+          ],
+          [
+            111,
+            172,
+            2,
+            1,
+            2
+          ],
+          [
+            113,
+            212,
+            2,
+            1,
+            2
+          ],
+          [
+            114,
+            187,
+            18,
+            19,
+            108
+          ],
+          [
+            119,
+            146,
+            11,
+            11,
+            30
+          ],
+          [
+            119,
+            147,
+            2,
+            5,
+            8
+          ],
+          [
+            120,
+            176,
+            2,
+            1,
+            2
+          ],
+          [
+            122,
+            144,
+            14,
+            15,
+            49
+          ],
+          [
+            122,
+            216,
+            2,
+            1,
+            2
+          ],
+          [
+            125,
+            217,
+            2,
+            1,
+            2
+          ],
+          [
+            127,
+            179,
+            2,
+            1,
+            2
+          ],
+          [
+            129,
+            180,
+            2,
+            1,
+            2
+          ],
+          [
+            130,
+            91,
+            24,
+            32,
+            184
+          ],
+          [
+            131,
+            194,
+            17,
+            20,
+            109
+          ],
+          [
+            132,
+            181,
+            2,
+            1,
+            2
+          ],
+          [
+            134,
+            154,
+            10,
+            9,
+            39
+          ],
+          [
+            139,
+            161,
+            2,
+            1,
+            2
+          ],
+          [
+            139,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            142,
+            158,
+            11,
+            10,
+            46
+          ],
+          [
+            144,
+            179,
+            39,
+            14,
+            78
+          ],
+          [
+            144,
+            186,
+            2,
+            1,
+            2
+          ],
+          [
+            151,
+            202,
+            11,
+            16,
+            69
+          ],
+          [
+            152,
+            156,
+            14,
+            14,
+            41
+          ],
+          [
+            153,
+            106,
+            24,
+            28,
+            204
+          ],
+          [
+            156,
+            168,
+            2,
+            1,
+            2
+          ],
+          [
+            158,
+            164,
+            10,
+            9,
+            41
+          ],
+          [
+            164,
+            210,
+            9,
+            12,
+            35
+          ],
+          [
+            167,
+            166,
+            10,
+            9,
+            31
+          ],
+          [
+            167,
+            231,
+            1,
+            2,
+            2
+          ],
+          [
+            169,
+            221,
+            2,
+            2,
+            3
+          ],
+          [
+            171,
+            221,
+            3,
+            2,
+            5
+          ],
+          [
+            173,
+            211,
+            2,
+            2,
+            3
+          ],
+          [
+            174,
+            213,
+            4,
+            9,
+            20
+          ],
+          [
+            179,
+            170,
+            15,
+            12,
+            71
+          ],
+          [
+            182,
+            114,
+            25,
+            26,
+            180
+          ],
+          [
+            183,
+            192,
+            7,
+            3,
+            12
+          ],
+          [
+            183,
+            210,
+            10,
+            19,
+            61
+          ],
+          [
+            186,
+            199,
+            1,
+            2,
+            2
+          ],
+          [
+            190,
+            194,
+            19,
+            6,
+            37
+          ],
+          [
+            194,
+            175,
+            11,
+            11,
+            55
+          ],
+          [
+            198,
+            246,
+            9,
+            3,
+            15
+          ],
+          [
+            203,
+            118,
+            29,
+            31,
+            285
+          ],
+          [
+            205,
+            179,
+            7,
+            9,
+            28
+          ],
+          [
+            207,
+            248,
+            4,
+            2,
+            6
+          ],
+          [
+            209,
+            199,
+            4,
+            2,
+            5
+          ],
+          [
+            210,
+            178,
+            4,
+            3,
+            6
+          ],
+          [
+            210,
+            205,
+            1,
+            2,
+            2
+          ],
+          [
+            212,
+            250,
+            2,
+            1,
+            2
+          ],
+          [
+            213,
+            177,
+            8,
+            12,
+            41
+          ],
+          [
+            215,
+            200,
+            4,
+            2,
+            7
+          ],
+          [
+            215,
+            249,
+            3,
+            2,
+            4
+          ],
+          [
+            217,
+            251,
+            4,
+            1,
+            4
+          ],
+          [
+            218,
+            216,
+            2,
+            2,
+            3
+          ],
+          [
+            218,
+            217,
+            7,
+            17,
+            38
+          ],
+          [
+            219,
+            201,
+            2,
+            2,
+            3
+          ],
+          [
+            221,
+            201,
+            2,
+            1,
+            2
+          ],
+          [
+            222,
+            202,
+            2,
+            2,
+            3
+          ],
+          [
+            223,
+            234,
+            2,
+            1,
+            2
+          ],
+          [
+            223,
+            251,
+            2,
+            2,
+            3
+          ],
+          [
+            225,
+            181,
+            16,
+            12,
+            71
+          ],
+          [
+            225,
+            202,
+            8,
+            3,
+            13
+          ],
+          [
+            229,
+            253,
+            2,
+            1,
+            2
+          ],
+          [
+            230,
+            125,
+            27,
+            31,
+            193
+          ],
+          [
+            230,
+            234,
+            3,
+            2,
+            4
+          ],
+          [
+            232,
+            252,
+            2,
+            2,
+            3
+          ],
+          [
+            233,
+            224,
+            1,
+            3,
+            3
+          ],
+          [
+            234,
+            204,
+            6,
+            2,
+            7
+          ],
+          [
+            234,
+            219,
+            4,
+            4,
+            9
+          ],
+          [
+            234,
+            254,
+            3,
+            1,
+            3
+          ],
+          [
+            237,
+            223,
+            1,
+            2,
+            2
+          ],
+          [
+            237,
+            225,
+            8,
+            12,
+            26
+          ],
+          [
+            240,
+            185,
+            10,
+            10,
+            50
+          ],
+          [
+            240,
+            253,
+            2,
+            1,
+            2
+          ],
+          [
+            240,
+            254,
+            5,
+            2,
+            6
+          ],
+          [
+            241,
+            205,
+            1,
+            2,
+            2
+          ],
+          [
+            242,
+            220,
+            2,
+            1,
+            2
+          ],
+          [
+            243,
+            205,
+            2,
+            1,
+            2
+          ],
+          [
+            244,
+            221,
+            2,
+            1,
+            2
+          ],
+          [
+            244,
+            225,
+            2,
+            2,
+            3
+          ],
+          [
+            248,
+            206,
+            4,
+            1,
+            4
+          ],
+          [
+            248,
+            256,
+            3,
+            1,
+            3
+          ],
+          [
+            249,
+            223,
+            12,
+            14,
+            36
+          ],
+          [
+            249,
+            235,
+            2,
+            4,
+            6
+          ],
+          [
+            251,
+            186,
+            10,
+            11,
+            57
+          ],
+          [
+            251,
+            255,
+            4,
+            1,
+            4
+          ],
+          [
+            252,
+            208,
+            2,
+            1,
+            2
+          ],
+          [
+            253,
+            130,
+            25,
+            27,
+            197
+          ],
+          [
+            256,
+            207,
+            3,
+            1,
+            3
+          ],
+          [
+            258,
+            238,
+            1,
+            2,
+            2
+          ],
+          [
+            259,
+            223,
+            2,
+            2,
+            3
+          ],
+          [
+            262,
+            182,
+            16,
+            16,
+            74
+          ],
+          [
+            266,
+            222,
+            4,
+            17,
+            32
+          ],
+          [
+            268,
+            210,
+            3,
+            1,
+            3
+          ],
+          [
+            276,
+            209,
+            2,
+            1,
+            2
+          ],
+          [
+            277,
+            224,
+            3,
+            3,
+            5
+          ],
+          [
+            277,
+            228,
+            1,
+            4,
+            4
+          ],
+          [
+            279,
+            189,
+            9,
+            11,
+            50
+          ],
+          [
+            281,
+            132,
+            23,
+            27,
+            158
+          ],
+          [
+            282,
+            225,
+            5,
+            17,
+            33
+          ],
+          [
+            287,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            289,
+            190,
+            10,
+            11,
+            59
+          ],
+          [
+            290,
+            210,
+            6,
+            2,
+            8
+          ],
+          [
+            290,
+            233,
+            3,
+            6,
+            8
+          ],
+          [
+            291,
+            225,
+            3,
+            1,
+            3
+          ],
+          [
+            293,
+            239,
+            3,
+            3,
+            6
+          ],
+          [
+            294,
+            226,
+            2,
+            6,
+            10
+          ],
+          [
+            297,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            299,
+            151,
+            4,
+            5,
+            10
+          ],
+          [
+            300,
+            212,
+            2,
+            1,
+            2
+          ],
+          [
+            300,
+            238,
+            2,
+            1,
+            2
+          ],
+          [
+            306,
+            133,
+            24,
+            26,
+            226
+          ],
+          [
+            306,
+            186,
+            8,
+            15,
+            45
+          ],
+          [
+            307,
+            211,
+            2,
+            1,
+            2
+          ],
+          [
+            307,
+            227,
+            1,
+            3,
+            3
+          ],
+          [
+            308,
+            231,
+            1,
+            3,
+            3
+          ],
+          [
+            308,
+            234,
+            6,
+            9,
+            18
+          ],
+          [
+            310,
+            217,
+            17,
+            1,
+            17
+          ],
+          [
+            313,
+            254,
+            9,
+            1,
+            9
+          ],
+          [
+            316,
+            241,
+            5,
+            2,
+            6
+          ],
+          [
+            317,
+            133,
+            11,
+            9,
+            35
+          ],
+          [
+            317,
+            211,
+            2,
+            1,
+            2
+          ],
+          [
+            317,
+            226,
+            5,
+            3,
+            8
+          ],
+          [
+            317,
+            231,
+            1,
+            2,
+            2
+          ],
+          [
+            318,
+            189,
+            7,
+            12,
+            22
+          ],
+          [
+            319,
+            186,
+            8,
+            3,
+            18
+          ],
+          [
+            321,
+            229,
+            8,
+            13,
+            25
+          ],
+          [
+            324,
+            211,
+            3,
+            2,
+            4
+          ],
+          [
+            326,
+            198,
+            3,
+            5,
+            10
+          ],
+          [
+            328,
+            225,
+            3,
+            8,
+            10
+          ],
+          [
+            331,
+            132,
+            22,
+            27,
+            218
+          ],
+          [
+            332,
+            189,
+            9,
+            11,
+            51
+          ],
+          [
+            334,
+            211,
+            4,
+            2,
+            5
+          ],
+          [
+            334,
+            228,
+            3,
+            12,
+            19
+          ],
+          [
+            339,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            339,
+            241,
+            2,
+            1,
+            2
+          ],
+          [
+            342,
+            210,
+            3,
+            2,
+            4
+          ],
+          [
+            344,
+            189,
+            4,
+            11,
+            26
+          ],
+          [
+            344,
+            225,
+            2,
+            2,
+            3
+          ],
+          [
+            346,
+            211,
+            3,
+            1,
+            3
+          ],
+          [
+            348,
+            189,
+            5,
+            10,
+            26
+          ],
+          [
+            350,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            350,
+            223,
+            6,
+            18,
+            36
+          ],
+          [
+            355,
+            181,
+            13,
+            18,
+            70
+          ],
+          [
+            356,
+            130,
+            25,
+            27,
+            189
+          ],
+          [
+            356,
+            209,
+            2,
+            1,
+            2
+          ],
+          [
+            358,
+            229,
+            3,
+            4,
+            6
+          ],
+          [
+            358,
+            240,
+            3,
+            1,
+            3
+          ],
+          [
+            360,
+            209,
+            2,
+            2,
+            3
+          ],
+          [
+            360,
+            223,
+            3,
+            2,
+            4
+          ],
+          [
+            362,
+            239,
+            2,
+            2,
+            3
+          ],
+          [
+            364,
+            208,
+            2,
+            3,
+            4
+          ],
+          [
+            364,
+            237,
+            1,
+            2,
+            2
+          ],
+          [
+            368,
+            208,
+            3,
+            2,
+            4
+          ],
+          [
+            372,
+            185,
+            14,
+            11,
+            76
+          ],
+          [
+            375,
+            207,
+            4,
+            1,
+            4
+          ],
+          [
+            379,
+            124,
+            23,
+            29,
+            190
+          ],
+          [
+            380,
+            226,
+            6,
+            5,
+            18
+          ],
+          [
+            382,
+            207,
+            1,
+            2,
+            2
+          ],
+          [
+            383,
+            255,
+            2,
+            1,
+            2
+          ],
+          [
+            384,
+            206,
+            4,
+            1,
+            4
+          ],
+          [
+            385,
+            256,
+            3,
+            1,
+            3
+          ],
+          [
+            387,
+            184,
+            5,
+            10,
+            28
+          ],
+          [
+            389,
+            206,
+            1,
+            2,
+            2
+          ],
+          [
+            390,
+            205,
+            5,
+            2,
+            6
+          ],
+          [
+            392,
+            183,
+            5,
+            10,
+            25
+          ],
+          [
+            392,
+            254,
+            4,
+            2,
+            5
+          ],
+          [
+            395,
+            206,
+            2,
+            1,
+            2
+          ],
+          [
+            396,
+            204,
+            4,
+            1,
+            4
+          ],
+          [
+            397,
+            253,
+            5,
+            2,
+            6
+          ],
+          [
+            399,
+            181,
+            7,
+            11,
+            34
+          ],
+          [
+            399,
+            218,
+            8,
+            18,
+            41
+          ],
+          [
+            402,
+            203,
+            3,
+            2,
+            4
+          ],
+          [
+            404,
+            216,
+            2,
+            2,
+            3
+          ],
+          [
+            404,
+            252,
+            3,
+            2,
+            4
+          ],
+          [
+            406,
+            119,
+            23,
+            29,
+            213
+          ],
+          [
+            406,
+            177,
+            7,
+            14,
+            40
+          ],
+          [
+            406,
+            203,
+            2,
+            2,
+            3
+          ],
+          [
+            408,
+            202,
+            6,
+            2,
+            8
+          ],
+          [
+            408,
+            225,
+            2,
+            1,
+            2
+          ],
+          [
+            409,
+            216,
+            2,
+            2,
+            3
+          ],
+          [
+            410,
+            251,
+            4,
+            2,
+            5
+          ],
+          [
+            411,
+            218,
+            2,
+            5,
+            6
+          ],
+          [
+            413,
+            201,
+            4,
+            2,
+            5
+          ],
+          [
+            417,
+            202,
+            2,
+            1,
+            2
+          ],
+          [
+            417,
+            251,
+            2,
+            1,
+            2
+          ],
+          [
+            418,
+            228,
+            4,
+            4,
+            9
+          ],
+          [
+            419,
+            171,
+            9,
+            17,
+            60
+          ],
+          [
+            419,
+            200,
+            2,
+            1,
+            2
+          ],
+          [
+            419,
+            219,
+            3,
+            4,
+            7
+          ],
+          [
+            420,
+            250,
+            4,
+            1,
+            4
+          ],
+          [
+            421,
+            214,
+            3,
+            4,
+            6
+          ],
+          [
+            423,
+            199,
+            4,
+            2,
+            6
+          ],
+          [
+            423,
+            224,
+            2,
+            2,
+            3
+          ],
+          [
+            424,
+            218,
+            1,
+            2,
+            2
+          ],
+          [
+            424,
+            248,
+            4,
+            2,
+            6
+          ],
+          [
+            425,
+            220,
+            8,
+            10,
+            24
+          ],
+          [
+            426,
+            168,
+            4,
+            3,
+            8
+          ],
+          [
+            426,
+            195,
+            15,
+            5,
+            26
+          ],
+          [
+            428,
+            173,
+            8,
+            12,
+            33
+          ],
+          [
+            430,
+            246,
+            8,
+            3,
+            13
+          ],
+          [
+            431,
+            114,
+            23,
+            26,
+            199
+          ],
+          [
+            431,
+            211,
+            1,
+            2,
+            2
+          ],
+          [
+            433,
+            210,
+            12,
+            18,
+            52
+          ],
+          [
+            437,
+            171,
+            10,
+            12,
+            54
+          ],
+          [
+            439,
+            245,
+            3,
+            2,
+            4
+          ],
+          [
+            440,
+            208,
+            5,
+            2,
+            9
+          ],
+          [
+            442,
+            192,
+            12,
+            4,
+            21
+          ],
+          [
+            442,
+            244,
+            4,
+            2,
+            8
+          ],
+          [
+            446,
+            169,
+            8,
+            11,
+            32
+          ],
+          [
+            446,
+            241,
+            12,
+            4,
+            22
+          ],
+          [
+            448,
+            208,
+            16,
+            13,
+            47
+          ],
+          [
+            449,
+            199,
+            1,
+            2,
+            2
+          ],
+          [
+            451,
+            219,
+            9,
+            4,
+            16
+          ],
+          [
+            452,
+            103,
+            23,
+            29,
+            193
+          ],
+          [
+            453,
+            205,
+            3,
+            2,
+            4
+          ],
+          [
+            454,
+            168,
+            5,
+            10,
+            27
+          ],
+          [
+            454,
+            191,
+            3,
+            2,
+            5
+          ],
+          [
+            456,
+            197,
+            1,
+            2,
+            2
+          ],
+          [
+            456,
+            204,
+            4,
+            4,
+            9
+          ],
+          [
+            458,
+            239,
+            4,
+            3,
+            7
+          ],
+          [
+            459,
+            166,
+            3,
+            9,
+            13
+          ],
+          [
+            460,
+            207,
+            1,
+            2,
+            2
+          ],
+          [
+            460,
+            221,
+            2,
+            1,
+            2
+          ],
+          [
+            463,
+            239,
+            1,
+            2,
+            2
+          ],
+          [
+            465,
+            238,
+            2,
+            2,
+            4
+          ],
+          [
+            468,
+            159,
+            7,
+            14,
+            36
+          ],
+          [
+            468,
+            231,
+            1,
+            2,
+            2
+          ],
+          [
+            468,
+            237,
+            4,
+            2,
+            5
+          ],
+          [
+            472,
+            233,
+            12,
+            5,
+            21
+          ],
+          [
+            475,
+            159,
+            9,
+            10,
+            43
+          ],
+          [
+            478,
+            95,
+            22,
+            26,
+            224
+          ],
+          [
+            478,
+            203,
+            6,
+            5,
+            24
+          ],
+          [
+            484,
+            223,
+            27,
+            11,
+            56
+          ],
+          [
+            491,
+            148,
+            7,
+            16,
+            36
+          ],
+          [
+            495,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            497,
+            188,
+            14,
+            20,
+            101
+          ],
+          [
+            499,
+            83,
+            12,
+            14,
+            55
+          ],
+          [
+            500,
+            143,
+            9,
+            15,
+            56
+          ],
+          [
+            505,
+            180,
+            2,
+            1,
+            2
+          ],
+          [
+            507,
+            102,
+            4,
+            11,
+            28
+          ],
+          [
+            507,
+            179,
+            2,
+            1,
+            2
+          ],
+          [
+            509,
+            217,
+            2,
+            1,
+            2
+          ]
+        ],
+        "arcs": [
+          {
+            "text": "VINTE E UM PAGA 3:2",
+            "center": [
+              300,
+              142
+            ],
+            "point_size": 23
+          },
+          {
+            "text": "O CRUPIÊ PARA NO 17 E COMPRA ATÉ 16",
+            "center": [
+              300,
+              189
+            ],
+            "point_size": 14
+          },
+          {
+            "text": "SEGURO PAGA 2:1",
+            "center": [
+              300,
+              231
+            ],
+            "point_size": 22
+          }
+        ]
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15034368,
+      "texture": {
+        "width": 128,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 65536,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "d99d7278f5b45494dadfacaae66da38b9bc4564c8f9bd417746f4f6f4bc9e4d8",
+      "words": [],
+      "instructions": [],
+      "revised": false,
+      "cloth": {
+        "rect": [
+          0,
+          62,
+          86,
+          218
+        ],
+        "removed_glyph_components": [
+          [
+            0,
+            83,
+            6,
+            20,
+            66
+          ],
+          [
+            0,
+            97,
+            14,
+            14,
+            65
+          ],
+          [
+            0,
+            177,
+            2,
+            1,
+            2
+          ],
+          [
+            0,
+            198,
+            2,
+            7,
+            11
+          ],
+          [
+            0,
+            216,
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            184,
+            16,
+            15,
+            80
+          ],
+          [
+            2,
+            176,
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            214,
+            5,
+            2,
+            6
+          ],
+          [
+            4,
+            173,
+            7,
+            3,
+            9
+          ],
+          [
+            7,
+            211,
+            7,
+            3,
+            9
+          ],
+          [
+            11,
+            172,
+            2,
+            1,
+            2
+          ],
+          [
+            13,
+            170,
+            4,
+            2,
+            5
+          ],
+          [
+            14,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            16,
+            207,
+            7,
+            3,
+            9
+          ],
+          [
+            17,
+            169,
+            2,
+            1,
+            2
+          ],
+          [
+            18,
+            180,
+            14,
+            13,
+            85
+          ],
+          [
+            19,
+            168,
+            2,
+            1,
+            2
+          ],
+          [
+            21,
+            167,
+            2,
+            1,
+            2
+          ],
+          [
+            23,
+            166,
+            2,
+            1,
+            2
+          ],
+          [
+            23,
+            206,
+            2,
+            1,
+            2
+          ],
+          [
+            25,
+            165,
+            2,
+            1,
+            2
+          ],
+          [
+            25,
+            205,
+            2,
+            1,
+            2
+          ],
+          [
+            27,
+            163,
+            4,
+            2,
+            5
+          ],
+          [
+            27,
+            193,
+            24,
+            12,
+            35
+          ],
+          [
+            31,
+            162,
+            2,
+            1,
+            2
+          ],
+          [
+            33,
+            161,
+            2,
+            1,
+            2
+          ],
+          [
+            33,
+            167,
+            16,
+            19,
+            86
+          ],
+          [
+            35,
+            160,
+            2,
+            1,
+            2
+          ],
+          [
+            37,
+            159,
+            2,
+            1,
+            2
+          ],
+          [
+            39,
+            156,
+            5,
+            3,
+            7
+          ],
+          [
+            44,
+            155,
+            2,
+            1,
+            2
+          ],
+          [
+            46,
+            154,
+            2,
+            1,
+            2
+          ],
+          [
+            48,
+            152,
+            3,
+            2,
+            4
+          ],
+          [
+            51,
+            151,
+            2,
+            1,
+            2
+          ],
+          [
+            51,
+            191,
+            4,
+            2,
+            5
+          ],
+          [
+            54,
+            149,
+            2,
+            1,
+            2
+          ],
+          [
+            55,
+            190,
+            2,
+            1,
+            2
+          ],
+          [
+            56,
+            148,
+            2,
+            1,
+            2
+          ],
+          [
+            57,
+            188,
+            4,
+            2,
+            5
+          ],
+          [
+            58,
+            146,
+            3,
+            3,
+            5
+          ],
+          [
+            61,
+            149,
+            1,
+            2,
+            2
+          ],
+          [
+            62,
+            186,
+            2,
+            1,
+            2
+          ],
+          [
+            63,
+            152,
+            1,
+            2,
+            2
+          ],
+          [
+            64,
+            185,
+            2,
+            1,
+            2
+          ],
+          [
+            65,
+            155,
+            1,
+            2,
+            2
+          ],
+          [
+            66,
+            157,
+            1,
+            2,
+            2
+          ],
+          [
+            66,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            68,
+            160,
+            1,
+            2,
+            2
+          ],
+          [
+            68,
+            182,
+            3,
+            2,
+            4
+          ],
+          [
+            70,
+            163,
+            1,
+            2,
+            2
+          ],
+          [
+            71,
+            181,
+            2,
+            1,
+            2
+          ],
+          [
+            72,
+            166,
+            1,
+            2,
+            2
+          ],
+          [
+            73,
+            168,
+            1,
+            2,
+            2
+          ],
+          [
+            74,
+            179,
+            2,
+            1,
+            2
+          ],
+          [
+            75,
+            171,
+            1,
+            2,
+            2
+          ],
+          [
+            76,
+            178,
+            2,
+            1,
+            2
+          ],
+          [
+            77,
+            174,
+            1,
+            2,
+            2
+          ],
+          [
+            78,
+            176,
+            2,
+            2,
+            3
+          ]
+        ],
+        "arcs": []
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 1976320,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "4b08e4da6b356328e8f03113703d2d6b1a0abe8245762a72b64f2b229cabd7dc",
+      "words": [
+        {
+          "text": "Tocando",
+          "rect": [
+            119,
+            160,
+            174,
+            184
+          ],
+          "point_size": 12,
+          "mask_sha256": "32ad307e39f256d87e6f26939fc31d854bfd2cc94a01542345e66c8944ba9002"
+        },
+        {
+          "text": "\" \":",
+          "rect": [
+            305,
+            66,
+            378,
+            88
+          ],
+          "point_size": 17,
+          "mask_sha256": "6af70dc23b31f3b370bfe9a79e10777c83a2e8442f400508f97b12081ef32816"
+        },
+        {
+          "text": "Sim",
+          "rect": [
+            378,
+            66,
+            419,
+            88
+          ],
+          "point_size": 17,
+          "mask_sha256": "d13fb0a5eba815fe58550dd7303d73eb06969864514e00f66633548b55ed84eb"
+        },
+        {
+          "text": "Não",
+          "rect": [
+            420,
+            66,
+            474,
+            88
+          ],
+          "point_size": 17,
+          "mask_sha256": "def663b40f64185d7488a99efb56d164afe6d7a2f8ecf23fcdea66af1bd4dbed"
+        },
+        {
+          "text": "Baixar?",
+          "rect": [
+            305,
+            90,
+            503,
+            112
+          ],
+          "point_size": 18,
+          "mask_sha256": "87b9fce6b3deb19dab7e18ac0c318c2f5dfb3a263336d2ab97aa5449b587ce9b"
+        },
+        {
+          "text": "Baixando...",
+          "rect": [
+            305,
+            114,
+            503,
+            136
+          ],
+          "point_size": 18,
+          "mask_sha256": "c11c4b525922bd7e7e66307d7582998940423ac5f97c45625b91f7f3ebd380e1"
+        },
+        {
+          "text": "Download concluído.",
+          "rect": [
+            305,
+            138,
+            503,
+            160
+          ],
+          "point_size": 17,
+          "mask_sha256": "0485acb5fc670a1756b9b3ad3ff7f6b690247dc9230a8443837a5044c07ddd85"
+        },
+        {
+          "text": "Já foi baixado!",
+          "rect": [
+            260,
+            162,
+            503,
+            184
+          ],
+          "point_size": 18,
+          "mask_sha256": "b776e08cfaa421ab01eee9252abb313e019d5e304c6176621980288586338a3c"
+        },
+        {
+          "text": "Escolher",
+          "rect": [
+            305,
+            186,
+            350,
+            209
+          ],
+          "point_size": 9,
+          "mask_sha256": "8c37f60e8fdf14d99f389e8a13a0a26b5f0bf875f88afde1b51d4a6ce154153d"
+        },
+        {
+          "text": "Tocar",
+          "rect": [
+            356,
+            186,
+            399,
+            209
+          ],
+          "point_size": 14,
+          "mask_sha256": "15a1d0f5d6187871fcef35c26f0657a11ea1cdd03531594763808ecd9a1ca418"
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            405,
+            186,
+            449,
+            209
+          ],
+          "point_size": 13,
+          "mask_sha256": "530ad4caaff78057df7a99822fbd0685fb220b4885965aba51c0099ff15ee0c9"
+        },
+        {
+          "text": "Cancelar",
+          "rect": [
+            305,
+            210,
+            447,
+            232
+          ],
+          "point_size": 18,
+          "mask_sha256": "0999ece2a4b47617f76434ffeed56069b29ad0cbd788344bd6a432831d2c7bef"
+        },
+        {
+          "text": "Baixar",
+          "rect": [
+            305,
+            234,
+            449,
+            257
+          ],
+          "point_size": 18,
+          "mask_sha256": "c73581aa9d30f7e351c33918046b7615ae9e870e00e57597879cd6eb35ff733e"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    }
+  ]
+}

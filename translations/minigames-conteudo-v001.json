@@ -1,0 +1,5278 @@
+{
+  "schema": 1,
+  "textures": [
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 3653632,
+      "labels": [
+        {
+          "rect": [
+            180,
+            338,
+            230,
+            352
+          ],
+          "text": "SALDO",
+          "size": 8,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            251,
+            338,
+            287,
+            352
+          ],
+          "text": "APOSTA",
+          "size": 8,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            299,
+            338,
+            334,
+            352
+          ],
+          "text": "GANHO",
+          "size": 8,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "Escolha uma máquina de 10G ou 100G. Você pode fazer até três apostas por jogada.",
+            "x": 34,
+            "y": 48,
+            "height": 16,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "Uma aposta vale só para a linha central. Duas valem para as três linhas horizontais. Três também incluem as diagonais.",
+            "x": 34,
+            "y": 98,
+            "height": 16,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "Três símbolos iguais numa linha apostada dão um prêmio. O valor depende dos símbolos.",
+            "x": 34,
+            "y": 164,
+            "height": 15,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              149,
+              196,
+              423,
+              366
+            ],
+            "x": 149,
+            "y": 196
+          },
+          {
+            "kind": "text",
+            "text": "Diagonal",
+            "x": 28,
+            "y": 218,
+            "height": 13,
+            "width": 115,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Superior",
+            "x": 28,
+            "y": 245,
+            "height": 13,
+            "width": 115,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Central",
+            "x": 28,
+            "y": 270,
+            "height": 13,
+            "width": 115,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Inferior",
+            "x": 28,
+            "y": 296,
+            "height": 13,
+            "width": 115,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Diagonal",
+            "x": 28,
+            "y": 323,
+            "height": 13,
+            "width": 115,
+            "color": "white"
+          }
+        ],
+        "page": 1,
+        "total": 2
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 3917824,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Controles",
+        "parts": [
+          {
+            "kind": "copy",
+            "rect": [
+              112,
+              58,
+              138,
+              84
+            ],
+            "x": 72,
+            "y": 65
+          },
+          {
+            "kind": "text",
+            "text": "Aumentar aposta",
+            "x": 118,
+            "y": 69,
+            "height": 19,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              112,
+              90,
+              138,
+              116
+            ],
+            "x": 72,
+            "y": 112
+          },
+          {
+            "kind": "text",
+            "text": "Girar os rolos",
+            "x": 118,
+            "y": 116,
+            "height": 19,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              112,
+              122,
+              138,
+              148
+            ],
+            "x": 72,
+            "y": 159
+          },
+          {
+            "kind": "text",
+            "text": "Parar o rolo esquerdo",
+            "x": 118,
+            "y": 163,
+            "height": 19,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              112,
+              154,
+              138,
+              180
+            ],
+            "x": 72,
+            "y": 206
+          },
+          {
+            "kind": "text",
+            "text": "Parar o rolo central",
+            "x": 118,
+            "y": 210,
+            "height": 19,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              112,
+              186,
+              138,
+              212
+            ],
+            "x": 72,
+            "y": 253
+          },
+          {
+            "kind": "text",
+            "text": "Parar o rolo direito",
+            "x": 118,
+            "y": 257,
+            "height": 19,
+            "width": 350,
+            "color": "white"
+          }
+        ],
+        "page": 2,
+        "total": 2
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4911104,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "Na roleta, você aposta onde a bola vai parar. Faça suas apostas na mesa antes de girar a roda.",
+            "x": 40,
+            "y": 58,
+            "height": 17,
+            "width": 430
+          },
+          {
+            "kind": "paragraph",
+            "text": "A roda tem 38 casas: os números de 1 a 36, mais 0 e 00. Os zeros são verdes. Dos outros números, metade é vermelha e metade é preta.",
+            "x": 40,
+            "y": 126,
+            "height": 17,
+            "width": 430
+          },
+          {
+            "kind": "paragraph",
+            "text": "A bola define o resultado ao parar numa casa. Apostas perdedoras saem da mesa. As vencedoras recebem o valor apostado de volta, mais o prêmio.",
+            "x": 40,
+            "y": 230,
+            "height": 17,
+            "width": 430
+          },
+          {
+            "kind": "paragraph",
+            "text": "Exemplo: 100G num único número rendem 100G de volta mais 3500G de prêmio, pois essa aposta paga 35 para 1.",
+            "x": 40,
+            "y": 316,
+            "height": 14,
+            "width": 430
+          }
+        ],
+        "page": 1,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5044224,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Apostas e prêmios (1)",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Número único",
+            "x": 30,
+            "y": 50,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "35:1",
+            "x": 415,
+            "y": 50,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Aposte em um número.",
+            "x": 40,
+            "y": 73,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Dois números",
+            "x": 30,
+            "y": 100,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "17:1",
+            "x": 415,
+            "y": 100,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Na linha entre dois números vizinhos.",
+            "x": 40,
+            "y": 123,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Três números",
+            "x": 30,
+            "y": 150,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "11:1",
+            "x": 415,
+            "y": 150,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Uma fileira de três números.",
+            "x": 40,
+            "y": 173,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Quatro números",
+            "x": 30,
+            "y": 200,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "9:1",
+            "x": 415,
+            "y": 200,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "No canto compartilhado por quatro números.",
+            "x": 40,
+            "y": 223,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Seis números",
+            "x": 30,
+            "y": 250,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "5:1",
+            "x": 415,
+            "y": 250,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Duas fileiras, com seis números ao todo.",
+            "x": 40,
+            "y": 273,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Coluna",
+            "x": 30,
+            "y": 300,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "2:1",
+            "x": 415,
+            "y": 300,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Uma coluna de doze números.",
+            "x": 40,
+            "y": 323,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          }
+        ],
+        "page": 2,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5177344,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Apostas e prêmios (2)",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Dúzia",
+            "x": 30,
+            "y": 55,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "2:1",
+            "x": 415,
+            "y": 55,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Uma das áreas: 1ª, 2ª ou 3ª dúzia.",
+            "x": 40,
+            "y": 80,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Pares",
+            "x": 30,
+            "y": 113,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "1:1",
+            "x": 415,
+            "y": 113,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Aposte nos números pares.",
+            "x": 40,
+            "y": 138,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Ímpares",
+            "x": 30,
+            "y": 171,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "1:1",
+            "x": 415,
+            "y": 171,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Aposte nos números ímpares.",
+            "x": 40,
+            "y": 196,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Vermelhos",
+            "x": 30,
+            "y": 229,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "1:1",
+            "x": 415,
+            "y": 229,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Aposte nos números vermelhos.",
+            "x": 40,
+            "y": 254,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Pretos",
+            "x": 30,
+            "y": 287,
+            "height": 18,
+            "width": 340,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "1:1",
+            "x": 415,
+            "y": 287,
+            "height": 18,
+            "width": 65,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Aposte nos números pretos.",
+            "x": 40,
+            "y": 312,
+            "height": 14,
+            "width": 430,
+            "color": "white"
+          }
+        ],
+        "page": 3,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5310464,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Controles",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Apostas",
+            "x": null,
+            "y": 58,
+            "height": 20,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              130,
+              91,
+              156,
+              116
+            ],
+            "x": 72,
+            "y": 101
+          },
+          {
+            "kind": "text",
+            "text": "Mover cursor",
+            "x": 120,
+            "y": 105,
+            "height": 18,
+            "width": 355,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              130,
+              122,
+              156,
+              148
+            ],
+            "x": 72,
+            "y": 153
+          },
+          {
+            "kind": "text",
+            "text": "Apostar ou aumentar aposta",
+            "x": 120,
+            "y": 157,
+            "height": 18,
+            "width": 355,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              130,
+              155,
+              156,
+              180
+            ],
+            "x": 72,
+            "y": 205
+          },
+          {
+            "kind": "text",
+            "text": "Reduzir aposta",
+            "x": 120,
+            "y": 209,
+            "height": 18,
+            "width": 355,
+            "color": "white"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Depois de apostar, leve o cursor até OK e aperte o botão indicado para girar.",
+            "x": 40,
+            "y": 267,
+            "height": 17,
+            "width": 430
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              100,
+              228,
+              135,
+              253
+            ],
+            "x": 180,
+            "y": 322
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              226,
+              258,
+              253
+            ],
+            "x": 245,
+            "y": 322
+          }
+        ],
+        "page": 4,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12419072,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "Forme a melhor mão com cinco cartas. Você pode trocar cada carta uma vez. Uma mão sem combinação ou com apenas um par baixo perde.",
+            "x": 36,
+            "y": 48,
+            "height": 15,
+            "width": 440
+          },
+          {
+            "kind": "text",
+            "text": "SEM PAR",
+            "x": 34,
+            "y": 111,
+            "height": 18,
+            "width": 180,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              234,
+              106,
+              468,
+              148
+            ],
+            "x": 234,
+            "y": 106
+          },
+          {
+            "kind": "paragraph",
+            "text": "Valores diferentes, com naipes variados.",
+            "x": 36,
+            "y": 153,
+            "height": 13,
+            "width": 440
+          },
+          {
+            "kind": "text",
+            "text": "PAR BAIXO",
+            "x": 34,
+            "y": 195,
+            "height": 18,
+            "width": 180,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              234,
+              194,
+              468,
+              236
+            ],
+            "x": 234,
+            "y": 194
+          },
+          {
+            "kind": "paragraph",
+            "text": "Um par abaixo de valete não dá prêmio.",
+            "x": 36,
+            "y": 242,
+            "height": 13,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "Após uma mão premiada, você pode tentar dobrar o prêmio. Escolha uma carta maior que a carta aberta. Você pode tentar até dez vezes. Se errar, perde tudo. Se a carta aberta for um coringa, você perde automaticamente.",
+            "x": 36,
+            "y": 275,
+            "height": 13,
+            "width": 440
+          }
+        ],
+        "page": 1,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12683264,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Controles",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Aposta",
+            "x": null,
+            "y": 43,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              64,
+              175,
+              89
+            ],
+            "x": 75,
+            "y": 68
+          },
+          {
+            "kind": "text",
+            "text": "Apostar",
+            "x": 122,
+            "y": 72,
+            "height": 18,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              94,
+              175,
+              121
+            ],
+            "x": 75,
+            "y": 100
+          },
+          {
+            "kind": "text",
+            "text": "Iniciar jogo",
+            "x": 122,
+            "y": 104,
+            "height": 18,
+            "width": 350
+          },
+          {
+            "kind": "text",
+            "text": "Pôquer",
+            "x": null,
+            "y": 144,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              158,
+              175,
+              185
+            ],
+            "x": 75,
+            "y": 170
+          },
+          {
+            "kind": "text",
+            "text": "Mover cursor",
+            "x": 122,
+            "y": 174,
+            "height": 18,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              190,
+              175,
+              217
+            ],
+            "x": 75,
+            "y": 202
+          },
+          {
+            "kind": "text",
+            "text": "Manter carta",
+            "x": 122,
+            "y": 206,
+            "height": 18,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              222,
+              175,
+              249
+            ],
+            "x": 75,
+            "y": 234
+          },
+          {
+            "kind": "text",
+            "text": "Trocar carta",
+            "x": 122,
+            "y": 238,
+            "height": 18,
+            "width": 350
+          },
+          {
+            "kind": "text",
+            "text": "Dobro ou nada",
+            "x": null,
+            "y": 278,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              286,
+              175,
+              313
+            ],
+            "x": 75,
+            "y": 303
+          },
+          {
+            "kind": "text",
+            "text": "Mover cursor",
+            "x": 122,
+            "y": 307,
+            "height": 18,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              318,
+              175,
+              345
+            ],
+            "x": 75,
+            "y": 335
+          },
+          {
+            "kind": "text",
+            "text": "Confirmar",
+            "x": 122,
+            "y": 339,
+            "height": 18,
+            "width": 350
+          }
+        ],
+        "page": 2,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12947456,
+      "labels": [
+        {
+          "rect": [
+            428,
+            20,
+            462,
+            29
+          ],
+          "text": "CORINGA",
+          "size": 6,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "white"
+        }
+      ],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "QUINA",
+            "x": 30,
+            "y": 26,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              14,
+              468,
+              61
+            ],
+            "x": 233,
+            "y": 14
+          },
+          {
+            "kind": "text",
+            "text": "Quatro cartas iguais e um coringa.",
+            "x": 34,
+            "y": 63,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "SEQUÊNCIA REAL",
+            "x": 30,
+            "y": 98,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              86,
+              468,
+              133
+            ],
+            "x": 233,
+            "y": 86
+          },
+          {
+            "kind": "text",
+            "text": "10, J, Q, K e A do mesmo naipe.",
+            "x": 34,
+            "y": 135,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "SEQUÊNCIA DE NAIPE",
+            "x": 30,
+            "y": 170,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              158,
+              468,
+              205
+            ],
+            "x": 233,
+            "y": 158
+          },
+          {
+            "kind": "text",
+            "text": "Cinco cartas seguidas do mesmo naipe.",
+            "x": 34,
+            "y": 207,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "QUADRA",
+            "x": 30,
+            "y": 242,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              230,
+              468,
+              277
+            ],
+            "x": 233,
+            "y": 230
+          },
+          {
+            "kind": "text",
+            "text": "Quatro cartas de mesmo valor.",
+            "x": 34,
+            "y": 279,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "TRINCA E PAR",
+            "x": 30,
+            "y": 314,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              302,
+              468,
+              349
+            ],
+            "x": 233,
+            "y": 302
+          },
+          {
+            "kind": "text",
+            "text": "Três cartas iguais e um par.",
+            "x": 34,
+            "y": 351,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          }
+        ],
+        "page": 3,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13211648,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "MESMO NAIPE",
+            "x": 30,
+            "y": 26,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              14,
+              468,
+              61
+            ],
+            "x": 233,
+            "y": 14
+          },
+          {
+            "kind": "text",
+            "text": "Cinco cartas do mesmo naipe.",
+            "x": 34,
+            "y": 63,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "SEQUÊNCIA",
+            "x": 30,
+            "y": 98,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              86,
+              468,
+              133
+            ],
+            "x": 233,
+            "y": 86
+          },
+          {
+            "kind": "text",
+            "text": "Cinco valores seguidos, sem voltar ao início.",
+            "x": 34,
+            "y": 135,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "TRINCA",
+            "x": 30,
+            "y": 170,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              158,
+              468,
+              205
+            ],
+            "x": 233,
+            "y": 158
+          },
+          {
+            "kind": "text",
+            "text": "Três cartas de mesmo valor.",
+            "x": 34,
+            "y": 207,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "DOIS PARES",
+            "x": 30,
+            "y": 242,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              230,
+              468,
+              277
+            ],
+            "x": 233,
+            "y": 230
+          },
+          {
+            "kind": "text",
+            "text": "Dois pares de valores diferentes.",
+            "x": 34,
+            "y": 279,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "PAR ALTO",
+            "x": 30,
+            "y": 314,
+            "height": 15,
+            "width": 195,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              233,
+              302,
+              468,
+              349
+            ],
+            "x": 233,
+            "y": 302
+          },
+          {
+            "kind": "text",
+            "text": "Um par de J, Q, K ou A.",
+            "x": 34,
+            "y": 351,
+            "height": 13,
+            "width": 440,
+            "color": "white"
+          }
+        ],
+        "page": 4,
+        "total": 4
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14370816,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "Chegue o mais perto possível de 21 sem passar desse valor.",
+            "x": 36,
+            "y": 58,
+            "height": 18,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "Faça sua aposta. O crupiê dá duas cartas abertas para você e duas para si, uma aberta e uma fechada.",
+            "x": 36,
+            "y": 111,
+            "height": 17,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "J, Q e K valem 10. O ás vale 1 ou 11. As outras cartas valem o número que mostram.",
+            "x": 36,
+            "y": 195,
+            "height": 17,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "Um ás com 10, J, Q ou K nas duas primeiras cartas forma um vinte e um natural. Caso contrário, você pode pedir mais cartas, uma por vez. Se passar de 21, perde.",
+            "x": 36,
+            "y": 264,
+            "height": 16,
+            "width": 440
+          }
+        ],
+        "page": 1,
+        "total": 3
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14503936,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "APOSTAR: coloque fichas na área de aposta.",
+            "x": 32,
+            "y": 56,
+            "height": 16,
+            "width": 450
+          },
+          {
+            "kind": "paragraph",
+            "text": "COMPRAR: peça mais uma carta.",
+            "x": 32,
+            "y": 103,
+            "height": 16,
+            "width": 450
+          },
+          {
+            "kind": "paragraph",
+            "text": "PARAR: mantenha o total que já tem.",
+            "x": 32,
+            "y": 150,
+            "height": 16,
+            "width": 450
+          },
+          {
+            "kind": "paragraph",
+            "text": "DOBRAR: dobre a aposta e receba só mais uma carta. Disponível apenas com duas cartas.",
+            "x": 32,
+            "y": 197,
+            "height": 16,
+            "width": 450
+          },
+          {
+            "kind": "paragraph",
+            "text": "DIVIDIR: se tiver um par, separe-o em duas mãos.",
+            "x": 32,
+            "y": 264,
+            "height": 16,
+            "width": 450
+          },
+          {
+            "kind": "paragraph",
+            "text": "SEGURO: se o crupiê mostrar um ás, aposte mais metade do valor inicial para recuperar sua aposta caso ele faça um vinte e um natural.",
+            "x": 32,
+            "y": 313,
+            "height": 14,
+            "width": 450
+          }
+        ],
+        "page": 2,
+        "total": 3
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14637056,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Controles",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Aposta",
+            "x": null,
+            "y": 55,
+            "height": 20,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              91,
+              175,
+              117
+            ],
+            "x": 75,
+            "y": 98
+          },
+          {
+            "kind": "text",
+            "text": "Apostar",
+            "x": 125,
+            "y": 103,
+            "height": 18,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              122,
+              175,
+              149
+            ],
+            "x": 75,
+            "y": 145
+          },
+          {
+            "kind": "text",
+            "text": "Iniciar jogo",
+            "x": 125,
+            "y": 150,
+            "height": 18,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Comprar / Parar / Dividir",
+            "x": null,
+            "y": 217,
+            "height": 19,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              91,
+              175,
+              117
+            ],
+            "x": 75,
+            "y": 265
+          },
+          {
+            "kind": "text",
+            "text": "Mover cursor",
+            "x": 125,
+            "y": 270,
+            "height": 18,
+            "width": 350,
+            "color": "white"
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              122,
+              175,
+              149
+            ],
+            "x": 75,
+            "y": 312
+          },
+          {
+            "kind": "text",
+            "text": "Confirmar",
+            "x": 125,
+            "y": 317,
+            "height": 18,
+            "width": 350,
+            "color": "white"
+          }
+        ],
+        "page": 3,
+        "total": 3
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15302656,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "Descubra um número de três algarismos em até cinco tentativas. Nenhum algarismo se repete.",
+            "x": 36,
+            "y": 56,
+            "height": 17,
+            "width": 440
+          },
+          {
+            "kind": "text",
+            "text": "Nível 1: algarismos de 0 a 7.",
+            "x": 36,
+            "y": 124,
+            "height": 17,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Nível 2: algarismos de 0 a 8.",
+            "x": 36,
+            "y": 153,
+            "height": 17,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Nível 3: algarismos de 0 a 9.",
+            "x": 36,
+            "y": 182,
+            "height": 17,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Dicas",
+            "x": null,
+            "y": 226,
+            "height": 20,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "ERRO: nenhum algarismo correto.",
+            "x": 36,
+            "y": 259,
+            "height": 16,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "FORA: algarismo certo, posição errada.",
+            "x": 36,
+            "y": 288,
+            "height": 16,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "CERTO: algarismo e posição corretos.",
+            "x": 36,
+            "y": 317,
+            "height": 16,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "1 CERTO e 2 FORA: um no lugar certo e dois fora.",
+            "x": 24,
+            "y": 349,
+            "height": 13,
+            "width": 464,
+            "color": "white"
+          }
+        ],
+        "page": 1,
+        "total": 2
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15435776,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Controles",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Aposta",
+            "x": null,
+            "y": 45,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              74,
+              175,
+              102
+            ],
+            "x": 72,
+            "y": 70
+          },
+          {
+            "kind": "text",
+            "text": "Apostar",
+            "x": 120,
+            "y": 75,
+            "height": 17,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              103,
+              175,
+              131
+            ],
+            "x": 72,
+            "y": 103
+          },
+          {
+            "kind": "text",
+            "text": "Confirmar",
+            "x": 120,
+            "y": 108,
+            "height": 17,
+            "width": 350
+          },
+          {
+            "kind": "text",
+            "text": "Dificuldade",
+            "x": null,
+            "y": 151,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              74,
+              175,
+              102
+            ],
+            "x": 72,
+            "y": 175
+          },
+          {
+            "kind": "text",
+            "text": "Escolher nível",
+            "x": 120,
+            "y": 180,
+            "height": 17,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              103,
+              175,
+              131
+            ],
+            "x": 72,
+            "y": 208
+          },
+          {
+            "kind": "text",
+            "text": "Iniciar jogo",
+            "x": 120,
+            "y": 213,
+            "height": 17,
+            "width": 350
+          },
+          {
+            "kind": "text",
+            "text": "Palpite",
+            "x": null,
+            "y": 251,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              74,
+              175,
+              102
+            ],
+            "x": 72,
+            "y": 275
+          },
+          {
+            "kind": "text",
+            "text": "Alterar algarismo",
+            "x": 120,
+            "y": 280,
+            "height": 17,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              74,
+              175,
+              102
+            ],
+            "x": 72,
+            "y": 307
+          },
+          {
+            "kind": "text",
+            "text": "Mover cursor",
+            "x": 120,
+            "y": 312,
+            "height": 17,
+            "width": 350
+          },
+          {
+            "kind": "copy",
+            "rect": [
+              148,
+              103,
+              175,
+              131
+            ],
+            "x": 72,
+            "y": 339
+          },
+          {
+            "kind": "text",
+            "text": "Confirmar palpite",
+            "x": 120,
+            "y": 344,
+            "height": 17,
+            "width": 350
+          }
+        ],
+        "page": 2,
+        "total": 2
+      }
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 96,
+      "labels": [],
+      "panel": {
+        "rect": [
+          4,
+          4,
+          508,
+          396
+        ],
+        "title": "Regras",
+        "parts": [
+          {
+            "kind": "paragraph",
+            "text": "Seu cão enfrenta monstros em duelos. As lutas são automáticas, pois você não pode dar ordens ao cão.",
+            "x": 36,
+            "y": 66,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "A cada vitória, o prêmio aumenta. Se perder, você perde todo o prêmio acumulado. Por isso, saber a hora de parar também faz parte do jogo.",
+            "x": 36,
+            "y": 163,
+            "height": 19,
+            "width": 440
+          },
+          {
+            "kind": "paragraph",
+            "text": "Vença as cinco rodadas para ser campeão!",
+            "x": 36,
+            "y": 304,
+            "height": 19,
+            "width": 440
+          }
+        ],
+        "page": null,
+        "total": null
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 7168000,
+      "labels": [],
+      "panel": {
+        "rect": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "title": "Apostas da roleta",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Número único - Um número.",
+            "x": 34,
+            "y": 62,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Dois números - Dois números vizinhos.",
+            "x": 34,
+            "y": 94,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Três números - Uma fileira de três.",
+            "x": 34,
+            "y": 126,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Quatro números - Quatro cantos vizinhos.",
+            "x": 34,
+            "y": 158,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Seis números - Duas fileiras de três.",
+            "x": 34,
+            "y": 190,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Coluna - Uma coluna de doze.",
+            "x": 34,
+            "y": 222,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Dúzia - 1ª, 2ª ou 3ª dúzia.",
+            "x": 34,
+            "y": 254,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Pares / ímpares - Números pares ou ímpares.",
+            "x": 34,
+            "y": 286,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          },
+          {
+            "kind": "text",
+            "text": "Vermelhos / pretos - Números vermelhos ou pretos.",
+            "x": 34,
+            "y": 318,
+            "height": 14,
+            "width": 440,
+            "color": "white"
+          }
+        ],
+        "page": null,
+        "total": null,
+        "border": true
+      }
+    },
+    {
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "offset": 544496,
+      "labels": [
+        {
+          "rect": [
+            0,
+            0,
+            168,
+            40
+          ],
+          "text": "PREPARE-SE...",
+          "size": 42,
+          "color": "green",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            40,
+            192,
+            88
+          ],
+          "text": "JÁ!",
+          "size": 42,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            88,
+            232,
+            136
+          ],
+          "text": "TEMPO ESGOTADO!",
+          "size": 42,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            136,
+            168,
+            184
+          ],
+          "text": "CHEGADA!",
+          "size": 42,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            184,
+            144,
+            232
+          ],
+          "text": "PERDEU",
+          "size": 42,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 1248768,
+      "labels": [
+        {
+          "rect": [
+            0,
+            32,
+            192,
+            80
+          ],
+          "text": "JÁ!",
+          "size": 34,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            400,
+            100
+          ]
+        },
+        {
+          "rect": [
+            192,
+            32,
+            256,
+            56
+          ],
+          "text": "BOM",
+          "size": 34,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            400,
+            100
+          ]
+        },
+        {
+          "rect": [
+            192,
+            56,
+            256,
+            80
+          ],
+          "text": "ERRO",
+          "size": 34,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            400,
+            100
+          ]
+        },
+        {
+          "rect": [
+            0,
+            80,
+            160,
+            116
+          ],
+          "text": "PREPARE-SE...",
+          "size": 34,
+          "color": "green",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            400,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "offset": 263312,
+      "labels": [
+        {
+          "rect": [
+            0,
+            0,
+            200,
+            96
+          ],
+          "text": "VOCÊ\nVENCEU",
+          "size": 52,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            96,
+            280,
+            200
+          ],
+          "text": "PERDEU",
+          "size": 74,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            400,
+            0,
+            512,
+            24
+          ],
+          "text": "RODADA 1",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            400,
+            24,
+            512,
+            48
+          ],
+          "text": "RODADA 2",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            400,
+            48,
+            512,
+            72
+          ],
+          "text": "RODADA 3",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            400,
+            72,
+            512,
+            96
+          ],
+          "text": "RODADA 4",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            400,
+            96,
+            512,
+            120
+          ],
+          "text": "RODADA 5",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            384,
+            144,
+            448,
+            168
+          ],
+          "text": "vitória",
+          "size": 20,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1158208,
+      "labels": [
+        {
+          "rect": [
+            136,
+            48,
+            240,
+            72
+          ],
+          "text": "CORRER",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            136,
+            104,
+            216,
+            128
+          ],
+          "text": "APOSTA",
+          "size": 21,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1308432,
+      "labels": [
+        {
+          "rect": [
+            22,
+            14,
+            237,
+            78
+          ],
+          "text": "ACERTOU!",
+          "size": 58,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "row"
+        },
+        {
+          "rect": [
+            22,
+            115,
+            239,
+            178
+          ],
+          "text": "ERROU!",
+          "size": 58,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "row"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1375056,
+      "labels": [
+        {
+          "rect": [
+            0,
+            0,
+            56,
+            32
+          ],
+          "text": "1º",
+          "size": 30,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            56,
+            0,
+            112,
+            32
+          ],
+          "text": "2º",
+          "size": 30,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            32,
+            56,
+            64
+          ],
+          "text": "3º",
+          "size": 30,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            56,
+            32,
+            112,
+            64
+          ],
+          "text": "4º",
+          "size": 30,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            64,
+            56,
+            96
+          ],
+          "text": "5º",
+          "size": 30,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1396224,
+      "labels": [
+        {
+          "rect": [
+            25,
+            0,
+            72,
+            24
+          ],
+          "text": "Mover",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            96,
+            0,
+            160,
+            24
+          ],
+          "text": "Aposta",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            184,
+            0,
+            224,
+            24
+          ],
+          "text": "OK",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            25,
+            24,
+            168,
+            48
+          ],
+          "text": "Reduzir aposta",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            25,
+            48,
+            128,
+            72
+          ],
+          "text": "Cancelar",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            202,
+            24,
+            254,
+            48
+          ],
+          "text": "Próximo",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 192,
+      "labels": [
+        {
+          "rect": [
+            242,
+            366,
+            309,
+            378
+          ],
+          "text": "CORRER",
+          "size": 10,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "offset": 263408,
+      "labels": [
+        {
+          "rect": [
+            32,
+            77,
+            118,
+            99
+          ],
+          "text": "PONTOS",
+          "size": 19,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "row"
+        },
+        {
+          "rect": [
+            384,
+            76,
+            444,
+            99
+          ],
+          "text": "VIDAS",
+          "size": 19,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "row"
+        },
+        {
+          "rect": [
+            168,
+            40,
+            312,
+            64
+          ],
+          "text": "1 JOGO 100G",
+          "size": 17,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            248,
+            144,
+            480,
+            208
+          ],
+          "text": "JOGAR",
+          "size": 54,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            208,
+            272,
+            264
+          ],
+          "text": "FIM DO TEMPO",
+          "size": 45,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            264,
+            392,
+            320
+          ],
+          "text": "FIM DE JOGO",
+          "size": 48,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            34,
+            350,
+            390,
+            448
+          ],
+          "text": "FOGO CRUZADO",
+          "size": 50,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            464,
+            264,
+            488
+          ],
+          "text": "APERTE O BOTÃO START",
+          "size": 18,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "offset": 1438432,
+      "labels": [
+        {
+          "rect": [
+            199,
+            113,
+            222,
+            134
+          ],
+          "text": "F",
+          "size": 24,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            224,
+            113,
+            250,
+            134
+          ],
+          "text": "I",
+          "size": 24,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            199,
+            137,
+            222,
+            159
+          ],
+          "text": "M",
+          "size": 24,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            224,
+            137,
+            250,
+            159
+          ],
+          "text": "!",
+          "size": 24,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "offset": 277792,
+      "labels": [
+        {
+          "rect": [
+            56,
+            23,
+            198,
+            42
+          ],
+          "text": "DANÇA MUSCULAR",
+          "size": 16,
+          "color": "brown",
+          "font": "times",
+          "outline": 0,
+          "background": "row"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14071808,
+      "labels": [
+        {
+          "rect": [
+            4,
+            5,
+            102,
+            23
+          ],
+          "text": "QUINA",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            3,
+            3,
+            166,
+            100
+          ]
+        },
+        {
+          "rect": [
+            4,
+            25,
+            165,
+            42
+          ],
+          "text": "SEQUÊNCIA REAL",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            3,
+            3,
+            166,
+            100
+          ]
+        },
+        {
+          "rect": [
+            4,
+            44,
+            165,
+            60
+          ],
+          "text": "SEQUÊNCIA DE NAIPE",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            3,
+            3,
+            166,
+            100
+          ]
+        },
+        {
+          "rect": [
+            4,
+            63,
+            126,
+            79
+          ],
+          "text": "QUADRA",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            3,
+            3,
+            166,
+            100
+          ]
+        },
+        {
+          "rect": [
+            4,
+            81,
+            129,
+            96
+          ],
+          "text": "TRINCA E PAR",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            3,
+            3,
+            166,
+            100
+          ]
+        },
+        {
+          "rect": [
+            235,
+            5,
+            318,
+            23
+          ],
+          "text": "MESMO NAIPE",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            234,
+            3,
+            398,
+            100
+          ]
+        },
+        {
+          "rect": [
+            235,
+            25,
+            318,
+            42
+          ],
+          "text": "SEQUÊNCIA",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            234,
+            3,
+            398,
+            100
+          ]
+        },
+        {
+          "rect": [
+            235,
+            44,
+            367,
+            60
+          ],
+          "text": "TRINCA",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            234,
+            3,
+            398,
+            100
+          ]
+        },
+        {
+          "rect": [
+            235,
+            63,
+            367,
+            79
+          ],
+          "text": "DOIS PARES",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            234,
+            3,
+            398,
+            100
+          ]
+        },
+        {
+          "rect": [
+            235,
+            81,
+            367,
+            96
+          ],
+          "text": "PAR ALTO",
+          "size": 13,
+          "color": "source",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample_rect",
+          "sample_rect": [
+            234,
+            3,
+            398,
+            100
+          ]
+        },
+        {
+          "rect": [
+            0,
+            103,
+            134,
+            136
+          ],
+          "text": "SEM PAR",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            134,
+            103,
+            410,
+            136
+          ],
+          "text": "QUINA",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            137,
+            85,
+            169
+          ],
+          "text": "EMPATE",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            85,
+            137,
+            466,
+            169
+          ],
+          "text": "SEQUÊNCIA DE NAIPE",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            169,
+            199,
+            201
+          ],
+          "text": "VENCEU!",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            199,
+            169,
+            466,
+            201
+          ],
+          "text": "SEQUÊNCIA REAL",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            201,
+            199,
+            232
+          ],
+          "text": "PERDEU!",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            199,
+            201,
+            466,
+            232
+          ],
+          "text": "TRINCA E PAR",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            232,
+            392,
+            265
+          ],
+          "text": "PARABÉNS!",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            265,
+            167,
+            296
+          ],
+          "text": "DOIS PARES",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            168,
+            265,
+            410,
+            296
+          ],
+          "text": "PAR ALTO",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            297,
+            309,
+            329
+          ],
+          "text": "DESAFIO!",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            329,
+            349,
+            361
+          ],
+          "text": "DOBRO OU NADA",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            361,
+            195,
+            393
+          ],
+          "text": "TRINCA",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            195,
+            361,
+            392,
+            393
+          ],
+          "text": "QUADRA",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            393,
+            208,
+            425
+          ],
+          "text": "VENCEDOR",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            208,
+            393,
+            319,
+            425
+          ],
+          "text": "PERDEDOR",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            294,
+            465,
+            416,
+            497
+          ],
+          "text": "VENCE!",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            416,
+            465,
+            509,
+            497
+          ],
+          "text": "GANHOU!",
+          "size": 30,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            416,
+            104,
+            470,
+            121
+          ],
+          "text": "MANTER",
+          "size": 30,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            475,
+            104,
+            511,
+            122
+          ],
+          "text": "GANHO",
+          "size": 10,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14336000,
+      "labels": [
+        {
+          "rect": [
+            9,
+            96,
+            106,
+            122
+          ],
+          "text": "Dobrar?",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            238,
+            96,
+            279,
+            122
+          ],
+          "text": "Sim",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            309,
+            96,
+            349,
+            122
+          ],
+          "text": "Não",
+          "size": 19,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15235072,
+      "labels": [
+        {
+          "rect": [
+            0,
+            0,
+            96,
+            48
+          ],
+          "text": "VENCEU",
+          "size": 43,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            96,
+            0,
+            224,
+            48
+          ],
+          "text": "PERDEU",
+          "size": 43,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            48,
+            144,
+            96
+          ],
+          "text": "EMPATE",
+          "size": 43,
+          "color": "green",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15900672,
+      "labels": [
+        {
+          "rect": [
+            5,
+            56,
+            99,
+            72
+          ],
+          "text": "1ª tentativa",
+          "size": 15,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            5,
+            72,
+            99,
+            88
+          ],
+          "text": "2ª tentativa",
+          "size": 15,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            5,
+            88,
+            99,
+            104
+          ],
+          "text": "3ª tentativa",
+          "size": 15,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            5,
+            104,
+            99,
+            120
+          ],
+          "text": "4ª tentativa",
+          "size": 15,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            5,
+            120,
+            99,
+            136
+          ],
+          "text": "5ª tentativa",
+          "size": 15,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            5,
+            136,
+            79,
+            153
+          ],
+          "text": "CERTO",
+          "size": 16,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            90,
+            145
+          ]
+        },
+        {
+          "rect": [
+            5,
+            153,
+            79,
+            170
+          ],
+          "text": "FORA",
+          "size": 16,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            90,
+            145
+          ]
+        },
+        {
+          "rect": [
+            5,
+            170,
+            79,
+            187
+          ],
+          "text": "ERRO",
+          "size": 16,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            90,
+            145
+          ]
+        },
+        {
+          "rect": [
+            5,
+            187,
+            79,
+            204
+          ],
+          "text": "CERTO",
+          "size": 16,
+          "color": "gold",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            90,
+            145
+          ]
+        },
+        {
+          "rect": [
+            10,
+            240,
+            76,
+            259
+          ],
+          "text": "NÍVEL 1",
+          "size": 12,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            11,
+            245
+          ]
+        },
+        {
+          "rect": [
+            83,
+            232,
+            150,
+            253
+          ],
+          "text": "NÍVEL 1",
+          "size": 13,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            84,
+            237
+          ]
+        },
+        {
+          "rect": [
+            10,
+            321,
+            135,
+            355
+          ],
+          "text": "NÍVEL 1",
+          "size": 26,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            14,
+            327
+          ]
+        },
+        {
+          "rect": [
+            10,
+            264,
+            76,
+            283
+          ],
+          "text": "NÍVEL 2",
+          "size": 12,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            11,
+            269
+          ]
+        },
+        {
+          "rect": [
+            83,
+            256,
+            150,
+            277
+          ],
+          "text": "NÍVEL 2",
+          "size": 13,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            84,
+            261
+          ]
+        },
+        {
+          "rect": [
+            10,
+            361,
+            135,
+            395
+          ],
+          "text": "NÍVEL 2",
+          "size": 26,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            14,
+            367
+          ]
+        },
+        {
+          "rect": [
+            10,
+            288,
+            76,
+            307
+          ],
+          "text": "NÍVEL 3",
+          "size": 12,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            11,
+            293
+          ]
+        },
+        {
+          "rect": [
+            83,
+            280,
+            150,
+            301
+          ],
+          "text": "NÍVEL 3",
+          "size": 13,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            84,
+            285
+          ]
+        },
+        {
+          "rect": [
+            10,
+            401,
+            135,
+            435
+          ],
+          "text": "NÍVEL 3",
+          "size": 26,
+          "color": "gold",
+          "font": "impact",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            14,
+            407
+          ]
+        },
+        {
+          "rect": [
+            151,
+            360,
+            248,
+            391
+          ],
+          "text": "VENCEU!",
+          "size": 29,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            250,
+            360,
+            367,
+            391
+          ],
+          "text": "PERDEU!",
+          "size": 29,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            368,
+            360,
+            500,
+            391
+          ],
+          "text": "EMPATE",
+          "size": 29,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            0,
+            469,
+            309,
+            505
+          ],
+          "text": "ESCOLHER NÍVEL",
+          "size": 29,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15101952,
+      "labels": [
+        {
+          "rect": [
+            169,
+            147,
+            235,
+            166
+          ],
+          "text": "SALDO",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            240,
+            147,
+            279,
+            166
+          ],
+          "text": "APOSTA",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            286,
+            147,
+            324,
+            166
+          ],
+          "text": "CARTA",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            329,
+            147,
+            404,
+            167
+          ],
+          "text": "PARAR",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            404,
+            147,
+            495,
+            167
+          ],
+          "text": "DOBRAR",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            169,
+            170,
+            249,
+            190
+          ],
+          "text": "DIVIDIR?",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            255,
+            170,
+            387,
+            190
+          ],
+          "text": "SEGURO?",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            392,
+            170,
+            431,
+            190
+          ],
+          "text": "SIM",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            438,
+            170,
+            486,
+            190
+          ],
+          "text": "NÃO",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            304,
+            192,
+            343,
+            213
+          ],
+          "text": "GANHO",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            268,
+            225,
+            319,
+            242
+          ],
+          "text": "PASSOU",
+          "size": 15,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            275,
+            225
+          ]
+        },
+        {
+          "rect": [
+            362,
+            216,
+            390,
+            240
+          ],
+          "text": "21",
+          "size": 18,
+          "color": "white",
+          "font": "times",
+          "outline": 1,
+          "background": "sample",
+          "sample": [
+            374,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13475840,
+      "labels": [
+        {
+          "rect": [
+            64,
+            332,
+            128,
+            354
+          ],
+          "text": "SALDO",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            280,
+            332,
+            323,
+            354
+          ],
+          "text": "APOSTA",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            392,
+            332,
+            436,
+            354
+          ],
+          "text": "GANHO",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15568896,
+      "labels": [
+        {
+          "rect": [
+            64,
+            332,
+            128,
+            354
+          ],
+          "text": "SALDO",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            280,
+            332,
+            323,
+            354
+          ],
+          "text": "APOSTA",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            392,
+            332,
+            436,
+            354
+          ],
+          "text": "GANHO",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4446208,
+      "labels": [
+        {
+          "rect": [
+            109,
+            313,
+            198,
+            334
+          ],
+          "text": "SALDO",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            260,
+            313,
+            314,
+            334
+          ],
+          "text": "APOSTA",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            352,
+            313,
+            410,
+            334
+          ],
+          "text": "GANHO",
+          "size": 12,
+          "color": "gold",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6770688,
+      "labels": [
+        {
+          "rect": [
+            4,
+            60,
+            103,
+            83
+          ],
+          "text": "SALDO:",
+          "size": 20,
+          "color": "black",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            4,
+            84,
+            103,
+            108
+          ],
+          "text": "APOSTA:",
+          "size": 20,
+          "color": "black",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            242,
+            127,
+            299,
+            154
+          ],
+          "text": "GANHO",
+          "size": 20,
+          "color": "red",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6903808,
+      "labels": [
+        {
+          "rect": [
+            191,
+            9,
+            288,
+            29
+          ],
+          "text": "Histórico",
+          "size": 16,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 11970560,
+      "labels": [
+        {
+          "rect": [
+            204,
+            148,
+            365,
+            180
+          ],
+          "text": "PREPARE-SE",
+          "size": 23,
+          "color": "green",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            153,
+            185,
+            341,
+            232
+          ],
+          "text": "JÁ!",
+          "size": 23,
+          "color": "blue",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            153,
+            234,
+            378,
+            278
+          ],
+          "text": "TEMPO ESGOTADO",
+          "size": 23,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            153,
+            280,
+            342,
+            326
+          ],
+          "text": "CONCLUÍDO!",
+          "size": 23,
+          "color": "red",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            5,
+            418,
+            69,
+            439
+          ],
+          "text": "LEITE",
+          "size": 17,
+          "color": "white",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            159,
+            429,
+            235,
+            451
+          ],
+          "text": "VINAGRE",
+          "size": 16,
+          "color": "brown",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 618496,
+      "labels": [
+        {
+          "rect": [
+            374,
+            318,
+            433,
+            341
+          ],
+          "text": "BÔNUS",
+          "size": 15,
+          "color": "white",
+          "font": "impact",
+          "outline": 1,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13807616,
+      "labels": [
+        {
+          "rect": [
+            7,
+            278,
+            48,
+            291
+          ],
+          "text": "VER",
+          "size": 10,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            27,
+            279
+          ]
+        },
+        {
+          "rect": [
+            76,
+            278,
+            113,
+            291
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            94,
+            279
+          ]
+        },
+        {
+          "rect": [
+            142,
+            278,
+            179,
+            291
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            160,
+            279
+          ]
+        },
+        {
+          "rect": [
+            208,
+            278,
+            245,
+            291
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            226,
+            279
+          ]
+        },
+        {
+          "rect": [
+            274,
+            278,
+            311,
+            291
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            292,
+            279
+          ]
+        },
+        {
+          "rect": [
+            340,
+            278,
+            377,
+            291
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            358,
+            279
+          ]
+        },
+        {
+          "rect": [
+            407,
+            278,
+            444,
+            291
+          ],
+          "text": "JOGAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            425,
+            279
+          ]
+        },
+        {
+          "rect": [
+            7,
+            327,
+            48,
+            340
+          ],
+          "text": "VER",
+          "size": 10,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            27,
+            328
+          ]
+        },
+        {
+          "rect": [
+            76,
+            327,
+            113,
+            340
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            94,
+            328
+          ]
+        },
+        {
+          "rect": [
+            142,
+            327,
+            179,
+            340
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            160,
+            328
+          ]
+        },
+        {
+          "rect": [
+            208,
+            327,
+            245,
+            340
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            226,
+            328
+          ]
+        },
+        {
+          "rect": [
+            274,
+            327,
+            311,
+            340
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            292,
+            328
+          ]
+        },
+        {
+          "rect": [
+            340,
+            327,
+            377,
+            340
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            358,
+            328
+          ]
+        },
+        {
+          "rect": [
+            407,
+            327,
+            444,
+            340
+          ],
+          "text": "JOGAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            425,
+            328
+          ]
+        },
+        {
+          "rect": [
+            7,
+            375,
+            48,
+            388
+          ],
+          "text": "VER",
+          "size": 10,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            13,
+            381
+          ]
+        },
+        {
+          "rect": [
+            76,
+            375,
+            113,
+            388
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            94,
+            376
+          ]
+        },
+        {
+          "rect": [
+            142,
+            375,
+            179,
+            388
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            160,
+            376
+          ]
+        },
+        {
+          "rect": [
+            208,
+            375,
+            245,
+            388
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            226,
+            376
+          ]
+        },
+        {
+          "rect": [
+            274,
+            375,
+            311,
+            388
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            292,
+            376
+          ]
+        },
+        {
+          "rect": [
+            340,
+            375,
+            377,
+            388
+          ],
+          "text": "MARCAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            358,
+            376
+          ]
+        },
+        {
+          "rect": [
+            407,
+            375,
+            444,
+            388
+          ],
+          "text": "JOGAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            425,
+            376
+          ]
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16164864,
+      "labels": [
+        {
+          "rect": [
+            18,
+            275,
+            59,
+            289
+          ],
+          "text": "JOGAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            38,
+            276
+          ]
+        },
+        {
+          "rect": [
+            18,
+            325,
+            59,
+            339
+          ],
+          "text": "JOGAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            38,
+            326
+          ]
+        },
+        {
+          "rect": [
+            18,
+            375,
+            59,
+            389
+          ],
+          "text": "JOGAR",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            38,
+            376
+          ]
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16431104,
+      "labels": [
+        {
+          "rect": [
+            436,
+            354,
+            502,
+            375
+          ],
+          "text": "CORINGA",
+          "size": 12,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16695296,
+      "labels": [
+        {
+          "rect": [
+            436,
+            354,
+            502,
+            375
+          ],
+          "text": "CORINGA",
+          "size": 12,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 16959488,
+      "labels": [
+        {
+          "rect": [
+            434,
+            332,
+            448,
+            402
+          ],
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "white"
+        },
+        {
+          "rect": [
+            489,
+            370,
+            502,
+            437
+          ],
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "white",
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 17223680,
+      "labels": [
+        {
+          "rect": [
+            434,
+            332,
+            448,
+            402
+          ],
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "white"
+        },
+        {
+          "rect": [
+            489,
+            370,
+            502,
+            437
+          ],
+          "text": "C\nO\nR\nI\nN\nG\nA",
+          "size": 9,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "white",
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5574656,
+      "labels": [
+        {
+          "rect": [
+            142,
+            224,
+            216,
+            248
+          ],
+          "text": "1ª dúzia",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            282,
+            224,
+            357,
+            248
+          ],
+          "text": "2ª dúzia",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            422,
+            224,
+            497,
+            248
+          ],
+          "text": "3ª dúzia",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            108,
+            280,
+            172,
+            309
+          ],
+          "text": "1 a 18",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            178,
+            280,
+            234,
+            309
+          ],
+          "text": "PARES",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            394,
+            280,
+            451,
+            309
+          ],
+          "text": "ÍMPARES",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            465,
+            280,
+            511,
+            309
+          ],
+          "text": "19 a 36",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 5838848,
+      "labels": [
+        {
+          "rect": [
+            39,
+            43,
+            64,
+            88
+          ],
+          "text": "2:3",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode",
+          "rotation": 90
+        },
+        {
+          "rect": [
+            39,
+            92,
+            64,
+            137
+          ],
+          "text": "2:2",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode",
+          "rotation": 90
+        },
+        {
+          "rect": [
+            39,
+            141,
+            64,
+            186
+          ],
+          "text": "2:1",
+          "size": 17,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode",
+          "rotation": 90
+        }
+      ],
+      "erase": [
+        [
+          0,
+          282,
+          22,
+          308
+        ]
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 6170624,
+      "labels": [
+        {
+          "rect": [
+            46,
+            304,
+            113,
+            328
+          ],
+          "text": "1ª dúzia",
+          "size": 16,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            6,
+            359,
+            69,
+            386
+          ],
+          "text": "1 a 18",
+          "size": 16,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            76,
+            359,
+            127,
+            386
+          ],
+          "text": "PARES",
+          "size": 16,
+          "color": "white",
+          "font": "times",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 4182016,
+      "labels": [
+        {
+          "rect": [
+            112,
+            247,
+            156,
+            266
+          ],
+          "text": "JOGAR",
+          "size": 11,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            134,
+            248
+          ]
+        },
+        {
+          "rect": [
+            112,
+            304,
+            156,
+            323
+          ],
+          "text": "JOGAR",
+          "size": 11,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            134,
+            305
+          ]
+        },
+        {
+          "rect": [
+            112,
+            365,
+            156,
+            384
+          ],
+          "text": "JOGAR",
+          "size": 11,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "sample",
+          "sample": [
+            134,
+            366
+          ]
+        }
+      ]
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14770176,
+      "labels": [],
+      "cloth": {
+        "rect": [
+          36,
+          62,
+          511,
+          257
+        ],
+        "arcs": [
+          {
+            "text": "VINTE E UM PAGA 3:2",
+            "size": 23,
+            "center": [
+              300,
+              142
+            ],
+            "curve": 0.0014
+          },
+          {
+            "text": "O CRUPIÊ PARA NO 17 E COMPRA ATÉ 16",
+            "size": 14,
+            "center": [
+              300,
+              189
+            ],
+            "curve": 0.00065
+          },
+          {
+            "text": "SEGURO PAGA 2:1",
+            "size": 22,
+            "center": [
+              300,
+              231
+            ],
+            "curve": 0.0008
+          }
+        ]
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 15034368,
+      "labels": [],
+      "cloth": {
+        "rect": [
+          0,
+          62,
+          86,
+          218
+        ],
+        "arcs": []
+      }
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 1976320,
+      "labels": [
+        {
+          "rect": [
+            119,
+            160,
+            174,
+            184
+          ],
+          "text": "Tocando",
+          "size": 14,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            66,
+            378,
+            88
+          ],
+          "text": "\" \":",
+          "size": 17,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            378,
+            66,
+            419,
+            88
+          ],
+          "text": "Sim",
+          "size": 17,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            420,
+            66,
+            474,
+            88
+          ],
+          "text": "Não",
+          "size": 17,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            90,
+            503,
+            112
+          ],
+          "text": "Baixar?",
+          "size": 18,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            114,
+            503,
+            136
+          ],
+          "text": "Baixando...",
+          "size": 18,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            138,
+            503,
+            160
+          ],
+          "text": "Download concluído.",
+          "size": 17,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            260,
+            162,
+            503,
+            184
+          ],
+          "text": "Já foi baixado!",
+          "size": 18,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            186,
+            350,
+            209
+          ],
+          "text": "Escolher",
+          "size": 10,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            356,
+            186,
+            399,
+            209
+          ],
+          "text": "Tocar",
+          "size": 14,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            405,
+            186,
+            449,
+            209
+          ],
+          "text": "Voltar",
+          "size": 13,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            210,
+            447,
+            232
+          ],
+          "text": "Cancelar",
+          "size": 18,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        },
+        {
+          "rect": [
+            305,
+            234,
+            449,
+            257
+          ],
+          "text": "Baixar",
+          "size": 18,
+          "color": "black",
+          "font": "arial",
+          "outline": 0,
+          "background": "mode"
+        }
+      ]
+    }
+  ]
+}

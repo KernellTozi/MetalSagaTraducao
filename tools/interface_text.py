@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'all_minigames_release' in draft:
+        from minigames_release import compile_interface
+        return compile_interface(data,draft)
     if 'screenshot_backlog_release' in draft:
         from screenshot_backlog import compile_interface
         return compile_interface(data,draft)

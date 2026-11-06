@@ -1,0 +1,494 @@
+{
+  "old_recipe": "translations/interface-v067.json",
+  "new_recipe": "translations/interface-v068.json",
+  "source_iso_sha256": "5f12a2a766900bbf17c57b0f904945a115379634428660346611c62bffc53c0d",
+  "output_iso_sha256": "3fbcbb28e1f956d758b0114e826b56ff2d1ffd5a26d0ad56f55543e9b45712ba",
+  "iso_size": 1704427520,
+  "changed_bytes": 1210230,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "observed.vending.13",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1210283024,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.001e2800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1211640848,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.0037c000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1213318160,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.003bc800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1213582352,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.003fd000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1213846544,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.0043d800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1214110736,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.004af000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1214574672,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.004cf800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1214707792,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.004f0000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1214840912,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00510800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1214974992,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00551000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1215239184,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00591800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1215503376,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.NDATA.005e2800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1215835152,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.NDATA.00675000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1216435216,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00695800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1216568336,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.006d6000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1216831568,
+      "size": 131072
+    },
+    {
+      "id": "tank-gaps.drinking-hud",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1221635088,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00bd8000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222083600,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00c18800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222347792,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00c59000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222611984,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00c99800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222876176,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00cda000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1223140368,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00d2b000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1223472144,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00d6b800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1223736336,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00dac000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1223999568,
+      "size": 32768
+    },
+    {
+      "id": "minigame.texture.NDATA.00db4800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224034384,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00dd5000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224167504,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00df5800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224300624,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00e16000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224434704,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00e56800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224698896,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.NDATA.00e67000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224766480,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00e87800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224899600,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.NDATA.00e98000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224966224,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00eb8800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1225099344,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00ed9000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1225233424,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00f2a000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1225565200,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00f6a800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1225829392,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00fab800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1226095632,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00fec000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1226359824,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.0102c800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1226624016,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.0106d000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1226888208,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.RMGALAN.00084ef0",
+      "resource": "DATA/RDATA/RMGALAN.SDA",
+      "iso_offset": 1231173440,
+      "size": 32768
+    },
+    {
+      "id": "minigame.texture.RMGDANCE.00043d20",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "iso_offset": 1234637104,
+      "size": 16384
+    },
+    {
+      "id": "reported.raster.dance",
+      "resource": "DATA/RDATA/RMGDANCE.SDA",
+      "iso_offset": 1235608080,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.RMGDOG.00000060",
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "iso_offset": 1236647024,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.RMGDOG.00040490",
+      "resource": "DATA/RDATA/RMGDOG.SDA",
+      "iso_offset": 1236910240,
+      "size": 131072
+    },
+    {
+      "id": "RMGKAERU.0.000.ptbr-instructions",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1237171408,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0011ac40",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1238329424,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0013f710",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1238479648,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0014fb50",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1238545312,
+      "size": 8192
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.00154e00",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1238567440,
+      "size": 32768
+    },
+    {
+      "id": "minigame.texture.RMGKAERU.0015f2e0",
+      "resource": "DATA/RDATA/RMGKAERU.SDA",
+      "iso_offset": 1238609648,
+      "size": 65536
+    },
+    {
+      "id": "minigame.texture.RMGTANK.000404f0",
+      "resource": "DATA/RDATA/RMGTANK.SDA",
+      "iso_offset": 1239542016,
+      "size": 262144
+    },
+    {
+      "id": "minigame.elf.0031dc38",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704203320,
+      "size": 56
+    },
+    {
+      "id": "minigame.elf.0031dc88",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704203400,
+      "size": 38
+    },
+    {
+      "id": "minigame.elf.0031dcb0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704203440,
+      "size": 45
+    },
+    {
+      "id": "minigame.elf.0031dd40",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704203584,
+      "size": 92
+    },
+    {
+      "id": "minigame.elf.0031e0b0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704204464,
+      "size": 78
+    },
+    {
+      "id": "minigame.elf.0031e118",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704204568,
+      "size": 37
+    },
+    {
+      "id": "minigame.elf.0031e140",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704204608,
+      "size": 26
+    },
+    {
+      "id": "minigame.elf.0031e160",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704204640,
+      "size": 40
+    },
+    {
+      "id": "minigame.elf.0031e6e0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704206048,
+      "size": 78
+    },
+    {
+      "id": "minigame.elf.0031e7c8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704206280,
+      "size": 40
+    },
+    {
+      "id": "minigame.elf.0031eb98",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704207256,
+      "size": 81
+    },
+    {
+      "id": "minigame.elf.0031ec08",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704207368,
+      "size": 40
+    },
+    {
+      "id": "minigame.elf.0031ec30",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704207408,
+      "size": 45
+    },
+    {
+      "id": "minigame.elf.0031f0b0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704208560,
+      "size": 50
+    },
+    {
+      "id": "minigame.elf.0031f100",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704208640,
+      "size": 83
+    },
+    {
+      "id": "minigame.elf.0031fd38",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211768,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fd48",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211784,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fd68",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211816,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fd78",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211832,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fd88",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211848,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fd98",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211864,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fda8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211880,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fdd8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211928,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fde8",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211944,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.0031fe20",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704212000,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.00338b38",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704313656,
+      "size": 32
+    },
+    {
+      "id": "minigame.elf.00348e00",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704379904,
+      "size": 8
+    }
+  ],
+  "pcsx2_executed": false
+}

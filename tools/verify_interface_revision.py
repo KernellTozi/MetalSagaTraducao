@@ -64,6 +64,11 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     bytes beyond their own patch prefix; compare the union of the two prefixes.
     This does not resize the compiled patch or release other item fields.
     """
+    if 'all_minigames_release' in new_ui:
+        from minigames_release import validate,PARENT
+        if old_ui!=validate(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
+            raise ValueError('All-minigames comparator parent differs')
+        return
     if 'screenshot_backlog_release' in new_ui:
         from screenshot_backlog import validate,PARENT
         if old_ui!=validate(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
