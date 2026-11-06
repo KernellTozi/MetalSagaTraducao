@@ -34,3 +34,5 @@
 /translations/minigames-conteudo-v001.json -text whitespace=cr-at-eol
 /translations/minigames-v001.json -text whitespace=cr-at-eol
 /translations/interface-v068.json -text whitespace=cr-at-eol
+/translations/interface-v069.json -text whitespace=cr-at-eol
+/translations/termos-cartas-v001.json -text whitespace=cr-at-eol

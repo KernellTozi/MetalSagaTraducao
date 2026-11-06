@@ -567,3 +567,19 @@ usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
 - Drink→Beber, Drinks→Bebidas, Left:→Tempo e DANGER→PERIGO no minigame.
   A interface usa infinitivo; as instruções usam imperativo. START/TIME UP
   e outros títulos decorativos permanecem pela regra de gráficos do usuário.
+
+## Minigames e cartas — decisões atuais v068/v069
+
+- A regra histórica acima sobre títulos decorativos foi revogada pelo usuário:
+  a v068 localiza também resultados, instruções e títulos dos minigames.
+- Poker e Blackjack: nomes padronizados dos jogos na v069.
+- Royal Flush, Straight Flush, Full House e Flush permanecem em inglês nas
+  instruções, tabela de pagamentos e resultados. Não usar Sequência real,
+  Sequência de naipe, Trinca e par ou Mesmo naipe como nomes dessas mãos.
+- Quadra, trinca, sequência, dois pares, par alto, par baixo, sem par e
+  coringa permanecem em português. Quina identifica a combinação especial
+  de quatro cartas iguais e coringa desta variante.
+- Explicações e comandos comuns permanecem em português: manter/trocar
+  cartas, dobrar, receber, parar, dividir e seguro. Não introduzir ações de
+  outras modalidades por associação ao poker. Referências em
+  `docs/interface-v069.md`.

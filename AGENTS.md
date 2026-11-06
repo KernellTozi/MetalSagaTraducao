@@ -1,5 +1,22 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Continuidade atual — terminologia das cartas v069
+
+- Atual `translations/interface-v069.json`, pai v068 integral; MAP v047 e
+  layout v005 mantidos. Atalhos usam `work/interface-v069/MetalSaga-ptbr-interface-v069.iso`.
+- Usar Royal Flush, Straight Flush, Full House e Flush. Preservar quadra,
+  trinca, sequência, pares, quina e comandos comuns em português. Títulos
+  Poker e Blackjack. Não introduzir regras ou ações de Texas Hold'em neste
+  vídeo poker. Referências brasileiras em `docs/interface-v069.md`.
+- Política `brazilian-card-terms-fixed-planes-v001`, ferramenta
+  `tools/card_terms_review.py`, manifesto `translations/termos-cartas-v001.json`.
+  Revisar somente sete planos NDATA e dois literais herdados, com mesmos
+  IDs/offsets/tamanhos e fontes vinculadas. Dispatch `card_terms_review`
+  precede `all_minigames_release`; auditor e comparador validam o pai exato.
+  Sem novas unidades UI, sem alterar diálogos, nomes de itens ou regras.
+- Visual em partida continua pendente. Demais decisões v068, backup v059,
+  cinco ISOs de trabalho e espera de Minério pequeno permanecem válidas.
+
 ## Continuidade atual — minigames v068, 05/11/2026
 
 - O usuário revogou as dispensas anteriores dos gráficos e instruções de

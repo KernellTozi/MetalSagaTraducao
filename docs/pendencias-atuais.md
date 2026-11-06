@@ -1,4 +1,12 @@
-# Pendências atuais — v068, com auditoria histórica v054
+# Pendências atuais — v069, com auditoria histórica v054
+
+## Terminologia dos jogos de cartas v069
+
+Royal Flush, Straight Flush, Full House e Flush substituem os nomes traduzidos
+menos usuais. Poker e Blackjack padronizam os títulos; instruções, quadra,
+trinca, sequência e pares permanecem em português. Sete planos NDATA e dois
+literais revisados; conferência visual em partida pendente. Referências e
+procedimento em `docs/interface-v069.md`. As contagens UI e MAP não aumentam.
 
 ## Minigames consolidados na v068 — conferência em partida pendente
 

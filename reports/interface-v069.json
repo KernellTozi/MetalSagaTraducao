@@ -1,0 +1,73 @@
+{
+  "version": "interface-v069",
+  "parent": "interface-v068",
+  "dialogue_recipe": "translations/regiao-inicial-v047.json",
+  "interface_recipe": "translations/interface-v069.json",
+  "valid": true,
+  "iso": {
+    "image_name": "MetalSaga-ptbr-interface-v069.iso",
+    "iso_size": 1704427520,
+    "output_iso_sha256": "d37aeed756e3dfacce3969d103930350cd8bc692a3cffeba6d8726a0ce93de72",
+    "all_bytes_match_expected_patch": true,
+    "iso_directory_identical": true
+  },
+  "layout_profile": "ptbr-layout-v005",
+  "map_changed_records": 6044,
+  "map_refused": 0,
+  "interface_units": 4640,
+  "card_terms_review": {
+    "policy": "brazilian-card-terms-fixed-planes-v001",
+    "texture_planes": 7,
+    "elf_literals": 2,
+    "new_units": 0,
+    "pcsx2_executed": false,
+    "visual_status": "pending_user"
+  },
+  "kept_foreign_terms": [
+    "Royal Flush",
+    "Straight Flush",
+    "Full House",
+    "Flush",
+    "Poker",
+    "Blackjack"
+  ],
+  "kept_portuguese_terms": [
+    "quadra",
+    "trinca",
+    "sequência",
+    "dois pares",
+    "par alto",
+    "par baixo",
+    "sem par",
+    "quina",
+    "coringa"
+  ],
+  "tests": {
+    "new": 8,
+    "regression": 12,
+    "total": 20,
+    "passed": true
+  },
+  "preflight_verified": true,
+  "backup_v059_hash_verified": true,
+  "backup_v059_read_only": true,
+  "retention_work_isos": 5,
+  "removed_old_work_iso": "work/interface-v064/MetalSaga-ptbr-interface-v064.iso",
+  "launchers_dry_run_verified": true,
+  "historical_sixteen_item_revisions_blocked": 0,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "ore_rename_authorized": false,
+  "whole_iso_delta": {
+    "report": "reports/interface-v069-delta.json",
+    "changed_bytes": 27132,
+    "patches": 9,
+    "verified": true
+  },
+  "sources": [
+    "https://www.pokerstars.com/pt-BR/poker/games/rules/hand-rankings/",
+    "https://www.pokerstars.com/pt-BR/casino/how-to-play/videopoker/",
+    "https://www.pokerstars.com/pt-BR/casino/how-to-play/blackjack/premium/",
+    "https://www.pokerstars.com/pt-BR/casino/terms/"
+  ]
+}

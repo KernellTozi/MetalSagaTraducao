@@ -4,7 +4,8 @@ import argparse, configparser, json, os, subprocess
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'work/pcsx2-functional'
-ISOS={'interface':ROOT/'work/interface-v068/MetalSaga-ptbr-interface-v068.iso',
+ISOS={'interface':ROOT/'work/interface-v069/MetalSaga-ptbr-interface-v069.iso',
+      'interface-v069':ROOT/'work/interface-v069/MetalSaga-ptbr-interface-v069.iso',
       'interface-v068':ROOT/'work/interface-v068/MetalSaga-ptbr-interface-v068.iso',
       'interface-v067':ROOT/'work/interface-v067/MetalSaga-ptbr-interface-v067.iso',
       'interface-v066':ROOT/'work/interface-v066/MetalSaga-ptbr-interface-v066.iso',

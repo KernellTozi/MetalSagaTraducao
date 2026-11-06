@@ -1,0 +1,3093 @@
+{
+  "schema": 1,
+  "policy": "brazilian-card-terms-fixed-planes-v001",
+  "parent": "translations/interface-v068.json",
+  "parent_sha256": "bb979515c16f5bb927373a84d15e61c8248952a61879bf5a1223c80ac21ebff7",
+  "source_content_sha256": "03f0852a9599ac07d94f623f0a2bfbf42af9930b7e6116d53e785a63dfc13124",
+  "terms": {
+    "SEQUÊNCIA REAL": "ROYAL FLUSH",
+    "SEQUÊNCIA DE NAIPE": "STRAIGHT FLUSH",
+    "TRINCA E PAR": "FULL HOUSE",
+    "MESMO NAIPE": "FLUSH",
+    "Pôquer": "Poker",
+    "vinte e um natural": "blackjack",
+    "VINTE E UM PAGA 3:2": "BLACKJACK PAGA 3:2"
+  },
+  "literals": {
+    "3276088": "Blackjack",
+    "3444224": "Poker"
+  },
+  "fonts": {
+    "impact": "d8bbdb72e3f930157824b2e59677d3a912d4512c14a948e6656a2e3fb0c935ad",
+    "arial": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "times": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "revised": [
+    {
+      "id": "minigame.texture.NDATA.00c18800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12684304,
+      "size": 262144,
+      "source_sha256": "461813163e0c6ca39e4ee028fb72d70d38dce94aaaa8a34c7de08000bc7f0345",
+      "after_sha256": "79af4533b7ee80b764d8a82fa3ebe6a2fdc6f35bdf18df6718674837cf86b60f"
+    },
+    {
+      "id": "minigame.texture.NDATA.00c59000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12948496,
+      "size": 262144,
+      "source_sha256": "e9d373cdbe4969714dc5348fc46b1afcaf52d56232cf7226e34a8181778a9f90",
+      "after_sha256": "85e915394f954132aa7db726bbad4b7182d095b83d7410027c081e5ea41f9612"
+    },
+    {
+      "id": "minigame.texture.NDATA.00c99800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13212688,
+      "size": 262144,
+      "source_sha256": "5a37dcdab01b3cd8ce9f77bbeb2aaa50e6d2899cf4bc0a9f514d68f8f434954a",
+      "after_sha256": "38e7f2eeefe353f444e673b538a26ccb973bdf02d243b25feff2baf7c9ccee16"
+    },
+    {
+      "id": "minigame.texture.NDATA.00db4800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14370896,
+      "size": 131072,
+      "source_sha256": "5355efcbb5ad4164844d97f798231668fe799267360d03cbd992f21deb5e081c",
+      "after_sha256": "d445a6a68b717f808da929bf7ad78a05fc87923634dc9d4f1bd9c4c4c92a94b3"
+    },
+    {
+      "id": "minigame.texture.NDATA.00dd5000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14504016,
+      "size": 131072,
+      "source_sha256": "dec1ef136503b7011cb92bdc9cf4e9b7e463d6990d4f92644786c5092e57eec5",
+      "after_sha256": "f6197e30fcbdea90db0dd9fb95ccb616c999247f7810e775b39e78359350d636"
+    },
+    {
+      "id": "minigame.texture.NDATA.00d6b800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14072848,
+      "size": 262144,
+      "source_sha256": "c5f03aab42a4e99fc0ea9fd92904c59f807cf8ac03b42129bbe2818b356fefd4",
+      "after_sha256": "7f1292c0c37222f6b05ac78d8d145d19685ddd2c431099985ff287a7ac75c8eb"
+    },
+    {
+      "id": "minigame.texture.NDATA.00e16000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14771216,
+      "size": 262144,
+      "source_sha256": "1952c048f62300dda88cef73811ce41a11a018acd1b2fbdae67802d29c861a2a",
+      "after_sha256": "077a7c7602e8318eef1bfaffa5a37708da1e3bf32ad5a166854e02ecf8dfcc49"
+    },
+    {
+      "id": "minigame.elf.0031fd38",
+      "resource": "SLUS_212.93",
+      "offset": 3276088,
+      "size": 16,
+      "source_sha256": "4ad6def40fa1af443cfc44bc2b1836669bd2084f8d6b812710a77f58e1308b80",
+      "after_sha256": "4ad6def40fa1af443cfc44bc2b1836669bd2084f8d6b812710a77f58e1308b80"
+    },
+    {
+      "id": "minigame.elf.00348e00",
+      "resource": "SLUS_212.93",
+      "offset": 3444224,
+      "size": 8,
+      "source_sha256": "28f9e3608d33b8e1ddccb4738aca043f9ed670fc074c0d4de6009f54caaace3a",
+      "after_sha256": "28f9e3608d33b8e1ddccb4738aca043f9ed670fc074c0d4de6009f54caaace3a"
+    }
+  ],
+  "evidence": [
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12683264,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "5c4a545ec0796a03812d45189b693581ab371ba0b10743bcc9a426f9c1caa80a",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Controles",
+          "rect": [
+            208,
+            16,
+            304,
+            38
+          ]
+        },
+        {
+          "text": "Aposta",
+          "rect": [
+            226,
+            43,
+            286,
+            62
+          ]
+        },
+        {
+          "text": "Apostar",
+          "rect": [
+            122,
+            72,
+            186,
+            90
+          ]
+        },
+        {
+          "text": "Iniciar jogo",
+          "rect": [
+            122,
+            104,
+            214,
+            122
+          ]
+        },
+        {
+          "text": "Poker",
+          "rect": [
+            231,
+            144,
+            281,
+            163
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            122,
+            174,
+            227,
+            192
+          ]
+        },
+        {
+          "text": "Manter carta",
+          "rect": [
+            122,
+            206,
+            226,
+            224
+          ]
+        },
+        {
+          "text": "Trocar carta",
+          "rect": [
+            122,
+            238,
+            227,
+            256
+          ]
+        },
+        {
+          "text": "Dobro ou nada",
+          "rect": [
+            195,
+            278,
+            316,
+            297
+          ]
+        },
+        {
+          "text": "Mover cursor",
+          "rect": [
+            122,
+            307,
+            227,
+            325
+          ]
+        },
+        {
+          "text": "Confirmar",
+          "rect": [
+            122,
+            339,
+            200,
+            357
+          ]
+        },
+        {
+          "text": "2 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 12947456,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "4f07350528f29eb681e24a5623cf5ebbc0bb9685b9358f59c78b8335f5e76f0f",
+      "words": [
+        {
+          "text": "CORINGA",
+          "rect": [
+            428,
+            20,
+            462,
+            29
+          ],
+          "point_size": 6,
+          "mask_sha256": "4d30be3b49b9800a61e8311798b2f2ce8c46f16196d3176b43897b7533b62b6e"
+        }
+      ],
+      "instructions": [
+        {
+          "text": "QUINA",
+          "rect": [
+            30,
+            26,
+            67,
+            41
+          ]
+        },
+        {
+          "text": "Quatro cartas iguais e um coringa.",
+          "rect": [
+            34,
+            63,
+            233,
+            76
+          ]
+        },
+        {
+          "text": "ROYAL FLUSH",
+          "rect": [
+            30,
+            98,
+            116,
+            113
+          ]
+        },
+        {
+          "text": "10, J, Q, K e A do mesmo naipe.",
+          "rect": [
+            34,
+            135,
+            210,
+            148
+          ]
+        },
+        {
+          "text": "STRAIGHT FLUSH",
+          "rect": [
+            30,
+            170,
+            136,
+            185
+          ]
+        },
+        {
+          "text": "Cinco cartas seguidas do mesmo naipe.",
+          "rect": [
+            34,
+            207,
+            258,
+            220
+          ]
+        },
+        {
+          "text": "QUADRA",
+          "rect": [
+            30,
+            242,
+            80,
+            257
+          ]
+        },
+        {
+          "text": "Quatro cartas de mesmo valor.",
+          "rect": [
+            34,
+            279,
+            210,
+            292
+          ]
+        },
+        {
+          "text": "FULL HOUSE",
+          "rect": [
+            30,
+            314,
+            108,
+            329
+          ]
+        },
+        {
+          "text": "Três cartas iguais e um par.",
+          "rect": [
+            34,
+            351,
+            196,
+            364
+          ]
+        },
+        {
+          "text": "3 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 13211648,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "2e758ed4af9131d45618cb968e9ce03bad40a49e465c291920b5816885cf625e",
+      "words": [],
+      "instructions": [
+        {
+          "text": "FLUSH",
+          "rect": [
+            30,
+            26,
+            72,
+            41
+          ]
+        },
+        {
+          "text": "Cinco cartas do mesmo naipe.",
+          "rect": [
+            34,
+            63,
+            204,
+            76
+          ]
+        },
+        {
+          "text": "SEQUÊNCIA",
+          "rect": [
+            30,
+            98,
+            122,
+            115
+          ]
+        },
+        {
+          "text": "Cinco valores seguidos, sem voltar ao início.",
+          "rect": [
+            34,
+            135,
+            294,
+            148
+          ]
+        },
+        {
+          "text": "TRINCA",
+          "rect": [
+            30,
+            170,
+            75,
+            185
+          ]
+        },
+        {
+          "text": "Três cartas de mesmo valor.",
+          "rect": [
+            34,
+            207,
+            198,
+            220
+          ]
+        },
+        {
+          "text": "DOIS PARES",
+          "rect": [
+            30,
+            242,
+            103,
+            257
+          ]
+        },
+        {
+          "text": "Dois pares de valores diferentes.",
+          "rect": [
+            34,
+            279,
+            230,
+            292
+          ]
+        },
+        {
+          "text": "PAR ALTO",
+          "rect": [
+            30,
+            314,
+            92,
+            329
+          ]
+        },
+        {
+          "text": "Um par de J, Q, K ou A.",
+          "rect": [
+            34,
+            351,
+            164,
+            364
+          ]
+        },
+        {
+          "text": "4 / 4",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14370816,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "6ccde342407650a304183713838b9b883582df0ba2f9ebc856d2e1389532cce2",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "Chegue o mais perto possível de 21 sem passar desse",
+          "rect": [
+            36,
+            58,
+            457,
+            76
+          ]
+        },
+        {
+          "text": "valor.",
+          "rect": [
+            36,
+            78,
+            87,
+            96
+          ]
+        },
+        {
+          "text": "Faça sua aposta. O crupiê dá duas cartas abertas para",
+          "rect": [
+            36,
+            111,
+            456,
+            128
+          ]
+        },
+        {
+          "text": "você e duas para si, uma aberta e uma fechada.",
+          "rect": [
+            36,
+            130,
+            398,
+            147
+          ]
+        },
+        {
+          "text": "J, Q e K valem 10. O ás vale 1 ou 11. As outras cartas valem",
+          "rect": [
+            36,
+            195,
+            476,
+            212
+          ]
+        },
+        {
+          "text": "o número que mostram.",
+          "rect": [
+            36,
+            214,
+            205,
+            231
+          ]
+        },
+        {
+          "text": "Um ás com 10, J, Q ou K nas duas primeiras cartas forma um",
+          "rect": [
+            36,
+            264,
+            448,
+            280
+          ]
+        },
+        {
+          "text": "blackjack. Caso contrário, você pode pedir mais cartas, uma",
+          "rect": [
+            36,
+            282,
+            472,
+            298
+          ]
+        },
+        {
+          "text": "por vez. Se passar de 21, perde.",
+          "rect": [
+            36,
+            300,
+            270,
+            316
+          ]
+        },
+        {
+          "text": "1 / 3",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14503936,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 4,
+        "palette_offset": 16,
+        "pixel_offset": 80,
+        "pixel_bytes": 131072,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "9166edd2f9636a2e0c81fadf5c3c7437d9806061107e767233854503c46d83e2",
+      "words": [],
+      "instructions": [
+        {
+          "text": "Regras",
+          "rect": [
+            221,
+            16,
+            290,
+            38
+          ]
+        },
+        {
+          "text": "APOSTAR: coloque fichas na área de aposta.",
+          "rect": [
+            32,
+            56,
+            350,
+            72
+          ]
+        },
+        {
+          "text": "COMPRAR: peça mais uma carta.",
+          "rect": [
+            32,
+            103,
+            253,
+            119
+          ]
+        },
+        {
+          "text": "PARAR: mantenha o total que já tem.",
+          "rect": [
+            32,
+            150,
+            289,
+            166
+          ]
+        },
+        {
+          "text": "DOBRAR: dobre a aposta e receba só mais uma carta. Disponível",
+          "rect": [
+            32,
+            197,
+            482,
+            213
+          ]
+        },
+        {
+          "text": "apenas com duas cartas.",
+          "rect": [
+            32,
+            215,
+            210,
+            231
+          ]
+        },
+        {
+          "text": "DIVIDIR: se tiver um par, separe-o em duas mãos.",
+          "rect": [
+            32,
+            264,
+            375,
+            280
+          ]
+        },
+        {
+          "text": "SEGURO: se o crupiê mostrar um ás, aposte mais metade do valor inicial",
+          "rect": [
+            32,
+            313,
+            470,
+            327
+          ]
+        },
+        {
+          "text": "para recuperar sua aposta caso ele faça um blackjack.",
+          "rect": [
+            32,
+            329,
+            379,
+            343
+          ]
+        },
+        {
+          "text": "2 / 3",
+          "rect": [
+            241,
+            375,
+            271,
+            391
+          ]
+        },
+        {
+          "text": "Voltar",
+          "rect": [
+            30,
+            375,
+            72,
+            390
+          ]
+        },
+        {
+          "text": "Avançar",
+          "rect": [
+            400,
+            375,
+            455,
+            390
+          ]
+        }
+      ],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14071808,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "943c3cc7c90e20201fdff43838312b1c6513c0dd6dca2b7da10e73b96f668a33",
+      "words": [
+        {
+          "text": "QUINA",
+          "rect": [
+            4,
+            5,
+            102,
+            23
+          ],
+          "point_size": 13,
+          "mask_sha256": "44e1fd4293d716533701d4b16a82220924fae59f2492d18bb1f7f8f6375ab668"
+        },
+        {
+          "text": "ROYAL FLUSH",
+          "rect": [
+            4,
+            25,
+            165,
+            42
+          ],
+          "point_size": 13,
+          "mask_sha256": "0289198755334c3dacb054babff39a419cfbe7c244b4fe620bc752c75855fc42"
+        },
+        {
+          "text": "STRAIGHT FLUSH",
+          "rect": [
+            4,
+            44,
+            165,
+            60
+          ],
+          "point_size": 13,
+          "mask_sha256": "c1977d52ff3c90ae99dd085aaa426d97eed17b001eff2fcebc4a6a9f8185914c"
+        },
+        {
+          "text": "QUADRA",
+          "rect": [
+            4,
+            63,
+            126,
+            79
+          ],
+          "point_size": 13,
+          "mask_sha256": "1812333b44cbf4122f1095ce0bbcac74c88d5d9e0c95a0125e8764a13ffc18ff"
+        },
+        {
+          "text": "FULL HOUSE",
+          "rect": [
+            4,
+            81,
+            129,
+            96
+          ],
+          "point_size": 13,
+          "mask_sha256": "a513d8225bacb2275e310ce6631b89feddf97b60d61673fa04c42c5118e0d443"
+        },
+        {
+          "text": "FLUSH",
+          "rect": [
+            235,
+            5,
+            318,
+            23
+          ],
+          "point_size": 13,
+          "mask_sha256": "f6696cc9d6af026f0cc6f872b5816a3ac35414e9c1f412a80cc1014e21e34620"
+        },
+        {
+          "text": "SEQUÊNCIA",
+          "rect": [
+            235,
+            25,
+            318,
+            42
+          ],
+          "point_size": 13,
+          "mask_sha256": "f21b8f4a420eaa3d034b0354afc3dd89239c0f34901546870560bddb9dc780a7"
+        },
+        {
+          "text": "TRINCA",
+          "rect": [
+            235,
+            44,
+            367,
+            60
+          ],
+          "point_size": 13,
+          "mask_sha256": "fac6ffba276c47a6b95e8c85d33e07edd81f70e0979e3ec7846a2f452d9db4a8"
+        },
+        {
+          "text": "DOIS PARES",
+          "rect": [
+            235,
+            63,
+            367,
+            79
+          ],
+          "point_size": 13,
+          "mask_sha256": "78af8b971d473f4e21e74ac833c05bdceab814b5baa24527ac855ca992f814e8"
+        },
+        {
+          "text": "PAR ALTO",
+          "rect": [
+            235,
+            81,
+            367,
+            96
+          ],
+          "point_size": 13,
+          "mask_sha256": "3f7570ef750d49f972c58e47853258014e1ad7c1cc81086dcb398f0409a877e1"
+        },
+        {
+          "text": "SEM PAR",
+          "rect": [
+            0,
+            103,
+            134,
+            136
+          ],
+          "point_size": 30,
+          "mask_sha256": "fb1c8760e98193c0e43801f847de492b95b8fb59e2c8e8c4077c13d7fd672981"
+        },
+        {
+          "text": "QUINA",
+          "rect": [
+            134,
+            103,
+            410,
+            136
+          ],
+          "point_size": 30,
+          "mask_sha256": "134911edd55df9eaaca8651ef363fa8aefa8b9695b006afe1875827e67e5425b"
+        },
+        {
+          "text": "EMPATE",
+          "rect": [
+            0,
+            137,
+            85,
+            169
+          ],
+          "point_size": 27,
+          "mask_sha256": "07aadaef50d477a9520915c846a139557db7dfe5ff42f803c31521fdde3f6695"
+        },
+        {
+          "text": "STRAIGHT FLUSH",
+          "rect": [
+            85,
+            137,
+            466,
+            169
+          ],
+          "point_size": 30,
+          "mask_sha256": "d5cda26015e459717da2cd8b0ea6ace094d693f27f03b0cb829c556c3f0e18b4"
+        },
+        {
+          "text": "VENCEU!",
+          "rect": [
+            0,
+            169,
+            199,
+            201
+          ],
+          "point_size": 30,
+          "mask_sha256": "c4f95ab8ca864015bb12aa29a9f4e2747997dba8f8d6515666776c3ca4b6a107"
+        },
+        {
+          "text": "ROYAL FLUSH",
+          "rect": [
+            199,
+            169,
+            466,
+            201
+          ],
+          "point_size": 30,
+          "mask_sha256": "00889f23822bb0f793899d20d44d239e706eb1f4f2bde707d3355dc117cf37d6"
+        },
+        {
+          "text": "PERDEU!",
+          "rect": [
+            0,
+            201,
+            199,
+            232
+          ],
+          "point_size": 30,
+          "mask_sha256": "b86d488757f50a7a270014a3d789a4c24704d9ee5ac333264a79c265c9a5b0c8"
+        },
+        {
+          "text": "FULL HOUSE",
+          "rect": [
+            199,
+            201,
+            466,
+            232
+          ],
+          "point_size": 30,
+          "mask_sha256": "23f9050f0bfb79fef34c8264434260a1b67f7d76a39f14badbf14490e8d08e68"
+        },
+        {
+          "text": "PARABÉNS!",
+          "rect": [
+            0,
+            232,
+            392,
+            265
+          ],
+          "point_size": 30,
+          "mask_sha256": "dde52ba73eef7467ba34dcf4f7a0f397258157bcd517c2d5484d7fa362e4517c"
+        },
+        {
+          "text": "DOIS PARES",
+          "rect": [
+            0,
+            265,
+            167,
+            296
+          ],
+          "point_size": 30,
+          "mask_sha256": "26f4271233afbb994233b404c1908b1760ad40aac96eb72bc251b4a98ae67c4a"
+        },
+        {
+          "text": "PAR ALTO",
+          "rect": [
+            168,
+            265,
+            410,
+            296
+          ],
+          "point_size": 30,
+          "mask_sha256": "e68fd9e657330b718ad7fbd4a3d98d5776a8ae1f44ef12f2c52cbee60c5eff87"
+        },
+        {
+          "text": "DESAFIO!",
+          "rect": [
+            0,
+            297,
+            309,
+            329
+          ],
+          "point_size": 30,
+          "mask_sha256": "8cfaf17523043713463d42a662ff048325eeb4b6bf8b7ca5a6cf52276f4e6738"
+        },
+        {
+          "text": "DOBRO OU NADA",
+          "rect": [
+            0,
+            329,
+            349,
+            361
+          ],
+          "point_size": 30,
+          "mask_sha256": "4dcbf242e6cb8a3f58f743cd83c71341c86908724c96e42e45c679ba8e43cd14"
+        },
+        {
+          "text": "TRINCA",
+          "rect": [
+            0,
+            361,
+            195,
+            393
+          ],
+          "point_size": 30,
+          "mask_sha256": "ebf2a67c8b3e9049962942ebe353a3172fe79daaae6756bd2932f11631fbd715"
+        },
+        {
+          "text": "QUADRA",
+          "rect": [
+            195,
+            361,
+            392,
+            393
+          ],
+          "point_size": 30,
+          "mask_sha256": "7c5649879b58eea6e1cff387a052e069cdccc875192e527427e9b142225175e0"
+        },
+        {
+          "text": "VENCEDOR",
+          "rect": [
+            0,
+            393,
+            208,
+            425
+          ],
+          "point_size": 30,
+          "mask_sha256": "5198ba203ba30a52feb51817d4e1523a4f5f8f02bf703a8b68fd014fc910c3e4"
+        },
+        {
+          "text": "PERDEDOR",
+          "rect": [
+            208,
+            393,
+            319,
+            425
+          ],
+          "point_size": 26,
+          "mask_sha256": "2dcdf604a00f75ab22e82e9c61d38dc20e4853ab3818290a0b2b00b25aa8c9cd"
+        },
+        {
+          "text": "VENCE!",
+          "rect": [
+            294,
+            465,
+            416,
+            497
+          ],
+          "point_size": 30,
+          "mask_sha256": "3d09f58c371967051678122bcec3b9a16cfdce332fad8bf9d79f00d10d0bfc54"
+        },
+        {
+          "text": "GANHOU!",
+          "rect": [
+            416,
+            465,
+            509,
+            497
+          ],
+          "point_size": 24,
+          "mask_sha256": "09d8ce8795ebb9b38fd360450507fab37e2626957e316ba81b087fd67f9524ea"
+        },
+        {
+          "text": "MANTER",
+          "rect": [
+            416,
+            104,
+            470,
+            121
+          ],
+          "point_size": 15,
+          "mask_sha256": "6ac4167535b5b68153e09fe3d31235f3da4f18c5fd12612e2c9233ba146e5457"
+        },
+        {
+          "text": "GANHO",
+          "rect": [
+            475,
+            104,
+            511,
+            122
+          ],
+          "point_size": 8,
+          "mask_sha256": "b44c04e9f1c25bfc2248cfbfe01ad776c0b7c880a59794af4b8dffa85fdbad5d"
+        }
+      ],
+      "instructions": [],
+      "revised": false
+    },
+    {
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "offset": 14770176,
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "bpp": 8,
+        "palette_offset": 16,
+        "pixel_offset": 1040,
+        "pixel_bytes": 262144,
+        "trailing_bytes": 0
+      },
+      "source_sha256": "325d9c56b77aaa6b180cc76b309b2d0b0aa69a6cb3faf1068ea837f4c13ef7f5",
+      "header_palette_sha256": "c693a7df847b5de1490fa7ef0d46a084733d6e8f4c705760328219b7b00afd3f",
+      "words": [],
+      "instructions": [],
+      "revised": false,
+      "cloth": {
+        "rect": [
+          36,
+          62,
+          511,
+          257
+        ],
+        "removed_glyph_components": [
+          [
+            36,
+            246,
+            47,
+            11,
+            91
+          ],
+          [
+            37,
+            62,
+            7,
+            4,
+            19
+          ],
+          [
+            45,
+            176,
+            1,
+            2,
+            2
+          ],
+          [
+            46,
+            154,
+            7,
+            10,
+            20
+          ],
+          [
+            46,
+            174,
+            1,
+            2,
+            2
+          ],
+          [
+            47,
+            171,
+            2,
+            2,
+            3
+          ],
+          [
+            47,
+            178,
+            2,
+            2,
+            3
+          ],
+          [
+            50,
+            168,
+            1,
+            2,
+            2
+          ],
+          [
+            52,
+            147,
+            6,
+            8,
+            18
+          ],
+          [
+            52,
+            181,
+            3,
+            2,
+            4
+          ],
+          [
+            56,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            57,
+            144,
+            3,
+            2,
+            5
+          ],
+          [
+            58,
+            155,
+            1,
+            2,
+            2
+          ],
+          [
+            58,
+            185,
+            4,
+            2,
+            5
+          ],
+          [
+            59,
+            152,
+            2,
+            3,
+            4
+          ],
+          [
+            62,
+            148,
+            2,
+            3,
+            4
+          ],
+          [
+            66,
+            163,
+            20,
+            19,
+            125
+          ],
+          [
+            67,
+            190,
+            2,
+            1,
+            2
+          ],
+          [
+            72,
+            151,
+            3,
+            2,
+            4
+          ],
+          [
+            76,
+            154,
+            2,
+            2,
+            3
+          ],
+          [
+            76,
+            195,
+            2,
+            1,
+            2
+          ],
+          [
+            79,
+            155,
+            3,
+            2,
+            4
+          ],
+          [
+            80,
+            174,
+            17,
+            21,
+            115
+          ],
+          [
+            85,
+            159,
+            2,
+            2,
+            3
+          ],
+          [
+            93,
+            162,
+            1,
+            2,
+            2
+          ],
+          [
+            99,
+            206,
+            2,
+            1,
+            2
+          ],
+          [
+            101,
+            179,
+            18,
+            21,
+            110
+          ],
+          [
+            106,
+            209,
+            2,
+            1,
+            2
+          ],
+          [
+            107,
+            79,
+            30,
+            31,
+            299
+          ],
+          [
+            108,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            109,
+            171,
+            2,
+            1,
+            2
+          ],
+          [
+            111,
+            172,
+            2,
+            1,
+            2
+          ],
+          [
+            113,
+            212,
+            2,
+            1,
+            2
+          ],
+          [
+            114,
+            187,
+            18,
+            19,
+            108
+          ],
+          [
+            119,
+            146,
+            11,
+            11,
+            30
+          ],
+          [
+            119,
+            147,
+            2,
+            5,
+            8
+          ],
+          [
+            120,
+            176,
+            2,
+            1,
+            2
+          ],
+          [
+            122,
+            144,
+            14,
+            15,
+            49
+          ],
+          [
+            122,
+            216,
+            2,
+            1,
+            2
+          ],
+          [
+            125,
+            217,
+            2,
+            1,
+            2
+          ],
+          [
+            127,
+            179,
+            2,
+            1,
+            2
+          ],
+          [
+            129,
+            180,
+            2,
+            1,
+            2
+          ],
+          [
+            130,
+            91,
+            24,
+            32,
+            184
+          ],
+          [
+            131,
+            194,
+            17,
+            20,
+            109
+          ],
+          [
+            132,
+            181,
+            2,
+            1,
+            2
+          ],
+          [
+            134,
+            154,
+            10,
+            9,
+            39
+          ],
+          [
+            139,
+            161,
+            2,
+            1,
+            2
+          ],
+          [
+            139,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            142,
+            158,
+            11,
+            10,
+            46
+          ],
+          [
+            144,
+            179,
+            39,
+            14,
+            78
+          ],
+          [
+            144,
+            186,
+            2,
+            1,
+            2
+          ],
+          [
+            151,
+            202,
+            11,
+            16,
+            69
+          ],
+          [
+            152,
+            156,
+            14,
+            14,
+            41
+          ],
+          [
+            153,
+            106,
+            24,
+            28,
+            204
+          ],
+          [
+            156,
+            168,
+            2,
+            1,
+            2
+          ],
+          [
+            158,
+            164,
+            10,
+            9,
+            41
+          ],
+          [
+            164,
+            210,
+            9,
+            12,
+            35
+          ],
+          [
+            167,
+            166,
+            10,
+            9,
+            31
+          ],
+          [
+            167,
+            231,
+            1,
+            2,
+            2
+          ],
+          [
+            169,
+            221,
+            2,
+            2,
+            3
+          ],
+          [
+            171,
+            221,
+            3,
+            2,
+            5
+          ],
+          [
+            173,
+            211,
+            2,
+            2,
+            3
+          ],
+          [
+            174,
+            213,
+            4,
+            9,
+            20
+          ],
+          [
+            179,
+            170,
+            15,
+            12,
+            71
+          ],
+          [
+            182,
+            114,
+            25,
+            26,
+            180
+          ],
+          [
+            183,
+            192,
+            7,
+            3,
+            12
+          ],
+          [
+            183,
+            210,
+            10,
+            19,
+            61
+          ],
+          [
+            186,
+            199,
+            1,
+            2,
+            2
+          ],
+          [
+            190,
+            194,
+            19,
+            6,
+            37
+          ],
+          [
+            194,
+            175,
+            11,
+            11,
+            55
+          ],
+          [
+            198,
+            246,
+            9,
+            3,
+            15
+          ],
+          [
+            203,
+            118,
+            29,
+            31,
+            285
+          ],
+          [
+            205,
+            179,
+            7,
+            9,
+            28
+          ],
+          [
+            207,
+            248,
+            4,
+            2,
+            6
+          ],
+          [
+            209,
+            199,
+            4,
+            2,
+            5
+          ],
+          [
+            210,
+            178,
+            4,
+            3,
+            6
+          ],
+          [
+            210,
+            205,
+            1,
+            2,
+            2
+          ],
+          [
+            212,
+            250,
+            2,
+            1,
+            2
+          ],
+          [
+            213,
+            177,
+            8,
+            12,
+            41
+          ],
+          [
+            215,
+            200,
+            4,
+            2,
+            7
+          ],
+          [
+            215,
+            249,
+            3,
+            2,
+            4
+          ],
+          [
+            217,
+            251,
+            4,
+            1,
+            4
+          ],
+          [
+            218,
+            216,
+            2,
+            2,
+            3
+          ],
+          [
+            218,
+            217,
+            7,
+            17,
+            38
+          ],
+          [
+            219,
+            201,
+            2,
+            2,
+            3
+          ],
+          [
+            221,
+            201,
+            2,
+            1,
+            2
+          ],
+          [
+            222,
+            202,
+            2,
+            2,
+            3
+          ],
+          [
+            223,
+            234,
+            2,
+            1,
+            2
+          ],
+          [
+            223,
+            251,
+            2,
+            2,
+            3
+          ],
+          [
+            225,
+            181,
+            16,
+            12,
+            71
+          ],
+          [
+            225,
+            202,
+            8,
+            3,
+            13
+          ],
+          [
+            229,
+            253,
+            2,
+            1,
+            2
+          ],
+          [
+            230,
+            125,
+            27,
+            31,
+            193
+          ],
+          [
+            230,
+            234,
+            3,
+            2,
+            4
+          ],
+          [
+            232,
+            252,
+            2,
+            2,
+            3
+          ],
+          [
+            233,
+            224,
+            1,
+            3,
+            3
+          ],
+          [
+            234,
+            204,
+            6,
+            2,
+            7
+          ],
+          [
+            234,
+            219,
+            4,
+            4,
+            9
+          ],
+          [
+            234,
+            254,
+            3,
+            1,
+            3
+          ],
+          [
+            237,
+            223,
+            1,
+            2,
+            2
+          ],
+          [
+            237,
+            225,
+            8,
+            12,
+            26
+          ],
+          [
+            240,
+            185,
+            10,
+            10,
+            50
+          ],
+          [
+            240,
+            253,
+            2,
+            1,
+            2
+          ],
+          [
+            240,
+            254,
+            5,
+            2,
+            6
+          ],
+          [
+            241,
+            205,
+            1,
+            2,
+            2
+          ],
+          [
+            242,
+            220,
+            2,
+            1,
+            2
+          ],
+          [
+            243,
+            205,
+            2,
+            1,
+            2
+          ],
+          [
+            244,
+            221,
+            2,
+            1,
+            2
+          ],
+          [
+            244,
+            225,
+            2,
+            2,
+            3
+          ],
+          [
+            248,
+            206,
+            4,
+            1,
+            4
+          ],
+          [
+            248,
+            256,
+            3,
+            1,
+            3
+          ],
+          [
+            249,
+            223,
+            12,
+            14,
+            36
+          ],
+          [
+            249,
+            235,
+            2,
+            4,
+            6
+          ],
+          [
+            251,
+            186,
+            10,
+            11,
+            57
+          ],
+          [
+            251,
+            255,
+            4,
+            1,
+            4
+          ],
+          [
+            252,
+            208,
+            2,
+            1,
+            2
+          ],
+          [
+            253,
+            130,
+            25,
+            27,
+            197
+          ],
+          [
+            256,
+            207,
+            3,
+            1,
+            3
+          ],
+          [
+            258,
+            238,
+            1,
+            2,
+            2
+          ],
+          [
+            259,
+            223,
+            2,
+            2,
+            3
+          ],
+          [
+            262,
+            182,
+            16,
+            16,
+            74
+          ],
+          [
+            266,
+            222,
+            4,
+            17,
+            32
+          ],
+          [
+            268,
+            210,
+            3,
+            1,
+            3
+          ],
+          [
+            276,
+            209,
+            2,
+            1,
+            2
+          ],
+          [
+            277,
+            224,
+            3,
+            3,
+            5
+          ],
+          [
+            277,
+            228,
+            1,
+            4,
+            4
+          ],
+          [
+            279,
+            189,
+            9,
+            11,
+            50
+          ],
+          [
+            281,
+            132,
+            23,
+            27,
+            158
+          ],
+          [
+            282,
+            225,
+            5,
+            17,
+            33
+          ],
+          [
+            287,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            289,
+            190,
+            10,
+            11,
+            59
+          ],
+          [
+            290,
+            210,
+            6,
+            2,
+            8
+          ],
+          [
+            290,
+            233,
+            3,
+            6,
+            8
+          ],
+          [
+            291,
+            225,
+            3,
+            1,
+            3
+          ],
+          [
+            293,
+            239,
+            3,
+            3,
+            6
+          ],
+          [
+            294,
+            226,
+            2,
+            6,
+            10
+          ],
+          [
+            297,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            299,
+            151,
+            4,
+            5,
+            10
+          ],
+          [
+            300,
+            212,
+            2,
+            1,
+            2
+          ],
+          [
+            300,
+            238,
+            2,
+            1,
+            2
+          ],
+          [
+            306,
+            133,
+            24,
+            26,
+            226
+          ],
+          [
+            306,
+            186,
+            8,
+            15,
+            45
+          ],
+          [
+            307,
+            211,
+            2,
+            1,
+            2
+          ],
+          [
+            307,
+            227,
+            1,
+            3,
+            3
+          ],
+          [
+            308,
+            231,
+            1,
+            3,
+            3
+          ],
+          [
+            308,
+            234,
+            6,
+            9,
+            18
+          ],
+          [
+            310,
+            217,
+            17,
+            1,
+            17
+          ],
+          [
+            313,
+            254,
+            9,
+            1,
+            9
+          ],
+          [
+            316,
+            241,
+            5,
+            2,
+            6
+          ],
+          [
+            317,
+            133,
+            11,
+            9,
+            35
+          ],
+          [
+            317,
+            211,
+            2,
+            1,
+            2
+          ],
+          [
+            317,
+            226,
+            5,
+            3,
+            8
+          ],
+          [
+            317,
+            231,
+            1,
+            2,
+            2
+          ],
+          [
+            318,
+            189,
+            7,
+            12,
+            22
+          ],
+          [
+            319,
+            186,
+            8,
+            3,
+            18
+          ],
+          [
+            321,
+            229,
+            8,
+            13,
+            25
+          ],
+          [
+            324,
+            211,
+            3,
+            2,
+            4
+          ],
+          [
+            326,
+            198,
+            3,
+            5,
+            10
+          ],
+          [
+            328,
+            225,
+            3,
+            8,
+            10
+          ],
+          [
+            331,
+            132,
+            22,
+            27,
+            218
+          ],
+          [
+            332,
+            189,
+            9,
+            11,
+            51
+          ],
+          [
+            334,
+            211,
+            4,
+            2,
+            5
+          ],
+          [
+            334,
+            228,
+            3,
+            12,
+            19
+          ],
+          [
+            339,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            339,
+            241,
+            2,
+            1,
+            2
+          ],
+          [
+            342,
+            210,
+            3,
+            2,
+            4
+          ],
+          [
+            344,
+            189,
+            4,
+            11,
+            26
+          ],
+          [
+            344,
+            225,
+            2,
+            2,
+            3
+          ],
+          [
+            346,
+            211,
+            3,
+            1,
+            3
+          ],
+          [
+            348,
+            189,
+            5,
+            10,
+            26
+          ],
+          [
+            350,
+            210,
+            2,
+            1,
+            2
+          ],
+          [
+            350,
+            223,
+            6,
+            18,
+            36
+          ],
+          [
+            355,
+            181,
+            13,
+            18,
+            70
+          ],
+          [
+            356,
+            130,
+            25,
+            27,
+            189
+          ],
+          [
+            356,
+            209,
+            2,
+            1,
+            2
+          ],
+          [
+            358,
+            229,
+            3,
+            4,
+            6
+          ],
+          [
+            358,
+            240,
+            3,
+            1,
+            3
+          ],
+          [
+            360,
+            209,
+            2,
+            2,
+            3
+          ],
+          [
+            360,
+            223,
+            3,
+            2,
+            4
+          ],
+          [
+            362,
+            239,
+            2,
+            2,
+            3
+          ],
+          [
+            364,
+            208,
+            2,
+            3,
+            4
+          ],
+          [
+            364,
+            237,
+            1,
+            2,
+            2
+          ],
+          [
+            368,
+            208,
+            3,
+            2,
+            4
+          ],
+          [
+            372,
+            185,
+            14,
+            11,
+            76
+          ],
+          [
+            375,
+            207,
+            4,
+            1,
+            4
+          ],
+          [
+            379,
+            124,
+            23,
+            29,
+            190
+          ],
+          [
+            380,
+            226,
+            6,
+            5,
+            18
+          ],
+          [
+            382,
+            207,
+            1,
+            2,
+            2
+          ],
+          [
+            383,
+            255,
+            2,
+            1,
+            2
+          ],
+          [
+            384,
+            206,
+            4,
+            1,
+            4
+          ],
+          [
+            385,
+            256,
+            3,
+            1,
+            3
+          ],
+          [
+            387,
+            184,
+            5,
+            10,
+            28
+          ],
+          [
+            389,
+            206,
+            1,
+            2,
+            2
+          ],
+          [
+            390,
+            205,
+            5,
+            2,
+            6
+          ],
+          [
+            392,
+            183,
+            5,
+            10,
+            25
+          ],
+          [
+            392,
+            254,
+            4,
+            2,
+            5
+          ],
+          [
+            395,
+            206,
+            2,
+            1,
+            2
+          ],
+          [
+            396,
+            204,
+            4,
+            1,
+            4
+          ],
+          [
+            397,
+            253,
+            5,
+            2,
+            6
+          ],
+          [
+            399,
+            181,
+            7,
+            11,
+            34
+          ],
+          [
+            399,
+            218,
+            8,
+            18,
+            41
+          ],
+          [
+            402,
+            203,
+            3,
+            2,
+            4
+          ],
+          [
+            404,
+            216,
+            2,
+            2,
+            3
+          ],
+          [
+            404,
+            252,
+            3,
+            2,
+            4
+          ],
+          [
+            406,
+            119,
+            23,
+            29,
+            213
+          ],
+          [
+            406,
+            177,
+            7,
+            14,
+            40
+          ],
+          [
+            406,
+            203,
+            2,
+            2,
+            3
+          ],
+          [
+            408,
+            202,
+            6,
+            2,
+            8
+          ],
+          [
+            408,
+            225,
+            2,
+            1,
+            2
+          ],
+          [
+            409,
+            216,
+            2,
+            2,
+            3
+          ],
+          [
+            410,
+            251,
+            4,
+            2,
+            5
+          ],
+          [
+            411,
+            218,
+            2,
+            5,
+            6
+          ],
+          [
+            413,
+            201,
+            4,
+            2,
+            5
+          ],
+          [
+            417,
+            202,
+            2,
+            1,
+            2
+          ],
+          [
+            417,
+            251,
+            2,
+            1,
+            2
+          ],
+          [
+            418,
+            228,
+            4,
+            4,
+            9
+          ],
+          [
+            419,
+            171,
+            9,
+            17,
+            60
+          ],
+          [
+            419,
+            200,
+            2,
+            1,
+            2
+          ],
+          [
+            419,
+            219,
+            3,
+            4,
+            7
+          ],
+          [
+            420,
+            250,
+            4,
+            1,
+            4
+          ],
+          [
+            421,
+            214,
+            3,
+            4,
+            6
+          ],
+          [
+            423,
+            199,
+            4,
+            2,
+            6
+          ],
+          [
+            423,
+            224,
+            2,
+            2,
+            3
+          ],
+          [
+            424,
+            218,
+            1,
+            2,
+            2
+          ],
+          [
+            424,
+            248,
+            4,
+            2,
+            6
+          ],
+          [
+            425,
+            220,
+            8,
+            10,
+            24
+          ],
+          [
+            426,
+            168,
+            4,
+            3,
+            8
+          ],
+          [
+            426,
+            195,
+            15,
+            5,
+            26
+          ],
+          [
+            428,
+            173,
+            8,
+            12,
+            33
+          ],
+          [
+            430,
+            246,
+            8,
+            3,
+            13
+          ],
+          [
+            431,
+            114,
+            23,
+            26,
+            199
+          ],
+          [
+            431,
+            211,
+            1,
+            2,
+            2
+          ],
+          [
+            433,
+            210,
+            12,
+            18,
+            52
+          ],
+          [
+            437,
+            171,
+            10,
+            12,
+            54
+          ],
+          [
+            439,
+            245,
+            3,
+            2,
+            4
+          ],
+          [
+            440,
+            208,
+            5,
+            2,
+            9
+          ],
+          [
+            442,
+            192,
+            12,
+            4,
+            21
+          ],
+          [
+            442,
+            244,
+            4,
+            2,
+            8
+          ],
+          [
+            446,
+            169,
+            8,
+            11,
+            32
+          ],
+          [
+            446,
+            241,
+            12,
+            4,
+            22
+          ],
+          [
+            448,
+            208,
+            16,
+            13,
+            47
+          ],
+          [
+            449,
+            199,
+            1,
+            2,
+            2
+          ],
+          [
+            451,
+            219,
+            9,
+            4,
+            16
+          ],
+          [
+            452,
+            103,
+            23,
+            29,
+            193
+          ],
+          [
+            453,
+            205,
+            3,
+            2,
+            4
+          ],
+          [
+            454,
+            168,
+            5,
+            10,
+            27
+          ],
+          [
+            454,
+            191,
+            3,
+            2,
+            5
+          ],
+          [
+            456,
+            197,
+            1,
+            2,
+            2
+          ],
+          [
+            456,
+            204,
+            4,
+            4,
+            9
+          ],
+          [
+            458,
+            239,
+            4,
+            3,
+            7
+          ],
+          [
+            459,
+            166,
+            3,
+            9,
+            13
+          ],
+          [
+            460,
+            207,
+            1,
+            2,
+            2
+          ],
+          [
+            460,
+            221,
+            2,
+            1,
+            2
+          ],
+          [
+            463,
+            239,
+            1,
+            2,
+            2
+          ],
+          [
+            465,
+            238,
+            2,
+            2,
+            4
+          ],
+          [
+            468,
+            159,
+            7,
+            14,
+            36
+          ],
+          [
+            468,
+            231,
+            1,
+            2,
+            2
+          ],
+          [
+            468,
+            237,
+            4,
+            2,
+            5
+          ],
+          [
+            472,
+            233,
+            12,
+            5,
+            21
+          ],
+          [
+            475,
+            159,
+            9,
+            10,
+            43
+          ],
+          [
+            478,
+            95,
+            22,
+            26,
+            224
+          ],
+          [
+            478,
+            203,
+            6,
+            5,
+            24
+          ],
+          [
+            484,
+            223,
+            27,
+            11,
+            56
+          ],
+          [
+            491,
+            148,
+            7,
+            16,
+            36
+          ],
+          [
+            495,
+            184,
+            2,
+            1,
+            2
+          ],
+          [
+            497,
+            188,
+            14,
+            20,
+            101
+          ],
+          [
+            499,
+            83,
+            12,
+            14,
+            55
+          ],
+          [
+            500,
+            143,
+            9,
+            15,
+            56
+          ],
+          [
+            505,
+            180,
+            2,
+            1,
+            2
+          ],
+          [
+            507,
+            102,
+            4,
+            11,
+            28
+          ],
+          [
+            507,
+            179,
+            2,
+            1,
+            2
+          ],
+          [
+            509,
+            217,
+            2,
+            1,
+            2
+          ]
+        ],
+        "arcs": [
+          {
+            "text": "BLACKJACK PAGA 3:2",
+            "center": [
+              300,
+              142
+            ],
+            "point_size": 23
+          },
+          {
+            "text": "O CRUPIÊ PARA NO 17 E COMPRA ATÉ 16",
+            "center": [
+              300,
+              189
+            ],
+            "point_size": 14
+          },
+          {
+            "text": "SEGURO PAGA 2:1",
+            "center": [
+              300,
+              231
+            ],
+            "point_size": 22
+          }
+        ]
+      }
+    }
+  ]
+}

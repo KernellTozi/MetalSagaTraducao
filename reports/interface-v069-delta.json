@@ -1,0 +1,68 @@
+{
+  "old_recipe": "translations/interface-v068.json",
+  "new_recipe": "translations/interface-v069.json",
+  "source_iso_sha256": "3fbcbb28e1f956d758b0114e826b56ff2d1ffd5a26d0ad56f55543e9b45712ba",
+  "output_iso_sha256": "d37aeed756e3dfacce3969d103930350cd8bc692a3cffeba6d8726a0ce93de72",
+  "iso_size": 1704427520,
+  "changed_bytes": 27132,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "minigame.texture.NDATA.00c18800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222347792,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00c59000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222611984,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00c99800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1222876176,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00d6b800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1223736336,
+      "size": 262144
+    },
+    {
+      "id": "minigame.texture.NDATA.00db4800",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224034384,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00dd5000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224167504,
+      "size": 131072
+    },
+    {
+      "id": "minigame.texture.NDATA.00e16000",
+      "resource": "DATA/NDATA/NDATA.SDA",
+      "iso_offset": 1224434704,
+      "size": 262144
+    },
+    {
+      "id": "minigame.elf.0031fd38",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704211768,
+      "size": 16
+    },
+    {
+      "id": "minigame.elf.00348e00",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704379904,
+      "size": 8
+    }
+  ],
+  "pcsx2_executed": false
+}
