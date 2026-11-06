@@ -1,5 +1,23 @@
 # Pendências atuais — v069, com auditoria histórica v054
 
+## Novo relato visual — Sem tanques, somente registro — 06/11/2026
+
+O usuário pediu acumular pendências, sem modificar agora a arte ou a ISO.
+Na captura traduzida, as letras de **Sem tanques** estão mais finas que as
+de **Tank Stop** no original e o fundo preto esmaecido não acompanha o texto
+como na referência. Na futura revisão, aproximar a espessura/peso da fonte
+do original e recuperar o fundo preto com transição suave de transparência,
+preservando o símbolo de proibição. Manter por enquanto o texto Sem tanques;
+o relato não solicita mudar a redação para o singular.
+
+Evidências fornecidas pelo usuário:
+- Traduzido: `codex-clipboard-9f55cb2c-0fa9-43c9-8865-7807a4a594c6.png`.
+- Original: `codex-clipboard-be655a6d-ba27-47e6-ab8d-750b29d78f1f.png`.
+
+As imagens comprovam a diferença visual; a causa no bitmap, alpha/paleta ou
+composição do sprite ainda não foi investigada. Não declarar correção feita.
+Receita, ISO e atalhos permanecem v069. Aguardar autorização para aplicar.
+
 ## Terminologia dos jogos de cartas v069
 
 Royal Flush, Straight Flush, Full House e Flush substituem os nomes traduzidos
