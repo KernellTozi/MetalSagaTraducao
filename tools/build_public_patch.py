@@ -98,7 +98,7 @@ Candidata final para revisão em partida. Treze rótulos curtos de falantes
 ainda permanecem em inglês por limitação técnica. Dummy/UP/DOWN/Damage
 Override estão preservados por decisão contextual. Não há comprovação de
 100% de cobertura textual ou aprovação visual de todas as telas.
-Histórico, correções e limites: docs/interface-v070.md no repositório.
+Histórico, correções e limites: docs/interface-{version}.md no repositório.
 
 PUBLICACAO
 Compartilhe este ZIP de patch. Não acrescente sua ISO, BIOS, saves ou emulador.

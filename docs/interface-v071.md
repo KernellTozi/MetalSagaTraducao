@@ -142,6 +142,11 @@ pendente do teste do usuário.
 
 ## Distribuição anterior
 
+Atualização posterior: o usuário autorizou a geração do patch v071, agora
+disponível conforme `docs/publicacao-patch-v071.md`. O relato abaixo registra
+o estado anterior a essa autorização; a Área de Trabalho e manutenção
+continuam v070.
+
 O patch público de referência e a cópia da Área de Trabalho continuam v070.
 O backup de manutenção v070 também é preservado. Esta rodada entrega
 somente a nova ISO de trabalho v071; não utilizar o patch v070 esperando

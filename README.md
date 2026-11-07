@@ -17,14 +17,12 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
-**Pacote para compartilhar:** `dist/publicacao-v070/MetalSaga-PTBR-v070-Patch.zip`
+**Pacote para compartilhar:** `dist/publicacao-v071/MetalSaga-PTBR-v071-Patch.zip`
 (1,19 MiB). Contém patch e aplicador offline para Windows, sem ISO/BIOS.
 O jogador fornece a ISO original exigida; o pacote confere origem e resultado.
-[Instruções, hashes e publicação](docs/publicacao-patch-v070.md). Não houve
-publicação automática do ZIP. **Este pacote continua v070 e não inclui as
-correções v071**, por pedido explícito de testar primeiro somente a ISO.
-Na conferência v071, o ZIP não foi encontrado nesse caminho; o `.xdelta`
-v070 da pasta do pacote está íntegro. O ZIP não foi recriado nesta rodada.
+[Instruções, hashes e publicação](docs/publicacao-patch-v071.md). Inclui as
+correções v071; reconstrução integral e aplicador Windows conferidos.
+Não houve publicação automática do ZIP. O pacote histórico v070 não foi recriado.
 
 **ISO de testes v071**, sobre MAP v048 e fontes/layout v005. Acrescenta 14 mensagens de uso de itens: cura individual/grupo, pelagem, estados, ressurreição, SP, remoção, ácido, reparos e conversões. Preserva seis mensagens já traduzidas. Avisos de Montanha de Sucata/Monte Macaco acompanham seus títulos de entrada; ajuda recebe Qual categoria?. Herda integralmente as correções v070 e os termos de Poker/Blackjack. A conferência em partida continua pendente; não é certificação de 100% do jogo.
 

@@ -1,0 +1,41 @@
+{
+  "version": "v071",
+  "source": {
+    "size": 1704427520,
+    "sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403"
+  },
+  "target": {
+    "file": "MetalSaga-PTBR-v071.iso",
+    "size": 1704427520,
+    "sha256": "3365db67d5feebd4795a1b5b706724c84d0982da30b5b6fd6993b6f3b52e11cf"
+  },
+  "patch": {
+    "file": "MetalSaga-PTBR-v071.xdelta",
+    "size": 1411069,
+    "sha256": "0645b5251d8efe2dbb0b02f1b38ca4454336d71a2cc6cffa807b4e8d61779e49",
+    "format": "VCDIFF/xdelta3, legacy header, no secondary compression"
+  },
+  "zip": {
+    "path": "dist/publicacao-v071/MetalSaga-PTBR-v071-Patch.zip",
+    "size": 1251101,
+    "sha256": "6386708773d5ba63719aa055f9fb78201ee3edc45305a1a847c401ba83e5c573"
+  },
+  "decoder": {
+    "file": "xdelta3decode.exe",
+    "sha256": "67f84255bd009a65b1252784f8b3ebc72b5907766bc366c571e8b85fa7002a06",
+    "version": "3.2.2",
+    "license": "Apache-2.0",
+    "upstream": "https://github.com/jmacd/xdelta/releases/tag/v3.2.2"
+  },
+  "upstream_archive_sha256": "d48f7651d86b78fdca397057b46601f89131f37219675df736db70af44ec3379",
+  "binary_decode_roundtrip_verified": true,
+  "no_game_iso_or_original_resources_bundled": true,
+  "no_automatic_publication": true,
+  "original_iso_unchanged": true,
+  "target_iso_unchanged": true,
+  "pcsx2_executed": false,
+  "windows_applier_real_iso_verified": true,
+  "windows_applier_target_sha256": "3365db67d5feebd4795a1b5b706724c84d0982da30b5b6fd6993b6f3b52e11cf",
+  "negative_applier_tests_passed": 7,
+  "temporary_applier_iso_removed": true
+}

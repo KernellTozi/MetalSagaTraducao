@@ -1,5 +1,18 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Pacote público atual — v071, 07/11/2026
+
+- O usuário autorizou gerar o patch após a entrega da ISO v071. Essa ordem
+  substitui a pausa de geração do patch abaixo; não autoriza upload automático.
+- Entrega: `dist/publicacao-v071/MetalSaga-PTBR-v071-Patch.zip`.
+  Documentação `docs/publicacao-patch-v071.md`, evidência
+  `reports/patch-interface-v071.json`. Sem ISO/BIOS/recursos originais no ZIP.
+- Reconstrução completa por decoder e pelo aplicador Windows conferida
+  contra SHA-256 da ISO v071; sete testes negativos do aplicador passaram.
+  Preservar verificações, arquivos parciais preexistentes e política sem sobrescrita.
+- Manutenção e Área de Trabalho continuam v070. Não recriar pacote histórico
+  v070 nem substituir essas cópias por causa da publicação v071.
+
 ## Continuidade atual — uso de itens v071, 07/11/2026
 
 - ISO de testes atual `translations/interface-v071.json`, pai v070 integral,
