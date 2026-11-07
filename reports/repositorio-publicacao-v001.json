@@ -13,5 +13,32 @@
     "openai_key"
   ],
   "limitations": "Pattern-based scan is not a guarantee of absence of every possible secret. Local source game directories were excluded and not read. Text recipes and small technical byte evidence remain versioned.",
-  "no_history_rewrite": true
+  "no_history_rewrite": true,
+  "repository_url": "https://github.com/KernellTozi/MetalSagaTraducao",
+  "visibility": "public",
+  "anonymous_metadata_access_verified": true,
+  "anonymous_readme_access_verified": true,
+  "topics": [
+    "metal-saga",
+    "ps2",
+    "playstation-2",
+    "pt-br",
+    "traducao",
+    "localization",
+    "romhacking",
+    "python",
+    "pcsx2"
+  ],
+  "remote_branches_checked": [
+    "main"
+  ],
+  "remote_tags_checked": [
+    "alpha-v001"
+  ],
+  "remote_releases_count": 0,
+  "automatic_patch_upload": false,
+  "documentation_local_links_verified": true,
+  "issue_forms_yaml_parser_run": false,
+  "issue_forms_review": "Manual structure review; PyYAML unavailable.",
+  "organization_commit": "e29b5ea3ed16cd17cfe0486ddd539831a1c8c85f"
 }
