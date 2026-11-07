@@ -1,0 +1,78 @@
+# Metal Saga — tradução PT-BR para PS2
+
+Tradução dos recursos do jogo original para execução no PCSX2, independente da recompilação nativa. Não distribui ISO, originais, BIOS ou emulador.
+
+## O que abrir
+
+| Arquivo na raiz | Para que serve |
+|---|---|
+| **Iniciar-Teste.cmd** | Abre a ISO traduzida atual |
+| **Abrir-Pasta-da-Ultima-Versao.cmd** | Abre no Explorador a pasta da mesma versão usada pelo iniciador |
+| Preparar-Interface.cmd | Valida a receita atual, sem criar outra ISO |
+| Extrair-Dialogos.cmd | Extrai o catálogo local de diálogos |
+| Reinserir-Dialogos.cmd | Reinserção e simulação de lotes |
+| Auditar-Traducao.cmd | Atualiza as pendências de diálogos e confere a situação das 16 revisões de nomes |
+
+Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas continuam em tools/, com procedimentos históricos em docs/ e no Git.
+
+## Versão atual
+
+**Pacote para compartilhar:** `dist/publicacao-v071/MetalSaga-PTBR-v071-Patch.zip`
+(1,19 MiB). Contém patch e aplicador offline para Windows, sem ISO/BIOS.
+O jogador fornece a ISO original exigida; o pacote confere origem e resultado.
+[Instruções, hashes e publicação](publicacao-patch-v071.md). Inclui as
+correções v071; reconstrução integral e aplicador Windows conferidos.
+Não houve publicação automática do ZIP. O pacote histórico v070 não foi recriado.
+
+**ISO de testes v071**, sobre MAP v048 e fontes/layout v005. Acrescenta 14 mensagens de uso de itens: cura individual/grupo, pelagem, estados, ressurreição, SP, remoção, ácido, reparos e conversões. Preserva seis mensagens já traduzidas. Avisos de Montanha de Sucata/Monte Macaco acompanham seus títulos de entrada; ajuda recebe Qual categoria?. Herda integralmente as correções v070 e os termos de Poker/Blackjack. A conferência em partida continua pendente; não é certificação de 100% do jogo.
+
+São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.686 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Restam 13 rótulos explícitos curtos bloqueados pela reserva de memória não comprovada. Dummy/UP/DOWN/Damage Override ficam por decisão contextual anterior. As contagens não representam porcentagem de todo o jogo.
+
+ISO: `work/interface-v071/MetalSaga-ptbr-interface-v071.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. A cópia da Área de Trabalho permanece v070; para estas correções, use a nova ISO ou o iniciador atualizado. Conferir uso de itens, nomes das montanhas e pergunta da ajuda. O perfil isolado histórico tem cartões de memória desativados. Preservar manutenção v070, receitas e relatórios.
+
+A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
+
+**Manutenção:** `dist/manutencao-v070/MetalSaga-ptbr-manutencao-v070.iso`, cópia independente somente leitura. A nova ordem de remover as versões anteriores substitui o backup v059 após a conferência das cópias v070. Preservar a cópia de manutenção; nunca aplicar patches diretamente nela. [Procedimentos, entrega e limitações](interface-v070.md).
+
+- [Uso de itens, montanhas e ajuda — ISO v071](interface-v071.md)
+- [Candidata final, correções e manutenção](interface-v070.md)
+- [Revisão dos nomes tradicionais dos jogos de cartas](interface-v069.md)
+- [Minigames: gráficos, instruções e catálogo de cobertura](interface-v068.md)
+- [Relatos da partida, diário, dança e MC Hamir](interface-v067.md)
+- [Tanque, locais, LOVE Machine e minigame de bebida](interface-v066.md)
+- [Legibilidade do crédito e abertura do e](interface-v065.md)
+- [Carregar, Vendas e crédito no bloco oficial](interface-v064.md)
+- [Capturas, Renascimento, minerais e Primeiro golpe](interface-v063.md)
+- [Reboque, habilidades, música e alinhamento dos resultados](interface-v062.md)
+- [Menus e avisos observados durante a partida](interface-v061.md)
+- [Nomes padrão de NPCs e alinhamento de Sim/Não](interface-v060.md)
+- [Efeitos de batalha, desenho e pendências](interface-v059.md)
+- [Lote de armas aplicado e limites](interface-v058.md)
+- [Satcom e Mundo aberto](interface-v056.md)
+- [Batalha corrigida na v055](interface-v055.md)
+- [Pendências atuais e conferência em partida](pendencias-atuais.md)
+- [Patch local: gerar, aplicar e verificar](patch-local-v001.md)
+- [Plano de conclusão](plano-conclusao.md)
+- [Investigação dos nomes bloqueados](capacidade-nomes-v001.md)
+- [Buffers e expansão dos nomes](buffers-nomes-v002.md)
+- [Entradas, emissor e páginas com nomes](fluxo-nomes-v003.md)
+- [Origens dos nomes e formatador adicional](fontes-nomes-v005.md)
+- [Glossário](glossario.md)
+- [Extrator local](extrator-dialogos.md)
+- [Reinserção e integridade](reinsercao-v004.md)
+
+## Organização
+
+- JOGO/: ISO original e extraídos imutáveis.
+- PCSX2/ e ambiente isolado de teste: preservar BIOS, cartões e configurações.
+- translations/: receitas Unicode e propostas pendentes, versionadas.
+- tools/ e tests/: ferramentas locais e testes.
+- docs/ e reports/: procedimentos e evidências próprias.
+- work/: resultados e recursos de construção, fora do Git.
+- dist/manutencao-v070/: backup de manutenção somente leitura, fora da retenção.
+
+Manter **cinco ISOs de trabalho**, as mais recentes. O construtor remove as antigas elegíveis antes de criar outra. Não apaga original, backup protegido, arquivos desconhecidos ou imagens com recuperação pendente. Conferir com `python tools/iso_retention.py`.
+
+Construções novas produzem somente ISO e relatório. Receitas, fontes editáveis aprovadas, evidências e recursos necessários à reprodução são preservados. Não apagar work/ indiscriminadamente. OneDrive somente mediante pedido expresso.
+
+Extração/reinserção são locais, sem IA ou APIs. Requerem Python; dependências gráficas de construção estão documentadas nos manuais correspondentes. Não acessar arquivos de outros projetos.

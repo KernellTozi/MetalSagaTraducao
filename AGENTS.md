@@ -1,5 +1,20 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Organização pública do repositório — 07/11/2026
+
+- O usuário autorizou tornar `KernellTozi/MetalSagaTraducao` público.
+  README voltado a jogadores; índice em `docs/README.md` e guia técnico
+  preservado em `docs/guia-projeto.md`. Manter histórico, receitas e evidências.
+- Formulários de problemas/sugestões em `.github/ISSUE_TEMPLATE/`;
+  contribuição em `CONTRIBUTING.md`, autoria/distribuição em `AVISOS.md`.
+  Não atribuir uma licença geral sem decisão do autor.
+- A autorização de visibilidade não autoriza upload de ISO/BIOS/recursos
+  originais nem publicação automática do ZIP em Releases.
+- Conferência do histórico registrado em `reports/repositorio-publicacao-v001.json`:
+  sem caminhos de recursos proibidos, blobs binários NUL ou padrões de
+  credenciais reconhecidos. Busca por padrões não garante ausência universal
+  de segredos. Não reescrever o histórico para reorganizar a documentação.
+
 ## Pacote público atual — v071, 07/11/2026
 
 - O usuário autorizou gerar o patch após a entrega da ISO v071. Essa ordem

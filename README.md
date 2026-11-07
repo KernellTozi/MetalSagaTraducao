@@ -1,78 +1,81 @@
-# Metal Saga — tradução PT-BR para PS2
+# Metal Saga — Tradução PT-BR
 
-Tradução dos recursos do jogo original para execução no PCSX2, independente da recompilação nativa. Não distribui ISO, originais, BIOS ou emulador.
+Tradução independente de **Metal Saga para PlayStation 2**, por **Kernell Tozi**.
+O projeto adapta textos, menus e recursos gráficos para português brasileiro,
+preservando nomes próprios e a identidade do jogo.
 
-## O que abrir
+**Versão atual: v071 — candidata para revisão em partida.**
+Testada em amostras no PCSX2, com verificações automatizadas de integridade.
+A tradução ainda pode apresentar lacunas e ajustes de contexto; não afirmamos
+cobertura de 100% nem aprovação visual de todas as telas.
 
-| Arquivo na raiz | Para que serve |
+## Aplicar a tradução
+
+O projeto distribui um **patch de diferenças**, sem ISO, BIOS ou emulador.
+Você precisa fornecer sua própria ISO original compatível.
+
+1. Obtenha o pacote `MetalSaga-PTBR-v071-Patch.zip`, quando disponibilizado
+   pelo autor. Não há download do ZIP versionado neste repositório.
+2. Extraia todos os arquivos e abra **Aplicar-Patch.cmd** no Windows 11 x64.
+3. Selecione a ISO original americana e aguarde a criação de uma nova ISO.
+4. Abra a imagem traduzida no PCSX2.
+
+O aplicador funciona offline, preserva a original e confere a imagem gerada.
+Não aplique sobre outra tradução, uma ISO modificada ou um CHD.
+
+| Origem exigida | Valor |
 |---|---|
-| **Iniciar-Teste.cmd** | Abre a ISO traduzida atual |
-| **Abrir-Pasta-da-Ultima-Versao.cmd** | Abre no Explorador a pasta da mesma versão usada pelo iniciador |
-| Preparar-Interface.cmd | Valida a receita atual, sem criar outra ISO |
-| Extrair-Dialogos.cmd | Extrai o catálogo local de diálogos |
-| Reinserir-Dialogos.cmd | Reinserção e simulação de lotes |
-| Auditar-Traducao.cmd | Atualiza as pendências de diálogos e confere a situação das 16 revisões de nomes |
+| Edição | USA / NTSC-U |
+| Serial | SLUS-21293 |
+| Tamanho | 1.704.427.520 bytes |
+| SHA-256 | `ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403` |
 
-Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas continuam em tools/, com procedimentos históricos em docs/ e no Git.
+[Instruções completas, hashes e conteúdo do pacote v071](docs/publicacao-patch-v071.md).
 
-## Versão atual
+## O que foi trabalhado
 
-**Pacote para compartilhar:** `dist/publicacao-v071/MetalSaga-PTBR-v071-Patch.zip`
-(1,19 MiB). Contém patch e aplicador offline para Windows, sem ISO/BIOS.
-O jogador fornece a ISO original exigida; o pacote confere origem e resultado.
-[Instruções, hashes e publicação](docs/publicacao-patch-v071.md). Inclui as
-correções v071; reconstrução integral e aplicador Windows conferidos.
-Não houve publicação automática do ZIP. O pacote histórico v070 não foi recriado.
+- Diálogos e referências de falantes identificados no catálogo técnico.
+- Menus, Satcom, diário, ajuda, lojas e mensagens de sistema.
+- Itens, equipamentos, habilidades e mensagens de uso de itens.
+- Fontes com caracteres PT-BR e recursos gráficos de interface/minigames.
 
-**ISO de testes v071**, sobre MAP v048 e fontes/layout v005. Acrescenta 14 mensagens de uso de itens: cura individual/grupo, pelagem, estados, ressurreição, SP, remoção, ácido, reparos e conversões. Preserva seis mensagens já traduzidas. Avisos de Montanha de Sucata/Monte Macaco acompanham seus títulos de entrada; ajuda recebe Qual categoria?. Herda integralmente as correções v070 e os termos de Poker/Blackjack. A conferência em partida continua pendente; não é certificação de 100% do jogo.
+A v071 acrescenta mensagens de cura, ração, reparo e outros efeitos de itens,
+além dos avisos de Montanha de Sucata/Monte Macaco e uma pergunta da ajuda.
+Treze rótulos curtos de falantes continuam bloqueados por limitações técnicas.
+Dummy, UP, DOWN e Damage Override foram preservados por decisão contextual.
+Nomes próprios e termos como Hunter, Soldier, MAIN, SUB e SE são intencionais.
 
-São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.686 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Restam 13 rótulos explícitos curtos bloqueados pela reserva de memória não comprovada. Dummy/UP/DOWN/Damage Override ficam por decisão contextual anterior. As contagens não representam porcentagem de todo o jogo.
+[Correções v071](docs/interface-v071.md) ·
+[Pendências e validação](docs/pendencias-atuais.md) ·
+[Glossário](docs/glossario.md)
 
-ISO: `work/interface-v071/MetalSaga-ptbr-interface-v071.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. A cópia da Área de Trabalho permanece v070; para estas correções, use a nova ISO ou o iniciador atualizado. Conferir uso de itens, nomes das montanhas e pergunta da ajuda. O perfil isolado histórico tem cartões de memória desativados. Preservar manutenção v070, receitas e relatórios.
+## Encontrou um problema?
 
-A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
+Abra um [relato no GitHub](https://github.com/KernellTozi/MetalSagaTraducao/issues/new/choose)
+com a versão da tradução, local da cena, texto observado e uma captura de tela.
+Informe se iniciou pelo memory card ou restaurou um save state.
+Não envie ISO, BIOS, dados pessoais ou arquivos proprietários.
 
-**Manutenção:** `dist/manutencao-v070/MetalSaga-ptbr-manutencao-v070.iso`, cópia independente somente leitura. A nova ordem de remover as versões anteriores substitui o backup v059 após a conferência das cópias v070. Preservar a cópia de manutenção; nunca aplicar patches diretamente nela. [Procedimentos, entrega e limitações](docs/interface-v070.md).
+## Ferramentas e documentação
 
-- [Uso de itens, montanhas e ajuda — ISO v071](docs/interface-v071.md)
-- [Candidata final, correções e manutenção](docs/interface-v070.md)
-- [Revisão dos nomes tradicionais dos jogos de cartas](docs/interface-v069.md)
-- [Minigames: gráficos, instruções e catálogo de cobertura](docs/interface-v068.md)
-- [Relatos da partida, diário, dança e MC Hamir](docs/interface-v067.md)
-- [Tanque, locais, LOVE Machine e minigame de bebida](docs/interface-v066.md)
-- [Legibilidade do crédito e abertura do e](docs/interface-v065.md)
-- [Carregar, Vendas e crédito no bloco oficial](docs/interface-v064.md)
-- [Capturas, Renascimento, minerais e Primeiro golpe](docs/interface-v063.md)
-- [Reboque, habilidades, música e alinhamento dos resultados](docs/interface-v062.md)
-- [Menus e avisos observados durante a partida](docs/interface-v061.md)
-- [Nomes padrão de NPCs e alinhamento de Sim/Não](docs/interface-v060.md)
-- [Efeitos de batalha, desenho e pendências](docs/interface-v059.md)
-- [Lote de armas aplicado e limites](docs/interface-v058.md)
-- [Satcom e Mundo aberto](docs/interface-v056.md)
-- [Batalha corrigida na v055](docs/interface-v055.md)
-- [Pendências atuais e conferência em partida](docs/pendencias-atuais.md)
-- [Patch local: gerar, aplicar e verificar](docs/patch-local-v001.md)
-- [Plano de conclusão](docs/plano-conclusao.md)
-- [Investigação dos nomes bloqueados](docs/capacidade-nomes-v001.md)
-- [Buffers e expansão dos nomes](docs/buffers-nomes-v002.md)
-- [Entradas, emissor e páginas com nomes](docs/fluxo-nomes-v003.md)
-- [Origens dos nomes e formatador adicional](docs/fontes-nomes-v005.md)
-- [Glossário](docs/glossario.md)
-- [Extrator local](docs/extrator-dialogos.md)
-- [Reinserção e integridade](docs/reinsercao-v004.md)
+Este repositório reúne ferramentas próprias em Python, receitas de tradução,
+testes e evidências técnicas. A extração e a reinserção funcionam localmente,
+sem IA ou APIs. Construir a ISO exige os recursos originais locais, que não
+acompanham o repositório. O projeto é independente de recompilação nativa.
 
-## Organização
+| Pasta | Conteúdo |
+|---|---|
+| `tools/` | Extração, análise, reinserção, construção e verificação |
+| `tests/` | Testes automatizados |
+| `translations/` | Receitas e decisões de tradução |
+| `docs/` | Manuais, descobertas e histórico |
+| `reports/` | Evidências e relatórios reproduzíveis |
+| `release/` | Aplicadores do patch |
 
-- JOGO/: ISO original e extraídos imutáveis.
-- PCSX2/ e ambiente isolado de teste: preservar BIOS, cartões e configurações.
-- translations/: receitas Unicode e propostas pendentes, versionadas.
-- tools/ e tests/: ferramentas locais e testes.
-- docs/ e reports/: procedimentos e evidências próprias.
-- work/: resultados e recursos de construção, fora do Git.
-- dist/backup-v059/: backup atual somente leitura, fora da retenção. A alpha antiga foi substituída por ordem do usuário.
+[Índice da documentação](docs/README.md) ·
+[Guia local e atalhos](docs/guia-projeto.md) ·
+[Como contribuir](CONTRIBUTING.md) ·
+[Autoria e distribuição](AVISOS.md)
 
-Manter **cinco ISOs de trabalho**, as mais recentes. O construtor remove as antigas elegíveis antes de criar outra. Não apaga original, backup protegido, arquivos desconhecidos ou imagens com recuperação pendente. Conferir com `python tools/iso_retention.py`.
-
-Construções novas produzem somente ISO e relatório. Receitas, fontes editáveis aprovadas, evidências e recursos necessários à reprodução são preservados. Não apagar work/ indiscriminadamente. OneDrive somente mediante pedido expresso.
-
-Extração/reinserção são locais, sem IA ou APIs. Requerem Python; dependências gráficas de construção estão documentadas nos manuais correspondentes. Não acessar arquivos de outros projetos.
+ISO, BIOS, emulador, saves, anexos privados e recursos extraídos ficam fora
+do Git. Não solicite ou publique esses arquivos nas issues.

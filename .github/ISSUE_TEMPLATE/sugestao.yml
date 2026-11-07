@@ -1,0 +1,17 @@
+name: Sugestão de tradução
+description: Proponha uma revisão com contexto.
+title: "[Sugestão] "
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Texto atual e local onde aparece
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Sugestão e contexto
+      description: Explique o tom da cena e a razão da mudança.
+    validations:
+      required: true

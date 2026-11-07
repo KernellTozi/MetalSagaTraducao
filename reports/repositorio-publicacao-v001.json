@@ -1,0 +1,17 @@
+{
+  "scope": "All objects reachable from local refs via git rev-list --objects --all; publication audit before visibility change",
+  "historical_blob_count": 1948,
+  "historical_blob_bytes": 146597893,
+  "forbidden_resource_paths": [],
+  "binary_blobs_with_nul": [],
+  "credential_pattern_findings": [],
+  "credential_patterns": [
+    "github_token",
+    "private_key",
+    "aws_access_key",
+    "credential_url",
+    "openai_key"
+  ],
+  "limitations": "Pattern-based scan is not a guarantee of absence of every possible secret. Local source game directories were excluded and not read. Text recipes and small technical byte evidence remain versioned.",
+  "no_history_rewrite": true
+}

@@ -1,0 +1,39 @@
+name: Problema na tradução
+description: Texto, imagem, alinhamento ou falha ao aplicar o patch.
+title: "[Problema] "
+body:
+  - type: markdown
+    attributes:
+      value: "Não envie ISO, BIOS, dumps, saves pessoais ou dados privados."
+  - type: input
+    id: version
+    attributes:
+      label: Versão da tradução e do emulador
+      placeholder: "Ex.: v071 / PCSX2 2.8.2"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Local, personagem ou menu
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: O que aconteceu?
+      description: Inclua o texto observado e o que deveria aparecer.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      description: Informe se iniciou pelo memory card ou restaurou um save state.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Captura e contexto
+      description: Pode arrastar uma imagem aqui. Se possível, inclua a fala anterior.
