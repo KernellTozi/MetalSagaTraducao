@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "policy": "speaker-storage-consumer-classification-v002",
+  "elf_sha256": "25756885a1a01a4ddd82045fd78e1928c09873f810cf182b99b248914fb1ea71",
+  "references": [
+    {
+      "kind": "data-pointer",
+      "offset": 3143828,
+      "window_offset": 3143828,
+      "window_size": 4,
+      "window_sha256": "533aca874cc024dd072952798553076c8c62d1b227f07e565e3fa2c9f3aea9fd",
+      "classification": "Global data pointer to original end; writers and lifetime not fully proved"
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1538852,
+      "immediate_offset": 1538856,
+      "words": [
+        "3c03004b",
+        "2463599c"
+      ],
+      "window_offset": 1538844,
+      "window_size": 48,
+      "window_sha256": "2dc904b5df92e2c6e27d35dbfdda039346d432672b37d395d08da50a26f0359b",
+      "classification": "Workspace size derived from RAM end minus original image end and reservations"
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1576560,
+      "immediate_offset": 1576568,
+      "words": [
+        "3c03004b",
+        "2463599c"
+      ],
+      "window_offset": 1576552,
+      "window_size": 48,
+      "window_sha256": "e6bb812096559098b95e061c35713e3a1f5cc292c4b16a89dc069fcbeaac0f3f",
+      "classification": "BSS clear bound; rounded write reaches 0x4B59A0"
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1576656,
+      "immediate_offset": 1576664,
+      "words": [
+        "3c04004b",
+        "2484599c"
+      ],
+      "window_offset": 1576648,
+      "window_size": 48,
+      "window_sha256": "5ec41c6f9548aed6878986f07b0a72480c4fd4f84977e5fac3127bdbad2ea756",
+      "classification": "Startup syscall 0x3D receives original image end as lower bound"
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1685968,
+      "immediate_offset": 1685976,
+      "words": [
+        "3c03004b",
+        "2463599c"
+      ],
+      "window_offset": 1685960,
+      "window_size": 48,
+      "window_sha256": "06de5a09593dead1c5858f65d6a6f83115fa34e441e39a6f9a552bb309d92d73",
+      "classification": "Allocation and zero-fill size derived from original image end"
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1686720,
+      "immediate_offset": 1686724,
+      "words": [
+        "3c06004b",
+        "24c6599c"
+      ],
+      "window_offset": 1686712,
+      "window_size": 48,
+      "window_sha256": "be5551d69328fb892291a6d79213cad8d1e3a1779d3a0835b379fe79558fa06c",
+      "classification": "Temporary buffer size derived from original image end"
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1693028,
+      "immediate_offset": 1693036,
+      "words": [
+        "3c06004b",
+        "24c6599c"
+      ],
+      "window_offset": 1693020,
+      "window_size": 48,
+      "window_sha256": "43307c34148c0a231af31a420b85df7a7b2685c7e65928c08bcfb1d9f7cec450",
+      "classification": "Original image end passed as lower bound to shared memory-range function",
+      "argument_proof": {
+        "offset": 1693028,
+        "call_offset": 1693064,
+        "callee_va": 2752816,
+        "lower_bound_a2": 4938140,
+        "window_sha256": "923d85f74d52a7bdd1013e1bb7221505c5a1cc1d1bcb029ef625f6457acf60b0"
+      }
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1693128,
+      "immediate_offset": 1693144,
+      "words": [
+        "3c06004b",
+        "24c6599c"
+      ],
+      "window_offset": 1693120,
+      "window_size": 48,
+      "window_sha256": "672355bc5133f5756d757a150512b3d1393feb082270191f10344d34f9c95308",
+      "classification": "Original image end passed as lower bound to shared memory-range function",
+      "argument_proof": {
+        "offset": 1693128,
+        "call_offset": 1693156,
+        "callee_va": 2752816,
+        "lower_bound_a2": 4938140,
+        "window_sha256": "74a79f4284e93085eb7f6c603b69171fdb9dc9d3c34216febe7e280ac7e437a6"
+      }
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1727348,
+      "immediate_offset": 1727352,
+      "words": [
+        "3c02004b",
+        "2442599c"
+      ],
+      "window_offset": 1727340,
+      "window_size": 48,
+      "window_sha256": "6a2330a0e2f59ef557e7b7fb5e51677779afd7e9c996472677f263761c600a31",
+      "classification": "Original image end passed as lower bound to shared memory-range function",
+      "argument_proof": {
+        "offset": 1727348,
+        "call_offset": 1727396,
+        "callee_va": 2752816,
+        "lower_bound_a2": 4938140,
+        "window_sha256": "115ed0081bb079dc854802248168124313752be1d3ee37099f16fc7cbfbc069b"
+      }
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1727596,
+      "immediate_offset": 1727600,
+      "words": [
+        "3c02004b",
+        "2442599c"
+      ],
+      "window_offset": 1727588,
+      "window_size": 48,
+      "window_sha256": "6a2330a0e2f59ef557e7b7fb5e51677779afd7e9c996472677f263761c600a31",
+      "classification": "Original image end passed as lower bound to shared memory-range function",
+      "argument_proof": {
+        "offset": 1727596,
+        "call_offset": 1727644,
+        "callee_va": 2752816,
+        "lower_bound_a2": 4938140,
+        "window_sha256": "115ed0081bb079dc854802248168124313752be1d3ee37099f16fc7cbfbc069b"
+      }
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1728628,
+      "immediate_offset": 1728632,
+      "words": [
+        "3c02004b",
+        "2442599c"
+      ],
+      "window_offset": 1728620,
+      "window_size": 48,
+      "window_sha256": "648c1dc925f07ff057e6658dd6227c024d1a36b804dc8a0a214b373774302da5",
+      "classification": "Original image end passed as lower bound to shared memory-range function",
+      "argument_proof": {
+        "offset": 1728628,
+        "call_offset": 1728684,
+        "callee_va": 2752816,
+        "lower_bound_a2": 4938140,
+        "window_sha256": "56ed129ade27b5dbb38fc5c8185be9bb7ed3003a11db95c4b16d347eb7c1311a"
+      }
+    },
+    {
+      "kind": "lui-immediate-candidate",
+      "offset": 1729052,
+      "immediate_offset": 1729056,
+      "words": [
+        "3c02004b",
+        "2442599c"
+      ],
+      "window_offset": 1729044,
+      "window_size": 48,
+      "window_sha256": "648c1dc925f07ff057e6658dd6227c024d1a36b804dc8a0a214b373774302da5",
+      "classification": "Original image end passed as lower bound to shared memory-range function",
+      "argument_proof": {
+        "offset": 1729052,
+        "call_offset": 1729108,
+        "callee_va": 2752816,
+        "lower_bound_a2": 4938140,
+        "window_sha256": "56ed129ade27b5dbb38fc5c8185be9bb7ed3003a11db95c4b16d347eb7c1311a"
+      }
+    }
+  ],
+  "total_references": 12,
+  "bounded_range_argument_proofs": 6,
+  "short_labels_remaining": 13,
+  "can_apply_to_iso": false,
+  "originals_modified": false,
+  "reason": "Classifying consumers is not a proof of reservation across all allocators, resets, loaders and kernel paths. No new segment or hook is promoted into the final candidate.",
+  "alternatives": [
+    "Existing fixed slots and byte-tail packing already exhausted",
+    "Unloaded ELF header zeros are not a loaded code cave",
+    "A second segment needs heap reservation and separate runtime validation"
+  ]
+}

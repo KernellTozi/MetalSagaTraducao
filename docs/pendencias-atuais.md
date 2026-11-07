@@ -1,4 +1,30 @@
-# Pendências atuais — v069, com auditoria histórica v054
+# Pendências atuais — candidata v070, com auditoria histórica v054
+
+## Entrega v070 — relatos aplicados; 13 rótulos ainda bloqueados
+
+Os relatos acumulados foram aplicados: NOME/AJUSTES; Sem tanques e Sem navios
+com letras mais pesadas/fade; Caverna desconhecida e Acampamento de mercadores;
+Venda no equipamento; segunda tabela Sim/Não dos minigames; corpo Binramen;
+dois gritos adaptados para Nãããão. A ordem atual de resolver as pendências
+também libera Minério pequeno. Máquinas/Veículos/Desconhecidos aparecem por
+extenso com reorganização dos mesmos 72 bytes e referências atualizadas.
+Manual, evidências, limites e roteiro em `docs/interface-v070.md`.
+
+Restam os 13 rótulos explícitos Worker×9/Man/Transporter/Cat/Dog. Foram
+classificados os 12 consumidores de memória e provados seis argumentos,
+mas a reserva para o hook segue sem comprovação completa. Nenhuma inserção
+experimental de código ou ampliação do ELF foi promovida para a candidata.
+Relatório `reports/falantes-memoria-v002.json`.
+
+Dummy/UP/DOWN/Damage Override ficam por decisão contextual anterior.
+Revisão de termos/nome próprio remanescentes não equivale a um lote de frases
+sem tradução. Cobertura além do catálogo continua dependente de novas telas
+ou evidências. A conferência em partida é do usuário; a candidata não é uma
+declaração de 100% de cobertura ou aprovação visual.
+
+Os registros abaixo são históricos. Não reabrir como pendência sem aplicação
+o que foi resolvido na v070. A proteção do backup passa à cópia de manutenção
+v070 após entrega verificada, conforme nova ordem de remover as ISOs antigas.
 
 ## Novo relato visual — Sem tanques, somente registro — 06/11/2026
 

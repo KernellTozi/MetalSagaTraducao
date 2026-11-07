@@ -64,6 +64,13 @@ def normalize_item_name_review_transition(old_ui,new_ui,old_recipe,old_patches,n
     bytes beyond their own patch prefix; compare the union of the two prefixes.
     This does not resize the compiled patch or release other item fields.
     """
+    if 'final_candidate_review' in new_ui:
+        from final_candidate import validate,PARENT
+        from category_pool import normalize
+        if old_ui!=validate(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:
+            raise ValueError('Final candidate comparator parent differs')
+        normalize(old_patches,new_patches)
+        return
     if 'card_terms_review' in new_ui:
         from card_terms_review import validate,PARENT
         if old_ui!=validate(new_ui)[0] or old_recipe.relative_to(ROOT).as_posix()!=PARENT:

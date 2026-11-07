@@ -1,0 +1,88 @@
+{
+  "version": "interface-v070",
+  "status": "final_candidate_pending_user_gameplay_review",
+  "parent": "interface-v069",
+  "valid": true,
+  "interface_recipe": "translations/interface-v070.json",
+  "dialogue_recipe": "translations/regiao-inicial-v048.json",
+  "iso": {
+    "image_name": "MetalSaga-ptbr-interface-v070.iso",
+    "iso_size": 1704427520,
+    "output_iso_sha256": "5a576e647291e9255b04856e22dfb5bdaabd4ecbe1ebee751f26e856eb439f4c",
+    "all_bytes_match_expected_patch": true,
+    "iso_directory_identical": true
+  },
+  "map_changed_records": 6044,
+  "map_refused": 0,
+  "map_bodies_or_options_changed": 5991,
+  "translated_speaker_references": 991,
+  "interface_units": 4666,
+  "layout_profile": "ptbr-layout-v005",
+  "fixes": {
+    "policy": "reported-final-candidate-fixed-resources-v001",
+    "reviewed_units": 26,
+    "location_fields": 18,
+    "new_literals": 3,
+    "diary_fields": 1,
+    "headers": 2,
+    "transport_labels": 2,
+    "ore_name_revised": true,
+    "category_pool": true,
+    "short_speakers_remaining": 13,
+    "pcsx2_executed": false,
+    "visual_status": "pending_user"
+  },
+  "narrative_review": {
+    "revised_dialogues": 2,
+    "pcsx2_executed": false
+  },
+  "whole_iso_delta": {
+    "report": "reports/interface-v070-delta.json",
+    "patches": 50,
+    "changed_bytes": 5094,
+    "verified": true
+  },
+  "tests": {
+    "core": 11,
+    "delivery": 4,
+    "speaker_storage": 3,
+    "preflight_regression": 7,
+    "retention_regression": 5,
+    "total_distinct": 30,
+    "passed": true
+  },
+  "preflight_verified": true,
+  "launchers_dry_run_verified": true,
+  "item_name_audit_blocked": 0,
+  "delivery_report": "reports/entrega-candidata-v070.json",
+  "all_delivery_copies_verified": true,
+  "new_backup_read_only": true,
+  "remaining_work_isos": [
+    "work/interface-v070/MetalSaga-ptbr-interface-v070.iso"
+  ],
+  "remaining_dist_isos": [
+    "dist/manutencao-v070/MetalSaga-ptbr-manutencao-v070.iso"
+  ],
+  "desktop_copy": "C:\\Users\\Kernell\\Desktop\\MetalSaga-PTBR-Candidata-Final-v070.iso",
+  "old_versions_removed": true,
+  "remaining_technical_labels": 13,
+  "remaining_label_groups": {
+    "Worker": 9,
+    "Man": 1,
+    "Transporter": 1,
+    "Cat": 1,
+    "Dog": 1
+  },
+  "remaining_storage_report": "reports/falantes-memoria-v002.json",
+  "contextually_preserved_effects": [
+    "Dummy",
+    "UP",
+    "DOWN",
+    "Damage Override"
+  ],
+  "ore_rename_authorized_by_current_pending_fixes_request": true,
+  "pcsx2_executed": false,
+  "visual_status": "pending_user",
+  "global_text_coverage_proven": false,
+  "originals_bios_saves_unchanged": true
+}

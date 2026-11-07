@@ -1,5 +1,41 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Continuidade atual — candidata final v070, 06/11/2026
+
+- Atual `translations/interface-v070.json`, pai v069 integral, MAP v048
+  sobre v047, layout v005. Atalhos apontam para `work/interface-v070/MetalSaga-ptbr-interface-v070.iso`.
+  Manual `docs/interface-v070.md`, manifesto `translations/candidata-final-v001.json`.
+- Pedido atual encerra a pausa de relatos e autoriza corrigir as pendências
+  listadas, incluindo Minério ignoto→Minério pequeno. Não manter essa troca
+  em espera por causa das instruções históricas anteriores.
+- Aplicados NOME/AJUSTES, Sem tanques/Sem navios com peso maior e fade,
+  Caverna desconhecida/Acampamento de mercadores em 18 nomes de nós,
+  Venda no formato de equipamento, segunda tabela Sim/Não dos minigames,
+  corpo Binramen, dois gritos Nãããão e nomes completos das categorias.
+- Política `reported-final-candidate-fixed-resources-v001` em
+  `tools/final_candidate.py`, com `tools/category_pool.py`. Dispatch
+  `final_candidate_review` precede os anteriores tanto no UI quanto no MAP.
+  Compilador, auditor e comparador exigem o pai exato e os hashes de saídas.
+- Categorias cabem nos 72 bytes originais de 0x349248; coalescer só os
+  seis patches históricos contidos nesse banco. Atualizar todos os ponteiros
+  dos três conjuntos comprovados, preservando opcodes/parte alta de seis
+  pares de código. Comparador normaliza só a sobreposição desse banco.
+  Nenhum segmento/heap/extent novo foi autorizado por essa técnica.
+- Os 13 falantes curtos continuam bloqueados. `tools/classify_speaker_storage.py`
+  e `reports/falantes-memoria-v002.json` classificam 12 consumidores e provam
+  seis argumentos de limite inferior; isso não comprova reserva permanente.
+  Não instalar o protótipo ou marcadores na candidata final.
+- A candidata não é aprovação visual nem cobertura total do jogo. Dummy,
+  UP, DOWN e Damage Override seguem preservados por decisão contextual.
+- O usuário autorizou uma cópia final na Área de Trabalho e a remoção das
+  ISOs anteriores. `tools/package_final_candidate.py --apply` confere duas
+  cópias integrais antes de remover versões conhecidas. Essa ordem substitui
+  a proteção da v059 somente após a nova manutenção conferida. Novo backup
+  independente somente leitura: `dist/manutencao-v070/MetalSaga-ptbr-manutencao-v070.iso`.
+  Não remover receitas/relatórios antigos, originais, BIOS, saves ou arquivos
+  desconhecidos. A exceção externa autoriza somente a entrega na Área de
+  Trabalho solicitada, não cópias automáticas ao OneDrive.
+
 ## Continuidade atual — terminologia das cartas v069
 
 - Atual `translations/interface-v069.json`, pai v068 integral; MAP v047 e

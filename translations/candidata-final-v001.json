@@ -1,0 +1,1018 @@
+{
+  "schema": 1,
+  "policy": "reported-final-candidate-fixed-resources-v001",
+  "parent": "translations/interface-v069.json",
+  "parent_sha256": "1ab8b47d636355e885dc1734cc1808a8a0303f4c00ab734ca0802f02fddeab88",
+  "parent_map": "translations/regiao-inicial-v047.json",
+  "parent_map_sha256": "60bed908a36f0f35069f9a85b1f8403b630edfef5504a9b636a86a9a91adfd42",
+  "new": [
+    {
+      "id": "final.elf.00341670",
+      "resource": "SLUS_212.93",
+      "offset": 3413616,
+      "size": 26,
+      "source_sha256": "dd87206f1b8c0508070d7b5133e9e3536e8f22db7bf1ee318f11922bc88483d9",
+      "after_sha256": "f5bf7daf91d45c89bd2c307c1d14bbc13ffbf2eeade3e5ad7aa07d7d9758459e"
+    },
+    {
+      "id": "final.elf.00349a18",
+      "resource": "SLUS_212.93",
+      "offset": 3447320,
+      "size": 8,
+      "source_sha256": "82e13b3d6e247687db5830f39afea5124730016cef858a2616f49111c8c42d02",
+      "after_sha256": "b1db9e9d9045f1c0728288f8111ed3a684181de5ad77b7416a8995da09b6d4ca"
+    },
+    {
+      "id": "final.elf.00349a20",
+      "resource": "SLUS_212.93",
+      "offset": 3447328,
+      "size": 8,
+      "source_sha256": "24fc142f52e2806b6dfb6c21656aefba62d66ed9382d30f73d327f0354b7299f",
+      "after_sha256": "cd0a802c1e8470293a6bef41f6af8eeebb28efdf28c3414a74b1031689ff0cb8"
+    },
+    {
+      "id": "final.diary.016.body",
+      "resource": "DATA/FDATA/DIARY.DAT",
+      "offset": 3476,
+      "size": 52,
+      "source_sha256": "27b522dbc4b66444aa9b65434ef2ec1550579044ab546585f0052d4241f733f1",
+      "after_sha256": "28ceb90b02fc8215ac06d47b94d6579e47ec7eb2c50293a9f2c33e29218a6aef"
+    },
+    {
+      "id": "final.map.0373b7dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 57915356,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.0373c000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 57917440,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.0e54d7dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 240441308,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.0e54e000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 240443392,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.0f6a3fdc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 258621404,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.0f6a4800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 258623488,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1211cfdc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 303157212,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1211d800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 303159296,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.176a47dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 392841180,
+      "size": 21,
+      "source_sha256": "350b717e155fac4d9e9300989b5d0816814471814e7dab37aedfad4ef80d85ee",
+      "after_sha256": "6f07ed19743faf53f0827446ecbd049745c153e400b166ea25dcce93ff7f6006"
+    },
+    {
+      "id": "final.map.176a5000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 392843264,
+      "size": 21,
+      "source_sha256": "350b717e155fac4d9e9300989b5d0816814471814e7dab37aedfad4ef80d85ee",
+      "after_sha256": "6f07ed19743faf53f0827446ecbd049745c153e400b166ea25dcce93ff7f6006"
+    },
+    {
+      "id": "final.map.1afd6fdc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 452816860,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1afd7800",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 452818944,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1cd7b7dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 483899356,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1cd7c000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 483901440,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1cf547dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 485836764,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1cf55000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 485838848,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1fbbc7dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 532400092,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.map.1fbbd000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "offset": 532402176,
+      "size": 26,
+      "source_sha256": "fccb7504b0ab3cc6c611f0b546b08425014773d5e7c9d6b21bf4852af84c6f13",
+      "after_sha256": "e940b3850068e0c0b919e65941dc861563161f900dcee3c6da0261ae83da2470"
+    },
+    {
+      "id": "final.categories.pool",
+      "resource": "SLUS_212.93",
+      "offset": 3445320,
+      "size": 72,
+      "source_sha256": "c224ef024219ba0a01b61d45a54839fa4ce9d159a8d39bcbe2d8051fcfd8fbd6",
+      "after_sha256": "2f775206d34b1ef44655b96e9dfab7c94f3c90629c4b0b76aa8383167c48c2b6"
+    },
+    {
+      "id": "final.category.reference.00324274",
+      "resource": "SLUS_212.93",
+      "offset": 3293812,
+      "size": 4,
+      "source_sha256": "134e77986733dae25b14c6ad821cd8272e27b0d2ff71e4c31c7129307036fed7",
+      "after_sha256": "75323c233101c8e2bf2525941d72a01cdd23af8f2f33643bd190dcb9951bf5d0"
+    },
+    {
+      "id": "final.category.reference.00324278",
+      "resource": "SLUS_212.93",
+      "offset": 3293816,
+      "size": 4,
+      "source_sha256": "2229402229c85e085f77e994b27070420c77769a000f6d4f3609a1fced7610dc",
+      "after_sha256": "15f26766eeda6272f80a8d56069641632a74fa743eca4cf153329b3aa0ebb54d"
+    },
+    {
+      "id": "final.category.reference.00324280",
+      "resource": "SLUS_212.93",
+      "offset": 3293824,
+      "size": 4,
+      "source_sha256": "66a32396643d1e00dcf7e45cd4c423a311c32a36a5f32b69f4261ffe5d009706",
+      "after_sha256": "4ea9a108c2837ebdc4964f714e4bebfc13ec91df8b54a4ce1a961375b284f98c"
+    },
+    {
+      "id": "final.category.reference.00324288",
+      "resource": "SLUS_212.93",
+      "offset": 3293832,
+      "size": 4,
+      "source_sha256": "f051fb1fc6d8ab5677178420417651d161a44e8ef2740964eeae9afec7c13ca8",
+      "after_sha256": "9e807995df6febfbd092037dd779d73b630d0533018a57fc4141bbb117df6e35"
+    },
+    {
+      "id": "final.category.reference.0032428c",
+      "resource": "SLUS_212.93",
+      "offset": 3293836,
+      "size": 4,
+      "source_sha256": "f051fb1fc6d8ab5677178420417651d161a44e8ef2740964eeae9afec7c13ca8",
+      "after_sha256": "9e807995df6febfbd092037dd779d73b630d0533018a57fc4141bbb117df6e35"
+    },
+    {
+      "id": "final.category.reference.00324290",
+      "resource": "SLUS_212.93",
+      "offset": 3293840,
+      "size": 4,
+      "source_sha256": "f051fb1fc6d8ab5677178420417651d161a44e8ef2740964eeae9afec7c13ca8",
+      "after_sha256": "9e807995df6febfbd092037dd779d73b630d0533018a57fc4141bbb117df6e35"
+    },
+    {
+      "id": "final.category.reference.00324294",
+      "resource": "SLUS_212.93",
+      "offset": 3293844,
+      "size": 4,
+      "source_sha256": "f051fb1fc6d8ab5677178420417651d161a44e8ef2740964eeae9afec7c13ca8",
+      "after_sha256": "9e807995df6febfbd092037dd779d73b630d0533018a57fc4141bbb117df6e35"
+    },
+    {
+      "id": "final.category.reference.003242f0",
+      "resource": "SLUS_212.93",
+      "offset": 3293936,
+      "size": 4,
+      "source_sha256": "ec3729569ae14a1a3ceb440f449daee5003654d95d25f15db4474870d4f1b31b",
+      "after_sha256": "9b3fce38a47529db21cbf52f3a401906064e5baee9f8a5293a7f89cc5727c870"
+    },
+    {
+      "id": "final.category.reference.00324308",
+      "resource": "SLUS_212.93",
+      "offset": 3293960,
+      "size": 4,
+      "source_sha256": "620d0ec2ffa05d7babf3aed25f06df8e45db45ddcb0ae52a5cf213c36935e32e",
+      "after_sha256": "9c3ab4feb1dc4fe704eb7d3f6882c2a757d5ceeba4340c6814face588d63357c"
+    },
+    {
+      "id": "final.category.reference.0032430c",
+      "resource": "SLUS_212.93",
+      "offset": 3293964,
+      "size": 4,
+      "source_sha256": "03c933142754d03d50ab67af13be456014ff1ca997a437276ecf942cae4f234c",
+      "after_sha256": "1f003d2c53508c74956ad2e37f7db35de757166fc17b0317e9faf74b956f4549"
+    },
+    {
+      "id": "final.category.reference.002654c0",
+      "resource": "SLUS_212.93",
+      "offset": 2512064,
+      "size": 4,
+      "source_sha256": "39248fda0bcc45af18341c966bf91343fbc9a27b2da2dafda4c782a462df1adf",
+      "after_sha256": "75323c233101c8e2bf2525941d72a01cdd23af8f2f33643bd190dcb9951bf5d0"
+    },
+    {
+      "id": "final.category.reference.002654c4",
+      "resource": "SLUS_212.93",
+      "offset": 2512068,
+      "size": 4,
+      "source_sha256": "52f71823c4d23ea33b6d9b2a90c45ff027d35c2ea6c5a5eeeb718282bbdbf48c",
+      "after_sha256": "15f26766eeda6272f80a8d56069641632a74fa743eca4cf153329b3aa0ebb54d"
+    },
+    {
+      "id": "final.category.reference.002654c8",
+      "resource": "SLUS_212.93",
+      "offset": 2512072,
+      "size": 4,
+      "source_sha256": "efc1af0534d001ddfabfdba43a668f4d0f69370a3cfb0b3b330e1f3260630a49",
+      "after_sha256": "8b13671fa1895e49444f3416a23c8eaf2059b45d04487cba9b8270975165edfd"
+    },
+    {
+      "id": "final.category.reference.002654cc",
+      "resource": "SLUS_212.93",
+      "offset": 2512076,
+      "size": 4,
+      "source_sha256": "69691bd4d9df27a86b53cac678fda227e1f9dc757080c8fb6e151b6be7873b31",
+      "after_sha256": "4ea9a108c2837ebdc4964f714e4bebfc13ec91df8b54a4ce1a961375b284f98c"
+    },
+    {
+      "id": "final.category.reference.002654d0",
+      "resource": "SLUS_212.93",
+      "offset": 2512080,
+      "size": 4,
+      "source_sha256": "1c52c952f0516546444c9aa7cc39543f266778f91a00c34dd49f0f67e44d2c36",
+      "after_sha256": "091ccbf3daeaf7d880e062fed234fb5e1c444c2743dcd823d306c9272bfdda28"
+    },
+    {
+      "id": "final.category.reference.002654d4",
+      "resource": "SLUS_212.93",
+      "offset": 2512084,
+      "size": 4,
+      "source_sha256": "3ae5a3c22320be5eb31f482a37431abf86fffc1f9274dd3f4ba4a06d2363d774",
+      "after_sha256": "9e807995df6febfbd092037dd779d73b630d0533018a57fc4141bbb117df6e35"
+    },
+    {
+      "id": "final.category.reference.001d8d68",
+      "resource": "SLUS_212.93",
+      "offset": 1936744,
+      "size": 4,
+      "source_sha256": "c3608688cc92d072c6ebfea81c288d97f69d13f4142d6ef8fd112832bbbfbe1f",
+      "after_sha256": "7730e8add52fb215e6df65d7ee924d9de76838905444c85456d3c10a26640029"
+    },
+    {
+      "id": "final.category.reference.001d8d78",
+      "resource": "SLUS_212.93",
+      "offset": 1936760,
+      "size": 4,
+      "source_sha256": "0a579104c5c11d1395707c629b7dd22f72326b2f9eb7e33f47668f6cb9ea3302",
+      "after_sha256": "26caa0da9907844432f44bc41760eaf8140d281adb9fdef125514876acc530d2"
+    },
+    {
+      "id": "final.category.reference.001d8d88",
+      "resource": "SLUS_212.93",
+      "offset": 1936776,
+      "size": 4,
+      "source_sha256": "668ae76026d68e0ef544101fab62f66c5ba716e9e5b5154c39e1b4c7e76d1f3f",
+      "after_sha256": "4cdeae0c6c517993d75783bd219687e92766848761c7abbccf04bd4544d35cec"
+    },
+    {
+      "id": "final.category.reference.001d8d98",
+      "resource": "SLUS_212.93",
+      "offset": 1936792,
+      "size": 4,
+      "source_sha256": "b00361eb12b8a77bf62af03f84765c0373594f858d5e69f872a03346cf9bbe20",
+      "after_sha256": "f1e096bf1491a679205be43a50af3b03da3ad1fa7885c7cd7bd9754ead69ba77"
+    },
+    {
+      "id": "final.category.reference.001d8da8",
+      "resource": "SLUS_212.93",
+      "offset": 1936808,
+      "size": 4,
+      "source_sha256": "5e71510ca337d4cf27663553ff17fd53a3b469712390f95a8ee56bd5dda3b354",
+      "after_sha256": "a6525a1191926cc3d6b389be133aa41071faa9269c7dcdf2a6c1ad7fabcdec6d"
+    },
+    {
+      "id": "final.category.reference.001d8db8",
+      "resource": "SLUS_212.93",
+      "offset": 1936824,
+      "size": 4,
+      "source_sha256": "f7528bae327e63b3e36cf477a2e0c1fba033ba063e3928fea66daeefaeced729",
+      "after_sha256": "a3dc3cfbdfbb208b173b7fa2176001501dcdcbe85010e58f957bf5a0da615f62"
+    }
+  ],
+  "revised": [
+    {
+      "id": "observed.headers",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 576576,
+      "size": 65536,
+      "source_sha256": "dcae0b3be1de9749d56794ede632162f5d12ad43930bb767c274c9737cb88b59",
+      "after_sha256": "b68a7a3b421814b3e3fccbf9b673bec5cc94dcc1d99cae2dddf7ba212be8a787"
+    },
+    {
+      "id": "reported.raster.tank",
+      "resource": "DATA/MAP/HMAPAC.SDA",
+      "offset": 1168,
+      "size": 65536,
+      "source_sha256": "d5e4299f61417c5352fdc4dd0661372d02ea16c6e43e9592ee5023a97f9c7c01",
+      "after_sha256": "79a2506453b870cdc772acdf2f7050222d103fec75271cf4c7523e8e5660dbf2"
+    },
+    {
+      "id": "item.name.0665",
+      "resource": "DATA/S/S_PACK.SDA",
+      "offset": 87200,
+      "size": 24,
+      "source_sha256": "be1e4caa72bee67fad119798320469950b2fc04839d3ac4f18dc33c1c0c95ef0",
+      "after_sha256": "536eed4a35fe7a53afc2b24f81a9934635a9a164e70869721ed203350a7c0d8d"
+    }
+  ],
+  "removed": [
+    "elf.ui.00349248",
+    "elf.ui.00349260",
+    "elf.ui.00349268",
+    "elf.ui.00349270",
+    "elf.ui.00349280",
+    "elf.ui.00349288"
+  ],
+  "evidence": {
+    "locations": [
+      {
+        "map": 25,
+        "type": 7,
+        "node_offset": 57911312,
+        "node_sha256": "867e30c8ac997a3a821f3db4a1d8cd6236c731b899f55ad605f0b1e1a63a0262",
+        "field_offset": 57915356,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 25,
+        "type": 2,
+        "node_offset": 57911344,
+        "node_sha256": "35159ad9709eb7adce5ec552a6868cc101944b0b08298a86bc3fbd819ff231a8",
+        "field_offset": 57917440,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 128,
+        "type": 7,
+        "node_offset": 240437264,
+        "node_sha256": "dc4581417de13ef80b256e53a4c748246d8625d04b43735211123a9a19a2a5de",
+        "field_offset": 240441308,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 128,
+        "type": 2,
+        "node_offset": 240437296,
+        "node_sha256": "39e777533c3862e3284973b20f0ae42c878365181dea4aa8f70f490139f446e0",
+        "field_offset": 240443392,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 136,
+        "type": 7,
+        "node_offset": 258617360,
+        "node_sha256": "7ac3c515d92b425c1d6d05046169fd5d6032e70f33f9190bab770fde292f46c9",
+        "field_offset": 258621404,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 136,
+        "type": 2,
+        "node_offset": 258617408,
+        "node_sha256": "89869a1152dbe6bfbfa3969d2971ce9fe368c867af08511b2a4f09b48e38a29d",
+        "field_offset": 258623488,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 144,
+        "type": 7,
+        "node_offset": 303153168,
+        "node_sha256": "1ab70994145fbfbeb20311965e55410eeb68f93aeaf6f5fc1d93ece396188822",
+        "field_offset": 303157212,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 144,
+        "type": 2,
+        "node_offset": 303153200,
+        "node_sha256": "3cda3b6c8e399c24422d08a20ed147a7d757faa1ccb5bdfc61e234db36cd442e",
+        "field_offset": 303159296,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 180,
+        "type": 7,
+        "node_offset": 392837136,
+        "node_sha256": "6ca7f96dbc0734f1a95f07c82b8c7b1e9ae268734e60bfc60f8e7ee491352ed4",
+        "field_offset": 392841180,
+        "translation": "Caverna desconhecida"
+      },
+      {
+        "map": 180,
+        "type": 2,
+        "node_offset": 392837200,
+        "node_sha256": "6fbf0f3c8e638ac99d210ace5c7d09abf0f398f896979f79006af4e0119c01c0",
+        "field_offset": 392843264,
+        "translation": "Caverna desconhecida"
+      },
+      {
+        "map": 216,
+        "type": 7,
+        "node_offset": 452812816,
+        "node_sha256": "fdee3d6f0e6f46ab8e4bed717293fdef032d423180dfe182236edb11fa7ef235",
+        "field_offset": 452816860,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 216,
+        "type": 2,
+        "node_offset": 452812848,
+        "node_sha256": "6c316d1b9b9e470f8f70ffdfae9dc8e71335fbe2a801bee5ebf18faf34857c54",
+        "field_offset": 452818944,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 244,
+        "type": 7,
+        "node_offset": 483895312,
+        "node_sha256": "843f0b31e1d1ed51aa3e0fd081f769e521a84a62d1b881477952164f7914b8fb",
+        "field_offset": 483899356,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 244,
+        "type": 2,
+        "node_offset": 483895344,
+        "node_sha256": "bb59741cb1af8896e73b8754554d4d2e2dfdc5258a5e5e971e356b006bf94eea",
+        "field_offset": 483901440,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 256,
+        "type": 7,
+        "node_offset": 485832720,
+        "node_sha256": "81f96b229a7fd289d2426e217f2406779cc180681a0c0c79231a028f433d2ef2",
+        "field_offset": 485836764,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 256,
+        "type": 2,
+        "node_offset": 485832768,
+        "node_sha256": "66f9cf139576e051df1a91d7dcb4362ce1e552c45777e4717924128493cbdec5",
+        "field_offset": 485838848,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 278,
+        "type": 7,
+        "node_offset": 532396048,
+        "node_sha256": "e3c09ffed20388cd75bfdfded8df4574ea4b2a9416acefc35db77d9240daeb7d",
+        "field_offset": 532400092,
+        "translation": "Acampamento de mercadores"
+      },
+      {
+        "map": 278,
+        "type": 2,
+        "node_offset": 532396096,
+        "node_sha256": "8bf9f8234e7469ae67c0e91f77fee892957e15036f07f55741cfcffee0f49677",
+        "field_offset": 532402176,
+        "translation": "Acampamento de mercadores"
+      }
+    ],
+    "headers": [
+      {
+        "rect": [
+          4,
+          60,
+          62,
+          72
+        ],
+        "text": "NOME",
+        "width": 55
+      },
+      {
+        "rect": [
+          4,
+          216,
+          156,
+          228
+        ],
+        "text": "AJUSTES",
+        "width": 95
+      }
+    ],
+    "transport": [
+      {
+        "text": "Sem tanques",
+        "rect": [
+          90,
+          44,
+          192,
+          70
+        ],
+        "fade_source": "original black column mode, two label regions",
+        "point_size": 14,
+        "glyph_dilation_pixels": 0,
+        "sprite_sha256": "4785228c3f683f7b84d046da13f00b85e707ecb407e6dce0cc63b9aae710d390",
+        "mask_sha256": "417edfc0613cd6bf3b82f03d0eeb156d5f80c85a24bdc0a1ae9386f8c6b7402a"
+      },
+      {
+        "text": "Sem navios",
+        "rect": [
+          90,
+          118,
+          192,
+          144
+        ],
+        "fade_source": "original black column mode, two label regions",
+        "point_size": 15,
+        "glyph_dilation_pixels": 0,
+        "sprite_sha256": "963112bb53555d6d4770c30cbbd7be9455a65d4154eeddd92f021f9eb561dba0",
+        "mask_sha256": "26cb48380b728368c7f7f04b2d6a932008a7726092a3564a2b83d4aaebbe8288"
+      }
+    ],
+    "categories": {
+      "pool_start": 3445320,
+      "pool_bytes": 72,
+      "used_bytes": 72,
+      "strings": [
+        {
+          "source": "Unknown",
+          "translation": "Desconhecidos",
+          "va": 4489800
+        },
+        {
+          "source": "Bio",
+          "translation": "Bio",
+          "va": 4489814
+        },
+        {
+          "source": "Cyber",
+          "translation": "Cyber",
+          "va": 4489818
+        },
+        {
+          "source": "Machine",
+          "translation": "Máquinas",
+          "va": 4489824
+        },
+        {
+          "source": "Vehicle",
+          "translation": "Veículos",
+          "va": 4489834
+        },
+        {
+          "source": "Outlaw",
+          "translation": "Alvos",
+          "va": 4489844
+        },
+        {
+          "source": "Normal",
+          "translation": "Normal",
+          "va": 4489850
+        },
+        {
+          "source": "Stealth",
+          "translation": "Furtivo",
+          "va": 4489857
+        },
+        {
+          "source": "Shelter",
+          "translation": "Abrigo",
+          "va": 4489865
+        }
+      ],
+      "references": [
+        {
+          "source_offset": 3445320,
+          "source_name": "Unknown",
+          "translation": "Desconhecidos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293808
+          },
+          "target_va": 4489800,
+          "changed": false
+        },
+        {
+          "source_offset": 3445320,
+          "source_name": "Unknown",
+          "translation": "Desconhecidos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293828
+          },
+          "target_va": 4489800,
+          "changed": false
+        },
+        {
+          "source_offset": 3445320,
+          "source_name": "Unknown",
+          "translation": "Desconhecidos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293848
+          },
+          "target_va": 4489800,
+          "changed": false
+        },
+        {
+          "source_offset": 3445328,
+          "source_name": "Bio",
+          "translation": "Bio",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293812
+          },
+          "target_va": 4489814,
+          "changed": true
+        },
+        {
+          "source_offset": 3445336,
+          "source_name": "Cyber",
+          "translation": "Cyber",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293816
+          },
+          "target_va": 4489818,
+          "changed": true
+        },
+        {
+          "source_offset": 3445344,
+          "source_name": "Machine",
+          "translation": "Máquinas",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293820
+          },
+          "target_va": 4489824,
+          "changed": false
+        },
+        {
+          "source_offset": 3445352,
+          "source_name": "Vehicle",
+          "translation": "Veículos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293824
+          },
+          "target_va": 4489834,
+          "changed": true
+        },
+        {
+          "source_offset": 3445360,
+          "source_name": "Outlaw",
+          "translation": "Alvos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293832
+          },
+          "target_va": 4489844,
+          "changed": true
+        },
+        {
+          "source_offset": 3445360,
+          "source_name": "Outlaw",
+          "translation": "Alvos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293836
+          },
+          "target_va": 4489844,
+          "changed": true
+        },
+        {
+          "source_offset": 3445360,
+          "source_name": "Outlaw",
+          "translation": "Alvos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293840
+          },
+          "target_va": 4489844,
+          "changed": true
+        },
+        {
+          "source_offset": 3445360,
+          "source_name": "Outlaw",
+          "translation": "Alvos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293844
+          },
+          "target_va": 4489844,
+          "changed": true
+        },
+        {
+          "source_offset": 3445368,
+          "source_name": "Normal",
+          "translation": "Normal",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293936
+          },
+          "target_va": 4489850,
+          "changed": true
+        },
+        {
+          "source_offset": 3445376,
+          "source_name": "Stealth",
+          "translation": "Furtivo",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293960
+          },
+          "target_va": 4489857,
+          "changed": true
+        },
+        {
+          "source_offset": 3445384,
+          "source_name": "Shelter",
+          "translation": "Abrigo",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 3293964
+          },
+          "target_va": 4489865,
+          "changed": true
+        },
+        {
+          "source_offset": 3446808,
+          "source_name": "Bio",
+          "translation": "Bio",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 2512064
+          },
+          "target_va": 4489814,
+          "changed": true
+        },
+        {
+          "source_offset": 3446816,
+          "source_name": "Cyber",
+          "translation": "Cyber",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 2512068
+          },
+          "target_va": 4489818,
+          "changed": true
+        },
+        {
+          "source_offset": 3446824,
+          "source_name": "Machine",
+          "translation": "Máquinas",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 2512072
+          },
+          "target_va": 4489824,
+          "changed": true
+        },
+        {
+          "source_offset": 3446832,
+          "source_name": "Vehicle",
+          "translation": "Veículos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 2512076
+          },
+          "target_va": 4489834,
+          "changed": true
+        },
+        {
+          "source_offset": 3446840,
+          "source_name": "Unknown",
+          "translation": "Desconhecidos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 2512080
+          },
+          "target_va": 4489800,
+          "changed": true
+        },
+        {
+          "source_offset": 3446848,
+          "source_name": "Outlaw",
+          "translation": "Alvos",
+          "consumer": {
+            "kind": "data-pointer",
+            "offset": 2512084
+          },
+          "target_va": 4489844,
+          "changed": true
+        },
+        {
+          "source_offset": 3448432,
+          "source_name": "Bio",
+          "translation": "Bio",
+          "consumer": {
+            "kind": "lui-immediate-candidate",
+            "offset": 1936740,
+            "immediate_offset": 1936744,
+            "words": [
+              "3c030045",
+              "24638e70"
+            ]
+          },
+          "target_va": 4489814,
+          "changed": true
+        },
+        {
+          "source_offset": 3448440,
+          "source_name": "Cyber",
+          "translation": "Cyber",
+          "consumer": {
+            "kind": "lui-immediate-candidate",
+            "offset": 1936752,
+            "immediate_offset": 1936760,
+            "words": [
+              "3c040045",
+              "24848e78"
+            ]
+          },
+          "target_va": 4489818,
+          "changed": true
+        },
+        {
+          "source_offset": 3448448,
+          "source_name": "Machine",
+          "translation": "Máquinas",
+          "consumer": {
+            "kind": "lui-immediate-candidate",
+            "offset": 1936772,
+            "immediate_offset": 1936776,
+            "words": [
+              "3c030045",
+              "24638e80"
+            ]
+          },
+          "target_va": 4489824,
+          "changed": true
+        },
+        {
+          "source_offset": 3448456,
+          "source_name": "Vehicle",
+          "translation": "Veículos",
+          "consumer": {
+            "kind": "lui-immediate-candidate",
+            "offset": 1936788,
+            "immediate_offset": 1936792,
+            "words": [
+              "3c040045",
+              "24848e88"
+            ]
+          },
+          "target_va": 4489834,
+          "changed": true
+        },
+        {
+          "source_offset": 3448464,
+          "source_name": "Unknown",
+          "translation": "Desconhecidos",
+          "consumer": {
+            "kind": "lui-immediate-candidate",
+            "offset": 1936804,
+            "immediate_offset": 1936808,
+            "words": [
+              "3c030045",
+              "24638e90"
+            ]
+          },
+          "target_va": 4489800,
+          "changed": true
+        },
+        {
+          "source_offset": 3448472,
+          "source_name": "Outlaw",
+          "translation": "Alvos",
+          "consumer": {
+            "kind": "lui-immediate-candidate",
+            "offset": 1936820,
+            "immediate_offset": 1936824,
+            "words": [
+              "3c040045",
+              "24848e98"
+            ]
+          },
+          "target_va": 4489844,
+          "changed": true
+        }
+      ],
+      "windows": [
+        {
+          "offset": 943224,
+          "size": 100,
+          "sha256": "479f019a7aa595fa6fa8acb4e32517973df12a57bc53adfb6c6fe4d8fadaf390"
+        },
+        {
+          "offset": 943400,
+          "size": 136,
+          "sha256": "bba419c855e75b97acb94e7c3f13d9696c7342d6e25f8aeaa0d7998ba0d175d0"
+        },
+        {
+          "offset": 1224880,
+          "size": 112,
+          "sha256": "0f4cb4c8d7b75323d47185792f216f88a6cdf8672419be7dbb9e6a4d7b977ab1"
+        },
+        {
+          "offset": 1226240,
+          "size": 96,
+          "sha256": "113c4896117e30debd8d86982a1739c3f9dc2537884ef60e77a58f66a7ad1d76"
+        },
+        {
+          "offset": 1936720,
+          "size": 208,
+          "sha256": "349fa6a9441f182a3a9a8e3f5771aa0fa1878b942ec7e11496116bd6704dfe14"
+        }
+      ],
+      "no_new_segment_or_heap_allocation": true,
+      "all_other_strings_retained": true
+    },
+    "elf_windows": [
+      {
+        "offset": 1923968,
+        "size": 96,
+        "sha256": "03571dc637d8b8ea519d54e46e47729f866064966c8d6150f0fd1a8fcc4916dc"
+      },
+      {
+        "offset": 1361144,
+        "size": 60,
+        "sha256": "4e860823514bf2e06d577c560d2cc002af3029358b156b7ebdaaa3d413eea312"
+      }
+    ],
+    "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "icon_font_sha256": "10df702864b1f89cb29ba0d6b97c04228338d16807e13e8d8c74b91aba5e5f23",
+    "diary_sha256": "9dcd179dc289aa558d5046884cfcb603925f7f605d7c5a871cf75939d785b86b"
+  }
+}

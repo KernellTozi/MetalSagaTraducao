@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "version": "interface-v070",
+  "status": "candidate_pending_gameplay_review",
+  "source": {
+    "path": "work/interface-v070/MetalSaga-ptbr-interface-v070.iso",
+    "size": 1704427520,
+    "sha256": "5a576e647291e9255b04856e22dfb5bdaabd4ecbe1ebee751f26e856eb439f4c",
+    "verified": true
+  },
+  "maintenance": "C:\\Projetos\\MetalSagaTraducao\\dist\\manutencao-v070\\MetalSaga-ptbr-manutencao-v070.iso",
+  "desktop": "C:\\Users\\Kernell\\Desktop\\MetalSaga-PTBR-Candidata-Final-v070.iso",
+  "planned_old_images": [
+    {
+      "path": "work/interface-v066/MetalSaga-ptbr-interface-v066.iso",
+      "sha256": "51e27dda9854cb369ea49753a67a7bb4d7c1fe5d54f86581821ef6acc32b43e3",
+      "size": 1704427520
+    },
+    {
+      "path": "work/interface-v067/MetalSaga-ptbr-interface-v067.iso",
+      "sha256": "5f12a2a766900bbf17c57b0f904945a115379634428660346611c62bffc53c0d",
+      "size": 1704427520
+    },
+    {
+      "path": "work/interface-v068/MetalSaga-ptbr-interface-v068.iso",
+      "sha256": "3fbcbb28e1f956d758b0114e826b56ff2d1ffd5a26d0ad56f55543e9b45712ba",
+      "size": 1704427520
+    },
+    {
+      "path": "work/interface-v069/MetalSaga-ptbr-interface-v069.iso",
+      "sha256": "d37aeed756e3dfacce3969d103930350cd8bc692a3cffeba6d8726a0ce93de72",
+      "size": 1704427520
+    },
+    {
+      "path": "dist/backup-v059/MetalSaga-ptbr-backup-v059.iso",
+      "sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+      "size": 1704427520
+    }
+  ],
+  "originals_bios_saves_unchanged": true,
+  "applied": true,
+  "maintenance_copy": "copied_verified",
+  "desktop_copy": "copied_verified",
+  "new_backup_read_only": true,
+  "removed": [
+    {
+      "path": "work/interface-v066/MetalSaga-ptbr-interface-v066.iso",
+      "sha256": "51e27dda9854cb369ea49753a67a7bb4d7c1fe5d54f86581821ef6acc32b43e3",
+      "size": 1704427520
+    },
+    {
+      "path": "work/interface-v067/MetalSaga-ptbr-interface-v067.iso",
+      "sha256": "5f12a2a766900bbf17c57b0f904945a115379634428660346611c62bffc53c0d",
+      "size": 1704427520
+    },
+    {
+      "path": "work/interface-v068/MetalSaga-ptbr-interface-v068.iso",
+      "sha256": "3fbcbb28e1f956d758b0114e826b56ff2d1ffd5a26d0ad56f55543e9b45712ba",
+      "size": 1704427520
+    },
+    {
+      "path": "work/interface-v069/MetalSaga-ptbr-interface-v069.iso",
+      "sha256": "d37aeed756e3dfacce3969d103930350cd8bc692a3cffeba6d8726a0ce93de72",
+      "size": 1704427520
+    },
+    {
+      "path": "dist/backup-v059/MetalSaga-ptbr-backup-v059.iso",
+      "sha256": "ab243c520f6e84169d52ee765cb71faeeeb605fb79b34aecd9adc126ea008094",
+      "size": 1704427520
+    }
+  ],
+  "locked_or_failed": [],
+  "final_source_hash_verified": true,
+  "final_maintenance_hash_verified": true,
+  "final_desktop_hash_verified": true
+}

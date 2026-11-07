@@ -583,3 +583,16 @@ usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
   cartas, dobrar, receber, parar, dividir e seguro. Não introduzir ações de
   outras modalidades por associação ao poker. Referências em
   `docs/interface-v069.md`.
+
+## Revisão final v070
+
+- NAME→NOME; OPTIONS MENU→AJUSTES.
+- Ship Stop→Sem navios; Tank Stop→Sem tanques; preservar os símbolos.
+- Unknown Cave→Caverna desconhecida; Trader Camp→Acampamento de mercadores.
+- Noooooo, como grito de negação→Nãããão!, com intensidade/pontuação contextual.
+- Sell price no formato de venda de equipamento→Venda, com valor alinhado.
+- Binramen e MC Hamir permanecem próprios; corpo do diário em PT-BR.
+- Minério pequeno substitui Minério ignoto, liberado pelo pedido atual de
+  resolver o conjunto de pendências. Não retomar a espera histórica.
+- Categorias Máquinas, Veículos e Desconhecidos por extenso; Bio/Cyber
+  mantidos. Essa reorganização não autoriza encurtar os 13 falantes restantes.

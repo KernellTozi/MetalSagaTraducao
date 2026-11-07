@@ -98,6 +98,9 @@ def embedded_catalog(data):
 
 
 def compile_draft(data,draft):
+    if 'final_candidate_review' in draft:
+        from final_candidate import compile_interface
+        return compile_interface(data,draft)
     if 'card_terms_review' in draft:
         from card_terms_review import compile_interface
         return compile_interface(data,draft)

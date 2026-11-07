@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "extends": "regiao-inicial-v047.json",
+  "name": "regiao-inicial-v048",
+  "status": "Candidata final: relatos, categorias e revisão contextual; visual pendente.",
+  "translations": {
+    "map.msg.040f10d4": "V-Você só pode\nestar brincando...\nNãããão!",
+    "map.msg.01dee21c": "*gasp* Eddyyyyyyyyy!!\tV-Você... Meu Deus...\nNãããão!!"
+  },
+  "reviewed_changes": [
+    "map.msg.040f10d4",
+    "map.msg.01dee21c"
+  ],
+  "final_candidate_review": {
+    "recipe": "translations/candidata-final-v001.json",
+    "sha256": "8797be8afd56eee33ceda4199938d10f6c0788b5ccf4f9bd48189efcb73e0a52"
+  }
+}
