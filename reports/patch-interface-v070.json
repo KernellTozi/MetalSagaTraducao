@@ -1,0 +1,87 @@
+{
+  "version": "v070",
+  "source": {
+    "size": 1704427520,
+    "sha256": "ef8405bf9e34bffd7846bcf3386a73464864823e20cd46ee9dacec514028b403"
+  },
+  "target": {
+    "file": "MetalSaga-PTBR-v070.iso",
+    "size": 1704427520,
+    "sha256": "5a576e647291e9255b04856e22dfb5bdaabd4ecbe1ebee751f26e856eb439f4c"
+  },
+  "patch": {
+    "file": "MetalSaga-PTBR-v070.xdelta",
+    "size": 1410728,
+    "sha256": "593c32e51f13149cd78075e3b07faf36edb94e467638f053f787eaa684069038",
+    "format": "VCDIFF/xdelta3, legacy header, no secondary compression"
+  },
+  "zip": {
+    "path": "dist/publicacao-v070/MetalSaga-PTBR-v070-Patch.zip",
+    "size": 1250763,
+    "sha256": "3155d6e5c9c633ea5ff93d13cec5d98a9661194a81255ded832a7bfea99ce8d6"
+  },
+  "decoder": {
+    "file": "xdelta3decode.exe",
+    "sha256": "67f84255bd009a65b1252784f8b3ebc72b5907766bc366c571e8b85fa7002a06",
+    "version": "3.2.2",
+    "license": "Apache-2.0",
+    "upstream": "https://github.com/jmacd/xdelta/releases/tag/v3.2.2"
+  },
+  "upstream_archive_sha256": "d48f7651d86b78fdca397057b46601f89131f37219675df736db70af44ec3379",
+  "binary_decode_roundtrip_verified": true,
+  "no_game_iso_or_original_resources_bundled": true,
+  "no_automatic_publication": true,
+  "original_iso_unchanged": true,
+  "target_iso_unchanged": true,
+  "pcsx2_executed": false,
+  "windows_powershell_applier_full_iso_verified": true,
+  "negative_applier_tests": 7,
+  "negative_applier_tests_passed": true,
+  "temporary_reconstruction_removed": true,
+  "archive_entries": [
+    {
+      "file": "Aplicar-Patch.cmd",
+      "size": 184
+    },
+    {
+      "file": "Aplicar-Patch.ps1",
+      "size": 4358
+    },
+    {
+      "file": "LEIA-ME.txt",
+      "size": 2221
+    },
+    {
+      "file": "LICENSE-BLAKE3-CC0.txt",
+      "size": 7048
+    },
+    {
+      "file": "LICENSE-liblzma-0BSD.txt",
+      "size": 607
+    },
+    {
+      "file": "LICENSE-xdelta3.txt",
+      "size": 9156
+    },
+    {
+      "file": "LICENSE-XZ.txt",
+      "size": 3119
+    },
+    {
+      "file": "manifesto.json",
+      "size": 1008
+    },
+    {
+      "file": "MetalSaga-PTBR-v070.xdelta",
+      "size": 1410728
+    },
+    {
+      "file": "TERCEIROS.txt",
+      "size": 733
+    },
+    {
+      "file": "xdelta3decode.exe",
+      "size": 48128
+    }
+  ]
+}

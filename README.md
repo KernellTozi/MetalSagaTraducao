@@ -17,6 +17,12 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 
 ## Versão atual
 
+**Pacote para compartilhar:** `dist/publicacao-v070/MetalSaga-PTBR-v070-Patch.zip`
+(1,19 MiB). Contém patch e aplicador offline para Windows, sem ISO/BIOS.
+O jogador fornece a ISO original exigida; o pacote confere origem e resultado.
+[Instruções, hashes e publicação](docs/publicacao-patch-v070.md). Não houve
+publicação automática do ZIP.
+
 **Candidata final v070**, sobre MAP v048 e fontes/layout v005. Corrige os relatos de NOME/AJUSTES, Sem tanques/Sem navios com fade, Caverna desconhecida, Acampamento de mercadores, venda de equipamento, Sim/Não dos minigames, Binramen e gritos de negação. Categorias Máquinas/Veículos/Desconhecidos por extenso e Minério pequeno aplicados. Mantém Poker/Blackjack, nomes tradicionais das mãos e as demais traduções. A conferência em partida continua pendente; não é certificação de 100% do jogo.
 
 São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.666 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Restam 13 rótulos explícitos curtos bloqueados pela reserva de memória não comprovada. Dummy/UP/DOWN/Damage Override ficam por decisão contextual anterior. As contagens não representam porcentagem de todo o jogo.

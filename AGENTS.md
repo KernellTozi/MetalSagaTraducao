@@ -1,5 +1,23 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Pacote público de patch v070
+
+- `dist/publicacao-v070/MetalSaga-PTBR-v070-Patch.zip` contém somente delta
+  VCDIFF, aplicador offline, decoder oficial e licenças/instruções. Não publicar
+  ISO, BIOS ou recursos originais. ZIP/binários/delta ficam fora do Git.
+- Ferramenta `tools/build_public_patch.py`, aplicadores em `release/`;
+  documentação `docs/publicacao-patch-v070.md`, evidência
+  `reports/patch-interface-v070.json`. Validar SHA da origem, do target,
+  arquivo oficial do xdelta, patch, decoder e reconstrução completa.
+- Xdelta 3.2.2 oficial, Apache-2.0, com licenças das dependências. Usar
+  `-a -A= -S none` para delta compatível e sem nomes no cabeçalho. Verificar
+  retorno do processo e hash integral da imagem recriada antes de entregá-la.
+- Aplicador recusa saída existente e preserva partial preexistente. Não
+  restaurar código que apague arquivos parciais que o próprio processo não criou.
+- A preparação não autoriza upload automático do pacote a sites/Releases.
+  A versão é candidata e mantém as limitações v070; patch não comprova
+  aprovação visual ou cobertura de 100% do jogo.
+
 ## Continuidade atual — candidata final v070, 06/11/2026
 
 - Atual `translations/interface-v070.json`, pai v069 integral, MAP v048

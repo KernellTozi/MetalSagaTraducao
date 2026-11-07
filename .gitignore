@@ -10,6 +10,9 @@
 *.cue
 *.chd
 *.mspatch
+*.xdelta
+*.vcdiff
+/release/*.exe
 
 # Arquivos temporarios
 __pycache__/
