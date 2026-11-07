@@ -1,4 +1,21 @@
-# Pendências atuais — candidata v070, com auditoria histórica v054
+# Pendências atuais — ISO v071, patch público v070
+
+## Relatos de uso de itens — aplicados na v071, visual pendente
+
+Nova ISO de trabalho com 14 mensagens de efeitos de itens traduzidas e seis
+anteriores preservadas: cura individual/grupo, pelagem, veneno/atordoamento,
+ressurreição, SP, remoção, ácido, reparo e conversões. Nomes e valores vêm
+dos mesmos argumentos. Montanha de Sucata em três nomes de nós, Monte Macaco
+em dois; títulos de entrada existentes preservados. Qual categoria? no menu
+de ajuda. Manual e evidências em `docs/interface-v071.md`.
+
+Teste em partida pelo usuário: cura, ração, kit de reparo e outros efeitos,
+nomes das montanhas e pergunta da ajuda. Esta rodada não executou navegação
+no PCSX2. O banco localizado não prova cobertura de qualquer item do jogo.
+
+O usuário pediu não criar patch: ZIP público, backup de manutenção e cópia
+da Área de Trabalho continuam v070. Os 13 falantes e termos preservados
+mantêm as limitações descritas abaixo; categorias completas v070 continuam.
 
 ## Entrega v070 — relatos aplicados; 13 rótulos ainda bloqueados
 

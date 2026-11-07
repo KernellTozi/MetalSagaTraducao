@@ -1,5 +1,38 @@
 # Metal Saga — Projeto de Tradução PT-BR
 
+## Continuidade atual — uso de itens v071, 07/11/2026
+
+- ISO de testes atual `translations/interface-v071.json`, pai v070 integral,
+  MAP v048 e layout v005 mantidos. Atalhos apontam para
+  `work/interface-v071/MetalSaga-ptbr-interface-v071.iso`.
+- Por pedido explícito, esta rodada gera só ISO: não atualizar patch/ZIP
+  público, manutenção ou Área de Trabalho v070. Publicação continua v070.
+  Na conferência v071, ZIP v070 ausente do caminho registrado; `.xdelta`
+  da pasta do pacote e manutenção v070 conferidos por hash. Não atribuir
+  causa à ausência nem recriar ZIP sem nova solicitação.
+- `tools/item_use_release.py`, manifesto `translations/uso-itens-v001.json`,
+  manual `docs/interface-v071.md`. Política
+  `item-use-aligned-same-pool-and-mountain-labels-v001`. Dispatch
+  `item_use_release` precede `final_candidate_review` no UI. Auditor e
+  comparador validam o pai integral; normalizar só o banco de mensagens.
+- Banco ELF 0x31A600..0x31A830 mantém 560 bytes, usa 530, com inícios
+  alinhados a oito. 14 mensagens novas e seis traduções anteriores preservadas;
+  coalescer somente os seis patches antigos desse banco. Atualizar somente
+  partes baixas das referências comprovadas, sem alterar opcodes/registradores.
+- Cópias sem printf reservam no mínimo a leitura original, com NUL e alvo
+  não maior que o original. Ineficaz deve continuar cabendo nos dez bytes
+  copiados; não substituir por Sem efeito sem nova prova/ajuste do copiador.
+- Atordoamento usa LUI compartilhado em 0x70E44 e ADDIU em 0x70E70;
+  ausência no scanner de referências curto não significa texto sem uso.
+- Preservar quantidade/ordem/tipos de parâmetros printf, quebras, nomes,
+  valores, HP/SP e lógica dos itens. Reparo mostra componente e veículo,
+  sem traduzir nomes únicos como Bull/Demag nem inverter argumentos.
+- Cinco nomes de nós: Montanha de Sucata e Monte Macaco, seguindo títulos
+  supr já traduzidos. Ajuda: Qual categoria? em 0x32D5E0, prefixo FF intacto.
+  UI total 4686; contagens MAP e limitações dos 13 falantes permanecem.
+- Validação binária e testes de comprimento não são aprovação visual do
+  uso de itens no PCSX2 nem prova de cobertura de todo texto do jogo.
+
 ## Pacote público de patch v070
 
 - `dist/publicacao-v070/MetalSaga-PTBR-v070-Patch.zip` contém somente delta

@@ -1,0 +1,140 @@
+{
+  "old_recipe": "translations/interface-v070.json",
+  "new_recipe": "translations/interface-v071.json",
+  "source_iso_sha256": "5a576e647291e9255b04856e22dfb5bdaabd4ecbe1ebee751f26e856eb439f4c",
+  "output_iso_sha256": "3365db67d5feebd4795a1b5b706724c84d0982da30b5b6fd6993b6f3b52e11cf",
+  "iso_size": 1704427520,
+  "changed_bytes": 579,
+  "all_bytes_match_expected_delta": true,
+  "directory_unchanged": true,
+  "font_and_layout_profile_unchanged": true,
+  "changed_patches": [
+    {
+      "id": "item-use.mountain.097137dc",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 212191196,
+      "size": 16
+    },
+    {
+      "id": "item-use.mountain.09714000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 212193280,
+      "size": 16
+    },
+    {
+      "id": "item-use.mountain.1df170b4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556138676,
+      "size": 19
+    },
+    {
+      "id": "item-use.mountain.1df191c4",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556147140,
+      "size": 19
+    },
+    {
+      "id": "item-use.mountain.1df3c000",
+      "resource": "DATA/MAP/MAP.MCT",
+      "iso_offset": 556290048,
+      "size": 19
+    },
+    {
+      "id": "item-use.pointer.00070ef0",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701398256,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00070f60",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701398368,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00070fdc",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701398492,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071044",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701398596,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.000710b4",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701398708,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071168",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701398888,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071238",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701399096,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.000712b4",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701399220,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071330",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701399344,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071384",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701399428,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071450",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701399632,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071504",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701399812,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.00071674",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701400180,
+      "size": 4
+    },
+    {
+      "id": "item-use.pointer.000716dc",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1701400284,
+      "size": 4
+    },
+    {
+      "id": "item-use.message.pool",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704189440,
+      "size": 560
+    },
+    {
+      "id": "item-use.help.category",
+      "resource": "SLUS_212.93",
+      "iso_offset": 1704267232,
+      "size": 18
+    }
+  ],
+  "pcsx2_executed": false
+}

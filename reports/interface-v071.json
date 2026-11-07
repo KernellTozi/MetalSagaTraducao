@@ -1,0 +1,59 @@
+{
+  "version": "v071",
+  "parent": "translations/interface-v070.json",
+  "recipe": "translations/interface-v071.json",
+  "map_recipe": "translations/regiao-inicial-v048.json",
+  "iso": "work/interface-v071/MetalSaga-ptbr-interface-v071.iso",
+  "iso_size": 1704427520,
+  "iso_sha256": "3365db67d5feebd4795a1b5b706724c84d0982da30b5b6fd6993b6f3b52e11cf",
+  "scope": {
+    "new_item_use_messages": 14,
+    "preserved_item_use_messages": 6,
+    "mountain_node_labels": 5,
+    "help_prompts": 1,
+    "pool_bytes": 560,
+    "pool_used_bytes": 530,
+    "pointer_changes": 14,
+    "interface_units": 4686,
+    "map_changed_records": 6044,
+    "map_refused_records": 0,
+    "map_bodies_and_options": 5991,
+    "map_speaker_references": 991
+  },
+  "verification": {
+    "new_tests_passed": 11,
+    "preflight_regression_tests_passed": 7,
+    "retention_regression_tests_passed": 5,
+    "total_tests_passed": 23,
+    "iso_preflight_verified": true,
+    "launcher_dry_runs_passed": true,
+    "item_capacity_blocked": 0,
+    "whole_iso_comparison": "reports/interface-v071-delta.json",
+    "changed_bytes": 579,
+    "changed_patches": 21,
+    "all_bytes_match_expected_delta": true,
+    "directory_unchanged": true,
+    "font_and_layout_profile_unchanged": true
+  },
+  "preservation": {
+    "maintenance_v070_sha256": "5a576e647291e9255b04856e22dfb5bdaabd4ecbe1ebee751f26e856eb439f4c",
+    "maintenance_v070_verified_read_only": true,
+    "public_xdelta_v070_sha256": "593c32e51f13149cd78075e3b07faf36edb94e467638f053f787eaa684069038",
+    "public_xdelta_verified_unchanged": true,
+    "public_zip_found_at_recorded_path": false,
+    "public_zip_absence_cause": "unknown",
+    "public_patch_generated": false,
+    "desktop_copy_updated": false,
+    "desktop_copy_verified_this_round": false,
+    "work_iso_count": 2,
+    "work_iso_removals": 0,
+    "originals_modified": false
+  },
+  "pcsx2_executed": false,
+  "visual_validation": "pending_user",
+  "limitations": [
+    "Coverage is the identified item-use message pool, not every possible item execution path.",
+    "Thirteen previously blocked short speaker labels remain unchanged.",
+    "Public patch and Desktop delivery remain v070."
+  ]
+}

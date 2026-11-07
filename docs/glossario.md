@@ -596,3 +596,16 @@ usuário continuam intactas, inclusive as 16 ainda bloqueadas tecnicamente.
   resolver o conjunto de pendências. Não retomar a espera histórica.
 - Categorias Máquinas, Veículos e Desconhecidos por extenso; Bio/Cyber
   mantidos. Essa reorganização não autoriza encurtar os 13 falantes restantes.
+
+## Uso de itens e montanhas — v071
+
+- Junk Mountain→Montanha de Sucata; Monkey Mountain→Monte Macaco.
+  Avisos dos nós acompanham os títulos de entrada já traduzidos.
+- Select a category→Qual categoria?, no menu de ajuda.
+- recovered→recuperou; Everyone recovered→Todos recuperaram; HP/SP mantidos.
+- Pelo de [cão] / brilha mais (+n), na melhora de pelagem.
+- Fixed [componente] on [veículo]→Reparo: [componente] / Veículo: [veículo].
+  Evitar concordância de gênero presumida e manter ambos os nomes/argumentos.
+- Atordoamento acompanha o rótulo Atord. já usado; ácido, veneno e
+  ressurreição seguem o efeito real. Não tratar uso de kit como instalação.
+- Ineficaz e Nada a converter... já estavam traduzidos e são preservados.

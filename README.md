@@ -21,18 +21,22 @@ Atalhos duplicados e de experimentos antigos foram removidos. As ferramentas con
 (1,19 MiB). Contém patch e aplicador offline para Windows, sem ISO/BIOS.
 O jogador fornece a ISO original exigida; o pacote confere origem e resultado.
 [Instruções, hashes e publicação](docs/publicacao-patch-v070.md). Não houve
-publicação automática do ZIP.
+publicação automática do ZIP. **Este pacote continua v070 e não inclui as
+correções v071**, por pedido explícito de testar primeiro somente a ISO.
+Na conferência v071, o ZIP não foi encontrado nesse caminho; o `.xdelta`
+v070 da pasta do pacote está íntegro. O ZIP não foi recriado nesta rodada.
 
-**Candidata final v070**, sobre MAP v048 e fontes/layout v005. Corrige os relatos de NOME/AJUSTES, Sem tanques/Sem navios com fade, Caverna desconhecida, Acampamento de mercadores, venda de equipamento, Sim/Não dos minigames, Binramen e gritos de negação. Categorias Máquinas/Veículos/Desconhecidos por extenso e Minério pequeno aplicados. Mantém Poker/Blackjack, nomes tradicionais das mãos e as demais traduções. A conferência em partida continua pendente; não é certificação de 100% do jogo.
+**ISO de testes v071**, sobre MAP v048 e fontes/layout v005. Acrescenta 14 mensagens de uso de itens: cura individual/grupo, pelagem, estados, ressurreição, SP, remoção, ácido, reparos e conversões. Preserva seis mensagens já traduzidas. Avisos de Montanha de Sucata/Monte Macaco acompanham seus títulos de entrada; ajuda recebe Qual categoria?. Herda integralmente as correções v070 e os termos de Poker/Blackjack. A conferência em partida continua pendente; não é certificação de 100% do jogo.
 
-São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.666 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Restam 13 rótulos explícitos curtos bloqueados pela reserva de memória não comprovada. Dummy/UP/DOWN/Damage Override ficam por decisão contextual anterior. As contagens não representam porcentagem de todo o jogo.
+São **633 campos de nomes de itens aplicados** (610 valores distintos), **4.686 unidades heterogêneas de interface**, **6.044 registros MAP de diálogo alterados**, 5.991 com corpo/opções modificados e 991 referências explícitas de falantes traduzidas. Os 108 nomes padrão e os rótulos de mapa adicionais são contados separadamente dessas referências. Restam 13 rótulos explícitos curtos bloqueados pela reserva de memória não comprovada. Dummy/UP/DOWN/Damage Override ficam por decisão contextual anterior. As contagens não representam porcentagem de todo o jogo.
 
-ISO: `work/interface-v070/MetalSaga-ptbr-interface-v070.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. Cópia solicitada na Área de Trabalho: `MetalSaga-PTBR-Candidata-Final-v070.iso`. Conferir os relatos corrigidos e as categorias nas diferentes telas. O perfil isolado histórico tem cartões de memória desativados. ISOs antigas são retiradas somente após as cópias novas conferidas, preservando receitas e relatórios.
+ISO: `work/interface-v071/MetalSaga-ptbr-interface-v071.iso`. Abra **Iniciar-Teste.cmd**; **Abrir-Pasta-da-Ultima-Versao.cmd** abre a mesma pasta. A cópia da Área de Trabalho permanece v070; para estas correções, use a nova ISO ou o iniciador atualizado. Conferir uso de itens, nomes das montanhas e pergunta da ajuda. O perfil isolado histórico tem cartões de memória desativados. Preservar manutenção v070, receitas e relatórios.
 
 A aprovação recebida e o relatório completo ficam em `work/revisao-armas-v001/`; resultado em `APLICACAO-ARMAS-APROVADAS.md`. As sugestões antigas continuam históricas. O pacote local v054 não inclui as correções posteriores.
 
 **Manutenção:** `dist/manutencao-v070/MetalSaga-ptbr-manutencao-v070.iso`, cópia independente somente leitura. A nova ordem de remover as versões anteriores substitui o backup v059 após a conferência das cópias v070. Preservar a cópia de manutenção; nunca aplicar patches diretamente nela. [Procedimentos, entrega e limitações](docs/interface-v070.md).
 
+- [Uso de itens, montanhas e ajuda — ISO v071](docs/interface-v071.md)
 - [Candidata final, correções e manutenção](docs/interface-v070.md)
 - [Revisão dos nomes tradicionais dos jogos de cartas](docs/interface-v069.md)
 - [Minigames: gráficos, instruções e catálogo de cobertura](docs/interface-v068.md)
